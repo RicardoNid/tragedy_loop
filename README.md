@@ -37,6 +37,8 @@
 │   ├── source_material/         # 游戏事实来源：纸质资料、上传件、归档 PDF、逐页图和审阅稿
 │   │   ├── scans/               # 上传件和未整理扫描件；默认不提交扫描原件
 │   │   └── reference/           # 已归档资料、逐页图、OCR/结构化审阅稿
+│   │       ├── character-cards/ # 角色卡目录、逐页图、角色卡审阅表 cards.md
+│   │       └── module/          # 模组目录、标注图、8 个模组审阅稿与身份特性池
 │   ├── structured/              # 程序可读取的结构化事实数据
 │   └── research/                # 带链接和日期的公开研究笔记
 ├── code/
@@ -72,6 +74,12 @@ Marp slides 源文件在 `products/slides/`。可用 `npm run slides:build` 生�
 - [项目愿景](docs/project-vision.md)
 - [核心状态机设计](docs/architecture/core-state-machine.md)
 - [纸质资料录入流程](docs/development/source-ingestion.md)
+- [模组审阅编辑器](docs/development/module-editor.md)
+- [角色卡审阅编辑器](docs/development/character-card-editor.md)
 - [重要误解记录](docs/development/known-misunderstandings.md)
 
 纸质资料录入流程见 [source-ingestion.md](docs/development/source-ingestion.md)。当前 `module.pdf` 已归档到 `facts/source_material/reference/module/original-upload.pdf`，每个模块的规则表、身份表、事件表审阅稿位于 `facts/source_material/reference/module/modules/`。
+
+模组审阅编辑器通过 `uv run tragedy-loop` 启动，地址为 `http://127.0.0.1:5173/editor.html`，保存目标目录固定为 `facts/source_material/reference/module/modules/`。规则表支持 `规则X`/`规则Y` 分类，并把登场身份保存为 `身份-数量-数量规则` 的列表；身份特性池通过 `http://127.0.0.1:5173/traits.html` 维护，保存到 `facts/source_material/reference/module/identity-traits.md`。
+
+角色卡审阅编辑器地址为 `http://127.0.0.1:5173/characters.html`，保存到 `facts/source_material/reference/character-cards/cards.md`。原“新手本角色”资料已升级为角色卡目录，原 PDF、修正 PDF 和逐页图片保留在 `facts/source_material/reference/character-cards/`。

@@ -8,7 +8,7 @@
     "test": "code/tests"
   },
   "scripts": {
-    "app:serve": "python3 -m http.server 5173 --bind 127.0.0.1 -d code/web",
+    "app:serve": "uv run tragedy-loop",
     "app:test": "node --test code/web/core/rules.test.mjs",
     "slides:generate": "uv run python code/tools/build_review_slides.py",
     "slides:diagrams": "mmdc -i products/slides/assets/game-flow.mmd -o products/slides/assets/game-flow.png -b transparent && mmdc -i products/slides/assets/round-flow.mmd -o products/slides/assets/round-flow.png -b transparent",
