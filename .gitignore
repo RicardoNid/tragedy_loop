@@ -1,0 +1,22 @@
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+.pytest_cache/
+.ruff_cache/
+node_modules/
+
+build/
+dist/
+*.egg-info/
+
+.DS_Store
+
+facts/source_material/scans/*
+!facts/source_material/scans/.gitkeep
+
+# Local source files and extraction dumps. Keep these outside Git unless
+# explicitly approved for archival.
+*.pdf
+facts/source_material/

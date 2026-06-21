@@ -1,0 +1,186 @@
+{
+  "id": "first-steps",
+  "name": "First Steps",
+  "review_status": "draft_needs_human_review",
+  "source_document": "facts/source_material/reference/module/modules/first-steps.md",
+  "source_refs": ["P07-01"],
+  "mastermind_hand": {
+    "source_refs": ["P07-02"],
+    "cards": [
+      { "id": "move_vertical", "count": 1 },
+      { "id": "move_horizontal", "count": 1 },
+      { "id": "move_diagonal", "count": 1, "once_per_loop": true },
+      { "id": "paranoia_plus_1", "count": 2 },
+      { "id": "paranoia_minus_1", "count": 1 },
+      { "id": "forbid_paranoia", "count": 1 },
+      { "id": "forbid_goodwill", "count": 1 },
+      { "id": "intrigue_plus_1", "count": 1 },
+      { "id": "intrigue_plus_2", "count": 1, "once_per_loop": true }
+    ]
+  },
+  "rules": [
+    {
+      "id": "murder_plan",
+      "name": "谋杀计划",
+      "category": "Y",
+      "source_refs": ["P07-03"]
+    },
+    {
+      "id": "seeds_of_revenge",
+      "name": "复仇的火种",
+      "category": "Y",
+      "source_refs": ["P07-03", "P07-04"],
+      "draft_effect": "轮回结束时，主谋的初始区域有 2 枚或以上密谋则触发失败条件。"
+    },
+    {
+      "id": "protect_this_place",
+      "name": "守护此地",
+      "category": "Y",
+      "source_refs": ["P07-03", "P07-04"],
+      "draft_effect": "轮回结束时，学校有 2 枚或以上密谋则触发失败条件。"
+    },
+    {
+      "id": "shadow_of_the_ripper",
+      "name": "开膛者的魔影",
+      "category": "X",
+      "source_refs": ["P07-03"]
+    },
+    {
+      "id": "rumors_spread",
+      "name": "流言四起",
+      "category": "X",
+      "source_refs": ["P07-03", "P07-04"],
+      "draft_effect": "剧作家能力阶段，可往任意 1 块版图上放置 1 枚密谋，每轮限 1 次。"
+    },
+    {
+      "id": "darkest_script",
+      "name": "最黑暗的剧本",
+      "category": "X",
+      "source_refs": ["P07-03", "P07-04"],
+      "draft_effect": "剧本制作时，暴徒的人数可以为 0-2 人。"
+    }
+  ],
+  "roles": [
+    {
+      "id": "key_person",
+      "name": "关键人物",
+      "source_refs": ["P07-05"],
+      "draft_effect": "该角色死亡时，主人公失败，当前轮回立即结束。"
+    },
+    {
+      "id": "killer",
+      "name": "杀手",
+      "traits": ["无视友好"],
+      "source_refs": ["P07-05"],
+      "draft_effects": [
+        "回合结束阶段，同一区域 1 名关键人物身上有 2 枚或以上密谋时，那名关键人物死亡。",
+        "该角色身上有 4 枚或以上密谋时，主人公死亡。"
+      ]
+    },
+    {
+      "id": "mastermind",
+      "name": "主谋",
+      "traits": ["无视友好"],
+      "source_refs": ["P07-05"],
+      "draft_effect": "剧作家能力阶段，往同一区域中任意 1 名角色身上，或该角色所在版图上放置 1 枚密谋。"
+    },
+    {
+      "id": "cultist",
+      "name": "邪教徒",
+      "traits": ["必定无视友好"],
+      "source_refs": ["P07-05"],
+      "draft_effect": "行动结算阶段，可以无效化同一区域中任意角色身上和该角色所在版图上放置的禁止密谋。"
+    },
+    {
+      "id": "rumor_monger",
+      "name": "传谣人",
+      "limit": 1,
+      "source_refs": ["P07-05"],
+      "draft_effect": "剧作家能力阶段，往同一区域中任意 1 名角色身上放置 1 枚不安。"
+    },
+    {
+      "id": "serial_killer",
+      "name": "杀人狂",
+      "source_refs": ["P07-05"],
+      "draft_effect": "回合结束阶段，若仅有 1 名角色与该角色位于同一区域，那名角色死亡。"
+    },
+    {
+      "id": "mob",
+      "name": "暴徒",
+      "traits": ["无视友好"],
+      "source_refs": ["P07-05"],
+      "review_status": "needs_zoom_review"
+    },
+    {
+      "id": "friend",
+      "name": "亲友",
+      "limit": 2,
+      "source_refs": ["P07-05"],
+      "draft_effects": [
+        "轮回结束时若该卡牌为死亡状态，需要告知主人公该卡牌身份。",
+        "轮回开始时，若身份曾被公开，往该角色身上放置 1 枚友好。"
+      ]
+    }
+  ],
+  "incidents": [
+    {
+      "id": "murder",
+      "name": "谋杀",
+      "source_refs": ["P07-06"],
+      "draft_effect": "与当事人位于同一区域的另外 1 名角色死亡。"
+    },
+    {
+      "id": "paranoia_spread",
+      "name": "不安扩散",
+      "source_refs": ["P07-06"],
+      "draft_effect": "往任意 1 名角色身上放置 2 枚不安，随后往另外 1 名角色身上放置 1 枚密谋。"
+    },
+    {
+      "id": "suicide",
+      "name": "自杀",
+      "source_refs": ["P07-06"],
+      "draft_effect": "当事人死亡。"
+    },
+    {
+      "id": "hospital_incident",
+      "name": "医院事故",
+      "source_refs": ["P07-06"],
+      "draft_effect": "医院有 1 枚或以上密谋时，位于医院的所有角色死亡；医院有 2 枚或以上密谋时，主人公死亡。"
+    },
+    {
+      "id": "long_range_murder",
+      "name": "远距离杀人",
+      "source_refs": ["P07-06"],
+      "draft_effect": "任意 1 名身上有 2 枚或以上密谋的角色死亡。"
+    },
+    {
+      "id": "missing",
+      "name": "失踪",
+      "source_refs": ["P07-06"],
+      "draft_effect": "将当事人移动至任意版图，随后往当事人所在版图放置 1 枚密谋。"
+    },
+    {
+      "id": "spread",
+      "name": "散播",
+      "source_refs": ["P07-06"],
+      "draft_effect": "从任意 1 名角色身上移除 2 枚友好，随后往另外 1 名角色身上放置 2 枚友好。"
+    }
+  ],
+  "notes": [
+    {
+      "id": "tokens",
+      "source_refs": ["P07-07"],
+      "draft_summary": "友好、不安、密谋三类指示物的用途说明。"
+    },
+    {
+      "id": "beginner_advice",
+      "source_refs": ["P07-08"],
+      "draft_summary": "建议新手优先使用友好牌积累信息，并在后续轮回记录失败条件与避免重复错误。"
+    },
+    {
+      "id": "beginner_characters",
+      "source_refs": ["P07-09"],
+      "draft_summary": "初学者剧本登场角色说明：男学生、女学生、巫女、职员、偶像、医生。"
+    }
+  ]
+}

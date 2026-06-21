@@ -1,0 +1,12 @@
+%%{init: {"theme": "base", "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 42, "rankSpacing": 60}, "themeVariables": {"fontFamily": "PingFang SC, Hiragino Sans, sans-serif", "fontSize": "52px", "primaryColor": "#f7f5ef", "primaryTextColor": "#202020", "primaryBorderColor": "#8b1d2c", "lineColor": "#5f5f5f", "tertiaryColor": "#fffaf0"}}}%%
+flowchart LR
+    A["1. 游戏准备<br/>选择剧本<br/>公开剧本信息"]
+    A --> B["2. 轮回准备<br/>时之缝隙<br/>配置角色与手牌"]
+    B --> C["3. 进行轮回<br/>按天数走完整回合"]
+    C --> D{"轮回结束时<br/>主人公失败?"}
+    D -->|否| W["主人公胜利"]
+    D -->|仍有轮回| B
+    D -->|最终失败| E["4. 最终决战<br/>猜全部角色身份"]
+    E --> F{"全部猜对?"}
+    F -->|是| W
+    F -->|否| Z["剧作家胜利"]

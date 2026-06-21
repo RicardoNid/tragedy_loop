@@ -1,0 +1,10 @@
+%%{init: {"theme": "base", "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 42, "rankSpacing": 60}, "themeVariables": {"fontFamily": "PingFang SC, Hiragino Sans, sans-serif", "fontSize": "52px", "primaryColor": "#f7f5ef", "primaryTextColor": "#202020", "primaryBorderColor": "#8b1d2c", "lineColor": "#5f5f5f", "tertiaryColor": "#fffaf0"}}}%%
+flowchart LR
+    A["1. 回合开始"] --> B["2. 暗置行动牌<br/>剧作家 3 张<br/>主人公各 1 张"]
+    B --> C["3. 行动结算<br/>全部翻开<br/>先移动, 再指示物"]
+    C --> D["4. 能力阶段<br/>剧作家能力<br/>主人公友好能力"]
+    D --> E["5. 事件阶段<br/>有预定事件时<br/>检查条件并结算"]
+    E --> F["6. 队长轮换<br/>回合结束"]
+    F --> G{"最终日<br/>结束?"}
+    G -->|否| A
+    G -->|是| H["轮回结束处理"]

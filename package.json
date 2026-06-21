@@ -1,0 +1,26 @@
+{
+  "name": "tragedy_loop",
+  "version": "1.0.0",
+  "description": "惨剧轮回资料整理、教学文档与电子化原型项目。",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "code/tests"
+  },
+  "scripts": {
+    "app:serve": "python3 -m http.server 5173 --bind 127.0.0.1 -d code/web",
+    "app:test": "node --test code/web/core/rules.test.mjs",
+    "slides:generate": "uv run python code/tools/build_review_slides.py",
+    "slides:diagrams": "mmdc -i products/slides/assets/game-flow.mmd -o products/slides/assets/game-flow.png -b transparent && mmdc -i products/slides/assets/round-flow.mmd -o products/slides/assets/round-flow.png -b transparent",
+    "slides:build": "npm run slides:generate && npm run slides:diagrams && mkdir -p products/public/slides/assets && cp products/slides/assets/*.png products/public/slides/assets/ && marp products/slides/beginner-teaching.marp.md --html --allow-local-files -o products/public/slides/beginner-teaching.html",
+    "slides:serve": "python3 -m http.server 4173 -d products/public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4.4.0",
+    "@mermaid-js/mermaid-cli": "^11.15.0"
+  }
+}

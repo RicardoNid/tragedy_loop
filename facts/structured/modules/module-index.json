@@ -1,0 +1,55 @@
+{
+  "review_status": "block_index_ready",
+  "source_document": "facts/source_material/reference/module/original-upload.pdf",
+  "block_index": "facts/source_material/reference/module/block-index.json",
+  "modules": [
+    {
+      "id": "midnight-zone",
+      "name": "Midnight Zone",
+      "page": "P01",
+      "source_refs": ["P01-01"]
+    },
+    {
+      "id": "mystery-circle",
+      "name": "Mystery Circle",
+      "page": "P02",
+      "source_refs": ["P02-01"]
+    },
+    {
+      "id": "another-horizon-r",
+      "name": "Another Horizon R",
+      "page": "P03",
+      "source_refs": ["P03-01"]
+    },
+    {
+      "id": "weird-mythology",
+      "name": "Weird Mythology",
+      "page": "P04",
+      "source_refs": ["P04-01"]
+    },
+    {
+      "id": "haunted-stage-a",
+      "name": "Haunted Stage A",
+      "page": "P05",
+      "source_refs": ["P05-01"]
+    },
+    {
+      "id": "basic-tragedy-x",
+      "name": "Basic Tragedy X",
+      "page": "P06",
+      "source_refs": ["P06-01"]
+    },
+    {
+      "id": "first-steps",
+      "name": "First Steps",
+      "page": "P07",
+      "source_refs": ["P07-01"]
+    },
+    {
+      "id": "last-liar",
+      "name": "Last Liar",
+      "page": "P08",
+      "source_refs": ["P08-01"]
+    }
+  ]
+}
