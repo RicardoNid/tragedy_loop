@@ -85,4 +85,5 @@ facts/source_material/reference/module/
 - 原始 PDF、逐页图、阅读方向页图已归档。
 - `block-index.json` 已改为 Codex 语义分块索引。
 - `annotated/` 中的图片只放编号锚点，不再使用固定模板大框。
-- `source.md` 和 `facts/structured/modules/first-steps.json` 是示范稿，仍需人工校对后才能作为完整规则数据使用。
+- `source.md` 是逐模块审阅稿索引，`modules/*.md` 是每个模块的规则表、身份表、事件表审阅稿。
+- `facts/structured/modules/first-steps.json` 是结构化示范稿，仍需人工校对后才能作为完整规则数据使用。
