@@ -3,6 +3,12 @@ export const SIDES = {
   PROTAGONIST: "protagonist",
 };
 
+export const PROTAGONIST_DECKS = [
+  { id: "green", name: "绿色", shortName: "绿", color: "#2e7d58" },
+  { id: "red", name: "红色", shortName: "红", color: "#9f3441" },
+  { id: "blue", name: "蓝色", shortName: "蓝", color: "#315b88" },
+];
+
 export const VIEWERS = {
   MASTERMIND: "mastermind",
   PROTAGONISTS: "protagonists",
@@ -14,6 +20,7 @@ export const TARGET_TYPES = {
 };
 
 export const PHASES = {
+  DAWN: "dawn",
   MASTERMIND_ACTION: "mastermind_action",
   PROTAGONIST_ACTION: "protagonist_action",
   MASTERMIND_ABILITY: "mastermind_ability",

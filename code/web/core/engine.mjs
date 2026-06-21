@@ -1,5 +1,6 @@
 import {
   PHASES,
+  PROTAGONIST_DECKS,
   ROLE_IDS,
   SIDES,
   TARGET_TYPES,
@@ -27,6 +28,7 @@ const STATUS = {
 };
 
 const PHASE_LABELS = {
+  [PHASES.DAWN]: "黎明阶段",
   [PHASES.MASTERMIND_ACTION]: "剧作家行动阶段",
   [PHASES.PROTAGONIST_ACTION]: "主人公行动阶段",
   [PHASES.MASTERMIND_ABILITY]: "剧作家能力阶段",
@@ -41,6 +43,11 @@ const PHASE_LABELS = {
 const SIDE_LABELS = {
   [SIDES.MASTERMIND]: "剧作家",
   [SIDES.PROTAGONIST]: "主人公",
+};
+
+const GOODWILL_REFUSAL_TRAITS = {
+  OPTIONAL: "无视友好",
+  FORCED: "强制无视友好",
 };
 
 function clone(value) {
@@ -59,6 +66,54 @@ function scriptForState(state) {
 
 function handEntry(side, cardId) {
   return hands[side].find((entry) => entry.cardId === cardId);
+}
+
+function protagonistDeck(deckId) {
+  return PROTAGONIST_DECKS.find((deck) => deck.id === deckId);
+}
+
+function createOncePerLoopUsed() {
+  return {
+    [SIDES.MASTERMIND]: [],
+    [SIDES.PROTAGONIST]: Object.fromEntries(PROTAGONIST_DECKS.map((deck) => [deck.id, []])),
+  };
+}
+
+function protagonistActionDeckId(state, placement) {
+  if (placement.side !== SIDES.PROTAGONIST) return null;
+  if (placement.deckId) return placement.deckId;
+  return PROTAGONIST_DECKS.find(
+    (deck) =>
+      !state.placedActions.some(
+        (action) => action.side === SIDES.PROTAGONIST && action.deckId === deck.id,
+      ),
+  )?.id;
+}
+
+function usedOncePerLoop(state, side, cardId, deckId = null) {
+  if (side === SIDES.PROTAGONIST) {
+    return Boolean(deckId && state.oncePerLoopUsed[side]?.[deckId]?.includes(cardId));
+  }
+  return state.oncePerLoopUsed[side].includes(cardId);
+}
+
+function markOncePerLoopUsed(state, action) {
+  const card = actionCards[action.cardId];
+  if (!card.oncePerLoop) return;
+
+  if (action.side === SIDES.PROTAGONIST) {
+    const discard = state.oncePerLoopUsed[SIDES.PROTAGONIST][action.deckId];
+    if (!discard.includes(action.cardId)) discard.push(action.cardId);
+    return;
+  }
+
+  if (!state.oncePerLoopUsed[action.side].includes(action.cardId)) {
+    state.oncePerLoopUsed[action.side].push(action.cardId);
+  }
+}
+
+function skillUseKey(actorId, skillId) {
+  return `${actorId}:${skillId}`;
 }
 
 function targetKey(targetType, targetId) {
@@ -132,21 +187,20 @@ function buildInitialBoard(script) {
 
 export function createGame(script = beginnerScript) {
   const state = {
-    version: 1,
+    version: 2,
     scriptId: script.id,
     loop: 1,
     day: 1,
-    phase: PHASES.MASTERMIND_ACTION,
+    phase: PHASES.DAWN,
     status: STATUS.ACTIVE,
     winner: null,
     protagonistsAlive: true,
     board: buildInitialBoard(script),
     placedActions: [],
-    oncePerLoopUsed: {
-      [SIDES.MASTERMIND]: [],
-      [SIDES.PROTAGONIST]: [],
-    },
+    oncePerLoopUsed: createOncePerLoopUsed(),
     usedAbilitiesThisDay: [],
+    usedProtagonistAbilitiesThisDay: [],
+    usedProtagonistAbilitiesThisLoop: [],
     knowledge: {
       revealedRoleCharacterIds: [],
     },
@@ -260,21 +314,34 @@ export function listTargets(state, cardId) {
   return targets;
 }
 
-export function availableCards(state, side) {
+export function availableCards(state, side, deckId = null) {
   assert(hands[side], `未知阵营：${side}`);
+  const deckHasPlaced =
+    side === SIDES.PROTAGONIST &&
+    deckId &&
+    state.placedActions.some(
+      (action) => action.side === SIDES.PROTAGONIST && action.deckId === deckId,
+    );
   return hands[side].map((entry) => {
     const card = actionCards[entry.cardId];
     const placedCount = state.placedActions.filter(
-      (action) => action.side === side && action.cardId === entry.cardId,
+      (action) =>
+        action.side === side &&
+        action.cardId === entry.cardId &&
+        (side !== SIDES.PROTAGONIST || !deckId || action.deckId === deckId),
     ).length;
-    const onceUsed = card.oncePerLoop && state.oncePerLoopUsed[side].includes(entry.cardId);
+    const onceUsed = card.oncePerLoop && usedOncePerLoop(state, side, entry.cardId, deckId);
     return {
       ...entry,
       card,
       name: cardLabel(entry.cardId, side),
-      remainingThisPhase: Math.max(0, entry.quantity - placedCount),
-      disabled: Boolean(onceUsed),
-      disabledReason: onceUsed ? "每轮限 1 次，本轮已使用" : "",
+      remainingThisPhase: deckHasPlaced ? 0 : Math.max(0, entry.quantity - placedCount),
+      disabled: Boolean(onceUsed || deckHasPlaced),
+      disabledReason: onceUsed
+        ? "每轮限 1 次，本轮已使用"
+        : deckHasPlaced
+          ? "这副牌本阶段已经出过行动牌"
+          : "",
     };
   });
 }
@@ -285,6 +352,7 @@ export function placeAction(state, placement) {
   assert(!next.pendingDecision, "当前有待处理选择，不能暗置行动牌。");
 
   const { side, cardId, targetType, targetId } = placement;
+  const deckId = protagonistActionDeckId(next, placement);
   const expectedPhase =
     side === SIDES.MASTERMIND ? PHASES.MASTERMIND_ACTION : PHASES.PROTAGONIST_ACTION;
   assert(next.phase === expectedPhase, `当前不是${sideLabel(side)}的行动阶段。`);
@@ -292,6 +360,15 @@ export function placeAction(state, placement) {
   const sideActions = next.placedActions.filter((action) => action.side === side);
   const limit = actionLimit(next, side);
   assert(sideActions.length < limit, `${sideLabel(side)}本阶段行动牌已经放满。`);
+
+  if (side === SIDES.PROTAGONIST) {
+    assert(deckId, "主人公行动必须指定一副行动牌。");
+    assert(protagonistDeck(deckId), `未知主人公行动牌颜色：${deckId}`);
+    assert(
+      !sideActions.some((action) => action.deckId === deckId),
+      `${protagonistDeck(deckId).name}行动牌本阶段已经出过。`,
+    );
+  }
 
   const entry = handEntry(side, cardId);
   assert(entry, `${sideLabel(side)}没有行动牌：${cardId}`);
@@ -308,7 +385,11 @@ export function placeAction(state, placement) {
     assert(next.board.locations[targetId], `未知版图：${targetId}`);
   }
 
-  const sameCardCount = sideActions.filter((action) => action.cardId === cardId).length;
+  const sameCardCount = sideActions.filter(
+    (action) =>
+      action.cardId === cardId &&
+      (side !== SIDES.PROTAGONIST || action.deckId === deckId),
+  ).length;
   assert(sameCardCount < entry.quantity, `${cardLabel(cardId, side)}的可用数量不足。`);
 
   const duplicateTarget = sideActions.some(
@@ -318,7 +399,7 @@ export function placeAction(state, placement) {
 
   if (card.oncePerLoop) {
     assert(
-      !next.oncePerLoopUsed[side].includes(cardId),
+      !usedOncePerLoop(next, side, cardId, deckId),
       `${cardLabel(cardId, side)}每轮限 1 次，本轮已经使用。`,
     );
   }
@@ -333,6 +414,7 @@ export function placeAction(state, placement) {
   next.placedActions.push({
     id: `a${next.eventSeq + 1}-${next.placedActions.length + 1}`,
     side,
+    deckId,
     cardId,
     targetType,
     targetId,
@@ -340,7 +422,9 @@ export function placeAction(state, placement) {
 
   appendEvent(next, {
     type: "action_placed",
-    message: `${sideLabel(side)}暗置行动牌（${sideActions.length + 1}/${limit}）。`,
+    message: `${sideLabel(side)}在${targetName(next, targetType, targetId)}上暗置行动牌（${
+      sideActions.length + 1
+    }/${limit}）。`,
   });
   appendEvent(next, {
     type: "action_placed_detail",
@@ -364,6 +448,11 @@ export function advancePhase(state) {
   }
 
   switch (next.phase) {
+    case PHASES.DAWN:
+      next.phase = PHASES.MASTERMIND_ACTION;
+      appendEvent(next, { type: "phase_changed", message: `进入${PHASE_LABELS[next.phase]}。` });
+      return next;
+
     case PHASES.MASTERMIND_ACTION:
       requirePlacedActions(next, SIDES.MASTERMIND, actionLimit(next, SIDES.MASTERMIND));
       next.phase = PHASES.PROTAGONIST_ACTION;
@@ -422,10 +511,7 @@ function resolveActionCards(state) {
         action.targetId,
       )}。`,
     });
-    const card = actionCards[action.cardId];
-    if (card.oncePerLoop && !state.oncePerLoopUsed[action.side].includes(action.cardId)) {
-      state.oncePerLoopUsed[action.side].push(action.cardId);
-    }
+    markOncePerLoopUsed(state, action);
   }
 
   resolveMovementCards(state);
@@ -516,6 +602,17 @@ function moveCharacterByVector(state, characterId, x, y) {
 }
 
 function resolveTokenCards(state) {
+  const forbidIntrigueCount = state.placedActions.filter(
+    (action) => action.cardId === "forbid_intrigue",
+  ).length;
+  const forbidIntrigueOverloaded = forbidIntrigueCount >= 2;
+  if (forbidIntrigueOverloaded) {
+    appendEvent(state, {
+      type: "forbid_intrigue_overloaded",
+      message: "多张禁止密谋同时放置，所有禁止密谋均不生效。",
+    });
+  }
+
   const tokenGroups = groupedActions(
     state,
     (action) => !["move", "forbid_movement"].includes(actionCards[action.cardId].effect),
@@ -530,9 +627,10 @@ function resolveTokenCards(state) {
       });
       if (related.length === 0) continue;
 
-      const forbidden = related.some(
+      const hasForbid = related.some(
         (action) => actionCards[action.cardId].effect === "forbid_token",
       );
+      const forbidden = hasForbid && !(token === "intrigue" && forbidIntrigueOverloaded);
       const tokenActions = related.filter((action) => actionCards[action.cardId].effect === "token");
       if (forbidden && tokenActions.length > 0) {
         appendEvent(state, {
@@ -593,24 +691,92 @@ function applyTokenDelta(state, targetType, targetId, token, amount) {
 }
 
 export function availableMastermindAbilityActors(state) {
+  const seen = new Set();
+  return availableMastermindAbilities(state)
+    .map((ability) => state.board.characters[ability.actorId])
+    .filter((actor) => {
+      if (seen.has(actor.id)) return false;
+      seen.add(actor.id);
+      return true;
+    });
+}
+
+export function availableMastermindAbilities(state) {
   if (state.phase !== PHASES.MASTERMIND_ABILITY || state.status !== STATUS.ACTIVE) {
     return [];
   }
 
-  return Object.values(state.board.characters)
-    .filter((character) => character.alive)
-    .filter((character) => !state.usedAbilitiesThisDay.includes(character.id))
-    .filter((character) => [ROLE_IDS.MASTERMIND, ROLE_IDS.RUMOR_MONGER].includes(character.roleId))
-    .filter((character) => listMastermindAbilityTargets(state, character.id).length > 0);
+  return Object.values(state.board.characters).flatMap((actor) => {
+    if (!actor.alive || state.usedAbilitiesThisDay.includes(actor.id)) return [];
+    return mastermindAbilitySpecs(state, actor)
+      .map((ability) => ({
+        ...ability,
+        actorId: actor.id,
+        actorName: actor.name,
+        roleId: actor.roleId,
+        roleName: roles[actor.roleId]?.name ?? "未知",
+        targets: listMastermindAbilityTargets(state, actor.id, ability.abilityId),
+      }))
+      .filter((ability) => ability.targets.length > 0);
+  });
 }
 
-export function listMastermindAbilityTargets(state, actorId) {
+function roleHasGoodwillRefusal(role) {
+  return (
+    role?.traits?.includes(GOODWILL_REFUSAL_TRAITS.OPTIONAL) ||
+    role?.traits?.includes(GOODWILL_REFUSAL_TRAITS.FORCED)
+  );
+}
+
+function mastermindAbilitySpecs(state, actor) {
+  const actorRole = roleOf(state, actor.id);
+  const specs = [];
+  if (actor.roleId === ROLE_IDS.MASTERMIND) {
+    specs.push({
+      abilityId: "role_mastermind_intrigue",
+      abilityName: "主谋：放置密谋",
+      requiresOption: false,
+    });
+  }
+  if (actor.roleId === ROLE_IDS.RUMOR_MONGER) {
+    specs.push({
+      abilityId: "role_rumor_monger_paranoia",
+      abilityName: "传谣人：放置不安",
+      requiresOption: false,
+    });
+  }
+  if (characterSkill(actor, "doctor_adjust_paranoia") && roleHasGoodwillRefusal(actorRole)) {
+    specs.push({
+      abilityId: "doctor_adjust_paranoia",
+      abilityName: "医生：诊疗",
+      requiresOption: true,
+      options: [
+        { value: "remove_paranoia", label: "移除 1 枚不安" },
+        { value: "add_paranoia", label: "放置 1 枚不安" },
+      ],
+    });
+  }
+  return specs;
+}
+
+function firstMastermindAbilityId(state, actorId) {
+  return availableMastermindAbilities(state).find((ability) => ability.actorId === actorId)
+    ?.abilityId;
+}
+
+export function listMastermindAbilityTargets(state, actorId, abilityId = null) {
   const actor = state.board.characters[actorId];
   if (!actor || !actor.alive || state.usedAbilitiesThisDay.includes(actorId)) {
     return [];
   }
 
-  if (actor.roleId === ROLE_IDS.MASTERMIND) {
+  const resolvedAbilityId = abilityId ?? firstMastermindAbilityId(state, actorId);
+  if (!resolvedAbilityId) return [];
+  if (!mastermindAbilitySpecs(state, actor).some((ability) => ability.abilityId === resolvedAbilityId)) {
+    return [];
+  }
+
+  if (resolvedAbilityId === "role_mastermind_intrigue") {
     const targets = Object.values(state.board.characters)
       .filter((character) => character.alive && character.locationId === actor.locationId)
       .map((character) => ({
@@ -626,9 +792,22 @@ export function listMastermindAbilityTargets(state, actorId) {
     return targets;
   }
 
-  if (actor.roleId === ROLE_IDS.RUMOR_MONGER) {
+  if (resolvedAbilityId === "role_rumor_monger_paranoia") {
     return Object.values(state.board.characters)
       .filter((character) => character.alive && character.locationId === actor.locationId)
+      .map((character) => ({
+        targetType: TARGET_TYPES.CHARACTER,
+        targetId: character.id,
+        name: character.name,
+      }));
+  }
+
+  if (resolvedAbilityId === "doctor_adjust_paranoia") {
+    return Object.values(state.board.characters)
+      .filter(
+        (character) =>
+          character.alive && character.id !== actor.id && character.locationId === actor.locationId,
+      )
       .map((character) => ({
         targetType: TARGET_TYPES.CHARACTER,
         targetId: character.id,
@@ -649,20 +828,22 @@ export function useMastermindAbility(state, command) {
   assert(actor, `未知角色：${actorId}`);
   assert(actor.alive, `${actor.name}已经死亡，不能使用能力。`);
   assert(!next.usedAbilitiesThisDay.includes(actorId), `${actor.name}本日已经使用过能力。`);
+  const abilityId = command.abilityId ?? firstMastermindAbilityId(next, actorId);
+  assert(abilityId, `${actor.name}当前没有可发动的剧作家能力。`);
   assert(
-    availableMastermindAbilityActors(next).some((candidate) => candidate.id === actorId),
+    availableMastermindAbilities(next).some(
+      (candidate) => candidate.actorId === actorId && candidate.abilityId === abilityId,
+    ),
     `${actor.name}当前没有可发动的剧作家能力。`,
   );
   assert(
-    listMastermindAbilityTargets(next, actorId).some(
+    listMastermindAbilityTargets(next, actorId, abilityId).some(
       (target) => target.targetType === targetType && target.targetId === targetId,
     ),
     `${targetName(next, targetType, targetId)}不是当前可选择的能力目标。`,
   );
 
-  const actorRole = roleOf(next, actorId);
-
-  if (actorRole.id === ROLE_IDS.MASTERMIND) {
+  if (abilityId === "role_mastermind_intrigue") {
     assert(
       targetType === TARGET_TYPES.CHARACTER || targetType === TARGET_TYPES.LOCATION,
       "主谋能力目标必须是角色或版图。",
@@ -686,7 +867,7 @@ export function useMastermindAbility(state, command) {
     return next;
   }
 
-  if (actorRole.id === ROLE_IDS.RUMOR_MONGER) {
+  if (abilityId === "role_rumor_monger_paranoia") {
     assert(targetType === TARGET_TYPES.CHARACTER, "传谣人能力目标必须是角色。");
     const target = next.board.characters[targetId];
     assert(target, "未知角色。");
@@ -703,7 +884,302 @@ export function useMastermindAbility(state, command) {
     return next;
   }
 
-  throw new RulesError(`${actor.name}的身份没有第一版已实现的剧作家阶段能力。`);
+  if (abilityId === "doctor_adjust_paranoia") {
+    assert(targetType === TARGET_TYPES.CHARACTER, "医生诊疗目标必须是角色。");
+    const target = next.board.characters[targetId];
+    assert(target, "未知角色。");
+    assert(target.alive, `${target.name}已经死亡，不能成为能力目标。`);
+    assert(target.id !== actor.id, "医生诊疗必须选择另一名角色。");
+    assert(target.locationId === actor.locationId, "医生只能诊疗同区域角色。");
+
+    applyTokenDelta(
+      next,
+      targetType,
+      targetId,
+      "paranoia",
+      command.option === "add_paranoia" ? 1 : -1,
+    );
+    appendEvent(next, {
+      type: "mastermind_ability_used",
+      visibility: VIEWERS.MASTERMIND,
+      message: `${actor.name}因无视友好身份特性，由剧作家使用了医生友好能力。`,
+    });
+    next.usedAbilitiesThisDay.push(actorId);
+    return next;
+  }
+
+  throw new RulesError(`${actor.name}没有第一版已实现的剧作家阶段能力：${abilityId}。`);
+}
+
+function characterSkill(actor, skillId) {
+  return actor.skills.find((skill) => skill.id === skillId);
+}
+
+function protagonistAbilityUsed(state, actorId, skill) {
+  const key = skillUseKey(actorId, skill.id);
+  return skill.oncePerLoop || skill.frequency === "per_loop"
+    ? state.usedProtagonistAbilitiesThisLoop.includes(key)
+    : state.usedProtagonistAbilitiesThisDay.includes(key);
+}
+
+function markProtagonistAbilityUsed(state, actorId, skill) {
+  const key = skillUseKey(actorId, skill.id);
+  if ((skill.oncePerLoop || skill.frequency === "per_loop") && !state.usedProtagonistAbilitiesThisLoop.includes(key)) {
+    state.usedProtagonistAbilitiesThisLoop.push(key);
+  }
+  if (!state.usedProtagonistAbilitiesThisDay.includes(key)) {
+    state.usedProtagonistAbilitiesThisDay.push(key);
+  }
+}
+
+export function availableProtagonistAbilities(state) {
+  if (
+    state.phase !== PHASES.PROTAGONIST_ABILITY ||
+    state.status !== STATUS.ACTIVE ||
+    state.pendingDecision
+  ) {
+    return [];
+  }
+
+  return Object.values(state.board.characters).flatMap((actor) => {
+    if (!actor.alive) return [];
+    return actor.skills
+      .filter((skill) => skill.usableBy?.includes(SIDES.PROTAGONIST))
+      .filter((skill) => actor.goodwill >= skill.requiredGoodwill)
+      .filter((skill) => !protagonistAbilityUsed(state, actor.id, skill))
+      .map((skill) => ({
+        actorId: actor.id,
+        actorName: actor.name,
+        skillId: skill.id,
+        skillName: skill.name,
+        requiredGoodwill: skill.requiredGoodwill,
+        oncePerLoop: Boolean(skill.oncePerLoop),
+        frequency: skill.frequency,
+        targets: listProtagonistAbilityTargets(state, actor.id, skill.id),
+      }))
+      .filter((ability) => ability.targets.length > 0);
+  });
+}
+
+export function listProtagonistAbilityTargets(state, actorId, skillId) {
+  const actor = state.board.characters[actorId];
+  if (!actor || !actor.alive) return [];
+
+  const skill = characterSkill(actor, skillId);
+  if (!skill || !skill.usableBy?.includes(SIDES.PROTAGONIST)) return [];
+
+  const sameLocationCharacters = Object.values(state.board.characters).filter(
+    (character) => character.alive && character.locationId === actor.locationId,
+  );
+  const otherSameLocationCharacters = sameLocationCharacters.filter(
+    (character) => character.id !== actor.id,
+  );
+
+  if (skillId === "student_reduce_paranoia") {
+    return otherSameLocationCharacters
+      .filter((character) => character.attributes.includes("学生"))
+      .map((character) => ({
+        targetType: TARGET_TYPES.CHARACTER,
+        targetId: character.id,
+        name: character.name,
+      }));
+  }
+
+  if (["idol_reduce_paranoia", "idol_add_goodwill", "doctor_adjust_paranoia"].includes(skillId)) {
+    return otherSameLocationCharacters.map((character) => ({
+      targetType: TARGET_TYPES.CHARACTER,
+      targetId: character.id,
+      name: character.name,
+    }));
+  }
+
+  if (skillId === "shrine_remove_intrigue") {
+    if (actor.locationId !== "shrine") return [];
+    return [
+      {
+        targetType: TARGET_TYPES.LOCATION,
+        targetId: "shrine",
+        name: "神社",
+      },
+    ];
+  }
+
+  if (skillId === "shrine_reveal_role") {
+    return sameLocationCharacters.map((character) => ({
+      targetType: TARGET_TYPES.CHARACTER,
+      targetId: character.id,
+      name: character.name,
+    }));
+  }
+
+  if (skillId === "worker_reveal_self") {
+    return [
+      {
+        targetType: TARGET_TYPES.CHARACTER,
+        targetId: actor.id,
+        name: actor.name,
+      },
+    ];
+  }
+
+  if (skillId === "doctor_patient_mobility") {
+    return [
+      {
+        targetType: TARGET_TYPES.LOCATION,
+        targetId: "hospital",
+        name: "住院患者出院许可",
+      },
+    ];
+  }
+
+  return [];
+}
+
+function protagonistAbilityApprovalMode(actorRole) {
+  if (actorRole.traits.includes(GOODWILL_REFUSAL_TRAITS.FORCED)) return "auto_reject";
+  if (actorRole.traits.includes(GOODWILL_REFUSAL_TRAITS.OPTIONAL)) return "mastermind";
+  return "auto_accept";
+}
+
+export function requestProtagonistAbility(state, command) {
+  const next = clone(state);
+  assert(next.status === STATUS.ACTIVE, "当前游戏不在可使用能力状态。");
+  assert(next.phase === PHASES.PROTAGONIST_ABILITY, "当前不是主人公能力阶段。");
+  assert(!next.pendingDecision, "当前已有待剧作家确认的能力。");
+
+  const { actorId, skillId, targetType, targetId } = command;
+  const actor = next.board.characters[actorId];
+  assert(actor, `未知角色：${actorId}`);
+  assert(actor.alive, `${actor.name}已经死亡，不能使用能力。`);
+
+  const skill = characterSkill(actor, skillId);
+  assert(skill, `${actor.name}没有能力：${skillId}`);
+  assert(skill.usableBy?.includes(SIDES.PROTAGONIST), `${skill.name}不能由主人公发动。`);
+  assert(actor.goodwill >= skill.requiredGoodwill, `${actor.name}的友好未达到 ${skill.requiredGoodwill}。`);
+  assert(!protagonistAbilityUsed(next, actorId, skill), `${actor.name}的${skill.name}已经使用过。`);
+  assert(
+    listProtagonistAbilityTargets(next, actorId, skillId).some(
+      (target) => target.targetType === targetType && target.targetId === targetId,
+    ),
+    `${targetName(next, targetType, targetId)}不是当前可选择的能力目标。`,
+  );
+
+  const request = {
+    type: "protagonist_ability_approval",
+    actorId,
+    skillId,
+    targetType,
+    targetId,
+    option: command.option ?? null,
+  };
+  const approvalMode = protagonistAbilityApprovalMode(roleOf(next, actorId));
+
+  appendEvent(next, {
+    type: "protagonist_ability_requested",
+    message: `主人公宣告发动${actor.name}的「${skill.name}」。`,
+  });
+
+  if (approvalMode === "auto_accept") {
+    resolveProtagonistAbility(next, request, true);
+    return next;
+  }
+
+  if (approvalMode === "auto_reject") {
+    rejectProtagonistAbility(next, request, "该角色强制无视友好，能力自动被拒绝。");
+    return next;
+  }
+
+  next.pendingDecision = request;
+  appendEvent(next, {
+    type: "protagonist_ability_waiting_approval",
+    visibility: VIEWERS.MASTERMIND,
+    message: `${actor.name}的身份具有无视友好，剧作家需决定是否接受该能力。`,
+  });
+  return next;
+}
+
+export function respondProtagonistAbility(state, command) {
+  const next = clone(state);
+  assert(next.pendingDecision?.type === "protagonist_ability_approval", "当前没有待审批的主人公能力。");
+
+  const request = next.pendingDecision;
+  next.pendingDecision = null;
+  if (command.approved) {
+    resolveProtagonistAbility(next, request, false);
+  } else {
+    rejectProtagonistAbility(next, request, "剧作家拒绝该能力。");
+  }
+  return next;
+}
+
+function rejectProtagonistAbility(state, request, reason) {
+  const actor = state.board.characters[request.actorId];
+  const skill = characterSkill(actor, request.skillId);
+  markProtagonistAbilityUsed(state, actor.id, skill);
+  state.pendingDecision = null;
+  appendEvent(state, {
+    type: "protagonist_ability_rejected",
+    message: `${actor.name}的「${skill.name}」没有生效。`,
+  });
+  appendEvent(state, {
+    type: "protagonist_ability_rejected_reason",
+    visibility: VIEWERS.MASTERMIND,
+    message: reason,
+  });
+}
+
+function resolveProtagonistAbility(state, request, autoAccepted) {
+  const actor = state.board.characters[request.actorId];
+  const skill = characterSkill(actor, request.skillId);
+  markProtagonistAbilityUsed(state, actor.id, skill);
+  state.pendingDecision = null;
+
+  if (autoAccepted) {
+    appendEvent(state, {
+      type: "protagonist_ability_auto_accepted",
+      visibility: VIEWERS.MASTERMIND,
+      message: `${actor.name}没有无视友好，能力自动生效。`,
+    });
+  }
+
+  if (["student_reduce_paranoia", "idol_reduce_paranoia"].includes(skill.id)) {
+    applyTokenDelta(state, request.targetType, request.targetId, "paranoia", -1);
+  } else if (skill.id === "idol_add_goodwill") {
+    applyTokenDelta(state, request.targetType, request.targetId, "goodwill", 1);
+  } else if (skill.id === "doctor_adjust_paranoia") {
+    applyTokenDelta(
+      state,
+      request.targetType,
+      request.targetId,
+      "paranoia",
+      request.option === "add_paranoia" ? 1 : -1,
+    );
+  } else if (skill.id === "shrine_remove_intrigue") {
+    applyTokenDelta(state, TARGET_TYPES.LOCATION, "shrine", "intrigue", -1);
+  } else if (skill.id === "shrine_reveal_role" || skill.id === "worker_reveal_self") {
+    if (!state.knowledge.revealedRoleCharacterIds.includes(request.targetId)) {
+      state.knowledge.revealedRoleCharacterIds.push(request.targetId);
+    }
+    appendEvent(state, {
+      type: "role_revealed",
+      message: `${targetName(state, TARGET_TYPES.CHARACTER, request.targetId)}的身份被公开。`,
+    });
+  } else if (skill.id === "doctor_patient_mobility") {
+    appendEvent(state, {
+      type: "patient_mobility_enabled",
+      message: "本轮中，住院患者不再拥有禁行区域。",
+    });
+  } else {
+    appendEvent(state, {
+      type: "protagonist_ability_not_implemented",
+      message: `${actor.name}的「${skill.name}」已记录为发动，但效果尚未实现。`,
+    });
+  }
+
+  appendEvent(state, {
+    type: "protagonist_ability_resolved",
+    message: `${actor.name}的「${skill.name}」结算完毕。`,
+  });
 }
 
 function resolveIncidents(state) {
@@ -764,9 +1240,11 @@ function resolveEndOfDay(state) {
   const livingCharacters = () =>
     Object.values(state.board.characters).filter((character) => character.alive);
 
-  for (const actor of livingCharacters()) {
+  const serialKillerSnapshot = livingCharacters();
+  const serialKillerDeaths = [];
+  for (const actor of serialKillerSnapshot) {
     if (actor.roleId !== ROLE_IDS.SERIAL_KILLER) continue;
-    const others = livingCharacters().filter(
+    const others = serialKillerSnapshot.filter(
       (character) => character.id !== actor.id && character.locationId === actor.locationId,
     );
     if (others.length === 1) {
@@ -775,9 +1253,12 @@ function resolveEndOfDay(state) {
         visibility: VIEWERS.MASTERMIND,
         message: `${actor.name}的杀人狂能力满足条件。`,
       });
-      killCharacter(state, others[0].id, "杀人狂");
-      if (state.status !== STATUS.ACTIVE) return;
+      serialKillerDeaths.push({ characterId: others[0].id, cause: "杀人狂" });
     }
+  }
+  if (serialKillerDeaths.length > 0) {
+    killCharactersSimultaneously(state, serialKillerDeaths);
+    if (state.status !== STATUS.ACTIVE) return;
   }
 
   for (const actor of livingCharacters()) {
@@ -802,6 +1283,43 @@ function resolveEndOfDay(state) {
       killCharacter(state, keyPerson.id, "杀手");
       if (state.status !== STATUS.ACTIVE) return;
     }
+  }
+}
+
+function killCharactersSimultaneously(state, deaths) {
+  const uniqueDeaths = new Map();
+  for (const death of deaths) {
+    const existing = uniqueDeaths.get(death.characterId);
+    if (existing) {
+      existing.cause = existing.cause.includes(death.cause)
+        ? existing.cause
+        : `${existing.cause}、${death.cause}`;
+    } else {
+      uniqueDeaths.set(death.characterId, { ...death });
+    }
+  }
+
+  const killed = [];
+  for (const death of uniqueDeaths.values()) {
+    const character = state.board.characters[death.characterId];
+    if (!character?.alive) continue;
+
+    character.alive = false;
+    killed.push(character);
+    appendEvent(state, {
+      type: "character_died",
+      message: `${character.name}死亡。`,
+      details: { characterId: character.id, cause: death.cause },
+    });
+    appendEvent(state, {
+      type: "death_cause",
+      visibility: VIEWERS.MASTERMIND,
+      message: `${character.name}死亡原因：${death.cause}。身份：${roles[character.roleId].name}。`,
+    });
+  }
+
+  if (killed.some((character) => character.roleId === ROLE_IDS.KEY_PERSON)) {
+    failLoop(state, "关键人物死亡。", "本轮轮回立即失败。");
   }
 }
 
@@ -875,9 +1393,11 @@ function finishDay(state) {
   }
 
   state.day += 1;
-  state.phase = PHASES.MASTERMIND_ACTION;
+  state.phase = PHASES.DAWN;
   state.placedActions = [];
   state.usedAbilitiesThisDay = [];
+  state.usedProtagonistAbilitiesThisDay = [];
+  state.pendingDecision = null;
   appendEvent(state, {
     type: "day_started",
     message: `进入第 ${state.day} 天。`,
@@ -894,16 +1414,15 @@ export function startNextLoop(state) {
 
   next.loop += 1;
   next.day = 1;
-  next.phase = PHASES.MASTERMIND_ACTION;
+  next.phase = PHASES.DAWN;
   next.status = STATUS.ACTIVE;
   next.protagonistsAlive = true;
   next.board = buildInitialBoard(script);
   next.placedActions = [];
-  next.oncePerLoopUsed = {
-    [SIDES.MASTERMIND]: [],
-    [SIDES.PROTAGONIST]: [],
-  };
+  next.oncePerLoopUsed = createOncePerLoopUsed();
   next.usedAbilitiesThisDay = [];
+  next.usedProtagonistAbilitiesThisDay = [];
+  next.usedProtagonistAbilitiesThisLoop = [];
   next.pendingDecision = null;
 
   appendEvent(next, {
@@ -949,6 +1468,7 @@ export function projectView(state, viewer) {
   const script = scriptForState(state);
 
   projected.script = projectScript(script, state, viewer);
+  projected.discardPiles = actionDiscardPiles(state);
 
   for (const character of Object.values(projected.board.characters)) {
     if (!isMastermind && !visibleRoleIds.has(character.id) && projected.phase !== PHASES.FINISHED) {
@@ -969,9 +1489,10 @@ export function projectView(state, viewer) {
     return {
       id: action.id,
       side: action.side,
+      deckId: action.deckId,
       cardId: "hidden",
-      targetType: null,
-      targetId: null,
+      targetType: action.targetType,
+      targetId: action.targetId,
     };
   });
 
@@ -981,6 +1502,27 @@ export function projectView(state, viewer) {
   });
 
   return projected;
+}
+
+export function actionDiscardPiles(state) {
+  return {
+    [SIDES.MASTERMIND]: state.oncePerLoopUsed[SIDES.MASTERMIND].map((cardId) => ({
+      side: SIDES.MASTERMIND,
+      deckId: null,
+      cardId,
+      name: cardLabel(cardId, SIDES.MASTERMIND),
+    })),
+    [SIDES.PROTAGONIST]: PROTAGONIST_DECKS.flatMap((deck) =>
+      state.oncePerLoopUsed[SIDES.PROTAGONIST][deck.id].map((cardId) => ({
+        side: SIDES.PROTAGONIST,
+        deckId: deck.id,
+        deckName: deck.name,
+        deckShortName: deck.shortName,
+        cardId,
+        name: cardLabel(cardId, SIDES.PROTAGONIST),
+      })),
+    ),
+  };
 }
 
 function projectScript(script, state, viewer) {
