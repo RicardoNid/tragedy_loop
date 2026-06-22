@@ -1,6 +1,7 @@
 from pathlib import Path
 
 import pytest
+import tragedy_loop.app as app
 
 from tragedy_loop.app import (
     PROJECT_NAME,
@@ -13,6 +14,8 @@ from tragedy_loop.app import (
     render_character_cards_markdown,
     render_module_markdown,
     render_trait_pool_markdown,
+    safe_log_session_id,
+    write_prototype_log,
 )
 
 
@@ -36,6 +39,23 @@ def test_web_root_exists() -> None:
 
 def test_site_root_exists() -> None:
     assert (SITE_ROOT / "slides" / "beginner-teaching.html").is_file()
+
+
+def test_prototype_log_writes_jsonl(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
+    monkeypatch.setattr(app, "RUNTIME_ROOT", tmp_path)
+    monkeypatch.setattr(app, "PROTOTYPE_LOG_ROOT", tmp_path / "prototype-logs")
+
+    assert safe_log_session_id("../bad session?") == "bad-session"
+
+    log_path = write_prototype_log(
+        {"sessionId": "../bad session?", "eventSeq": 1},
+        remote_addr="127.0.0.1",
+        user_agent="pytest",
+    )
+
+    assert log_path.parent.parent == tmp_path / "prototype-logs"
+    assert log_path.name == "bad-session.jsonl"
+    assert '"eventSeq": 1' in log_path.read_text(encoding="utf-8")
 
 
 def test_module_markdown_round_trip(tmp_path: Path) -> None:

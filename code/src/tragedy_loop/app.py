@@ -4,8 +4,10 @@ import argparse
 import functools
 import json
 import mimetypes
+import os
 import re
 from collections.abc import Sequence
+from datetime import datetime, timezone
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
@@ -24,6 +26,8 @@ def find_project_root() -> Path:
 ROOT = find_project_root()
 WEB_ROOT = ROOT / "code" / "web"
 SITE_ROOT = ROOT / "products" / "public"
+RUNTIME_ROOT = Path(os.environ.get("TRAGEDY_LOOP_RUNTIME_ROOT", ROOT / "runtime"))
+PROTOTYPE_LOG_ROOT = RUNTIME_ROOT / "prototype-logs"
 MODULE_REFERENCE_ROOT = ROOT / "facts" / "source_material" / "reference" / "module"
 MODULE_REVIEW_ROOT = MODULE_REFERENCE_ROOT / "modules"
 TRAIT_POOL_PATH = MODULE_REFERENCE_ROOT / "identity-traits.md"
@@ -144,6 +148,8 @@ CHARACTER_ABILITY_RE = re.compile(
     r"(?P<timing>[^;；]+)\s*[;；]\s*"
     r"(?P<actor>[^:：]+)\s*[:：]\s*(?P<effect>.*)\s*$"
 )
+LOG_SESSION_RE = re.compile(r"[^A-Za-z0-9_.-]+")
+MAX_PROTOTYPE_LOG_BYTES = 2_000_000
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -715,6 +721,31 @@ def list_module_summaries() -> list[dict[str, object]]:
     return modules
 
 
+def safe_log_session_id(value: object) -> str:
+    session_id = LOG_SESSION_RE.sub("-", str(value or "anonymous").strip()).strip(".-")
+    return session_id[:80] or "anonymous"
+
+
+def write_prototype_log(payload: object, *, remote_addr: str, user_agent: str) -> Path:
+    if not isinstance(payload, dict):
+        raise ValueError("Expected a JSON object.")
+
+    received_at = datetime.now(timezone.utc)
+    session_id = safe_log_session_id(payload.get("sessionId"))
+    log_dir = PROTOTYPE_LOG_ROOT / received_at.strftime("%Y-%m-%d")
+    log_dir.mkdir(parents=True, exist_ok=True)
+    log_path = log_dir / f"{session_id}.jsonl"
+    entry = {
+        "received_at": received_at.isoformat(),
+        "remote_addr": remote_addr,
+        "user_agent": user_agent,
+        "payload": payload,
+    }
+    with log_path.open("a", encoding="utf-8") as log_file:
+        log_file.write(json.dumps(entry, ensure_ascii=False, sort_keys=True) + "\n")
+    return log_path
+
+
 class TragedyLoopRequestHandler(SimpleHTTPRequestHandler):
     def __init__(self, *args: object, **kwargs: object) -> None:
         super().__init__(*args, directory=WEB_ROOT, **kwargs)
@@ -884,6 +915,35 @@ class TragedyLoopRequestHandler(SimpleHTTPRequestHandler):
             payload["id"] = module_path.stem
             module_path.write_text(render_module_markdown(payload), encoding="utf-8")
             self.send_json(parse_module_markdown(module_path))
+        except ValueError as error:
+            self.send_error(400, str(error))
+        except json.JSONDecodeError:
+            self.send_error(400, "Invalid JSON.")
+
+    def do_POST(self) -> None:
+        path = urlsplit(self.path).path
+        if path != "/api/prototype-log":
+            self.send_error(404, "Unknown API endpoint.")
+            return
+
+        try:
+            content_length = int(self.headers.get("Content-Length", "0"))
+        except ValueError:
+            self.send_error(400, "Invalid Content-Length.")
+            return
+
+        if content_length > MAX_PROTOTYPE_LOG_BYTES:
+            self.send_error(413, "Prototype log payload is too large.")
+            return
+
+        try:
+            payload = json.loads(self.rfile.read(content_length).decode("utf-8"))
+            log_path = write_prototype_log(
+                payload,
+                remote_addr=self.client_address[0],
+                user_agent=self.headers.get("User-Agent", ""),
+            )
+            self.send_json({"ok": True, "path": str(log_path.relative_to(RUNTIME_ROOT))})
         except ValueError as error:
             self.send_error(400, str(error))
         except json.JSONDecodeError:

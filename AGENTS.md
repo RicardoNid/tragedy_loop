@@ -52,4 +52,48 @@ npm run app:serve
 npm run app:test
 uv run pytest
 uv run ruff check .
+npm run server:deploy
+npm run server:capture
 ```
+
+## 长期部署与协作者改动回收
+
+这个项目虽然主要在 MacBook 上编辑，但给协作者审阅事实、测试 Web 原型的入口长期部署在 Linux 服务器 `server-ltr` 的 `ltr` 账户下。
+
+固定部署形态：
+
+- 服务器 checkout：`/home/ltr/apps/tragedy_loop`
+- 运行时目录：`/home/ltr/apps/tragedy_loop_runtime`
+- NAS Git 远端：`qnap-nas-git:/srv/git/tragedy_loop.git`
+- systemd 用户服务：`tragedy-loop-web.service`
+- 单端口：`18174`
+- Web 原型：`http://<公网映射>/`
+- 资料站点：`http://<公网映射>/site/slides/beginner-teaching.html`
+
+每次主要提交后，应使用仓库脚本部署，而不是手写 SSH 步骤：
+
+```bash
+npm run server:deploy
+```
+
+部署脚本会先把服务器上的协作者事实编辑和 Web 原型运行日志捕获到 NAS 临时分支 `server/capture-<timestamp>`，再更新服务器 checkout 到 NAS `main` 并重启服务。不要直接在服务器上 `git reset --hard` 或覆盖 `facts/`，除非已经确认捕获分支存在。
+
+协作者通过编辑器产生的事实改动主要落在 `facts/` 下。Web 原型测试日志由 `/api/prototype-log` 写入服务器运行时目录，并由捕获流程快照到 `runtime/prototype-logs/`，只保存在 `server/capture-*` 分支中，不应直接合入 `main`。
+
+取回并选择性合并服务器改动：
+
+```bash
+npm run server:capture
+git branch -r --list 'origin/server/capture-*'
+git diff origin/main...origin/server/capture-<timestamp> -- facts
+git checkout -p origin/server/capture-<timestamp> -- facts
+```
+
+查看原型日志：
+
+```bash
+git ls-tree -r --name-only origin/server/capture-<timestamp> runtime/prototype-logs
+git show origin/server/capture-<timestamp>:runtime/prototype-logs/<date>/<session>.jsonl
+```
+
+选择性合并后再跑测试、提交，并用 `npm run server:deploy` 发布到服务器。部署脚本会尽量把尚未合并的服务器事实编辑重放回部署工作树，避免协作者正在审阅的事实内容被代码更新直接覆盖；如果主分支和服务器事实编辑改到同一文件，先检查捕获分支 diff，再决定以哪边为准。
