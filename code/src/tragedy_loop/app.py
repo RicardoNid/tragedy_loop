@@ -721,13 +721,7 @@ class TragedyLoopRequestHandler(SimpleHTTPRequestHandler):
 
     def do_GET(self) -> None:
         path = urlsplit(self.path).path
-        if path == "/site":
-            self.send_response(301)
-            self.send_header("Location", "/site/")
-            self.end_headers()
-            return
-        if path.startswith("/site/"):
-            self.serve_site_path(path.removeprefix("/site"))
+        if self.maybe_serve_site_path(path, head=False):
             return
         if path == "/api/module-editor/config":
             self.send_json(
@@ -804,7 +798,24 @@ class TragedyLoopRequestHandler(SimpleHTTPRequestHandler):
             return
         super().do_GET()
 
-    def serve_site_path(self, site_path: str) -> None:
+    def do_HEAD(self) -> None:
+        path = urlsplit(self.path).path
+        if self.maybe_serve_site_path(path, head=True):
+            return
+        super().do_HEAD()
+
+    def maybe_serve_site_path(self, path: str, *, head: bool) -> bool:
+        if path == "/site":
+            self.send_response(301)
+            self.send_header("Location", "/site/")
+            self.end_headers()
+            return True
+        if path.startswith("/site/"):
+            self.serve_site_path(path.removeprefix("/site"), head=head)
+            return True
+        return False
+
+    def serve_site_path(self, site_path: str, *, head: bool = False) -> None:
         original_directory = self.directory
         original_path = self.path
         split_url = urlsplit(self.path)
@@ -812,7 +823,10 @@ class TragedyLoopRequestHandler(SimpleHTTPRequestHandler):
         self.directory = str(SITE_ROOT)
         self.path = f"{site_path or '/'}{query}"
         try:
-            super().do_GET()
+            if head:
+                super().do_HEAD()
+            else:
+                super().do_GET()
         finally:
             self.directory = original_directory
             self.path = original_path
