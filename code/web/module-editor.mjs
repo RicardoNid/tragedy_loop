@@ -768,6 +768,23 @@ function countRules() {
 function markDirty() {
   state.dirty = true;
   state.message = "";
+  state.error = "";
+  updateDirtyControls();
+}
+
+function updateDirtyControls() {
+  document.querySelectorAll('[data-action="save"]').forEach((button) => {
+    button.disabled = state.busy || !state.dirty;
+  });
+  const main = document.querySelector(".editor-main");
+  if (!main || !state.dirty) return;
+  let notice = main.querySelector(".notice");
+  if (!notice) {
+    notice = document.createElement("div");
+    main.prepend(notice);
+  }
+  notice.className = "notice pending";
+  notice.textContent = "有未保存修改";
 }
 
 function titleName(title) {
