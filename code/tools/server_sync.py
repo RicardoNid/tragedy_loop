@@ -12,6 +12,22 @@ SERVER_RUNTIME_ROOT = "/home/ltr/apps/tragedy_loop_runtime"
 SERVER_SERVICE = "tragedy-loop-web.service"
 SERVER_PORT = 18174
 NAS_REMOTE = "origin"
+SERVICE_UNIT = f"""[Unit]
+Description=Tragedy Loop web prototype and reference site
+After=default.target
+
+[Service]
+Type=simple
+WorkingDirectory={SERVER_APP_DIR}
+Environment=PYTHONUNBUFFERED=1
+Environment=TRAGEDY_LOOP_RUNTIME_ROOT={SERVER_RUNTIME_ROOT}
+ExecStart={SERVER_APP_DIR}/.venv/bin/tragedy-loop --host 0.0.0.0 --port {SERVER_PORT}
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=default.target
+"""
 
 
 def run(command: Sequence[str], *, check: bool = True) -> subprocess.CompletedProcess[str]:
@@ -39,58 +55,7 @@ def run_deploy(*, skip_tests: bool, skip_push: bool) -> None:
     if not skip_push:
         run(["git", "push", NAS_REMOTE, "HEAD:main"])
 
-    ssh_script(
-        f"""
-        set -euo pipefail
-        if [ ! -d {shlex.quote(SERVER_APP_DIR)}/.git ]; then
-          rm -rf {shlex.quote(SERVER_APP_DIR)}
-          mkdir -p "$(dirname {shlex.quote(SERVER_APP_DIR)})"
-          git clone --branch main qnap-nas-git:/srv/git/tragedy_loop.git {shlex.quote(SERVER_APP_DIR)}
-        fi
-        cd {shlex.quote(SERVER_APP_DIR)}
-        {remote_capture_script(reset_after_capture=True)}
-
-        git fetch origin main
-        git checkout -B main origin/main
-        git reset --hard origin/main
-
-        if [ -n "${{CAPTURE_COMMIT:-}}" ] && [ -n "${{CAPTURE_FACT_PATHS:-}}" ]; then
-          printf '%s\\n' "$CAPTURE_FACT_PATHS" \\
-            | git restore --source "$CAPTURE_COMMIT" --worktree --pathspec-from-file=-
-          echo "Reapplied captured server fact edits to deployed worktree."
-        fi
-
-        uv sync --python 3.12 --frozen --reinstall-package tragedy-loop
-        mkdir -p /home/ltr/.config/systemd/user
-        cat > /home/ltr/.config/systemd/user/{SERVER_SERVICE} <<'EOF'
-        [Unit]
-        Description=Tragedy Loop web prototype and reference site
-        After=default.target
-
-        [Service]
-        Type=simple
-        WorkingDirectory={SERVER_APP_DIR}
-        Environment=PYTHONUNBUFFERED=1
-        Environment=TRAGEDY_LOOP_RUNTIME_ROOT={SERVER_RUNTIME_ROOT}
-        ExecStart={SERVER_APP_DIR}/.venv/bin/tragedy-loop --host 0.0.0.0 --port {SERVER_PORT}
-        Restart=on-failure
-        RestartSec=2
-
-        [Install]
-        WantedBy=default.target
-        EOF
-        systemctl --user daemon-reload
-        systemctl --user enable --now {SERVER_SERVICE}
-        systemctl --user restart {SERVER_SERVICE}
-        sleep 1
-        systemctl --user is-active {SERVER_SERVICE}
-        curl -fsS -o /dev/null -w 'prototype %{{http_code}}\\n' http://127.0.0.1:{SERVER_PORT}/
-        curl -fsS -o /dev/null -w 'site %{{http_code}}\\n' \\
-          http://127.0.0.1:{SERVER_PORT}/site/slides/beginner-teaching.html
-        ss -H -ltnp '( sport = :{SERVER_PORT} )'
-        git status --short
-        """
-    )
+    ssh_script(build_remote_deploy_script())
     fetch_capture_refs()
     print_review_help()
 
@@ -126,6 +91,64 @@ def remote_capture_script(*, reset_after_capture: bool) -> str:
         export CAPTURE_BRANCH CAPTURE_COMMIT CAPTURE_FACT_PATHS
         """
     ).strip()
+
+
+def build_remote_deploy_script() -> str:
+    setup = textwrap.dedent(
+        f"""
+        set -euo pipefail
+        if [ ! -d {shlex.quote(SERVER_APP_DIR)}/.git ]; then
+          rm -rf {shlex.quote(SERVER_APP_DIR)}
+          mkdir -p "$(dirname {shlex.quote(SERVER_APP_DIR)})"
+          git clone --branch main qnap-nas-git:/srv/git/tragedy_loop.git {shlex.quote(SERVER_APP_DIR)}
+        fi
+        cd {shlex.quote(SERVER_APP_DIR)}
+        """
+    ).strip()
+    deploy_before_service = textwrap.dedent(
+        f"""
+        git fetch origin main
+        git checkout -B main origin/main
+        git reset --hard origin/main
+
+        if [ -n "${{CAPTURE_COMMIT:-}}" ] && [ -n "${{CAPTURE_FACT_PATHS:-}}" ]; then
+          printf '%s\\n' "$CAPTURE_FACT_PATHS" \\
+            | git restore --source "$CAPTURE_COMMIT" --worktree --pathspec-from-file=-
+          echo "Reapplied captured server fact edits to deployed worktree."
+        fi
+
+        uv sync --python 3.12 --frozen --reinstall-package tragedy-loop
+        mkdir -p /home/ltr/.config/systemd/user
+        """
+    ).strip()
+    write_service = (
+        f"cat > /home/ltr/.config/systemd/user/{SERVER_SERVICE} <<'EOF'\n"
+        f"{SERVICE_UNIT.rstrip()}\n"
+        "EOF"
+    )
+    deploy_after_service = textwrap.dedent(
+        f"""
+        systemctl --user daemon-reload
+        systemctl --user enable --now {SERVER_SERVICE}
+        systemctl --user restart {SERVER_SERVICE}
+        sleep 1
+        systemctl --user is-active {SERVER_SERVICE}
+        curl -fsS -o /dev/null -w 'prototype %{{http_code}}\\n' http://127.0.0.1:{SERVER_PORT}/
+        curl -fsS -o /dev/null -w 'site %{{http_code}}\\n' \\
+          http://127.0.0.1:{SERVER_PORT}/site/slides/beginner-teaching.html
+        ss -H -ltnp '( sport = :{SERVER_PORT} )'
+        git status --short
+        """
+    ).strip()
+    return "\n".join(
+        [
+            setup,
+            remote_capture_script(reset_after_capture=True),
+            deploy_before_service,
+            write_service,
+            deploy_after_service,
+        ]
+    )
 
 
 def fetch_capture_refs() -> None:
