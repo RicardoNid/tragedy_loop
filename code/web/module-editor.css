@@ -430,6 +430,13 @@ select {
   padding: 12px 14px;
 }
 
+.scenario-form-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(140px, 1fr));
+  gap: 10px;
+  padding: 12px 14px;
+}
+
 .character-section {
   border-top: 1px solid var(--line);
 }
@@ -454,6 +461,51 @@ select {
 
 .ability-select-cell select {
   width: 100%;
+}
+
+.scenario-table-scroll {
+  max-height: min(58vh, 620px);
+}
+
+.scenario-rules-table {
+  min-width: 860px;
+}
+
+.scenario-character-table,
+.scenario-public-incident-table,
+.scenario-victory-table {
+  min-width: 900px;
+}
+
+.scenario-incident-table {
+  min-width: 1040px;
+}
+
+.scenario-select-cell,
+.scenario-input-cell {
+  width: 190px;
+  min-width: 190px;
+  padding: 6px;
+}
+
+.scenario-select-cell.wide {
+  width: 240px;
+  min-width: 240px;
+}
+
+.scenario-input-cell.compact {
+  width: 120px;
+  min-width: 120px;
+}
+
+.scenario-select-cell select,
+.scenario-input-cell input {
+  width: 100%;
+}
+
+.scenario-text-section {
+  display: grid;
+  gap: 12px;
 }
 
 .notes-section {
@@ -672,6 +724,10 @@ td.row-actions button {
   .character-form-grid {
     grid-template-columns: repeat(3, minmax(120px, 1fr));
   }
+
+  .scenario-form-grid {
+    grid-template-columns: repeat(2, minmax(140px, 1fr));
+  }
 }
 
 @media (max-width: 760px) {
@@ -691,7 +747,8 @@ td.row-actions button {
   }
 
   .meta-grid,
-  .character-form-grid {
+  .character-form-grid,
+  .scenario-form-grid {
     grid-template-columns: 1fr;
   }
 }

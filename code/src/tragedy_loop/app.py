@@ -34,6 +34,9 @@ MODULE_REVIEW_ROOT = MODULE_REFERENCE_ROOT / "modules"
 TRAIT_POOL_PATH = MODULE_REFERENCE_ROOT / "identity-traits.md"
 CHARACTER_REFERENCE_ROOT = ROOT / "facts" / "source_material" / "reference" / "character-cards"
 CHARACTER_CARDS_PATH = CHARACTER_REFERENCE_ROOT / "cards.md"
+REFERENCE_ROOT = ROOT / "facts" / "source_material" / "reference"
+SCENARIO_REFERENCE_ROOT = REFERENCE_ROOT / "scenarios"
+SCENARIOS_PATH = SCENARIO_REFERENCE_ROOT / "scenarios.md"
 
 MODULE_ORDER = [
     "midnight-zone",
@@ -92,6 +95,33 @@ CHARACTER_TIMING_OPTIONS = ["主人公能力阶段", "剧作家能力阶段", "�
 CHARACTER_ACTOR_OPTIONS = ["主人公", "剧作家", "主人公/剧作家", "队长", "待校对"]
 CHARACTER_GOODWILL_OPTIONS = ["1", "2", "3", "4", "5"]
 CHARACTER_LIMIT_OPTIONS = ["1", "2", "3", "4", "5"]
+SCENARIO_TABLE_COLUMNS = [
+    "剧本ID",
+    "序号",
+    "剧本名",
+    "作者",
+    "使用模组",
+    "轮回选项",
+    "每轮天数",
+    "讨论",
+    "难度",
+    "特有规则",
+    "页图",
+    "来源",
+    "剧本特征",
+    "故事摘要",
+    "剧作家指引",
+    "备注",
+]
+SCENARIO_RULE_COLUMNS = ["剧本ID", "规则槽", "规则名", "备注"]
+SCENARIO_CHARACTER_COLUMNS = ["剧本ID", "人物", "身份", "备注"]
+SCENARIO_INCIDENT_COLUMNS = ["剧本ID", "日期", "事件", "当事人", "备注"]
+SCENARIO_PUBLIC_INCIDENT_COLUMNS = ["剧本ID", "日期", "事件", "备注"]
+SCENARIO_VICTORY_COLUMNS = ["剧本ID", "条件", "可用手段"]
+SCENARIO_RULE_SLOT_OPTIONS = ["Rule Y", "Rule X1", "Rule X2"]
+SCENARIO_DISCUSSION_OPTIONS = ["由剧作家决定", "可", "不可", "待校对"]
+SCENARIO_COMMON_ROLES = ["平民"]
+SCENARIO_NO_RULE = "无"
 DEFAULT_TRAIT_EXPLANATIONS = {
     "无视友好": "主人公能力阶段，该角色可以拒绝主人公的友好能力请求。",
     "必定无视友好": "主人公能力阶段，该角色必须拒绝主人公的友好能力请求。",
@@ -132,6 +162,24 @@ CHARACTER_ELEMENT_SUMMARY = [
         "name": "标签与能力",
         "purpose": "记录角色标签，以及按友好门槛解锁的友好能力、使用频率、阶段、使用方和效果摘要。",
         "fields": ["标签", "友好能力", "备注"],
+    },
+]
+
+SCENARIO_ELEMENT_SUMMARY = [
+    {
+        "name": "公开概况",
+        "purpose": "记录主人公开局可见的剧本边界，包括模组、轮回、天数、讨论、特有规则和公开事件。",
+        "fields": ["剧本名", "使用模组", "轮回选项", "每轮天数", "讨论", "特有规则", "公开事件"],
+    },
+    {
+        "name": "非公开真相",
+        "purpose": "记录仅剧作家掌握的规则组合、角色身份、事件当事人和胜利条件。",
+        "fields": ["采用规则", "角色身份", "事件", "剧作家胜利条件"],
+    },
+    {
+        "name": "来源与摘要",
+        "purpose": "保留剧作家之书来源定位、信息表页图，以及 spoiler-heavy 文本的摘要化审阅笔记。",
+        "fields": ["页图", "来源", "剧本特征", "故事摘要", "剧作家指引", "备注"],
     },
 ]
 
@@ -666,6 +714,352 @@ def write_character_cards(payload: object) -> None:
     CHARACTER_CARDS_PATH.write_text(render_character_cards_markdown(normalized), encoding="utf-8")
 
 
+def markdown_cell_to_text(value: object) -> str:
+    return str(value or "").replace("<br>", "\n").strip()
+
+
+def parse_scenario_list(value: object) -> list[str]:
+    return parse_character_list(value)
+
+
+def format_scenario_list(value: object) -> str:
+    items = parse_scenario_list(value)
+    return "；".join(items)
+
+
+def normalize_scenario_rule(row: dict[str, object]) -> dict[str, str]:
+    slot = str(row.get("slot") or row.get("规则槽") or "Rule X1").strip()
+    if slot not in SCENARIO_RULE_SLOT_OPTIONS:
+        slot = "Rule X1"
+    return {
+        "slot": slot,
+        "rule": markdown_cell_to_text(row.get("rule") or row.get("规则名") or ""),
+        "notes": markdown_cell_to_text(row.get("notes") or row.get("备注") or ""),
+    }
+
+
+def normalize_scenario_character(row: dict[str, object]) -> dict[str, str]:
+    return {
+        "character": markdown_cell_to_text(row.get("character") or row.get("人物") or ""),
+        "role": markdown_cell_to_text(row.get("role") or row.get("身份") or "平民") or "平民",
+        "notes": markdown_cell_to_text(row.get("notes") or row.get("备注") or ""),
+    }
+
+
+def normalize_scenario_incident(row: dict[str, object]) -> dict[str, str]:
+    return {
+        "day": markdown_cell_to_text(row.get("day") or row.get("日期") or ""),
+        "incident": markdown_cell_to_text(row.get("incident") or row.get("事件") or ""),
+        "culprit": markdown_cell_to_text(row.get("culprit") or row.get("当事人") or ""),
+        "notes": markdown_cell_to_text(row.get("notes") or row.get("备注") or ""),
+    }
+
+
+def normalize_scenario_public_incident(row: dict[str, object]) -> dict[str, str]:
+    return {
+        "day": markdown_cell_to_text(row.get("day") or row.get("日期") or ""),
+        "incident": markdown_cell_to_text(row.get("incident") or row.get("事件") or ""),
+        "notes": markdown_cell_to_text(row.get("notes") or row.get("备注") or ""),
+    }
+
+
+def normalize_scenario_victory_condition(row: dict[str, object]) -> dict[str, str]:
+    return {
+        "condition": markdown_cell_to_text(row.get("condition") or row.get("条件") or ""),
+        "methods": markdown_cell_to_text(row.get("methods") or row.get("可用手段") or ""),
+    }
+
+
+def normalize_scenario(row: dict[str, object]) -> dict[str, object]:
+    rules = row.get("rules") if isinstance(row.get("rules"), list) else []
+    characters = row.get("characters") if isinstance(row.get("characters"), list) else []
+    incidents = row.get("incidents") if isinstance(row.get("incidents"), list) else []
+    public_incidents = (
+        row.get("public_incidents") if isinstance(row.get("public_incidents"), list) else []
+    )
+    victory_conditions = (
+        row.get("victory_conditions") if isinstance(row.get("victory_conditions"), list) else []
+    )
+    return {
+        "id": markdown_cell_to_text(row.get("id") or row.get("剧本ID") or ""),
+        "order": markdown_cell_to_text(row.get("order") or row.get("序号") or ""),
+        "name": markdown_cell_to_text(row.get("name") or row.get("剧本名") or ""),
+        "author": markdown_cell_to_text(row.get("author") or row.get("作者") or ""),
+        "module": markdown_cell_to_text(row.get("module") or row.get("使用模组") or ""),
+        "loop_options": markdown_cell_to_text(row.get("loop_options") or row.get("轮回选项") or ""),
+        "days_per_loop": markdown_cell_to_text(
+            row.get("days_per_loop") or row.get("每轮天数") or ""
+        ),
+        "discussion": markdown_cell_to_text(row.get("discussion") or row.get("讨论") or ""),
+        "difficulty": markdown_cell_to_text(row.get("difficulty") or row.get("难度") or ""),
+        "special_rules": markdown_cell_to_text(
+            row.get("special_rules") or row.get("特有规则") or ""
+        ),
+        "page_image": markdown_cell_to_text(row.get("page_image") or row.get("页图") or ""),
+        "source_refs": parse_scenario_list(row.get("source_refs") or row.get("来源") or ""),
+        "feature": markdown_cell_to_text(row.get("feature") or row.get("剧本特征") or ""),
+        "story": markdown_cell_to_text(row.get("story") or row.get("故事摘要") or ""),
+        "mastermind_guide": markdown_cell_to_text(
+            row.get("mastermind_guide") or row.get("剧作家指引") or ""
+        ),
+        "notes": markdown_cell_to_text(row.get("notes") or row.get("备注") or ""),
+        "rules": [normalize_scenario_rule(item) for item in rules if isinstance(item, dict)],
+        "characters": [
+            normalize_scenario_character(item) for item in characters if isinstance(item, dict)
+        ],
+        "incidents": [
+            normalize_scenario_incident(item) for item in incidents if isinstance(item, dict)
+        ],
+        "public_incidents": [
+            normalize_scenario_public_incident(item)
+            for item in public_incidents
+            if isinstance(item, dict)
+        ],
+        "victory_conditions": [
+            normalize_scenario_victory_condition(item)
+            for item in victory_conditions
+            if isinstance(item, dict)
+        ],
+    }
+
+
+def parse_scenarios_markdown(path: Path = SCENARIOS_PATH) -> list[dict[str, object]]:
+    if not path.is_file():
+        return []
+    lines = path.read_text(encoding="utf-8").splitlines()
+    scenario_rows, _refs = extract_table(lines, "剧本目录", SCENARIO_TABLE_COLUMNS)
+    rule_rows, _refs = extract_table(lines, "采用规则", SCENARIO_RULE_COLUMNS)
+    character_rows, _refs = extract_table(lines, "角色身份", SCENARIO_CHARACTER_COLUMNS)
+    incident_rows, _refs = extract_table(lines, "事件", SCENARIO_INCIDENT_COLUMNS)
+    public_incident_rows, _refs = extract_table(
+        lines, "公开事件", SCENARIO_PUBLIC_INCIDENT_COLUMNS
+    )
+    victory_rows, _refs = extract_table(lines, "剧作家胜利条件", SCENARIO_VICTORY_COLUMNS)
+
+    scenarios: list[dict[str, object]] = []
+    for row in scenario_rows:
+        scenario_id = row.get("剧本ID", "").strip()
+        if not scenario_id:
+            continue
+        scenario = normalize_scenario(
+            {
+                **row,
+                "rules": [
+                    item for item in rule_rows if item.get("剧本ID", "").strip() == scenario_id
+                ],
+                "characters": [
+                    item
+                    for item in character_rows
+                    if item.get("剧本ID", "").strip() == scenario_id
+                ],
+                "incidents": [
+                    item
+                    for item in incident_rows
+                    if item.get("剧本ID", "").strip() == scenario_id
+                ],
+                "public_incidents": [
+                    item
+                    for item in public_incident_rows
+                    if item.get("剧本ID", "").strip() == scenario_id
+                ],
+                "victory_conditions": [
+                    item
+                    for item in victory_rows
+                    if item.get("剧本ID", "").strip() == scenario_id
+                ],
+            }
+        )
+        scenarios.append(scenario)
+    return scenarios
+
+
+def render_scenarios_markdown(scenarios: list[dict[str, object]]) -> str:
+    normalized = [
+        normalize_scenario(scenario) for scenario in scenarios if isinstance(scenario, dict)
+    ]
+    scenario_rows: list[dict[str, object]] = []
+    rule_rows: list[dict[str, object]] = []
+    character_rows: list[dict[str, object]] = []
+    incident_rows: list[dict[str, object]] = []
+    public_incident_rows: list[dict[str, object]] = []
+    victory_rows: list[dict[str, object]] = []
+
+    for scenario in normalized:
+        scenario_id = str(scenario["id"]).strip()
+        if not scenario_id or not str(scenario["name"]).strip():
+            continue
+        scenario_rows.append(
+            {
+                "剧本ID": scenario_id,
+                "序号": scenario["order"],
+                "剧本名": scenario["name"],
+                "作者": scenario["author"],
+                "使用模组": scenario["module"],
+                "轮回选项": scenario["loop_options"],
+                "每轮天数": scenario["days_per_loop"],
+                "讨论": scenario["discussion"],
+                "难度": scenario["difficulty"],
+                "特有规则": scenario["special_rules"],
+                "页图": scenario["page_image"],
+                "来源": format_scenario_list(scenario["source_refs"]),
+                "剧本特征": scenario["feature"],
+                "故事摘要": scenario["story"],
+                "剧作家指引": scenario["mastermind_guide"],
+                "备注": scenario["notes"],
+            }
+        )
+        for rule in scenario["rules"]:
+            rule_rows.append(
+                {
+                    "剧本ID": scenario_id,
+                    "规则槽": rule["slot"],
+                    "规则名": rule["rule"],
+                    "备注": rule["notes"],
+                }
+            )
+        for character in scenario["characters"]:
+            character_rows.append(
+                {
+                    "剧本ID": scenario_id,
+                    "人物": character["character"],
+                    "身份": character["role"],
+                    "备注": character["notes"],
+                }
+            )
+        for incident in scenario["incidents"]:
+            incident_rows.append(
+                {
+                    "剧本ID": scenario_id,
+                    "日期": incident["day"],
+                    "事件": incident["incident"],
+                    "当事人": incident["culprit"],
+                    "备注": incident["notes"],
+                }
+            )
+        for incident in scenario["public_incidents"]:
+            public_incident_rows.append(
+                {
+                    "剧本ID": scenario_id,
+                    "日期": incident["day"],
+                    "事件": incident["incident"],
+                    "备注": incident["notes"],
+                }
+            )
+        for condition in scenario["victory_conditions"]:
+            victory_rows.append(
+                {
+                    "剧本ID": scenario_id,
+                    "条件": condition["condition"],
+                    "可用手段": condition["methods"],
+                }
+            )
+
+    output = [
+        "# 剧本审阅目录",
+        "",
+        "状态：待人工校对  ",
+        "用途：供剧本审阅编辑器维护公开信息、非公开真相、来源定位和摘要化审阅笔记。",
+        "",
+        "## 共性字段",
+        "",
+        "- 公开概况：剧本名、作者、使用模组、轮回选项、每轮天数、讨论、难度、特有规则、公开事件。",
+        "- 非公开真相：采用规则、角色身份、事件当事人、剧作家胜利条件。",
+        "- 来源与摘要：页图、来源、剧本特征、故事摘要、剧作家指引、备注。",
+        "- 约束：采用规则、身份和事件必须从当前使用模组的审阅稿中选择；平民与无规则槽为通用占位。",
+        "",
+        "## 剧本目录",
+        "",
+        *render_table(SCENARIO_TABLE_COLUMNS, scenario_rows),
+        "",
+        "## 采用规则",
+        "",
+        *render_table(SCENARIO_RULE_COLUMNS, rule_rows),
+        "",
+        "## 角色身份",
+        "",
+        *render_table(SCENARIO_CHARACTER_COLUMNS, character_rows),
+        "",
+        "## 事件",
+        "",
+        *render_table(SCENARIO_INCIDENT_COLUMNS, incident_rows),
+        "",
+        "## 公开事件",
+        "",
+        *render_table(SCENARIO_PUBLIC_INCIDENT_COLUMNS, public_incident_rows),
+        "",
+        "## 剧作家胜利条件",
+        "",
+        *render_table(SCENARIO_VICTORY_COLUMNS, victory_rows),
+        "",
+    ]
+    return "\n".join(output).rstrip() + "\n"
+
+
+def write_scenarios(payload: object) -> None:
+    if isinstance(payload, dict):
+        scenarios = payload.get("scenarios", [])
+    else:
+        scenarios = payload
+    if not isinstance(scenarios, list):
+        raise ValueError("Expected a scenarios list.")
+    SCENARIO_REFERENCE_ROOT.mkdir(parents=True, exist_ok=True)
+    normalized = [normalize_scenario(item) for item in scenarios if isinstance(item, dict)]
+    SCENARIOS_PATH.write_text(render_scenarios_markdown(normalized), encoding="utf-8")
+
+
+def list_scenario_module_options() -> list[dict[str, object]]:
+    modules: list[dict[str, object]] = []
+    for summary in list_module_summaries():
+        module_path = module_path_from_slug(str(summary["id"]))
+        if not module_path.is_file():
+            continue
+        module = parse_module_markdown(module_path)
+        tables = module["tables"]
+        rule_y: list[str] = []
+        rule_x: list[str] = []
+        for rule in tables["rules"]:
+            name = str(rule.get("规则名") or "").strip()
+            rule_type = str(rule.get("规则类型") or "").strip()
+            if not name:
+                continue
+            if rule_type == "规则Y":
+                rule_y.append(name)
+            if rule_type == "规则X":
+                rule_x.append(name)
+        modules.append(
+            {
+                "id": module["id"],
+                "title": module["title"],
+                "rules": {"Rule Y": rule_y, "Rule X": rule_x},
+                "roles": [
+                    role["身份名"]
+                    for role in tables["roles"]
+                    if str(role.get("身份名") or "").strip()
+                ],
+                "incidents": [
+                    incident["事件名"]
+                    for incident in tables["incidents"]
+                    if str(incident.get("事件名") or "").strip()
+                ],
+            }
+        )
+    return modules
+
+
+def list_character_names() -> list[str]:
+    names: list[str] = []
+    for card in parse_character_cards_markdown():
+        name = str(card.get("name") or "").strip()
+        if name and name not in names:
+            names.append(name)
+    for scenario in parse_scenarios_markdown():
+        for character in scenario["characters"]:
+            name = str(character.get("character") or "").strip()
+            if name and name not in names:
+                names.append(name)
+    return names
+
+
 def render_module_markdown(module: dict[str, object]) -> str:
     title = str(module.get("title") or f"{module.get('id', '')} - 模组信息审阅稿").strip()
     status = str(module.get("status") or "待人工校对").strip()
@@ -804,6 +1198,31 @@ class TragedyLoopRequestHandler(SimpleHTTPRequestHandler):
                 }
             )
             return
+        if path == "/api/scenarios/config":
+            self.send_json(
+                {
+                    "target_file": str(SCENARIOS_PATH.relative_to(ROOT)),
+                    "absolute_target_file": str(SCENARIOS_PATH),
+                    "reference_directory": str(SCENARIO_REFERENCE_ROOT.relative_to(ROOT)),
+                    "absolute_reference_directory": str(SCENARIO_REFERENCE_ROOT),
+                    "source_reference_root": str(REFERENCE_ROOT.relative_to(ROOT)),
+                    "absolute_source_reference_root": str(REFERENCE_ROOT),
+                    "elements": SCENARIO_ELEMENT_SUMMARY,
+                    "columns": {
+                        "scenarios": SCENARIO_TABLE_COLUMNS,
+                        "rules": SCENARIO_RULE_COLUMNS,
+                        "characters": SCENARIO_CHARACTER_COLUMNS,
+                        "incidents": SCENARIO_INCIDENT_COLUMNS,
+                        "public_incidents": SCENARIO_PUBLIC_INCIDENT_COLUMNS,
+                        "victory_conditions": SCENARIO_VICTORY_COLUMNS,
+                    },
+                    "rule_slots": SCENARIO_RULE_SLOT_OPTIONS,
+                    "discussion_options": SCENARIO_DISCUSSION_OPTIONS,
+                    "common_roles": SCENARIO_COMMON_ROLES,
+                    "no_rule": SCENARIO_NO_RULE,
+                }
+            )
+            return
         if path == "/api/character-cards":
             self.send_json(
                 {
@@ -812,6 +1231,21 @@ class TragedyLoopRequestHandler(SimpleHTTPRequestHandler):
                     "cards": parse_character_cards_markdown(),
                 }
             )
+            return
+        if path == "/api/scenarios":
+            self.send_json(
+                {
+                    "target_file": str(SCENARIOS_PATH.relative_to(ROOT)),
+                    "absolute_target_file": str(SCENARIOS_PATH),
+                    "scenarios": parse_scenarios_markdown(),
+                }
+            )
+            return
+        if path == "/api/scenario-editor/modules":
+            self.send_json({"modules": list_scenario_module_options()})
+            return
+        if path == "/api/scenario-editor/characters":
+            self.send_json({"characters": list_character_names()})
             return
         if path == "/api/module-editor/traits":
             self.send_json(
@@ -841,6 +1275,9 @@ class TragedyLoopRequestHandler(SimpleHTTPRequestHandler):
             return
         if path.startswith("/character-assets/"):
             self.serve_character_asset(path.removeprefix("/character-assets/"))
+            return
+        if path.startswith("/scenario-assets/"):
+            self.serve_reference_asset(path.removeprefix("/scenario-assets/"))
             return
         super().do_GET()
 
@@ -944,6 +1381,23 @@ class TragedyLoopRequestHandler(SimpleHTTPRequestHandler):
             except json.JSONDecodeError:
                 self.send_error(400, "Invalid JSON.")
             return
+        if path == "/api/scenarios":
+            try:
+                content_length = int(self.headers.get("Content-Length", "0"))
+                payload = json.loads(self.rfile.read(content_length).decode("utf-8"))
+                write_scenarios(payload)
+                self.send_json(
+                    {
+                        "target_file": str(SCENARIOS_PATH.relative_to(ROOT)),
+                        "absolute_target_file": str(SCENARIOS_PATH),
+                        "scenarios": parse_scenarios_markdown(),
+                    }
+                )
+            except ValueError as error:
+                self.send_error(400, str(error))
+            except json.JSONDecodeError:
+                self.send_error(400, "Invalid JSON.")
+            return
         if path == "/api/module-editor/traits":
             try:
                 content_length = int(self.headers.get("Content-Length", "0"))
@@ -1020,6 +1474,27 @@ class TragedyLoopRequestHandler(SimpleHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(body)
 
+    def serve_reference_asset(self, relative_url_path: str) -> None:
+        relative_path = Path(unquote(relative_url_path))
+        if relative_path.is_absolute() or ".." in relative_path.parts:
+            self.send_error(400, "Invalid asset path.")
+            return
+        asset_path = (REFERENCE_ROOT / relative_path).resolve()
+        root = REFERENCE_ROOT.resolve()
+        if root not in asset_path.parents and asset_path != root:
+            self.send_error(400, "Asset path escapes reference root.")
+            return
+        if not asset_path.is_file():
+            self.send_error(404, "Asset not found.")
+            return
+        content_type = mimetypes.guess_type(asset_path.name)[0] or "application/octet-stream"
+        body = asset_path.read_bytes()
+        self.send_response(200)
+        self.send_header("Content-Type", content_type)
+        self.send_header("Content-Length", str(len(body)))
+        self.end_headers()
+        self.wfile.write(body)
+
     def serve_character_asset(self, relative_url_path: str) -> None:
         relative_path = Path(unquote(relative_url_path))
         if relative_path.is_absolute() or ".." in relative_path.parts:
@@ -1072,8 +1547,10 @@ def serve_web(host: str, port: int) -> None:
     print(f"Reference site: {url}site/", flush=True)
     print(f"Module editor: {url}editor.html", flush=True)
     print(f"Character card editor: {url}characters.html", flush=True)
+    print(f"Scenario editor: {url}scenarios.html", flush=True)
     print(f"Module editor target: {MODULE_REVIEW_ROOT}", flush=True)
     print(f"Character card target: {CHARACTER_CARDS_PATH}", flush=True)
+    print(f"Scenario target: {SCENARIOS_PATH}", flush=True)
     try:
         server.serve_forever()
     except KeyboardInterrupt:

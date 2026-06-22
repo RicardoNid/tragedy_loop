@@ -76,6 +76,7 @@ Marp slides 源文件在 `products/slides/`。可用 `npm run slides:build` 生�
 - [纸质资料录入流程](docs/development/source-ingestion.md)
 - [模组审阅编辑器](docs/development/module-editor.md)
 - [角色卡审阅编辑器](docs/development/character-card-editor.md)
+- [剧本审阅编辑器](docs/development/scenario-editor.md)
 - [重要误解记录](docs/development/known-misunderstandings.md)
 
 纸质资料录入流程见 [source-ingestion.md](docs/development/source-ingestion.md)。当前 `module.pdf` 已归档到 `facts/source_material/reference/module/original-upload.pdf`，每个模块的规则表、身份表、事件表审阅稿位于 `facts/source_material/reference/module/modules/`。
@@ -83,3 +84,5 @@ Marp slides 源文件在 `products/slides/`。可用 `npm run slides:build` 生�
 模组审阅编辑器通过 `uv run tragedy-loop` 启动，地址为 `http://127.0.0.1:5173/editor.html`，保存目标目录固定为 `facts/source_material/reference/module/modules/`。规则表支持 `规则X`/`规则Y` 分类，并把登场身份保存为 `身份-数量-数量规则` 的列表；身份特性池通过 `http://127.0.0.1:5173/traits.html` 维护，保存到 `facts/source_material/reference/module/identity-traits.md`。
 
 角色卡审阅编辑器地址为 `http://127.0.0.1:5173/characters.html`，保存到 `facts/source_material/reference/character-cards/cards.md`。原“新手本角色”资料已升级为角色卡目录，原 PDF、修正 PDF 和逐页图片保留在 `facts/source_material/reference/character-cards/`。
+
+剧本审阅编辑器地址为 `http://127.0.0.1:5173/scenarios.html`，保存到 `facts/source_material/reference/scenarios/scenarios.md`。剧本的规则、身份和事件下拉选项会随当前选择的模组变化。

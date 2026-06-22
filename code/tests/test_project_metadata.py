@@ -14,9 +14,11 @@ from tragedy_loop.app import (
     list_module_summaries,
     parse_character_cards_markdown,
     parse_module_markdown,
+    parse_scenarios_markdown,
     parse_trait_pool_markdown,
     render_character_cards_markdown,
     render_module_markdown,
+    render_scenarios_markdown,
     render_trait_pool_markdown,
     safe_log_session_id,
     write_prototype_log,
@@ -41,6 +43,7 @@ def test_web_root_exists() -> None:
     assert (WEB_ROOT / "editor.html").is_file()
     assert (WEB_ROOT / "traits.html").is_file()
     assert (WEB_ROOT / "characters.html").is_file()
+    assert (WEB_ROOT / "scenarios.html").is_file()
 
 
 def test_site_root_exists() -> None:
@@ -179,3 +182,49 @@ def test_character_cards_markdown_round_trip(tmp_path: Path) -> None:
     rendered = tmp_path / "rendered-cards.md"
     rendered.write_text(render_character_cards_markdown(parsed), encoding="utf-8")
     assert parse_character_cards_markdown(rendered) == cards
+
+
+def test_scenarios_markdown_round_trip(tmp_path: Path) -> None:
+    source = tmp_path / "scenarios.md"
+    scenarios = [
+        {
+            "id": "sample-scenario",
+            "order": "1",
+            "name": "测试剧本",
+            "author": "测试作者",
+            "module": "first-steps",
+            "loop_options": "3",
+            "days_per_loop": "4",
+            "discussion": "由剧作家决定",
+            "difficulty": "练习",
+            "special_rules": "测试特有规则。",
+            "page_image": "剧作家之书/pdf2md/images/page_19_info_table_cw.jpeg",
+            "source_refs": ["semantic-review.md:L1-L20"],
+            "feature": "测试特征。",
+            "story": "测试故事摘要。",
+            "mastermind_guide": "测试指引。",
+            "notes": "测试备注。",
+            "rules": [
+                {"slot": "Rule Y", "rule": "谋杀计划", "notes": ""},
+                {"slot": "Rule X1", "rule": "开膛者的魔影", "notes": ""},
+            ],
+            "characters": [
+                {"character": "女学生", "role": "关键人物", "notes": "测试角色备注"}
+            ],
+            "incidents": [
+                {"day": "第 3 天", "incident": "自杀", "culprit": "女学生", "notes": ""}
+            ],
+            "public_incidents": [{"day": "第 3 天", "incident": "自杀", "notes": ""}],
+            "victory_conditions": [
+                {"condition": "杀害关键人物", "methods": "自杀"}
+            ],
+        }
+    ]
+    source.write_text(render_scenarios_markdown(scenarios), encoding="utf-8")
+
+    parsed = parse_scenarios_markdown(source)
+    assert parsed == scenarios
+
+    rendered = tmp_path / "rendered-scenarios.md"
+    rendered.write_text(render_scenarios_markdown(parsed), encoding="utf-8")
+    assert parse_scenarios_markdown(rendered) == scenarios
