@@ -23,9 +23,11 @@ export const PHASES = {
   DAWN: "dawn",
   MASTERMIND_ACTION: "mastermind_action",
   PROTAGONIST_ACTION: "protagonist_action",
+  ACTION_RESOLUTION: "action_resolution",
   MASTERMIND_ABILITY: "mastermind_ability",
   PROTAGONIST_ABILITY: "protagonist_ability",
   INCIDENT: "incident",
+  LEADER_ROTATION: "leader_rotation",
   END_OF_DAY: "end_of_day",
   LOOP_END: "loop_end",
   FINAL_GUESS: "final_guess",
@@ -44,6 +46,7 @@ export const ROLE_IDS = {
   KEY_PERSON: "key_person",
   MASTERMIND: "mastermind_role",
   KILLER: "killer",
+  CULTIST: "cultist",
   SERIAL_KILLER: "serial_killer",
   RUMOR_MONGER: "rumor_monger",
 };
@@ -100,6 +103,12 @@ export const roles = {
     traits: ["无视友好"],
     summary: "回合结束时，可因密谋杀害关键人物；自身密谋 4 枚以上时可杀害主人公。",
   },
+  [ROLE_IDS.CULTIST]: {
+    id: ROLE_IDS.CULTIST,
+    name: "邪教徒",
+    traits: ["强制无视友好"],
+    summary: "行动结算阶段，无视同一区域中角色身上和该角色所在版图上的禁止密谋卡牌。",
+  },
   [ROLE_IDS.SERIAL_KILLER]: {
     id: ROLE_IDS.SERIAL_KILLER,
     name: "杀人狂",
@@ -146,6 +155,7 @@ export const actionCards = {
     sideNames: { protagonist: "禁止移动" },
     effect: "forbid_movement",
     targetTypes: [TARGET_TYPES.CHARACTER],
+    oncePerLoopBySide: { protagonist: true },
   },
   goodwill_plus_1: {
     id: "goodwill_plus_1",
@@ -191,6 +201,7 @@ export const actionCards = {
     token: "paranoia",
     amount: -1,
     targetTypes: [TARGET_TYPES.CHARACTER],
+    oncePerLoopBySide: { protagonist: true },
   },
   forbid_paranoia: {
     id: "forbid_paranoia",
@@ -259,6 +270,7 @@ export const beginnerScript = {
   moduleName: "First Steps",
   loops: 3,
   daysPerLoop: 3,
+  finalGuess: false,
   protagonistCount: 1,
   actionSlots: {
     [SIDES.MASTERMIND]: 3,
@@ -433,13 +445,13 @@ export const beginnerScript = {
             {
               side: SIDES.MASTERMIND,
               timing: "剧作家能力阶段",
-              condition: "若医生的身份具有无视友好或必定无视友好特性。",
+              condition: "若医生已有 2 枚或以上友好，且身份具有无视友好或必定无视友好特性。",
             },
           ],
           oncePerLoop: false,
           frequency: "per_day",
           effect:
-            "选择同一区域的另一名角色，并声明移除或放置不安；剧作家按声明移除或放置 1 枚不安。若医生具备无视友好，剧作家能力阶段也可使用此能力。",
+            "选择同一区域的另一名角色，并声明移除或放置不安；剧作家按声明移除或放置 1 枚不安。若医生已有 2 枚或以上友好且身份具备无视友好，剧作家能力阶段也可使用此能力。",
         },
         {
           id: "doctor_patient_mobility",

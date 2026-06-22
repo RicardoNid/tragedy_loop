@@ -66,6 +66,16 @@ function placeFirstLoopDayOneFailure(state) {
   return next;
 }
 
+function advanceToActionResolution(state) {
+  const next = advancePhase(state);
+  assert.equal(next.phase, PHASES.ACTION_RESOLUTION);
+  return next;
+}
+
+function resolveActions(state) {
+  return advancePhase(advanceToActionResolution(state));
+}
+
 test("protagonist view hides closed-script roles", () => {
   const state = createGame();
   const protagonistView = projectView(state, VIEWERS.PROTAGONISTS);
@@ -122,6 +132,51 @@ test("new days begin with dawn before mastermind action", () => {
   assert.equal(state.phase, PHASES.MASTERMIND_ACTION);
 });
 
+test("daily flow includes leader rotation before end of day", () => {
+  let state = createGame();
+  state.phase = PHASES.INCIDENT;
+
+  state = advancePhase(state);
+  assert.equal(state.phase, PHASES.LEADER_ROTATION);
+
+  state = advancePhase(state);
+  assert.equal(state.phase, PHASES.END_OF_DAY);
+});
+
+test("protagonist action advances to an explicit action resolution phase", () => {
+  let state = createGame();
+  state.phase = PHASES.PROTAGONIST_ACTION;
+  state = placeAction(state, {
+    side: SIDES.PROTAGONIST,
+    deckId: "green",
+    cardId: "goodwill_plus_1",
+    targetType: TARGET_TYPES.CHARACTER,
+    targetId: "boy_student",
+  });
+  state = placeAction(state, {
+    side: SIDES.PROTAGONIST,
+    deckId: "red",
+    cardId: "paranoia_plus_1",
+    targetType: TARGET_TYPES.CHARACTER,
+    targetId: "girl_student",
+  });
+  state = placeAction(state, {
+    side: SIDES.PROTAGONIST,
+    deckId: "blue",
+    cardId: "paranoia_minus_1",
+    targetType: TARGET_TYPES.CHARACTER,
+    targetId: "idol",
+  });
+
+  state = advanceToActionResolution(state);
+
+  assert.equal(state.board.characters.boy_student.goodwill, 0);
+  assert.equal(
+    state.eventLog.some((event) => event.type === "actions_revealed"),
+    true,
+  );
+});
+
 test("opposing action projection hides card names but keeps public targets", () => {
   let state = startMastermindAction();
   state = placeAction(state, {
@@ -145,6 +200,55 @@ test("opposing action projection hides card names but keeps public targets", () 
     protagonistView.eventLog.some((event) => event.type === "action_placed_detail"),
     false,
   );
+});
+
+test("action resolution projection reveals opposing card names", () => {
+  let state = startMastermindAction();
+  state = placeAction(state, {
+    side: SIDES.MASTERMIND,
+    cardId: "move_vertical",
+    targetType: TARGET_TYPES.CHARACTER,
+    targetId: "girl_student",
+  });
+  state = placeAction(state, {
+    side: SIDES.MASTERMIND,
+    cardId: "intrigue_plus_1",
+    targetType: TARGET_TYPES.CHARACTER,
+    targetId: "office_worker",
+  });
+  state = placeAction(state, {
+    side: SIDES.MASTERMIND,
+    cardId: "paranoia_plus_1",
+    targetType: TARGET_TYPES.CHARACTER,
+    targetId: "doctor",
+  });
+  state = advancePhase(state);
+  state = placeAction(state, {
+    side: SIDES.PROTAGONIST,
+    deckId: "green",
+    cardId: "goodwill_plus_1",
+    targetType: TARGET_TYPES.CHARACTER,
+    targetId: "boy_student",
+  });
+  state = placeAction(state, {
+    side: SIDES.PROTAGONIST,
+    deckId: "red",
+    cardId: "paranoia_plus_1",
+    targetType: TARGET_TYPES.CHARACTER,
+    targetId: "girl_student",
+  });
+  state = placeAction(state, {
+    side: SIDES.PROTAGONIST,
+    deckId: "blue",
+    cardId: "paranoia_minus_1",
+    targetType: TARGET_TYPES.CHARACTER,
+    targetId: "idol",
+  });
+
+  state = advanceToActionResolution(state);
+  const protagonistView = projectView(state, VIEWERS.PROTAGONISTS);
+
+  assert.equal(protagonistView.placedActions[0].cardId, "move_vertical");
 });
 
 test("protagonist action cards default to fixed green red blue order", () => {
@@ -202,7 +306,7 @@ test("protagonist action cards are tracked per colored deck", () => {
     targetId: "idol",
   });
 
-  state = advancePhase(state);
+  state = resolveActions(state);
   const protagonistDiscards = actionDiscardPiles(state)[SIDES.PROTAGONIST];
 
   assert.equal(state.board.characters.boy_student.goodwill, 2);
@@ -212,6 +316,188 @@ test("protagonist action cards are tracked per colored deck", () => {
     protagonistDiscards.map((card) => `${card.deckId}:${card.cardId}`),
     ["green:goodwill_plus_2", "red:goodwill_plus_2", "blue:goodwill_plus_2"],
   );
+});
+
+test("protagonist side-specific once-per-loop cards enter each colored discard pile", () => {
+  let state = createGame();
+  state.phase = PHASES.PROTAGONIST_ACTION;
+
+  state = placeAction(state, {
+    side: SIDES.PROTAGONIST,
+    deckId: "green",
+    cardId: "forbid_movement",
+    targetType: TARGET_TYPES.CHARACTER,
+    targetId: "girl_student",
+  });
+  state = placeAction(state, {
+    side: SIDES.PROTAGONIST,
+    deckId: "red",
+    cardId: "paranoia_minus_1",
+    targetType: TARGET_TYPES.CHARACTER,
+    targetId: "doctor",
+  });
+  state = placeAction(state, {
+    side: SIDES.PROTAGONIST,
+    deckId: "blue",
+    cardId: "goodwill_plus_1",
+    targetType: TARGET_TYPES.CHARACTER,
+    targetId: "boy_student",
+  });
+
+  state = resolveActions(state);
+  const protagonistDiscards = actionDiscardPiles(state)[SIDES.PROTAGONIST];
+
+  assert.deepEqual(
+    protagonistDiscards.map((card) => `${card.deckId}:${card.cardId}`),
+    ["green:forbid_movement", "red:paranoia_minus_1"],
+  );
+});
+
+test("mastermind paranoia minus is not a once-per-loop discard", () => {
+  let state = startMastermindAction();
+  state = placeAction(state, {
+    side: SIDES.MASTERMIND,
+    cardId: "paranoia_minus_1",
+    targetType: TARGET_TYPES.CHARACTER,
+    targetId: "doctor",
+  });
+  state = placeAction(state, {
+    side: SIDES.MASTERMIND,
+    cardId: "move_vertical",
+    targetType: TARGET_TYPES.CHARACTER,
+    targetId: "girl_student",
+  });
+  state = placeAction(state, {
+    side: SIDES.MASTERMIND,
+    cardId: "intrigue_plus_1",
+    targetType: TARGET_TYPES.CHARACTER,
+    targetId: "office_worker",
+  });
+  state = advancePhase(state);
+  state = placeAction(state, {
+    side: SIDES.PROTAGONIST,
+    deckId: "green",
+    cardId: "goodwill_plus_1",
+    targetType: TARGET_TYPES.CHARACTER,
+    targetId: "boy_student",
+  });
+  state = placeAction(state, {
+    side: SIDES.PROTAGONIST,
+    deckId: "red",
+    cardId: "paranoia_plus_1",
+    targetType: TARGET_TYPES.CHARACTER,
+    targetId: "girl_student",
+  });
+  state = placeAction(state, {
+    side: SIDES.PROTAGONIST,
+    deckId: "blue",
+    cardId: "forbid_intrigue",
+    targetType: TARGET_TYPES.LOCATION,
+    targetId: "hospital",
+  });
+
+  state = resolveActions(state);
+
+  assert.deepEqual(
+    actionDiscardPiles(state)[SIDES.MASTERMIND].map((card) => card.cardId),
+    [],
+  );
+});
+
+test("same-name movement cards resolve as one normal movement", () => {
+  let state = startMastermindAction();
+  state = placeAction(state, {
+    side: SIDES.MASTERMIND,
+    cardId: "move_vertical",
+    targetType: TARGET_TYPES.CHARACTER,
+    targetId: "girl_student",
+  });
+  state = placeAction(state, {
+    side: SIDES.MASTERMIND,
+    cardId: "intrigue_plus_1",
+    targetType: TARGET_TYPES.CHARACTER,
+    targetId: "office_worker",
+  });
+  state = placeAction(state, {
+    side: SIDES.MASTERMIND,
+    cardId: "paranoia_plus_1",
+    targetType: TARGET_TYPES.CHARACTER,
+    targetId: "doctor",
+  });
+  state = advancePhase(state);
+  state = placeAction(state, {
+    side: SIDES.PROTAGONIST,
+    deckId: "green",
+    cardId: "move_vertical",
+    targetType: TARGET_TYPES.CHARACTER,
+    targetId: "girl_student",
+  });
+  state = placeAction(state, {
+    side: SIDES.PROTAGONIST,
+    deckId: "red",
+    cardId: "goodwill_plus_1",
+    targetType: TARGET_TYPES.CHARACTER,
+    targetId: "boy_student",
+  });
+  state = placeAction(state, {
+    side: SIDES.PROTAGONIST,
+    deckId: "blue",
+    cardId: "paranoia_plus_1",
+    targetType: TARGET_TYPES.CHARACTER,
+    targetId: "idol",
+  });
+
+  state = resolveActions(state);
+
+  assert.equal(state.board.characters.girl_student.locationId, "shrine");
+});
+
+test("vertical plus diagonal movement resolves as horizontal movement", () => {
+  let state = startMastermindAction();
+  state = placeAction(state, {
+    side: SIDES.MASTERMIND,
+    cardId: "move_diagonal",
+    targetType: TARGET_TYPES.CHARACTER,
+    targetId: "girl_student",
+  });
+  state = placeAction(state, {
+    side: SIDES.MASTERMIND,
+    cardId: "intrigue_plus_1",
+    targetType: TARGET_TYPES.CHARACTER,
+    targetId: "office_worker",
+  });
+  state = placeAction(state, {
+    side: SIDES.MASTERMIND,
+    cardId: "paranoia_plus_1",
+    targetType: TARGET_TYPES.CHARACTER,
+    targetId: "doctor",
+  });
+  state = advancePhase(state);
+  state = placeAction(state, {
+    side: SIDES.PROTAGONIST,
+    deckId: "green",
+    cardId: "move_vertical",
+    targetType: TARGET_TYPES.CHARACTER,
+    targetId: "girl_student",
+  });
+  state = placeAction(state, {
+    side: SIDES.PROTAGONIST,
+    deckId: "red",
+    cardId: "goodwill_plus_1",
+    targetType: TARGET_TYPES.CHARACTER,
+    targetId: "boy_student",
+  });
+  state = placeAction(state, {
+    side: SIDES.PROTAGONIST,
+    deckId: "blue",
+    cardId: "paranoia_plus_1",
+    targetType: TARGET_TYPES.CHARACTER,
+    targetId: "idol",
+  });
+
+  state = resolveActions(state);
+
+  assert.equal(state.board.characters.girl_student.locationId, "city");
 });
 
 test("legal action targets remove occupied and dead characters before placement", () => {
@@ -264,6 +550,15 @@ test("mastermind can use doctor goodwill ability when doctor has goodwill-refusa
   let state = createGame();
   state.phase = PHASES.MASTERMIND_ABILITY;
   state.board.characters.doctor.locationId = "school";
+
+  assert.equal(
+    availableMastermindAbilities(state).some(
+      (ability) => ability.actorId === "doctor" && ability.abilityId === "doctor_adjust_paranoia",
+    ),
+    false,
+  );
+
+  state.board.characters.doctor.goodwill = 2;
 
   const doctorAbilities = availableMastermindAbilities(state).filter(
     (ability) => ability.actorId === "doctor",
@@ -340,6 +635,45 @@ test("protagonist abilities on goodwill-refusal roles wait for mastermind approv
   assert.equal(state.board.characters.boy_student.paranoia, 1);
 });
 
+test("forced goodwill-refusal roles still appear in protagonist ability candidates before auto rejection", () => {
+  let state = createGame();
+  state.phase = PHASES.PROTAGONIST_ABILITY;
+  state.board.characters.doctor.roleId = ROLE_IDS.CULTIST;
+  state.board.characters.doctor.goodwill = 2;
+  state.board.characters.doctor.locationId = "school";
+
+  const ability = availableProtagonistAbilities(state).find(
+    (candidate) => candidate.actorId === "doctor" && candidate.skillId === "doctor_adjust_paranoia",
+  );
+  assert.ok(ability);
+  assert.equal(ability.targets.some((target) => target.targetId === "boy_student"), true);
+
+  state = requestProtagonistAbility(state, {
+    actorId: "doctor",
+    skillId: "doctor_adjust_paranoia",
+    targetType: TARGET_TYPES.CHARACTER,
+    targetId: "boy_student",
+    option: "add_paranoia",
+  });
+
+  assert.equal(state.pendingDecision, null);
+  assert.equal(state.board.characters.boy_student.paranoia, 0);
+  assert.equal(
+    state.eventLog.some(
+      (event) =>
+        event.type === "protagonist_ability_rejected_reason" &&
+        event.message.includes("强制无视友好"),
+    ),
+    true,
+  );
+  assert.equal(
+    availableProtagonistAbilities(state).some(
+      (candidate) => candidate.actorId === "doctor" && candidate.skillId === "doctor_adjust_paranoia",
+    ),
+    false,
+  );
+});
+
 test("multiple forbid intrigue cards all become ineffective", () => {
   let state = startMastermindAction();
   state = placeAction(state, {
@@ -383,7 +717,7 @@ test("multiple forbid intrigue cards all become ineffective", () => {
     targetId: "boy_student",
   });
 
-  state = advancePhase(state);
+  state = resolveActions(state);
 
   assert.equal(state.board.locations.hospital.intrigue, 1);
   assert.equal(
@@ -435,7 +769,7 @@ test("single forbid intrigue card prevents intrigue on its target", () => {
     targetId: "doctor",
   });
 
-  state = advancePhase(state);
+  state = resolveActions(state);
 
   assert.equal(state.board.locations.hospital.intrigue, 0);
 });
@@ -463,10 +797,11 @@ test("day-one tutorial line can fail the loop via serial killer", () => {
   let state = createGame();
   state = placeFirstLoopDayOneFailure(state);
 
-  state = advancePhase(state);
+  state = resolveActions(state);
   assert.equal(state.board.characters.girl_student.locationId, "shrine");
   assert.equal(state.board.characters.office_worker.intrigue, 1);
 
+  state = advancePhase(state);
   state = advancePhase(state);
   state = advancePhase(state);
   state = advancePhase(state);
@@ -481,6 +816,7 @@ test("day-one tutorial line can fail the loop via serial killer", () => {
 test("starting the next loop resets board state but keeps log history", () => {
   let state = createGame();
   state = placeFirstLoopDayOneFailure(state);
+  state = resolveActions(state);
   state = advancePhase(state);
   state = advancePhase(state);
   state = advancePhase(state);
@@ -516,7 +852,7 @@ test("day-three suicide incident fails the loop when paranoia reaches threshold"
   assert.equal(state.board.characters.girl_student.intrigue, 2);
 });
 
-test("final guesses decide the winner after all loops fail", () => {
+test("First Steps skips final guesses after all loops fail", () => {
   let state = createGame();
   state.loop = 3;
   state.day = 3;
@@ -524,7 +860,18 @@ test("final guesses decide the winner after all loops fail", () => {
   state.board.characters.girl_student.paranoia = 3;
   state = advancePhase(state);
 
-  assert.equal(state.status, "final_guess");
+  assert.equal(state.status, "finished");
+  assert.equal(state.winner, SIDES.MASTERMIND);
+  assert.equal(
+    state.eventLog.some((event) => event.type === "mastermind_win" && event.message.includes("取消最终决战")),
+    true,
+  );
+});
+
+test("final guesses still decide the winner when a script reaches final battle", () => {
+  let state = createGame();
+  state.status = "final_guess";
+  state.phase = PHASES.FINAL_GUESS;
 
   const guesses = {
     boy_student: ROLE_IDS.CIVILIAN,

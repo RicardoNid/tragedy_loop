@@ -28,12 +28,14 @@ const STATUS = {
 };
 
 const PHASE_LABELS = {
-  [PHASES.DAWN]: "黎明阶段",
+  [PHASES.DAWN]: "回合开始阶段",
   [PHASES.MASTERMIND_ACTION]: "剧作家行动阶段",
   [PHASES.PROTAGONIST_ACTION]: "主人公行动阶段",
+  [PHASES.ACTION_RESOLUTION]: "行动结算阶段",
   [PHASES.MASTERMIND_ABILITY]: "剧作家能力阶段",
   [PHASES.PROTAGONIST_ABILITY]: "主人公能力阶段",
   [PHASES.INCIDENT]: "事件阶段",
+  [PHASES.LEADER_ROTATION]: "队长轮换阶段",
   [PHASES.END_OF_DAY]: "回合结束阶段",
   [PHASES.LOOP_END]: "轮回结束",
   [PHASES.FINAL_GUESS]: "最终决战",
@@ -90,7 +92,13 @@ function protagonistActionDeckId(state, placement) {
   )?.id;
 }
 
+function cardOncePerLoop(card, side) {
+  return Boolean(card.oncePerLoop || card.oncePerLoopBySide?.[side]);
+}
+
 function usedOncePerLoop(state, side, cardId, deckId = null) {
+  const card = actionCards[cardId];
+  if (!cardOncePerLoop(card, side)) return false;
   if (side === SIDES.PROTAGONIST) {
     return Boolean(deckId && state.oncePerLoopUsed[side]?.[deckId]?.includes(cardId));
   }
@@ -99,7 +107,7 @@ function usedOncePerLoop(state, side, cardId, deckId = null) {
 
 function markOncePerLoopUsed(state, action) {
   const card = actionCards[action.cardId];
-  if (!card.oncePerLoop) return;
+  if (!cardOncePerLoop(card, action.side)) return;
 
   if (action.side === SIDES.PROTAGONIST) {
     const discard = state.oncePerLoopUsed[SIDES.PROTAGONIST][action.deckId];
@@ -330,7 +338,7 @@ export function availableCards(state, side, deckId = null) {
         action.cardId === entry.cardId &&
         (side !== SIDES.PROTAGONIST || !deckId || action.deckId === deckId),
     ).length;
-    const onceUsed = card.oncePerLoop && usedOncePerLoop(state, side, entry.cardId, deckId);
+    const onceUsed = usedOncePerLoop(state, side, entry.cardId, deckId);
     return {
       ...entry,
       card,
@@ -397,7 +405,7 @@ export function placeAction(state, placement) {
   );
   assert(!duplicateTarget, "同一阵营不能在同一角色或版图上重复放置行动牌。");
 
-  if (card.oncePerLoop) {
+  if (cardOncePerLoop(card, side)) {
     assert(
       !usedOncePerLoop(next, side, cardId, deckId),
       `${cardLabel(cardId, side)}每轮限 1 次，本轮已经使用。`,
@@ -461,6 +469,12 @@ export function advancePhase(state) {
 
     case PHASES.PROTAGONIST_ACTION:
       requirePlacedActions(next, SIDES.PROTAGONIST, actionLimit(next, SIDES.PROTAGONIST));
+      next.phase = PHASES.ACTION_RESOLUTION;
+      appendEvent(next, { type: "phase_changed", message: `进入${PHASE_LABELS[next.phase]}。` });
+      revealActionCards(next);
+      return next;
+
+    case PHASES.ACTION_RESOLUTION:
       resolveActionCards(next);
       if (next.status !== STATUS.ACTIVE) return next;
       next.phase = PHASES.MASTERMIND_ABILITY;
@@ -480,6 +494,15 @@ export function advancePhase(state) {
     case PHASES.INCIDENT:
       resolveIncidents(next);
       if (next.status !== STATUS.ACTIVE) return next;
+      next.phase = PHASES.LEADER_ROTATION;
+      appendEvent(next, { type: "phase_changed", message: `进入${PHASE_LABELS[next.phase]}。` });
+      return next;
+
+    case PHASES.LEADER_ROTATION:
+      appendEvent(next, {
+        type: "leader_rotated",
+        message: "队长牌交给下一位主人公；当前本地原型暂以固定绿、红、蓝行动位表示。",
+      });
       next.phase = PHASES.END_OF_DAY;
       appendEvent(next, { type: "phase_changed", message: `进入${PHASE_LABELS[next.phase]}。` });
       return next;
@@ -500,7 +523,7 @@ function requirePlacedActions(state, side, count) {
   assert(placed === count, `${sideLabel(side)}需要暗置 ${count} 张行动牌，当前为 ${placed} 张。`);
 }
 
-function resolveActionCards(state) {
+function revealActionCards(state) {
   appendEvent(state, { type: "actions_revealed", message: "双方行动牌同时揭示。" });
   for (const action of state.placedActions) {
     appendEvent(state, {
@@ -511,9 +534,13 @@ function resolveActionCards(state) {
         action.targetId,
       )}。`,
     });
+  }
+}
+
+function resolveActionCards(state) {
+  for (const action of state.placedActions) {
     markOncePerLoopUsed(state, action);
   }
-
   resolveMovementCards(state);
   resolveTokenCards(state);
   state.placedActions = [];
@@ -557,15 +584,8 @@ function resolveMovementCards(state) {
       continue;
     }
 
-    let x = 0;
-    let y = 0;
-    for (const action of actions) {
-      const movement = actionCards[action.cardId].movement;
-      if (movement === "horizontal" || movement === "diagonal") x ^= 1;
-      if (movement === "vertical" || movement === "diagonal") y ^= 1;
-    }
-
-    if (x === 0 && y === 0) {
+    const movement = combinedMovement(actions);
+    if (!movement) {
       appendEvent(state, {
         type: "movement_cancelled",
         message: `${character.name}的移动方向互相抵消，没有移动。`,
@@ -573,8 +593,35 @@ function resolveMovementCards(state) {
       continue;
     }
 
+    const { x, y } = movementVector(movement);
     moveCharacterByVector(state, characterId, x, y);
   }
+}
+
+function combinedMovement(actions) {
+  const movements = new Set(
+    actions.map((action) => actionCards[action.cardId].movement).filter(Boolean),
+  );
+  if (movements.size === 0) return null;
+  if (movements.size === 1) return movements.values().next().value;
+
+  const hasVertical = movements.has("vertical");
+  const hasHorizontal = movements.has("horizontal");
+  const hasDiagonal = movements.has("diagonal");
+
+  if (hasVertical && hasHorizontal && hasDiagonal) return null;
+  if (hasVertical && hasHorizontal) return "diagonal";
+  if (hasVertical && hasDiagonal) return "horizontal";
+  if (hasHorizontal && hasDiagonal) return "vertical";
+  return null;
+}
+
+function movementVector(movement) {
+  return {
+    vertical: { x: 0, y: 1 },
+    horizontal: { x: 1, y: 0 },
+    diagonal: { x: 1, y: 1 },
+  }[movement];
 }
 
 function moveCharacterByVector(state, characterId, x, y) {
@@ -731,6 +778,7 @@ function roleHasGoodwillRefusal(role) {
 function mastermindAbilitySpecs(state, actor) {
   const actorRole = roleOf(state, actor.id);
   const specs = [];
+  const doctorAdjust = characterSkill(actor, "doctor_adjust_paranoia");
   if (actor.roleId === ROLE_IDS.MASTERMIND) {
     specs.push({
       abilityId: "role_mastermind_intrigue",
@@ -745,7 +793,11 @@ function mastermindAbilitySpecs(state, actor) {
       requiresOption: false,
     });
   }
-  if (characterSkill(actor, "doctor_adjust_paranoia") && roleHasGoodwillRefusal(actorRole)) {
+  if (
+    doctorAdjust &&
+    actor.goodwill >= doctorAdjust.requiredGoodwill &&
+    roleHasGoodwillRefusal(actorRole)
+  ) {
     specs.push({
       abilityId: "doctor_adjust_paranoia",
       abilityName: "医生：诊疗",
@@ -1366,6 +1418,18 @@ function failLoop(state, hiddenReason, publicMessage) {
 
   const script = scriptForState(state);
   if (state.loop >= script.loops) {
+    if (script.finalGuess === false) {
+      state.status = STATUS.FINISHED;
+      state.phase = PHASES.FINISHED;
+      state.winner = SIDES.MASTERMIND;
+      appendEvent(state, {
+        type: "mastermind_win",
+        message: `${script.moduleName} 取消最终决战，所有轮回均失败后剧作家胜利。`,
+      });
+      return;
+    }
+
+    prepareFinalGuess(state, script);
     state.status = STATUS.FINAL_GUESS;
     state.phase = PHASES.FINAL_GUESS;
     appendEvent(state, {
@@ -1377,6 +1441,19 @@ function failLoop(state, hiddenReason, publicMessage) {
 
   state.status = STATUS.LOOP_FAILED;
   state.phase = PHASES.LOOP_END;
+}
+
+function prepareFinalGuess(state, script) {
+  state.protagonistsAlive = true;
+  state.board = buildInitialBoard(script);
+  state.placedActions = [];
+  state.usedAbilitiesThisDay = [];
+  state.usedProtagonistAbilitiesThisDay = [];
+  state.pendingDecision = null;
+  appendEvent(state, {
+    type: "final_guess_board_reset",
+    message: "最终决战前，盘面复原到轮回开始状态。",
+  });
 }
 
 function finishDay(state) {
@@ -1485,7 +1562,7 @@ export function projectView(state, viewer) {
     const ownAction =
       (viewer === VIEWERS.MASTERMIND && action.side === SIDES.MASTERMIND) ||
       (viewer === VIEWERS.PROTAGONISTS && action.side === SIDES.PROTAGONIST);
-    if (ownAction) return action;
+    if (ownAction || projected.phase === PHASES.ACTION_RESOLUTION) return action;
     return {
       id: action.id,
       side: action.side,
