@@ -23,6 +23,7 @@ def find_project_root() -> Path:
 
 ROOT = find_project_root()
 WEB_ROOT = ROOT / "code" / "web"
+SITE_ROOT = ROOT / "products" / "public"
 MODULE_REFERENCE_ROOT = ROOT / "facts" / "source_material" / "reference" / "module"
 MODULE_REVIEW_ROOT = MODULE_REFERENCE_ROOT / "modules"
 TRAIT_POOL_PATH = MODULE_REFERENCE_ROOT / "identity-traits.md"
@@ -720,6 +721,14 @@ class TragedyLoopRequestHandler(SimpleHTTPRequestHandler):
 
     def do_GET(self) -> None:
         path = urlsplit(self.path).path
+        if path == "/site":
+            self.send_response(301)
+            self.send_header("Location", "/site/")
+            self.end_headers()
+            return
+        if path.startswith("/site/"):
+            self.serve_site_path(path.removeprefix("/site"))
+            return
         if path == "/api/module-editor/config":
             self.send_json(
                 {
@@ -794,6 +803,19 @@ class TragedyLoopRequestHandler(SimpleHTTPRequestHandler):
             self.serve_character_asset(path.removeprefix("/character-assets/"))
             return
         super().do_GET()
+
+    def serve_site_path(self, site_path: str) -> None:
+        original_directory = self.directory
+        original_path = self.path
+        split_url = urlsplit(self.path)
+        query = f"?{split_url.query}" if split_url.query else ""
+        self.directory = str(SITE_ROOT)
+        self.path = f"{site_path or '/'}{query}"
+        try:
+            super().do_GET()
+        finally:
+            self.directory = original_directory
+            self.path = original_path
 
     def do_PUT(self) -> None:
         path = urlsplit(self.path).path
@@ -909,6 +931,7 @@ def serve_web(host: str, port: int) -> None:
     server = ThreadingHTTPServer((host, port), handler)
     url = f"http://{host}:{port}/"
     print(f"{PROJECT_NAME} Web prototype: {url}", flush=True)
+    print(f"Reference site: {url}site/", flush=True)
     print(f"Module editor: {url}editor.html", flush=True)
     print(f"Character card editor: {url}characters.html", flush=True)
     print(f"Module editor target: {MODULE_REVIEW_ROOT}", flush=True)

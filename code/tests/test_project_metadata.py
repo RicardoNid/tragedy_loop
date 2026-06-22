@@ -4,6 +4,7 @@ import pytest
 
 from tragedy_loop.app import (
     PROJECT_NAME,
+    SITE_ROOT,
     WEB_ROOT,
     build_parser,
     parse_character_cards_markdown,
@@ -31,6 +32,10 @@ def test_web_root_exists() -> None:
     assert (WEB_ROOT / "editor.html").is_file()
     assert (WEB_ROOT / "traits.html").is_file()
     assert (WEB_ROOT / "characters.html").is_file()
+
+
+def test_site_root_exists() -> None:
+    assert (SITE_ROOT / "slides" / "beginner-teaching.html").is_file()
 
 
 def test_module_markdown_round_trip(tmp_path: Path) -> None:
