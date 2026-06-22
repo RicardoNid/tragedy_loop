@@ -25,6 +25,7 @@ def find_project_root() -> Path:
 
 ROOT = find_project_root()
 WEB_ROOT = ROOT / "code" / "web"
+HOME_PATH = WEB_ROOT / "home.html"
 SITE_ROOT = ROOT / "products" / "public"
 RUNTIME_ROOT = Path(os.environ.get("TRAGEDY_LOOP_RUNTIME_ROOT", ROOT / "runtime"))
 PROTOTYPE_LOG_ROOT = RUNTIME_ROOT / "prototype-logs"
@@ -751,7 +752,12 @@ class TragedyLoopRequestHandler(SimpleHTTPRequestHandler):
         super().__init__(*args, directory=WEB_ROOT, **kwargs)
 
     def do_GET(self) -> None:
-        path = urlsplit(self.path).path
+        split_url = urlsplit(self.path)
+        path = split_url.path
+        if self.maybe_serve_home_path(path, split_url.query, head=False):
+            return
+        if self.maybe_serve_prototype_path(path, head=False):
+            return
         if self.maybe_serve_site_path(path, head=False):
             return
         if path == "/api/module-editor/config":
@@ -830,10 +836,38 @@ class TragedyLoopRequestHandler(SimpleHTTPRequestHandler):
         super().do_GET()
 
     def do_HEAD(self) -> None:
-        path = urlsplit(self.path).path
+        split_url = urlsplit(self.path)
+        path = split_url.path
+        if self.maybe_serve_home_path(path, split_url.query, head=True):
+            return
+        if self.maybe_serve_prototype_path(path, head=True):
+            return
         if self.maybe_serve_site_path(path, head=True):
             return
         super().do_HEAD()
+
+    def maybe_serve_home_path(self, path: str, query: str, *, head: bool) -> bool:
+        if path not in {"/", "/index.html"}:
+            return False
+        if query.startswith("view=") or "&view=" in query:
+            suffix = f"?{query}" if query else ""
+            self.send_response(302)
+            self.send_header("Location", f"/prototype/{suffix}")
+            self.end_headers()
+            return True
+        self.serve_file(HOME_PATH, head=head)
+        return True
+
+    def maybe_serve_prototype_path(self, path: str, *, head: bool) -> bool:
+        if path == "/prototype":
+            self.send_response(301)
+            self.send_header("Location", "/prototype/")
+            self.end_headers()
+            return True
+        if path.startswith("/prototype/"):
+            self.serve_static_path(WEB_ROOT, path.removeprefix("/prototype"), head=head)
+            return True
+        return False
 
     def maybe_serve_site_path(self, path: str, *, head: bool) -> bool:
         if path == "/site":
@@ -847,12 +881,15 @@ class TragedyLoopRequestHandler(SimpleHTTPRequestHandler):
         return False
 
     def serve_site_path(self, site_path: str, *, head: bool = False) -> None:
+        self.serve_static_path(SITE_ROOT, site_path, head=head)
+
+    def serve_static_path(self, directory: Path, static_path: str, *, head: bool = False) -> None:
         original_directory = self.directory
         original_path = self.path
         split_url = urlsplit(self.path)
         query = f"?{split_url.query}" if split_url.query else ""
-        self.directory = str(SITE_ROOT)
-        self.path = f"{site_path or '/'}{query}"
+        self.directory = str(directory)
+        self.path = f"{static_path or '/'}{query}"
         try:
             if head:
                 super().do_HEAD()
@@ -861,6 +898,18 @@ class TragedyLoopRequestHandler(SimpleHTTPRequestHandler):
         finally:
             self.directory = original_directory
             self.path = original_path
+
+    def serve_file(self, path: Path, *, head: bool = False) -> None:
+        if not path.is_file():
+            self.send_error(404, "File not found.")
+            return
+        body = path.read_bytes()
+        self.send_response(200)
+        self.send_header("Content-Type", mimetypes.guess_type(path.name)[0] or "text/html")
+        self.send_header("Content-Length", str(len(body)))
+        self.end_headers()
+        if not head:
+            self.wfile.write(body)
 
     def do_PUT(self) -> None:
         path = urlsplit(self.path).path
@@ -1004,7 +1053,8 @@ def serve_web(host: str, port: int) -> None:
     handler = functools.partial(TragedyLoopRequestHandler)
     server = ThreadingHTTPServer((host, port), handler)
     url = f"http://{host}:{port}/"
-    print(f"{PROJECT_NAME} Web prototype: {url}", flush=True)
+    print(f"{PROJECT_NAME} portal: {url}", flush=True)
+    print(f"Web prototype: {url}prototype/", flush=True)
     print(f"Reference site: {url}site/", flush=True)
     print(f"Module editor: {url}editor.html", flush=True)
     print(f"Character card editor: {url}characters.html", flush=True)

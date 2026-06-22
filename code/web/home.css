@@ -1,0 +1,153 @@
+:root {
+  color-scheme: light;
+  --bg: #f6f7f4;
+  --panel: #ffffff;
+  --ink: #202326;
+  --muted: #626b72;
+  --line: #d6dce0;
+  --red: #8d2533;
+  --teal: #206f67;
+  --gold: #9b6b22;
+  --blue: #315b88;
+  --shadow: 0 18px 45px rgba(30, 39, 45, 0.13);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background:
+    linear-gradient(180deg, rgba(32, 111, 103, 0.08), transparent 290px),
+    var(--bg);
+  color: var(--ink);
+  font-family:
+    Inter, "SF Pro Display", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  letter-spacing: 0;
+}
+
+.portal-shell {
+  width: min(1040px, calc(100% - 32px));
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 64px 0 48px;
+}
+
+.portal-header {
+  max-width: 760px;
+  padding-bottom: 28px;
+}
+
+.eyebrow {
+  margin: 0 0 10px;
+  color: var(--red);
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0;
+  font-size: 56px;
+  font-weight: 820;
+  line-height: 1.04;
+}
+
+.lede {
+  margin: 14px 0 0;
+  color: var(--muted);
+  font-size: 20px;
+  line-height: 1.55;
+}
+
+.portal-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.portal-card {
+  display: grid;
+  min-height: 190px;
+  align-content: start;
+  gap: 12px;
+  border: 1px solid var(--line);
+  border-top: 5px solid var(--blue);
+  border-radius: 8px;
+  background: var(--panel);
+  box-shadow: var(--shadow);
+  color: inherit;
+  padding: 22px;
+  text-decoration: none;
+  transition:
+    border-color 0.16s ease,
+    transform 0.16s ease,
+    box-shadow 0.16s ease;
+}
+
+.portal-card:hover {
+  border-color: #9fb2bf;
+  box-shadow: 0 20px 52px rgba(30, 39, 45, 0.18);
+  transform: translateY(-2px);
+}
+
+.primary-card {
+  border-top-color: var(--teal);
+}
+
+.portal-card:nth-child(2) {
+  border-top-color: var(--gold);
+}
+
+.card-kicker {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.portal-card strong {
+  font-size: 25px;
+  line-height: 1.2;
+}
+
+.portal-card span:last-child {
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.portal-card.compact {
+  min-height: 112px;
+  box-shadow: none;
+}
+
+.portal-card.compact strong {
+  font-size: 19px;
+}
+
+@media (max-width: 760px) {
+  .portal-shell {
+    width: min(100% - 24px, 520px);
+    padding-top: 36px;
+  }
+
+  h1 {
+    font-size: 38px;
+  }
+
+  .lede {
+    font-size: 17px;
+  }
+
+  .portal-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .portal-card {
+    min-height: 150px;
+  }
+}

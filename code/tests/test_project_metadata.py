@@ -4,6 +4,7 @@ import pytest
 import tragedy_loop.app as app
 
 from tragedy_loop.app import (
+    HOME_PATH,
     PROJECT_NAME,
     SITE_ROOT,
     WEB_ROOT,
@@ -31,6 +32,8 @@ def test_cli_help_exits_without_launching_gui() -> None:
 
 
 def test_web_root_exists() -> None:
+    assert HOME_PATH.is_file()
+    assert (WEB_ROOT / "home.css").is_file()
     assert (WEB_ROOT / "index.html").is_file()
     assert (WEB_ROOT / "editor.html").is_file()
     assert (WEB_ROOT / "traits.html").is_file()

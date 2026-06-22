@@ -106,7 +106,7 @@ def build_remote_deploy_script() -> str:
         """
     ).strip()
     deploy_before_service = textwrap.dedent(
-        f"""
+        """
         git fetch origin main
         git checkout -B main origin/main
         git reset --hard origin/main
@@ -133,7 +133,9 @@ def build_remote_deploy_script() -> str:
         systemctl --user restart {SERVER_SERVICE}
         sleep 1
         systemctl --user is-active {SERVER_SERVICE}
-        curl -fsS -o /dev/null -w 'prototype %{{http_code}}\\n' http://127.0.0.1:{SERVER_PORT}/
+        curl -fsS -o /dev/null -w 'portal %{{http_code}}\\n' http://127.0.0.1:{SERVER_PORT}/
+        curl -fsS -o /dev/null -w 'prototype %{{http_code}}\\n' \\
+          http://127.0.0.1:{SERVER_PORT}/prototype/
         curl -fsS -o /dev/null -w 'site %{{http_code}}\\n' \\
           http://127.0.0.1:{SERVER_PORT}/site/slides/beginner-teaching.html
         ss -H -ltnp '( sport = :{SERVER_PORT} )'
