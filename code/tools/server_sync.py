@@ -86,6 +86,7 @@ def remote_capture_script(*, reset_after_capture: bool) -> str:
           CAPTURE_COMMIT="$(git rev-parse HEAD)"
           git push origin HEAD:refs/heads/$CAPTURE_BRANCH
           echo "Captured server edits in $CAPTURE_BRANCH ($CAPTURE_COMMIT)."
+          rm -rf runtime/prototype-logs/* {shlex.quote(SERVER_RUNTIME_ROOT)}/prototype-logs/*
           {reset_line}
         fi
         export CAPTURE_BRANCH CAPTURE_COMMIT CAPTURE_FACT_PATHS
