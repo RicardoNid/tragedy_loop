@@ -54,6 +54,7 @@ uv run pytest
 uv run ruff check .
 npm run server:deploy
 npm run server:capture
+npm run server:reconcile
 ```
 
 ## 长期部署与协作者改动回收
@@ -81,20 +82,28 @@ npm run server:deploy
 
 协作者通过编辑器产生的事实改动主要落在 `facts/` 下。Web 原型测试日志由 `/api/prototype-log` 写入服务器运行时目录，并由捕获流程快照到 `runtime/prototype-logs/`，只保存在 `server/capture-*` 分支中，不应直接合入 `main`。
 
-取回并选择性合并服务器改动：
+每日 Codex 定时任务和人工完整回收流程应在主工作树 `/Users/ltr/Documents/tragedy_loop` 执行：
+
+```bash
+npm run server:reconcile
+```
+
+该流程会更新本机 `main`，在服务器项目上为当前协作者改动创建 `server/capture-<timestamp>` 临时分支，取回该分支，只把 `facts/` 下的协作者事实改动合入本机 `main` 并提交；`runtime/prototype-logs/` 只保存在捕获分支中。随后它会运行测试，把包含协作者事实改动和本机代码改动的最新 `main` 推送到 GitHub 与 NAS Git，并用 NAS `main` 重新部署服务器。若主工作树未清理、需要非快进更新，或 `facts/` 合并冲突，应停止并人工处理。
+
+仅取回服务器改动并手动选择性合并时：
 
 ```bash
 npm run server:capture
-git branch -r --list 'origin/server/capture-*'
-git diff origin/main...origin/server/capture-<timestamp> -- facts
-git checkout -p origin/server/capture-<timestamp> -- facts
+git branch -r --list 'nas/server/capture-*'
+git diff origin/main...nas/server/capture-<timestamp> -- facts
+git checkout -p nas/server/capture-<timestamp> -- facts
 ```
 
 查看原型日志：
 
 ```bash
-git ls-tree -r --name-only origin/server/capture-<timestamp> runtime/prototype-logs
-git show origin/server/capture-<timestamp>:runtime/prototype-logs/<date>/<session>.jsonl
+git ls-tree -r --name-only nas/server/capture-<timestamp> runtime/prototype-logs
+git show nas/server/capture-<timestamp>:runtime/prototype-logs/<date>/<session>.jsonl
 ```
 
 选择性合并后再跑测试、提交，并用 `npm run server:deploy` 发布到服务器。部署脚本会尽量把尚未合并的服务器事实编辑重放回部署工作树，避免协作者正在审阅的事实内容被代码更新直接覆盖；如果主分支和服务器事实编辑改到同一文件，先检查捕获分支 diff，再决定以哪边为准。

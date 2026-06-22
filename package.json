@@ -12,6 +12,7 @@
     "app:test": "node --test code/web/core/rules.test.mjs",
     "server:capture": "uv run python code/tools/server_sync.py capture",
     "server:deploy": "uv run python code/tools/server_sync.py deploy",
+    "server:reconcile": "uv run python code/tools/server_sync.py reconcile",
     "server:review-help": "uv run python code/tools/server_sync.py review-help",
     "slides:generate": "uv run python code/tools/build_review_slides.py",
     "slides:diagrams": "mmdc -i products/slides/assets/game-flow.mmd -o products/slides/assets/game-flow.png -b transparent && mmdc -i products/slides/assets/round-flow.mmd -o products/slides/assets/round-flow.png -b transparent",
