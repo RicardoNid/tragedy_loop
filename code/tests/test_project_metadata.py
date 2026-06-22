@@ -5,10 +5,13 @@ import tragedy_loop.app as app
 
 from tragedy_loop.app import (
     HOME_PATH,
+    CHARACTER_CARDS_PATH,
     PROJECT_NAME,
     SITE_ROOT,
+    TRAIT_POOL_PATH,
     WEB_ROOT,
     build_parser,
+    list_module_summaries,
     parse_character_cards_markdown,
     parse_module_markdown,
     parse_trait_pool_markdown,
@@ -41,7 +44,17 @@ def test_web_root_exists() -> None:
 
 
 def test_site_root_exists() -> None:
+    assert (SITE_ROOT / "index.html").is_file()
+    assert (SITE_ROOT / "site.css").is_file()
     assert (SITE_ROOT / "slides" / "beginner-teaching.html").is_file()
+
+
+def test_reference_review_sources_are_deployable() -> None:
+    modules = list_module_summaries()
+    assert len(modules) == 8
+    assert any(module["id"] == "first-steps" and module["counts"]["roles"] for module in modules)
+    assert parse_character_cards_markdown(CHARACTER_CARDS_PATH)
+    assert parse_trait_pool_markdown(TRAIT_POOL_PATH)
 
 
 def test_prototype_log_writes_jsonl(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:

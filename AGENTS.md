@@ -69,7 +69,7 @@ npm run server:capture
 - 单端口：`18174`
 - 首页入口：`http://<公网映射>/`
 - Web 原型：`http://<公网映射>/prototype/`
-- 资料站点：`http://<公网映射>/site/slides/beginner-teaching.html`
+- 资料站点：`http://<公网映射>/site/`
 
 每次主要提交后，应使用仓库脚本部署，而不是手写 SSH 步骤：
 

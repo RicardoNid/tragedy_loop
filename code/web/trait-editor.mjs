@@ -82,8 +82,9 @@ function render() {
       </div>
       <div class="topbar-actions">
         <span class="target">${escapeHtml(state.target || "读取中")}</span>
-        <a class="secondary-link" href="./characters.html">角色卡</a>
-        <a class="secondary-link" href="./editor.html">模组编辑器</a>
+        <a class="secondary-link" href="/site/characters.html">角色卡</a>
+        <a class="secondary-link" href="/site/editor.html">模组编辑器</a>
+        <a class="secondary-link" href="/site/">资料站</a>
       </div>
     </header>
 

@@ -151,6 +151,15 @@ CHARACTER_ABILITY_RE = re.compile(
 )
 LOG_SESSION_RE = re.compile(r"[^A-Za-z0-9_.-]+")
 MAX_PROTOTYPE_LOG_BYTES = 2_000_000
+SITE_WEB_FILES = {
+    "editor.html",
+    "characters.html",
+    "traits.html",
+    "module-editor.css",
+    "module-editor.mjs",
+    "character-editor.mjs",
+    "trait-editor.mjs",
+}
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -876,7 +885,12 @@ class TragedyLoopRequestHandler(SimpleHTTPRequestHandler):
             self.end_headers()
             return True
         if path.startswith("/site/"):
-            self.serve_site_path(path.removeprefix("/site"), head=head)
+            site_path = path.removeprefix("/site")
+            file_name = site_path.removeprefix("/")
+            if file_name in SITE_WEB_FILES:
+                self.serve_static_path(WEB_ROOT, site_path, head=head)
+            else:
+                self.serve_site_path(site_path, head=head)
             return True
         return False
 
