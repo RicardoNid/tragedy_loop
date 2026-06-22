@@ -196,9 +196,10 @@ function render() {
       </div>
       <div class="topbar-actions">
         <span class="target">${escapeHtml(state.config?.target_directory ?? "读取中")}</span>
-        <a class="secondary-link" href="./characters.html">角色卡</a>
-        <a class="secondary-link" href="./traits.html">身份特性池</a>
-        <a class="secondary-link" href="./index.html">游戏原型</a>
+        <a class="secondary-link" href="/site/characters.html">角色卡</a>
+        <a class="secondary-link" href="/site/traits.html">身份特性池</a>
+        <a class="secondary-link" href="/site/">资料站</a>
+        <a class="secondary-link" href="/prototype/">游戏原型</a>
       </div>
     </header>
 
@@ -767,6 +768,23 @@ function countRules() {
 function markDirty() {
   state.dirty = true;
   state.message = "";
+  state.error = "";
+  updateDirtyControls();
+}
+
+function updateDirtyControls() {
+  document.querySelectorAll('[data-action="save"]').forEach((button) => {
+    button.disabled = state.busy || !state.dirty;
+  });
+  const main = document.querySelector(".editor-main");
+  if (!main || !state.dirty) return;
+  let notice = main.querySelector(".notice");
+  if (!notice) {
+    notice = document.createElement("div");
+    main.prepend(notice);
+  }
+  notice.className = "notice pending";
+  notice.textContent = "有未保存修改";
 }
 
 function titleName(title) {

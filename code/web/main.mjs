@@ -33,7 +33,9 @@ import {
 } from "./core/engine.mjs";
 
 const STORAGE_KEY = "tragedy-loop:shared-state:v2";
+const SESSION_KEY = "tragedy-loop:session-id:v1";
 const CHANNEL_NAME = "tragedy-loop:shared-session";
+const LOG_ENDPOINT = "/api/prototype-log";
 const PAGE_MODES = {
   DUAL: "dual",
   MASTERMIND: "mastermind",
@@ -43,12 +45,14 @@ const PAGE_MODES = {
 const query = new URLSearchParams(window.location.search);
 const pageMode = normalizePageMode(query.get("view"));
 const channel = "BroadcastChannel" in window ? new BroadcastChannel(CHANNEL_NAME) : null;
+const sessionId = getSessionId();
 
 let state = loadStoredState() ?? createGame();
 let errorMessage = "";
 let selectedCardId = null;
 let selectedMastermindAbilityKey = null;
 let selectedProtagonistAbilityKey = null;
+let lastLogSignature = "";
 
 const app = document.querySelector("#app");
 
@@ -1019,6 +1023,7 @@ function publishState() {
   };
   localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
   channel?.postMessage(payload);
+  sendPrototypeLog("state_published");
 }
 
 function receiveSharedState(nextState) {
@@ -1030,6 +1035,54 @@ function receiveSharedState(nextState) {
   selectedMastermindAbilityKey = null;
   selectedProtagonistAbilityKey = null;
   render();
+}
+
+function getSessionId() {
+  const existing = localStorage.getItem(SESSION_KEY);
+  if (existing) return existing;
+  const bytes = new Uint32Array(2);
+  globalThis.crypto?.getRandomValues?.(bytes);
+  const generated = bytes.some(Boolean)
+    ? `${Date.now().toString(36)}-${Array.from(bytes, (part) => part.toString(36)).join("-")}`
+    : `${Date.now().toString(36)}-${Math.random().toString(36).slice(2)}`;
+  localStorage.setItem(SESSION_KEY, generated);
+  return generated;
+}
+
+function sendPrototypeLog(reason) {
+  const latestEvent = state.eventLog.at(-1) ?? null;
+  const signature = `${state.scriptId}:${state.eventSeq}:${state.loop}:${state.day}:${state.phase}:${state.status}:${pageMode}`;
+  if (signature === lastLogSignature) return;
+  lastLogSignature = signature;
+
+  const payload = {
+    sessionId,
+    reason,
+    pageMode,
+    href: window.location.href,
+    scriptId: state.scriptId,
+    loop: state.loop,
+    day: state.day,
+    phase: state.phase,
+    status: state.status,
+    winner: state.winner,
+    eventSeq: state.eventSeq,
+    latestEvent,
+    state,
+  };
+  const body = JSON.stringify(payload);
+  if (navigator.sendBeacon) {
+    navigator.sendBeacon(LOG_ENDPOINT, new Blob([body], { type: "application/json" }));
+    return;
+  }
+  fetch(LOG_ENDPOINT, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body,
+    keepalive: true,
+  }).catch(() => {
+    // Logging is best-effort and should never interrupt play.
+  });
 }
 
 channel?.addEventListener("message", (event) => {

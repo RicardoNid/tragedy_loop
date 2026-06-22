@@ -82,8 +82,9 @@ function render() {
       </div>
       <div class="topbar-actions">
         <span class="target">${escapeHtml(state.target || "读取中")}</span>
-        <a class="secondary-link" href="./characters.html">角色卡</a>
-        <a class="secondary-link" href="./editor.html">模组编辑器</a>
+        <a class="secondary-link" href="/site/characters.html">角色卡</a>
+        <a class="secondary-link" href="/site/editor.html">模组编辑器</a>
+        <a class="secondary-link" href="/site/">资料站</a>
       </div>
     </header>
 
@@ -202,6 +203,23 @@ function moveRow(index, direction) {
 function markDirty() {
   state.dirty = true;
   state.message = "";
+  state.error = "";
+  updateDirtyControls();
+}
+
+function updateDirtyControls() {
+  document.querySelectorAll('[data-action="save"]').forEach((button) => {
+    button.disabled = state.busy || !state.dirty;
+  });
+  const main = document.querySelector(".editor-main");
+  if (!main || !state.dirty) return;
+  let notice = main.querySelector(".notice");
+  if (!notice) {
+    notice = document.createElement("div");
+    main.prepend(notice);
+  }
+  notice.className = "notice pending";
+  notice.textContent = "有未保存修改";
 }
 
 function escapeHtml(value) {

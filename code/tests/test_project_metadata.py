@@ -1,17 +1,25 @@
 from pathlib import Path
 
 import pytest
+import tragedy_loop.app as app
 
 from tragedy_loop.app import (
+    HOME_PATH,
+    CHARACTER_CARDS_PATH,
     PROJECT_NAME,
+    SITE_ROOT,
+    TRAIT_POOL_PATH,
     WEB_ROOT,
     build_parser,
+    list_module_summaries,
     parse_character_cards_markdown,
     parse_module_markdown,
     parse_trait_pool_markdown,
     render_character_cards_markdown,
     render_module_markdown,
     render_trait_pool_markdown,
+    safe_log_session_id,
+    write_prototype_log,
 )
 
 
@@ -27,10 +35,43 @@ def test_cli_help_exits_without_launching_gui() -> None:
 
 
 def test_web_root_exists() -> None:
+    assert HOME_PATH.is_file()
+    assert (WEB_ROOT / "home.css").is_file()
     assert (WEB_ROOT / "index.html").is_file()
     assert (WEB_ROOT / "editor.html").is_file()
     assert (WEB_ROOT / "traits.html").is_file()
     assert (WEB_ROOT / "characters.html").is_file()
+
+
+def test_site_root_exists() -> None:
+    assert (SITE_ROOT / "index.html").is_file()
+    assert (SITE_ROOT / "site.css").is_file()
+    assert (SITE_ROOT / "slides" / "beginner-teaching.html").is_file()
+
+
+def test_reference_review_sources_are_deployable() -> None:
+    modules = list_module_summaries()
+    assert len(modules) == 8
+    assert any(module["id"] == "first-steps" and module["counts"]["roles"] for module in modules)
+    assert parse_character_cards_markdown(CHARACTER_CARDS_PATH)
+    assert parse_trait_pool_markdown(TRAIT_POOL_PATH)
+
+
+def test_prototype_log_writes_jsonl(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
+    monkeypatch.setattr(app, "RUNTIME_ROOT", tmp_path)
+    monkeypatch.setattr(app, "PROTOTYPE_LOG_ROOT", tmp_path / "prototype-logs")
+
+    assert safe_log_session_id("../bad session?") == "bad-session"
+
+    log_path = write_prototype_log(
+        {"sessionId": "../bad session?", "eventSeq": 1},
+        remote_addr="127.0.0.1",
+        user_agent="pytest",
+    )
+
+    assert log_path.parent.parent == tmp_path / "prototype-logs"
+    assert log_path.name == "bad-session.jsonl"
+    assert '"eventSeq": 1' in log_path.read_text(encoding="utf-8")
 
 
 def test_module_markdown_round_trip(tmp_path: Path) -> None:

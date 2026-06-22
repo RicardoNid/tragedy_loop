@@ -6,6 +6,7 @@ __pycache__/
 .pytest_cache/
 .ruff_cache/
 node_modules/
+runtime/
 
 build/
 dist/
@@ -19,4 +20,9 @@ facts/source_material/scans/*
 # Local source files and extraction dumps. Keep these outside Git unless
 # explicitly approved for archival.
 *.pdf
-facts/source_material/
+facts/source_material/**/*.png
+facts/source_material/**/*.jpg
+facts/source_material/**/*.jpeg
+facts/source_material/**/*.webp
+facts/source_material/**/*.tif
+facts/source_material/**/*.tiff
