@@ -111,7 +111,7 @@ def build_remote_deploy_script() -> str:
         git checkout -B main origin/main
         git reset --hard origin/main
 
-        if [ -n "${{CAPTURE_COMMIT:-}}" ] && [ -n "${{CAPTURE_FACT_PATHS:-}}" ]; then
+        if [ -n "${CAPTURE_COMMIT:-}" ] && [ -n "${CAPTURE_FACT_PATHS:-}" ]; then
           printf '%s\\n' "$CAPTURE_FACT_PATHS" \\
             | git restore --source "$CAPTURE_COMMIT" --worktree --pathspec-from-file=-
           echo "Reapplied captured server fact edits to deployed worktree."
