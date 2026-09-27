@@ -1,0 +1,387 @@
+{
+  "id": "4ce226ace4db3d71",
+  "title": "MZ-60",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "MZ-60",
+    "loops": 5,
+    "days": 6,
+    "schedule": [
+      {
+        "day": 3,
+        "incidentText": "暴露"
+      },
+      {
+        "day": 4,
+        "incidentText": "百鬼夜行"
+      },
+      {
+        "day": 5,
+        "incidentText": "怨恨的咆哮"
+      },
+      {
+        "day": 6,
+        "incidentText": "异界漂流"
+      }
+    ],
+    "剧本名": "充满谎言的街道",
+    "日文名": "嘘まみれの街で",
+    "作者": "弾濫",
+    "轮数": "5",
+    "天数": "6"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-60?oldid=2465",
+      "snapshot": "sources/wiki/pages/da854761b12735d2.json",
+      "capturedAt": "2026-09-27T04:56:50.376Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-60?oldid=2465",
+      "snapshot": "sources/wiki/pages/da854761b12735d2.json",
+      "capturedAt": "2026-09-27T04:56:50.376Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-60?oldid=2465",
+      "snapshot": "sources/wiki/pages/da854761b12735d2.json",
+      "capturedAt": "2026-09-27T04:56:50.376Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-60?oldid=2465",
+      "snapshot": "sources/wiki/pages/da854761b12735d2.json",
+      "capturedAt": "2026-09-27T04:56:50.376Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-60?oldid=2465",
+      "snapshot": "sources/wiki/pages/da854761b12735d2.json",
+      "capturedAt": "2026-09-27T04:56:50.376Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 62
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 62
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 62
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 62
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 62
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-60?oldid=2465",
+      "snapshot": "sources/wiki/pages/da854761b12735d2.json",
+      "capturedAt": "2026-09-27T04:56:50.376Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 62
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-60?oldid=2465",
+        "snapshot": "sources/wiki/pages/da854761b12735d2.json",
+        "capturedAt": "2026-09-27T04:56:50.376Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "MZ-60",
+        "loops": 5,
+        "days": 6,
+        "schedule": [
+          {
+            "day": 3,
+            "incidentText": "暴露"
+          },
+          {
+            "day": 4,
+            "incidentText": "百鬼夜行"
+          },
+          {
+            "day": 5,
+            "incidentText": "怨恨的咆哮"
+          },
+          {
+            "day": 6,
+            "incidentText": "异界漂流"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 3,
+        "row": 62
+      },
+      "fields": {
+        "scenarioCode": "MZ-60",
+        "剧本名": "充满谎言的街道",
+        "日文名": "嘘まみれの街で",
+        "作者": "弾濫",
+        "轮数": "5",
+        "天数": "6"
+      }
+    }
+  ],
+  "wikiTitle": "MZ-60",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Midnight Zone"
+  ],
+  "module": "Midnight Zone",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "4ce226ace4db3d71",
+        "title": "MZ-60",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "MZ-60",
+          "loops": 5,
+          "days": 6,
+          "schedule": [
+            {
+              "day": 3,
+              "incidentText": "暴露"
+            },
+            {
+              "day": 4,
+              "incidentText": "百鬼夜行"
+            },
+            {
+              "day": 5,
+              "incidentText": "怨恨的咆哮"
+            },
+            {
+              "day": 6,
+              "incidentText": "异界漂流"
+            }
+          ],
+          "剧本名": "充满谎言的街道",
+          "日文名": "嘘まみれの街で",
+          "作者": "弾濫",
+          "轮数": "5",
+          "天数": "6"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-60?oldid=2465",
+            "snapshot": "sources/wiki/pages/da854761b12735d2.json",
+            "capturedAt": "2026-09-27T04:56:50.376Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-60?oldid=2465",
+            "snapshot": "sources/wiki/pages/da854761b12735d2.json",
+            "capturedAt": "2026-09-27T04:56:50.376Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-60?oldid=2465",
+            "snapshot": "sources/wiki/pages/da854761b12735d2.json",
+            "capturedAt": "2026-09-27T04:56:50.376Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-60?oldid=2465",
+            "snapshot": "sources/wiki/pages/da854761b12735d2.json",
+            "capturedAt": "2026-09-27T04:56:50.376Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-60?oldid=2465",
+            "snapshot": "sources/wiki/pages/da854761b12735d2.json",
+            "capturedAt": "2026-09-27T04:56:50.376Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 62
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 62
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 62
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 62
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 62
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-60?oldid=2465",
+            "snapshot": "sources/wiki/pages/da854761b12735d2.json",
+            "capturedAt": "2026-09-27T04:56:50.376Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 62
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-60?oldid=2465",
+              "snapshot": "sources/wiki/pages/da854761b12735d2.json",
+              "capturedAt": "2026-09-27T04:56:50.376Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "MZ-60",
+              "loops": 5,
+              "days": 6,
+              "schedule": [
+                {
+                  "day": 3,
+                  "incidentText": "暴露"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "百鬼夜行"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "怨恨的咆哮"
+                },
+                {
+                  "day": 6,
+                  "incidentText": "异界漂流"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 3,
+              "row": 62
+            },
+            "fields": {
+              "scenarioCode": "MZ-60",
+              "剧本名": "充满谎言的街道",
+              "日文名": "嘘まみれの街で",
+              "作者": "弾濫",
+              "轮数": "5",
+              "天数": "6"
+            }
+          }
+        ],
+        "body": "text/scenarios/4ce226ace4db3d71.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-60?oldid=2465",
+          "snapshot": "sources/wiki/pages/da854761b12735d2.json",
+          "capturedAt": "2026-09-27T04:56:50.376Z"
+        },
+        "wikiTitle": "MZ-60",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "MZ-69非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-69%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-60?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Midnight Zone"
+        ],
+        "module": "Midnight Zone"
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [],
+  "conflicts": []
+}

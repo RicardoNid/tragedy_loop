@@ -1,0 +1,67 @@
+{
+  "id": "341ad8aa0528e015",
+  "title": "监视者有1绝望，或有1密谋和1希望，这些情况下能让主人公死亡吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / LL / 第 12 行",
+  "aliases": [],
+  "fields": {
+    "question": "监视者有1绝望，或有1密谋和1希望，这些情况下能让主人公死亡吗？",
+    "answer": "前者能，后者不能"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=f3jh0y",
+      "snapshot": "sources/faq-sheet/ll.json",
+      "sheet": "LL",
+      "row": 12,
+      "cells": "A12:B12",
+      "capturedAt": "2026-09-27T05:40:28.237Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=f3jh0y",
+      "snapshot": "sources/faq-sheet/ll.json",
+      "sheet": "LL",
+      "row": 12,
+      "cells": "A12:B12",
+      "capturedAt": "2026-09-27T05:40:28.237Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=f3jh0y",
+      "snapshot": "sources/faq-sheet/ll.json",
+      "sheet": "LL",
+      "row": 12,
+      "cells": "A12:B12",
+      "capturedAt": "2026-09-27T05:40:28.237Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=f3jh0y",
+        "snapshot": "sources/faq-sheet/ll.json",
+        "sheet": "LL",
+        "row": 12,
+        "cells": "A12:B12",
+        "capturedAt": "2026-09-27T05:40:28.237Z"
+      },
+      "fields": {
+        "question": "监视者有1绝望，或有1密谋和1希望，这些情况下能让主人公死亡吗？",
+        "answer": "前者能，后者不能"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "LL",
+    "关于能力",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

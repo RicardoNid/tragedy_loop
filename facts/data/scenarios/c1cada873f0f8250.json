@@ -1,0 +1,510 @@
+{
+  "id": "c1cada873f0f8250",
+  "title": "HSA-27",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "HSA-27非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "HSA-27",
+    "loops": "无限",
+    "days": 8,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "连续杀人（MC）"
+      },
+      {
+        "day": 2,
+        "incidentText": "亵渎杀人"
+      },
+      {
+        "day": 3,
+        "incidentText": "死者默示录"
+      },
+      {
+        "day": 4,
+        "incidentText": "连续杀人（MC）"
+      },
+      {
+        "day": 5,
+        "incidentText": "言灵诅咒"
+      },
+      {
+        "day": 6,
+        "incidentText": "连续杀人（MC）"
+      },
+      {
+        "day": 7,
+        "incidentText": "送葬"
+      },
+      {
+        "day": 8,
+        "incidentText": "疯狂之夜"
+      }
+    ],
+    "剧本名": "濒死轮回的我、介入惨剧的憎恶",
+    "作者": "respeak",
+    "轮数": "n",
+    "天数": "8"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-27",
+      "snapshot": "sources/wiki/pages/1b73f06de7dada82.json",
+      "capturedAt": "2026-09-27T04:31:02.638Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-27",
+      "snapshot": "sources/wiki/pages/1b73f06de7dada82.json",
+      "capturedAt": "2026-09-27T04:31:02.638Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-27",
+      "snapshot": "sources/wiki/pages/1b73f06de7dada82.json",
+      "capturedAt": "2026-09-27T04:31:02.638Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-27",
+      "snapshot": "sources/wiki/pages/1b73f06de7dada82.json",
+      "capturedAt": "2026-09-27T04:31:02.638Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-27",
+      "snapshot": "sources/wiki/pages/1b73f06de7dada82.json",
+      "capturedAt": "2026-09-27T04:31:02.638Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 29
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 29
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 29
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 29
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-27",
+      "snapshot": "sources/wiki/pages/1b73f06de7dada82.json",
+      "capturedAt": "2026-09-27T04:31:02.638Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 29
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-27%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/933ce48d989b8579.json",
+      "capturedAt": "2026-09-27T04:31:19.556Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-27",
+        "snapshot": "sources/wiki/pages/1b73f06de7dada82.json",
+        "capturedAt": "2026-09-27T04:31:02.638Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "HSA-27",
+        "loops": "无限",
+        "days": 8,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "连续杀人（MC）"
+          },
+          {
+            "day": 2,
+            "incidentText": "亵渎杀人"
+          },
+          {
+            "day": 3,
+            "incidentText": "死者默示录"
+          },
+          {
+            "day": 4,
+            "incidentText": "连续杀人（MC）"
+          },
+          {
+            "day": 5,
+            "incidentText": "言灵诅咒"
+          },
+          {
+            "day": 6,
+            "incidentText": "连续杀人（MC）"
+          },
+          {
+            "day": 7,
+            "incidentText": "送葬"
+          },
+          {
+            "day": 8,
+            "incidentText": "疯狂之夜"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 5,
+        "row": 29
+      },
+      "fields": {
+        "scenarioCode": "HSA-27",
+        "剧本名": "濒死轮回的我、介入惨剧的憎恶",
+        "作者": "respeak",
+        "轮数": "n",
+        "天数": "8"
+      }
+    }
+  ],
+  "wikiTitle": "HSA-27",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Haunted Stage Again"
+  ],
+  "module": "Haunted Stage Again",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "c1cada873f0f8250",
+        "title": "HSA-27",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "HSA-27",
+          "loops": "无限",
+          "days": 8,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "连续杀人（MC）"
+            },
+            {
+              "day": 2,
+              "incidentText": "亵渎杀人"
+            },
+            {
+              "day": 3,
+              "incidentText": "死者默示录"
+            },
+            {
+              "day": 4,
+              "incidentText": "连续杀人（MC）"
+            },
+            {
+              "day": 5,
+              "incidentText": "言灵诅咒"
+            },
+            {
+              "day": 6,
+              "incidentText": "连续杀人（MC）"
+            },
+            {
+              "day": 7,
+              "incidentText": "送葬"
+            },
+            {
+              "day": 8,
+              "incidentText": "疯狂之夜"
+            }
+          ],
+          "剧本名": "濒死轮回的我、介入惨剧的憎恶",
+          "作者": "respeak",
+          "轮数": "n",
+          "天数": "8"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-27",
+            "snapshot": "sources/wiki/pages/1b73f06de7dada82.json",
+            "capturedAt": "2026-09-27T04:31:02.638Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-27",
+            "snapshot": "sources/wiki/pages/1b73f06de7dada82.json",
+            "capturedAt": "2026-09-27T04:31:02.638Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-27",
+            "snapshot": "sources/wiki/pages/1b73f06de7dada82.json",
+            "capturedAt": "2026-09-27T04:31:02.638Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-27",
+            "snapshot": "sources/wiki/pages/1b73f06de7dada82.json",
+            "capturedAt": "2026-09-27T04:31:02.638Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-27",
+            "snapshot": "sources/wiki/pages/1b73f06de7dada82.json",
+            "capturedAt": "2026-09-27T04:31:02.638Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 29
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 29
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 29
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 29
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-27",
+            "snapshot": "sources/wiki/pages/1b73f06de7dada82.json",
+            "capturedAt": "2026-09-27T04:31:02.638Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 29
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-27",
+              "snapshot": "sources/wiki/pages/1b73f06de7dada82.json",
+              "capturedAt": "2026-09-27T04:31:02.638Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "HSA-27",
+              "loops": "无限",
+              "days": 8,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "连续杀人（MC）"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "亵渎杀人"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "死者默示录"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "连续杀人（MC）"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "言灵诅咒"
+                },
+                {
+                  "day": 6,
+                  "incidentText": "连续杀人（MC）"
+                },
+                {
+                  "day": 7,
+                  "incidentText": "送葬"
+                },
+                {
+                  "day": 8,
+                  "incidentText": "疯狂之夜"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 5,
+              "row": 29
+            },
+            "fields": {
+              "scenarioCode": "HSA-27",
+              "剧本名": "濒死轮回的我、介入惨剧的憎恶",
+              "作者": "respeak",
+              "轮数": "n",
+              "天数": "8"
+            }
+          }
+        ],
+        "body": "text/scenarios/c1cada873f0f8250.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-27",
+          "snapshot": "sources/wiki/pages/1b73f06de7dada82.json",
+          "capturedAt": "2026-09-27T04:31:02.638Z"
+        },
+        "wikiTitle": "HSA-27",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-27?action=edit&section=1"
+          },
+          {
+            "title": "HSA-27非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-27%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-27?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Haunted Stage Again"
+        ],
+        "module": "Haunted Stage Again"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "d29bf652fcabe2e8",
+        "title": "HSA-27非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "HSA-27"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-27%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/933ce48d989b8579.json",
+            "capturedAt": "2026-09-27T04:31:19.556Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-27%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/933ce48d989b8579.json",
+            "capturedAt": "2026-09-27T04:31:19.556Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-27%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/933ce48d989b8579.json",
+            "capturedAt": "2026-09-27T04:31:19.556Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-27%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/933ce48d989b8579.json",
+              "capturedAt": "2026-09-27T04:31:19.556Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "HSA-27"
+            }
+          }
+        ],
+        "wikiTitle": "HSA-27非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Haunted Stage Again",
+        "tags": [
+          "民间",
+          "Haunted Stage Again"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "d29bf652fcabe2e8"
+  ],
+  "conflicts": []
+}

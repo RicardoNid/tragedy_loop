@@ -1,0 +1,488 @@
+{
+  "id": "f25c45d4aede1558",
+  "title": "BTX-119B",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "BTX-119B非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "BTX-119B",
+    "loops": 12,
+    "days": 4,
+    "schedule": [
+      {
+        "day": 2,
+        "incidentText": "自杀"
+      },
+      {
+        "day": 4,
+        "incidentText": "蝴蝶效应"
+      }
+    ],
+    "剧本名": "时空境界的打工战士",
+    "作者": "残蝶&清尘",
+    "轮数": "12 8",
+    "天数": "4"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-119B",
+      "snapshot": "sources/wiki/pages/f7f8a0e62b0a14bd.json",
+      "capturedAt": "2026-09-27T03:54:29.738Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-119B",
+      "snapshot": "sources/wiki/pages/f7f8a0e62b0a14bd.json",
+      "capturedAt": "2026-09-27T03:54:29.738Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-119B",
+      "snapshot": "sources/wiki/pages/f7f8a0e62b0a14bd.json",
+      "capturedAt": "2026-09-27T03:54:29.738Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-119B",
+      "snapshot": "sources/wiki/pages/f7f8a0e62b0a14bd.json",
+      "capturedAt": "2026-09-27T03:54:29.738Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-119B",
+      "snapshot": "sources/wiki/pages/f7f8a0e62b0a14bd.json",
+      "capturedAt": "2026-09-27T03:54:29.738Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 123
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 123
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 123
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 123
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-119B",
+      "snapshot": "sources/wiki/pages/f7f8a0e62b0a14bd.json",
+      "capturedAt": "2026-09-27T03:54:29.738Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 123
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-119B%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/a964c1420593636a.json",
+      "capturedAt": "2026-09-27T03:54:32.487Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-119B",
+        "snapshot": "sources/wiki/pages/f7f8a0e62b0a14bd.json",
+        "capturedAt": "2026-09-27T03:54:29.738Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "BTX-119B",
+        "loops": 12,
+        "days": 4,
+        "schedule": [
+          {
+            "day": 2,
+            "incidentText": "自杀"
+          },
+          {
+            "day": 4,
+            "incidentText": "蝴蝶效应"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 2,
+        "row": 123
+      },
+      "fields": {
+        "scenarioCode": "BTX-119B",
+        "剧本名": "时空境界的打工战士",
+        "作者": "残蝶&清尘",
+        "轮数": "12 8",
+        "天数": "4"
+      }
+    }
+  ],
+  "wikiTitle": "BTX-119B",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Basic Tragedy X"
+  ],
+  "module": "Basic Tragedy X",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "f25c45d4aede1558",
+        "title": "BTX-119B",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "BTX-119B",
+          "loops": 12,
+          "days": 4,
+          "schedule": [
+            {
+              "day": 2,
+              "incidentText": "自杀"
+            },
+            {
+              "day": 4,
+              "incidentText": "蝴蝶效应"
+            }
+          ],
+          "剧本名": "时空境界的打工战士",
+          "作者": "残蝶&清尘",
+          "轮数": "12 8",
+          "天数": "4"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-119B",
+            "snapshot": "sources/wiki/pages/f7f8a0e62b0a14bd.json",
+            "capturedAt": "2026-09-27T03:54:29.738Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-119B",
+            "snapshot": "sources/wiki/pages/f7f8a0e62b0a14bd.json",
+            "capturedAt": "2026-09-27T03:54:29.738Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-119B",
+            "snapshot": "sources/wiki/pages/f7f8a0e62b0a14bd.json",
+            "capturedAt": "2026-09-27T03:54:29.738Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-119B",
+            "snapshot": "sources/wiki/pages/f7f8a0e62b0a14bd.json",
+            "capturedAt": "2026-09-27T03:54:29.738Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-119B",
+            "snapshot": "sources/wiki/pages/f7f8a0e62b0a14bd.json",
+            "capturedAt": "2026-09-27T03:54:29.738Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 123
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 123
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 123
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 123
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-119B",
+            "snapshot": "sources/wiki/pages/f7f8a0e62b0a14bd.json",
+            "capturedAt": "2026-09-27T03:54:29.738Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 123
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-119B",
+              "snapshot": "sources/wiki/pages/f7f8a0e62b0a14bd.json",
+              "capturedAt": "2026-09-27T03:54:29.738Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "BTX-119B",
+              "loops": 12,
+              "days": 4,
+              "schedule": [
+                {
+                  "day": 2,
+                  "incidentText": "自杀"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "蝴蝶效应"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 2,
+              "row": 123
+            },
+            "fields": {
+              "scenarioCode": "BTX-119B",
+              "剧本名": "时空境界的打工战士",
+              "作者": "残蝶&清尘",
+              "轮数": "12 8",
+              "天数": "4"
+            }
+          }
+        ],
+        "body": "text/scenarios/f25c45d4aede1558.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-119B",
+          "snapshot": "sources/wiki/pages/f7f8a0e62b0a14bd.json",
+          "capturedAt": "2026-09-27T03:54:29.738Z"
+        },
+        "wikiTitle": "BTX-119B",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-119B?action=edit&section=1"
+          },
+          {
+            "title": "BTX-119B非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-119B%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-119B?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Basic Tragedy X"
+        ],
+        "module": "Basic Tragedy X"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "133fddb4d986c13c",
+        "title": "BTX-119B非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "BTX-119B",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "改变未来"
+            },
+            {
+              "slot": "X1",
+              "name": "好友圈"
+            },
+            {
+              "slot": "X2",
+              "name": "妄想扩大病毒"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-119B%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/a964c1420593636a.json",
+            "capturedAt": "2026-09-27T03:54:32.487Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-119B%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/a964c1420593636a.json",
+            "capturedAt": "2026-09-27T03:54:32.487Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-119B%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/a964c1420593636a.json",
+            "capturedAt": "2026-09-27T03:54:32.487Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-119B%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/a964c1420593636a.json",
+            "capturedAt": "2026-09-27T03:54:32.487Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-119B%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/a964c1420593636a.json",
+              "capturedAt": "2026-09-27T03:54:32.487Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "BTX-119B",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "改变未来"
+                },
+                {
+                  "slot": "X1",
+                  "name": "好友圈"
+                },
+                {
+                  "slot": "X2",
+                  "name": "妄想扩大病毒"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/133fddb4d986c13c.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-119B%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/a964c1420593636a.json",
+          "capturedAt": "2026-09-27T03:54:32.487Z"
+        },
+        "wikiTitle": "BTX-119B非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "1 时空境界的打工战士  作者：残蝶&清尘",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-119B%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E6%97%B6%E7%A9%BA%E5%A2%83%E7%95%8C%E7%9A%84%E6%89%93%E5%B7%A5%E6%88%98%E5%A3%AB_%E4%BD%9C%E8%80%85%EF%BC%9A%E6%AE%8B%E8%9D%B6&%E6%B8%85%E5%B0%98"
+          },
+          {
+            "title": "1.1 剧本特征",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-119B%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E5%89%A7%E6%9C%AC%E7%89%B9%E5%BE%81"
+          },
+          {
+            "title": "1.2 故事",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-119B%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E6%95%85%E4%BA%8B"
+          },
+          {
+            "title": "1.3 剧作家指南",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-119B%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E5%89%A7%E4%BD%9C%E5%AE%B6%E6%8C%87%E5%8D%97"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-119B%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-119B%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-119B%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=3"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-119B%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=4"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Basic Tragedy X",
+        "tags": [
+          "民间",
+          "Basic Tragedy X"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "133fddb4d986c13c"
+  ],
+  "conflicts": []
+}

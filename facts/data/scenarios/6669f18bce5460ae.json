@@ -1,0 +1,572 @@
+{
+  "id": "6669f18bce5460ae",
+  "title": "BTX-107",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "BTX-107非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "BTX-107",
+    "loops": 5,
+    "days": 7,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "不安扩散"
+      },
+      {
+        "day": 2,
+        "incidentText": "谋杀"
+      },
+      {
+        "day": 3,
+        "incidentText": "散播"
+      },
+      {
+        "day": 4,
+        "incidentText": "谋杀"
+      },
+      {
+        "day": 5,
+        "incidentText": "谋杀"
+      },
+      {
+        "day": 6,
+        "incidentText": "谋杀"
+      },
+      {
+        "day": 7,
+        "incidentText": "谋杀"
+      }
+    ],
+    "剧本名": "番茄酱暴走实录",
+    "作者": "白糖848",
+    "轮数": "5 4",
+    "天数": "7"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-107",
+      "snapshot": "sources/wiki/pages/b0c598bd81da9162.json",
+      "capturedAt": "2026-09-27T03:52:13.428Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-107",
+      "snapshot": "sources/wiki/pages/b0c598bd81da9162.json",
+      "capturedAt": "2026-09-27T03:52:13.428Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-107",
+      "snapshot": "sources/wiki/pages/b0c598bd81da9162.json",
+      "capturedAt": "2026-09-27T03:52:13.428Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-107",
+      "snapshot": "sources/wiki/pages/b0c598bd81da9162.json",
+      "capturedAt": "2026-09-27T03:52:13.428Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-107",
+      "snapshot": "sources/wiki/pages/b0c598bd81da9162.json",
+      "capturedAt": "2026-09-27T03:52:13.428Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 109
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 109
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 109
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 109
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-107",
+      "snapshot": "sources/wiki/pages/b0c598bd81da9162.json",
+      "capturedAt": "2026-09-27T03:52:13.428Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 109
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-107%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/a5f10be6b8da60c6.json",
+      "capturedAt": "2026-09-27T03:53:00.535Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-107",
+        "snapshot": "sources/wiki/pages/b0c598bd81da9162.json",
+        "capturedAt": "2026-09-27T03:52:13.428Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "BTX-107",
+        "loops": 5,
+        "days": 7,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "不安扩散"
+          },
+          {
+            "day": 2,
+            "incidentText": "谋杀"
+          },
+          {
+            "day": 3,
+            "incidentText": "散播"
+          },
+          {
+            "day": 4,
+            "incidentText": "谋杀"
+          },
+          {
+            "day": 5,
+            "incidentText": "谋杀"
+          },
+          {
+            "day": 6,
+            "incidentText": "谋杀"
+          },
+          {
+            "day": 7,
+            "incidentText": "谋杀"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 2,
+        "row": 109
+      },
+      "fields": {
+        "scenarioCode": "BTX-107",
+        "剧本名": "番茄酱暴走实录",
+        "作者": "白糖848",
+        "轮数": "5 4",
+        "天数": "7"
+      }
+    }
+  ],
+  "wikiTitle": "BTX-107",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Basic Tragedy X"
+  ],
+  "module": "Basic Tragedy X",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "6669f18bce5460ae",
+        "title": "BTX-107",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "BTX-107",
+          "loops": 5,
+          "days": 7,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "不安扩散"
+            },
+            {
+              "day": 2,
+              "incidentText": "谋杀"
+            },
+            {
+              "day": 3,
+              "incidentText": "散播"
+            },
+            {
+              "day": 4,
+              "incidentText": "谋杀"
+            },
+            {
+              "day": 5,
+              "incidentText": "谋杀"
+            },
+            {
+              "day": 6,
+              "incidentText": "谋杀"
+            },
+            {
+              "day": 7,
+              "incidentText": "谋杀"
+            }
+          ],
+          "剧本名": "番茄酱暴走实录",
+          "作者": "白糖848",
+          "轮数": "5 4",
+          "天数": "7"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-107",
+            "snapshot": "sources/wiki/pages/b0c598bd81da9162.json",
+            "capturedAt": "2026-09-27T03:52:13.428Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-107",
+            "snapshot": "sources/wiki/pages/b0c598bd81da9162.json",
+            "capturedAt": "2026-09-27T03:52:13.428Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-107",
+            "snapshot": "sources/wiki/pages/b0c598bd81da9162.json",
+            "capturedAt": "2026-09-27T03:52:13.428Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-107",
+            "snapshot": "sources/wiki/pages/b0c598bd81da9162.json",
+            "capturedAt": "2026-09-27T03:52:13.428Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-107",
+            "snapshot": "sources/wiki/pages/b0c598bd81da9162.json",
+            "capturedAt": "2026-09-27T03:52:13.428Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 109
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 109
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 109
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 109
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-107",
+            "snapshot": "sources/wiki/pages/b0c598bd81da9162.json",
+            "capturedAt": "2026-09-27T03:52:13.428Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 109
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-107",
+              "snapshot": "sources/wiki/pages/b0c598bd81da9162.json",
+              "capturedAt": "2026-09-27T03:52:13.428Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "BTX-107",
+              "loops": 5,
+              "days": 7,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "不安扩散"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "谋杀"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "散播"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "谋杀"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "谋杀"
+                },
+                {
+                  "day": 6,
+                  "incidentText": "谋杀"
+                },
+                {
+                  "day": 7,
+                  "incidentText": "谋杀"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 2,
+              "row": 109
+            },
+            "fields": {
+              "scenarioCode": "BTX-107",
+              "剧本名": "番茄酱暴走实录",
+              "作者": "白糖848",
+              "轮数": "5 4",
+              "天数": "7"
+            }
+          }
+        ],
+        "body": "text/scenarios/6669f18bce5460ae.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-107",
+          "snapshot": "sources/wiki/pages/b0c598bd81da9162.json",
+          "capturedAt": "2026-09-27T03:52:13.428Z"
+        },
+        "wikiTitle": "BTX-107",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-107?action=edit&section=1"
+          },
+          {
+            "title": "UP主",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/UP%E4%B8%BB"
+          },
+          {
+            "title": "BTX-107非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-107%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-107?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Basic Tragedy X"
+        ],
+        "module": "Basic Tragedy X"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "142d2a4a2bd0f08f",
+        "title": "BTX-107非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "BTX-107",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "和我签订契约吧！"
+            },
+            {
+              "slot": "X1",
+              "name": "妄想扩大病毒"
+            },
+            {
+              "slot": "X2",
+              "name": "好友圈"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-107%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/a5f10be6b8da60c6.json",
+            "capturedAt": "2026-09-27T03:53:00.535Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-107%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/a5f10be6b8da60c6.json",
+            "capturedAt": "2026-09-27T03:53:00.535Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-107%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/a5f10be6b8da60c6.json",
+            "capturedAt": "2026-09-27T03:53:00.535Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-107%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/a5f10be6b8da60c6.json",
+            "capturedAt": "2026-09-27T03:53:00.535Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-107%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/a5f10be6b8da60c6.json",
+              "capturedAt": "2026-09-27T03:53:00.535Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "BTX-107",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "和我签订契约吧！"
+                },
+                {
+                  "slot": "X1",
+                  "name": "妄想扩大病毒"
+                },
+                {
+                  "slot": "X2",
+                  "name": "好友圈"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/142d2a4a2bd0f08f.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-107%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/a5f10be6b8da60c6.json",
+          "capturedAt": "2026-09-27T03:53:00.535Z"
+        },
+        "wikiTitle": "BTX-107非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "1 番茄酱暴走实录 作者：白糖848",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-107%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E7%95%AA%E8%8C%84%E9%85%B1%E6%9A%B4%E8%B5%B0%E5%AE%9E%E5%BD%95_%E4%BD%9C%E8%80%85%EF%BC%9A%E7%99%BD%E7%B3%96848"
+          },
+          {
+            "title": "1.1 剧本特征",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-107%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E5%89%A7%E6%9C%AC%E7%89%B9%E5%BE%81"
+          },
+          {
+            "title": "1.2 故事",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-107%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E6%95%85%E4%BA%8B"
+          },
+          {
+            "title": "1.3 剧作家指南",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-107%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E5%89%A7%E4%BD%9C%E5%AE%B6%E6%8C%87%E5%8D%97"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-107%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-107%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-107%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=3"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-107%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=4"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Basic Tragedy X",
+        "tags": [
+          "民间",
+          "Basic Tragedy X"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "142d2a4a2bd0f08f"
+  ],
+  "conflicts": []
+}

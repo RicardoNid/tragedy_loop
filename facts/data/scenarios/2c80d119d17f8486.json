@@ -1,0 +1,514 @@
+{
+  "id": "2c80d119d17f8486",
+  "title": "BTX-69",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "BTX-69非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "BTX-69",
+    "loops": 4,
+    "days": 6,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "失踪"
+      },
+      {
+        "day": 3,
+        "incidentText": "蝴蝶效应"
+      },
+      {
+        "day": 4,
+        "incidentText": "不安扩散"
+      },
+      {
+        "day": 6,
+        "incidentText": "邪气污染"
+      }
+    ],
+    "剧本名": "时空之主",
+    "英文名": "Lords of Space-Time",
+    "作者": "O'Malley + Koya",
+    "轮数": "4",
+    "天数": "6"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-69",
+      "snapshot": "sources/wiki/pages/8307be3fbace91bc.json",
+      "capturedAt": "2026-09-27T04:15:35.378Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-69",
+      "snapshot": "sources/wiki/pages/8307be3fbace91bc.json",
+      "capturedAt": "2026-09-27T04:15:35.378Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-69",
+      "snapshot": "sources/wiki/pages/8307be3fbace91bc.json",
+      "capturedAt": "2026-09-27T04:15:35.378Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-69",
+      "snapshot": "sources/wiki/pages/8307be3fbace91bc.json",
+      "capturedAt": "2026-09-27T04:15:35.378Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-69",
+      "snapshot": "sources/wiki/pages/8307be3fbace91bc.json",
+      "capturedAt": "2026-09-27T04:15:35.378Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 70
+    },
+    "英文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 70
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 70
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 70
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 70
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-69",
+      "snapshot": "sources/wiki/pages/8307be3fbace91bc.json",
+      "capturedAt": "2026-09-27T04:15:35.378Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 70
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-69%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/6e1d76d0eb489839.json",
+      "capturedAt": "2026-09-27T04:15:38.234Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-69",
+        "snapshot": "sources/wiki/pages/8307be3fbace91bc.json",
+        "capturedAt": "2026-09-27T04:15:35.378Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "BTX-69",
+        "loops": 4,
+        "days": 6,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "失踪"
+          },
+          {
+            "day": 3,
+            "incidentText": "蝴蝶效应"
+          },
+          {
+            "day": 4,
+            "incidentText": "不安扩散"
+          },
+          {
+            "day": 6,
+            "incidentText": "邪气污染"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 2,
+        "row": 70
+      },
+      "fields": {
+        "scenarioCode": "BTX-69",
+        "剧本名": "时空之主",
+        "英文名": "Lords of Space-Time",
+        "作者": "O'Malley + Koya",
+        "轮数": "4",
+        "天数": "6"
+      }
+    }
+  ],
+  "wikiTitle": "BTX-69",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Basic Tragedy X"
+  ],
+  "module": "Basic Tragedy X",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "2c80d119d17f8486",
+        "title": "BTX-69",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "BTX-69",
+          "loops": 4,
+          "days": 6,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "失踪"
+            },
+            {
+              "day": 3,
+              "incidentText": "蝴蝶效应"
+            },
+            {
+              "day": 4,
+              "incidentText": "不安扩散"
+            },
+            {
+              "day": 6,
+              "incidentText": "邪气污染"
+            }
+          ],
+          "剧本名": "时空之主",
+          "英文名": "Lords of Space-Time",
+          "作者": "O'Malley + Koya",
+          "轮数": "4",
+          "天数": "6"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-69",
+            "snapshot": "sources/wiki/pages/8307be3fbace91bc.json",
+            "capturedAt": "2026-09-27T04:15:35.378Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-69",
+            "snapshot": "sources/wiki/pages/8307be3fbace91bc.json",
+            "capturedAt": "2026-09-27T04:15:35.378Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-69",
+            "snapshot": "sources/wiki/pages/8307be3fbace91bc.json",
+            "capturedAt": "2026-09-27T04:15:35.378Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-69",
+            "snapshot": "sources/wiki/pages/8307be3fbace91bc.json",
+            "capturedAt": "2026-09-27T04:15:35.378Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-69",
+            "snapshot": "sources/wiki/pages/8307be3fbace91bc.json",
+            "capturedAt": "2026-09-27T04:15:35.378Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 70
+          },
+          "英文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 70
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 70
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 70
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 70
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-69",
+            "snapshot": "sources/wiki/pages/8307be3fbace91bc.json",
+            "capturedAt": "2026-09-27T04:15:35.378Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 70
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-69",
+              "snapshot": "sources/wiki/pages/8307be3fbace91bc.json",
+              "capturedAt": "2026-09-27T04:15:35.378Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "BTX-69",
+              "loops": 4,
+              "days": 6,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "失踪"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "蝴蝶效应"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "不安扩散"
+                },
+                {
+                  "day": 6,
+                  "incidentText": "邪气污染"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 2,
+              "row": 70
+            },
+            "fields": {
+              "scenarioCode": "BTX-69",
+              "剧本名": "时空之主",
+              "英文名": "Lords of Space-Time",
+              "作者": "O'Malley + Koya",
+              "轮数": "4",
+              "天数": "6"
+            }
+          }
+        ],
+        "body": "text/scenarios/2c80d119d17f8486.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-69",
+          "snapshot": "sources/wiki/pages/8307be3fbace91bc.json",
+          "capturedAt": "2026-09-27T04:15:35.378Z"
+        },
+        "wikiTitle": "BTX-69",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "BTX-69非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-69%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-69?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Basic Tragedy X"
+        ],
+        "module": "Basic Tragedy X"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "dbaa6f492c92d0bd",
+        "title": "BTX-69非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "BTX-69",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "改变未来"
+            },
+            {
+              "slot": "X1",
+              "name": "潜伏的杀人狂"
+            },
+            {
+              "slot": "X2",
+              "name": "因果线"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-69%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/6e1d76d0eb489839.json",
+            "capturedAt": "2026-09-27T04:15:38.234Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-69%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/6e1d76d0eb489839.json",
+            "capturedAt": "2026-09-27T04:15:38.234Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-69%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/6e1d76d0eb489839.json",
+            "capturedAt": "2026-09-27T04:15:38.234Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-69%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/6e1d76d0eb489839.json",
+            "capturedAt": "2026-09-27T04:15:38.234Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-69%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/6e1d76d0eb489839.json",
+              "capturedAt": "2026-09-27T04:15:38.234Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "BTX-69",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "改变未来"
+                },
+                {
+                  "slot": "X1",
+                  "name": "潜伏的杀人狂"
+                },
+                {
+                  "slot": "X2",
+                  "name": "因果线"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/dbaa6f492c92d0bd.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-69%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/6e1d76d0eb489839.json",
+          "capturedAt": "2026-09-27T04:15:38.234Z"
+        },
+        "wikiTitle": "BTX-69非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-69%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-69%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-69%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=3"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Basic Tragedy X",
+        "tags": [
+          "民间",
+          "Basic Tragedy X"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "dbaa6f492c92d0bd"
+  ],
+  "conflicts": []
+}

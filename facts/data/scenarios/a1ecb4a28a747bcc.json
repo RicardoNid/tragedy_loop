@@ -1,0 +1,430 @@
+{
+  "id": "a1ecb4a28a747bcc",
+  "title": "AHR-23",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "AHR-23非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "AHR-23",
+    "loops": 7,
+    "days": 3,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "隙间的阳光"
+      },
+      {
+        "day": 2,
+        "incidentText": "遗失物"
+      },
+      {
+        "day": 3,
+        "incidentText": "医院事故"
+      }
+    ],
+    "剧本名": "四面楚歌",
+    "作者": "新手之二",
+    "轮数": "7",
+    "天数": "3"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-23",
+      "snapshot": "sources/wiki/pages/1334f4b99f1a0061.json",
+      "capturedAt": "2026-09-27T03:44:35.061Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-23",
+      "snapshot": "sources/wiki/pages/1334f4b99f1a0061.json",
+      "capturedAt": "2026-09-27T03:44:35.061Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-23",
+      "snapshot": "sources/wiki/pages/1334f4b99f1a0061.json",
+      "capturedAt": "2026-09-27T03:44:35.061Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-23",
+      "snapshot": "sources/wiki/pages/1334f4b99f1a0061.json",
+      "capturedAt": "2026-09-27T03:44:35.061Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-23",
+      "snapshot": "sources/wiki/pages/1334f4b99f1a0061.json",
+      "capturedAt": "2026-09-27T03:44:35.061Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 24
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 24
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 24
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 24
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-23",
+      "snapshot": "sources/wiki/pages/1334f4b99f1a0061.json",
+      "capturedAt": "2026-09-27T03:44:35.061Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 24
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-23%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/d20f210b57ad3711.json",
+      "capturedAt": "2026-09-27T03:44:37.890Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-23",
+        "snapshot": "sources/wiki/pages/1334f4b99f1a0061.json",
+        "capturedAt": "2026-09-27T03:44:35.061Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "AHR-23",
+        "loops": 7,
+        "days": 3,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "隙间的阳光"
+          },
+          {
+            "day": 2,
+            "incidentText": "遗失物"
+          },
+          {
+            "day": 3,
+            "incidentText": "医院事故"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 7,
+        "row": 24
+      },
+      "fields": {
+        "scenarioCode": "AHR-23",
+        "剧本名": "四面楚歌",
+        "作者": "新手之二",
+        "轮数": "7",
+        "天数": "3"
+      }
+    }
+  ],
+  "wikiTitle": "AHR-23",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Another Horizon Revised"
+  ],
+  "module": "Another Horizon Revised",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "a1ecb4a28a747bcc",
+        "title": "AHR-23",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "AHR-23",
+          "loops": 7,
+          "days": 3,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "隙间的阳光"
+            },
+            {
+              "day": 2,
+              "incidentText": "遗失物"
+            },
+            {
+              "day": 3,
+              "incidentText": "医院事故"
+            }
+          ],
+          "剧本名": "四面楚歌",
+          "作者": "新手之二",
+          "轮数": "7",
+          "天数": "3"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-23",
+            "snapshot": "sources/wiki/pages/1334f4b99f1a0061.json",
+            "capturedAt": "2026-09-27T03:44:35.061Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-23",
+            "snapshot": "sources/wiki/pages/1334f4b99f1a0061.json",
+            "capturedAt": "2026-09-27T03:44:35.061Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-23",
+            "snapshot": "sources/wiki/pages/1334f4b99f1a0061.json",
+            "capturedAt": "2026-09-27T03:44:35.061Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-23",
+            "snapshot": "sources/wiki/pages/1334f4b99f1a0061.json",
+            "capturedAt": "2026-09-27T03:44:35.061Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-23",
+            "snapshot": "sources/wiki/pages/1334f4b99f1a0061.json",
+            "capturedAt": "2026-09-27T03:44:35.061Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 24
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 24
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 24
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 24
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-23",
+            "snapshot": "sources/wiki/pages/1334f4b99f1a0061.json",
+            "capturedAt": "2026-09-27T03:44:35.061Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 24
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-23",
+              "snapshot": "sources/wiki/pages/1334f4b99f1a0061.json",
+              "capturedAt": "2026-09-27T03:44:35.061Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "AHR-23",
+              "loops": 7,
+              "days": 3,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "隙间的阳光"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "遗失物"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "医院事故"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 7,
+              "row": 24
+            },
+            "fields": {
+              "scenarioCode": "AHR-23",
+              "剧本名": "四面楚歌",
+              "作者": "新手之二",
+              "轮数": "7",
+              "天数": "3"
+            }
+          }
+        ],
+        "body": "text/scenarios/a1ecb4a28a747bcc.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-23",
+          "snapshot": "sources/wiki/pages/1334f4b99f1a0061.json",
+          "capturedAt": "2026-09-27T03:44:35.061Z"
+        },
+        "wikiTitle": "AHR-23",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-23?action=edit&section=1"
+          },
+          {
+            "title": "AHR-23非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-23%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-23?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Another Horizon Revised"
+        ],
+        "module": "Another Horizon Revised"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "62709ad8854abf01",
+        "title": "AHR-23非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "AHR-23"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-23%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/d20f210b57ad3711.json",
+            "capturedAt": "2026-09-27T03:44:37.890Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-23%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/d20f210b57ad3711.json",
+            "capturedAt": "2026-09-27T03:44:37.890Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-23%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/d20f210b57ad3711.json",
+            "capturedAt": "2026-09-27T03:44:37.890Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-23%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/d20f210b57ad3711.json",
+              "capturedAt": "2026-09-27T03:44:37.890Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "AHR-23"
+            }
+          }
+        ],
+        "wikiTitle": "AHR-23非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Another Horizon Revised",
+        "tags": [
+          "民间",
+          "Another Horizon Revised"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "62709ad8854abf01"
+  ],
+  "conflicts": []
+}

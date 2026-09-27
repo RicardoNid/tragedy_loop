@@ -1,0 +1,200 @@
+{
+  "id": "cc1ae91a23ef53af",
+  "title": "大小姐",
+  "kind": "characters",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "角色名": "大小姐",
+    "初始区域": "学校",
+    "禁行区域": "无",
+    "不安限度": "1",
+    "属性": [
+      "学生",
+      "少女"
+    ],
+    "友好能力": [
+      {
+        "text": "（友好3）必须位于学校或都市才可以使用，往同一区域任意1名角色身上放置1枚友好指示物",
+        "threshold": 3,
+        "limitText": ""
+      }
+    ]
+  },
+  "provenance": {
+    "角色名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%A4%A7%E5%B0%8F%E5%A7%90",
+      "snapshot": "sources/wiki/pages/fba9ca06b8ed3e0b.json",
+      "capturedAt": "2026-09-27T03:31:42.355Z"
+    },
+    "初始区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%A4%A7%E5%B0%8F%E5%A7%90",
+      "snapshot": "sources/wiki/pages/fba9ca06b8ed3e0b.json",
+      "capturedAt": "2026-09-27T03:31:42.355Z"
+    },
+    "禁行区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%A4%A7%E5%B0%8F%E5%A7%90",
+      "snapshot": "sources/wiki/pages/fba9ca06b8ed3e0b.json",
+      "capturedAt": "2026-09-27T03:31:42.355Z"
+    },
+    "不安限度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%A4%A7%E5%B0%8F%E5%A7%90",
+      "snapshot": "sources/wiki/pages/fba9ca06b8ed3e0b.json",
+      "capturedAt": "2026-09-27T03:31:42.355Z"
+    },
+    "属性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%A4%A7%E5%B0%8F%E5%A7%90",
+      "snapshot": "sources/wiki/pages/fba9ca06b8ed3e0b.json",
+      "capturedAt": "2026-09-27T03:31:42.355Z"
+    },
+    "友好能力": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%A4%A7%E5%B0%8F%E5%A7%90",
+      "snapshot": "sources/wiki/pages/fba9ca06b8ed3e0b.json",
+      "capturedAt": "2026-09-27T03:31:42.355Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%A4%A7%E5%B0%8F%E5%A7%90",
+      "snapshot": "sources/wiki/pages/fba9ca06b8ed3e0b.json",
+      "capturedAt": "2026-09-27T03:31:42.355Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%A4%A7%E5%B0%8F%E5%A7%90",
+        "snapshot": "sources/wiki/pages/fba9ca06b8ed3e0b.json",
+        "capturedAt": "2026-09-27T03:31:42.355Z"
+      },
+      "fields": {
+        "角色名": "大小姐",
+        "初始区域": "学校",
+        "禁行区域": "无",
+        "不安限度": "1",
+        "属性": [
+          "学生",
+          "少女"
+        ],
+        "友好能力": [
+          {
+            "text": "（友好3）必须位于学校或都市才可以使用，往同一区域任意1名角色身上放置1枚友好指示物",
+            "threshold": 3,
+            "limitText": ""
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "特性": "",
+        "属性": [
+          "学生",
+          "少女"
+        ],
+        "初始区域": "学校",
+        "禁行区域": "否",
+        "不安限度": "1",
+        "友好能力": [
+          {
+            "text": "必须位于学校或都市才可以使用，往同一区域任意1名角色身上放置1枚友好指示物",
+            "threshold": "3",
+            "oncePerLoop": ""
+          }
+        ]
+      }
+    }
+  ],
+  "body": "text/characters/cc1ae91a23ef53af.txt",
+  "bodySource": {
+    "provider": "wiki",
+    "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%A4%A7%E5%B0%8F%E5%A7%90",
+    "snapshot": "sources/wiki/pages/fba9ca06b8ed3e0b.json",
+    "capturedAt": "2026-09-27T03:31:42.355Z"
+  },
+  "wikiTitle": "大小姐",
+  "originalTables": [],
+  "wikiStatus": "captured",
+  "links": [
+    {
+      "title": "<img style=\"\" src=\"https://static.wikia.nocookie.net/tragedyrooper/images/6/6e/%E5%A4%A7%E5%B0%8F%E5%A7%90.png/revision/latest/scale-to-width-down/135?cb=20251023162225&amp;path-prefix=zh\" title=\"大小姐.png (238 KB)\" class=\"thumbimage\" alt=\"\" height=\"185\" width=\"185\" data-image-name=\"大小姐.png\" data-image-key=\"%E5%A4%A7%E5%B0%8F%E5%A7%90.png\" data-relevant=\"1\">",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%A4%A7%E5%B0%8F%E5%A7%90.png"
+    }
+  ],
+  "images": [
+    {
+      "alt": "",
+      "src": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+    }
+  ],
+  "media": [
+    {
+      "title": "大小姐.png",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%A4%A7%E5%B0%8F%E5%A7%90.png",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/6/6e/%E5%A4%A7%E5%B0%8F%E5%A7%90.png/revision/latest?cb=20251023162225&format=original&path-prefix=zh",
+      "path": "media/wiki/8f9bb7dfe1823186.png",
+      "sourceRecord": "sources/wiki/files/8f9bb7dfe1823186.json",
+      "sha256": "69450f5f42306c4cfaa4f841f821c07c6c2386c7d15bab32fe04e34a1da27020",
+      "bytes": 243996,
+      "fileInfo": "PNG image data, 307 x 419, 8-bit/color RGBA, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/6fadb2d7054aeea7.json",
+  "tags": [
+    "学生",
+    "少女",
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "禁行区域",
+      "selected": "无",
+      "candidate": "否",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "友好能力",
+      "selected": [
+        {
+          "text": "（友好3）必须位于学校或都市才可以使用，往同一区域任意1名角色身上放置1枚友好指示物",
+          "threshold": 3,
+          "limitText": ""
+        }
+      ],
+      "candidate": [
+        {
+          "text": "必须位于学校或都市才可以使用，往同一区域任意1名角色身上放置1枚友好指示物",
+          "threshold": "3",
+          "oncePerLoop": ""
+        }
+      ],
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    }
+  ]
+}

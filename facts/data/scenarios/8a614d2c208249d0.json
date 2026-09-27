@@ -1,0 +1,506 @@
+{
+  "id": "8a614d2c208249d0",
+  "title": "FS-20",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "FS-20非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "FS-20",
+    "loops": 3,
+    "days": 5,
+    "schedule": [
+      {
+        "day": 2,
+        "incidentText": "谋杀"
+      },
+      {
+        "day": 3,
+        "incidentText": "不安扩散"
+      },
+      {
+        "day": 4,
+        "incidentText": "远距离杀人"
+      },
+      {
+        "day": 5,
+        "incidentText": "医院事故"
+      }
+    ],
+    "剧本名": "红雾",
+    "英文名": "The Red Fog",
+    "作者": "ZenKristoffer",
+    "轮数": "3",
+    "天数": "5"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-20",
+      "snapshot": "sources/wiki/pages/799181c8211bdc72.json",
+      "capturedAt": "2026-09-27T04:25:45.859Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-20",
+      "snapshot": "sources/wiki/pages/799181c8211bdc72.json",
+      "capturedAt": "2026-09-27T04:25:45.859Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-20",
+      "snapshot": "sources/wiki/pages/799181c8211bdc72.json",
+      "capturedAt": "2026-09-27T04:25:45.859Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-20",
+      "snapshot": "sources/wiki/pages/799181c8211bdc72.json",
+      "capturedAt": "2026-09-27T04:25:45.859Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-20",
+      "snapshot": "sources/wiki/pages/799181c8211bdc72.json",
+      "capturedAt": "2026-09-27T04:25:45.859Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 21
+    },
+    "英文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 21
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 21
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 21
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 21
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-20",
+      "snapshot": "sources/wiki/pages/799181c8211bdc72.json",
+      "capturedAt": "2026-09-27T04:25:45.859Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 21
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-20%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/32d48b32b2d41da0.json",
+      "capturedAt": "2026-09-27T04:25:48.895Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-20",
+        "snapshot": "sources/wiki/pages/799181c8211bdc72.json",
+        "capturedAt": "2026-09-27T04:25:45.859Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "FS-20",
+        "loops": 3,
+        "days": 5,
+        "schedule": [
+          {
+            "day": 2,
+            "incidentText": "谋杀"
+          },
+          {
+            "day": 3,
+            "incidentText": "不安扩散"
+          },
+          {
+            "day": 4,
+            "incidentText": "远距离杀人"
+          },
+          {
+            "day": 5,
+            "incidentText": "医院事故"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 1,
+        "row": 21
+      },
+      "fields": {
+        "scenarioCode": "FS-20",
+        "剧本名": "红雾",
+        "英文名": "The Red Fog",
+        "作者": "ZenKristoffer",
+        "轮数": "3",
+        "天数": "5"
+      }
+    }
+  ],
+  "wikiTitle": "FS-20",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "First Steps"
+  ],
+  "module": "First Steps",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "8a614d2c208249d0",
+        "title": "FS-20",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "FS-20",
+          "loops": 3,
+          "days": 5,
+          "schedule": [
+            {
+              "day": 2,
+              "incidentText": "谋杀"
+            },
+            {
+              "day": 3,
+              "incidentText": "不安扩散"
+            },
+            {
+              "day": 4,
+              "incidentText": "远距离杀人"
+            },
+            {
+              "day": 5,
+              "incidentText": "医院事故"
+            }
+          ],
+          "剧本名": "红雾",
+          "英文名": "The Red Fog",
+          "作者": "ZenKristoffer",
+          "轮数": "3",
+          "天数": "5"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-20",
+            "snapshot": "sources/wiki/pages/799181c8211bdc72.json",
+            "capturedAt": "2026-09-27T04:25:45.859Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-20",
+            "snapshot": "sources/wiki/pages/799181c8211bdc72.json",
+            "capturedAt": "2026-09-27T04:25:45.859Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-20",
+            "snapshot": "sources/wiki/pages/799181c8211bdc72.json",
+            "capturedAt": "2026-09-27T04:25:45.859Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-20",
+            "snapshot": "sources/wiki/pages/799181c8211bdc72.json",
+            "capturedAt": "2026-09-27T04:25:45.859Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-20",
+            "snapshot": "sources/wiki/pages/799181c8211bdc72.json",
+            "capturedAt": "2026-09-27T04:25:45.859Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 21
+          },
+          "英文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 21
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 21
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 21
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 21
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-20",
+            "snapshot": "sources/wiki/pages/799181c8211bdc72.json",
+            "capturedAt": "2026-09-27T04:25:45.859Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 21
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-20",
+              "snapshot": "sources/wiki/pages/799181c8211bdc72.json",
+              "capturedAt": "2026-09-27T04:25:45.859Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "FS-20",
+              "loops": 3,
+              "days": 5,
+              "schedule": [
+                {
+                  "day": 2,
+                  "incidentText": "谋杀"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "不安扩散"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "远距离杀人"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "医院事故"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 1,
+              "row": 21
+            },
+            "fields": {
+              "scenarioCode": "FS-20",
+              "剧本名": "红雾",
+              "英文名": "The Red Fog",
+              "作者": "ZenKristoffer",
+              "轮数": "3",
+              "天数": "5"
+            }
+          }
+        ],
+        "body": "text/scenarios/8a614d2c208249d0.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-20",
+          "snapshot": "sources/wiki/pages/799181c8211bdc72.json",
+          "capturedAt": "2026-09-27T04:25:45.859Z"
+        },
+        "wikiTitle": "FS-20",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "FS-20非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-20%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-20?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "First Steps"
+        ],
+        "module": "First Steps"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "a395e706dcb34b80",
+        "title": "FS-20非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "FS-20",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "守护此地"
+            },
+            {
+              "slot": "X1",
+              "name": "开膛者的魔影"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-20%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/32d48b32b2d41da0.json",
+            "capturedAt": "2026-09-27T04:25:48.895Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-20%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/32d48b32b2d41da0.json",
+            "capturedAt": "2026-09-27T04:25:48.895Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-20%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/32d48b32b2d41da0.json",
+            "capturedAt": "2026-09-27T04:25:48.895Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-20%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/32d48b32b2d41da0.json",
+            "capturedAt": "2026-09-27T04:25:48.895Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-20%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/32d48b32b2d41da0.json",
+              "capturedAt": "2026-09-27T04:25:48.895Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "FS-20",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "守护此地"
+                },
+                {
+                  "slot": "X1",
+                  "name": "开膛者的魔影"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/a395e706dcb34b80.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-20%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/32d48b32b2d41da0.json",
+          "capturedAt": "2026-09-27T04:25:48.895Z"
+        },
+        "wikiTitle": "FS-20非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-20%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-20%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-20%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=3"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "First Steps",
+        "tags": [
+          "民间",
+          "First Steps"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "a395e706dcb34b80"
+  ],
+  "conflicts": []
+}

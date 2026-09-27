@@ -1,0 +1,526 @@
+{
+  "id": "8fc2818699c2bb1a",
+  "title": "MZ-49",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "MZ-49非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "MZ-49",
+    "loops": 3,
+    "days": 6,
+    "schedule": [
+      {
+        "day": 2,
+        "incidentText": "阴谋活动"
+      },
+      {
+        "day": 3,
+        "incidentText": "连续杀人"
+      },
+      {
+        "day": 4,
+        "incidentText": "暴乱"
+      },
+      {
+        "day": 5,
+        "incidentText": "自杀"
+      },
+      {
+        "day": 6,
+        "incidentText": "自白"
+      }
+    ],
+    "剧本名": "召唤古老者",
+    "英文名": "Summoning the Old Ones",
+    "作者": "Seiji-kun",
+    "轮数": "3",
+    "天数": "6"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-49",
+      "snapshot": "sources/wiki/pages/c79a8e7038875e8b.json",
+      "capturedAt": "2026-09-27T04:48:43.688Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-49",
+      "snapshot": "sources/wiki/pages/c79a8e7038875e8b.json",
+      "capturedAt": "2026-09-27T04:48:43.688Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-49",
+      "snapshot": "sources/wiki/pages/c79a8e7038875e8b.json",
+      "capturedAt": "2026-09-27T04:48:43.688Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-49",
+      "snapshot": "sources/wiki/pages/c79a8e7038875e8b.json",
+      "capturedAt": "2026-09-27T04:48:43.688Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-49",
+      "snapshot": "sources/wiki/pages/c79a8e7038875e8b.json",
+      "capturedAt": "2026-09-27T04:48:43.688Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 51
+    },
+    "英文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 51
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 51
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 51
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 51
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-49",
+      "snapshot": "sources/wiki/pages/c79a8e7038875e8b.json",
+      "capturedAt": "2026-09-27T04:48:43.688Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 51
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-49%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/73ee8499194c99bd.json",
+      "capturedAt": "2026-09-27T04:48:47.139Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-49",
+        "snapshot": "sources/wiki/pages/c79a8e7038875e8b.json",
+        "capturedAt": "2026-09-27T04:48:43.688Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "MZ-49",
+        "loops": 3,
+        "days": 6,
+        "schedule": [
+          {
+            "day": 2,
+            "incidentText": "阴谋活动"
+          },
+          {
+            "day": 3,
+            "incidentText": "连续杀人"
+          },
+          {
+            "day": 4,
+            "incidentText": "暴乱"
+          },
+          {
+            "day": 5,
+            "incidentText": "自杀"
+          },
+          {
+            "day": 6,
+            "incidentText": "自白"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 3,
+        "row": 51
+      },
+      "fields": {
+        "scenarioCode": "MZ-49",
+        "剧本名": "召唤古老者",
+        "英文名": "Summoning the Old Ones",
+        "作者": "Seiji-kun",
+        "轮数": "3",
+        "天数": "6"
+      }
+    }
+  ],
+  "wikiTitle": "MZ-49",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Midnight Zone"
+  ],
+  "module": "Midnight Zone",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "8fc2818699c2bb1a",
+        "title": "MZ-49",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "MZ-49",
+          "loops": 3,
+          "days": 6,
+          "schedule": [
+            {
+              "day": 2,
+              "incidentText": "阴谋活动"
+            },
+            {
+              "day": 3,
+              "incidentText": "连续杀人"
+            },
+            {
+              "day": 4,
+              "incidentText": "暴乱"
+            },
+            {
+              "day": 5,
+              "incidentText": "自杀"
+            },
+            {
+              "day": 6,
+              "incidentText": "自白"
+            }
+          ],
+          "剧本名": "召唤古老者",
+          "英文名": "Summoning the Old Ones",
+          "作者": "Seiji-kun",
+          "轮数": "3",
+          "天数": "6"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-49",
+            "snapshot": "sources/wiki/pages/c79a8e7038875e8b.json",
+            "capturedAt": "2026-09-27T04:48:43.688Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-49",
+            "snapshot": "sources/wiki/pages/c79a8e7038875e8b.json",
+            "capturedAt": "2026-09-27T04:48:43.688Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-49",
+            "snapshot": "sources/wiki/pages/c79a8e7038875e8b.json",
+            "capturedAt": "2026-09-27T04:48:43.688Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-49",
+            "snapshot": "sources/wiki/pages/c79a8e7038875e8b.json",
+            "capturedAt": "2026-09-27T04:48:43.688Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-49",
+            "snapshot": "sources/wiki/pages/c79a8e7038875e8b.json",
+            "capturedAt": "2026-09-27T04:48:43.688Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 51
+          },
+          "英文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 51
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 51
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 51
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 51
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-49",
+            "snapshot": "sources/wiki/pages/c79a8e7038875e8b.json",
+            "capturedAt": "2026-09-27T04:48:43.688Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 51
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-49",
+              "snapshot": "sources/wiki/pages/c79a8e7038875e8b.json",
+              "capturedAt": "2026-09-27T04:48:43.688Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "MZ-49",
+              "loops": 3,
+              "days": 6,
+              "schedule": [
+                {
+                  "day": 2,
+                  "incidentText": "阴谋活动"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "连续杀人"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "暴乱"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "自杀"
+                },
+                {
+                  "day": 6,
+                  "incidentText": "自白"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 3,
+              "row": 51
+            },
+            "fields": {
+              "scenarioCode": "MZ-49",
+              "剧本名": "召唤古老者",
+              "英文名": "Summoning the Old Ones",
+              "作者": "Seiji-kun",
+              "轮数": "3",
+              "天数": "6"
+            }
+          }
+        ],
+        "body": "text/scenarios/8fc2818699c2bb1a.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-49",
+          "snapshot": "sources/wiki/pages/c79a8e7038875e8b.json",
+          "capturedAt": "2026-09-27T04:48:43.688Z"
+        },
+        "wikiTitle": "MZ-49",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-49?action=edit&section=1"
+          },
+          {
+            "title": "MZ-49非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-49%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-49?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Midnight Zone"
+        ],
+        "module": "Midnight Zone"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "50819c9ba5f56d0d",
+        "title": "MZ-49非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "MZ-49",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "因果之绊"
+            },
+            {
+              "slot": "X1",
+              "name": "诸神之骰"
+            },
+            {
+              "slot": "X2",
+              "name": "灭亡讴歌"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-49%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/73ee8499194c99bd.json",
+            "capturedAt": "2026-09-27T04:48:47.139Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-49%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/73ee8499194c99bd.json",
+            "capturedAt": "2026-09-27T04:48:47.139Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-49%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/73ee8499194c99bd.json",
+            "capturedAt": "2026-09-27T04:48:47.139Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-49%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/73ee8499194c99bd.json",
+            "capturedAt": "2026-09-27T04:48:47.139Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-49%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/73ee8499194c99bd.json",
+              "capturedAt": "2026-09-27T04:48:47.139Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "MZ-49",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "因果之绊"
+                },
+                {
+                  "slot": "X1",
+                  "name": "诸神之骰"
+                },
+                {
+                  "slot": "X2",
+                  "name": "灭亡讴歌"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/50819c9ba5f56d0d.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-49%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/73ee8499194c99bd.json",
+          "capturedAt": "2026-09-27T04:48:47.139Z"
+        },
+        "wikiTitle": "MZ-49非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-49%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Midnight Zone",
+        "tags": [
+          "民间",
+          "Midnight Zone"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "50819c9ba5f56d0d"
+  ],
+  "conflicts": []
+}

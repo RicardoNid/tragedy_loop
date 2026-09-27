@@ -1,0 +1,45 @@
+{
+  "id": "d141b743988f3fef",
+  "title": "歪曲的时空",
+  "kind": "incidents",
+  "scope": "Old Fashion",
+  "aliases": [],
+  "fields": {
+    "effect": "事件触发的次日，剧作家可以放置4张行动牌，且主人公方只能放置2张（默认队长不放）"
+  },
+  "provenance": {
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Old_Fashion",
+      "snapshot": "sources/wiki/pages/a50ad3a225ece288.json",
+      "capturedAt": "2026-09-27T03:30:00.404Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Old_Fashion",
+      "snapshot": "sources/wiki/pages/a50ad3a225ece288.json",
+      "capturedAt": "2026-09-27T03:30:00.404Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Old_Fashion",
+        "snapshot": "sources/wiki/pages/a50ad3a225ece288.json",
+        "capturedAt": "2026-09-27T03:30:00.404Z"
+      },
+      "fields": {
+        "effect": "事件触发的次日，剧作家可以放置4张行动牌，且主人公方只能放置2张（默认队长不放）"
+      }
+    }
+  ],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "民间"
+  ],
+  "conflicts": []
+}

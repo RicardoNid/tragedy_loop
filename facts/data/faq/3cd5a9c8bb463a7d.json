@@ -1,0 +1,60 @@
+{
+  "id": "3cd5a9c8bb463a7d",
+  "title": "讓我們來看看這模仿犯究竟在模仿誰！",
+  "kind": "faq",
+  "scope": "纸质 FAQ / AHR / Q22",
+  "aliases": [],
+  "fields": {
+    "question": "讓我們來看看這模仿犯究竟在模仿誰！",
+    "answer": "在模仿局外人哦。笑死，我看哥哥是完全不懂哦。我才是本尊哦……"
+  },
+  "provenance": {
+    "question": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+      "snapshot": "sources/paper-faq/another-horizon-revised.json",
+      "page": 17,
+      "questionNumber": 22
+    },
+    "answer": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+      "snapshot": "sources/paper-faq/another-horizon-revised.json",
+      "page": 17,
+      "questionNumber": 22
+    }
+  },
+  "sources": [
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+      "snapshot": "sources/paper-faq/another-horizon-revised.json",
+      "page": 17,
+      "questionNumber": 22
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+        "snapshot": "sources/paper-faq/another-horizon-revised.json",
+        "page": 17,
+        "questionNumber": 22
+      },
+      "fields": {
+        "question": "讓我們來看看這模仿犯究竟在模仿誰！",
+        "answer": "在模仿局外人哦。笑死，我看哥哥是完全不懂哦。我才是本尊哦……"
+      }
+    }
+  ],
+  "tags": [
+    "AHR",
+    "纸质 FAQ",
+    "身份",
+    "官方"
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+  "conflicts": []
+}

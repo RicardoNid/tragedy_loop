@@ -1,0 +1,67 @@
+{
+  "id": "10aebbbc3b31c3ab",
+  "title": "大人物是杀人狂，领地有角色，原地没有，可以如何结算？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / FS BTX / 第 17 行",
+  "aliases": [],
+  "fields": {
+    "question": "大人物是杀人狂，领地有角色，原地没有，可以如何结算？",
+    "answer": "可以选择在领地还是在原地，选在领地就杀死领地的角色"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000005",
+      "snapshot": "sources/faq-sheet/fs-btx.json",
+      "sheet": "FS BTX",
+      "row": 17,
+      "cells": "A17:B17",
+      "capturedAt": "2026-09-27T05:39:54.615Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000005",
+      "snapshot": "sources/faq-sheet/fs-btx.json",
+      "sheet": "FS BTX",
+      "row": 17,
+      "cells": "A17:B17",
+      "capturedAt": "2026-09-27T05:39:54.615Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000005",
+      "snapshot": "sources/faq-sheet/fs-btx.json",
+      "sheet": "FS BTX",
+      "row": 17,
+      "cells": "A17:B17",
+      "capturedAt": "2026-09-27T05:39:54.615Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000005",
+        "snapshot": "sources/faq-sheet/fs-btx.json",
+        "sheet": "FS BTX",
+        "row": 17,
+        "cells": "A17:B17",
+        "capturedAt": "2026-09-27T05:39:54.615Z"
+      },
+      "fields": {
+        "question": "大人物是杀人狂，领地有角色，原地没有，可以如何结算？",
+        "answer": "可以选择在领地还是在原地，选在领地就杀死领地的角色"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "FS BTX",
+    "关于能力",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

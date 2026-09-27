@@ -1,0 +1,456 @@
+{
+  "id": "0191ddcc01bfc5c2",
+  "title": "BTX-87",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "BTX-87非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "BTX-87",
+    "loops": 3,
+    "days": 1,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "医院事故"
+      }
+    ],
+    "剧本名": "天外飞仙",
+    "作者": "萌新宝宝",
+    "轮数": "0",
+    "天数": "0"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-87",
+      "snapshot": "sources/wiki/pages/775817d705bd114a.json",
+      "capturedAt": "2026-09-27T04:21:46.103Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-87",
+      "snapshot": "sources/wiki/pages/775817d705bd114a.json",
+      "capturedAt": "2026-09-27T04:21:46.103Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-87",
+      "snapshot": "sources/wiki/pages/775817d705bd114a.json",
+      "capturedAt": "2026-09-27T04:21:46.103Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-87",
+      "snapshot": "sources/wiki/pages/775817d705bd114a.json",
+      "capturedAt": "2026-09-27T04:21:46.103Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-87",
+      "snapshot": "sources/wiki/pages/775817d705bd114a.json",
+      "capturedAt": "2026-09-27T04:21:46.103Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 88
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 88
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 88
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 88
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-87",
+      "snapshot": "sources/wiki/pages/775817d705bd114a.json",
+      "capturedAt": "2026-09-27T04:21:46.103Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 88
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-87%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/033d53fd699556c1.json",
+      "capturedAt": "2026-09-27T04:21:49.367Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-87",
+        "snapshot": "sources/wiki/pages/775817d705bd114a.json",
+        "capturedAt": "2026-09-27T04:21:46.103Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "BTX-87",
+        "loops": 3,
+        "days": 1,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "医院事故"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 2,
+        "row": 88
+      },
+      "fields": {
+        "scenarioCode": "BTX-87",
+        "剧本名": "天外飞仙",
+        "作者": "萌新宝宝",
+        "轮数": "0",
+        "天数": "0"
+      }
+    }
+  ],
+  "wikiTitle": "BTX-87",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Basic Tragedy X"
+  ],
+  "module": "Basic Tragedy X",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "0191ddcc01bfc5c2",
+        "title": "BTX-87",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "BTX-87",
+          "loops": 3,
+          "days": 1,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "医院事故"
+            }
+          ],
+          "剧本名": "天外飞仙",
+          "作者": "萌新宝宝",
+          "轮数": "0",
+          "天数": "0"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-87",
+            "snapshot": "sources/wiki/pages/775817d705bd114a.json",
+            "capturedAt": "2026-09-27T04:21:46.103Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-87",
+            "snapshot": "sources/wiki/pages/775817d705bd114a.json",
+            "capturedAt": "2026-09-27T04:21:46.103Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-87",
+            "snapshot": "sources/wiki/pages/775817d705bd114a.json",
+            "capturedAt": "2026-09-27T04:21:46.103Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-87",
+            "snapshot": "sources/wiki/pages/775817d705bd114a.json",
+            "capturedAt": "2026-09-27T04:21:46.103Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-87",
+            "snapshot": "sources/wiki/pages/775817d705bd114a.json",
+            "capturedAt": "2026-09-27T04:21:46.103Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 88
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 88
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 88
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 88
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-87",
+            "snapshot": "sources/wiki/pages/775817d705bd114a.json",
+            "capturedAt": "2026-09-27T04:21:46.103Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 88
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-87",
+              "snapshot": "sources/wiki/pages/775817d705bd114a.json",
+              "capturedAt": "2026-09-27T04:21:46.103Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "BTX-87",
+              "loops": 3,
+              "days": 1,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "医院事故"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 2,
+              "row": 88
+            },
+            "fields": {
+              "scenarioCode": "BTX-87",
+              "剧本名": "天外飞仙",
+              "作者": "萌新宝宝",
+              "轮数": "0",
+              "天数": "0"
+            }
+          }
+        ],
+        "body": "text/scenarios/0191ddcc01bfc5c2.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-87",
+          "snapshot": "sources/wiki/pages/775817d705bd114a.json",
+          "capturedAt": "2026-09-27T04:21:46.103Z"
+        },
+        "wikiTitle": "BTX-87",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-87?action=edit&section=1"
+          },
+          {
+            "title": "仙人",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E4%BB%99%E4%BA%BA"
+          },
+          {
+            "title": "UP主",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/UP%E4%B8%BB"
+          },
+          {
+            "title": "BTX-87非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-87%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-87?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Basic Tragedy X"
+        ],
+        "module": "Basic Tragedy X"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "25800454a7f4245c",
+        "title": "BTX-87非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "BTX-87",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "巨大定时炸弹X"
+            },
+            {
+              "slot": "X1",
+              "name": "恋爱风景线"
+            },
+            {
+              "slot": "X2",
+              "name": "流言四起"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-87%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/033d53fd699556c1.json",
+            "capturedAt": "2026-09-27T04:21:49.367Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-87%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/033d53fd699556c1.json",
+            "capturedAt": "2026-09-27T04:21:49.367Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-87%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/033d53fd699556c1.json",
+            "capturedAt": "2026-09-27T04:21:49.367Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-87%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/033d53fd699556c1.json",
+            "capturedAt": "2026-09-27T04:21:49.367Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-87%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/033d53fd699556c1.json",
+              "capturedAt": "2026-09-27T04:21:49.367Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "BTX-87",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "巨大定时炸弹X"
+                },
+                {
+                  "slot": "X1",
+                  "name": "恋爱风景线"
+                },
+                {
+                  "slot": "X2",
+                  "name": "流言四起"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/25800454a7f4245c.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-87%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/033d53fd699556c1.json",
+          "capturedAt": "2026-09-27T04:21:49.367Z"
+        },
+        "wikiTitle": "BTX-87非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-87%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-87%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Basic Tragedy X",
+        "tags": [
+          "民间",
+          "Basic Tragedy X"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "25800454a7f4245c"
+  ],
+  "conflicts": []
+}

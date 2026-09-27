@@ -1,0 +1,67 @@
+{
+  "id": "a4e665586caa846f",
+  "title": "从者的初始区域怎么有两个？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 角色 / 第 107 行",
+  "aliases": [],
+  "fields": {
+    "question": "从者的初始区域怎么有两个？",
+    "answer": "剧本制作时选择其中一个作为初始区域，游戏中不能变更"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 107,
+      "cells": "A107:B107",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 107,
+      "cells": "A107:B107",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 107,
+      "cells": "A107:B107",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+        "snapshot": "sources/faq-sheet/characters.json",
+        "sheet": "角色",
+        "row": 107,
+        "cells": "A107:B107",
+        "capturedAt": "2026-09-27T05:39:49.068Z"
+      },
+      "fields": {
+        "question": "从者的初始区域怎么有两个？",
+        "answer": "剧本制作时选择其中一个作为初始区域，游戏中不能变更"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "角色",
+    "关于从者",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

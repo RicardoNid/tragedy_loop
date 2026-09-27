@@ -1,0 +1,480 @@
+{
+  "id": "b2df15f1f3caa950",
+  "title": "MC-42",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "MC-42非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "MC-42",
+    "loops": 6,
+    "days": 5,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "猎奇杀人"
+      },
+      {
+        "day": 2,
+        "incidentText": "银色子弹"
+      },
+      {
+        "day": 3,
+        "incidentText": "不安扩散"
+      },
+      {
+        "day": 4,
+        "incidentText": "自杀"
+      },
+      {
+        "day": 5,
+        "incidentText": "猎奇杀人"
+      }
+    ],
+    "剧本名": "拒绝平凡",
+    "日文名": "平穏を拒むもの",
+    "作者": "白獅子のケイ",
+    "轮数": "6",
+    "天数": "5"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-42",
+      "snapshot": "sources/wiki/pages/44f7a6075001a5db.json",
+      "capturedAt": "2026-09-27T04:39:30.351Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-42",
+      "snapshot": "sources/wiki/pages/44f7a6075001a5db.json",
+      "capturedAt": "2026-09-27T04:39:30.351Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-42",
+      "snapshot": "sources/wiki/pages/44f7a6075001a5db.json",
+      "capturedAt": "2026-09-27T04:39:30.351Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-42",
+      "snapshot": "sources/wiki/pages/44f7a6075001a5db.json",
+      "capturedAt": "2026-09-27T04:39:30.351Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-42",
+      "snapshot": "sources/wiki/pages/44f7a6075001a5db.json",
+      "capturedAt": "2026-09-27T04:39:30.351Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 44
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 44
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 44
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 44
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 44
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-42",
+      "snapshot": "sources/wiki/pages/44f7a6075001a5db.json",
+      "capturedAt": "2026-09-27T04:39:30.351Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 44
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-42%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/accfd592283c1fa1.json",
+      "capturedAt": "2026-09-27T04:39:33.852Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-42",
+        "snapshot": "sources/wiki/pages/44f7a6075001a5db.json",
+        "capturedAt": "2026-09-27T04:39:30.351Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "MC-42",
+        "loops": 6,
+        "days": 5,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "猎奇杀人"
+          },
+          {
+            "day": 2,
+            "incidentText": "银色子弹"
+          },
+          {
+            "day": 3,
+            "incidentText": "不安扩散"
+          },
+          {
+            "day": 4,
+            "incidentText": "自杀"
+          },
+          {
+            "day": 5,
+            "incidentText": "猎奇杀人"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 4,
+        "row": 44
+      },
+      "fields": {
+        "scenarioCode": "MC-42",
+        "剧本名": "拒绝平凡",
+        "日文名": "平穏を拒むもの",
+        "作者": "白獅子のケイ",
+        "轮数": "6",
+        "天数": "5"
+      }
+    }
+  ],
+  "wikiTitle": "MC-42",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Mystery Circle"
+  ],
+  "module": "Mystery Circle",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "b2df15f1f3caa950",
+        "title": "MC-42",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "MC-42",
+          "loops": 6,
+          "days": 5,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "猎奇杀人"
+            },
+            {
+              "day": 2,
+              "incidentText": "银色子弹"
+            },
+            {
+              "day": 3,
+              "incidentText": "不安扩散"
+            },
+            {
+              "day": 4,
+              "incidentText": "自杀"
+            },
+            {
+              "day": 5,
+              "incidentText": "猎奇杀人"
+            }
+          ],
+          "剧本名": "拒绝平凡",
+          "日文名": "平穏を拒むもの",
+          "作者": "白獅子のケイ",
+          "轮数": "6",
+          "天数": "5"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-42",
+            "snapshot": "sources/wiki/pages/44f7a6075001a5db.json",
+            "capturedAt": "2026-09-27T04:39:30.351Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-42",
+            "snapshot": "sources/wiki/pages/44f7a6075001a5db.json",
+            "capturedAt": "2026-09-27T04:39:30.351Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-42",
+            "snapshot": "sources/wiki/pages/44f7a6075001a5db.json",
+            "capturedAt": "2026-09-27T04:39:30.351Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-42",
+            "snapshot": "sources/wiki/pages/44f7a6075001a5db.json",
+            "capturedAt": "2026-09-27T04:39:30.351Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-42",
+            "snapshot": "sources/wiki/pages/44f7a6075001a5db.json",
+            "capturedAt": "2026-09-27T04:39:30.351Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 44
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 44
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 44
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 44
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 44
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-42",
+            "snapshot": "sources/wiki/pages/44f7a6075001a5db.json",
+            "capturedAt": "2026-09-27T04:39:30.351Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 44
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-42",
+              "snapshot": "sources/wiki/pages/44f7a6075001a5db.json",
+              "capturedAt": "2026-09-27T04:39:30.351Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "MC-42",
+              "loops": 6,
+              "days": 5,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "猎奇杀人"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "银色子弹"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "不安扩散"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "自杀"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "猎奇杀人"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 4,
+              "row": 44
+            },
+            "fields": {
+              "scenarioCode": "MC-42",
+              "剧本名": "拒绝平凡",
+              "日文名": "平穏を拒むもの",
+              "作者": "白獅子のケイ",
+              "轮数": "6",
+              "天数": "5"
+            }
+          }
+        ],
+        "body": "text/scenarios/b2df15f1f3caa950.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-42",
+          "snapshot": "sources/wiki/pages/44f7a6075001a5db.json",
+          "capturedAt": "2026-09-27T04:39:30.351Z"
+        },
+        "wikiTitle": "MC-42",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-42?action=edit&section=1"
+          },
+          {
+            "title": "MC-42非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-42%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-42?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Mystery Circle"
+        ],
+        "module": "Mystery Circle"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "774094534e4b069a",
+        "title": "MC-42非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "MC-42"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-42%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/accfd592283c1fa1.json",
+            "capturedAt": "2026-09-27T04:39:33.852Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-42%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/accfd592283c1fa1.json",
+            "capturedAt": "2026-09-27T04:39:33.852Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-42%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/accfd592283c1fa1.json",
+            "capturedAt": "2026-09-27T04:39:33.852Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-42%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/accfd592283c1fa1.json",
+              "capturedAt": "2026-09-27T04:39:33.852Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "MC-42"
+            }
+          }
+        ],
+        "wikiTitle": "MC-42非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Mystery Circle",
+        "tags": [
+          "民间",
+          "Mystery Circle"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "774094534e4b069a"
+  ],
+  "conflicts": []
+}

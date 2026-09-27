@@ -1,0 +1,66 @@
+{
+  "id": "54792d7ea32b97f6",
+  "title": "剧本怎么写轮回次数啊？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 基础规则 / 第 5 行",
+  "aliases": [],
+  "fields": {
+    "question": "剧本怎么写轮回次数啊？",
+    "answer": "剧作家根据主人公能力，从剧本名字那页下面第一行里选一个合适的轮回数填入公开情报表"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+      "snapshot": "sources/faq-sheet/basic.json",
+      "sheet": "基础规则",
+      "row": 5,
+      "cells": "A5:B5",
+      "capturedAt": "2026-09-27T05:40:57.223Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+      "snapshot": "sources/faq-sheet/basic.json",
+      "sheet": "基础规则",
+      "row": 5,
+      "cells": "A5:B5",
+      "capturedAt": "2026-09-27T05:40:57.223Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+      "snapshot": "sources/faq-sheet/basic.json",
+      "sheet": "基础规则",
+      "row": 5,
+      "cells": "A5:B5",
+      "capturedAt": "2026-09-27T05:40:57.223Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+        "snapshot": "sources/faq-sheet/basic.json",
+        "sheet": "基础规则",
+        "row": 5,
+        "cells": "A5:B5",
+        "capturedAt": "2026-09-27T05:40:57.223Z"
+      },
+      "fields": {
+        "question": "剧本怎么写轮回次数啊？",
+        "answer": "剧作家根据主人公能力，从剧本名字那页下面第一行里选一个合适的轮回数填入公开情报表"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "基础规则",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

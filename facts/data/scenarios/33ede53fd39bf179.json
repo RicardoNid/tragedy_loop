@@ -1,0 +1,442 @@
+{
+  "id": "33ede53fd39bf179",
+  "title": "HSA-15",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "HSA-15非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "HSA-15",
+    "loops": 12,
+    "days": 4,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "不安扩散"
+      },
+      {
+        "day": 2,
+        "incidentText": "污秽溢出"
+      },
+      {
+        "day": 3,
+        "incidentText": "疯狂之夜"
+      },
+      {
+        "day": 4,
+        "incidentText": "失踪"
+      }
+    ],
+    "剧本名": "由你撰写的故事",
+    "作者": "Choconut",
+    "轮数": "12",
+    "天数": "4"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-15",
+      "snapshot": "sources/wiki/pages/115d0f0e4822a485.json",
+      "capturedAt": "2026-09-27T04:29:34.363Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-15",
+      "snapshot": "sources/wiki/pages/115d0f0e4822a485.json",
+      "capturedAt": "2026-09-27T04:29:34.363Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-15",
+      "snapshot": "sources/wiki/pages/115d0f0e4822a485.json",
+      "capturedAt": "2026-09-27T04:29:34.363Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-15",
+      "snapshot": "sources/wiki/pages/115d0f0e4822a485.json",
+      "capturedAt": "2026-09-27T04:29:34.363Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-15",
+      "snapshot": "sources/wiki/pages/115d0f0e4822a485.json",
+      "capturedAt": "2026-09-27T04:29:34.363Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 17
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 17
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 17
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 17
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-15",
+      "snapshot": "sources/wiki/pages/115d0f0e4822a485.json",
+      "capturedAt": "2026-09-27T04:29:34.363Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 17
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-15%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/f5ce94c3d1f49714.json",
+      "capturedAt": "2026-09-27T04:29:37.499Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-15",
+        "snapshot": "sources/wiki/pages/115d0f0e4822a485.json",
+        "capturedAt": "2026-09-27T04:29:34.363Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "HSA-15",
+        "loops": 12,
+        "days": 4,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "不安扩散"
+          },
+          {
+            "day": 2,
+            "incidentText": "污秽溢出"
+          },
+          {
+            "day": 3,
+            "incidentText": "疯狂之夜"
+          },
+          {
+            "day": 4,
+            "incidentText": "失踪"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 5,
+        "row": 17
+      },
+      "fields": {
+        "scenarioCode": "HSA-15",
+        "剧本名": "由你撰写的故事",
+        "作者": "Choconut",
+        "轮数": "12",
+        "天数": "4"
+      }
+    }
+  ],
+  "wikiTitle": "HSA-15",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Haunted Stage Again"
+  ],
+  "module": "Haunted Stage Again",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "33ede53fd39bf179",
+        "title": "HSA-15",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "HSA-15",
+          "loops": 12,
+          "days": 4,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "不安扩散"
+            },
+            {
+              "day": 2,
+              "incidentText": "污秽溢出"
+            },
+            {
+              "day": 3,
+              "incidentText": "疯狂之夜"
+            },
+            {
+              "day": 4,
+              "incidentText": "失踪"
+            }
+          ],
+          "剧本名": "由你撰写的故事",
+          "作者": "Choconut",
+          "轮数": "12",
+          "天数": "4"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-15",
+            "snapshot": "sources/wiki/pages/115d0f0e4822a485.json",
+            "capturedAt": "2026-09-27T04:29:34.363Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-15",
+            "snapshot": "sources/wiki/pages/115d0f0e4822a485.json",
+            "capturedAt": "2026-09-27T04:29:34.363Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-15",
+            "snapshot": "sources/wiki/pages/115d0f0e4822a485.json",
+            "capturedAt": "2026-09-27T04:29:34.363Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-15",
+            "snapshot": "sources/wiki/pages/115d0f0e4822a485.json",
+            "capturedAt": "2026-09-27T04:29:34.363Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-15",
+            "snapshot": "sources/wiki/pages/115d0f0e4822a485.json",
+            "capturedAt": "2026-09-27T04:29:34.363Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 17
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 17
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 17
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 17
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-15",
+            "snapshot": "sources/wiki/pages/115d0f0e4822a485.json",
+            "capturedAt": "2026-09-27T04:29:34.363Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 17
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-15",
+              "snapshot": "sources/wiki/pages/115d0f0e4822a485.json",
+              "capturedAt": "2026-09-27T04:29:34.363Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "HSA-15",
+              "loops": 12,
+              "days": 4,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "不安扩散"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "污秽溢出"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "疯狂之夜"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "失踪"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 5,
+              "row": 17
+            },
+            "fields": {
+              "scenarioCode": "HSA-15",
+              "剧本名": "由你撰写的故事",
+              "作者": "Choconut",
+              "轮数": "12",
+              "天数": "4"
+            }
+          }
+        ],
+        "body": "text/scenarios/33ede53fd39bf179.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-15",
+          "snapshot": "sources/wiki/pages/115d0f0e4822a485.json",
+          "capturedAt": "2026-09-27T04:29:34.363Z"
+        },
+        "wikiTitle": "HSA-15",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "HSA-15非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-15%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-15?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Haunted Stage Again"
+        ],
+        "module": "Haunted Stage Again"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "301840ee3f601c96",
+        "title": "HSA-15非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "HSA-15"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-15%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/f5ce94c3d1f49714.json",
+            "capturedAt": "2026-09-27T04:29:37.499Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-15%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/f5ce94c3d1f49714.json",
+            "capturedAt": "2026-09-27T04:29:37.499Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-15%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/f5ce94c3d1f49714.json",
+            "capturedAt": "2026-09-27T04:29:37.499Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-15%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/f5ce94c3d1f49714.json",
+              "capturedAt": "2026-09-27T04:29:37.499Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "HSA-15"
+            }
+          }
+        ],
+        "wikiTitle": "HSA-15非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Haunted Stage Again",
+        "tags": [
+          "民间",
+          "Haunted Stage Again"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "301840ee3f601c96"
+  ],
+  "conflicts": []
+}

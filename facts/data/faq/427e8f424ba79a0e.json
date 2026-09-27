@@ -1,0 +1,67 @@
+{
+  "id": "427e8f424ba79a0e",
+  "title": "先处理诅咒再处理强制效果，这个理解准确吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / HSA / 第 8 行",
+  "aliases": [],
+  "fields": {
+    "question": "先处理诅咒再处理强制效果，这个理解准确吗？",
+    "answer": "是的，如果诅咒杀死某版图3人中的1个，剩下2人在强制能力时独处，杀人狂可以让另一个角色死亡"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1u35d2",
+      "snapshot": "sources/faq-sheet/hsa.json",
+      "sheet": "HSA",
+      "row": 8,
+      "cells": "A8:B8",
+      "capturedAt": "2026-09-27T05:40:17.319Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1u35d2",
+      "snapshot": "sources/faq-sheet/hsa.json",
+      "sheet": "HSA",
+      "row": 8,
+      "cells": "A8:B8",
+      "capturedAt": "2026-09-27T05:40:17.319Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1u35d2",
+      "snapshot": "sources/faq-sheet/hsa.json",
+      "sheet": "HSA",
+      "row": 8,
+      "cells": "A8:B8",
+      "capturedAt": "2026-09-27T05:40:17.319Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1u35d2",
+        "snapshot": "sources/faq-sheet/hsa.json",
+        "sheet": "HSA",
+        "row": 8,
+        "cells": "A8:B8",
+        "capturedAt": "2026-09-27T05:40:17.319Z"
+      },
+      "fields": {
+        "question": "先处理诅咒再处理强制效果，这个理解准确吗？",
+        "answer": "是的，如果诅咒杀死某版图3人中的1个，剩下2人在强制能力时独处，杀人狂可以让另一个角色死亡"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "HSA",
+    "关于诅咒牌",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

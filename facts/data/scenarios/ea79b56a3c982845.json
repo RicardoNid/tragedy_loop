@@ -1,0 +1,114 @@
+{
+  "id": "ea79b56a3c982845",
+  "title": "WM-04SP",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "WM-04SP非公开信息表"
+  ],
+  "fields": {
+    "scenarioCode": "WM-04SP"
+  },
+  "provenance": {
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-04SP%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1889",
+      "snapshot": "sources/wiki/pages/dfed593617c9e1ed.json",
+      "capturedAt": "2026-09-27T04:59:56.426Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-04SP%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1889",
+      "snapshot": "sources/wiki/pages/dfed593617c9e1ed.json",
+      "capturedAt": "2026-09-27T04:59:56.426Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-04SP%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1889",
+        "snapshot": "sources/wiki/pages/dfed593617c9e1ed.json",
+        "capturedAt": "2026-09-27T04:59:56.426Z"
+      },
+      "fields": {
+        "visibility": "secret",
+        "scenarioCode": "WM-04SP"
+      }
+    }
+  ],
+  "wikiTitle": "WM-04SP非公开信息表",
+  "images": [],
+  "media": [],
+  "module": "Weird Mythology",
+  "tags": [
+    "Weird Mythology"
+  ],
+  "scenarioParts": [
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "ea79b56a3c982845",
+        "title": "WM-04SP非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "WM-04SP"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-04SP%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1889",
+            "snapshot": "sources/wiki/pages/dfed593617c9e1ed.json",
+            "capturedAt": "2026-09-27T04:59:56.426Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-04SP%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1889",
+            "snapshot": "sources/wiki/pages/dfed593617c9e1ed.json",
+            "capturedAt": "2026-09-27T04:59:56.426Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-04SP%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1889",
+            "snapshot": "sources/wiki/pages/dfed593617c9e1ed.json",
+            "capturedAt": "2026-09-27T04:59:56.426Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-04SP%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1889",
+              "snapshot": "sources/wiki/pages/dfed593617c9e1ed.json",
+              "capturedAt": "2026-09-27T04:59:56.426Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "WM-04SP"
+            }
+          }
+        ],
+        "wikiTitle": "WM-04SP非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "module": "Weird Mythology",
+        "tags": [
+          "Weird Mythology"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [],
+  "conflicts": []
+}

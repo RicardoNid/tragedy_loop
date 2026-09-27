@@ -1,0 +1,462 @@
+{
+  "id": "2d8e7321afee5a5c",
+  "title": "AHR-07",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "AHR-07非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "AHR-07",
+    "loops": 8,
+    "days": 5,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "次元转换"
+      },
+      {
+        "day": 2,
+        "incidentText": "医院事故"
+      },
+      {
+        "day": 3,
+        "incidentText": "绝望之暗"
+      },
+      {
+        "day": 4,
+        "incidentText": "次元歪曲"
+      },
+      {
+        "day": 5,
+        "incidentText": "奇点"
+      }
+    ],
+    "剧本名": "危机四伏的鲜血童话",
+    "作者": "α聆弦",
+    "轮数": "8 6",
+    "天数": "5"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-07",
+      "snapshot": "sources/wiki/pages/523256b440463d24.json",
+      "capturedAt": "2026-09-27T03:40:00.671Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-07",
+      "snapshot": "sources/wiki/pages/523256b440463d24.json",
+      "capturedAt": "2026-09-27T03:40:00.671Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-07",
+      "snapshot": "sources/wiki/pages/523256b440463d24.json",
+      "capturedAt": "2026-09-27T03:40:00.671Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-07",
+      "snapshot": "sources/wiki/pages/523256b440463d24.json",
+      "capturedAt": "2026-09-27T03:40:00.671Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-07",
+      "snapshot": "sources/wiki/pages/523256b440463d24.json",
+      "capturedAt": "2026-09-27T03:40:00.671Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 8
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 8
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 8
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 8
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-07",
+      "snapshot": "sources/wiki/pages/523256b440463d24.json",
+      "capturedAt": "2026-09-27T03:40:00.671Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 8
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-07%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/983553514ebabc16.json",
+      "capturedAt": "2026-09-27T03:40:03.460Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-07",
+        "snapshot": "sources/wiki/pages/523256b440463d24.json",
+        "capturedAt": "2026-09-27T03:40:00.671Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "AHR-07",
+        "loops": 8,
+        "days": 5,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "次元转换"
+          },
+          {
+            "day": 2,
+            "incidentText": "医院事故"
+          },
+          {
+            "day": 3,
+            "incidentText": "绝望之暗"
+          },
+          {
+            "day": 4,
+            "incidentText": "次元歪曲"
+          },
+          {
+            "day": 5,
+            "incidentText": "奇点"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 7,
+        "row": 8
+      },
+      "fields": {
+        "scenarioCode": "AHR-07",
+        "剧本名": "危机四伏的鲜血童话",
+        "作者": "α聆弦",
+        "轮数": "8 6",
+        "天数": "5"
+      }
+    }
+  ],
+  "wikiTitle": "AHR-07",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Another Horizon Revised"
+  ],
+  "module": "Another Horizon Revised",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "2d8e7321afee5a5c",
+        "title": "AHR-07",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "AHR-07",
+          "loops": 8,
+          "days": 5,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "次元转换"
+            },
+            {
+              "day": 2,
+              "incidentText": "医院事故"
+            },
+            {
+              "day": 3,
+              "incidentText": "绝望之暗"
+            },
+            {
+              "day": 4,
+              "incidentText": "次元歪曲"
+            },
+            {
+              "day": 5,
+              "incidentText": "奇点"
+            }
+          ],
+          "剧本名": "危机四伏的鲜血童话",
+          "作者": "α聆弦",
+          "轮数": "8 6",
+          "天数": "5"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-07",
+            "snapshot": "sources/wiki/pages/523256b440463d24.json",
+            "capturedAt": "2026-09-27T03:40:00.671Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-07",
+            "snapshot": "sources/wiki/pages/523256b440463d24.json",
+            "capturedAt": "2026-09-27T03:40:00.671Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-07",
+            "snapshot": "sources/wiki/pages/523256b440463d24.json",
+            "capturedAt": "2026-09-27T03:40:00.671Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-07",
+            "snapshot": "sources/wiki/pages/523256b440463d24.json",
+            "capturedAt": "2026-09-27T03:40:00.671Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-07",
+            "snapshot": "sources/wiki/pages/523256b440463d24.json",
+            "capturedAt": "2026-09-27T03:40:00.671Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 8
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 8
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 8
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 8
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-07",
+            "snapshot": "sources/wiki/pages/523256b440463d24.json",
+            "capturedAt": "2026-09-27T03:40:00.671Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 8
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-07",
+              "snapshot": "sources/wiki/pages/523256b440463d24.json",
+              "capturedAt": "2026-09-27T03:40:00.671Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "AHR-07",
+              "loops": 8,
+              "days": 5,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "次元转换"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "医院事故"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "绝望之暗"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "次元歪曲"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "奇点"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 7,
+              "row": 8
+            },
+            "fields": {
+              "scenarioCode": "AHR-07",
+              "剧本名": "危机四伏的鲜血童话",
+              "作者": "α聆弦",
+              "轮数": "8 6",
+              "天数": "5"
+            }
+          }
+        ],
+        "body": "text/scenarios/2d8e7321afee5a5c.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-07",
+          "snapshot": "sources/wiki/pages/523256b440463d24.json",
+          "capturedAt": "2026-09-27T03:40:00.671Z"
+        },
+        "wikiTitle": "AHR-07",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-07?action=edit&section=1"
+          },
+          {
+            "title": "AHR-07非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-07%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-07?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Another Horizon Revised"
+        ],
+        "module": "Another Horizon Revised"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "414f29a58e7774a3",
+        "title": "AHR-07非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "AHR-07"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-07%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/983553514ebabc16.json",
+            "capturedAt": "2026-09-27T03:40:03.460Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-07%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/983553514ebabc16.json",
+            "capturedAt": "2026-09-27T03:40:03.460Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-07%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/983553514ebabc16.json",
+            "capturedAt": "2026-09-27T03:40:03.460Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-07%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/983553514ebabc16.json",
+              "capturedAt": "2026-09-27T03:40:03.460Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "AHR-07"
+            }
+          }
+        ],
+        "wikiTitle": "AHR-07非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Another Horizon Revised",
+        "tags": [
+          "民间",
+          "Another Horizon Revised"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "414f29a58e7774a3"
+  ],
+  "conflicts": []
+}

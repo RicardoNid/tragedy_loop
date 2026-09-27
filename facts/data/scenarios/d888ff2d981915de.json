@@ -1,0 +1,480 @@
+{
+  "id": "d888ff2d981915de",
+  "title": "MC-39",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "MC-39非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "MC-39",
+    "loops": 5,
+    "days": 6,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "前兆"
+      },
+      {
+        "day": 2,
+        "incidentText": "自杀"
+      },
+      {
+        "day": 3,
+        "incidentText": "不安扩散"
+      },
+      {
+        "day": 4,
+        "incidentText": "银色子弹"
+      },
+      {
+        "day": 6,
+        "incidentText": "猎奇杀人"
+      }
+    ],
+    "剧本名": "探照灯与月光共舞",
+    "日文名": "サーチライトは月の光と共に",
+    "作者": "弾濫",
+    "轮数": "5",
+    "天数": "6"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-39",
+      "snapshot": "sources/wiki/pages/b6ed6f3c23964a73.json",
+      "capturedAt": "2026-09-27T04:38:57.308Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-39",
+      "snapshot": "sources/wiki/pages/b6ed6f3c23964a73.json",
+      "capturedAt": "2026-09-27T04:38:57.308Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-39",
+      "snapshot": "sources/wiki/pages/b6ed6f3c23964a73.json",
+      "capturedAt": "2026-09-27T04:38:57.308Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-39",
+      "snapshot": "sources/wiki/pages/b6ed6f3c23964a73.json",
+      "capturedAt": "2026-09-27T04:38:57.308Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-39",
+      "snapshot": "sources/wiki/pages/b6ed6f3c23964a73.json",
+      "capturedAt": "2026-09-27T04:38:57.308Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 41
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 41
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 41
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 41
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 41
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-39",
+      "snapshot": "sources/wiki/pages/b6ed6f3c23964a73.json",
+      "capturedAt": "2026-09-27T04:38:57.308Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 41
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-39%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/bc45125cb6214f75.json",
+      "capturedAt": "2026-09-27T04:39:00.570Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-39",
+        "snapshot": "sources/wiki/pages/b6ed6f3c23964a73.json",
+        "capturedAt": "2026-09-27T04:38:57.308Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "MC-39",
+        "loops": 5,
+        "days": 6,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "前兆"
+          },
+          {
+            "day": 2,
+            "incidentText": "自杀"
+          },
+          {
+            "day": 3,
+            "incidentText": "不安扩散"
+          },
+          {
+            "day": 4,
+            "incidentText": "银色子弹"
+          },
+          {
+            "day": 6,
+            "incidentText": "猎奇杀人"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 4,
+        "row": 41
+      },
+      "fields": {
+        "scenarioCode": "MC-39",
+        "剧本名": "探照灯与月光共舞",
+        "日文名": "サーチライトは月の光と共に",
+        "作者": "弾濫",
+        "轮数": "5",
+        "天数": "6"
+      }
+    }
+  ],
+  "wikiTitle": "MC-39",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Mystery Circle"
+  ],
+  "module": "Mystery Circle",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "d888ff2d981915de",
+        "title": "MC-39",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "MC-39",
+          "loops": 5,
+          "days": 6,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "前兆"
+            },
+            {
+              "day": 2,
+              "incidentText": "自杀"
+            },
+            {
+              "day": 3,
+              "incidentText": "不安扩散"
+            },
+            {
+              "day": 4,
+              "incidentText": "银色子弹"
+            },
+            {
+              "day": 6,
+              "incidentText": "猎奇杀人"
+            }
+          ],
+          "剧本名": "探照灯与月光共舞",
+          "日文名": "サーチライトは月の光と共に",
+          "作者": "弾濫",
+          "轮数": "5",
+          "天数": "6"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-39",
+            "snapshot": "sources/wiki/pages/b6ed6f3c23964a73.json",
+            "capturedAt": "2026-09-27T04:38:57.308Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-39",
+            "snapshot": "sources/wiki/pages/b6ed6f3c23964a73.json",
+            "capturedAt": "2026-09-27T04:38:57.308Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-39",
+            "snapshot": "sources/wiki/pages/b6ed6f3c23964a73.json",
+            "capturedAt": "2026-09-27T04:38:57.308Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-39",
+            "snapshot": "sources/wiki/pages/b6ed6f3c23964a73.json",
+            "capturedAt": "2026-09-27T04:38:57.308Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-39",
+            "snapshot": "sources/wiki/pages/b6ed6f3c23964a73.json",
+            "capturedAt": "2026-09-27T04:38:57.308Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 41
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 41
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 41
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 41
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 41
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-39",
+            "snapshot": "sources/wiki/pages/b6ed6f3c23964a73.json",
+            "capturedAt": "2026-09-27T04:38:57.308Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 41
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-39",
+              "snapshot": "sources/wiki/pages/b6ed6f3c23964a73.json",
+              "capturedAt": "2026-09-27T04:38:57.308Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "MC-39",
+              "loops": 5,
+              "days": 6,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "前兆"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "自杀"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "不安扩散"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "银色子弹"
+                },
+                {
+                  "day": 6,
+                  "incidentText": "猎奇杀人"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 4,
+              "row": 41
+            },
+            "fields": {
+              "scenarioCode": "MC-39",
+              "剧本名": "探照灯与月光共舞",
+              "日文名": "サーチライトは月の光と共に",
+              "作者": "弾濫",
+              "轮数": "5",
+              "天数": "6"
+            }
+          }
+        ],
+        "body": "text/scenarios/d888ff2d981915de.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-39",
+          "snapshot": "sources/wiki/pages/b6ed6f3c23964a73.json",
+          "capturedAt": "2026-09-27T04:38:57.308Z"
+        },
+        "wikiTitle": "MC-39",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-39?action=edit&section=1"
+          },
+          {
+            "title": "MC-39非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-39%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-39?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Mystery Circle"
+        ],
+        "module": "Mystery Circle"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "2d9bf1b573179fb3",
+        "title": "MC-39非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "MC-39"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-39%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/bc45125cb6214f75.json",
+            "capturedAt": "2026-09-27T04:39:00.570Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-39%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/bc45125cb6214f75.json",
+            "capturedAt": "2026-09-27T04:39:00.570Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-39%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/bc45125cb6214f75.json",
+            "capturedAt": "2026-09-27T04:39:00.570Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-39%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/bc45125cb6214f75.json",
+              "capturedAt": "2026-09-27T04:39:00.570Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "MC-39"
+            }
+          }
+        ],
+        "wikiTitle": "MC-39非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Mystery Circle",
+        "tags": [
+          "民间",
+          "Mystery Circle"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "2d9bf1b573179fb3"
+  ],
+  "conflicts": []
+}

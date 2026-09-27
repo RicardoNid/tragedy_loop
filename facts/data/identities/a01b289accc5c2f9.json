@@ -1,0 +1,67 @@
+{
+  "id": "a01b289accc5c2f9",
+  "title": "教授",
+  "kind": "identities",
+  "scope": "Sin City",
+  "aliases": [],
+  "fields": {
+    "max": "",
+    "traits": "傀儡无视友好",
+    "abilities": [
+      "【强制：剧本制作时】如果该角色为某个事件的当事人，指定另一名登场角色，在轮回中代替该角色进行该事件的触发判定，并在结算事件时视为当事人",
+      "【任意能力：事件阶段】判定事件是否发生时，可以声明让与该角色位于同一区域的所有角色在本回合不安限度视为0或无穷（所有教授合计，每轮限1次）"
+    ]
+  },
+  "provenance": {
+    "max": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Sin_City",
+      "snapshot": "sources/wiki/pages/59c6099598cb6333.json",
+      "capturedAt": "2026-09-27T03:30:03.250Z"
+    },
+    "traits": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Sin_City",
+      "snapshot": "sources/wiki/pages/59c6099598cb6333.json",
+      "capturedAt": "2026-09-27T03:30:03.250Z"
+    },
+    "abilities": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Sin_City",
+      "snapshot": "sources/wiki/pages/59c6099598cb6333.json",
+      "capturedAt": "2026-09-27T03:30:03.250Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Sin_City",
+      "snapshot": "sources/wiki/pages/59c6099598cb6333.json",
+      "capturedAt": "2026-09-27T03:30:03.250Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Sin_City",
+        "snapshot": "sources/wiki/pages/59c6099598cb6333.json",
+        "capturedAt": "2026-09-27T03:30:03.250Z"
+      },
+      "fields": {
+        "max": "",
+        "traits": "傀儡无视友好",
+        "abilities": [
+          "【强制：剧本制作时】如果该角色为某个事件的当事人，指定另一名登场角色，在轮回中代替该角色进行该事件的触发判定，并在结算事件时视为当事人",
+          "【任意能力：事件阶段】判定事件是否发生时，可以声明让与该角色位于同一区域的所有角色在本回合不安限度视为0或无穷（所有教授合计，每轮限1次）"
+        ]
+      }
+    }
+  ],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "民间"
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,54 @@
+{
+  "id": "b3cf60d0c6d5c1e3",
+  "title": "魔女",
+  "kind": "identities",
+  "scope": "Basic Tragedy",
+  "aliases": [],
+  "fields": {
+    "max": "",
+    "traits": "必定无视友好"
+  },
+  "provenance": {
+    "max": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy",
+      "snapshot": "sources/wiki/pages/c5967c2abd41a1b6.json",
+      "capturedAt": "2026-09-27T03:28:26.906Z"
+    },
+    "traits": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy",
+      "snapshot": "sources/wiki/pages/c5967c2abd41a1b6.json",
+      "capturedAt": "2026-09-27T03:28:26.906Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy",
+      "snapshot": "sources/wiki/pages/c5967c2abd41a1b6.json",
+      "capturedAt": "2026-09-27T03:28:26.906Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy",
+        "snapshot": "sources/wiki/pages/c5967c2abd41a1b6.json",
+        "capturedAt": "2026-09-27T03:28:26.906Z"
+      },
+      "fields": {
+        "max": "",
+        "traits": "必定无视友好",
+        "abilities": []
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "官方"
+  ],
+  "conflicts": []
+}

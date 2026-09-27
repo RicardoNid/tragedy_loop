@@ -1,0 +1,67 @@
+{
+  "id": "fe8e33b386813e10",
+  "title": "【黄衣之王】先EX上升，再用学者把EX槽下降，主人公失败吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / WM / 第 10 行",
+  "aliases": [],
+  "fields": {
+    "question": "【黄衣之王】先EX上升，再用学者把EX槽下降，主人公失败吗？",
+    "answer": "失败，失败条件是EX上升过"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=ofqfdw",
+      "snapshot": "sources/faq-sheet/wm.json",
+      "sheet": "WM",
+      "row": 10,
+      "cells": "A10:B10",
+      "capturedAt": "2026-09-27T05:40:23.278Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=ofqfdw",
+      "snapshot": "sources/faq-sheet/wm.json",
+      "sheet": "WM",
+      "row": 10,
+      "cells": "A10:B10",
+      "capturedAt": "2026-09-27T05:40:23.278Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=ofqfdw",
+      "snapshot": "sources/faq-sheet/wm.json",
+      "sheet": "WM",
+      "row": 10,
+      "cells": "A10:B10",
+      "capturedAt": "2026-09-27T05:40:23.278Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=ofqfdw",
+        "snapshot": "sources/faq-sheet/wm.json",
+        "sheet": "WM",
+        "row": 10,
+        "cells": "A10:B10",
+        "capturedAt": "2026-09-27T05:40:23.278Z"
+      },
+      "fields": {
+        "question": "【黄衣之王】先EX上升，再用学者把EX槽下降，主人公失败吗？",
+        "answer": "失败，失败条件是EX上升过"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "WM",
+    "关于规则",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

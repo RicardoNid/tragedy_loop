@@ -1,0 +1,67 @@
+{
+  "id": "fc42fd6d7a244457",
+  "title": "2张诅咒牌在同一个角色身上，诅咒牌如何处理？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / HSA / 第 7 行",
+  "aliases": [],
+  "fields": {
+    "question": "2张诅咒牌在同一个角色身上，诅咒牌如何处理？",
+    "answer": "角色死亡，两张都移动到版图上"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1u35d2",
+      "snapshot": "sources/faq-sheet/hsa.json",
+      "sheet": "HSA",
+      "row": 7,
+      "cells": "A7:B7",
+      "capturedAt": "2026-09-27T05:40:17.319Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1u35d2",
+      "snapshot": "sources/faq-sheet/hsa.json",
+      "sheet": "HSA",
+      "row": 7,
+      "cells": "A7:B7",
+      "capturedAt": "2026-09-27T05:40:17.319Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1u35d2",
+      "snapshot": "sources/faq-sheet/hsa.json",
+      "sheet": "HSA",
+      "row": 7,
+      "cells": "A7:B7",
+      "capturedAt": "2026-09-27T05:40:17.319Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1u35d2",
+        "snapshot": "sources/faq-sheet/hsa.json",
+        "sheet": "HSA",
+        "row": 7,
+        "cells": "A7:B7",
+        "capturedAt": "2026-09-27T05:40:17.319Z"
+      },
+      "fields": {
+        "question": "2张诅咒牌在同一个角色身上，诅咒牌如何处理？",
+        "answer": "角色死亡，两张都移动到版图上"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "HSA",
+    "关于诅咒牌",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

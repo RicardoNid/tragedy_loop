@@ -1,0 +1,66 @@
+{
+  "id": "a630e4022ceb45a5",
+  "title": "没有剧本卡怎么给主人公看？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 写在前面 / 第 4 行",
+  "aliases": [],
+  "fields": {
+    "question": "没有剧本卡怎么给主人公看？",
+    "answer": "拍照，复印，截图，手写，口传，只要准确的将公开信息表中的信息（轮回次数，天数，会发生什么事件，特殊规则）传达给主人公即可。"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000001",
+      "snapshot": "sources/faq-sheet/preface.json",
+      "sheet": "写在前面",
+      "row": 4,
+      "cells": "A4:B4",
+      "capturedAt": "2026-09-27T05:41:03.158Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000001",
+      "snapshot": "sources/faq-sheet/preface.json",
+      "sheet": "写在前面",
+      "row": 4,
+      "cells": "A4:B4",
+      "capturedAt": "2026-09-27T05:41:03.158Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000001",
+      "snapshot": "sources/faq-sheet/preface.json",
+      "sheet": "写在前面",
+      "row": 4,
+      "cells": "A4:B4",
+      "capturedAt": "2026-09-27T05:41:03.158Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000001",
+        "snapshot": "sources/faq-sheet/preface.json",
+        "sheet": "写在前面",
+        "row": 4,
+        "cells": "A4:B4",
+        "capturedAt": "2026-09-27T05:41:03.158Z"
+      },
+      "fields": {
+        "question": "没有剧本卡怎么给主人公看？",
+        "answer": "拍照，复印，截图，手写，口传，只要准确的将公开信息表中的信息（轮回次数，天数，会发生什么事件，特殊规则）传达给主人公即可。"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "写在前面",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

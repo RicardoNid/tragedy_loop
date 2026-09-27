@@ -1,0 +1,67 @@
+{
+  "id": "fcc1095616017a15",
+  "title": "鉴别员验出了死亡的亲友，然后亲友被异界人复活，下轮开始时需要给亲友友好吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 角色 / 第 75 行",
+  "aliases": [],
+  "fields": {
+    "question": "鉴别员验出了死亡的亲友，然后亲友被异界人复活，下轮开始时需要给亲友友好吗？",
+    "answer": "需要，因为亲友这时候是存活的角色"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 75,
+      "cells": "A75:B75",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 75,
+      "cells": "A75:B75",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 75,
+      "cells": "A75:B75",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+        "snapshot": "sources/faq-sheet/characters.json",
+        "sheet": "角色",
+        "row": 75,
+        "cells": "A75:B75",
+        "capturedAt": "2026-09-27T05:39:49.068Z"
+      },
+      "fields": {
+        "question": "鉴别员验出了死亡的亲友，然后亲友被异界人复活，下轮开始时需要给亲友友好吗？",
+        "answer": "需要，因为亲友这时候是存活的角色"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "角色",
+    "关于鉴别员",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

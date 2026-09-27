@@ -1,0 +1,67 @@
+{
+  "id": "b344d15cced6c713",
+  "title": "【改变未来】黑猫触发蝴蝶效应，能达成失败条件吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / FS BTX / 第 7 行",
+  "aliases": [],
+  "fields": {
+    "question": "【改变未来】黑猫触发蝴蝶效应，能达成失败条件吗？",
+    "answer": "可以"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000005",
+      "snapshot": "sources/faq-sheet/fs-btx.json",
+      "sheet": "FS BTX",
+      "row": 7,
+      "cells": "A7:B7",
+      "capturedAt": "2026-09-27T05:39:54.615Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000005",
+      "snapshot": "sources/faq-sheet/fs-btx.json",
+      "sheet": "FS BTX",
+      "row": 7,
+      "cells": "A7:B7",
+      "capturedAt": "2026-09-27T05:39:54.615Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000005",
+      "snapshot": "sources/faq-sheet/fs-btx.json",
+      "sheet": "FS BTX",
+      "row": 7,
+      "cells": "A7:B7",
+      "capturedAt": "2026-09-27T05:39:54.615Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000005",
+        "snapshot": "sources/faq-sheet/fs-btx.json",
+        "sheet": "FS BTX",
+        "row": 7,
+        "cells": "A7:B7",
+        "capturedAt": "2026-09-27T05:39:54.615Z"
+      },
+      "fields": {
+        "question": "【改变未来】黑猫触发蝴蝶效应，能达成失败条件吗？",
+        "answer": "可以"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "FS BTX",
+    "关于规则",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

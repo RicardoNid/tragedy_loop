@@ -1,0 +1,67 @@
+{
+  "id": "5c3f5f7975254ec8",
+  "title": "导入+规则后，情报商可以声明【超越世界线】吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 角色 / 第 12 行",
+  "aliases": [],
+  "fields": {
+    "question": "导入+规则后，情报商可以声明【超越世界线】吗？",
+    "answer": "可以"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 12,
+      "cells": "A12:B12",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 12,
+      "cells": "A12:B12",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 12,
+      "cells": "A12:B12",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+        "snapshot": "sources/faq-sheet/characters.json",
+        "sheet": "角色",
+        "row": 12,
+        "cells": "A12:B12",
+        "capturedAt": "2026-09-27T05:39:49.068Z"
+      },
+      "fields": {
+        "question": "导入+规则后，情报商可以声明【超越世界线】吗？",
+        "answer": "可以"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "角色",
+    "关于情报商",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

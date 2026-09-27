@@ -1,0 +1,65 @@
+{
+  "id": "933ea085d46a5e14",
+  "title": "恐怖化身",
+  "kind": "identities",
+  "scope": "Haunted Stage",
+  "aliases": [],
+  "fields": {
+    "max": "①",
+    "traits": "死后活性",
+    "abilities": [
+      "【任意能力：回合结束阶段】往同一区域的1名角色身上放置1枚[不安]"
+    ]
+  },
+  "provenance": {
+    "max": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage",
+      "snapshot": "sources/wiki/pages/2c5d6075f60e6bd8.json",
+      "capturedAt": "2026-09-27T03:29:39.254Z"
+    },
+    "traits": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage",
+      "snapshot": "sources/wiki/pages/2c5d6075f60e6bd8.json",
+      "capturedAt": "2026-09-27T03:29:39.254Z"
+    },
+    "abilities": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage",
+      "snapshot": "sources/wiki/pages/2c5d6075f60e6bd8.json",
+      "capturedAt": "2026-09-27T03:29:39.254Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage",
+      "snapshot": "sources/wiki/pages/2c5d6075f60e6bd8.json",
+      "capturedAt": "2026-09-27T03:29:39.254Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage",
+        "snapshot": "sources/wiki/pages/2c5d6075f60e6bd8.json",
+        "capturedAt": "2026-09-27T03:29:39.254Z"
+      },
+      "fields": {
+        "max": "①",
+        "traits": "死后活性",
+        "abilities": [
+          "【任意能力：回合结束阶段】往同一区域的1名角色身上放置1枚[不安]"
+        ]
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "官方"
+  ],
+  "conflicts": []
+}

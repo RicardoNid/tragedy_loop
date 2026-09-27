@@ -1,0 +1,71 @@
+{
+  "id": "a391d5cc115fc6d0",
+  "title": "巨大定时炸弹X",
+  "kind": "rules",
+  "scope": "Basic Tragedy X Plus",
+  "aliases": [],
+  "fields": {
+    "ruleType": "Y",
+    "identityCounts": {
+      "魔女": "①"
+    },
+    "effect": "【失败条件：轮回结束时】魔女的初始区域有2枚或以上[密谋]"
+  },
+  "provenance": {
+    "ruleType": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy_X",
+      "snapshot": "sources/wiki/pages/1095c9f923c9c10c.json",
+      "capturedAt": "2026-09-27T03:28:29.736Z"
+    },
+    "identityCounts": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy_X",
+      "snapshot": "sources/wiki/pages/1095c9f923c9c10c.json",
+      "capturedAt": "2026-09-27T03:28:29.736Z"
+    },
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy_X",
+      "snapshot": "sources/wiki/pages/1095c9f923c9c10c.json",
+      "capturedAt": "2026-09-27T03:28:29.736Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy_X",
+      "snapshot": "sources/wiki/pages/1095c9f923c9c10c.json",
+      "capturedAt": "2026-09-27T03:28:29.736Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy_X",
+        "snapshot": "sources/wiki/pages/1095c9f923c9c10c.json",
+        "capturedAt": "2026-09-27T03:28:29.736Z"
+      },
+      "fields": {
+        "ruleType": "Y",
+        "identityCounts": {
+          "魔女": "①"
+        },
+        "effect": "【失败条件：轮回结束时】魔女的初始区域有2枚或以上[密谋]"
+      }
+    }
+  ],
+  "inheritedFrom": "6f8edd5a6f96688b",
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "Y",
+    "官方"
+  ],
+  "conflicts": []
+}

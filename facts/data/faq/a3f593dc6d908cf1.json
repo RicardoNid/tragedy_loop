@@ -1,0 +1,67 @@
+{
+  "id": "a3f593dc6d908cf1",
+  "title": "空发一个能力（比如男学生点没有不安的女学生），拒绝的时候是不是什么都不用说？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 基础规则 / 第 51 行",
+  "aliases": [],
+  "fields": {
+    "question": "空发一个能力（比如男学生点没有不安的女学生），拒绝的时候是不是什么都不用说？",
+    "answer": "必须声明那个角色拒绝了能力的发动"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+      "snapshot": "sources/faq-sheet/basic.json",
+      "sheet": "基础规则",
+      "row": 51,
+      "cells": "A51:B51",
+      "capturedAt": "2026-09-27T05:40:57.223Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+      "snapshot": "sources/faq-sheet/basic.json",
+      "sheet": "基础规则",
+      "row": 51,
+      "cells": "A51:B51",
+      "capturedAt": "2026-09-27T05:40:57.223Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+      "snapshot": "sources/faq-sheet/basic.json",
+      "sheet": "基础规则",
+      "row": 51,
+      "cells": "A51:B51",
+      "capturedAt": "2026-09-27T05:40:57.223Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+        "snapshot": "sources/faq-sheet/basic.json",
+        "sheet": "基础规则",
+        "row": 51,
+        "cells": "A51:B51",
+        "capturedAt": "2026-09-27T05:40:57.223Z"
+      },
+      "fields": {
+        "question": "空发一个能力（比如男学生点没有不安的女学生），拒绝的时候是不是什么都不用说？",
+        "answer": "必须声明那个角色拒绝了能力的发动"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "基础规则",
+    "主人公能力",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

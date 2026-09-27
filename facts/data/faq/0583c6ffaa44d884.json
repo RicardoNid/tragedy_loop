@@ -1,0 +1,67 @@
+{
+  "id": "0583c6ffaa44d884",
+  "title": "Ex为3时，大人物是邪教徒，在所在区域和领地各有一张禁止密谋，可以把这些禁止密谋都无效吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / WM / 第 26 行",
+  "aliases": [],
+  "fields": {
+    "question": "Ex为3时，大人物是邪教徒，在所在区域和领地各有一张禁止密谋，可以把这些禁止密谋都无效吗？",
+    "answer": "不能，因为是同时结算，所以只能选择一个区域的禁止密谋无效"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=ofqfdw",
+      "snapshot": "sources/faq-sheet/wm.json",
+      "sheet": "WM",
+      "row": 26,
+      "cells": "A26:B26",
+      "capturedAt": "2026-09-27T05:40:23.278Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=ofqfdw",
+      "snapshot": "sources/faq-sheet/wm.json",
+      "sheet": "WM",
+      "row": 26,
+      "cells": "A26:B26",
+      "capturedAt": "2026-09-27T05:40:23.278Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=ofqfdw",
+      "snapshot": "sources/faq-sheet/wm.json",
+      "sheet": "WM",
+      "row": 26,
+      "cells": "A26:B26",
+      "capturedAt": "2026-09-27T05:40:23.278Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=ofqfdw",
+        "snapshot": "sources/faq-sheet/wm.json",
+        "sheet": "WM",
+        "row": 26,
+        "cells": "A26:B26",
+        "capturedAt": "2026-09-27T05:40:23.278Z"
+      },
+      "fields": {
+        "question": "Ex为3时，大人物是邪教徒，在所在区域和领地各有一张禁止密谋，可以把这些禁止密谋都无效吗？",
+        "answer": "不能，因为是同时结算，所以只能选择一个区域的禁止密谋无效"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "WM",
+    "关于能力",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

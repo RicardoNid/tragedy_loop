@@ -1,0 +1,45 @@
+{
+  "id": "08387a798d4d942a",
+  "title": "医院事故",
+  "kind": "incidents",
+  "scope": "Another Horizon",
+  "aliases": [],
+  "fields": {
+    "effect": "医院有1枚或以上[密谋]→位于医院的所有角色死亡\n医院有2枚或以上[密谋]→主人公死亡"
+  },
+  "provenance": {
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon",
+      "snapshot": "sources/wiki/pages/0bbeabad41fe0a31.json",
+      "capturedAt": "2026-09-27T03:28:21.175Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon",
+      "snapshot": "sources/wiki/pages/0bbeabad41fe0a31.json",
+      "capturedAt": "2026-09-27T03:28:21.175Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon",
+        "snapshot": "sources/wiki/pages/0bbeabad41fe0a31.json",
+        "capturedAt": "2026-09-27T03:28:21.175Z"
+      },
+      "fields": {
+        "effect": "医院有1枚或以上[密谋]→位于医院的所有角色死亡\n医院有2枚或以上[密谋]→主人公死亡"
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "官方"
+  ],
+  "conflicts": []
+}

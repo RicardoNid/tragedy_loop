@@ -1,0 +1,65 @@
+{
+  "id": "300ca7612b9430c1",
+  "title": "君王",
+  "kind": "identities",
+  "scope": "Supernatural Tragedy",
+  "aliases": [],
+  "fields": {
+    "max": "①",
+    "traits": "必定無視友好\n\n超自然",
+    "abilities": [
+      "【可选：剧作家能力阶段】将1名角色身上的1枚[密谋]转移至同区域的另外1名角色或那名角色所在的版图上"
+    ]
+  },
+  "provenance": {
+    "max": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Supernatural_Tragedy",
+      "snapshot": "sources/wiki/pages/34e1e734e8da4777.json",
+      "capturedAt": "2026-09-27T03:30:06.385Z"
+    },
+    "traits": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Supernatural_Tragedy",
+      "snapshot": "sources/wiki/pages/34e1e734e8da4777.json",
+      "capturedAt": "2026-09-27T03:30:06.385Z"
+    },
+    "abilities": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Supernatural_Tragedy",
+      "snapshot": "sources/wiki/pages/34e1e734e8da4777.json",
+      "capturedAt": "2026-09-27T03:30:06.385Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Supernatural_Tragedy",
+      "snapshot": "sources/wiki/pages/34e1e734e8da4777.json",
+      "capturedAt": "2026-09-27T03:30:06.385Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Supernatural_Tragedy",
+        "snapshot": "sources/wiki/pages/34e1e734e8da4777.json",
+        "capturedAt": "2026-09-27T03:30:06.385Z"
+      },
+      "fields": {
+        "max": "①",
+        "traits": "必定無視友好\n\n超自然",
+        "abilities": [
+          "【可选：剧作家能力阶段】将1名角色身上的1枚[密谋]转移至同区域的另外1名角色或那名角色所在的版图上"
+        ]
+      }
+    }
+  ],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "民间"
+  ],
+  "conflicts": []
+}

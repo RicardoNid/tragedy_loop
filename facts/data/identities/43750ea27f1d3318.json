@@ -1,0 +1,65 @@
+{
+  "id": "43750ea27f1d3318",
+  "title": "心上人",
+  "kind": "identities",
+  "scope": "Basic Tragedy",
+  "aliases": [],
+  "fields": {
+    "max": "",
+    "traits": "",
+    "abilities": [
+      "【强制：求爱者死亡时】往该角色身上放置6枚[不安]"
+    ]
+  },
+  "provenance": {
+    "max": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy",
+      "snapshot": "sources/wiki/pages/c5967c2abd41a1b6.json",
+      "capturedAt": "2026-09-27T03:28:26.906Z"
+    },
+    "traits": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy",
+      "snapshot": "sources/wiki/pages/c5967c2abd41a1b6.json",
+      "capturedAt": "2026-09-27T03:28:26.906Z"
+    },
+    "abilities": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy",
+      "snapshot": "sources/wiki/pages/c5967c2abd41a1b6.json",
+      "capturedAt": "2026-09-27T03:28:26.906Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy",
+      "snapshot": "sources/wiki/pages/c5967c2abd41a1b6.json",
+      "capturedAt": "2026-09-27T03:28:26.906Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy",
+        "snapshot": "sources/wiki/pages/c5967c2abd41a1b6.json",
+        "capturedAt": "2026-09-27T03:28:26.906Z"
+      },
+      "fields": {
+        "max": "",
+        "traits": "",
+        "abilities": [
+          "【强制：求爱者死亡时】往该角色身上放置6枚[不安]"
+        ]
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "官方"
+  ],
+  "conflicts": []
+}

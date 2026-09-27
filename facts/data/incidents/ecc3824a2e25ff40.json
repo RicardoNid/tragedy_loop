@@ -1,0 +1,58 @@
+{
+  "id": "ecc3824a2e25ff40",
+  "title": "邪气污染",
+  "kind": "incidents",
+  "scope": "Basic Tragedy X",
+  "aliases": [],
+  "fields": {
+    "effect": "往神社放置2枚[密谋]"
+  },
+  "provenance": {
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy_X",
+      "snapshot": "sources/wiki/pages/1095c9f923c9c10c.json",
+      "capturedAt": "2026-09-27T03:28:29.736Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy_X",
+      "snapshot": "sources/wiki/pages/1095c9f923c9c10c.json",
+      "capturedAt": "2026-09-27T03:28:29.736Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy_X",
+        "snapshot": "sources/wiki/pages/1095c9f923c9c10c.json",
+        "capturedAt": "2026-09-27T03:28:29.736Z"
+      },
+      "fields": {
+        "effect": "往神社放置2枚[密谋]"
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "effect": "往神社放置2枚[密谋]"
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "官方"
+  ],
+  "conflicts": []
+}

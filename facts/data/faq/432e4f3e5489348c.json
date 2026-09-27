@@ -1,0 +1,67 @@
+{
+  "id": "432e4f3e5489348c",
+  "title": "版图有两张诅咒和两个角色，如何处理？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / HSA / 第 6 行",
+  "aliases": [],
+  "fields": {
+    "question": "版图有两张诅咒和两个角色，如何处理？",
+    "answer": "剧作家自由决定，可以两张给同一个人，也可以分别每个人一张"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1u35d2",
+      "snapshot": "sources/faq-sheet/hsa.json",
+      "sheet": "HSA",
+      "row": 6,
+      "cells": "A6:B6",
+      "capturedAt": "2026-09-27T05:40:17.319Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1u35d2",
+      "snapshot": "sources/faq-sheet/hsa.json",
+      "sheet": "HSA",
+      "row": 6,
+      "cells": "A6:B6",
+      "capturedAt": "2026-09-27T05:40:17.319Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1u35d2",
+      "snapshot": "sources/faq-sheet/hsa.json",
+      "sheet": "HSA",
+      "row": 6,
+      "cells": "A6:B6",
+      "capturedAt": "2026-09-27T05:40:17.319Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1u35d2",
+        "snapshot": "sources/faq-sheet/hsa.json",
+        "sheet": "HSA",
+        "row": 6,
+        "cells": "A6:B6",
+        "capturedAt": "2026-09-27T05:40:17.319Z"
+      },
+      "fields": {
+        "question": "版图有两张诅咒和两个角色，如何处理？",
+        "answer": "剧作家自由决定，可以两张给同一个人，也可以分别每个人一张"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "HSA",
+    "关于诅咒牌",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

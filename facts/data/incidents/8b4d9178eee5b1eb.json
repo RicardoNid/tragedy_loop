@@ -1,0 +1,45 @@
+{
+  "id": "8b4d9178eee5b1eb",
+  "title": "合谋",
+  "kind": "incidents",
+  "scope": "Sin City",
+  "aliases": [],
+  "fields": {
+    "effect": "声明有该事件当事人存在的所有区域，本轮轮回剩余时间，所有该事件的当事人在判定事件是否发生时，基础不安限度变为零\n\n至多3名角色可以同时担任1个该事件的当事人"
+  },
+  "provenance": {
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Sin_City",
+      "snapshot": "sources/wiki/pages/59c6099598cb6333.json",
+      "capturedAt": "2026-09-27T03:30:03.250Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Sin_City",
+      "snapshot": "sources/wiki/pages/59c6099598cb6333.json",
+      "capturedAt": "2026-09-27T03:30:03.250Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Sin_City",
+        "snapshot": "sources/wiki/pages/59c6099598cb6333.json",
+        "capturedAt": "2026-09-27T03:30:03.250Z"
+      },
+      "fields": {
+        "effect": "声明有该事件当事人存在的所有区域，本轮轮回剩余时间，所有该事件的当事人在判定事件是否发生时，基础不安限度变为零\n\n至多3名角色可以同时担任1个该事件的当事人"
+      }
+    }
+  ],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "民间"
+  ],
+  "conflicts": []
+}

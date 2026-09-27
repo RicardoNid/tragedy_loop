@@ -1,0 +1,67 @@
+{
+  "id": "1d4cce2a3c38c8ec",
+  "title": "如果使用友好能力被拒绝使EX+1，还能再使用能力吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / WM / 第 2 行",
+  "aliases": [],
+  "fields": {
+    "question": "如果使用友好能力被拒绝使EX+1，还能再使用能力吗？",
+    "answer": "可以，再被拒绝的话EX槽再+1"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=ofqfdw",
+      "snapshot": "sources/faq-sheet/wm.json",
+      "sheet": "WM",
+      "row": 2,
+      "cells": "A2:B2",
+      "capturedAt": "2026-09-27T05:40:23.278Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=ofqfdw",
+      "snapshot": "sources/faq-sheet/wm.json",
+      "sheet": "WM",
+      "row": 2,
+      "cells": "A2:B2",
+      "capturedAt": "2026-09-27T05:40:23.278Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=ofqfdw",
+      "snapshot": "sources/faq-sheet/wm.json",
+      "sheet": "WM",
+      "row": 2,
+      "cells": "A2:B2",
+      "capturedAt": "2026-09-27T05:40:23.278Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=ofqfdw",
+        "snapshot": "sources/faq-sheet/wm.json",
+        "sheet": "WM",
+        "row": 2,
+        "cells": "A2:B2",
+        "capturedAt": "2026-09-27T05:40:23.278Z"
+      },
+      "fields": {
+        "question": "如果使用友好能力被拒绝使EX+1，还能再使用能力吗？",
+        "answer": "可以，再被拒绝的话EX槽再+1"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "WM",
+    "关于EX槽",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

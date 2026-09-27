@@ -1,0 +1,60 @@
+{
+  "id": "595db5827a9b74ad",
+  "title": "Site-background-light",
+  "kind": "media",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "bytes": 415527,
+    "sha256": "019db1fa0d61d4e209a0b6dd9929b7b329d11926861326f1ebd32107de8847a3"
+  },
+  "provenance": {
+    "bytes": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:Site-background-light",
+      "snapshot": "sources/wiki/files/b6768932e02eb2fa.json"
+    },
+    "sha256": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:Site-background-light",
+      "snapshot": "sources/wiki/files/b6768932e02eb2fa.json"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:Site-background-light",
+      "snapshot": "sources/wiki/files/b6768932e02eb2fa.json"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/File:Site-background-light",
+        "snapshot": "sources/wiki/files/b6768932e02eb2fa.json"
+      },
+      "fields": {
+        "bytes": 415527,
+        "sha256": "019db1fa0d61d4e209a0b6dd9929b7b329d11926861326f1ebd32107de8847a3"
+      }
+    }
+  ],
+  "media": [
+    {
+      "title": "Site-background-light",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:Site-background-light",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/b/b5/Site-background-light/revision/latest?cb=20251025113549&format=original&path-prefix=zh",
+      "path": "media/wiki/b6768932e02eb2fa.jpg",
+      "sourceRecord": "sources/wiki/files/b6768932e02eb2fa.json",
+      "sha256": "019db1fa0d61d4e209a0b6dd9929b7b329d11926861326f1ebd32107de8847a3",
+      "bytes": 415527,
+      "fileInfo": "JPEG image data, Exif standard: [TIFF image data, big-endian, direntries=2, orientation=upper-left], baseline, precision 8, 750x321, components 3",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "tags": [],
+  "conflicts": []
+}

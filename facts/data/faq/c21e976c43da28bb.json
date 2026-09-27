@@ -1,0 +1,60 @@
+{
+  "id": "c21e976c43da28bb",
+  "title": "有兩名網絡名流在場。在處理完一名網絡名流的友好能力後，已發動其強制身份能力。那麼在同一輪迴中，我處理完另一名網絡名流的友好能力後該怎麼操作？",
+  "kind": "faq",
+  "scope": "纸质 FAQ / LL / Q11",
+  "aliases": [],
+  "fields": {
+    "question": "有兩名網絡名流在場。在處理完一名網絡名流的友好能力後，已發動其強制身份能力。那麼在同一輪迴中，我處理完另一名網絡名流的友好能力後該怎麼操作？",
+    "answer": "另一名網絡名流在處理友好能力後也需要結算其強制身份能力，因此與這名網絡名流同一初始區域的所有角色都要放置指示物。網絡名流每輪限1次的身份能力與魔術師（出自MZ模組）不同，每個都需要單獨結算。"
+  },
+  "provenance": {
+    "question": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+      "snapshot": "sources/paper-faq/last-liar.json",
+      "page": 14,
+      "questionNumber": 11
+    },
+    "answer": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+      "snapshot": "sources/paper-faq/last-liar.json",
+      "page": 14,
+      "questionNumber": 11
+    }
+  },
+  "sources": [
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+      "snapshot": "sources/paper-faq/last-liar.json",
+      "page": 14,
+      "questionNumber": 11
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+        "snapshot": "sources/paper-faq/last-liar.json",
+        "page": 14,
+        "questionNumber": 11
+      },
+      "fields": {
+        "question": "有兩名網絡名流在場。在處理完一名網絡名流的友好能力後，已發動其強制身份能力。那麼在同一輪迴中，我處理完另一名網絡名流的友好能力後該怎麼操作？",
+        "answer": "另一名網絡名流在處理友好能力後也需要結算其強制身份能力，因此與這名網絡名流同一初始區域的所有角色都要放置指示物。網絡名流每輪限1次的身份能力與魔術師（出自MZ模組）不同，每個都需要單獨結算。"
+      }
+    }
+  ],
+  "tags": [
+    "LL",
+    "纸质 FAQ",
+    "身份与事件",
+    "官方"
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+  "conflicts": []
+}

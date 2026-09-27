@@ -1,0 +1,66 @@
+{
+  "id": "e6cc846d020aad66",
+  "title": "为什么剧本纸上没有写轮回次数和勾能不能讨论啊，不是应该定好的吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 写在前面 / 第 5 行",
+  "aliases": [],
+  "fields": {
+    "question": "为什么剧本纸上没有写轮回次数和勾能不能讨论啊，不是应该定好的吗？",
+    "answer": "请按玩家实际能力，选择剧本名称下面那行五角星标志的左边圈里的数字，并填写在轮回次数栏。"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000001",
+      "snapshot": "sources/faq-sheet/preface.json",
+      "sheet": "写在前面",
+      "row": 5,
+      "cells": "A5:B5",
+      "capturedAt": "2026-09-27T05:41:03.158Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000001",
+      "snapshot": "sources/faq-sheet/preface.json",
+      "sheet": "写在前面",
+      "row": 5,
+      "cells": "A5:B5",
+      "capturedAt": "2026-09-27T05:41:03.158Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000001",
+      "snapshot": "sources/faq-sheet/preface.json",
+      "sheet": "写在前面",
+      "row": 5,
+      "cells": "A5:B5",
+      "capturedAt": "2026-09-27T05:41:03.158Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000001",
+        "snapshot": "sources/faq-sheet/preface.json",
+        "sheet": "写在前面",
+        "row": 5,
+        "cells": "A5:B5",
+        "capturedAt": "2026-09-27T05:41:03.158Z"
+      },
+      "fields": {
+        "question": "为什么剧本纸上没有写轮回次数和勾能不能讨论啊，不是应该定好的吗？",
+        "answer": "请按玩家实际能力，选择剧本名称下面那行五角星标志的左边圈里的数字，并填写在轮回次数栏。"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "写在前面",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

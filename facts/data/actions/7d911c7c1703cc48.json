@@ -1,0 +1,68 @@
+{
+  "id": "7d911c7c1703cc48",
+  "title": "友好+1",
+  "kind": "actions",
+  "scope": "剧作家额外手牌（AHR）",
+  "aliases": [],
+  "fields": {
+    "effect": "增加1个友好指示物"
+  },
+  "provenance": {
+    "effect": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon_Revised",
+      "snapshot": "sources/wiki/pages/5a4c2d8594c08b1e.json"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon_Revised",
+        "snapshot": "sources/wiki/pages/5a4c2d8594c08b1e.json"
+      },
+      "fields": {}
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "effect": "增加1个友好指示物"
+      }
+    }
+  ],
+  "actionSide": "剧作家",
+  "availability": [
+    {
+      "module": "AHR",
+      "state": "available",
+      "condition": "在AHR模组中，主人公在轮回开始时会额外获得不安+2，剧作家会在轮回开始时额外获得友好+1，并且在第一轮轮回开始时额外获得绝望+1",
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon_Revised",
+        "snapshot": "sources/wiki/pages/5a4c2d8594c08b1e.json"
+      }
+    }
+  ],
+  "baseAction": false,
+  "authority": "官方",
+  "tags": [
+    "扩展行动牌",
+    "剧作家",
+    "AHR",
+    "官方"
+  ],
+  "conflicts": []
+}

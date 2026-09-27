@@ -1,0 +1,448 @@
+{
+  "id": "a1bd6150c6eaba04",
+  "title": "AHR-20",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "AHR-20非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "AHR-20",
+    "loops": 5,
+    "days": 5,
+    "schedule": [
+      {
+        "day": 2,
+        "incidentText": "隙间的阳光"
+      },
+      {
+        "day": 3,
+        "incidentText": "次元歪曲"
+      },
+      {
+        "day": 5,
+        "incidentText": "遗言"
+      }
+    ],
+    "剧本名": "另一个世界的同一存在",
+    "日文名": "別世界の同一存在",
+    "作者": "ぶー太郎",
+    "轮数": "5",
+    "天数": "5"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-20",
+      "snapshot": "sources/wiki/pages/d92be658bbdd4cd8.json",
+      "capturedAt": "2026-09-27T03:44:16.816Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-20",
+      "snapshot": "sources/wiki/pages/d92be658bbdd4cd8.json",
+      "capturedAt": "2026-09-27T03:44:16.816Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-20",
+      "snapshot": "sources/wiki/pages/d92be658bbdd4cd8.json",
+      "capturedAt": "2026-09-27T03:44:16.816Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-20",
+      "snapshot": "sources/wiki/pages/d92be658bbdd4cd8.json",
+      "capturedAt": "2026-09-27T03:44:16.816Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-20",
+      "snapshot": "sources/wiki/pages/d92be658bbdd4cd8.json",
+      "capturedAt": "2026-09-27T03:44:16.816Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 21
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 21
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 21
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 21
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 21
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-20",
+      "snapshot": "sources/wiki/pages/d92be658bbdd4cd8.json",
+      "capturedAt": "2026-09-27T03:44:16.816Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 21
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-20%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/7aee6ffa43765f65.json",
+      "capturedAt": "2026-09-27T03:44:19.616Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-20",
+        "snapshot": "sources/wiki/pages/d92be658bbdd4cd8.json",
+        "capturedAt": "2026-09-27T03:44:16.816Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "AHR-20",
+        "loops": 5,
+        "days": 5,
+        "schedule": [
+          {
+            "day": 2,
+            "incidentText": "隙间的阳光"
+          },
+          {
+            "day": 3,
+            "incidentText": "次元歪曲"
+          },
+          {
+            "day": 5,
+            "incidentText": "遗言"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 7,
+        "row": 21
+      },
+      "fields": {
+        "scenarioCode": "AHR-20",
+        "剧本名": "另一个世界的同一存在",
+        "日文名": "別世界の同一存在",
+        "作者": "ぶー太郎",
+        "轮数": "5",
+        "天数": "5"
+      }
+    }
+  ],
+  "wikiTitle": "AHR-20",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Another Horizon Revised"
+  ],
+  "module": "Another Horizon Revised",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "a1bd6150c6eaba04",
+        "title": "AHR-20",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "AHR-20",
+          "loops": 5,
+          "days": 5,
+          "schedule": [
+            {
+              "day": 2,
+              "incidentText": "隙间的阳光"
+            },
+            {
+              "day": 3,
+              "incidentText": "次元歪曲"
+            },
+            {
+              "day": 5,
+              "incidentText": "遗言"
+            }
+          ],
+          "剧本名": "另一个世界的同一存在",
+          "日文名": "別世界の同一存在",
+          "作者": "ぶー太郎",
+          "轮数": "5",
+          "天数": "5"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-20",
+            "snapshot": "sources/wiki/pages/d92be658bbdd4cd8.json",
+            "capturedAt": "2026-09-27T03:44:16.816Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-20",
+            "snapshot": "sources/wiki/pages/d92be658bbdd4cd8.json",
+            "capturedAt": "2026-09-27T03:44:16.816Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-20",
+            "snapshot": "sources/wiki/pages/d92be658bbdd4cd8.json",
+            "capturedAt": "2026-09-27T03:44:16.816Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-20",
+            "snapshot": "sources/wiki/pages/d92be658bbdd4cd8.json",
+            "capturedAt": "2026-09-27T03:44:16.816Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-20",
+            "snapshot": "sources/wiki/pages/d92be658bbdd4cd8.json",
+            "capturedAt": "2026-09-27T03:44:16.816Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 21
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 21
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 21
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 21
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 21
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-20",
+            "snapshot": "sources/wiki/pages/d92be658bbdd4cd8.json",
+            "capturedAt": "2026-09-27T03:44:16.816Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 21
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-20",
+              "snapshot": "sources/wiki/pages/d92be658bbdd4cd8.json",
+              "capturedAt": "2026-09-27T03:44:16.816Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "AHR-20",
+              "loops": 5,
+              "days": 5,
+              "schedule": [
+                {
+                  "day": 2,
+                  "incidentText": "隙间的阳光"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "次元歪曲"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "遗言"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 7,
+              "row": 21
+            },
+            "fields": {
+              "scenarioCode": "AHR-20",
+              "剧本名": "另一个世界的同一存在",
+              "日文名": "別世界の同一存在",
+              "作者": "ぶー太郎",
+              "轮数": "5",
+              "天数": "5"
+            }
+          }
+        ],
+        "body": "text/scenarios/a1bd6150c6eaba04.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-20",
+          "snapshot": "sources/wiki/pages/d92be658bbdd4cd8.json",
+          "capturedAt": "2026-09-27T03:44:16.816Z"
+        },
+        "wikiTitle": "AHR-20",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-20?action=edit&section=1"
+          },
+          {
+            "title": "AHR-20非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-20%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-20?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Another Horizon Revised"
+        ],
+        "module": "Another Horizon Revised"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "310ec606e2d9bb58",
+        "title": "AHR-20非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "AHR-20"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-20%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/7aee6ffa43765f65.json",
+            "capturedAt": "2026-09-27T03:44:19.616Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-20%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/7aee6ffa43765f65.json",
+            "capturedAt": "2026-09-27T03:44:19.616Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-20%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/7aee6ffa43765f65.json",
+            "capturedAt": "2026-09-27T03:44:19.616Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-20%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/7aee6ffa43765f65.json",
+              "capturedAt": "2026-09-27T03:44:19.616Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "AHR-20"
+            }
+          }
+        ],
+        "wikiTitle": "AHR-20非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Another Horizon Revised",
+        "tags": [
+          "民间",
+          "Another Horizon Revised"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "310ec606e2d9bb58"
+  ],
+  "conflicts": []
+}

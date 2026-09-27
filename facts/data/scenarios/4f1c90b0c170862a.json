@@ -1,0 +1,528 @@
+{
+  "id": "4f1c90b0c170862a",
+  "title": "BTX+-12",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "BTX+-12非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "BTX+-12",
+    "loops": 8,
+    "days": 6,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "绝望之暗"
+      },
+      {
+        "day": 2,
+        "incidentText": "绝望之暗"
+      },
+      {
+        "day": 3,
+        "incidentText": "蝴蝶效应"
+      },
+      {
+        "day": 4,
+        "incidentText": "医院事故"
+      },
+      {
+        "day": 5,
+        "incidentText": "散播"
+      },
+      {
+        "day": 6,
+        "incidentText": "自杀"
+      }
+    ],
+    "剧本名": "禁忌的构造",
+    "作者": "Choconut",
+    "轮数": "8",
+    "天数": "6"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-12",
+      "snapshot": "sources/wiki/pages/39d02939f03bba63.json",
+      "capturedAt": "2026-09-27T03:48:59.535Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-12",
+      "snapshot": "sources/wiki/pages/39d02939f03bba63.json",
+      "capturedAt": "2026-09-27T03:48:59.535Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-12",
+      "snapshot": "sources/wiki/pages/39d02939f03bba63.json",
+      "capturedAt": "2026-09-27T03:48:59.535Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-12",
+      "snapshot": "sources/wiki/pages/39d02939f03bba63.json",
+      "capturedAt": "2026-09-27T03:48:59.535Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-12",
+      "snapshot": "sources/wiki/pages/39d02939f03bba63.json",
+      "capturedAt": "2026-09-27T03:48:59.535Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 153
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 153
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 153
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 153
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-12",
+      "snapshot": "sources/wiki/pages/39d02939f03bba63.json",
+      "capturedAt": "2026-09-27T03:48:59.535Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 153
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/797d23045a0a1e40.json",
+      "capturedAt": "2026-09-27T03:49:02.584Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-12",
+        "snapshot": "sources/wiki/pages/39d02939f03bba63.json",
+        "capturedAt": "2026-09-27T03:48:59.535Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "BTX+-12",
+        "loops": 8,
+        "days": 6,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "绝望之暗"
+          },
+          {
+            "day": 2,
+            "incidentText": "绝望之暗"
+          },
+          {
+            "day": 3,
+            "incidentText": "蝴蝶效应"
+          },
+          {
+            "day": 4,
+            "incidentText": "医院事故"
+          },
+          {
+            "day": 5,
+            "incidentText": "散播"
+          },
+          {
+            "day": 6,
+            "incidentText": "自杀"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 2,
+        "row": 153
+      },
+      "fields": {
+        "scenarioCode": "BTX+-12",
+        "剧本名": "禁忌的构造",
+        "作者": "Choconut",
+        "轮数": "8",
+        "天数": "6"
+      }
+    }
+  ],
+  "wikiTitle": "BTX+-12",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Basic Tragedy X Plus"
+  ],
+  "module": "Basic Tragedy X Plus",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "4f1c90b0c170862a",
+        "title": "BTX+-12",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "BTX+-12",
+          "loops": 8,
+          "days": 6,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "绝望之暗"
+            },
+            {
+              "day": 2,
+              "incidentText": "绝望之暗"
+            },
+            {
+              "day": 3,
+              "incidentText": "蝴蝶效应"
+            },
+            {
+              "day": 4,
+              "incidentText": "医院事故"
+            },
+            {
+              "day": 5,
+              "incidentText": "散播"
+            },
+            {
+              "day": 6,
+              "incidentText": "自杀"
+            }
+          ],
+          "剧本名": "禁忌的构造",
+          "作者": "Choconut",
+          "轮数": "8",
+          "天数": "6"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-12",
+            "snapshot": "sources/wiki/pages/39d02939f03bba63.json",
+            "capturedAt": "2026-09-27T03:48:59.535Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-12",
+            "snapshot": "sources/wiki/pages/39d02939f03bba63.json",
+            "capturedAt": "2026-09-27T03:48:59.535Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-12",
+            "snapshot": "sources/wiki/pages/39d02939f03bba63.json",
+            "capturedAt": "2026-09-27T03:48:59.535Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-12",
+            "snapshot": "sources/wiki/pages/39d02939f03bba63.json",
+            "capturedAt": "2026-09-27T03:48:59.535Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-12",
+            "snapshot": "sources/wiki/pages/39d02939f03bba63.json",
+            "capturedAt": "2026-09-27T03:48:59.535Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 153
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 153
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 153
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 153
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-12",
+            "snapshot": "sources/wiki/pages/39d02939f03bba63.json",
+            "capturedAt": "2026-09-27T03:48:59.535Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 153
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-12",
+              "snapshot": "sources/wiki/pages/39d02939f03bba63.json",
+              "capturedAt": "2026-09-27T03:48:59.535Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "BTX+-12",
+              "loops": 8,
+              "days": 6,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "绝望之暗"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "绝望之暗"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "蝴蝶效应"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "医院事故"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "散播"
+                },
+                {
+                  "day": 6,
+                  "incidentText": "自杀"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 2,
+              "row": 153
+            },
+            "fields": {
+              "scenarioCode": "BTX+-12",
+              "剧本名": "禁忌的构造",
+              "作者": "Choconut",
+              "轮数": "8",
+              "天数": "6"
+            }
+          }
+        ],
+        "body": "text/scenarios/4f1c90b0c170862a.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-12",
+          "snapshot": "sources/wiki/pages/39d02939f03bba63.json",
+          "capturedAt": "2026-09-27T03:48:59.535Z"
+        },
+        "wikiTitle": "BTX+-12",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-12?action=edit&section=1"
+          },
+          {
+            "title": "BTX+-12非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-12?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Basic Tragedy X Plus"
+        ],
+        "module": "Basic Tragedy X Plus"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "d43788d39d49e1ba",
+        "title": "BTX+-12非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "BTX+-12",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "改变未来"
+            },
+            {
+              "slot": "X1",
+              "name": "未知因子X"
+            },
+            {
+              "slot": "X2",
+              "name": "超越世界线"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/797d23045a0a1e40.json",
+            "capturedAt": "2026-09-27T03:49:02.584Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/797d23045a0a1e40.json",
+            "capturedAt": "2026-09-27T03:49:02.584Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/797d23045a0a1e40.json",
+            "capturedAt": "2026-09-27T03:49:02.584Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/797d23045a0a1e40.json",
+            "capturedAt": "2026-09-27T03:49:02.584Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/797d23045a0a1e40.json",
+              "capturedAt": "2026-09-27T03:49:02.584Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "BTX+-12",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "改变未来"
+                },
+                {
+                  "slot": "X1",
+                  "name": "未知因子X"
+                },
+                {
+                  "slot": "X2",
+                  "name": "超越世界线"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/d43788d39d49e1ba.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/797d23045a0a1e40.json",
+          "capturedAt": "2026-09-27T03:49:02.584Z"
+        },
+        "wikiTitle": "BTX+-12非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Basic Tragedy X Plus",
+        "tags": [
+          "民间",
+          "Basic Tragedy X Plus"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "d43788d39d49e1ba"
+  ],
+  "conflicts": []
+}

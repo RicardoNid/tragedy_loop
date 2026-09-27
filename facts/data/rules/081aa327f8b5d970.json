@@ -1,0 +1,106 @@
+{
+  "id": "081aa327f8b5d970",
+  "title": "妄想扩大病毒",
+  "kind": "rules",
+  "scope": "Basic Tragedy X",
+  "aliases": [],
+  "fields": {
+    "ruleType": "X",
+    "identityCounts": {
+      "传谣人": "①"
+    },
+    "effect": "【强制：常驻】某1名平民角色有3枚或以上[不安]时，那名平民身份变为杀人狂"
+  },
+  "provenance": {
+    "ruleType": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy_X",
+      "snapshot": "sources/wiki/pages/1095c9f923c9c10c.json",
+      "capturedAt": "2026-09-27T03:28:29.736Z"
+    },
+    "identityCounts": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy_X",
+      "snapshot": "sources/wiki/pages/1095c9f923c9c10c.json",
+      "capturedAt": "2026-09-27T03:28:29.736Z"
+    },
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy_X",
+      "snapshot": "sources/wiki/pages/1095c9f923c9c10c.json",
+      "capturedAt": "2026-09-27T03:28:29.736Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy_X",
+      "snapshot": "sources/wiki/pages/1095c9f923c9c10c.json",
+      "capturedAt": "2026-09-27T03:28:29.736Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy_X",
+        "snapshot": "sources/wiki/pages/1095c9f923c9c10c.json",
+        "capturedAt": "2026-09-27T03:28:29.736Z"
+      },
+      "fields": {
+        "ruleType": "X",
+        "identityCounts": {
+          "传谣人": "①"
+        },
+        "effect": "【强制：常驻】某1名平民角色有3枚或以上[不安]时，那名平民身份变为杀人狂"
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "ruleType": "X",
+        "identityCounts": {
+          "传谣人": "1"
+        },
+        "effect": "【强制：常驻】某1名平民角色有3枚或以上[不安]时，那名平民身份变为杀人狂（[不安]移除到3枚以下时，该名平民的身份重新变回平民）"
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "X",
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "identityCounts",
+      "selected": {
+        "传谣人": "①"
+      },
+      "candidate": {
+        "传谣人": "1"
+      },
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "effect",
+      "selected": "【强制：常驻】某1名平民角色有3枚或以上[不安]时，那名平民身份变为杀人狂",
+      "candidate": "【强制：常驻】某1名平民角色有3枚或以上[不安]时，那名平民身份变为杀人狂（[不安]移除到3枚以下时，该名平民的身份重新变回平民）",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    }
+  ]
+}

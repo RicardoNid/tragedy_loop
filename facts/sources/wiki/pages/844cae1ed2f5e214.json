@@ -1,0 +1,1724 @@
+{
+  "categories": [
+    "分类"
+  ],
+  "hasArticle": true,
+  "headings": [],
+  "html": "<p>Last Liar的特殊规则如下\n</p><p>背叛者\n</p><p>在第一轮轮回开始时将Ex牌ABC洗混，并分给三个主人公，这张牌只有获得的主人公可以确认，剧作家和其他主人公不能确认。拿到ExA的主人公称为主人公A，以此类推。\n</p><p>如果剧本选择的规则有特殊胜利条件，则对应的主人公变为背叛者，获得单独的胜利条件，如果完成胜利条件，则那个主人公单独胜利，剧作家和其他主人公失败，如果在轮回过程中主人公胜利，则背叛者失败。\n</p><p>最终决战时，如果背叛者是C，结算支线效果。\n</p><p>所有背叛者不能参与最终决战并失败。由于规则X最多有2条，所以背叛者最多有2名。\n</p><p>已沟通与已死亡\n</p><p>本模组必须使用已死亡标志和已沟通标志，并且本模组必须为4人游戏，且在轮回中不能讨论。\n</p><p>杀人狂的限制\n</p><p>杀人狂在这个模组中限制1人。\n</p>\n<table class=\"fandom-table\">\n<tbody><tr>\n<td>LL\n</td>\n<td>剧本\n</td>\n<td>关\n<p>键\n人\n物\n</p>\n</td>\n<td>杀\n<p>手\n</p>\n</td>\n<td>主谋\n</td>\n<td>因果残片\n</td>\n<td>魔\n<p>女\n</p>\n</td>\n<td>不安定因子\n</td>\n<td>杀人狂\n</td>\n<td>监视者\n</td>\n<td>网络名流\n</td>\n<td>传谣人\n</td>\n<td>密钥\n</td>\n<td>怪杰\n</td>\n<td>附加规则\n</td></tr>\n<tr>\n<td rowspan=\"8\">Y\n</td>\n<td>最终计划\n</td>\n<td>①\n</td>\n<td>①\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>【强制：常驻】关键人物（无论生死）身上有1枚或以上[希望]→所有主人公不再是背叛者。如果当前是最终轮回，则最终决战时依然生效\n</td></tr>\n<tr>\n<td rowspan=\"2\">封印的终末\n</td>\n<td rowspan=\"2\">\n</td>\n<td rowspan=\"2\">\n</td>\n<td rowspan=\"2\">\n</td>\n<td rowspan=\"2\">①\n</td>\n<td rowspan=\"2\">\n</td>\n<td rowspan=\"2\">①\n</td>\n<td rowspan=\"2\">\n</td>\n<td rowspan=\"2\">\n</td>\n<td rowspan=\"2\">\n</td>\n<td rowspan=\"2\">\n</td>\n<td rowspan=\"2\">\n</td>\n<td rowspan=\"2\">\n</td>\n<td>【任意能力：回合结束阶段】神社有2枚或以上[密谋]→主人公死亡\n</td></tr>\n<tr>\n<td>【强制：进行判定时】计算某块版图上的[密谋]数量时，该区域角色身上的[希望]和[绝望]也视为位于版图上。\n</td></tr>\n<tr>\n<td rowspan=\"2\">叛逆的世界\n</td>\n<td rowspan=\"2\">①\n</td>\n<td rowspan=\"2\">\n</td>\n<td rowspan=\"2\">\n</td>\n<td rowspan=\"2\">①\n</td>\n<td rowspan=\"2\">\n</td>\n<td rowspan=\"2\">\n</td>\n<td rowspan=\"2\">\n</td>\n<td rowspan=\"2\">\n</td>\n<td rowspan=\"2\">\n</td>\n<td rowspan=\"2\">\n</td>\n<td rowspan=\"2\">\n</td>\n<td rowspan=\"2\">\n</td>\n<td>【强制：剧本制作时】关键人物和因果残片必须有少女属性\n</td></tr>\n<tr>\n<td>【失败条件：轮回结束时】关键人物有2枚或以上[密谋]\n</td></tr>\n<tr>\n<td rowspan=\"2\">恶魔的剧本\n</td>\n<td rowspan=\"2\">\n</td>\n<td rowspan=\"2\">\n</td>\n<td rowspan=\"2\">\n</td>\n<td rowspan=\"2\">\n</td>\n<td rowspan=\"2\">\n</td>\n<td rowspan=\"2\">\n</td>\n<td rowspan=\"2\">①\n</td>\n<td rowspan=\"2\">①\n</td>\n<td rowspan=\"2\">\n</td>\n<td rowspan=\"2\">\n</td>\n<td rowspan=\"2\">\n</td>\n<td rowspan=\"2\">\n</td>\n<td>【失败条件：轮回结束时】本轮轮回中引发过遗言或代行者事件\n</td></tr>\n<tr>\n<td>【任意能力：最终日的回合结束阶段】若监视者身上的指示物仅有1枚或以下→主人公死亡\n</td></tr>\n<tr>\n<td>巨大定时炸弹Z\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>【失败条件：轮回结束时】魔女的初始区域有2枚或以上[密谋]\n</td></tr>\n<tr>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td></tr>\n<tr>\n<td rowspan=\"7\">X\n</td>\n<td>真正的怪物\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>①\n</td>\n<td>【特殊胜利条件A：回合结束阶段】总计放置过5枚或以上已死亡标志\n</td></tr>\n<tr>\n<td>神话收集者\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>①\n</td>\n<td>【特殊胜利条件B：主人公能力阶段】总计放置过6枚或以上已沟通标志\n</td></tr>\n<tr>\n<td>我才是名侦探\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>①\n</td>\n<td>【特殊胜利条件C：最终决战】最终决战前主人公C获得推理机会，需要正确推理所有事件的当事人\n</td></tr>\n<tr>\n<td>超越世界线\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>【强制：轮回开始时】偶数轮轮回开始时，剧作家获得[绝望+1]，最终轮轮回开始时，主人公获得[希望+1]\n</td></tr>\n<tr>\n<td>X异因子\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>【任意能力：剧作家能力阶段】往存活的不安定因子所在版图放置1枚[密谋]（每轮限1次）\n</td></tr>\n<tr>\n<td>SNS恐慌\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td></tr>\n<tr>\n<td>捏造的秘密\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>【强制：剧本制作时】秘钥获得无视友好，如果剧本中不存在秘钥，选择追加一名杀手、主谋或因果残片（不能追加剧本规则中已存在的身份）\n</td></tr>\n<tr>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td></tr>\n<tr>\n<td rowspan=\"19\">身\n<p>份\n</p>\n</td>\n<td>\n</td>\n<td>限\n</td>\n<td colspan=\"5\">身份特性\n</td>\n<td colspan=\"7\">\n</td></tr>\n<tr>\n<td>关键人物\n</td>\n<td>\n</td>\n<td colspan=\"5\">\n</td>\n<td colspan=\"7\">【强制：该角色死亡时】主人公失败，当前轮回立即结束\n</td></tr>\n<tr>\n<td rowspan=\"2\">杀手\n</td>\n<td rowspan=\"2\">\n</td>\n<td colspan=\"5\" rowspan=\"2\">无视友好\n</td>\n<td colspan=\"7\">【任意能力：回合结束阶段】同一区域1名关键人物身上有2枚或以上[密谋]→那名关键人物死亡\n</td></tr>\n<tr>\n<td colspan=\"7\">【任意能力：回合结束阶段】该角色身上有4枚或以上[密谋]→主人公死亡\n</td></tr>\n<tr>\n<td>主谋\n</td>\n<td>\n</td>\n<td colspan=\"5\">无视友好\n</td>\n<td colspan=\"7\">【任意能力：剧作家能力阶段】往同一区域任意一名角色身上，或该角色所在的版图上放置1枚[密谋]\n</td></tr>\n<tr>\n<td rowspan=\"2\">因果残片\n</td>\n<td rowspan=\"2\">\n</td>\n<td colspan=\"5\" rowspan=\"2\">\n</td>\n<td colspan=\"7\">【强制：轮回开始时】若该角色上轮轮回结束时处于死亡状态→剧作家获得[绝望+1]\n</td></tr>\n<tr>\n<td colspan=\"7\">【强制：轮回开始时】若该角色上轮轮回结束时存活并且身上有2枚或以上的[友好]，主人公获得[希望+1]\n</td></tr>\n<tr>\n<td>魔女\n</td>\n<td>\n</td>\n<td colspan=\"5\">必定无视友好\n</td>\n<td colspan=\"7\">\n</td></tr>\n<tr>\n<td rowspan=\"2\">不安定因子\n</td>\n<td rowspan=\"2\">\n</td>\n<td colspan=\"5\" rowspan=\"2\">无视友好\n</td>\n<td colspan=\"7\">【强制：常驻】学校有2枚或以上[密谋]→该角色获得传谣人的能力（身份依然为[不安定因子]）\n</td></tr>\n<tr>\n<td colspan=\"7\">【强制：常驻】都市有2枚或以上[密谋]→该角色获得关键人物的能力（身份依然为[不安定因子]）\n</td></tr>\n<tr>\n<td>杀人狂\n</td>\n<td>①\n</td>\n<td colspan=\"5\">\n</td>\n<td colspan=\"7\">【强制：回合结束阶段】仅有1名角色与该角色位于同一区域→那名角色死亡\n</td></tr>\n<tr>\n<td>监视者\n</td>\n<td>①\n</td>\n<td colspan=\"5\">不死\n</td>\n<td colspan=\"7\">【强制：事件阶段】与该角色位于同一区域且有1枚或以上[绝望]的角色必定触发事件\n</td></tr>\n<tr>\n<td rowspan=\"2\">网络名流\n</td>\n<td rowspan=\"2\">\n</td>\n<td colspan=\"5\" rowspan=\"2\">\n</td>\n<td colspan=\"7\">【强制：该角色死亡时】往与该角色同一初始区域的其他所有角色身上放置1枚[不安]\n</td></tr>\n<tr>\n<td colspan=\"7\">【强制：结算该角色友好能力后】往与该角色同一初始区域的其他所有角色身上放置1枚[友好]和1枚[不安]（每轮限1次）\n</td></tr>\n<tr>\n<td>传谣人\n</td>\n<td>①\n</td>\n<td colspan=\"5\">\n</td>\n<td colspan=\"7\">【任意能力：剧作家能力阶段】往同一区域中任意1名角色身上放置1枚[不安]\n</td></tr>\n<tr>\n<td rowspan=\"2\">密钥\n</td>\n<td rowspan=\"2\">\n</td>\n<td colspan=\"5\" rowspan=\"2\">\n</td>\n<td colspan=\"7\">【强制：该角色死亡时或结算该角色友好能力后】公开该角色身份\n</td></tr>\n<tr>\n<td colspan=\"7\">【强制：该角色公开身份时】当前为第1或第2轮轮回→剧作家在下一天只能打出1张行动牌，在下一天或该轮回最后一天的回合结束阶段主人公死亡\n</td></tr>\n<tr>\n<td rowspan=\"2\">怪杰\n</td>\n<td rowspan=\"2\">①\n</td>\n<td colspan=\"5\" rowspan=\"2\">必定无视友好\n<p>不死\n</p>\n</td>\n<td colspan=\"7\">【强制：常驻】当天的天数为3的倍数→该角色获得传谣人、主谋和杀人狂的能力\n</td></tr>\n<tr>\n<td colspan=\"7\">【强制：剧本制作时】必须成为某1个事件的当事人\n</td></tr>\n<tr>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td></tr>\n<tr>\n<td rowspan=\"14\">事\n<p>件\n</p>\n</td>\n<td>事件名称\n</td>\n<td colspan=\"13\">效果\n</td></tr>\n<tr>\n<td>不安扩散\n</td>\n<td colspan=\"13\">往任意1名角色身上放置2枚[不安]，随后往另外1名角色身上放置1枚[密谋]\n</td></tr>\n<tr>\n<td>谋杀\n</td>\n<td colspan=\"13\">与当事人位于同一区域的另外1名角色死亡\n</td></tr>\n<tr>\n<td>代行者\n</td>\n<td colspan=\"13\">剧作家选择1名主人公，那位主人公选择1名角色死亡\n</td></tr>\n<tr>\n<td rowspan=\"2\">医院事故\n</td>\n<td colspan=\"13\">医院有1枚或以上[密谋]→位于医院的所有角色死亡\n</td></tr>\n<tr>\n<td colspan=\"13\">医院有2枚或以上[密谋]→主人公死亡\n</td></tr>\n<tr>\n<td rowspan=\"2\">骤变\n</td>\n<td colspan=\"13\">当事人初始区域有2枚或以上[密谋]→主人公死亡\n</td></tr>\n<tr>\n<td colspan=\"13\">当事人初始区域有1枚或以下[密谋]→往当事人初始区域对应的版图上放置2枚[密谋]\n</td></tr>\n<tr>\n<td>散播\n</td>\n<td colspan=\"13\">从任意1名角色身上移除2枚[友好]，随后往另外1名角色身上放置2枚[友好]\n</td></tr>\n<tr>\n<td>遗言\n</td>\n<td colspan=\"13\">当事人死亡，下轮轮回开始时，主人公获得[希望+1]\n</td></tr>\n<tr>\n<td>失踪\n</td>\n<td colspan=\"13\">将当事人移动至任意版图，随后，往当事人所在版图放置1枚[密谋]\n</td></tr>\n<tr>\n<td>自白\n</td>\n<td colspan=\"13\">当事人公开自己的身份\n</td></tr>\n<tr>\n<td>希望之光\n</td>\n<td colspan=\"13\">&lt;通过友好指示物判定是否发生&gt;队长选择1名角色，那名角色放置1枚[希望]\n</td></tr>\n<tr>\n<td>绝望之暗\n</td>\n<td colspan=\"13\">往任意1名角色身上放置1枚[绝望]\n</td></tr></tbody></table>\n<!-- \nNewPP limit report\nCached time: 20260927032943\nCache expiry: 1209600\nReduced expiry: false\nComplications: []\nCPU time usage: 0.030 seconds\nReal time usage: 0.033 seconds\nPreprocessor visited node count: 1/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/100\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key 1.43.9_prod_zhtragedyrooper:pcache:idhash:266-0!sseVary=RegularPage!zh!FandomDesktop!LegacyGalleries and timestamp 20260927032943 and revision id 503. Rendering was triggered because: page-view\n -->\n",
+  "images": [],
+  "license": [
+    "https://www.fandom.com/zh/licensing-zh"
+  ],
+  "links": [],
+  "tables": [
+    [
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "LL"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "剧本"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "关\n\n键 人 物"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "杀\n\n手"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "主谋"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "因果残片"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "魔\n\n女"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "不安定因子"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "杀人狂"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "监视者"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "网络名流"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "传谣人"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "密钥"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "怪杰"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "附加规则"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 8,
+          "text": "Y"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "最终计划"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "【强制：常驻】关键人物（无论生死）身上有1枚或以上[希望]→所有主人公不再是背叛者。如果当前是最终轮回，则最终决战时依然生效"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "封印的终末"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "【任意能力：回合结束阶段】神社有2枚或以上[密谋]→主人公死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "【强制：进行判定时】计算某块版图上的[密谋]数量时，该区域角色身上的[希望]和[绝望]也视为位于版图上。"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "叛逆的世界"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "【强制：剧本制作时】关键人物和因果残片必须有少女属性"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "【失败条件：轮回结束时】关键人物有2枚或以上[密谋]"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "恶魔的剧本"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "【失败条件：轮回结束时】本轮轮回中引发过遗言或代行者事件"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "【任意能力：最终日的回合结束阶段】若监视者身上的指示物仅有1枚或以下→主人公死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "巨大定时炸弹Z"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "【失败条件：轮回结束时】魔女的初始区域有2枚或以上[密谋]"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 7,
+          "text": "X"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "真正的怪物"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "【特殊胜利条件A：回合结束阶段】总计放置过5枚或以上已死亡标志"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "神话收集者"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "【特殊胜利条件B：主人公能力阶段】总计放置过6枚或以上已沟通标志"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "我才是名侦探"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "【特殊胜利条件C：最终决战】最终决战前主人公C获得推理机会，需要正确推理所有事件的当事人"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "超越世界线"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "【强制：轮回开始时】偶数轮轮回开始时，剧作家获得[绝望+1]，最终轮轮回开始时，主人公获得[希望+1]"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "X异因子"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "【任意能力：剧作家能力阶段】往存活的不安定因子所在版图放置1枚[密谋]（每轮限1次）"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "SNS恐慌"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "捏造的秘密"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "【强制：剧本制作时】秘钥获得无视友好，如果剧本中不存在秘钥，选择追加一名杀手、主谋或因果残片（不能追加剧本规则中已存在的身份）"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 19,
+          "text": "身\n\n份"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "限"
+        },
+        {
+          "colspan": 5,
+          "rowspan": 1,
+          "text": "身份特性"
+        },
+        {
+          "colspan": 7,
+          "rowspan": 1,
+          "text": ""
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "关键人物"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 5,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 7,
+          "rowspan": 1,
+          "text": "【强制：该角色死亡时】主人公失败，当前轮回立即结束"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "杀手"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 5,
+          "rowspan": 2,
+          "text": "无视友好"
+        },
+        {
+          "colspan": 7,
+          "rowspan": 1,
+          "text": "【任意能力：回合结束阶段】同一区域1名关键人物身上有2枚或以上[密谋]→那名关键人物死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 7,
+          "rowspan": 1,
+          "text": "【任意能力：回合结束阶段】该角色身上有4枚或以上[密谋]→主人公死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "主谋"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 5,
+          "rowspan": 1,
+          "text": "无视友好"
+        },
+        {
+          "colspan": 7,
+          "rowspan": 1,
+          "text": "【任意能力：剧作家能力阶段】往同一区域任意一名角色身上，或该角色所在的版图上放置1枚[密谋]"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "因果残片"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 5,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 7,
+          "rowspan": 1,
+          "text": "【强制：轮回开始时】若该角色上轮轮回结束时处于死亡状态→剧作家获得[绝望+1]"
+        }
+      ],
+      [
+        {
+          "colspan": 7,
+          "rowspan": 1,
+          "text": "【强制：轮回开始时】若该角色上轮轮回结束时存活并且身上有2枚或以上的[友好]，主人公获得[希望+1]"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "魔女"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 5,
+          "rowspan": 1,
+          "text": "必定无视友好"
+        },
+        {
+          "colspan": 7,
+          "rowspan": 1,
+          "text": ""
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "不安定因子"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 5,
+          "rowspan": 2,
+          "text": "无视友好"
+        },
+        {
+          "colspan": 7,
+          "rowspan": 1,
+          "text": "【强制：常驻】学校有2枚或以上[密谋]→该角色获得传谣人的能力（身份依然为[不安定因子]）"
+        }
+      ],
+      [
+        {
+          "colspan": 7,
+          "rowspan": 1,
+          "text": "【强制：常驻】都市有2枚或以上[密谋]→该角色获得关键人物的能力（身份依然为[不安定因子]）"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "杀人狂"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 5,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 7,
+          "rowspan": 1,
+          "text": "【强制：回合结束阶段】仅有1名角色与该角色位于同一区域→那名角色死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "监视者"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 5,
+          "rowspan": 1,
+          "text": "不死"
+        },
+        {
+          "colspan": 7,
+          "rowspan": 1,
+          "text": "【强制：事件阶段】与该角色位于同一区域且有1枚或以上[绝望]的角色必定触发事件"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "网络名流"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 5,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 7,
+          "rowspan": 1,
+          "text": "【强制：该角色死亡时】往与该角色同一初始区域的其他所有角色身上放置1枚[不安]"
+        }
+      ],
+      [
+        {
+          "colspan": 7,
+          "rowspan": 1,
+          "text": "【强制：结算该角色友好能力后】往与该角色同一初始区域的其他所有角色身上放置1枚[友好]和1枚[不安]（每轮限1次）"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "传谣人"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 5,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 7,
+          "rowspan": 1,
+          "text": "【任意能力：剧作家能力阶段】往同一区域中任意1名角色身上放置1枚[不安]"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "密钥"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 5,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 7,
+          "rowspan": 1,
+          "text": "【强制：该角色死亡时或结算该角色友好能力后】公开该角色身份"
+        }
+      ],
+      [
+        {
+          "colspan": 7,
+          "rowspan": 1,
+          "text": "【强制：该角色公开身份时】当前为第1或第2轮轮回→剧作家在下一天只能打出1张行动牌，在下一天或该轮回最后一天的回合结束阶段主人公死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "怪杰"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "①"
+        },
+        {
+          "colspan": 5,
+          "rowspan": 2,
+          "text": "必定无视友好\n\n不死"
+        },
+        {
+          "colspan": 7,
+          "rowspan": 1,
+          "text": "【强制：常驻】当天的天数为3的倍数→该角色获得传谣人、主谋和杀人狂的能力"
+        }
+      ],
+      [
+        {
+          "colspan": 7,
+          "rowspan": 1,
+          "text": "【强制：剧本制作时】必须成为某1个事件的当事人"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 14,
+          "text": "事\n\n件"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "事件名称"
+        },
+        {
+          "colspan": 13,
+          "rowspan": 1,
+          "text": "效果"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "不安扩散"
+        },
+        {
+          "colspan": 13,
+          "rowspan": 1,
+          "text": "往任意1名角色身上放置2枚[不安]，随后往另外1名角色身上放置1枚[密谋]"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "谋杀"
+        },
+        {
+          "colspan": 13,
+          "rowspan": 1,
+          "text": "与当事人位于同一区域的另外1名角色死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "代行者"
+        },
+        {
+          "colspan": 13,
+          "rowspan": 1,
+          "text": "剧作家选择1名主人公，那位主人公选择1名角色死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "医院事故"
+        },
+        {
+          "colspan": 13,
+          "rowspan": 1,
+          "text": "医院有1枚或以上[密谋]→位于医院的所有角色死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 13,
+          "rowspan": 1,
+          "text": "医院有2枚或以上[密谋]→主人公死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "骤变"
+        },
+        {
+          "colspan": 13,
+          "rowspan": 1,
+          "text": "当事人初始区域有2枚或以上[密谋]→主人公死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 13,
+          "rowspan": 1,
+          "text": "当事人初始区域有1枚或以下[密谋]→往当事人初始区域对应的版图上放置2枚[密谋]"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "散播"
+        },
+        {
+          "colspan": 13,
+          "rowspan": 1,
+          "text": "从任意1名角色身上移除2枚[友好]，随后往另外1名角色身上放置2枚[友好]"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "遗言"
+        },
+        {
+          "colspan": 13,
+          "rowspan": 1,
+          "text": "当事人死亡，下轮轮回开始时，主人公获得[希望+1]"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "失踪"
+        },
+        {
+          "colspan": 13,
+          "rowspan": 1,
+          "text": "将当事人移动至任意版图，随后，往当事人所在版图放置1枚[密谋]"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "自白"
+        },
+        {
+          "colspan": 13,
+          "rowspan": 1,
+          "text": "当事人公开自己的身份"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "希望之光"
+        },
+        {
+          "colspan": 13,
+          "rowspan": 1,
+          "text": "<通过友好指示物判定是否发生>队长选择1名角色，那名角色放置1枚[希望]"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "绝望之暗"
+        },
+        {
+          "colspan": 13,
+          "rowspan": 1,
+          "text": "往任意1名角色身上放置1枚[绝望]"
+        }
+      ]
+    ]
+  ],
+  "text": "Last Liar的特殊规则如下\n\n背叛者\n\n在第一轮轮回开始时将Ex牌ABC洗混，并分给三个主人公，这张牌只有获得的主人公可以确认，剧作家和其他主人公不能确认。拿到ExA的主人公称为主人公A，以此类推。\n\n如果剧本选择的规则有特殊胜利条件，则对应的主人公变为背叛者，获得单独的胜利条件，如果完成胜利条件，则那个主人公单独胜利，剧作家和其他主人公失败，如果在轮回过程中主人公胜利，则背叛者失败。\n\n最终决战时，如果背叛者是C，结算支线效果。\n\n所有背叛者不能参与最终决战并失败。由于规则X最多有2条，所以背叛者最多有2名。\n\n已沟通与已死亡\n\n本模组必须使用已死亡标志和已沟通标志，并且本模组必须为4人游戏，且在轮回中不能讨论。\n\n杀人狂的限制\n\n杀人狂在这个模组中限制1人。\n\nLL\t剧本\t关\n\n键 人 物\n\n\t杀\n\n手\n\n\t主谋\t因果残片\t魔\n\n女\n\n\t不安定因子\t杀人狂\t监视者\t网络名流\t传谣人\t密钥\t怪杰\t附加规则\nY\t最终计划\t①\t①\t①\t\t\t\t\t\t\t\t\t\t【强制：常驻】关键人物（无论生死）身上有1枚或以上[希望]→所有主人公不再是背叛者。如果当前是最终轮回，则最终决战时依然生效\n封印的终末\t\t\t\t①\t\t①\t\t\t\t\t\t\t【任意能力：回合结束阶段】神社有2枚或以上[密谋]→主人公死亡\n【强制：进行判定时】计算某块版图上的[密谋]数量时，该区域角色身上的[希望]和[绝望]也视为位于版图上。\n叛逆的世界\t①\t\t\t①\t\t\t\t\t\t\t\t\t【强制：剧本制作时】关键人物和因果残片必须有少女属性\n【失败条件：轮回结束时】关键人物有2枚或以上[密谋]\n恶魔的剧本\t\t\t\t\t\t\t①\t①\t\t\t\t\t【失败条件：轮回结束时】本轮轮回中引发过遗言或代行者事件\n【任意能力：最终日的回合结束阶段】若监视者身上的指示物仅有1枚或以下→主人公死亡\n巨大定时炸弹Z\t\t\t①\t\t①\t\t\t\t\t\t\t\t【失败条件：轮回结束时】魔女的初始区域有2枚或以上[密谋]\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nX\t真正的怪物\t\t\t\t\t\t\t①\t\t\t\t①\t①\t【特殊胜利条件A：回合结束阶段】总计放置过5枚或以上已死亡标志\n神话收集者\t\t\t\t\t\t\t\t\t①\t\t①\t①\t【特殊胜利条件B：主人公能力阶段】总计放置过6枚或以上已沟通标志\n我才是名侦探\t\t\t\t\t\t\t\t①\t\t\t①\t①\t【特殊胜利条件C：最终决战】最终决战前主人公C获得推理机会，需要正确推理所有事件的当事人\n超越世界线\t\t\t\t\t\t\t\t\t\t①\t\t\t【强制：轮回开始时】偶数轮轮回开始时，剧作家获得[绝望+1]，最终轮轮回开始时，主人公获得[希望+1]\nX异因子\t\t\t\t\t\t①\t\t\t\t\t\t\t【任意能力：剧作家能力阶段】往存活的不安定因子所在版图放置1枚[密谋]（每轮限1次）\nSNS恐慌\t\t\t\t\t\t\t①\t\t①\t①\t\t\t\n捏造的秘密\t\t\t\t\t\t\t\t\t\t①\t\t\t【强制：剧本制作时】秘钥获得无视友好，如果剧本中不存在秘钥，选择追加一名杀手、主谋或因果残片（不能追加剧本规则中已存在的身份）\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n身\n\n份\n\n\t\t限\t身份特性\t\n关键人物\t\t\t【强制：该角色死亡时】主人公失败，当前轮回立即结束\n杀手\t\t无视友好\t【任意能力：回合结束阶段】同一区域1名关键人物身上有2枚或以上[密谋]→那名关键人物死亡\n【任意能力：回合结束阶段】该角色身上有4枚或以上[密谋]→主人公死亡\n主谋\t\t无视友好\t【任意能力：剧作家能力阶段】往同一区域任意一名角色身上，或该角色所在的版图上放置1枚[密谋]\n因果残片\t\t\t【强制：轮回开始时】若该角色上轮轮回结束时处于死亡状态→剧作家获得[绝望+1]\n【强制：轮回开始时】若该角色上轮轮回结束时存活并且身上有2枚或以上的[友好]，主人公获得[希望+1]\n魔女\t\t必定无视友好\t\n不安定因子\t\t无视友好\t【强制：常驻】学校有2枚或以上[密谋]→该角色获得传谣人的能力（身份依然为[不安定因子]）\n【强制：常驻】都市有2枚或以上[密谋]→该角色获得关键人物的能力（身份依然为[不安定因子]）\n杀人狂\t①\t\t【强制：回合结束阶段】仅有1名角色与该角色位于同一区域→那名角色死亡\n监视者\t①\t不死\t【强制：事件阶段】与该角色位于同一区域且有1枚或以上[绝望]的角色必定触发事件\n网络名流\t\t\t【强制：该角色死亡时】往与该角色同一初始区域的其他所有角色身上放置1枚[不安]\n【强制：结算该角色友好能力后】往与该角色同一初始区域的其他所有角色身上放置1枚[友好]和1枚[不安]（每轮限1次）\n传谣人\t①\t\t【任意能力：剧作家能力阶段】往同一区域中任意1名角色身上放置1枚[不安]\n密钥\t\t\t【强制：该角色死亡时或结算该角色友好能力后】公开该角色身份\n【强制：该角色公开身份时】当前为第1或第2轮轮回→剧作家在下一天只能打出1张行动牌，在下一天或该轮回最后一天的回合结束阶段主人公死亡\n怪杰\t①\t必定无视友好\n\n不死\n\n\t【强制：常驻】当天的天数为3的倍数→该角色获得传谣人、主谋和杀人狂的能力\n【强制：剧本制作时】必须成为某1个事件的当事人\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n事\n\n件\n\n\t事件名称\t效果\n不安扩散\t往任意1名角色身上放置2枚[不安]，随后往另外1名角色身上放置1枚[密谋]\n谋杀\t与当事人位于同一区域的另外1名角色死亡\n代行者\t剧作家选择1名主人公，那位主人公选择1名角色死亡\n医院事故\t医院有1枚或以上[密谋]→位于医院的所有角色死亡\n医院有2枚或以上[密谋]→主人公死亡\n骤变\t当事人初始区域有2枚或以上[密谋]→主人公死亡\n当事人初始区域有1枚或以下[密谋]→往当事人初始区域对应的版图上放置2枚[密谋]\n散播\t从任意1名角色身上移除2枚[友好]，随后往另外1名角色身上放置2枚[友好]\n遗言\t当事人死亡，下轮轮回开始时，主人公获得[希望+1]\n失踪\t将当事人移动至任意版图，随后，往当事人所在版图放置1枚[密谋]\n自白\t当事人公开自己的身份\n希望之光\t<通过友好指示物判定是否发生>队长选择1名角色，那名角色放置1枚[希望]\n绝望之暗\t往任意1名角色身上放置1枚[绝望]",
+  "title": "Last Liar",
+  "url": "https://tragedyrooper.fandom.com/zh/wiki/Last_Liar",
+  "status": "captured",
+  "requestedTitle": "Last Liar",
+  "fetchedAt": "2026-09-27T03:29:44.914Z",
+  "source": "wiki",
+  "id": "844cae1ed2f5e214"
+}

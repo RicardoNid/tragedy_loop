@@ -1,0 +1,95 @@
+{
+  "id": "bafb13e517e76c77",
+  "title": "深潜者",
+  "kind": "identities",
+  "scope": "Weird Mythology",
+  "aliases": [],
+  "fields": {
+    "max": "①",
+    "traits": "无视友好",
+    "abilities": [
+      "【任意能力：剧作家能力阶段】往同一区域任意一名角色身上，或该角色所在的版图上放置1枚[密谋]",
+      "【强制：该角色死亡时】公开该角色身份，Ex槽增加1"
+    ]
+  },
+  "provenance": {
+    "max": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Weird_Mythology",
+      "snapshot": "sources/wiki/pages/4d608cef3c4485cd.json",
+      "capturedAt": "2026-09-27T03:30:15.425Z"
+    },
+    "traits": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Weird_Mythology",
+      "snapshot": "sources/wiki/pages/4d608cef3c4485cd.json",
+      "capturedAt": "2026-09-27T03:30:15.425Z"
+    },
+    "abilities": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Weird_Mythology",
+      "snapshot": "sources/wiki/pages/4d608cef3c4485cd.json",
+      "capturedAt": "2026-09-27T03:30:15.425Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Weird_Mythology",
+      "snapshot": "sources/wiki/pages/4d608cef3c4485cd.json",
+      "capturedAt": "2026-09-27T03:30:15.425Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Weird_Mythology",
+        "snapshot": "sources/wiki/pages/4d608cef3c4485cd.json",
+        "capturedAt": "2026-09-27T03:30:15.425Z"
+      },
+      "fields": {
+        "max": "①",
+        "traits": "无视友好",
+        "abilities": [
+          "【任意能力：剧作家能力阶段】往同一区域任意一名角色身上，或该角色所在的版图上放置1枚[密谋]",
+          "【强制：该角色死亡时】公开该角色身份，Ex槽增加1"
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "max": "1",
+        "traits": "无视友好",
+        "abilities": [
+          "【任意能力：剧作家能力阶段】往同一区域任意一名角色身上，或该角色所在的版图上放置1枚[密谋]",
+          "【强制：该角色死亡时】公开该角色身份，Ex槽增加1"
+        ]
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "max",
+      "selected": "①",
+      "candidate": "1",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    }
+  ]
+}

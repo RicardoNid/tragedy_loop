@@ -1,0 +1,410 @@
+{
+  "id": "b79032cd1ca6c699",
+  "title": "WM-11",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "WM-11非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "WM-11",
+    "loops": 7,
+    "days": 2,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "灭绝之火"
+      },
+      {
+        "day": 2,
+        "incidentText": "发现"
+      }
+    ],
+    "剧本名": "La malédiction du savoir",
+    "作者": "新手之二",
+    "轮数": "7",
+    "天数": "2"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-11?oldid=1459",
+      "snapshot": "sources/wiki/pages/be0b25c08c90aa5b.json",
+      "capturedAt": "2026-09-27T05:01:40.869Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-11?oldid=1459",
+      "snapshot": "sources/wiki/pages/be0b25c08c90aa5b.json",
+      "capturedAt": "2026-09-27T05:01:40.869Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-11?oldid=1459",
+      "snapshot": "sources/wiki/pages/be0b25c08c90aa5b.json",
+      "capturedAt": "2026-09-27T05:01:40.869Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-11?oldid=1459",
+      "snapshot": "sources/wiki/pages/be0b25c08c90aa5b.json",
+      "capturedAt": "2026-09-27T05:01:40.869Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-11?oldid=1459",
+      "snapshot": "sources/wiki/pages/be0b25c08c90aa5b.json",
+      "capturedAt": "2026-09-27T05:01:40.869Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 13
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 13
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 13
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 13
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-11?oldid=1459",
+      "snapshot": "sources/wiki/pages/be0b25c08c90aa5b.json",
+      "capturedAt": "2026-09-27T05:01:40.869Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 13
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1882",
+      "snapshot": "sources/wiki/pages/d1b91ae862b2eccb.json",
+      "capturedAt": "2026-09-27T05:01:46.037Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-11?oldid=1459",
+        "snapshot": "sources/wiki/pages/be0b25c08c90aa5b.json",
+        "capturedAt": "2026-09-27T05:01:40.869Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "WM-11",
+        "loops": 7,
+        "days": 2,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "灭绝之火"
+          },
+          {
+            "day": 2,
+            "incidentText": "发现"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 6,
+        "row": 13
+      },
+      "fields": {
+        "scenarioCode": "WM-11",
+        "剧本名": "La malédiction du savoir",
+        "作者": "新手之二",
+        "轮数": "7",
+        "天数": "2"
+      }
+    }
+  ],
+  "wikiTitle": "WM-11",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Weird Mythology"
+  ],
+  "module": "Weird Mythology",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "b79032cd1ca6c699",
+        "title": "WM-11",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "WM-11",
+          "loops": 7,
+          "days": 2,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "灭绝之火"
+            },
+            {
+              "day": 2,
+              "incidentText": "发现"
+            }
+          ],
+          "剧本名": "La malédiction du savoir",
+          "作者": "新手之二",
+          "轮数": "7",
+          "天数": "2"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-11?oldid=1459",
+            "snapshot": "sources/wiki/pages/be0b25c08c90aa5b.json",
+            "capturedAt": "2026-09-27T05:01:40.869Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-11?oldid=1459",
+            "snapshot": "sources/wiki/pages/be0b25c08c90aa5b.json",
+            "capturedAt": "2026-09-27T05:01:40.869Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-11?oldid=1459",
+            "snapshot": "sources/wiki/pages/be0b25c08c90aa5b.json",
+            "capturedAt": "2026-09-27T05:01:40.869Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-11?oldid=1459",
+            "snapshot": "sources/wiki/pages/be0b25c08c90aa5b.json",
+            "capturedAt": "2026-09-27T05:01:40.869Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-11?oldid=1459",
+            "snapshot": "sources/wiki/pages/be0b25c08c90aa5b.json",
+            "capturedAt": "2026-09-27T05:01:40.869Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 13
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 13
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 13
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 13
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-11?oldid=1459",
+            "snapshot": "sources/wiki/pages/be0b25c08c90aa5b.json",
+            "capturedAt": "2026-09-27T05:01:40.869Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 13
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-11?oldid=1459",
+              "snapshot": "sources/wiki/pages/be0b25c08c90aa5b.json",
+              "capturedAt": "2026-09-27T05:01:40.869Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "WM-11",
+              "loops": 7,
+              "days": 2,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "灭绝之火"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "发现"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 6,
+              "row": 13
+            },
+            "fields": {
+              "scenarioCode": "WM-11",
+              "剧本名": "La malédiction du savoir",
+              "作者": "新手之二",
+              "轮数": "7",
+              "天数": "2"
+            }
+          }
+        ],
+        "body": "text/scenarios/b79032cd1ca6c699.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-11?oldid=1459",
+          "snapshot": "sources/wiki/pages/be0b25c08c90aa5b.json",
+          "capturedAt": "2026-09-27T05:01:40.869Z"
+        },
+        "wikiTitle": "WM-11",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "WM-11非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-11?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Weird Mythology"
+        ],
+        "module": "Weird Mythology"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "5fd00086b1b5f588",
+        "title": "WM-11非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "WM-11"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1882",
+            "snapshot": "sources/wiki/pages/d1b91ae862b2eccb.json",
+            "capturedAt": "2026-09-27T05:01:46.037Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1882",
+            "snapshot": "sources/wiki/pages/d1b91ae862b2eccb.json",
+            "capturedAt": "2026-09-27T05:01:46.037Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1882",
+            "snapshot": "sources/wiki/pages/d1b91ae862b2eccb.json",
+            "capturedAt": "2026-09-27T05:01:46.037Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1882",
+              "snapshot": "sources/wiki/pages/d1b91ae862b2eccb.json",
+              "capturedAt": "2026-09-27T05:01:46.037Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "WM-11"
+            }
+          }
+        ],
+        "wikiTitle": "WM-11非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Weird Mythology",
+        "tags": [
+          "民间",
+          "Weird Mythology"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "5fd00086b1b5f588"
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,67 @@
+{
+  "id": "88c49f58efab9d4b",
+  "title": "媒体人的能力可以给远方的角色不安吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 中文特供Promo卡 / 第 8 行",
+  "aliases": [],
+  "fields": {
+    "question": "媒体人的能力可以给远方的角色不安吗？",
+    "answer": "无限射程，可以"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=mknfvi",
+      "snapshot": "sources/faq-sheet/promo.json",
+      "sheet": "中文特供Promo卡",
+      "row": 8,
+      "cells": "A8:B8",
+      "capturedAt": "2026-09-27T05:40:39.708Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=mknfvi",
+      "snapshot": "sources/faq-sheet/promo.json",
+      "sheet": "中文特供Promo卡",
+      "row": 8,
+      "cells": "A8:B8",
+      "capturedAt": "2026-09-27T05:40:39.708Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=mknfvi",
+      "snapshot": "sources/faq-sheet/promo.json",
+      "sheet": "中文特供Promo卡",
+      "row": 8,
+      "cells": "A8:B8",
+      "capturedAt": "2026-09-27T05:40:39.708Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=mknfvi",
+        "snapshot": "sources/faq-sheet/promo.json",
+        "sheet": "中文特供Promo卡",
+        "row": 8,
+        "cells": "A8:B8",
+        "capturedAt": "2026-09-27T05:40:39.708Z"
+      },
+      "fields": {
+        "question": "媒体人的能力可以给远方的角色不安吗？",
+        "answer": "无限射程，可以"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "中文特供Promo卡",
+    "关于远方",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

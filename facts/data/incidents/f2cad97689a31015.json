@@ -1,0 +1,58 @@
+{
+  "id": "f2cad97689a31015",
+  "title": "医院事故",
+  "kind": "incidents",
+  "scope": "Weird Mythology",
+  "aliases": [],
+  "fields": {
+    "effect": "医院有1枚或以上[密谋]→位于医院的所有角色死亡\n医院有2枚或以上[密谋]→主人公死亡"
+  },
+  "provenance": {
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Weird_Mythology",
+      "snapshot": "sources/wiki/pages/4d608cef3c4485cd.json",
+      "capturedAt": "2026-09-27T03:30:15.425Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Weird_Mythology",
+      "snapshot": "sources/wiki/pages/4d608cef3c4485cd.json",
+      "capturedAt": "2026-09-27T03:30:15.425Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Weird_Mythology",
+        "snapshot": "sources/wiki/pages/4d608cef3c4485cd.json",
+        "capturedAt": "2026-09-27T03:30:15.425Z"
+      },
+      "fields": {
+        "effect": "医院有1枚或以上[密谋]→位于医院的所有角色死亡\n医院有2枚或以上[密谋]→主人公死亡"
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "effect": "医院有1枚或以上[密谋]→位于医院的所有角色死亡\n医院有2枚或以上[密谋]→主人公死亡"
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "官方"
+  ],
+  "conflicts": []
+}

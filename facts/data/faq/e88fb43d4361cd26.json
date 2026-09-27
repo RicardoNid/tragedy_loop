@@ -1,0 +1,67 @@
+{
+  "id": "e88fb43d4361cd26",
+  "title": "死者默示录先杀死了关键人物如何结算？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / HSA / 第 40 行",
+  "aliases": [],
+  "fields": {
+    "question": "死者默示录先杀死了关键人物如何结算？",
+    "answer": "杀死了关键人物，轮回会立刻结束，不进行后续杀死主人公的结算"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1u35d2",
+      "snapshot": "sources/faq-sheet/hsa.json",
+      "sheet": "HSA",
+      "row": 40,
+      "cells": "A40:B40",
+      "capturedAt": "2026-09-27T05:40:17.319Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1u35d2",
+      "snapshot": "sources/faq-sheet/hsa.json",
+      "sheet": "HSA",
+      "row": 40,
+      "cells": "A40:B40",
+      "capturedAt": "2026-09-27T05:40:17.319Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1u35d2",
+      "snapshot": "sources/faq-sheet/hsa.json",
+      "sheet": "HSA",
+      "row": 40,
+      "cells": "A40:B40",
+      "capturedAt": "2026-09-27T05:40:17.319Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1u35d2",
+        "snapshot": "sources/faq-sheet/hsa.json",
+        "sheet": "HSA",
+        "row": 40,
+        "cells": "A40:B40",
+        "capturedAt": "2026-09-27T05:40:17.319Z"
+      },
+      "fields": {
+        "question": "死者默示录先杀死了关键人物如何结算？",
+        "answer": "杀死了关键人物，轮回会立刻结束，不进行后续杀死主人公的结算"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "HSA",
+    "关于事件",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

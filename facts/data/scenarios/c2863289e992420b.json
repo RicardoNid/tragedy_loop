@@ -1,0 +1,362 @@
+{
+  "id": "c2863289e992420b",
+  "title": "WM-18",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "WM-18非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "WM-18",
+    "loops": 4,
+    "days": 3,
+    "剧本名": "女神挑战-细音",
+    "作者": "zillash",
+    "轮数": "4",
+    "天数": "3"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-18?oldid=1477",
+      "snapshot": "sources/wiki/pages/c03a63fc788f1887.json",
+      "capturedAt": "2026-09-27T05:03:03.113Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-18?oldid=1477",
+      "snapshot": "sources/wiki/pages/c03a63fc788f1887.json",
+      "capturedAt": "2026-09-27T05:03:03.113Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-18?oldid=1477",
+      "snapshot": "sources/wiki/pages/c03a63fc788f1887.json",
+      "capturedAt": "2026-09-27T05:03:03.113Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-18?oldid=1477",
+      "snapshot": "sources/wiki/pages/c03a63fc788f1887.json",
+      "capturedAt": "2026-09-27T05:03:03.113Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 20
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 20
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 20
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 20
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-18?oldid=1477",
+      "snapshot": "sources/wiki/pages/c03a63fc788f1887.json",
+      "capturedAt": "2026-09-27T05:03:03.113Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 20
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-18%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1874",
+      "snapshot": "sources/wiki/pages/a0e038f583fe09ce.json",
+      "capturedAt": "2026-09-27T05:03:25.992Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-18?oldid=1477",
+        "snapshot": "sources/wiki/pages/c03a63fc788f1887.json",
+        "capturedAt": "2026-09-27T05:03:03.113Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "WM-18",
+        "loops": 4,
+        "days": 3
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 6,
+        "row": 20
+      },
+      "fields": {
+        "scenarioCode": "WM-18",
+        "剧本名": "女神挑战-细音",
+        "作者": "zillash",
+        "轮数": "4",
+        "天数": "3"
+      }
+    }
+  ],
+  "wikiTitle": "WM-18",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Weird Mythology"
+  ],
+  "module": "Weird Mythology",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "c2863289e992420b",
+        "title": "WM-18",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "WM-18",
+          "loops": 4,
+          "days": 3,
+          "剧本名": "女神挑战-细音",
+          "作者": "zillash",
+          "轮数": "4",
+          "天数": "3"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-18?oldid=1477",
+            "snapshot": "sources/wiki/pages/c03a63fc788f1887.json",
+            "capturedAt": "2026-09-27T05:03:03.113Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-18?oldid=1477",
+            "snapshot": "sources/wiki/pages/c03a63fc788f1887.json",
+            "capturedAt": "2026-09-27T05:03:03.113Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-18?oldid=1477",
+            "snapshot": "sources/wiki/pages/c03a63fc788f1887.json",
+            "capturedAt": "2026-09-27T05:03:03.113Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-18?oldid=1477",
+            "snapshot": "sources/wiki/pages/c03a63fc788f1887.json",
+            "capturedAt": "2026-09-27T05:03:03.113Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 20
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 20
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 20
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 20
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-18?oldid=1477",
+            "snapshot": "sources/wiki/pages/c03a63fc788f1887.json",
+            "capturedAt": "2026-09-27T05:03:03.113Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 20
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-18?oldid=1477",
+              "snapshot": "sources/wiki/pages/c03a63fc788f1887.json",
+              "capturedAt": "2026-09-27T05:03:03.113Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "WM-18",
+              "loops": 4,
+              "days": 3
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 6,
+              "row": 20
+            },
+            "fields": {
+              "scenarioCode": "WM-18",
+              "剧本名": "女神挑战-细音",
+              "作者": "zillash",
+              "轮数": "4",
+              "天数": "3"
+            }
+          }
+        ],
+        "body": "text/scenarios/c2863289e992420b.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-18?oldid=1477",
+          "snapshot": "sources/wiki/pages/c03a63fc788f1887.json",
+          "capturedAt": "2026-09-27T05:03:03.113Z"
+        },
+        "wikiTitle": "WM-18",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-18?action=edit&section=1"
+          },
+          {
+            "title": "WM-18非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-18%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-18?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Weird Mythology"
+        ],
+        "module": "Weird Mythology"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "1379ef85563904b3",
+        "title": "WM-18非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "WM-18"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-18%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1874",
+            "snapshot": "sources/wiki/pages/a0e038f583fe09ce.json",
+            "capturedAt": "2026-09-27T05:03:25.992Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-18%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1874",
+            "snapshot": "sources/wiki/pages/a0e038f583fe09ce.json",
+            "capturedAt": "2026-09-27T05:03:25.992Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-18%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1874",
+            "snapshot": "sources/wiki/pages/a0e038f583fe09ce.json",
+            "capturedAt": "2026-09-27T05:03:25.992Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-18%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1874",
+              "snapshot": "sources/wiki/pages/a0e038f583fe09ce.json",
+              "capturedAt": "2026-09-27T05:03:25.992Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "WM-18"
+            }
+          }
+        ],
+        "wikiTitle": "WM-18非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Weird Mythology",
+        "tags": [
+          "民间",
+          "Weird Mythology"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "1379ef85563904b3"
+  ],
+  "conflicts": []
+}

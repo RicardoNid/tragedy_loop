@@ -1,0 +1,60 @@
+{
+  "id": "aba7ebc2debd8d20",
+  "title": "联络员.png",
+  "kind": "media",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "bytes": 587961,
+    "sha256": "ec6b34c7c2046da27536aee224f5c88057d0655fb2ea2cb69dc7e91d161f6145"
+  },
+  "provenance": {
+    "bytes": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E8%81%94%E7%BB%9C%E5%91%98.png",
+      "snapshot": "sources/wiki/files/a6fc0fd74c71eaf6.json"
+    },
+    "sha256": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E8%81%94%E7%BB%9C%E5%91%98.png",
+      "snapshot": "sources/wiki/files/a6fc0fd74c71eaf6.json"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E8%81%94%E7%BB%9C%E5%91%98.png",
+      "snapshot": "sources/wiki/files/a6fc0fd74c71eaf6.json"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E8%81%94%E7%BB%9C%E5%91%98.png",
+        "snapshot": "sources/wiki/files/a6fc0fd74c71eaf6.json"
+      },
+      "fields": {
+        "bytes": 587961,
+        "sha256": "ec6b34c7c2046da27536aee224f5c88057d0655fb2ea2cb69dc7e91d161f6145"
+      }
+    }
+  ],
+  "media": [
+    {
+      "title": "联络员.png",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:%E8%81%94%E7%BB%9C%E5%91%98.png",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/3/37/%E8%81%94%E7%BB%9C%E5%91%98.png/revision/latest?cb=20251024095335&format=original&path-prefix=zh",
+      "path": "media/wiki/a6fc0fd74c71eaf6.png",
+      "sourceRecord": "sources/wiki/files/a6fc0fd74c71eaf6.json",
+      "sha256": "ec6b34c7c2046da27536aee224f5c88057d0655fb2ea2cb69dc7e91d161f6145",
+      "bytes": 587961,
+      "fileInfo": "PNG image data, 620 x 866, 8-bit/color RGB, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "tags": [],
+  "conflicts": []
+}

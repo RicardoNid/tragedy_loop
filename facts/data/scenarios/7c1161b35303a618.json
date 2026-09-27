@@ -1,0 +1,552 @@
+{
+  "id": "7c1161b35303a618",
+  "title": "MZ-07",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "MZ-07非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "MZ-07",
+    "loops": 3,
+    "days": 5,
+    "schedule": [
+      {
+        "day": 2,
+        "incidentText": "自白"
+      },
+      {
+        "day": 3,
+        "incidentText": "不安扩散"
+      },
+      {
+        "day": 4,
+        "incidentText": "阴谋活动"
+      },
+      {
+        "day": 5,
+        "incidentText": "破局"
+      }
+    ],
+    "剧本名": "惨剧的护花使者",
+    "日文名": "惨劇へのエスコート",
+    "作者": "ペンスキー（gitti）",
+    "轮数": "3",
+    "天数": "5",
+    "难度": "4"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-07",
+      "snapshot": "sources/wiki/pages/a8aa1070a3ffe477.json",
+      "capturedAt": "2026-09-27T04:43:26.191Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-07",
+      "snapshot": "sources/wiki/pages/a8aa1070a3ffe477.json",
+      "capturedAt": "2026-09-27T04:43:26.191Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-07",
+      "snapshot": "sources/wiki/pages/a8aa1070a3ffe477.json",
+      "capturedAt": "2026-09-27T04:43:26.191Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-07",
+      "snapshot": "sources/wiki/pages/a8aa1070a3ffe477.json",
+      "capturedAt": "2026-09-27T04:43:26.191Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-07",
+      "snapshot": "sources/wiki/pages/a8aa1070a3ffe477.json",
+      "capturedAt": "2026-09-27T04:43:26.191Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 8
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 8
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 8
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 8
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 8
+    },
+    "难度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 8
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-07",
+      "snapshot": "sources/wiki/pages/a8aa1070a3ffe477.json",
+      "capturedAt": "2026-09-27T04:43:26.191Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 8
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-07%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/9f98dd0503b4bcf2.json",
+      "capturedAt": "2026-09-27T04:43:29.927Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-07",
+        "snapshot": "sources/wiki/pages/a8aa1070a3ffe477.json",
+        "capturedAt": "2026-09-27T04:43:26.191Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "MZ-07",
+        "loops": 3,
+        "days": 5,
+        "schedule": [
+          {
+            "day": 2,
+            "incidentText": "自白"
+          },
+          {
+            "day": 3,
+            "incidentText": "不安扩散"
+          },
+          {
+            "day": 4,
+            "incidentText": "阴谋活动"
+          },
+          {
+            "day": 5,
+            "incidentText": "破局"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 3,
+        "row": 8
+      },
+      "fields": {
+        "scenarioCode": "MZ-07",
+        "剧本名": "惨剧的护花使者",
+        "日文名": "惨劇へのエスコート",
+        "作者": "ペンスキー（gitti）",
+        "轮数": "3",
+        "天数": "5",
+        "难度": "4"
+      }
+    }
+  ],
+  "wikiTitle": "MZ-07",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Midnight Zone"
+  ],
+  "module": "Midnight Zone",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "7c1161b35303a618",
+        "title": "MZ-07",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "MZ-07",
+          "loops": 3,
+          "days": 5,
+          "schedule": [
+            {
+              "day": 2,
+              "incidentText": "自白"
+            },
+            {
+              "day": 3,
+              "incidentText": "不安扩散"
+            },
+            {
+              "day": 4,
+              "incidentText": "阴谋活动"
+            },
+            {
+              "day": 5,
+              "incidentText": "破局"
+            }
+          ],
+          "剧本名": "惨剧的护花使者",
+          "日文名": "惨劇へのエスコート",
+          "作者": "ペンスキー（gitti）",
+          "轮数": "3",
+          "天数": "5",
+          "难度": "4"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-07",
+            "snapshot": "sources/wiki/pages/a8aa1070a3ffe477.json",
+            "capturedAt": "2026-09-27T04:43:26.191Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-07",
+            "snapshot": "sources/wiki/pages/a8aa1070a3ffe477.json",
+            "capturedAt": "2026-09-27T04:43:26.191Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-07",
+            "snapshot": "sources/wiki/pages/a8aa1070a3ffe477.json",
+            "capturedAt": "2026-09-27T04:43:26.191Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-07",
+            "snapshot": "sources/wiki/pages/a8aa1070a3ffe477.json",
+            "capturedAt": "2026-09-27T04:43:26.191Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-07",
+            "snapshot": "sources/wiki/pages/a8aa1070a3ffe477.json",
+            "capturedAt": "2026-09-27T04:43:26.191Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 8
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 8
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 8
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 8
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 8
+          },
+          "难度": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 8
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-07",
+            "snapshot": "sources/wiki/pages/a8aa1070a3ffe477.json",
+            "capturedAt": "2026-09-27T04:43:26.191Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 8
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-07",
+              "snapshot": "sources/wiki/pages/a8aa1070a3ffe477.json",
+              "capturedAt": "2026-09-27T04:43:26.191Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "MZ-07",
+              "loops": 3,
+              "days": 5,
+              "schedule": [
+                {
+                  "day": 2,
+                  "incidentText": "自白"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "不安扩散"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "阴谋活动"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "破局"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 3,
+              "row": 8
+            },
+            "fields": {
+              "scenarioCode": "MZ-07",
+              "剧本名": "惨剧的护花使者",
+              "日文名": "惨劇へのエスコート",
+              "作者": "ペンスキー（gitti）",
+              "轮数": "3",
+              "天数": "5",
+              "难度": "4"
+            }
+          }
+        ],
+        "body": "text/scenarios/7c1161b35303a618.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-07",
+          "snapshot": "sources/wiki/pages/a8aa1070a3ffe477.json",
+          "capturedAt": "2026-09-27T04:43:26.191Z"
+        },
+        "wikiTitle": "MZ-07",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "MZ-07非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-07%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-07?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Midnight Zone"
+        ],
+        "module": "Midnight Zone"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "da19fab0c006c85b",
+        "title": "MZ-07非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "MZ-07",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "魔爪渐进"
+            },
+            {
+              "slot": "X1",
+              "name": "诸神之骰"
+            },
+            {
+              "slot": "X2",
+              "name": "死亡真人秀"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-07%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/9f98dd0503b4bcf2.json",
+            "capturedAt": "2026-09-27T04:43:29.927Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-07%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/9f98dd0503b4bcf2.json",
+            "capturedAt": "2026-09-27T04:43:29.927Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-07%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/9f98dd0503b4bcf2.json",
+            "capturedAt": "2026-09-27T04:43:29.927Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-07%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/9f98dd0503b4bcf2.json",
+            "capturedAt": "2026-09-27T04:43:29.927Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-07%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/9f98dd0503b4bcf2.json",
+              "capturedAt": "2026-09-27T04:43:29.927Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "MZ-07",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "魔爪渐进"
+                },
+                {
+                  "slot": "X1",
+                  "name": "诸神之骰"
+                },
+                {
+                  "slot": "X2",
+                  "name": "死亡真人秀"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/da19fab0c006c85b.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-07%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/9f98dd0503b4bcf2.json",
+          "capturedAt": "2026-09-27T04:43:29.927Z"
+        },
+        "wikiTitle": "MZ-07非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "1 惨剧的护花使者 作者： ペンスキー（gitti）",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-07%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E6%83%A8%E5%89%A7%E7%9A%84%E6%8A%A4%E8%8A%B1%E4%BD%BF%E8%80%85_%E4%BD%9C%E8%80%85%EF%BC%9A_%E3%83%9A%E3%83%B3%E3%82%B9%E3%82%AD%E3%83%BC%EF%BC%88gitti%EF%BC%89"
+          },
+          {
+            "title": "1.1 剧本特征",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-07%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E5%89%A7%E6%9C%AC%E7%89%B9%E5%BE%81"
+          },
+          {
+            "title": "1.2 剧作家指南",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-07%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E5%89%A7%E4%BD%9C%E5%AE%B6%E6%8C%87%E5%8D%97"
+          },
+          {
+            "title": "1.3 剧作家指南 by无名烈火",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-07%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E5%89%A7%E4%BD%9C%E5%AE%B6%E6%8C%87%E5%8D%97_by%E6%97%A0%E5%90%8D%E7%83%88%E7%81%AB"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-07%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-07%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-07%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=3"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-07%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=4"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Midnight Zone",
+        "tags": [
+          "民间",
+          "Midnight Zone"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "da19fab0c006c85b"
+  ],
+  "conflicts": []
+}

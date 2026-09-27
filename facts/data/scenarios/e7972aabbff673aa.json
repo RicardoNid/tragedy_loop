@@ -1,0 +1,569 @@
+{
+  "id": "e7972aabbff673aa",
+  "title": "SC-05",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "SC-05非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "SC-05",
+    "loops": 5,
+    "days": 5,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "合谋"
+      },
+      {
+        "day": 2,
+        "incidentText": "不安扩散"
+      },
+      {
+        "day": 3,
+        "incidentText": "爆破预告"
+      },
+      {
+        "day": 4,
+        "incidentText": "司法交易"
+      },
+      {
+        "day": 5,
+        "incidentText": "脱逃"
+      }
+    ],
+    "剧本名": "San Check Ø",
+    "作者": "新手之二",
+    "轮数": "5 4",
+    "天数": "5",
+    "难度": "6 8"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-05?oldid=737",
+      "snapshot": "sources/wiki/pages/2e12d2f86db3ef41.json",
+      "capturedAt": "2026-09-27T04:57:51.058Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-05?oldid=737",
+      "snapshot": "sources/wiki/pages/2e12d2f86db3ef41.json",
+      "capturedAt": "2026-09-27T04:57:51.058Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-05?oldid=737",
+      "snapshot": "sources/wiki/pages/2e12d2f86db3ef41.json",
+      "capturedAt": "2026-09-27T04:57:51.058Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-05?oldid=737",
+      "snapshot": "sources/wiki/pages/2e12d2f86db3ef41.json",
+      "capturedAt": "2026-09-27T04:57:51.058Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-05?oldid=737",
+      "snapshot": "sources/wiki/pages/2e12d2f86db3ef41.json",
+      "capturedAt": "2026-09-27T04:57:51.058Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+      "table": 4,
+      "row": 6
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+      "table": 4,
+      "row": 6
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+      "table": 4,
+      "row": 6
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+      "table": 4,
+      "row": 6
+    },
+    "难度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+      "table": 4,
+      "row": 6
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-05?oldid=737",
+      "snapshot": "sources/wiki/pages/2e12d2f86db3ef41.json",
+      "capturedAt": "2026-09-27T04:57:51.058Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+      "table": 4,
+      "row": 6
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-05%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=738",
+      "snapshot": "sources/wiki/pages/6dd625d39995eb5e.json",
+      "capturedAt": "2026-09-27T04:57:56.184Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-05?oldid=737",
+        "snapshot": "sources/wiki/pages/2e12d2f86db3ef41.json",
+        "capturedAt": "2026-09-27T04:57:51.058Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "SC-05",
+        "loops": 5,
+        "days": 5,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "合谋"
+          },
+          {
+            "day": 2,
+            "incidentText": "不安扩散"
+          },
+          {
+            "day": 3,
+            "incidentText": "爆破预告"
+          },
+          {
+            "day": 4,
+            "incidentText": "司法交易"
+          },
+          {
+            "day": 5,
+            "incidentText": "脱逃"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+        "table": 4,
+        "row": 6
+      },
+      "fields": {
+        "scenarioCode": "SC-05",
+        "剧本名": "San Check Ø",
+        "作者": "新手之二",
+        "轮数": "5 4",
+        "天数": "5",
+        "难度": "6 8"
+      }
+    }
+  ],
+  "wikiTitle": "SC-05",
+  "images": [],
+  "media": [],
+  "tags": [
+    "民间模组/旧模组剧本",
+    "Sin City"
+  ],
+  "module": "Sin City",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "e7972aabbff673aa",
+        "title": "SC-05",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "SC-05",
+          "loops": 5,
+          "days": 5,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "合谋"
+            },
+            {
+              "day": 2,
+              "incidentText": "不安扩散"
+            },
+            {
+              "day": 3,
+              "incidentText": "爆破预告"
+            },
+            {
+              "day": 4,
+              "incidentText": "司法交易"
+            },
+            {
+              "day": 5,
+              "incidentText": "脱逃"
+            }
+          ],
+          "剧本名": "San Check Ø",
+          "作者": "新手之二",
+          "轮数": "5 4",
+          "天数": "5",
+          "难度": "6 8"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-05?oldid=737",
+            "snapshot": "sources/wiki/pages/2e12d2f86db3ef41.json",
+            "capturedAt": "2026-09-27T04:57:51.058Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-05?oldid=737",
+            "snapshot": "sources/wiki/pages/2e12d2f86db3ef41.json",
+            "capturedAt": "2026-09-27T04:57:51.058Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-05?oldid=737",
+            "snapshot": "sources/wiki/pages/2e12d2f86db3ef41.json",
+            "capturedAt": "2026-09-27T04:57:51.058Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-05?oldid=737",
+            "snapshot": "sources/wiki/pages/2e12d2f86db3ef41.json",
+            "capturedAt": "2026-09-27T04:57:51.058Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-05?oldid=737",
+            "snapshot": "sources/wiki/pages/2e12d2f86db3ef41.json",
+            "capturedAt": "2026-09-27T04:57:51.058Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+            "table": 4,
+            "row": 6
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+            "table": 4,
+            "row": 6
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+            "table": 4,
+            "row": 6
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+            "table": 4,
+            "row": 6
+          },
+          "难度": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+            "table": 4,
+            "row": 6
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-05?oldid=737",
+            "snapshot": "sources/wiki/pages/2e12d2f86db3ef41.json",
+            "capturedAt": "2026-09-27T04:57:51.058Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+            "table": 4,
+            "row": 6
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-05?oldid=737",
+              "snapshot": "sources/wiki/pages/2e12d2f86db3ef41.json",
+              "capturedAt": "2026-09-27T04:57:51.058Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "SC-05",
+              "loops": 5,
+              "days": 5,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "合谋"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "不安扩散"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "爆破预告"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "司法交易"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "脱逃"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+              "table": 4,
+              "row": 6
+            },
+            "fields": {
+              "scenarioCode": "SC-05",
+              "剧本名": "San Check Ø",
+              "作者": "新手之二",
+              "轮数": "5 4",
+              "天数": "5",
+              "难度": "6 8"
+            }
+          }
+        ],
+        "body": "text/scenarios/e7972aabbff673aa.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-05?oldid=737",
+          "snapshot": "sources/wiki/pages/2e12d2f86db3ef41.json",
+          "capturedAt": "2026-09-27T04:57:51.058Z"
+        },
+        "wikiTitle": "SC-05",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-05?action=edit&section=1"
+          },
+          {
+            "title": "SC-05非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-05%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-05?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "tags": [
+          "民间模组/旧模组剧本",
+          "Sin City"
+        ],
+        "module": "Sin City"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "720a90c0ec047097",
+        "title": "SC-05非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "SC-05",
+          "loops": 5,
+          "days": 5,
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "地下秩序的建立"
+            },
+            {
+              "slot": "X1",
+              "name": "第一目标"
+            },
+            {
+              "slot": "X2",
+              "name": "斯德哥尔摩症候群"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-05%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=738",
+            "snapshot": "sources/wiki/pages/6dd625d39995eb5e.json",
+            "capturedAt": "2026-09-27T04:57:56.184Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-05%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=738",
+            "snapshot": "sources/wiki/pages/6dd625d39995eb5e.json",
+            "capturedAt": "2026-09-27T04:57:56.184Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-05%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=738",
+            "snapshot": "sources/wiki/pages/6dd625d39995eb5e.json",
+            "capturedAt": "2026-09-27T04:57:56.184Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-05%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=738",
+            "snapshot": "sources/wiki/pages/6dd625d39995eb5e.json",
+            "capturedAt": "2026-09-27T04:57:56.184Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-05%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=738",
+            "snapshot": "sources/wiki/pages/6dd625d39995eb5e.json",
+            "capturedAt": "2026-09-27T04:57:56.184Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-05%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=738",
+            "snapshot": "sources/wiki/pages/6dd625d39995eb5e.json",
+            "capturedAt": "2026-09-27T04:57:56.184Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-05%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=738",
+              "snapshot": "sources/wiki/pages/6dd625d39995eb5e.json",
+              "capturedAt": "2026-09-27T04:57:56.184Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "SC-05",
+              "loops": 5,
+              "days": 5,
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "地下秩序的建立"
+                },
+                {
+                  "slot": "X1",
+                  "name": "第一目标"
+                },
+                {
+                  "slot": "X2",
+                  "name": "斯德哥尔摩症候群"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/720a90c0ec047097.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-05%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=738",
+          "snapshot": "sources/wiki/pages/6dd625d39995eb5e.json",
+          "capturedAt": "2026-09-27T04:57:56.184Z"
+        },
+        "wikiTitle": "SC-05非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "1\t特殊规则",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-05%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E7%89%B9%E6%AE%8A%E8%A7%84%E5%88%99"
+          },
+          {
+            "title": "2\t剧本特征",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-05%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E5%89%A7%E6%9C%AC%E7%89%B9%E5%BE%81"
+          },
+          {
+            "title": "3\t故事",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-05%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E6%95%85%E4%BA%8B"
+          },
+          {
+            "title": "4\t剧作家指南",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-05%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E5%89%A7%E4%BD%9C%E5%AE%B6%E6%8C%87%E5%8D%97"
+          },
+          {
+            "title": "5\t剧作家的胜利条件",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-05%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E5%89%A7%E4%BD%9C%E5%AE%B6%E7%9A%84%E8%83%9C%E5%88%A9%E6%9D%A1%E4%BB%B6"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-05%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-05%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-05%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=3"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-05%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=4"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-05%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=5"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "module": "Sin City",
+        "tags": [
+          "Sin City"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "720a90c0ec047097"
+  ],
+  "conflicts": []
+}

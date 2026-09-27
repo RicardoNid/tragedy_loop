@@ -1,0 +1,476 @@
+{
+  "id": "991c48acc3e016c3",
+  "title": "MC-47",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "MC-47非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "MC-47",
+    "loops": 5,
+    "days": 5,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "恐怖袭击"
+      },
+      {
+        "day": 2,
+        "incidentText": "恐怖袭击"
+      },
+      {
+        "day": 3,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 4,
+        "incidentText": "自杀"
+      },
+      {
+        "day": 5,
+        "incidentText": "医院事故"
+      }
+    ],
+    "剧本名": "轰鸣的坠落",
+    "英文名": "The Fall of the Vroom",
+    "作者": "Justin Karp",
+    "轮数": "5",
+    "天数": "5"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-47",
+      "snapshot": "sources/wiki/pages/a1d2e6b56affb673.json",
+      "capturedAt": "2026-09-27T04:40:02.064Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-47",
+      "snapshot": "sources/wiki/pages/a1d2e6b56affb673.json",
+      "capturedAt": "2026-09-27T04:40:02.064Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-47",
+      "snapshot": "sources/wiki/pages/a1d2e6b56affb673.json",
+      "capturedAt": "2026-09-27T04:40:02.064Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-47",
+      "snapshot": "sources/wiki/pages/a1d2e6b56affb673.json",
+      "capturedAt": "2026-09-27T04:40:02.064Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-47",
+      "snapshot": "sources/wiki/pages/a1d2e6b56affb673.json",
+      "capturedAt": "2026-09-27T04:40:02.064Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 49
+    },
+    "英文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 49
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 49
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 49
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 49
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-47",
+      "snapshot": "sources/wiki/pages/a1d2e6b56affb673.json",
+      "capturedAt": "2026-09-27T04:40:02.064Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 49
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-47%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/bdf4ef3ae0a8d4bf.json",
+      "capturedAt": "2026-09-27T04:40:05.073Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-47",
+        "snapshot": "sources/wiki/pages/a1d2e6b56affb673.json",
+        "capturedAt": "2026-09-27T04:40:02.064Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "MC-47",
+        "loops": 5,
+        "days": 5,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "恐怖袭击"
+          },
+          {
+            "day": 2,
+            "incidentText": "恐怖袭击"
+          },
+          {
+            "day": 3,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 4,
+            "incidentText": "自杀"
+          },
+          {
+            "day": 5,
+            "incidentText": "医院事故"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 4,
+        "row": 49
+      },
+      "fields": {
+        "scenarioCode": "MC-47",
+        "剧本名": "轰鸣的坠落",
+        "英文名": "The Fall of the Vroom",
+        "作者": "Justin Karp",
+        "轮数": "5",
+        "天数": "5"
+      }
+    }
+  ],
+  "wikiTitle": "MC-47",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Mystery Circle"
+  ],
+  "module": "Mystery Circle",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "991c48acc3e016c3",
+        "title": "MC-47",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "MC-47",
+          "loops": 5,
+          "days": 5,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "恐怖袭击"
+            },
+            {
+              "day": 2,
+              "incidentText": "恐怖袭击"
+            },
+            {
+              "day": 3,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 4,
+              "incidentText": "自杀"
+            },
+            {
+              "day": 5,
+              "incidentText": "医院事故"
+            }
+          ],
+          "剧本名": "轰鸣的坠落",
+          "英文名": "The Fall of the Vroom",
+          "作者": "Justin Karp",
+          "轮数": "5",
+          "天数": "5"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-47",
+            "snapshot": "sources/wiki/pages/a1d2e6b56affb673.json",
+            "capturedAt": "2026-09-27T04:40:02.064Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-47",
+            "snapshot": "sources/wiki/pages/a1d2e6b56affb673.json",
+            "capturedAt": "2026-09-27T04:40:02.064Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-47",
+            "snapshot": "sources/wiki/pages/a1d2e6b56affb673.json",
+            "capturedAt": "2026-09-27T04:40:02.064Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-47",
+            "snapshot": "sources/wiki/pages/a1d2e6b56affb673.json",
+            "capturedAt": "2026-09-27T04:40:02.064Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-47",
+            "snapshot": "sources/wiki/pages/a1d2e6b56affb673.json",
+            "capturedAt": "2026-09-27T04:40:02.064Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 49
+          },
+          "英文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 49
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 49
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 49
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 49
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-47",
+            "snapshot": "sources/wiki/pages/a1d2e6b56affb673.json",
+            "capturedAt": "2026-09-27T04:40:02.064Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 49
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-47",
+              "snapshot": "sources/wiki/pages/a1d2e6b56affb673.json",
+              "capturedAt": "2026-09-27T04:40:02.064Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "MC-47",
+              "loops": 5,
+              "days": 5,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "恐怖袭击"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "恐怖袭击"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "自杀"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "医院事故"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 4,
+              "row": 49
+            },
+            "fields": {
+              "scenarioCode": "MC-47",
+              "剧本名": "轰鸣的坠落",
+              "英文名": "The Fall of the Vroom",
+              "作者": "Justin Karp",
+              "轮数": "5",
+              "天数": "5"
+            }
+          }
+        ],
+        "body": "text/scenarios/991c48acc3e016c3.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-47",
+          "snapshot": "sources/wiki/pages/a1d2e6b56affb673.json",
+          "capturedAt": "2026-09-27T04:40:02.064Z"
+        },
+        "wikiTitle": "MC-47",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "MC-47非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-47%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-47?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Mystery Circle"
+        ],
+        "module": "Mystery Circle"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "4070d917b99c52dc",
+        "title": "MC-47非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "MC-47"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-47%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/bdf4ef3ae0a8d4bf.json",
+            "capturedAt": "2026-09-27T04:40:05.073Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-47%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/bdf4ef3ae0a8d4bf.json",
+            "capturedAt": "2026-09-27T04:40:05.073Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-47%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/bdf4ef3ae0a8d4bf.json",
+            "capturedAt": "2026-09-27T04:40:05.073Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-47%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/bdf4ef3ae0a8d4bf.json",
+              "capturedAt": "2026-09-27T04:40:05.073Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "MC-47"
+            }
+          }
+        ],
+        "wikiTitle": "MC-47非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Mystery Circle",
+        "tags": [
+          "民间",
+          "Mystery Circle"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "4070d917b99c52dc"
+  ],
+  "conflicts": []
+}

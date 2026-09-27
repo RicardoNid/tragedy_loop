@@ -1,0 +1,1559 @@
+{
+  "categories": [
+    "分类"
+  ],
+  "hasArticle": true,
+  "headings": [],
+  "html": "<p>作者：Sean Petersen  译者：新手之二\n</p>\n<table class=\"fandom-table\">\n<tbody><tr>\n<td>ST\n</td>\n<td>剧本\n</td>\n<td>复制者\n</td>\n<td>疯狂天才\n</td>\n<td>异教徒\n</td>\n<td>君王\n</td>\n<td>祈求者\n</td>\n<td>情人\n</td>\n<td>职业杀手\n</td>\n<td>关键人物\n</td>\n<td>杀人狂\n</td>\n<td>播种者\n</td>\n<td>占卜师\n</td>\n<td>附加规则\n</td></tr>\n<tr>\n<td rowspan=\"5\">主线\n</td>\n<td>憎恶\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>【强制：最终日的回合结束阶段】疯狂天才存活且有拥有尸体特性→主人公失败\n</td></tr>\n<tr>\n<td>蜕变\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>①\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>【强制：最终日的回合结束阶段】祈求者拥有超自然→主人公失败\n</td></tr>\n<tr>\n<td>芽孢\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>【可选：回合结束阶段】所有地区均有复制者→主人公失败\n</td></tr>\n<tr>\n<td>恶魔之门\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>【强制：最终日的回合结束阶段】神社有2枚或以上[密谋]→主人公失败\n</td></tr>\n<tr>\n<td>种子\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td></tr>\n<tr>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td></tr>\n<tr>\n<td rowspan=\"7\">支线\n</td>\n<td>传染\n</td>\n<td>②\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>【强制：回合结束阶段】场上没有复制者→关键人物变为平民\n</td></tr>\n<tr>\n<td>致命诱惑\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>③\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td></tr>\n<tr>\n<td>诡影\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>【任意能力：剧作家能力阶段】任意1名角色获得1枚[不安]（每轮限1次）\n</td></tr>\n<tr>\n<td>雇凶杀人\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td></tr>\n<tr>\n<td>遥控爆破\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>【可选：每日结束阶段】疯狂天才的初始区域有2枚或以上[密谋]，且存活的疯狂天才不在该区域→主人公失败\n</td></tr>\n<tr>\n<td>集体自杀\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>③\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>【强制：强制：最终日的回合结束阶段】1名或以上邪教徒没有[友好]→主人公失败\n</td></tr>\n<tr>\n<td>时间扭曲\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>【任意能力：剧作家能力阶段】将1名角色身上的1枚[密谋]转移至同区域的另外1名角色（每轮限1次）\n</td></tr>\n<tr>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td></tr>\n<tr>\n<td rowspan=\"14\">身份\n</td>\n<td>\n</td>\n<td>限\n</td>\n<td colspan=\"5\">身份特性\n</td>\n<td colspan=\"6\">\n</td></tr>\n<tr>\n<td rowspan=\"2\">复制者\n</td>\n<td rowspan=\"2\">\n</td>\n<td colspan=\"5\" rowspan=\"2\">超自然\n</td>\n<td colspan=\"6\">【强制：每日结束阶段】1块版图中复制者角色的数量大于等于其他角色数量→该版图所有角色身份变为复制者（统计所有版图）\n</td></tr>\n<tr>\n<td colspan=\"6\">【强制：每日结束阶段】该角色与关键人物位于同一区域→该角色死亡\n</td></tr>\n<tr>\n<td>疯狂天才\n</td>\n<td>①\n</td>\n<td colspan=\"5\">无视友好\n</td>\n<td colspan=\"6\">【任意能力：剧作家能力阶段】将与该角色位于同地区的1具尸体移除，该角色获得拥有尸体特性\n</td></tr>\n<tr>\n<td>异教徒\n</td>\n<td>\n</td>\n<td colspan=\"5\">必定无视友好\n</td>\n<td colspan=\"6\">【强制：行动结算阶段】无视该角色身上放置的禁止友好\n</td></tr>\n<tr>\n<td>君王\n</td>\n<td>①\n</td>\n<td colspan=\"5\">必定無視友好\n<p>超自然\n</p>\n</td>\n<td colspan=\"6\">【可选：剧作家能力阶段】将1名角色身上的1枚[密谋]转移至同区域的另外1名角色或那名角色所在的版图上\n</td></tr>\n<tr>\n<td rowspan=\"2\">祈求者\n</td>\n<td rowspan=\"2\">\n</td>\n<td colspan=\"5\" rowspan=\"2\">\n</td>\n<td colspan=\"6\">【强制：回合结束阶段】该角色拥有1枚或以上[密谋]，并且和情人位于同一区域→该角色获得超自然特性\n</td></tr>\n<tr>\n<td colspan=\"6\">【强制：剧作家能力阶段】如果和疯狂天才或君王处于同一地区，获得1个不安标记\n</td></tr>\n<tr>\n<td>情人\n</td>\n<td>\n</td>\n<td colspan=\"5\">\n</td>\n<td colspan=\"6\">【强制：最终日的回合结束阶段】场上有3人或以上情人→主人公失败\n<p>【强制：轮回开始时】上轮轮回该角色死亡过→往该角色身上放置2枚[不安]\n</p>\n</td></tr>\n<tr>\n<td>职业杀手\n</td>\n<td>\n</td>\n<td colspan=\"5\">\n</td>\n<td colspan=\"6\">【任意能力：回合结束阶段】同一区域1名角色身上有2枚或以上[密谋]→那名角色死亡\n</td></tr>\n<tr>\n<td>關鍵人物\n</td>\n<td>\n</td>\n<td colspan=\"5\">\n</td>\n<td colspan=\"6\">【强制：该角色死亡时】主人公失败，当前轮回立即结束\n</td></tr>\n<tr>\n<td>杀人狂\n</td>\n<td>\n</td>\n<td colspan=\"5\">\n</td>\n<td colspan=\"6\">【强制：回合结束阶段】仅有1名角色与该角色位于同一区域→那名角色死亡\n</td></tr>\n<tr>\n<td>播种者\n</td>\n<td>①\n</td>\n<td colspan=\"5\">必定无视友好\n<p>超自然\n</p>\n</td>\n<td colspan=\"6\">【强制：该角色死亡时】主人公失败，当前轮回立即结束\n<p>【任意能力：剧作家能力阶段】在1名非超自然角色上放置1枚[不安]，那名角色变成关键人物，该角色失去能力和身份特性直到本轮回结束（每轮限1次）\n</p>\n</td></tr>\n<tr>\n<td>占卜师\n</td>\n<td>①\n</td>\n<td colspan=\"5\">\n</td>\n<td colspan=\"6\">【任意能力：剧作家能力阶段】往同一区域中任意1名角色身上放置1枚[不安]\n</td></tr>\n<tr>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td></tr>\n<tr>\n<td rowspan=\"12\">事件\n</td>\n<td>事件名称\n</td>\n<td colspan=\"12\">效果\n</td></tr>\n<tr>\n<td>谋杀\n</td>\n<td colspan=\"12\">与当事人位于同一区域的另外1名角色死亡\n</td></tr>\n<tr>\n<td>盗墓\n</td>\n<td colspan=\"12\">往神社放置2枚[密谋]，随后，将1名位于神社的角色移动至学校\n</td></tr>\n<tr>\n<td>教化\n</td>\n<td colspan=\"12\">移除1名角色的所有[友好].往那名角色身上放置移除数量的[不安]或[密谋]\n</td></tr>\n<tr>\n<td>劝诱\n</td>\n<td colspan=\"12\">往1名角色和其所在版图各放置1枚[密谋]\n</td></tr>\n<tr>\n<td>诱拐\n</td>\n<td colspan=\"12\">将1名角色移动到其所在版图之外的1块版图。让另外1名角色移动至其所在版图之外的1块版图。\n</td></tr>\n<tr>\n<td>血祭仪式\n</td>\n<td colspan=\"12\">1名角色身上的[友好]比其他所有角色都多→那名角色死亡\n</td></tr>\n<tr>\n<td>自杀\n</td>\n<td colspan=\"12\">当事人死亡\n</td></tr>\n<tr>\n<td>群体狂乱\n</td>\n<td colspan=\"12\">往每名角色身上放置1枚[不安]\n</td></tr>\n<tr>\n<td>校园枪击\n</td>\n<td colspan=\"12\">当事人身上有1枚或以上[密谋]→位于学校的所有角色死亡\n</td></tr>\n<tr>\n<td>黑暗教学\n</td>\n<td colspan=\"12\">往所有与当事人位于同1区域的角色身上放置1枚[密谋]\n</td></tr>\n<tr>\n<td>自白\n</td>\n<td colspan=\"12\">当事人公开自己的身份\n</td></tr></tbody></table>\n<!-- \nNewPP limit report\nCached time: 20260927033005\nCache expiry: 1209600\nReduced expiry: false\nComplications: []\nCPU time usage: 0.027 seconds\nReal time usage: 0.029 seconds\nPreprocessor visited node count: 1/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/100\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key 1.43.9_prod_zhtragedyrooper:pcache:idhash:272-0!sseVary=RegularPage!zh!FandomDesktop!LegacyGalleries and timestamp 20260927033005 and revision id 477. Rendering was triggered because: page-view\n -->\n",
+  "images": [],
+  "license": [
+    "https://www.fandom.com/zh/licensing-zh"
+  ],
+  "links": [],
+  "tables": [
+    [
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "ST"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "剧本"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "复制者"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "疯狂天才"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "异教徒"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "君王"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "祈求者"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "情人"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "职业杀手"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "关键人物"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "杀人狂"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "播种者"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "占卜师"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "附加规则"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 5,
+          "text": "主线"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "憎恶"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "【强制：最终日的回合结束阶段】疯狂天才存活且有拥有尸体特性→主人公失败"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "蜕变"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "【强制：最终日的回合结束阶段】祈求者拥有超自然→主人公失败"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "芽孢"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "【可选：回合结束阶段】所有地区均有复制者→主人公失败"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "恶魔之门"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "【强制：最终日的回合结束阶段】神社有2枚或以上[密谋]→主人公失败"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "种子"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 7,
+          "text": "支线"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "传染"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "②"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "【强制：回合结束阶段】场上没有复制者→关键人物变为平民"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "致命诱惑"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "③"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "诡影"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "【任意能力：剧作家能力阶段】任意1名角色获得1枚[不安]（每轮限1次）"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "雇凶杀人"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "遥控爆破"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "【可选：每日结束阶段】疯狂天才的初始区域有2枚或以上[密谋]，且存活的疯狂天才不在该区域→主人公失败"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "集体自杀"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "③"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "【强制：强制：最终日的回合结束阶段】1名或以上邪教徒没有[友好]→主人公失败"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "时间扭曲"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "【任意能力：剧作家能力阶段】将1名角色身上的1枚[密谋]转移至同区域的另外1名角色（每轮限1次）"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 14,
+          "text": "身份"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "限"
+        },
+        {
+          "colspan": 5,
+          "rowspan": 1,
+          "text": "身份特性"
+        },
+        {
+          "colspan": 6,
+          "rowspan": 1,
+          "text": ""
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "复制者"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 5,
+          "rowspan": 2,
+          "text": "超自然"
+        },
+        {
+          "colspan": 6,
+          "rowspan": 1,
+          "text": "【强制：每日结束阶段】1块版图中复制者角色的数量大于等于其他角色数量→该版图所有角色身份变为复制者（统计所有版图）"
+        }
+      ],
+      [
+        {
+          "colspan": 6,
+          "rowspan": 1,
+          "text": "【强制：每日结束阶段】该角色与关键人物位于同一区域→该角色死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "疯狂天才"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 5,
+          "rowspan": 1,
+          "text": "无视友好"
+        },
+        {
+          "colspan": 6,
+          "rowspan": 1,
+          "text": "【任意能力：剧作家能力阶段】将与该角色位于同地区的1具尸体移除，该角色获得拥有尸体特性"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "异教徒"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 5,
+          "rowspan": 1,
+          "text": "必定无视友好"
+        },
+        {
+          "colspan": 6,
+          "rowspan": 1,
+          "text": "【强制：行动结算阶段】无视该角色身上放置的禁止友好"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "君王"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 5,
+          "rowspan": 1,
+          "text": "必定無視友好\n\n超自然"
+        },
+        {
+          "colspan": 6,
+          "rowspan": 1,
+          "text": "【可选：剧作家能力阶段】将1名角色身上的1枚[密谋]转移至同区域的另外1名角色或那名角色所在的版图上"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "祈求者"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 5,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 6,
+          "rowspan": 1,
+          "text": "【强制：回合结束阶段】该角色拥有1枚或以上[密谋]，并且和情人位于同一区域→该角色获得超自然特性"
+        }
+      ],
+      [
+        {
+          "colspan": 6,
+          "rowspan": 1,
+          "text": "【强制：剧作家能力阶段】如果和疯狂天才或君王处于同一地区，获得1个不安标记"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "情人"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 5,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 6,
+          "rowspan": 1,
+          "text": "【强制：最终日的回合结束阶段】场上有3人或以上情人→主人公失败\n\n【强制：轮回开始时】上轮轮回该角色死亡过→往该角色身上放置2枚[不安]"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "职业杀手"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 5,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 6,
+          "rowspan": 1,
+          "text": "【任意能力：回合结束阶段】同一区域1名角色身上有2枚或以上[密谋]→那名角色死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "關鍵人物"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 5,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 6,
+          "rowspan": 1,
+          "text": "【强制：该角色死亡时】主人公失败，当前轮回立即结束"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "杀人狂"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 5,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 6,
+          "rowspan": 1,
+          "text": "【强制：回合结束阶段】仅有1名角色与该角色位于同一区域→那名角色死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "播种者"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 5,
+          "rowspan": 1,
+          "text": "必定无视友好\n\n超自然"
+        },
+        {
+          "colspan": 6,
+          "rowspan": 1,
+          "text": "【强制：该角色死亡时】主人公失败，当前轮回立即结束\n\n【任意能力：剧作家能力阶段】在1名非超自然角色上放置1枚[不安]，那名角色变成关键人物，该角色失去能力和身份特性直到本轮回结束（每轮限1次）"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "占卜师"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 5,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 6,
+          "rowspan": 1,
+          "text": "【任意能力：剧作家能力阶段】往同一区域中任意1名角色身上放置1枚[不安]"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 12,
+          "text": "事件"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "事件名称"
+        },
+        {
+          "colspan": 12,
+          "rowspan": 1,
+          "text": "效果"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "谋杀"
+        },
+        {
+          "colspan": 12,
+          "rowspan": 1,
+          "text": "与当事人位于同一区域的另外1名角色死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "盗墓"
+        },
+        {
+          "colspan": 12,
+          "rowspan": 1,
+          "text": "往神社放置2枚[密谋]，随后，将1名位于神社的角色移动至学校"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "教化"
+        },
+        {
+          "colspan": 12,
+          "rowspan": 1,
+          "text": "移除1名角色的所有[友好].往那名角色身上放置移除数量的[不安]或[密谋]"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "劝诱"
+        },
+        {
+          "colspan": 12,
+          "rowspan": 1,
+          "text": "往1名角色和其所在版图各放置1枚[密谋]"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "诱拐"
+        },
+        {
+          "colspan": 12,
+          "rowspan": 1,
+          "text": "将1名角色移动到其所在版图之外的1块版图。让另外1名角色移动至其所在版图之外的1块版图。"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "血祭仪式"
+        },
+        {
+          "colspan": 12,
+          "rowspan": 1,
+          "text": "1名角色身上的[友好]比其他所有角色都多→那名角色死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "自杀"
+        },
+        {
+          "colspan": 12,
+          "rowspan": 1,
+          "text": "当事人死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "群体狂乱"
+        },
+        {
+          "colspan": 12,
+          "rowspan": 1,
+          "text": "往每名角色身上放置1枚[不安]"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "校园枪击"
+        },
+        {
+          "colspan": 12,
+          "rowspan": 1,
+          "text": "当事人身上有1枚或以上[密谋]→位于学校的所有角色死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "黑暗教学"
+        },
+        {
+          "colspan": 12,
+          "rowspan": 1,
+          "text": "往所有与当事人位于同1区域的角色身上放置1枚[密谋]"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "自白"
+        },
+        {
+          "colspan": 12,
+          "rowspan": 1,
+          "text": "当事人公开自己的身份"
+        }
+      ]
+    ]
+  ],
+  "text": "作者：Sean Petersen 译者：新手之二\n\nST\t剧本\t复制者\t疯狂天才\t异教徒\t君王\t祈求者\t情人\t职业杀手\t关键人物\t杀人狂\t播种者\t占卜师\t附加规则\n主线\t憎恶\t\t①\t\t\t①\t\t\t\t\t\t\t【强制：最终日的回合结束阶段】疯狂天才存活且有拥有尸体特性→主人公失败\n蜕变\t\t\t\t①\t①\t①\t\t\t\t\t\t【强制：最终日的回合结束阶段】祈求者拥有超自然→主人公失败\n芽孢\t①\t\t\t\t\t\t\t\t\t\t①\t【可选：回合结束阶段】所有地区均有复制者→主人公失败\n恶魔之门\t\t\t\t①\t\t\t\t\t\t\t①\t【强制：最终日的回合结束阶段】神社有2枚或以上[密谋]→主人公失败\n种子\t\t\t\t\t\t\t\t\t①\t①\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n支线\t传染\t②\t\t\t\t\t\t\t①\t\t\t\t【强制：回合结束阶段】场上没有复制者→关键人物变为平民\n致命诱惑\t\t\t\t\t\t③\t\t\t①\t\t\t\n诡影\t\t\t\t\t\t\t\t\t\t\t\t【任意能力：剧作家能力阶段】任意1名角色获得1枚[不安]（每轮限1次）\n雇凶杀人\t\t\t\t\t\t\t①\t①\t\t\t\t\n遥控爆破\t\t①\t\t\t\t\t\t\t\t\t\t【可选：每日结束阶段】疯狂天才的初始区域有2枚或以上[密谋]，且存活的疯狂天才不在该区域→主人公失败\n集体自杀\t\t\t③\t\t\t\t\t\t\t\t\t【强制：强制：最终日的回合结束阶段】1名或以上邪教徒没有[友好]→主人公失败\n时间扭曲\t\t\t\t\t\t\t\t\t\t\t\t【任意能力：剧作家能力阶段】将1名角色身上的1枚[密谋]转移至同区域的另外1名角色（每轮限1次）\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n身份\t\t限\t身份特性\t\n复制者\t\t超自然\t【强制：每日结束阶段】1块版图中复制者角色的数量大于等于其他角色数量→该版图所有角色身份变为复制者（统计所有版图）\n【强制：每日结束阶段】该角色与关键人物位于同一区域→该角色死亡\n疯狂天才\t①\t无视友好\t【任意能力：剧作家能力阶段】将与该角色位于同地区的1具尸体移除，该角色获得拥有尸体特性\n异教徒\t\t必定无视友好\t【强制：行动结算阶段】无视该角色身上放置的禁止友好\n君王\t①\t必定無視友好\n\n超自然\n\n\t【可选：剧作家能力阶段】将1名角色身上的1枚[密谋]转移至同区域的另外1名角色或那名角色所在的版图上\n祈求者\t\t\t【强制：回合结束阶段】该角色拥有1枚或以上[密谋]，并且和情人位于同一区域→该角色获得超自然特性\n【强制：剧作家能力阶段】如果和疯狂天才或君王处于同一地区，获得1个不安标记\n情人\t\t\t【强制：最终日的回合结束阶段】场上有3人或以上情人→主人公失败\n\n【强制：轮回开始时】上轮轮回该角色死亡过→往该角色身上放置2枚[不安]\n\n\n职业杀手\t\t\t【任意能力：回合结束阶段】同一区域1名角色身上有2枚或以上[密谋]→那名角色死亡\n關鍵人物\t\t\t【强制：该角色死亡时】主人公失败，当前轮回立即结束\n杀人狂\t\t\t【强制：回合结束阶段】仅有1名角色与该角色位于同一区域→那名角色死亡\n播种者\t①\t必定无视友好\n\n超自然\n\n\t【强制：该角色死亡时】主人公失败，当前轮回立即结束\n\n【任意能力：剧作家能力阶段】在1名非超自然角色上放置1枚[不安]，那名角色变成关键人物，该角色失去能力和身份特性直到本轮回结束（每轮限1次）\n\n\n占卜师\t①\t\t【任意能力：剧作家能力阶段】往同一区域中任意1名角色身上放置1枚[不安]\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n事件\t事件名称\t效果\n谋杀\t与当事人位于同一区域的另外1名角色死亡\n盗墓\t往神社放置2枚[密谋]，随后，将1名位于神社的角色移动至学校\n教化\t移除1名角色的所有[友好].往那名角色身上放置移除数量的[不安]或[密谋]\n劝诱\t往1名角色和其所在版图各放置1枚[密谋]\n诱拐\t将1名角色移动到其所在版图之外的1块版图。让另外1名角色移动至其所在版图之外的1块版图。\n血祭仪式\t1名角色身上的[友好]比其他所有角色都多→那名角色死亡\n自杀\t当事人死亡\n群体狂乱\t往每名角色身上放置1枚[不安]\n校园枪击\t当事人身上有1枚或以上[密谋]→位于学校的所有角色死亡\n黑暗教学\t往所有与当事人位于同1区域的角色身上放置1枚[密谋]\n自白\t当事人公开自己的身份",
+  "title": "Supernatural Tragedy",
+  "url": "https://tragedyrooper.fandom.com/zh/wiki/Supernatural_Tragedy",
+  "status": "captured",
+  "requestedTitle": "Supernatural Tragedy",
+  "fetchedAt": "2026-09-27T03:30:06.385Z",
+  "source": "wiki",
+  "id": "34e1e734e8da4777"
+}

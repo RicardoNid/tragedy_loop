@@ -1,0 +1,67 @@
+{
+  "id": "e8e4c59d1c8d67d5",
+  "title": "因为孤守需要移动的巫女，可以选都市然后不移动吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / HSA / 第 36 行",
+  "aliases": [],
+  "fields": {
+    "question": "因为孤守需要移动的巫女，可以选都市然后不移动吗？",
+    "answer": "可以"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1u35d2",
+      "snapshot": "sources/faq-sheet/hsa.json",
+      "sheet": "HSA",
+      "row": 36,
+      "cells": "A36:B36",
+      "capturedAt": "2026-09-27T05:40:17.319Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1u35d2",
+      "snapshot": "sources/faq-sheet/hsa.json",
+      "sheet": "HSA",
+      "row": 36,
+      "cells": "A36:B36",
+      "capturedAt": "2026-09-27T05:40:17.319Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1u35d2",
+      "snapshot": "sources/faq-sheet/hsa.json",
+      "sheet": "HSA",
+      "row": 36,
+      "cells": "A36:B36",
+      "capturedAt": "2026-09-27T05:40:17.319Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1u35d2",
+        "snapshot": "sources/faq-sheet/hsa.json",
+        "sheet": "HSA",
+        "row": 36,
+        "cells": "A36:B36",
+        "capturedAt": "2026-09-27T05:40:17.319Z"
+      },
+      "fields": {
+        "question": "因为孤守需要移动的巫女，可以选都市然后不移动吗？",
+        "answer": "可以"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "HSA",
+    "关于事件",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

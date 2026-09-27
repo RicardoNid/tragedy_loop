@@ -1,0 +1,526 @@
+{
+  "id": "0c4a3cd24de97dd2",
+  "title": "MZ-44",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "MZ-44非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "MZ-44",
+    "loops": 3,
+    "days": 6,
+    "schedule": [
+      {
+        "day": 2,
+        "incidentText": "连续杀人"
+      },
+      {
+        "day": 3,
+        "incidentText": "连续杀人"
+      },
+      {
+        "day": 4,
+        "incidentText": "连续杀人"
+      },
+      {
+        "day": 5,
+        "incidentText": "连续杀人"
+      },
+      {
+        "day": 6,
+        "incidentText": "自杀"
+      }
+    ],
+    "剧本名": "捉迷藏",
+    "英文名": "Hide and Seek",
+    "作者": "Seiji-kun",
+    "轮数": "3",
+    "天数": "6"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-44",
+      "snapshot": "sources/wiki/pages/aa743f6d633c0aaf.json",
+      "capturedAt": "2026-09-27T04:48:12.389Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-44",
+      "snapshot": "sources/wiki/pages/aa743f6d633c0aaf.json",
+      "capturedAt": "2026-09-27T04:48:12.389Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-44",
+      "snapshot": "sources/wiki/pages/aa743f6d633c0aaf.json",
+      "capturedAt": "2026-09-27T04:48:12.389Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-44",
+      "snapshot": "sources/wiki/pages/aa743f6d633c0aaf.json",
+      "capturedAt": "2026-09-27T04:48:12.389Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-44",
+      "snapshot": "sources/wiki/pages/aa743f6d633c0aaf.json",
+      "capturedAt": "2026-09-27T04:48:12.389Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 46
+    },
+    "英文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 46
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 46
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 46
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 46
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-44",
+      "snapshot": "sources/wiki/pages/aa743f6d633c0aaf.json",
+      "capturedAt": "2026-09-27T04:48:12.389Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 46
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-44%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/c7dcfe80f5d2da74.json",
+      "capturedAt": "2026-09-27T04:48:15.388Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-44",
+        "snapshot": "sources/wiki/pages/aa743f6d633c0aaf.json",
+        "capturedAt": "2026-09-27T04:48:12.389Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "MZ-44",
+        "loops": 3,
+        "days": 6,
+        "schedule": [
+          {
+            "day": 2,
+            "incidentText": "连续杀人"
+          },
+          {
+            "day": 3,
+            "incidentText": "连续杀人"
+          },
+          {
+            "day": 4,
+            "incidentText": "连续杀人"
+          },
+          {
+            "day": 5,
+            "incidentText": "连续杀人"
+          },
+          {
+            "day": 6,
+            "incidentText": "自杀"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 3,
+        "row": 46
+      },
+      "fields": {
+        "scenarioCode": "MZ-44",
+        "剧本名": "捉迷藏",
+        "英文名": "Hide and Seek",
+        "作者": "Seiji-kun",
+        "轮数": "3",
+        "天数": "6"
+      }
+    }
+  ],
+  "wikiTitle": "MZ-44",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Midnight Zone"
+  ],
+  "module": "Midnight Zone",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "0c4a3cd24de97dd2",
+        "title": "MZ-44",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "MZ-44",
+          "loops": 3,
+          "days": 6,
+          "schedule": [
+            {
+              "day": 2,
+              "incidentText": "连续杀人"
+            },
+            {
+              "day": 3,
+              "incidentText": "连续杀人"
+            },
+            {
+              "day": 4,
+              "incidentText": "连续杀人"
+            },
+            {
+              "day": 5,
+              "incidentText": "连续杀人"
+            },
+            {
+              "day": 6,
+              "incidentText": "自杀"
+            }
+          ],
+          "剧本名": "捉迷藏",
+          "英文名": "Hide and Seek",
+          "作者": "Seiji-kun",
+          "轮数": "3",
+          "天数": "6"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-44",
+            "snapshot": "sources/wiki/pages/aa743f6d633c0aaf.json",
+            "capturedAt": "2026-09-27T04:48:12.389Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-44",
+            "snapshot": "sources/wiki/pages/aa743f6d633c0aaf.json",
+            "capturedAt": "2026-09-27T04:48:12.389Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-44",
+            "snapshot": "sources/wiki/pages/aa743f6d633c0aaf.json",
+            "capturedAt": "2026-09-27T04:48:12.389Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-44",
+            "snapshot": "sources/wiki/pages/aa743f6d633c0aaf.json",
+            "capturedAt": "2026-09-27T04:48:12.389Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-44",
+            "snapshot": "sources/wiki/pages/aa743f6d633c0aaf.json",
+            "capturedAt": "2026-09-27T04:48:12.389Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 46
+          },
+          "英文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 46
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 46
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 46
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 46
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-44",
+            "snapshot": "sources/wiki/pages/aa743f6d633c0aaf.json",
+            "capturedAt": "2026-09-27T04:48:12.389Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 46
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-44",
+              "snapshot": "sources/wiki/pages/aa743f6d633c0aaf.json",
+              "capturedAt": "2026-09-27T04:48:12.389Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "MZ-44",
+              "loops": 3,
+              "days": 6,
+              "schedule": [
+                {
+                  "day": 2,
+                  "incidentText": "连续杀人"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "连续杀人"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "连续杀人"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "连续杀人"
+                },
+                {
+                  "day": 6,
+                  "incidentText": "自杀"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 3,
+              "row": 46
+            },
+            "fields": {
+              "scenarioCode": "MZ-44",
+              "剧本名": "捉迷藏",
+              "英文名": "Hide and Seek",
+              "作者": "Seiji-kun",
+              "轮数": "3",
+              "天数": "6"
+            }
+          }
+        ],
+        "body": "text/scenarios/0c4a3cd24de97dd2.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-44",
+          "snapshot": "sources/wiki/pages/aa743f6d633c0aaf.json",
+          "capturedAt": "2026-09-27T04:48:12.389Z"
+        },
+        "wikiTitle": "MZ-44",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-44?action=edit&section=1"
+          },
+          {
+            "title": "MZ-44非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-44%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-44?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Midnight Zone"
+        ],
+        "module": "Midnight Zone"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "4c238fab5bce1f14",
+        "title": "MZ-44非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "MZ-44",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "魔爪渐进"
+            },
+            {
+              "slot": "X1",
+              "name": "死亡真人秀"
+            },
+            {
+              "slot": "X2",
+              "name": "灭亡讴歌"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-44%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/c7dcfe80f5d2da74.json",
+            "capturedAt": "2026-09-27T04:48:15.388Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-44%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/c7dcfe80f5d2da74.json",
+            "capturedAt": "2026-09-27T04:48:15.388Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-44%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/c7dcfe80f5d2da74.json",
+            "capturedAt": "2026-09-27T04:48:15.388Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-44%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/c7dcfe80f5d2da74.json",
+            "capturedAt": "2026-09-27T04:48:15.388Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-44%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/c7dcfe80f5d2da74.json",
+              "capturedAt": "2026-09-27T04:48:15.388Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "MZ-44",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "魔爪渐进"
+                },
+                {
+                  "slot": "X1",
+                  "name": "死亡真人秀"
+                },
+                {
+                  "slot": "X2",
+                  "name": "灭亡讴歌"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/4c238fab5bce1f14.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-44%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/c7dcfe80f5d2da74.json",
+          "capturedAt": "2026-09-27T04:48:15.388Z"
+        },
+        "wikiTitle": "MZ-44非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-44%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Midnight Zone",
+        "tags": [
+          "民间",
+          "Midnight Zone"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "4c238fab5bce1f14"
+  ],
+  "conflicts": []
+}

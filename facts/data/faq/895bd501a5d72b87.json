@@ -1,0 +1,60 @@
+{
+  "id": "895bd501a5d72b87",
+  "title": "學者為提線木偶並且帶有2種或以上的指示物。使用學者的友好能力後該怎麼操作？",
+  "kind": "faq",
+  "scope": "纸质 FAQ / AHR / Q13",
+  "aliases": [],
+  "fields": {
+    "question": "學者為提線木偶並且帶有2種或以上的指示物。使用學者的友好能力後該怎麼操作？",
+    "answer": "由於效果會把學者身上所有的指示物全部移除，在處理完友好能力後他沒有任何指示物，因此提線木偶的身份能力不產生任何效果。"
+  },
+  "provenance": {
+    "question": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+      "snapshot": "sources/paper-faq/another-horizon-revised.json",
+      "page": 16,
+      "questionNumber": 13
+    },
+    "answer": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+      "snapshot": "sources/paper-faq/another-horizon-revised.json",
+      "page": 16,
+      "questionNumber": 13
+    }
+  },
+  "sources": [
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+      "snapshot": "sources/paper-faq/another-horizon-revised.json",
+      "page": 16,
+      "questionNumber": 13
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+        "snapshot": "sources/paper-faq/another-horizon-revised.json",
+        "page": 16,
+        "questionNumber": 13
+      },
+      "fields": {
+        "question": "學者為提線木偶並且帶有2種或以上的指示物。使用學者的友好能力後該怎麼操作？",
+        "answer": "由於效果會把學者身上所有的指示物全部移除，在處理完友好能力後他沒有任何指示物，因此提線木偶的身份能力不產生任何效果。"
+      }
+    }
+  ],
+  "tags": [
+    "AHR",
+    "纸质 FAQ",
+    "身份",
+    "官方"
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+  "conflicts": []
+}

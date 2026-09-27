@@ -1,0 +1,538 @@
+{
+  "id": "d9ebf287bf57eac6",
+  "title": "MZ-51",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "MZ-51非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "MZ-51",
+    "loops": 4,
+    "days": 7,
+    "schedule": [
+      {
+        "day": 2,
+        "incidentText": "不安扩散"
+      },
+      {
+        "day": 3,
+        "incidentText": "连续杀人"
+      },
+      {
+        "day": 4,
+        "incidentText": "自杀"
+      },
+      {
+        "day": 5,
+        "incidentText": "医院事故"
+      },
+      {
+        "day": 6,
+        "incidentText": "连续杀人"
+      },
+      {
+        "day": 7,
+        "incidentText": "连续杀人"
+      }
+    ],
+    "剧本名": "复活的伟大存在",
+    "英文名": "The Greatness Reborn",
+    "作者": "Justin Karp",
+    "轮数": "4",
+    "天数": "7"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-51",
+      "snapshot": "sources/wiki/pages/31c7a02c6a709180.json",
+      "capturedAt": "2026-09-27T04:49:04.178Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-51",
+      "snapshot": "sources/wiki/pages/31c7a02c6a709180.json",
+      "capturedAt": "2026-09-27T04:49:04.178Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-51",
+      "snapshot": "sources/wiki/pages/31c7a02c6a709180.json",
+      "capturedAt": "2026-09-27T04:49:04.178Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-51",
+      "snapshot": "sources/wiki/pages/31c7a02c6a709180.json",
+      "capturedAt": "2026-09-27T04:49:04.178Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-51",
+      "snapshot": "sources/wiki/pages/31c7a02c6a709180.json",
+      "capturedAt": "2026-09-27T04:49:04.178Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 53
+    },
+    "英文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 53
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 53
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 53
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 53
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-51",
+      "snapshot": "sources/wiki/pages/31c7a02c6a709180.json",
+      "capturedAt": "2026-09-27T04:49:04.178Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 53
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-51%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/d81d675202baf3eb.json",
+      "capturedAt": "2026-09-27T04:49:07.109Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-51",
+        "snapshot": "sources/wiki/pages/31c7a02c6a709180.json",
+        "capturedAt": "2026-09-27T04:49:04.178Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "MZ-51",
+        "loops": 4,
+        "days": 7,
+        "schedule": [
+          {
+            "day": 2,
+            "incidentText": "不安扩散"
+          },
+          {
+            "day": 3,
+            "incidentText": "连续杀人"
+          },
+          {
+            "day": 4,
+            "incidentText": "自杀"
+          },
+          {
+            "day": 5,
+            "incidentText": "医院事故"
+          },
+          {
+            "day": 6,
+            "incidentText": "连续杀人"
+          },
+          {
+            "day": 7,
+            "incidentText": "连续杀人"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 3,
+        "row": 53
+      },
+      "fields": {
+        "scenarioCode": "MZ-51",
+        "剧本名": "复活的伟大存在",
+        "英文名": "The Greatness Reborn",
+        "作者": "Justin Karp",
+        "轮数": "4",
+        "天数": "7"
+      }
+    }
+  ],
+  "wikiTitle": "MZ-51",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Midnight Zone"
+  ],
+  "module": "Midnight Zone",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "d9ebf287bf57eac6",
+        "title": "MZ-51",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "MZ-51",
+          "loops": 4,
+          "days": 7,
+          "schedule": [
+            {
+              "day": 2,
+              "incidentText": "不安扩散"
+            },
+            {
+              "day": 3,
+              "incidentText": "连续杀人"
+            },
+            {
+              "day": 4,
+              "incidentText": "自杀"
+            },
+            {
+              "day": 5,
+              "incidentText": "医院事故"
+            },
+            {
+              "day": 6,
+              "incidentText": "连续杀人"
+            },
+            {
+              "day": 7,
+              "incidentText": "连续杀人"
+            }
+          ],
+          "剧本名": "复活的伟大存在",
+          "英文名": "The Greatness Reborn",
+          "作者": "Justin Karp",
+          "轮数": "4",
+          "天数": "7"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-51",
+            "snapshot": "sources/wiki/pages/31c7a02c6a709180.json",
+            "capturedAt": "2026-09-27T04:49:04.178Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-51",
+            "snapshot": "sources/wiki/pages/31c7a02c6a709180.json",
+            "capturedAt": "2026-09-27T04:49:04.178Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-51",
+            "snapshot": "sources/wiki/pages/31c7a02c6a709180.json",
+            "capturedAt": "2026-09-27T04:49:04.178Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-51",
+            "snapshot": "sources/wiki/pages/31c7a02c6a709180.json",
+            "capturedAt": "2026-09-27T04:49:04.178Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-51",
+            "snapshot": "sources/wiki/pages/31c7a02c6a709180.json",
+            "capturedAt": "2026-09-27T04:49:04.178Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 53
+          },
+          "英文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 53
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 53
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 53
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 53
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-51",
+            "snapshot": "sources/wiki/pages/31c7a02c6a709180.json",
+            "capturedAt": "2026-09-27T04:49:04.178Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 53
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-51",
+              "snapshot": "sources/wiki/pages/31c7a02c6a709180.json",
+              "capturedAt": "2026-09-27T04:49:04.178Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "MZ-51",
+              "loops": 4,
+              "days": 7,
+              "schedule": [
+                {
+                  "day": 2,
+                  "incidentText": "不安扩散"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "连续杀人"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "自杀"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "医院事故"
+                },
+                {
+                  "day": 6,
+                  "incidentText": "连续杀人"
+                },
+                {
+                  "day": 7,
+                  "incidentText": "连续杀人"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 3,
+              "row": 53
+            },
+            "fields": {
+              "scenarioCode": "MZ-51",
+              "剧本名": "复活的伟大存在",
+              "英文名": "The Greatness Reborn",
+              "作者": "Justin Karp",
+              "轮数": "4",
+              "天数": "7"
+            }
+          }
+        ],
+        "body": "text/scenarios/d9ebf287bf57eac6.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-51",
+          "snapshot": "sources/wiki/pages/31c7a02c6a709180.json",
+          "capturedAt": "2026-09-27T04:49:04.178Z"
+        },
+        "wikiTitle": "MZ-51",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "MZ-51非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-51%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-51?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Midnight Zone"
+        ],
+        "module": "Midnight Zone"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "94730043b7a63a44",
+        "title": "MZ-51非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "MZ-51",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "男子汉的战争"
+            },
+            {
+              "slot": "X1",
+              "name": "爱与恨的螺旋"
+            },
+            {
+              "slot": "X2",
+              "name": "心无灵犀"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-51%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/d81d675202baf3eb.json",
+            "capturedAt": "2026-09-27T04:49:07.109Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-51%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/d81d675202baf3eb.json",
+            "capturedAt": "2026-09-27T04:49:07.109Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-51%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/d81d675202baf3eb.json",
+            "capturedAt": "2026-09-27T04:49:07.109Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-51%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/d81d675202baf3eb.json",
+            "capturedAt": "2026-09-27T04:49:07.109Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-51%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/d81d675202baf3eb.json",
+              "capturedAt": "2026-09-27T04:49:07.109Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "MZ-51",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "男子汉的战争"
+                },
+                {
+                  "slot": "X1",
+                  "name": "爱与恨的螺旋"
+                },
+                {
+                  "slot": "X2",
+                  "name": "心无灵犀"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/94730043b7a63a44.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-51%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/d81d675202baf3eb.json",
+          "capturedAt": "2026-09-27T04:49:07.109Z"
+        },
+        "wikiTitle": "MZ-51非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-51%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Midnight Zone",
+        "tags": [
+          "民间",
+          "Midnight Zone"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "94730043b7a63a44"
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,410 @@
+{
+  "id": "9c30bb77b684299e",
+  "title": "WM-09",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "WM-09非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "WM-09",
+    "loops": "无限",
+    "days": 2,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "暴乱"
+      },
+      {
+        "day": 2,
+        "incidentText": "EX事件"
+      }
+    ],
+    "剧本名": "现实与神话的分界线",
+    "作者": "清尘",
+    "轮数": "n",
+    "天数": "2"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-09?oldid=1454",
+      "snapshot": "sources/wiki/pages/7dcc0d9b0f339e75.json",
+      "capturedAt": "2026-09-27T05:01:02.836Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-09?oldid=1454",
+      "snapshot": "sources/wiki/pages/7dcc0d9b0f339e75.json",
+      "capturedAt": "2026-09-27T05:01:02.836Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-09?oldid=1454",
+      "snapshot": "sources/wiki/pages/7dcc0d9b0f339e75.json",
+      "capturedAt": "2026-09-27T05:01:02.836Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-09?oldid=1454",
+      "snapshot": "sources/wiki/pages/7dcc0d9b0f339e75.json",
+      "capturedAt": "2026-09-27T05:01:02.836Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-09?oldid=1454",
+      "snapshot": "sources/wiki/pages/7dcc0d9b0f339e75.json",
+      "capturedAt": "2026-09-27T05:01:02.836Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 11
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 11
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 11
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 11
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-09?oldid=1454",
+      "snapshot": "sources/wiki/pages/7dcc0d9b0f339e75.json",
+      "capturedAt": "2026-09-27T05:01:02.836Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 11
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-09%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1884",
+      "snapshot": "sources/wiki/pages/6216f21cc5ae7d66.json",
+      "capturedAt": "2026-09-27T05:01:25.531Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-09?oldid=1454",
+        "snapshot": "sources/wiki/pages/7dcc0d9b0f339e75.json",
+        "capturedAt": "2026-09-27T05:01:02.836Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "WM-09",
+        "loops": "无限",
+        "days": 2,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "暴乱"
+          },
+          {
+            "day": 2,
+            "incidentText": "EX事件"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 6,
+        "row": 11
+      },
+      "fields": {
+        "scenarioCode": "WM-09",
+        "剧本名": "现实与神话的分界线",
+        "作者": "清尘",
+        "轮数": "n",
+        "天数": "2"
+      }
+    }
+  ],
+  "wikiTitle": "WM-09",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Weird Mythology"
+  ],
+  "module": "Weird Mythology",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "9c30bb77b684299e",
+        "title": "WM-09",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "WM-09",
+          "loops": "无限",
+          "days": 2,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "暴乱"
+            },
+            {
+              "day": 2,
+              "incidentText": "EX事件"
+            }
+          ],
+          "剧本名": "现实与神话的分界线",
+          "作者": "清尘",
+          "轮数": "n",
+          "天数": "2"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-09?oldid=1454",
+            "snapshot": "sources/wiki/pages/7dcc0d9b0f339e75.json",
+            "capturedAt": "2026-09-27T05:01:02.836Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-09?oldid=1454",
+            "snapshot": "sources/wiki/pages/7dcc0d9b0f339e75.json",
+            "capturedAt": "2026-09-27T05:01:02.836Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-09?oldid=1454",
+            "snapshot": "sources/wiki/pages/7dcc0d9b0f339e75.json",
+            "capturedAt": "2026-09-27T05:01:02.836Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-09?oldid=1454",
+            "snapshot": "sources/wiki/pages/7dcc0d9b0f339e75.json",
+            "capturedAt": "2026-09-27T05:01:02.836Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-09?oldid=1454",
+            "snapshot": "sources/wiki/pages/7dcc0d9b0f339e75.json",
+            "capturedAt": "2026-09-27T05:01:02.836Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 11
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 11
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 11
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 11
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-09?oldid=1454",
+            "snapshot": "sources/wiki/pages/7dcc0d9b0f339e75.json",
+            "capturedAt": "2026-09-27T05:01:02.836Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 11
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-09?oldid=1454",
+              "snapshot": "sources/wiki/pages/7dcc0d9b0f339e75.json",
+              "capturedAt": "2026-09-27T05:01:02.836Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "WM-09",
+              "loops": "无限",
+              "days": 2,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "暴乱"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "EX事件"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 6,
+              "row": 11
+            },
+            "fields": {
+              "scenarioCode": "WM-09",
+              "剧本名": "现实与神话的分界线",
+              "作者": "清尘",
+              "轮数": "n",
+              "天数": "2"
+            }
+          }
+        ],
+        "body": "text/scenarios/9c30bb77b684299e.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-09?oldid=1454",
+          "snapshot": "sources/wiki/pages/7dcc0d9b0f339e75.json",
+          "capturedAt": "2026-09-27T05:01:02.836Z"
+        },
+        "wikiTitle": "WM-09",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "WM-09非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-09%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-09?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Weird Mythology"
+        ],
+        "module": "Weird Mythology"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "be35f32fa97be8a9",
+        "title": "WM-09非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "WM-09"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-09%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1884",
+            "snapshot": "sources/wiki/pages/6216f21cc5ae7d66.json",
+            "capturedAt": "2026-09-27T05:01:25.531Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-09%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1884",
+            "snapshot": "sources/wiki/pages/6216f21cc5ae7d66.json",
+            "capturedAt": "2026-09-27T05:01:25.531Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-09%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1884",
+            "snapshot": "sources/wiki/pages/6216f21cc5ae7d66.json",
+            "capturedAt": "2026-09-27T05:01:25.531Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-09%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1884",
+              "snapshot": "sources/wiki/pages/6216f21cc5ae7d66.json",
+              "capturedAt": "2026-09-27T05:01:25.531Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "WM-09"
+            }
+          }
+        ],
+        "wikiTitle": "WM-09非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Weird Mythology",
+        "tags": [
+          "民间",
+          "Weird Mythology"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "be35f32fa97be8a9"
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,67 @@
+{
+  "id": "eb10675995c90dc1",
+  "title": "在现有禁止讨论规则下，感应咒文的友好如何放置？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / WM / 第 3 行",
+  "aliases": [],
+  "fields": {
+    "question": "在现有禁止讨论规则下，感应咒文的友好如何放置？",
+    "answer": "队长决定"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=ofqfdw",
+      "snapshot": "sources/faq-sheet/wm.json",
+      "sheet": "WM",
+      "row": 3,
+      "cells": "A3:B3",
+      "capturedAt": "2026-09-27T05:40:23.278Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=ofqfdw",
+      "snapshot": "sources/faq-sheet/wm.json",
+      "sheet": "WM",
+      "row": 3,
+      "cells": "A3:B3",
+      "capturedAt": "2026-09-27T05:40:23.278Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=ofqfdw",
+      "snapshot": "sources/faq-sheet/wm.json",
+      "sheet": "WM",
+      "row": 3,
+      "cells": "A3:B3",
+      "capturedAt": "2026-09-27T05:40:23.278Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=ofqfdw",
+        "snapshot": "sources/faq-sheet/wm.json",
+        "sheet": "WM",
+        "row": 3,
+        "cells": "A3:B3",
+        "capturedAt": "2026-09-27T05:40:23.278Z"
+      },
+      "fields": {
+        "question": "在现有禁止讨论规则下，感应咒文的友好如何放置？",
+        "answer": "队长决定"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "WM",
+    "关于EX槽",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

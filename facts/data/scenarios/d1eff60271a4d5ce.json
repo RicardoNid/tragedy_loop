@@ -1,0 +1,494 @@
+{
+  "id": "d1eff60271a4d5ce",
+  "title": "FS-11",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "FS-11非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "FS-11",
+    "loops": 4,
+    "days": 4,
+    "schedule": [
+      {
+        "day": 2,
+        "incidentText": "散播"
+      },
+      {
+        "day": 3,
+        "incidentText": "谋杀"
+      },
+      {
+        "day": 4,
+        "incidentText": "医院事故"
+      }
+    ],
+    "剧本名": "颓废的叛乱",
+    "英文名": "A Decadent Rebellion",
+    "作者": "CipherCybr",
+    "轮数": "4",
+    "天数": "4"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-11",
+      "snapshot": "sources/wiki/pages/f3736219621dc629.json",
+      "capturedAt": "2026-09-27T04:24:38.868Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-11",
+      "snapshot": "sources/wiki/pages/f3736219621dc629.json",
+      "capturedAt": "2026-09-27T04:24:38.868Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-11",
+      "snapshot": "sources/wiki/pages/f3736219621dc629.json",
+      "capturedAt": "2026-09-27T04:24:38.868Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-11",
+      "snapshot": "sources/wiki/pages/f3736219621dc629.json",
+      "capturedAt": "2026-09-27T04:24:38.868Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-11",
+      "snapshot": "sources/wiki/pages/f3736219621dc629.json",
+      "capturedAt": "2026-09-27T04:24:38.868Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 12
+    },
+    "英文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 12
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 12
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 12
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 12
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-11",
+      "snapshot": "sources/wiki/pages/f3736219621dc629.json",
+      "capturedAt": "2026-09-27T04:24:38.868Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 12
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/8e939ff52d7e2706.json",
+      "capturedAt": "2026-09-27T04:24:41.857Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-11",
+        "snapshot": "sources/wiki/pages/f3736219621dc629.json",
+        "capturedAt": "2026-09-27T04:24:38.868Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "FS-11",
+        "loops": 4,
+        "days": 4,
+        "schedule": [
+          {
+            "day": 2,
+            "incidentText": "散播"
+          },
+          {
+            "day": 3,
+            "incidentText": "谋杀"
+          },
+          {
+            "day": 4,
+            "incidentText": "医院事故"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 1,
+        "row": 12
+      },
+      "fields": {
+        "scenarioCode": "FS-11",
+        "剧本名": "颓废的叛乱",
+        "英文名": "A Decadent Rebellion",
+        "作者": "CipherCybr",
+        "轮数": "4",
+        "天数": "4"
+      }
+    }
+  ],
+  "wikiTitle": "FS-11",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "First Steps"
+  ],
+  "module": "First Steps",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "d1eff60271a4d5ce",
+        "title": "FS-11",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "FS-11",
+          "loops": 4,
+          "days": 4,
+          "schedule": [
+            {
+              "day": 2,
+              "incidentText": "散播"
+            },
+            {
+              "day": 3,
+              "incidentText": "谋杀"
+            },
+            {
+              "day": 4,
+              "incidentText": "医院事故"
+            }
+          ],
+          "剧本名": "颓废的叛乱",
+          "英文名": "A Decadent Rebellion",
+          "作者": "CipherCybr",
+          "轮数": "4",
+          "天数": "4"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-11",
+            "snapshot": "sources/wiki/pages/f3736219621dc629.json",
+            "capturedAt": "2026-09-27T04:24:38.868Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-11",
+            "snapshot": "sources/wiki/pages/f3736219621dc629.json",
+            "capturedAt": "2026-09-27T04:24:38.868Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-11",
+            "snapshot": "sources/wiki/pages/f3736219621dc629.json",
+            "capturedAt": "2026-09-27T04:24:38.868Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-11",
+            "snapshot": "sources/wiki/pages/f3736219621dc629.json",
+            "capturedAt": "2026-09-27T04:24:38.868Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-11",
+            "snapshot": "sources/wiki/pages/f3736219621dc629.json",
+            "capturedAt": "2026-09-27T04:24:38.868Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 12
+          },
+          "英文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 12
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 12
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 12
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 12
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-11",
+            "snapshot": "sources/wiki/pages/f3736219621dc629.json",
+            "capturedAt": "2026-09-27T04:24:38.868Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 12
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-11",
+              "snapshot": "sources/wiki/pages/f3736219621dc629.json",
+              "capturedAt": "2026-09-27T04:24:38.868Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "FS-11",
+              "loops": 4,
+              "days": 4,
+              "schedule": [
+                {
+                  "day": 2,
+                  "incidentText": "散播"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "谋杀"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "医院事故"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 1,
+              "row": 12
+            },
+            "fields": {
+              "scenarioCode": "FS-11",
+              "剧本名": "颓废的叛乱",
+              "英文名": "A Decadent Rebellion",
+              "作者": "CipherCybr",
+              "轮数": "4",
+              "天数": "4"
+            }
+          }
+        ],
+        "body": "text/scenarios/d1eff60271a4d5ce.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-11",
+          "snapshot": "sources/wiki/pages/f3736219621dc629.json",
+          "capturedAt": "2026-09-27T04:24:38.868Z"
+        },
+        "wikiTitle": "FS-11",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-11?action=edit&section=1"
+          },
+          {
+            "title": "FS-11非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-11?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "First Steps"
+        ],
+        "module": "First Steps"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "51b64d6c64ccc646",
+        "title": "FS-11非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "FS-11",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "谋杀计划"
+            },
+            {
+              "slot": "X1",
+              "name": "最黑暗的剧本"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/8e939ff52d7e2706.json",
+            "capturedAt": "2026-09-27T04:24:41.857Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/8e939ff52d7e2706.json",
+            "capturedAt": "2026-09-27T04:24:41.857Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/8e939ff52d7e2706.json",
+            "capturedAt": "2026-09-27T04:24:41.857Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/8e939ff52d7e2706.json",
+            "capturedAt": "2026-09-27T04:24:41.857Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/8e939ff52d7e2706.json",
+              "capturedAt": "2026-09-27T04:24:41.857Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "FS-11",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "谋杀计划"
+                },
+                {
+                  "slot": "X1",
+                  "name": "最黑暗的剧本"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/51b64d6c64ccc646.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/8e939ff52d7e2706.json",
+          "capturedAt": "2026-09-27T04:24:41.857Z"
+        },
+        "wikiTitle": "FS-11非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=3"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "First Steps",
+        "tags": [
+          "民间",
+          "First Steps"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "51b64d6c64ccc646"
+  ],
+  "conflicts": []
+}

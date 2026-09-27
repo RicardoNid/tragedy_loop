@@ -1,0 +1,149 @@
+{
+  "id": "8ff617a0561ece90",
+  "title": "流言四起",
+  "kind": "rules",
+  "scope": "First Steps",
+  "aliases": [],
+  "fields": {
+    "ruleType": "X",
+    "identityCounts": {
+      "传谣人": "①"
+    },
+    "effect": "【任意能力：剧作家能力阶段】往任意1块版图上放置1枚[密谋]（每轮限1次）"
+  },
+  "provenance": {
+    "ruleType": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/First_Steps",
+      "snapshot": "sources/wiki/pages/7bcd897f011ed91f.json",
+      "capturedAt": "2026-09-27T03:29:36.530Z"
+    },
+    "identityCounts": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/First_Steps",
+      "snapshot": "sources/wiki/pages/7bcd897f011ed91f.json",
+      "capturedAt": "2026-09-27T03:29:36.530Z"
+    },
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/First_Steps",
+      "snapshot": "sources/wiki/pages/7bcd897f011ed91f.json",
+      "capturedAt": "2026-09-27T03:29:36.530Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/First_Steps",
+      "snapshot": "sources/wiki/pages/7bcd897f011ed91f.json",
+      "capturedAt": "2026-09-27T03:29:36.530Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    },
+    {
+      "provider": "ricardo",
+      "path": "working/ricardo/modules/first-steps.json",
+      "status": "draft_needs_human_review"
+    },
+    {
+      "provider": "ricardo",
+      "path": "sources/ricardo/reference/module/modules/first-steps.md",
+      "status": "draft_needs_human_review"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/First_Steps",
+        "snapshot": "sources/wiki/pages/7bcd897f011ed91f.json",
+        "capturedAt": "2026-09-27T03:29:36.530Z"
+      },
+      "fields": {
+        "ruleType": "X",
+        "identityCounts": {
+          "传谣人": "①"
+        },
+        "effect": "【任意能力：剧作家能力阶段】往任意1块版图上放置1枚[密谋]（每轮限1次）"
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "ruleType": "X",
+        "identityCounts": {
+          "传谣人": "1"
+        },
+        "effect": "【任意能力：剧作家能力阶段】往任意1块版图上放置1枚[密谋]（每轮限1次）"
+      }
+    },
+    {
+      "source": {
+        "provider": "ricardo",
+        "path": "working/ricardo/modules/first-steps.json",
+        "status": "draft_needs_human_review"
+      },
+      "fields": {
+        "ruleType": "X",
+        "effect": "剧作家能力阶段，可往任意 1 块版图上放置 1 枚密谋，每轮限 1 次。"
+      }
+    },
+    {
+      "source": {
+        "provider": "ricardo",
+        "path": "sources/ricardo/reference/module/modules/first-steps.md",
+        "status": "draft_needs_human_review"
+      },
+      "fields": {
+        "ruleType": "X",
+        "effect": "剧作家能力阶段，可往任意 1 块版图上放置 1 枚密谋，每轮限 1 次。"
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "X",
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "identityCounts",
+      "selected": {
+        "传谣人": "①"
+      },
+      "candidate": {
+        "传谣人": "1"
+      },
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "effect",
+      "selected": "【任意能力：剧作家能力阶段】往任意1块版图上放置1枚[密谋]（每轮限1次）",
+      "candidate": "剧作家能力阶段，可往任意 1 块版图上放置 1 枚密谋，每轮限 1 次。",
+      "source": {
+        "provider": "ricardo",
+        "path": "working/ricardo/modules/first-steps.json",
+        "status": "draft_needs_human_review"
+      }
+    },
+    {
+      "field": "effect",
+      "selected": "【任意能力：剧作家能力阶段】往任意1块版图上放置1枚[密谋]（每轮限1次）",
+      "candidate": "剧作家能力阶段，可往任意 1 块版图上放置 1 枚密谋，每轮限 1 次。",
+      "source": {
+        "provider": "ricardo",
+        "path": "sources/ricardo/reference/module/modules/first-steps.md",
+        "status": "draft_needs_human_review"
+      }
+    }
+  ]
+}

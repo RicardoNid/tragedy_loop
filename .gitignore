@@ -15,6 +15,9 @@ test-results/
 
 # Local archive of environments, source clones and previous run evidence
 /archive/local-only/
+/.sources/
+/.local-imports/
+/runtime/
 
 # Local credentials and machine files
 .env
@@ -22,35 +25,41 @@ test-results/
 !.env.example
 .DS_Store
 
-# Preserve pre-existing source-material ignore rules
-*.pdf
-facts/source_material/scans/*
-!facts/source_material/scans/.gitkeep
-facts/source_material/**/*.png
-facts/source_material/**/*.jpg
-facts/source_material/**/*.jpeg
-facts/source_material/**/*.webp
-facts/source_material/**/*.tif
-facts/source_material/**/*.tiff
-
-# Local runtime and import directories
-runtime/
-.sources/
-.local-imports/
-*$py.class
-
-# Local caches, logs and scratch files (keep source HTML and lockfiles tracked)
+# Tool caches and local test output
 .pnpm-store/
 .vite/
-.cache/
-/tmp/
-/logs/
-*.log
+.mypy_cache/
+.tox/
+.nox/
+.hypothesis/
 .coverage
 .coverage.*
 htmlcov/
-.hypothesis/
+*.log
+*.pid
+*.pid.lock
+
+# Private browser state and credentials (never needed by the static reader)
+.auth/
+playwright/.auth/
+cookies.txt
+cookies.json
+storage-state.json
+storageState.json
+*.pem
+*.key
+
+# Editor and OS temporary files
 *.swp
 *.swo
 *~
 Thumbs.db
+
+# facts/{assets,data,text,media,sources} are deliverables: commit them normally.
+# Do not ignore images by extension or provider; no Git LFS is needed currently.
+
+# Additional local scratch files (keep design HTML and lockfiles tracked)
+.cache/
+/tmp/
+/logs/
+*$py.class

@@ -1,0 +1,65 @@
+{
+  "id": "da173939f534e725",
+  "title": "僵尸",
+  "kind": "identities",
+  "scope": "Haunted Stage",
+  "aliases": [],
+  "fields": {
+    "max": "",
+    "traits": "必定无视友好\n\n死后活性",
+    "abilities": [
+      "【任意能力：回合结束阶段】某块版图[僵尸]数量大于等于角色数量→往位于该版图的1名角色身上放置1枚[密谋]，并且让那名角色死亡。如果成功让那名角色变为死亡状态，Ex槽上升1（所有僵尸合计，每天限1次）"
+    ]
+  },
+  "provenance": {
+    "max": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage",
+      "snapshot": "sources/wiki/pages/2c5d6075f60e6bd8.json",
+      "capturedAt": "2026-09-27T03:29:39.254Z"
+    },
+    "traits": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage",
+      "snapshot": "sources/wiki/pages/2c5d6075f60e6bd8.json",
+      "capturedAt": "2026-09-27T03:29:39.254Z"
+    },
+    "abilities": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage",
+      "snapshot": "sources/wiki/pages/2c5d6075f60e6bd8.json",
+      "capturedAt": "2026-09-27T03:29:39.254Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage",
+      "snapshot": "sources/wiki/pages/2c5d6075f60e6bd8.json",
+      "capturedAt": "2026-09-27T03:29:39.254Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage",
+        "snapshot": "sources/wiki/pages/2c5d6075f60e6bd8.json",
+        "capturedAt": "2026-09-27T03:29:39.254Z"
+      },
+      "fields": {
+        "max": "",
+        "traits": "必定无视友好\n\n死后活性",
+        "abilities": [
+          "【任意能力：回合结束阶段】某块版图[僵尸]数量大于等于角色数量→往位于该版图的1名角色身上放置1枚[密谋]，并且让那名角色死亡。如果成功让那名角色变为死亡状态，Ex槽上升1（所有僵尸合计，每天限1次）"
+        ]
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "官方"
+  ],
+  "conflicts": []
+}

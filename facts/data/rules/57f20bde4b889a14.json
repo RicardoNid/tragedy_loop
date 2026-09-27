@@ -1,0 +1,74 @@
+{
+  "id": "57f20bde4b889a14",
+  "title": "污点证人",
+  "kind": "rules",
+  "scope": "Sin City",
+  "aliases": [],
+  "fields": {
+    "ruleType": "X",
+    "identityCounts": {
+      "爆破狂": "①",
+      "绑架犯": "①",
+      "教唆犯": "①",
+      "愉快犯": "①",
+      "目击证人": "①"
+    },
+    "effect": "【强制：剧本制作时】从该规则追加的5种身份中选择1种，除目击证人外，未被选择的身份在本规则中的追加数量变为0\n\n【强制：剧本制作时】必须引入1个或以上的司法交易或逼供事件"
+  },
+  "provenance": {
+    "ruleType": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Sin_City",
+      "snapshot": "sources/wiki/pages/59c6099598cb6333.json",
+      "capturedAt": "2026-09-27T03:30:03.250Z"
+    },
+    "identityCounts": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Sin_City",
+      "snapshot": "sources/wiki/pages/59c6099598cb6333.json",
+      "capturedAt": "2026-09-27T03:30:03.250Z"
+    },
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Sin_City",
+      "snapshot": "sources/wiki/pages/59c6099598cb6333.json",
+      "capturedAt": "2026-09-27T03:30:03.250Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Sin_City",
+      "snapshot": "sources/wiki/pages/59c6099598cb6333.json",
+      "capturedAt": "2026-09-27T03:30:03.250Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Sin_City",
+        "snapshot": "sources/wiki/pages/59c6099598cb6333.json",
+        "capturedAt": "2026-09-27T03:30:03.250Z"
+      },
+      "fields": {
+        "ruleType": "X",
+        "identityCounts": {
+          "爆破狂": "①",
+          "绑架犯": "①",
+          "教唆犯": "①",
+          "愉快犯": "①",
+          "目击证人": "①"
+        },
+        "effect": "【强制：剧本制作时】从该规则追加的5种身份中选择1种，除目击证人外，未被选择的身份在本规则中的追加数量变为0\n\n【强制：剧本制作时】必须引入1个或以上的司法交易或逼供事件"
+      }
+    }
+  ],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "X",
+    "民间"
+  ],
+  "conflicts": []
+}

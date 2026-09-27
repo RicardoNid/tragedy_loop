@@ -1,0 +1,552 @@
+{
+  "id": "439139fdfa9b1271",
+  "title": "MZ-12",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "MZ-12非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "MZ-12",
+    "loops": 4,
+    "days": 8,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "自杀"
+      },
+      {
+        "day": 2,
+        "incidentText": "破局"
+      },
+      {
+        "day": 3,
+        "incidentText": "阴谋活动"
+      },
+      {
+        "day": 4,
+        "incidentText": "自白"
+      },
+      {
+        "day": 5,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 6,
+        "incidentText": "破局"
+      },
+      {
+        "day": 7,
+        "incidentText": "阴谋活动"
+      },
+      {
+        "day": 8,
+        "incidentText": "自白"
+      }
+    ],
+    "剧本名": "既视感",
+    "作者": "chewonki",
+    "轮数": "4",
+    "天数": "8"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-12",
+      "snapshot": "sources/wiki/pages/57ea19f5676d25bf.json",
+      "capturedAt": "2026-09-27T04:43:58.493Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-12",
+      "snapshot": "sources/wiki/pages/57ea19f5676d25bf.json",
+      "capturedAt": "2026-09-27T04:43:58.493Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-12",
+      "snapshot": "sources/wiki/pages/57ea19f5676d25bf.json",
+      "capturedAt": "2026-09-27T04:43:58.493Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-12",
+      "snapshot": "sources/wiki/pages/57ea19f5676d25bf.json",
+      "capturedAt": "2026-09-27T04:43:58.493Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-12",
+      "snapshot": "sources/wiki/pages/57ea19f5676d25bf.json",
+      "capturedAt": "2026-09-27T04:43:58.493Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 13
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 13
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 13
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 13
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-12",
+      "snapshot": "sources/wiki/pages/57ea19f5676d25bf.json",
+      "capturedAt": "2026-09-27T04:43:58.493Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 13
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/01d17cc98aa9530f.json",
+      "capturedAt": "2026-09-27T04:44:01.506Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-12",
+        "snapshot": "sources/wiki/pages/57ea19f5676d25bf.json",
+        "capturedAt": "2026-09-27T04:43:58.493Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "MZ-12",
+        "loops": 4,
+        "days": 8,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "自杀"
+          },
+          {
+            "day": 2,
+            "incidentText": "破局"
+          },
+          {
+            "day": 3,
+            "incidentText": "阴谋活动"
+          },
+          {
+            "day": 4,
+            "incidentText": "自白"
+          },
+          {
+            "day": 5,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 6,
+            "incidentText": "破局"
+          },
+          {
+            "day": 7,
+            "incidentText": "阴谋活动"
+          },
+          {
+            "day": 8,
+            "incidentText": "自白"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 3,
+        "row": 13
+      },
+      "fields": {
+        "scenarioCode": "MZ-12",
+        "剧本名": "既视感",
+        "作者": "chewonki",
+        "轮数": "4",
+        "天数": "8"
+      }
+    }
+  ],
+  "wikiTitle": "MZ-12",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Midnight Zone"
+  ],
+  "module": "Midnight Zone",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "439139fdfa9b1271",
+        "title": "MZ-12",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "MZ-12",
+          "loops": 4,
+          "days": 8,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "自杀"
+            },
+            {
+              "day": 2,
+              "incidentText": "破局"
+            },
+            {
+              "day": 3,
+              "incidentText": "阴谋活动"
+            },
+            {
+              "day": 4,
+              "incidentText": "自白"
+            },
+            {
+              "day": 5,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 6,
+              "incidentText": "破局"
+            },
+            {
+              "day": 7,
+              "incidentText": "阴谋活动"
+            },
+            {
+              "day": 8,
+              "incidentText": "自白"
+            }
+          ],
+          "剧本名": "既视感",
+          "作者": "chewonki",
+          "轮数": "4",
+          "天数": "8"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-12",
+            "snapshot": "sources/wiki/pages/57ea19f5676d25bf.json",
+            "capturedAt": "2026-09-27T04:43:58.493Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-12",
+            "snapshot": "sources/wiki/pages/57ea19f5676d25bf.json",
+            "capturedAt": "2026-09-27T04:43:58.493Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-12",
+            "snapshot": "sources/wiki/pages/57ea19f5676d25bf.json",
+            "capturedAt": "2026-09-27T04:43:58.493Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-12",
+            "snapshot": "sources/wiki/pages/57ea19f5676d25bf.json",
+            "capturedAt": "2026-09-27T04:43:58.493Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-12",
+            "snapshot": "sources/wiki/pages/57ea19f5676d25bf.json",
+            "capturedAt": "2026-09-27T04:43:58.493Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 13
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 13
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 13
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 13
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-12",
+            "snapshot": "sources/wiki/pages/57ea19f5676d25bf.json",
+            "capturedAt": "2026-09-27T04:43:58.493Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 13
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-12",
+              "snapshot": "sources/wiki/pages/57ea19f5676d25bf.json",
+              "capturedAt": "2026-09-27T04:43:58.493Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "MZ-12",
+              "loops": 4,
+              "days": 8,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "自杀"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "破局"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "阴谋活动"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "自白"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 6,
+                  "incidentText": "破局"
+                },
+                {
+                  "day": 7,
+                  "incidentText": "阴谋活动"
+                },
+                {
+                  "day": 8,
+                  "incidentText": "自白"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 3,
+              "row": 13
+            },
+            "fields": {
+              "scenarioCode": "MZ-12",
+              "剧本名": "既视感",
+              "作者": "chewonki",
+              "轮数": "4",
+              "天数": "8"
+            }
+          }
+        ],
+        "body": "text/scenarios/439139fdfa9b1271.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-12",
+          "snapshot": "sources/wiki/pages/57ea19f5676d25bf.json",
+          "capturedAt": "2026-09-27T04:43:58.493Z"
+        },
+        "wikiTitle": "MZ-12",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "MZ-12非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-12?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Midnight Zone"
+        ],
+        "module": "Midnight Zone"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "889fc9cc37720c8a",
+        "title": "MZ-12非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "MZ-12",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "绝密报告"
+            },
+            {
+              "slot": "X1",
+              "name": "心无灵犀"
+            },
+            {
+              "slot": "X2",
+              "name": "灭亡讴歌"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/01d17cc98aa9530f.json",
+            "capturedAt": "2026-09-27T04:44:01.506Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/01d17cc98aa9530f.json",
+            "capturedAt": "2026-09-27T04:44:01.506Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/01d17cc98aa9530f.json",
+            "capturedAt": "2026-09-27T04:44:01.506Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/01d17cc98aa9530f.json",
+            "capturedAt": "2026-09-27T04:44:01.506Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/01d17cc98aa9530f.json",
+              "capturedAt": "2026-09-27T04:44:01.506Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "MZ-12",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "绝密报告"
+                },
+                {
+                  "slot": "X1",
+                  "name": "心无灵犀"
+                },
+                {
+                  "slot": "X2",
+                  "name": "灭亡讴歌"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/889fc9cc37720c8a.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/01d17cc98aa9530f.json",
+          "capturedAt": "2026-09-27T04:44:01.506Z"
+        },
+        "wikiTitle": "MZ-12非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Midnight Zone",
+        "tags": [
+          "民间",
+          "Midnight Zone"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "889fc9cc37720c8a"
+  ],
+  "conflicts": []
+}

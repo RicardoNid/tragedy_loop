@@ -1,0 +1,111 @@
+{
+  "id": "3688324f10c26273",
+  "title": "叛逆的世界",
+  "kind": "rules",
+  "scope": "Last Liar",
+  "aliases": [],
+  "fields": {
+    "ruleType": "Y",
+    "identityCounts": {
+      "关键人物": "①",
+      "因果残片": "①"
+    },
+    "effect": "【强制：剧本制作时】关键人物和因果残片必须有少女属性\n【失败条件：轮回结束时】关键人物有2枚或以上[密谋]"
+  },
+  "provenance": {
+    "ruleType": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Last_Liar",
+      "snapshot": "sources/wiki/pages/844cae1ed2f5e214.json",
+      "capturedAt": "2026-09-27T03:29:44.914Z"
+    },
+    "identityCounts": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Last_Liar",
+      "snapshot": "sources/wiki/pages/844cae1ed2f5e214.json",
+      "capturedAt": "2026-09-27T03:29:44.914Z"
+    },
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Last_Liar",
+      "snapshot": "sources/wiki/pages/844cae1ed2f5e214.json",
+      "capturedAt": "2026-09-27T03:29:44.914Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Last_Liar",
+      "snapshot": "sources/wiki/pages/844cae1ed2f5e214.json",
+      "capturedAt": "2026-09-27T03:29:44.914Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Last_Liar",
+        "snapshot": "sources/wiki/pages/844cae1ed2f5e214.json",
+        "capturedAt": "2026-09-27T03:29:44.914Z"
+      },
+      "fields": {
+        "ruleType": "Y",
+        "identityCounts": {
+          "关键人物": "①",
+          "因果残片": "①"
+        },
+        "effect": "【强制：剧本制作时】关键人物和因果残片必须有少女属性\n【失败条件：轮回结束时】关键人物有2枚或以上[密谋]"
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "ruleType": "Y",
+        "identityCounts": {
+          "关键人物": "1",
+          "因果残片": "1"
+        },
+        "effect": "【强制：剧本制作时】关键人物和因果残片必须有少女属性；【失败条件：轮回结束时】关键人物有2枚或以上[密谋]"
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "Y",
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "identityCounts",
+      "selected": {
+        "关键人物": "①",
+        "因果残片": "①"
+      },
+      "candidate": {
+        "关键人物": "1",
+        "因果残片": "1"
+      },
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "effect",
+      "selected": "【强制：剧本制作时】关键人物和因果残片必须有少女属性\n【失败条件：轮回结束时】关键人物有2枚或以上[密谋]",
+      "candidate": "【强制：剧本制作时】关键人物和因果残片必须有少女属性；【失败条件：轮回结束时】关键人物有2枚或以上[密谋]",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    }
+  ]
+}

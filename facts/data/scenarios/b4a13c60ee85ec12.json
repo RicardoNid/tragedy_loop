@@ -1,0 +1,540 @@
+{
+  "id": "b4a13c60ee85ec12",
+  "title": "MZ-33",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "MZ-33非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "MZ-33",
+    "loops": 5,
+    "days": 7,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "自杀"
+      },
+      {
+        "day": 2,
+        "incidentText": "自白"
+      },
+      {
+        "day": 3,
+        "incidentText": "自杀"
+      },
+      {
+        "day": 4,
+        "incidentText": "医院事故"
+      },
+      {
+        "day": 5,
+        "incidentText": "自白"
+      },
+      {
+        "day": 6,
+        "incidentText": "自白"
+      },
+      {
+        "day": 7,
+        "incidentText": "自杀"
+      }
+    ],
+    "剧本名": "疯狂疗愈计划！",
+    "作者": "海象妈妈",
+    "轮数": "5",
+    "天数": "7"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-33",
+      "snapshot": "sources/wiki/pages/2830c3981e8e49df.json",
+      "capturedAt": "2026-09-27T04:46:44.534Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-33",
+      "snapshot": "sources/wiki/pages/2830c3981e8e49df.json",
+      "capturedAt": "2026-09-27T04:46:44.534Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-33",
+      "snapshot": "sources/wiki/pages/2830c3981e8e49df.json",
+      "capturedAt": "2026-09-27T04:46:44.534Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-33",
+      "snapshot": "sources/wiki/pages/2830c3981e8e49df.json",
+      "capturedAt": "2026-09-27T04:46:44.534Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-33",
+      "snapshot": "sources/wiki/pages/2830c3981e8e49df.json",
+      "capturedAt": "2026-09-27T04:46:44.534Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 35
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 35
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 35
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 35
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-33",
+      "snapshot": "sources/wiki/pages/2830c3981e8e49df.json",
+      "capturedAt": "2026-09-27T04:46:44.534Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 35
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-33%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/d867d228ce941d03.json",
+      "capturedAt": "2026-09-27T04:46:47.555Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-33",
+        "snapshot": "sources/wiki/pages/2830c3981e8e49df.json",
+        "capturedAt": "2026-09-27T04:46:44.534Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "MZ-33",
+        "loops": 5,
+        "days": 7,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "自杀"
+          },
+          {
+            "day": 2,
+            "incidentText": "自白"
+          },
+          {
+            "day": 3,
+            "incidentText": "自杀"
+          },
+          {
+            "day": 4,
+            "incidentText": "医院事故"
+          },
+          {
+            "day": 5,
+            "incidentText": "自白"
+          },
+          {
+            "day": 6,
+            "incidentText": "自白"
+          },
+          {
+            "day": 7,
+            "incidentText": "自杀"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 3,
+        "row": 35
+      },
+      "fields": {
+        "scenarioCode": "MZ-33",
+        "剧本名": "疯狂疗愈计划！",
+        "作者": "海象妈妈",
+        "轮数": "5",
+        "天数": "7"
+      }
+    }
+  ],
+  "wikiTitle": "MZ-33",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Midnight Zone"
+  ],
+  "module": "Midnight Zone",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "b4a13c60ee85ec12",
+        "title": "MZ-33",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "MZ-33",
+          "loops": 5,
+          "days": 7,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "自杀"
+            },
+            {
+              "day": 2,
+              "incidentText": "自白"
+            },
+            {
+              "day": 3,
+              "incidentText": "自杀"
+            },
+            {
+              "day": 4,
+              "incidentText": "医院事故"
+            },
+            {
+              "day": 5,
+              "incidentText": "自白"
+            },
+            {
+              "day": 6,
+              "incidentText": "自白"
+            },
+            {
+              "day": 7,
+              "incidentText": "自杀"
+            }
+          ],
+          "剧本名": "疯狂疗愈计划！",
+          "作者": "海象妈妈",
+          "轮数": "5",
+          "天数": "7"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-33",
+            "snapshot": "sources/wiki/pages/2830c3981e8e49df.json",
+            "capturedAt": "2026-09-27T04:46:44.534Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-33",
+            "snapshot": "sources/wiki/pages/2830c3981e8e49df.json",
+            "capturedAt": "2026-09-27T04:46:44.534Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-33",
+            "snapshot": "sources/wiki/pages/2830c3981e8e49df.json",
+            "capturedAt": "2026-09-27T04:46:44.534Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-33",
+            "snapshot": "sources/wiki/pages/2830c3981e8e49df.json",
+            "capturedAt": "2026-09-27T04:46:44.534Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-33",
+            "snapshot": "sources/wiki/pages/2830c3981e8e49df.json",
+            "capturedAt": "2026-09-27T04:46:44.534Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 35
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 35
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 35
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 35
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-33",
+            "snapshot": "sources/wiki/pages/2830c3981e8e49df.json",
+            "capturedAt": "2026-09-27T04:46:44.534Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 35
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-33",
+              "snapshot": "sources/wiki/pages/2830c3981e8e49df.json",
+              "capturedAt": "2026-09-27T04:46:44.534Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "MZ-33",
+              "loops": 5,
+              "days": 7,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "自杀"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "自白"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "自杀"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "医院事故"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "自白"
+                },
+                {
+                  "day": 6,
+                  "incidentText": "自白"
+                },
+                {
+                  "day": 7,
+                  "incidentText": "自杀"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 3,
+              "row": 35
+            },
+            "fields": {
+              "scenarioCode": "MZ-33",
+              "剧本名": "疯狂疗愈计划！",
+              "作者": "海象妈妈",
+              "轮数": "5",
+              "天数": "7"
+            }
+          }
+        ],
+        "body": "text/scenarios/b4a13c60ee85ec12.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-33",
+          "snapshot": "sources/wiki/pages/2830c3981e8e49df.json",
+          "capturedAt": "2026-09-27T04:46:44.534Z"
+        },
+        "wikiTitle": "MZ-33",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-33?action=edit&section=1"
+          },
+          {
+            "title": "MZ-33非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-33%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-33?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Midnight Zone"
+        ],
+        "module": "Midnight Zone"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "780e0609fe62a672",
+        "title": "MZ-33非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "MZ-33",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "绝密报告"
+            },
+            {
+              "slot": "X1",
+              "name": "灭亡讴歌"
+            },
+            {
+              "slot": "X2",
+              "name": "KAI异因子"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-33%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/d867d228ce941d03.json",
+            "capturedAt": "2026-09-27T04:46:47.555Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-33%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/d867d228ce941d03.json",
+            "capturedAt": "2026-09-27T04:46:47.555Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-33%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/d867d228ce941d03.json",
+            "capturedAt": "2026-09-27T04:46:47.555Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-33%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/d867d228ce941d03.json",
+            "capturedAt": "2026-09-27T04:46:47.555Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-33%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/d867d228ce941d03.json",
+              "capturedAt": "2026-09-27T04:46:47.555Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "MZ-33",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "绝密报告"
+                },
+                {
+                  "slot": "X1",
+                  "name": "灭亡讴歌"
+                },
+                {
+                  "slot": "X2",
+                  "name": "KAI异因子"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/780e0609fe62a672.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-33%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/d867d228ce941d03.json",
+          "capturedAt": "2026-09-27T04:46:47.555Z"
+        },
+        "wikiTitle": "MZ-33非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-33%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Midnight Zone",
+        "tags": [
+          "民间",
+          "Midnight Zone"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "780e0609fe62a672"
+  ],
+  "conflicts": []
+}

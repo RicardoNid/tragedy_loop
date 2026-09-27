@@ -1,0 +1,107 @@
+{
+  "id": "3be1e81e541b5b1b",
+  "title": "绝密报告",
+  "kind": "rules",
+  "scope": "Midnight Zone",
+  "aliases": [],
+  "fields": {
+    "ruleType": "Y",
+    "identityCounts": {
+      "关键人物": "①",
+      "主谋": "①",
+      "传谣人": "①"
+    },
+    "effect": "【失败条件：轮回结束时】本轮轮回中公开过主谋、不安定因子或魔术师中任意身份的名称"
+  },
+  "provenance": {
+    "ruleType": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Midnight_Zone",
+      "snapshot": "sources/wiki/pages/8373b99324f2c1ae.json",
+      "capturedAt": "2026-09-27T03:29:47.701Z"
+    },
+    "identityCounts": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Midnight_Zone",
+      "snapshot": "sources/wiki/pages/8373b99324f2c1ae.json",
+      "capturedAt": "2026-09-27T03:29:47.701Z"
+    },
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Midnight_Zone",
+      "snapshot": "sources/wiki/pages/8373b99324f2c1ae.json",
+      "capturedAt": "2026-09-27T03:29:47.701Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Midnight_Zone",
+      "snapshot": "sources/wiki/pages/8373b99324f2c1ae.json",
+      "capturedAt": "2026-09-27T03:29:47.701Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Midnight_Zone",
+        "snapshot": "sources/wiki/pages/8373b99324f2c1ae.json",
+        "capturedAt": "2026-09-27T03:29:47.701Z"
+      },
+      "fields": {
+        "ruleType": "Y",
+        "identityCounts": {
+          "关键人物": "①",
+          "主谋": "①",
+          "传谣人": "①"
+        },
+        "effect": "【失败条件：轮回结束时】本轮轮回中公开过主谋、不安定因子或魔术师中任意身份的名称"
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "ruleType": "Y",
+        "identityCounts": {
+          "关键人物": "1",
+          "主谋": "1",
+          "传谣人": "1"
+        },
+        "effect": "【失败条件：轮回结束时】本轮轮回中公开过主谋、不安定因子或魔术师中任意身份的名称"
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "Y",
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "identityCounts",
+      "selected": {
+        "关键人物": "①",
+        "主谋": "①",
+        "传谣人": "①"
+      },
+      "candidate": {
+        "关键人物": "1",
+        "主谋": "1",
+        "传谣人": "1"
+      },
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    }
+  ]
+}

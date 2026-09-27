@@ -1,0 +1,426 @@
+{
+  "id": "73020716e720fad2",
+  "title": "WM-19",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "WM-19非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "WM-19",
+    "loops": 4,
+    "days": 7,
+    "schedule": [
+      {
+        "day": 3,
+        "incidentText": "邪气污染"
+      },
+      {
+        "day": 5,
+        "incidentText": "疯狂杀人"
+      },
+      {
+        "day": 7,
+        "incidentText": "失踪"
+      }
+    ],
+    "剧本名": "哈斯塔还是达贡？",
+    "作者": "じーちゃん",
+    "轮数": "4",
+    "天数": "7"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-19?oldid=1482",
+      "snapshot": "sources/wiki/pages/ec8ebb7dbf35b7b3.json",
+      "capturedAt": "2026-09-27T05:03:31.356Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-19?oldid=1482",
+      "snapshot": "sources/wiki/pages/ec8ebb7dbf35b7b3.json",
+      "capturedAt": "2026-09-27T05:03:31.356Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-19?oldid=1482",
+      "snapshot": "sources/wiki/pages/ec8ebb7dbf35b7b3.json",
+      "capturedAt": "2026-09-27T05:03:31.356Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-19?oldid=1482",
+      "snapshot": "sources/wiki/pages/ec8ebb7dbf35b7b3.json",
+      "capturedAt": "2026-09-27T05:03:31.356Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-19?oldid=1482",
+      "snapshot": "sources/wiki/pages/ec8ebb7dbf35b7b3.json",
+      "capturedAt": "2026-09-27T05:03:31.356Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 22
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 22
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 22
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 22
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-19?oldid=1482",
+      "snapshot": "sources/wiki/pages/ec8ebb7dbf35b7b3.json",
+      "capturedAt": "2026-09-27T05:03:31.356Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 22
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-19%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1873",
+      "snapshot": "sources/wiki/pages/9c95a381da8c3089.json",
+      "capturedAt": "2026-09-27T05:03:36.758Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-19?oldid=1482",
+        "snapshot": "sources/wiki/pages/ec8ebb7dbf35b7b3.json",
+        "capturedAt": "2026-09-27T05:03:31.356Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "WM-19",
+        "loops": 4,
+        "days": 7,
+        "schedule": [
+          {
+            "day": 3,
+            "incidentText": "邪气污染"
+          },
+          {
+            "day": 5,
+            "incidentText": "疯狂杀人"
+          },
+          {
+            "day": 7,
+            "incidentText": "失踪"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 6,
+        "row": 22
+      },
+      "fields": {
+        "scenarioCode": "WM-19",
+        "剧本名": "哈斯塔还是达贡？",
+        "作者": "じーちゃん",
+        "轮数": "4",
+        "天数": "7"
+      }
+    }
+  ],
+  "wikiTitle": "WM-19",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Weird Mythology"
+  ],
+  "module": "Weird Mythology",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "73020716e720fad2",
+        "title": "WM-19",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "WM-19",
+          "loops": 4,
+          "days": 7,
+          "schedule": [
+            {
+              "day": 3,
+              "incidentText": "邪气污染"
+            },
+            {
+              "day": 5,
+              "incidentText": "疯狂杀人"
+            },
+            {
+              "day": 7,
+              "incidentText": "失踪"
+            }
+          ],
+          "剧本名": "哈斯塔还是达贡？",
+          "作者": "じーちゃん",
+          "轮数": "4",
+          "天数": "7"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-19?oldid=1482",
+            "snapshot": "sources/wiki/pages/ec8ebb7dbf35b7b3.json",
+            "capturedAt": "2026-09-27T05:03:31.356Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-19?oldid=1482",
+            "snapshot": "sources/wiki/pages/ec8ebb7dbf35b7b3.json",
+            "capturedAt": "2026-09-27T05:03:31.356Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-19?oldid=1482",
+            "snapshot": "sources/wiki/pages/ec8ebb7dbf35b7b3.json",
+            "capturedAt": "2026-09-27T05:03:31.356Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-19?oldid=1482",
+            "snapshot": "sources/wiki/pages/ec8ebb7dbf35b7b3.json",
+            "capturedAt": "2026-09-27T05:03:31.356Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-19?oldid=1482",
+            "snapshot": "sources/wiki/pages/ec8ebb7dbf35b7b3.json",
+            "capturedAt": "2026-09-27T05:03:31.356Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 22
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 22
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 22
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 22
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-19?oldid=1482",
+            "snapshot": "sources/wiki/pages/ec8ebb7dbf35b7b3.json",
+            "capturedAt": "2026-09-27T05:03:31.356Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 22
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-19?oldid=1482",
+              "snapshot": "sources/wiki/pages/ec8ebb7dbf35b7b3.json",
+              "capturedAt": "2026-09-27T05:03:31.356Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "WM-19",
+              "loops": 4,
+              "days": 7,
+              "schedule": [
+                {
+                  "day": 3,
+                  "incidentText": "邪气污染"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "疯狂杀人"
+                },
+                {
+                  "day": 7,
+                  "incidentText": "失踪"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 6,
+              "row": 22
+            },
+            "fields": {
+              "scenarioCode": "WM-19",
+              "剧本名": "哈斯塔还是达贡？",
+              "作者": "じーちゃん",
+              "轮数": "4",
+              "天数": "7"
+            }
+          }
+        ],
+        "body": "text/scenarios/73020716e720fad2.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-19?oldid=1482",
+          "snapshot": "sources/wiki/pages/ec8ebb7dbf35b7b3.json",
+          "capturedAt": "2026-09-27T05:03:31.356Z"
+        },
+        "wikiTitle": "WM-19",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "WM-19非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-19%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-19?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Weird Mythology"
+        ],
+        "module": "Weird Mythology"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "429b80981941703c",
+        "title": "WM-19非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "WM-19"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-19%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1873",
+            "snapshot": "sources/wiki/pages/9c95a381da8c3089.json",
+            "capturedAt": "2026-09-27T05:03:36.758Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-19%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1873",
+            "snapshot": "sources/wiki/pages/9c95a381da8c3089.json",
+            "capturedAt": "2026-09-27T05:03:36.758Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-19%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1873",
+            "snapshot": "sources/wiki/pages/9c95a381da8c3089.json",
+            "capturedAt": "2026-09-27T05:03:36.758Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-19%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1873",
+              "snapshot": "sources/wiki/pages/9c95a381da8c3089.json",
+              "capturedAt": "2026-09-27T05:03:36.758Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "WM-19"
+            }
+          }
+        ],
+        "wikiTitle": "WM-19非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Weird Mythology",
+        "tags": [
+          "民间",
+          "Weird Mythology"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "429b80981941703c"
+  ],
+  "conflicts": []
+}

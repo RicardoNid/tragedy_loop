@@ -1,0 +1,60 @@
+{
+  "id": "d8af2317ba109cf8",
+  "title": "從者是殺人狂，和大小姐兩人在回合結束時獨處了，怎麼辦？另外要是大小姐帶有不死特性該怎麼辦？",
+  "kind": "faq",
+  "scope": "纸质 FAQ / 十周年 / Q24",
+  "aliases": [],
+  "fields": {
+    "question": "從者是殺人狂，和大小姐兩人在回合結束時獨處了，怎麼辦？另外要是大小姐帶有不死特性該怎麼辦？",
+    "answer": "從者會代替大小姐死亡。如果大小姐是不死特性，那麼就不存在需要代替她死亡的處理，因此沒有人死亡。"
+  },
+  "provenance": {
+    "question": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+      "snapshot": "sources/paper-faq/anniversary.json",
+      "page": 12,
+      "questionNumber": 24
+    },
+    "answer": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+      "snapshot": "sources/paper-faq/anniversary.json",
+      "page": 12,
+      "questionNumber": 24
+    }
+  },
+  "sources": [
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+      "snapshot": "sources/paper-faq/anniversary.json",
+      "page": 12,
+      "questionNumber": 24
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+        "snapshot": "sources/paper-faq/anniversary.json",
+        "page": 12,
+        "questionNumber": 24
+      },
+      "fields": {
+        "question": "從者是殺人狂，和大小姐兩人在回合結束時獨處了，怎麼辦？另外要是大小姐帶有不死特性該怎麼辦？",
+        "answer": "從者會代替大小姐死亡。如果大小姐是不死特性，那麼就不存在需要代替她死亡的處理，因此沒有人死亡。"
+      }
+    }
+  ],
+  "tags": [
+    "十周年",
+    "纸质 FAQ",
+    "角色",
+    "官方"
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+  "conflicts": []
+}

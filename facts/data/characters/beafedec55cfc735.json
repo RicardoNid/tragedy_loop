@@ -1,0 +1,168 @@
+{
+  "id": "beafedec55cfc735",
+  "title": "黑猫",
+  "kind": "characters",
+  "scope": "",
+  "aliases": [
+    "黑貓"
+  ],
+  "fields": {
+    "角色名": "黑猫",
+    "初始区域": "神社",
+    "禁行区域": "无",
+    "不安限度": "0",
+    "属性": [
+      "动物"
+    ],
+    "特性": "每輪輪迴開始時，往神社放置1枚密謀指示物。\n\n該角色為當事人的事件，其效果變為「沒有任何現象」。"
+  },
+  "provenance": {
+    "角色名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E9%BB%91%E8%B2%93",
+      "snapshot": "sources/wiki/pages/c3f1e424d056212b.json",
+      "capturedAt": "2026-09-27T03:38:39.996Z"
+    },
+    "初始区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E9%BB%91%E8%B2%93",
+      "snapshot": "sources/wiki/pages/c3f1e424d056212b.json",
+      "capturedAt": "2026-09-27T03:38:39.996Z"
+    },
+    "禁行区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E9%BB%91%E8%B2%93",
+      "snapshot": "sources/wiki/pages/c3f1e424d056212b.json",
+      "capturedAt": "2026-09-27T03:38:39.996Z"
+    },
+    "不安限度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E9%BB%91%E8%B2%93",
+      "snapshot": "sources/wiki/pages/c3f1e424d056212b.json",
+      "capturedAt": "2026-09-27T03:38:39.996Z"
+    },
+    "属性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E9%BB%91%E8%B2%93",
+      "snapshot": "sources/wiki/pages/c3f1e424d056212b.json",
+      "capturedAt": "2026-09-27T03:38:39.996Z"
+    },
+    "特性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E9%BB%91%E8%B2%93",
+      "snapshot": "sources/wiki/pages/c3f1e424d056212b.json",
+      "capturedAt": "2026-09-27T03:38:39.996Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E9%BB%91%E8%B2%93",
+      "snapshot": "sources/wiki/pages/c3f1e424d056212b.json",
+      "capturedAt": "2026-09-27T03:38:39.996Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E9%BB%91%E8%B2%93",
+        "snapshot": "sources/wiki/pages/c3f1e424d056212b.json",
+        "capturedAt": "2026-09-27T03:38:39.996Z"
+      },
+      "fields": {
+        "角色名": "黑猫",
+        "初始区域": "神社",
+        "禁行区域": "无",
+        "不安限度": "0",
+        "属性": [
+          "动物"
+        ],
+        "特性": "每輪輪迴開始時，往神社放置1枚密謀指示物。\n\n該角色為當事人的事件，其效果變為「沒有任何現象」。"
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "特性": "每轮轮回开始时，往神社放置1枚密谋指示物；该角色为当事人的事件，其效果变为“没有任何现象”。",
+        "属性": [
+          "动物"
+        ],
+        "初始区域": "神社",
+        "禁行区域": "否",
+        "不安限度": "0",
+        "友好能力": []
+      }
+    }
+  ],
+  "body": "text/characters/beafedec55cfc735.txt",
+  "bodySource": {
+    "provider": "wiki",
+    "url": "https://tragedyrooper.fandom.com/zh/wiki/%E9%BB%91%E8%B2%93",
+    "snapshot": "sources/wiki/pages/c3f1e424d056212b.json",
+    "capturedAt": "2026-09-27T03:38:39.996Z"
+  },
+  "wikiTitle": "黑貓",
+  "originalTables": [],
+  "wikiStatus": "captured",
+  "links": [
+    {
+      "title": "<img style=\"\" src=\"https://static.wikia.nocookie.net/tragedyrooper/images/0/00/%E7%8C%AB.png/revision/latest/scale-to-width-down/133?cb=20251023162227&amp;path-prefix=zh\" title=\"猫.png (201 KB)\" class=\"thumbimage\" alt=\"\" height=\"185\" width=\"185\" data-image-name=\"猫.png\" data-image-key=\"%E7%8C%AB.png\" data-relevant=\"1\">",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E7%8C%AB.png"
+    }
+  ],
+  "images": [
+    {
+      "alt": "",
+      "src": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+    }
+  ],
+  "media": [
+    {
+      "title": "猫.png",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:%E7%8C%AB.png",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/0/00/%E7%8C%AB.png/revision/latest?cb=20251023162227&format=original&path-prefix=zh",
+      "path": "media/wiki/6962155fb8ba8524.png",
+      "sourceRecord": "sources/wiki/files/6962155fb8ba8524.json",
+      "sha256": "0f5f90e75080eaa6056b3ad81b060a7fff964308d6bdfcb3308d9c55f9528ff9",
+      "bytes": 206121,
+      "fileInfo": "PNG image data, 302 x 421, 8-bit/color RGBA, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/6fadb2d7054aeea7.json",
+  "tags": [
+    "动物",
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "特性",
+      "selected": "每輪輪迴開始時，往神社放置1枚密謀指示物。\n\n該角色為當事人的事件，其效果變為「沒有任何現象」。",
+      "candidate": "每轮轮回开始时，往神社放置1枚密谋指示物；该角色为当事人的事件，其效果变为“没有任何现象”。",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "禁行区域",
+      "selected": "无",
+      "candidate": "否",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    }
+  ]
+}

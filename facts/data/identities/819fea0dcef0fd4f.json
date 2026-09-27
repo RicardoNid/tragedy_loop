@@ -1,0 +1,65 @@
+{
+  "id": "819fea0dcef0fd4f",
+  "title": "播种者",
+  "kind": "identities",
+  "scope": "Supernatural Tragedy",
+  "aliases": [],
+  "fields": {
+    "max": "①",
+    "traits": "必定无视友好\n\n超自然",
+    "abilities": [
+      "【强制：该角色死亡时】主人公失败，当前轮回立即结束\n\n【任意能力：剧作家能力阶段】在1名非超自然角色上放置1枚[不安]，那名角色变成关键人物，该角色失去能力和身份特性直到本轮回结束（每轮限1次）"
+    ]
+  },
+  "provenance": {
+    "max": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Supernatural_Tragedy",
+      "snapshot": "sources/wiki/pages/34e1e734e8da4777.json",
+      "capturedAt": "2026-09-27T03:30:06.385Z"
+    },
+    "traits": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Supernatural_Tragedy",
+      "snapshot": "sources/wiki/pages/34e1e734e8da4777.json",
+      "capturedAt": "2026-09-27T03:30:06.385Z"
+    },
+    "abilities": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Supernatural_Tragedy",
+      "snapshot": "sources/wiki/pages/34e1e734e8da4777.json",
+      "capturedAt": "2026-09-27T03:30:06.385Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Supernatural_Tragedy",
+      "snapshot": "sources/wiki/pages/34e1e734e8da4777.json",
+      "capturedAt": "2026-09-27T03:30:06.385Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Supernatural_Tragedy",
+        "snapshot": "sources/wiki/pages/34e1e734e8da4777.json",
+        "capturedAt": "2026-09-27T03:30:06.385Z"
+      },
+      "fields": {
+        "max": "①",
+        "traits": "必定无视友好\n\n超自然",
+        "abilities": [
+          "【强制：该角色死亡时】主人公失败，当前轮回立即结束\n\n【任意能力：剧作家能力阶段】在1名非超自然角色上放置1枚[不安]，那名角色变成关键人物，该角色失去能力和身份特性直到本轮回结束（每轮限1次）"
+        ]
+      }
+    }
+  ],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "民间"
+  ],
+  "conflicts": []
+}

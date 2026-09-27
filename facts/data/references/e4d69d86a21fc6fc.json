@@ -1,0 +1,464 @@
+{
+  "id": "e4d69d86a21fc6fc",
+  "title": "剧本模版",
+  "kind": "references",
+  "scope": "",
+  "aliases": [],
+  "fields": {},
+  "provenance": {},
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E6%A8%A1%E7%89%88",
+      "snapshot": "sources/wiki/pages/ee83fdf1856af0a3.json",
+      "capturedAt": "2026-09-27T03:31:28.199Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E6%A8%A1%E7%89%88",
+        "snapshot": "sources/wiki/pages/ee83fdf1856af0a3.json",
+        "capturedAt": "2026-09-27T03:31:28.199Z"
+      },
+      "fields": {}
+    }
+  ],
+  "body": "text/references/e4d69d86a21fc6fc.txt",
+  "bodySource": {
+    "provider": "wiki",
+    "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E6%A8%A1%E7%89%88",
+    "snapshot": "sources/wiki/pages/ee83fdf1856af0a3.json",
+    "capturedAt": "2026-09-27T03:31:28.199Z"
+  },
+  "tables": [
+    [
+      [
+        "模组",
+        "模组"
+      ],
+      [
+        "轮回数 天数",
+        "轮回数 天数"
+      ],
+      [
+        "事件列表",
+        "事件列表"
+      ],
+      [
+        "1",
+        ""
+      ],
+      [
+        "2",
+        ""
+      ],
+      [
+        "3",
+        ""
+      ],
+      [
+        "4",
+        ""
+      ],
+      [
+        "5",
+        ""
+      ],
+      [
+        "6",
+        ""
+      ]
+    ],
+    [
+      [
+        "规则Y",
+        "规则Y",
+        "规则Y"
+      ],
+      [
+        "规则X1\n",
+        "规则X1\n",
+        "规则X1\n"
+      ],
+      [
+        "规则X2\n",
+        "规则X2\n",
+        "规则X2\n"
+      ],
+      [
+        "角色\n",
+        "身份\n",
+        "备注\n"
+      ],
+      [
+        "\n",
+        "\n",
+        "\n"
+      ],
+      [
+        "\n",
+        "\n",
+        "\n"
+      ],
+      [
+        "\n",
+        "\n",
+        "\n"
+      ],
+      [
+        "\n",
+        "\n",
+        "\n"
+      ],
+      [
+        "\n",
+        "\n",
+        "\n"
+      ],
+      [
+        "\n",
+        "\n",
+        "\n"
+      ],
+      [
+        "事件\n",
+        "事件\n",
+        "事件\n"
+      ],
+      [
+        "1\n",
+        "a\n",
+        "当事人\n"
+      ],
+      [
+        "\n",
+        "\n",
+        "\n"
+      ],
+      [
+        "\n",
+        "\n",
+        "\n"
+      ]
+    ]
+  ],
+  "wikiTitle": "剧本模版",
+  "originalTables": [
+    [
+      [
+        {
+          "colspan": 2,
+          "rowspan": 1,
+          "text": "模组"
+        }
+      ],
+      [
+        {
+          "colspan": 2,
+          "rowspan": 1,
+          "text": "轮回数 天数"
+        }
+      ],
+      [
+        {
+          "colspan": 2,
+          "rowspan": 1,
+          "text": "事件列表"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "1"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "2"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "3"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "4"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "5"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "6"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "colspan": 3,
+          "rowspan": 1,
+          "text": "规则Y"
+        }
+      ],
+      [
+        {
+          "colspan": 3,
+          "rowspan": 1,
+          "text": "规则X1\n"
+        }
+      ],
+      [
+        {
+          "colspan": 3,
+          "rowspan": 1,
+          "text": "规则X2\n"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "角色\n"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "身份\n"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "备注\n"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "\n"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "\n"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "\n"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "\n"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "\n"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "\n"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "\n"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "\n"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "\n"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "\n"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "\n"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "\n"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "\n"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "\n"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "\n"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "\n"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "\n"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "\n"
+        }
+      ],
+      [
+        {
+          "colspan": 3,
+          "rowspan": 1,
+          "text": "事件\n"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "1\n"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "a\n"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "当事人\n"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "\n"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "\n"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "\n"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "\n"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "\n"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "\n"
+        }
+      ]
+    ]
+  ],
+  "wikiStatus": "captured",
+  "links": [
+    {
+      "title": "",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E6%A8%A1%E7%89%88?action=edit&section=1"
+    },
+    {
+      "title": "",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E6%A8%A1%E7%89%88?action=edit&section=2"
+    },
+    {
+      "title": "",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E6%A8%A1%E7%89%88?action=edit&section=3"
+    }
+  ],
+  "images": [],
+  "media": [],
+  "tags": [],
+  "conflicts": []
+}

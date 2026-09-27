@@ -1,0 +1,104 @@
+{
+  "id": "be338391056d1c33",
+  "title": "怪杰",
+  "kind": "identities",
+  "scope": "Last Liar",
+  "aliases": [],
+  "fields": {
+    "max": "①",
+    "traits": "必定无视友好\n\n不死",
+    "abilities": [
+      "【强制：常驻】当天的天数为3的倍数→该角色获得传谣人、主谋和杀人狂的能力",
+      "【强制：剧本制作时】必须成为某1个事件的当事人"
+    ]
+  },
+  "provenance": {
+    "max": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Last_Liar",
+      "snapshot": "sources/wiki/pages/844cae1ed2f5e214.json",
+      "capturedAt": "2026-09-27T03:29:44.914Z"
+    },
+    "traits": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Last_Liar",
+      "snapshot": "sources/wiki/pages/844cae1ed2f5e214.json",
+      "capturedAt": "2026-09-27T03:29:44.914Z"
+    },
+    "abilities": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Last_Liar",
+      "snapshot": "sources/wiki/pages/844cae1ed2f5e214.json",
+      "capturedAt": "2026-09-27T03:29:44.914Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Last_Liar",
+      "snapshot": "sources/wiki/pages/844cae1ed2f5e214.json",
+      "capturedAt": "2026-09-27T03:29:44.914Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Last_Liar",
+        "snapshot": "sources/wiki/pages/844cae1ed2f5e214.json",
+        "capturedAt": "2026-09-27T03:29:44.914Z"
+      },
+      "fields": {
+        "max": "①",
+        "traits": "必定无视友好\n\n不死",
+        "abilities": [
+          "【强制：常驻】当天的天数为3的倍数→该角色获得传谣人、主谋和杀人狂的能力",
+          "【强制：剧本制作时】必须成为某1个事件的当事人"
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "max": "1",
+        "traits": "不死 必定无视友好",
+        "abilities": [
+          "【强制：常驻】当天的天数为3的倍数→该角色获得传谣人、主谋和杀人狂的能力",
+          "【强制：剧本制作时】必须成为某1个事件的当事人"
+        ]
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "max",
+      "selected": "①",
+      "candidate": "1",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "traits",
+      "selected": "必定无视友好\n\n不死",
+      "candidate": "不死 必定无视友好",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    }
+  ]
+}

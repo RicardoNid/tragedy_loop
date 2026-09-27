@@ -1,0 +1,480 @@
+{
+  "id": "eeffca7b80a6e80c",
+  "title": "AHR-21",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "AHR-21非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "AHR-21",
+    "loops": 4,
+    "days": 5,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "遗失物"
+      },
+      {
+        "day": 2,
+        "incidentText": "次元转换"
+      },
+      {
+        "day": 3,
+        "incidentText": "遗言"
+      },
+      {
+        "day": 4,
+        "incidentText": "次元转换"
+      },
+      {
+        "day": 5,
+        "incidentText": "冲动杀人"
+      }
+    ],
+    "剧本名": "Operation Skuld",
+    "日文名": "Operation Skuld",
+    "作者": "のば@頭くるるーん勢",
+    "轮数": "4",
+    "天数": "5"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-21",
+      "snapshot": "sources/wiki/pages/de68ab1a710dcbd7.json",
+      "capturedAt": "2026-09-27T03:44:23.290Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-21",
+      "snapshot": "sources/wiki/pages/de68ab1a710dcbd7.json",
+      "capturedAt": "2026-09-27T03:44:23.290Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-21",
+      "snapshot": "sources/wiki/pages/de68ab1a710dcbd7.json",
+      "capturedAt": "2026-09-27T03:44:23.290Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-21",
+      "snapshot": "sources/wiki/pages/de68ab1a710dcbd7.json",
+      "capturedAt": "2026-09-27T03:44:23.290Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-21",
+      "snapshot": "sources/wiki/pages/de68ab1a710dcbd7.json",
+      "capturedAt": "2026-09-27T03:44:23.290Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 22
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 22
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 22
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 22
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 22
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-21",
+      "snapshot": "sources/wiki/pages/de68ab1a710dcbd7.json",
+      "capturedAt": "2026-09-27T03:44:23.290Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 22
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-21%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/cf6b99787bca56c2.json",
+      "capturedAt": "2026-09-27T03:44:26.061Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-21",
+        "snapshot": "sources/wiki/pages/de68ab1a710dcbd7.json",
+        "capturedAt": "2026-09-27T03:44:23.290Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "AHR-21",
+        "loops": 4,
+        "days": 5,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "遗失物"
+          },
+          {
+            "day": 2,
+            "incidentText": "次元转换"
+          },
+          {
+            "day": 3,
+            "incidentText": "遗言"
+          },
+          {
+            "day": 4,
+            "incidentText": "次元转换"
+          },
+          {
+            "day": 5,
+            "incidentText": "冲动杀人"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 7,
+        "row": 22
+      },
+      "fields": {
+        "scenarioCode": "AHR-21",
+        "剧本名": "Operation Skuld",
+        "日文名": "Operation Skuld",
+        "作者": "のば@頭くるるーん勢",
+        "轮数": "4",
+        "天数": "5"
+      }
+    }
+  ],
+  "wikiTitle": "AHR-21",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Another Horizon Revised"
+  ],
+  "module": "Another Horizon Revised",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "eeffca7b80a6e80c",
+        "title": "AHR-21",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "AHR-21",
+          "loops": 4,
+          "days": 5,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "遗失物"
+            },
+            {
+              "day": 2,
+              "incidentText": "次元转换"
+            },
+            {
+              "day": 3,
+              "incidentText": "遗言"
+            },
+            {
+              "day": 4,
+              "incidentText": "次元转换"
+            },
+            {
+              "day": 5,
+              "incidentText": "冲动杀人"
+            }
+          ],
+          "剧本名": "Operation Skuld",
+          "日文名": "Operation Skuld",
+          "作者": "のば@頭くるるーん勢",
+          "轮数": "4",
+          "天数": "5"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-21",
+            "snapshot": "sources/wiki/pages/de68ab1a710dcbd7.json",
+            "capturedAt": "2026-09-27T03:44:23.290Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-21",
+            "snapshot": "sources/wiki/pages/de68ab1a710dcbd7.json",
+            "capturedAt": "2026-09-27T03:44:23.290Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-21",
+            "snapshot": "sources/wiki/pages/de68ab1a710dcbd7.json",
+            "capturedAt": "2026-09-27T03:44:23.290Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-21",
+            "snapshot": "sources/wiki/pages/de68ab1a710dcbd7.json",
+            "capturedAt": "2026-09-27T03:44:23.290Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-21",
+            "snapshot": "sources/wiki/pages/de68ab1a710dcbd7.json",
+            "capturedAt": "2026-09-27T03:44:23.290Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 22
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 22
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 22
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 22
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 22
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-21",
+            "snapshot": "sources/wiki/pages/de68ab1a710dcbd7.json",
+            "capturedAt": "2026-09-27T03:44:23.290Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 22
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-21",
+              "snapshot": "sources/wiki/pages/de68ab1a710dcbd7.json",
+              "capturedAt": "2026-09-27T03:44:23.290Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "AHR-21",
+              "loops": 4,
+              "days": 5,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "遗失物"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "次元转换"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "遗言"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "次元转换"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "冲动杀人"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 7,
+              "row": 22
+            },
+            "fields": {
+              "scenarioCode": "AHR-21",
+              "剧本名": "Operation Skuld",
+              "日文名": "Operation Skuld",
+              "作者": "のば@頭くるるーん勢",
+              "轮数": "4",
+              "天数": "5"
+            }
+          }
+        ],
+        "body": "text/scenarios/eeffca7b80a6e80c.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-21",
+          "snapshot": "sources/wiki/pages/de68ab1a710dcbd7.json",
+          "capturedAt": "2026-09-27T03:44:23.290Z"
+        },
+        "wikiTitle": "AHR-21",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-21?action=edit&section=1"
+          },
+          {
+            "title": "AHR-21非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-21%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-21?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Another Horizon Revised"
+        ],
+        "module": "Another Horizon Revised"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "817da753d92bcda4",
+        "title": "AHR-21非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "AHR-21"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-21%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/cf6b99787bca56c2.json",
+            "capturedAt": "2026-09-27T03:44:26.061Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-21%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/cf6b99787bca56c2.json",
+            "capturedAt": "2026-09-27T03:44:26.061Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-21%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/cf6b99787bca56c2.json",
+            "capturedAt": "2026-09-27T03:44:26.061Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-21%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/cf6b99787bca56c2.json",
+              "capturedAt": "2026-09-27T03:44:26.061Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "AHR-21"
+            }
+          }
+        ],
+        "wikiTitle": "AHR-21非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Another Horizon Revised",
+        "tags": [
+          "民间",
+          "Another Horizon Revised"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "817da753d92bcda4"
+  ],
+  "conflicts": []
+}

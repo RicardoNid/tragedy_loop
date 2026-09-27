@@ -1,0 +1,45 @@
+{
+  "id": "b22ce9fc30d6656c",
+  "title": "暴露",
+  "kind": "incidents",
+  "scope": "Old Fashion",
+  "aliases": [],
+  "fields": {
+    "effect": "从当事人所在区域的所有角色身上移除[友好]直到剩余2枚（这两个标记可以分开在不同角色身上）\n从当事人所在区域的所有角色身上放置[友好]直到2枚（这两个标记可以分开在不同角色身上）"
+  },
+  "provenance": {
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Old_Fashion",
+      "snapshot": "sources/wiki/pages/a50ad3a225ece288.json",
+      "capturedAt": "2026-09-27T03:30:00.404Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Old_Fashion",
+      "snapshot": "sources/wiki/pages/a50ad3a225ece288.json",
+      "capturedAt": "2026-09-27T03:30:00.404Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Old_Fashion",
+        "snapshot": "sources/wiki/pages/a50ad3a225ece288.json",
+        "capturedAt": "2026-09-27T03:30:00.404Z"
+      },
+      "fields": {
+        "effect": "从当事人所在区域的所有角色身上移除[友好]直到剩余2枚（这两个标记可以分开在不同角色身上）\n从当事人所在区域的所有角色身上放置[友好]直到2枚（这两个标记可以分开在不同角色身上）"
+      }
+    }
+  ],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "民间"
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,60 @@
+{
+  "id": "559f352ccded28b3",
+  "title": "發生了爆裂或者醫院事故。規則Y是「封印的終末」時，需要參考角色身上放置的絕望指示物數量嗎？",
+  "kind": "faq",
+  "scope": "纸质 FAQ / LL / Q16",
+  "aliases": [],
+  "fields": {
+    "question": "發生了爆裂或者醫院事故。規則Y是「封印的終末」時，需要參考角色身上放置的絕望指示物數量嗎？",
+    "answer": "需要。"
+  },
+  "provenance": {
+    "question": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+      "snapshot": "sources/paper-faq/last-liar.json",
+      "page": 14,
+      "questionNumber": 16
+    },
+    "answer": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+      "snapshot": "sources/paper-faq/last-liar.json",
+      "page": 14,
+      "questionNumber": 16
+    }
+  },
+  "sources": [
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+      "snapshot": "sources/paper-faq/last-liar.json",
+      "page": 14,
+      "questionNumber": 16
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+        "snapshot": "sources/paper-faq/last-liar.json",
+        "page": 14,
+        "questionNumber": 16
+      },
+      "fields": {
+        "question": "發生了爆裂或者醫院事故。規則Y是「封印的終末」時，需要參考角色身上放置的絕望指示物數量嗎？",
+        "answer": "需要。"
+      }
+    }
+  ],
+  "tags": [
+    "LL",
+    "纸质 FAQ",
+    "身份与事件",
+    "官方"
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+  "conflicts": []
+}

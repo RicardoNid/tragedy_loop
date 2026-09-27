@@ -1,0 +1,60 @@
+{
+  "id": "0aea5cbad10d2164",
+  "title": "使用了學者的友好能力，能夠移除身上的希望或絕望指示物嗎？",
+  "kind": "faq",
+  "scope": "纸质 FAQ / 十周年 / Q9",
+  "aliases": [],
+  "fields": {
+    "question": "使用了學者的友好能力，能夠移除身上的希望或絕望指示物嗎？",
+    "answer": "可以。"
+  },
+  "provenance": {
+    "question": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/5e4d811055e32254199f84835b012043.jpg",
+      "snapshot": "sources/paper-faq/anniversary.json",
+      "page": 10,
+      "questionNumber": 9
+    },
+    "answer": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/5e4d811055e32254199f84835b012043.jpg",
+      "snapshot": "sources/paper-faq/anniversary.json",
+      "page": 10,
+      "questionNumber": 9
+    }
+  },
+  "sources": [
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/5e4d811055e32254199f84835b012043.jpg",
+      "snapshot": "sources/paper-faq/anniversary.json",
+      "page": 10,
+      "questionNumber": 9
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/5e4d811055e32254199f84835b012043.jpg",
+        "snapshot": "sources/paper-faq/anniversary.json",
+        "page": 10,
+        "questionNumber": 9
+      },
+      "fields": {
+        "question": "使用了學者的友好能力，能夠移除身上的希望或絕望指示物嗎？",
+        "answer": "可以。"
+      }
+    }
+  ],
+  "tags": [
+    "十周年",
+    "纸质 FAQ",
+    "希望与绝望",
+    "官方"
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/lunhui/5e4d811055e32254199f84835b012043.jpg",
+  "conflicts": []
+}

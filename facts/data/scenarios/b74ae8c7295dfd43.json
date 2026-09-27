@@ -1,0 +1,414 @@
+{
+  "id": "b74ae8c7295dfd43",
+  "title": "WM-20",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "WM-20非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "WM-20",
+    "loops": 7,
+    "days": 2,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "邪气污染"
+      },
+      {
+        "day": 2,
+        "incidentText": "邪气污染"
+      }
+    ],
+    "剧本名": "极度乐观人生",
+    "作者": "水龙吟",
+    "轮数": "7",
+    "天数": "2"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-20?oldid=1485",
+      "snapshot": "sources/wiki/pages/f6d9d897ba5f0d12.json",
+      "capturedAt": "2026-09-27T05:03:41.974Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-20?oldid=1485",
+      "snapshot": "sources/wiki/pages/f6d9d897ba5f0d12.json",
+      "capturedAt": "2026-09-27T05:03:41.974Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-20?oldid=1485",
+      "snapshot": "sources/wiki/pages/f6d9d897ba5f0d12.json",
+      "capturedAt": "2026-09-27T05:03:41.974Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-20?oldid=1485",
+      "snapshot": "sources/wiki/pages/f6d9d897ba5f0d12.json",
+      "capturedAt": "2026-09-27T05:03:41.974Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-20?oldid=1485",
+      "snapshot": "sources/wiki/pages/f6d9d897ba5f0d12.json",
+      "capturedAt": "2026-09-27T05:03:41.974Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 23
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 23
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 23
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 23
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-20?oldid=1485",
+      "snapshot": "sources/wiki/pages/f6d9d897ba5f0d12.json",
+      "capturedAt": "2026-09-27T05:03:41.974Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 23
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-20%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1872",
+      "snapshot": "sources/wiki/pages/26ce114c5fc9e53a.json",
+      "capturedAt": "2026-09-27T05:03:47.147Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-20?oldid=1485",
+        "snapshot": "sources/wiki/pages/f6d9d897ba5f0d12.json",
+        "capturedAt": "2026-09-27T05:03:41.974Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "WM-20",
+        "loops": 7,
+        "days": 2,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "邪气污染"
+          },
+          {
+            "day": 2,
+            "incidentText": "邪气污染"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 6,
+        "row": 23
+      },
+      "fields": {
+        "scenarioCode": "WM-20",
+        "剧本名": "极度乐观人生",
+        "作者": "水龙吟",
+        "轮数": "7",
+        "天数": "2"
+      }
+    }
+  ],
+  "wikiTitle": "WM-20",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Weird Mythology"
+  ],
+  "module": "Weird Mythology",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "b74ae8c7295dfd43",
+        "title": "WM-20",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "WM-20",
+          "loops": 7,
+          "days": 2,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "邪气污染"
+            },
+            {
+              "day": 2,
+              "incidentText": "邪气污染"
+            }
+          ],
+          "剧本名": "极度乐观人生",
+          "作者": "水龙吟",
+          "轮数": "7",
+          "天数": "2"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-20?oldid=1485",
+            "snapshot": "sources/wiki/pages/f6d9d897ba5f0d12.json",
+            "capturedAt": "2026-09-27T05:03:41.974Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-20?oldid=1485",
+            "snapshot": "sources/wiki/pages/f6d9d897ba5f0d12.json",
+            "capturedAt": "2026-09-27T05:03:41.974Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-20?oldid=1485",
+            "snapshot": "sources/wiki/pages/f6d9d897ba5f0d12.json",
+            "capturedAt": "2026-09-27T05:03:41.974Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-20?oldid=1485",
+            "snapshot": "sources/wiki/pages/f6d9d897ba5f0d12.json",
+            "capturedAt": "2026-09-27T05:03:41.974Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-20?oldid=1485",
+            "snapshot": "sources/wiki/pages/f6d9d897ba5f0d12.json",
+            "capturedAt": "2026-09-27T05:03:41.974Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 23
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 23
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 23
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 23
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-20?oldid=1485",
+            "snapshot": "sources/wiki/pages/f6d9d897ba5f0d12.json",
+            "capturedAt": "2026-09-27T05:03:41.974Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 23
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-20?oldid=1485",
+              "snapshot": "sources/wiki/pages/f6d9d897ba5f0d12.json",
+              "capturedAt": "2026-09-27T05:03:41.974Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "WM-20",
+              "loops": 7,
+              "days": 2,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "邪气污染"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "邪气污染"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 6,
+              "row": 23
+            },
+            "fields": {
+              "scenarioCode": "WM-20",
+              "剧本名": "极度乐观人生",
+              "作者": "水龙吟",
+              "轮数": "7",
+              "天数": "2"
+            }
+          }
+        ],
+        "body": "text/scenarios/b74ae8c7295dfd43.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-20?oldid=1485",
+          "snapshot": "sources/wiki/pages/f6d9d897ba5f0d12.json",
+          "capturedAt": "2026-09-27T05:03:41.974Z"
+        },
+        "wikiTitle": "WM-20",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-20?action=edit&section=1"
+          },
+          {
+            "title": "WM-20非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-20%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-20?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Weird Mythology"
+        ],
+        "module": "Weird Mythology"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "75bc88de22abe2df",
+        "title": "WM-20非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "WM-20"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-20%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1872",
+            "snapshot": "sources/wiki/pages/26ce114c5fc9e53a.json",
+            "capturedAt": "2026-09-27T05:03:47.147Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-20%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1872",
+            "snapshot": "sources/wiki/pages/26ce114c5fc9e53a.json",
+            "capturedAt": "2026-09-27T05:03:47.147Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-20%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1872",
+            "snapshot": "sources/wiki/pages/26ce114c5fc9e53a.json",
+            "capturedAt": "2026-09-27T05:03:47.147Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-20%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1872",
+              "snapshot": "sources/wiki/pages/26ce114c5fc9e53a.json",
+              "capturedAt": "2026-09-27T05:03:47.147Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "WM-20"
+            }
+          }
+        ],
+        "wikiTitle": "WM-20非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Weird Mythology",
+        "tags": [
+          "民间",
+          "Weird Mythology"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "75bc88de22abe2df"
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,486 @@
+{
+  "id": "886d66b06cc12120",
+  "title": "FS-06",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "FS-06非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "FS-06",
+    "loops": 5,
+    "days": 5,
+    "schedule": [
+      {
+        "day": 3,
+        "incidentText": "医院事故"
+      },
+      {
+        "day": 4,
+        "incidentText": "谋杀"
+      },
+      {
+        "day": 5,
+        "incidentText": "失踪"
+      }
+    ],
+    "剧本名": "城市风暴",
+    "英文名": "Thunder in the City",
+    "作者": "Redless",
+    "轮数": "5",
+    "天数": "5"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-06",
+      "snapshot": "sources/wiki/pages/a4651da24e8bfe51.json",
+      "capturedAt": "2026-09-27T04:24:07.950Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-06",
+      "snapshot": "sources/wiki/pages/a4651da24e8bfe51.json",
+      "capturedAt": "2026-09-27T04:24:07.950Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-06",
+      "snapshot": "sources/wiki/pages/a4651da24e8bfe51.json",
+      "capturedAt": "2026-09-27T04:24:07.950Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-06",
+      "snapshot": "sources/wiki/pages/a4651da24e8bfe51.json",
+      "capturedAt": "2026-09-27T04:24:07.950Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-06",
+      "snapshot": "sources/wiki/pages/a4651da24e8bfe51.json",
+      "capturedAt": "2026-09-27T04:24:07.950Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 7
+    },
+    "英文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 7
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 7
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 7
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 7
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-06",
+      "snapshot": "sources/wiki/pages/a4651da24e8bfe51.json",
+      "capturedAt": "2026-09-27T04:24:07.950Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 7
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/70ca0e75da049582.json",
+      "capturedAt": "2026-09-27T04:24:10.860Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-06",
+        "snapshot": "sources/wiki/pages/a4651da24e8bfe51.json",
+        "capturedAt": "2026-09-27T04:24:07.950Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "FS-06",
+        "loops": 5,
+        "days": 5,
+        "schedule": [
+          {
+            "day": 3,
+            "incidentText": "医院事故"
+          },
+          {
+            "day": 4,
+            "incidentText": "谋杀"
+          },
+          {
+            "day": 5,
+            "incidentText": "失踪"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 1,
+        "row": 7
+      },
+      "fields": {
+        "scenarioCode": "FS-06",
+        "剧本名": "城市风暴",
+        "英文名": "Thunder in the City",
+        "作者": "Redless",
+        "轮数": "5",
+        "天数": "5"
+      }
+    }
+  ],
+  "wikiTitle": "FS-06",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "First Steps"
+  ],
+  "module": "First Steps",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "886d66b06cc12120",
+        "title": "FS-06",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "FS-06",
+          "loops": 5,
+          "days": 5,
+          "schedule": [
+            {
+              "day": 3,
+              "incidentText": "医院事故"
+            },
+            {
+              "day": 4,
+              "incidentText": "谋杀"
+            },
+            {
+              "day": 5,
+              "incidentText": "失踪"
+            }
+          ],
+          "剧本名": "城市风暴",
+          "英文名": "Thunder in the City",
+          "作者": "Redless",
+          "轮数": "5",
+          "天数": "5"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-06",
+            "snapshot": "sources/wiki/pages/a4651da24e8bfe51.json",
+            "capturedAt": "2026-09-27T04:24:07.950Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-06",
+            "snapshot": "sources/wiki/pages/a4651da24e8bfe51.json",
+            "capturedAt": "2026-09-27T04:24:07.950Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-06",
+            "snapshot": "sources/wiki/pages/a4651da24e8bfe51.json",
+            "capturedAt": "2026-09-27T04:24:07.950Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-06",
+            "snapshot": "sources/wiki/pages/a4651da24e8bfe51.json",
+            "capturedAt": "2026-09-27T04:24:07.950Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-06",
+            "snapshot": "sources/wiki/pages/a4651da24e8bfe51.json",
+            "capturedAt": "2026-09-27T04:24:07.950Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 7
+          },
+          "英文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 7
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 7
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 7
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 7
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-06",
+            "snapshot": "sources/wiki/pages/a4651da24e8bfe51.json",
+            "capturedAt": "2026-09-27T04:24:07.950Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 7
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-06",
+              "snapshot": "sources/wiki/pages/a4651da24e8bfe51.json",
+              "capturedAt": "2026-09-27T04:24:07.950Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "FS-06",
+              "loops": 5,
+              "days": 5,
+              "schedule": [
+                {
+                  "day": 3,
+                  "incidentText": "医院事故"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "谋杀"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "失踪"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 1,
+              "row": 7
+            },
+            "fields": {
+              "scenarioCode": "FS-06",
+              "剧本名": "城市风暴",
+              "英文名": "Thunder in the City",
+              "作者": "Redless",
+              "轮数": "5",
+              "天数": "5"
+            }
+          }
+        ],
+        "body": "text/scenarios/886d66b06cc12120.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-06",
+          "snapshot": "sources/wiki/pages/a4651da24e8bfe51.json",
+          "capturedAt": "2026-09-27T04:24:07.950Z"
+        },
+        "wikiTitle": "FS-06",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "FS-06非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-06?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "First Steps"
+        ],
+        "module": "First Steps"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "e7a11c3924400ddb",
+        "title": "FS-06非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "FS-06",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "复仇的火种"
+            },
+            {
+              "slot": "X1",
+              "name": "流言四起"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/70ca0e75da049582.json",
+            "capturedAt": "2026-09-27T04:24:10.860Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/70ca0e75da049582.json",
+            "capturedAt": "2026-09-27T04:24:10.860Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/70ca0e75da049582.json",
+            "capturedAt": "2026-09-27T04:24:10.860Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/70ca0e75da049582.json",
+            "capturedAt": "2026-09-27T04:24:10.860Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/70ca0e75da049582.json",
+              "capturedAt": "2026-09-27T04:24:10.860Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "FS-06",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "复仇的火种"
+                },
+                {
+                  "slot": "X1",
+                  "name": "流言四起"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/e7a11c3924400ddb.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/70ca0e75da049582.json",
+          "capturedAt": "2026-09-27T04:24:10.860Z"
+        },
+        "wikiTitle": "FS-06非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "First Steps",
+        "tags": [
+          "民间",
+          "First Steps"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "e7a11c3924400ddb"
+  ],
+  "conflicts": []
+}

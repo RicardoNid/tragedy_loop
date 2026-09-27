@@ -1,0 +1,67 @@
+{
+  "id": "2a26a3cc22db1aa2",
+  "title": "【因果之绊】转校生和职员上轮死亡，可以不设置EX牌（给转校生）吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / MZ / 第 14 行",
+  "aliases": [],
+  "fields": {
+    "question": "【因果之绊】转校生和职员上轮死亡，可以不设置EX牌（给转校生）吗？",
+    "answer": "不能，必须给职员"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000006",
+      "snapshot": "sources/faq-sheet/mz.json",
+      "sheet": "MZ",
+      "row": 14,
+      "cells": "A14:B14",
+      "capturedAt": "2026-09-27T05:39:59.659Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000006",
+      "snapshot": "sources/faq-sheet/mz.json",
+      "sheet": "MZ",
+      "row": 14,
+      "cells": "A14:B14",
+      "capturedAt": "2026-09-27T05:39:59.659Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000006",
+      "snapshot": "sources/faq-sheet/mz.json",
+      "sheet": "MZ",
+      "row": 14,
+      "cells": "A14:B14",
+      "capturedAt": "2026-09-27T05:39:59.659Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000006",
+        "snapshot": "sources/faq-sheet/mz.json",
+        "sheet": "MZ",
+        "row": 14,
+        "cells": "A14:B14",
+        "capturedAt": "2026-09-27T05:39:59.659Z"
+      },
+      "fields": {
+        "question": "【因果之绊】转校生和职员上轮死亡，可以不设置EX牌（给转校生）吗？",
+        "answer": "不能，必须给职员"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "MZ",
+    "关于规则",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

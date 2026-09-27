@@ -1,0 +1,67 @@
+{
+  "id": "e4c8dc70e65a3c6f",
+  "title": "诅咒牌在角色身上，但角色回合结束前死了，那张诅咒牌如何处理？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / HSA / 第 4 行",
+  "aliases": [],
+  "fields": {
+    "question": "诅咒牌在角色身上，但角色回合结束前死了，那张诅咒牌如何处理？",
+    "answer": "无事发生，回合结束的时候从那个尸体上移动到版图上"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1u35d2",
+      "snapshot": "sources/faq-sheet/hsa.json",
+      "sheet": "HSA",
+      "row": 4,
+      "cells": "A4:B4",
+      "capturedAt": "2026-09-27T05:40:17.319Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1u35d2",
+      "snapshot": "sources/faq-sheet/hsa.json",
+      "sheet": "HSA",
+      "row": 4,
+      "cells": "A4:B4",
+      "capturedAt": "2026-09-27T05:40:17.319Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1u35d2",
+      "snapshot": "sources/faq-sheet/hsa.json",
+      "sheet": "HSA",
+      "row": 4,
+      "cells": "A4:B4",
+      "capturedAt": "2026-09-27T05:40:17.319Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1u35d2",
+        "snapshot": "sources/faq-sheet/hsa.json",
+        "sheet": "HSA",
+        "row": 4,
+        "cells": "A4:B4",
+        "capturedAt": "2026-09-27T05:40:17.319Z"
+      },
+      "fields": {
+        "question": "诅咒牌在角色身上，但角色回合结束前死了，那张诅咒牌如何处理？",
+        "answer": "无事发生，回合结束的时候从那个尸体上移动到版图上"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "HSA",
+    "关于诅咒牌",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

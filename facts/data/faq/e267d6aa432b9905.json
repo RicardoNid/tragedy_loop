@@ -1,0 +1,67 @@
+{
+  "id": "e267d6aa432b9905",
+  "title": "可以指定时间旅者谋杀吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / FS BTX / 第 27 行",
+  "aliases": [],
+  "fields": {
+    "question": "可以指定时间旅者谋杀吗？",
+    "answer": "可以，这时可以声明：事件发生了，但没有任何现象"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000005",
+      "snapshot": "sources/faq-sheet/fs-btx.json",
+      "sheet": "FS BTX",
+      "row": 27,
+      "cells": "A27:B27",
+      "capturedAt": "2026-09-27T05:39:54.615Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000005",
+      "snapshot": "sources/faq-sheet/fs-btx.json",
+      "sheet": "FS BTX",
+      "row": 27,
+      "cells": "A27:B27",
+      "capturedAt": "2026-09-27T05:39:54.615Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000005",
+      "snapshot": "sources/faq-sheet/fs-btx.json",
+      "sheet": "FS BTX",
+      "row": 27,
+      "cells": "A27:B27",
+      "capturedAt": "2026-09-27T05:39:54.615Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000005",
+        "snapshot": "sources/faq-sheet/fs-btx.json",
+        "sheet": "FS BTX",
+        "row": 27,
+        "cells": "A27:B27",
+        "capturedAt": "2026-09-27T05:39:54.615Z"
+      },
+      "fields": {
+        "question": "可以指定时间旅者谋杀吗？",
+        "answer": "可以，这时可以声明：事件发生了，但没有任何现象"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "FS BTX",
+    "关于事件",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

@@ -1,0 +1,60 @@
+{
+  "id": "7d78b893115588b3",
+  "title": "Favicon.ico",
+  "kind": "media",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "bytes": 15086,
+    "sha256": "642b6c9c075d76c74b85b623624dc42600b0b70d469813429445b0803c5c3c67"
+  },
+  "provenance": {
+    "bytes": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:Favicon.ico",
+      "snapshot": "sources/wiki/files/48073117ebca1a40.json"
+    },
+    "sha256": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:Favicon.ico",
+      "snapshot": "sources/wiki/files/48073117ebca1a40.json"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:Favicon.ico",
+      "snapshot": "sources/wiki/files/48073117ebca1a40.json"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/File:Favicon.ico",
+        "snapshot": "sources/wiki/files/48073117ebca1a40.json"
+      },
+      "fields": {
+        "bytes": 15086,
+        "sha256": "642b6c9c075d76c74b85b623624dc42600b0b70d469813429445b0803c5c3c67"
+      }
+    }
+  ],
+  "media": [
+    {
+      "title": "Favicon.ico",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:Favicon.ico",
+      "originalUrl": "https://static.wikia.nocookie.net/ucp-internal-test-starter-commons/images/6/64/Favicon.ico/revision/latest?cb=20210803103114",
+      "path": "media/wiki/48073117ebca1a40.ico",
+      "sourceRecord": "sources/wiki/files/48073117ebca1a40.json",
+      "sha256": "642b6c9c075d76c74b85b623624dc42600b0b70d469813429445b0803c5c3c67",
+      "bytes": 15086,
+      "fileInfo": "MS Windows icon resource - 3 icons, 48x48, 32 bits/pixel, 32x32, 32 bits/pixel",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "tags": [],
+  "conflicts": []
+}

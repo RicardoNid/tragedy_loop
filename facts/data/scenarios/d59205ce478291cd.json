@@ -1,0 +1,430 @@
+{
+  "id": "d59205ce478291cd",
+  "title": "AHR-12",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "AHR-12非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "AHR-12",
+    "loops": "无限",
+    "days": 3,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "医院事故"
+      },
+      {
+        "day": 2,
+        "incidentText": "遗言"
+      },
+      {
+        "day": 3,
+        "incidentText": "遗言"
+      }
+    ],
+    "剧本名": "职员的童年幻想",
+    "作者": "清尘",
+    "轮数": "n",
+    "天数": "3"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-12",
+      "snapshot": "sources/wiki/pages/222b3c4d51ba80fc.json",
+      "capturedAt": "2026-09-27T03:41:17.845Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-12",
+      "snapshot": "sources/wiki/pages/222b3c4d51ba80fc.json",
+      "capturedAt": "2026-09-27T03:41:17.845Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-12",
+      "snapshot": "sources/wiki/pages/222b3c4d51ba80fc.json",
+      "capturedAt": "2026-09-27T03:41:17.845Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-12",
+      "snapshot": "sources/wiki/pages/222b3c4d51ba80fc.json",
+      "capturedAt": "2026-09-27T03:41:17.845Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-12",
+      "snapshot": "sources/wiki/pages/222b3c4d51ba80fc.json",
+      "capturedAt": "2026-09-27T03:41:17.845Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 13
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 13
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 13
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 13
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-12",
+      "snapshot": "sources/wiki/pages/222b3c4d51ba80fc.json",
+      "capturedAt": "2026-09-27T03:41:17.845Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 13
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/011e7e0b43c78740.json",
+      "capturedAt": "2026-09-27T03:41:21.739Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-12",
+        "snapshot": "sources/wiki/pages/222b3c4d51ba80fc.json",
+        "capturedAt": "2026-09-27T03:41:17.845Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "AHR-12",
+        "loops": "无限",
+        "days": 3,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "医院事故"
+          },
+          {
+            "day": 2,
+            "incidentText": "遗言"
+          },
+          {
+            "day": 3,
+            "incidentText": "遗言"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 7,
+        "row": 13
+      },
+      "fields": {
+        "scenarioCode": "AHR-12",
+        "剧本名": "职员的童年幻想",
+        "作者": "清尘",
+        "轮数": "n",
+        "天数": "3"
+      }
+    }
+  ],
+  "wikiTitle": "AHR-12",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Another Horizon Revised"
+  ],
+  "module": "Another Horizon Revised",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "d59205ce478291cd",
+        "title": "AHR-12",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "AHR-12",
+          "loops": "无限",
+          "days": 3,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "医院事故"
+            },
+            {
+              "day": 2,
+              "incidentText": "遗言"
+            },
+            {
+              "day": 3,
+              "incidentText": "遗言"
+            }
+          ],
+          "剧本名": "职员的童年幻想",
+          "作者": "清尘",
+          "轮数": "n",
+          "天数": "3"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-12",
+            "snapshot": "sources/wiki/pages/222b3c4d51ba80fc.json",
+            "capturedAt": "2026-09-27T03:41:17.845Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-12",
+            "snapshot": "sources/wiki/pages/222b3c4d51ba80fc.json",
+            "capturedAt": "2026-09-27T03:41:17.845Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-12",
+            "snapshot": "sources/wiki/pages/222b3c4d51ba80fc.json",
+            "capturedAt": "2026-09-27T03:41:17.845Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-12",
+            "snapshot": "sources/wiki/pages/222b3c4d51ba80fc.json",
+            "capturedAt": "2026-09-27T03:41:17.845Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-12",
+            "snapshot": "sources/wiki/pages/222b3c4d51ba80fc.json",
+            "capturedAt": "2026-09-27T03:41:17.845Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 13
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 13
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 13
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 13
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-12",
+            "snapshot": "sources/wiki/pages/222b3c4d51ba80fc.json",
+            "capturedAt": "2026-09-27T03:41:17.845Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 13
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-12",
+              "snapshot": "sources/wiki/pages/222b3c4d51ba80fc.json",
+              "capturedAt": "2026-09-27T03:41:17.845Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "AHR-12",
+              "loops": "无限",
+              "days": 3,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "医院事故"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "遗言"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "遗言"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 7,
+              "row": 13
+            },
+            "fields": {
+              "scenarioCode": "AHR-12",
+              "剧本名": "职员的童年幻想",
+              "作者": "清尘",
+              "轮数": "n",
+              "天数": "3"
+            }
+          }
+        ],
+        "body": "text/scenarios/d59205ce478291cd.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-12",
+          "snapshot": "sources/wiki/pages/222b3c4d51ba80fc.json",
+          "capturedAt": "2026-09-27T03:41:17.845Z"
+        },
+        "wikiTitle": "AHR-12",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-12?action=edit&section=1"
+          },
+          {
+            "title": "AHR-12非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-12?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Another Horizon Revised"
+        ],
+        "module": "Another Horizon Revised"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "9f3bc8c7f596a83d",
+        "title": "AHR-12非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "AHR-12"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/011e7e0b43c78740.json",
+            "capturedAt": "2026-09-27T03:41:21.739Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/011e7e0b43c78740.json",
+            "capturedAt": "2026-09-27T03:41:21.739Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/011e7e0b43c78740.json",
+            "capturedAt": "2026-09-27T03:41:21.739Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/011e7e0b43c78740.json",
+              "capturedAt": "2026-09-27T03:41:21.739Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "AHR-12"
+            }
+          }
+        ],
+        "wikiTitle": "AHR-12非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Another Horizon Revised",
+        "tags": [
+          "民间",
+          "Another Horizon Revised"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "9f3bc8c7f596a83d"
+  ],
+  "conflicts": []
+}

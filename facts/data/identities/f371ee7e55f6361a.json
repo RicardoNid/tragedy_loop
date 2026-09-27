@@ -1,0 +1,65 @@
+{
+  "id": "f371ee7e55f6361a",
+  "title": "梦魇",
+  "kind": "identities",
+  "scope": "Haunted Stage",
+  "aliases": [],
+  "fields": {
+    "max": "",
+    "traits": "必定无视友好",
+    "abilities": [
+      "【强制：回合结束阶段】同一区域1名其他角色死亡。如果同一区域没有其他角色，改为该角色死亡"
+    ]
+  },
+  "provenance": {
+    "max": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage",
+      "snapshot": "sources/wiki/pages/2c5d6075f60e6bd8.json",
+      "capturedAt": "2026-09-27T03:29:39.254Z"
+    },
+    "traits": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage",
+      "snapshot": "sources/wiki/pages/2c5d6075f60e6bd8.json",
+      "capturedAt": "2026-09-27T03:29:39.254Z"
+    },
+    "abilities": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage",
+      "snapshot": "sources/wiki/pages/2c5d6075f60e6bd8.json",
+      "capturedAt": "2026-09-27T03:29:39.254Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage",
+      "snapshot": "sources/wiki/pages/2c5d6075f60e6bd8.json",
+      "capturedAt": "2026-09-27T03:29:39.254Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage",
+        "snapshot": "sources/wiki/pages/2c5d6075f60e6bd8.json",
+        "capturedAt": "2026-09-27T03:29:39.254Z"
+      },
+      "fields": {
+        "max": "",
+        "traits": "必定无视友好",
+        "abilities": [
+          "【强制：回合结束阶段】同一区域1名其他角色死亡。如果同一区域没有其他角色，改为该角色死亡"
+        ]
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "官方"
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,476 @@
+{
+  "id": "298e717510a380b9",
+  "title": "WM-17",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "WM-17非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "WM-17",
+    "loops": 4,
+    "days": 6,
+    "schedule": [
+      {
+        "day": 2,
+        "incidentText": "疯狂杀人"
+      },
+      {
+        "day": 3,
+        "incidentText": "不安扩散"
+      },
+      {
+        "day": 4,
+        "incidentText": "集体自杀"
+      },
+      {
+        "day": 5,
+        "incidentText": "暴乱"
+      },
+      {
+        "day": 6,
+        "incidentText": "发现"
+      }
+    ],
+    "剧本名": "蜕变",
+    "英文名": "Metamorphosis",
+    "作者": "Emily Forster",
+    "轮数": "4",
+    "天数": "6"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-17?oldid=1475",
+      "snapshot": "sources/wiki/pages/c518c3ef85ff5708.json",
+      "capturedAt": "2026-09-27T05:02:51.819Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-17?oldid=1475",
+      "snapshot": "sources/wiki/pages/c518c3ef85ff5708.json",
+      "capturedAt": "2026-09-27T05:02:51.819Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-17?oldid=1475",
+      "snapshot": "sources/wiki/pages/c518c3ef85ff5708.json",
+      "capturedAt": "2026-09-27T05:02:51.819Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-17?oldid=1475",
+      "snapshot": "sources/wiki/pages/c518c3ef85ff5708.json",
+      "capturedAt": "2026-09-27T05:02:51.819Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-17?oldid=1475",
+      "snapshot": "sources/wiki/pages/c518c3ef85ff5708.json",
+      "capturedAt": "2026-09-27T05:02:51.819Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 19
+    },
+    "英文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 19
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 19
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 19
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 19
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-17?oldid=1475",
+      "snapshot": "sources/wiki/pages/c518c3ef85ff5708.json",
+      "capturedAt": "2026-09-27T05:02:51.819Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 19
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-17%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1876",
+      "snapshot": "sources/wiki/pages/8d1f7d27c8ca2429.json",
+      "capturedAt": "2026-09-27T05:02:56.956Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-17?oldid=1475",
+        "snapshot": "sources/wiki/pages/c518c3ef85ff5708.json",
+        "capturedAt": "2026-09-27T05:02:51.819Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "WM-17",
+        "loops": 4,
+        "days": 6,
+        "schedule": [
+          {
+            "day": 2,
+            "incidentText": "疯狂杀人"
+          },
+          {
+            "day": 3,
+            "incidentText": "不安扩散"
+          },
+          {
+            "day": 4,
+            "incidentText": "集体自杀"
+          },
+          {
+            "day": 5,
+            "incidentText": "暴乱"
+          },
+          {
+            "day": 6,
+            "incidentText": "发现"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 6,
+        "row": 19
+      },
+      "fields": {
+        "scenarioCode": "WM-17",
+        "剧本名": "蜕变",
+        "英文名": "Metamorphosis",
+        "作者": "Emily Forster",
+        "轮数": "4",
+        "天数": "6"
+      }
+    }
+  ],
+  "wikiTitle": "WM-17",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Weird Mythology"
+  ],
+  "module": "Weird Mythology",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "298e717510a380b9",
+        "title": "WM-17",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "WM-17",
+          "loops": 4,
+          "days": 6,
+          "schedule": [
+            {
+              "day": 2,
+              "incidentText": "疯狂杀人"
+            },
+            {
+              "day": 3,
+              "incidentText": "不安扩散"
+            },
+            {
+              "day": 4,
+              "incidentText": "集体自杀"
+            },
+            {
+              "day": 5,
+              "incidentText": "暴乱"
+            },
+            {
+              "day": 6,
+              "incidentText": "发现"
+            }
+          ],
+          "剧本名": "蜕变",
+          "英文名": "Metamorphosis",
+          "作者": "Emily Forster",
+          "轮数": "4",
+          "天数": "6"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-17?oldid=1475",
+            "snapshot": "sources/wiki/pages/c518c3ef85ff5708.json",
+            "capturedAt": "2026-09-27T05:02:51.819Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-17?oldid=1475",
+            "snapshot": "sources/wiki/pages/c518c3ef85ff5708.json",
+            "capturedAt": "2026-09-27T05:02:51.819Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-17?oldid=1475",
+            "snapshot": "sources/wiki/pages/c518c3ef85ff5708.json",
+            "capturedAt": "2026-09-27T05:02:51.819Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-17?oldid=1475",
+            "snapshot": "sources/wiki/pages/c518c3ef85ff5708.json",
+            "capturedAt": "2026-09-27T05:02:51.819Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-17?oldid=1475",
+            "snapshot": "sources/wiki/pages/c518c3ef85ff5708.json",
+            "capturedAt": "2026-09-27T05:02:51.819Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 19
+          },
+          "英文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 19
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 19
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 19
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 19
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-17?oldid=1475",
+            "snapshot": "sources/wiki/pages/c518c3ef85ff5708.json",
+            "capturedAt": "2026-09-27T05:02:51.819Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 19
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-17?oldid=1475",
+              "snapshot": "sources/wiki/pages/c518c3ef85ff5708.json",
+              "capturedAt": "2026-09-27T05:02:51.819Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "WM-17",
+              "loops": 4,
+              "days": 6,
+              "schedule": [
+                {
+                  "day": 2,
+                  "incidentText": "疯狂杀人"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "不安扩散"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "集体自杀"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "暴乱"
+                },
+                {
+                  "day": 6,
+                  "incidentText": "发现"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 6,
+              "row": 19
+            },
+            "fields": {
+              "scenarioCode": "WM-17",
+              "剧本名": "蜕变",
+              "英文名": "Metamorphosis",
+              "作者": "Emily Forster",
+              "轮数": "4",
+              "天数": "6"
+            }
+          }
+        ],
+        "body": "text/scenarios/298e717510a380b9.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-17?oldid=1475",
+          "snapshot": "sources/wiki/pages/c518c3ef85ff5708.json",
+          "capturedAt": "2026-09-27T05:02:51.819Z"
+        },
+        "wikiTitle": "WM-17",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "WM-17非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-17%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-17?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Weird Mythology"
+        ],
+        "module": "Weird Mythology"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "217d9a88e15345e1",
+        "title": "WM-17非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "WM-17"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-17%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1876",
+            "snapshot": "sources/wiki/pages/8d1f7d27c8ca2429.json",
+            "capturedAt": "2026-09-27T05:02:56.956Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-17%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1876",
+            "snapshot": "sources/wiki/pages/8d1f7d27c8ca2429.json",
+            "capturedAt": "2026-09-27T05:02:56.956Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-17%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1876",
+            "snapshot": "sources/wiki/pages/8d1f7d27c8ca2429.json",
+            "capturedAt": "2026-09-27T05:02:56.956Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-17%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1876",
+              "snapshot": "sources/wiki/pages/8d1f7d27c8ca2429.json",
+              "capturedAt": "2026-09-27T05:02:56.956Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "WM-17"
+            }
+          }
+        ],
+        "wikiTitle": "WM-17非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Weird Mythology",
+        "tags": [
+          "民间",
+          "Weird Mythology"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "217d9a88e15345e1"
+  ],
+  "conflicts": []
+}

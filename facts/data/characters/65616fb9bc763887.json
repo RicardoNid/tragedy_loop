@@ -1,0 +1,218 @@
+{
+  "id": "65616fb9bc763887",
+  "title": "临时工？",
+  "kind": "characters",
+  "scope": "",
+  "aliases": [
+    "臨時工？"
+  ],
+  "fields": {
+    "角色名": "临时工？\n\n【特殊】该角色不能在剧本制作时使用",
+    "初始区域": "都市",
+    "禁行区域": "无",
+    "不安限度": "3",
+    "属性": [
+      "少女"
+    ],
+    "特性": "该角色的身份以及事件当事人的配置与临时工的配置一致。",
+    "友好能力": [
+      {
+        "text": "（友好3 1L1）公开该角色的身份，并选择同一区域的1名角色放置2枚友好指示物",
+        "threshold": 3,
+        "limitText": "1L1",
+        "oncePerLoop": true
+      }
+    ]
+  },
+  "provenance": {
+    "角色名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%87%A8%E6%99%82%E5%B7%A5%EF%BC%9F",
+      "snapshot": "sources/wiki/pages/edb4e01e31d65cb0.json",
+      "capturedAt": "2026-09-27T03:34:14.135Z"
+    },
+    "初始区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%87%A8%E6%99%82%E5%B7%A5%EF%BC%9F",
+      "snapshot": "sources/wiki/pages/edb4e01e31d65cb0.json",
+      "capturedAt": "2026-09-27T03:34:14.135Z"
+    },
+    "禁行区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%87%A8%E6%99%82%E5%B7%A5%EF%BC%9F",
+      "snapshot": "sources/wiki/pages/edb4e01e31d65cb0.json",
+      "capturedAt": "2026-09-27T03:34:14.135Z"
+    },
+    "不安限度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%87%A8%E6%99%82%E5%B7%A5%EF%BC%9F",
+      "snapshot": "sources/wiki/pages/edb4e01e31d65cb0.json",
+      "capturedAt": "2026-09-27T03:34:14.135Z"
+    },
+    "属性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%87%A8%E6%99%82%E5%B7%A5%EF%BC%9F",
+      "snapshot": "sources/wiki/pages/edb4e01e31d65cb0.json",
+      "capturedAt": "2026-09-27T03:34:14.135Z"
+    },
+    "特性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%87%A8%E6%99%82%E5%B7%A5%EF%BC%9F",
+      "snapshot": "sources/wiki/pages/edb4e01e31d65cb0.json",
+      "capturedAt": "2026-09-27T03:34:14.135Z"
+    },
+    "友好能力": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%87%A8%E6%99%82%E5%B7%A5%EF%BC%9F",
+      "snapshot": "sources/wiki/pages/edb4e01e31d65cb0.json",
+      "capturedAt": "2026-09-27T03:34:14.135Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%87%A8%E6%99%82%E5%B7%A5%EF%BC%9F",
+      "snapshot": "sources/wiki/pages/edb4e01e31d65cb0.json",
+      "capturedAt": "2026-09-27T03:34:14.135Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%87%A8%E6%99%82%E5%B7%A5%EF%BC%9F",
+        "snapshot": "sources/wiki/pages/edb4e01e31d65cb0.json",
+        "capturedAt": "2026-09-27T03:34:14.135Z"
+      },
+      "fields": {
+        "角色名": "临时工？\n\n【特殊】该角色不能在剧本制作时使用",
+        "初始区域": "都市",
+        "禁行区域": "无",
+        "不安限度": "3",
+        "属性": [
+          "少女"
+        ],
+        "特性": "该角色的身份以及事件当事人的配置与临时工的配置一致。",
+        "友好能力": [
+          {
+            "text": "（友好3 1L1）公开该角色的身份，并选择同一区域的1名角色放置2枚友好指示物",
+            "threshold": 3,
+            "limitText": "1L1",
+            "oncePerLoop": true
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "特性": "该角色不能在剧本制作时使用；该角色的身份以及事件当事人的配置与临时工的原配置一致，不继承临时工的平民覆盖；按临时工特性在回合开始阶段登场。",
+        "属性": [
+          "少女"
+        ],
+        "初始区域": "都市",
+        "禁行区域": "否",
+        "不安限度": "3",
+        "友好能力": [
+          {
+            "text": "公开该角色的身份，并选择同一区域的1名角色放置2枚友好指示物。",
+            "threshold": "3",
+            "oncePerLoop": "是"
+          }
+        ]
+      }
+    }
+  ],
+  "body": "text/characters/65616fb9bc763887.txt",
+  "bodySource": {
+    "provider": "wiki",
+    "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%87%A8%E6%99%82%E5%B7%A5%EF%BC%9F",
+    "snapshot": "sources/wiki/pages/edb4e01e31d65cb0.json",
+    "capturedAt": "2026-09-27T03:34:14.135Z"
+  },
+  "wikiTitle": "臨時工？",
+  "originalTables": [],
+  "wikiStatus": "captured",
+  "links": [
+    {
+      "title": "<img style=\"\" src=\"https://static.wikia.nocookie.net/tragedyrooper/images/5/5b/%E4%B8%B4%E6%97%B6%E5%B7%A5%EF%BC%9F_.png/revision/latest/scale-to-width-down/134?cb=20251023162227&amp;path-prefix=zh\" title=\"临时工？ .png (231 KB)\" class=\"thumbimage\" alt=\"\" height=\"185\" width=\"185\" data-image-name=\"临时工？ .png\" data-image-key=\"%E4%B8%B4%E6%97%B6%E5%B7%A5%EF%BC%9F_.png\" data-relevant=\"1\">",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E4%B8%B4%E6%97%B6%E5%B7%A5%EF%BC%9F_.png"
+    }
+  ],
+  "images": [
+    {
+      "alt": "",
+      "src": "https://static.wikia.nocookie.net/tragedyrooper/images/5/5b/%E4%B8%B4%E6%97%B6%E5%B7%A5%EF%BC%9F_.png/revision/latest/scale-to-width-down/134?cb=20251023162227&path-prefix=zh"
+    }
+  ],
+  "media": [
+    {
+      "title": "临时工？ .png",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:%E4%B8%B4%E6%97%B6%E5%B7%A5%EF%BC%9F_.png",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/5/5b/%E4%B8%B4%E6%97%B6%E5%B7%A5%EF%BC%9F_.png/revision/latest?cb=20251023162227&format=original&path-prefix=zh",
+      "path": "media/wiki/1b0df9847705e8c4.png",
+      "sourceRecord": "sources/wiki/files/1b0df9847705e8c4.json",
+      "sha256": "3747c020145d7d3a3be4f9724951ea38c51e48fff279d66aabde0ad54208cddb",
+      "bytes": 236665,
+      "fileInfo": "PNG image data, 304 x 419, 8-bit/color RGBA, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/6fadb2d7054aeea7.json",
+  "tags": [
+    "少女",
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "特性",
+      "selected": "该角色的身份以及事件当事人的配置与临时工的配置一致。",
+      "candidate": "该角色不能在剧本制作时使用；该角色的身份以及事件当事人的配置与临时工的原配置一致，不继承临时工的平民覆盖；按临时工特性在回合开始阶段登场。",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "禁行区域",
+      "selected": "无",
+      "candidate": "否",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "友好能力",
+      "selected": [
+        {
+          "text": "（友好3 1L1）公开该角色的身份，并选择同一区域的1名角色放置2枚友好指示物",
+          "threshold": 3,
+          "limitText": "1L1",
+          "oncePerLoop": true
+        }
+      ],
+      "candidate": [
+        {
+          "text": "公开该角色的身份，并选择同一区域的1名角色放置2枚友好指示物。",
+          "threshold": "3",
+          "oncePerLoop": "是"
+        }
+      ],
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    }
+  ]
+}

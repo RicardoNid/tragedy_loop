@@ -1,0 +1,82 @@
+{
+  "id": "11fe8ae6866fc77e",
+  "title": "心上人",
+  "kind": "identities",
+  "scope": "Haunted Stage Again",
+  "aliases": [],
+  "fields": {
+    "max": "",
+    "traits": "",
+    "abilities": [
+      "【强制：求爱者死亡时】往该角色身上放置6枚[不安]"
+    ]
+  },
+  "provenance": {
+    "max": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage_Again",
+      "snapshot": "sources/wiki/pages/da682a376d9880ab.json",
+      "capturedAt": "2026-09-27T03:29:42.114Z"
+    },
+    "traits": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage_Again",
+      "snapshot": "sources/wiki/pages/da682a376d9880ab.json",
+      "capturedAt": "2026-09-27T03:29:42.114Z"
+    },
+    "abilities": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage_Again",
+      "snapshot": "sources/wiki/pages/da682a376d9880ab.json",
+      "capturedAt": "2026-09-27T03:29:42.114Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage_Again",
+      "snapshot": "sources/wiki/pages/da682a376d9880ab.json",
+      "capturedAt": "2026-09-27T03:29:42.114Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage_Again",
+        "snapshot": "sources/wiki/pages/da682a376d9880ab.json",
+        "capturedAt": "2026-09-27T03:29:42.114Z"
+      },
+      "fields": {
+        "max": "",
+        "traits": "",
+        "abilities": [
+          "【强制：求爱者死亡时】往该角色身上放置6枚[不安]"
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "max": "",
+        "traits": "",
+        "abilities": [
+          "【强制：求爱者死亡时】往该角色身上放置6枚[不安]"
+        ]
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "官方"
+  ],
+  "conflicts": []
+}

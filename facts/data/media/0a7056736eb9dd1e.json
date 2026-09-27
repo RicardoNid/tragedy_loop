@@ -1,0 +1,60 @@
+{
+  "id": "0a7056736eb9dd1e",
+  "title": "职员.png",
+  "kind": "media",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "bytes": 219141,
+    "sha256": "c0b6ca85c59745b206fad409baa3a3d7dd26bcc2303607161cabcdb3fbb11e63"
+  },
+  "provenance": {
+    "bytes": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E8%81%8C%E5%91%98.png",
+      "snapshot": "sources/wiki/files/1a40dfeeaac439a0.json"
+    },
+    "sha256": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E8%81%8C%E5%91%98.png",
+      "snapshot": "sources/wiki/files/1a40dfeeaac439a0.json"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E8%81%8C%E5%91%98.png",
+      "snapshot": "sources/wiki/files/1a40dfeeaac439a0.json"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E8%81%8C%E5%91%98.png",
+        "snapshot": "sources/wiki/files/1a40dfeeaac439a0.json"
+      },
+      "fields": {
+        "bytes": 219141,
+        "sha256": "c0b6ca85c59745b206fad409baa3a3d7dd26bcc2303607161cabcdb3fbb11e63"
+      }
+    }
+  ],
+  "media": [
+    {
+      "title": "职员.png",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:%E8%81%8C%E5%91%98.png",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/6/6f/%E8%81%8C%E5%91%98.png/revision/latest?cb=20251023162228&format=original&path-prefix=zh",
+      "path": "media/wiki/1a40dfeeaac439a0.png",
+      "sourceRecord": "sources/wiki/files/1a40dfeeaac439a0.json",
+      "sha256": "c0b6ca85c59745b206fad409baa3a3d7dd26bcc2303607161cabcdb3fbb11e63",
+      "bytes": 219141,
+      "fileInfo": "PNG image data, 302 x 420, 8-bit/color RGBA, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "tags": [],
+  "conflicts": []
+}

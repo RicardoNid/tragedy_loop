@@ -1,0 +1,462 @@
+{
+  "id": "1583aeda826e3961",
+  "title": "MC-33",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "MC-33非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "MC-33",
+    "loops": 7,
+    "days": 5,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "猎奇杀人"
+      },
+      {
+        "day": 2,
+        "incidentText": "银色子弹"
+      },
+      {
+        "day": 3,
+        "incidentText": "自杀"
+      },
+      {
+        "day": 4,
+        "incidentText": "恐怖袭击"
+      },
+      {
+        "day": 5,
+        "incidentText": "医院事故"
+      }
+    ],
+    "剧本名": "二段跳",
+    "作者": "minimipool",
+    "轮数": "7",
+    "天数": "5"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-33",
+      "snapshot": "sources/wiki/pages/6b42581c0991b927.json",
+      "capturedAt": "2026-09-27T04:38:12.079Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-33",
+      "snapshot": "sources/wiki/pages/6b42581c0991b927.json",
+      "capturedAt": "2026-09-27T04:38:12.079Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-33",
+      "snapshot": "sources/wiki/pages/6b42581c0991b927.json",
+      "capturedAt": "2026-09-27T04:38:12.079Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-33",
+      "snapshot": "sources/wiki/pages/6b42581c0991b927.json",
+      "capturedAt": "2026-09-27T04:38:12.079Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-33",
+      "snapshot": "sources/wiki/pages/6b42581c0991b927.json",
+      "capturedAt": "2026-09-27T04:38:12.079Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 35
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 35
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 35
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 35
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-33",
+      "snapshot": "sources/wiki/pages/6b42581c0991b927.json",
+      "capturedAt": "2026-09-27T04:38:12.079Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 35
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-33%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/fdf823b3da7e8dab.json",
+      "capturedAt": "2026-09-27T04:38:15.453Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-33",
+        "snapshot": "sources/wiki/pages/6b42581c0991b927.json",
+        "capturedAt": "2026-09-27T04:38:12.079Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "MC-33",
+        "loops": 7,
+        "days": 5,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "猎奇杀人"
+          },
+          {
+            "day": 2,
+            "incidentText": "银色子弹"
+          },
+          {
+            "day": 3,
+            "incidentText": "自杀"
+          },
+          {
+            "day": 4,
+            "incidentText": "恐怖袭击"
+          },
+          {
+            "day": 5,
+            "incidentText": "医院事故"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 4,
+        "row": 35
+      },
+      "fields": {
+        "scenarioCode": "MC-33",
+        "剧本名": "二段跳",
+        "作者": "minimipool",
+        "轮数": "7",
+        "天数": "5"
+      }
+    }
+  ],
+  "wikiTitle": "MC-33",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Mystery Circle"
+  ],
+  "module": "Mystery Circle",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "1583aeda826e3961",
+        "title": "MC-33",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "MC-33",
+          "loops": 7,
+          "days": 5,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "猎奇杀人"
+            },
+            {
+              "day": 2,
+              "incidentText": "银色子弹"
+            },
+            {
+              "day": 3,
+              "incidentText": "自杀"
+            },
+            {
+              "day": 4,
+              "incidentText": "恐怖袭击"
+            },
+            {
+              "day": 5,
+              "incidentText": "医院事故"
+            }
+          ],
+          "剧本名": "二段跳",
+          "作者": "minimipool",
+          "轮数": "7",
+          "天数": "5"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-33",
+            "snapshot": "sources/wiki/pages/6b42581c0991b927.json",
+            "capturedAt": "2026-09-27T04:38:12.079Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-33",
+            "snapshot": "sources/wiki/pages/6b42581c0991b927.json",
+            "capturedAt": "2026-09-27T04:38:12.079Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-33",
+            "snapshot": "sources/wiki/pages/6b42581c0991b927.json",
+            "capturedAt": "2026-09-27T04:38:12.079Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-33",
+            "snapshot": "sources/wiki/pages/6b42581c0991b927.json",
+            "capturedAt": "2026-09-27T04:38:12.079Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-33",
+            "snapshot": "sources/wiki/pages/6b42581c0991b927.json",
+            "capturedAt": "2026-09-27T04:38:12.079Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 35
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 35
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 35
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 35
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-33",
+            "snapshot": "sources/wiki/pages/6b42581c0991b927.json",
+            "capturedAt": "2026-09-27T04:38:12.079Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 35
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-33",
+              "snapshot": "sources/wiki/pages/6b42581c0991b927.json",
+              "capturedAt": "2026-09-27T04:38:12.079Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "MC-33",
+              "loops": 7,
+              "days": 5,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "猎奇杀人"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "银色子弹"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "自杀"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "恐怖袭击"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "医院事故"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 4,
+              "row": 35
+            },
+            "fields": {
+              "scenarioCode": "MC-33",
+              "剧本名": "二段跳",
+              "作者": "minimipool",
+              "轮数": "7",
+              "天数": "5"
+            }
+          }
+        ],
+        "body": "text/scenarios/1583aeda826e3961.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-33",
+          "snapshot": "sources/wiki/pages/6b42581c0991b927.json",
+          "capturedAt": "2026-09-27T04:38:12.079Z"
+        },
+        "wikiTitle": "MC-33",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-33?action=edit&section=1"
+          },
+          {
+            "title": "MC-33非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-33%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-33?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Mystery Circle"
+        ],
+        "module": "Mystery Circle"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "07d7d7e7d346cc9e",
+        "title": "MC-33非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "MC-33"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-33%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/fdf823b3da7e8dab.json",
+            "capturedAt": "2026-09-27T04:38:15.453Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-33%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/fdf823b3da7e8dab.json",
+            "capturedAt": "2026-09-27T04:38:15.453Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-33%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/fdf823b3da7e8dab.json",
+            "capturedAt": "2026-09-27T04:38:15.453Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-33%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/fdf823b3da7e8dab.json",
+              "capturedAt": "2026-09-27T04:38:15.453Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "MC-33"
+            }
+          }
+        ],
+        "wikiTitle": "MC-33非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Mystery Circle",
+        "tags": [
+          "民间",
+          "Mystery Circle"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "07d7d7e7d346cc9e"
+  ],
+  "conflicts": []
+}

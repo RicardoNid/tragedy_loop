@@ -1,0 +1,174 @@
+{
+  "id": "1148739f85b92703",
+  "title": "UM-08",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "scenarioCode": "UM-08",
+    "剧本名": "UM一日",
+    "作者": "云端栗子",
+    "轮数": "n",
+    "天数": "1"
+  },
+  "provenance": {
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+      "table": 3,
+      "row": 9
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+      "table": 3,
+      "row": 9
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+      "table": 3,
+      "row": 9
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+      "table": 3,
+      "row": 9
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+      "table": 3,
+      "row": 9
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+      "table": 3,
+      "row": 9
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+        "table": 3,
+        "row": 9
+      },
+      "fields": {
+        "scenarioCode": "UM-08",
+        "剧本名": "UM一日",
+        "作者": "云端栗子",
+        "轮数": "n",
+        "天数": "1"
+      }
+    }
+  ],
+  "tags": [
+    "民间模组/旧模组剧本",
+    "Unheard Malice"
+  ],
+  "module": "Unheard Malice",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "1148739f85b92703",
+        "title": "UM-08",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "scenarioCode": "UM-08",
+          "剧本名": "UM一日",
+          "作者": "云端栗子",
+          "轮数": "n",
+          "天数": "1"
+        },
+        "provenance": {
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+            "table": 3,
+            "row": 9
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+            "table": 3,
+            "row": 9
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+            "table": 3,
+            "row": 9
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+            "table": 3,
+            "row": 9
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+            "table": 3,
+            "row": 9
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+            "table": 3,
+            "row": 9
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+              "table": 3,
+              "row": 9
+            },
+            "fields": {
+              "scenarioCode": "UM-08",
+              "剧本名": "UM一日",
+              "作者": "云端栗子",
+              "轮数": "n",
+              "天数": "1"
+            }
+          }
+        ],
+        "tags": [
+          "民间模组/旧模组剧本",
+          "Unheard Malice"
+        ],
+        "module": "Unheard Malice"
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [],
+  "conflicts": []
+}

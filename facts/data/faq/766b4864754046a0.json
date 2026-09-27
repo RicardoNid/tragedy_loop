@@ -1,0 +1,60 @@
+{
+  "id": "766b4864754046a0",
+  "title": "密輸身份能力中的「次日或者本輪輪迴最終日」究竟是什麼意思？",
+  "kind": "faq",
+  "scope": "纸质 FAQ / LL / Q12",
+  "aliases": [],
+  "fields": {
+    "question": "密輸身份能力中的「次日或者本輪輪迴最終日」究竟是什麼意思？",
+    "answer": "這是為確保即使在最後一天才觸發密輸的身份能力，劇作家也能正常獲勝。如果在某輪輪迴的最後一天觸發，那麼當天的回合結束階段主人公就會死亡。"
+  },
+  "provenance": {
+    "question": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+      "snapshot": "sources/paper-faq/last-liar.json",
+      "page": 14,
+      "questionNumber": 12
+    },
+    "answer": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+      "snapshot": "sources/paper-faq/last-liar.json",
+      "page": 14,
+      "questionNumber": 12
+    }
+  },
+  "sources": [
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+      "snapshot": "sources/paper-faq/last-liar.json",
+      "page": 14,
+      "questionNumber": 12
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+        "snapshot": "sources/paper-faq/last-liar.json",
+        "page": 14,
+        "questionNumber": 12
+      },
+      "fields": {
+        "question": "密輸身份能力中的「次日或者本輪輪迴最終日」究竟是什麼意思？",
+        "answer": "這是為確保即使在最後一天才觸發密輸的身份能力，劇作家也能正常獲勝。如果在某輪輪迴的最後一天觸發，那麼當天的回合結束階段主人公就會死亡。"
+      }
+    }
+  ],
+  "tags": [
+    "LL",
+    "纸质 FAQ",
+    "身份与事件",
+    "官方"
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+  "conflicts": []
+}

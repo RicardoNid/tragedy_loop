@@ -1,0 +1,60 @@
+{
+  "id": "e685f5168edbcacb",
+  "title": "主人公死亡的效果觸發時，背叛者會死嗎？比如，醫院事故的第1個效果導致背叛者A達成勝利條件，而第2個效果又導致主人公死亡，那麼背叛者能獲勝嗎？",
+  "kind": "faq",
+  "scope": "纸质 FAQ / LL / Q2",
+  "aliases": [],
+  "fields": {
+    "question": "主人公死亡的效果觸發時，背叛者會死嗎？比如，醫院事故的第1個效果導致背叛者A達成勝利條件，而第2個效果又導致主人公死亡，那麼背叛者能獲勝嗎？",
+    "answer": "背叛者因為也是主人公，所以會一起死亡。在這個例子中，由於還沒有到達回合結束階段，因此特殊勝利的判定會延至下一輪迴第1天的回合結束階段進行。如果這個輪迴就是最終輪迴的話，從結果而言背叛者輸了。"
+  },
+  "provenance": {
+    "question": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+      "snapshot": "sources/paper-faq/last-liar.json",
+      "page": 13,
+      "questionNumber": 2
+    },
+    "answer": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+      "snapshot": "sources/paper-faq/last-liar.json",
+      "page": 13,
+      "questionNumber": 2
+    }
+  },
+  "sources": [
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+      "snapshot": "sources/paper-faq/last-liar.json",
+      "page": 13,
+      "questionNumber": 2
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+        "snapshot": "sources/paper-faq/last-liar.json",
+        "page": 13,
+        "questionNumber": 2
+      },
+      "fields": {
+        "question": "主人公死亡的效果觸發時，背叛者會死嗎？比如，醫院事故的第1個效果導致背叛者A達成勝利條件，而第2個效果又導致主人公死亡，那麼背叛者能獲勝嗎？",
+        "answer": "背叛者因為也是主人公，所以會一起死亡。在這個例子中，由於還沒有到達回合結束階段，因此特殊勝利的判定會延至下一輪迴第1天的回合結束階段進行。如果這個輪迴就是最終輪迴的話，從結果而言背叛者輸了。"
+      }
+    }
+  ],
+  "tags": [
+    "LL",
+    "纸质 FAQ",
+    "规则",
+    "官方"
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+  "conflicts": []
+}

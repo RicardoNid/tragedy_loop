@@ -1,0 +1,67 @@
+{
+  "id": "487b2e79f35b8d57",
+  "title": "亲友",
+  "kind": "identities",
+  "scope": "Basic Tragedy",
+  "aliases": [],
+  "fields": {
+    "max": "②",
+    "traits": "",
+    "abilities": [
+      "【失败条件：轮回结束时】该卡牌为死亡状态，此时，需要告知主人公该卡牌的身份",
+      "【强制：轮回开始时】该角色身份曾被公开→往该角色身上放置1枚[友好]"
+    ]
+  },
+  "provenance": {
+    "max": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy",
+      "snapshot": "sources/wiki/pages/c5967c2abd41a1b6.json",
+      "capturedAt": "2026-09-27T03:28:26.906Z"
+    },
+    "traits": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy",
+      "snapshot": "sources/wiki/pages/c5967c2abd41a1b6.json",
+      "capturedAt": "2026-09-27T03:28:26.906Z"
+    },
+    "abilities": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy",
+      "snapshot": "sources/wiki/pages/c5967c2abd41a1b6.json",
+      "capturedAt": "2026-09-27T03:28:26.906Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy",
+      "snapshot": "sources/wiki/pages/c5967c2abd41a1b6.json",
+      "capturedAt": "2026-09-27T03:28:26.906Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy",
+        "snapshot": "sources/wiki/pages/c5967c2abd41a1b6.json",
+        "capturedAt": "2026-09-27T03:28:26.906Z"
+      },
+      "fields": {
+        "max": "②",
+        "traits": "",
+        "abilities": [
+          "【失败条件：轮回结束时】该卡牌为死亡状态，此时，需要告知主人公该卡牌的身份",
+          "【强制：轮回开始时】该角色身份曾被公开→往该角色身上放置1枚[友好]"
+        ]
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "官方"
+  ],
+  "conflicts": []
+}

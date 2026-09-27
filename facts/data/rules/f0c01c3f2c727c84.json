@@ -1,0 +1,57 @@
+{
+  "id": "f0c01c3f2c727c84",
+  "title": "超越世界线",
+  "kind": "rules",
+  "scope": "Basic Tragedy X Plus",
+  "aliases": [],
+  "fields": {
+    "effect": "【强制：轮回开始时】偶数轮轮回开始时，剧作家获得[绝望+1]，最终轮轮回开始时，主人公获得[希望+1]",
+    "ruleType": "X",
+    "identityConfigurationText": "传谣人1"
+  },
+  "provenance": {
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%8D%81%E5%91%A8%E5%B9%B4%E8%A7%84%E5%88%99",
+      "snapshot": "sources/wiki/pages/64edfee587f8aad7.json"
+    },
+    "ruleType": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%8D%81%E5%91%A8%E5%B9%B4%E8%A7%84%E5%88%99",
+      "snapshot": "sources/wiki/pages/64edfee587f8aad7.json"
+    },
+    "identityConfigurationText": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%8D%81%E5%91%A8%E5%B9%B4%E8%A7%84%E5%88%99",
+      "snapshot": "sources/wiki/pages/64edfee587f8aad7.json"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%8D%81%E5%91%A8%E5%B9%B4%E8%A7%84%E5%88%99",
+      "snapshot": "sources/wiki/pages/64edfee587f8aad7.json"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%8D%81%E5%91%A8%E5%B9%B4%E8%A7%84%E5%88%99",
+        "snapshot": "sources/wiki/pages/64edfee587f8aad7.json"
+      },
+      "fields": {
+        "effect": "【强制：轮回开始时】偶数轮轮回开始时，剧作家获得[绝望+1]，最终轮轮回开始时，主人公获得[希望+1]",
+        "ruleType": "X",
+        "identityConfigurationText": "传谣人1"
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "X",
+    "官方"
+  ],
+  "conflicts": []
+}

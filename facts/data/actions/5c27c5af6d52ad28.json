@@ -1,0 +1,254 @@
+{
+  "id": "5c27c5af6d52ad28",
+  "title": "希望+1",
+  "kind": "actions",
+  "scope": "主人公额外手牌（特殊模组或规则下启用）",
+  "aliases": [],
+  "fields": {
+    "effect": "1. 增加1个希望指示物，其持续效果按下方通则处理 2. 多张希望+1同时打出时，结算时均视为友好+1，结算后回到主人公手牌 3. 作为希望+1结算后，所有人的希望+1从游戏中除外",
+    "count": "1",
+    "oncePerLoop": "按照效果2、3特殊结算"
+  },
+  "provenance": {
+    "effect": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    },
+    "count": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    },
+    "oncePerLoop": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  },
+  "sources": [
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "effect": "1. 增加1个希望指示物，其持续效果按下方通则处理 2. 多张希望+1同时打出时，结算时均视为友好+1，结算后回到主人公手牌 3. 作为希望+1结算后，所有人的希望+1从游戏中除外",
+        "count": "1",
+        "oncePerLoop": "按照效果2、3特殊结算"
+      }
+    }
+  ],
+  "actionSide": "主人公",
+  "availability": [
+    {
+      "module": "AHR",
+      "state": "conditional",
+      "condition": "超越世界线\t\t\t\t\t\t\t\t\t\t\t①\t\t\t【强制：轮回开始时】偶数轮轮回开始时，剧作家获得[绝望+1]，最终轮轮回开始时，主人公获得[希望+1]",
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon_Revised",
+        "snapshot": "sources/wiki/pages/5a4c2d8594c08b1e.json"
+      }
+    },
+    {
+      "module": "AHR",
+      "state": "conditional",
+      "condition": "【强制：轮回开始时】若上轮轮回结束时Ex槽为3或以上→主人公获得[希望+1]",
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon_Revised",
+        "snapshot": "sources/wiki/pages/5a4c2d8594c08b1e.json"
+      }
+    },
+    {
+      "module": "AHR",
+      "state": "conditional",
+      "condition": "【强制：轮回开始时】若该角色在上轮轮回结束时存活并且身上有2枚或以上的[友好]，主人公获得[希望+1]",
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon_Revised",
+        "snapshot": "sources/wiki/pages/5a4c2d8594c08b1e.json"
+      }
+    },
+    {
+      "module": "AHR",
+      "state": "conditional",
+      "condition": "遗言\t当事人死亡，下轮轮回开始时，主人公获得[希望+1]",
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon_Revised",
+        "snapshot": "sources/wiki/pages/5a4c2d8594c08b1e.json"
+      }
+    },
+    {
+      "module": "FS+",
+      "state": "conditional",
+      "condition": "超越世界线\t传谣人1\t【强制：轮回开始时】偶数轮轮回开始时，剧作家获得[绝望+1]，最终轮轮回开始时，主人公获得[希望+1]",
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%8D%81%E5%91%A8%E5%B9%B4%E8%A7%84%E5%88%99",
+        "snapshot": "sources/wiki/pages/64edfee587f8aad7.json"
+      }
+    },
+    {
+      "module": "BTX+",
+      "state": "conditional",
+      "condition": "超越世界线\t传谣人1\t【强制：轮回开始时】偶数轮轮回开始时，剧作家获得[绝望+1]，最终轮轮回开始时，主人公获得[希望+1]",
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%8D%81%E5%91%A8%E5%B9%B4%E8%A7%84%E5%88%99",
+        "snapshot": "sources/wiki/pages/64edfee587f8aad7.json"
+      }
+    },
+    {
+      "module": "MZ+",
+      "state": "conditional",
+      "condition": "超越世界线\t传谣人1\t【强制：轮回开始时】偶数轮轮回开始时，剧作家获得[绝望+1]，最终轮轮回开始时，主人公获得[希望+1]",
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%8D%81%E5%91%A8%E5%B9%B4%E8%A7%84%E5%88%99",
+        "snapshot": "sources/wiki/pages/64edfee587f8aad7.json"
+      }
+    },
+    {
+      "module": "MC+",
+      "state": "conditional",
+      "condition": "超越世界线\t传谣人1\t【强制：轮回开始时】偶数轮轮回开始时，剧作家获得[绝望+1]，最终轮轮回开始时，主人公获得[希望+1]",
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%8D%81%E5%91%A8%E5%B9%B4%E8%A7%84%E5%88%99",
+        "snapshot": "sources/wiki/pages/64edfee587f8aad7.json"
+      }
+    },
+    {
+      "module": "HSA+",
+      "state": "conditional",
+      "condition": "超越世界线\t传谣人1\t【强制：轮回开始时】偶数轮轮回开始时，剧作家获得[绝望+1]，最终轮轮回开始时，主人公获得[希望+1]",
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%8D%81%E5%91%A8%E5%B9%B4%E8%A7%84%E5%88%99",
+        "snapshot": "sources/wiki/pages/64edfee587f8aad7.json"
+      }
+    },
+    {
+      "module": "WM+",
+      "state": "conditional",
+      "condition": "超越世界线\t传谣人1\t【强制：轮回开始时】偶数轮轮回开始时，剧作家获得[绝望+1]，最终轮轮回开始时，主人公获得[希望+1]",
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%8D%81%E5%91%A8%E5%B9%B4%E8%A7%84%E5%88%99",
+        "snapshot": "sources/wiki/pages/64edfee587f8aad7.json"
+      }
+    },
+    {
+      "module": "FS+",
+      "state": "conditional",
+      "condition": "【强制：轮回开始时】若该角色上轮轮回结束时存活并且身上有2枚或以上的[友好]，主人公获得[希望+1]",
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%8D%81%E5%91%A8%E5%B9%B4%E8%A7%84%E5%88%99",
+        "snapshot": "sources/wiki/pages/64edfee587f8aad7.json"
+      }
+    },
+    {
+      "module": "BTX+",
+      "state": "conditional",
+      "condition": "【强制：轮回开始时】若该角色上轮轮回结束时存活并且身上有2枚或以上的[友好]，主人公获得[希望+1]",
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%8D%81%E5%91%A8%E5%B9%B4%E8%A7%84%E5%88%99",
+        "snapshot": "sources/wiki/pages/64edfee587f8aad7.json"
+      }
+    },
+    {
+      "module": "MZ+",
+      "state": "conditional",
+      "condition": "【强制：轮回开始时】若该角色上轮轮回结束时存活并且身上有2枚或以上的[友好]，主人公获得[希望+1]",
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%8D%81%E5%91%A8%E5%B9%B4%E8%A7%84%E5%88%99",
+        "snapshot": "sources/wiki/pages/64edfee587f8aad7.json"
+      }
+    },
+    {
+      "module": "MC+",
+      "state": "conditional",
+      "condition": "【强制：轮回开始时】若该角色上轮轮回结束时存活并且身上有2枚或以上的[友好]，主人公获得[希望+1]",
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%8D%81%E5%91%A8%E5%B9%B4%E8%A7%84%E5%88%99",
+        "snapshot": "sources/wiki/pages/64edfee587f8aad7.json"
+      }
+    },
+    {
+      "module": "HSA+",
+      "state": "conditional",
+      "condition": "【强制：轮回开始时】若该角色上轮轮回结束时存活并且身上有2枚或以上的[友好]，主人公获得[希望+1]",
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%8D%81%E5%91%A8%E5%B9%B4%E8%A7%84%E5%88%99",
+        "snapshot": "sources/wiki/pages/64edfee587f8aad7.json"
+      }
+    },
+    {
+      "module": "WM+",
+      "state": "conditional",
+      "condition": "【强制：轮回开始时】若该角色上轮轮回结束时存活并且身上有2枚或以上的[友好]，主人公获得[希望+1]",
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%8D%81%E5%91%A8%E5%B9%B4%E8%A7%84%E5%88%99",
+        "snapshot": "sources/wiki/pages/64edfee587f8aad7.json"
+      }
+    },
+    {
+      "module": "LL",
+      "state": "conditional",
+      "condition": "超越世界线\t\t\t\t\t\t\t\t\t\t①\t\t\t【强制：轮回开始时】偶数轮轮回开始时，剧作家获得[绝望+1]，最终轮轮回开始时，主人公获得[希望+1]",
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Last_Liar",
+        "snapshot": "sources/wiki/pages/844cae1ed2f5e214.json"
+      }
+    },
+    {
+      "module": "LL",
+      "state": "conditional",
+      "condition": "【强制：轮回开始时】若该角色上轮轮回结束时存活并且身上有2枚或以上的[友好]，主人公获得[希望+1]",
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Last_Liar",
+        "snapshot": "sources/wiki/pages/844cae1ed2f5e214.json"
+      }
+    },
+    {
+      "module": "LL",
+      "state": "conditional",
+      "condition": "遗言\t当事人死亡，下轮轮回开始时，主人公获得[希望+1]",
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Last_Liar",
+        "snapshot": "sources/wiki/pages/844cae1ed2f5e214.json"
+      }
+    }
+  ],
+  "baseAction": false,
+  "authority": "官方",
+  "tags": [
+    "扩展行动牌",
+    "主人公",
+    "AHR",
+    "FS+",
+    "BTX+",
+    "MZ+",
+    "MC+",
+    "HSA+",
+    "WM+",
+    "LL",
+    "官方"
+  ],
+  "conflicts": []
+}

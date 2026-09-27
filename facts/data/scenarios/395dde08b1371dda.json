@@ -1,0 +1,536 @@
+{
+  "id": "395dde08b1371dda",
+  "title": "MZ-34",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "MZ-34非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "MZ-34",
+    "loops": 5,
+    "days": 7,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "不安扩散"
+      },
+      {
+        "day": 2,
+        "incidentText": "自杀"
+      },
+      {
+        "day": 3,
+        "incidentText": "不安扩散"
+      },
+      {
+        "day": 4,
+        "incidentText": "阴谋活动"
+      },
+      {
+        "day": 5,
+        "incidentText": "不安扩散"
+      },
+      {
+        "day": 6,
+        "incidentText": "阴谋活动"
+      },
+      {
+        "day": 7,
+        "incidentText": "破局"
+      }
+    ],
+    "剧本名": "疑云沉醉之地",
+    "作者": "海象妈妈",
+    "轮数": "5 4",
+    "天数": "7"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-34",
+      "snapshot": "sources/wiki/pages/3814f399de7dd749.json",
+      "capturedAt": "2026-09-27T04:46:50.600Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-34",
+      "snapshot": "sources/wiki/pages/3814f399de7dd749.json",
+      "capturedAt": "2026-09-27T04:46:50.600Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-34",
+      "snapshot": "sources/wiki/pages/3814f399de7dd749.json",
+      "capturedAt": "2026-09-27T04:46:50.600Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-34",
+      "snapshot": "sources/wiki/pages/3814f399de7dd749.json",
+      "capturedAt": "2026-09-27T04:46:50.600Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-34",
+      "snapshot": "sources/wiki/pages/3814f399de7dd749.json",
+      "capturedAt": "2026-09-27T04:46:50.600Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 36
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 36
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 36
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 36
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-34",
+      "snapshot": "sources/wiki/pages/3814f399de7dd749.json",
+      "capturedAt": "2026-09-27T04:46:50.600Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 36
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-34%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/a30b7d7018c2881a.json",
+      "capturedAt": "2026-09-27T04:46:53.773Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-34",
+        "snapshot": "sources/wiki/pages/3814f399de7dd749.json",
+        "capturedAt": "2026-09-27T04:46:50.600Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "MZ-34",
+        "loops": 5,
+        "days": 7,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "不安扩散"
+          },
+          {
+            "day": 2,
+            "incidentText": "自杀"
+          },
+          {
+            "day": 3,
+            "incidentText": "不安扩散"
+          },
+          {
+            "day": 4,
+            "incidentText": "阴谋活动"
+          },
+          {
+            "day": 5,
+            "incidentText": "不安扩散"
+          },
+          {
+            "day": 6,
+            "incidentText": "阴谋活动"
+          },
+          {
+            "day": 7,
+            "incidentText": "破局"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 3,
+        "row": 36
+      },
+      "fields": {
+        "scenarioCode": "MZ-34",
+        "剧本名": "疑云沉醉之地",
+        "作者": "海象妈妈",
+        "轮数": "5 4",
+        "天数": "7"
+      }
+    }
+  ],
+  "wikiTitle": "MZ-34",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Midnight Zone"
+  ],
+  "module": "Midnight Zone",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "395dde08b1371dda",
+        "title": "MZ-34",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "MZ-34",
+          "loops": 5,
+          "days": 7,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "不安扩散"
+            },
+            {
+              "day": 2,
+              "incidentText": "自杀"
+            },
+            {
+              "day": 3,
+              "incidentText": "不安扩散"
+            },
+            {
+              "day": 4,
+              "incidentText": "阴谋活动"
+            },
+            {
+              "day": 5,
+              "incidentText": "不安扩散"
+            },
+            {
+              "day": 6,
+              "incidentText": "阴谋活动"
+            },
+            {
+              "day": 7,
+              "incidentText": "破局"
+            }
+          ],
+          "剧本名": "疑云沉醉之地",
+          "作者": "海象妈妈",
+          "轮数": "5 4",
+          "天数": "7"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-34",
+            "snapshot": "sources/wiki/pages/3814f399de7dd749.json",
+            "capturedAt": "2026-09-27T04:46:50.600Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-34",
+            "snapshot": "sources/wiki/pages/3814f399de7dd749.json",
+            "capturedAt": "2026-09-27T04:46:50.600Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-34",
+            "snapshot": "sources/wiki/pages/3814f399de7dd749.json",
+            "capturedAt": "2026-09-27T04:46:50.600Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-34",
+            "snapshot": "sources/wiki/pages/3814f399de7dd749.json",
+            "capturedAt": "2026-09-27T04:46:50.600Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-34",
+            "snapshot": "sources/wiki/pages/3814f399de7dd749.json",
+            "capturedAt": "2026-09-27T04:46:50.600Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 36
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 36
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 36
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 36
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-34",
+            "snapshot": "sources/wiki/pages/3814f399de7dd749.json",
+            "capturedAt": "2026-09-27T04:46:50.600Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 36
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-34",
+              "snapshot": "sources/wiki/pages/3814f399de7dd749.json",
+              "capturedAt": "2026-09-27T04:46:50.600Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "MZ-34",
+              "loops": 5,
+              "days": 7,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "不安扩散"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "自杀"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "不安扩散"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "阴谋活动"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "不安扩散"
+                },
+                {
+                  "day": 6,
+                  "incidentText": "阴谋活动"
+                },
+                {
+                  "day": 7,
+                  "incidentText": "破局"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 3,
+              "row": 36
+            },
+            "fields": {
+              "scenarioCode": "MZ-34",
+              "剧本名": "疑云沉醉之地",
+              "作者": "海象妈妈",
+              "轮数": "5 4",
+              "天数": "7"
+            }
+          }
+        ],
+        "body": "text/scenarios/395dde08b1371dda.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-34",
+          "snapshot": "sources/wiki/pages/3814f399de7dd749.json",
+          "capturedAt": "2026-09-27T04:46:50.600Z"
+        },
+        "wikiTitle": "MZ-34",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "MZ-34非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-34%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-34?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Midnight Zone"
+        ],
+        "module": "Midnight Zone"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "2ea8a9bd5171b4fa",
+        "title": "MZ-34非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "MZ-34",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "男子汉的战争"
+            },
+            {
+              "slot": "X1",
+              "name": "KAI异因子"
+            },
+            {
+              "slot": "X2",
+              "name": "魔女们的茶会"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-34%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/a30b7d7018c2881a.json",
+            "capturedAt": "2026-09-27T04:46:53.773Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-34%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/a30b7d7018c2881a.json",
+            "capturedAt": "2026-09-27T04:46:53.773Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-34%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/a30b7d7018c2881a.json",
+            "capturedAt": "2026-09-27T04:46:53.773Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-34%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/a30b7d7018c2881a.json",
+            "capturedAt": "2026-09-27T04:46:53.773Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-34%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/a30b7d7018c2881a.json",
+              "capturedAt": "2026-09-27T04:46:53.773Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "MZ-34",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "男子汉的战争"
+                },
+                {
+                  "slot": "X1",
+                  "name": "KAI异因子"
+                },
+                {
+                  "slot": "X2",
+                  "name": "魔女们的茶会"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/2ea8a9bd5171b4fa.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-34%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/a30b7d7018c2881a.json",
+          "capturedAt": "2026-09-27T04:46:53.773Z"
+        },
+        "wikiTitle": "MZ-34非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-34%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Midnight Zone",
+        "tags": [
+          "民间",
+          "Midnight Zone"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "2ea8a9bd5171b4fa"
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,245 @@
+{
+  "id": "bd9f5e4dd428366b",
+  "title": "幻想",
+  "kind": "characters",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "角色名": "幻想",
+    "初始区域": "神社",
+    "禁行区域": "无",
+    "不安限度": "3",
+    "属性": [
+      "虚构",
+      "女性"
+    ],
+    "特性": "無法在該角色身上放置行動牌。在与该角色所在区域对应的版图上放置的行动牌，同样会作用于该角色。",
+    "友好能力": [
+      {
+        "text": "（友好3 1L1）將同一區域任意1名角色移動至任意版图。",
+        "threshold": 3,
+        "limitText": "1L1",
+        "oncePerLoop": true
+      },
+      {
+        "text": "（友好4）將該角色從版圖上移除。",
+        "threshold": 4,
+        "limitText": ""
+      }
+    ]
+  },
+  "provenance": {
+    "角色名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%B9%BB%E6%83%B3",
+      "snapshot": "sources/wiki/pages/b19619f2baa37b58.json",
+      "capturedAt": "2026-09-27T03:32:40.938Z"
+    },
+    "初始区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%B9%BB%E6%83%B3",
+      "snapshot": "sources/wiki/pages/b19619f2baa37b58.json",
+      "capturedAt": "2026-09-27T03:32:40.938Z"
+    },
+    "禁行区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%B9%BB%E6%83%B3",
+      "snapshot": "sources/wiki/pages/b19619f2baa37b58.json",
+      "capturedAt": "2026-09-27T03:32:40.938Z"
+    },
+    "不安限度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%B9%BB%E6%83%B3",
+      "snapshot": "sources/wiki/pages/b19619f2baa37b58.json",
+      "capturedAt": "2026-09-27T03:32:40.938Z"
+    },
+    "属性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%B9%BB%E6%83%B3",
+      "snapshot": "sources/wiki/pages/b19619f2baa37b58.json",
+      "capturedAt": "2026-09-27T03:32:40.938Z"
+    },
+    "特性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%B9%BB%E6%83%B3",
+      "snapshot": "sources/wiki/pages/b19619f2baa37b58.json",
+      "capturedAt": "2026-09-27T03:32:40.938Z"
+    },
+    "友好能力": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%B9%BB%E6%83%B3",
+      "snapshot": "sources/wiki/pages/b19619f2baa37b58.json",
+      "capturedAt": "2026-09-27T03:32:40.938Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%B9%BB%E6%83%B3",
+      "snapshot": "sources/wiki/pages/b19619f2baa37b58.json",
+      "capturedAt": "2026-09-27T03:32:40.938Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%B9%BB%E6%83%B3",
+        "snapshot": "sources/wiki/pages/b19619f2baa37b58.json",
+        "capturedAt": "2026-09-27T03:32:40.938Z"
+      },
+      "fields": {
+        "角色名": "幻想",
+        "初始区域": "神社",
+        "禁行区域": "无",
+        "不安限度": "3",
+        "属性": [
+          "虚构",
+          "女性"
+        ],
+        "特性": "無法在該角色身上放置行動牌。在与该角色所在区域对应的版图上放置的行动牌，同样会作用于该角色。",
+        "友好能力": [
+          {
+            "text": "（友好3 1L1）將同一區域任意1名角色移動至任意版图。",
+            "threshold": 3,
+            "limitText": "1L1",
+            "oncePerLoop": true
+          },
+          {
+            "text": "（友好4）將該角色從版圖上移除。",
+            "threshold": 4,
+            "limitText": ""
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "特性": "无法在该角色身上放置行动牌。在与该角色所在区域对应的版图上放置的行动牌，同样会作用于该角色。",
+        "属性": [
+          "虚构",
+          "女性"
+        ],
+        "初始区域": "神社",
+        "禁行区域": "否",
+        "不安限度": "3",
+        "友好能力": [
+          {
+            "text": "将同一区域任意1名角色移动至任意版图",
+            "threshold": "3",
+            "oncePerLoop": "是"
+          },
+          {
+            "text": "将该角色从版图上移除",
+            "threshold": "4",
+            "oncePerLoop": ""
+          }
+        ]
+      }
+    }
+  ],
+  "body": "text/characters/bd9f5e4dd428366b.txt",
+  "bodySource": {
+    "provider": "wiki",
+    "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%B9%BB%E6%83%B3",
+    "snapshot": "sources/wiki/pages/b19619f2baa37b58.json",
+    "capturedAt": "2026-09-27T03:32:40.938Z"
+  },
+  "wikiTitle": "幻想",
+  "originalTables": [],
+  "wikiStatus": "captured",
+  "links": [
+    {
+      "title": "<img style=\"\" src=\"https://static.wikia.nocookie.net/tragedyrooper/images/4/42/%E5%B9%BB%E6%83%B3.png/revision/latest/scale-to-width-down/134?cb=20251023162225&amp;path-prefix=zh\" title=\"幻想.png (271 KB)\" class=\"thumbimage\" alt=\"\" height=\"185\" width=\"185\" data-image-name=\"幻想.png\" data-image-key=\"%E5%B9%BB%E6%83%B3.png\" data-relevant=\"1\">",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%B9%BB%E6%83%B3.png"
+    }
+  ],
+  "images": [
+    {
+      "alt": "",
+      "src": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+    }
+  ],
+  "media": [
+    {
+      "title": "幻想.png",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%B9%BB%E6%83%B3.png",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/4/42/%E5%B9%BB%E6%83%B3.png/revision/latest?cb=20251023162225&format=original&path-prefix=zh",
+      "path": "media/wiki/a3c52ac3a670e00d.png",
+      "sourceRecord": "sources/wiki/files/a3c52ac3a670e00d.json",
+      "sha256": "0974f54b5d1ff7b94d1e9f0ea1998b25310a2a9a860e716dd8c2310295ea1612",
+      "bytes": 277742,
+      "fileInfo": "PNG image data, 308 x 426, 8-bit/color RGBA, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/6fadb2d7054aeea7.json",
+  "tags": [
+    "虚构",
+    "女性",
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "特性",
+      "selected": "無法在該角色身上放置行動牌。在与该角色所在区域对应的版图上放置的行动牌，同样会作用于该角色。",
+      "candidate": "无法在该角色身上放置行动牌。在与该角色所在区域对应的版图上放置的行动牌，同样会作用于该角色。",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "禁行区域",
+      "selected": "无",
+      "candidate": "否",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "友好能力",
+      "selected": [
+        {
+          "text": "（友好3 1L1）將同一區域任意1名角色移動至任意版图。",
+          "threshold": 3,
+          "limitText": "1L1",
+          "oncePerLoop": true
+        },
+        {
+          "text": "（友好4）將該角色從版圖上移除。",
+          "threshold": 4,
+          "limitText": ""
+        }
+      ],
+      "candidate": [
+        {
+          "text": "将同一区域任意1名角色移动至任意版图",
+          "threshold": "3",
+          "oncePerLoop": "是"
+        },
+        {
+          "text": "将该角色从版图上移除",
+          "threshold": "4",
+          "oncePerLoop": ""
+        }
+      ],
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    }
+  ]
+}

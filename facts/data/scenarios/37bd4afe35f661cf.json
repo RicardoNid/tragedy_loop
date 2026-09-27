@@ -1,0 +1,508 @@
+{
+  "id": "37bd4afe35f661cf",
+  "title": "MZ-17",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "MZ-17非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "MZ-17",
+    "loops": 5,
+    "days": 6,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "阴谋活动"
+      },
+      {
+        "day": 3,
+        "incidentText": "不安扩散"
+      },
+      {
+        "day": 4,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 5,
+        "incidentText": "自杀"
+      },
+      {
+        "day": 6,
+        "incidentText": "医院事故"
+      }
+    ],
+    "剧本名": "莫里亚蒂的复仇",
+    "作者": "无名烈火",
+    "轮数": "5 4",
+    "天数": "6"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-17",
+      "snapshot": "sources/wiki/pages/afd49e68f1b95109.json",
+      "capturedAt": "2026-09-27T04:44:38.466Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-17",
+      "snapshot": "sources/wiki/pages/afd49e68f1b95109.json",
+      "capturedAt": "2026-09-27T04:44:38.466Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-17",
+      "snapshot": "sources/wiki/pages/afd49e68f1b95109.json",
+      "capturedAt": "2026-09-27T04:44:38.466Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-17",
+      "snapshot": "sources/wiki/pages/afd49e68f1b95109.json",
+      "capturedAt": "2026-09-27T04:44:38.466Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-17",
+      "snapshot": "sources/wiki/pages/afd49e68f1b95109.json",
+      "capturedAt": "2026-09-27T04:44:38.466Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 18
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 18
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 18
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 18
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-17",
+      "snapshot": "sources/wiki/pages/afd49e68f1b95109.json",
+      "capturedAt": "2026-09-27T04:44:38.466Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 18
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-17%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/6402b313410ba576.json",
+      "capturedAt": "2026-09-27T04:44:47.934Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-17",
+        "snapshot": "sources/wiki/pages/afd49e68f1b95109.json",
+        "capturedAt": "2026-09-27T04:44:38.466Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "MZ-17",
+        "loops": 5,
+        "days": 6,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "阴谋活动"
+          },
+          {
+            "day": 3,
+            "incidentText": "不安扩散"
+          },
+          {
+            "day": 4,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 5,
+            "incidentText": "自杀"
+          },
+          {
+            "day": 6,
+            "incidentText": "医院事故"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 3,
+        "row": 18
+      },
+      "fields": {
+        "scenarioCode": "MZ-17",
+        "剧本名": "莫里亚蒂的复仇",
+        "作者": "无名烈火",
+        "轮数": "5 4",
+        "天数": "6"
+      }
+    }
+  ],
+  "wikiTitle": "MZ-17",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Midnight Zone"
+  ],
+  "module": "Midnight Zone",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "37bd4afe35f661cf",
+        "title": "MZ-17",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "MZ-17",
+          "loops": 5,
+          "days": 6,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "阴谋活动"
+            },
+            {
+              "day": 3,
+              "incidentText": "不安扩散"
+            },
+            {
+              "day": 4,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 5,
+              "incidentText": "自杀"
+            },
+            {
+              "day": 6,
+              "incidentText": "医院事故"
+            }
+          ],
+          "剧本名": "莫里亚蒂的复仇",
+          "作者": "无名烈火",
+          "轮数": "5 4",
+          "天数": "6"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-17",
+            "snapshot": "sources/wiki/pages/afd49e68f1b95109.json",
+            "capturedAt": "2026-09-27T04:44:38.466Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-17",
+            "snapshot": "sources/wiki/pages/afd49e68f1b95109.json",
+            "capturedAt": "2026-09-27T04:44:38.466Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-17",
+            "snapshot": "sources/wiki/pages/afd49e68f1b95109.json",
+            "capturedAt": "2026-09-27T04:44:38.466Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-17",
+            "snapshot": "sources/wiki/pages/afd49e68f1b95109.json",
+            "capturedAt": "2026-09-27T04:44:38.466Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-17",
+            "snapshot": "sources/wiki/pages/afd49e68f1b95109.json",
+            "capturedAt": "2026-09-27T04:44:38.466Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 18
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 18
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 18
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 18
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-17",
+            "snapshot": "sources/wiki/pages/afd49e68f1b95109.json",
+            "capturedAt": "2026-09-27T04:44:38.466Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 18
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-17",
+              "snapshot": "sources/wiki/pages/afd49e68f1b95109.json",
+              "capturedAt": "2026-09-27T04:44:38.466Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "MZ-17",
+              "loops": 5,
+              "days": 6,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "阴谋活动"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "不安扩散"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "自杀"
+                },
+                {
+                  "day": 6,
+                  "incidentText": "医院事故"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 3,
+              "row": 18
+            },
+            "fields": {
+              "scenarioCode": "MZ-17",
+              "剧本名": "莫里亚蒂的复仇",
+              "作者": "无名烈火",
+              "轮数": "5 4",
+              "天数": "6"
+            }
+          }
+        ],
+        "body": "text/scenarios/37bd4afe35f661cf.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-17",
+          "snapshot": "sources/wiki/pages/afd49e68f1b95109.json",
+          "capturedAt": "2026-09-27T04:44:38.466Z"
+        },
+        "wikiTitle": "MZ-17",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "MZ-17非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-17%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-17?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Midnight Zone"
+        ],
+        "module": "Midnight Zone"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "a6cacb3d07568666",
+        "title": "MZ-17非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "MZ-17",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "绝密报告"
+            },
+            {
+              "slot": "X1",
+              "name": "诸神之骰"
+            },
+            {
+              "slot": "X2",
+              "name": "灭亡讴歌"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-17%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/6402b313410ba576.json",
+            "capturedAt": "2026-09-27T04:44:47.934Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-17%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/6402b313410ba576.json",
+            "capturedAt": "2026-09-27T04:44:47.934Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-17%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/6402b313410ba576.json",
+            "capturedAt": "2026-09-27T04:44:47.934Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-17%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/6402b313410ba576.json",
+            "capturedAt": "2026-09-27T04:44:47.934Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-17%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/6402b313410ba576.json",
+              "capturedAt": "2026-09-27T04:44:47.934Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "MZ-17",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "绝密报告"
+                },
+                {
+                  "slot": "X1",
+                  "name": "诸神之骰"
+                },
+                {
+                  "slot": "X2",
+                  "name": "灭亡讴歌"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/a6cacb3d07568666.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-17%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/6402b313410ba576.json",
+          "capturedAt": "2026-09-27T04:44:47.934Z"
+        },
+        "wikiTitle": "MZ-17非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-17%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-17%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Midnight Zone",
+        "tags": [
+          "民间",
+          "Midnight Zone"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "a6cacb3d07568666"
+  ],
+  "conflicts": []
+}

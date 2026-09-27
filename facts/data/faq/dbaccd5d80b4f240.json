@@ -1,0 +1,60 @@
+{
+  "id": "dbaccd5d80b4f240",
+  "title": "從者身份是童謠，對同一區域的角色使用友好能力後會發生什麼？",
+  "kind": "faq",
+  "scope": "纸质 FAQ / AHR / Q18",
+  "aliases": [],
+  "fields": {
+    "question": "從者身份是童謠，對同一區域的角色使用友好能力後會發生什麼？",
+    "answer": "由於從者的特性對象中追加了所選擇的角色，因此在處理後觸發童謠的身份能力，導致那名角色要死亡時，從者會代替那名角色死亡。"
+  },
+  "provenance": {
+    "question": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+      "snapshot": "sources/paper-faq/another-horizon-revised.json",
+      "page": 17,
+      "questionNumber": 18
+    },
+    "answer": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+      "snapshot": "sources/paper-faq/another-horizon-revised.json",
+      "page": 17,
+      "questionNumber": 18
+    }
+  },
+  "sources": [
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+      "snapshot": "sources/paper-faq/another-horizon-revised.json",
+      "page": 17,
+      "questionNumber": 18
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+        "snapshot": "sources/paper-faq/another-horizon-revised.json",
+        "page": 17,
+        "questionNumber": 18
+      },
+      "fields": {
+        "question": "從者身份是童謠，對同一區域的角色使用友好能力後會發生什麼？",
+        "answer": "由於從者的特性對象中追加了所選擇的角色，因此在處理後觸發童謠的身份能力，導致那名角色要死亡時，從者會代替那名角色死亡。"
+      }
+    }
+  ],
+  "tags": [
+    "AHR",
+    "纸质 FAQ",
+    "身份",
+    "官方"
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+  "conflicts": []
+}

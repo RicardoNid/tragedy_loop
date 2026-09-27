@@ -1,0 +1,67 @@
+{
+  "id": "10e2cef438d9f433",
+  "title": "病娇恋人",
+  "kind": "identities",
+  "scope": "Echoing Love A",
+  "aliases": [],
+  "fields": {
+    "max": "",
+    "traits": "无视友好",
+    "abilities": [
+      "【强制：回合结束阶段】选择同一区域中1名在本日内结算过友好能力的其他角色，那名角色死亡。",
+      "【任意能力：回合结束阶段】可以往位于同一区域的1具尸体身上放置1枚【友好】，随后，若所有尸体上的【友好】合计为3枚或以上，主人公死亡。"
+    ]
+  },
+  "provenance": {
+    "max": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Echoing_Love_A",
+      "snapshot": "sources/wiki/pages/c8c2a6dac05a77fd.json",
+      "capturedAt": "2026-09-27T03:28:32.466Z"
+    },
+    "traits": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Echoing_Love_A",
+      "snapshot": "sources/wiki/pages/c8c2a6dac05a77fd.json",
+      "capturedAt": "2026-09-27T03:28:32.466Z"
+    },
+    "abilities": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Echoing_Love_A",
+      "snapshot": "sources/wiki/pages/c8c2a6dac05a77fd.json",
+      "capturedAt": "2026-09-27T03:28:32.466Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Echoing_Love_A",
+      "snapshot": "sources/wiki/pages/c8c2a6dac05a77fd.json",
+      "capturedAt": "2026-09-27T03:28:32.466Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Echoing_Love_A",
+        "snapshot": "sources/wiki/pages/c8c2a6dac05a77fd.json",
+        "capturedAt": "2026-09-27T03:28:32.466Z"
+      },
+      "fields": {
+        "max": "",
+        "traits": "无视友好",
+        "abilities": [
+          "【强制：回合结束阶段】选择同一区域中1名在本日内结算过友好能力的其他角色，那名角色死亡。",
+          "【任意能力：回合结束阶段】可以往位于同一区域的1具尸体身上放置1枚【友好】，随后，若所有尸体上的【友好】合计为3枚或以上，主人公死亡。"
+        ]
+      }
+    }
+  ],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "民间"
+  ],
+  "conflicts": []
+}

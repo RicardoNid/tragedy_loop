@@ -1,0 +1,152 @@
+{
+  "id": "9ecec918665d0a52",
+  "title": "亲友",
+  "kind": "identities",
+  "scope": "First Steps",
+  "aliases": [],
+  "fields": {
+    "max": "②",
+    "traits": "",
+    "abilities": [
+      "【失败条件：轮回结束时】该卡牌为死亡状态，此时，需要告知主人公该卡牌的身份",
+      "【强制：轮回开始时】该角色身份曾被公开→往该角色身上放置1枚[友好]"
+    ]
+  },
+  "provenance": {
+    "max": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/First_Steps",
+      "snapshot": "sources/wiki/pages/7bcd897f011ed91f.json",
+      "capturedAt": "2026-09-27T03:29:36.530Z"
+    },
+    "traits": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/First_Steps",
+      "snapshot": "sources/wiki/pages/7bcd897f011ed91f.json",
+      "capturedAt": "2026-09-27T03:29:36.530Z"
+    },
+    "abilities": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/First_Steps",
+      "snapshot": "sources/wiki/pages/7bcd897f011ed91f.json",
+      "capturedAt": "2026-09-27T03:29:36.530Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/First_Steps",
+      "snapshot": "sources/wiki/pages/7bcd897f011ed91f.json",
+      "capturedAt": "2026-09-27T03:29:36.530Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    },
+    {
+      "provider": "ricardo",
+      "path": "sources/ricardo/reference/module/modules/first-steps.md",
+      "status": "draft_needs_human_review"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/First_Steps",
+        "snapshot": "sources/wiki/pages/7bcd897f011ed91f.json",
+        "capturedAt": "2026-09-27T03:29:36.530Z"
+      },
+      "fields": {
+        "max": "②",
+        "traits": "",
+        "abilities": [
+          "【失败条件：轮回结束时】该卡牌为死亡状态，此时，需要告知主人公该卡牌的身份",
+          "【强制：轮回开始时】该角色身份曾被公开→往该角色身上放置1枚[友好]"
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "max": "2",
+        "traits": "",
+        "abilities": [
+          "【失败条件：轮回结束时】该卡牌为死亡状态，此时需要告知主人公该卡牌的身份；【强制：轮回开始时】该角色身份曾被公开→往该角色身上放置1枚[友好]"
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "ricardo",
+        "path": "sources/ricardo/reference/module/modules/first-steps.md",
+        "status": "draft_needs_human_review"
+      },
+      "fields": {
+        "max": "2",
+        "traits": "",
+        "abilities": [
+          "轮回结束时若该卡牌为死亡状态，需要告知主人公该卡牌身份。轮回开始时，若身份曾被公开，往该角色身上放置 1 枚友好。"
+        ]
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "max",
+      "selected": "②",
+      "candidate": "2",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "abilities",
+      "selected": [
+        "【失败条件：轮回结束时】该卡牌为死亡状态，此时，需要告知主人公该卡牌的身份",
+        "【强制：轮回开始时】该角色身份曾被公开→往该角色身上放置1枚[友好]"
+      ],
+      "candidate": [
+        "【失败条件：轮回结束时】该卡牌为死亡状态，此时需要告知主人公该卡牌的身份；【强制：轮回开始时】该角色身份曾被公开→往该角色身上放置1枚[友好]"
+      ],
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "max",
+      "selected": "②",
+      "candidate": "2",
+      "source": {
+        "provider": "ricardo",
+        "path": "sources/ricardo/reference/module/modules/first-steps.md",
+        "status": "draft_needs_human_review"
+      }
+    },
+    {
+      "field": "abilities",
+      "selected": [
+        "【失败条件：轮回结束时】该卡牌为死亡状态，此时，需要告知主人公该卡牌的身份",
+        "【强制：轮回开始时】该角色身份曾被公开→往该角色身上放置1枚[友好]"
+      ],
+      "candidate": [
+        "轮回结束时若该卡牌为死亡状态，需要告知主人公该卡牌身份。轮回开始时，若身份曾被公开，往该角色身上放置 1 枚友好。"
+      ],
+      "source": {
+        "provider": "ricardo",
+        "path": "sources/ricardo/reference/module/modules/first-steps.md",
+        "status": "draft_needs_human_review"
+      }
+    }
+  ]
+}

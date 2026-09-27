@@ -1,0 +1,60 @@
+{
+  "id": "7896a63de9573094",
+  "title": "上位存在帶有無視友好的特性。①劇作家使用友好能力後，主人公能夠使用友好能力嗎？②主人公使用友好能力並且沒有被拒絕時，劇作家還能使用友好能力嗎？③主人公使用友好能力但被拒絕的話，劇作家還能用友好能力嗎？",
+  "kind": "faq",
+  "scope": "纸质 FAQ / 十周年 / Q26",
+  "aliases": [],
+  "fields": {
+    "question": "上位存在帶有無視友好的特性。①劇作家使用友好能力後，主人公能夠使用友好能力嗎？②主人公使用友好能力並且沒有被拒絕時，劇作家還能使用友好能力嗎？③主人公使用友好能力但被拒絕的話，劇作家還能用友好能力嗎？",
+    "answer": "①不能，因為每輪限1次的友好能力已被使用。②同樣不能，理由和①一樣。③能，因為每輪限1次的友好能力被拒絕時不算作已經使用。"
+  },
+  "provenance": {
+    "question": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+      "snapshot": "sources/paper-faq/anniversary.json",
+      "page": 12,
+      "questionNumber": 26
+    },
+    "answer": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+      "snapshot": "sources/paper-faq/anniversary.json",
+      "page": 12,
+      "questionNumber": 26
+    }
+  },
+  "sources": [
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+      "snapshot": "sources/paper-faq/anniversary.json",
+      "page": 12,
+      "questionNumber": 26
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+        "snapshot": "sources/paper-faq/anniversary.json",
+        "page": 12,
+        "questionNumber": 26
+      },
+      "fields": {
+        "question": "上位存在帶有無視友好的特性。①劇作家使用友好能力後，主人公能夠使用友好能力嗎？②主人公使用友好能力並且沒有被拒絕時，劇作家還能使用友好能力嗎？③主人公使用友好能力但被拒絕的話，劇作家還能用友好能力嗎？",
+        "answer": "①不能，因為每輪限1次的友好能力已被使用。②同樣不能，理由和①一樣。③能，因為每輪限1次的友好能力被拒絕時不算作已經使用。"
+      }
+    }
+  ],
+  "tags": [
+    "十周年",
+    "纸质 FAQ",
+    "角色",
+    "官方"
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+  "conflicts": []
+}

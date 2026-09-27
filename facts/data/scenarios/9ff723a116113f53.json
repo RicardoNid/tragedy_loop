@@ -1,0 +1,398 @@
+{
+  "id": "9ff723a116113f53",
+  "title": "WM-08",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "WM-08非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "WM-08",
+    "loops": 7,
+    "days": 1,
+    "剧本名": "狂气的引导",
+    "日文名": "狂気への導き",
+    "作者": "ペンスキー（gitti）",
+    "轮数": "7",
+    "天数": "1",
+    "难度": "5"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-08?oldid=1452",
+      "snapshot": "sources/wiki/pages/d045971303f9413f.json",
+      "capturedAt": "2026-09-27T05:00:51.968Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-08?oldid=1452",
+      "snapshot": "sources/wiki/pages/d045971303f9413f.json",
+      "capturedAt": "2026-09-27T05:00:51.968Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-08?oldid=1452",
+      "snapshot": "sources/wiki/pages/d045971303f9413f.json",
+      "capturedAt": "2026-09-27T05:00:51.968Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-08?oldid=1452",
+      "snapshot": "sources/wiki/pages/d045971303f9413f.json",
+      "capturedAt": "2026-09-27T05:00:51.968Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 10
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 10
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 10
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 10
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 10
+    },
+    "难度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 10
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-08?oldid=1452",
+      "snapshot": "sources/wiki/pages/d045971303f9413f.json",
+      "capturedAt": "2026-09-27T05:00:51.968Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 10
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-08%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1885",
+      "snapshot": "sources/wiki/pages/cec6ff14dce402c4.json",
+      "capturedAt": "2026-09-27T05:00:57.159Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-08?oldid=1452",
+        "snapshot": "sources/wiki/pages/d045971303f9413f.json",
+        "capturedAt": "2026-09-27T05:00:51.968Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "WM-08",
+        "loops": 7,
+        "days": 1
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 6,
+        "row": 10
+      },
+      "fields": {
+        "scenarioCode": "WM-08",
+        "剧本名": "狂气的引导",
+        "日文名": "狂気への導き",
+        "作者": "ペンスキー（gitti）",
+        "轮数": "7",
+        "天数": "1",
+        "难度": "5"
+      }
+    }
+  ],
+  "wikiTitle": "WM-08",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Weird Mythology"
+  ],
+  "module": "Weird Mythology",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "9ff723a116113f53",
+        "title": "WM-08",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "WM-08",
+          "loops": 7,
+          "days": 1,
+          "剧本名": "狂气的引导",
+          "日文名": "狂気への導き",
+          "作者": "ペンスキー（gitti）",
+          "轮数": "7",
+          "天数": "1",
+          "难度": "5"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-08?oldid=1452",
+            "snapshot": "sources/wiki/pages/d045971303f9413f.json",
+            "capturedAt": "2026-09-27T05:00:51.968Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-08?oldid=1452",
+            "snapshot": "sources/wiki/pages/d045971303f9413f.json",
+            "capturedAt": "2026-09-27T05:00:51.968Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-08?oldid=1452",
+            "snapshot": "sources/wiki/pages/d045971303f9413f.json",
+            "capturedAt": "2026-09-27T05:00:51.968Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-08?oldid=1452",
+            "snapshot": "sources/wiki/pages/d045971303f9413f.json",
+            "capturedAt": "2026-09-27T05:00:51.968Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 10
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 10
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 10
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 10
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 10
+          },
+          "难度": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 10
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-08?oldid=1452",
+            "snapshot": "sources/wiki/pages/d045971303f9413f.json",
+            "capturedAt": "2026-09-27T05:00:51.968Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 10
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-08?oldid=1452",
+              "snapshot": "sources/wiki/pages/d045971303f9413f.json",
+              "capturedAt": "2026-09-27T05:00:51.968Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "WM-08",
+              "loops": 7,
+              "days": 1
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 6,
+              "row": 10
+            },
+            "fields": {
+              "scenarioCode": "WM-08",
+              "剧本名": "狂气的引导",
+              "日文名": "狂気への導き",
+              "作者": "ペンスキー（gitti）",
+              "轮数": "7",
+              "天数": "1",
+              "难度": "5"
+            }
+          }
+        ],
+        "body": "text/scenarios/9ff723a116113f53.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-08?oldid=1452",
+          "snapshot": "sources/wiki/pages/d045971303f9413f.json",
+          "capturedAt": "2026-09-27T05:00:51.968Z"
+        },
+        "wikiTitle": "WM-08",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-08?action=edit&section=1"
+          },
+          {
+            "title": "WM-08非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-08%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-08?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Weird Mythology"
+        ],
+        "module": "Weird Mythology"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "b2d22c8fabd18d41",
+        "title": "WM-08非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "WM-08"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-08%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1885",
+            "snapshot": "sources/wiki/pages/cec6ff14dce402c4.json",
+            "capturedAt": "2026-09-27T05:00:57.159Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-08%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1885",
+            "snapshot": "sources/wiki/pages/cec6ff14dce402c4.json",
+            "capturedAt": "2026-09-27T05:00:57.159Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-08%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1885",
+            "snapshot": "sources/wiki/pages/cec6ff14dce402c4.json",
+            "capturedAt": "2026-09-27T05:00:57.159Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-08%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1885",
+              "snapshot": "sources/wiki/pages/cec6ff14dce402c4.json",
+              "capturedAt": "2026-09-27T05:00:57.159Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "WM-08"
+            }
+          }
+        ],
+        "wikiTitle": "WM-08非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Weird Mythology",
+        "tags": [
+          "民间",
+          "Weird Mythology"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "b2d22c8fabd18d41"
+  ],
+  "conflicts": []
+}

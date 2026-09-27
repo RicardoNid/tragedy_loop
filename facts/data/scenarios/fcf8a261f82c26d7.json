@@ -1,0 +1,460 @@
+{
+  "id": "fcf8a261f82c26d7",
+  "title": "LL-09",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "LL-09非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "LL-09",
+    "loops": 4,
+    "days": 6,
+    "schedule": [
+      {
+        "day": 2,
+        "incidentText": "绝望之暗"
+      },
+      {
+        "day": 3,
+        "incidentText": "代行者"
+      },
+      {
+        "day": 5,
+        "incidentText": "遗言"
+      },
+      {
+        "day": 6,
+        "incidentText": "骤变"
+      }
+    ],
+    "剧本名": "递交契约书",
+    "日文名": "手渡された契告書",
+    "作者": "弾濫",
+    "轮数": "4",
+    "天数": "6"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-09",
+      "snapshot": "sources/wiki/pages/64f0daf67bf4191a.json",
+      "capturedAt": "2026-09-27T04:32:12.695Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-09",
+      "snapshot": "sources/wiki/pages/64f0daf67bf4191a.json",
+      "capturedAt": "2026-09-27T04:32:12.695Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-09",
+      "snapshot": "sources/wiki/pages/64f0daf67bf4191a.json",
+      "capturedAt": "2026-09-27T04:32:12.695Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-09",
+      "snapshot": "sources/wiki/pages/64f0daf67bf4191a.json",
+      "capturedAt": "2026-09-27T04:32:12.695Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-09",
+      "snapshot": "sources/wiki/pages/64f0daf67bf4191a.json",
+      "capturedAt": "2026-09-27T04:32:12.695Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 8,
+      "row": 10
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 8,
+      "row": 10
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 8,
+      "row": 10
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 8,
+      "row": 10
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 8,
+      "row": 10
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-09",
+      "snapshot": "sources/wiki/pages/64f0daf67bf4191a.json",
+      "capturedAt": "2026-09-27T04:32:12.695Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 8,
+      "row": 10
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-09%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/3ced2cb0e704c4ce.json",
+      "capturedAt": "2026-09-27T04:32:30.010Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-09",
+        "snapshot": "sources/wiki/pages/64f0daf67bf4191a.json",
+        "capturedAt": "2026-09-27T04:32:12.695Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "LL-09",
+        "loops": 4,
+        "days": 6,
+        "schedule": [
+          {
+            "day": 2,
+            "incidentText": "绝望之暗"
+          },
+          {
+            "day": 3,
+            "incidentText": "代行者"
+          },
+          {
+            "day": 5,
+            "incidentText": "遗言"
+          },
+          {
+            "day": 6,
+            "incidentText": "骤变"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 8,
+        "row": 10
+      },
+      "fields": {
+        "scenarioCode": "LL-09",
+        "剧本名": "递交契约书",
+        "日文名": "手渡された契告書",
+        "作者": "弾濫",
+        "轮数": "4",
+        "天数": "6"
+      }
+    }
+  ],
+  "wikiTitle": "LL-09",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Last Liar"
+  ],
+  "module": "Last Liar",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "fcf8a261f82c26d7",
+        "title": "LL-09",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "LL-09",
+          "loops": 4,
+          "days": 6,
+          "schedule": [
+            {
+              "day": 2,
+              "incidentText": "绝望之暗"
+            },
+            {
+              "day": 3,
+              "incidentText": "代行者"
+            },
+            {
+              "day": 5,
+              "incidentText": "遗言"
+            },
+            {
+              "day": 6,
+              "incidentText": "骤变"
+            }
+          ],
+          "剧本名": "递交契约书",
+          "日文名": "手渡された契告書",
+          "作者": "弾濫",
+          "轮数": "4",
+          "天数": "6"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-09",
+            "snapshot": "sources/wiki/pages/64f0daf67bf4191a.json",
+            "capturedAt": "2026-09-27T04:32:12.695Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-09",
+            "snapshot": "sources/wiki/pages/64f0daf67bf4191a.json",
+            "capturedAt": "2026-09-27T04:32:12.695Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-09",
+            "snapshot": "sources/wiki/pages/64f0daf67bf4191a.json",
+            "capturedAt": "2026-09-27T04:32:12.695Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-09",
+            "snapshot": "sources/wiki/pages/64f0daf67bf4191a.json",
+            "capturedAt": "2026-09-27T04:32:12.695Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-09",
+            "snapshot": "sources/wiki/pages/64f0daf67bf4191a.json",
+            "capturedAt": "2026-09-27T04:32:12.695Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 8,
+            "row": 10
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 8,
+            "row": 10
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 8,
+            "row": 10
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 8,
+            "row": 10
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 8,
+            "row": 10
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-09",
+            "snapshot": "sources/wiki/pages/64f0daf67bf4191a.json",
+            "capturedAt": "2026-09-27T04:32:12.695Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 8,
+            "row": 10
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-09",
+              "snapshot": "sources/wiki/pages/64f0daf67bf4191a.json",
+              "capturedAt": "2026-09-27T04:32:12.695Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "LL-09",
+              "loops": 4,
+              "days": 6,
+              "schedule": [
+                {
+                  "day": 2,
+                  "incidentText": "绝望之暗"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "代行者"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "遗言"
+                },
+                {
+                  "day": 6,
+                  "incidentText": "骤变"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 8,
+              "row": 10
+            },
+            "fields": {
+              "scenarioCode": "LL-09",
+              "剧本名": "递交契约书",
+              "日文名": "手渡された契告書",
+              "作者": "弾濫",
+              "轮数": "4",
+              "天数": "6"
+            }
+          }
+        ],
+        "body": "text/scenarios/fcf8a261f82c26d7.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-09",
+          "snapshot": "sources/wiki/pages/64f0daf67bf4191a.json",
+          "capturedAt": "2026-09-27T04:32:12.695Z"
+        },
+        "wikiTitle": "LL-09",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "LL-09非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-09%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-09?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Last Liar"
+        ],
+        "module": "Last Liar"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "ca0e88b744c95824",
+        "title": "LL-09非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "LL-09"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-09%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/3ced2cb0e704c4ce.json",
+            "capturedAt": "2026-09-27T04:32:30.010Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-09%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/3ced2cb0e704c4ce.json",
+            "capturedAt": "2026-09-27T04:32:30.010Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-09%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/3ced2cb0e704c4ce.json",
+            "capturedAt": "2026-09-27T04:32:30.010Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-09%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/3ced2cb0e704c4ce.json",
+              "capturedAt": "2026-09-27T04:32:30.010Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "LL-09"
+            }
+          }
+        ],
+        "wikiTitle": "LL-09非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Last Liar",
+        "tags": [
+          "民间",
+          "Last Liar"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "ca0e88b744c95824"
+  ],
+  "conflicts": []
+}

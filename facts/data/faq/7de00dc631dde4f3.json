@@ -1,0 +1,79 @@
+{
+  "id": "7de00dc631dde4f3",
+  "title": "規則X是「捏造的秘密」，劇本中沒有密輸，因此追加了殺手。並且劇本也不帶有「最終計劃」。我可以將局外人設置為殺手嗎？",
+  "kind": "faq",
+  "scope": "纸质 FAQ / LL / Q8",
+  "aliases": [],
+  "fields": {
+    "question": "規則X是「捏造的秘密」，劇本中沒有密輸，因此追加了殺手。並且劇本也不帶有「最終計劃」。我可以將局外人設置為殺手嗎？",
+    "answer": "可以。局外人只是不可設為規則自帶的身份。"
+  },
+  "provenance": {
+    "question": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+      "snapshot": "sources/paper-faq/last-liar.json",
+      "page": 13,
+      "questionNumber": 8
+    },
+    "answer": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+      "page": 14,
+      "questionNumber": 8,
+      "note": "答案续页"
+    }
+  },
+  "sources": [
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+      "snapshot": "sources/paper-faq/last-liar.json",
+      "page": 13,
+      "questionNumber": 8
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+      "page": 14,
+      "questionNumber": 8,
+      "note": "答案续页"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+        "snapshot": "sources/paper-faq/last-liar.json",
+        "page": 13,
+        "questionNumber": 8
+      },
+      "fields": {
+        "question": "規則X是「捏造的秘密」，劇本中沒有密輸，因此追加了殺手。並且劇本也不帶有「最終計劃」。我可以將局外人設置為殺手嗎？",
+        "answer": "可以。局外人只是不可設為規則自帶的身份。"
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+        "page": 14,
+        "questionNumber": 8,
+        "note": "答案续页"
+      },
+      "fields": {
+        "answer": "可以。局外人只是不可設為規則自帶的身份。"
+      }
+    }
+  ],
+  "tags": [
+    "LL",
+    "纸质 FAQ",
+    "规则",
+    "官方"
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+  "conflicts": []
+}

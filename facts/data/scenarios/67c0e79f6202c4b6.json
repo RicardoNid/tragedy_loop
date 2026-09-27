@@ -1,0 +1,452 @@
+{
+  "id": "67c0e79f6202c4b6",
+  "title": "BTX-131",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "BTX-131非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "BTX-131",
+    "loops": 2,
+    "days": 5,
+    "schedule": [
+      {
+        "day": 5,
+        "incidentText": "蝴蝶效应"
+      }
+    ],
+    "剧本名": "《我心里危险的东西》",
+    "作者": "三上真希",
+    "轮数": "2",
+    "天数": "5"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-131",
+      "snapshot": "sources/wiki/pages/072500619b89584c.json",
+      "capturedAt": "2026-09-27T03:58:00.362Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-131",
+      "snapshot": "sources/wiki/pages/072500619b89584c.json",
+      "capturedAt": "2026-09-27T03:58:00.362Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-131",
+      "snapshot": "sources/wiki/pages/072500619b89584c.json",
+      "capturedAt": "2026-09-27T03:58:00.362Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-131",
+      "snapshot": "sources/wiki/pages/072500619b89584c.json",
+      "capturedAt": "2026-09-27T03:58:00.362Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-131",
+      "snapshot": "sources/wiki/pages/072500619b89584c.json",
+      "capturedAt": "2026-09-27T03:58:00.362Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 136
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 136
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 136
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 136
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-131",
+      "snapshot": "sources/wiki/pages/072500619b89584c.json",
+      "capturedAt": "2026-09-27T03:58:00.362Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 136
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-131%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/0360d8489c75e08f.json",
+      "capturedAt": "2026-09-27T03:58:03.238Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-131",
+        "snapshot": "sources/wiki/pages/072500619b89584c.json",
+        "capturedAt": "2026-09-27T03:58:00.362Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "BTX-131",
+        "loops": 2,
+        "days": 5,
+        "schedule": [
+          {
+            "day": 5,
+            "incidentText": "蝴蝶效应"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 2,
+        "row": 136
+      },
+      "fields": {
+        "scenarioCode": "BTX-131",
+        "剧本名": "《我心里危险的东西》",
+        "作者": "三上真希",
+        "轮数": "2",
+        "天数": "5"
+      }
+    }
+  ],
+  "wikiTitle": "BTX-131",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Basic Tragedy X"
+  ],
+  "module": "Basic Tragedy X",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "67c0e79f6202c4b6",
+        "title": "BTX-131",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "BTX-131",
+          "loops": 2,
+          "days": 5,
+          "schedule": [
+            {
+              "day": 5,
+              "incidentText": "蝴蝶效应"
+            }
+          ],
+          "剧本名": "《我心里危险的东西》",
+          "作者": "三上真希",
+          "轮数": "2",
+          "天数": "5"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-131",
+            "snapshot": "sources/wiki/pages/072500619b89584c.json",
+            "capturedAt": "2026-09-27T03:58:00.362Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-131",
+            "snapshot": "sources/wiki/pages/072500619b89584c.json",
+            "capturedAt": "2026-09-27T03:58:00.362Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-131",
+            "snapshot": "sources/wiki/pages/072500619b89584c.json",
+            "capturedAt": "2026-09-27T03:58:00.362Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-131",
+            "snapshot": "sources/wiki/pages/072500619b89584c.json",
+            "capturedAt": "2026-09-27T03:58:00.362Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-131",
+            "snapshot": "sources/wiki/pages/072500619b89584c.json",
+            "capturedAt": "2026-09-27T03:58:00.362Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 136
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 136
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 136
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 136
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-131",
+            "snapshot": "sources/wiki/pages/072500619b89584c.json",
+            "capturedAt": "2026-09-27T03:58:00.362Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 136
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-131",
+              "snapshot": "sources/wiki/pages/072500619b89584c.json",
+              "capturedAt": "2026-09-27T03:58:00.362Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "BTX-131",
+              "loops": 2,
+              "days": 5,
+              "schedule": [
+                {
+                  "day": 5,
+                  "incidentText": "蝴蝶效应"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 2,
+              "row": 136
+            },
+            "fields": {
+              "scenarioCode": "BTX-131",
+              "剧本名": "《我心里危险的东西》",
+              "作者": "三上真希",
+              "轮数": "2",
+              "天数": "5"
+            }
+          }
+        ],
+        "body": "text/scenarios/67c0e79f6202c4b6.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-131",
+          "snapshot": "sources/wiki/pages/072500619b89584c.json",
+          "capturedAt": "2026-09-27T03:58:00.362Z"
+        },
+        "wikiTitle": "BTX-131",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-131?action=edit&section=1"
+          },
+          {
+            "title": "BTX-131非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-131%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-131?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Basic Tragedy X"
+        ],
+        "module": "Basic Tragedy X"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "0b00bd5bb76df976",
+        "title": "BTX-131非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "BTX-131",
+          "selectedRules": [
+            {
+              "slot": "Y1",
+              "name": "谋杀计划"
+            },
+            {
+              "slot": "Y2",
+              "name": "改变未来"
+            },
+            {
+              "slot": "X",
+              "name": "流言四起"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-131%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/0360d8489c75e08f.json",
+            "capturedAt": "2026-09-27T03:58:03.238Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-131%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/0360d8489c75e08f.json",
+            "capturedAt": "2026-09-27T03:58:03.238Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-131%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/0360d8489c75e08f.json",
+            "capturedAt": "2026-09-27T03:58:03.238Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-131%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/0360d8489c75e08f.json",
+            "capturedAt": "2026-09-27T03:58:03.238Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-131%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/0360d8489c75e08f.json",
+              "capturedAt": "2026-09-27T03:58:03.238Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "BTX-131",
+              "selectedRules": [
+                {
+                  "slot": "Y1",
+                  "name": "谋杀计划"
+                },
+                {
+                  "slot": "Y2",
+                  "name": "改变未来"
+                },
+                {
+                  "slot": "X",
+                  "name": "流言四起"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/0b00bd5bb76df976.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-131%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/0360d8489c75e08f.json",
+          "capturedAt": "2026-09-27T03:58:03.238Z"
+        },
+        "wikiTitle": "BTX-131非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-131%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-131%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-131%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=3"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Basic Tragedy X",
+        "tags": [
+          "民间",
+          "Basic Tragedy X"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "0b00bd5bb76df976"
+  ],
+  "conflicts": []
+}

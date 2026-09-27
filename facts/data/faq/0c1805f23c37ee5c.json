@@ -1,0 +1,60 @@
+{
+  "id": "0c1805f23c37ee5c",
+  "title": "鑑別員身份是童謠。通過他的友好能力將職員身上的指示物移動至偶像身上後，誰會死？",
+  "kind": "faq",
+  "scope": "纸质 FAQ / AHR / Q16",
+  "aliases": [],
+  "fields": {
+    "question": "鑑別員身份是童謠。通過他的友好能力將職員身上的指示物移動至偶像身上後，誰會死？",
+    "answer": "職員和偶像都會死。"
+  },
+  "provenance": {
+    "question": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+      "snapshot": "sources/paper-faq/another-horizon-revised.json",
+      "page": 16,
+      "questionNumber": 16
+    },
+    "answer": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+      "snapshot": "sources/paper-faq/another-horizon-revised.json",
+      "page": 16,
+      "questionNumber": 16
+    }
+  },
+  "sources": [
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+      "snapshot": "sources/paper-faq/another-horizon-revised.json",
+      "page": 16,
+      "questionNumber": 16
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+        "snapshot": "sources/paper-faq/another-horizon-revised.json",
+        "page": 16,
+        "questionNumber": 16
+      },
+      "fields": {
+        "question": "鑑別員身份是童謠。通過他的友好能力將職員身上的指示物移動至偶像身上後，誰會死？",
+        "answer": "職員和偶像都會死。"
+      }
+    }
+  ],
+  "tags": [
+    "AHR",
+    "纸质 FAQ",
+    "身份",
+    "官方"
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+  "conflicts": []
+}

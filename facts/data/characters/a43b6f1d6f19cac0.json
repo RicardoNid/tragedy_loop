@@ -1,0 +1,288 @@
+{
+  "id": "a43b6f1d6f19cac0",
+  "title": "医生",
+  "kind": "characters",
+  "scope": "",
+  "aliases": [
+    "醫生"
+  ],
+  "fields": {
+    "角色名": "医生",
+    "初始区域": "医院",
+    "禁行区域": "无",
+    "不安限度": "2",
+    "属性": [
+      "成人",
+      "男性"
+    ],
+    "友好能力": [
+      {
+        "text": "（友好2）放置/移除同一區域另外1名角色身上的1枚不安指示物。如果本角色的身份帶有無視友好的特性，並且身上已经放置了2枚或以上的友好指示物，則劇作家可以在劇作家能力階段使用該能力。",
+        "threshold": 2,
+        "limitText": ""
+      },
+      {
+        "text": "（友好3）本輪輪迴中，住院患者不再擁有禁行區域，可以移動至醫院之外。",
+        "threshold": 3,
+        "limitText": ""
+      }
+    ]
+  },
+  "provenance": {
+    "角色名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E9%86%AB%E7%94%9F",
+      "snapshot": "sources/wiki/pages/cea34a866abb4b3b.json",
+      "capturedAt": "2026-09-27T03:38:02.938Z"
+    },
+    "初始区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E9%86%AB%E7%94%9F",
+      "snapshot": "sources/wiki/pages/cea34a866abb4b3b.json",
+      "capturedAt": "2026-09-27T03:38:02.938Z"
+    },
+    "禁行区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E9%86%AB%E7%94%9F",
+      "snapshot": "sources/wiki/pages/cea34a866abb4b3b.json",
+      "capturedAt": "2026-09-27T03:38:02.938Z"
+    },
+    "不安限度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E9%86%AB%E7%94%9F",
+      "snapshot": "sources/wiki/pages/cea34a866abb4b3b.json",
+      "capturedAt": "2026-09-27T03:38:02.938Z"
+    },
+    "属性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E9%86%AB%E7%94%9F",
+      "snapshot": "sources/wiki/pages/cea34a866abb4b3b.json",
+      "capturedAt": "2026-09-27T03:38:02.938Z"
+    },
+    "友好能力": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E9%86%AB%E7%94%9F",
+      "snapshot": "sources/wiki/pages/cea34a866abb4b3b.json",
+      "capturedAt": "2026-09-27T03:38:02.938Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E9%86%AB%E7%94%9F",
+      "snapshot": "sources/wiki/pages/cea34a866abb4b3b.json",
+      "capturedAt": "2026-09-27T03:38:02.938Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    },
+    {
+      "provider": "ricardo",
+      "path": "sources/ricardo/reference/character-cards/cards.md",
+      "status": "draft_needs_human_review"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E9%86%AB%E7%94%9F",
+        "snapshot": "sources/wiki/pages/cea34a866abb4b3b.json",
+        "capturedAt": "2026-09-27T03:38:02.938Z"
+      },
+      "fields": {
+        "角色名": "医生",
+        "初始区域": "医院",
+        "禁行区域": "无",
+        "不安限度": "2",
+        "属性": [
+          "成人",
+          "男性"
+        ],
+        "友好能力": [
+          {
+            "text": "（友好2）放置/移除同一區域另外1名角色身上的1枚不安指示物。如果本角色的身份帶有無視友好的特性，並且身上已经放置了2枚或以上的友好指示物，則劇作家可以在劇作家能力階段使用該能力。",
+            "threshold": 2,
+            "limitText": ""
+          },
+          {
+            "text": "（友好3）本輪輪迴中，住院患者不再擁有禁行區域，可以移動至醫院之外。",
+            "threshold": 3,
+            "limitText": ""
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "特性": "",
+        "属性": [
+          "成人",
+          "男性"
+        ],
+        "初始区域": "医院",
+        "禁行区域": "否",
+        "不安限度": "2",
+        "友好能力": [
+          {
+            "text": "放置/移除同一区域另外1名角色身上的1枚不安指示物。如果本角色当前带有无视友好的特性，并且身上已经放置了2枚或以上的友好指示物，则剧作家可以在剧作家能力阶段使用该能力。",
+            "threshold": "2",
+            "oncePerLoop": ""
+          },
+          {
+            "text": "本轮轮回中，住院患者不再拥有禁行区域，可以移动至医院之外。",
+            "threshold": "3",
+            "oncePerLoop": ""
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "ricardo",
+        "path": "sources/ricardo/reference/character-cards/cards.md",
+        "status": "draft_needs_human_review"
+      },
+      "fields": {
+        "不安限度": "2",
+        "初始区域": "医院",
+        "禁行区域": "无",
+        "属性": [
+          "成人"
+        ],
+        "友好能力": [
+          "友好2；每天；主人公能力阶段；主人公：选择同一区域的另一名角色，并声明移除或放置不安；剧作家按声明移除或放置 1 枚不安。<br>友好3；每天；主人公能力阶段；主人公：声明使用能力；本轮中，住院患者不再拥有禁行区域。"
+        ]
+      }
+    }
+  ],
+  "body": "text/characters/a43b6f1d6f19cac0.txt",
+  "bodySource": {
+    "provider": "wiki",
+    "url": "https://tragedyrooper.fandom.com/zh/wiki/%E9%86%AB%E7%94%9F",
+    "snapshot": "sources/wiki/pages/cea34a866abb4b3b.json",
+    "capturedAt": "2026-09-27T03:38:02.938Z"
+  },
+  "wikiTitle": "醫生",
+  "originalTables": [],
+  "wikiStatus": "captured",
+  "links": [
+    {
+      "title": "<img style=\"\" src=\"https://static.wikia.nocookie.net/tragedyrooper/images/0/08/%E5%8C%BB%E7%94%9F.png/revision/latest/scale-to-width-down/136?cb=20251023162229&amp;path-prefix=zh\" title=\"医生.png (248 KB)\" class=\"thumbimage\" alt=\"\" height=\"185\" width=\"185\" data-image-name=\"医生.png\" data-image-key=\"%E5%8C%BB%E7%94%9F.png\" data-relevant=\"1\">",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%8C%BB%E7%94%9F.png"
+    }
+  ],
+  "images": [
+    {
+      "alt": "",
+      "src": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+    }
+  ],
+  "media": [
+    {
+      "title": "医生.png",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%8C%BB%E7%94%9F.png",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/0/08/%E5%8C%BB%E7%94%9F.png/revision/latest?cb=20251023162229&format=original&path-prefix=zh",
+      "path": "media/wiki/54ebe4e7dc3aa1a3.png",
+      "sourceRecord": "sources/wiki/files/54ebe4e7dc3aa1a3.json",
+      "sha256": "aa86b76fd31336f72fef9b4a1256152128a1acf41c246a5a6b212532ebad7a5e",
+      "bytes": 253608,
+      "fileInfo": "PNG image data, 308 x 418, 8-bit/color RGBA, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/6fadb2d7054aeea7.json",
+  "tags": [
+    "成人",
+    "男性",
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "禁行区域",
+      "selected": "无",
+      "candidate": "否",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "友好能力",
+      "selected": [
+        {
+          "text": "（友好2）放置/移除同一區域另外1名角色身上的1枚不安指示物。如果本角色的身份帶有無視友好的特性，並且身上已经放置了2枚或以上的友好指示物，則劇作家可以在劇作家能力階段使用該能力。",
+          "threshold": 2,
+          "limitText": ""
+        },
+        {
+          "text": "（友好3）本輪輪迴中，住院患者不再擁有禁行區域，可以移動至醫院之外。",
+          "threshold": 3,
+          "limitText": ""
+        }
+      ],
+      "candidate": [
+        {
+          "text": "放置/移除同一区域另外1名角色身上的1枚不安指示物。如果本角色当前带有无视友好的特性，并且身上已经放置了2枚或以上的友好指示物，则剧作家可以在剧作家能力阶段使用该能力。",
+          "threshold": "2",
+          "oncePerLoop": ""
+        },
+        {
+          "text": "本轮轮回中，住院患者不再拥有禁行区域，可以移动至医院之外。",
+          "threshold": "3",
+          "oncePerLoop": ""
+        }
+      ],
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "属性",
+      "selected": [
+        "成人",
+        "男性"
+      ],
+      "candidate": [
+        "成人"
+      ],
+      "source": {
+        "provider": "ricardo",
+        "path": "sources/ricardo/reference/character-cards/cards.md",
+        "status": "draft_needs_human_review"
+      }
+    },
+    {
+      "field": "友好能力",
+      "selected": [
+        {
+          "text": "（友好2）放置/移除同一區域另外1名角色身上的1枚不安指示物。如果本角色的身份帶有無視友好的特性，並且身上已经放置了2枚或以上的友好指示物，則劇作家可以在劇作家能力階段使用該能力。",
+          "threshold": 2,
+          "limitText": ""
+        },
+        {
+          "text": "（友好3）本輪輪迴中，住院患者不再擁有禁行區域，可以移動至醫院之外。",
+          "threshold": 3,
+          "limitText": ""
+        }
+      ],
+      "candidate": [
+        "友好2；每天；主人公能力阶段；主人公：选择同一区域的另一名角色，并声明移除或放置不安；剧作家按声明移除或放置 1 枚不安。<br>友好3；每天；主人公能力阶段；主人公：声明使用能力；本轮中，住院患者不再拥有禁行区域。"
+      ],
+      "source": {
+        "provider": "ricardo",
+        "path": "sources/ricardo/reference/character-cards/cards.md",
+        "status": "draft_needs_human_review"
+      }
+    }
+  ]
+}

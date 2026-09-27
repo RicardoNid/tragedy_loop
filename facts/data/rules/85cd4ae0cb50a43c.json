@@ -1,0 +1,116 @@
+{
+  "id": "85cd4ae0cb50a43c",
+  "title": "因果之绊",
+  "kind": "rules",
+  "scope": "Midnight Zone",
+  "aliases": [],
+  "fields": {
+    "ruleType": "Y",
+    "identityCounts": {
+      "亲友": "①",
+      "杀人狂": "①",
+      "传谣人": "①"
+    },
+    "effect": "【强制：轮回开始时】选择一名上轮轮回结束时处于死亡状态的角色，放置一张Ex牌（不可以与[诸神之骰]重复发动）\n【强制：常驻】放置了Ex牌的角色，其身份变为关键人物（该角色失去原本的身份）"
+  },
+  "provenance": {
+    "ruleType": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Midnight_Zone",
+      "snapshot": "sources/wiki/pages/8373b99324f2c1ae.json",
+      "capturedAt": "2026-09-27T03:29:47.701Z"
+    },
+    "identityCounts": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Midnight_Zone",
+      "snapshot": "sources/wiki/pages/8373b99324f2c1ae.json",
+      "capturedAt": "2026-09-27T03:29:47.701Z"
+    },
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Midnight_Zone",
+      "snapshot": "sources/wiki/pages/8373b99324f2c1ae.json",
+      "capturedAt": "2026-09-27T03:29:47.701Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Midnight_Zone",
+      "snapshot": "sources/wiki/pages/8373b99324f2c1ae.json",
+      "capturedAt": "2026-09-27T03:29:47.701Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Midnight_Zone",
+        "snapshot": "sources/wiki/pages/8373b99324f2c1ae.json",
+        "capturedAt": "2026-09-27T03:29:47.701Z"
+      },
+      "fields": {
+        "ruleType": "Y",
+        "identityCounts": {
+          "亲友": "①",
+          "杀人狂": "①",
+          "传谣人": "①"
+        },
+        "effect": "【强制：轮回开始时】选择一名上轮轮回结束时处于死亡状态的角色，放置一张Ex牌（不可以与[诸神之骰]重复发动）\n【强制：常驻】放置了Ex牌的角色，其身份变为关键人物（该角色失去原本的身份）"
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "ruleType": "Y",
+        "identityCounts": {
+          "亲友": "1",
+          "杀人狂": "1",
+          "传谣人": "1"
+        },
+        "effect": "【强制：轮回开始时】选择一名上轮轮回结束时处于死亡状态的角色，放置一张Ex牌（不可以与[诸神之骰]重复发动）；【强制：常驻】放置了Ex牌的角色，其身份变为关键人物（该角色失去原本的身份）"
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "Y",
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "identityCounts",
+      "selected": {
+        "亲友": "①",
+        "杀人狂": "①",
+        "传谣人": "①"
+      },
+      "candidate": {
+        "亲友": "1",
+        "杀人狂": "1",
+        "传谣人": "1"
+      },
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "effect",
+      "selected": "【强制：轮回开始时】选择一名上轮轮回结束时处于死亡状态的角色，放置一张Ex牌（不可以与[诸神之骰]重复发动）\n【强制：常驻】放置了Ex牌的角色，其身份变为关键人物（该角色失去原本的身份）",
+      "candidate": "【强制：轮回开始时】选择一名上轮轮回结束时处于死亡状态的角色，放置一张Ex牌（不可以与[诸神之骰]重复发动）；【强制：常驻】放置了Ex牌的角色，其身份变为关键人物（该角色失去原本的身份）",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    }
+  ]
+}

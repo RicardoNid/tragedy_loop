@@ -1,0 +1,85 @@
+{
+  "id": "1ebad096c49899d7",
+  "title": "强迫症",
+  "kind": "identities",
+  "scope": "Midnight Zone",
+  "aliases": [],
+  "fields": {
+    "max": "",
+    "traits": "必定无视友好",
+    "abilities": [
+      "【强制：剧本制作时】必须成为某1个事件的当事人",
+      "【强制：事件阶段】当事人为该角色的事件必定会发生"
+    ]
+  },
+  "provenance": {
+    "max": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Midnight_Zone",
+      "snapshot": "sources/wiki/pages/8373b99324f2c1ae.json",
+      "capturedAt": "2026-09-27T03:29:47.701Z"
+    },
+    "traits": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Midnight_Zone",
+      "snapshot": "sources/wiki/pages/8373b99324f2c1ae.json",
+      "capturedAt": "2026-09-27T03:29:47.701Z"
+    },
+    "abilities": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Midnight_Zone",
+      "snapshot": "sources/wiki/pages/8373b99324f2c1ae.json",
+      "capturedAt": "2026-09-27T03:29:47.701Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Midnight_Zone",
+      "snapshot": "sources/wiki/pages/8373b99324f2c1ae.json",
+      "capturedAt": "2026-09-27T03:29:47.701Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Midnight_Zone",
+        "snapshot": "sources/wiki/pages/8373b99324f2c1ae.json",
+        "capturedAt": "2026-09-27T03:29:47.701Z"
+      },
+      "fields": {
+        "max": "",
+        "traits": "必定无视友好",
+        "abilities": [
+          "【强制：剧本制作时】必须成为某1个事件的当事人",
+          "【强制：事件阶段】当事人为该角色的事件必定会发生"
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "max": "",
+        "traits": "必定无视友好",
+        "abilities": [
+          "【强制：剧本制作时】必须成为某1个事件的当事人",
+          "【强制：事件阶段】当事人为该角色的事件必定会发生"
+        ]
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "官方"
+  ],
+  "conflicts": []
+}

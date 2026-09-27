@@ -1,0 +1,60 @@
+{
+  "id": "10ec9d0594f5372c",
+  "title": "背叛者A或B的特殊勝利條件中，如果有某些標誌在遊戲版圖之外的卡牌上，也需要計數嗎？比如轉校生、幻想、臨時工？等角色。",
+  "kind": "faq",
+  "scope": "纸质 FAQ / LL / Q3",
+  "aliases": [],
+  "fields": {
+    "question": "背叛者A或B的特殊勝利條件中，如果有某些標誌在遊戲版圖之外的卡牌上，也需要計數嗎？比如轉校生、幻想、臨時工？等角色。",
+    "answer": "需要計數。這些特殊勝利條件不需要參考標誌是否在版圖之內。"
+  },
+  "provenance": {
+    "question": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+      "snapshot": "sources/paper-faq/last-liar.json",
+      "page": 13,
+      "questionNumber": 3
+    },
+    "answer": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+      "snapshot": "sources/paper-faq/last-liar.json",
+      "page": 13,
+      "questionNumber": 3
+    }
+  },
+  "sources": [
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+      "snapshot": "sources/paper-faq/last-liar.json",
+      "page": 13,
+      "questionNumber": 3
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+        "snapshot": "sources/paper-faq/last-liar.json",
+        "page": 13,
+        "questionNumber": 3
+      },
+      "fields": {
+        "question": "背叛者A或B的特殊勝利條件中，如果有某些標誌在遊戲版圖之外的卡牌上，也需要計數嗎？比如轉校生、幻想、臨時工？等角色。",
+        "answer": "需要計數。這些特殊勝利條件不需要參考標誌是否在版圖之內。"
+      }
+    }
+  ],
+  "tags": [
+    "LL",
+    "纸质 FAQ",
+    "规则",
+    "官方"
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+  "conflicts": []
+}

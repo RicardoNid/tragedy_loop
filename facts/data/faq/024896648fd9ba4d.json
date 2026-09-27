@@ -1,0 +1,67 @@
+{
+  "id": "024896648fd9ba4d",
+  "title": "护卫指示物如果在不死的角色身上，那名角色死亡时如何结算？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 角色 / 第 9 行",
+  "aliases": [],
+  "fields": {
+    "question": "护卫指示物如果在不死的角色身上，那名角色死亡时如何结算？",
+    "answer": "因为角色不会死亡，所以，护卫指示物也不会移除"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 9,
+      "cells": "A9:B9",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 9,
+      "cells": "A9:B9",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 9,
+      "cells": "A9:B9",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+        "snapshot": "sources/faq-sheet/characters.json",
+        "sheet": "角色",
+        "row": 9,
+        "cells": "A9:B9",
+        "capturedAt": "2026-09-27T05:39:49.068Z"
+      },
+      "fields": {
+        "question": "护卫指示物如果在不死的角色身上，那名角色死亡时如何结算？",
+        "answer": "因为角色不会死亡，所以，护卫指示物也不会移除"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "角色",
+    "关于刑警",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

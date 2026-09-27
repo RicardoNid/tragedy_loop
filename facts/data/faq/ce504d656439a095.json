@@ -1,0 +1,66 @@
+{
+  "id": "ce504d656439a095",
+  "title": "数据库群的密码是什么，为什么我总是输不对？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 写在前面 / 第 12 行",
+  "aliases": [],
+  "fields": {
+    "question": "数据库群的密码是什么，为什么我总是输不对？",
+    "answer": "密码是9位繁体字"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000001",
+      "snapshot": "sources/faq-sheet/preface.json",
+      "sheet": "写在前面",
+      "row": 12,
+      "cells": "A12:B12",
+      "capturedAt": "2026-09-27T05:41:03.158Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000001",
+      "snapshot": "sources/faq-sheet/preface.json",
+      "sheet": "写在前面",
+      "row": 12,
+      "cells": "A12:B12",
+      "capturedAt": "2026-09-27T05:41:03.158Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000001",
+      "snapshot": "sources/faq-sheet/preface.json",
+      "sheet": "写在前面",
+      "row": 12,
+      "cells": "A12:B12",
+      "capturedAt": "2026-09-27T05:41:03.158Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000001",
+        "snapshot": "sources/faq-sheet/preface.json",
+        "sheet": "写在前面",
+        "row": 12,
+        "cells": "A12:B12",
+        "capturedAt": "2026-09-27T05:41:03.158Z"
+      },
+      "fields": {
+        "question": "数据库群的密码是什么，为什么我总是输不对？",
+        "answer": "密码是9位繁体字"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "写在前面",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

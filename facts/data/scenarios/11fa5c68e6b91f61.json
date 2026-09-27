@@ -1,0 +1,174 @@
+{
+  "id": "11fa5c68e6b91f61",
+  "title": "UM-09",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "scenarioCode": "UM-09",
+    "剧本名": "喵喵，喵喵",
+    "作者": "高雷",
+    "轮数": "1",
+    "天数": "1"
+  },
+  "provenance": {
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+      "table": 3,
+      "row": 10
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+      "table": 3,
+      "row": 10
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+      "table": 3,
+      "row": 10
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+      "table": 3,
+      "row": 10
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+      "table": 3,
+      "row": 10
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+      "table": 3,
+      "row": 10
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+        "table": 3,
+        "row": 10
+      },
+      "fields": {
+        "scenarioCode": "UM-09",
+        "剧本名": "喵喵，喵喵",
+        "作者": "高雷",
+        "轮数": "1",
+        "天数": "1"
+      }
+    }
+  ],
+  "tags": [
+    "民间模组/旧模组剧本",
+    "Unheard Malice"
+  ],
+  "module": "Unheard Malice",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "11fa5c68e6b91f61",
+        "title": "UM-09",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "scenarioCode": "UM-09",
+          "剧本名": "喵喵，喵喵",
+          "作者": "高雷",
+          "轮数": "1",
+          "天数": "1"
+        },
+        "provenance": {
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+            "table": 3,
+            "row": 10
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+            "table": 3,
+            "row": 10
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+            "table": 3,
+            "row": 10
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+            "table": 3,
+            "row": 10
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+            "table": 3,
+            "row": 10
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+            "table": 3,
+            "row": 10
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+              "table": 3,
+              "row": 10
+            },
+            "fields": {
+              "scenarioCode": "UM-09",
+              "剧本名": "喵喵，喵喵",
+              "作者": "高雷",
+              "轮数": "1",
+              "天数": "1"
+            }
+          }
+        ],
+        "tags": [
+          "民间模组/旧模组剧本",
+          "Unheard Malice"
+        ],
+        "module": "Unheard Malice"
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [],
+  "conflicts": []
+}

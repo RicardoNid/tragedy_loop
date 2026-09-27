@@ -1,0 +1,224 @@
+{
+  "id": "cf69a54ae9e2cbde",
+  "title": "异界人",
+  "kind": "characters",
+  "scope": "",
+  "aliases": [
+    "異界人"
+  ],
+  "fields": {
+    "角色名": "异界人",
+    "初始区域": "神社",
+    "禁行区域": "医院",
+    "不安限度": "2",
+    "属性": [
+      "学生",
+      "少女"
+    ],
+    "友好能力": [
+      {
+        "text": "（友好4 1L1）使同一區域另外1名角色死亡。",
+        "threshold": 4,
+        "limitText": "1L1",
+        "oncePerLoop": true
+      },
+      {
+        "text": "（友好5 1L1）復活同一區域任意1具屍體。",
+        "threshold": 5,
+        "limitText": "1L1",
+        "oncePerLoop": true
+      }
+    ]
+  },
+  "provenance": {
+    "角色名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E7%95%B0%E7%95%8C%E4%BA%BA",
+      "snapshot": "sources/wiki/pages/c795fbe776bfb03e.json",
+      "capturedAt": "2026-09-27T03:33:55.718Z"
+    },
+    "初始区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E7%95%B0%E7%95%8C%E4%BA%BA",
+      "snapshot": "sources/wiki/pages/c795fbe776bfb03e.json",
+      "capturedAt": "2026-09-27T03:33:55.718Z"
+    },
+    "禁行区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E7%95%B0%E7%95%8C%E4%BA%BA",
+      "snapshot": "sources/wiki/pages/c795fbe776bfb03e.json",
+      "capturedAt": "2026-09-27T03:33:55.718Z"
+    },
+    "不安限度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E7%95%B0%E7%95%8C%E4%BA%BA",
+      "snapshot": "sources/wiki/pages/c795fbe776bfb03e.json",
+      "capturedAt": "2026-09-27T03:33:55.718Z"
+    },
+    "属性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E7%95%B0%E7%95%8C%E4%BA%BA",
+      "snapshot": "sources/wiki/pages/c795fbe776bfb03e.json",
+      "capturedAt": "2026-09-27T03:33:55.718Z"
+    },
+    "友好能力": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E7%95%B0%E7%95%8C%E4%BA%BA",
+      "snapshot": "sources/wiki/pages/c795fbe776bfb03e.json",
+      "capturedAt": "2026-09-27T03:33:55.718Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E7%95%B0%E7%95%8C%E4%BA%BA",
+      "snapshot": "sources/wiki/pages/c795fbe776bfb03e.json",
+      "capturedAt": "2026-09-27T03:33:55.718Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E7%95%B0%E7%95%8C%E4%BA%BA",
+        "snapshot": "sources/wiki/pages/c795fbe776bfb03e.json",
+        "capturedAt": "2026-09-27T03:33:55.718Z"
+      },
+      "fields": {
+        "角色名": "异界人",
+        "初始区域": "神社",
+        "禁行区域": "医院",
+        "不安限度": "2",
+        "属性": [
+          "学生",
+          "少女"
+        ],
+        "友好能力": [
+          {
+            "text": "（友好4 1L1）使同一區域另外1名角色死亡。",
+            "threshold": 4,
+            "limitText": "1L1",
+            "oncePerLoop": true
+          },
+          {
+            "text": "（友好5 1L1）復活同一區域任意1具屍體。",
+            "threshold": 5,
+            "limitText": "1L1",
+            "oncePerLoop": true
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "特性": "",
+        "属性": [
+          "学生",
+          "少女"
+        ],
+        "初始区域": "神社",
+        "禁行区域": "医院",
+        "不安限度": "2",
+        "友好能力": [
+          {
+            "text": "使同一区域另外1名角色死亡",
+            "threshold": "4",
+            "oncePerLoop": "是"
+          },
+          {
+            "text": "复活同一区域任意1具尸体",
+            "threshold": "5",
+            "oncePerLoop": "是"
+          }
+        ]
+      }
+    }
+  ],
+  "body": "text/characters/cf69a54ae9e2cbde.txt",
+  "bodySource": {
+    "provider": "wiki",
+    "url": "https://tragedyrooper.fandom.com/zh/wiki/%E7%95%B0%E7%95%8C%E4%BA%BA",
+    "snapshot": "sources/wiki/pages/c795fbe776bfb03e.json",
+    "capturedAt": "2026-09-27T03:33:55.718Z"
+  },
+  "wikiTitle": "異界人",
+  "originalTables": [],
+  "wikiStatus": "captured",
+  "links": [
+    {
+      "title": "<img style=\"\" src=\"https://static.wikia.nocookie.net/tragedyrooper/images/9/93/%E5%BC%82%E7%95%8C%E4%BA%BA.png/revision/latest/scale-to-width-down/134?cb=20251023162228&amp;path-prefix=zh\" title=\"异界人.png (244 KB)\" class=\"thumbimage\" alt=\"\" height=\"185\" width=\"185\" data-image-name=\"异界人.png\" data-image-key=\"%E5%BC%82%E7%95%8C%E4%BA%BA.png\" data-relevant=\"1\">",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%BC%82%E7%95%8C%E4%BA%BA.png"
+    }
+  ],
+  "images": [
+    {
+      "alt": "",
+      "src": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+    }
+  ],
+  "media": [
+    {
+      "title": "异界人.png",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%BC%82%E7%95%8C%E4%BA%BA.png",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/9/93/%E5%BC%82%E7%95%8C%E4%BA%BA.png/revision/latest?cb=20251023162228&format=original&path-prefix=zh",
+      "path": "media/wiki/3749bfecad1ffc93.png",
+      "sourceRecord": "sources/wiki/files/3749bfecad1ffc93.json",
+      "sha256": "450184ea5cf38899e9610c2d1091398a93d39f2fa5218a449235a87cff55ed2b",
+      "bytes": 249572,
+      "fileInfo": "PNG image data, 307 x 422, 8-bit/color RGBA, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/6fadb2d7054aeea7.json",
+  "tags": [
+    "学生",
+    "少女",
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "友好能力",
+      "selected": [
+        {
+          "text": "（友好4 1L1）使同一區域另外1名角色死亡。",
+          "threshold": 4,
+          "limitText": "1L1",
+          "oncePerLoop": true
+        },
+        {
+          "text": "（友好5 1L1）復活同一區域任意1具屍體。",
+          "threshold": 5,
+          "limitText": "1L1",
+          "oncePerLoop": true
+        }
+      ],
+      "candidate": [
+        {
+          "text": "使同一区域另外1名角色死亡",
+          "threshold": "4",
+          "oncePerLoop": "是"
+        },
+        {
+          "text": "复活同一区域任意1具尸体",
+          "threshold": "5",
+          "oncePerLoop": "是"
+        }
+      ],
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    }
+  ]
+}

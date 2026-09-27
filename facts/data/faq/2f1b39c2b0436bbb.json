@@ -1,0 +1,66 @@
+{
+  "id": "2f1b39c2b0436bbb",
+  "title": "下面的BTX/MZ之类的是什么？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 写在前面 / 第 6 行",
+  "aliases": [],
+  "fields": {
+    "question": "下面的BTX/MZ之类的是什么？",
+    "answer": "模组名字的缩写"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000001",
+      "snapshot": "sources/faq-sheet/preface.json",
+      "sheet": "写在前面",
+      "row": 6,
+      "cells": "A6:B6",
+      "capturedAt": "2026-09-27T05:41:03.158Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000001",
+      "snapshot": "sources/faq-sheet/preface.json",
+      "sheet": "写在前面",
+      "row": 6,
+      "cells": "A6:B6",
+      "capturedAt": "2026-09-27T05:41:03.158Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000001",
+      "snapshot": "sources/faq-sheet/preface.json",
+      "sheet": "写在前面",
+      "row": 6,
+      "cells": "A6:B6",
+      "capturedAt": "2026-09-27T05:41:03.158Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000001",
+        "snapshot": "sources/faq-sheet/preface.json",
+        "sheet": "写在前面",
+        "row": 6,
+        "cells": "A6:B6",
+        "capturedAt": "2026-09-27T05:41:03.158Z"
+      },
+      "fields": {
+        "question": "下面的BTX/MZ之类的是什么？",
+        "answer": "模组名字的缩写"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "写在前面",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

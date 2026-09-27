@@ -1,0 +1,440 @@
+{
+  "id": "e0698b5e7244aa8f",
+  "title": "FS-26",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "FS-26非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "FS-26",
+    "loops": "无限",
+    "days": 1,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "失踪"
+      }
+    ],
+    "剧本名": "西行妖",
+    "作者": "Frelia_ASM",
+    "轮数": "n",
+    "天数": "1"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-26",
+      "snapshot": "sources/wiki/pages/2d041ad45ede13a1.json",
+      "capturedAt": "2026-09-27T04:26:48.391Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-26",
+      "snapshot": "sources/wiki/pages/2d041ad45ede13a1.json",
+      "capturedAt": "2026-09-27T04:26:48.391Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-26",
+      "snapshot": "sources/wiki/pages/2d041ad45ede13a1.json",
+      "capturedAt": "2026-09-27T04:26:48.391Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-26",
+      "snapshot": "sources/wiki/pages/2d041ad45ede13a1.json",
+      "capturedAt": "2026-09-27T04:26:48.391Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-26",
+      "snapshot": "sources/wiki/pages/2d041ad45ede13a1.json",
+      "capturedAt": "2026-09-27T04:26:48.391Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 27
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 27
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 27
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 27
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-26",
+      "snapshot": "sources/wiki/pages/2d041ad45ede13a1.json",
+      "capturedAt": "2026-09-27T04:26:48.391Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 27
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-26%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/f0d56a0086008fbb.json",
+      "capturedAt": "2026-09-27T04:26:51.413Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-26",
+        "snapshot": "sources/wiki/pages/2d041ad45ede13a1.json",
+        "capturedAt": "2026-09-27T04:26:48.391Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "FS-26",
+        "loops": "无限",
+        "days": 1,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "失踪"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 1,
+        "row": 27
+      },
+      "fields": {
+        "scenarioCode": "FS-26",
+        "剧本名": "西行妖",
+        "作者": "Frelia_ASM",
+        "轮数": "n",
+        "天数": "1"
+      }
+    }
+  ],
+  "wikiTitle": "FS-26",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "First Steps"
+  ],
+  "module": "First Steps",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "e0698b5e7244aa8f",
+        "title": "FS-26",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "FS-26",
+          "loops": "无限",
+          "days": 1,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "失踪"
+            }
+          ],
+          "剧本名": "西行妖",
+          "作者": "Frelia_ASM",
+          "轮数": "n",
+          "天数": "1"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-26",
+            "snapshot": "sources/wiki/pages/2d041ad45ede13a1.json",
+            "capturedAt": "2026-09-27T04:26:48.391Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-26",
+            "snapshot": "sources/wiki/pages/2d041ad45ede13a1.json",
+            "capturedAt": "2026-09-27T04:26:48.391Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-26",
+            "snapshot": "sources/wiki/pages/2d041ad45ede13a1.json",
+            "capturedAt": "2026-09-27T04:26:48.391Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-26",
+            "snapshot": "sources/wiki/pages/2d041ad45ede13a1.json",
+            "capturedAt": "2026-09-27T04:26:48.391Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-26",
+            "snapshot": "sources/wiki/pages/2d041ad45ede13a1.json",
+            "capturedAt": "2026-09-27T04:26:48.391Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 27
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 27
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 27
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 27
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-26",
+            "snapshot": "sources/wiki/pages/2d041ad45ede13a1.json",
+            "capturedAt": "2026-09-27T04:26:48.391Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 27
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-26",
+              "snapshot": "sources/wiki/pages/2d041ad45ede13a1.json",
+              "capturedAt": "2026-09-27T04:26:48.391Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "FS-26",
+              "loops": "无限",
+              "days": 1,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "失踪"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 1,
+              "row": 27
+            },
+            "fields": {
+              "scenarioCode": "FS-26",
+              "剧本名": "西行妖",
+              "作者": "Frelia_ASM",
+              "轮数": "n",
+              "天数": "1"
+            }
+          }
+        ],
+        "body": "text/scenarios/e0698b5e7244aa8f.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-26",
+          "snapshot": "sources/wiki/pages/2d041ad45ede13a1.json",
+          "capturedAt": "2026-09-27T04:26:48.391Z"
+        },
+        "wikiTitle": "FS-26",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "FS-26非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-26%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-26?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "First Steps"
+        ],
+        "module": "First Steps"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "69dd42a8bc1c8108",
+        "title": "FS-26非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "FS-26",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "复仇的火种"
+            },
+            {
+              "slot": "X",
+              "name": "最黑暗的剧本"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-26%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/f0d56a0086008fbb.json",
+            "capturedAt": "2026-09-27T04:26:51.413Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-26%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/f0d56a0086008fbb.json",
+            "capturedAt": "2026-09-27T04:26:51.413Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-26%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/f0d56a0086008fbb.json",
+            "capturedAt": "2026-09-27T04:26:51.413Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-26%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/f0d56a0086008fbb.json",
+            "capturedAt": "2026-09-27T04:26:51.413Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-26%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/f0d56a0086008fbb.json",
+              "capturedAt": "2026-09-27T04:26:51.413Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "FS-26",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "复仇的火种"
+                },
+                {
+                  "slot": "X",
+                  "name": "最黑暗的剧本"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/69dd42a8bc1c8108.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-26%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/f0d56a0086008fbb.json",
+          "capturedAt": "2026-09-27T04:26:51.413Z"
+        },
+        "wikiTitle": "FS-26非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-26%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-26%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-26%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=3"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "First Steps",
+        "tags": [
+          "民间",
+          "First Steps"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "69dd42a8bc1c8108"
+  ],
+  "conflicts": []
+}

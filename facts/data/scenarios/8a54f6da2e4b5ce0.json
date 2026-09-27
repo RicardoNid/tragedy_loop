@@ -1,0 +1,462 @@
+{
+  "id": "8a54f6da2e4b5ce0",
+  "title": "WM-01",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "WM-01非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "WM-01",
+    "loops": 5,
+    "days": 5,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "廷达罗斯之嗅"
+      },
+      {
+        "day": 2,
+        "incidentText": "廷达罗斯之嗅"
+      },
+      {
+        "day": 3,
+        "incidentText": "灭绝之火"
+      },
+      {
+        "day": 4,
+        "incidentText": "集体自杀"
+      },
+      {
+        "day": 5,
+        "incidentText": "暴乱"
+      }
+    ],
+    "剧本名": "恐惧深渊的边缘",
+    "作者": "高雷",
+    "轮数": "5",
+    "天数": "5"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-01?oldid=1435",
+      "snapshot": "sources/wiki/pages/73bb98e5f84c539e.json",
+      "capturedAt": "2026-09-27T04:59:18.096Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-01?oldid=1435",
+      "snapshot": "sources/wiki/pages/73bb98e5f84c539e.json",
+      "capturedAt": "2026-09-27T04:59:18.096Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-01?oldid=1435",
+      "snapshot": "sources/wiki/pages/73bb98e5f84c539e.json",
+      "capturedAt": "2026-09-27T04:59:18.096Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-01?oldid=1435",
+      "snapshot": "sources/wiki/pages/73bb98e5f84c539e.json",
+      "capturedAt": "2026-09-27T04:59:18.096Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-01?oldid=1435",
+      "snapshot": "sources/wiki/pages/73bb98e5f84c539e.json",
+      "capturedAt": "2026-09-27T04:59:18.096Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 2
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 2
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 2
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 2
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-01?oldid=1435",
+      "snapshot": "sources/wiki/pages/73bb98e5f84c539e.json",
+      "capturedAt": "2026-09-27T04:59:18.096Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 2
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-01%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1892",
+      "snapshot": "sources/wiki/pages/41ae510e8006852b.json",
+      "capturedAt": "2026-09-27T04:59:24.044Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-01?oldid=1435",
+        "snapshot": "sources/wiki/pages/73bb98e5f84c539e.json",
+        "capturedAt": "2026-09-27T04:59:18.096Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "WM-01",
+        "loops": 5,
+        "days": 5,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "廷达罗斯之嗅"
+          },
+          {
+            "day": 2,
+            "incidentText": "廷达罗斯之嗅"
+          },
+          {
+            "day": 3,
+            "incidentText": "灭绝之火"
+          },
+          {
+            "day": 4,
+            "incidentText": "集体自杀"
+          },
+          {
+            "day": 5,
+            "incidentText": "暴乱"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 6,
+        "row": 2
+      },
+      "fields": {
+        "scenarioCode": "WM-01",
+        "剧本名": "恐惧深渊的边缘",
+        "作者": "高雷",
+        "轮数": "5",
+        "天数": "5"
+      }
+    }
+  ],
+  "wikiTitle": "WM-01",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Weird Mythology"
+  ],
+  "module": "Weird Mythology",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "8a54f6da2e4b5ce0",
+        "title": "WM-01",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "WM-01",
+          "loops": 5,
+          "days": 5,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "廷达罗斯之嗅"
+            },
+            {
+              "day": 2,
+              "incidentText": "廷达罗斯之嗅"
+            },
+            {
+              "day": 3,
+              "incidentText": "灭绝之火"
+            },
+            {
+              "day": 4,
+              "incidentText": "集体自杀"
+            },
+            {
+              "day": 5,
+              "incidentText": "暴乱"
+            }
+          ],
+          "剧本名": "恐惧深渊的边缘",
+          "作者": "高雷",
+          "轮数": "5",
+          "天数": "5"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-01?oldid=1435",
+            "snapshot": "sources/wiki/pages/73bb98e5f84c539e.json",
+            "capturedAt": "2026-09-27T04:59:18.096Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-01?oldid=1435",
+            "snapshot": "sources/wiki/pages/73bb98e5f84c539e.json",
+            "capturedAt": "2026-09-27T04:59:18.096Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-01?oldid=1435",
+            "snapshot": "sources/wiki/pages/73bb98e5f84c539e.json",
+            "capturedAt": "2026-09-27T04:59:18.096Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-01?oldid=1435",
+            "snapshot": "sources/wiki/pages/73bb98e5f84c539e.json",
+            "capturedAt": "2026-09-27T04:59:18.096Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-01?oldid=1435",
+            "snapshot": "sources/wiki/pages/73bb98e5f84c539e.json",
+            "capturedAt": "2026-09-27T04:59:18.096Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 2
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 2
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 2
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 2
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-01?oldid=1435",
+            "snapshot": "sources/wiki/pages/73bb98e5f84c539e.json",
+            "capturedAt": "2026-09-27T04:59:18.096Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 2
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-01?oldid=1435",
+              "snapshot": "sources/wiki/pages/73bb98e5f84c539e.json",
+              "capturedAt": "2026-09-27T04:59:18.096Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "WM-01",
+              "loops": 5,
+              "days": 5,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "廷达罗斯之嗅"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "廷达罗斯之嗅"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "灭绝之火"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "集体自杀"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "暴乱"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 6,
+              "row": 2
+            },
+            "fields": {
+              "scenarioCode": "WM-01",
+              "剧本名": "恐惧深渊的边缘",
+              "作者": "高雷",
+              "轮数": "5",
+              "天数": "5"
+            }
+          }
+        ],
+        "body": "text/scenarios/8a54f6da2e4b5ce0.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-01?oldid=1435",
+          "snapshot": "sources/wiki/pages/73bb98e5f84c539e.json",
+          "capturedAt": "2026-09-27T04:59:18.096Z"
+        },
+        "wikiTitle": "WM-01",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-01?action=edit&section=1"
+          },
+          {
+            "title": "WM-01非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-01%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-01?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Weird Mythology"
+        ],
+        "module": "Weird Mythology"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "a550f117c43da4e2",
+        "title": "WM-01非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "WM-01"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-01%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1892",
+            "snapshot": "sources/wiki/pages/41ae510e8006852b.json",
+            "capturedAt": "2026-09-27T04:59:24.044Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-01%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1892",
+            "snapshot": "sources/wiki/pages/41ae510e8006852b.json",
+            "capturedAt": "2026-09-27T04:59:24.044Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-01%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1892",
+            "snapshot": "sources/wiki/pages/41ae510e8006852b.json",
+            "capturedAt": "2026-09-27T04:59:24.044Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-01%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1892",
+              "snapshot": "sources/wiki/pages/41ae510e8006852b.json",
+              "capturedAt": "2026-09-27T04:59:24.044Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "WM-01"
+            }
+          }
+        ],
+        "wikiTitle": "WM-01非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Weird Mythology",
+        "tags": [
+          "民间",
+          "Weird Mythology"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "a550f117c43da4e2"
+  ],
+  "conflicts": []
+}

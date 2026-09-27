@@ -1,0 +1,67 @@
+{
+  "id": "0b609a1e4c2d1220",
+  "title": "局外人是丧尸，并且当前区域只有他一个角色，也没有其他尸体，回合结束时如何结算？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / HSA / 第 33 行",
+  "aliases": [],
+  "fields": {
+    "question": "局外人是丧尸，并且当前区域只有他一个角色，也没有其他尸体，回合结束时如何结算？",
+    "answer": "此时该区域丧尸数多于非丧尸角色数，只能选局外人并杀害"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1u35d2",
+      "snapshot": "sources/faq-sheet/hsa.json",
+      "sheet": "HSA",
+      "row": 33,
+      "cells": "A33:B33",
+      "capturedAt": "2026-09-27T05:40:17.319Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1u35d2",
+      "snapshot": "sources/faq-sheet/hsa.json",
+      "sheet": "HSA",
+      "row": 33,
+      "cells": "A33:B33",
+      "capturedAt": "2026-09-27T05:40:17.319Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1u35d2",
+      "snapshot": "sources/faq-sheet/hsa.json",
+      "sheet": "HSA",
+      "row": 33,
+      "cells": "A33:B33",
+      "capturedAt": "2026-09-27T05:40:17.319Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1u35d2",
+        "snapshot": "sources/faq-sheet/hsa.json",
+        "sheet": "HSA",
+        "row": 33,
+        "cells": "A33:B33",
+        "capturedAt": "2026-09-27T05:40:17.319Z"
+      },
+      "fields": {
+        "question": "局外人是丧尸，并且当前区域只有他一个角色，也没有其他尸体，回合结束时如何结算？",
+        "answer": "此时该区域丧尸数多于非丧尸角色数，只能选局外人并杀害"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "HSA",
+    "关于能力",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

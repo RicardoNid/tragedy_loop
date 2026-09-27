@@ -1,0 +1,480 @@
+{
+  "id": "d04a7c19afd52cad",
+  "title": "BTX-99",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "BTX-99非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "BTX-99",
+    "loops": "无限",
+    "days": 3,
+    "schedule": [
+      {
+        "day": 2,
+        "incidentText": "远距离杀人"
+      },
+      {
+        "day": 3,
+        "incidentText": "邪气污染"
+      }
+    ],
+    "剧本名": "鲁班锁",
+    "作者": "奥伯伦",
+    "轮数": "n",
+    "天数": "3"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-99",
+      "snapshot": "sources/wiki/pages/52b57cd6620ca0a3.json",
+      "capturedAt": "2026-09-27T04:23:12.009Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-99",
+      "snapshot": "sources/wiki/pages/52b57cd6620ca0a3.json",
+      "capturedAt": "2026-09-27T04:23:12.009Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-99",
+      "snapshot": "sources/wiki/pages/52b57cd6620ca0a3.json",
+      "capturedAt": "2026-09-27T04:23:12.009Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-99",
+      "snapshot": "sources/wiki/pages/52b57cd6620ca0a3.json",
+      "capturedAt": "2026-09-27T04:23:12.009Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-99",
+      "snapshot": "sources/wiki/pages/52b57cd6620ca0a3.json",
+      "capturedAt": "2026-09-27T04:23:12.009Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 100
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 100
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 100
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 100
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-99",
+      "snapshot": "sources/wiki/pages/52b57cd6620ca0a3.json",
+      "capturedAt": "2026-09-27T04:23:12.009Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 100
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-99%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/e3d0989d6c58d0da.json",
+      "capturedAt": "2026-09-27T04:23:21.115Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-99",
+        "snapshot": "sources/wiki/pages/52b57cd6620ca0a3.json",
+        "capturedAt": "2026-09-27T04:23:12.009Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "BTX-99",
+        "loops": "无限",
+        "days": 3,
+        "schedule": [
+          {
+            "day": 2,
+            "incidentText": "远距离杀人"
+          },
+          {
+            "day": 3,
+            "incidentText": "邪气污染"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 2,
+        "row": 100
+      },
+      "fields": {
+        "scenarioCode": "BTX-99",
+        "剧本名": "鲁班锁",
+        "作者": "奥伯伦",
+        "轮数": "n",
+        "天数": "3"
+      }
+    }
+  ],
+  "wikiTitle": "BTX-99",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Basic Tragedy X"
+  ],
+  "module": "Basic Tragedy X",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "d04a7c19afd52cad",
+        "title": "BTX-99",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "BTX-99",
+          "loops": "无限",
+          "days": 3,
+          "schedule": [
+            {
+              "day": 2,
+              "incidentText": "远距离杀人"
+            },
+            {
+              "day": 3,
+              "incidentText": "邪气污染"
+            }
+          ],
+          "剧本名": "鲁班锁",
+          "作者": "奥伯伦",
+          "轮数": "n",
+          "天数": "3"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-99",
+            "snapshot": "sources/wiki/pages/52b57cd6620ca0a3.json",
+            "capturedAt": "2026-09-27T04:23:12.009Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-99",
+            "snapshot": "sources/wiki/pages/52b57cd6620ca0a3.json",
+            "capturedAt": "2026-09-27T04:23:12.009Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-99",
+            "snapshot": "sources/wiki/pages/52b57cd6620ca0a3.json",
+            "capturedAt": "2026-09-27T04:23:12.009Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-99",
+            "snapshot": "sources/wiki/pages/52b57cd6620ca0a3.json",
+            "capturedAt": "2026-09-27T04:23:12.009Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-99",
+            "snapshot": "sources/wiki/pages/52b57cd6620ca0a3.json",
+            "capturedAt": "2026-09-27T04:23:12.009Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 100
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 100
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 100
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 100
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-99",
+            "snapshot": "sources/wiki/pages/52b57cd6620ca0a3.json",
+            "capturedAt": "2026-09-27T04:23:12.009Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 100
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-99",
+              "snapshot": "sources/wiki/pages/52b57cd6620ca0a3.json",
+              "capturedAt": "2026-09-27T04:23:12.009Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "BTX-99",
+              "loops": "无限",
+              "days": 3,
+              "schedule": [
+                {
+                  "day": 2,
+                  "incidentText": "远距离杀人"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "邪气污染"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 2,
+              "row": 100
+            },
+            "fields": {
+              "scenarioCode": "BTX-99",
+              "剧本名": "鲁班锁",
+              "作者": "奥伯伦",
+              "轮数": "n",
+              "天数": "3"
+            }
+          }
+        ],
+        "body": "text/scenarios/d04a7c19afd52cad.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-99",
+          "snapshot": "sources/wiki/pages/52b57cd6620ca0a3.json",
+          "capturedAt": "2026-09-27T04:23:12.009Z"
+        },
+        "wikiTitle": "BTX-99",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "BTX-99非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-99%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-99?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Basic Tragedy X"
+        ],
+        "module": "Basic Tragedy X"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "109fd6fa6d14b554",
+        "title": "BTX-99非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "BTX-99",
+          "loops": "无限",
+          "days": 3,
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "被封印的邪灵"
+            },
+            {
+              "slot": "X1",
+              "name": "未知因子X"
+            },
+            {
+              "slot": "X2",
+              "name": "好友圈"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-99%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/e3d0989d6c58d0da.json",
+            "capturedAt": "2026-09-27T04:23:21.115Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-99%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/e3d0989d6c58d0da.json",
+            "capturedAt": "2026-09-27T04:23:21.115Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-99%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/e3d0989d6c58d0da.json",
+            "capturedAt": "2026-09-27T04:23:21.115Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-99%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/e3d0989d6c58d0da.json",
+            "capturedAt": "2026-09-27T04:23:21.115Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-99%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/e3d0989d6c58d0da.json",
+            "capturedAt": "2026-09-27T04:23:21.115Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-99%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/e3d0989d6c58d0da.json",
+            "capturedAt": "2026-09-27T04:23:21.115Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-99%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/e3d0989d6c58d0da.json",
+              "capturedAt": "2026-09-27T04:23:21.115Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "BTX-99",
+              "loops": "无限",
+              "days": 3,
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "被封印的邪灵"
+                },
+                {
+                  "slot": "X1",
+                  "name": "未知因子X"
+                },
+                {
+                  "slot": "X2",
+                  "name": "好友圈"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/109fd6fa6d14b554.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-99%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/e3d0989d6c58d0da.json",
+          "capturedAt": "2026-09-27T04:23:21.115Z"
+        },
+        "wikiTitle": "BTX-99非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-99%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-99%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-99%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=3"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Basic Tragedy X",
+        "tags": [
+          "民间",
+          "Basic Tragedy X"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "109fd6fa6d14b554"
+  ],
+  "conflicts": []
+}

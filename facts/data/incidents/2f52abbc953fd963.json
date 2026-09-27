@@ -1,0 +1,58 @@
+{
+  "id": "2f52abbc953fd963",
+  "title": "灭绝之火",
+  "kind": "incidents",
+  "scope": "Weird Mythology",
+  "aliases": [],
+  "fields": {
+    "effect": "本局游戏中若本事件首次发生→所有角色和主人公死亡"
+  },
+  "provenance": {
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Weird_Mythology",
+      "snapshot": "sources/wiki/pages/4d608cef3c4485cd.json",
+      "capturedAt": "2026-09-27T03:30:15.425Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Weird_Mythology",
+      "snapshot": "sources/wiki/pages/4d608cef3c4485cd.json",
+      "capturedAt": "2026-09-27T03:30:15.425Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Weird_Mythology",
+        "snapshot": "sources/wiki/pages/4d608cef3c4485cd.json",
+        "capturedAt": "2026-09-27T03:30:15.425Z"
+      },
+      "fields": {
+        "effect": "本局游戏中若本事件首次发生→所有角色和主人公死亡"
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "effect": "本局游戏中若本事件首次发生→所有角色和主人公死亡"
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "官方"
+  ],
+  "conflicts": []
+}

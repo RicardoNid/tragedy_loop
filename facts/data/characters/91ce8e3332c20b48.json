@@ -1,0 +1,176 @@
+{
+  "id": "91ce8e3332c20b48",
+  "title": "临时工",
+  "kind": "characters",
+  "scope": "",
+  "aliases": [
+    "臨時工"
+  ],
+  "fields": {
+    "角色名": "临时工",
+    "初始区域": "都市",
+    "禁行区域": "无",
+    "不安限度": "1",
+    "属性": [
+      "成人",
+      "男性"
+    ],
+    "特性": "该卡牌的身份为平民（无视其原本所配置的身份）。\n\n回合结束阶段，如果该角色总共有3枚或以上的任意指示物，该角色死亡。\n\n回合开始阶段，如果该卡牌为死亡状态，则将临时工？在都市配置上场"
+  },
+  "provenance": {
+    "角色名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%87%A8%E6%99%82%E5%B7%A5",
+      "snapshot": "sources/wiki/pages/433ef0170b0f9d6b.json",
+      "capturedAt": "2026-09-27T03:34:10.697Z"
+    },
+    "初始区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%87%A8%E6%99%82%E5%B7%A5",
+      "snapshot": "sources/wiki/pages/433ef0170b0f9d6b.json",
+      "capturedAt": "2026-09-27T03:34:10.697Z"
+    },
+    "禁行区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%87%A8%E6%99%82%E5%B7%A5",
+      "snapshot": "sources/wiki/pages/433ef0170b0f9d6b.json",
+      "capturedAt": "2026-09-27T03:34:10.697Z"
+    },
+    "不安限度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%87%A8%E6%99%82%E5%B7%A5",
+      "snapshot": "sources/wiki/pages/433ef0170b0f9d6b.json",
+      "capturedAt": "2026-09-27T03:34:10.697Z"
+    },
+    "属性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%87%A8%E6%99%82%E5%B7%A5",
+      "snapshot": "sources/wiki/pages/433ef0170b0f9d6b.json",
+      "capturedAt": "2026-09-27T03:34:10.697Z"
+    },
+    "特性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%87%A8%E6%99%82%E5%B7%A5",
+      "snapshot": "sources/wiki/pages/433ef0170b0f9d6b.json",
+      "capturedAt": "2026-09-27T03:34:10.697Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%87%A8%E6%99%82%E5%B7%A5",
+      "snapshot": "sources/wiki/pages/433ef0170b0f9d6b.json",
+      "capturedAt": "2026-09-27T03:34:10.697Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%87%A8%E6%99%82%E5%B7%A5",
+        "snapshot": "sources/wiki/pages/433ef0170b0f9d6b.json",
+        "capturedAt": "2026-09-27T03:34:10.697Z"
+      },
+      "fields": {
+        "角色名": "临时工",
+        "初始区域": "都市",
+        "禁行区域": "无",
+        "不安限度": "1",
+        "属性": [
+          "成人",
+          "男性"
+        ],
+        "特性": "该卡牌的身份为平民（无视其原本所配置的身份）。\n\n回合结束阶段，如果该角色总共有3枚或以上的任意指示物，该角色死亡。\n\n回合开始阶段，如果该卡牌为死亡状态，则将临时工？在都市配置上场"
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "特性": "该卡牌的实际身份为平民（无视其原本所配置的身份）；回合结束阶段，如果该角色在场且存活，身上各类实际指示物合计有3枚或以上，则对其执行死亡处理，适用的保护与替代照常处理（计算枚数，不是种类数或有效数量，标志与EX牌不计入）；回合开始阶段，如果该卡牌为死亡状态且临时工？尚未在场，则将临时工？在都市配置上场，已在场不重复配置。",
+        "属性": [
+          "成人",
+          "男性"
+        ],
+        "初始区域": "都市",
+        "禁行区域": "否",
+        "不安限度": "1",
+        "友好能力": []
+      }
+    }
+  ],
+  "body": "text/characters/91ce8e3332c20b48.txt",
+  "bodySource": {
+    "provider": "wiki",
+    "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%87%A8%E6%99%82%E5%B7%A5",
+    "snapshot": "sources/wiki/pages/433ef0170b0f9d6b.json",
+    "capturedAt": "2026-09-27T03:34:10.697Z"
+  },
+  "wikiTitle": "臨時工",
+  "originalTables": [],
+  "wikiStatus": "captured",
+  "links": [
+    {
+      "title": "<img style=\"\" src=\"https://static.wikia.nocookie.net/tragedyrooper/images/5/59/%E4%B8%B4%E6%97%B6%E5%B7%A5.png/revision/latest/scale-to-width-down/134?cb=20251023162227&amp;path-prefix=zh\" title=\"临时工.png (230 KB)\" class=\"thumbimage\" alt=\"\" height=\"185\" width=\"185\" data-image-name=\"临时工.png\" data-image-key=\"%E4%B8%B4%E6%97%B6%E5%B7%A5.png\" data-relevant=\"1\">",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E4%B8%B4%E6%97%B6%E5%B7%A5.png"
+    },
+    {
+      "title": "临时工？",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%87%A8%E6%99%82%E5%B7%A5%EF%BC%9F"
+    }
+  ],
+  "images": [
+    {
+      "alt": "",
+      "src": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+    }
+  ],
+  "media": [
+    {
+      "title": "临时工.png",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:%E4%B8%B4%E6%97%B6%E5%B7%A5.png",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/5/59/%E4%B8%B4%E6%97%B6%E5%B7%A5.png/revision/latest?cb=20251023162227&format=original&path-prefix=zh",
+      "path": "media/wiki/ed22c1c873803455.png",
+      "sourceRecord": "sources/wiki/files/ed22c1c873803455.json",
+      "sha256": "3173fc9bf948540ee0da117ee974c9343a2b156e94c8bf3319f82711e57429ea",
+      "bytes": 235319,
+      "fileInfo": "PNG image data, 304 x 419, 8-bit/color RGBA, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/6fadb2d7054aeea7.json",
+  "tags": [
+    "成人",
+    "男性",
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "特性",
+      "selected": "该卡牌的身份为平民（无视其原本所配置的身份）。\n\n回合结束阶段，如果该角色总共有3枚或以上的任意指示物，该角色死亡。\n\n回合开始阶段，如果该卡牌为死亡状态，则将临时工？在都市配置上场",
+      "candidate": "该卡牌的实际身份为平民（无视其原本所配置的身份）；回合结束阶段，如果该角色在场且存活，身上各类实际指示物合计有3枚或以上，则对其执行死亡处理，适用的保护与替代照常处理（计算枚数，不是种类数或有效数量，标志与EX牌不计入）；回合开始阶段，如果该卡牌为死亡状态且临时工？尚未在场，则将临时工？在都市配置上场，已在场不重复配置。",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "禁行区域",
+      "selected": "无",
+      "candidate": "否",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    }
+  ]
+}

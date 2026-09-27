@@ -1,0 +1,67 @@
+{
+  "id": "c710de889165fec8",
+  "title": "大人物是强迫症，不在领地，可以视为在领地发事件吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 角色 / 第 45 行",
+  "aliases": [],
+  "fields": {
+    "question": "大人物是强迫症，不在领地，可以视为在领地发事件吗？",
+    "answer": "不能"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 45,
+      "cells": "A45:B45",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 45,
+      "cells": "A45:B45",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 45,
+      "cells": "A45:B45",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+        "snapshot": "sources/faq-sheet/characters.json",
+        "sheet": "角色",
+        "row": 45,
+        "cells": "A45:B45",
+        "capturedAt": "2026-09-27T05:39:49.068Z"
+      },
+      "fields": {
+        "question": "大人物是强迫症，不在领地，可以视为在领地发事件吗？",
+        "answer": "不能"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "角色",
+    "关于大人物",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}
