@@ -27,6 +27,8 @@
 
 ## 工具约定
 
+新规则引擎位于 `code/packages/engine/`，独立重写；设计、开发及验证该引擎时，先读取其 `AGENTS.md`，按任务加载分层契约。`code/web/core/` 仍是旧 Web 原型的实现。
+
 - 使用 Python 3.12，并通过 `uv` 管理。
 - 使用项目根目录的 `.venv/` 虚拟环境。
 - 命令优先使用 `uv run`，例如 `uv run pytest` 和 `uv run tragedy-loop`。
