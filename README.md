@@ -16,7 +16,7 @@ apps/
   web/                 package.json、tsconfig.json；src/ 空
   server/              package.json、tsconfig.json；src/ 空
 packages/
-  engine/              package.json；src/ 空
+  engine/              src/ 空；prototypes/ 保存独立 HTML 设计原型
   contracts/           package.json；src/ 空
   content/             package.json；src/ 空
 python/
@@ -27,7 +27,7 @@ e2e/                   空
 scripts/               空
 products/              空
 docs/
-  architecture/        空
+  architecture/        HTML 方案、术语阅读版和算法交接
   development/         空
 facts/                 独立的“规则真源”任务维护；本次不修改
 archive/               旧实现与归档说明；不参与 workspace 或检查
@@ -35,6 +35,17 @@ archive/               旧实现与归档说明；不参与 workspace 或检查
 
 空目录通过 `.gitkeep` 保留。未来实现应从这些空目录开始，按需参考 archive；不以旧测试或
 旧引擎实现自动认定规则正确。facts 的 wiki 结构和权威约定由该目录负责的任务决定。
+
+## 设计阅读入口
+
+- [核心状态机方案](docs/architecture/framework.html)
+- [领域术语阅读版](docs/architecture/glossary.html)（对应根 [CONTEXT.md](CONTEXT.md)）
+- [解空间与算法交接 Prompt](docs/architecture/handoff-prompt.html)
+- [FS 完整对局交互原型](packages/engine/prototypes/fs-first-script.prototype.html)
+
+克隆仓库后，用浏览器打开这些 HTML 文件即可阅读；原型单文件离线运行，无需安装依赖。
+原型保留教学编排、实现范围和待验收标记，不作为活动引擎或规则权威。
+方案文件总是以 HTML 格式交付。
 
 ## 安装和配置检查
 
@@ -48,7 +59,7 @@ pnpm check
 ```
 
 本机联网安装在命令前加 `get-dep`。`pnpm check` 只校验配置格式和 Python 锁一致性；
-CI 另外执行冻结安装。当前没有应用代码、单元测试或 GUI 验收结果。
+CI 另外执行冻结安装。当前没有活动应用代码或应用单元测试；独立原型已有浏览器操作检查，领域规则仍待人类验收。
 TypeScript 配置已为 web/server 预置；等出现源码后再运行类型检查和构建。
 
 根只有一套 pnpm/uv 活动锁文件。归档中的旧配置仅是历史副本，不参与自动安装。

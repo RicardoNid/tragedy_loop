@@ -1,0 +1,397 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>核心状态机设计方案 · 惨剧轮回</title><style>
+:root{--paper:#faf8f3;--ink:#25342f;--muted:#617068;--accent:#17664f;--line:#dbe2d9;--card:#fff;--gold:#996526}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:26px}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.85 system-ui,-apple-system,"Noto Sans CJK SC","Microsoft YaHei",sans-serif}a{color:var(--accent);text-underline-offset:4px}a:hover{color:#103f33}button,a:focus-visible{outline-offset:5px}button{font:inherit;cursor:pointer;border:1px solid var(--accent);border-radius:8px;padding:9px 17px;background:var(--accent);color:white}button.secondary{background:transparent;color:var(--accent)}.shell{max-width:1480px;margin:auto;display:grid;grid-template-columns:260px minmax(0,1fr);gap:64px;padding:44px 52px}.sidebar{position:sticky;top:32px;align-self:start;max-height:calc(100vh - 64px);overflow:auto}.brand{letter-spacing:.16em;font-size:12px;font-weight:750;color:var(--accent)}.sidebar strong{display:block;font-size:20px;margin:9px 0 28px}.nav-label{font-size:12px;color:var(--muted);margin:24px 0 8px}.sidebar a{display:block;font-size:14px;line-height:1.6;padding:7px 0;text-decoration:none;color:var(--muted)}.sidebar a:hover{color:var(--accent)}main{min-width:0;max-width:960px}.eyebrow{color:var(--accent);font-size:12px;font-weight:750;letter-spacing:.12em}h1{font-size:clamp(29px,3.5vw,44px);line-height:1.35;letter-spacing:-.025em;margin:14px 0 18px}header .intro{font-size:18px;color:var(--muted);max-width:740px}.pills{display:flex;flex-wrap:wrap;gap:8px;margin:24px 0}.pill{font-size:12px;padding:4px 11px;border:1px solid var(--line);border-radius:100px;background:#fff}.pill.confirmed{background:#e6f0e9;color:var(--accent);border-color:#c7ded0}.actions{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin:22px 0}.actions a{text-decoration:none;border-bottom:1px solid var(--accent)}.overview{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:34px 0 42px}.card{background:white;border:1px solid var(--line);border-radius:12px;padding:20px}.card span{font-size:12px;letter-spacing:.08em;color:var(--accent)}.card strong{display:block;font-size:18px;margin:8px 0}.card p{color:var(--muted);font-size:14px;margin:0}.rule{border-left:4px solid var(--accent);padding:16px 22px;background:#edf3ec;border-radius:0 10px 10px 0;margin:26px 0}.rule strong{color:var(--accent)}.rule p{margin:5px 0 0}article h2{font-size:25px;line-height:1.45;border-top:1px solid var(--line);padding-top:36px;margin:50px 0 22px}article h3{font-size:19px;margin:30px 0 12px}article p{margin:14px 0}article li{padding-left:3px;margin:7px 0}article ul,article ol{padding-left:25px}article code{background:#eaf0e9;border-radius:4px;padding:2px 5px;font-size:.88em;overflow-wrap:anywhere}article pre{background:#233930;color:#edf6ed;padding:22px;border-radius:10px;white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.65}article pre code{padding:0;background:none;color:inherit}article a{overflow-wrap:anywhere}.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:10px;margin:24px 0;background:white}table{border-collapse:collapse;width:100%;font-size:14px;line-height:1.7;min-width:570px}th,td{padding:15px 17px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}th{background:#edf2eb;color:var(--accent);font-weight:650}tr:last-child td{border-bottom:0}td:first-child{font-weight:600}footer{border-top:1px solid var(--line);margin-top:54px;padding:24px 0;color:var(--muted);font-size:13px}.copy-source{position:fixed;left:-10000px;top:0}#copy-status{font-size:13px;color:var(--accent)}.skip{position:absolute;left:-10000px}.skip:focus{left:20px;top:10px;background:white;z-index:2}.mobile-nav{display:none}
+@media(max-width:1050px){.shell{gap:30px;padding:32px 28px;grid-template-columns:215px minmax(0,1fr)}.overview{grid-template-columns:1fr}.card{padding:16px}.card strong{display:inline;margin:0 12px}.card p{margin-top:8px}}
+@media(max-width:760px){.shell{display:block;padding:26px 20px}.sidebar{position:static;max-height:none;margin-bottom:30px}.sidebar nav{display:none}.sidebar strong{margin-bottom:12px}.sidebar .nav-label{display:none}.sidebar>.quicklinks{display:flex;gap:20px}.overview{gap:9px;margin:24px 0}.mobile-nav{display:block;margin:20px 0;padding:12px 16px;border:1px solid var(--line);border-radius:8px}.mobile-nav a{display:block;padding:5px 0;font-size:14px}article h2{font-size:23px;margin-top:38px}.intro{font-size:16px!important}}
+@media print{body{background:white;font-size:11pt}.shell{display:block;padding:0}.sidebar,.actions,.mobile-nav,.skip{display:none}main{max-width:none}header{break-after:avoid}.overview{display:none}article h2{break-after:avoid;margin-top:24px;padding-top:18px}pre,.rule{break-inside:avoid}table{min-width:0;font-size:9pt}th,td{padding:8px}.table-wrap{overflow:visible}a{color:inherit}footer{font-size:9pt}}
+
+.sidebar .current{color:var(--accent);font-weight:700}article blockquote{border-left:3px solid var(--accent);margin:22px 0;padding:4px 20px;color:var(--muted)}.final-note{background:#edf3ec;border:1px solid #ccdfcf;padding:18px 22px;border-radius:12px}.final-note p{margin:6px 0}article h4{font-size:17px}.sidebar strong{margin-bottom:18px}article td:first-child{min-width:110px}.source-note{font-size:13px;color:var(--muted)}</style></head><body><a class="skip" href="#content">跳转到正文</a><div class="shell"><aside class="sidebar"><div class="brand">TRAGEDY LOOP</div><strong>设计阅读室</strong><div class="quicklinks"><a href="framework.html" class="current">完整方案 ↗</a><a href="glossary.html" class="">已确认术语 ↗</a><a href="handoff-prompt.html" class="">算法交接 ↗</a></div><a href="../../packages/engine/prototypes/fs-first-script.prototype.html">FS 完整对局原型 ↗</a><div class="nav-label">本页目录</div><nav aria-label="本页目录"><a href="#section-1">1. 已确认决策与交付范围</a><a href="#section-2">2. 总体模型与处理链</a><a href="#section-3">3. 权威状态有哪些内容</a><a href="#section-4">4. 行动、宣告与次数消耗</a><a href="#section-5">5. 结构化观察与逻辑语句</a><a href="#section-6">6. 自然语言、双方视图与历史</a><a href="#section-7">7. 初始解空间与完整历史兼容性</a><a href="#section-8">8. 两种删减机制与计算策略</a><a href="#section-9">9. 普通模式与理想推理实验</a><a href="#section-10">10. 四个贯穿示例</a><a href="#section-11">11. 接口、依赖与验收边界</a><a href="#section-12">12. 后续算法任务与资料</a></nav></aside><main id="content"><header><div class="eyebrow">DESIGN / 01 · 三轮问询已结束</div><h1>核心状态机设计方案</h1><p class="intro">真实状态、逻辑观察与联合解空间：从玩家行动到可解释的推理，再到可验证的理想实验。</p><div class="pills"><span class="pill confirmed">领域决策已确认</span><span class="pill">十周年规则</span><span class="pill">工程实现待验证</span></div><div class="actions"><button type="button" id="print" class="secondary">打印 / 保存 PDF</button><a href="handoff-prompt.html">算法交接 Prompt →</a></div></header><div class="overview"><div class="card"><span>01 / WORLD</span><strong>所有合法剧本</strong><p>规则与剧本公开信息共同约束；目录收录状态不参与推理。</p></div><div class="card"><span>02 / OBSERVER</span><strong>主人公共享视野</strong><p>阵营统一观察、历史与知识；双方之间继续保密。</p></div><div class="card"><span>03 / EXPERIMENT</span><strong>精确完成才决策</strong><p>理想实验等待登记的推理目标完成；超时保持未完成。</p></div></div><aside class="rule"><strong>公开信息直接约束解空间</strong><p>公开角色全集只有 8 人，候选就不能含第 9 人。所有满足公开条件的合法剧本，无论是否被目录收录，都属于初始解空间。</p></aside><details class="mobile-nav"><summary>展开本页目录</summary><a href="#section-1">1. 已确认决策与交付范围</a><a href="#section-2">2. 总体模型与处理链</a><a href="#section-3">3. 权威状态有哪些内容</a><a href="#section-4">4. 行动、宣告与次数消耗</a><a href="#section-5">5. 结构化观察与逻辑语句</a><a href="#section-6">6. 自然语言、双方视图与历史</a><a href="#section-7">7. 初始解空间与完整历史兼容性</a><a href="#section-8">8. 两种删减机制与计算策略</a><a href="#section-9">9. 普通模式与理想推理实验</a><a href="#section-10">10. 四个贯穿示例</a><a href="#section-11">11. 接口、依赖与验收边界</a><a href="#section-12">12. 后续算法任务与资料</a></details><article><p><strong>状态：三轮设计问询已结束，领域决策已确认；本文件是设计交付，不是引擎实现或规则验收。</strong></p>
+<p>本方案采用十周年规则、主人公阵营完全共享视野，以及受到剧本公开信息约束的全部合法剧本空间。工程接口与语句名称是建议实现，可在保持语义不变的前提下调整。</p>
+<h2 id="section-1">1. 已确认决策与交付范围</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>主题</th>
+<th>确认结果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>规则版本</td>
+<td>十周年；主人公宣告技能后被剧作家拒绝，不消耗该次发动次数，后续剧作家仍可依相关规则发动</td>
+</tr>
+<tr>
+<td>行动与观察 · Q1 A</td>
+<td>行动是输入选择，与观察分开；行动的宣告、拒绝、效果可以成为观察内容</td>
+</tr>
+<tr>
+<td>历史与推论 · Q2 A</td>
+<td>历史只收直接观察；推论另存并链接证据</td>
+</tr>
+<tr>
+<td>原子性 · Q3 B</td>
+<td>指最小披露单元；允许受控的复合命题，不限于一个逻辑谓词</td>
+</tr>
+<tr>
+<td>历史顺序 · Q4 A</td>
+<td>记录序列与游戏逻辑时点、同时关系分别表达</td>
+</tr>
+<tr>
+<td>信息来源 · Q5 A</td>
+<td>初始化披露、自身选择确认、后续获知信息统一进入观察历史</td>
+</tr>
+<tr>
+<td>语句范围 · Q6 A</td>
+<td>具名对象、有界集合、注册谓词、布尔组合、数值比较、数量约束</td>
+</tr>
+<tr>
+<td>时间语义 · Q7 A</td>
+<td>分开记录获知时点与命题有效时点／范围</td>
+</tr>
+<tr>
+<td>缺席证据 · Q8 A</td>
+<td>公开窗口结束后，仅在规则保证完整披露的范围内从缺席推导否定</td>
+</tr>
+<tr>
+<td>主人公视角 · Q9 B</td>
+<td>阵营完全共享视野；不采用阵营内分时段禁言或独立出牌的信息隔离限制</td>
+</tr>
+<tr>
+<td>初始候选 · Q10 A</td>
+<td>所有符合规则及剧本公开信息的合法剧本；剧本目录不是信息</td>
+</tr>
+<tr>
+<td>实验模式 · Q11 A</td>
+<td>普通模式异步推理；理想实验在决策点等待指定推理目标精确完成</td>
+</tr>
+</tbody>
+</table></div>
+<p>首个交付目标是明确真实状态、行动、观察、历史与知识如何衔接。解空间算法研究交给独立会话；GUI 后续提供可开关的推理辅助。当前不开发完整游戏、不选择具体求解器，也不承诺某种算法的性能。</p>
+<p>完整术语定义见<a href="glossary.html">当前术语表</a>。本文件及术语表取代问询页中尚未定论的历史提案；不再追加第四轮问询。</p>
+<h2 id="section-2">2. 总体模型与处理链</h2>
+<pre><code class="language-text">公开规则 R + 权威状态 S + 行动 A
+                ↓ 规则结算
+        下一权威状态 S′ + 内部结算记录
+                ↓ 按阵营、时点和披露规则投影
+           结构化观察批次 O
+                ├─ 标准自然语言呈现 → 玩家
+                └─ 追加到该阵营历史 H
+                              ↓
+                  约束更新与两种删减机制
+                              ↓
+                     联合解空间 K + 推论
+</code></pre>
+<p>两个主要观察者是主人公阵营 P 和剧作家 M。服务端权威状态不等于任一方的视图。主人公共享成员信息，不意味着获得剧作家的秘密；剧作家知道剧本，也不意味着提前知道主人公的暗置牌面。</p>
+<p>规则引擎决定实际发生什么；观察投影决定获准披露什么；推理模块决定这些信息逻辑上排除了什么。推理结果不改变真实身份、不代替游戏胜负判断，也不自动触发要求“正式公开”的规则效果。</p>
+<h2 id="section-3">3. 权威状态有哪些内容</h2>
+<p>概念上，权威状态包括固定配置与运行状态。观察历史另外保留，知识可由规则与历史重建。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>层次</th>
+<th>内容</th>
+<th>关键约束</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>规则配置</td>
+<td>十周年语义、模组、角色卡／身份／牌／事件定义、内容版本</td>
+<td>重放与推理绑定版本；公开规则定义与秘密选用的规则组合分开</td>
+</tr>
+<tr>
+<td>剧本设定</td>
+<td>公开信息、选用规则、角色全集与初始身份、事件日程及当事人、登场安排、特殊设定</td>
+<td>公开与秘密字段明确区分；目录编号不是候选筛选依据</td>
+</tr>
+<tr>
+<td>当前盘面</td>
+<td>登场状态、存活状态、位置、当前身份、能力与特性、关系、角色和区域指示物、持续效果</td>
+<td>角色卡、初始身份、当前身份、当前能力分开；持续效果有失效条件</td>
+</tr>
+<tr>
+<td>行动资源</td>
+<td>各套手牌及牌实例、可用／暗置／揭示／弃置状态、目标、每轮限制、能力剩余次数</td>
+<td>记录实际行动者和资源归属；共享视野不取消资源限制</td>
+</tr>
+<tr>
+<td>流程</td>
+<td>轮回、日、阶段、阶段内步骤、待选择者、待结算效果、同时组和延迟处理</td>
+<td>不只是“第几天”；相同盘面处于不同选择点时，合法输入不同</td>
+</tr>
+<tr>
+<td>跨轮回记录</td>
+<td>正式身份公开、跨轮回效果、下轮准备标记</td>
+<td>盘面复原不清空观察历史；推理确定不等于正式公开</td>
+</tr>
+<tr>
+<td>游戏结果</td>
+<td>当前轮回结束原因、结束处理进度、下一轮／最终决战、最终胜负</td>
+<td>触发结束后，仍须处理规则要求的结算与披露</td>
+</tr>
+</tbody>
+</table></div>
+<p>未知信息不是从权威状态中删除，而是由各方视图控制访问。不能用单个“不知道”的值覆盖服务端实际身份。</p>
+<p>规则推进到稳定的选择点再等待行动；无须选择的强制处理可继续执行。同一时点要求同时结算的效果使用共同的规则前提与结算组，不能把遍历顺序当成规则顺序。轮回结束后先完成必要处理与披露，再初始化下一轮。</p>
+<h2 id="section-4">4. 行动、宣告与次数消耗</h2>
+<p>**行动是选择，不是真值陈述。**它携带行动者、选择类型、对象与参数。规则引擎确认的行动可以产生“某选择已作出”的观察，但原始行动输入不直接作为所有玩家都能读到的观察。</p>
+<p>建议处理阶段：</p>
+<pre><code class="language-text">检查是否可宣告 → 确认并记录宣告 → 处理接受／拒绝
+                                  ├─ 拒绝：记录拒绝，不消耗本次次数
+                                  └─ 接受：按能力条文处理次数与效果
+</code></pre>
+<p>十周年拒绝语义由本会话设计者明确提供，不再列为待确认。它没有规定所有能力必须统一在哪个接受子步骤扣次数；其余细分时机仍按具体规则定义。</p>
+<p>宣告记录、拒绝记录、次数消耗是不同事实。拒绝不增加剩余次数，不等于恢复资源；只是该次拒绝不消耗。它也不妨碍剧作家之后在相应合法时机发动。</p>
+<p>已确认的自身选择会生成阵营可见的确认观察。未提交的心理意图、鼠标拖拽草稿、网络重试不是游戏历史。主人公阵营完整共享已确认的选择；合作编辑草稿是后续 GUI 细节。</p>
+<p>“无视友好”影响宣告后的处理，不能依据真实身份提前隐藏主人公本来可宣告的能力。可拒绝身份也能接受，因此观察到接受不能排除所有可拒绝身份。</p>
+<h2 id="section-5">5. 结构化观察与逻辑语句</h2>
+<h3>5.1 语句内容与观察上下文</h3>
+<p>观察由<strong>获准披露的逻辑内容</strong>以及解释该内容所需的上下文组成。它是一条直接证据，不是自由文本日志。以下字段名是接口草案：</p>
+<pre><code class="language-json">{
+  &quot;id&quot;: &quot;p:42&quot;,
+  &quot;audience&quot;: &quot;protagonists&quot;,
+  &quot;learnedAt&quot;: {&quot;loop&quot;: 1, &quot;day&quot;: 2, &quot;phase&quot;: &quot;protagonist_ability&quot;, &quot;window&quot;: &quot;w7&quot;},
+  &quot;disclosureBatch&quot;: &quot;p:b12&quot;,
+  &quot;statement&quot;: {
+    &quot;kind&quot;: &quot;atom&quot;,
+    &quot;predicate&quot;: &quot;ability_attempt_refused&quot;,
+    &quot;arguments&quot;: {&quot;attempt&quot;: &quot;a17&quot;, &quot;character&quot;: &quot;doctor&quot;},
+    &quot;at&quot;: {&quot;loop&quot;: 1, &quot;day&quot;: 2, &quot;phase&quot;: &quot;protagonist_ability&quot;}
+  }
+}
+</code></pre>
+<p><code>learnedAt</code> 表示何时获知；语句的 <code>at</code> 或有效范围表示它谈论何时。复合语句的子命题必要时分别限定时间。初始身份与当前身份使用不同语义的谓词，不能仅靠默认时间猜测。</p>
+<p>观测标识与可见对象引用必须足以关联证据，但不能泄露隐藏实体、内部事件数量或真实原因。披露批次表示对外可见的交付单元；规则的同时结算关系另行表达，不能以同批发送就断言同时发生。引用只能关联规则允许玩家关联的对象与动作。</p>
+<h3>5.2 有限逻辑语言</h3>
+<p>建议最小表达结构：</p>
+<pre><code class="language-text">Statement = Atom(predicate, typedArguments, timeScope)
+          | Not(Statement)
+          | And(Statement...)
+          | Or(Statement...)
+          | Compare(observableTerm, operator, value)
+          | Cardinality(boundedDomain, predicate, operator, integer)
+</code></pre>
+<p>对象类型至少覆盖角色、区域、身份、规则、能力、行动牌、行动尝试和逻辑时点。注册谓词定义参数类型、精确语义、允许出现的时间范围和自然语言模板。普通布尔、比较、计数语义固定；有限集合的成员范围必须明确，避免把“所有角色”误读为“此刻仍存活的角色”。</p>
+<p>第一版不允许自由嵌入任意程序，也不要求支持无界量词。新增模组关系必须补全语义、披露与呈现支持，不能以未解释的字符串继续声称精确推理。</p>
+<h3>5.3 原子性约束披露，不限制表达能力</h3>
+<p>“医生位于医院”是一条简单观察。“A 或 B 至少一人是关键人物”也可以是一个不可独立拆分的披露单元；它不能被改写为两条都成立的身份观察。此例是语言能力示例，不声明某个已支持模组一定存在此能力。</p>
+<p>能安全独立表达的多个事实可以拆成多条观察。是否允许拆分还取决于披露时点与关联；语义归一化不能凭空增加事实、因果或秘密来源。最小披露单元与同时结算组是两个概念。</p>
+<h3>5.4 建议的首批谓词族</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>领域</th>
+<th>示例语义</th>
+<th>使用约束</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>初始化</td>
+<td>角色全集为给定集合、轮回／天数上限、公开日程</td>
+<td>明确全集、上限、当前在场数量的区别</td>
+</tr>
+<tr>
+<td>盘面</td>
+<td>位置、登场／存活状态、某类指示物数量</td>
+<td>只陈述该时点允许观察的状态</td>
+</tr>
+<tr>
+<td>行动</td>
+<td>某阵营已放置一张牌、某次能力已宣告、某次宣告被拒绝</td>
+<td>暗置位置与秘密牌面是不同披露</td>
+</tr>
+<tr>
+<td>牌资源</td>
+<td>某牌面已知、某次限次资源已消耗</td>
+<td>只凭合法披露使用，不能读取对手真实手牌补齐</td>
+</tr>
+<tr>
+<td>身份与规则</td>
+<td>初始身份、当前身份、规则选用情况</td>
+<td>只有规则直接披露时进入历史；推理结果留在知识层</td>
+</tr>
+<tr>
+<td>剧本事件</td>
+<td>事件发生、允许披露的效果</td>
+<td>“发生但无现象”不等于“未发生”</td>
+</tr>
+<tr>
+<td>流程与披露</td>
+<td>阶段／窗口结束、规则允许公开的同时关系</td>
+<td>完整性范围来自公开契约，不发布秘密触发数量</td>
+</tr>
+</tbody>
+</table></div>
+<p>这是可扩展的起点，不是全部模组已经结构化完成的声明。</p>
+<h2 id="section-6">6. 自然语言、双方视图与历史</h2>
+<h3>6.1 标准自然语言呈现</h3>
+<pre><code class="language-text">结构化语句类型检查
+→ 解析该观察者有权使用的对象名称和时间表达
+→ 按谓词／逻辑运算模板组合
+→ 输出可追溯到原观察的自然语言
+</code></pre>
+<p>例如 <code>ability_attempt_refused(a17, doctor)</code> 呈现为“医生的这次友好能力宣告被拒绝”。不能补上“因为他是邪教徒”，也不能把析取写成确定身份。历史回放中的过去事实必须显式保留时间含义。</p>
+<p>多条观察可以组织成易读段落，但保留逐条展开与标识对应。推论以独立样式呈现并附依据；不把推论混进直接观察句子。逻辑内容是依据，中文或其他语言只负责表达，推理程序无需把自然语言反向解析回来。</p>
+<h3>6.2 完全共享的主人公视野</h3>
+<p>主人公阵营只有一份知识视角：成员各自获准知道的信息、本阵营已确认的选择与暗置牌面都共享。无需维护阵营内部禁言造成的不同知识状态。</p>
+<p>这不取消席位、队长、行动顺序、手牌资源或合法目标限制；这些属于真实规则状态。剧作家获得自己的完整剧本信息和自己已确认的选择，但只在规则允许时看见主人公暗牌。</p>
+<p>界面按钮、报错、日志、引用标识及公告顺序也属于信息渠道。视图接口及错误提示的输出只由该方合法信息决定；不能在普通界面旁夹带全知调试字段。</p>
+<h3>6.3 历史与观察窗口</h3>
+<p>历史统一包含初始化、自身选择确认和后续披露。各方观察历史不同；服务端内部结算记录不是玩家历史。</p>
+<p>窗口公开结束后，只对规则保证完整披露的事实种类，才能从未出现的观察推导否定。结论是有依据的推论，不追加为伪装成直接披露的新观察。没有结束标记、没有完整性承诺或只是网络延迟时，缺席不构成否定证据。</p>
+<p>同时效果先按规则处理，再原子提交必要的观察批次；历史保留稳定展示顺序和合法可知的同时关系。不得把内部任意排列或秘密结算步骤暴露为额外证据。</p>
+<h2 id="section-7">7. 初始解空间与完整历史兼容性</h2>
+<h3>7.1 剧本目录不是信息，公开设定是约束</h3>
+<p>设 R 为公开规则版本及模组定义，P 为剧本公开信息。初始候选剧本集合为：</p>
+<pre><code class="language-text">Θ₀ = { θ | θ 满足 R 的合法剧本构造规则，并满足全部公开设定 P }
+</code></pre>
+<p>P 通过初始化观察进入主人公历史；不再维护一份可能与历史矛盾的独立公开真相。</p>
+<p>实际剧本可以来自目录、人工编写或生成器，但目录的收录状态、编号和样例分布均不提供候选筛选或先验概率。规则允许、公开信息也允许的剧本，即使从未被收录，也必须保留为可能。</p>
+<p>**8 名角色例子：**如果公开设定明确角色全集只有 8 名，候选必须符合这份名单或数量约束，含第 9 名角色的剧本被排除。这与“某一时刻版图上可见 8 名角色”是不同语义；后者不能自行升级成对尚未登场角色的全集声明。语句必须准确表达公开信息到底约束了什么。</p>
+<p>除了角色名单，公开模组、轮回与天数、公开日程、特殊公开条件等也约束初始空间。不能为了减少计算量擅自增加未公开的作者偏好或目录条件。</p>
+<h3>7.2 剧本与动态秘密共同建模</h3>
+<p>令 θ 为初始剧本，xₜ 为当前隐藏运行状态，Hₜ 为该观察者截至此时的完整观察历史：</p>
+<pre><code class="language-text">Kₜ = { (θ, xₜ) |
+       θ ∈ Θ₀，且存在一段合法历史，
+       其完整可见记录与 Hₜ 一致，最终隐藏状态为 xₜ }
+</code></pre>
+<p>秘密行动、可选能力、秘密目标等作为存在性选择。已公开动作以及本阵营已确认的选择则固定为已知约束。不能用服务端真实秘密选择替代所有候选世界的可能选择，也不能假定剧作家必定采取最优策略。</p>
+<p>保留一个剧本只需有一条连贯的合法隐藏历史能解释全部观察；排除它必须证明没有任何这样的历史。只匹配最终盘面不够，也不能拼接彼此不相容的过去解释。</p>
+<p>剧本候选与当前隐藏状态候选是 K 的两种投影；底层保存联合关系。单独列出每个角色的候选身份会丢失“恰好一人是关键人物”等关联。</p>
+<p>新增真实证据只能缩小固定初始剧本的候选范围；动态隐藏状态则会随新的秘密选择或轮回重置出现新可能。盘面重置不清空知识。初始身份、当前身份、规则组合和完整剧本的唯一性分别查询，不保证全部秘密最终都能唯一识别。</p>
+<h2 id="section-8">8. 两种删减机制与计算策略</h2>
+<h3>8.1 信息点驱动的传播</h3>
+<p>信息点指有来源的命题。直接观察、规则和推论可以作为推理依据；用户猜测另存为假设，不直接收紧真实解空间。</p>
+<pre><code class="language-text">新观察 → 约束／命题 → 工作队列
+       → 受影响规则、数量约束与互斥约束
+       → 候选删减或新推论 → 再次入队 → 固定点
+</code></pre>
+<p>记录每个推论依赖的规则版本、观察和前提，去重避免循环自证。在有限域上，单个历史前缀的单调删减可作为传播终止基础。传播固定点不等于已经得到全部逻辑后果。</p>
+<h3>8.2 完整兼容性检查</h3>
+<p>兼容性模块检查一个候选或命题是否存在合法见证历史。可用增量约束求解或符号执行表达多个世界，不要求首先生成全部候选剧本。证明的新事实回灌传播队列，传播结果也简化后续求解。</p>
+<p>两种方法必须共享规则语义，或由独立差分测试证明一致；不能随意手写两套游戏规则。具体选择由算法任务研究：共享规则表示的不同执行后端，或约束编码配合真实引擎见证重放。</p>
+<h3>8.3 加速与预算建议</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>方法</th>
+<th>主要收益</th>
+<th>必须保留的边界</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>域传播、数量／互斥约束</td>
+<td>低成本收窄候选，解释直接</td>
+<td>不完备，固定点不是精确穷尽</td>
+</tr>
+<tr>
+<td>增量 CSP／SAT／SMT</td>
+<td>复用历史前缀，按查询寻找反例</td>
+<td>编码覆盖全部合法隐藏选择，不能只模拟真实路径</td>
+</tr>
+<tr>
+<td>显式搜索与记忆化</td>
+<td>小空间精确参照，复用重复工作</td>
+<td>不能为省时丢弃影响未来的状态和剧本关联</td>
+</tr>
+<tr>
+<td>对称性与分类</td>
+<td>合并真正等价的候选处理</td>
+<td>相同当前视图不足以证明永久等价</td>
+</tr>
+<tr>
+<td>抽象与逐步细化</td>
+<td>先保留与观察相关的细节</td>
+<td>抽象应覆盖全部真实可能；抽象见证可能需要进一步核验</td>
+</tr>
+</tbody>
+</table></div>
+<p>某一分类只对当前查询等价时，可以批量处理该查询，但须保留组内未来可能不同的成员。永久状态合并需要证明相关动作和未来观察行为等价，并保留必要的剧本关联。</p>
+<p>所有新观察先做低成本传播。符号查询可以从早期使用；显式枚举则由剩余规模、隐藏分支、历史长度、实测成本和资源预算决定。可用截断枚举判断是否超过门槛，避免为决定是否枚举先做完整计数。具体阈值不在此虚构。</p>
+<p>初步技术参考：<a href="https://z3prover.github.io/papers/programmingz3.html">Programming Z3</a> 包含增量求解与模型检查等机制；这不代表项目已经选用 Z3 或验证性能。</p>
+<h3>8.4 查询结果与矛盾处理</h3>
+<p>候选查询返回“已证明可能（有合法见证）／已证明不可能／尚未判定”。只有基础知识一致时，才能通过否定命题无解来证明必然结论。</p>
+<p>若已知证据与规则整体无解，报告知识不一致并定位冲突依据，不能利用矛盾推出任意身份。求解超时、规则未支持、观察矛盾分别报告；采样失败和没找到见证不等于不可能。</p>
+<h2 id="section-9">9. 普通模式与理想推理实验</h2>
+<p>**普通模式：**规则结算独立于求解器；玩家可以继续行动，知识异步更新。每项结果绑定规则版本、观察历史前缀和完成状态，避免把旧结果显示成最新结论。</p>
+<p>**理想推理实验：**在下一个玩家决策点，固定当前历史前缀与事先声明的研究查询集合，等待这些目标精确完成再允许输入。真实规则仍照常推进到该决策点，不增加游戏内特殊能力。</p>
+<p>建议首批研究查询覆盖角色初始／当前身份、所选规则、事件当事人、暗牌与资源的可行取值，以及预先登记的联合关系问题。它们是工程建议；算法任务应给出完整查询契约，并在实验开始前固定，不能事后缩小查询集合来宣布完成。</p>
+<pre><code class="language-text">到达决策点 → 固定历史版本与查询目标
+            ├─ 全部目标精确完成 → 开放下一次玩家选择
+            ├─ 仍在求解 → 等待
+            └─ 超时／不支持／矛盾 → 暂停或标记实验未完成
+</code></pre>
+<p>理想标签只保证登记目标的精确完成，不宣称已经列出所有等价命题，也不等于全知或最优行动策略。若改为继续普通游玩，后续记录不能继续冒充该条件下的理想样本。</p>
+<p>GUI 可开关显示候选、确定结论、依据和进度。关闭显示不更改披露规则、资源或胜负条件；研究中的模式和完成门槛另行记录。</p>
+<h2 id="section-10">10. 四个贯穿示例</h2>
+<h3>示例一：8 名角色的公开剧本</h3>
+<p>初始化观察声明角色全集为 c1 至 c8，并披露相应日程与上限。Θ₀ 排除任何违反这些公开条件的剧本；未被目录收录但满足全部条件的身份与规则组合仍保留。输出“剩余候选”的依据是合法构造规则与公开信息，而非样例目录。</p>
+<h3>示例二：阵营共享与密谋 +2</h3>
+<p>主人公 P1 的暗置选择经确认后，其牌面与目标立即进入主人公共享历史。剧作家此时只得到规则允许的放置观察，不能从主人公共享界面读取牌面。</p>
+<p>另一个时点，若主人公已合法获知剧作家的唯一密谋 +2 本轮已经消耗，且规则没有恢复／复制途径，则当前未揭示牌位不可能再是该牌。仅服务端知道消耗时不能用来筛选主人公的候选；角色、牌位及剩余数量之间的联合约束必须保留。</p>
+<h3>示例三：好感能力被拒绝</h3>
+<p>主人公宣告医生的能力。规则确认宣告，随后剧作家拒绝；主人公历史记录宣告与拒绝。依据十周年规则，推理得出这次拒绝不消耗次数，结论留在知识层。</p>
+<p>在没有其他规则干预的简化条件下，拒绝排除不能拒绝的身份，保留可以拒绝和必须拒绝的身份。接受则排除必须拒绝的身份，但不排除可以拒绝的身份。涉及获得特性或身份变化时，将那些可能性一并求解。剧作家后续合法发动不受此次拒绝错误封锁。</p>
+<h3>示例四：同时结算、延迟披露与窗口结束</h3>
+<p>两项按规则同时发生的死亡，内部共同结算后生成获准披露的观察。即使历史排列为“先 A 后 B”，推理也依据同时关系，不把第一项结果反过来取消第二项的触发前提。</p>
+<p>轮回结束时，如果规则要求公开某个身份，新的观察以结束时为获知时间，并准确注明它声明的是初始身份还是当时身份。它更新现在的知识，不改写过去的知情状态；正式公开标记可参与下一轮规则。</p>
+<p>如果某公开窗口已经结束，且规则保证某类事实必定完整披露，该类公告的缺席才可生成否定推论。事件发生但没有现象时仍需保留其应公开的发生事实，不能当成事件未发生。</p>
+<h2 id="section-11">11. 接口、依赖与验收边界</h2>
+<h3>11.1 建议的模块接口</h3>
+<pre><code class="language-text">transition(authoritativeState, action)
+  -&gt; nextState + internalResolution + nextDecision
+
+disclose(observer, before, after, internalResolution)
+  -&gt; permittedObservationBatches
+
+render(observation, permittedNames, locale)
+  -&gt; naturalLanguage + sourceObservationReferences
+
+append(history, batches)
+  -&gt; newHistoryVersion
+
+updateKnowledge(previousKnowledge, publicRules, newHistory)
+  -&gt; knowledge + progress
+
+query(knowledge, proposition, budget)
+  -&gt; possible(witness) | impossible(evidence) | unknown(progress)
+</code></pre>
+<p>整体知识不一致作为独立错误状态处理。观察可由前后状态与完整结算上下文组合产生，不要求每个内部变化一对一对外发布。<code>View</code> 使用公开投影与历史，推理辅助叠加层另读知识结果。</p>
+<p>普通模式的规则引擎不等待求解器；理想实验门槛由外层实验控制逻辑管理。连接、重连、并发版本和命令去重属于应用会话层，不作为隐藏身份变量。</p>
+<h3>11.2 必须验证的性质</h3>
+<ol>
+<li>所有合法真实对局的世界始终留在对应观察者的候选空间中。</li>
+<li>相同规则、公开信息及合法观察历史产生语义相同的知识，不受真实秘密影响。</li>
+<li>目录有无某剧本不影响推理；明确 8 人全集时排除 9 人剧本。</li>
+<li>主人公成员获得同一共享历史；对剧作家的暗牌保密仍然成立。</li>
+<li>行动、直接观察、推论分别处理；宣告不等于成功，推论不等于正式公开。</li>
+<li>自然语言忠实呈现复合语句与时间，不增加秘密原因；观察与原句可追溯。</li>
+<li>一条隐藏路径失败不排除仍有其他合法路径的剧本；当前视图相同不自动合并历史。</li>
+<li>同时结算与延迟披露保持规则语义；缺席否定只在关闭且完整的范围内成立。</li>
+<li>小规模全枚举与精确算法的剧本、隐藏状态及目标查询一致；手工语义例子提供独立参照。</li>
+<li>超时、规则未支持、矛盾及旧历史结果不能被标为精确完成；理想实验只在登记目标完成后放行。</li>
+</ol>
+<p>GUI 自动检查与人工验收分别记录。当前没有引擎实现或算法基准结果，现有 <code>pnpm check</code> 只验证工程配置。</p>
+<h2 id="section-12">12. 后续算法任务与资料</h2>
+<p>独立会话负责联合空间表示、信息点传播、历史兼容性算法、分类／抽象条件、阈值基准、正确性验证与理想实验完成契约。完整工作说明见<a href="handoff-prompt.html">算法交接 Prompt</a>，可直接复制。</p>
+<p>工程建议可通过证据修订；已确认的目录无关性、公开信息约束、主人公完全共享视野、观察／推论分离及理想实验门槛不能被悄悄改变。具体内容规则尚待校对之处作为规则资料工作记录，不再把工程问题转成第四轮设计问询。</p>
+<h3>项目与规则资料</h3>
+<ul>
+<li>工作区：<code>仓库根目录（当前 checkout）</code></li>
+<li>根协作约定：<code>AGENTS.md</code>；当前领域词汇：<code>CONTEXT.md</code></li>
+<li>工程状态：<code>README.md</code>；实际 GitHub 上游与流程：<code>CONTRIBUTING.md</code></li>
+<li>规则资料入口：<code>facts/README.md</code>（按其来源约定读取当前条目）</li>
+<li>历史本地规则工作稿：<code>facts/working/ricardo/FAQ.md</code></li>
+<li>状态机工作提取稿：<code>facts/working/ricardo/rules/protagonist-book-state-machine.md</code></li>
+<li>身份特性草稿：<code>facts/sources/ricardo/reference/module/identity-traits.md</code></li>
+<li>示例模组草稿：<code>facts/working/ricardo/modules/first-steps.json</code></li>
+</ul>
+<p>上述资料路径均相对本工作区，部分仍为工作稿。<code>facts/</code> 由规则真源任务维护，本任务保持只读；<code>archive/</code> 不作为活动实现与规则权威。十周年拒绝语义与主人公共享设置以本会话设计者确认作为本方案来源。</p>
+<p>原始问询页保留三轮历史，不再提问。当前已确认结果为 Q1 A、Q2 A、Q3 B、Q4 A、Q5 A、Q6 A、Q7 A、Q8 A、Q9 B、Q10 A、Q11 A，并包含两次关于拒绝次数和共享视野、以及关于公开信息约束的补充。</p>
+</article><footer>惨剧轮回 · 核心状态机设计交付。方案、术语与算法交接已同步；本轮不再追加设计问询。<br>规则内容与实现效果仍按工程验收独立验证。</footer></main></div><script>
+document.getElementById('print').addEventListener('click',()=>window.print());
+const copy=document.getElementById('copy-prompt');
+if(copy)copy.addEventListener('click',async()=>{const source=document.getElementById('prompt-source');const status=document.getElementById('copy-status');try{await navigator.clipboard.writeText(source.value);status.textContent='已复制完整交接 Prompt';}catch(error){source.style.position='static';source.style.width='100%';source.style.minHeight='320px';source.focus();source.select();status.textContent='请按 Ctrl+C 或 Command+C 复制下方已选中的内容';}});
+</script></body></html>

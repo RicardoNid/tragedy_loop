@@ -57,3 +57,9 @@ Thumbs.db
 
 # facts/{assets,data,text,media,sources} are deliverables: commit them normally.
 # Do not ignore images by extension or provider; no Git LFS is needed currently.
+
+# Additional local scratch files (keep design HTML and lockfiles tracked)
+.cache/
+/tmp/
+/logs/
+*$py.class
