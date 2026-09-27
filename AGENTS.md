@@ -40,8 +40,10 @@ GUI 控件使用稳定、唯一的 data-testid，同时保留可访问名称和�
 
 ## Git 与发布
 
-当前仓库没有配置发布用 origin；ricardo 和 personal 仅用于来源追踪。
-默认只做本地开发，不自动 push 或部署。未来确定统一托管仓库后再配置 origin。
+统一上游为私有 GitHub 仓库 `RicardoNid/tragedy_loop`，远程名 `origin`，默认分支 `main`。
+`ricardo` 和 `personal` 仅用于来源追踪；Issue、PR 和 merge 使用 GitHub CLI（`gh`），
+不使用 Forgejo connector。后续开发遵守 `CONTRIBUTING.md` 的 Issue → 分支 → PR → merge 流程。
+禁止直接推送 main 或强推共享分支。推送开发分支及创建 PR 按当前任务授权执行；部署须单独授权。
 `code/tools/server_sync.py` 及历史文档中的 NAS/服务器地址属于原项目，未针对本仓库验证；
 根 package.json 已移除其发布快捷命令。不要依据归档 AGENTS 或历史说明自动部署。
 修改事实资料须保留来源；扫描原件与大体积素材不自动纳入 Git。
