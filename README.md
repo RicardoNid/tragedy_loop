@@ -1,56 +1,57 @@
-# Tragedy Loop
+# Tragedy Loop · 项目骨架
 
-《惨剧轮回》的资料整理、教学内容与 Web 游戏开发仓库。现已把 Ricardo 的资料/原型项目与
-personal 中的 Lunhui 引擎项目纳入一个 Git 仓库，保留双方提交历史。
-**目前完成目录与开发环境整合，两套规则内核尚未统一。**
+当前交付的是**结构、配置和协作边界**。旧游戏、服务、资料页面、测试和生成工具均已移入
+`archive/`，不再作为活动实现运行。尚无可启动游戏应用；不提供 dev/start/build/test 假入口。
 
-## 快速开始
+`facts/` 是独立可运行的静态规则资料站，包含图片、正文和来源快照，随普通 Git 同步。
+克隆后从仓库根运行 `python3 -m http.server 5188 --bind 127.0.0.1`，
+打开 http://127.0.0.1:5188/facts/ 。无需 Git LFS、Wiki 登录或安装前端依赖。
 
-安装 Python 3.12、uv 0.12.7、Node.js 22.22.1、npm 9+、pnpm 11.25.0 后：
+计划技术栈：React + Vite、Node.js + Fastify、TypeScript；Python + uv 用于未来辅助工具。
+JS/TS 的版本、workspace 依赖和锁定记录已经配置。Python 环境是非打包环境，暂不声明 CLI 或构建包。
 
-```bash
-npm run setup
-npm run check
-npm run app:serve       # http://127.0.0.1:5173，资料站和 Ricardo 原型
-# 在另一个终端
-npm run engine:serve    # http://127.0.0.1:5174，Lunhui 游戏 GUI
+## 目录
+
+```text
+apps/
+  web/                 package.json、tsconfig.json；src/ 空
+  server/              package.json、tsconfig.json；src/ 空
+packages/
+  engine/              package.json；src/ 空
+  contracts/           package.json；src/ 空
+  content/             package.json；src/ 空
+python/
+  src/tragedy_tools/    空
+  tests/               空
+tests/                 空
+e2e/                   空
+scripts/               空
+products/              空
+docs/
+  architecture/        空
+  development/         空
+facts/                 独立的“规则真源”任务维护；本次不修改
+archive/               旧实现与归档说明；不参与 workspace 或检查
 ```
 
-端口被占用时可用 `APP_PORT=5273 npm run app:serve` 或
-`GUI_PORT=5274 npm run engine:serve` 指定空闲端口，不影响已有服务。
+空目录通过 `.gitkeep` 保留。未来实现应从这些空目录开始，按需参考 archive；不以旧测试或
+旧引擎实现自动认定规则正确。facts 的 wiki 结构和权威约定由该目录负责的任务决定。
 
-自动 GUI 测试额外需要浏览器和系统依赖：
+## 安装和配置检查
+
+Node 版本见 `.node-version`（当前 22.22.1），pnpm 版本见 package.json（11.25.0），
+Python 版本见 `.python-version`（3.12）；使用 uv 管理 Python 环境。
 
 ```bash
-cd integrations/lunhui/lunhui-engine
-pnpm exec playwright install chromium
-# Linux 缺少共享库时按 Playwright 提示安装系统依赖
-cd ../../..
-npm run engine:gui:test
+pnpm install --frozen-lockfile
+uv sync --locked --python 3.12 --default-index https://pypi.org/simple
+pnpm check
 ```
 
-本机联网下载在命令前加 `get-dep`；`npm run setup` 会自动检测并使用它。
-Playwright 使用独立端口 5180，端口被占用时应先确认用途，不终止未知服务。
+本机联网安装在命令前加 `get-dep`。`pnpm check` 只校验配置格式和 Python 锁一致性；
+CI 另外执行冻结安装。当前没有应用代码、单元测试或 GUI 验收结果。
+TypeScript 配置已为 web/server 预置；等出现源码后再运行类型检查和构建。
 
-## 项目入口
+根只有一套 pnpm/uv 活动锁文件。归档中的旧配置仅是历史副本，不参与自动安装。
 
-| 路径 | 用途 |
-| --- | --- |
-| `facts/` | 资料、事实审阅、结构化输入 |
-| `code/` | Python 服务、JavaScript 原型及测试 |
-| `products/` | 教学幻灯片、资料站 |
-| `integrations/lunhui/lunhui-engine/` | TypeScript 规则引擎、内容、传输契约及 GUI |
-| `integrations/lunhui/` | 引擎依赖的原始规则文档与本地协作技能 |
-| `docs/integration/` | 来源清单、合并方案、环境及验证记录 |
-
-根目录 npm 负责教学工具和统一命令，嵌套 pnpm workspace 负责引擎，uv 负责 Python。
-三套锁文件都保留；安装使用冻结锁文件，不依赖全局 Python 包。
-
-- [合并方案与后续工作](docs/integration/plan.md)
-- [运行环境和依赖](docs/integration/environment.md)
-- [验证记录](docs/integration/validation.md)
-- [协作规范](AGENTS.md)
-- [Ricardo 原 README（路径相对原仓库根目录）](docs/integration/upstream/ricardo-README.md)
-- [Lunhui 使用说明](integrations/lunhui/lunhui-engine/README.md)
-
-本次未发布到远端，也未部署或重启原服务器。历史部署脚本须重新适配后才能使用。
+[协作规范](AGENTS.md) · [GitHub 流程](CONTRIBUTING.md) · [归档与迁移清单](archive/README.md)

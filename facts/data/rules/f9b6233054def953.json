@@ -1,0 +1,70 @@
+{
+  "id": "f9b6233054def953",
+  "title": "绝望的倒计时",
+  "kind": "rules",
+  "scope": "Unheard Malice",
+  "aliases": [],
+  "fields": {
+    "ruleType": "Y",
+    "identityCounts": {
+      "抹消者": "①",
+      "邪教徒": "①",
+      "先驱": "①"
+    },
+    "effect": "【失败条件：轮回结束时】抹消者的初始区域有（3-X）枚或以上[密谋]（X=Ex槽的值）（Ex3或以上必定失败）"
+  },
+  "provenance": {
+    "ruleType": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Unheard_Malice",
+      "snapshot": "sources/wiki/pages/62df499c8bfa0a4c.json",
+      "capturedAt": "2026-09-27T03:30:12.492Z"
+    },
+    "identityCounts": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Unheard_Malice",
+      "snapshot": "sources/wiki/pages/62df499c8bfa0a4c.json",
+      "capturedAt": "2026-09-27T03:30:12.492Z"
+    },
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Unheard_Malice",
+      "snapshot": "sources/wiki/pages/62df499c8bfa0a4c.json",
+      "capturedAt": "2026-09-27T03:30:12.492Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Unheard_Malice",
+      "snapshot": "sources/wiki/pages/62df499c8bfa0a4c.json",
+      "capturedAt": "2026-09-27T03:30:12.492Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Unheard_Malice",
+        "snapshot": "sources/wiki/pages/62df499c8bfa0a4c.json",
+        "capturedAt": "2026-09-27T03:30:12.492Z"
+      },
+      "fields": {
+        "ruleType": "Y",
+        "identityCounts": {
+          "抹消者": "①",
+          "邪教徒": "①",
+          "先驱": "①"
+        },
+        "effect": "【失败条件：轮回结束时】抹消者的初始区域有（3-X）枚或以上[密谋]（X=Ex槽的值）（Ex3或以上必定失败）"
+      }
+    }
+  ],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "Y",
+    "民间"
+  ],
+  "conflicts": []
+}

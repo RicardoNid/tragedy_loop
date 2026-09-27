@@ -1,0 +1,530 @@
+{
+  "id": "33e9bdeb30e9b232",
+  "title": "BTX-81",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "BTX-81非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "BTX-81",
+    "loops": 4,
+    "days": 7,
+    "schedule": [
+      {
+        "day": 2,
+        "incidentText": "不安扩散"
+      },
+      {
+        "day": 3,
+        "incidentText": "邪气污染"
+      },
+      {
+        "day": 4,
+        "incidentText": "失踪"
+      },
+      {
+        "day": 5,
+        "incidentText": "蝴蝶效应"
+      },
+      {
+        "day": 7,
+        "incidentText": "医院事故"
+      }
+    ],
+    "剧本名": "十二只猴子",
+    "英文名": "Twelve Monkeys",
+    "作者": "vetinari7878",
+    "轮数": "4",
+    "天数": "7"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-81",
+      "snapshot": "sources/wiki/pages/6b143a1aab0aa352.json",
+      "capturedAt": "2026-09-27T04:18:02.374Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-81",
+      "snapshot": "sources/wiki/pages/6b143a1aab0aa352.json",
+      "capturedAt": "2026-09-27T04:18:02.374Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-81",
+      "snapshot": "sources/wiki/pages/6b143a1aab0aa352.json",
+      "capturedAt": "2026-09-27T04:18:02.374Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-81",
+      "snapshot": "sources/wiki/pages/6b143a1aab0aa352.json",
+      "capturedAt": "2026-09-27T04:18:02.374Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-81",
+      "snapshot": "sources/wiki/pages/6b143a1aab0aa352.json",
+      "capturedAt": "2026-09-27T04:18:02.374Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 82
+    },
+    "英文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 82
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 82
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 82
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 82
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-81",
+      "snapshot": "sources/wiki/pages/6b143a1aab0aa352.json",
+      "capturedAt": "2026-09-27T04:18:02.374Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 82
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-81%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/bae224d5058ccd43.json",
+      "capturedAt": "2026-09-27T04:18:05.155Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-81",
+        "snapshot": "sources/wiki/pages/6b143a1aab0aa352.json",
+        "capturedAt": "2026-09-27T04:18:02.374Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "BTX-81",
+        "loops": 4,
+        "days": 7,
+        "schedule": [
+          {
+            "day": 2,
+            "incidentText": "不安扩散"
+          },
+          {
+            "day": 3,
+            "incidentText": "邪气污染"
+          },
+          {
+            "day": 4,
+            "incidentText": "失踪"
+          },
+          {
+            "day": 5,
+            "incidentText": "蝴蝶效应"
+          },
+          {
+            "day": 7,
+            "incidentText": "医院事故"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 2,
+        "row": 82
+      },
+      "fields": {
+        "scenarioCode": "BTX-81",
+        "剧本名": "十二只猴子",
+        "英文名": "Twelve Monkeys",
+        "作者": "vetinari7878",
+        "轮数": "4",
+        "天数": "7"
+      }
+    }
+  ],
+  "wikiTitle": "BTX-81",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Basic Tragedy X"
+  ],
+  "module": "Basic Tragedy X",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "33e9bdeb30e9b232",
+        "title": "BTX-81",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "BTX-81",
+          "loops": 4,
+          "days": 7,
+          "schedule": [
+            {
+              "day": 2,
+              "incidentText": "不安扩散"
+            },
+            {
+              "day": 3,
+              "incidentText": "邪气污染"
+            },
+            {
+              "day": 4,
+              "incidentText": "失踪"
+            },
+            {
+              "day": 5,
+              "incidentText": "蝴蝶效应"
+            },
+            {
+              "day": 7,
+              "incidentText": "医院事故"
+            }
+          ],
+          "剧本名": "十二只猴子",
+          "英文名": "Twelve Monkeys",
+          "作者": "vetinari7878",
+          "轮数": "4",
+          "天数": "7"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-81",
+            "snapshot": "sources/wiki/pages/6b143a1aab0aa352.json",
+            "capturedAt": "2026-09-27T04:18:02.374Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-81",
+            "snapshot": "sources/wiki/pages/6b143a1aab0aa352.json",
+            "capturedAt": "2026-09-27T04:18:02.374Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-81",
+            "snapshot": "sources/wiki/pages/6b143a1aab0aa352.json",
+            "capturedAt": "2026-09-27T04:18:02.374Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-81",
+            "snapshot": "sources/wiki/pages/6b143a1aab0aa352.json",
+            "capturedAt": "2026-09-27T04:18:02.374Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-81",
+            "snapshot": "sources/wiki/pages/6b143a1aab0aa352.json",
+            "capturedAt": "2026-09-27T04:18:02.374Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 82
+          },
+          "英文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 82
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 82
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 82
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 82
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-81",
+            "snapshot": "sources/wiki/pages/6b143a1aab0aa352.json",
+            "capturedAt": "2026-09-27T04:18:02.374Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 82
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-81",
+              "snapshot": "sources/wiki/pages/6b143a1aab0aa352.json",
+              "capturedAt": "2026-09-27T04:18:02.374Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "BTX-81",
+              "loops": 4,
+              "days": 7,
+              "schedule": [
+                {
+                  "day": 2,
+                  "incidentText": "不安扩散"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "邪气污染"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "失踪"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "蝴蝶效应"
+                },
+                {
+                  "day": 7,
+                  "incidentText": "医院事故"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 2,
+              "row": 82
+            },
+            "fields": {
+              "scenarioCode": "BTX-81",
+              "剧本名": "十二只猴子",
+              "英文名": "Twelve Monkeys",
+              "作者": "vetinari7878",
+              "轮数": "4",
+              "天数": "7"
+            }
+          }
+        ],
+        "body": "text/scenarios/33e9bdeb30e9b232.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-81",
+          "snapshot": "sources/wiki/pages/6b143a1aab0aa352.json",
+          "capturedAt": "2026-09-27T04:18:02.374Z"
+        },
+        "wikiTitle": "BTX-81",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "BTX-81非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-81%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-81?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Basic Tragedy X"
+        ],
+        "module": "Basic Tragedy X"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "8a12a03e9024873a",
+        "title": "BTX-81非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "BTX-81",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "改变未来"
+            },
+            {
+              "slot": "X1",
+              "name": "流言四起"
+            },
+            {
+              "slot": "X2",
+              "name": "未知因子KAI"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-81%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/bae224d5058ccd43.json",
+            "capturedAt": "2026-09-27T04:18:05.155Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-81%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/bae224d5058ccd43.json",
+            "capturedAt": "2026-09-27T04:18:05.155Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-81%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/bae224d5058ccd43.json",
+            "capturedAt": "2026-09-27T04:18:05.155Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-81%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/bae224d5058ccd43.json",
+            "capturedAt": "2026-09-27T04:18:05.155Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-81%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/bae224d5058ccd43.json",
+              "capturedAt": "2026-09-27T04:18:05.155Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "BTX-81",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "改变未来"
+                },
+                {
+                  "slot": "X1",
+                  "name": "流言四起"
+                },
+                {
+                  "slot": "X2",
+                  "name": "未知因子KAI"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/8a12a03e9024873a.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-81%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/bae224d5058ccd43.json",
+          "capturedAt": "2026-09-27T04:18:05.155Z"
+        },
+        "wikiTitle": "BTX-81非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-81%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-81%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-81%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=3"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Basic Tragedy X",
+        "tags": [
+          "民间",
+          "Basic Tragedy X"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "8a12a03e9024873a"
+  ],
+  "conflicts": []
+}

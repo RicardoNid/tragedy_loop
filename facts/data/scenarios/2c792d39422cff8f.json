@@ -1,0 +1,192 @@
+{
+  "id": "2c792d39422cff8f",
+  "title": "BTX-27G",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "scenarioCode": "BTX-27G",
+    "剧本名": "一夜惨劇（BTX医院事故篇）",
+    "日文名": "ワンナイト惨劇（BTX病院の事件編）",
+    "作者": "おみ (HOM)",
+    "轮数": "n",
+    "天数": "1"
+  },
+  "provenance": {
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+      "table": 2,
+      "row": 19
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+      "table": 2,
+      "row": 19
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+      "table": 2,
+      "row": 19
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+      "table": 2,
+      "row": 19
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+      "table": 2,
+      "row": 19
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+      "table": 2,
+      "row": 19
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+      "table": 2,
+      "row": 19
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+        "table": 2,
+        "row": 19
+      },
+      "fields": {
+        "scenarioCode": "BTX-27G",
+        "剧本名": "一夜惨劇（BTX医院事故篇）",
+        "日文名": "ワンナイト惨劇（BTX病院の事件編）",
+        "作者": "おみ (HOM)",
+        "轮数": "n",
+        "天数": "1"
+      }
+    }
+  ],
+  "tags": [
+    "剧本集剧本",
+    "Basic Tragedy X"
+  ],
+  "module": "Basic Tragedy X",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "2c792d39422cff8f",
+        "title": "BTX-27G",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "scenarioCode": "BTX-27G",
+          "剧本名": "一夜惨劇（BTX医院事故篇）",
+          "日文名": "ワンナイト惨劇（BTX病院の事件編）",
+          "作者": "おみ (HOM)",
+          "轮数": "n",
+          "天数": "1"
+        },
+        "provenance": {
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+            "table": 2,
+            "row": 19
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+            "table": 2,
+            "row": 19
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+            "table": 2,
+            "row": 19
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+            "table": 2,
+            "row": 19
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+            "table": 2,
+            "row": 19
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+            "table": 2,
+            "row": 19
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+            "table": 2,
+            "row": 19
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+              "table": 2,
+              "row": 19
+            },
+            "fields": {
+              "scenarioCode": "BTX-27G",
+              "剧本名": "一夜惨劇（BTX医院事故篇）",
+              "日文名": "ワンナイト惨劇（BTX病院の事件編）",
+              "作者": "おみ (HOM)",
+              "轮数": "n",
+              "天数": "1"
+            }
+          }
+        ],
+        "tags": [
+          "剧本集剧本",
+          "Basic Tragedy X"
+        ],
+        "module": "Basic Tragedy X"
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [],
+  "conflicts": []
+}

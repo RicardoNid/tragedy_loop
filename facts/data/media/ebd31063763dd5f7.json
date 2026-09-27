@@ -1,0 +1,60 @@
+{
+  "id": "ebd31063763dd5f7",
+  "title": "幻想.png",
+  "kind": "media",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "bytes": 277742,
+    "sha256": "0974f54b5d1ff7b94d1e9f0ea1998b25310a2a9a860e716dd8c2310295ea1612"
+  },
+  "provenance": {
+    "bytes": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%B9%BB%E6%83%B3.png",
+      "snapshot": "sources/wiki/files/a3c52ac3a670e00d.json"
+    },
+    "sha256": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%B9%BB%E6%83%B3.png",
+      "snapshot": "sources/wiki/files/a3c52ac3a670e00d.json"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%B9%BB%E6%83%B3.png",
+      "snapshot": "sources/wiki/files/a3c52ac3a670e00d.json"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%B9%BB%E6%83%B3.png",
+        "snapshot": "sources/wiki/files/a3c52ac3a670e00d.json"
+      },
+      "fields": {
+        "bytes": 277742,
+        "sha256": "0974f54b5d1ff7b94d1e9f0ea1998b25310a2a9a860e716dd8c2310295ea1612"
+      }
+    }
+  ],
+  "media": [
+    {
+      "title": "幻想.png",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%B9%BB%E6%83%B3.png",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/4/42/%E5%B9%BB%E6%83%B3.png/revision/latest?cb=20251023162225&format=original&path-prefix=zh",
+      "path": "media/wiki/a3c52ac3a670e00d.png",
+      "sourceRecord": "sources/wiki/files/a3c52ac3a670e00d.json",
+      "sha256": "0974f54b5d1ff7b94d1e9f0ea1998b25310a2a9a860e716dd8c2310295ea1612",
+      "bytes": 277742,
+      "fileInfo": "PNG image data, 308 x 426, 8-bit/color RGBA, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "tags": [],
+  "conflicts": []
+}

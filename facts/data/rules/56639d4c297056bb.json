@@ -1,0 +1,70 @@
+{
+  "id": "56639d4c297056bb",
+  "title": "毁灭的预言",
+  "kind": "rules",
+  "scope": "Old Fashion",
+  "aliases": [],
+  "fields": {
+    "ruleType": "X",
+    "identityCounts": {
+      "亲友": "①",
+      "恐慌制造者": "①",
+      "传谣人": "①"
+    },
+    "effect": "【强制：回合结束阶段】1名角色身上有4枚或以上[不安]→那名角色死亡"
+  },
+  "provenance": {
+    "ruleType": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Old_Fashion",
+      "snapshot": "sources/wiki/pages/a50ad3a225ece288.json",
+      "capturedAt": "2026-09-27T03:30:00.404Z"
+    },
+    "identityCounts": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Old_Fashion",
+      "snapshot": "sources/wiki/pages/a50ad3a225ece288.json",
+      "capturedAt": "2026-09-27T03:30:00.404Z"
+    },
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Old_Fashion",
+      "snapshot": "sources/wiki/pages/a50ad3a225ece288.json",
+      "capturedAt": "2026-09-27T03:30:00.404Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Old_Fashion",
+      "snapshot": "sources/wiki/pages/a50ad3a225ece288.json",
+      "capturedAt": "2026-09-27T03:30:00.404Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Old_Fashion",
+        "snapshot": "sources/wiki/pages/a50ad3a225ece288.json",
+        "capturedAt": "2026-09-27T03:30:00.404Z"
+      },
+      "fields": {
+        "ruleType": "X",
+        "identityCounts": {
+          "亲友": "①",
+          "恐慌制造者": "①",
+          "传谣人": "①"
+        },
+        "effect": "【强制：回合结束阶段】1名角色身上有4枚或以上[不安]→那名角色死亡"
+      }
+    }
+  ],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "X",
+    "民间"
+  ],
+  "conflicts": []
+}

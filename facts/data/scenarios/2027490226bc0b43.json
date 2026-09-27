@@ -1,0 +1,462 @@
+{
+  "id": "2027490226bc0b43",
+  "title": "LL-01",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "LL-01非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "LL-01",
+    "loops": 5,
+    "days": 5,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "骤变"
+      },
+      {
+        "day": 2,
+        "incidentText": "代行者"
+      },
+      {
+        "day": 3,
+        "incidentText": "医院事故"
+      },
+      {
+        "day": 4,
+        "incidentText": "绝望之暗"
+      },
+      {
+        "day": 5,
+        "incidentText": "遗言"
+      }
+    ],
+    "剧本名": "言不由衷的背叛",
+    "作者": "高雷",
+    "轮数": "5",
+    "天数": "5"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-01",
+      "snapshot": "sources/wiki/pages/5035e5cb2f39eede.json",
+      "capturedAt": "2026-09-27T04:31:22.654Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-01",
+      "snapshot": "sources/wiki/pages/5035e5cb2f39eede.json",
+      "capturedAt": "2026-09-27T04:31:22.654Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-01",
+      "snapshot": "sources/wiki/pages/5035e5cb2f39eede.json",
+      "capturedAt": "2026-09-27T04:31:22.654Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-01",
+      "snapshot": "sources/wiki/pages/5035e5cb2f39eede.json",
+      "capturedAt": "2026-09-27T04:31:22.654Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-01",
+      "snapshot": "sources/wiki/pages/5035e5cb2f39eede.json",
+      "capturedAt": "2026-09-27T04:31:22.654Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 8,
+      "row": 2
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 8,
+      "row": 2
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 8,
+      "row": 2
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 8,
+      "row": 2
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-01",
+      "snapshot": "sources/wiki/pages/5035e5cb2f39eede.json",
+      "capturedAt": "2026-09-27T04:31:22.654Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 8,
+      "row": 2
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-01%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/34c41a2cb773fce8.json",
+      "capturedAt": "2026-09-27T04:31:25.665Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-01",
+        "snapshot": "sources/wiki/pages/5035e5cb2f39eede.json",
+        "capturedAt": "2026-09-27T04:31:22.654Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "LL-01",
+        "loops": 5,
+        "days": 5,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "骤变"
+          },
+          {
+            "day": 2,
+            "incidentText": "代行者"
+          },
+          {
+            "day": 3,
+            "incidentText": "医院事故"
+          },
+          {
+            "day": 4,
+            "incidentText": "绝望之暗"
+          },
+          {
+            "day": 5,
+            "incidentText": "遗言"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 8,
+        "row": 2
+      },
+      "fields": {
+        "scenarioCode": "LL-01",
+        "剧本名": "言不由衷的背叛",
+        "作者": "高雷",
+        "轮数": "5",
+        "天数": "5"
+      }
+    }
+  ],
+  "wikiTitle": "LL-01",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Last Liar"
+  ],
+  "module": "Last Liar",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "2027490226bc0b43",
+        "title": "LL-01",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "LL-01",
+          "loops": 5,
+          "days": 5,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "骤变"
+            },
+            {
+              "day": 2,
+              "incidentText": "代行者"
+            },
+            {
+              "day": 3,
+              "incidentText": "医院事故"
+            },
+            {
+              "day": 4,
+              "incidentText": "绝望之暗"
+            },
+            {
+              "day": 5,
+              "incidentText": "遗言"
+            }
+          ],
+          "剧本名": "言不由衷的背叛",
+          "作者": "高雷",
+          "轮数": "5",
+          "天数": "5"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-01",
+            "snapshot": "sources/wiki/pages/5035e5cb2f39eede.json",
+            "capturedAt": "2026-09-27T04:31:22.654Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-01",
+            "snapshot": "sources/wiki/pages/5035e5cb2f39eede.json",
+            "capturedAt": "2026-09-27T04:31:22.654Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-01",
+            "snapshot": "sources/wiki/pages/5035e5cb2f39eede.json",
+            "capturedAt": "2026-09-27T04:31:22.654Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-01",
+            "snapshot": "sources/wiki/pages/5035e5cb2f39eede.json",
+            "capturedAt": "2026-09-27T04:31:22.654Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-01",
+            "snapshot": "sources/wiki/pages/5035e5cb2f39eede.json",
+            "capturedAt": "2026-09-27T04:31:22.654Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 8,
+            "row": 2
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 8,
+            "row": 2
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 8,
+            "row": 2
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 8,
+            "row": 2
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-01",
+            "snapshot": "sources/wiki/pages/5035e5cb2f39eede.json",
+            "capturedAt": "2026-09-27T04:31:22.654Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 8,
+            "row": 2
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-01",
+              "snapshot": "sources/wiki/pages/5035e5cb2f39eede.json",
+              "capturedAt": "2026-09-27T04:31:22.654Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "LL-01",
+              "loops": 5,
+              "days": 5,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "骤变"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "代行者"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "医院事故"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "绝望之暗"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "遗言"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 8,
+              "row": 2
+            },
+            "fields": {
+              "scenarioCode": "LL-01",
+              "剧本名": "言不由衷的背叛",
+              "作者": "高雷",
+              "轮数": "5",
+              "天数": "5"
+            }
+          }
+        ],
+        "body": "text/scenarios/2027490226bc0b43.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-01",
+          "snapshot": "sources/wiki/pages/5035e5cb2f39eede.json",
+          "capturedAt": "2026-09-27T04:31:22.654Z"
+        },
+        "wikiTitle": "LL-01",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-01?action=edit&section=1"
+          },
+          {
+            "title": "LL-01非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-01%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-01?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Last Liar"
+        ],
+        "module": "Last Liar"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "e047043910cae52d",
+        "title": "LL-01非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "LL-01"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-01%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/34c41a2cb773fce8.json",
+            "capturedAt": "2026-09-27T04:31:25.665Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-01%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/34c41a2cb773fce8.json",
+            "capturedAt": "2026-09-27T04:31:25.665Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-01%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/34c41a2cb773fce8.json",
+            "capturedAt": "2026-09-27T04:31:25.665Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-01%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/34c41a2cb773fce8.json",
+              "capturedAt": "2026-09-27T04:31:25.665Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "LL-01"
+            }
+          }
+        ],
+        "wikiTitle": "LL-01非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Last Liar",
+        "tags": [
+          "民间",
+          "Last Liar"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "e047043910cae52d"
+  ],
+  "conflicts": []
+}

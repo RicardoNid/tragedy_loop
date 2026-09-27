@@ -1,0 +1,436 @@
+{
+  "id": "5c35d69f20e4d08b",
+  "title": "BTX-108",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "BTX-108非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "BTX-108",
+    "loops": 50,
+    "days": 4,
+    "剧本名": "情报部核心抑制2",
+    "作者": "Zillash",
+    "轮数": "50",
+    "天数": "4"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-108",
+      "snapshot": "sources/wiki/pages/fbd362a3ec2895a9.json",
+      "capturedAt": "2026-09-27T03:53:03.298Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-108",
+      "snapshot": "sources/wiki/pages/fbd362a3ec2895a9.json",
+      "capturedAt": "2026-09-27T03:53:03.298Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-108",
+      "snapshot": "sources/wiki/pages/fbd362a3ec2895a9.json",
+      "capturedAt": "2026-09-27T03:53:03.298Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-108",
+      "snapshot": "sources/wiki/pages/fbd362a3ec2895a9.json",
+      "capturedAt": "2026-09-27T03:53:03.298Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 110
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 110
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 110
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 110
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-108",
+      "snapshot": "sources/wiki/pages/fbd362a3ec2895a9.json",
+      "capturedAt": "2026-09-27T03:53:03.298Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 110
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-108%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/83d0de83c1b7857f.json",
+      "capturedAt": "2026-09-27T03:53:11.508Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-108",
+        "snapshot": "sources/wiki/pages/fbd362a3ec2895a9.json",
+        "capturedAt": "2026-09-27T03:53:03.298Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "BTX-108",
+        "loops": 50,
+        "days": 4
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 2,
+        "row": 110
+      },
+      "fields": {
+        "scenarioCode": "BTX-108",
+        "剧本名": "情报部核心抑制2",
+        "作者": "Zillash",
+        "轮数": "50",
+        "天数": "4"
+      }
+    }
+  ],
+  "wikiTitle": "BTX-108",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Basic Tragedy X"
+  ],
+  "module": "Basic Tragedy X",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "5c35d69f20e4d08b",
+        "title": "BTX-108",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "BTX-108",
+          "loops": 50,
+          "days": 4,
+          "剧本名": "情报部核心抑制2",
+          "作者": "Zillash",
+          "轮数": "50",
+          "天数": "4"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-108",
+            "snapshot": "sources/wiki/pages/fbd362a3ec2895a9.json",
+            "capturedAt": "2026-09-27T03:53:03.298Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-108",
+            "snapshot": "sources/wiki/pages/fbd362a3ec2895a9.json",
+            "capturedAt": "2026-09-27T03:53:03.298Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-108",
+            "snapshot": "sources/wiki/pages/fbd362a3ec2895a9.json",
+            "capturedAt": "2026-09-27T03:53:03.298Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-108",
+            "snapshot": "sources/wiki/pages/fbd362a3ec2895a9.json",
+            "capturedAt": "2026-09-27T03:53:03.298Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 110
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 110
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 110
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 110
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-108",
+            "snapshot": "sources/wiki/pages/fbd362a3ec2895a9.json",
+            "capturedAt": "2026-09-27T03:53:03.298Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 110
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-108",
+              "snapshot": "sources/wiki/pages/fbd362a3ec2895a9.json",
+              "capturedAt": "2026-09-27T03:53:03.298Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "BTX-108",
+              "loops": 50,
+              "days": 4
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 2,
+              "row": 110
+            },
+            "fields": {
+              "scenarioCode": "BTX-108",
+              "剧本名": "情报部核心抑制2",
+              "作者": "Zillash",
+              "轮数": "50",
+              "天数": "4"
+            }
+          }
+        ],
+        "body": "text/scenarios/5c35d69f20e4d08b.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-108",
+          "snapshot": "sources/wiki/pages/fbd362a3ec2895a9.json",
+          "capturedAt": "2026-09-27T03:53:03.298Z"
+        },
+        "wikiTitle": "BTX-108",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-108?action=edit&section=1"
+          },
+          {
+            "title": "BTX-108非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-108%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-108?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Basic Tragedy X"
+        ],
+        "module": "Basic Tragedy X"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "a7773a34177cbf26",
+        "title": "BTX-108非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "BTX-108",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "巨大定时炸弹X"
+            },
+            {
+              "slot": "X1",
+              "name": "潜伏的杀人狂"
+            },
+            {
+              "slot": "X2",
+              "name": "流言四起"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-108%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/83d0de83c1b7857f.json",
+            "capturedAt": "2026-09-27T03:53:11.508Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-108%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/83d0de83c1b7857f.json",
+            "capturedAt": "2026-09-27T03:53:11.508Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-108%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/83d0de83c1b7857f.json",
+            "capturedAt": "2026-09-27T03:53:11.508Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-108%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/83d0de83c1b7857f.json",
+            "capturedAt": "2026-09-27T03:53:11.508Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-108%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/83d0de83c1b7857f.json",
+              "capturedAt": "2026-09-27T03:53:11.508Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "BTX-108",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "巨大定时炸弹X"
+                },
+                {
+                  "slot": "X1",
+                  "name": "潜伏的杀人狂"
+                },
+                {
+                  "slot": "X2",
+                  "name": "流言四起"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/a7773a34177cbf26.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-108%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/83d0de83c1b7857f.json",
+          "capturedAt": "2026-09-27T03:53:11.508Z"
+        },
+        "wikiTitle": "BTX-108非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "1 情报部核心抑制2 作者：Zillash",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-108%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E6%83%85%E6%8A%A5%E9%83%A8%E6%A0%B8%E5%BF%83%E6%8A%91%E5%88%B62_%E4%BD%9C%E8%80%85%EF%BC%9AZillash"
+          },
+          {
+            "title": "1.1 事件结算方法",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-108%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E4%BA%8B%E4%BB%B6%E7%BB%93%E7%AE%97%E6%96%B9%E6%B3%95"
+          },
+          {
+            "title": "1.2 出牌方法",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-108%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E5%87%BA%E7%89%8C%E6%96%B9%E6%B3%95"
+          },
+          {
+            "title": "1.3 剧作家指南",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-108%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E5%89%A7%E4%BD%9C%E5%AE%B6%E6%8C%87%E5%8D%97"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-108%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-108%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-108%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=3"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-108%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=4"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Basic Tragedy X",
+        "tags": [
+          "民间",
+          "Basic Tragedy X"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "a7773a34177cbf26"
+  ],
+  "conflicts": []
+}

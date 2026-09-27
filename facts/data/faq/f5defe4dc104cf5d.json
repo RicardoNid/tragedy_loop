@@ -1,0 +1,67 @@
+{
+  "id": "f5defe4dc104cf5d",
+  "title": "剧作家可以使用傀儡友好班长的能力回收【绝望+1】吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / AHR / 第 13 行",
+  "aliases": [],
+  "fields": {
+    "question": "剧作家可以使用傀儡友好班长的能力回收【绝望+1】吗？",
+    "answer": "如果本轮获得过并且已使用，可以"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1mwbt4",
+      "snapshot": "sources/faq-sheet/ahr.json",
+      "sheet": "AHR",
+      "row": 13,
+      "cells": "A13:B13",
+      "capturedAt": "2026-09-27T05:40:34.313Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1mwbt4",
+      "snapshot": "sources/faq-sheet/ahr.json",
+      "sheet": "AHR",
+      "row": 13,
+      "cells": "A13:B13",
+      "capturedAt": "2026-09-27T05:40:34.313Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1mwbt4",
+      "snapshot": "sources/faq-sheet/ahr.json",
+      "sheet": "AHR",
+      "row": 13,
+      "cells": "A13:B13",
+      "capturedAt": "2026-09-27T05:40:34.313Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1mwbt4",
+        "snapshot": "sources/faq-sheet/ahr.json",
+        "sheet": "AHR",
+        "row": 13,
+        "cells": "A13:B13",
+        "capturedAt": "2026-09-27T05:40:34.313Z"
+      },
+      "fields": {
+        "question": "剧作家可以使用傀儡友好班长的能力回收【绝望+1】吗？",
+        "answer": "如果本轮获得过并且已使用，可以"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "AHR",
+    "关于能力",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

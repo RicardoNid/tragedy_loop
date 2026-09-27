@@ -1,0 +1,67 @@
+{
+  "id": "1b439916a10622c5",
+  "title": "复仇者",
+  "kind": "identities",
+  "scope": "Unheard Malice",
+  "aliases": [],
+  "fields": {
+    "max": "",
+    "traits": "无视友好",
+    "abilities": [
+      "【任意能力：回合结束阶段】同一区域1名角色身上有2枚或以上[密谋]→那名角色死亡",
+      "【任意能力：回合结束阶段】该角色身上有(4-X)枚或以上[密谋]→主人公死亡（X=Ex槽的值）"
+    ]
+  },
+  "provenance": {
+    "max": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Unheard_Malice",
+      "snapshot": "sources/wiki/pages/62df499c8bfa0a4c.json",
+      "capturedAt": "2026-09-27T03:30:12.492Z"
+    },
+    "traits": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Unheard_Malice",
+      "snapshot": "sources/wiki/pages/62df499c8bfa0a4c.json",
+      "capturedAt": "2026-09-27T03:30:12.492Z"
+    },
+    "abilities": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Unheard_Malice",
+      "snapshot": "sources/wiki/pages/62df499c8bfa0a4c.json",
+      "capturedAt": "2026-09-27T03:30:12.492Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Unheard_Malice",
+      "snapshot": "sources/wiki/pages/62df499c8bfa0a4c.json",
+      "capturedAt": "2026-09-27T03:30:12.492Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Unheard_Malice",
+        "snapshot": "sources/wiki/pages/62df499c8bfa0a4c.json",
+        "capturedAt": "2026-09-27T03:30:12.492Z"
+      },
+      "fields": {
+        "max": "",
+        "traits": "无视友好",
+        "abilities": [
+          "【任意能力：回合结束阶段】同一区域1名角色身上有2枚或以上[密谋]→那名角色死亡",
+          "【任意能力：回合结束阶段】该角色身上有(4-X)枚或以上[密谋]→主人公死亡（X=Ex槽的值）"
+        ]
+      }
+    }
+  ],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "民间"
+  ],
+  "conflicts": []
+}

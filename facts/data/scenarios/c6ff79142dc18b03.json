@@ -1,0 +1,542 @@
+{
+  "id": "c6ff79142dc18b03",
+  "title": "BTX-70",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "BTX-70非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "BTX-70",
+    "loops": 4,
+    "days": 6,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "谋杀"
+      },
+      {
+        "day": 2,
+        "incidentText": "不安扩散"
+      },
+      {
+        "day": 3,
+        "incidentText": "失踪"
+      },
+      {
+        "day": 4,
+        "incidentText": "医院事故"
+      },
+      {
+        "day": 5,
+        "incidentText": "自杀"
+      },
+      {
+        "day": 6,
+        "incidentText": "自杀"
+      }
+    ],
+    "剧本名": "疯狂之上的疯狂",
+    "英文名": "Madness over Madness",
+    "作者": "ChrisMaxheart",
+    "轮数": "4 3",
+    "天数": "6"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-70",
+      "snapshot": "sources/wiki/pages/e97e78be80be3bf0.json",
+      "capturedAt": "2026-09-27T04:15:41.011Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-70",
+      "snapshot": "sources/wiki/pages/e97e78be80be3bf0.json",
+      "capturedAt": "2026-09-27T04:15:41.011Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-70",
+      "snapshot": "sources/wiki/pages/e97e78be80be3bf0.json",
+      "capturedAt": "2026-09-27T04:15:41.011Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-70",
+      "snapshot": "sources/wiki/pages/e97e78be80be3bf0.json",
+      "capturedAt": "2026-09-27T04:15:41.011Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-70",
+      "snapshot": "sources/wiki/pages/e97e78be80be3bf0.json",
+      "capturedAt": "2026-09-27T04:15:41.011Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 71
+    },
+    "英文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 71
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 71
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 71
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 71
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-70",
+      "snapshot": "sources/wiki/pages/e97e78be80be3bf0.json",
+      "capturedAt": "2026-09-27T04:15:41.011Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 71
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-70%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/d1dc12b70b281a14.json",
+      "capturedAt": "2026-09-27T04:15:43.742Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-70",
+        "snapshot": "sources/wiki/pages/e97e78be80be3bf0.json",
+        "capturedAt": "2026-09-27T04:15:41.011Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "BTX-70",
+        "loops": 4,
+        "days": 6,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "谋杀"
+          },
+          {
+            "day": 2,
+            "incidentText": "不安扩散"
+          },
+          {
+            "day": 3,
+            "incidentText": "失踪"
+          },
+          {
+            "day": 4,
+            "incidentText": "医院事故"
+          },
+          {
+            "day": 5,
+            "incidentText": "自杀"
+          },
+          {
+            "day": 6,
+            "incidentText": "自杀"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 2,
+        "row": 71
+      },
+      "fields": {
+        "scenarioCode": "BTX-70",
+        "剧本名": "疯狂之上的疯狂",
+        "英文名": "Madness over Madness",
+        "作者": "ChrisMaxheart",
+        "轮数": "4 3",
+        "天数": "6"
+      }
+    }
+  ],
+  "wikiTitle": "BTX-70",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Basic Tragedy X"
+  ],
+  "module": "Basic Tragedy X",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "c6ff79142dc18b03",
+        "title": "BTX-70",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "BTX-70",
+          "loops": 4,
+          "days": 6,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "谋杀"
+            },
+            {
+              "day": 2,
+              "incidentText": "不安扩散"
+            },
+            {
+              "day": 3,
+              "incidentText": "失踪"
+            },
+            {
+              "day": 4,
+              "incidentText": "医院事故"
+            },
+            {
+              "day": 5,
+              "incidentText": "自杀"
+            },
+            {
+              "day": 6,
+              "incidentText": "自杀"
+            }
+          ],
+          "剧本名": "疯狂之上的疯狂",
+          "英文名": "Madness over Madness",
+          "作者": "ChrisMaxheart",
+          "轮数": "4 3",
+          "天数": "6"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-70",
+            "snapshot": "sources/wiki/pages/e97e78be80be3bf0.json",
+            "capturedAt": "2026-09-27T04:15:41.011Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-70",
+            "snapshot": "sources/wiki/pages/e97e78be80be3bf0.json",
+            "capturedAt": "2026-09-27T04:15:41.011Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-70",
+            "snapshot": "sources/wiki/pages/e97e78be80be3bf0.json",
+            "capturedAt": "2026-09-27T04:15:41.011Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-70",
+            "snapshot": "sources/wiki/pages/e97e78be80be3bf0.json",
+            "capturedAt": "2026-09-27T04:15:41.011Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-70",
+            "snapshot": "sources/wiki/pages/e97e78be80be3bf0.json",
+            "capturedAt": "2026-09-27T04:15:41.011Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 71
+          },
+          "英文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 71
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 71
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 71
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 71
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-70",
+            "snapshot": "sources/wiki/pages/e97e78be80be3bf0.json",
+            "capturedAt": "2026-09-27T04:15:41.011Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 71
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-70",
+              "snapshot": "sources/wiki/pages/e97e78be80be3bf0.json",
+              "capturedAt": "2026-09-27T04:15:41.011Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "BTX-70",
+              "loops": 4,
+              "days": 6,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "谋杀"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "不安扩散"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "失踪"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "医院事故"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "自杀"
+                },
+                {
+                  "day": 6,
+                  "incidentText": "自杀"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 2,
+              "row": 71
+            },
+            "fields": {
+              "scenarioCode": "BTX-70",
+              "剧本名": "疯狂之上的疯狂",
+              "英文名": "Madness over Madness",
+              "作者": "ChrisMaxheart",
+              "轮数": "4 3",
+              "天数": "6"
+            }
+          }
+        ],
+        "body": "text/scenarios/c6ff79142dc18b03.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-70",
+          "snapshot": "sources/wiki/pages/e97e78be80be3bf0.json",
+          "capturedAt": "2026-09-27T04:15:41.011Z"
+        },
+        "wikiTitle": "BTX-70",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "BTX-70非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-70%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-70?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Basic Tragedy X"
+        ],
+        "module": "Basic Tragedy X"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "6f19eee82737d468",
+        "title": "BTX-70非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "BTX-70",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "谋杀计划"
+            },
+            {
+              "slot": "X1",
+              "name": "好友圈"
+            },
+            {
+              "slot": "X2",
+              "name": "因果线"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-70%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/d1dc12b70b281a14.json",
+            "capturedAt": "2026-09-27T04:15:43.742Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-70%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/d1dc12b70b281a14.json",
+            "capturedAt": "2026-09-27T04:15:43.742Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-70%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/d1dc12b70b281a14.json",
+            "capturedAt": "2026-09-27T04:15:43.742Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-70%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/d1dc12b70b281a14.json",
+            "capturedAt": "2026-09-27T04:15:43.742Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-70%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/d1dc12b70b281a14.json",
+              "capturedAt": "2026-09-27T04:15:43.742Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "BTX-70",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "谋杀计划"
+                },
+                {
+                  "slot": "X1",
+                  "name": "好友圈"
+                },
+                {
+                  "slot": "X2",
+                  "name": "因果线"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/6f19eee82737d468.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-70%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/d1dc12b70b281a14.json",
+          "capturedAt": "2026-09-27T04:15:43.742Z"
+        },
+        "wikiTitle": "BTX-70非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-70%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-70%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Basic Tragedy X",
+        "tags": [
+          "民间",
+          "Basic Tragedy X"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "6f19eee82737d468"
+  ],
+  "conflicts": []
+}

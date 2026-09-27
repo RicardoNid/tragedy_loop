@@ -1,0 +1,464 @@
+{
+  "id": "ebf86e89537c347f",
+  "title": "AHR-26",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "AHR-26非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "AHR-26",
+    "loops": 5,
+    "days": 5,
+    "schedule": [
+      {
+        "day": 2,
+        "incidentText": "遗失物"
+      },
+      {
+        "day": 3,
+        "incidentText": "绝望之暗"
+      },
+      {
+        "day": 4,
+        "incidentText": "冲动杀人"
+      },
+      {
+        "day": 5,
+        "incidentText": "次元断层"
+      }
+    ],
+    "剧本名": "转瞬即逝的人类",
+    "日文名": "儚きもの人間",
+    "作者": "弾濫",
+    "轮数": "5",
+    "天数": "5"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-26",
+      "snapshot": "sources/wiki/pages/a0c0f91305adf2d9.json",
+      "capturedAt": "2026-09-27T03:45:13.014Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-26",
+      "snapshot": "sources/wiki/pages/a0c0f91305adf2d9.json",
+      "capturedAt": "2026-09-27T03:45:13.014Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-26",
+      "snapshot": "sources/wiki/pages/a0c0f91305adf2d9.json",
+      "capturedAt": "2026-09-27T03:45:13.014Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-26",
+      "snapshot": "sources/wiki/pages/a0c0f91305adf2d9.json",
+      "capturedAt": "2026-09-27T03:45:13.014Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-26",
+      "snapshot": "sources/wiki/pages/a0c0f91305adf2d9.json",
+      "capturedAt": "2026-09-27T03:45:13.014Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 27
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 27
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 27
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 27
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 27
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-26",
+      "snapshot": "sources/wiki/pages/a0c0f91305adf2d9.json",
+      "capturedAt": "2026-09-27T03:45:13.014Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 27
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-26%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/2f53a1a3483ab11d.json",
+      "capturedAt": "2026-09-27T03:45:16.267Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-26",
+        "snapshot": "sources/wiki/pages/a0c0f91305adf2d9.json",
+        "capturedAt": "2026-09-27T03:45:13.014Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "AHR-26",
+        "loops": 5,
+        "days": 5,
+        "schedule": [
+          {
+            "day": 2,
+            "incidentText": "遗失物"
+          },
+          {
+            "day": 3,
+            "incidentText": "绝望之暗"
+          },
+          {
+            "day": 4,
+            "incidentText": "冲动杀人"
+          },
+          {
+            "day": 5,
+            "incidentText": "次元断层"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 7,
+        "row": 27
+      },
+      "fields": {
+        "scenarioCode": "AHR-26",
+        "剧本名": "转瞬即逝的人类",
+        "日文名": "儚きもの人間",
+        "作者": "弾濫",
+        "轮数": "5",
+        "天数": "5"
+      }
+    }
+  ],
+  "wikiTitle": "AHR-26",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Another Horizon Revised"
+  ],
+  "module": "Another Horizon Revised",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "ebf86e89537c347f",
+        "title": "AHR-26",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "AHR-26",
+          "loops": 5,
+          "days": 5,
+          "schedule": [
+            {
+              "day": 2,
+              "incidentText": "遗失物"
+            },
+            {
+              "day": 3,
+              "incidentText": "绝望之暗"
+            },
+            {
+              "day": 4,
+              "incidentText": "冲动杀人"
+            },
+            {
+              "day": 5,
+              "incidentText": "次元断层"
+            }
+          ],
+          "剧本名": "转瞬即逝的人类",
+          "日文名": "儚きもの人間",
+          "作者": "弾濫",
+          "轮数": "5",
+          "天数": "5"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-26",
+            "snapshot": "sources/wiki/pages/a0c0f91305adf2d9.json",
+            "capturedAt": "2026-09-27T03:45:13.014Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-26",
+            "snapshot": "sources/wiki/pages/a0c0f91305adf2d9.json",
+            "capturedAt": "2026-09-27T03:45:13.014Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-26",
+            "snapshot": "sources/wiki/pages/a0c0f91305adf2d9.json",
+            "capturedAt": "2026-09-27T03:45:13.014Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-26",
+            "snapshot": "sources/wiki/pages/a0c0f91305adf2d9.json",
+            "capturedAt": "2026-09-27T03:45:13.014Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-26",
+            "snapshot": "sources/wiki/pages/a0c0f91305adf2d9.json",
+            "capturedAt": "2026-09-27T03:45:13.014Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 27
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 27
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 27
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 27
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 27
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-26",
+            "snapshot": "sources/wiki/pages/a0c0f91305adf2d9.json",
+            "capturedAt": "2026-09-27T03:45:13.014Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 27
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-26",
+              "snapshot": "sources/wiki/pages/a0c0f91305adf2d9.json",
+              "capturedAt": "2026-09-27T03:45:13.014Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "AHR-26",
+              "loops": 5,
+              "days": 5,
+              "schedule": [
+                {
+                  "day": 2,
+                  "incidentText": "遗失物"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "绝望之暗"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "冲动杀人"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "次元断层"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 7,
+              "row": 27
+            },
+            "fields": {
+              "scenarioCode": "AHR-26",
+              "剧本名": "转瞬即逝的人类",
+              "日文名": "儚きもの人間",
+              "作者": "弾濫",
+              "轮数": "5",
+              "天数": "5"
+            }
+          }
+        ],
+        "body": "text/scenarios/ebf86e89537c347f.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-26",
+          "snapshot": "sources/wiki/pages/a0c0f91305adf2d9.json",
+          "capturedAt": "2026-09-27T03:45:13.014Z"
+        },
+        "wikiTitle": "AHR-26",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-26?action=edit&section=1"
+          },
+          {
+            "title": "AHR-26非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-26%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-26?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Another Horizon Revised"
+        ],
+        "module": "Another Horizon Revised"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "31eb76c256e196c9",
+        "title": "AHR-26非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "AHR-26"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-26%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/2f53a1a3483ab11d.json",
+            "capturedAt": "2026-09-27T03:45:16.267Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-26%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/2f53a1a3483ab11d.json",
+            "capturedAt": "2026-09-27T03:45:16.267Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-26%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/2f53a1a3483ab11d.json",
+            "capturedAt": "2026-09-27T03:45:16.267Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-26%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/2f53a1a3483ab11d.json",
+              "capturedAt": "2026-09-27T03:45:16.267Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "AHR-26"
+            }
+          }
+        ],
+        "wikiTitle": "AHR-26非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Another Horizon Revised",
+        "tags": [
+          "民间",
+          "Another Horizon Revised"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "31eb76c256e196c9"
+  ],
+  "conflicts": []
+}

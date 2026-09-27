@@ -1,0 +1,67 @@
+{
+  "id": "2d3c87174ef48e12",
+  "title": "大人物是强迫症，不在领地，可以视为在领地发事件吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / MC / 第 11 行",
+  "aliases": [],
+  "fields": {
+    "question": "大人物是强迫症，不在领地，可以视为在领地发事件吗？",
+    "answer": "不能"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=mb92gf",
+      "snapshot": "sources/faq-sheet/mc.json",
+      "sheet": "MC",
+      "row": 11,
+      "cells": "A11:B11",
+      "capturedAt": "2026-09-27T05:40:05.008Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=mb92gf",
+      "snapshot": "sources/faq-sheet/mc.json",
+      "sheet": "MC",
+      "row": 11,
+      "cells": "A11:B11",
+      "capturedAt": "2026-09-27T05:40:05.008Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=mb92gf",
+      "snapshot": "sources/faq-sheet/mc.json",
+      "sheet": "MC",
+      "row": 11,
+      "cells": "A11:B11",
+      "capturedAt": "2026-09-27T05:40:05.008Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=mb92gf",
+        "snapshot": "sources/faq-sheet/mc.json",
+        "sheet": "MC",
+        "row": 11,
+        "cells": "A11:B11",
+        "capturedAt": "2026-09-27T05:40:05.008Z"
+      },
+      "fields": {
+        "question": "大人物是强迫症，不在领地，可以视为在领地发事件吗？",
+        "answer": "不能"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "MC",
+    "关于能力",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

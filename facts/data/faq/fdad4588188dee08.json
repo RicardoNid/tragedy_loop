@@ -1,0 +1,67 @@
+{
+  "id": "fdad4588188dee08",
+  "title": "【灭亡讴歌】我用了伪造事件写成自杀，满足条件吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / MZ / 第 20 行",
+  "aliases": [],
+  "fields": {
+    "question": "【灭亡讴歌】我用了伪造事件写成自杀，满足条件吗？",
+    "answer": "不满足，必须有真的自杀"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000006",
+      "snapshot": "sources/faq-sheet/mz.json",
+      "sheet": "MZ",
+      "row": 20,
+      "cells": "A20:B20",
+      "capturedAt": "2026-09-27T05:39:59.659Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000006",
+      "snapshot": "sources/faq-sheet/mz.json",
+      "sheet": "MZ",
+      "row": 20,
+      "cells": "A20:B20",
+      "capturedAt": "2026-09-27T05:39:59.659Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000006",
+      "snapshot": "sources/faq-sheet/mz.json",
+      "sheet": "MZ",
+      "row": 20,
+      "cells": "A20:B20",
+      "capturedAt": "2026-09-27T05:39:59.659Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000006",
+        "snapshot": "sources/faq-sheet/mz.json",
+        "sheet": "MZ",
+        "row": 20,
+        "cells": "A20:B20",
+        "capturedAt": "2026-09-27T05:39:59.659Z"
+      },
+      "fields": {
+        "question": "【灭亡讴歌】我用了伪造事件写成自杀，满足条件吗？",
+        "answer": "不满足，必须有真的自杀"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "MZ",
+    "关于规则",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

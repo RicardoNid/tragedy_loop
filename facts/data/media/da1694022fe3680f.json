@@ -1,0 +1,60 @@
+{
+  "id": "da1694022fe3680f",
+  "title": "医生.png",
+  "kind": "media",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "bytes": 253608,
+    "sha256": "aa86b76fd31336f72fef9b4a1256152128a1acf41c246a5a6b212532ebad7a5e"
+  },
+  "provenance": {
+    "bytes": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%8C%BB%E7%94%9F.png",
+      "snapshot": "sources/wiki/files/54ebe4e7dc3aa1a3.json"
+    },
+    "sha256": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%8C%BB%E7%94%9F.png",
+      "snapshot": "sources/wiki/files/54ebe4e7dc3aa1a3.json"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%8C%BB%E7%94%9F.png",
+      "snapshot": "sources/wiki/files/54ebe4e7dc3aa1a3.json"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%8C%BB%E7%94%9F.png",
+        "snapshot": "sources/wiki/files/54ebe4e7dc3aa1a3.json"
+      },
+      "fields": {
+        "bytes": 253608,
+        "sha256": "aa86b76fd31336f72fef9b4a1256152128a1acf41c246a5a6b212532ebad7a5e"
+      }
+    }
+  ],
+  "media": [
+    {
+      "title": "医生.png",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%8C%BB%E7%94%9F.png",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/0/08/%E5%8C%BB%E7%94%9F.png/revision/latest?cb=20251023162229&format=original&path-prefix=zh",
+      "path": "media/wiki/54ebe4e7dc3aa1a3.png",
+      "sourceRecord": "sources/wiki/files/54ebe4e7dc3aa1a3.json",
+      "sha256": "aa86b76fd31336f72fef9b4a1256152128a1acf41c246a5a6b212532ebad7a5e",
+      "bytes": 253608,
+      "fileInfo": "PNG image data, 308 x 418, 8-bit/color RGBA, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "tags": [],
+  "conflicts": []
+}

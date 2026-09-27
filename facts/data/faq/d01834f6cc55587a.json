@@ -1,0 +1,67 @@
+{
+  "id": "d01834f6cc55587a",
+  "title": "Ex为3时，大人物是邪教徒，在所在区域和领地各有一张禁止密谋，可以把这些禁止密谋都无效吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 角色 / 第 50 行",
+  "aliases": [],
+  "fields": {
+    "question": "Ex为3时，大人物是邪教徒，在所在区域和领地各有一张禁止密谋，可以把这些禁止密谋都无效吗？",
+    "answer": "不能，因为是同时结算，所以只能选择一个区域的禁止密谋无效"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 50,
+      "cells": "A50:B50",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 50,
+      "cells": "A50:B50",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 50,
+      "cells": "A50:B50",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+        "snapshot": "sources/faq-sheet/characters.json",
+        "sheet": "角色",
+        "row": 50,
+        "cells": "A50:B50",
+        "capturedAt": "2026-09-27T05:39:49.068Z"
+      },
+      "fields": {
+        "question": "Ex为3时，大人物是邪教徒，在所在区域和领地各有一张禁止密谋，可以把这些禁止密谋都无效吗？",
+        "answer": "不能，因为是同时结算，所以只能选择一个区域的禁止密谋无效"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "角色",
+    "关于大人物",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

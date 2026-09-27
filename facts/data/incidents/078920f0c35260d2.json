@@ -1,0 +1,58 @@
+{
+  "id": "078920f0c35260d2",
+  "title": "封锁",
+  "kind": "incidents",
+  "scope": "Mystery Circle",
+  "aliases": [],
+  "fields": {
+    "effect": "指定当事人所在版图，自事件发生日起算，3天内角色无法通过移动进入或离开该版图"
+  },
+  "provenance": {
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Mystery_Circle",
+      "snapshot": "sources/wiki/pages/b21e3f528569eced.json",
+      "capturedAt": "2026-09-27T03:29:50.486Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Mystery_Circle",
+      "snapshot": "sources/wiki/pages/b21e3f528569eced.json",
+      "capturedAt": "2026-09-27T03:29:50.486Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Mystery_Circle",
+        "snapshot": "sources/wiki/pages/b21e3f528569eced.json",
+        "capturedAt": "2026-09-27T03:29:50.486Z"
+      },
+      "fields": {
+        "effect": "指定当事人所在版图，自事件发生日起算，3天内角色无法通过移动进入或离开该版图"
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "effect": "指定当事人所在版图，自事件发生日起算，3天内角色无法通过移动进入或离开该版图"
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "官方"
+  ],
+  "conflicts": []
+}

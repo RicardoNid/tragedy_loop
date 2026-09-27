@@ -1,0 +1,446 @@
+{
+  "id": "962a86c1e9fd09d8",
+  "title": "MC-30",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "MC-30非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "MC-30",
+    "loops": 4,
+    "days": 4,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "猎奇杀人"
+      },
+      {
+        "day": 2,
+        "incidentText": "医院事故"
+      },
+      {
+        "day": 3,
+        "incidentText": "银色子弹"
+      },
+      {
+        "day": 4,
+        "incidentText": "恐怖袭击"
+      }
+    ],
+    "剧本名": "侦探AI与犯人IA",
+    "作者": "无名烈火",
+    "轮数": "3 4",
+    "天数": "4"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-30",
+      "snapshot": "sources/wiki/pages/20d44dd8947ead28.json",
+      "capturedAt": "2026-09-27T04:37:52.747Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-30",
+      "snapshot": "sources/wiki/pages/20d44dd8947ead28.json",
+      "capturedAt": "2026-09-27T04:37:52.747Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-30",
+      "snapshot": "sources/wiki/pages/20d44dd8947ead28.json",
+      "capturedAt": "2026-09-27T04:37:52.747Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-30",
+      "snapshot": "sources/wiki/pages/20d44dd8947ead28.json",
+      "capturedAt": "2026-09-27T04:37:52.747Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-30",
+      "snapshot": "sources/wiki/pages/20d44dd8947ead28.json",
+      "capturedAt": "2026-09-27T04:37:52.747Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 32
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 32
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 32
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 32
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-30",
+      "snapshot": "sources/wiki/pages/20d44dd8947ead28.json",
+      "capturedAt": "2026-09-27T04:37:52.747Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 32
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-30%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/af5a019db7a32469.json",
+      "capturedAt": "2026-09-27T04:37:55.757Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-30",
+        "snapshot": "sources/wiki/pages/20d44dd8947ead28.json",
+        "capturedAt": "2026-09-27T04:37:52.747Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "MC-30",
+        "loops": 4,
+        "days": 4,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "猎奇杀人"
+          },
+          {
+            "day": 2,
+            "incidentText": "医院事故"
+          },
+          {
+            "day": 3,
+            "incidentText": "银色子弹"
+          },
+          {
+            "day": 4,
+            "incidentText": "恐怖袭击"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 4,
+        "row": 32
+      },
+      "fields": {
+        "scenarioCode": "MC-30",
+        "剧本名": "侦探AI与犯人IA",
+        "作者": "无名烈火",
+        "轮数": "3 4",
+        "天数": "4"
+      }
+    }
+  ],
+  "wikiTitle": "MC-30",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Mystery Circle"
+  ],
+  "module": "Mystery Circle",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "962a86c1e9fd09d8",
+        "title": "MC-30",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "MC-30",
+          "loops": 4,
+          "days": 4,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "猎奇杀人"
+            },
+            {
+              "day": 2,
+              "incidentText": "医院事故"
+            },
+            {
+              "day": 3,
+              "incidentText": "银色子弹"
+            },
+            {
+              "day": 4,
+              "incidentText": "恐怖袭击"
+            }
+          ],
+          "剧本名": "侦探AI与犯人IA",
+          "作者": "无名烈火",
+          "轮数": "3 4",
+          "天数": "4"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-30",
+            "snapshot": "sources/wiki/pages/20d44dd8947ead28.json",
+            "capturedAt": "2026-09-27T04:37:52.747Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-30",
+            "snapshot": "sources/wiki/pages/20d44dd8947ead28.json",
+            "capturedAt": "2026-09-27T04:37:52.747Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-30",
+            "snapshot": "sources/wiki/pages/20d44dd8947ead28.json",
+            "capturedAt": "2026-09-27T04:37:52.747Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-30",
+            "snapshot": "sources/wiki/pages/20d44dd8947ead28.json",
+            "capturedAt": "2026-09-27T04:37:52.747Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-30",
+            "snapshot": "sources/wiki/pages/20d44dd8947ead28.json",
+            "capturedAt": "2026-09-27T04:37:52.747Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 32
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 32
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 32
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 32
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-30",
+            "snapshot": "sources/wiki/pages/20d44dd8947ead28.json",
+            "capturedAt": "2026-09-27T04:37:52.747Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 32
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-30",
+              "snapshot": "sources/wiki/pages/20d44dd8947ead28.json",
+              "capturedAt": "2026-09-27T04:37:52.747Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "MC-30",
+              "loops": 4,
+              "days": 4,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "猎奇杀人"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "医院事故"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "银色子弹"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "恐怖袭击"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 4,
+              "row": 32
+            },
+            "fields": {
+              "scenarioCode": "MC-30",
+              "剧本名": "侦探AI与犯人IA",
+              "作者": "无名烈火",
+              "轮数": "3 4",
+              "天数": "4"
+            }
+          }
+        ],
+        "body": "text/scenarios/962a86c1e9fd09d8.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-30",
+          "snapshot": "sources/wiki/pages/20d44dd8947ead28.json",
+          "capturedAt": "2026-09-27T04:37:52.747Z"
+        },
+        "wikiTitle": "MC-30",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-30?action=edit&section=1"
+          },
+          {
+            "title": "MC-30非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-30%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-30?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Mystery Circle"
+        ],
+        "module": "Mystery Circle"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "02525f705b9c079e",
+        "title": "MC-30非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "MC-30"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-30%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/af5a019db7a32469.json",
+            "capturedAt": "2026-09-27T04:37:55.757Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-30%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/af5a019db7a32469.json",
+            "capturedAt": "2026-09-27T04:37:55.757Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-30%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/af5a019db7a32469.json",
+            "capturedAt": "2026-09-27T04:37:55.757Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-30%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/af5a019db7a32469.json",
+              "capturedAt": "2026-09-27T04:37:55.757Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "MC-30"
+            }
+          }
+        ],
+        "wikiTitle": "MC-30非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Mystery Circle",
+        "tags": [
+          "民间",
+          "Mystery Circle"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "02525f705b9c079e"
+  ],
+  "conflicts": []
+}

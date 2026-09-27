@@ -1,0 +1,522 @@
+{
+  "id": "18bf375480ac79b0",
+  "title": "MZ-53",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "MZ-53非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "MZ-53",
+    "loops": 3,
+    "days": 6,
+    "schedule": [
+      {
+        "day": 2,
+        "incidentText": "连续杀人"
+      },
+      {
+        "day": 3,
+        "incidentText": "自杀"
+      },
+      {
+        "day": 4,
+        "incidentText": "连续杀人"
+      },
+      {
+        "day": 5,
+        "incidentText": "医院事故"
+      },
+      {
+        "day": 6,
+        "incidentText": "连续杀人"
+      }
+    ],
+    "剧本名": "轰鸣 轰鸣 2",
+    "英文名": "Vroom Vroom 2",
+    "作者": "Justin Karp",
+    "轮数": "3",
+    "天数": "6"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-53",
+      "snapshot": "sources/wiki/pages/bbee43de2ba8af5a.json",
+      "capturedAt": "2026-09-27T04:49:16.533Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-53",
+      "snapshot": "sources/wiki/pages/bbee43de2ba8af5a.json",
+      "capturedAt": "2026-09-27T04:49:16.533Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-53",
+      "snapshot": "sources/wiki/pages/bbee43de2ba8af5a.json",
+      "capturedAt": "2026-09-27T04:49:16.533Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-53",
+      "snapshot": "sources/wiki/pages/bbee43de2ba8af5a.json",
+      "capturedAt": "2026-09-27T04:49:16.533Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-53",
+      "snapshot": "sources/wiki/pages/bbee43de2ba8af5a.json",
+      "capturedAt": "2026-09-27T04:49:16.533Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 55
+    },
+    "英文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 55
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 55
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 55
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 55
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-53",
+      "snapshot": "sources/wiki/pages/bbee43de2ba8af5a.json",
+      "capturedAt": "2026-09-27T04:49:16.533Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 55
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-53%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/43669cee5d07d28f.json",
+      "capturedAt": "2026-09-27T04:49:19.475Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-53",
+        "snapshot": "sources/wiki/pages/bbee43de2ba8af5a.json",
+        "capturedAt": "2026-09-27T04:49:16.533Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "MZ-53",
+        "loops": 3,
+        "days": 6,
+        "schedule": [
+          {
+            "day": 2,
+            "incidentText": "连续杀人"
+          },
+          {
+            "day": 3,
+            "incidentText": "自杀"
+          },
+          {
+            "day": 4,
+            "incidentText": "连续杀人"
+          },
+          {
+            "day": 5,
+            "incidentText": "医院事故"
+          },
+          {
+            "day": 6,
+            "incidentText": "连续杀人"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 3,
+        "row": 55
+      },
+      "fields": {
+        "scenarioCode": "MZ-53",
+        "剧本名": "轰鸣 轰鸣 2",
+        "英文名": "Vroom Vroom 2",
+        "作者": "Justin Karp",
+        "轮数": "3",
+        "天数": "6"
+      }
+    }
+  ],
+  "wikiTitle": "MZ-53",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Midnight Zone"
+  ],
+  "module": "Midnight Zone",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "18bf375480ac79b0",
+        "title": "MZ-53",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "MZ-53",
+          "loops": 3,
+          "days": 6,
+          "schedule": [
+            {
+              "day": 2,
+              "incidentText": "连续杀人"
+            },
+            {
+              "day": 3,
+              "incidentText": "自杀"
+            },
+            {
+              "day": 4,
+              "incidentText": "连续杀人"
+            },
+            {
+              "day": 5,
+              "incidentText": "医院事故"
+            },
+            {
+              "day": 6,
+              "incidentText": "连续杀人"
+            }
+          ],
+          "剧本名": "轰鸣 轰鸣 2",
+          "英文名": "Vroom Vroom 2",
+          "作者": "Justin Karp",
+          "轮数": "3",
+          "天数": "6"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-53",
+            "snapshot": "sources/wiki/pages/bbee43de2ba8af5a.json",
+            "capturedAt": "2026-09-27T04:49:16.533Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-53",
+            "snapshot": "sources/wiki/pages/bbee43de2ba8af5a.json",
+            "capturedAt": "2026-09-27T04:49:16.533Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-53",
+            "snapshot": "sources/wiki/pages/bbee43de2ba8af5a.json",
+            "capturedAt": "2026-09-27T04:49:16.533Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-53",
+            "snapshot": "sources/wiki/pages/bbee43de2ba8af5a.json",
+            "capturedAt": "2026-09-27T04:49:16.533Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-53",
+            "snapshot": "sources/wiki/pages/bbee43de2ba8af5a.json",
+            "capturedAt": "2026-09-27T04:49:16.533Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 55
+          },
+          "英文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 55
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 55
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 55
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 55
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-53",
+            "snapshot": "sources/wiki/pages/bbee43de2ba8af5a.json",
+            "capturedAt": "2026-09-27T04:49:16.533Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 55
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-53",
+              "snapshot": "sources/wiki/pages/bbee43de2ba8af5a.json",
+              "capturedAt": "2026-09-27T04:49:16.533Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "MZ-53",
+              "loops": 3,
+              "days": 6,
+              "schedule": [
+                {
+                  "day": 2,
+                  "incidentText": "连续杀人"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "自杀"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "连续杀人"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "医院事故"
+                },
+                {
+                  "day": 6,
+                  "incidentText": "连续杀人"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 3,
+              "row": 55
+            },
+            "fields": {
+              "scenarioCode": "MZ-53",
+              "剧本名": "轰鸣 轰鸣 2",
+              "英文名": "Vroom Vroom 2",
+              "作者": "Justin Karp",
+              "轮数": "3",
+              "天数": "6"
+            }
+          }
+        ],
+        "body": "text/scenarios/18bf375480ac79b0.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-53",
+          "snapshot": "sources/wiki/pages/bbee43de2ba8af5a.json",
+          "capturedAt": "2026-09-27T04:49:16.533Z"
+        },
+        "wikiTitle": "MZ-53",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "MZ-53非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-53%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-53?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Midnight Zone"
+        ],
+        "module": "Midnight Zone"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "f710187620ff326f",
+        "title": "MZ-53非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "MZ-53",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "因果之绊"
+            },
+            {
+              "slot": "X1",
+              "name": "爱与恨的螺旋"
+            },
+            {
+              "slot": "X2",
+              "name": "KAI异因子"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-53%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/43669cee5d07d28f.json",
+            "capturedAt": "2026-09-27T04:49:19.475Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-53%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/43669cee5d07d28f.json",
+            "capturedAt": "2026-09-27T04:49:19.475Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-53%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/43669cee5d07d28f.json",
+            "capturedAt": "2026-09-27T04:49:19.475Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-53%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/43669cee5d07d28f.json",
+            "capturedAt": "2026-09-27T04:49:19.475Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-53%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/43669cee5d07d28f.json",
+              "capturedAt": "2026-09-27T04:49:19.475Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "MZ-53",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "因果之绊"
+                },
+                {
+                  "slot": "X1",
+                  "name": "爱与恨的螺旋"
+                },
+                {
+                  "slot": "X2",
+                  "name": "KAI异因子"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/f710187620ff326f.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-53%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/43669cee5d07d28f.json",
+          "capturedAt": "2026-09-27T04:49:19.475Z"
+        },
+        "wikiTitle": "MZ-53非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-53%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Midnight Zone",
+        "tags": [
+          "民间",
+          "Midnight Zone"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "f710187620ff326f"
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,67 @@
+{
+  "id": "a2c22f9adf710bb4",
+  "title": "当天EX到4了，然后用学者把EX降到3，回合结束的时候会死吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / WM / 第 5 行",
+  "aliases": [],
+  "fields": {
+    "question": "当天EX到4了，然后用学者把EX降到3，回合结束的时候会死吗？",
+    "answer": "不会"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=ofqfdw",
+      "snapshot": "sources/faq-sheet/wm.json",
+      "sheet": "WM",
+      "row": 5,
+      "cells": "A5:B5",
+      "capturedAt": "2026-09-27T05:40:23.278Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=ofqfdw",
+      "snapshot": "sources/faq-sheet/wm.json",
+      "sheet": "WM",
+      "row": 5,
+      "cells": "A5:B5",
+      "capturedAt": "2026-09-27T05:40:23.278Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=ofqfdw",
+      "snapshot": "sources/faq-sheet/wm.json",
+      "sheet": "WM",
+      "row": 5,
+      "cells": "A5:B5",
+      "capturedAt": "2026-09-27T05:40:23.278Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=ofqfdw",
+        "snapshot": "sources/faq-sheet/wm.json",
+        "sheet": "WM",
+        "row": 5,
+        "cells": "A5:B5",
+        "capturedAt": "2026-09-27T05:40:23.278Z"
+      },
+      "fields": {
+        "question": "当天EX到4了，然后用学者把EX降到3，回合结束的时候会死吗？",
+        "answer": "不会"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "WM",
+    "关于EX槽",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

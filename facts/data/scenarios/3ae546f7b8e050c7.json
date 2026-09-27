@@ -1,0 +1,416 @@
+{
+  "id": "3ae546f7b8e050c7",
+  "title": "BTX-109",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "BTX-109非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "BTX-109",
+    "loops": 5,
+    "days": 4,
+    "剧本名": "尸体派对",
+    "作者": "萌新宝宝",
+    "轮数": "5",
+    "天数": "4"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-109",
+      "snapshot": "sources/wiki/pages/9bf0eb0890fe1725.json",
+      "capturedAt": "2026-09-27T03:53:14.236Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-109",
+      "snapshot": "sources/wiki/pages/9bf0eb0890fe1725.json",
+      "capturedAt": "2026-09-27T03:53:14.236Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-109",
+      "snapshot": "sources/wiki/pages/9bf0eb0890fe1725.json",
+      "capturedAt": "2026-09-27T03:53:14.236Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-109",
+      "snapshot": "sources/wiki/pages/9bf0eb0890fe1725.json",
+      "capturedAt": "2026-09-27T03:53:14.236Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 112
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 112
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 112
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 112
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-109",
+      "snapshot": "sources/wiki/pages/9bf0eb0890fe1725.json",
+      "capturedAt": "2026-09-27T03:53:14.236Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 112
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-109%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/46a97584564a1d58.json",
+      "capturedAt": "2026-09-27T03:53:17.539Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-109",
+        "snapshot": "sources/wiki/pages/9bf0eb0890fe1725.json",
+        "capturedAt": "2026-09-27T03:53:14.236Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "BTX-109",
+        "loops": 5,
+        "days": 4
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 2,
+        "row": 112
+      },
+      "fields": {
+        "scenarioCode": "BTX-109",
+        "剧本名": "尸体派对",
+        "作者": "萌新宝宝",
+        "轮数": "5",
+        "天数": "4"
+      }
+    }
+  ],
+  "wikiTitle": "BTX-109",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Basic Tragedy X"
+  ],
+  "module": "Basic Tragedy X",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "3ae546f7b8e050c7",
+        "title": "BTX-109",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "BTX-109",
+          "loops": 5,
+          "days": 4,
+          "剧本名": "尸体派对",
+          "作者": "萌新宝宝",
+          "轮数": "5",
+          "天数": "4"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-109",
+            "snapshot": "sources/wiki/pages/9bf0eb0890fe1725.json",
+            "capturedAt": "2026-09-27T03:53:14.236Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-109",
+            "snapshot": "sources/wiki/pages/9bf0eb0890fe1725.json",
+            "capturedAt": "2026-09-27T03:53:14.236Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-109",
+            "snapshot": "sources/wiki/pages/9bf0eb0890fe1725.json",
+            "capturedAt": "2026-09-27T03:53:14.236Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-109",
+            "snapshot": "sources/wiki/pages/9bf0eb0890fe1725.json",
+            "capturedAt": "2026-09-27T03:53:14.236Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 112
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 112
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 112
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 112
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-109",
+            "snapshot": "sources/wiki/pages/9bf0eb0890fe1725.json",
+            "capturedAt": "2026-09-27T03:53:14.236Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 112
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-109",
+              "snapshot": "sources/wiki/pages/9bf0eb0890fe1725.json",
+              "capturedAt": "2026-09-27T03:53:14.236Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "BTX-109",
+              "loops": 5,
+              "days": 4
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 2,
+              "row": 112
+            },
+            "fields": {
+              "scenarioCode": "BTX-109",
+              "剧本名": "尸体派对",
+              "作者": "萌新宝宝",
+              "轮数": "5",
+              "天数": "4"
+            }
+          }
+        ],
+        "body": "text/scenarios/3ae546f7b8e050c7.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-109",
+          "snapshot": "sources/wiki/pages/9bf0eb0890fe1725.json",
+          "capturedAt": "2026-09-27T03:53:14.236Z"
+        },
+        "wikiTitle": "BTX-109",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-109?action=edit&section=1"
+          },
+          {
+            "title": "BTX-109非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-109%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-109?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Basic Tragedy X"
+        ],
+        "module": "Basic Tragedy X"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "e7b2d5e6eecaa019",
+        "title": "BTX-109非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "BTX-109",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "和我签订契约吧！"
+            },
+            {
+              "slot": "X1",
+              "name": "潜伏的杀人狂"
+            },
+            {
+              "slot": "X2",
+              "name": "流言四起"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-109%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/46a97584564a1d58.json",
+            "capturedAt": "2026-09-27T03:53:17.539Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-109%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/46a97584564a1d58.json",
+            "capturedAt": "2026-09-27T03:53:17.539Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-109%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/46a97584564a1d58.json",
+            "capturedAt": "2026-09-27T03:53:17.539Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-109%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/46a97584564a1d58.json",
+            "capturedAt": "2026-09-27T03:53:17.539Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-109%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/46a97584564a1d58.json",
+              "capturedAt": "2026-09-27T03:53:17.539Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "BTX-109",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "和我签订契约吧！"
+                },
+                {
+                  "slot": "X1",
+                  "name": "潜伏的杀人狂"
+                },
+                {
+                  "slot": "X2",
+                  "name": "流言四起"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/e7b2d5e6eecaa019.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-109%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/46a97584564a1d58.json",
+          "capturedAt": "2026-09-27T03:53:17.539Z"
+        },
+        "wikiTitle": "BTX-109非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-109%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-109%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-109%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=3"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Basic Tragedy X",
+        "tags": [
+          "民间",
+          "Basic Tragedy X"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "e7b2d5e6eecaa019"
+  ],
+  "conflicts": []
+}

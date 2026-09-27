@@ -1,0 +1,68 @@
+{
+  "id": "2c9208da6d0982e9",
+  "title": "镇暴者",
+  "kind": "rules",
+  "scope": "Unheard Malice",
+  "aliases": [],
+  "fields": {
+    "ruleType": "X",
+    "identityCounts": {
+      "先驱": "①",
+      "狙击手": "①"
+    },
+    "effect": "【失败条件：轮回结束时】Ex槽为1或以上，先驱的初始区域有4名或以上的生存角色"
+  },
+  "provenance": {
+    "ruleType": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Unheard_Malice",
+      "snapshot": "sources/wiki/pages/62df499c8bfa0a4c.json",
+      "capturedAt": "2026-09-27T03:30:12.492Z"
+    },
+    "identityCounts": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Unheard_Malice",
+      "snapshot": "sources/wiki/pages/62df499c8bfa0a4c.json",
+      "capturedAt": "2026-09-27T03:30:12.492Z"
+    },
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Unheard_Malice",
+      "snapshot": "sources/wiki/pages/62df499c8bfa0a4c.json",
+      "capturedAt": "2026-09-27T03:30:12.492Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Unheard_Malice",
+      "snapshot": "sources/wiki/pages/62df499c8bfa0a4c.json",
+      "capturedAt": "2026-09-27T03:30:12.492Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Unheard_Malice",
+        "snapshot": "sources/wiki/pages/62df499c8bfa0a4c.json",
+        "capturedAt": "2026-09-27T03:30:12.492Z"
+      },
+      "fields": {
+        "ruleType": "X",
+        "identityCounts": {
+          "先驱": "①",
+          "狙击手": "①"
+        },
+        "effect": "【失败条件：轮回结束时】Ex槽为1或以上，先驱的初始区域有4名或以上的生存角色"
+      }
+    }
+  ],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "X",
+    "民间"
+  ],
+  "conflicts": []
+}

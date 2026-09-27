@@ -1,0 +1,210 @@
+{
+  "id": "6de468b46edf330f",
+  "title": "BTX-24G",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "scenarioCode": "BTX-24G",
+    "剧本名": "来自愉悦犯的挑战书",
+    "日文名": "愉快犯による挑戦状",
+    "作者": "4d2",
+    "轮数": "5 4",
+    "天数": "6",
+    "难度": "6 7"
+  },
+  "provenance": {
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+      "table": 2,
+      "row": 16
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+      "table": 2,
+      "row": 16
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+      "table": 2,
+      "row": 16
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+      "table": 2,
+      "row": 16
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+      "table": 2,
+      "row": 16
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+      "table": 2,
+      "row": 16
+    },
+    "难度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+      "table": 2,
+      "row": 16
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+      "table": 2,
+      "row": 16
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+        "table": 2,
+        "row": 16
+      },
+      "fields": {
+        "scenarioCode": "BTX-24G",
+        "剧本名": "来自愉悦犯的挑战书",
+        "日文名": "愉快犯による挑戦状",
+        "作者": "4d2",
+        "轮数": "5 4",
+        "天数": "6",
+        "难度": "6 7"
+      }
+    }
+  ],
+  "tags": [
+    "剧本集剧本",
+    "Basic Tragedy X"
+  ],
+  "module": "Basic Tragedy X",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "6de468b46edf330f",
+        "title": "BTX-24G",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "scenarioCode": "BTX-24G",
+          "剧本名": "来自愉悦犯的挑战书",
+          "日文名": "愉快犯による挑戦状",
+          "作者": "4d2",
+          "轮数": "5 4",
+          "天数": "6",
+          "难度": "6 7"
+        },
+        "provenance": {
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+            "table": 2,
+            "row": 16
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+            "table": 2,
+            "row": 16
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+            "table": 2,
+            "row": 16
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+            "table": 2,
+            "row": 16
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+            "table": 2,
+            "row": 16
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+            "table": 2,
+            "row": 16
+          },
+          "难度": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+            "table": 2,
+            "row": 16
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+            "table": 2,
+            "row": 16
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+              "table": 2,
+              "row": 16
+            },
+            "fields": {
+              "scenarioCode": "BTX-24G",
+              "剧本名": "来自愉悦犯的挑战书",
+              "日文名": "愉快犯による挑戦状",
+              "作者": "4d2",
+              "轮数": "5 4",
+              "天数": "6",
+              "难度": "6 7"
+            }
+          }
+        ],
+        "tags": [
+          "剧本集剧本",
+          "Basic Tragedy X"
+        ],
+        "module": "Basic Tragedy X"
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [],
+  "conflicts": []
+}

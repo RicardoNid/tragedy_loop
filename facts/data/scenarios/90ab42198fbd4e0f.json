@@ -1,0 +1,426 @@
+{
+  "id": "90ab42198fbd4e0f",
+  "title": "WM-12",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "WM-12非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "WM-12",
+    "loops": 8,
+    "days": 3,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "疯狂杀人"
+      },
+      {
+        "day": 2,
+        "incidentText": "廷达罗斯之嗅"
+      },
+      {
+        "day": 3,
+        "incidentText": "发现"
+      }
+    ],
+    "剧本名": "神诞之日的倒计时",
+    "作者": "Choconut",
+    "轮数": "8",
+    "天数": "3"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-12?oldid=1613",
+      "snapshot": "sources/wiki/pages/8ed17fe3f2b553a8.json",
+      "capturedAt": "2026-09-27T05:01:51.250Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-12?oldid=1613",
+      "snapshot": "sources/wiki/pages/8ed17fe3f2b553a8.json",
+      "capturedAt": "2026-09-27T05:01:51.250Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-12?oldid=1613",
+      "snapshot": "sources/wiki/pages/8ed17fe3f2b553a8.json",
+      "capturedAt": "2026-09-27T05:01:51.250Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-12?oldid=1613",
+      "snapshot": "sources/wiki/pages/8ed17fe3f2b553a8.json",
+      "capturedAt": "2026-09-27T05:01:51.250Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-12?oldid=1613",
+      "snapshot": "sources/wiki/pages/8ed17fe3f2b553a8.json",
+      "capturedAt": "2026-09-27T05:01:51.250Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 14
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 14
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 14
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 14
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-12?oldid=1613",
+      "snapshot": "sources/wiki/pages/8ed17fe3f2b553a8.json",
+      "capturedAt": "2026-09-27T05:01:51.250Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 14
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1881",
+      "snapshot": "sources/wiki/pages/b0d185dd48c88b74.json",
+      "capturedAt": "2026-09-27T05:01:56.335Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-12?oldid=1613",
+        "snapshot": "sources/wiki/pages/8ed17fe3f2b553a8.json",
+        "capturedAt": "2026-09-27T05:01:51.250Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "WM-12",
+        "loops": 8,
+        "days": 3,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "疯狂杀人"
+          },
+          {
+            "day": 2,
+            "incidentText": "廷达罗斯之嗅"
+          },
+          {
+            "day": 3,
+            "incidentText": "发现"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 6,
+        "row": 14
+      },
+      "fields": {
+        "scenarioCode": "WM-12",
+        "剧本名": "神诞之日的倒计时",
+        "作者": "Choconut",
+        "轮数": "8",
+        "天数": "3"
+      }
+    }
+  ],
+  "wikiTitle": "WM-12",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Weird Mythology"
+  ],
+  "module": "Weird Mythology",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "90ab42198fbd4e0f",
+        "title": "WM-12",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "WM-12",
+          "loops": 8,
+          "days": 3,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "疯狂杀人"
+            },
+            {
+              "day": 2,
+              "incidentText": "廷达罗斯之嗅"
+            },
+            {
+              "day": 3,
+              "incidentText": "发现"
+            }
+          ],
+          "剧本名": "神诞之日的倒计时",
+          "作者": "Choconut",
+          "轮数": "8",
+          "天数": "3"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-12?oldid=1613",
+            "snapshot": "sources/wiki/pages/8ed17fe3f2b553a8.json",
+            "capturedAt": "2026-09-27T05:01:51.250Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-12?oldid=1613",
+            "snapshot": "sources/wiki/pages/8ed17fe3f2b553a8.json",
+            "capturedAt": "2026-09-27T05:01:51.250Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-12?oldid=1613",
+            "snapshot": "sources/wiki/pages/8ed17fe3f2b553a8.json",
+            "capturedAt": "2026-09-27T05:01:51.250Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-12?oldid=1613",
+            "snapshot": "sources/wiki/pages/8ed17fe3f2b553a8.json",
+            "capturedAt": "2026-09-27T05:01:51.250Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-12?oldid=1613",
+            "snapshot": "sources/wiki/pages/8ed17fe3f2b553a8.json",
+            "capturedAt": "2026-09-27T05:01:51.250Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 14
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 14
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 14
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 14
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-12?oldid=1613",
+            "snapshot": "sources/wiki/pages/8ed17fe3f2b553a8.json",
+            "capturedAt": "2026-09-27T05:01:51.250Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 14
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-12?oldid=1613",
+              "snapshot": "sources/wiki/pages/8ed17fe3f2b553a8.json",
+              "capturedAt": "2026-09-27T05:01:51.250Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "WM-12",
+              "loops": 8,
+              "days": 3,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "疯狂杀人"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "廷达罗斯之嗅"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "发现"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 6,
+              "row": 14
+            },
+            "fields": {
+              "scenarioCode": "WM-12",
+              "剧本名": "神诞之日的倒计时",
+              "作者": "Choconut",
+              "轮数": "8",
+              "天数": "3"
+            }
+          }
+        ],
+        "body": "text/scenarios/90ab42198fbd4e0f.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-12?oldid=1613",
+          "snapshot": "sources/wiki/pages/8ed17fe3f2b553a8.json",
+          "capturedAt": "2026-09-27T05:01:51.250Z"
+        },
+        "wikiTitle": "WM-12",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "WM-12非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-12?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Weird Mythology"
+        ],
+        "module": "Weird Mythology"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "599780bdf544243d",
+        "title": "WM-12非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "WM-12"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1881",
+            "snapshot": "sources/wiki/pages/b0d185dd48c88b74.json",
+            "capturedAt": "2026-09-27T05:01:56.335Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1881",
+            "snapshot": "sources/wiki/pages/b0d185dd48c88b74.json",
+            "capturedAt": "2026-09-27T05:01:56.335Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1881",
+            "snapshot": "sources/wiki/pages/b0d185dd48c88b74.json",
+            "capturedAt": "2026-09-27T05:01:56.335Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1881",
+              "snapshot": "sources/wiki/pages/b0d185dd48c88b74.json",
+              "capturedAt": "2026-09-27T05:01:56.335Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "WM-12"
+            }
+          }
+        ],
+        "wikiTitle": "WM-12非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Weird Mythology",
+        "tags": [
+          "民间",
+          "Weird Mythology"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "599780bdf544243d"
+  ],
+  "conflicts": []
+}

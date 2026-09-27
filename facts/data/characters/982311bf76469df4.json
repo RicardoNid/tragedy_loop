@@ -1,0 +1,157 @@
+{
+  "id": "982311bf76469df4",
+  "title": "联络员",
+  "kind": "characters",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "角色名": "联络员",
+    "初始区域": "见特性",
+    "禁行区域": "见特性",
+    "不安限度": "3",
+    "属性": [
+      "见特性"
+    ],
+    "特性": "剧本制作时，为该角色指定1个初始区域（可以是远方），至多1个禁行区域，和至多2个角色属性",
+    "友好能力": [
+      {
+        "text": "（友好1）公开该角色选择的属性和禁行区域",
+        "threshold": 1,
+        "limitText": ""
+      },
+      {
+        "text": "（友好3）选同一区域任意1名角色并选择友好/不安，如果那名角色与该角色有相同的属性则放置1枚指示物，如果所有属性皆相同，则额外放置1枚指示物",
+        "threshold": 3,
+        "limitText": ""
+      }
+    ]
+  },
+  "provenance": {
+    "角色名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%81%94%E7%BB%9C%E5%91%98",
+      "snapshot": "sources/wiki/pages/a8cd071e955e4a21.json",
+      "capturedAt": "2026-09-27T03:34:04.968Z"
+    },
+    "初始区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%81%94%E7%BB%9C%E5%91%98",
+      "snapshot": "sources/wiki/pages/a8cd071e955e4a21.json",
+      "capturedAt": "2026-09-27T03:34:04.968Z"
+    },
+    "禁行区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%81%94%E7%BB%9C%E5%91%98",
+      "snapshot": "sources/wiki/pages/a8cd071e955e4a21.json",
+      "capturedAt": "2026-09-27T03:34:04.968Z"
+    },
+    "不安限度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%81%94%E7%BB%9C%E5%91%98",
+      "snapshot": "sources/wiki/pages/a8cd071e955e4a21.json",
+      "capturedAt": "2026-09-27T03:34:04.968Z"
+    },
+    "属性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%81%94%E7%BB%9C%E5%91%98",
+      "snapshot": "sources/wiki/pages/a8cd071e955e4a21.json",
+      "capturedAt": "2026-09-27T03:34:04.968Z"
+    },
+    "特性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%81%94%E7%BB%9C%E5%91%98",
+      "snapshot": "sources/wiki/pages/a8cd071e955e4a21.json",
+      "capturedAt": "2026-09-27T03:34:04.968Z"
+    },
+    "友好能力": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%81%94%E7%BB%9C%E5%91%98",
+      "snapshot": "sources/wiki/pages/a8cd071e955e4a21.json",
+      "capturedAt": "2026-09-27T03:34:04.968Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%81%94%E7%BB%9C%E5%91%98",
+      "snapshot": "sources/wiki/pages/a8cd071e955e4a21.json",
+      "capturedAt": "2026-09-27T03:34:04.968Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%81%94%E7%BB%9C%E5%91%98",
+        "snapshot": "sources/wiki/pages/a8cd071e955e4a21.json",
+        "capturedAt": "2026-09-27T03:34:04.968Z"
+      },
+      "fields": {
+        "角色名": "联络员",
+        "初始区域": "见特性",
+        "禁行区域": "见特性",
+        "不安限度": "3",
+        "属性": [
+          "见特性"
+        ],
+        "特性": "剧本制作时，为该角色指定1个初始区域（可以是远方），至多1个禁行区域，和至多2个角色属性",
+        "友好能力": [
+          {
+            "text": "（友好1）公开该角色选择的属性和禁行区域",
+            "threshold": 1,
+            "limitText": ""
+          },
+          {
+            "text": "（友好3）选同一区域任意1名角色并选择友好/不安，如果那名角色与该角色有相同的属性则放置1枚指示物，如果所有属性皆相同，则额外放置1枚指示物",
+            "threshold": 3,
+            "limitText": ""
+          }
+        ]
+      }
+    }
+  ],
+  "body": "text/characters/982311bf76469df4.txt",
+  "bodySource": {
+    "provider": "wiki",
+    "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%81%94%E7%BB%9C%E5%91%98",
+    "snapshot": "sources/wiki/pages/a8cd071e955e4a21.json",
+    "capturedAt": "2026-09-27T03:34:04.968Z"
+  },
+  "wikiTitle": "联络员",
+  "originalTables": [],
+  "wikiStatus": "captured",
+  "links": [
+    {
+      "title": "<img style=\"\" src=\"https://static.wikia.nocookie.net/tragedyrooper/images/3/37/%E8%81%94%E7%BB%9C%E5%91%98.png/revision/latest/scale-to-width-down/132?cb=20251024095335&amp;path-prefix=zh\" title=\"联络员.png (575 KB)\" class=\"thumbimage\" alt=\"\" height=\"185\" width=\"185\" data-image-name=\"联络员.png\" data-image-key=\"%E8%81%94%E7%BB%9C%E5%91%98.png\" data-relevant=\"1\">",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E8%81%94%E7%BB%9C%E5%91%98.png"
+    }
+  ],
+  "images": [
+    {
+      "alt": "",
+      "src": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+    }
+  ],
+  "media": [
+    {
+      "title": "联络员.png",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:%E8%81%94%E7%BB%9C%E5%91%98.png",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/3/37/%E8%81%94%E7%BB%9C%E5%91%98.png/revision/latest?cb=20251024095335&format=original&path-prefix=zh",
+      "path": "media/wiki/a6fc0fd74c71eaf6.png",
+      "sourceRecord": "sources/wiki/files/a6fc0fd74c71eaf6.json",
+      "sha256": "ec6b34c7c2046da27536aee224f5c88057d0655fb2ea2cb69dc7e91d161f6145",
+      "bytes": 587961,
+      "fileInfo": "PNG image data, 620 x 866, 8-bit/color RGB, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/6fadb2d7054aeea7.json",
+  "tags": [
+    "见特性",
+    "民间"
+  ],
+  "conflicts": []
+}

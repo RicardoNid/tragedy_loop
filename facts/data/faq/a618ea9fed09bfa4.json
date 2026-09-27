@@ -1,0 +1,67 @@
+{
+  "id": "a618ea9fed09bfa4",
+  "title": "投毒者在EX2发动能力时同区域没有其他角色，如何结算？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / MC / 第 16 行",
+  "aliases": [],
+  "fields": {
+    "question": "投毒者在EX2发动能力时同区域没有其他角色，如何结算？",
+    "answer": "只能选投毒者自己死亡"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=mb92gf",
+      "snapshot": "sources/faq-sheet/mc.json",
+      "sheet": "MC",
+      "row": 16,
+      "cells": "A16:B16",
+      "capturedAt": "2026-09-27T05:40:05.008Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=mb92gf",
+      "snapshot": "sources/faq-sheet/mc.json",
+      "sheet": "MC",
+      "row": 16,
+      "cells": "A16:B16",
+      "capturedAt": "2026-09-27T05:40:05.008Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=mb92gf",
+      "snapshot": "sources/faq-sheet/mc.json",
+      "sheet": "MC",
+      "row": 16,
+      "cells": "A16:B16",
+      "capturedAt": "2026-09-27T05:40:05.008Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=mb92gf",
+        "snapshot": "sources/faq-sheet/mc.json",
+        "sheet": "MC",
+        "row": 16,
+        "cells": "A16:B16",
+        "capturedAt": "2026-09-27T05:40:05.008Z"
+      },
+      "fields": {
+        "question": "投毒者在EX2发动能力时同区域没有其他角色，如何结算？",
+        "answer": "只能选投毒者自己死亡"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "MC",
+    "关于能力",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

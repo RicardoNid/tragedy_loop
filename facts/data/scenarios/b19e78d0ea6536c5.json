@@ -1,0 +1,414 @@
+{
+  "id": "b19e78d0ea6536c5",
+  "title": "HSA-14",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "HSA-14非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "HSA-14",
+    "loops": 5,
+    "days": 2,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "言灵诅咒"
+      },
+      {
+        "day": 2,
+        "incidentText": "疯狂之夜"
+      }
+    ],
+    "剧本名": "恋物语",
+    "作者": "minimipool",
+    "轮数": "5 4",
+    "天数": "2"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-14",
+      "snapshot": "sources/wiki/pages/cca97d1f11193506.json",
+      "capturedAt": "2026-09-27T04:29:28.069Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-14",
+      "snapshot": "sources/wiki/pages/cca97d1f11193506.json",
+      "capturedAt": "2026-09-27T04:29:28.069Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-14",
+      "snapshot": "sources/wiki/pages/cca97d1f11193506.json",
+      "capturedAt": "2026-09-27T04:29:28.069Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-14",
+      "snapshot": "sources/wiki/pages/cca97d1f11193506.json",
+      "capturedAt": "2026-09-27T04:29:28.069Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-14",
+      "snapshot": "sources/wiki/pages/cca97d1f11193506.json",
+      "capturedAt": "2026-09-27T04:29:28.069Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 16
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 16
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 16
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 16
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-14",
+      "snapshot": "sources/wiki/pages/cca97d1f11193506.json",
+      "capturedAt": "2026-09-27T04:29:28.069Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 16
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-14%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/8e425c18851fa4de.json",
+      "capturedAt": "2026-09-27T04:29:31.368Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-14",
+        "snapshot": "sources/wiki/pages/cca97d1f11193506.json",
+        "capturedAt": "2026-09-27T04:29:28.069Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "HSA-14",
+        "loops": 5,
+        "days": 2,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "言灵诅咒"
+          },
+          {
+            "day": 2,
+            "incidentText": "疯狂之夜"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 5,
+        "row": 16
+      },
+      "fields": {
+        "scenarioCode": "HSA-14",
+        "剧本名": "恋物语",
+        "作者": "minimipool",
+        "轮数": "5 4",
+        "天数": "2"
+      }
+    }
+  ],
+  "wikiTitle": "HSA-14",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Haunted Stage Again"
+  ],
+  "module": "Haunted Stage Again",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "b19e78d0ea6536c5",
+        "title": "HSA-14",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "HSA-14",
+          "loops": 5,
+          "days": 2,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "言灵诅咒"
+            },
+            {
+              "day": 2,
+              "incidentText": "疯狂之夜"
+            }
+          ],
+          "剧本名": "恋物语",
+          "作者": "minimipool",
+          "轮数": "5 4",
+          "天数": "2"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-14",
+            "snapshot": "sources/wiki/pages/cca97d1f11193506.json",
+            "capturedAt": "2026-09-27T04:29:28.069Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-14",
+            "snapshot": "sources/wiki/pages/cca97d1f11193506.json",
+            "capturedAt": "2026-09-27T04:29:28.069Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-14",
+            "snapshot": "sources/wiki/pages/cca97d1f11193506.json",
+            "capturedAt": "2026-09-27T04:29:28.069Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-14",
+            "snapshot": "sources/wiki/pages/cca97d1f11193506.json",
+            "capturedAt": "2026-09-27T04:29:28.069Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-14",
+            "snapshot": "sources/wiki/pages/cca97d1f11193506.json",
+            "capturedAt": "2026-09-27T04:29:28.069Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 16
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 16
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 16
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 16
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-14",
+            "snapshot": "sources/wiki/pages/cca97d1f11193506.json",
+            "capturedAt": "2026-09-27T04:29:28.069Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 16
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-14",
+              "snapshot": "sources/wiki/pages/cca97d1f11193506.json",
+              "capturedAt": "2026-09-27T04:29:28.069Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "HSA-14",
+              "loops": 5,
+              "days": 2,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "言灵诅咒"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "疯狂之夜"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 5,
+              "row": 16
+            },
+            "fields": {
+              "scenarioCode": "HSA-14",
+              "剧本名": "恋物语",
+              "作者": "minimipool",
+              "轮数": "5 4",
+              "天数": "2"
+            }
+          }
+        ],
+        "body": "text/scenarios/b19e78d0ea6536c5.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-14",
+          "snapshot": "sources/wiki/pages/cca97d1f11193506.json",
+          "capturedAt": "2026-09-27T04:29:28.069Z"
+        },
+        "wikiTitle": "HSA-14",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-14?action=edit&section=1"
+          },
+          {
+            "title": "HSA-14非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-14%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-14?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Haunted Stage Again"
+        ],
+        "module": "Haunted Stage Again"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "e76d220c62b2ac61",
+        "title": "HSA-14非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "HSA-14"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-14%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/8e425c18851fa4de.json",
+            "capturedAt": "2026-09-27T04:29:31.368Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-14%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/8e425c18851fa4de.json",
+            "capturedAt": "2026-09-27T04:29:31.368Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-14%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/8e425c18851fa4de.json",
+            "capturedAt": "2026-09-27T04:29:31.368Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-14%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/8e425c18851fa4de.json",
+              "capturedAt": "2026-09-27T04:29:31.368Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "HSA-14"
+            }
+          }
+        ],
+        "wikiTitle": "HSA-14非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Haunted Stage Again",
+        "tags": [
+          "民间",
+          "Haunted Stage Again"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "e76d220c62b2ac61"
+  ],
+  "conflicts": []
+}

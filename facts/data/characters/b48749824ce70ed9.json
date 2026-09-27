@@ -1,0 +1,217 @@
+{
+  "id": "b48749824ce70ed9",
+  "title": "手下",
+  "kind": "characters",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "角色名": "手下",
+    "初始区域": "见特性",
+    "禁行区域": "无",
+    "不安限度": "1",
+    "属性": [
+      "成人",
+      "男性"
+    ],
+    "特性": "每輪輪迴開始前，由劇作家決定該角色的初始區域。",
+    "友好能力": [
+      {
+        "text": "（友好3）本輪輪迴中，該角色為當事人的事件不會發生。",
+        "threshold": 3,
+        "limitText": ""
+      }
+    ]
+  },
+  "provenance": {
+    "角色名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%89%8B%E4%B8%8B",
+      "snapshot": "sources/wiki/pages/a875ecdedef6e84b.json",
+      "capturedAt": "2026-09-27T03:32:55.253Z"
+    },
+    "初始区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%89%8B%E4%B8%8B",
+      "snapshot": "sources/wiki/pages/a875ecdedef6e84b.json",
+      "capturedAt": "2026-09-27T03:32:55.253Z"
+    },
+    "禁行区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%89%8B%E4%B8%8B",
+      "snapshot": "sources/wiki/pages/a875ecdedef6e84b.json",
+      "capturedAt": "2026-09-27T03:32:55.253Z"
+    },
+    "不安限度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%89%8B%E4%B8%8B",
+      "snapshot": "sources/wiki/pages/a875ecdedef6e84b.json",
+      "capturedAt": "2026-09-27T03:32:55.253Z"
+    },
+    "属性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%89%8B%E4%B8%8B",
+      "snapshot": "sources/wiki/pages/a875ecdedef6e84b.json",
+      "capturedAt": "2026-09-27T03:32:55.253Z"
+    },
+    "特性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%89%8B%E4%B8%8B",
+      "snapshot": "sources/wiki/pages/a875ecdedef6e84b.json",
+      "capturedAt": "2026-09-27T03:32:55.253Z"
+    },
+    "友好能力": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%89%8B%E4%B8%8B",
+      "snapshot": "sources/wiki/pages/a875ecdedef6e84b.json",
+      "capturedAt": "2026-09-27T03:32:55.253Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%89%8B%E4%B8%8B",
+      "snapshot": "sources/wiki/pages/a875ecdedef6e84b.json",
+      "capturedAt": "2026-09-27T03:32:55.253Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%89%8B%E4%B8%8B",
+        "snapshot": "sources/wiki/pages/a875ecdedef6e84b.json",
+        "capturedAt": "2026-09-27T03:32:55.253Z"
+      },
+      "fields": {
+        "角色名": "手下",
+        "初始区域": "见特性",
+        "禁行区域": "无",
+        "不安限度": "1",
+        "属性": [
+          "成人",
+          "男性"
+        ],
+        "特性": "每輪輪迴開始前，由劇作家決定該角色的初始區域。",
+        "友好能力": [
+          {
+            "text": "（友好3）本輪輪迴中，該角色為當事人的事件不會發生。",
+            "threshold": 3,
+            "limitText": ""
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "特性": "每轮轮回开始前，由剧作家决定该角色的初始区域。",
+        "属性": [
+          "成人",
+          "男性"
+        ],
+        "初始区域": "见特性",
+        "禁行区域": "否",
+        "不安限度": "1",
+        "友好能力": [
+          {
+            "text": "本轮轮回中，该角色为当事人的事件不会发生。",
+            "threshold": "3",
+            "oncePerLoop": ""
+          }
+        ]
+      }
+    }
+  ],
+  "body": "text/characters/b48749824ce70ed9.txt",
+  "bodySource": {
+    "provider": "wiki",
+    "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%89%8B%E4%B8%8B",
+    "snapshot": "sources/wiki/pages/a875ecdedef6e84b.json",
+    "capturedAt": "2026-09-27T03:32:55.253Z"
+  },
+  "wikiTitle": "手下",
+  "originalTables": [],
+  "wikiStatus": "captured",
+  "links": [
+    {
+      "title": "<img style=\"\" src=\"https://static.wikia.nocookie.net/tragedyrooper/images/2/27/%E6%89%8B%E4%B8%8B.png/revision/latest/scale-to-width-down/134?cb=20251023162228&amp;path-prefix=zh\" title=\"手下.png (239 KB)\" class=\"thumbimage\" alt=\"\" height=\"185\" width=\"185\" data-image-name=\"手下.png\" data-image-key=\"%E6%89%8B%E4%B8%8B.png\" data-relevant=\"1\">",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E6%89%8B%E4%B8%8B.png"
+    }
+  ],
+  "images": [
+    {
+      "alt": "",
+      "src": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+    }
+  ],
+  "media": [
+    {
+      "title": "手下.png",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:%E6%89%8B%E4%B8%8B.png",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/2/27/%E6%89%8B%E4%B8%8B.png/revision/latest?cb=20251023162228&format=original&path-prefix=zh",
+      "path": "media/wiki/9b73f63165258f27.png",
+      "sourceRecord": "sources/wiki/files/9b73f63165258f27.json",
+      "sha256": "eb16a832f201efa5d66c71d6911d39d1925643e9bf1e3dfb444696393542f63f",
+      "bytes": 244692,
+      "fileInfo": "PNG image data, 306 x 422, 8-bit/color RGBA, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/6fadb2d7054aeea7.json",
+  "tags": [
+    "成人",
+    "男性",
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "特性",
+      "selected": "每輪輪迴開始前，由劇作家決定該角色的初始區域。",
+      "candidate": "每轮轮回开始前，由剧作家决定该角色的初始区域。",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "禁行区域",
+      "selected": "无",
+      "candidate": "否",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "友好能力",
+      "selected": [
+        {
+          "text": "（友好3）本輪輪迴中，該角色為當事人的事件不會發生。",
+          "threshold": 3,
+          "limitText": ""
+        }
+      ],
+      "candidate": [
+        {
+          "text": "本轮轮回中，该角色为当事人的事件不会发生。",
+          "threshold": "3",
+          "oncePerLoop": ""
+        }
+      ],
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    }
+  ]
+}

@@ -1,0 +1,542 @@
+{
+  "id": "e2487f1b769f4b93",
+  "title": "BTX-64",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "BTX-64非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "BTX-64",
+    "loops": 3,
+    "days": 6,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "对角破坏 3"
+      },
+      {
+        "day": 2,
+        "incidentText": "对角破坏 3"
+      },
+      {
+        "day": 3,
+        "incidentText": "对角破坏 3"
+      },
+      {
+        "day": 4,
+        "incidentText": "对角破坏 3"
+      },
+      {
+        "day": 5,
+        "incidentText": "对角破坏 3"
+      },
+      {
+        "day": 6,
+        "incidentText": "对角破坏 3"
+      }
+    ],
+    "剧本名": "对角轰鸣",
+    "英文名": "Diagonal Vroom",
+    "作者": "Justin Karp",
+    "轮数": "3",
+    "天数": "6"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-64",
+      "snapshot": "sources/wiki/pages/38edf95e37360d7f.json",
+      "capturedAt": "2026-09-27T04:14:49.596Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-64",
+      "snapshot": "sources/wiki/pages/38edf95e37360d7f.json",
+      "capturedAt": "2026-09-27T04:14:49.596Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-64",
+      "snapshot": "sources/wiki/pages/38edf95e37360d7f.json",
+      "capturedAt": "2026-09-27T04:14:49.596Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-64",
+      "snapshot": "sources/wiki/pages/38edf95e37360d7f.json",
+      "capturedAt": "2026-09-27T04:14:49.596Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-64",
+      "snapshot": "sources/wiki/pages/38edf95e37360d7f.json",
+      "capturedAt": "2026-09-27T04:14:49.596Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 65
+    },
+    "英文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 65
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 65
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 65
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 65
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-64",
+      "snapshot": "sources/wiki/pages/38edf95e37360d7f.json",
+      "capturedAt": "2026-09-27T04:14:49.596Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 65
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-64%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/ebd6691bbe11788b.json",
+      "capturedAt": "2026-09-27T04:14:52.344Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-64",
+        "snapshot": "sources/wiki/pages/38edf95e37360d7f.json",
+        "capturedAt": "2026-09-27T04:14:49.596Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "BTX-64",
+        "loops": 3,
+        "days": 6,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "对角破坏 3"
+          },
+          {
+            "day": 2,
+            "incidentText": "对角破坏 3"
+          },
+          {
+            "day": 3,
+            "incidentText": "对角破坏 3"
+          },
+          {
+            "day": 4,
+            "incidentText": "对角破坏 3"
+          },
+          {
+            "day": 5,
+            "incidentText": "对角破坏 3"
+          },
+          {
+            "day": 6,
+            "incidentText": "对角破坏 3"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 2,
+        "row": 65
+      },
+      "fields": {
+        "scenarioCode": "BTX-64",
+        "剧本名": "对角轰鸣",
+        "英文名": "Diagonal Vroom",
+        "作者": "Justin Karp",
+        "轮数": "3",
+        "天数": "6"
+      }
+    }
+  ],
+  "wikiTitle": "BTX-64",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Basic Tragedy X"
+  ],
+  "module": "Basic Tragedy X",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "e2487f1b769f4b93",
+        "title": "BTX-64",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "BTX-64",
+          "loops": 3,
+          "days": 6,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "对角破坏 3"
+            },
+            {
+              "day": 2,
+              "incidentText": "对角破坏 3"
+            },
+            {
+              "day": 3,
+              "incidentText": "对角破坏 3"
+            },
+            {
+              "day": 4,
+              "incidentText": "对角破坏 3"
+            },
+            {
+              "day": 5,
+              "incidentText": "对角破坏 3"
+            },
+            {
+              "day": 6,
+              "incidentText": "对角破坏 3"
+            }
+          ],
+          "剧本名": "对角轰鸣",
+          "英文名": "Diagonal Vroom",
+          "作者": "Justin Karp",
+          "轮数": "3",
+          "天数": "6"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-64",
+            "snapshot": "sources/wiki/pages/38edf95e37360d7f.json",
+            "capturedAt": "2026-09-27T04:14:49.596Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-64",
+            "snapshot": "sources/wiki/pages/38edf95e37360d7f.json",
+            "capturedAt": "2026-09-27T04:14:49.596Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-64",
+            "snapshot": "sources/wiki/pages/38edf95e37360d7f.json",
+            "capturedAt": "2026-09-27T04:14:49.596Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-64",
+            "snapshot": "sources/wiki/pages/38edf95e37360d7f.json",
+            "capturedAt": "2026-09-27T04:14:49.596Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-64",
+            "snapshot": "sources/wiki/pages/38edf95e37360d7f.json",
+            "capturedAt": "2026-09-27T04:14:49.596Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 65
+          },
+          "英文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 65
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 65
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 65
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 65
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-64",
+            "snapshot": "sources/wiki/pages/38edf95e37360d7f.json",
+            "capturedAt": "2026-09-27T04:14:49.596Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 65
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-64",
+              "snapshot": "sources/wiki/pages/38edf95e37360d7f.json",
+              "capturedAt": "2026-09-27T04:14:49.596Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "BTX-64",
+              "loops": 3,
+              "days": 6,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "对角破坏 3"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "对角破坏 3"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "对角破坏 3"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "对角破坏 3"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "对角破坏 3"
+                },
+                {
+                  "day": 6,
+                  "incidentText": "对角破坏 3"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 2,
+              "row": 65
+            },
+            "fields": {
+              "scenarioCode": "BTX-64",
+              "剧本名": "对角轰鸣",
+              "英文名": "Diagonal Vroom",
+              "作者": "Justin Karp",
+              "轮数": "3",
+              "天数": "6"
+            }
+          }
+        ],
+        "body": "text/scenarios/e2487f1b769f4b93.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-64",
+          "snapshot": "sources/wiki/pages/38edf95e37360d7f.json",
+          "capturedAt": "2026-09-27T04:14:49.596Z"
+        },
+        "wikiTitle": "BTX-64",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-64?action=edit&section=1"
+          },
+          {
+            "title": "BTX-64非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-64%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-64?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Basic Tragedy X"
+        ],
+        "module": "Basic Tragedy X"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "b81311d9be6b9191",
+        "title": "BTX-64非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "BTX-64",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "谋杀计划"
+            },
+            {
+              "slot": "X1",
+              "name": "因果线"
+            },
+            {
+              "slot": "X2",
+              "name": "好友圈"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-64%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/ebd6691bbe11788b.json",
+            "capturedAt": "2026-09-27T04:14:52.344Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-64%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/ebd6691bbe11788b.json",
+            "capturedAt": "2026-09-27T04:14:52.344Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-64%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/ebd6691bbe11788b.json",
+            "capturedAt": "2026-09-27T04:14:52.344Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-64%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/ebd6691bbe11788b.json",
+            "capturedAt": "2026-09-27T04:14:52.344Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-64%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/ebd6691bbe11788b.json",
+              "capturedAt": "2026-09-27T04:14:52.344Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "BTX-64",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "谋杀计划"
+                },
+                {
+                  "slot": "X1",
+                  "name": "因果线"
+                },
+                {
+                  "slot": "X2",
+                  "name": "好友圈"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/b81311d9be6b9191.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-64%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/ebd6691bbe11788b.json",
+          "capturedAt": "2026-09-27T04:14:52.344Z"
+        },
+        "wikiTitle": "BTX-64非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-64%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Basic Tragedy X",
+        "tags": [
+          "民间",
+          "Basic Tragedy X"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "b81311d9be6b9191"
+  ],
+  "conflicts": []
+}

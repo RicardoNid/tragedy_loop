@@ -1,0 +1,210 @@
+{
+  "id": "3b84b41edd21c19e",
+  "title": "HSA-07G",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "scenarioCode": "HSA-07G",
+    "剧本名": "Evil Primes",
+    "日文名": "Evil Primes",
+    "作者": "Hopkins Loopers",
+    "轮数": "4 3",
+    "天数": "6",
+    "难度": "4 7"
+  },
+  "provenance": {
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+      "table": 5,
+      "row": 2
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+      "table": 5,
+      "row": 2
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+      "table": 5,
+      "row": 2
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+      "table": 5,
+      "row": 2
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+      "table": 5,
+      "row": 2
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+      "table": 5,
+      "row": 2
+    },
+    "难度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+      "table": 5,
+      "row": 2
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+      "table": 5,
+      "row": 2
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+        "table": 5,
+        "row": 2
+      },
+      "fields": {
+        "scenarioCode": "HSA-07G",
+        "剧本名": "Evil Primes",
+        "日文名": "Evil Primes",
+        "作者": "Hopkins Loopers",
+        "轮数": "4 3",
+        "天数": "6",
+        "难度": "4 7"
+      }
+    }
+  ],
+  "tags": [
+    "剧本集剧本",
+    "Haunted Stage Again"
+  ],
+  "module": "Haunted Stage Again",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "3b84b41edd21c19e",
+        "title": "HSA-07G",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "scenarioCode": "HSA-07G",
+          "剧本名": "Evil Primes",
+          "日文名": "Evil Primes",
+          "作者": "Hopkins Loopers",
+          "轮数": "4 3",
+          "天数": "6",
+          "难度": "4 7"
+        },
+        "provenance": {
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+            "table": 5,
+            "row": 2
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+            "table": 5,
+            "row": 2
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+            "table": 5,
+            "row": 2
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+            "table": 5,
+            "row": 2
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+            "table": 5,
+            "row": 2
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+            "table": 5,
+            "row": 2
+          },
+          "难度": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+            "table": 5,
+            "row": 2
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+            "table": 5,
+            "row": 2
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+              "table": 5,
+              "row": 2
+            },
+            "fields": {
+              "scenarioCode": "HSA-07G",
+              "剧本名": "Evil Primes",
+              "日文名": "Evil Primes",
+              "作者": "Hopkins Loopers",
+              "轮数": "4 3",
+              "天数": "6",
+              "难度": "4 7"
+            }
+          }
+        ],
+        "tags": [
+          "剧本集剧本",
+          "Haunted Stage Again"
+        ],
+        "module": "Haunted Stage Again"
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [],
+  "conflicts": []
+}

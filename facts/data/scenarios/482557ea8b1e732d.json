@@ -1,0 +1,504 @@
+{
+  "id": "482557ea8b1e732d",
+  "title": "BTX-123",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "BTX-123非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "BTX-123",
+    "loops": 5,
+    "days": 5,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "不安扩散"
+      },
+      {
+        "day": 2,
+        "incidentText": "蝴蝶效应"
+      },
+      {
+        "day": 3,
+        "incidentText": "散播"
+      },
+      {
+        "day": 4,
+        "incidentText": "不安扩散"
+      },
+      {
+        "day": 5,
+        "incidentText": "远距离杀人"
+      }
+    ],
+    "剧本名": "掌管校园的他",
+    "作者": "月落乌啼",
+    "轮数": "5 4",
+    "天数": "5"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-123",
+      "snapshot": "sources/wiki/pages/8445860822fa7bf9.json",
+      "capturedAt": "2026-09-27T03:56:06.973Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-123",
+      "snapshot": "sources/wiki/pages/8445860822fa7bf9.json",
+      "capturedAt": "2026-09-27T03:56:06.973Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-123",
+      "snapshot": "sources/wiki/pages/8445860822fa7bf9.json",
+      "capturedAt": "2026-09-27T03:56:06.973Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-123",
+      "snapshot": "sources/wiki/pages/8445860822fa7bf9.json",
+      "capturedAt": "2026-09-27T03:56:06.973Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-123",
+      "snapshot": "sources/wiki/pages/8445860822fa7bf9.json",
+      "capturedAt": "2026-09-27T03:56:06.973Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 127
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 127
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 127
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 127
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-123",
+      "snapshot": "sources/wiki/pages/8445860822fa7bf9.json",
+      "capturedAt": "2026-09-27T03:56:06.973Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 127
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-123%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/d142d365f19167cd.json",
+      "capturedAt": "2026-09-27T03:56:09.749Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-123",
+        "snapshot": "sources/wiki/pages/8445860822fa7bf9.json",
+        "capturedAt": "2026-09-27T03:56:06.973Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "BTX-123",
+        "loops": 5,
+        "days": 5,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "不安扩散"
+          },
+          {
+            "day": 2,
+            "incidentText": "蝴蝶效应"
+          },
+          {
+            "day": 3,
+            "incidentText": "散播"
+          },
+          {
+            "day": 4,
+            "incidentText": "不安扩散"
+          },
+          {
+            "day": 5,
+            "incidentText": "远距离杀人"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 2,
+        "row": 127
+      },
+      "fields": {
+        "scenarioCode": "BTX-123",
+        "剧本名": "掌管校园的他",
+        "作者": "月落乌啼",
+        "轮数": "5 4",
+        "天数": "5"
+      }
+    }
+  ],
+  "wikiTitle": "BTX-123",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Basic Tragedy X"
+  ],
+  "module": "Basic Tragedy X",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "482557ea8b1e732d",
+        "title": "BTX-123",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "BTX-123",
+          "loops": 5,
+          "days": 5,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "不安扩散"
+            },
+            {
+              "day": 2,
+              "incidentText": "蝴蝶效应"
+            },
+            {
+              "day": 3,
+              "incidentText": "散播"
+            },
+            {
+              "day": 4,
+              "incidentText": "不安扩散"
+            },
+            {
+              "day": 5,
+              "incidentText": "远距离杀人"
+            }
+          ],
+          "剧本名": "掌管校园的他",
+          "作者": "月落乌啼",
+          "轮数": "5 4",
+          "天数": "5"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-123",
+            "snapshot": "sources/wiki/pages/8445860822fa7bf9.json",
+            "capturedAt": "2026-09-27T03:56:06.973Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-123",
+            "snapshot": "sources/wiki/pages/8445860822fa7bf9.json",
+            "capturedAt": "2026-09-27T03:56:06.973Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-123",
+            "snapshot": "sources/wiki/pages/8445860822fa7bf9.json",
+            "capturedAt": "2026-09-27T03:56:06.973Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-123",
+            "snapshot": "sources/wiki/pages/8445860822fa7bf9.json",
+            "capturedAt": "2026-09-27T03:56:06.973Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-123",
+            "snapshot": "sources/wiki/pages/8445860822fa7bf9.json",
+            "capturedAt": "2026-09-27T03:56:06.973Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 127
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 127
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 127
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 127
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-123",
+            "snapshot": "sources/wiki/pages/8445860822fa7bf9.json",
+            "capturedAt": "2026-09-27T03:56:06.973Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 127
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-123",
+              "snapshot": "sources/wiki/pages/8445860822fa7bf9.json",
+              "capturedAt": "2026-09-27T03:56:06.973Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "BTX-123",
+              "loops": 5,
+              "days": 5,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "不安扩散"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "蝴蝶效应"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "散播"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "不安扩散"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "远距离杀人"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 2,
+              "row": 127
+            },
+            "fields": {
+              "scenarioCode": "BTX-123",
+              "剧本名": "掌管校园的他",
+              "作者": "月落乌啼",
+              "轮数": "5 4",
+              "天数": "5"
+            }
+          }
+        ],
+        "body": "text/scenarios/482557ea8b1e732d.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-123",
+          "snapshot": "sources/wiki/pages/8445860822fa7bf9.json",
+          "capturedAt": "2026-09-27T03:56:06.973Z"
+        },
+        "wikiTitle": "BTX-123",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "BTX-123非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-123%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-123?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Basic Tragedy X"
+        ],
+        "module": "Basic Tragedy X"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "a87a79636dbdc842",
+        "title": "BTX-123非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "BTX-123",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "和我签订契约吧"
+            },
+            {
+              "slot": "X1",
+              "name": "恋爱风景线"
+            },
+            {
+              "slot": "X2",
+              "name": "潜伏的杀人狂"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-123%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/d142d365f19167cd.json",
+            "capturedAt": "2026-09-27T03:56:09.749Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-123%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/d142d365f19167cd.json",
+            "capturedAt": "2026-09-27T03:56:09.749Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-123%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/d142d365f19167cd.json",
+            "capturedAt": "2026-09-27T03:56:09.749Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-123%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/d142d365f19167cd.json",
+            "capturedAt": "2026-09-27T03:56:09.749Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-123%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/d142d365f19167cd.json",
+              "capturedAt": "2026-09-27T03:56:09.749Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "BTX-123",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "和我签订契约吧"
+                },
+                {
+                  "slot": "X1",
+                  "name": "恋爱风景线"
+                },
+                {
+                  "slot": "X2",
+                  "name": "潜伏的杀人狂"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/a87a79636dbdc842.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-123%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/d142d365f19167cd.json",
+          "capturedAt": "2026-09-27T03:56:09.749Z"
+        },
+        "wikiTitle": "BTX-123非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-123%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Basic Tragedy X",
+        "tags": [
+          "民间",
+          "Basic Tragedy X"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "a87a79636dbdc842"
+  ],
+  "conflicts": []
+}

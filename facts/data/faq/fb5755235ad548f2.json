@@ -1,0 +1,67 @@
+{
+  "id": "fb5755235ad548f2",
+  "title": "AI可以是平民/杀人狂吗？妹妹可以是关键人物/主谋吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / AHR / 第 7 行",
+  "aliases": [],
+  "fields": {
+    "question": "AI可以是平民/杀人狂吗？妹妹可以是关键人物/主谋吗？",
+    "answer": "可以，表里身份不受上限等限制"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1mwbt4",
+      "snapshot": "sources/faq-sheet/ahr.json",
+      "sheet": "AHR",
+      "row": 7,
+      "cells": "A7:B7",
+      "capturedAt": "2026-09-27T05:40:34.313Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1mwbt4",
+      "snapshot": "sources/faq-sheet/ahr.json",
+      "sheet": "AHR",
+      "row": 7,
+      "cells": "A7:B7",
+      "capturedAt": "2026-09-27T05:40:34.313Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1mwbt4",
+      "snapshot": "sources/faq-sheet/ahr.json",
+      "sheet": "AHR",
+      "row": 7,
+      "cells": "A7:B7",
+      "capturedAt": "2026-09-27T05:40:34.313Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1mwbt4",
+        "snapshot": "sources/faq-sheet/ahr.json",
+        "sheet": "AHR",
+        "row": 7,
+        "cells": "A7:B7",
+        "capturedAt": "2026-09-27T05:40:34.313Z"
+      },
+      "fields": {
+        "question": "AI可以是平民/杀人狂吗？妹妹可以是关键人物/主谋吗？",
+        "answer": "可以，表里身份不受上限等限制"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "AHR",
+    "关于能力",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

@@ -1,0 +1,550 @@
+{
+  "id": "7525210399803fc8",
+  "title": "BTX-34",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "BTX-34非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "BTX-34",
+    "loops": 5,
+    "days": 5,
+    "schedule": [
+      {
+        "day": 2,
+        "incidentText": "蝴蝶效应"
+      },
+      {
+        "day": 3,
+        "incidentText": "谋杀"
+      },
+      {
+        "day": 4,
+        "incidentText": "远距离杀人"
+      },
+      {
+        "day": 5,
+        "incidentText": "自杀"
+      }
+    ],
+    "剧本名": "潜伏的时间旅者",
+    "日文名": "隠れ潜むタイムトラベラー",
+    "英文名": "The Hidden Time Traveler",
+    "作者": "ペンスキー（gitti）",
+    "轮数": "5",
+    "天数": "5",
+    "难度": "5"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-34",
+      "snapshot": "sources/wiki/pages/e2f0070e339272d3.json",
+      "capturedAt": "2026-09-27T04:03:46.419Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-34",
+      "snapshot": "sources/wiki/pages/e2f0070e339272d3.json",
+      "capturedAt": "2026-09-27T04:03:46.419Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-34",
+      "snapshot": "sources/wiki/pages/e2f0070e339272d3.json",
+      "capturedAt": "2026-09-27T04:03:46.419Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-34",
+      "snapshot": "sources/wiki/pages/e2f0070e339272d3.json",
+      "capturedAt": "2026-09-27T04:03:46.419Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-34",
+      "snapshot": "sources/wiki/pages/e2f0070e339272d3.json",
+      "capturedAt": "2026-09-27T04:03:46.419Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 35
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 35
+    },
+    "英文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 35
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 35
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 35
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 35
+    },
+    "难度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 35
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-34",
+      "snapshot": "sources/wiki/pages/e2f0070e339272d3.json",
+      "capturedAt": "2026-09-27T04:03:46.419Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 35
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-34%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/fc8169f311032a32.json",
+      "capturedAt": "2026-09-27T04:03:49.851Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-34",
+        "snapshot": "sources/wiki/pages/e2f0070e339272d3.json",
+        "capturedAt": "2026-09-27T04:03:46.419Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "BTX-34",
+        "loops": 5,
+        "days": 5,
+        "schedule": [
+          {
+            "day": 2,
+            "incidentText": "蝴蝶效应"
+          },
+          {
+            "day": 3,
+            "incidentText": "谋杀"
+          },
+          {
+            "day": 4,
+            "incidentText": "远距离杀人"
+          },
+          {
+            "day": 5,
+            "incidentText": "自杀"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 2,
+        "row": 35
+      },
+      "fields": {
+        "scenarioCode": "BTX-34",
+        "剧本名": "潜伏的时间旅者",
+        "日文名": "隠れ潜むタイムトラベラー",
+        "英文名": "The Hidden Time Traveler",
+        "作者": "ペンスキー（gitti）",
+        "轮数": "5",
+        "天数": "5",
+        "难度": "5"
+      }
+    }
+  ],
+  "wikiTitle": "BTX-34",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Basic Tragedy X"
+  ],
+  "module": "Basic Tragedy X",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "7525210399803fc8",
+        "title": "BTX-34",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "BTX-34",
+          "loops": 5,
+          "days": 5,
+          "schedule": [
+            {
+              "day": 2,
+              "incidentText": "蝴蝶效应"
+            },
+            {
+              "day": 3,
+              "incidentText": "谋杀"
+            },
+            {
+              "day": 4,
+              "incidentText": "远距离杀人"
+            },
+            {
+              "day": 5,
+              "incidentText": "自杀"
+            }
+          ],
+          "剧本名": "潜伏的时间旅者",
+          "日文名": "隠れ潜むタイムトラベラー",
+          "英文名": "The Hidden Time Traveler",
+          "作者": "ペンスキー（gitti）",
+          "轮数": "5",
+          "天数": "5",
+          "难度": "5"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-34",
+            "snapshot": "sources/wiki/pages/e2f0070e339272d3.json",
+            "capturedAt": "2026-09-27T04:03:46.419Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-34",
+            "snapshot": "sources/wiki/pages/e2f0070e339272d3.json",
+            "capturedAt": "2026-09-27T04:03:46.419Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-34",
+            "snapshot": "sources/wiki/pages/e2f0070e339272d3.json",
+            "capturedAt": "2026-09-27T04:03:46.419Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-34",
+            "snapshot": "sources/wiki/pages/e2f0070e339272d3.json",
+            "capturedAt": "2026-09-27T04:03:46.419Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-34",
+            "snapshot": "sources/wiki/pages/e2f0070e339272d3.json",
+            "capturedAt": "2026-09-27T04:03:46.419Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 35
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 35
+          },
+          "英文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 35
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 35
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 35
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 35
+          },
+          "难度": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 35
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-34",
+            "snapshot": "sources/wiki/pages/e2f0070e339272d3.json",
+            "capturedAt": "2026-09-27T04:03:46.419Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 35
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-34",
+              "snapshot": "sources/wiki/pages/e2f0070e339272d3.json",
+              "capturedAt": "2026-09-27T04:03:46.419Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "BTX-34",
+              "loops": 5,
+              "days": 5,
+              "schedule": [
+                {
+                  "day": 2,
+                  "incidentText": "蝴蝶效应"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "谋杀"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "远距离杀人"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "自杀"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 2,
+              "row": 35
+            },
+            "fields": {
+              "scenarioCode": "BTX-34",
+              "剧本名": "潜伏的时间旅者",
+              "日文名": "隠れ潜むタイムトラベラー",
+              "英文名": "The Hidden Time Traveler",
+              "作者": "ペンスキー（gitti）",
+              "轮数": "5",
+              "天数": "5",
+              "难度": "5"
+            }
+          }
+        ],
+        "body": "text/scenarios/7525210399803fc8.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-34",
+          "snapshot": "sources/wiki/pages/e2f0070e339272d3.json",
+          "capturedAt": "2026-09-27T04:03:46.419Z"
+        },
+        "wikiTitle": "BTX-34",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "BTX-34非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-34%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-34?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Basic Tragedy X"
+        ],
+        "module": "Basic Tragedy X"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "e10672eecf1865d0",
+        "title": "BTX-34非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "BTX-34",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "改变未来"
+            },
+            {
+              "slot": "X1",
+              "name": "好友圈"
+            },
+            {
+              "slot": "X2",
+              "name": "因果线"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-34%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/fc8169f311032a32.json",
+            "capturedAt": "2026-09-27T04:03:49.851Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-34%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/fc8169f311032a32.json",
+            "capturedAt": "2026-09-27T04:03:49.851Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-34%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/fc8169f311032a32.json",
+            "capturedAt": "2026-09-27T04:03:49.851Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-34%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/fc8169f311032a32.json",
+            "capturedAt": "2026-09-27T04:03:49.851Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-34%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/fc8169f311032a32.json",
+              "capturedAt": "2026-09-27T04:03:49.851Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "BTX-34",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "改变未来"
+                },
+                {
+                  "slot": "X1",
+                  "name": "好友圈"
+                },
+                {
+                  "slot": "X2",
+                  "name": "因果线"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/e10672eecf1865d0.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-34%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/fc8169f311032a32.json",
+          "capturedAt": "2026-09-27T04:03:49.851Z"
+        },
+        "wikiTitle": "BTX-34非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-34%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-34%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-34%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=3"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Basic Tragedy X",
+        "tags": [
+          "民间",
+          "Basic Tragedy X"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "e10672eecf1865d0"
+  ],
+  "conflicts": []
+}

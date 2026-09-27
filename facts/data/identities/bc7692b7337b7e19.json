@@ -1,0 +1,85 @@
+{
+  "id": "bc7692b7337b7e19",
+  "title": "侦探",
+  "kind": "identities",
+  "scope": "Mystery Circle",
+  "aliases": [],
+  "fields": {
+    "max": "",
+    "traits": "不死",
+    "abilities": [
+      "【强制：剧本制作时】不可以成为事件的当事人",
+      "【强制：事件阶段】Ex槽为0→如果与当天事件的当事人（存活）处于同一区域，则事件必定发生"
+    ]
+  },
+  "provenance": {
+    "max": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Mystery_Circle",
+      "snapshot": "sources/wiki/pages/b21e3f528569eced.json",
+      "capturedAt": "2026-09-27T03:29:50.486Z"
+    },
+    "traits": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Mystery_Circle",
+      "snapshot": "sources/wiki/pages/b21e3f528569eced.json",
+      "capturedAt": "2026-09-27T03:29:50.486Z"
+    },
+    "abilities": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Mystery_Circle",
+      "snapshot": "sources/wiki/pages/b21e3f528569eced.json",
+      "capturedAt": "2026-09-27T03:29:50.486Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Mystery_Circle",
+      "snapshot": "sources/wiki/pages/b21e3f528569eced.json",
+      "capturedAt": "2026-09-27T03:29:50.486Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Mystery_Circle",
+        "snapshot": "sources/wiki/pages/b21e3f528569eced.json",
+        "capturedAt": "2026-09-27T03:29:50.486Z"
+      },
+      "fields": {
+        "max": "",
+        "traits": "不死",
+        "abilities": [
+          "【强制：剧本制作时】不可以成为事件的当事人",
+          "【强制：事件阶段】Ex槽为0→如果与当天事件的当事人（存活）处于同一区域，则事件必定发生"
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "max": "",
+        "traits": "不死",
+        "abilities": [
+          "【强制：剧本制作时】不可以成为事件的当事人",
+          "【强制：事件阶段】Ex槽为0→如果与当天事件的当事人（存活）处于同一区域，则事件必定发生"
+        ]
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "官方"
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,45 @@
+{
+  "id": "6bcace9363647bb2",
+  "title": "遗忘",
+  "kind": "incidents",
+  "scope": "Echoing Love A",
+  "aliases": [],
+  "fields": {
+    "effect": "将当事人移动至任意版图，随后，移除位于当事人所在版图的所有角色身上的所有【友好】和EX牌。"
+  },
+  "provenance": {
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Echoing_Love_A",
+      "snapshot": "sources/wiki/pages/c8c2a6dac05a77fd.json",
+      "capturedAt": "2026-09-27T03:28:32.466Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Echoing_Love_A",
+      "snapshot": "sources/wiki/pages/c8c2a6dac05a77fd.json",
+      "capturedAt": "2026-09-27T03:28:32.466Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Echoing_Love_A",
+        "snapshot": "sources/wiki/pages/c8c2a6dac05a77fd.json",
+        "capturedAt": "2026-09-27T03:28:32.466Z"
+      },
+      "fields": {
+        "effect": "将当事人移动至任意版图，随后，移除位于当事人所在版图的所有角色身上的所有【友好】和EX牌。"
+      }
+    }
+  ],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "民间"
+  ],
+  "conflicts": []
+}

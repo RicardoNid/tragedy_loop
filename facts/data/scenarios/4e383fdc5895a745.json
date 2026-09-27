@@ -1,0 +1,174 @@
+{
+  "id": "4e383fdc5895a745",
+  "title": "UM-10",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "scenarioCode": "UM-10",
+    "作者": "东野K",
+    "轮数": "4",
+    "天数": "4",
+    "难度": "4"
+  },
+  "provenance": {
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+      "table": 3,
+      "row": 11
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+      "table": 3,
+      "row": 11
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+      "table": 3,
+      "row": 11
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+      "table": 3,
+      "row": 11
+    },
+    "难度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+      "table": 3,
+      "row": 11
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+      "table": 3,
+      "row": 11
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+        "table": 3,
+        "row": 11
+      },
+      "fields": {
+        "scenarioCode": "UM-10",
+        "作者": "东野K",
+        "轮数": "4",
+        "天数": "4",
+        "难度": "4"
+      }
+    }
+  ],
+  "tags": [
+    "民间模组/旧模组剧本",
+    "Unheard Malice"
+  ],
+  "module": "Unheard Malice",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "4e383fdc5895a745",
+        "title": "UM-10",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "scenarioCode": "UM-10",
+          "作者": "东野K",
+          "轮数": "4",
+          "天数": "4",
+          "难度": "4"
+        },
+        "provenance": {
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+            "table": 3,
+            "row": 11
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+            "table": 3,
+            "row": 11
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+            "table": 3,
+            "row": 11
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+            "table": 3,
+            "row": 11
+          },
+          "难度": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+            "table": 3,
+            "row": 11
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+            "table": 3,
+            "row": 11
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+              "table": 3,
+              "row": 11
+            },
+            "fields": {
+              "scenarioCode": "UM-10",
+              "作者": "东野K",
+              "轮数": "4",
+              "天数": "4",
+              "难度": "4"
+            }
+          }
+        ],
+        "tags": [
+          "民间模组/旧模组剧本",
+          "Unheard Malice"
+        ],
+        "module": "Unheard Malice"
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [],
+  "conflicts": []
+}

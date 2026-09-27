@@ -1,0 +1,540 @@
+{
+  "id": "41ab8dd827a413d2",
+  "title": "MZ+-05",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "MZ+-05非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "MZ+-05",
+    "loops": "无限",
+    "days": 5,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "医院事故"
+      },
+      {
+        "day": 2,
+        "incidentText": "连续杀人"
+      },
+      {
+        "day": 3,
+        "incidentText": "不安扩散"
+      },
+      {
+        "day": 4,
+        "incidentText": "连续杀人"
+      },
+      {
+        "day": 5,
+        "incidentText": "破局"
+      }
+    ],
+    "剧本名": "跨越10年的那个约定【第二部】",
+    "作者": "tongzi",
+    "轮数": "n",
+    "天数": "5"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-05",
+      "snapshot": "sources/wiki/pages/94b3a42f025264fa.json",
+      "capturedAt": "2026-09-27T04:41:50.457Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-05",
+      "snapshot": "sources/wiki/pages/94b3a42f025264fa.json",
+      "capturedAt": "2026-09-27T04:41:50.457Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-05",
+      "snapshot": "sources/wiki/pages/94b3a42f025264fa.json",
+      "capturedAt": "2026-09-27T04:41:50.457Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-05",
+      "snapshot": "sources/wiki/pages/94b3a42f025264fa.json",
+      "capturedAt": "2026-09-27T04:41:50.457Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-05",
+      "snapshot": "sources/wiki/pages/94b3a42f025264fa.json",
+      "capturedAt": "2026-09-27T04:41:50.457Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 67
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 67
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 67
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 67
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-05",
+      "snapshot": "sources/wiki/pages/94b3a42f025264fa.json",
+      "capturedAt": "2026-09-27T04:41:50.457Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 67
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-05%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/4ab3382bdab07de1.json",
+      "capturedAt": "2026-09-27T04:41:59.534Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-05",
+        "snapshot": "sources/wiki/pages/94b3a42f025264fa.json",
+        "capturedAt": "2026-09-27T04:41:50.457Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "MZ+-05",
+        "loops": "无限",
+        "days": 5,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "医院事故"
+          },
+          {
+            "day": 2,
+            "incidentText": "连续杀人"
+          },
+          {
+            "day": 3,
+            "incidentText": "不安扩散"
+          },
+          {
+            "day": 4,
+            "incidentText": "连续杀人"
+          },
+          {
+            "day": 5,
+            "incidentText": "破局"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 3,
+        "row": 67
+      },
+      "fields": {
+        "scenarioCode": "MZ+-05",
+        "剧本名": "跨越10年的那个约定【第二部】",
+        "作者": "tongzi",
+        "轮数": "n",
+        "天数": "5"
+      }
+    }
+  ],
+  "wikiTitle": "MZ+-05",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Midnight Zone Plus"
+  ],
+  "module": "Midnight Zone Plus",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "41ab8dd827a413d2",
+        "title": "MZ+-05",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "MZ+-05",
+          "loops": "无限",
+          "days": 5,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "医院事故"
+            },
+            {
+              "day": 2,
+              "incidentText": "连续杀人"
+            },
+            {
+              "day": 3,
+              "incidentText": "不安扩散"
+            },
+            {
+              "day": 4,
+              "incidentText": "连续杀人"
+            },
+            {
+              "day": 5,
+              "incidentText": "破局"
+            }
+          ],
+          "剧本名": "跨越10年的那个约定【第二部】",
+          "作者": "tongzi",
+          "轮数": "n",
+          "天数": "5"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-05",
+            "snapshot": "sources/wiki/pages/94b3a42f025264fa.json",
+            "capturedAt": "2026-09-27T04:41:50.457Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-05",
+            "snapshot": "sources/wiki/pages/94b3a42f025264fa.json",
+            "capturedAt": "2026-09-27T04:41:50.457Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-05",
+            "snapshot": "sources/wiki/pages/94b3a42f025264fa.json",
+            "capturedAt": "2026-09-27T04:41:50.457Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-05",
+            "snapshot": "sources/wiki/pages/94b3a42f025264fa.json",
+            "capturedAt": "2026-09-27T04:41:50.457Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-05",
+            "snapshot": "sources/wiki/pages/94b3a42f025264fa.json",
+            "capturedAt": "2026-09-27T04:41:50.457Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 67
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 67
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 67
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 67
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-05",
+            "snapshot": "sources/wiki/pages/94b3a42f025264fa.json",
+            "capturedAt": "2026-09-27T04:41:50.457Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 67
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-05",
+              "snapshot": "sources/wiki/pages/94b3a42f025264fa.json",
+              "capturedAt": "2026-09-27T04:41:50.457Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "MZ+-05",
+              "loops": "无限",
+              "days": 5,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "医院事故"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "连续杀人"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "不安扩散"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "连续杀人"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "破局"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 3,
+              "row": 67
+            },
+            "fields": {
+              "scenarioCode": "MZ+-05",
+              "剧本名": "跨越10年的那个约定【第二部】",
+              "作者": "tongzi",
+              "轮数": "n",
+              "天数": "5"
+            }
+          }
+        ],
+        "body": "text/scenarios/41ab8dd827a413d2.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-05",
+          "snapshot": "sources/wiki/pages/94b3a42f025264fa.json",
+          "capturedAt": "2026-09-27T04:41:50.457Z"
+        },
+        "wikiTitle": "MZ+-05",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-05?action=edit&section=1"
+          },
+          {
+            "title": "仙人",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E4%BB%99%E4%BA%BA"
+          },
+          {
+            "title": "MZ+-05非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-05%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-05?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Midnight Zone Plus"
+        ],
+        "module": "Midnight Zone Plus"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "b7e0116f17e11d21",
+        "title": "MZ+-05非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "MZ+-05",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "因果之绊"
+            },
+            {
+              "slot": "X1",
+              "name": "KAI异因子"
+            },
+            {
+              "slot": "X2",
+              "name": "死亡真人秀"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-05%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/4ab3382bdab07de1.json",
+            "capturedAt": "2026-09-27T04:41:59.534Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-05%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/4ab3382bdab07de1.json",
+            "capturedAt": "2026-09-27T04:41:59.534Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-05%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/4ab3382bdab07de1.json",
+            "capturedAt": "2026-09-27T04:41:59.534Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-05%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/4ab3382bdab07de1.json",
+            "capturedAt": "2026-09-27T04:41:59.534Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-05%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/4ab3382bdab07de1.json",
+              "capturedAt": "2026-09-27T04:41:59.534Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "MZ+-05",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "因果之绊"
+                },
+                {
+                  "slot": "X1",
+                  "name": "KAI异因子"
+                },
+                {
+                  "slot": "X2",
+                  "name": "死亡真人秀"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/b7e0116f17e11d21.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-05%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/4ab3382bdab07de1.json",
+          "capturedAt": "2026-09-27T04:41:59.534Z"
+        },
+        "wikiTitle": "MZ+-05非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "1 跨越10年的那个约定【第二部】作者：tongzi",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-05%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E8%B7%A8%E8%B6%8A10%E5%B9%B4%E7%9A%84%E9%82%A3%E4%B8%AA%E7%BA%A6%E5%AE%9A%E3%80%90%E7%AC%AC%E4%BA%8C%E9%83%A8%E3%80%91%E4%BD%9C%E8%80%85%EF%BC%9Atongzi"
+          },
+          {
+            "title": "1.1 出牌方法",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-05%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E5%87%BA%E7%89%8C%E6%96%B9%E6%B3%95"
+          },
+          {
+            "title": "1.2 故事",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-05%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E6%95%85%E4%BA%8B"
+          },
+          {
+            "title": "1.3 剧作家指南",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-05%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E5%89%A7%E4%BD%9C%E5%AE%B6%E6%8C%87%E5%8D%97"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-05%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-05%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-05%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=3"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-05%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=4"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Midnight Zone Plus",
+        "tags": [
+          "民间",
+          "Midnight Zone Plus"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "b7e0116f17e11d21"
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,66 @@
+{
+  "id": "7c1a0c83ef89bcb8",
+  "title": "遥控爆破",
+  "kind": "rules",
+  "scope": "Supernatural Tragedy",
+  "aliases": [],
+  "fields": {
+    "ruleType": "X",
+    "identityCounts": {
+      "疯狂天才": "①"
+    },
+    "effect": "【可选：每日结束阶段】疯狂天才的初始区域有2枚或以上[密谋]，且存活的疯狂天才不在该区域→主人公失败"
+  },
+  "provenance": {
+    "ruleType": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Supernatural_Tragedy",
+      "snapshot": "sources/wiki/pages/34e1e734e8da4777.json",
+      "capturedAt": "2026-09-27T03:30:06.385Z"
+    },
+    "identityCounts": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Supernatural_Tragedy",
+      "snapshot": "sources/wiki/pages/34e1e734e8da4777.json",
+      "capturedAt": "2026-09-27T03:30:06.385Z"
+    },
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Supernatural_Tragedy",
+      "snapshot": "sources/wiki/pages/34e1e734e8da4777.json",
+      "capturedAt": "2026-09-27T03:30:06.385Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Supernatural_Tragedy",
+      "snapshot": "sources/wiki/pages/34e1e734e8da4777.json",
+      "capturedAt": "2026-09-27T03:30:06.385Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Supernatural_Tragedy",
+        "snapshot": "sources/wiki/pages/34e1e734e8da4777.json",
+        "capturedAt": "2026-09-27T03:30:06.385Z"
+      },
+      "fields": {
+        "ruleType": "X",
+        "identityCounts": {
+          "疯狂天才": "①"
+        },
+        "effect": "【可选：每日结束阶段】疯狂天才的初始区域有2枚或以上[密谋]，且存活的疯狂天才不在该区域→主人公失败"
+      }
+    }
+  ],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "X",
+    "民间"
+  ],
+  "conflicts": []
+}

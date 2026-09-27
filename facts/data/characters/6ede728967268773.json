@@ -1,0 +1,217 @@
+{
+  "id": "6ede728967268773",
+  "title": "UP主",
+  "kind": "characters",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "角色名": "UP主",
+    "初始区域": "远方",
+    "禁行区域": "无",
+    "不安限度": "2",
+    "属性": [
+      "男性",
+      "学生"
+    ],
+    "特性": "在每輪輪回第一次事件發生當天的回合結束階段，往1名少年或少女身上設置1張Ex牌。在使用該角色的能力（包括友好能力）時，可以將放置有Ex牌的角色所在區域視為該角色所在區域。",
+    "友好能力": [
+      {
+        "text": "（友好3）往同一區域另外一名角色身上放置1枚友好指示物，並移除1枚不安指示物。隨後，可以將那名角色身上的Ex牌轉移到與那名角色位於同一區域、且非UP主的1名角色身上。",
+        "threshold": 3,
+        "limitText": ""
+      }
+    ]
+  },
+  "provenance": {
+    "角色名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/UP%E4%B8%BB",
+      "snapshot": "sources/wiki/pages/7419e90475bddf2e.json",
+      "capturedAt": "2026-09-27T03:30:09.160Z"
+    },
+    "初始区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/UP%E4%B8%BB",
+      "snapshot": "sources/wiki/pages/7419e90475bddf2e.json",
+      "capturedAt": "2026-09-27T03:30:09.160Z"
+    },
+    "禁行区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/UP%E4%B8%BB",
+      "snapshot": "sources/wiki/pages/7419e90475bddf2e.json",
+      "capturedAt": "2026-09-27T03:30:09.160Z"
+    },
+    "不安限度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/UP%E4%B8%BB",
+      "snapshot": "sources/wiki/pages/7419e90475bddf2e.json",
+      "capturedAt": "2026-09-27T03:30:09.160Z"
+    },
+    "属性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/UP%E4%B8%BB",
+      "snapshot": "sources/wiki/pages/7419e90475bddf2e.json",
+      "capturedAt": "2026-09-27T03:30:09.160Z"
+    },
+    "特性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/UP%E4%B8%BB",
+      "snapshot": "sources/wiki/pages/7419e90475bddf2e.json",
+      "capturedAt": "2026-09-27T03:30:09.160Z"
+    },
+    "友好能力": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/UP%E4%B8%BB",
+      "snapshot": "sources/wiki/pages/7419e90475bddf2e.json",
+      "capturedAt": "2026-09-27T03:30:09.160Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/UP%E4%B8%BB",
+      "snapshot": "sources/wiki/pages/7419e90475bddf2e.json",
+      "capturedAt": "2026-09-27T03:30:09.160Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/UP%E4%B8%BB",
+        "snapshot": "sources/wiki/pages/7419e90475bddf2e.json",
+        "capturedAt": "2026-09-27T03:30:09.160Z"
+      },
+      "fields": {
+        "角色名": "UP主",
+        "初始区域": "远方",
+        "禁行区域": "无",
+        "不安限度": "2",
+        "属性": [
+          "男性",
+          "学生"
+        ],
+        "特性": "在每輪輪回第一次事件發生當天的回合結束階段，往1名少年或少女身上設置1張Ex牌。在使用該角色的能力（包括友好能力）時，可以將放置有Ex牌的角色所在區域視為該角色所在區域。",
+        "友好能力": [
+          {
+            "text": "（友好3）往同一區域另外一名角色身上放置1枚友好指示物，並移除1枚不安指示物。隨後，可以將那名角色身上的Ex牌轉移到與那名角色位於同一區域、且非UP主的1名角色身上。",
+            "threshold": 3,
+            "limitText": ""
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "特性": "在每轮轮回第一次事件发生当天的回合结束阶段，往1名少年或少女身上设置1张Ex牌。在使用该角色的能力（包括友好能力）时，可以将放置有Ex牌的角色所在区域视为该角色所在区域。",
+        "属性": [
+          "男性",
+          "学生"
+        ],
+        "初始区域": "远方",
+        "禁行区域": "否",
+        "不安限度": "2",
+        "友好能力": [
+          {
+            "text": "往同一区域另外1名角色身上放置1枚友好指示物，并移除1枚不安指示物。随后，可以将那名角色身上的Ex牌转移到与那名角色位于同一区域、且非UP主的1名角色身上。",
+            "threshold": "3",
+            "oncePerLoop": ""
+          }
+        ]
+      }
+    }
+  ],
+  "body": "text/characters/6ede728967268773.txt",
+  "bodySource": {
+    "provider": "wiki",
+    "url": "https://tragedyrooper.fandom.com/zh/wiki/UP%E4%B8%BB",
+    "snapshot": "sources/wiki/pages/7419e90475bddf2e.json",
+    "capturedAt": "2026-09-27T03:30:09.160Z"
+  },
+  "wikiTitle": "UP主",
+  "originalTables": [],
+  "wikiStatus": "captured",
+  "links": [
+    {
+      "title": "<img style=\"\" src=\"https://static.wikia.nocookie.net/tragedyrooper/images/f/f3/UP%E6%B0%B4%E5%8D%B0.jpg/revision/latest/scale-to-width-down/132?cb=20251211192740&amp;path-prefix=zh\" title=\"UP水印.jpg (67 KB)\" class=\"thumbimage\" alt=\"\" height=\"185\" width=\"185\" data-image-name=\"UP水印.jpg\" data-image-key=\"UP%E6%B0%B4%E5%8D%B0.jpg\" data-relevant=\"1\">",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:UP%E6%B0%B4%E5%8D%B0.jpg"
+    }
+  ],
+  "images": [
+    {
+      "alt": "",
+      "src": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+    }
+  ],
+  "media": [
+    {
+      "title": "UP水印.jpg",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:UP%E6%B0%B4%E5%8D%B0.jpg",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/f/f3/UP%E6%B0%B4%E5%8D%B0.jpg/revision/latest?cb=20251211192740&format=original&path-prefix=zh",
+      "path": "media/wiki/a2fae53ba30c0e19.jpg",
+      "sourceRecord": "sources/wiki/files/a2fae53ba30c0e19.json",
+      "sha256": "383c10af6ae3d56dd1ce52dc5ece9acca0d489b99e4597c71ffc2840a1981ce4",
+      "bytes": 68812,
+      "fileInfo": "JPEG image data, baseline, precision 8, 374x523, components 3",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/6fadb2d7054aeea7.json",
+  "tags": [
+    "男性",
+    "学生",
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "特性",
+      "selected": "在每輪輪回第一次事件發生當天的回合結束階段，往1名少年或少女身上設置1張Ex牌。在使用該角色的能力（包括友好能力）時，可以將放置有Ex牌的角色所在區域視為該角色所在區域。",
+      "candidate": "在每轮轮回第一次事件发生当天的回合结束阶段，往1名少年或少女身上设置1张Ex牌。在使用该角色的能力（包括友好能力）时，可以将放置有Ex牌的角色所在区域视为该角色所在区域。",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "禁行区域",
+      "selected": "无",
+      "candidate": "否",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "友好能力",
+      "selected": [
+        {
+          "text": "（友好3）往同一區域另外一名角色身上放置1枚友好指示物，並移除1枚不安指示物。隨後，可以將那名角色身上的Ex牌轉移到與那名角色位於同一區域、且非UP主的1名角色身上。",
+          "threshold": 3,
+          "limitText": ""
+        }
+      ],
+      "candidate": [
+        {
+          "text": "往同一区域另外1名角色身上放置1枚友好指示物，并移除1枚不安指示物。随后，可以将那名角色身上的Ex牌转移到与那名角色位于同一区域、且非UP主的1名角色身上。",
+          "threshold": "3",
+          "oncePerLoop": ""
+        }
+      ],
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    }
+  ]
+}

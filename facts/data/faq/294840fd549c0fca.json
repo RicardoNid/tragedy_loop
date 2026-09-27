@@ -1,0 +1,66 @@
+{
+  "id": "294840fd549c0fca",
+  "title": "剧本怎么没规定能不能讨论啊？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 基础规则 / 第 4 行",
+  "aliases": [],
+  "fields": {
+    "question": "剧本怎么没规定能不能讨论啊？",
+    "answer": "剧作家根据主人公能力自行规定并填入公开信息表"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+      "snapshot": "sources/faq-sheet/basic.json",
+      "sheet": "基础规则",
+      "row": 4,
+      "cells": "A4:B4",
+      "capturedAt": "2026-09-27T05:40:57.223Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+      "snapshot": "sources/faq-sheet/basic.json",
+      "sheet": "基础规则",
+      "row": 4,
+      "cells": "A4:B4",
+      "capturedAt": "2026-09-27T05:40:57.223Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+      "snapshot": "sources/faq-sheet/basic.json",
+      "sheet": "基础规则",
+      "row": 4,
+      "cells": "A4:B4",
+      "capturedAt": "2026-09-27T05:40:57.223Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+        "snapshot": "sources/faq-sheet/basic.json",
+        "sheet": "基础规则",
+        "row": 4,
+        "cells": "A4:B4",
+        "capturedAt": "2026-09-27T05:40:57.223Z"
+      },
+      "fields": {
+        "question": "剧本怎么没规定能不能讨论啊？",
+        "answer": "剧作家根据主人公能力自行规定并填入公开信息表"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "基础规则",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

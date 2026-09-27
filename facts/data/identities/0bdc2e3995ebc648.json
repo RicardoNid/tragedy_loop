@@ -1,0 +1,65 @@
+{
+  "id": "0bdc2e3995ebc648",
+  "title": "关键人物",
+  "kind": "identities",
+  "scope": "Old Fashion",
+  "aliases": [],
+  "fields": {
+    "max": "",
+    "traits": "",
+    "abilities": [
+      "【强制：该角色死亡时】主人公失败，当前轮回立即结束"
+    ]
+  },
+  "provenance": {
+    "max": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Old_Fashion",
+      "snapshot": "sources/wiki/pages/a50ad3a225ece288.json",
+      "capturedAt": "2026-09-27T03:30:00.404Z"
+    },
+    "traits": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Old_Fashion",
+      "snapshot": "sources/wiki/pages/a50ad3a225ece288.json",
+      "capturedAt": "2026-09-27T03:30:00.404Z"
+    },
+    "abilities": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Old_Fashion",
+      "snapshot": "sources/wiki/pages/a50ad3a225ece288.json",
+      "capturedAt": "2026-09-27T03:30:00.404Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Old_Fashion",
+      "snapshot": "sources/wiki/pages/a50ad3a225ece288.json",
+      "capturedAt": "2026-09-27T03:30:00.404Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Old_Fashion",
+        "snapshot": "sources/wiki/pages/a50ad3a225ece288.json",
+        "capturedAt": "2026-09-27T03:30:00.404Z"
+      },
+      "fields": {
+        "max": "",
+        "traits": "",
+        "abilities": [
+          "【强制：该角色死亡时】主人公失败，当前轮回立即结束"
+        ]
+      }
+    }
+  ],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "民间"
+  ],
+  "conflicts": []
+}

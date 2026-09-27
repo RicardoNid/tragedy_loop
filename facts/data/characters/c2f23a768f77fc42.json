@@ -1,0 +1,199 @@
+{
+  "id": "c2f23a768f77fc42",
+  "title": "上位存在",
+  "kind": "characters",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "角色名": "上位存在",
+    "初始区域": "神社",
+    "禁行区域": "无",
+    "不安限度": "2",
+    "属性": [
+      "少女"
+    ],
+    "友好能力": [
+      {
+        "text": "（友好3 1L1）往同一区域任意1名角色身上放置1枚希望/绝望指示物。如果该角色具有無視友好的特性，並且身上已经放置了1枚或以上的友好指示物，則劇作家可以在劇作家能力階段使用該能力。",
+        "threshold": 3,
+        "limitText": "1L1",
+        "oncePerLoop": true
+      }
+    ]
+  },
+  "provenance": {
+    "角色名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E4%B8%8A%E4%BD%8D%E5%AD%98%E5%9C%A8",
+      "snapshot": "sources/wiki/pages/3661704c634e55f9.json",
+      "capturedAt": "2026-09-27T03:30:18.830Z"
+    },
+    "初始区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E4%B8%8A%E4%BD%8D%E5%AD%98%E5%9C%A8",
+      "snapshot": "sources/wiki/pages/3661704c634e55f9.json",
+      "capturedAt": "2026-09-27T03:30:18.830Z"
+    },
+    "禁行区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E4%B8%8A%E4%BD%8D%E5%AD%98%E5%9C%A8",
+      "snapshot": "sources/wiki/pages/3661704c634e55f9.json",
+      "capturedAt": "2026-09-27T03:30:18.830Z"
+    },
+    "不安限度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E4%B8%8A%E4%BD%8D%E5%AD%98%E5%9C%A8",
+      "snapshot": "sources/wiki/pages/3661704c634e55f9.json",
+      "capturedAt": "2026-09-27T03:30:18.830Z"
+    },
+    "属性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E4%B8%8A%E4%BD%8D%E5%AD%98%E5%9C%A8",
+      "snapshot": "sources/wiki/pages/3661704c634e55f9.json",
+      "capturedAt": "2026-09-27T03:30:18.830Z"
+    },
+    "友好能力": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E4%B8%8A%E4%BD%8D%E5%AD%98%E5%9C%A8",
+      "snapshot": "sources/wiki/pages/3661704c634e55f9.json",
+      "capturedAt": "2026-09-27T03:30:18.830Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E4%B8%8A%E4%BD%8D%E5%AD%98%E5%9C%A8",
+      "snapshot": "sources/wiki/pages/3661704c634e55f9.json",
+      "capturedAt": "2026-09-27T03:30:18.830Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E4%B8%8A%E4%BD%8D%E5%AD%98%E5%9C%A8",
+        "snapshot": "sources/wiki/pages/3661704c634e55f9.json",
+        "capturedAt": "2026-09-27T03:30:18.830Z"
+      },
+      "fields": {
+        "角色名": "上位存在",
+        "初始区域": "神社",
+        "禁行区域": "无",
+        "不安限度": "2",
+        "属性": [
+          "少女"
+        ],
+        "友好能力": [
+          {
+            "text": "（友好3 1L1）往同一区域任意1名角色身上放置1枚希望/绝望指示物。如果该角色具有無視友好的特性，並且身上已经放置了1枚或以上的友好指示物，則劇作家可以在劇作家能力階段使用該能力。",
+            "threshold": 3,
+            "limitText": "1L1",
+            "oncePerLoop": true
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "特性": "",
+        "属性": [
+          "少女"
+        ],
+        "初始区域": "神社",
+        "禁行区域": "否",
+        "不安限度": "2",
+        "友好能力": [
+          {
+            "text": "往同一区域任意1名角色身上放置1枚希望/绝望指示物。如果该角色具有无视友好的特性，并且身上已经放置了1枚或以上的友好指示物，则剧作家可以在剧作家能力阶段使用该能力。",
+            "threshold": "3",
+            "oncePerLoop": "是"
+          }
+        ]
+      }
+    }
+  ],
+  "body": "text/characters/c2f23a768f77fc42.txt",
+  "bodySource": {
+    "provider": "wiki",
+    "url": "https://tragedyrooper.fandom.com/zh/wiki/%E4%B8%8A%E4%BD%8D%E5%AD%98%E5%9C%A8",
+    "snapshot": "sources/wiki/pages/3661704c634e55f9.json",
+    "capturedAt": "2026-09-27T03:30:18.830Z"
+  },
+  "wikiTitle": "上位存在",
+  "originalTables": [],
+  "wikiStatus": "captured",
+  "links": [
+    {
+      "title": "<img style=\"\" src=\"https://static.wikia.nocookie.net/tragedyrooper/images/d/dd/%E4%B8%8A%E4%BD%8D.png/revision/latest/scale-to-width-down/132?cb=20251023162228&amp;path-prefix=zh\" title=\"上位.png (709 KB)\" class=\"thumbimage\" alt=\"\" height=\"185\" width=\"185\" data-image-name=\"上位.png\" data-image-key=\"%E4%B8%8A%E4%BD%8D.png\" data-relevant=\"1\">",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E4%B8%8A%E4%BD%8D.png"
+    }
+  ],
+  "images": [
+    {
+      "alt": "",
+      "src": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+    }
+  ],
+  "media": [
+    {
+      "title": "上位.png",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:%E4%B8%8A%E4%BD%8D.png",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/d/dd/%E4%B8%8A%E4%BD%8D.png/revision/latest?cb=20251023162228&format=original&path-prefix=zh",
+      "path": "media/wiki/5ff00984a8d354e7.png",
+      "sourceRecord": "sources/wiki/files/5ff00984a8d354e7.json",
+      "sha256": "d7a687dece8b7bfc21a927481aec6a42d1b16e91d893f6604b1f9030c03e80aa",
+      "bytes": 722931,
+      "fileInfo": "PNG image data, 620 x 866, 8-bit/color RGB, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/6fadb2d7054aeea7.json",
+  "tags": [
+    "少女",
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "禁行区域",
+      "selected": "无",
+      "candidate": "否",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "友好能力",
+      "selected": [
+        {
+          "text": "（友好3 1L1）往同一区域任意1名角色身上放置1枚希望/绝望指示物。如果该角色具有無視友好的特性，並且身上已经放置了1枚或以上的友好指示物，則劇作家可以在劇作家能力階段使用該能力。",
+          "threshold": 3,
+          "limitText": "1L1",
+          "oncePerLoop": true
+        }
+      ],
+      "candidate": [
+        {
+          "text": "往同一区域任意1名角色身上放置1枚希望/绝望指示物。如果该角色具有无视友好的特性，并且身上已经放置了1枚或以上的友好指示物，则剧作家可以在剧作家能力阶段使用该能力。",
+          "threshold": "3",
+          "oncePerLoop": "是"
+        }
+      ],
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    }
+  ]
+}

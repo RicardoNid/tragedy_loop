@@ -1,0 +1,480 @@
+{
+  "id": "0d7d7a0e828c3f08",
+  "title": "WM+-04",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "WM+-04非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "WM+-04",
+    "loops": 5,
+    "days": 6,
+    "schedule": [
+      {
+        "day": 2,
+        "incidentText": "廷达罗斯之嗅"
+      },
+      {
+        "day": 3,
+        "incidentText": "希望之光"
+      },
+      {
+        "day": 4,
+        "incidentText": "绝望之暗"
+      },
+      {
+        "day": 5,
+        "incidentText": "失踪"
+      },
+      {
+        "day": 6,
+        "incidentText": "暴乱"
+      }
+    ],
+    "剧本名": "TRUTH behind U",
+    "日文名": "TRUTH behind U",
+    "作者": "弾濫",
+    "轮数": "5",
+    "天数": "6"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-04?oldid=1502",
+      "snapshot": "sources/wiki/pages/bbb17110d2749b69.json",
+      "capturedAt": "2026-09-27T04:58:40.008Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-04?oldid=1502",
+      "snapshot": "sources/wiki/pages/bbb17110d2749b69.json",
+      "capturedAt": "2026-09-27T04:58:40.008Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-04?oldid=1502",
+      "snapshot": "sources/wiki/pages/bbb17110d2749b69.json",
+      "capturedAt": "2026-09-27T04:58:40.008Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-04?oldid=1502",
+      "snapshot": "sources/wiki/pages/bbb17110d2749b69.json",
+      "capturedAt": "2026-09-27T04:58:40.008Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-04?oldid=1502",
+      "snapshot": "sources/wiki/pages/bbb17110d2749b69.json",
+      "capturedAt": "2026-09-27T04:58:40.008Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 28
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 28
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 28
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 28
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 28
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-04?oldid=1502",
+      "snapshot": "sources/wiki/pages/bbb17110d2749b69.json",
+      "capturedAt": "2026-09-27T04:58:40.008Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 28
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1895",
+      "snapshot": "sources/wiki/pages/b24bbf5a512d29c3.json",
+      "capturedAt": "2026-09-27T04:58:45.143Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-04?oldid=1502",
+        "snapshot": "sources/wiki/pages/bbb17110d2749b69.json",
+        "capturedAt": "2026-09-27T04:58:40.008Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "WM+-04",
+        "loops": 5,
+        "days": 6,
+        "schedule": [
+          {
+            "day": 2,
+            "incidentText": "廷达罗斯之嗅"
+          },
+          {
+            "day": 3,
+            "incidentText": "希望之光"
+          },
+          {
+            "day": 4,
+            "incidentText": "绝望之暗"
+          },
+          {
+            "day": 5,
+            "incidentText": "失踪"
+          },
+          {
+            "day": 6,
+            "incidentText": "暴乱"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 6,
+        "row": 28
+      },
+      "fields": {
+        "scenarioCode": "WM+-04",
+        "剧本名": "TRUTH behind U",
+        "日文名": "TRUTH behind U",
+        "作者": "弾濫",
+        "轮数": "5",
+        "天数": "6"
+      }
+    }
+  ],
+  "wikiTitle": "WM+-04",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Weird Mythology Plus"
+  ],
+  "module": "Weird Mythology Plus",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "0d7d7a0e828c3f08",
+        "title": "WM+-04",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "WM+-04",
+          "loops": 5,
+          "days": 6,
+          "schedule": [
+            {
+              "day": 2,
+              "incidentText": "廷达罗斯之嗅"
+            },
+            {
+              "day": 3,
+              "incidentText": "希望之光"
+            },
+            {
+              "day": 4,
+              "incidentText": "绝望之暗"
+            },
+            {
+              "day": 5,
+              "incidentText": "失踪"
+            },
+            {
+              "day": 6,
+              "incidentText": "暴乱"
+            }
+          ],
+          "剧本名": "TRUTH behind U",
+          "日文名": "TRUTH behind U",
+          "作者": "弾濫",
+          "轮数": "5",
+          "天数": "6"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-04?oldid=1502",
+            "snapshot": "sources/wiki/pages/bbb17110d2749b69.json",
+            "capturedAt": "2026-09-27T04:58:40.008Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-04?oldid=1502",
+            "snapshot": "sources/wiki/pages/bbb17110d2749b69.json",
+            "capturedAt": "2026-09-27T04:58:40.008Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-04?oldid=1502",
+            "snapshot": "sources/wiki/pages/bbb17110d2749b69.json",
+            "capturedAt": "2026-09-27T04:58:40.008Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-04?oldid=1502",
+            "snapshot": "sources/wiki/pages/bbb17110d2749b69.json",
+            "capturedAt": "2026-09-27T04:58:40.008Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-04?oldid=1502",
+            "snapshot": "sources/wiki/pages/bbb17110d2749b69.json",
+            "capturedAt": "2026-09-27T04:58:40.008Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 28
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 28
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 28
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 28
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 28
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-04?oldid=1502",
+            "snapshot": "sources/wiki/pages/bbb17110d2749b69.json",
+            "capturedAt": "2026-09-27T04:58:40.008Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 28
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-04?oldid=1502",
+              "snapshot": "sources/wiki/pages/bbb17110d2749b69.json",
+              "capturedAt": "2026-09-27T04:58:40.008Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "WM+-04",
+              "loops": 5,
+              "days": 6,
+              "schedule": [
+                {
+                  "day": 2,
+                  "incidentText": "廷达罗斯之嗅"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "希望之光"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "绝望之暗"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "失踪"
+                },
+                {
+                  "day": 6,
+                  "incidentText": "暴乱"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 6,
+              "row": 28
+            },
+            "fields": {
+              "scenarioCode": "WM+-04",
+              "剧本名": "TRUTH behind U",
+              "日文名": "TRUTH behind U",
+              "作者": "弾濫",
+              "轮数": "5",
+              "天数": "6"
+            }
+          }
+        ],
+        "body": "text/scenarios/0d7d7a0e828c3f08.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-04?oldid=1502",
+          "snapshot": "sources/wiki/pages/bbb17110d2749b69.json",
+          "capturedAt": "2026-09-27T04:58:40.008Z"
+        },
+        "wikiTitle": "WM+-04",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-04?action=edit&section=1"
+          },
+          {
+            "title": "WM+-04非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-04?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Weird Mythology Plus"
+        ],
+        "module": "Weird Mythology Plus"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "f7e7caf278c9594e",
+        "title": "WM+-04非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "WM+-04"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1895",
+            "snapshot": "sources/wiki/pages/b24bbf5a512d29c3.json",
+            "capturedAt": "2026-09-27T04:58:45.143Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1895",
+            "snapshot": "sources/wiki/pages/b24bbf5a512d29c3.json",
+            "capturedAt": "2026-09-27T04:58:45.143Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1895",
+            "snapshot": "sources/wiki/pages/b24bbf5a512d29c3.json",
+            "capturedAt": "2026-09-27T04:58:45.143Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1895",
+              "snapshot": "sources/wiki/pages/b24bbf5a512d29c3.json",
+              "capturedAt": "2026-09-27T04:58:45.143Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "WM+-04"
+            }
+          }
+        ],
+        "wikiTitle": "WM+-04非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Weird Mythology Plus",
+        "tags": [
+          "民间",
+          "Weird Mythology Plus"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "f7e7caf278c9594e"
+  ],
+  "conflicts": []
+}

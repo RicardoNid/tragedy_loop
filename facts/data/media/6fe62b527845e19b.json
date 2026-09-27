@@ -1,0 +1,60 @@
+{
+  "id": "6fe62b527845e19b",
+  "title": "教师.png",
+  "kind": "media",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "bytes": 228715,
+    "sha256": "18221325a9cd33f914ec03171c1854573b0f4f6925d168b359f079111c9fdd65"
+  },
+  "provenance": {
+    "bytes": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E6%95%99%E5%B8%88.png",
+      "snapshot": "sources/wiki/files/1719294bfe7ee4cf.json"
+    },
+    "sha256": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E6%95%99%E5%B8%88.png",
+      "snapshot": "sources/wiki/files/1719294bfe7ee4cf.json"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E6%95%99%E5%B8%88.png",
+      "snapshot": "sources/wiki/files/1719294bfe7ee4cf.json"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E6%95%99%E5%B8%88.png",
+        "snapshot": "sources/wiki/files/1719294bfe7ee4cf.json"
+      },
+      "fields": {
+        "bytes": 228715,
+        "sha256": "18221325a9cd33f914ec03171c1854573b0f4f6925d168b359f079111c9fdd65"
+      }
+    }
+  ],
+  "media": [
+    {
+      "title": "教师.png",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:%E6%95%99%E5%B8%88.png",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/4/4d/%E6%95%99%E5%B8%88.png/revision/latest?cb=20251023162226&format=original&path-prefix=zh",
+      "path": "media/wiki/1719294bfe7ee4cf.png",
+      "sourceRecord": "sources/wiki/files/1719294bfe7ee4cf.json",
+      "sha256": "18221325a9cd33f914ec03171c1854573b0f4f6925d168b359f079111c9fdd65",
+      "bytes": 228715,
+      "fileInfo": "PNG image data, 301 x 418, 8-bit/color RGBA, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "tags": [],
+  "conflicts": []
+}

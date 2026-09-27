@@ -1,0 +1,488 @@
+{
+  "id": "e3816103275f44cf",
+  "title": "MZ-15",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "MZ-15非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "MZ-15",
+    "loops": 5,
+    "days": 5,
+    "schedule": [
+      {
+        "day": 2,
+        "incidentText": "自杀"
+      },
+      {
+        "day": 3,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 4,
+        "incidentText": "失踪"
+      },
+      {
+        "day": 5,
+        "incidentText": "失踪"
+      }
+    ],
+    "剧本名": "命定之死",
+    "作者": "Robertayang",
+    "轮数": "5 4",
+    "天数": "5"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-15",
+      "snapshot": "sources/wiki/pages/3b63784a735056d4.json",
+      "capturedAt": "2026-09-27T04:44:26.256Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-15",
+      "snapshot": "sources/wiki/pages/3b63784a735056d4.json",
+      "capturedAt": "2026-09-27T04:44:26.256Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-15",
+      "snapshot": "sources/wiki/pages/3b63784a735056d4.json",
+      "capturedAt": "2026-09-27T04:44:26.256Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-15",
+      "snapshot": "sources/wiki/pages/3b63784a735056d4.json",
+      "capturedAt": "2026-09-27T04:44:26.256Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-15",
+      "snapshot": "sources/wiki/pages/3b63784a735056d4.json",
+      "capturedAt": "2026-09-27T04:44:26.256Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 16
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 16
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 16
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 16
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-15",
+      "snapshot": "sources/wiki/pages/3b63784a735056d4.json",
+      "capturedAt": "2026-09-27T04:44:26.256Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 16
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-15%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/ce48749dc4f5ccdf.json",
+      "capturedAt": "2026-09-27T04:44:29.333Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-15",
+        "snapshot": "sources/wiki/pages/3b63784a735056d4.json",
+        "capturedAt": "2026-09-27T04:44:26.256Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "MZ-15",
+        "loops": 5,
+        "days": 5,
+        "schedule": [
+          {
+            "day": 2,
+            "incidentText": "自杀"
+          },
+          {
+            "day": 3,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 4,
+            "incidentText": "失踪"
+          },
+          {
+            "day": 5,
+            "incidentText": "失踪"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 3,
+        "row": 16
+      },
+      "fields": {
+        "scenarioCode": "MZ-15",
+        "剧本名": "命定之死",
+        "作者": "Robertayang",
+        "轮数": "5 4",
+        "天数": "5"
+      }
+    }
+  ],
+  "wikiTitle": "MZ-15",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Midnight Zone"
+  ],
+  "module": "Midnight Zone",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "e3816103275f44cf",
+        "title": "MZ-15",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "MZ-15",
+          "loops": 5,
+          "days": 5,
+          "schedule": [
+            {
+              "day": 2,
+              "incidentText": "自杀"
+            },
+            {
+              "day": 3,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 4,
+              "incidentText": "失踪"
+            },
+            {
+              "day": 5,
+              "incidentText": "失踪"
+            }
+          ],
+          "剧本名": "命定之死",
+          "作者": "Robertayang",
+          "轮数": "5 4",
+          "天数": "5"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-15",
+            "snapshot": "sources/wiki/pages/3b63784a735056d4.json",
+            "capturedAt": "2026-09-27T04:44:26.256Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-15",
+            "snapshot": "sources/wiki/pages/3b63784a735056d4.json",
+            "capturedAt": "2026-09-27T04:44:26.256Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-15",
+            "snapshot": "sources/wiki/pages/3b63784a735056d4.json",
+            "capturedAt": "2026-09-27T04:44:26.256Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-15",
+            "snapshot": "sources/wiki/pages/3b63784a735056d4.json",
+            "capturedAt": "2026-09-27T04:44:26.256Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-15",
+            "snapshot": "sources/wiki/pages/3b63784a735056d4.json",
+            "capturedAt": "2026-09-27T04:44:26.256Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 16
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 16
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 16
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 16
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-15",
+            "snapshot": "sources/wiki/pages/3b63784a735056d4.json",
+            "capturedAt": "2026-09-27T04:44:26.256Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 16
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-15",
+              "snapshot": "sources/wiki/pages/3b63784a735056d4.json",
+              "capturedAt": "2026-09-27T04:44:26.256Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "MZ-15",
+              "loops": 5,
+              "days": 5,
+              "schedule": [
+                {
+                  "day": 2,
+                  "incidentText": "自杀"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "失踪"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "失踪"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 3,
+              "row": 16
+            },
+            "fields": {
+              "scenarioCode": "MZ-15",
+              "剧本名": "命定之死",
+              "作者": "Robertayang",
+              "轮数": "5 4",
+              "天数": "5"
+            }
+          }
+        ],
+        "body": "text/scenarios/e3816103275f44cf.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-15",
+          "snapshot": "sources/wiki/pages/3b63784a735056d4.json",
+          "capturedAt": "2026-09-27T04:44:26.256Z"
+        },
+        "wikiTitle": "MZ-15",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "MZ-15非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-15%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-15?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Midnight Zone"
+        ],
+        "module": "Midnight Zone"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "33e985dee2188f91",
+        "title": "MZ-15非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "MZ-15",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "魔爪渐进"
+            },
+            {
+              "slot": "X1",
+              "name": "诸神之骰"
+            },
+            {
+              "slot": "X2",
+              "name": "魔女们的茶会"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-15%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/ce48749dc4f5ccdf.json",
+            "capturedAt": "2026-09-27T04:44:29.333Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-15%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/ce48749dc4f5ccdf.json",
+            "capturedAt": "2026-09-27T04:44:29.333Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-15%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/ce48749dc4f5ccdf.json",
+            "capturedAt": "2026-09-27T04:44:29.333Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-15%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/ce48749dc4f5ccdf.json",
+            "capturedAt": "2026-09-27T04:44:29.333Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-15%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/ce48749dc4f5ccdf.json",
+              "capturedAt": "2026-09-27T04:44:29.333Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "MZ-15",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "魔爪渐进"
+                },
+                {
+                  "slot": "X1",
+                  "name": "诸神之骰"
+                },
+                {
+                  "slot": "X2",
+                  "name": "魔女们的茶会"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/33e985dee2188f91.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-15%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/ce48749dc4f5ccdf.json",
+          "capturedAt": "2026-09-27T04:44:29.333Z"
+        },
+        "wikiTitle": "MZ-15非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-15%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Midnight Zone",
+        "tags": [
+          "民间",
+          "Midnight Zone"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "33e985dee2188f91"
+  ],
+  "conflicts": []
+}

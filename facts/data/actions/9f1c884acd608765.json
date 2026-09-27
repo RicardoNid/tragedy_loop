@@ -1,0 +1,55 @@
+{
+  "id": "9f1c884acd608765",
+  "title": "禁止移动",
+  "kind": "actions",
+  "scope": "主人公手牌",
+  "aliases": [],
+  "fields": {
+    "effect": "无效化同一位置的移动卡牌",
+    "count": "1",
+    "oncePerLoop": "是"
+  },
+  "provenance": {
+    "effect": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    },
+    "count": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    },
+    "oncePerLoop": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  },
+  "sources": [
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "effect": "无效化同一位置的移动卡牌",
+        "count": "1",
+        "oncePerLoop": "是"
+      }
+    }
+  ],
+  "actionSide": "主人公",
+  "availability": [],
+  "baseAction": true,
+  "authority": "官方",
+  "tags": [
+    "基础行动牌",
+    "主人公",
+    "官方"
+  ],
+  "conflicts": []
+}

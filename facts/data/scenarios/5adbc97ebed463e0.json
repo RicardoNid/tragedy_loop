@@ -1,0 +1,546 @@
+{
+  "id": "5adbc97ebed463e0",
+  "title": "FS-03",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "FS-03非公开情报表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "FS-03",
+    "loops": 3,
+    "days": 3,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "不安扩散"
+      },
+      {
+        "day": 2,
+        "incidentText": "远距离杀人"
+      },
+      {
+        "day": 3,
+        "incidentText": "失踪"
+      }
+    ],
+    "剧本名": "她来啦",
+    "日文名": "彼女は来た",
+    "英文名": "She’s Here",
+    "作者": "Ryo.Shin",
+    "轮数": "3",
+    "天数": "3",
+    "难度": "2"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-03",
+      "snapshot": "sources/wiki/pages/46f6c984aa87447a.json",
+      "capturedAt": "2026-09-27T04:23:37.158Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-03",
+      "snapshot": "sources/wiki/pages/46f6c984aa87447a.json",
+      "capturedAt": "2026-09-27T04:23:37.158Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-03",
+      "snapshot": "sources/wiki/pages/46f6c984aa87447a.json",
+      "capturedAt": "2026-09-27T04:23:37.158Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-03",
+      "snapshot": "sources/wiki/pages/46f6c984aa87447a.json",
+      "capturedAt": "2026-09-27T04:23:37.158Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-03",
+      "snapshot": "sources/wiki/pages/46f6c984aa87447a.json",
+      "capturedAt": "2026-09-27T04:23:37.158Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 4
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 4
+    },
+    "英文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 4
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 4
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 4
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 4
+    },
+    "难度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 4
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-03",
+      "snapshot": "sources/wiki/pages/46f6c984aa87447a.json",
+      "capturedAt": "2026-09-27T04:23:37.158Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 4
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-03%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/2a639f6973f90aab.json",
+      "capturedAt": "2026-09-27T04:23:52.631Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-03",
+        "snapshot": "sources/wiki/pages/46f6c984aa87447a.json",
+        "capturedAt": "2026-09-27T04:23:37.158Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "FS-03",
+        "loops": 3,
+        "days": 3,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "不安扩散"
+          },
+          {
+            "day": 2,
+            "incidentText": "远距离杀人"
+          },
+          {
+            "day": 3,
+            "incidentText": "失踪"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 1,
+        "row": 4
+      },
+      "fields": {
+        "scenarioCode": "FS-03",
+        "剧本名": "她来啦",
+        "日文名": "彼女は来た",
+        "英文名": "She’s Here",
+        "作者": "Ryo.Shin",
+        "轮数": "3",
+        "天数": "3",
+        "难度": "2"
+      }
+    }
+  ],
+  "wikiTitle": "FS-03",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "First Steps"
+  ],
+  "module": "First Steps",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "5adbc97ebed463e0",
+        "title": "FS-03",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "FS-03",
+          "loops": 3,
+          "days": 3,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "不安扩散"
+            },
+            {
+              "day": 2,
+              "incidentText": "远距离杀人"
+            },
+            {
+              "day": 3,
+              "incidentText": "失踪"
+            }
+          ],
+          "剧本名": "她来啦",
+          "日文名": "彼女は来た",
+          "英文名": "She’s Here",
+          "作者": "Ryo.Shin",
+          "轮数": "3",
+          "天数": "3",
+          "难度": "2"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-03",
+            "snapshot": "sources/wiki/pages/46f6c984aa87447a.json",
+            "capturedAt": "2026-09-27T04:23:37.158Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-03",
+            "snapshot": "sources/wiki/pages/46f6c984aa87447a.json",
+            "capturedAt": "2026-09-27T04:23:37.158Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-03",
+            "snapshot": "sources/wiki/pages/46f6c984aa87447a.json",
+            "capturedAt": "2026-09-27T04:23:37.158Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-03",
+            "snapshot": "sources/wiki/pages/46f6c984aa87447a.json",
+            "capturedAt": "2026-09-27T04:23:37.158Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-03",
+            "snapshot": "sources/wiki/pages/46f6c984aa87447a.json",
+            "capturedAt": "2026-09-27T04:23:37.158Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 4
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 4
+          },
+          "英文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 4
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 4
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 4
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 4
+          },
+          "难度": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 4
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-03",
+            "snapshot": "sources/wiki/pages/46f6c984aa87447a.json",
+            "capturedAt": "2026-09-27T04:23:37.158Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 4
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-03",
+              "snapshot": "sources/wiki/pages/46f6c984aa87447a.json",
+              "capturedAt": "2026-09-27T04:23:37.158Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "FS-03",
+              "loops": 3,
+              "days": 3,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "不安扩散"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "远距离杀人"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "失踪"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 1,
+              "row": 4
+            },
+            "fields": {
+              "scenarioCode": "FS-03",
+              "剧本名": "她来啦",
+              "日文名": "彼女は来た",
+              "英文名": "She’s Here",
+              "作者": "Ryo.Shin",
+              "轮数": "3",
+              "天数": "3",
+              "难度": "2"
+            }
+          }
+        ],
+        "body": "text/scenarios/5adbc97ebed463e0.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-03",
+          "snapshot": "sources/wiki/pages/46f6c984aa87447a.json",
+          "capturedAt": "2026-09-27T04:23:37.158Z"
+        },
+        "wikiTitle": "FS-03",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "FS-03非公开情报表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-03%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-03?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "First Steps"
+        ],
+        "module": "First Steps"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "f2cfa2586969f4f8",
+        "title": "FS-03非公开情报表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "FS-03",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "谋杀计划"
+            },
+            {
+              "slot": "X1",
+              "name": "开膛者的魔影"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-03%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/2a639f6973f90aab.json",
+            "capturedAt": "2026-09-27T04:23:52.631Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-03%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/2a639f6973f90aab.json",
+            "capturedAt": "2026-09-27T04:23:52.631Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-03%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/2a639f6973f90aab.json",
+            "capturedAt": "2026-09-27T04:23:52.631Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-03%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/2a639f6973f90aab.json",
+            "capturedAt": "2026-09-27T04:23:52.631Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-03%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/2a639f6973f90aab.json",
+              "capturedAt": "2026-09-27T04:23:52.631Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "FS-03",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "谋杀计划"
+                },
+                {
+                  "slot": "X1",
+                  "name": "开膛者的魔影"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/f2cfa2586969f4f8.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-03%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/2a639f6973f90aab.json",
+          "capturedAt": "2026-09-27T04:23:52.631Z"
+        },
+        "wikiTitle": "FS-03非公开情报表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "1 她来啦 作者： Ryo.Shin.",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-03%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8#%E5%A5%B9%E6%9D%A5%E5%95%A6_%E4%BD%9C%E8%80%85%EF%BC%9A_Ryo.Shin."
+          },
+          {
+            "title": "1.1 剧本特征",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-03%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8#%E5%89%A7%E6%9C%AC%E7%89%B9%E5%BE%81"
+          },
+          {
+            "title": "1.2 故事",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-03%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8#%E6%95%85%E4%BA%8B"
+          },
+          {
+            "title": "1.3 剧作家指南",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-03%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8#%E5%89%A7%E4%BD%9C%E5%AE%B6%E6%8C%87%E5%8D%97"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-03%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-03%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-03%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8?action=edit&section=3"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-03%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8?action=edit&section=4"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "First Steps",
+        "tags": [
+          "民间",
+          "First Steps"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "f2cfa2586969f4f8"
+  ],
+  "conflicts": []
+}

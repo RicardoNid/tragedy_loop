@@ -1,0 +1,60 @@
+{
+  "id": "6804595fdabfa8f7",
+  "title": "教主是衝動殺人事件的當事人。事件發生需要多少不安指示物？",
+  "kind": "faq",
+  "scope": "纸质 FAQ / AHR / Q23",
+  "aliases": [],
+  "fields": {
+    "question": "教主是衝動殺人事件的當事人。事件發生需要多少不安指示物？",
+    "answer": "需要1枚。由於教主的特性，事件發生時的效果包括事件發生條件的變化，因此需要減去2次。"
+  },
+  "provenance": {
+    "question": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+      "snapshot": "sources/paper-faq/another-horizon-revised.json",
+      "page": 17,
+      "questionNumber": 23
+    },
+    "answer": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+      "snapshot": "sources/paper-faq/another-horizon-revised.json",
+      "page": 17,
+      "questionNumber": 23
+    }
+  },
+  "sources": [
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+      "snapshot": "sources/paper-faq/another-horizon-revised.json",
+      "page": 17,
+      "questionNumber": 23
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+        "snapshot": "sources/paper-faq/another-horizon-revised.json",
+        "page": 17,
+        "questionNumber": 23
+      },
+      "fields": {
+        "question": "教主是衝動殺人事件的當事人。事件發生需要多少不安指示物？",
+        "answer": "需要1枚。由於教主的特性，事件發生時的效果包括事件發生條件的變化，因此需要減去2次。"
+      }
+    }
+  ],
+  "tags": [
+    "AHR",
+    "纸质 FAQ",
+    "事件",
+    "官方"
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+  "conflicts": []
+}

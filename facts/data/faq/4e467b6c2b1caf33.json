@@ -1,0 +1,67 @@
+{
+  "id": "4e467b6c2b1caf33",
+  "title": "能力的发动规则是什么？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 基础规则 / 第 33 行",
+  "aliases": [],
+  "fields": {
+    "question": "能力的发动规则是什么？",
+    "answer": "在同一阶段，强制优先同时结算，然后是可选结算"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+      "snapshot": "sources/faq-sheet/basic.json",
+      "sheet": "基础规则",
+      "row": 33,
+      "cells": "A33:B33",
+      "capturedAt": "2026-09-27T05:40:57.223Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+      "snapshot": "sources/faq-sheet/basic.json",
+      "sheet": "基础规则",
+      "row": 33,
+      "cells": "A33:B33",
+      "capturedAt": "2026-09-27T05:40:57.223Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+      "snapshot": "sources/faq-sheet/basic.json",
+      "sheet": "基础规则",
+      "row": 33,
+      "cells": "A33:B33",
+      "capturedAt": "2026-09-27T05:40:57.223Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+        "snapshot": "sources/faq-sheet/basic.json",
+        "sheet": "基础规则",
+        "row": 33,
+        "cells": "A33:B33",
+        "capturedAt": "2026-09-27T05:40:57.223Z"
+      },
+      "fields": {
+        "question": "能力的发动规则是什么？",
+        "answer": "在同一阶段，强制优先同时结算，然后是可选结算"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "基础规则",
+    "剧作家能力",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

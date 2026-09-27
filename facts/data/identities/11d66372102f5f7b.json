@@ -1,0 +1,67 @@
+{
+  "id": "11d66372102f5f7b",
+  "title": "强迫症",
+  "kind": "identities",
+  "scope": "Sin City",
+  "aliases": [],
+  "fields": {
+    "max": "",
+    "traits": "必定无视友好",
+    "abilities": [
+      "【强制：剧本制作时】必须成为某1个事件的当事人",
+      "【强制：事件阶段】当事人为该角色的事件必定会发生"
+    ]
+  },
+  "provenance": {
+    "max": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Sin_City",
+      "snapshot": "sources/wiki/pages/59c6099598cb6333.json",
+      "capturedAt": "2026-09-27T03:30:03.250Z"
+    },
+    "traits": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Sin_City",
+      "snapshot": "sources/wiki/pages/59c6099598cb6333.json",
+      "capturedAt": "2026-09-27T03:30:03.250Z"
+    },
+    "abilities": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Sin_City",
+      "snapshot": "sources/wiki/pages/59c6099598cb6333.json",
+      "capturedAt": "2026-09-27T03:30:03.250Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Sin_City",
+      "snapshot": "sources/wiki/pages/59c6099598cb6333.json",
+      "capturedAt": "2026-09-27T03:30:03.250Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Sin_City",
+        "snapshot": "sources/wiki/pages/59c6099598cb6333.json",
+        "capturedAt": "2026-09-27T03:30:03.250Z"
+      },
+      "fields": {
+        "max": "",
+        "traits": "必定无视友好",
+        "abilities": [
+          "【强制：剧本制作时】必须成为某1个事件的当事人",
+          "【强制：事件阶段】当事人为该角色的事件必定会发生"
+        ]
+      }
+    }
+  ],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "民间"
+  ],
+  "conflicts": []
+}

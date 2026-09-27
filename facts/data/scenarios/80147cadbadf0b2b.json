@@ -1,0 +1,358 @@
+{
+  "id": "80147cadbadf0b2b",
+  "title": "LL-11",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "LL-11非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "LL-11",
+    "loops": 5,
+    "days": 5,
+    "剧本名": "两只黑猫",
+    "作者": "α聆弦",
+    "轮数": "5",
+    "天数": "5"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-11",
+      "snapshot": "sources/wiki/pages/99f249b304ba4b4b.json",
+      "capturedAt": "2026-09-27T04:32:39.252Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-11",
+      "snapshot": "sources/wiki/pages/99f249b304ba4b4b.json",
+      "capturedAt": "2026-09-27T04:32:39.252Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-11",
+      "snapshot": "sources/wiki/pages/99f249b304ba4b4b.json",
+      "capturedAt": "2026-09-27T04:32:39.252Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-11",
+      "snapshot": "sources/wiki/pages/99f249b304ba4b4b.json",
+      "capturedAt": "2026-09-27T04:32:39.252Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 8,
+      "row": 12
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 8,
+      "row": 12
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 8,
+      "row": 12
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 8,
+      "row": 12
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-11",
+      "snapshot": "sources/wiki/pages/99f249b304ba4b4b.json",
+      "capturedAt": "2026-09-27T04:32:39.252Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 8,
+      "row": 12
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/82e31320b181d2af.json",
+      "capturedAt": "2026-09-27T04:32:42.177Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-11",
+        "snapshot": "sources/wiki/pages/99f249b304ba4b4b.json",
+        "capturedAt": "2026-09-27T04:32:39.252Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "LL-11",
+        "loops": 5,
+        "days": 5
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 8,
+        "row": 12
+      },
+      "fields": {
+        "scenarioCode": "LL-11",
+        "剧本名": "两只黑猫",
+        "作者": "α聆弦",
+        "轮数": "5",
+        "天数": "5"
+      }
+    }
+  ],
+  "wikiTitle": "LL-11",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Last Liar"
+  ],
+  "module": "Last Liar",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "80147cadbadf0b2b",
+        "title": "LL-11",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "LL-11",
+          "loops": 5,
+          "days": 5,
+          "剧本名": "两只黑猫",
+          "作者": "α聆弦",
+          "轮数": "5",
+          "天数": "5"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-11",
+            "snapshot": "sources/wiki/pages/99f249b304ba4b4b.json",
+            "capturedAt": "2026-09-27T04:32:39.252Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-11",
+            "snapshot": "sources/wiki/pages/99f249b304ba4b4b.json",
+            "capturedAt": "2026-09-27T04:32:39.252Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-11",
+            "snapshot": "sources/wiki/pages/99f249b304ba4b4b.json",
+            "capturedAt": "2026-09-27T04:32:39.252Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-11",
+            "snapshot": "sources/wiki/pages/99f249b304ba4b4b.json",
+            "capturedAt": "2026-09-27T04:32:39.252Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 8,
+            "row": 12
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 8,
+            "row": 12
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 8,
+            "row": 12
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 8,
+            "row": 12
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-11",
+            "snapshot": "sources/wiki/pages/99f249b304ba4b4b.json",
+            "capturedAt": "2026-09-27T04:32:39.252Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 8,
+            "row": 12
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-11",
+              "snapshot": "sources/wiki/pages/99f249b304ba4b4b.json",
+              "capturedAt": "2026-09-27T04:32:39.252Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "LL-11",
+              "loops": 5,
+              "days": 5
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 8,
+              "row": 12
+            },
+            "fields": {
+              "scenarioCode": "LL-11",
+              "剧本名": "两只黑猫",
+              "作者": "α聆弦",
+              "轮数": "5",
+              "天数": "5"
+            }
+          }
+        ],
+        "body": "text/scenarios/80147cadbadf0b2b.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-11",
+          "snapshot": "sources/wiki/pages/99f249b304ba4b4b.json",
+          "capturedAt": "2026-09-27T04:32:39.252Z"
+        },
+        "wikiTitle": "LL-11",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "LL-11非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-11?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Last Liar"
+        ],
+        "module": "Last Liar"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "c5f71e1c2ab5265a",
+        "title": "LL-11非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "LL-11"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/82e31320b181d2af.json",
+            "capturedAt": "2026-09-27T04:32:42.177Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/82e31320b181d2af.json",
+            "capturedAt": "2026-09-27T04:32:42.177Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/82e31320b181d2af.json",
+            "capturedAt": "2026-09-27T04:32:42.177Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/82e31320b181d2af.json",
+              "capturedAt": "2026-09-27T04:32:42.177Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "LL-11"
+            }
+          }
+        ],
+        "wikiTitle": "LL-11非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Last Liar",
+        "tags": [
+          "民间",
+          "Last Liar"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "c5f71e1c2ab5265a"
+  ],
+  "conflicts": []
+}

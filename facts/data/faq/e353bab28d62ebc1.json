@@ -1,0 +1,60 @@
+{
+  "id": "e353bab28d62ebc1",
+  "title": "在導入擴展規則的遊戲中，可以將局外人或模仿犯設為因果殘片嗎？",
+  "kind": "faq",
+  "scope": "纸质 FAQ / 十周年 / Q28",
+  "aliases": [],
+  "fields": {
+    "question": "在導入擴展規則的遊戲中，可以將局外人或模仿犯設為因果殘片嗎？",
+    "answer": "局外人不行而模仿犯可以。因為慘劇模組中其實沒有因果殘片這個身份，而劇本中的確有因果殘片存在。"
+  },
+  "provenance": {
+    "question": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+      "snapshot": "sources/paper-faq/anniversary.json",
+      "page": 12,
+      "questionNumber": 28
+    },
+    "answer": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+      "snapshot": "sources/paper-faq/anniversary.json",
+      "page": 12,
+      "questionNumber": 28
+    }
+  },
+  "sources": [
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+      "snapshot": "sources/paper-faq/anniversary.json",
+      "page": 12,
+      "questionNumber": 28
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+        "snapshot": "sources/paper-faq/anniversary.json",
+        "page": 12,
+        "questionNumber": 28
+      },
+      "fields": {
+        "question": "在導入擴展規則的遊戲中，可以將局外人或模仿犯設為因果殘片嗎？",
+        "answer": "局外人不行而模仿犯可以。因為慘劇模組中其實沒有因果殘片這個身份，而劇本中的確有因果殘片存在。"
+      }
+    }
+  ],
+  "tags": [
+    "十周年",
+    "纸质 FAQ",
+    "扩展规则",
+    "官方"
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+  "conflicts": []
+}

@@ -1,0 +1,442 @@
+{
+  "id": "524498a6af7b98ba",
+  "title": "LL-13",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "LL-13非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "LL-13",
+    "loops": 4,
+    "days": 7,
+    "schedule": [
+      {
+        "day": 2,
+        "incidentText": "遗言"
+      },
+      {
+        "day": 3,
+        "incidentText": "代行者"
+      },
+      {
+        "day": 5,
+        "incidentText": "谋杀"
+      },
+      {
+        "day": 7,
+        "incidentText": "代行者"
+      }
+    ],
+    "剧本名": "转瞬即逝的人类",
+    "作者": "弾濫",
+    "轮数": "4",
+    "天数": "7"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-13",
+      "snapshot": "sources/wiki/pages/187520032262158c.json",
+      "capturedAt": "2026-09-27T04:32:51.620Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-13",
+      "snapshot": "sources/wiki/pages/187520032262158c.json",
+      "capturedAt": "2026-09-27T04:32:51.620Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-13",
+      "snapshot": "sources/wiki/pages/187520032262158c.json",
+      "capturedAt": "2026-09-27T04:32:51.620Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-13",
+      "snapshot": "sources/wiki/pages/187520032262158c.json",
+      "capturedAt": "2026-09-27T04:32:51.620Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-13",
+      "snapshot": "sources/wiki/pages/187520032262158c.json",
+      "capturedAt": "2026-09-27T04:32:51.620Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 8,
+      "row": 14
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 8,
+      "row": 14
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 8,
+      "row": 14
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 8,
+      "row": 14
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-13",
+      "snapshot": "sources/wiki/pages/187520032262158c.json",
+      "capturedAt": "2026-09-27T04:32:51.620Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 8,
+      "row": 14
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/14bbc2c66236b439.json",
+      "capturedAt": "2026-09-27T04:32:54.589Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-13",
+        "snapshot": "sources/wiki/pages/187520032262158c.json",
+        "capturedAt": "2026-09-27T04:32:51.620Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "LL-13",
+        "loops": 4,
+        "days": 7,
+        "schedule": [
+          {
+            "day": 2,
+            "incidentText": "遗言"
+          },
+          {
+            "day": 3,
+            "incidentText": "代行者"
+          },
+          {
+            "day": 5,
+            "incidentText": "谋杀"
+          },
+          {
+            "day": 7,
+            "incidentText": "代行者"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 8,
+        "row": 14
+      },
+      "fields": {
+        "scenarioCode": "LL-13",
+        "剧本名": "转瞬即逝的人类",
+        "作者": "弾濫",
+        "轮数": "4",
+        "天数": "7"
+      }
+    }
+  ],
+  "wikiTitle": "LL-13",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Last Liar"
+  ],
+  "module": "Last Liar",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "524498a6af7b98ba",
+        "title": "LL-13",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "LL-13",
+          "loops": 4,
+          "days": 7,
+          "schedule": [
+            {
+              "day": 2,
+              "incidentText": "遗言"
+            },
+            {
+              "day": 3,
+              "incidentText": "代行者"
+            },
+            {
+              "day": 5,
+              "incidentText": "谋杀"
+            },
+            {
+              "day": 7,
+              "incidentText": "代行者"
+            }
+          ],
+          "剧本名": "转瞬即逝的人类",
+          "作者": "弾濫",
+          "轮数": "4",
+          "天数": "7"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-13",
+            "snapshot": "sources/wiki/pages/187520032262158c.json",
+            "capturedAt": "2026-09-27T04:32:51.620Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-13",
+            "snapshot": "sources/wiki/pages/187520032262158c.json",
+            "capturedAt": "2026-09-27T04:32:51.620Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-13",
+            "snapshot": "sources/wiki/pages/187520032262158c.json",
+            "capturedAt": "2026-09-27T04:32:51.620Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-13",
+            "snapshot": "sources/wiki/pages/187520032262158c.json",
+            "capturedAt": "2026-09-27T04:32:51.620Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-13",
+            "snapshot": "sources/wiki/pages/187520032262158c.json",
+            "capturedAt": "2026-09-27T04:32:51.620Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 8,
+            "row": 14
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 8,
+            "row": 14
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 8,
+            "row": 14
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 8,
+            "row": 14
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-13",
+            "snapshot": "sources/wiki/pages/187520032262158c.json",
+            "capturedAt": "2026-09-27T04:32:51.620Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 8,
+            "row": 14
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-13",
+              "snapshot": "sources/wiki/pages/187520032262158c.json",
+              "capturedAt": "2026-09-27T04:32:51.620Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "LL-13",
+              "loops": 4,
+              "days": 7,
+              "schedule": [
+                {
+                  "day": 2,
+                  "incidentText": "遗言"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "代行者"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "谋杀"
+                },
+                {
+                  "day": 7,
+                  "incidentText": "代行者"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 8,
+              "row": 14
+            },
+            "fields": {
+              "scenarioCode": "LL-13",
+              "剧本名": "转瞬即逝的人类",
+              "作者": "弾濫",
+              "轮数": "4",
+              "天数": "7"
+            }
+          }
+        ],
+        "body": "text/scenarios/524498a6af7b98ba.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-13",
+          "snapshot": "sources/wiki/pages/187520032262158c.json",
+          "capturedAt": "2026-09-27T04:32:51.620Z"
+        },
+        "wikiTitle": "LL-13",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "LL-13非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-13?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Last Liar"
+        ],
+        "module": "Last Liar"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "af7a38e30f0b983b",
+        "title": "LL-13非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "LL-13"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/14bbc2c66236b439.json",
+            "capturedAt": "2026-09-27T04:32:54.589Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/14bbc2c66236b439.json",
+            "capturedAt": "2026-09-27T04:32:54.589Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/14bbc2c66236b439.json",
+            "capturedAt": "2026-09-27T04:32:54.589Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/14bbc2c66236b439.json",
+              "capturedAt": "2026-09-27T04:32:54.589Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "LL-13"
+            }
+          }
+        ],
+        "wikiTitle": "LL-13非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Last Liar",
+        "tags": [
+          "民间",
+          "Last Liar"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "af7a38e30f0b983b"
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,58 @@
+{
+  "id": "a53a44f99a6e5e82",
+  "title": "廷达罗斯之嗅",
+  "kind": "incidents",
+  "scope": "Weird Mythology",
+  "aliases": [],
+  "fields": {
+    "effect": "<通过密谋指示物数量判定是否发生>本轮轮回剩余时间，如果发生其他事件，则在那个事件阶段结束时，主人公死亡"
+  },
+  "provenance": {
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Weird_Mythology",
+      "snapshot": "sources/wiki/pages/4d608cef3c4485cd.json",
+      "capturedAt": "2026-09-27T03:30:15.425Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Weird_Mythology",
+      "snapshot": "sources/wiki/pages/4d608cef3c4485cd.json",
+      "capturedAt": "2026-09-27T03:30:15.425Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Weird_Mythology",
+        "snapshot": "sources/wiki/pages/4d608cef3c4485cd.json",
+        "capturedAt": "2026-09-27T03:30:15.425Z"
+      },
+      "fields": {
+        "effect": "<通过密谋指示物数量判定是否发生>本轮轮回剩余时间，如果发生其他事件，则在那个事件阶段结束时，主人公死亡"
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "effect": "<通过密谋指示物数量判定是否发生>本轮轮回剩余时间，如果发生其他事件，则在那个事件阶段结束时，主人公死亡"
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "官方"
+  ],
+  "conflicts": []
+}

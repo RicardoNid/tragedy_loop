@@ -1,0 +1,58 @@
+{
+  "id": "261b1bc2ac9f275a",
+  "title": "遗言",
+  "kind": "incidents",
+  "scope": "Another Horizon Revised",
+  "aliases": [],
+  "fields": {
+    "effect": "当事人死亡，下轮轮回开始时，主人公获得[希望+1]"
+  },
+  "provenance": {
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon_Revised",
+      "snapshot": "sources/wiki/pages/5a4c2d8594c08b1e.json",
+      "capturedAt": "2026-09-27T03:28:24.166Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon_Revised",
+      "snapshot": "sources/wiki/pages/5a4c2d8594c08b1e.json",
+      "capturedAt": "2026-09-27T03:28:24.166Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon_Revised",
+        "snapshot": "sources/wiki/pages/5a4c2d8594c08b1e.json",
+        "capturedAt": "2026-09-27T03:28:24.166Z"
+      },
+      "fields": {
+        "effect": "当事人死亡，下轮轮回开始时，主人公获得[希望+1]"
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "effect": "当事人死亡，下轮轮回开始时，主人公获得[希望+1]"
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "官方"
+  ],
+  "conflicts": []
+}

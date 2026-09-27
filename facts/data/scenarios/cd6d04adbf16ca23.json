@@ -1,0 +1,430 @@
+{
+  "id": "cd6d04adbf16ca23",
+  "title": "WM-02",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "WM-02非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "WM-02",
+    "loops": 5,
+    "days": 3,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "不安扩散"
+      },
+      {
+        "day": 2,
+        "incidentText": "不安扩散"
+      },
+      {
+        "day": 3,
+        "incidentText": "不安扩散"
+      }
+    ],
+    "剧本名": "不容玷污的血脉",
+    "作者": "Choconut",
+    "轮数": "4",
+    "天数": "3"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-02?oldid=1437",
+      "snapshot": "sources/wiki/pages/c4861708eed1acbe.json",
+      "capturedAt": "2026-09-27T04:59:29.229Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-02?oldid=1437",
+      "snapshot": "sources/wiki/pages/c4861708eed1acbe.json",
+      "capturedAt": "2026-09-27T04:59:29.229Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-02?oldid=1437",
+      "snapshot": "sources/wiki/pages/c4861708eed1acbe.json",
+      "capturedAt": "2026-09-27T04:59:29.229Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-02?oldid=1437",
+      "snapshot": "sources/wiki/pages/c4861708eed1acbe.json",
+      "capturedAt": "2026-09-27T04:59:29.229Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-02?oldid=1437",
+      "snapshot": "sources/wiki/pages/c4861708eed1acbe.json",
+      "capturedAt": "2026-09-27T04:59:29.229Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 3
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 3
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 3
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 3
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-02?oldid=1437",
+      "snapshot": "sources/wiki/pages/c4861708eed1acbe.json",
+      "capturedAt": "2026-09-27T04:59:29.229Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 3
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-02%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1891",
+      "snapshot": "sources/wiki/pages/21b04540ff34d79c.json",
+      "capturedAt": "2026-09-27T04:59:34.661Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-02?oldid=1437",
+        "snapshot": "sources/wiki/pages/c4861708eed1acbe.json",
+        "capturedAt": "2026-09-27T04:59:29.229Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "WM-02",
+        "loops": 5,
+        "days": 3,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "不安扩散"
+          },
+          {
+            "day": 2,
+            "incidentText": "不安扩散"
+          },
+          {
+            "day": 3,
+            "incidentText": "不安扩散"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 6,
+        "row": 3
+      },
+      "fields": {
+        "scenarioCode": "WM-02",
+        "剧本名": "不容玷污的血脉",
+        "作者": "Choconut",
+        "轮数": "4",
+        "天数": "3"
+      }
+    }
+  ],
+  "wikiTitle": "WM-02",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Weird Mythology"
+  ],
+  "module": "Weird Mythology",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "cd6d04adbf16ca23",
+        "title": "WM-02",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "WM-02",
+          "loops": 5,
+          "days": 3,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "不安扩散"
+            },
+            {
+              "day": 2,
+              "incidentText": "不安扩散"
+            },
+            {
+              "day": 3,
+              "incidentText": "不安扩散"
+            }
+          ],
+          "剧本名": "不容玷污的血脉",
+          "作者": "Choconut",
+          "轮数": "4",
+          "天数": "3"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-02?oldid=1437",
+            "snapshot": "sources/wiki/pages/c4861708eed1acbe.json",
+            "capturedAt": "2026-09-27T04:59:29.229Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-02?oldid=1437",
+            "snapshot": "sources/wiki/pages/c4861708eed1acbe.json",
+            "capturedAt": "2026-09-27T04:59:29.229Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-02?oldid=1437",
+            "snapshot": "sources/wiki/pages/c4861708eed1acbe.json",
+            "capturedAt": "2026-09-27T04:59:29.229Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-02?oldid=1437",
+            "snapshot": "sources/wiki/pages/c4861708eed1acbe.json",
+            "capturedAt": "2026-09-27T04:59:29.229Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-02?oldid=1437",
+            "snapshot": "sources/wiki/pages/c4861708eed1acbe.json",
+            "capturedAt": "2026-09-27T04:59:29.229Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 3
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 3
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 3
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 3
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-02?oldid=1437",
+            "snapshot": "sources/wiki/pages/c4861708eed1acbe.json",
+            "capturedAt": "2026-09-27T04:59:29.229Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 3
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-02?oldid=1437",
+              "snapshot": "sources/wiki/pages/c4861708eed1acbe.json",
+              "capturedAt": "2026-09-27T04:59:29.229Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "WM-02",
+              "loops": 5,
+              "days": 3,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "不安扩散"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "不安扩散"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "不安扩散"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 6,
+              "row": 3
+            },
+            "fields": {
+              "scenarioCode": "WM-02",
+              "剧本名": "不容玷污的血脉",
+              "作者": "Choconut",
+              "轮数": "4",
+              "天数": "3"
+            }
+          }
+        ],
+        "body": "text/scenarios/cd6d04adbf16ca23.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-02?oldid=1437",
+          "snapshot": "sources/wiki/pages/c4861708eed1acbe.json",
+          "capturedAt": "2026-09-27T04:59:29.229Z"
+        },
+        "wikiTitle": "WM-02",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-02?action=edit&section=1"
+          },
+          {
+            "title": "WM-02非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-02%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-02?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Weird Mythology"
+        ],
+        "module": "Weird Mythology"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "4cfd0d80c3ed4dfb",
+        "title": "WM-02非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "WM-02"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-02%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1891",
+            "snapshot": "sources/wiki/pages/21b04540ff34d79c.json",
+            "capturedAt": "2026-09-27T04:59:34.661Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-02%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1891",
+            "snapshot": "sources/wiki/pages/21b04540ff34d79c.json",
+            "capturedAt": "2026-09-27T04:59:34.661Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-02%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1891",
+            "snapshot": "sources/wiki/pages/21b04540ff34d79c.json",
+            "capturedAt": "2026-09-27T04:59:34.661Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-02%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1891",
+              "snapshot": "sources/wiki/pages/21b04540ff34d79c.json",
+              "capturedAt": "2026-09-27T04:59:34.661Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "WM-02"
+            }
+          }
+        ],
+        "wikiTitle": "WM-02非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Weird Mythology",
+        "tags": [
+          "民间",
+          "Weird Mythology"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "4cfd0d80c3ed4dfb"
+  ],
+  "conflicts": []
+}

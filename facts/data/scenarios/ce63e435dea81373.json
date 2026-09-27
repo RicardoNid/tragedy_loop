@@ -1,0 +1,508 @@
+{
+  "id": "ce63e435dea81373",
+  "title": "BTX-129",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "BTX-129非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "BTX-129",
+    "loops": 5,
+    "days": 6,
+    "schedule": [
+      {
+        "day": 2,
+        "incidentText": "自杀"
+      },
+      {
+        "day": 3,
+        "incidentText": "失踪"
+      },
+      {
+        "day": 4,
+        "incidentText": "医院事故"
+      },
+      {
+        "day": 5,
+        "incidentText": "蝴蝶效应"
+      },
+      {
+        "day": 6,
+        "incidentText": "远距离杀人"
+      }
+    ],
+    "剧本名": "穿梭时间的猫咪",
+    "作者": "电狼",
+    "轮数": "5 4",
+    "天数": "6"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-129",
+      "snapshot": "sources/wiki/pages/b4abaea540b9296d.json",
+      "capturedAt": "2026-09-27T03:57:42.326Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-129",
+      "snapshot": "sources/wiki/pages/b4abaea540b9296d.json",
+      "capturedAt": "2026-09-27T03:57:42.326Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-129",
+      "snapshot": "sources/wiki/pages/b4abaea540b9296d.json",
+      "capturedAt": "2026-09-27T03:57:42.326Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-129",
+      "snapshot": "sources/wiki/pages/b4abaea540b9296d.json",
+      "capturedAt": "2026-09-27T03:57:42.326Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-129",
+      "snapshot": "sources/wiki/pages/b4abaea540b9296d.json",
+      "capturedAt": "2026-09-27T03:57:42.326Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 134
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 134
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 134
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 134
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-129",
+      "snapshot": "sources/wiki/pages/b4abaea540b9296d.json",
+      "capturedAt": "2026-09-27T03:57:42.326Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 134
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-129%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/99fdf747b4d6b88c.json",
+      "capturedAt": "2026-09-27T03:57:45.152Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-129",
+        "snapshot": "sources/wiki/pages/b4abaea540b9296d.json",
+        "capturedAt": "2026-09-27T03:57:42.326Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "BTX-129",
+        "loops": 5,
+        "days": 6,
+        "schedule": [
+          {
+            "day": 2,
+            "incidentText": "自杀"
+          },
+          {
+            "day": 3,
+            "incidentText": "失踪"
+          },
+          {
+            "day": 4,
+            "incidentText": "医院事故"
+          },
+          {
+            "day": 5,
+            "incidentText": "蝴蝶效应"
+          },
+          {
+            "day": 6,
+            "incidentText": "远距离杀人"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 2,
+        "row": 134
+      },
+      "fields": {
+        "scenarioCode": "BTX-129",
+        "剧本名": "穿梭时间的猫咪",
+        "作者": "电狼",
+        "轮数": "5 4",
+        "天数": "6"
+      }
+    }
+  ],
+  "wikiTitle": "BTX-129",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Basic Tragedy X"
+  ],
+  "module": "Basic Tragedy X",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "ce63e435dea81373",
+        "title": "BTX-129",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "BTX-129",
+          "loops": 5,
+          "days": 6,
+          "schedule": [
+            {
+              "day": 2,
+              "incidentText": "自杀"
+            },
+            {
+              "day": 3,
+              "incidentText": "失踪"
+            },
+            {
+              "day": 4,
+              "incidentText": "医院事故"
+            },
+            {
+              "day": 5,
+              "incidentText": "蝴蝶效应"
+            },
+            {
+              "day": 6,
+              "incidentText": "远距离杀人"
+            }
+          ],
+          "剧本名": "穿梭时间的猫咪",
+          "作者": "电狼",
+          "轮数": "5 4",
+          "天数": "6"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-129",
+            "snapshot": "sources/wiki/pages/b4abaea540b9296d.json",
+            "capturedAt": "2026-09-27T03:57:42.326Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-129",
+            "snapshot": "sources/wiki/pages/b4abaea540b9296d.json",
+            "capturedAt": "2026-09-27T03:57:42.326Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-129",
+            "snapshot": "sources/wiki/pages/b4abaea540b9296d.json",
+            "capturedAt": "2026-09-27T03:57:42.326Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-129",
+            "snapshot": "sources/wiki/pages/b4abaea540b9296d.json",
+            "capturedAt": "2026-09-27T03:57:42.326Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-129",
+            "snapshot": "sources/wiki/pages/b4abaea540b9296d.json",
+            "capturedAt": "2026-09-27T03:57:42.326Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 134
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 134
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 134
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 134
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-129",
+            "snapshot": "sources/wiki/pages/b4abaea540b9296d.json",
+            "capturedAt": "2026-09-27T03:57:42.326Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 134
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-129",
+              "snapshot": "sources/wiki/pages/b4abaea540b9296d.json",
+              "capturedAt": "2026-09-27T03:57:42.326Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "BTX-129",
+              "loops": 5,
+              "days": 6,
+              "schedule": [
+                {
+                  "day": 2,
+                  "incidentText": "自杀"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "失踪"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "医院事故"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "蝴蝶效应"
+                },
+                {
+                  "day": 6,
+                  "incidentText": "远距离杀人"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 2,
+              "row": 134
+            },
+            "fields": {
+              "scenarioCode": "BTX-129",
+              "剧本名": "穿梭时间的猫咪",
+              "作者": "电狼",
+              "轮数": "5 4",
+              "天数": "6"
+            }
+          }
+        ],
+        "body": "text/scenarios/ce63e435dea81373.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-129",
+          "snapshot": "sources/wiki/pages/b4abaea540b9296d.json",
+          "capturedAt": "2026-09-27T03:57:42.326Z"
+        },
+        "wikiTitle": "BTX-129",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "BTX-129非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-129%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-129?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Basic Tragedy X"
+        ],
+        "module": "Basic Tragedy X"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "23d15b17f041667a",
+        "title": "BTX-129非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "BTX-129",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "改变未来"
+            },
+            {
+              "slot": "X1",
+              "name": "恋爱风景线"
+            },
+            {
+              "slot": "X2",
+              "name": "潜伏的杀人狂"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-129%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/99fdf747b4d6b88c.json",
+            "capturedAt": "2026-09-27T03:57:45.152Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-129%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/99fdf747b4d6b88c.json",
+            "capturedAt": "2026-09-27T03:57:45.152Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-129%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/99fdf747b4d6b88c.json",
+            "capturedAt": "2026-09-27T03:57:45.152Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-129%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/99fdf747b4d6b88c.json",
+            "capturedAt": "2026-09-27T03:57:45.152Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-129%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/99fdf747b4d6b88c.json",
+              "capturedAt": "2026-09-27T03:57:45.152Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "BTX-129",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "改变未来"
+                },
+                {
+                  "slot": "X1",
+                  "name": "恋爱风景线"
+                },
+                {
+                  "slot": "X2",
+                  "name": "潜伏的杀人狂"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/23d15b17f041667a.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-129%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/99fdf747b4d6b88c.json",
+          "capturedAt": "2026-09-27T03:57:45.152Z"
+        },
+        "wikiTitle": "BTX-129非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-129%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-129%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Basic Tragedy X",
+        "tags": [
+          "民间",
+          "Basic Tragedy X"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "23d15b17f041667a"
+  ],
+  "conflicts": []
+}

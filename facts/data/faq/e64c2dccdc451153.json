@@ -1,0 +1,60 @@
+{
+  "id": "e64c2dccdc451153",
+  "title": "在結算代行者事件時，選擇主人公玩家時能夠查看他的Ex牌嗎？",
+  "kind": "faq",
+  "scope": "纸质 FAQ / LL / Q14",
+  "aliases": [],
+  "fields": {
+    "question": "在結算代行者事件時，選擇主人公玩家時能夠查看他的Ex牌嗎？",
+    "answer": "不可以。代行者並未帶有這個效果。請劇作家自行推理一下指名哪位主人公才會對自己更為有利。"
+  },
+  "provenance": {
+    "question": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+      "snapshot": "sources/paper-faq/last-liar.json",
+      "page": 14,
+      "questionNumber": 14
+    },
+    "answer": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+      "snapshot": "sources/paper-faq/last-liar.json",
+      "page": 14,
+      "questionNumber": 14
+    }
+  },
+  "sources": [
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+      "snapshot": "sources/paper-faq/last-liar.json",
+      "page": 14,
+      "questionNumber": 14
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+        "snapshot": "sources/paper-faq/last-liar.json",
+        "page": 14,
+        "questionNumber": 14
+      },
+      "fields": {
+        "question": "在結算代行者事件時，選擇主人公玩家時能夠查看他的Ex牌嗎？",
+        "answer": "不可以。代行者並未帶有這個效果。請劇作家自行推理一下指名哪位主人公才會對自己更為有利。"
+      }
+    }
+  ],
+  "tags": [
+    "LL",
+    "纸质 FAQ",
+    "身份与事件",
+    "官方"
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+  "conflicts": []
+}

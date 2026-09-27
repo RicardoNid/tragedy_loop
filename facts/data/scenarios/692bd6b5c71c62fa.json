@@ -1,0 +1,556 @@
+{
+  "id": "692bd6b5c71c62fa",
+  "title": "MC-04",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "MC-04非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "MC-04",
+    "loops": 4,
+    "days": 4,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "不安扩散"
+      },
+      {
+        "day": 2,
+        "incidentText": "前兆"
+      },
+      {
+        "day": 3,
+        "incidentText": "可疑信件"
+      },
+      {
+        "day": 4,
+        "incidentText": "自杀"
+      }
+    ],
+    "剧本名": "正在启动自毁模式",
+    "日文名": "自己破壊モードを開始しています",
+    "作者": "高雷",
+    "轮数": "4",
+    "天数": "4",
+    "难度": "5"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-04",
+      "snapshot": "sources/wiki/pages/193ae038f0a7dab5.json",
+      "capturedAt": "2026-09-27T04:33:50.251Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-04",
+      "snapshot": "sources/wiki/pages/193ae038f0a7dab5.json",
+      "capturedAt": "2026-09-27T04:33:50.251Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-04",
+      "snapshot": "sources/wiki/pages/193ae038f0a7dab5.json",
+      "capturedAt": "2026-09-27T04:33:50.251Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-04",
+      "snapshot": "sources/wiki/pages/193ae038f0a7dab5.json",
+      "capturedAt": "2026-09-27T04:33:50.251Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-04",
+      "snapshot": "sources/wiki/pages/193ae038f0a7dab5.json",
+      "capturedAt": "2026-09-27T04:33:50.251Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 6
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 6
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 6
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 6
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 6
+    },
+    "难度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 6
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-04",
+      "snapshot": "sources/wiki/pages/193ae038f0a7dab5.json",
+      "capturedAt": "2026-09-27T04:33:50.251Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 6
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/b159cb86279283ab.json",
+      "capturedAt": "2026-09-27T04:33:53.270Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-04",
+        "snapshot": "sources/wiki/pages/193ae038f0a7dab5.json",
+        "capturedAt": "2026-09-27T04:33:50.251Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "MC-04",
+        "loops": 4,
+        "days": 4,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "不安扩散"
+          },
+          {
+            "day": 2,
+            "incidentText": "前兆"
+          },
+          {
+            "day": 3,
+            "incidentText": "可疑信件"
+          },
+          {
+            "day": 4,
+            "incidentText": "自杀"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 4,
+        "row": 6
+      },
+      "fields": {
+        "scenarioCode": "MC-04",
+        "剧本名": "正在启动自毁模式",
+        "日文名": "自己破壊モードを開始しています",
+        "作者": "高雷",
+        "轮数": "4",
+        "天数": "4",
+        "难度": "5"
+      }
+    }
+  ],
+  "wikiTitle": "MC-04",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Mystery Circle"
+  ],
+  "module": "Mystery Circle",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "692bd6b5c71c62fa",
+        "title": "MC-04",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "MC-04",
+          "loops": 4,
+          "days": 4,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "不安扩散"
+            },
+            {
+              "day": 2,
+              "incidentText": "前兆"
+            },
+            {
+              "day": 3,
+              "incidentText": "可疑信件"
+            },
+            {
+              "day": 4,
+              "incidentText": "自杀"
+            }
+          ],
+          "剧本名": "正在启动自毁模式",
+          "日文名": "自己破壊モードを開始しています",
+          "作者": "高雷",
+          "轮数": "4",
+          "天数": "4",
+          "难度": "5"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-04",
+            "snapshot": "sources/wiki/pages/193ae038f0a7dab5.json",
+            "capturedAt": "2026-09-27T04:33:50.251Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-04",
+            "snapshot": "sources/wiki/pages/193ae038f0a7dab5.json",
+            "capturedAt": "2026-09-27T04:33:50.251Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-04",
+            "snapshot": "sources/wiki/pages/193ae038f0a7dab5.json",
+            "capturedAt": "2026-09-27T04:33:50.251Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-04",
+            "snapshot": "sources/wiki/pages/193ae038f0a7dab5.json",
+            "capturedAt": "2026-09-27T04:33:50.251Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-04",
+            "snapshot": "sources/wiki/pages/193ae038f0a7dab5.json",
+            "capturedAt": "2026-09-27T04:33:50.251Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 6
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 6
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 6
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 6
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 6
+          },
+          "难度": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 6
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-04",
+            "snapshot": "sources/wiki/pages/193ae038f0a7dab5.json",
+            "capturedAt": "2026-09-27T04:33:50.251Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 6
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-04",
+              "snapshot": "sources/wiki/pages/193ae038f0a7dab5.json",
+              "capturedAt": "2026-09-27T04:33:50.251Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "MC-04",
+              "loops": 4,
+              "days": 4,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "不安扩散"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "前兆"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "可疑信件"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "自杀"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 4,
+              "row": 6
+            },
+            "fields": {
+              "scenarioCode": "MC-04",
+              "剧本名": "正在启动自毁模式",
+              "日文名": "自己破壊モードを開始しています",
+              "作者": "高雷",
+              "轮数": "4",
+              "天数": "4",
+              "难度": "5"
+            }
+          }
+        ],
+        "body": "text/scenarios/692bd6b5c71c62fa.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-04",
+          "snapshot": "sources/wiki/pages/193ae038f0a7dab5.json",
+          "capturedAt": "2026-09-27T04:33:50.251Z"
+        },
+        "wikiTitle": "MC-04",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-04?action=edit&section=1"
+          },
+          {
+            "title": "MC-04非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-04?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Mystery Circle"
+        ],
+        "module": "Mystery Circle"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "724cd7a7b16ffccf",
+        "title": "MC-04非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "MC-04",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "事件交织的罗网"
+            },
+            {
+              "slot": "X1",
+              "name": "绝对意志"
+            },
+            {
+              "slot": "X2",
+              "name": "潜伏的杀人狂"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/b159cb86279283ab.json",
+            "capturedAt": "2026-09-27T04:33:53.270Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/b159cb86279283ab.json",
+            "capturedAt": "2026-09-27T04:33:53.270Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/b159cb86279283ab.json",
+            "capturedAt": "2026-09-27T04:33:53.270Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/b159cb86279283ab.json",
+            "capturedAt": "2026-09-27T04:33:53.270Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/b159cb86279283ab.json",
+              "capturedAt": "2026-09-27T04:33:53.270Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "MC-04",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "事件交织的罗网"
+                },
+                {
+                  "slot": "X1",
+                  "name": "绝对意志"
+                },
+                {
+                  "slot": "X2",
+                  "name": "潜伏的杀人狂"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/724cd7a7b16ffccf.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/b159cb86279283ab.json",
+          "capturedAt": "2026-09-27T04:33:53.270Z"
+        },
+        "wikiTitle": "MC-04非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "1 正在启动自毁模式 作者：高雷",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E6%AD%A3%E5%9C%A8%E5%90%AF%E5%8A%A8%E8%87%AA%E6%AF%81%E6%A8%A1%E5%BC%8F_%E4%BD%9C%E8%80%85%EF%BC%9A%E9%AB%98%E9%9B%B7"
+          },
+          {
+            "title": "1.1 特殊规则",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E7%89%B9%E6%AE%8A%E8%A7%84%E5%88%99"
+          },
+          {
+            "title": "1.2 故事",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E6%95%85%E4%BA%8B"
+          },
+          {
+            "title": "1.3 剧作家指南",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E5%89%A7%E4%BD%9C%E5%AE%B6%E6%8C%87%E5%8D%97"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=3"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=4"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Mystery Circle",
+        "tags": [
+          "民间",
+          "Mystery Circle"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "724cd7a7b16ffccf"
+  ],
+  "conflicts": []
+}

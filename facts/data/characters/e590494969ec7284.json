@@ -1,0 +1,264 @@
+{
+  "id": "e590494969ec7284",
+  "title": "职员",
+  "kind": "characters",
+  "scope": "",
+  "aliases": [
+    "職員"
+  ],
+  "fields": {
+    "角色名": "职员",
+    "初始区域": "都市",
+    "禁行区域": "学校",
+    "不安限度": "2",
+    "属性": [
+      "男性",
+      "成人"
+    ],
+    "友好能力": [
+      {
+        "text": "（友好3）公開該角色的身份。",
+        "threshold": 3,
+        "limitText": ""
+      }
+    ]
+  },
+  "provenance": {
+    "角色名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%81%B7%E5%93%A1",
+      "snapshot": "sources/wiki/pages/de633317ee358d2c.json",
+      "capturedAt": "2026-09-27T03:34:07.891Z"
+    },
+    "初始区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%81%B7%E5%93%A1",
+      "snapshot": "sources/wiki/pages/de633317ee358d2c.json",
+      "capturedAt": "2026-09-27T03:34:07.891Z"
+    },
+    "禁行区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%81%B7%E5%93%A1",
+      "snapshot": "sources/wiki/pages/de633317ee358d2c.json",
+      "capturedAt": "2026-09-27T03:34:07.891Z"
+    },
+    "不安限度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%81%B7%E5%93%A1",
+      "snapshot": "sources/wiki/pages/de633317ee358d2c.json",
+      "capturedAt": "2026-09-27T03:34:07.891Z"
+    },
+    "属性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%81%B7%E5%93%A1",
+      "snapshot": "sources/wiki/pages/de633317ee358d2c.json",
+      "capturedAt": "2026-09-27T03:34:07.891Z"
+    },
+    "友好能力": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%81%B7%E5%93%A1",
+      "snapshot": "sources/wiki/pages/de633317ee358d2c.json",
+      "capturedAt": "2026-09-27T03:34:07.891Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%81%B7%E5%93%A1",
+      "snapshot": "sources/wiki/pages/de633317ee358d2c.json",
+      "capturedAt": "2026-09-27T03:34:07.891Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    },
+    {
+      "provider": "ricardo",
+      "path": "sources/ricardo/reference/character-cards/cards.md",
+      "status": "draft_needs_human_review"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%81%B7%E5%93%A1",
+        "snapshot": "sources/wiki/pages/de633317ee358d2c.json",
+        "capturedAt": "2026-09-27T03:34:07.891Z"
+      },
+      "fields": {
+        "角色名": "职员",
+        "初始区域": "都市",
+        "禁行区域": "学校",
+        "不安限度": "2",
+        "属性": [
+          "男性",
+          "成人"
+        ],
+        "友好能力": [
+          {
+            "text": "（友好3）公開該角色的身份。",
+            "threshold": 3,
+            "limitText": ""
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "特性": "",
+        "属性": [
+          "成人",
+          "男性"
+        ],
+        "初始区域": "都市",
+        "禁行区域": "学校",
+        "不安限度": "2",
+        "友好能力": [
+          {
+            "text": "公开该角色的身份",
+            "threshold": "3",
+            "oncePerLoop": ""
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "ricardo",
+        "path": "sources/ricardo/reference/character-cards/cards.md",
+        "status": "draft_needs_human_review"
+      },
+      "fields": {
+        "不安限度": "2",
+        "初始区域": "都市",
+        "禁行区域": "学校",
+        "属性": [
+          "成人"
+        ],
+        "友好能力": [
+          "友好3；每天；主人公能力阶段；主人公：声明使用能力；剧作家告知职员的身份。"
+        ]
+      }
+    }
+  ],
+  "body": "text/characters/e590494969ec7284.txt",
+  "bodySource": {
+    "provider": "wiki",
+    "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%81%B7%E5%93%A1",
+    "snapshot": "sources/wiki/pages/de633317ee358d2c.json",
+    "capturedAt": "2026-09-27T03:34:07.891Z"
+  },
+  "wikiTitle": "職員",
+  "originalTables": [],
+  "wikiStatus": "captured",
+  "links": [
+    {
+      "title": "<img style=\"\" src=\"https://static.wikia.nocookie.net/tragedyrooper/images/6/6f/%E8%81%8C%E5%91%98.png/revision/latest/scale-to-width-down/133?cb=20251023162228&amp;path-prefix=zh\" title=\"职员.png (214 KB)\" class=\"thumbimage\" alt=\"\" height=\"185\" width=\"185\" data-image-name=\"职员.png\" data-image-key=\"%E8%81%8C%E5%91%98.png\" data-relevant=\"1\">",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E8%81%8C%E5%91%98.png"
+    }
+  ],
+  "images": [
+    {
+      "alt": "",
+      "src": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+    }
+  ],
+  "media": [
+    {
+      "title": "职员.png",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:%E8%81%8C%E5%91%98.png",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/6/6f/%E8%81%8C%E5%91%98.png/revision/latest?cb=20251023162228&format=original&path-prefix=zh",
+      "path": "media/wiki/1a40dfeeaac439a0.png",
+      "sourceRecord": "sources/wiki/files/1a40dfeeaac439a0.json",
+      "sha256": "c0b6ca85c59745b206fad409baa3a3d7dd26bcc2303607161cabcdb3fbb11e63",
+      "bytes": 219141,
+      "fileInfo": "PNG image data, 302 x 420, 8-bit/color RGBA, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/6fadb2d7054aeea7.json",
+  "tags": [
+    "男性",
+    "成人",
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "属性",
+      "selected": [
+        "男性",
+        "成人"
+      ],
+      "candidate": [
+        "成人",
+        "男性"
+      ],
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "友好能力",
+      "selected": [
+        {
+          "text": "（友好3）公開該角色的身份。",
+          "threshold": 3,
+          "limitText": ""
+        }
+      ],
+      "candidate": [
+        {
+          "text": "公开该角色的身份",
+          "threshold": "3",
+          "oncePerLoop": ""
+        }
+      ],
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "属性",
+      "selected": [
+        "男性",
+        "成人"
+      ],
+      "candidate": [
+        "成人"
+      ],
+      "source": {
+        "provider": "ricardo",
+        "path": "sources/ricardo/reference/character-cards/cards.md",
+        "status": "draft_needs_human_review"
+      }
+    },
+    {
+      "field": "友好能力",
+      "selected": [
+        {
+          "text": "（友好3）公開該角色的身份。",
+          "threshold": 3,
+          "limitText": ""
+        }
+      ],
+      "candidate": [
+        "友好3；每天；主人公能力阶段；主人公：声明使用能力；剧作家告知职员的身份。"
+      ],
+      "source": {
+        "provider": "ricardo",
+        "path": "sources/ricardo/reference/character-cards/cards.md",
+        "status": "draft_needs_human_review"
+      }
+    }
+  ]
+}

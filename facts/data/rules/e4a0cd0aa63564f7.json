@@ -1,0 +1,73 @@
+{
+  "id": "e4a0cd0aa63564f7",
+  "title": "改变未来",
+  "kind": "rules",
+  "scope": "Basic Tragedy X Plus",
+  "aliases": [],
+  "fields": {
+    "ruleType": "Y",
+    "identityCounts": {
+      "邪教徒": "①",
+      "时间旅者": "①"
+    },
+    "effect": "【失败条件：轮回结束时】本轮轮回中引发过蝴蝶效应事件"
+  },
+  "provenance": {
+    "ruleType": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy_X",
+      "snapshot": "sources/wiki/pages/1095c9f923c9c10c.json",
+      "capturedAt": "2026-09-27T03:28:29.736Z"
+    },
+    "identityCounts": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy_X",
+      "snapshot": "sources/wiki/pages/1095c9f923c9c10c.json",
+      "capturedAt": "2026-09-27T03:28:29.736Z"
+    },
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy_X",
+      "snapshot": "sources/wiki/pages/1095c9f923c9c10c.json",
+      "capturedAt": "2026-09-27T03:28:29.736Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy_X",
+      "snapshot": "sources/wiki/pages/1095c9f923c9c10c.json",
+      "capturedAt": "2026-09-27T03:28:29.736Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy_X",
+        "snapshot": "sources/wiki/pages/1095c9f923c9c10c.json",
+        "capturedAt": "2026-09-27T03:28:29.736Z"
+      },
+      "fields": {
+        "ruleType": "Y",
+        "identityCounts": {
+          "邪教徒": "①",
+          "时间旅者": "①"
+        },
+        "effect": "【失败条件：轮回结束时】本轮轮回中引发过蝴蝶效应事件"
+      }
+    }
+  ],
+  "inheritedFrom": "2771159334630d3b",
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "Y",
+    "官方"
+  ],
+  "conflicts": []
+}

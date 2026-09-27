@@ -1,0 +1,67 @@
+{
+  "id": "39fc970d867b9bc8",
+  "title": "EX1，爱丽丝使用友好能力，但同区没有其他人，次日又使用，如何结算？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / AHR / 第 20 行",
+  "aliases": [],
+  "fields": {
+    "question": "EX1，爱丽丝使用友好能力，但同区没有其他人，次日又使用，如何结算？",
+    "answer": "在第一次使用时轮限能力已经使用（即使没有放置）"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1mwbt4",
+      "snapshot": "sources/faq-sheet/ahr.json",
+      "sheet": "AHR",
+      "row": 20,
+      "cells": "A20:B20",
+      "capturedAt": "2026-09-27T05:40:34.313Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1mwbt4",
+      "snapshot": "sources/faq-sheet/ahr.json",
+      "sheet": "AHR",
+      "row": 20,
+      "cells": "A20:B20",
+      "capturedAt": "2026-09-27T05:40:34.313Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1mwbt4",
+      "snapshot": "sources/faq-sheet/ahr.json",
+      "sheet": "AHR",
+      "row": 20,
+      "cells": "A20:B20",
+      "capturedAt": "2026-09-27T05:40:34.313Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1mwbt4",
+        "snapshot": "sources/faq-sheet/ahr.json",
+        "sheet": "AHR",
+        "row": 20,
+        "cells": "A20:B20",
+        "capturedAt": "2026-09-27T05:40:34.313Z"
+      },
+      "fields": {
+        "question": "EX1，爱丽丝使用友好能力，但同区没有其他人，次日又使用，如何结算？",
+        "answer": "在第一次使用时轮限能力已经使用（即使没有放置）"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "AHR",
+    "关于能力",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

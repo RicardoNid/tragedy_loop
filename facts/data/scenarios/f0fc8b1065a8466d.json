@@ -1,0 +1,362 @@
+{
+  "id": "f0fc8b1065a8466d",
+  "title": "MC-25",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "MC-25非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "MC-25",
+    "loops": 15,
+    "days": 3,
+    "剧本名": "学园孤岛",
+    "作者": "Choconut",
+    "轮数": "15",
+    "天数": "3"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-25",
+      "snapshot": "sources/wiki/pages/6a8d26db777da274.json",
+      "capturedAt": "2026-09-27T04:37:14.851Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-25",
+      "snapshot": "sources/wiki/pages/6a8d26db777da274.json",
+      "capturedAt": "2026-09-27T04:37:14.851Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-25",
+      "snapshot": "sources/wiki/pages/6a8d26db777da274.json",
+      "capturedAt": "2026-09-27T04:37:14.851Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-25",
+      "snapshot": "sources/wiki/pages/6a8d26db777da274.json",
+      "capturedAt": "2026-09-27T04:37:14.851Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 27
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 27
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 27
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 27
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-25",
+      "snapshot": "sources/wiki/pages/6a8d26db777da274.json",
+      "capturedAt": "2026-09-27T04:37:14.851Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 27
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-25%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/60e8acd4f6c4f564.json",
+      "capturedAt": "2026-09-27T04:37:17.838Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-25",
+        "snapshot": "sources/wiki/pages/6a8d26db777da274.json",
+        "capturedAt": "2026-09-27T04:37:14.851Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "MC-25",
+        "loops": 15,
+        "days": 3
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 4,
+        "row": 27
+      },
+      "fields": {
+        "scenarioCode": "MC-25",
+        "剧本名": "学园孤岛",
+        "作者": "Choconut",
+        "轮数": "15",
+        "天数": "3"
+      }
+    }
+  ],
+  "wikiTitle": "MC-25",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Mystery Circle"
+  ],
+  "module": "Mystery Circle",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "f0fc8b1065a8466d",
+        "title": "MC-25",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "MC-25",
+          "loops": 15,
+          "days": 3,
+          "剧本名": "学园孤岛",
+          "作者": "Choconut",
+          "轮数": "15",
+          "天数": "3"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-25",
+            "snapshot": "sources/wiki/pages/6a8d26db777da274.json",
+            "capturedAt": "2026-09-27T04:37:14.851Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-25",
+            "snapshot": "sources/wiki/pages/6a8d26db777da274.json",
+            "capturedAt": "2026-09-27T04:37:14.851Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-25",
+            "snapshot": "sources/wiki/pages/6a8d26db777da274.json",
+            "capturedAt": "2026-09-27T04:37:14.851Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-25",
+            "snapshot": "sources/wiki/pages/6a8d26db777da274.json",
+            "capturedAt": "2026-09-27T04:37:14.851Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 27
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 27
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 27
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 27
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-25",
+            "snapshot": "sources/wiki/pages/6a8d26db777da274.json",
+            "capturedAt": "2026-09-27T04:37:14.851Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 27
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-25",
+              "snapshot": "sources/wiki/pages/6a8d26db777da274.json",
+              "capturedAt": "2026-09-27T04:37:14.851Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "MC-25",
+              "loops": 15,
+              "days": 3
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 4,
+              "row": 27
+            },
+            "fields": {
+              "scenarioCode": "MC-25",
+              "剧本名": "学园孤岛",
+              "作者": "Choconut",
+              "轮数": "15",
+              "天数": "3"
+            }
+          }
+        ],
+        "body": "text/scenarios/f0fc8b1065a8466d.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-25",
+          "snapshot": "sources/wiki/pages/6a8d26db777da274.json",
+          "capturedAt": "2026-09-27T04:37:14.851Z"
+        },
+        "wikiTitle": "MC-25",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-25?action=edit&section=1"
+          },
+          {
+            "title": "MC-25非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-25%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-25?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Mystery Circle"
+        ],
+        "module": "Mystery Circle"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "46e3a1a8990a6bbd",
+        "title": "MC-25非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "MC-25"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-25%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/60e8acd4f6c4f564.json",
+            "capturedAt": "2026-09-27T04:37:17.838Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-25%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/60e8acd4f6c4f564.json",
+            "capturedAt": "2026-09-27T04:37:17.838Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-25%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/60e8acd4f6c4f564.json",
+            "capturedAt": "2026-09-27T04:37:17.838Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-25%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/60e8acd4f6c4f564.json",
+              "capturedAt": "2026-09-27T04:37:17.838Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "MC-25"
+            }
+          }
+        ],
+        "wikiTitle": "MC-25非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Mystery Circle",
+        "tags": [
+          "民间",
+          "Mystery Circle"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "46e3a1a8990a6bbd"
+  ],
+  "conflicts": []
+}

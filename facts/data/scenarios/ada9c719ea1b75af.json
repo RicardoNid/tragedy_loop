@@ -1,0 +1,434 @@
+{
+  "id": "ada9c719ea1b75af",
+  "title": "LL-04",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "LL-04非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "LL-04",
+    "loops": 5,
+    "days": 1,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "代行者"
+      }
+    ],
+    "剧本名": "惨剧的大树",
+    "日文名": "惨劇の巨木",
+    "作者": "ペンスキー（gitti）",
+    "轮数": "5",
+    "天数": "1",
+    "难度": "6"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-04",
+      "snapshot": "sources/wiki/pages/8e360d7c052f10fa.json",
+      "capturedAt": "2026-09-27T04:31:41.497Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-04",
+      "snapshot": "sources/wiki/pages/8e360d7c052f10fa.json",
+      "capturedAt": "2026-09-27T04:31:41.497Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-04",
+      "snapshot": "sources/wiki/pages/8e360d7c052f10fa.json",
+      "capturedAt": "2026-09-27T04:31:41.497Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-04",
+      "snapshot": "sources/wiki/pages/8e360d7c052f10fa.json",
+      "capturedAt": "2026-09-27T04:31:41.497Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-04",
+      "snapshot": "sources/wiki/pages/8e360d7c052f10fa.json",
+      "capturedAt": "2026-09-27T04:31:41.497Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 8,
+      "row": 5
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 8,
+      "row": 5
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 8,
+      "row": 5
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 8,
+      "row": 5
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 8,
+      "row": 5
+    },
+    "难度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 8,
+      "row": 5
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-04",
+      "snapshot": "sources/wiki/pages/8e360d7c052f10fa.json",
+      "capturedAt": "2026-09-27T04:31:41.497Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 8,
+      "row": 5
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/bccef6360dce4688.json",
+      "capturedAt": "2026-09-27T04:31:44.543Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-04",
+        "snapshot": "sources/wiki/pages/8e360d7c052f10fa.json",
+        "capturedAt": "2026-09-27T04:31:41.497Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "LL-04",
+        "loops": 5,
+        "days": 1,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "代行者"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 8,
+        "row": 5
+      },
+      "fields": {
+        "scenarioCode": "LL-04",
+        "剧本名": "惨剧的大树",
+        "日文名": "惨劇の巨木",
+        "作者": "ペンスキー（gitti）",
+        "轮数": "5",
+        "天数": "1",
+        "难度": "6"
+      }
+    }
+  ],
+  "wikiTitle": "LL-04",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Last Liar"
+  ],
+  "module": "Last Liar",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "ada9c719ea1b75af",
+        "title": "LL-04",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "LL-04",
+          "loops": 5,
+          "days": 1,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "代行者"
+            }
+          ],
+          "剧本名": "惨剧的大树",
+          "日文名": "惨劇の巨木",
+          "作者": "ペンスキー（gitti）",
+          "轮数": "5",
+          "天数": "1",
+          "难度": "6"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-04",
+            "snapshot": "sources/wiki/pages/8e360d7c052f10fa.json",
+            "capturedAt": "2026-09-27T04:31:41.497Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-04",
+            "snapshot": "sources/wiki/pages/8e360d7c052f10fa.json",
+            "capturedAt": "2026-09-27T04:31:41.497Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-04",
+            "snapshot": "sources/wiki/pages/8e360d7c052f10fa.json",
+            "capturedAt": "2026-09-27T04:31:41.497Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-04",
+            "snapshot": "sources/wiki/pages/8e360d7c052f10fa.json",
+            "capturedAt": "2026-09-27T04:31:41.497Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-04",
+            "snapshot": "sources/wiki/pages/8e360d7c052f10fa.json",
+            "capturedAt": "2026-09-27T04:31:41.497Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 8,
+            "row": 5
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 8,
+            "row": 5
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 8,
+            "row": 5
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 8,
+            "row": 5
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 8,
+            "row": 5
+          },
+          "难度": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 8,
+            "row": 5
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-04",
+            "snapshot": "sources/wiki/pages/8e360d7c052f10fa.json",
+            "capturedAt": "2026-09-27T04:31:41.497Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 8,
+            "row": 5
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-04",
+              "snapshot": "sources/wiki/pages/8e360d7c052f10fa.json",
+              "capturedAt": "2026-09-27T04:31:41.497Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "LL-04",
+              "loops": 5,
+              "days": 1,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "代行者"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 8,
+              "row": 5
+            },
+            "fields": {
+              "scenarioCode": "LL-04",
+              "剧本名": "惨剧的大树",
+              "日文名": "惨劇の巨木",
+              "作者": "ペンスキー（gitti）",
+              "轮数": "5",
+              "天数": "1",
+              "难度": "6"
+            }
+          }
+        ],
+        "body": "text/scenarios/ada9c719ea1b75af.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-04",
+          "snapshot": "sources/wiki/pages/8e360d7c052f10fa.json",
+          "capturedAt": "2026-09-27T04:31:41.497Z"
+        },
+        "wikiTitle": "LL-04",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-04?action=edit&section=1"
+          },
+          {
+            "title": "LL-04非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-04?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Last Liar"
+        ],
+        "module": "Last Liar"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "d2a544079984f6ae",
+        "title": "LL-04非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "LL-04"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/bccef6360dce4688.json",
+            "capturedAt": "2026-09-27T04:31:44.543Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/bccef6360dce4688.json",
+            "capturedAt": "2026-09-27T04:31:44.543Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/bccef6360dce4688.json",
+            "capturedAt": "2026-09-27T04:31:44.543Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/bccef6360dce4688.json",
+              "capturedAt": "2026-09-27T04:31:44.543Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "LL-04"
+            }
+          }
+        ],
+        "wikiTitle": "LL-04非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Last Liar",
+        "tags": [
+          "民间",
+          "Last Liar"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "d2a544079984f6ae"
+  ],
+  "conflicts": []
+}

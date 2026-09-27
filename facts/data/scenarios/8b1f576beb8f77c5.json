@@ -1,0 +1,420 @@
+{
+  "id": "8b1f576beb8f77c5",
+  "title": "MZ-36",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "MZ-36非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "MZ-36",
+    "loops": 8,
+    "days": 3,
+    "剧本名": "螺旋视察",
+    "作者": "α聆弦",
+    "轮数": "8",
+    "天数": "3"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-36",
+      "snapshot": "sources/wiki/pages/cfe47dc099005960.json",
+      "capturedAt": "2026-09-27T04:47:13.576Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-36",
+      "snapshot": "sources/wiki/pages/cfe47dc099005960.json",
+      "capturedAt": "2026-09-27T04:47:13.576Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-36",
+      "snapshot": "sources/wiki/pages/cfe47dc099005960.json",
+      "capturedAt": "2026-09-27T04:47:13.576Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-36",
+      "snapshot": "sources/wiki/pages/cfe47dc099005960.json",
+      "capturedAt": "2026-09-27T04:47:13.576Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 38
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 38
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 38
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 38
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-36",
+      "snapshot": "sources/wiki/pages/cfe47dc099005960.json",
+      "capturedAt": "2026-09-27T04:47:13.576Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 38
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-36%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/5c68e6a47411fa08.json",
+      "capturedAt": "2026-09-27T04:47:16.548Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-36",
+        "snapshot": "sources/wiki/pages/cfe47dc099005960.json",
+        "capturedAt": "2026-09-27T04:47:13.576Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "MZ-36",
+        "loops": 8,
+        "days": 3
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 3,
+        "row": 38
+      },
+      "fields": {
+        "scenarioCode": "MZ-36",
+        "剧本名": "螺旋视察",
+        "作者": "α聆弦",
+        "轮数": "8",
+        "天数": "3"
+      }
+    }
+  ],
+  "wikiTitle": "MZ-36",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Midnight Zone"
+  ],
+  "module": "Midnight Zone",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "8b1f576beb8f77c5",
+        "title": "MZ-36",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "MZ-36",
+          "loops": 8,
+          "days": 3,
+          "剧本名": "螺旋视察",
+          "作者": "α聆弦",
+          "轮数": "8",
+          "天数": "3"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-36",
+            "snapshot": "sources/wiki/pages/cfe47dc099005960.json",
+            "capturedAt": "2026-09-27T04:47:13.576Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-36",
+            "snapshot": "sources/wiki/pages/cfe47dc099005960.json",
+            "capturedAt": "2026-09-27T04:47:13.576Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-36",
+            "snapshot": "sources/wiki/pages/cfe47dc099005960.json",
+            "capturedAt": "2026-09-27T04:47:13.576Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-36",
+            "snapshot": "sources/wiki/pages/cfe47dc099005960.json",
+            "capturedAt": "2026-09-27T04:47:13.576Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 38
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 38
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 38
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 38
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-36",
+            "snapshot": "sources/wiki/pages/cfe47dc099005960.json",
+            "capturedAt": "2026-09-27T04:47:13.576Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 38
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-36",
+              "snapshot": "sources/wiki/pages/cfe47dc099005960.json",
+              "capturedAt": "2026-09-27T04:47:13.576Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "MZ-36",
+              "loops": 8,
+              "days": 3
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 3,
+              "row": 38
+            },
+            "fields": {
+              "scenarioCode": "MZ-36",
+              "剧本名": "螺旋视察",
+              "作者": "α聆弦",
+              "轮数": "8",
+              "天数": "3"
+            }
+          }
+        ],
+        "body": "text/scenarios/8b1f576beb8f77c5.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-36",
+          "snapshot": "sources/wiki/pages/cfe47dc099005960.json",
+          "capturedAt": "2026-09-27T04:47:13.576Z"
+        },
+        "wikiTitle": "MZ-36",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-36?action=edit&section=1"
+          },
+          {
+            "title": "UP主",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/UP%E4%B8%BB"
+          },
+          {
+            "title": "MZ-36非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-36%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-36?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Midnight Zone"
+        ],
+        "module": "Midnight Zone"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "3fd2fedfedd71713",
+        "title": "MZ-36非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "MZ-36",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "因果之绊"
+            },
+            {
+              "slot": "X1",
+              "name": "爱与恨的螺旋"
+            },
+            {
+              "slot": "X2",
+              "name": "χ异因子"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-36%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/5c68e6a47411fa08.json",
+            "capturedAt": "2026-09-27T04:47:16.548Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-36%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/5c68e6a47411fa08.json",
+            "capturedAt": "2026-09-27T04:47:16.548Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-36%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/5c68e6a47411fa08.json",
+            "capturedAt": "2026-09-27T04:47:16.548Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-36%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/5c68e6a47411fa08.json",
+            "capturedAt": "2026-09-27T04:47:16.548Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-36%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/5c68e6a47411fa08.json",
+              "capturedAt": "2026-09-27T04:47:16.548Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "MZ-36",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "因果之绊"
+                },
+                {
+                  "slot": "X1",
+                  "name": "爱与恨的螺旋"
+                },
+                {
+                  "slot": "X2",
+                  "name": "χ异因子"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/3fd2fedfedd71713.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-36%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/5c68e6a47411fa08.json",
+          "capturedAt": "2026-09-27T04:47:16.548Z"
+        },
+        "wikiTitle": "MZ-36非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-36%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-36%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-36%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=3"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Midnight Zone",
+        "tags": [
+          "民间",
+          "Midnight Zone"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "3fd2fedfedd71713"
+  ],
+  "conflicts": []
+}

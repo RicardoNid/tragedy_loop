@@ -1,0 +1,67 @@
+{
+  "id": "3321c307c5e7aef3",
+  "title": "挑拨者",
+  "kind": "identities",
+  "scope": "Echoing Love A",
+  "aliases": [],
+  "fields": {
+    "max": "",
+    "traits": "必定无视友好",
+    "abilities": [
+      "【任意能力：剧作家能力阶段】将同一区域另外1名角色身上的1枚【友好】替换为【密谋】。（所有挑拨者合计，每轮限2次）",
+      "【强制：事件阶段】判定与该角色位于同一区域的角色作为当事人的事件是否发生时，当事人的【密谋】视作【不安】处理。"
+    ]
+  },
+  "provenance": {
+    "max": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Echoing_Love_A",
+      "snapshot": "sources/wiki/pages/c8c2a6dac05a77fd.json",
+      "capturedAt": "2026-09-27T03:28:32.466Z"
+    },
+    "traits": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Echoing_Love_A",
+      "snapshot": "sources/wiki/pages/c8c2a6dac05a77fd.json",
+      "capturedAt": "2026-09-27T03:28:32.466Z"
+    },
+    "abilities": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Echoing_Love_A",
+      "snapshot": "sources/wiki/pages/c8c2a6dac05a77fd.json",
+      "capturedAt": "2026-09-27T03:28:32.466Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Echoing_Love_A",
+      "snapshot": "sources/wiki/pages/c8c2a6dac05a77fd.json",
+      "capturedAt": "2026-09-27T03:28:32.466Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Echoing_Love_A",
+        "snapshot": "sources/wiki/pages/c8c2a6dac05a77fd.json",
+        "capturedAt": "2026-09-27T03:28:32.466Z"
+      },
+      "fields": {
+        "max": "",
+        "traits": "必定无视友好",
+        "abilities": [
+          "【任意能力：剧作家能力阶段】将同一区域另外1名角色身上的1枚【友好】替换为【密谋】。（所有挑拨者合计，每轮限2次）",
+          "【强制：事件阶段】判定与该角色位于同一区域的角色作为当事人的事件是否发生时，当事人的【密谋】视作【不安】处理。"
+        ]
+      }
+    }
+  ],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "民间"
+  ],
+  "conflicts": []
+}

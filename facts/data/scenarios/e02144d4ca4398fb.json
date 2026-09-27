@@ -1,0 +1,554 @@
+{
+  "id": "e02144d4ca4398fb",
+  "title": "BTX-11",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "BTX-11非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "BTX-11",
+    "loops": 3,
+    "days": 5,
+    "schedule": [
+      {
+        "day": 2,
+        "incidentText": "不安扩散"
+      },
+      {
+        "day": 3,
+        "incidentText": "医院事故"
+      },
+      {
+        "day": 4,
+        "incidentText": "蝴蝶效应"
+      },
+      {
+        "day": 5,
+        "incidentText": "邪气污染"
+      }
+    ],
+    "剧本名": "A WILL.",
+    "日文名": "A WILL.",
+    "英文名": "A Will.",
+    "作者": "比良坂右京",
+    "轮数": "3",
+    "天数": "5",
+    "难度": "4"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-11",
+      "snapshot": "sources/wiki/pages/8913e3c0e6010868.json",
+      "capturedAt": "2026-09-27T03:53:23.035Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-11",
+      "snapshot": "sources/wiki/pages/8913e3c0e6010868.json",
+      "capturedAt": "2026-09-27T03:53:23.035Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-11",
+      "snapshot": "sources/wiki/pages/8913e3c0e6010868.json",
+      "capturedAt": "2026-09-27T03:53:23.035Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-11",
+      "snapshot": "sources/wiki/pages/8913e3c0e6010868.json",
+      "capturedAt": "2026-09-27T03:53:23.035Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-11",
+      "snapshot": "sources/wiki/pages/8913e3c0e6010868.json",
+      "capturedAt": "2026-09-27T03:53:23.035Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 12
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 12
+    },
+    "英文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 12
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 12
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 12
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 12
+    },
+    "难度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 12
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-11",
+      "snapshot": "sources/wiki/pages/8913e3c0e6010868.json",
+      "capturedAt": "2026-09-27T03:53:23.035Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 12
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/33e6a6e5454dcfcb.json",
+      "capturedAt": "2026-09-27T03:55:43.905Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-11",
+        "snapshot": "sources/wiki/pages/8913e3c0e6010868.json",
+        "capturedAt": "2026-09-27T03:53:23.035Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "BTX-11",
+        "loops": 3,
+        "days": 5,
+        "schedule": [
+          {
+            "day": 2,
+            "incidentText": "不安扩散"
+          },
+          {
+            "day": 3,
+            "incidentText": "医院事故"
+          },
+          {
+            "day": 4,
+            "incidentText": "蝴蝶效应"
+          },
+          {
+            "day": 5,
+            "incidentText": "邪气污染"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 2,
+        "row": 12
+      },
+      "fields": {
+        "scenarioCode": "BTX-11",
+        "剧本名": "A WILL.",
+        "日文名": "A WILL.",
+        "英文名": "A Will.",
+        "作者": "比良坂右京",
+        "轮数": "3",
+        "天数": "5",
+        "难度": "4"
+      }
+    }
+  ],
+  "wikiTitle": "BTX-11",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Basic Tragedy X"
+  ],
+  "module": "Basic Tragedy X",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "e02144d4ca4398fb",
+        "title": "BTX-11",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "BTX-11",
+          "loops": 3,
+          "days": 5,
+          "schedule": [
+            {
+              "day": 2,
+              "incidentText": "不安扩散"
+            },
+            {
+              "day": 3,
+              "incidentText": "医院事故"
+            },
+            {
+              "day": 4,
+              "incidentText": "蝴蝶效应"
+            },
+            {
+              "day": 5,
+              "incidentText": "邪气污染"
+            }
+          ],
+          "剧本名": "A WILL.",
+          "日文名": "A WILL.",
+          "英文名": "A Will.",
+          "作者": "比良坂右京",
+          "轮数": "3",
+          "天数": "5",
+          "难度": "4"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-11",
+            "snapshot": "sources/wiki/pages/8913e3c0e6010868.json",
+            "capturedAt": "2026-09-27T03:53:23.035Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-11",
+            "snapshot": "sources/wiki/pages/8913e3c0e6010868.json",
+            "capturedAt": "2026-09-27T03:53:23.035Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-11",
+            "snapshot": "sources/wiki/pages/8913e3c0e6010868.json",
+            "capturedAt": "2026-09-27T03:53:23.035Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-11",
+            "snapshot": "sources/wiki/pages/8913e3c0e6010868.json",
+            "capturedAt": "2026-09-27T03:53:23.035Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-11",
+            "snapshot": "sources/wiki/pages/8913e3c0e6010868.json",
+            "capturedAt": "2026-09-27T03:53:23.035Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 12
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 12
+          },
+          "英文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 12
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 12
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 12
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 12
+          },
+          "难度": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 12
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-11",
+            "snapshot": "sources/wiki/pages/8913e3c0e6010868.json",
+            "capturedAt": "2026-09-27T03:53:23.035Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 12
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-11",
+              "snapshot": "sources/wiki/pages/8913e3c0e6010868.json",
+              "capturedAt": "2026-09-27T03:53:23.035Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "BTX-11",
+              "loops": 3,
+              "days": 5,
+              "schedule": [
+                {
+                  "day": 2,
+                  "incidentText": "不安扩散"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "医院事故"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "蝴蝶效应"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "邪气污染"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 2,
+              "row": 12
+            },
+            "fields": {
+              "scenarioCode": "BTX-11",
+              "剧本名": "A WILL.",
+              "日文名": "A WILL.",
+              "英文名": "A Will.",
+              "作者": "比良坂右京",
+              "轮数": "3",
+              "天数": "5",
+              "难度": "4"
+            }
+          }
+        ],
+        "body": "text/scenarios/e02144d4ca4398fb.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-11",
+          "snapshot": "sources/wiki/pages/8913e3c0e6010868.json",
+          "capturedAt": "2026-09-27T03:53:23.035Z"
+        },
+        "wikiTitle": "BTX-11",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-11?action=edit&section=1"
+          },
+          {
+            "title": "BTX-11非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-11?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Basic Tragedy X"
+        ],
+        "module": "Basic Tragedy X"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "a7f2d3e6b48e7c1a",
+        "title": "BTX-11非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "BTX-11",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "改变未来"
+            },
+            {
+              "slot": "X1",
+              "name": "流言四起"
+            },
+            {
+              "slot": "X2",
+              "name": "恋爱风景线"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/33e6a6e5454dcfcb.json",
+            "capturedAt": "2026-09-27T03:55:43.905Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/33e6a6e5454dcfcb.json",
+            "capturedAt": "2026-09-27T03:55:43.905Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/33e6a6e5454dcfcb.json",
+            "capturedAt": "2026-09-27T03:55:43.905Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/33e6a6e5454dcfcb.json",
+            "capturedAt": "2026-09-27T03:55:43.905Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/33e6a6e5454dcfcb.json",
+              "capturedAt": "2026-09-27T03:55:43.905Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "BTX-11",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "改变未来"
+                },
+                {
+                  "slot": "X1",
+                  "name": "流言四起"
+                },
+                {
+                  "slot": "X2",
+                  "name": "恋爱风景线"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/a7f2d3e6b48e7c1a.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/33e6a6e5454dcfcb.json",
+          "capturedAt": "2026-09-27T03:55:43.905Z"
+        },
+        "wikiTitle": "BTX-11非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=3"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Basic Tragedy X",
+        "tags": [
+          "民间",
+          "Basic Tragedy X"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "a7f2d3e6b48e7c1a"
+  ],
+  "conflicts": []
+}

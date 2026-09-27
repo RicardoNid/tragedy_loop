@@ -1,0 +1,85 @@
+{
+  "id": "5d99af9d402eb707",
+  "title": "忍者",
+  "kind": "identities",
+  "scope": "Midnight Zone",
+  "aliases": [],
+  "fields": {
+    "max": "",
+    "traits": "无视友好",
+    "abilities": [
+      "【任意能力：回合结束阶段】同一区域1名角色身上有2枚或以上[密谋]→那名角色死亡",
+      "【任意能力：常驻】需公开该角色身份时，可以宣称本局游戏非公开信息表中的任意非平民身份名"
+    ]
+  },
+  "provenance": {
+    "max": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Midnight_Zone",
+      "snapshot": "sources/wiki/pages/8373b99324f2c1ae.json",
+      "capturedAt": "2026-09-27T03:29:47.701Z"
+    },
+    "traits": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Midnight_Zone",
+      "snapshot": "sources/wiki/pages/8373b99324f2c1ae.json",
+      "capturedAt": "2026-09-27T03:29:47.701Z"
+    },
+    "abilities": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Midnight_Zone",
+      "snapshot": "sources/wiki/pages/8373b99324f2c1ae.json",
+      "capturedAt": "2026-09-27T03:29:47.701Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Midnight_Zone",
+      "snapshot": "sources/wiki/pages/8373b99324f2c1ae.json",
+      "capturedAt": "2026-09-27T03:29:47.701Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Midnight_Zone",
+        "snapshot": "sources/wiki/pages/8373b99324f2c1ae.json",
+        "capturedAt": "2026-09-27T03:29:47.701Z"
+      },
+      "fields": {
+        "max": "",
+        "traits": "无视友好",
+        "abilities": [
+          "【任意能力：回合结束阶段】同一区域1名角色身上有2枚或以上[密谋]→那名角色死亡",
+          "【任意能力：常驻】需公开该角色身份时，可以宣称本局游戏非公开信息表中的任意非平民身份名"
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "max": "",
+        "traits": "无视友好",
+        "abilities": [
+          "【任意能力：回合结束阶段】同一区域1名角色身上有2枚或以上[密谋]→那名角色死亡",
+          "【任意能力：常驻】需公开该角色身份时，可以宣称本局游戏非公开信息表中的任意非平民身份名"
+        ]
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "官方"
+  ],
+  "conflicts": []
+}

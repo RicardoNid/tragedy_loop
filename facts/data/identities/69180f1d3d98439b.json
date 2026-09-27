@@ -1,0 +1,65 @@
+{
+  "id": "69180f1d3d98439b",
+  "title": "愉快犯",
+  "kind": "identities",
+  "scope": "Sin City",
+  "aliases": [],
+  "fields": {
+    "max": "",
+    "traits": "累犯",
+    "abilities": [
+      "【强制：结算该角色担任当事人的事件时】将事件条文中的一个数字+1或-1\n\n【强制：剧本制作时】必须成为某1个事件的当事人"
+    ]
+  },
+  "provenance": {
+    "max": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Sin_City",
+      "snapshot": "sources/wiki/pages/59c6099598cb6333.json",
+      "capturedAt": "2026-09-27T03:30:03.250Z"
+    },
+    "traits": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Sin_City",
+      "snapshot": "sources/wiki/pages/59c6099598cb6333.json",
+      "capturedAt": "2026-09-27T03:30:03.250Z"
+    },
+    "abilities": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Sin_City",
+      "snapshot": "sources/wiki/pages/59c6099598cb6333.json",
+      "capturedAt": "2026-09-27T03:30:03.250Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Sin_City",
+      "snapshot": "sources/wiki/pages/59c6099598cb6333.json",
+      "capturedAt": "2026-09-27T03:30:03.250Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Sin_City",
+        "snapshot": "sources/wiki/pages/59c6099598cb6333.json",
+        "capturedAt": "2026-09-27T03:30:03.250Z"
+      },
+      "fields": {
+        "max": "",
+        "traits": "累犯",
+        "abilities": [
+          "【强制：结算该角色担任当事人的事件时】将事件条文中的一个数字+1或-1\n\n【强制：剧本制作时】必须成为某1个事件的当事人"
+        ]
+      }
+    }
+  ],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "民间"
+  ],
+  "conflicts": []
+}

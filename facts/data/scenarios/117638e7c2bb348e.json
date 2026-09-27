@@ -1,0 +1,458 @@
+{
+  "id": "117638e7c2bb348e",
+  "title": "WM-13",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "WM-13非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "WM-13",
+    "loops": 4,
+    "days": 5,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "发现"
+      },
+      {
+        "day": 2,
+        "incidentText": "集体自杀"
+      },
+      {
+        "day": 3,
+        "incidentText": "失踪"
+      },
+      {
+        "day": 4,
+        "incidentText": "送葬"
+      },
+      {
+        "day": 5,
+        "incidentText": "疯狂杀人"
+      }
+    ],
+    "剧本名": "你们。。。",
+    "作者": "明尘",
+    "轮数": "4",
+    "天数": "5"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-13?oldid=1463",
+      "snapshot": "sources/wiki/pages/e1f4e6e5b9b7e80b.json",
+      "capturedAt": "2026-09-27T05:02:01.519Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-13?oldid=1463",
+      "snapshot": "sources/wiki/pages/e1f4e6e5b9b7e80b.json",
+      "capturedAt": "2026-09-27T05:02:01.519Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-13?oldid=1463",
+      "snapshot": "sources/wiki/pages/e1f4e6e5b9b7e80b.json",
+      "capturedAt": "2026-09-27T05:02:01.519Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-13?oldid=1463",
+      "snapshot": "sources/wiki/pages/e1f4e6e5b9b7e80b.json",
+      "capturedAt": "2026-09-27T05:02:01.519Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-13?oldid=1463",
+      "snapshot": "sources/wiki/pages/e1f4e6e5b9b7e80b.json",
+      "capturedAt": "2026-09-27T05:02:01.519Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 15
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 15
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 15
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 15
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-13?oldid=1463",
+      "snapshot": "sources/wiki/pages/e1f4e6e5b9b7e80b.json",
+      "capturedAt": "2026-09-27T05:02:01.519Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 15
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1880",
+      "snapshot": "sources/wiki/pages/cf22092e39b5f9c6.json",
+      "capturedAt": "2026-09-27T05:02:06.805Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-13?oldid=1463",
+        "snapshot": "sources/wiki/pages/e1f4e6e5b9b7e80b.json",
+        "capturedAt": "2026-09-27T05:02:01.519Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "WM-13",
+        "loops": 4,
+        "days": 5,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "发现"
+          },
+          {
+            "day": 2,
+            "incidentText": "集体自杀"
+          },
+          {
+            "day": 3,
+            "incidentText": "失踪"
+          },
+          {
+            "day": 4,
+            "incidentText": "送葬"
+          },
+          {
+            "day": 5,
+            "incidentText": "疯狂杀人"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 6,
+        "row": 15
+      },
+      "fields": {
+        "scenarioCode": "WM-13",
+        "剧本名": "你们。。。",
+        "作者": "明尘",
+        "轮数": "4",
+        "天数": "5"
+      }
+    }
+  ],
+  "wikiTitle": "WM-13",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Weird Mythology"
+  ],
+  "module": "Weird Mythology",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "117638e7c2bb348e",
+        "title": "WM-13",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "WM-13",
+          "loops": 4,
+          "days": 5,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "发现"
+            },
+            {
+              "day": 2,
+              "incidentText": "集体自杀"
+            },
+            {
+              "day": 3,
+              "incidentText": "失踪"
+            },
+            {
+              "day": 4,
+              "incidentText": "送葬"
+            },
+            {
+              "day": 5,
+              "incidentText": "疯狂杀人"
+            }
+          ],
+          "剧本名": "你们。。。",
+          "作者": "明尘",
+          "轮数": "4",
+          "天数": "5"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-13?oldid=1463",
+            "snapshot": "sources/wiki/pages/e1f4e6e5b9b7e80b.json",
+            "capturedAt": "2026-09-27T05:02:01.519Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-13?oldid=1463",
+            "snapshot": "sources/wiki/pages/e1f4e6e5b9b7e80b.json",
+            "capturedAt": "2026-09-27T05:02:01.519Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-13?oldid=1463",
+            "snapshot": "sources/wiki/pages/e1f4e6e5b9b7e80b.json",
+            "capturedAt": "2026-09-27T05:02:01.519Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-13?oldid=1463",
+            "snapshot": "sources/wiki/pages/e1f4e6e5b9b7e80b.json",
+            "capturedAt": "2026-09-27T05:02:01.519Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-13?oldid=1463",
+            "snapshot": "sources/wiki/pages/e1f4e6e5b9b7e80b.json",
+            "capturedAt": "2026-09-27T05:02:01.519Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 15
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 15
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 15
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 15
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-13?oldid=1463",
+            "snapshot": "sources/wiki/pages/e1f4e6e5b9b7e80b.json",
+            "capturedAt": "2026-09-27T05:02:01.519Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 15
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-13?oldid=1463",
+              "snapshot": "sources/wiki/pages/e1f4e6e5b9b7e80b.json",
+              "capturedAt": "2026-09-27T05:02:01.519Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "WM-13",
+              "loops": 4,
+              "days": 5,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "发现"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "集体自杀"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "失踪"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "送葬"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "疯狂杀人"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 6,
+              "row": 15
+            },
+            "fields": {
+              "scenarioCode": "WM-13",
+              "剧本名": "你们。。。",
+              "作者": "明尘",
+              "轮数": "4",
+              "天数": "5"
+            }
+          }
+        ],
+        "body": "text/scenarios/117638e7c2bb348e.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-13?oldid=1463",
+          "snapshot": "sources/wiki/pages/e1f4e6e5b9b7e80b.json",
+          "capturedAt": "2026-09-27T05:02:01.519Z"
+        },
+        "wikiTitle": "WM-13",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "WM-13非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-13?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Weird Mythology"
+        ],
+        "module": "Weird Mythology"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "59e28d6849f78f3e",
+        "title": "WM-13非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "WM-13"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1880",
+            "snapshot": "sources/wiki/pages/cf22092e39b5f9c6.json",
+            "capturedAt": "2026-09-27T05:02:06.805Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1880",
+            "snapshot": "sources/wiki/pages/cf22092e39b5f9c6.json",
+            "capturedAt": "2026-09-27T05:02:06.805Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1880",
+            "snapshot": "sources/wiki/pages/cf22092e39b5f9c6.json",
+            "capturedAt": "2026-09-27T05:02:06.805Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1880",
+              "snapshot": "sources/wiki/pages/cf22092e39b5f9c6.json",
+              "capturedAt": "2026-09-27T05:02:06.805Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "WM-13"
+            }
+          }
+        ],
+        "wikiTitle": "WM-13非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Weird Mythology",
+        "tags": [
+          "民间",
+          "Weird Mythology"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "59e28d6849f78f3e"
+  ],
+  "conflicts": []
+}

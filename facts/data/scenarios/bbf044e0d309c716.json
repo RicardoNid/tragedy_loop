@@ -1,0 +1,330 @@
+{
+  "id": "bbf044e0d309c716",
+  "title": "HSA-23",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "HSA-23非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "HSA-23",
+    "剧本名": "蠕动的诅咒",
+    "作者": "东京八十万",
+    "轮数": "n",
+    "天数": "n"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-23",
+      "snapshot": "sources/wiki/pages/bd2bb4c162ed3c94.json",
+      "capturedAt": "2026-09-27T04:30:37.534Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-23",
+      "snapshot": "sources/wiki/pages/bd2bb4c162ed3c94.json",
+      "capturedAt": "2026-09-27T04:30:37.534Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 25
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 25
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 25
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 25
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-23",
+      "snapshot": "sources/wiki/pages/bd2bb4c162ed3c94.json",
+      "capturedAt": "2026-09-27T04:30:37.534Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 25
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-23%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/698fd7412e233fed.json",
+      "capturedAt": "2026-09-27T04:30:40.532Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-23",
+        "snapshot": "sources/wiki/pages/bd2bb4c162ed3c94.json",
+        "capturedAt": "2026-09-27T04:30:37.534Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "HSA-23"
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 5,
+        "row": 25
+      },
+      "fields": {
+        "scenarioCode": "HSA-23",
+        "剧本名": "蠕动的诅咒",
+        "作者": "东京八十万",
+        "轮数": "n",
+        "天数": "n"
+      }
+    }
+  ],
+  "wikiTitle": "HSA-23",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Haunted Stage Again"
+  ],
+  "module": "Haunted Stage Again",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "bbf044e0d309c716",
+        "title": "HSA-23",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "HSA-23",
+          "剧本名": "蠕动的诅咒",
+          "作者": "东京八十万",
+          "轮数": "n",
+          "天数": "n"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-23",
+            "snapshot": "sources/wiki/pages/bd2bb4c162ed3c94.json",
+            "capturedAt": "2026-09-27T04:30:37.534Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-23",
+            "snapshot": "sources/wiki/pages/bd2bb4c162ed3c94.json",
+            "capturedAt": "2026-09-27T04:30:37.534Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 25
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 25
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 25
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 25
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-23",
+            "snapshot": "sources/wiki/pages/bd2bb4c162ed3c94.json",
+            "capturedAt": "2026-09-27T04:30:37.534Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 25
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-23",
+              "snapshot": "sources/wiki/pages/bd2bb4c162ed3c94.json",
+              "capturedAt": "2026-09-27T04:30:37.534Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "HSA-23"
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 5,
+              "row": 25
+            },
+            "fields": {
+              "scenarioCode": "HSA-23",
+              "剧本名": "蠕动的诅咒",
+              "作者": "东京八十万",
+              "轮数": "n",
+              "天数": "n"
+            }
+          }
+        ],
+        "body": "text/scenarios/bbf044e0d309c716.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-23",
+          "snapshot": "sources/wiki/pages/bd2bb4c162ed3c94.json",
+          "capturedAt": "2026-09-27T04:30:37.534Z"
+        },
+        "wikiTitle": "HSA-23",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-23?action=edit&section=1"
+          },
+          {
+            "title": "HSA-23非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-23%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-23?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Haunted Stage Again"
+        ],
+        "module": "Haunted Stage Again"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "fd86a678138bdb65",
+        "title": "HSA-23非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "HSA-23"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-23%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/698fd7412e233fed.json",
+            "capturedAt": "2026-09-27T04:30:40.532Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-23%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/698fd7412e233fed.json",
+            "capturedAt": "2026-09-27T04:30:40.532Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-23%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/698fd7412e233fed.json",
+            "capturedAt": "2026-09-27T04:30:40.532Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-23%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/698fd7412e233fed.json",
+              "capturedAt": "2026-09-27T04:30:40.532Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "HSA-23"
+            }
+          }
+        ],
+        "wikiTitle": "HSA-23非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Haunted Stage Again",
+        "tags": [
+          "民间",
+          "Haunted Stage Again"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "fd86a678138bdb65"
+  ],
+  "conflicts": []
+}

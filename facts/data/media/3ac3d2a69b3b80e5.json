@@ -1,0 +1,48 @@
+{
+  "id": "3ac3d2a69b3b80e5",
+  "title": "5e4d811055e32254199f84835b012043.jpg",
+  "kind": "media",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "bytes": 205525,
+    "sha256": "9ecec366bb09b8885755ef3622fc16d9b8c1ca5403a6f14adf3c3f45a1154766"
+  },
+  "provenance": {
+    "bytes": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/5e4d811055e32254199f84835b012043.jpg"
+    },
+    "sha256": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/5e4d811055e32254199f84835b012043.jpg"
+    }
+  },
+  "sources": [
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/5e4d811055e32254199f84835b012043.jpg"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/5e4d811055e32254199f84835b012043.jpg"
+      },
+      "fields": {
+        "bytes": 205525,
+        "sha256": "9ecec366bb09b8885755ef3622fc16d9b8c1ca5403a6f14adf3c3f45a1154766"
+      }
+    }
+  ],
+  "media": [
+    {
+      "title": "5e4d811055e32254199f84835b012043.jpg",
+      "path": "sources/lunhui/5e4d811055e32254199f84835b012043.jpg",
+      "sourcePage": "sources/lunhui/5e4d811055e32254199f84835b012043.jpg"
+    }
+  ],
+  "tags": [],
+  "conflicts": []
+}

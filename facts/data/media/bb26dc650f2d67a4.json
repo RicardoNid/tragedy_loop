@@ -1,0 +1,60 @@
+{
+  "id": "bb26dc650f2d67a4",
+  "title": "临时工？ .png",
+  "kind": "media",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "bytes": 236665,
+    "sha256": "3747c020145d7d3a3be4f9724951ea38c51e48fff279d66aabde0ad54208cddb"
+  },
+  "provenance": {
+    "bytes": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E4%B8%B4%E6%97%B6%E5%B7%A5%EF%BC%9F_.png",
+      "snapshot": "sources/wiki/files/1b0df9847705e8c4.json"
+    },
+    "sha256": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E4%B8%B4%E6%97%B6%E5%B7%A5%EF%BC%9F_.png",
+      "snapshot": "sources/wiki/files/1b0df9847705e8c4.json"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E4%B8%B4%E6%97%B6%E5%B7%A5%EF%BC%9F_.png",
+      "snapshot": "sources/wiki/files/1b0df9847705e8c4.json"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E4%B8%B4%E6%97%B6%E5%B7%A5%EF%BC%9F_.png",
+        "snapshot": "sources/wiki/files/1b0df9847705e8c4.json"
+      },
+      "fields": {
+        "bytes": 236665,
+        "sha256": "3747c020145d7d3a3be4f9724951ea38c51e48fff279d66aabde0ad54208cddb"
+      }
+    }
+  ],
+  "media": [
+    {
+      "title": "临时工？ .png",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:%E4%B8%B4%E6%97%B6%E5%B7%A5%EF%BC%9F_.png",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/5/5b/%E4%B8%B4%E6%97%B6%E5%B7%A5%EF%BC%9F_.png/revision/latest?cb=20251023162227&format=original&path-prefix=zh",
+      "path": "media/wiki/1b0df9847705e8c4.png",
+      "sourceRecord": "sources/wiki/files/1b0df9847705e8c4.json",
+      "sha256": "3747c020145d7d3a3be4f9724951ea38c51e48fff279d66aabde0ad54208cddb",
+      "bytes": 236665,
+      "fileInfo": "PNG image data, 304 x 419, 8-bit/color RGBA, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "tags": [],
+  "conflicts": []
+}

@@ -1,0 +1,458 @@
+{
+  "id": "a1b0b2f29d14b9ff",
+  "title": "MC-56",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "MC-56非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "MC-56",
+    "loops": 4,
+    "days": 5,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "前兆"
+      },
+      {
+        "day": 2,
+        "incidentText": "银色子弹"
+      },
+      {
+        "day": 3,
+        "incidentText": "封锁"
+      },
+      {
+        "day": 4,
+        "incidentText": "可疑信件"
+      },
+      {
+        "day": 5,
+        "incidentText": "恐怖袭击"
+      }
+    ],
+    "剧本名": "静默天平",
+    "作者": "影影子",
+    "轮数": "4",
+    "天数": "5"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-56",
+      "snapshot": "sources/wiki/pages/8024d461deaa78ed.json",
+      "capturedAt": "2026-09-27T04:41:06.945Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-56",
+      "snapshot": "sources/wiki/pages/8024d461deaa78ed.json",
+      "capturedAt": "2026-09-27T04:41:06.945Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-56",
+      "snapshot": "sources/wiki/pages/8024d461deaa78ed.json",
+      "capturedAt": "2026-09-27T04:41:06.945Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-56",
+      "snapshot": "sources/wiki/pages/8024d461deaa78ed.json",
+      "capturedAt": "2026-09-27T04:41:06.945Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-56",
+      "snapshot": "sources/wiki/pages/8024d461deaa78ed.json",
+      "capturedAt": "2026-09-27T04:41:06.945Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 58
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 58
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 58
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 58
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-56",
+      "snapshot": "sources/wiki/pages/8024d461deaa78ed.json",
+      "capturedAt": "2026-09-27T04:41:06.945Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 58
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-56%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/9062c2b7ef3d022e.json",
+      "capturedAt": "2026-09-27T04:41:16.446Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-56",
+        "snapshot": "sources/wiki/pages/8024d461deaa78ed.json",
+        "capturedAt": "2026-09-27T04:41:06.945Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "MC-56",
+        "loops": 4,
+        "days": 5,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "前兆"
+          },
+          {
+            "day": 2,
+            "incidentText": "银色子弹"
+          },
+          {
+            "day": 3,
+            "incidentText": "封锁"
+          },
+          {
+            "day": 4,
+            "incidentText": "可疑信件"
+          },
+          {
+            "day": 5,
+            "incidentText": "恐怖袭击"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 4,
+        "row": 58
+      },
+      "fields": {
+        "scenarioCode": "MC-56",
+        "剧本名": "静默天平",
+        "作者": "影影子",
+        "轮数": "4",
+        "天数": "5"
+      }
+    }
+  ],
+  "wikiTitle": "MC-56",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Mystery Circle"
+  ],
+  "module": "Mystery Circle",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "a1b0b2f29d14b9ff",
+        "title": "MC-56",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "MC-56",
+          "loops": 4,
+          "days": 5,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "前兆"
+            },
+            {
+              "day": 2,
+              "incidentText": "银色子弹"
+            },
+            {
+              "day": 3,
+              "incidentText": "封锁"
+            },
+            {
+              "day": 4,
+              "incidentText": "可疑信件"
+            },
+            {
+              "day": 5,
+              "incidentText": "恐怖袭击"
+            }
+          ],
+          "剧本名": "静默天平",
+          "作者": "影影子",
+          "轮数": "4",
+          "天数": "5"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-56",
+            "snapshot": "sources/wiki/pages/8024d461deaa78ed.json",
+            "capturedAt": "2026-09-27T04:41:06.945Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-56",
+            "snapshot": "sources/wiki/pages/8024d461deaa78ed.json",
+            "capturedAt": "2026-09-27T04:41:06.945Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-56",
+            "snapshot": "sources/wiki/pages/8024d461deaa78ed.json",
+            "capturedAt": "2026-09-27T04:41:06.945Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-56",
+            "snapshot": "sources/wiki/pages/8024d461deaa78ed.json",
+            "capturedAt": "2026-09-27T04:41:06.945Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-56",
+            "snapshot": "sources/wiki/pages/8024d461deaa78ed.json",
+            "capturedAt": "2026-09-27T04:41:06.945Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 58
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 58
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 58
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 58
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-56",
+            "snapshot": "sources/wiki/pages/8024d461deaa78ed.json",
+            "capturedAt": "2026-09-27T04:41:06.945Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 58
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-56",
+              "snapshot": "sources/wiki/pages/8024d461deaa78ed.json",
+              "capturedAt": "2026-09-27T04:41:06.945Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "MC-56",
+              "loops": 4,
+              "days": 5,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "前兆"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "银色子弹"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "封锁"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "可疑信件"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "恐怖袭击"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 4,
+              "row": 58
+            },
+            "fields": {
+              "scenarioCode": "MC-56",
+              "剧本名": "静默天平",
+              "作者": "影影子",
+              "轮数": "4",
+              "天数": "5"
+            }
+          }
+        ],
+        "body": "text/scenarios/a1b0b2f29d14b9ff.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-56",
+          "snapshot": "sources/wiki/pages/8024d461deaa78ed.json",
+          "capturedAt": "2026-09-27T04:41:06.945Z"
+        },
+        "wikiTitle": "MC-56",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "MC-56非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-56%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-56?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Mystery Circle"
+        ],
+        "module": "Mystery Circle"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "eab12e94b18a1bc5",
+        "title": "MC-56非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "MC-56"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-56%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/9062c2b7ef3d022e.json",
+            "capturedAt": "2026-09-27T04:41:16.446Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-56%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/9062c2b7ef3d022e.json",
+            "capturedAt": "2026-09-27T04:41:16.446Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-56%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/9062c2b7ef3d022e.json",
+            "capturedAt": "2026-09-27T04:41:16.446Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-56%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/9062c2b7ef3d022e.json",
+              "capturedAt": "2026-09-27T04:41:16.446Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "MC-56"
+            }
+          }
+        ],
+        "wikiTitle": "MC-56非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Mystery Circle",
+        "tags": [
+          "民间",
+          "Mystery Circle"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "eab12e94b18a1bc5"
+  ],
+  "conflicts": []
+}

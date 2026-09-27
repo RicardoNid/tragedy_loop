@@ -1,0 +1,45 @@
+{
+  "id": "2a8d48afab2bb3e1",
+  "title": "表白",
+  "kind": "incidents",
+  "scope": "Echoing Love A",
+  "aliases": [],
+  "fields": {
+    "effect": "<通过友好指示物判定是否发生>往当事人身上放置1张EX牌，公开当事人的身份。"
+  },
+  "provenance": {
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Echoing_Love_A",
+      "snapshot": "sources/wiki/pages/c8c2a6dac05a77fd.json",
+      "capturedAt": "2026-09-27T03:28:32.466Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Echoing_Love_A",
+      "snapshot": "sources/wiki/pages/c8c2a6dac05a77fd.json",
+      "capturedAt": "2026-09-27T03:28:32.466Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Echoing_Love_A",
+        "snapshot": "sources/wiki/pages/c8c2a6dac05a77fd.json",
+        "capturedAt": "2026-09-27T03:28:32.466Z"
+      },
+      "fields": {
+        "effect": "<通过友好指示物判定是否发生>往当事人身上放置1张EX牌，公开当事人的身份。"
+      }
+    }
+  ],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "民间"
+  ],
+  "conflicts": []
+}

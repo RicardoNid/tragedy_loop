@@ -1,0 +1,68 @@
+{
+  "id": "968001edee2005de",
+  "title": "冲动杀人",
+  "kind": "incidents",
+  "scope": "Another Horizon Revised",
+  "aliases": [],
+  "fields": {
+    "effect": "<当事人不安限度-1>与当事人位于同一区域的另外1名角色死亡"
+  },
+  "provenance": {
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon_Revised",
+      "snapshot": "sources/wiki/pages/5a4c2d8594c08b1e.json",
+      "capturedAt": "2026-09-27T03:28:24.166Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon_Revised",
+      "snapshot": "sources/wiki/pages/5a4c2d8594c08b1e.json",
+      "capturedAt": "2026-09-27T03:28:24.166Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon_Revised",
+        "snapshot": "sources/wiki/pages/5a4c2d8594c08b1e.json",
+        "capturedAt": "2026-09-27T03:28:24.166Z"
+      },
+      "fields": {
+        "effect": "<当事人不安限度-1>与当事人位于同一区域的另外1名角色死亡"
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "effect": "当事人不安限度-1，与当事人位于同一区域的另外1名角色死亡"
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "effect",
+      "selected": "<当事人不安限度-1>与当事人位于同一区域的另外1名角色死亡",
+      "candidate": "当事人不安限度-1，与当事人位于同一区域的另外1名角色死亡",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    }
+  ]
+}

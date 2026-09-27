@@ -1,0 +1,60 @@
+{
+  "id": "4b0ecdc0f377bc0b",
+  "title": "Site-background-dark",
+  "kind": "media",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "bytes": 400313,
+    "sha256": "fd25798979a32708ced98810fe8d22f7c4109741aa04e1daad782868feaf6602"
+  },
+  "provenance": {
+    "bytes": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:Site-background-dark",
+      "snapshot": "sources/wiki/files/8f6dd43cce22350b.json"
+    },
+    "sha256": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:Site-background-dark",
+      "snapshot": "sources/wiki/files/8f6dd43cce22350b.json"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:Site-background-dark",
+      "snapshot": "sources/wiki/files/8f6dd43cce22350b.json"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/File:Site-background-dark",
+        "snapshot": "sources/wiki/files/8f6dd43cce22350b.json"
+      },
+      "fields": {
+        "bytes": 400313,
+        "sha256": "fd25798979a32708ced98810fe8d22f7c4109741aa04e1daad782868feaf6602"
+      }
+    }
+  ],
+  "media": [
+    {
+      "title": "Site-background-dark",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:Site-background-dark",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/0/08/Site-background-dark/revision/latest?cb=20251023143016&format=original&path-prefix=zh",
+      "path": "media/wiki/8f6dd43cce22350b.png",
+      "sourceRecord": "sources/wiki/files/8f6dd43cce22350b.json",
+      "sha256": "fd25798979a32708ced98810fe8d22f7c4109741aa04e1daad782868feaf6602",
+      "bytes": 400313,
+      "fileInfo": "PNG image data, 2880 x 656, 8-bit/color RGB, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "tags": [],
+  "conflicts": []
+}

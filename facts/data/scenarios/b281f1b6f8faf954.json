@@ -1,0 +1,362 @@
+{
+  "id": "b281f1b6f8faf954",
+  "title": "AHR-05",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "AHR-05非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "AHR-05",
+    "loops": 5,
+    "days": 4,
+    "剧本名": "撸猫撸进异次元",
+    "作者": "α聆弦",
+    "轮数": "5 4",
+    "天数": "4"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-05",
+      "snapshot": "sources/wiki/pages/d66012eeb341b838.json",
+      "capturedAt": "2026-09-27T03:39:49.530Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-05",
+      "snapshot": "sources/wiki/pages/d66012eeb341b838.json",
+      "capturedAt": "2026-09-27T03:39:49.530Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-05",
+      "snapshot": "sources/wiki/pages/d66012eeb341b838.json",
+      "capturedAt": "2026-09-27T03:39:49.530Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-05",
+      "snapshot": "sources/wiki/pages/d66012eeb341b838.json",
+      "capturedAt": "2026-09-27T03:39:49.530Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 6
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 6
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 6
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 6
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-05",
+      "snapshot": "sources/wiki/pages/d66012eeb341b838.json",
+      "capturedAt": "2026-09-27T03:39:49.530Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 6
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-05%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/57d07c1099e055a7.json",
+      "capturedAt": "2026-09-27T03:39:52.327Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-05",
+        "snapshot": "sources/wiki/pages/d66012eeb341b838.json",
+        "capturedAt": "2026-09-27T03:39:49.530Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "AHR-05",
+        "loops": 5,
+        "days": 4
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 7,
+        "row": 6
+      },
+      "fields": {
+        "scenarioCode": "AHR-05",
+        "剧本名": "撸猫撸进异次元",
+        "作者": "α聆弦",
+        "轮数": "5 4",
+        "天数": "4"
+      }
+    }
+  ],
+  "wikiTitle": "AHR-05",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Another Horizon Revised"
+  ],
+  "module": "Another Horizon Revised",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "b281f1b6f8faf954",
+        "title": "AHR-05",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "AHR-05",
+          "loops": 5,
+          "days": 4,
+          "剧本名": "撸猫撸进异次元",
+          "作者": "α聆弦",
+          "轮数": "5 4",
+          "天数": "4"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-05",
+            "snapshot": "sources/wiki/pages/d66012eeb341b838.json",
+            "capturedAt": "2026-09-27T03:39:49.530Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-05",
+            "snapshot": "sources/wiki/pages/d66012eeb341b838.json",
+            "capturedAt": "2026-09-27T03:39:49.530Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-05",
+            "snapshot": "sources/wiki/pages/d66012eeb341b838.json",
+            "capturedAt": "2026-09-27T03:39:49.530Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-05",
+            "snapshot": "sources/wiki/pages/d66012eeb341b838.json",
+            "capturedAt": "2026-09-27T03:39:49.530Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 6
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 6
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 6
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 6
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-05",
+            "snapshot": "sources/wiki/pages/d66012eeb341b838.json",
+            "capturedAt": "2026-09-27T03:39:49.530Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 6
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-05",
+              "snapshot": "sources/wiki/pages/d66012eeb341b838.json",
+              "capturedAt": "2026-09-27T03:39:49.530Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "AHR-05",
+              "loops": 5,
+              "days": 4
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 7,
+              "row": 6
+            },
+            "fields": {
+              "scenarioCode": "AHR-05",
+              "剧本名": "撸猫撸进异次元",
+              "作者": "α聆弦",
+              "轮数": "5 4",
+              "天数": "4"
+            }
+          }
+        ],
+        "body": "text/scenarios/b281f1b6f8faf954.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-05",
+          "snapshot": "sources/wiki/pages/d66012eeb341b838.json",
+          "capturedAt": "2026-09-27T03:39:49.530Z"
+        },
+        "wikiTitle": "AHR-05",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-05?action=edit&section=1"
+          },
+          {
+            "title": "AHR-05非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-05%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-05?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Another Horizon Revised"
+        ],
+        "module": "Another Horizon Revised"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "e59d43f5414f3064",
+        "title": "AHR-05非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "AHR-05"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-05%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/57d07c1099e055a7.json",
+            "capturedAt": "2026-09-27T03:39:52.327Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-05%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/57d07c1099e055a7.json",
+            "capturedAt": "2026-09-27T03:39:52.327Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-05%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/57d07c1099e055a7.json",
+            "capturedAt": "2026-09-27T03:39:52.327Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-05%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/57d07c1099e055a7.json",
+              "capturedAt": "2026-09-27T03:39:52.327Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "AHR-05"
+            }
+          }
+        ],
+        "wikiTitle": "AHR-05非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Another Horizon Revised",
+        "tags": [
+          "民间",
+          "Another Horizon Revised"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "e59d43f5414f3064"
+  ],
+  "conflicts": []
+}

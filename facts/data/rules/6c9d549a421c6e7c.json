@@ -1,0 +1,70 @@
+{
+  "id": "6c9d549a421c6e7c",
+  "title": "恶魔的意志",
+  "kind": "rules",
+  "scope": "Another Horizon",
+  "aliases": [],
+  "fields": {
+    "ruleType": "Y",
+    "identityCounts": {
+      "代理人": "①",
+      "入侵者": "①",
+      "隐匿者": "①"
+    },
+    "effect": ""
+  },
+  "provenance": {
+    "ruleType": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon",
+      "snapshot": "sources/wiki/pages/0bbeabad41fe0a31.json",
+      "capturedAt": "2026-09-27T03:28:21.175Z"
+    },
+    "identityCounts": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon",
+      "snapshot": "sources/wiki/pages/0bbeabad41fe0a31.json",
+      "capturedAt": "2026-09-27T03:28:21.175Z"
+    },
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon",
+      "snapshot": "sources/wiki/pages/0bbeabad41fe0a31.json",
+      "capturedAt": "2026-09-27T03:28:21.175Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon",
+      "snapshot": "sources/wiki/pages/0bbeabad41fe0a31.json",
+      "capturedAt": "2026-09-27T03:28:21.175Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon",
+        "snapshot": "sources/wiki/pages/0bbeabad41fe0a31.json",
+        "capturedAt": "2026-09-27T03:28:21.175Z"
+      },
+      "fields": {
+        "ruleType": "Y",
+        "identityCounts": {
+          "代理人": "①",
+          "入侵者": "①",
+          "隐匿者": "①"
+        },
+        "effect": ""
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "Y",
+    "官方"
+  ],
+  "conflicts": []
+}

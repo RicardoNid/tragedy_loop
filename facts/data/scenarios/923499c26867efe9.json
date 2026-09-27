@@ -1,0 +1,210 @@
+{
+  "id": "923499c26867efe9",
+  "title": "MZ-15G",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "scenarioCode": "MZ-15G",
+    "剧本名": "Sweet Spot",
+    "日文名": "Sweet Spot",
+    "作者": "SpaceTW",
+    "轮数": "6 4",
+    "天数": "x",
+    "难度": "5 7"
+  },
+  "provenance": {
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+      "table": 3,
+      "row": 10
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+      "table": 3,
+      "row": 10
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+      "table": 3,
+      "row": 10
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+      "table": 3,
+      "row": 10
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+      "table": 3,
+      "row": 10
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+      "table": 3,
+      "row": 10
+    },
+    "难度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+      "table": 3,
+      "row": 10
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+      "table": 3,
+      "row": 10
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+        "table": 3,
+        "row": 10
+      },
+      "fields": {
+        "scenarioCode": "MZ-15G",
+        "剧本名": "Sweet Spot",
+        "日文名": "Sweet Spot",
+        "作者": "SpaceTW",
+        "轮数": "6 4",
+        "天数": "x",
+        "难度": "5 7"
+      }
+    }
+  ],
+  "tags": [
+    "剧本集剧本",
+    "Midnight Zone"
+  ],
+  "module": "Midnight Zone",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "923499c26867efe9",
+        "title": "MZ-15G",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "scenarioCode": "MZ-15G",
+          "剧本名": "Sweet Spot",
+          "日文名": "Sweet Spot",
+          "作者": "SpaceTW",
+          "轮数": "6 4",
+          "天数": "x",
+          "难度": "5 7"
+        },
+        "provenance": {
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+            "table": 3,
+            "row": 10
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+            "table": 3,
+            "row": 10
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+            "table": 3,
+            "row": 10
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+            "table": 3,
+            "row": 10
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+            "table": 3,
+            "row": 10
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+            "table": 3,
+            "row": 10
+          },
+          "难度": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+            "table": 3,
+            "row": 10
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+            "table": 3,
+            "row": 10
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+              "table": 3,
+              "row": 10
+            },
+            "fields": {
+              "scenarioCode": "MZ-15G",
+              "剧本名": "Sweet Spot",
+              "日文名": "Sweet Spot",
+              "作者": "SpaceTW",
+              "轮数": "6 4",
+              "天数": "x",
+              "难度": "5 7"
+            }
+          }
+        ],
+        "tags": [
+          "剧本集剧本",
+          "Midnight Zone"
+        ],
+        "module": "Midnight Zone"
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [],
+  "conflicts": []
+}

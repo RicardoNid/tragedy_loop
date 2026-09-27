@@ -1,0 +1,210 @@
+{
+  "id": "fc54c33d9a8d2708",
+  "title": "MZ-12G",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "scenarioCode": "MZ-12G",
+    "剧本名": "把學分拿回來 ! 我受夠無休無止的八年了",
+    "日文名": "単位を取り戻せ！　終わりのない八年間は懲り懲りだ",
+    "作者": "パーン",
+    "轮数": "4 3",
+    "天数": "8",
+    "难度": "5 7"
+  },
+  "provenance": {
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+      "table": 3,
+      "row": 7
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+      "table": 3,
+      "row": 7
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+      "table": 3,
+      "row": 7
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+      "table": 3,
+      "row": 7
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+      "table": 3,
+      "row": 7
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+      "table": 3,
+      "row": 7
+    },
+    "难度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+      "table": 3,
+      "row": 7
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+      "table": 3,
+      "row": 7
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+        "table": 3,
+        "row": 7
+      },
+      "fields": {
+        "scenarioCode": "MZ-12G",
+        "剧本名": "把學分拿回來 ! 我受夠無休無止的八年了",
+        "日文名": "単位を取り戻せ！　終わりのない八年間は懲り懲りだ",
+        "作者": "パーン",
+        "轮数": "4 3",
+        "天数": "8",
+        "难度": "5 7"
+      }
+    }
+  ],
+  "tags": [
+    "剧本集剧本",
+    "Midnight Zone"
+  ],
+  "module": "Midnight Zone",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "fc54c33d9a8d2708",
+        "title": "MZ-12G",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "scenarioCode": "MZ-12G",
+          "剧本名": "把學分拿回來 ! 我受夠無休無止的八年了",
+          "日文名": "単位を取り戻せ！　終わりのない八年間は懲り懲りだ",
+          "作者": "パーン",
+          "轮数": "4 3",
+          "天数": "8",
+          "难度": "5 7"
+        },
+        "provenance": {
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+            "table": 3,
+            "row": 7
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+            "table": 3,
+            "row": 7
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+            "table": 3,
+            "row": 7
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+            "table": 3,
+            "row": 7
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+            "table": 3,
+            "row": 7
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+            "table": 3,
+            "row": 7
+          },
+          "难度": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+            "table": 3,
+            "row": 7
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+            "table": 3,
+            "row": 7
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%89%A7%E6%9C%AC%E9%9B%86%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/ac5bd78812f7afdb.json",
+              "table": 3,
+              "row": 7
+            },
+            "fields": {
+              "scenarioCode": "MZ-12G",
+              "剧本名": "把學分拿回來 ! 我受夠無休無止的八年了",
+              "日文名": "単位を取り戻せ！　終わりのない八年間は懲り懲りだ",
+              "作者": "パーン",
+              "轮数": "4 3",
+              "天数": "8",
+              "难度": "5 7"
+            }
+          }
+        ],
+        "tags": [
+          "剧本集剧本",
+          "Midnight Zone"
+        ],
+        "module": "Midnight Zone"
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [],
+  "conflicts": []
+}

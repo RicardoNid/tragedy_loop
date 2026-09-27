@@ -1,0 +1,430 @@
+{
+  "id": "d387a940f032ec80",
+  "title": "HSA-24",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "HSA-24非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "HSA-24",
+    "loops": 3,
+    "days": 5,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "送葬"
+      },
+      {
+        "day": 4,
+        "incidentText": "污秽溢出"
+      },
+      {
+        "day": 5,
+        "incidentText": "疯狂之夜"
+      }
+    ],
+    "剧本名": "移除密谋加二（1）",
+    "作者": "佚名",
+    "轮数": "3",
+    "天数": "5"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-24",
+      "snapshot": "sources/wiki/pages/d1bd6f26025ca993.json",
+      "capturedAt": "2026-09-27T04:30:44.340Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-24",
+      "snapshot": "sources/wiki/pages/d1bd6f26025ca993.json",
+      "capturedAt": "2026-09-27T04:30:44.340Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-24",
+      "snapshot": "sources/wiki/pages/d1bd6f26025ca993.json",
+      "capturedAt": "2026-09-27T04:30:44.340Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-24",
+      "snapshot": "sources/wiki/pages/d1bd6f26025ca993.json",
+      "capturedAt": "2026-09-27T04:30:44.340Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-24",
+      "snapshot": "sources/wiki/pages/d1bd6f26025ca993.json",
+      "capturedAt": "2026-09-27T04:30:44.340Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 26
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 26
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 26
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 26
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-24",
+      "snapshot": "sources/wiki/pages/d1bd6f26025ca993.json",
+      "capturedAt": "2026-09-27T04:30:44.340Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 26
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-24%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/2219d5bf82386e11.json",
+      "capturedAt": "2026-09-27T04:30:47.570Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-24",
+        "snapshot": "sources/wiki/pages/d1bd6f26025ca993.json",
+        "capturedAt": "2026-09-27T04:30:44.340Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "HSA-24",
+        "loops": 3,
+        "days": 5,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "送葬"
+          },
+          {
+            "day": 4,
+            "incidentText": "污秽溢出"
+          },
+          {
+            "day": 5,
+            "incidentText": "疯狂之夜"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 5,
+        "row": 26
+      },
+      "fields": {
+        "scenarioCode": "HSA-24",
+        "剧本名": "移除密谋加二（1）",
+        "作者": "佚名",
+        "轮数": "3",
+        "天数": "5"
+      }
+    }
+  ],
+  "wikiTitle": "HSA-24",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Haunted Stage Again"
+  ],
+  "module": "Haunted Stage Again",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "d387a940f032ec80",
+        "title": "HSA-24",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "HSA-24",
+          "loops": 3,
+          "days": 5,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "送葬"
+            },
+            {
+              "day": 4,
+              "incidentText": "污秽溢出"
+            },
+            {
+              "day": 5,
+              "incidentText": "疯狂之夜"
+            }
+          ],
+          "剧本名": "移除密谋加二（1）",
+          "作者": "佚名",
+          "轮数": "3",
+          "天数": "5"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-24",
+            "snapshot": "sources/wiki/pages/d1bd6f26025ca993.json",
+            "capturedAt": "2026-09-27T04:30:44.340Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-24",
+            "snapshot": "sources/wiki/pages/d1bd6f26025ca993.json",
+            "capturedAt": "2026-09-27T04:30:44.340Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-24",
+            "snapshot": "sources/wiki/pages/d1bd6f26025ca993.json",
+            "capturedAt": "2026-09-27T04:30:44.340Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-24",
+            "snapshot": "sources/wiki/pages/d1bd6f26025ca993.json",
+            "capturedAt": "2026-09-27T04:30:44.340Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-24",
+            "snapshot": "sources/wiki/pages/d1bd6f26025ca993.json",
+            "capturedAt": "2026-09-27T04:30:44.340Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 26
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 26
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 26
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 26
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-24",
+            "snapshot": "sources/wiki/pages/d1bd6f26025ca993.json",
+            "capturedAt": "2026-09-27T04:30:44.340Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 26
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-24",
+              "snapshot": "sources/wiki/pages/d1bd6f26025ca993.json",
+              "capturedAt": "2026-09-27T04:30:44.340Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "HSA-24",
+              "loops": 3,
+              "days": 5,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "送葬"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "污秽溢出"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "疯狂之夜"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 5,
+              "row": 26
+            },
+            "fields": {
+              "scenarioCode": "HSA-24",
+              "剧本名": "移除密谋加二（1）",
+              "作者": "佚名",
+              "轮数": "3",
+              "天数": "5"
+            }
+          }
+        ],
+        "body": "text/scenarios/d387a940f032ec80.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-24",
+          "snapshot": "sources/wiki/pages/d1bd6f26025ca993.json",
+          "capturedAt": "2026-09-27T04:30:44.340Z"
+        },
+        "wikiTitle": "HSA-24",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-24?action=edit&section=1"
+          },
+          {
+            "title": "HSA-24非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-24%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-24?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Haunted Stage Again"
+        ],
+        "module": "Haunted Stage Again"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "7be65bc2704af454",
+        "title": "HSA-24非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "HSA-24"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-24%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/2219d5bf82386e11.json",
+            "capturedAt": "2026-09-27T04:30:47.570Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-24%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/2219d5bf82386e11.json",
+            "capturedAt": "2026-09-27T04:30:47.570Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-24%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/2219d5bf82386e11.json",
+            "capturedAt": "2026-09-27T04:30:47.570Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-24%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/2219d5bf82386e11.json",
+              "capturedAt": "2026-09-27T04:30:47.570Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "HSA-24"
+            }
+          }
+        ],
+        "wikiTitle": "HSA-24非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Haunted Stage Again",
+        "tags": [
+          "民间",
+          "Haunted Stage Again"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "7be65bc2704af454"
+  ],
+  "conflicts": []
+}

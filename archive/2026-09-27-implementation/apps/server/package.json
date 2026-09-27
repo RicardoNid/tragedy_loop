@@ -1,0 +1,16 @@
+{
+  "name": "@tragedy/server",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@tragedy/engine": "workspace:*",
+    "@tragedy/content": "workspace:*",
+    "@tragedy/contracts": "workspace:*",
+    "fastify": "^5.0.0",
+    "@fastify/static": "^8.0.0"
+  },
+  "devDependencies": {
+    "@fastify/middie": "^9.0.0",
+    "vite": "7.3.6"
+  }
+}

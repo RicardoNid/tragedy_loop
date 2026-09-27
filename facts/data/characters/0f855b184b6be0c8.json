@@ -1,0 +1,228 @@
+{
+  "id": "0f855b184b6be0c8",
+  "title": "小女孩",
+  "kind": "characters",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "角色名": "小女孩",
+    "初始区域": "学校",
+    "禁行区域": "神社 都市 医院",
+    "不安限度": "1",
+    "属性": [
+      "学生",
+      "少女"
+    ],
+    "友好能力": [
+      {
+        "text": "（友好1）本輪輪迴中，該角色不再擁有禁行區域，可以移動至學校之外。",
+        "threshold": 1,
+        "limitText": ""
+      },
+      {
+        "text": "（友好3 1L1）將該角色移動至相鄰的版图。",
+        "threshold": 3,
+        "limitText": "1L1",
+        "oncePerLoop": true
+      }
+    ]
+  },
+  "provenance": {
+    "角色名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%B0%8F%E5%A5%B3%E5%AD%A9",
+      "snapshot": "sources/wiki/pages/ac295bf9d4dc581b.json",
+      "capturedAt": "2026-09-27T03:32:00.284Z"
+    },
+    "初始区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%B0%8F%E5%A5%B3%E5%AD%A9",
+      "snapshot": "sources/wiki/pages/ac295bf9d4dc581b.json",
+      "capturedAt": "2026-09-27T03:32:00.284Z"
+    },
+    "禁行区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%B0%8F%E5%A5%B3%E5%AD%A9",
+      "snapshot": "sources/wiki/pages/ac295bf9d4dc581b.json",
+      "capturedAt": "2026-09-27T03:32:00.284Z"
+    },
+    "不安限度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%B0%8F%E5%A5%B3%E5%AD%A9",
+      "snapshot": "sources/wiki/pages/ac295bf9d4dc581b.json",
+      "capturedAt": "2026-09-27T03:32:00.284Z"
+    },
+    "属性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%B0%8F%E5%A5%B3%E5%AD%A9",
+      "snapshot": "sources/wiki/pages/ac295bf9d4dc581b.json",
+      "capturedAt": "2026-09-27T03:32:00.284Z"
+    },
+    "友好能力": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%B0%8F%E5%A5%B3%E5%AD%A9",
+      "snapshot": "sources/wiki/pages/ac295bf9d4dc581b.json",
+      "capturedAt": "2026-09-27T03:32:00.284Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%B0%8F%E5%A5%B3%E5%AD%A9",
+      "snapshot": "sources/wiki/pages/ac295bf9d4dc581b.json",
+      "capturedAt": "2026-09-27T03:32:00.284Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%B0%8F%E5%A5%B3%E5%AD%A9",
+        "snapshot": "sources/wiki/pages/ac295bf9d4dc581b.json",
+        "capturedAt": "2026-09-27T03:32:00.284Z"
+      },
+      "fields": {
+        "角色名": "小女孩",
+        "初始区域": "学校",
+        "禁行区域": "神社 都市 医院",
+        "不安限度": "1",
+        "属性": [
+          "学生",
+          "少女"
+        ],
+        "友好能力": [
+          {
+            "text": "（友好1）本輪輪迴中，該角色不再擁有禁行區域，可以移動至學校之外。",
+            "threshold": 1,
+            "limitText": ""
+          },
+          {
+            "text": "（友好3 1L1）將該角色移動至相鄰的版图。",
+            "threshold": 3,
+            "limitText": "1L1",
+            "oncePerLoop": true
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "特性": "",
+        "属性": [
+          "学生",
+          "少女"
+        ],
+        "初始区域": "学校",
+        "禁行区域": "神社，都市，医院",
+        "不安限度": "1",
+        "友好能力": [
+          {
+            "text": "本轮轮回中，该角色不再拥有禁行区域，可以移动至学校之外。",
+            "threshold": "1",
+            "oncePerLoop": ""
+          },
+          {
+            "text": "将该角色移动至相邻的版图。",
+            "threshold": "3",
+            "oncePerLoop": "是"
+          }
+        ]
+      }
+    }
+  ],
+  "body": "text/characters/0f855b184b6be0c8.txt",
+  "bodySource": {
+    "provider": "wiki",
+    "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%B0%8F%E5%A5%B3%E5%AD%A9",
+    "snapshot": "sources/wiki/pages/ac295bf9d4dc581b.json",
+    "capturedAt": "2026-09-27T03:32:00.284Z"
+  },
+  "wikiTitle": "小女孩",
+  "originalTables": [],
+  "wikiStatus": "captured",
+  "links": [
+    {
+      "title": "<img style=\"\" src=\"https://static.wikia.nocookie.net/tragedyrooper/images/0/0e/%E5%B0%8F%E5%A5%B3%E5%AD%A9.png/revision/latest/scale-to-width-down/134?cb=20251023162228&amp;path-prefix=zh\" title=\"小女孩.png (244 KB)\" class=\"thumbimage\" alt=\"\" height=\"185\" width=\"185\" data-image-name=\"小女孩.png\" data-image-key=\"%E5%B0%8F%E5%A5%B3%E5%AD%A9.png\" data-relevant=\"1\">",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%B0%8F%E5%A5%B3%E5%AD%A9.png"
+    }
+  ],
+  "images": [
+    {
+      "alt": "",
+      "src": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+    }
+  ],
+  "media": [
+    {
+      "title": "小女孩.png",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%B0%8F%E5%A5%B3%E5%AD%A9.png",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/0/0e/%E5%B0%8F%E5%A5%B3%E5%AD%A9.png/revision/latest?cb=20251023162228&format=original&path-prefix=zh",
+      "path": "media/wiki/ff05b73ac86be7b9.png",
+      "sourceRecord": "sources/wiki/files/ff05b73ac86be7b9.json",
+      "sha256": "06531d3b1a4e2d593adae51e4ac429558850aa3e51110b6ddd49387a8233c96a",
+      "bytes": 249794,
+      "fileInfo": "PNG image data, 305 x 422, 8-bit/color RGBA, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/6fadb2d7054aeea7.json",
+  "tags": [
+    "学生",
+    "少女",
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "禁行区域",
+      "selected": "神社 都市 医院",
+      "candidate": "神社，都市，医院",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "友好能力",
+      "selected": [
+        {
+          "text": "（友好1）本輪輪迴中，該角色不再擁有禁行區域，可以移動至學校之外。",
+          "threshold": 1,
+          "limitText": ""
+        },
+        {
+          "text": "（友好3 1L1）將該角色移動至相鄰的版图。",
+          "threshold": 3,
+          "limitText": "1L1",
+          "oncePerLoop": true
+        }
+      ],
+      "candidate": [
+        {
+          "text": "本轮轮回中，该角色不再拥有禁行区域，可以移动至学校之外。",
+          "threshold": "1",
+          "oncePerLoop": ""
+        },
+        {
+          "text": "将该角色移动至相邻的版图。",
+          "threshold": "3",
+          "oncePerLoop": "是"
+        }
+      ],
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    }
+  ]
+}

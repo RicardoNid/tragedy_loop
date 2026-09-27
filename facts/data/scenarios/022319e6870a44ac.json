@@ -1,0 +1,2050 @@
+{
+  "id": "022319e6870a44ac",
+  "title": "MZ-28",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "MZ-28非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "MZ-28",
+    "loops": 1,
+    "days": 100,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 2,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 3,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 4,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 5,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 6,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 7,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 8,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 9,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 10,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 11,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 12,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 13,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 14,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 15,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 16,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 17,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 18,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 19,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 20,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 21,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 22,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 23,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 24,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 25,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 26,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 27,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 28,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 29,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 30,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 31,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 32,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 33,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 34,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 35,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 36,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 37,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 38,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 39,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 40,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 41,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 42,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 43,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 44,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 45,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 46,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 47,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 48,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 49,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 50,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 51,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 52,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 53,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 54,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 55,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 56,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 57,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 58,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 59,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 60,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 61,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 62,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 63,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 64,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 65,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 66,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 67,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 68,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 69,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 70,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 71,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 72,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 73,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 74,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 75,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 76,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 77,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 78,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 79,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 80,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 81,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 82,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 83,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 84,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 85,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 86,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 87,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 88,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 89,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 90,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 91,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 92,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 93,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 94,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 95,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 96,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 97,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 98,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 99,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 100,
+        "incidentText": "伪装自杀"
+      }
+    ],
+    "剧本名": "水滴石穿",
+    "作者": "新手之二",
+    "轮数": "1",
+    "天数": "100",
+    "难度": "8"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-28",
+      "snapshot": "sources/wiki/pages/219b73fcc5186f42.json",
+      "capturedAt": "2026-09-27T04:46:13.960Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-28",
+      "snapshot": "sources/wiki/pages/219b73fcc5186f42.json",
+      "capturedAt": "2026-09-27T04:46:13.960Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-28",
+      "snapshot": "sources/wiki/pages/219b73fcc5186f42.json",
+      "capturedAt": "2026-09-27T04:46:13.960Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-28",
+      "snapshot": "sources/wiki/pages/219b73fcc5186f42.json",
+      "capturedAt": "2026-09-27T04:46:13.960Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-28",
+      "snapshot": "sources/wiki/pages/219b73fcc5186f42.json",
+      "capturedAt": "2026-09-27T04:46:13.960Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 30
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 30
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 30
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 30
+    },
+    "难度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 30
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-28",
+      "snapshot": "sources/wiki/pages/219b73fcc5186f42.json",
+      "capturedAt": "2026-09-27T04:46:13.960Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 30
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-28%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/6e7c218d88c03a84.json",
+      "capturedAt": "2026-09-27T04:46:16.982Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-28",
+        "snapshot": "sources/wiki/pages/219b73fcc5186f42.json",
+        "capturedAt": "2026-09-27T04:46:13.960Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "MZ-28",
+        "loops": 1,
+        "days": 100,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 2,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 3,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 4,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 5,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 6,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 7,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 8,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 9,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 10,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 11,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 12,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 13,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 14,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 15,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 16,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 17,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 18,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 19,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 20,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 21,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 22,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 23,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 24,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 25,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 26,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 27,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 28,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 29,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 30,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 31,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 32,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 33,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 34,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 35,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 36,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 37,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 38,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 39,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 40,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 41,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 42,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 43,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 44,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 45,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 46,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 47,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 48,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 49,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 50,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 51,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 52,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 53,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 54,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 55,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 56,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 57,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 58,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 59,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 60,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 61,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 62,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 63,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 64,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 65,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 66,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 67,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 68,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 69,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 70,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 71,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 72,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 73,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 74,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 75,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 76,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 77,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 78,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 79,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 80,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 81,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 82,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 83,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 84,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 85,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 86,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 87,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 88,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 89,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 90,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 91,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 92,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 93,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 94,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 95,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 96,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 97,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 98,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 99,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 100,
+            "incidentText": "伪装自杀"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 3,
+        "row": 30
+      },
+      "fields": {
+        "scenarioCode": "MZ-28",
+        "剧本名": "水滴石穿",
+        "作者": "新手之二",
+        "轮数": "1",
+        "天数": "100",
+        "难度": "8"
+      }
+    }
+  ],
+  "wikiTitle": "MZ-28",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Midnight Zone"
+  ],
+  "module": "Midnight Zone",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "022319e6870a44ac",
+        "title": "MZ-28",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "MZ-28",
+          "loops": 1,
+          "days": 100,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 2,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 3,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 4,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 5,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 6,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 7,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 8,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 9,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 10,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 11,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 12,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 13,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 14,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 15,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 16,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 17,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 18,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 19,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 20,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 21,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 22,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 23,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 24,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 25,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 26,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 27,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 28,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 29,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 30,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 31,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 32,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 33,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 34,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 35,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 36,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 37,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 38,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 39,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 40,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 41,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 42,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 43,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 44,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 45,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 46,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 47,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 48,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 49,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 50,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 51,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 52,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 53,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 54,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 55,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 56,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 57,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 58,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 59,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 60,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 61,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 62,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 63,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 64,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 65,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 66,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 67,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 68,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 69,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 70,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 71,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 72,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 73,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 74,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 75,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 76,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 77,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 78,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 79,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 80,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 81,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 82,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 83,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 84,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 85,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 86,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 87,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 88,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 89,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 90,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 91,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 92,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 93,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 94,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 95,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 96,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 97,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 98,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 99,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 100,
+              "incidentText": "伪装自杀"
+            }
+          ],
+          "剧本名": "水滴石穿",
+          "作者": "新手之二",
+          "轮数": "1",
+          "天数": "100",
+          "难度": "8"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-28",
+            "snapshot": "sources/wiki/pages/219b73fcc5186f42.json",
+            "capturedAt": "2026-09-27T04:46:13.960Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-28",
+            "snapshot": "sources/wiki/pages/219b73fcc5186f42.json",
+            "capturedAt": "2026-09-27T04:46:13.960Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-28",
+            "snapshot": "sources/wiki/pages/219b73fcc5186f42.json",
+            "capturedAt": "2026-09-27T04:46:13.960Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-28",
+            "snapshot": "sources/wiki/pages/219b73fcc5186f42.json",
+            "capturedAt": "2026-09-27T04:46:13.960Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-28",
+            "snapshot": "sources/wiki/pages/219b73fcc5186f42.json",
+            "capturedAt": "2026-09-27T04:46:13.960Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 30
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 30
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 30
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 30
+          },
+          "难度": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 30
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-28",
+            "snapshot": "sources/wiki/pages/219b73fcc5186f42.json",
+            "capturedAt": "2026-09-27T04:46:13.960Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 30
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-28",
+              "snapshot": "sources/wiki/pages/219b73fcc5186f42.json",
+              "capturedAt": "2026-09-27T04:46:13.960Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "MZ-28",
+              "loops": 1,
+              "days": 100,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 6,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 7,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 8,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 9,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 10,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 11,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 12,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 13,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 14,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 15,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 16,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 17,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 18,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 19,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 20,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 21,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 22,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 23,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 24,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 25,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 26,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 27,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 28,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 29,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 30,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 31,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 32,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 33,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 34,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 35,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 36,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 37,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 38,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 39,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 40,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 41,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 42,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 43,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 44,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 45,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 46,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 47,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 48,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 49,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 50,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 51,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 52,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 53,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 54,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 55,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 56,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 57,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 58,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 59,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 60,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 61,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 62,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 63,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 64,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 65,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 66,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 67,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 68,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 69,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 70,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 71,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 72,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 73,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 74,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 75,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 76,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 77,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 78,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 79,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 80,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 81,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 82,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 83,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 84,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 85,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 86,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 87,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 88,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 89,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 90,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 91,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 92,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 93,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 94,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 95,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 96,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 97,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 98,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 99,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 100,
+                  "incidentText": "伪装自杀"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 3,
+              "row": 30
+            },
+            "fields": {
+              "scenarioCode": "MZ-28",
+              "剧本名": "水滴石穿",
+              "作者": "新手之二",
+              "轮数": "1",
+              "天数": "100",
+              "难度": "8"
+            }
+          }
+        ],
+        "body": "text/scenarios/022319e6870a44ac.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-28",
+          "snapshot": "sources/wiki/pages/219b73fcc5186f42.json",
+          "capturedAt": "2026-09-27T04:46:13.960Z"
+        },
+        "wikiTitle": "MZ-28",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-28?action=edit&section=1"
+          },
+          {
+            "title": "MZ-28非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-28%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-28?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Midnight Zone"
+        ],
+        "module": "Midnight Zone"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "6cfec2f3ebda63ae",
+        "title": "MZ-28非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "MZ-28",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "绝密报告"
+            },
+            {
+              "slot": "X1",
+              "name": "X异因子"
+            },
+            {
+              "slot": "X2",
+              "name": "死亡真人秀"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-28%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/6e7c218d88c03a84.json",
+            "capturedAt": "2026-09-27T04:46:16.982Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-28%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/6e7c218d88c03a84.json",
+            "capturedAt": "2026-09-27T04:46:16.982Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-28%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/6e7c218d88c03a84.json",
+            "capturedAt": "2026-09-27T04:46:16.982Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-28%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/6e7c218d88c03a84.json",
+            "capturedAt": "2026-09-27T04:46:16.982Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-28%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/6e7c218d88c03a84.json",
+              "capturedAt": "2026-09-27T04:46:16.982Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "MZ-28",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "绝密报告"
+                },
+                {
+                  "slot": "X1",
+                  "name": "X异因子"
+                },
+                {
+                  "slot": "X2",
+                  "name": "死亡真人秀"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/6cfec2f3ebda63ae.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-28%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/6e7c218d88c03a84.json",
+          "capturedAt": "2026-09-27T04:46:16.982Z"
+        },
+        "wikiTitle": "MZ-28非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-28%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-28%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Midnight Zone",
+        "tags": [
+          "民间",
+          "Midnight Zone"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "6cfec2f3ebda63ae"
+  ],
+  "conflicts": []
+}

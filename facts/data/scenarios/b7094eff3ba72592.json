@@ -1,0 +1,534 @@
+{
+  "id": "b7094eff3ba72592",
+  "title": "BTX-01",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "BTX-01非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "BTX-01",
+    "loops": 4,
+    "days": 5,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "蝴蝶效应"
+      },
+      {
+        "day": 2,
+        "incidentText": "蝴蝶效应"
+      },
+      {
+        "day": 3,
+        "incidentText": "自杀"
+      },
+      {
+        "day": 4,
+        "incidentText": "不安扩大"
+      },
+      {
+        "day": 5,
+        "incidentText": "散播"
+      }
+    ],
+    "剧本名": "永遠輪回的破局者V2",
+    "作者": "ChatnoiR",
+    "轮数": "4",
+    "天数": "5",
+    "难度": "？"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-01",
+      "snapshot": "sources/wiki/pages/5503b3092f94c977.json",
+      "capturedAt": "2026-09-27T03:49:23.599Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-01",
+      "snapshot": "sources/wiki/pages/5503b3092f94c977.json",
+      "capturedAt": "2026-09-27T03:49:23.599Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-01",
+      "snapshot": "sources/wiki/pages/5503b3092f94c977.json",
+      "capturedAt": "2026-09-27T03:49:23.599Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-01",
+      "snapshot": "sources/wiki/pages/5503b3092f94c977.json",
+      "capturedAt": "2026-09-27T03:49:23.599Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-01",
+      "snapshot": "sources/wiki/pages/5503b3092f94c977.json",
+      "capturedAt": "2026-09-27T03:49:23.599Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 2
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 2
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 2
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 2
+    },
+    "难度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 2
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-01",
+      "snapshot": "sources/wiki/pages/5503b3092f94c977.json",
+      "capturedAt": "2026-09-27T03:49:23.599Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 2
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-01%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/2a48471b59e0df55.json",
+      "capturedAt": "2026-09-27T03:49:27.294Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-01",
+        "snapshot": "sources/wiki/pages/5503b3092f94c977.json",
+        "capturedAt": "2026-09-27T03:49:23.599Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "BTX-01",
+        "loops": 4,
+        "days": 5,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "蝴蝶效应"
+          },
+          {
+            "day": 2,
+            "incidentText": "蝴蝶效应"
+          },
+          {
+            "day": 3,
+            "incidentText": "自杀"
+          },
+          {
+            "day": 4,
+            "incidentText": "不安扩大"
+          },
+          {
+            "day": 5,
+            "incidentText": "散播"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 2,
+        "row": 2
+      },
+      "fields": {
+        "scenarioCode": "BTX-01",
+        "剧本名": "永遠輪回的破局者V2",
+        "作者": "ChatnoiR",
+        "轮数": "4",
+        "天数": "5",
+        "难度": "？"
+      }
+    }
+  ],
+  "wikiTitle": "BTX-01",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Basic Tragedy X"
+  ],
+  "module": "Basic Tragedy X",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "b7094eff3ba72592",
+        "title": "BTX-01",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "BTX-01",
+          "loops": 4,
+          "days": 5,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "蝴蝶效应"
+            },
+            {
+              "day": 2,
+              "incidentText": "蝴蝶效应"
+            },
+            {
+              "day": 3,
+              "incidentText": "自杀"
+            },
+            {
+              "day": 4,
+              "incidentText": "不安扩大"
+            },
+            {
+              "day": 5,
+              "incidentText": "散播"
+            }
+          ],
+          "剧本名": "永遠輪回的破局者V2",
+          "作者": "ChatnoiR",
+          "轮数": "4",
+          "天数": "5",
+          "难度": "？"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-01",
+            "snapshot": "sources/wiki/pages/5503b3092f94c977.json",
+            "capturedAt": "2026-09-27T03:49:23.599Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-01",
+            "snapshot": "sources/wiki/pages/5503b3092f94c977.json",
+            "capturedAt": "2026-09-27T03:49:23.599Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-01",
+            "snapshot": "sources/wiki/pages/5503b3092f94c977.json",
+            "capturedAt": "2026-09-27T03:49:23.599Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-01",
+            "snapshot": "sources/wiki/pages/5503b3092f94c977.json",
+            "capturedAt": "2026-09-27T03:49:23.599Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-01",
+            "snapshot": "sources/wiki/pages/5503b3092f94c977.json",
+            "capturedAt": "2026-09-27T03:49:23.599Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 2
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 2
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 2
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 2
+          },
+          "难度": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 2
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-01",
+            "snapshot": "sources/wiki/pages/5503b3092f94c977.json",
+            "capturedAt": "2026-09-27T03:49:23.599Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 2
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-01",
+              "snapshot": "sources/wiki/pages/5503b3092f94c977.json",
+              "capturedAt": "2026-09-27T03:49:23.599Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "BTX-01",
+              "loops": 4,
+              "days": 5,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "蝴蝶效应"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "蝴蝶效应"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "自杀"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "不安扩大"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "散播"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 2,
+              "row": 2
+            },
+            "fields": {
+              "scenarioCode": "BTX-01",
+              "剧本名": "永遠輪回的破局者V2",
+              "作者": "ChatnoiR",
+              "轮数": "4",
+              "天数": "5",
+              "难度": "？"
+            }
+          }
+        ],
+        "body": "text/scenarios/b7094eff3ba72592.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-01",
+          "snapshot": "sources/wiki/pages/5503b3092f94c977.json",
+          "capturedAt": "2026-09-27T03:49:23.599Z"
+        },
+        "wikiTitle": "BTX-01",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-01?action=edit&section=1"
+          },
+          {
+            "title": "BTX-01非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-01%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-01?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Basic Tragedy X"
+        ],
+        "module": "Basic Tragedy X"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "7ffd263c1524c826",
+        "title": "BTX-01非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "BTX-01",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "改变未来"
+            },
+            {
+              "slot": "X1",
+              "name": "因果线"
+            },
+            {
+              "slot": "X2",
+              "name": "潜伏的杀人狂"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-01%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/2a48471b59e0df55.json",
+            "capturedAt": "2026-09-27T03:49:27.294Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-01%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/2a48471b59e0df55.json",
+            "capturedAt": "2026-09-27T03:49:27.294Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-01%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/2a48471b59e0df55.json",
+            "capturedAt": "2026-09-27T03:49:27.294Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-01%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/2a48471b59e0df55.json",
+            "capturedAt": "2026-09-27T03:49:27.294Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-01%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/2a48471b59e0df55.json",
+              "capturedAt": "2026-09-27T03:49:27.294Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "BTX-01",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "改变未来"
+                },
+                {
+                  "slot": "X1",
+                  "name": "因果线"
+                },
+                {
+                  "slot": "X2",
+                  "name": "潜伏的杀人狂"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/7ffd263c1524c826.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-01%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/2a48471b59e0df55.json",
+          "capturedAt": "2026-09-27T03:49:27.294Z"
+        },
+        "wikiTitle": "BTX-01非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-01%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-01%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-01%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=3"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Basic Tragedy X",
+        "tags": [
+          "民间",
+          "Basic Tragedy X"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "7ffd263c1524c826"
+  ],
+  "conflicts": []
+}

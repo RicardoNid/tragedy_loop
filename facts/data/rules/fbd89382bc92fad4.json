@@ -1,0 +1,107 @@
+{
+  "id": "fbd89382bc92fad4",
+  "title": "SNS恐慌",
+  "kind": "rules",
+  "scope": "Last Liar",
+  "aliases": [],
+  "fields": {
+    "ruleType": "X",
+    "identityCounts": {
+      "杀人狂": "①",
+      "网络名流": "①",
+      "传谣人": "①"
+    },
+    "effect": ""
+  },
+  "provenance": {
+    "ruleType": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Last_Liar",
+      "snapshot": "sources/wiki/pages/844cae1ed2f5e214.json",
+      "capturedAt": "2026-09-27T03:29:44.914Z"
+    },
+    "identityCounts": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Last_Liar",
+      "snapshot": "sources/wiki/pages/844cae1ed2f5e214.json",
+      "capturedAt": "2026-09-27T03:29:44.914Z"
+    },
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Last_Liar",
+      "snapshot": "sources/wiki/pages/844cae1ed2f5e214.json",
+      "capturedAt": "2026-09-27T03:29:44.914Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Last_Liar",
+      "snapshot": "sources/wiki/pages/844cae1ed2f5e214.json",
+      "capturedAt": "2026-09-27T03:29:44.914Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Last_Liar",
+        "snapshot": "sources/wiki/pages/844cae1ed2f5e214.json",
+        "capturedAt": "2026-09-27T03:29:44.914Z"
+      },
+      "fields": {
+        "ruleType": "X",
+        "identityCounts": {
+          "杀人狂": "①",
+          "网络名流": "①",
+          "传谣人": "①"
+        },
+        "effect": ""
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "ruleType": "X",
+        "identityCounts": {
+          "杀人狂": "1",
+          "网络名流": "1",
+          "传谣人": "1"
+        },
+        "effect": ""
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "X",
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "identityCounts",
+      "selected": {
+        "杀人狂": "①",
+        "网络名流": "①",
+        "传谣人": "①"
+      },
+      "candidate": {
+        "杀人狂": "1",
+        "网络名流": "1",
+        "传谣人": "1"
+      },
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    }
+  ]
+}

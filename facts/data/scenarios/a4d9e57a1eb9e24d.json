@@ -1,0 +1,424 @@
+{
+  "id": "a4d9e57a1eb9e24d",
+  "title": "BTX-48",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "BTX-48非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "BTX-48",
+    "loops": 6,
+    "days": 3,
+    "剧本名": "倩女幽魂",
+    "作者": "超级大米",
+    "轮数": "6",
+    "天数": "3"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-48",
+      "snapshot": "sources/wiki/pages/d53ec5d29f443be1.json",
+      "capturedAt": "2026-09-27T04:05:18.934Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-48",
+      "snapshot": "sources/wiki/pages/d53ec5d29f443be1.json",
+      "capturedAt": "2026-09-27T04:05:18.934Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-48",
+      "snapshot": "sources/wiki/pages/d53ec5d29f443be1.json",
+      "capturedAt": "2026-09-27T04:05:18.934Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-48",
+      "snapshot": "sources/wiki/pages/d53ec5d29f443be1.json",
+      "capturedAt": "2026-09-27T04:05:18.934Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 49
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 49
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 49
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 49
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-48",
+      "snapshot": "sources/wiki/pages/d53ec5d29f443be1.json",
+      "capturedAt": "2026-09-27T04:05:18.934Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 49
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-48%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/119956e4dae2e171.json",
+      "capturedAt": "2026-09-27T04:05:21.724Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-48",
+        "snapshot": "sources/wiki/pages/d53ec5d29f443be1.json",
+        "capturedAt": "2026-09-27T04:05:18.934Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "BTX-48",
+        "loops": 6,
+        "days": 3
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 2,
+        "row": 49
+      },
+      "fields": {
+        "scenarioCode": "BTX-48",
+        "剧本名": "倩女幽魂",
+        "作者": "超级大米",
+        "轮数": "6",
+        "天数": "3"
+      }
+    }
+  ],
+  "wikiTitle": "BTX-48",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Basic Tragedy X"
+  ],
+  "module": "Basic Tragedy X",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "a4d9e57a1eb9e24d",
+        "title": "BTX-48",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "BTX-48",
+          "loops": 6,
+          "days": 3,
+          "剧本名": "倩女幽魂",
+          "作者": "超级大米",
+          "轮数": "6",
+          "天数": "3"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-48",
+            "snapshot": "sources/wiki/pages/d53ec5d29f443be1.json",
+            "capturedAt": "2026-09-27T04:05:18.934Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-48",
+            "snapshot": "sources/wiki/pages/d53ec5d29f443be1.json",
+            "capturedAt": "2026-09-27T04:05:18.934Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-48",
+            "snapshot": "sources/wiki/pages/d53ec5d29f443be1.json",
+            "capturedAt": "2026-09-27T04:05:18.934Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-48",
+            "snapshot": "sources/wiki/pages/d53ec5d29f443be1.json",
+            "capturedAt": "2026-09-27T04:05:18.934Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 49
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 49
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 49
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 49
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-48",
+            "snapshot": "sources/wiki/pages/d53ec5d29f443be1.json",
+            "capturedAt": "2026-09-27T04:05:18.934Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 49
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-48",
+              "snapshot": "sources/wiki/pages/d53ec5d29f443be1.json",
+              "capturedAt": "2026-09-27T04:05:18.934Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "BTX-48",
+              "loops": 6,
+              "days": 3
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 2,
+              "row": 49
+            },
+            "fields": {
+              "scenarioCode": "BTX-48",
+              "剧本名": "倩女幽魂",
+              "作者": "超级大米",
+              "轮数": "6",
+              "天数": "3"
+            }
+          }
+        ],
+        "body": "text/scenarios/a4d9e57a1eb9e24d.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-48",
+          "snapshot": "sources/wiki/pages/d53ec5d29f443be1.json",
+          "capturedAt": "2026-09-27T04:05:18.934Z"
+        },
+        "wikiTitle": "BTX-48",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-48?action=edit&section=1"
+          },
+          {
+            "title": "仙人",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E4%BB%99%E4%BA%BA"
+          },
+          {
+            "title": "UP主",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/UP%E4%B8%BB"
+          },
+          {
+            "title": "BTX-48非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-48%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-48?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Basic Tragedy X"
+        ],
+        "module": "Basic Tragedy X"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "1311ef4190c72d1f",
+        "title": "BTX-48非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "BTX-48",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "被封印的邪灵"
+            },
+            {
+              "slot": "X1",
+              "name": "好友圈"
+            },
+            {
+              "slot": "X2",
+              "name": "恋爱风景线"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-48%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/119956e4dae2e171.json",
+            "capturedAt": "2026-09-27T04:05:21.724Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-48%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/119956e4dae2e171.json",
+            "capturedAt": "2026-09-27T04:05:21.724Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-48%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/119956e4dae2e171.json",
+            "capturedAt": "2026-09-27T04:05:21.724Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-48%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/119956e4dae2e171.json",
+            "capturedAt": "2026-09-27T04:05:21.724Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-48%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/119956e4dae2e171.json",
+              "capturedAt": "2026-09-27T04:05:21.724Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "BTX-48",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "被封印的邪灵"
+                },
+                {
+                  "slot": "X1",
+                  "name": "好友圈"
+                },
+                {
+                  "slot": "X2",
+                  "name": "恋爱风景线"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/1311ef4190c72d1f.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-48%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/119956e4dae2e171.json",
+          "capturedAt": "2026-09-27T04:05:21.724Z"
+        },
+        "wikiTitle": "BTX-48非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-48%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-48%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-48%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=3"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Basic Tragedy X",
+        "tags": [
+          "民间",
+          "Basic Tragedy X"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "1311ef4190c72d1f"
+  ],
+  "conflicts": []
+}

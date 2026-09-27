@@ -1,0 +1,494 @@
+{
+  "id": "ff39728261db5d3f",
+  "title": "FS-12",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "FS-12非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "FS-12",
+    "loops": 5,
+    "days": 4,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "不安扩散"
+      },
+      {
+        "day": 2,
+        "incidentText": "谋杀"
+      },
+      {
+        "day": 4,
+        "incidentText": "谋杀"
+      }
+    ],
+    "剧本名": "大逃杀-惨剧轮回版",
+    "英文名": "Battle Royale - Tragedy Looper Edition",
+    "作者": "Res_kun",
+    "轮数": "5",
+    "天数": "4"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-12",
+      "snapshot": "sources/wiki/pages/8d3adc06bb80b7dd.json",
+      "capturedAt": "2026-09-27T04:24:44.958Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-12",
+      "snapshot": "sources/wiki/pages/8d3adc06bb80b7dd.json",
+      "capturedAt": "2026-09-27T04:24:44.958Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-12",
+      "snapshot": "sources/wiki/pages/8d3adc06bb80b7dd.json",
+      "capturedAt": "2026-09-27T04:24:44.958Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-12",
+      "snapshot": "sources/wiki/pages/8d3adc06bb80b7dd.json",
+      "capturedAt": "2026-09-27T04:24:44.958Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-12",
+      "snapshot": "sources/wiki/pages/8d3adc06bb80b7dd.json",
+      "capturedAt": "2026-09-27T04:24:44.958Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 13
+    },
+    "英文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 13
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 13
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 13
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 13
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-12",
+      "snapshot": "sources/wiki/pages/8d3adc06bb80b7dd.json",
+      "capturedAt": "2026-09-27T04:24:44.958Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 13
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/d5bc2d3776239ffa.json",
+      "capturedAt": "2026-09-27T04:24:58.149Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-12",
+        "snapshot": "sources/wiki/pages/8d3adc06bb80b7dd.json",
+        "capturedAt": "2026-09-27T04:24:44.958Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "FS-12",
+        "loops": 5,
+        "days": 4,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "不安扩散"
+          },
+          {
+            "day": 2,
+            "incidentText": "谋杀"
+          },
+          {
+            "day": 4,
+            "incidentText": "谋杀"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 1,
+        "row": 13
+      },
+      "fields": {
+        "scenarioCode": "FS-12",
+        "剧本名": "大逃杀-惨剧轮回版",
+        "英文名": "Battle Royale - Tragedy Looper Edition",
+        "作者": "Res_kun",
+        "轮数": "5",
+        "天数": "4"
+      }
+    }
+  ],
+  "wikiTitle": "FS-12",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "First Steps"
+  ],
+  "module": "First Steps",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "ff39728261db5d3f",
+        "title": "FS-12",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "FS-12",
+          "loops": 5,
+          "days": 4,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "不安扩散"
+            },
+            {
+              "day": 2,
+              "incidentText": "谋杀"
+            },
+            {
+              "day": 4,
+              "incidentText": "谋杀"
+            }
+          ],
+          "剧本名": "大逃杀-惨剧轮回版",
+          "英文名": "Battle Royale - Tragedy Looper Edition",
+          "作者": "Res_kun",
+          "轮数": "5",
+          "天数": "4"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-12",
+            "snapshot": "sources/wiki/pages/8d3adc06bb80b7dd.json",
+            "capturedAt": "2026-09-27T04:24:44.958Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-12",
+            "snapshot": "sources/wiki/pages/8d3adc06bb80b7dd.json",
+            "capturedAt": "2026-09-27T04:24:44.958Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-12",
+            "snapshot": "sources/wiki/pages/8d3adc06bb80b7dd.json",
+            "capturedAt": "2026-09-27T04:24:44.958Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-12",
+            "snapshot": "sources/wiki/pages/8d3adc06bb80b7dd.json",
+            "capturedAt": "2026-09-27T04:24:44.958Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-12",
+            "snapshot": "sources/wiki/pages/8d3adc06bb80b7dd.json",
+            "capturedAt": "2026-09-27T04:24:44.958Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 13
+          },
+          "英文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 13
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 13
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 13
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 13
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-12",
+            "snapshot": "sources/wiki/pages/8d3adc06bb80b7dd.json",
+            "capturedAt": "2026-09-27T04:24:44.958Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 13
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-12",
+              "snapshot": "sources/wiki/pages/8d3adc06bb80b7dd.json",
+              "capturedAt": "2026-09-27T04:24:44.958Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "FS-12",
+              "loops": 5,
+              "days": 4,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "不安扩散"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "谋杀"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "谋杀"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 1,
+              "row": 13
+            },
+            "fields": {
+              "scenarioCode": "FS-12",
+              "剧本名": "大逃杀-惨剧轮回版",
+              "英文名": "Battle Royale - Tragedy Looper Edition",
+              "作者": "Res_kun",
+              "轮数": "5",
+              "天数": "4"
+            }
+          }
+        ],
+        "body": "text/scenarios/ff39728261db5d3f.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-12",
+          "snapshot": "sources/wiki/pages/8d3adc06bb80b7dd.json",
+          "capturedAt": "2026-09-27T04:24:44.958Z"
+        },
+        "wikiTitle": "FS-12",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-12?action=edit&section=1"
+          },
+          {
+            "title": "FS-12非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-12?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "First Steps"
+        ],
+        "module": "First Steps"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "b10ba994320515d6",
+        "title": "FS-12非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "FS-12",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "谋杀计划"
+            },
+            {
+              "slot": "X1",
+              "name": "最黑暗的剧本"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/d5bc2d3776239ffa.json",
+            "capturedAt": "2026-09-27T04:24:58.149Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/d5bc2d3776239ffa.json",
+            "capturedAt": "2026-09-27T04:24:58.149Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/d5bc2d3776239ffa.json",
+            "capturedAt": "2026-09-27T04:24:58.149Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/d5bc2d3776239ffa.json",
+            "capturedAt": "2026-09-27T04:24:58.149Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/d5bc2d3776239ffa.json",
+              "capturedAt": "2026-09-27T04:24:58.149Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "FS-12",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "谋杀计划"
+                },
+                {
+                  "slot": "X1",
+                  "name": "最黑暗的剧本"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/b10ba994320515d6.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/d5bc2d3776239ffa.json",
+          "capturedAt": "2026-09-27T04:24:58.149Z"
+        },
+        "wikiTitle": "FS-12非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=3"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "First Steps",
+        "tags": [
+          "民间",
+          "First Steps"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "b10ba994320515d6"
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,398 @@
+{
+  "id": "394e496ab4c5e984",
+  "title": "AHR-17",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "AHR-17非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "AHR-17",
+    "loops": "无限",
+    "days": 1,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "？"
+      }
+    ],
+    "剧本名": "命运石之门",
+    "作者": "清尘",
+    "轮数": "n",
+    "天数": "1"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-17",
+      "snapshot": "sources/wiki/pages/ec3c7872192f843d.json",
+      "capturedAt": "2026-09-27T03:43:59.302Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-17",
+      "snapshot": "sources/wiki/pages/ec3c7872192f843d.json",
+      "capturedAt": "2026-09-27T03:43:59.302Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-17",
+      "snapshot": "sources/wiki/pages/ec3c7872192f843d.json",
+      "capturedAt": "2026-09-27T03:43:59.302Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-17",
+      "snapshot": "sources/wiki/pages/ec3c7872192f843d.json",
+      "capturedAt": "2026-09-27T03:43:59.302Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-17",
+      "snapshot": "sources/wiki/pages/ec3c7872192f843d.json",
+      "capturedAt": "2026-09-27T03:43:59.302Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 18
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 18
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 18
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 18
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-17",
+      "snapshot": "sources/wiki/pages/ec3c7872192f843d.json",
+      "capturedAt": "2026-09-27T03:43:59.302Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 18
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-17%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/e0e90c7e082494ff.json",
+      "capturedAt": "2026-09-27T03:44:02.088Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-17",
+        "snapshot": "sources/wiki/pages/ec3c7872192f843d.json",
+        "capturedAt": "2026-09-27T03:43:59.302Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "AHR-17",
+        "loops": "无限",
+        "days": 1,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "？"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 7,
+        "row": 18
+      },
+      "fields": {
+        "scenarioCode": "AHR-17",
+        "剧本名": "命运石之门",
+        "作者": "清尘",
+        "轮数": "n",
+        "天数": "1"
+      }
+    }
+  ],
+  "wikiTitle": "AHR-17",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Another Horizon Revised"
+  ],
+  "module": "Another Horizon Revised",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "394e496ab4c5e984",
+        "title": "AHR-17",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "AHR-17",
+          "loops": "无限",
+          "days": 1,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "？"
+            }
+          ],
+          "剧本名": "命运石之门",
+          "作者": "清尘",
+          "轮数": "n",
+          "天数": "1"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-17",
+            "snapshot": "sources/wiki/pages/ec3c7872192f843d.json",
+            "capturedAt": "2026-09-27T03:43:59.302Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-17",
+            "snapshot": "sources/wiki/pages/ec3c7872192f843d.json",
+            "capturedAt": "2026-09-27T03:43:59.302Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-17",
+            "snapshot": "sources/wiki/pages/ec3c7872192f843d.json",
+            "capturedAt": "2026-09-27T03:43:59.302Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-17",
+            "snapshot": "sources/wiki/pages/ec3c7872192f843d.json",
+            "capturedAt": "2026-09-27T03:43:59.302Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-17",
+            "snapshot": "sources/wiki/pages/ec3c7872192f843d.json",
+            "capturedAt": "2026-09-27T03:43:59.302Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 18
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 18
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 18
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 18
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-17",
+            "snapshot": "sources/wiki/pages/ec3c7872192f843d.json",
+            "capturedAt": "2026-09-27T03:43:59.302Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 18
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-17",
+              "snapshot": "sources/wiki/pages/ec3c7872192f843d.json",
+              "capturedAt": "2026-09-27T03:43:59.302Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "AHR-17",
+              "loops": "无限",
+              "days": 1,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "？"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 7,
+              "row": 18
+            },
+            "fields": {
+              "scenarioCode": "AHR-17",
+              "剧本名": "命运石之门",
+              "作者": "清尘",
+              "轮数": "n",
+              "天数": "1"
+            }
+          }
+        ],
+        "body": "text/scenarios/394e496ab4c5e984.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-17",
+          "snapshot": "sources/wiki/pages/ec3c7872192f843d.json",
+          "capturedAt": "2026-09-27T03:43:59.302Z"
+        },
+        "wikiTitle": "AHR-17",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-17?action=edit&section=1"
+          },
+          {
+            "title": "AHR-17非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-17%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-17?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Another Horizon Revised"
+        ],
+        "module": "Another Horizon Revised"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "091c6e074f9424a1",
+        "title": "AHR-17非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "AHR-17"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-17%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/e0e90c7e082494ff.json",
+            "capturedAt": "2026-09-27T03:44:02.088Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-17%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/e0e90c7e082494ff.json",
+            "capturedAt": "2026-09-27T03:44:02.088Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-17%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/e0e90c7e082494ff.json",
+            "capturedAt": "2026-09-27T03:44:02.088Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-17%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/e0e90c7e082494ff.json",
+              "capturedAt": "2026-09-27T03:44:02.088Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "AHR-17"
+            }
+          }
+        ],
+        "wikiTitle": "AHR-17非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Another Horizon Revised",
+        "tags": [
+          "民间",
+          "Another Horizon Revised"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "091c6e074f9424a1"
+  ],
+  "conflicts": []
+}

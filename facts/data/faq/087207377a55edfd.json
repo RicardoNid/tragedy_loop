@@ -1,0 +1,67 @@
+{
+  "id": "087207377a55edfd",
+  "title": "大人物是胆小鬼，可以视为在领地并移动吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 角色 / 第 48 行",
+  "aliases": [],
+  "fields": {
+    "question": "大人物是胆小鬼，可以视为在领地并移动吗？",
+    "answer": "可以"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 48,
+      "cells": "A48:B48",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 48,
+      "cells": "A48:B48",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 48,
+      "cells": "A48:B48",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+        "snapshot": "sources/faq-sheet/characters.json",
+        "sheet": "角色",
+        "row": 48,
+        "cells": "A48:B48",
+        "capturedAt": "2026-09-27T05:39:49.068Z"
+      },
+      "fields": {
+        "question": "大人物是胆小鬼，可以视为在领地并移动吗？",
+        "answer": "可以"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "角色",
+    "关于大人物",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

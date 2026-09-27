@@ -1,0 +1,69 @@
+{
+  "id": "58cf30d325ea71bb",
+  "title": "傀儡",
+  "kind": "identities",
+  "scope": "Old Fashion",
+  "aliases": [],
+  "fields": {
+    "max": "",
+    "traits": "无视友好\n\n友好4以上必定无视友好",
+    "abilities": [
+      "【强制：轮回开始时】该角色在之前的游戏中死亡过→该角色以死亡状态入场",
+      "【强制：主人公能力阶段】该角色拒绝友好能力的发动后→该角色死亡",
+      "【任意能力：回合结束阶段】同一区域1名角色身上有4枚或以上[友好]→那名角色死亡"
+    ]
+  },
+  "provenance": {
+    "max": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Old_Fashion",
+      "snapshot": "sources/wiki/pages/a50ad3a225ece288.json",
+      "capturedAt": "2026-09-27T03:30:00.404Z"
+    },
+    "traits": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Old_Fashion",
+      "snapshot": "sources/wiki/pages/a50ad3a225ece288.json",
+      "capturedAt": "2026-09-27T03:30:00.404Z"
+    },
+    "abilities": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Old_Fashion",
+      "snapshot": "sources/wiki/pages/a50ad3a225ece288.json",
+      "capturedAt": "2026-09-27T03:30:00.404Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Old_Fashion",
+      "snapshot": "sources/wiki/pages/a50ad3a225ece288.json",
+      "capturedAt": "2026-09-27T03:30:00.404Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Old_Fashion",
+        "snapshot": "sources/wiki/pages/a50ad3a225ece288.json",
+        "capturedAt": "2026-09-27T03:30:00.404Z"
+      },
+      "fields": {
+        "max": "",
+        "traits": "无视友好\n\n友好4以上必定无视友好",
+        "abilities": [
+          "【强制：轮回开始时】该角色在之前的游戏中死亡过→该角色以死亡状态入场",
+          "【强制：主人公能力阶段】该角色拒绝友好能力的发动后→该角色死亡",
+          "【任意能力：回合结束阶段】同一区域1名角色身上有4枚或以上[友好]→那名角色死亡"
+        ]
+      }
+    }
+  ],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "民间"
+  ],
+  "conflicts": []
+}

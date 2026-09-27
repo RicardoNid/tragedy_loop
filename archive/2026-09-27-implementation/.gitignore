@@ -1,0 +1,39 @@
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+.pytest_cache/
+.ruff_cache/
+node_modules/
+runtime/
+
+build/
+dist/
+*.egg-info/
+
+.DS_Store
+
+facts/sources/ricardo/scans/*
+!facts/sources/ricardo/scans/.gitkeep
+
+# Local source files and extraction dumps. Keep these outside Git unless
+# explicitly approved for archival.
+*.pdf
+facts/sources/ricardo/**/*.png
+facts/sources/ricardo/**/*.jpg
+facts/sources/ricardo/**/*.jpeg
+facts/sources/ricardo/**/*.webp
+facts/sources/ricardo/**/*.tif
+facts/sources/ricardo/**/*.tiff
+
+# Original clones and local-only migration evidence
+.sources/
+.local-imports/
+.env
+.env.*
+!.env.example
+coverage/
+*.tsbuildinfo
+playwright-report/
+test-results/

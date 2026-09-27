@@ -1,0 +1,462 @@
+{
+  "id": "01f3809e2e2f2b57",
+  "title": "MC-58",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "MC-58非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "MC-58",
+    "loops": "无限",
+    "days": 5,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "医院事故"
+      },
+      {
+        "day": 2,
+        "incidentText": "医院事故"
+      },
+      {
+        "day": 3,
+        "incidentText": "医院事故"
+      },
+      {
+        "day": 4,
+        "incidentText": "医院事故"
+      },
+      {
+        "day": 5,
+        "incidentText": "自杀"
+      }
+    ],
+    "剧本名": "伪神",
+    "作者": "奥伯伦",
+    "轮数": "n",
+    "天数": "5"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-58",
+      "snapshot": "sources/wiki/pages/f369bae1df3be893.json",
+      "capturedAt": "2026-09-27T04:41:25.777Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-58",
+      "snapshot": "sources/wiki/pages/f369bae1df3be893.json",
+      "capturedAt": "2026-09-27T04:41:25.777Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-58",
+      "snapshot": "sources/wiki/pages/f369bae1df3be893.json",
+      "capturedAt": "2026-09-27T04:41:25.777Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-58",
+      "snapshot": "sources/wiki/pages/f369bae1df3be893.json",
+      "capturedAt": "2026-09-27T04:41:25.777Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-58",
+      "snapshot": "sources/wiki/pages/f369bae1df3be893.json",
+      "capturedAt": "2026-09-27T04:41:25.777Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 60
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 60
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 60
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 60
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-58",
+      "snapshot": "sources/wiki/pages/f369bae1df3be893.json",
+      "capturedAt": "2026-09-27T04:41:25.777Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 60
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-58%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/d31a3ddf043b1b71.json",
+      "capturedAt": "2026-09-27T04:41:28.831Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-58",
+        "snapshot": "sources/wiki/pages/f369bae1df3be893.json",
+        "capturedAt": "2026-09-27T04:41:25.777Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "MC-58",
+        "loops": "无限",
+        "days": 5,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "医院事故"
+          },
+          {
+            "day": 2,
+            "incidentText": "医院事故"
+          },
+          {
+            "day": 3,
+            "incidentText": "医院事故"
+          },
+          {
+            "day": 4,
+            "incidentText": "医院事故"
+          },
+          {
+            "day": 5,
+            "incidentText": "自杀"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 4,
+        "row": 60
+      },
+      "fields": {
+        "scenarioCode": "MC-58",
+        "剧本名": "伪神",
+        "作者": "奥伯伦",
+        "轮数": "n",
+        "天数": "5"
+      }
+    }
+  ],
+  "wikiTitle": "MC-58",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Mystery Circle"
+  ],
+  "module": "Mystery Circle",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "01f3809e2e2f2b57",
+        "title": "MC-58",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "MC-58",
+          "loops": "无限",
+          "days": 5,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "医院事故"
+            },
+            {
+              "day": 2,
+              "incidentText": "医院事故"
+            },
+            {
+              "day": 3,
+              "incidentText": "医院事故"
+            },
+            {
+              "day": 4,
+              "incidentText": "医院事故"
+            },
+            {
+              "day": 5,
+              "incidentText": "自杀"
+            }
+          ],
+          "剧本名": "伪神",
+          "作者": "奥伯伦",
+          "轮数": "n",
+          "天数": "5"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-58",
+            "snapshot": "sources/wiki/pages/f369bae1df3be893.json",
+            "capturedAt": "2026-09-27T04:41:25.777Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-58",
+            "snapshot": "sources/wiki/pages/f369bae1df3be893.json",
+            "capturedAt": "2026-09-27T04:41:25.777Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-58",
+            "snapshot": "sources/wiki/pages/f369bae1df3be893.json",
+            "capturedAt": "2026-09-27T04:41:25.777Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-58",
+            "snapshot": "sources/wiki/pages/f369bae1df3be893.json",
+            "capturedAt": "2026-09-27T04:41:25.777Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-58",
+            "snapshot": "sources/wiki/pages/f369bae1df3be893.json",
+            "capturedAt": "2026-09-27T04:41:25.777Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 60
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 60
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 60
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 60
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-58",
+            "snapshot": "sources/wiki/pages/f369bae1df3be893.json",
+            "capturedAt": "2026-09-27T04:41:25.777Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 60
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-58",
+              "snapshot": "sources/wiki/pages/f369bae1df3be893.json",
+              "capturedAt": "2026-09-27T04:41:25.777Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "MC-58",
+              "loops": "无限",
+              "days": 5,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "医院事故"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "医院事故"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "医院事故"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "医院事故"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "自杀"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 4,
+              "row": 60
+            },
+            "fields": {
+              "scenarioCode": "MC-58",
+              "剧本名": "伪神",
+              "作者": "奥伯伦",
+              "轮数": "n",
+              "天数": "5"
+            }
+          }
+        ],
+        "body": "text/scenarios/01f3809e2e2f2b57.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-58",
+          "snapshot": "sources/wiki/pages/f369bae1df3be893.json",
+          "capturedAt": "2026-09-27T04:41:25.777Z"
+        },
+        "wikiTitle": "MC-58",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-58?action=edit&section=1"
+          },
+          {
+            "title": "MC-58非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-58%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-58?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Mystery Circle"
+        ],
+        "module": "Mystery Circle"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "dd62fcc3e0a45a62",
+        "title": "MC-58非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "MC-58"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-58%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/d31a3ddf043b1b71.json",
+            "capturedAt": "2026-09-27T04:41:28.831Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-58%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/d31a3ddf043b1b71.json",
+            "capturedAt": "2026-09-27T04:41:28.831Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-58%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/d31a3ddf043b1b71.json",
+            "capturedAt": "2026-09-27T04:41:28.831Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-58%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/d31a3ddf043b1b71.json",
+              "capturedAt": "2026-09-27T04:41:28.831Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "MC-58"
+            }
+          }
+        ],
+        "wikiTitle": "MC-58非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Mystery Circle",
+        "tags": [
+          "民间",
+          "Mystery Circle"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "dd62fcc3e0a45a62"
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,239 @@
+{
+  "id": "82ad3cf31fd28885",
+  "title": "WM-18sp",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "WM-18sp",
+    "loops": 4,
+    "days": 3,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "发现"
+      },
+      {
+        "day": 2,
+        "incidentText": "发现"
+      },
+      {
+        "day": 3,
+        "incidentText": "暴乱"
+      }
+    ]
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-18sp?oldid=1480",
+      "snapshot": "sources/wiki/pages/e33d629aff6b1936.json",
+      "capturedAt": "2026-09-27T05:03:14.021Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-18sp?oldid=1480",
+      "snapshot": "sources/wiki/pages/e33d629aff6b1936.json",
+      "capturedAt": "2026-09-27T05:03:14.021Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-18sp?oldid=1480",
+      "snapshot": "sources/wiki/pages/e33d629aff6b1936.json",
+      "capturedAt": "2026-09-27T05:03:14.021Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-18sp?oldid=1480",
+      "snapshot": "sources/wiki/pages/e33d629aff6b1936.json",
+      "capturedAt": "2026-09-27T05:03:14.021Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-18sp?oldid=1480",
+      "snapshot": "sources/wiki/pages/e33d629aff6b1936.json",
+      "capturedAt": "2026-09-27T05:03:14.021Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-18sp?oldid=1480",
+      "snapshot": "sources/wiki/pages/e33d629aff6b1936.json",
+      "capturedAt": "2026-09-27T05:03:14.021Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-18sp?oldid=1480",
+        "snapshot": "sources/wiki/pages/e33d629aff6b1936.json",
+        "capturedAt": "2026-09-27T05:03:14.021Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "WM-18sp",
+        "loops": 4,
+        "days": 3,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "发现"
+          },
+          {
+            "day": 2,
+            "incidentText": "发现"
+          },
+          {
+            "day": 3,
+            "incidentText": "暴乱"
+          }
+        ]
+      }
+    }
+  ],
+  "wikiTitle": "WM-18sp",
+  "images": [],
+  "media": [],
+  "module": "Weird Mythology",
+  "tags": [
+    "Weird Mythology"
+  ],
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "82ad3cf31fd28885",
+        "title": "WM-18sp",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "WM-18sp",
+          "loops": 4,
+          "days": 3,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "发现"
+            },
+            {
+              "day": 2,
+              "incidentText": "发现"
+            },
+            {
+              "day": 3,
+              "incidentText": "暴乱"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-18sp?oldid=1480",
+            "snapshot": "sources/wiki/pages/e33d629aff6b1936.json",
+            "capturedAt": "2026-09-27T05:03:14.021Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-18sp?oldid=1480",
+            "snapshot": "sources/wiki/pages/e33d629aff6b1936.json",
+            "capturedAt": "2026-09-27T05:03:14.021Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-18sp?oldid=1480",
+            "snapshot": "sources/wiki/pages/e33d629aff6b1936.json",
+            "capturedAt": "2026-09-27T05:03:14.021Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-18sp?oldid=1480",
+            "snapshot": "sources/wiki/pages/e33d629aff6b1936.json",
+            "capturedAt": "2026-09-27T05:03:14.021Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-18sp?oldid=1480",
+            "snapshot": "sources/wiki/pages/e33d629aff6b1936.json",
+            "capturedAt": "2026-09-27T05:03:14.021Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-18sp?oldid=1480",
+            "snapshot": "sources/wiki/pages/e33d629aff6b1936.json",
+            "capturedAt": "2026-09-27T05:03:14.021Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-18sp?oldid=1480",
+              "snapshot": "sources/wiki/pages/e33d629aff6b1936.json",
+              "capturedAt": "2026-09-27T05:03:14.021Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "WM-18sp",
+              "loops": 4,
+              "days": 3,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "发现"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "发现"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "暴乱"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/82ad3cf31fd28885.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-18sp?oldid=1480",
+          "snapshot": "sources/wiki/pages/e33d629aff6b1936.json",
+          "capturedAt": "2026-09-27T05:03:14.021Z"
+        },
+        "wikiTitle": "WM-18sp",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-18sp?action=edit&section=1"
+          },
+          {
+            "title": "WM-18B非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-18B%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-18sp?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "module": "Weird Mythology",
+        "tags": [
+          "Weird Mythology"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [],
+  "conflicts": []
+}

@@ -1,0 +1,534 @@
+{
+  "id": "adf2f40637491e86",
+  "title": "BTX-33",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "BTX-33非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "BTX-33",
+    "loops": 4,
+    "days": 6,
+    "schedule": [
+      {
+        "day": 2,
+        "incidentText": "自杀"
+      },
+      {
+        "day": 5,
+        "incidentText": "邪气污染"
+      },
+      {
+        "day": 6,
+        "incidentText": "不安扩散"
+      }
+    ],
+    "剧本名": "邪恶的污染领域",
+    "日文名": "邪悪なる汚染領域",
+    "英文名": "Evil Contaminated Realm",
+    "作者": "ペンスキー（gitti）",
+    "轮数": "4",
+    "天数": "6",
+    "难度": "4"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-33",
+      "snapshot": "sources/wiki/pages/cf39c970354cfc26.json",
+      "capturedAt": "2026-09-27T04:03:40.826Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-33",
+      "snapshot": "sources/wiki/pages/cf39c970354cfc26.json",
+      "capturedAt": "2026-09-27T04:03:40.826Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-33",
+      "snapshot": "sources/wiki/pages/cf39c970354cfc26.json",
+      "capturedAt": "2026-09-27T04:03:40.826Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-33",
+      "snapshot": "sources/wiki/pages/cf39c970354cfc26.json",
+      "capturedAt": "2026-09-27T04:03:40.826Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-33",
+      "snapshot": "sources/wiki/pages/cf39c970354cfc26.json",
+      "capturedAt": "2026-09-27T04:03:40.826Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 34
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 34
+    },
+    "英文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 34
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 34
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 34
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 34
+    },
+    "难度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 34
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-33",
+      "snapshot": "sources/wiki/pages/cf39c970354cfc26.json",
+      "capturedAt": "2026-09-27T04:03:40.826Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 34
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-33%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/090a5d6c93cd1f42.json",
+      "capturedAt": "2026-09-27T04:03:43.629Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-33",
+        "snapshot": "sources/wiki/pages/cf39c970354cfc26.json",
+        "capturedAt": "2026-09-27T04:03:40.826Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "BTX-33",
+        "loops": 4,
+        "days": 6,
+        "schedule": [
+          {
+            "day": 2,
+            "incidentText": "自杀"
+          },
+          {
+            "day": 5,
+            "incidentText": "邪气污染"
+          },
+          {
+            "day": 6,
+            "incidentText": "不安扩散"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 2,
+        "row": 34
+      },
+      "fields": {
+        "scenarioCode": "BTX-33",
+        "剧本名": "邪恶的污染领域",
+        "日文名": "邪悪なる汚染領域",
+        "英文名": "Evil Contaminated Realm",
+        "作者": "ペンスキー（gitti）",
+        "轮数": "4",
+        "天数": "6",
+        "难度": "4"
+      }
+    }
+  ],
+  "wikiTitle": "BTX-33",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Basic Tragedy X"
+  ],
+  "module": "Basic Tragedy X",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "adf2f40637491e86",
+        "title": "BTX-33",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "BTX-33",
+          "loops": 4,
+          "days": 6,
+          "schedule": [
+            {
+              "day": 2,
+              "incidentText": "自杀"
+            },
+            {
+              "day": 5,
+              "incidentText": "邪气污染"
+            },
+            {
+              "day": 6,
+              "incidentText": "不安扩散"
+            }
+          ],
+          "剧本名": "邪恶的污染领域",
+          "日文名": "邪悪なる汚染領域",
+          "英文名": "Evil Contaminated Realm",
+          "作者": "ペンスキー（gitti）",
+          "轮数": "4",
+          "天数": "6",
+          "难度": "4"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-33",
+            "snapshot": "sources/wiki/pages/cf39c970354cfc26.json",
+            "capturedAt": "2026-09-27T04:03:40.826Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-33",
+            "snapshot": "sources/wiki/pages/cf39c970354cfc26.json",
+            "capturedAt": "2026-09-27T04:03:40.826Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-33",
+            "snapshot": "sources/wiki/pages/cf39c970354cfc26.json",
+            "capturedAt": "2026-09-27T04:03:40.826Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-33",
+            "snapshot": "sources/wiki/pages/cf39c970354cfc26.json",
+            "capturedAt": "2026-09-27T04:03:40.826Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-33",
+            "snapshot": "sources/wiki/pages/cf39c970354cfc26.json",
+            "capturedAt": "2026-09-27T04:03:40.826Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 34
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 34
+          },
+          "英文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 34
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 34
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 34
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 34
+          },
+          "难度": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 34
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-33",
+            "snapshot": "sources/wiki/pages/cf39c970354cfc26.json",
+            "capturedAt": "2026-09-27T04:03:40.826Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 34
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-33",
+              "snapshot": "sources/wiki/pages/cf39c970354cfc26.json",
+              "capturedAt": "2026-09-27T04:03:40.826Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "BTX-33",
+              "loops": 4,
+              "days": 6,
+              "schedule": [
+                {
+                  "day": 2,
+                  "incidentText": "自杀"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "邪气污染"
+                },
+                {
+                  "day": 6,
+                  "incidentText": "不安扩散"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 2,
+              "row": 34
+            },
+            "fields": {
+              "scenarioCode": "BTX-33",
+              "剧本名": "邪恶的污染领域",
+              "日文名": "邪悪なる汚染領域",
+              "英文名": "Evil Contaminated Realm",
+              "作者": "ペンスキー（gitti）",
+              "轮数": "4",
+              "天数": "6",
+              "难度": "4"
+            }
+          }
+        ],
+        "body": "text/scenarios/adf2f40637491e86.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-33",
+          "snapshot": "sources/wiki/pages/cf39c970354cfc26.json",
+          "capturedAt": "2026-09-27T04:03:40.826Z"
+        },
+        "wikiTitle": "BTX-33",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "BTX-33非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-33%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-33?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Basic Tragedy X"
+        ],
+        "module": "Basic Tragedy X"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "cd8273e15768afcc",
+        "title": "BTX-33非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "BTX-33",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "被封印的邪灵"
+            },
+            {
+              "slot": "X1",
+              "name": "好友圈"
+            },
+            {
+              "slot": "X2",
+              "name": "妄想扩大病毒"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-33%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/090a5d6c93cd1f42.json",
+            "capturedAt": "2026-09-27T04:03:43.629Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-33%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/090a5d6c93cd1f42.json",
+            "capturedAt": "2026-09-27T04:03:43.629Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-33%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/090a5d6c93cd1f42.json",
+            "capturedAt": "2026-09-27T04:03:43.629Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-33%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/090a5d6c93cd1f42.json",
+            "capturedAt": "2026-09-27T04:03:43.629Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-33%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/090a5d6c93cd1f42.json",
+              "capturedAt": "2026-09-27T04:03:43.629Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "BTX-33",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "被封印的邪灵"
+                },
+                {
+                  "slot": "X1",
+                  "name": "好友圈"
+                },
+                {
+                  "slot": "X2",
+                  "name": "妄想扩大病毒"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/cd8273e15768afcc.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-33%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/090a5d6c93cd1f42.json",
+          "capturedAt": "2026-09-27T04:03:43.629Z"
+        },
+        "wikiTitle": "BTX-33非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-33%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-33%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-33%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=3"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Basic Tragedy X",
+        "tags": [
+          "民间",
+          "Basic Tragedy X"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "cd8273e15768afcc"
+  ],
+  "conflicts": []
+}

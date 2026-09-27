@@ -1,0 +1,67 @@
+{
+  "id": "32eb2511e0e1e620",
+  "title": "伪造事件发生了但当事人初始区域没有2密谋，如何结算？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / MZ / 第 38 行",
+  "aliases": [],
+  "fields": {
+    "question": "伪造事件发生了但当事人初始区域没有2密谋，如何结算？",
+    "answer": "这时可以声明：事件发生了，但没有任何现象"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000006",
+      "snapshot": "sources/faq-sheet/mz.json",
+      "sheet": "MZ",
+      "row": 38,
+      "cells": "A38:B38",
+      "capturedAt": "2026-09-27T05:39:59.659Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000006",
+      "snapshot": "sources/faq-sheet/mz.json",
+      "sheet": "MZ",
+      "row": 38,
+      "cells": "A38:B38",
+      "capturedAt": "2026-09-27T05:39:59.659Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000006",
+      "snapshot": "sources/faq-sheet/mz.json",
+      "sheet": "MZ",
+      "row": 38,
+      "cells": "A38:B38",
+      "capturedAt": "2026-09-27T05:39:59.659Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000006",
+        "snapshot": "sources/faq-sheet/mz.json",
+        "sheet": "MZ",
+        "row": 38,
+        "cells": "A38:B38",
+        "capturedAt": "2026-09-27T05:39:59.659Z"
+      },
+      "fields": {
+        "question": "伪造事件发生了但当事人初始区域没有2密谋，如何结算？",
+        "answer": "这时可以声明：事件发生了，但没有任何现象"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "MZ",
+    "关于事件",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

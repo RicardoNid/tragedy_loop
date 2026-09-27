@@ -1,0 +1,67 @@
+{
+  "id": "76e43ca2d3a47a2a",
+  "title": "黑猫触发封锁，如何声明？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 角色 / 第 55 行",
+  "aliases": [],
+  "fields": {
+    "question": "黑猫触发封锁，如何声明？",
+    "answer": "事件发生了，但是没有现象"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 55,
+      "cells": "A55:B55",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 55,
+      "cells": "A55:B55",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 55,
+      "cells": "A55:B55",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+        "snapshot": "sources/faq-sheet/characters.json",
+        "sheet": "角色",
+        "row": 55,
+        "cells": "A55:B55",
+        "capturedAt": "2026-09-27T05:39:49.068Z"
+      },
+      "fields": {
+        "question": "黑猫触发封锁，如何声明？",
+        "answer": "事件发生了，但是没有现象"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "角色",
+    "关于黑猫",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

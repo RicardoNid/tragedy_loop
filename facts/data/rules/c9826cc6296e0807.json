@@ -1,0 +1,68 @@
+{
+  "id": "c9826cc6296e0807",
+  "title": "向着苍穹的尽头",
+  "kind": "rules",
+  "scope": "Echoing Love A",
+  "aliases": [],
+  "fields": {
+    "ruleType": "Y",
+    "identityCounts": {
+      "谜语人": "①",
+      "杀人狂": "①"
+    },
+    "effect": "【失败条件：轮回结束时】所有生存角色身上放置的EX牌数量合计为3张或以上。"
+  },
+  "provenance": {
+    "ruleType": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Echoing_Love_A",
+      "snapshot": "sources/wiki/pages/c8c2a6dac05a77fd.json",
+      "capturedAt": "2026-09-27T03:28:32.466Z"
+    },
+    "identityCounts": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Echoing_Love_A",
+      "snapshot": "sources/wiki/pages/c8c2a6dac05a77fd.json",
+      "capturedAt": "2026-09-27T03:28:32.466Z"
+    },
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Echoing_Love_A",
+      "snapshot": "sources/wiki/pages/c8c2a6dac05a77fd.json",
+      "capturedAt": "2026-09-27T03:28:32.466Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Echoing_Love_A",
+      "snapshot": "sources/wiki/pages/c8c2a6dac05a77fd.json",
+      "capturedAt": "2026-09-27T03:28:32.466Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Echoing_Love_A",
+        "snapshot": "sources/wiki/pages/c8c2a6dac05a77fd.json",
+        "capturedAt": "2026-09-27T03:28:32.466Z"
+      },
+      "fields": {
+        "ruleType": "Y",
+        "identityCounts": {
+          "谜语人": "①",
+          "杀人狂": "①"
+        },
+        "effect": "【失败条件：轮回结束时】所有生存角色身上放置的EX牌数量合计为3张或以上。"
+      }
+    }
+  ],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "Y",
+    "民间"
+  ],
+  "conflicts": []
+}

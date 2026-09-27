@@ -1,0 +1,398 @@
+{
+  "id": "b618e3ad6d061904",
+  "title": "AHR-18",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "AHR-18非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "AHR-18",
+    "loops": "无限",
+    "days": 1,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "投币式约会"
+      }
+    ],
+    "剧本名": "投币式电话约会的实用技巧",
+    "作者": "新手之二",
+    "轮数": "n",
+    "天数": "1"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-18",
+      "snapshot": "sources/wiki/pages/bc5d102f970ee236.json",
+      "capturedAt": "2026-09-27T03:44:04.809Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-18",
+      "snapshot": "sources/wiki/pages/bc5d102f970ee236.json",
+      "capturedAt": "2026-09-27T03:44:04.809Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-18",
+      "snapshot": "sources/wiki/pages/bc5d102f970ee236.json",
+      "capturedAt": "2026-09-27T03:44:04.809Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-18",
+      "snapshot": "sources/wiki/pages/bc5d102f970ee236.json",
+      "capturedAt": "2026-09-27T03:44:04.809Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-18",
+      "snapshot": "sources/wiki/pages/bc5d102f970ee236.json",
+      "capturedAt": "2026-09-27T03:44:04.809Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 19
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 19
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 19
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 19
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-18",
+      "snapshot": "sources/wiki/pages/bc5d102f970ee236.json",
+      "capturedAt": "2026-09-27T03:44:04.809Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 19
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-18%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/2bcf3e016ab49505.json",
+      "capturedAt": "2026-09-27T03:44:07.663Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-18",
+        "snapshot": "sources/wiki/pages/bc5d102f970ee236.json",
+        "capturedAt": "2026-09-27T03:44:04.809Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "AHR-18",
+        "loops": "无限",
+        "days": 1,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "投币式约会"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 7,
+        "row": 19
+      },
+      "fields": {
+        "scenarioCode": "AHR-18",
+        "剧本名": "投币式电话约会的实用技巧",
+        "作者": "新手之二",
+        "轮数": "n",
+        "天数": "1"
+      }
+    }
+  ],
+  "wikiTitle": "AHR-18",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Another Horizon Revised"
+  ],
+  "module": "Another Horizon Revised",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "b618e3ad6d061904",
+        "title": "AHR-18",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "AHR-18",
+          "loops": "无限",
+          "days": 1,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "投币式约会"
+            }
+          ],
+          "剧本名": "投币式电话约会的实用技巧",
+          "作者": "新手之二",
+          "轮数": "n",
+          "天数": "1"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-18",
+            "snapshot": "sources/wiki/pages/bc5d102f970ee236.json",
+            "capturedAt": "2026-09-27T03:44:04.809Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-18",
+            "snapshot": "sources/wiki/pages/bc5d102f970ee236.json",
+            "capturedAt": "2026-09-27T03:44:04.809Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-18",
+            "snapshot": "sources/wiki/pages/bc5d102f970ee236.json",
+            "capturedAt": "2026-09-27T03:44:04.809Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-18",
+            "snapshot": "sources/wiki/pages/bc5d102f970ee236.json",
+            "capturedAt": "2026-09-27T03:44:04.809Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-18",
+            "snapshot": "sources/wiki/pages/bc5d102f970ee236.json",
+            "capturedAt": "2026-09-27T03:44:04.809Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 19
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 19
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 19
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 19
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-18",
+            "snapshot": "sources/wiki/pages/bc5d102f970ee236.json",
+            "capturedAt": "2026-09-27T03:44:04.809Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 19
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-18",
+              "snapshot": "sources/wiki/pages/bc5d102f970ee236.json",
+              "capturedAt": "2026-09-27T03:44:04.809Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "AHR-18",
+              "loops": "无限",
+              "days": 1,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "投币式约会"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 7,
+              "row": 19
+            },
+            "fields": {
+              "scenarioCode": "AHR-18",
+              "剧本名": "投币式电话约会的实用技巧",
+              "作者": "新手之二",
+              "轮数": "n",
+              "天数": "1"
+            }
+          }
+        ],
+        "body": "text/scenarios/b618e3ad6d061904.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-18",
+          "snapshot": "sources/wiki/pages/bc5d102f970ee236.json",
+          "capturedAt": "2026-09-27T03:44:04.809Z"
+        },
+        "wikiTitle": "AHR-18",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-18?action=edit&section=1"
+          },
+          {
+            "title": "AHR-18非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-18%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-18?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Another Horizon Revised"
+        ],
+        "module": "Another Horizon Revised"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "091dd443fafd83ff",
+        "title": "AHR-18非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "AHR-18"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-18%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/2bcf3e016ab49505.json",
+            "capturedAt": "2026-09-27T03:44:07.663Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-18%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/2bcf3e016ab49505.json",
+            "capturedAt": "2026-09-27T03:44:07.663Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-18%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/2bcf3e016ab49505.json",
+            "capturedAt": "2026-09-27T03:44:07.663Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-18%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/2bcf3e016ab49505.json",
+              "capturedAt": "2026-09-27T03:44:07.663Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "AHR-18"
+            }
+          }
+        ],
+        "wikiTitle": "AHR-18非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Another Horizon Revised",
+        "tags": [
+          "民间",
+          "Another Horizon Revised"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "091dd443fafd83ff"
+  ],
+  "conflicts": []
+}

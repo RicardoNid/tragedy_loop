@@ -1,0 +1,516 @@
+{
+  "id": "32bd011ea798898c",
+  "title": "MZ-04",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "MZ-04非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "MZ-04",
+    "loops": 6,
+    "days": 4,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "不安扩散"
+      },
+      {
+        "day": 2,
+        "incidentText": "自白"
+      },
+      {
+        "day": 3,
+        "incidentText": "自杀"
+      },
+      {
+        "day": 4,
+        "incidentText": "阴谋活动"
+      }
+    ],
+    "剧本名": "超级附身使者",
+    "作者": "Choconut",
+    "轮数": "6",
+    "天数": "4"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-04",
+      "snapshot": "sources/wiki/pages/94e5a5d2802ee7a9.json",
+      "capturedAt": "2026-09-27T04:42:40.357Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-04",
+      "snapshot": "sources/wiki/pages/94e5a5d2802ee7a9.json",
+      "capturedAt": "2026-09-27T04:42:40.357Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-04",
+      "snapshot": "sources/wiki/pages/94e5a5d2802ee7a9.json",
+      "capturedAt": "2026-09-27T04:42:40.357Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-04",
+      "snapshot": "sources/wiki/pages/94e5a5d2802ee7a9.json",
+      "capturedAt": "2026-09-27T04:42:40.357Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-04",
+      "snapshot": "sources/wiki/pages/94e5a5d2802ee7a9.json",
+      "capturedAt": "2026-09-27T04:42:40.357Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 5
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 5
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 5
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 5
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-04",
+      "snapshot": "sources/wiki/pages/94e5a5d2802ee7a9.json",
+      "capturedAt": "2026-09-27T04:42:40.357Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 5
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/737fb3826c403cae.json",
+      "capturedAt": "2026-09-27T04:42:43.397Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-04",
+        "snapshot": "sources/wiki/pages/94e5a5d2802ee7a9.json",
+        "capturedAt": "2026-09-27T04:42:40.357Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "MZ-04",
+        "loops": 6,
+        "days": 4,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "不安扩散"
+          },
+          {
+            "day": 2,
+            "incidentText": "自白"
+          },
+          {
+            "day": 3,
+            "incidentText": "自杀"
+          },
+          {
+            "day": 4,
+            "incidentText": "阴谋活动"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 3,
+        "row": 5
+      },
+      "fields": {
+        "scenarioCode": "MZ-04",
+        "剧本名": "超级附身使者",
+        "作者": "Choconut",
+        "轮数": "6",
+        "天数": "4"
+      }
+    }
+  ],
+  "wikiTitle": "MZ-04",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Midnight Zone"
+  ],
+  "module": "Midnight Zone",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "32bd011ea798898c",
+        "title": "MZ-04",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "MZ-04",
+          "loops": 6,
+          "days": 4,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "不安扩散"
+            },
+            {
+              "day": 2,
+              "incidentText": "自白"
+            },
+            {
+              "day": 3,
+              "incidentText": "自杀"
+            },
+            {
+              "day": 4,
+              "incidentText": "阴谋活动"
+            }
+          ],
+          "剧本名": "超级附身使者",
+          "作者": "Choconut",
+          "轮数": "6",
+          "天数": "4"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-04",
+            "snapshot": "sources/wiki/pages/94e5a5d2802ee7a9.json",
+            "capturedAt": "2026-09-27T04:42:40.357Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-04",
+            "snapshot": "sources/wiki/pages/94e5a5d2802ee7a9.json",
+            "capturedAt": "2026-09-27T04:42:40.357Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-04",
+            "snapshot": "sources/wiki/pages/94e5a5d2802ee7a9.json",
+            "capturedAt": "2026-09-27T04:42:40.357Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-04",
+            "snapshot": "sources/wiki/pages/94e5a5d2802ee7a9.json",
+            "capturedAt": "2026-09-27T04:42:40.357Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-04",
+            "snapshot": "sources/wiki/pages/94e5a5d2802ee7a9.json",
+            "capturedAt": "2026-09-27T04:42:40.357Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 5
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 5
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 5
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 5
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-04",
+            "snapshot": "sources/wiki/pages/94e5a5d2802ee7a9.json",
+            "capturedAt": "2026-09-27T04:42:40.357Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 5
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-04",
+              "snapshot": "sources/wiki/pages/94e5a5d2802ee7a9.json",
+              "capturedAt": "2026-09-27T04:42:40.357Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "MZ-04",
+              "loops": 6,
+              "days": 4,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "不安扩散"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "自白"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "自杀"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "阴谋活动"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 3,
+              "row": 5
+            },
+            "fields": {
+              "scenarioCode": "MZ-04",
+              "剧本名": "超级附身使者",
+              "作者": "Choconut",
+              "轮数": "6",
+              "天数": "4"
+            }
+          }
+        ],
+        "body": "text/scenarios/32bd011ea798898c.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-04",
+          "snapshot": "sources/wiki/pages/94e5a5d2802ee7a9.json",
+          "capturedAt": "2026-09-27T04:42:40.357Z"
+        },
+        "wikiTitle": "MZ-04",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-04?action=edit&section=1"
+          },
+          {
+            "title": "MZ-04非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-04?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Midnight Zone"
+        ],
+        "module": "Midnight Zone"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "35b42f6fa5f00073",
+        "title": "MZ-04非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "MZ-04",
+          "loops": 6,
+          "days": 4,
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "被封印的邪灵"
+            },
+            {
+              "slot": "X1",
+              "name": "心无灵犀"
+            },
+            {
+              "slot": "X2",
+              "name": "魔女的茶会"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/737fb3826c403cae.json",
+            "capturedAt": "2026-09-27T04:42:43.397Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/737fb3826c403cae.json",
+            "capturedAt": "2026-09-27T04:42:43.397Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/737fb3826c403cae.json",
+            "capturedAt": "2026-09-27T04:42:43.397Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/737fb3826c403cae.json",
+            "capturedAt": "2026-09-27T04:42:43.397Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/737fb3826c403cae.json",
+            "capturedAt": "2026-09-27T04:42:43.397Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/737fb3826c403cae.json",
+            "capturedAt": "2026-09-27T04:42:43.397Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/737fb3826c403cae.json",
+              "capturedAt": "2026-09-27T04:42:43.397Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "MZ-04",
+              "loops": 6,
+              "days": 4,
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "被封印的邪灵"
+                },
+                {
+                  "slot": "X1",
+                  "name": "心无灵犀"
+                },
+                {
+                  "slot": "X2",
+                  "name": "魔女的茶会"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/35b42f6fa5f00073.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/737fb3826c403cae.json",
+          "capturedAt": "2026-09-27T04:42:43.397Z"
+        },
+        "wikiTitle": "MZ-04非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=3"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Midnight Zone",
+        "tags": [
+          "民间",
+          "Midnight Zone"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "35b42f6fa5f00073"
+  ],
+  "conflicts": []
+}

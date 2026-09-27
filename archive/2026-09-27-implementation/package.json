@@ -1,0 +1,39 @@
+{
+  "name": "tragedy-loop",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.25.0",
+  "engines": {
+    "node": ">=22.12 <23"
+  },
+  "scripts": {
+    "setup": "bash scripts/bootstrap.sh",
+    "dev": "tsx apps/server/src/main.ts",
+    "start": "node apps/server/dist/main.js",
+    "baseline": "tsx scripts/baseline.ts",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write apps packages scripts tests e2e *.json *.ts",
+    "format:check": "prettier --check apps packages scripts tests e2e *.json *.ts",
+    "test": "vitest run",
+    "build": "pnpm --filter @tragedy/web build && node scripts/build-server.mjs",
+    "gui:test": "playwright test",
+    "gui:report": "playwright show-report",
+    "check": "bash scripts/check.sh",
+    "demo": "tsx scripts/demo.ts",
+    "atlas:build": "uv run --locked python products/rules-atlas/build.py",
+    "slides:generate": "uv run --locked tragedy-slides",
+    "slides:build": "pnpm slides:generate && pnpm --filter @tragedy/slides build"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "22.15.30",
+    "fast-check": "4.3.0",
+    "prettier": "3.6.2",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3",
+    "vitest": "3.2.4",
+    "esbuild": "0.25.5",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0"
+  }
+}

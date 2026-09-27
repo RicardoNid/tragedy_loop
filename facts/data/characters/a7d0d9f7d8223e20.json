@@ -1,0 +1,281 @@
+{
+  "id": "a7d0d9f7d8223e20",
+  "title": "巫女",
+  "kind": "characters",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "角色名": "巫女",
+    "初始区域": "神社",
+    "禁行区域": "都市",
+    "不安限度": "2",
+    "属性": [
+      "学生",
+      "少女"
+    ],
+    "友好能力": [
+      {
+        "text": "（友好3）必須位於神社才可以使用。移除神社的1枚密謀指示物。",
+        "threshold": 3,
+        "limitText": ""
+      },
+      {
+        "text": "（友好5 1L1）公開同一區域任意1名角色的身份。",
+        "threshold": 5,
+        "limitText": "1L1",
+        "oncePerLoop": true
+      }
+    ]
+  },
+  "provenance": {
+    "角色名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%B7%AB%E5%A5%B3",
+      "snapshot": "sources/wiki/pages/b26b39d89e566451.json",
+      "capturedAt": "2026-09-27T03:32:06.583Z"
+    },
+    "初始区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%B7%AB%E5%A5%B3",
+      "snapshot": "sources/wiki/pages/b26b39d89e566451.json",
+      "capturedAt": "2026-09-27T03:32:06.583Z"
+    },
+    "禁行区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%B7%AB%E5%A5%B3",
+      "snapshot": "sources/wiki/pages/b26b39d89e566451.json",
+      "capturedAt": "2026-09-27T03:32:06.583Z"
+    },
+    "不安限度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%B7%AB%E5%A5%B3",
+      "snapshot": "sources/wiki/pages/b26b39d89e566451.json",
+      "capturedAt": "2026-09-27T03:32:06.583Z"
+    },
+    "属性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%B7%AB%E5%A5%B3",
+      "snapshot": "sources/wiki/pages/b26b39d89e566451.json",
+      "capturedAt": "2026-09-27T03:32:06.583Z"
+    },
+    "友好能力": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%B7%AB%E5%A5%B3",
+      "snapshot": "sources/wiki/pages/b26b39d89e566451.json",
+      "capturedAt": "2026-09-27T03:32:06.583Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%B7%AB%E5%A5%B3",
+      "snapshot": "sources/wiki/pages/b26b39d89e566451.json",
+      "capturedAt": "2026-09-27T03:32:06.583Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    },
+    {
+      "provider": "ricardo",
+      "path": "sources/ricardo/reference/character-cards/cards.md",
+      "status": "draft_needs_human_review"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%B7%AB%E5%A5%B3",
+        "snapshot": "sources/wiki/pages/b26b39d89e566451.json",
+        "capturedAt": "2026-09-27T03:32:06.583Z"
+      },
+      "fields": {
+        "角色名": "巫女",
+        "初始区域": "神社",
+        "禁行区域": "都市",
+        "不安限度": "2",
+        "属性": [
+          "学生",
+          "少女"
+        ],
+        "友好能力": [
+          {
+            "text": "（友好3）必須位於神社才可以使用。移除神社的1枚密謀指示物。",
+            "threshold": 3,
+            "limitText": ""
+          },
+          {
+            "text": "（友好5 1L1）公開同一區域任意1名角色的身份。",
+            "threshold": 5,
+            "limitText": "1L1",
+            "oncePerLoop": true
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "特性": "",
+        "属性": [
+          "学生",
+          "少女"
+        ],
+        "初始区域": "神社",
+        "禁行区域": "都市",
+        "不安限度": "2",
+        "友好能力": [
+          {
+            "text": "必须位于神社才可以使用，移除神社的1枚密谋指示物",
+            "threshold": "3",
+            "oncePerLoop": ""
+          },
+          {
+            "text": "公开同一区域任意1名角色的身份",
+            "threshold": "5",
+            "oncePerLoop": "是"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "ricardo",
+        "path": "sources/ricardo/reference/character-cards/cards.md",
+        "status": "draft_needs_human_review"
+      },
+      "fields": {
+        "不安限度": "2",
+        "初始区域": "神社",
+        "禁行区域": "都市",
+        "属性": [
+          "少女"
+        ],
+        "友好能力": [
+          "友好3；每天；主人公能力阶段；主人公：仅当巫女在神社时可用；若神社有密谋，移除 1 枚。<br>友好5；每轮限 1 次；主人公能力阶段；主人公：选择同一区域任意 1 名角色；剧作家告知其身份。"
+        ]
+      }
+    }
+  ],
+  "body": "text/characters/a7d0d9f7d8223e20.txt",
+  "bodySource": {
+    "provider": "wiki",
+    "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%B7%AB%E5%A5%B3",
+    "snapshot": "sources/wiki/pages/b26b39d89e566451.json",
+    "capturedAt": "2026-09-27T03:32:06.583Z"
+  },
+  "wikiTitle": "巫女",
+  "originalTables": [],
+  "wikiStatus": "captured",
+  "links": [
+    {
+      "title": "<img style=\"\" src=\"https://static.wikia.nocookie.net/tragedyrooper/images/c/cc/%E5%B7%AB%E5%A5%B3.png/revision/latest/scale-to-width-down/131?cb=20251023162228&amp;path-prefix=zh\" title=\"巫女.png (244 KB)\" class=\"thumbimage\" alt=\"\" height=\"185\" width=\"185\" data-image-name=\"巫女.png\" data-image-key=\"%E5%B7%AB%E5%A5%B3.png\" data-relevant=\"1\">",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%B7%AB%E5%A5%B3.png"
+    }
+  ],
+  "images": [
+    {
+      "alt": "",
+      "src": "https://static.wikia.nocookie.net/tragedyrooper/images/c/cc/%E5%B7%AB%E5%A5%B3.png/revision/latest/scale-to-width-down/131?cb=20251023162228&path-prefix=zh"
+    }
+  ],
+  "media": [
+    {
+      "title": "巫女.png",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%B7%AB%E5%A5%B3.png",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/c/cc/%E5%B7%AB%E5%A5%B3.png/revision/latest?cb=20251023162228&format=original&path-prefix=zh",
+      "path": "media/wiki/5110e82a5e9fadcd.png",
+      "sourceRecord": "sources/wiki/files/5110e82a5e9fadcd.json",
+      "sha256": "c34f3499406c2212ac08e72eacde438862631fe917eb183d4e0a2caa7c65b1a2",
+      "bytes": 249872,
+      "fileInfo": "PNG image data, 303 x 428, 8-bit/color RGBA, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/6fadb2d7054aeea7.json",
+  "tags": [
+    "学生",
+    "少女",
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "友好能力",
+      "selected": [
+        {
+          "text": "（友好3）必須位於神社才可以使用。移除神社的1枚密謀指示物。",
+          "threshold": 3,
+          "limitText": ""
+        },
+        {
+          "text": "（友好5 1L1）公開同一區域任意1名角色的身份。",
+          "threshold": 5,
+          "limitText": "1L1",
+          "oncePerLoop": true
+        }
+      ],
+      "candidate": [
+        {
+          "text": "必须位于神社才可以使用，移除神社的1枚密谋指示物",
+          "threshold": "3",
+          "oncePerLoop": ""
+        },
+        {
+          "text": "公开同一区域任意1名角色的身份",
+          "threshold": "5",
+          "oncePerLoop": "是"
+        }
+      ],
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "属性",
+      "selected": [
+        "学生",
+        "少女"
+      ],
+      "candidate": [
+        "少女"
+      ],
+      "source": {
+        "provider": "ricardo",
+        "path": "sources/ricardo/reference/character-cards/cards.md",
+        "status": "draft_needs_human_review"
+      }
+    },
+    {
+      "field": "友好能力",
+      "selected": [
+        {
+          "text": "（友好3）必須位於神社才可以使用。移除神社的1枚密謀指示物。",
+          "threshold": 3,
+          "limitText": ""
+        },
+        {
+          "text": "（友好5 1L1）公開同一區域任意1名角色的身份。",
+          "threshold": 5,
+          "limitText": "1L1",
+          "oncePerLoop": true
+        }
+      ],
+      "candidate": [
+        "友好3；每天；主人公能力阶段；主人公：仅当巫女在神社时可用；若神社有密谋，移除 1 枚。<br>友好5；每轮限 1 次；主人公能力阶段；主人公：选择同一区域任意 1 名角色；剧作家告知其身份。"
+      ],
+      "source": {
+        "provider": "ricardo",
+        "path": "sources/ricardo/reference/character-cards/cards.md",
+        "status": "draft_needs_human_review"
+      }
+    }
+  ]
+}

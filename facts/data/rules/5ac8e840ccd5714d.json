@@ -1,0 +1,66 @@
+{
+  "id": "5ac8e840ccd5714d",
+  "title": "人工世界",
+  "kind": "rules",
+  "scope": "Old Fashion",
+  "aliases": [],
+  "fields": {
+    "ruleType": "X",
+    "identityCounts": {
+      "亲友": "①"
+    },
+    "effect": "【强制：游戏开始时】所有平民角色身份变为傀儡"
+  },
+  "provenance": {
+    "ruleType": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Old_Fashion",
+      "snapshot": "sources/wiki/pages/a50ad3a225ece288.json",
+      "capturedAt": "2026-09-27T03:30:00.404Z"
+    },
+    "identityCounts": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Old_Fashion",
+      "snapshot": "sources/wiki/pages/a50ad3a225ece288.json",
+      "capturedAt": "2026-09-27T03:30:00.404Z"
+    },
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Old_Fashion",
+      "snapshot": "sources/wiki/pages/a50ad3a225ece288.json",
+      "capturedAt": "2026-09-27T03:30:00.404Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Old_Fashion",
+      "snapshot": "sources/wiki/pages/a50ad3a225ece288.json",
+      "capturedAt": "2026-09-27T03:30:00.404Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Old_Fashion",
+        "snapshot": "sources/wiki/pages/a50ad3a225ece288.json",
+        "capturedAt": "2026-09-27T03:30:00.404Z"
+      },
+      "fields": {
+        "ruleType": "X",
+        "identityCounts": {
+          "亲友": "①"
+        },
+        "effect": "【强制：游戏开始时】所有平民角色身份变为傀儡"
+      }
+    }
+  ],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "X",
+    "民间"
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,66 @@
+{
+  "id": "3f945f5dac314534",
+  "title": "残缺的花束",
+  "kind": "rules",
+  "scope": "Echoing Love A",
+  "aliases": [],
+  "fields": {
+    "ruleType": "X",
+    "identityCounts": {
+      "杀人狂": "①"
+    },
+    "effect": "【强制：剧本制作时】选择追加1名青梅竹马、天降之物或思念体。（不能追加剧本中已经存在的身份）"
+  },
+  "provenance": {
+    "ruleType": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Echoing_Love_A",
+      "snapshot": "sources/wiki/pages/c8c2a6dac05a77fd.json",
+      "capturedAt": "2026-09-27T03:28:32.466Z"
+    },
+    "identityCounts": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Echoing_Love_A",
+      "snapshot": "sources/wiki/pages/c8c2a6dac05a77fd.json",
+      "capturedAt": "2026-09-27T03:28:32.466Z"
+    },
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Echoing_Love_A",
+      "snapshot": "sources/wiki/pages/c8c2a6dac05a77fd.json",
+      "capturedAt": "2026-09-27T03:28:32.466Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Echoing_Love_A",
+      "snapshot": "sources/wiki/pages/c8c2a6dac05a77fd.json",
+      "capturedAt": "2026-09-27T03:28:32.466Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Echoing_Love_A",
+        "snapshot": "sources/wiki/pages/c8c2a6dac05a77fd.json",
+        "capturedAt": "2026-09-27T03:28:32.466Z"
+      },
+      "fields": {
+        "ruleType": "X",
+        "identityCounts": {
+          "杀人狂": "①"
+        },
+        "effect": "【强制：剧本制作时】选择追加1名青梅竹马、天降之物或思念体。（不能追加剧本中已经存在的身份）"
+      }
+    }
+  ],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "X",
+    "民间"
+  ],
+  "conflicts": []
+}

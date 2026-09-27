@@ -1,0 +1,66 @@
+{
+  "id": "438e53f49351c3e6",
+  "title": "双方的胜利条件是什么/要怎么赢？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 基础规则 / 第 2 行",
+  "aliases": [],
+  "fields": {
+    "question": "双方的胜利条件是什么/要怎么赢？",
+    "answer": "如果在某轮回中主人公没有达成失败条件，或在每个轮回都失败后，在最终决战中猜对所有人的身份，主人公获胜，否则剧作家获胜。"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+      "snapshot": "sources/faq-sheet/basic.json",
+      "sheet": "基础规则",
+      "row": 2,
+      "cells": "A2:B2",
+      "capturedAt": "2026-09-27T05:40:57.223Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+      "snapshot": "sources/faq-sheet/basic.json",
+      "sheet": "基础规则",
+      "row": 2,
+      "cells": "A2:B2",
+      "capturedAt": "2026-09-27T05:40:57.223Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+      "snapshot": "sources/faq-sheet/basic.json",
+      "sheet": "基础规则",
+      "row": 2,
+      "cells": "A2:B2",
+      "capturedAt": "2026-09-27T05:40:57.223Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+        "snapshot": "sources/faq-sheet/basic.json",
+        "sheet": "基础规则",
+        "row": 2,
+        "cells": "A2:B2",
+        "capturedAt": "2026-09-27T05:40:57.223Z"
+      },
+      "fields": {
+        "question": "双方的胜利条件是什么/要怎么赢？",
+        "answer": "如果在某轮回中主人公没有达成失败条件，或在每个轮回都失败后，在最终决战中猜对所有人的身份，主人公获胜，否则剧作家获胜。"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "基础规则",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

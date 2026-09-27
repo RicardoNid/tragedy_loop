@@ -1,0 +1,66 @@
+{
+  "id": "23d792131c5d5e82",
+  "title": "集体自杀",
+  "kind": "rules",
+  "scope": "Supernatural Tragedy",
+  "aliases": [],
+  "fields": {
+    "ruleType": "X",
+    "identityCounts": {
+      "异教徒": "③"
+    },
+    "effect": "【强制：强制：最终日的回合结束阶段】1名或以上邪教徒没有[友好]→主人公失败"
+  },
+  "provenance": {
+    "ruleType": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Supernatural_Tragedy",
+      "snapshot": "sources/wiki/pages/34e1e734e8da4777.json",
+      "capturedAt": "2026-09-27T03:30:06.385Z"
+    },
+    "identityCounts": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Supernatural_Tragedy",
+      "snapshot": "sources/wiki/pages/34e1e734e8da4777.json",
+      "capturedAt": "2026-09-27T03:30:06.385Z"
+    },
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Supernatural_Tragedy",
+      "snapshot": "sources/wiki/pages/34e1e734e8da4777.json",
+      "capturedAt": "2026-09-27T03:30:06.385Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Supernatural_Tragedy",
+      "snapshot": "sources/wiki/pages/34e1e734e8da4777.json",
+      "capturedAt": "2026-09-27T03:30:06.385Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Supernatural_Tragedy",
+        "snapshot": "sources/wiki/pages/34e1e734e8da4777.json",
+        "capturedAt": "2026-09-27T03:30:06.385Z"
+      },
+      "fields": {
+        "ruleType": "X",
+        "identityCounts": {
+          "异教徒": "③"
+        },
+        "effect": "【强制：强制：最终日的回合结束阶段】1名或以上邪教徒没有[友好]→主人公失败"
+      }
+    }
+  ],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "X",
+    "民间"
+  ],
+  "conflicts": []
+}

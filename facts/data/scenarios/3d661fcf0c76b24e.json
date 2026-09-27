@@ -1,0 +1,514 @@
+{
+  "id": "3d661fcf0c76b24e",
+  "title": "MZ-55",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "MZ-55非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "MZ-55",
+    "loops": 4,
+    "days": 6,
+    "schedule": [
+      {
+        "day": 2,
+        "incidentText": "不安扩散"
+      },
+      {
+        "day": 3,
+        "incidentText": "自白"
+      },
+      {
+        "day": 4,
+        "incidentText": "失踪"
+      },
+      {
+        "day": 6,
+        "incidentText": "医院事故"
+      }
+    ],
+    "剧本名": "谎言变成了真相",
+    "英文名": "偽は真に裏返る",
+    "作者": "ぶー太郎",
+    "轮数": "4",
+    "天数": "6"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-55",
+      "snapshot": "sources/wiki/pages/2c8edfced7188dd8.json",
+      "capturedAt": "2026-09-27T04:49:28.653Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-55",
+      "snapshot": "sources/wiki/pages/2c8edfced7188dd8.json",
+      "capturedAt": "2026-09-27T04:49:28.653Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-55",
+      "snapshot": "sources/wiki/pages/2c8edfced7188dd8.json",
+      "capturedAt": "2026-09-27T04:49:28.653Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-55",
+      "snapshot": "sources/wiki/pages/2c8edfced7188dd8.json",
+      "capturedAt": "2026-09-27T04:49:28.653Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-55",
+      "snapshot": "sources/wiki/pages/2c8edfced7188dd8.json",
+      "capturedAt": "2026-09-27T04:49:28.653Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 57
+    },
+    "英文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 57
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 57
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 57
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 57
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-55",
+      "snapshot": "sources/wiki/pages/2c8edfced7188dd8.json",
+      "capturedAt": "2026-09-27T04:49:28.653Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 57
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-55%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=2431",
+      "snapshot": "sources/wiki/pages/22b30eeb33235bd8.json",
+      "capturedAt": "2026-09-27T04:54:15.091Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-55",
+        "snapshot": "sources/wiki/pages/2c8edfced7188dd8.json",
+        "capturedAt": "2026-09-27T04:49:28.653Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "MZ-55",
+        "loops": 4,
+        "days": 6,
+        "schedule": [
+          {
+            "day": 2,
+            "incidentText": "不安扩散"
+          },
+          {
+            "day": 3,
+            "incidentText": "自白"
+          },
+          {
+            "day": 4,
+            "incidentText": "失踪"
+          },
+          {
+            "day": 6,
+            "incidentText": "医院事故"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 3,
+        "row": 57
+      },
+      "fields": {
+        "scenarioCode": "MZ-55",
+        "剧本名": "谎言变成了真相",
+        "英文名": "偽は真に裏返る",
+        "作者": "ぶー太郎",
+        "轮数": "4",
+        "天数": "6"
+      }
+    }
+  ],
+  "wikiTitle": "MZ-55",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Midnight Zone"
+  ],
+  "module": "Midnight Zone",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "3d661fcf0c76b24e",
+        "title": "MZ-55",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "MZ-55",
+          "loops": 4,
+          "days": 6,
+          "schedule": [
+            {
+              "day": 2,
+              "incidentText": "不安扩散"
+            },
+            {
+              "day": 3,
+              "incidentText": "自白"
+            },
+            {
+              "day": 4,
+              "incidentText": "失踪"
+            },
+            {
+              "day": 6,
+              "incidentText": "医院事故"
+            }
+          ],
+          "剧本名": "谎言变成了真相",
+          "英文名": "偽は真に裏返る",
+          "作者": "ぶー太郎",
+          "轮数": "4",
+          "天数": "6"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-55",
+            "snapshot": "sources/wiki/pages/2c8edfced7188dd8.json",
+            "capturedAt": "2026-09-27T04:49:28.653Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-55",
+            "snapshot": "sources/wiki/pages/2c8edfced7188dd8.json",
+            "capturedAt": "2026-09-27T04:49:28.653Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-55",
+            "snapshot": "sources/wiki/pages/2c8edfced7188dd8.json",
+            "capturedAt": "2026-09-27T04:49:28.653Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-55",
+            "snapshot": "sources/wiki/pages/2c8edfced7188dd8.json",
+            "capturedAt": "2026-09-27T04:49:28.653Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-55",
+            "snapshot": "sources/wiki/pages/2c8edfced7188dd8.json",
+            "capturedAt": "2026-09-27T04:49:28.653Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 57
+          },
+          "英文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 57
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 57
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 57
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 57
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-55",
+            "snapshot": "sources/wiki/pages/2c8edfced7188dd8.json",
+            "capturedAt": "2026-09-27T04:49:28.653Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 57
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-55",
+              "snapshot": "sources/wiki/pages/2c8edfced7188dd8.json",
+              "capturedAt": "2026-09-27T04:49:28.653Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "MZ-55",
+              "loops": 4,
+              "days": 6,
+              "schedule": [
+                {
+                  "day": 2,
+                  "incidentText": "不安扩散"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "自白"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "失踪"
+                },
+                {
+                  "day": 6,
+                  "incidentText": "医院事故"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 3,
+              "row": 57
+            },
+            "fields": {
+              "scenarioCode": "MZ-55",
+              "剧本名": "谎言变成了真相",
+              "英文名": "偽は真に裏返る",
+              "作者": "ぶー太郎",
+              "轮数": "4",
+              "天数": "6"
+            }
+          }
+        ],
+        "body": "text/scenarios/3d661fcf0c76b24e.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-55",
+          "snapshot": "sources/wiki/pages/2c8edfced7188dd8.json",
+          "capturedAt": "2026-09-27T04:49:28.653Z"
+        },
+        "wikiTitle": "MZ-55",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "MZ-55非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-55%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-55?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Midnight Zone"
+        ],
+        "module": "Midnight Zone"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "2f3357d9630a0f5f",
+        "title": "MZ-55非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "MZ-55",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "男子汉的战争"
+            },
+            {
+              "slot": "X1",
+              "name": "爱与恨的螺旋"
+            },
+            {
+              "slot": "X2",
+              "name": "魔女们的茶会"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-55%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=2431",
+            "snapshot": "sources/wiki/pages/22b30eeb33235bd8.json",
+            "capturedAt": "2026-09-27T04:54:15.091Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-55%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=2431",
+            "snapshot": "sources/wiki/pages/22b30eeb33235bd8.json",
+            "capturedAt": "2026-09-27T04:54:15.091Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-55%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=2431",
+            "snapshot": "sources/wiki/pages/22b30eeb33235bd8.json",
+            "capturedAt": "2026-09-27T04:54:15.091Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-55%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=2431",
+            "snapshot": "sources/wiki/pages/22b30eeb33235bd8.json",
+            "capturedAt": "2026-09-27T04:54:15.091Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-55%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=2431",
+              "snapshot": "sources/wiki/pages/22b30eeb33235bd8.json",
+              "capturedAt": "2026-09-27T04:54:15.091Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "MZ-55",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "男子汉的战争"
+                },
+                {
+                  "slot": "X1",
+                  "name": "爱与恨的螺旋"
+                },
+                {
+                  "slot": "X2",
+                  "name": "魔女们的茶会"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/2f3357d9630a0f5f.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-55%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=2431",
+          "snapshot": "sources/wiki/pages/22b30eeb33235bd8.json",
+          "capturedAt": "2026-09-27T04:54:15.091Z"
+        },
+        "wikiTitle": "MZ-55非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-55%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-55%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-55%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=3"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Midnight Zone",
+        "tags": [
+          "民间",
+          "Midnight Zone"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "2f3357d9630a0f5f"
+  ],
+  "conflicts": []
+}

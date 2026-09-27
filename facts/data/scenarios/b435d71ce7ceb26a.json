@@ -1,0 +1,462 @@
+{
+  "id": "b435d71ce7ceb26a",
+  "title": "WM+-02",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "WM+-02非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "WM+-02",
+    "loops": 4,
+    "days": 3,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "灭绝之火"
+      },
+      {
+        "day": 2,
+        "incidentText": "送葬"
+      },
+      {
+        "day": 3,
+        "incidentText": "疯狂杀人"
+      }
+    ],
+    "剧本名": "恶意的监牢",
+    "日文名": "悪意の檻",
+    "作者": "れう",
+    "轮数": "5 4",
+    "天数": "3",
+    "难度": "6 7"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-02?oldid=1493",
+      "snapshot": "sources/wiki/pages/7e6668e910fd09ba.json",
+      "capturedAt": "2026-09-27T04:58:17.833Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-02?oldid=1493",
+      "snapshot": "sources/wiki/pages/7e6668e910fd09ba.json",
+      "capturedAt": "2026-09-27T04:58:17.833Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-02?oldid=1493",
+      "snapshot": "sources/wiki/pages/7e6668e910fd09ba.json",
+      "capturedAt": "2026-09-27T04:58:17.833Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-02?oldid=1493",
+      "snapshot": "sources/wiki/pages/7e6668e910fd09ba.json",
+      "capturedAt": "2026-09-27T04:58:17.833Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-02?oldid=1493",
+      "snapshot": "sources/wiki/pages/7e6668e910fd09ba.json",
+      "capturedAt": "2026-09-27T04:58:17.833Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 26
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 26
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 26
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 26
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 26
+    },
+    "难度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 26
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-02?oldid=1493",
+      "snapshot": "sources/wiki/pages/7e6668e910fd09ba.json",
+      "capturedAt": "2026-09-27T04:58:17.833Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 26
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-02%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1897",
+      "snapshot": "sources/wiki/pages/a623c23530ceaf93.json",
+      "capturedAt": "2026-09-27T04:58:23.046Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-02?oldid=1493",
+        "snapshot": "sources/wiki/pages/7e6668e910fd09ba.json",
+        "capturedAt": "2026-09-27T04:58:17.833Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "WM+-02",
+        "loops": 4,
+        "days": 3,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "灭绝之火"
+          },
+          {
+            "day": 2,
+            "incidentText": "送葬"
+          },
+          {
+            "day": 3,
+            "incidentText": "疯狂杀人"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 6,
+        "row": 26
+      },
+      "fields": {
+        "scenarioCode": "WM+-02",
+        "剧本名": "恶意的监牢",
+        "日文名": "悪意の檻",
+        "作者": "れう",
+        "轮数": "5 4",
+        "天数": "3",
+        "难度": "6 7"
+      }
+    }
+  ],
+  "wikiTitle": "WM+-02",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Weird Mythology Plus"
+  ],
+  "module": "Weird Mythology Plus",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "b435d71ce7ceb26a",
+        "title": "WM+-02",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "WM+-02",
+          "loops": 4,
+          "days": 3,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "灭绝之火"
+            },
+            {
+              "day": 2,
+              "incidentText": "送葬"
+            },
+            {
+              "day": 3,
+              "incidentText": "疯狂杀人"
+            }
+          ],
+          "剧本名": "恶意的监牢",
+          "日文名": "悪意の檻",
+          "作者": "れう",
+          "轮数": "5 4",
+          "天数": "3",
+          "难度": "6 7"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-02?oldid=1493",
+            "snapshot": "sources/wiki/pages/7e6668e910fd09ba.json",
+            "capturedAt": "2026-09-27T04:58:17.833Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-02?oldid=1493",
+            "snapshot": "sources/wiki/pages/7e6668e910fd09ba.json",
+            "capturedAt": "2026-09-27T04:58:17.833Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-02?oldid=1493",
+            "snapshot": "sources/wiki/pages/7e6668e910fd09ba.json",
+            "capturedAt": "2026-09-27T04:58:17.833Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-02?oldid=1493",
+            "snapshot": "sources/wiki/pages/7e6668e910fd09ba.json",
+            "capturedAt": "2026-09-27T04:58:17.833Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-02?oldid=1493",
+            "snapshot": "sources/wiki/pages/7e6668e910fd09ba.json",
+            "capturedAt": "2026-09-27T04:58:17.833Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 26
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 26
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 26
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 26
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 26
+          },
+          "难度": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 26
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-02?oldid=1493",
+            "snapshot": "sources/wiki/pages/7e6668e910fd09ba.json",
+            "capturedAt": "2026-09-27T04:58:17.833Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 26
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-02?oldid=1493",
+              "snapshot": "sources/wiki/pages/7e6668e910fd09ba.json",
+              "capturedAt": "2026-09-27T04:58:17.833Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "WM+-02",
+              "loops": 4,
+              "days": 3,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "灭绝之火"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "送葬"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "疯狂杀人"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 6,
+              "row": 26
+            },
+            "fields": {
+              "scenarioCode": "WM+-02",
+              "剧本名": "恶意的监牢",
+              "日文名": "悪意の檻",
+              "作者": "れう",
+              "轮数": "5 4",
+              "天数": "3",
+              "难度": "6 7"
+            }
+          }
+        ],
+        "body": "text/scenarios/b435d71ce7ceb26a.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-02?oldid=1493",
+          "snapshot": "sources/wiki/pages/7e6668e910fd09ba.json",
+          "capturedAt": "2026-09-27T04:58:17.833Z"
+        },
+        "wikiTitle": "WM+-02",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "WM+-02非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-02%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-02?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Weird Mythology Plus"
+        ],
+        "module": "Weird Mythology Plus"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "9d7e746c311d6190",
+        "title": "WM+-02非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "WM+-02"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-02%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1897",
+            "snapshot": "sources/wiki/pages/a623c23530ceaf93.json",
+            "capturedAt": "2026-09-27T04:58:23.046Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-02%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1897",
+            "snapshot": "sources/wiki/pages/a623c23530ceaf93.json",
+            "capturedAt": "2026-09-27T04:58:23.046Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-02%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1897",
+            "snapshot": "sources/wiki/pages/a623c23530ceaf93.json",
+            "capturedAt": "2026-09-27T04:58:23.046Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-02%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1897",
+              "snapshot": "sources/wiki/pages/a623c23530ceaf93.json",
+              "capturedAt": "2026-09-27T04:58:23.046Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "WM+-02"
+            }
+          }
+        ],
+        "wikiTitle": "WM+-02非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Weird Mythology Plus",
+        "tags": [
+          "民间",
+          "Weird Mythology Plus"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "9d7e746c311d6190"
+  ],
+  "conflicts": []
+}

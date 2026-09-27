@@ -1,0 +1,67 @@
+{
+  "id": "4eb82173402e936d",
+  "title": "麻烦制造者",
+  "kind": "identities",
+  "scope": "Unheard Malice",
+  "aliases": [],
+  "fields": {
+    "max": "①",
+    "traits": "",
+    "abilities": [
+      "【强制：行动结算阶段】无视该角色身上放置的禁止友好",
+      "【强制：行动结算阶段】Ex槽为0→选择1张与该角色位于同一区域且放置在另外1名角色身上的友好+1，无视所选的友好+1"
+    ]
+  },
+  "provenance": {
+    "max": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Unheard_Malice",
+      "snapshot": "sources/wiki/pages/62df499c8bfa0a4c.json",
+      "capturedAt": "2026-09-27T03:30:12.492Z"
+    },
+    "traits": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Unheard_Malice",
+      "snapshot": "sources/wiki/pages/62df499c8bfa0a4c.json",
+      "capturedAt": "2026-09-27T03:30:12.492Z"
+    },
+    "abilities": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Unheard_Malice",
+      "snapshot": "sources/wiki/pages/62df499c8bfa0a4c.json",
+      "capturedAt": "2026-09-27T03:30:12.492Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Unheard_Malice",
+      "snapshot": "sources/wiki/pages/62df499c8bfa0a4c.json",
+      "capturedAt": "2026-09-27T03:30:12.492Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Unheard_Malice",
+        "snapshot": "sources/wiki/pages/62df499c8bfa0a4c.json",
+        "capturedAt": "2026-09-27T03:30:12.492Z"
+      },
+      "fields": {
+        "max": "①",
+        "traits": "",
+        "abilities": [
+          "【强制：行动结算阶段】无视该角色身上放置的禁止友好",
+          "【强制：行动结算阶段】Ex槽为0→选择1张与该角色位于同一区域且放置在另外1名角色身上的友好+1，无视所选的友好+1"
+        ]
+      }
+    }
+  ],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "民间"
+  ],
+  "conflicts": []
+}

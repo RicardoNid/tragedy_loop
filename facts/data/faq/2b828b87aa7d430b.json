@@ -1,0 +1,67 @@
+{
+  "id": "2b828b87aa7d430b",
+  "title": "祭品的能力让所有角色和主人公死亡会发生什么啊？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / WM / 第 16 行",
+  "aliases": [],
+  "fields": {
+    "question": "祭品的能力让所有角色和主人公死亡会发生什么啊？",
+    "answer": "假设你是剧作家，让所有没有不死的角色死亡，并声明主人公死亡，结算所有强制效果，判定主人公失败轮回结束"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=ofqfdw",
+      "snapshot": "sources/faq-sheet/wm.json",
+      "sheet": "WM",
+      "row": 16,
+      "cells": "A16:B16",
+      "capturedAt": "2026-09-27T05:40:23.278Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=ofqfdw",
+      "snapshot": "sources/faq-sheet/wm.json",
+      "sheet": "WM",
+      "row": 16,
+      "cells": "A16:B16",
+      "capturedAt": "2026-09-27T05:40:23.278Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=ofqfdw",
+      "snapshot": "sources/faq-sheet/wm.json",
+      "sheet": "WM",
+      "row": 16,
+      "cells": "A16:B16",
+      "capturedAt": "2026-09-27T05:40:23.278Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=ofqfdw",
+        "snapshot": "sources/faq-sheet/wm.json",
+        "sheet": "WM",
+        "row": 16,
+        "cells": "A16:B16",
+        "capturedAt": "2026-09-27T05:40:23.278Z"
+      },
+      "fields": {
+        "question": "祭品的能力让所有角色和主人公死亡会发生什么啊？",
+        "answer": "假设你是剧作家，让所有没有不死的角色死亡，并声明主人公死亡，结算所有强制效果，判定主人公失败轮回结束"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "WM",
+    "关于能力",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

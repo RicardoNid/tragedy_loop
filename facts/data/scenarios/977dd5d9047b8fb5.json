@@ -1,0 +1,510 @@
+{
+  "id": "977dd5d9047b8fb5",
+  "title": "BTX-24",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "BTX-24非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "BTX-24",
+    "loops": 4,
+    "days": 6,
+    "schedule": [
+      {
+        "day": 2,
+        "incidentText": "谋杀"
+      },
+      {
+        "day": 4,
+        "incidentText": "蝴蝶效应"
+      },
+      {
+        "day": 5,
+        "incidentText": "远距离杀人"
+      },
+      {
+        "day": 6,
+        "incidentText": "失踪"
+      }
+    ],
+    "剧本名": "护航任务",
+    "英文名": "Escort Mission",
+    "作者": "Davidchae",
+    "轮数": "4",
+    "天数": "6"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-24",
+      "snapshot": "sources/wiki/pages/c37f20d68cc554c5.json",
+      "capturedAt": "2026-09-27T04:00:56.923Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-24",
+      "snapshot": "sources/wiki/pages/c37f20d68cc554c5.json",
+      "capturedAt": "2026-09-27T04:00:56.923Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-24",
+      "snapshot": "sources/wiki/pages/c37f20d68cc554c5.json",
+      "capturedAt": "2026-09-27T04:00:56.923Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-24",
+      "snapshot": "sources/wiki/pages/c37f20d68cc554c5.json",
+      "capturedAt": "2026-09-27T04:00:56.923Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-24",
+      "snapshot": "sources/wiki/pages/c37f20d68cc554c5.json",
+      "capturedAt": "2026-09-27T04:00:56.923Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 25
+    },
+    "英文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 25
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 25
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 25
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 25
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-24",
+      "snapshot": "sources/wiki/pages/c37f20d68cc554c5.json",
+      "capturedAt": "2026-09-27T04:00:56.923Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 25
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-24%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/99134f53fdd6ca42.json",
+      "capturedAt": "2026-09-27T04:00:59.974Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-24",
+        "snapshot": "sources/wiki/pages/c37f20d68cc554c5.json",
+        "capturedAt": "2026-09-27T04:00:56.923Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "BTX-24",
+        "loops": 4,
+        "days": 6,
+        "schedule": [
+          {
+            "day": 2,
+            "incidentText": "谋杀"
+          },
+          {
+            "day": 4,
+            "incidentText": "蝴蝶效应"
+          },
+          {
+            "day": 5,
+            "incidentText": "远距离杀人"
+          },
+          {
+            "day": 6,
+            "incidentText": "失踪"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 2,
+        "row": 25
+      },
+      "fields": {
+        "scenarioCode": "BTX-24",
+        "剧本名": "护航任务",
+        "英文名": "Escort Mission",
+        "作者": "Davidchae",
+        "轮数": "4",
+        "天数": "6"
+      }
+    }
+  ],
+  "wikiTitle": "BTX-24",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Basic Tragedy X"
+  ],
+  "module": "Basic Tragedy X",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "977dd5d9047b8fb5",
+        "title": "BTX-24",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "BTX-24",
+          "loops": 4,
+          "days": 6,
+          "schedule": [
+            {
+              "day": 2,
+              "incidentText": "谋杀"
+            },
+            {
+              "day": 4,
+              "incidentText": "蝴蝶效应"
+            },
+            {
+              "day": 5,
+              "incidentText": "远距离杀人"
+            },
+            {
+              "day": 6,
+              "incidentText": "失踪"
+            }
+          ],
+          "剧本名": "护航任务",
+          "英文名": "Escort Mission",
+          "作者": "Davidchae",
+          "轮数": "4",
+          "天数": "6"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-24",
+            "snapshot": "sources/wiki/pages/c37f20d68cc554c5.json",
+            "capturedAt": "2026-09-27T04:00:56.923Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-24",
+            "snapshot": "sources/wiki/pages/c37f20d68cc554c5.json",
+            "capturedAt": "2026-09-27T04:00:56.923Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-24",
+            "snapshot": "sources/wiki/pages/c37f20d68cc554c5.json",
+            "capturedAt": "2026-09-27T04:00:56.923Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-24",
+            "snapshot": "sources/wiki/pages/c37f20d68cc554c5.json",
+            "capturedAt": "2026-09-27T04:00:56.923Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-24",
+            "snapshot": "sources/wiki/pages/c37f20d68cc554c5.json",
+            "capturedAt": "2026-09-27T04:00:56.923Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 25
+          },
+          "英文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 25
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 25
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 25
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 25
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-24",
+            "snapshot": "sources/wiki/pages/c37f20d68cc554c5.json",
+            "capturedAt": "2026-09-27T04:00:56.923Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 25
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-24",
+              "snapshot": "sources/wiki/pages/c37f20d68cc554c5.json",
+              "capturedAt": "2026-09-27T04:00:56.923Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "BTX-24",
+              "loops": 4,
+              "days": 6,
+              "schedule": [
+                {
+                  "day": 2,
+                  "incidentText": "谋杀"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "蝴蝶效应"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "远距离杀人"
+                },
+                {
+                  "day": 6,
+                  "incidentText": "失踪"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 2,
+              "row": 25
+            },
+            "fields": {
+              "scenarioCode": "BTX-24",
+              "剧本名": "护航任务",
+              "英文名": "Escort Mission",
+              "作者": "Davidchae",
+              "轮数": "4",
+              "天数": "6"
+            }
+          }
+        ],
+        "body": "text/scenarios/977dd5d9047b8fb5.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-24",
+          "snapshot": "sources/wiki/pages/c37f20d68cc554c5.json",
+          "capturedAt": "2026-09-27T04:00:56.923Z"
+        },
+        "wikiTitle": "BTX-24",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "BTX-24非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-24%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-24?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Basic Tragedy X"
+        ],
+        "module": "Basic Tragedy X"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "bd7cdc1898d138f7",
+        "title": "BTX-24非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "BTX-24",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "谋杀计划"
+            },
+            {
+              "slot": "X1",
+              "name": "妄想扩大病毒"
+            },
+            {
+              "slot": "X2",
+              "name": "因果线"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-24%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/99134f53fdd6ca42.json",
+            "capturedAt": "2026-09-27T04:00:59.974Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-24%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/99134f53fdd6ca42.json",
+            "capturedAt": "2026-09-27T04:00:59.974Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-24%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/99134f53fdd6ca42.json",
+            "capturedAt": "2026-09-27T04:00:59.974Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-24%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/99134f53fdd6ca42.json",
+            "capturedAt": "2026-09-27T04:00:59.974Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-24%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/99134f53fdd6ca42.json",
+              "capturedAt": "2026-09-27T04:00:59.974Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "BTX-24",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "谋杀计划"
+                },
+                {
+                  "slot": "X1",
+                  "name": "妄想扩大病毒"
+                },
+                {
+                  "slot": "X2",
+                  "name": "因果线"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/bd7cdc1898d138f7.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-24%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/99134f53fdd6ca42.json",
+          "capturedAt": "2026-09-27T04:00:59.974Z"
+        },
+        "wikiTitle": "BTX-24非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-24%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-24%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Basic Tragedy X",
+        "tags": [
+          "民间",
+          "Basic Tragedy X"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "bd7cdc1898d138f7"
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,68 @@
+{
+  "id": "b131d70dc5ced968",
+  "title": "猎奇杀人",
+  "kind": "incidents",
+  "scope": "Mystery Circle",
+  "aliases": [],
+  "fields": {
+    "effect": "<当事人不安限度+1><Ex槽增加2>按照「连续杀人」「不安扩散」的顺序结算事件"
+  },
+  "provenance": {
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Mystery_Circle",
+      "snapshot": "sources/wiki/pages/b21e3f528569eced.json",
+      "capturedAt": "2026-09-27T03:29:50.486Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Mystery_Circle",
+      "snapshot": "sources/wiki/pages/b21e3f528569eced.json",
+      "capturedAt": "2026-09-27T03:29:50.486Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Mystery_Circle",
+        "snapshot": "sources/wiki/pages/b21e3f528569eced.json",
+        "capturedAt": "2026-09-27T03:29:50.486Z"
+      },
+      "fields": {
+        "effect": "<当事人不安限度+1><Ex槽增加2>按照「连续杀人」「不安扩散」的顺序结算事件"
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "effect": "<当事人不安限度+1><本事件触发的Ex槽增加改为+2>按照“连续杀人”“不安扩散”的顺序结算事件"
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "effect",
+      "selected": "<当事人不安限度+1><Ex槽增加2>按照「连续杀人」「不安扩散」的顺序结算事件",
+      "candidate": "<当事人不安限度+1><本事件触发的Ex槽增加改为+2>按照“连续杀人”“不安扩散”的顺序结算事件",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    }
+  ]
+}

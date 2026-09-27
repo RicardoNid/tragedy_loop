@@ -1,0 +1,219 @@
+{
+  "id": "29ba9a9c7f2a5de1",
+  "title": "转校生",
+  "kind": "characters",
+  "scope": "",
+  "aliases": [
+    "轉校生"
+  ],
+  "fields": {
+    "角色名": "转校生",
+    "初始区域": "学校",
+    "禁行区域": "无",
+    "不安限度": "2",
+    "属性": [
+      "学生",
+      "少女"
+    ],
+    "特性": "劇本製作時，指定該角色在每輪輪迴第幾天登場。该角色不会在轮回准备时配置上场，在指定天数的回合开始阶段将该角色配置上场。",
+    "友好能力": [
+      {
+        "text": "（友好2）將同一區域另外1名角色身上的1枚密謀指示物替換為友好指示物。",
+        "threshold": 2,
+        "limitText": ""
+      }
+    ]
+  },
+  "provenance": {
+    "角色名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%BD%89%E6%A0%A1%E7%94%9F",
+      "snapshot": "sources/wiki/pages/be9147d16e036352.json",
+      "capturedAt": "2026-09-27T03:38:00.124Z"
+    },
+    "初始区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%BD%89%E6%A0%A1%E7%94%9F",
+      "snapshot": "sources/wiki/pages/be9147d16e036352.json",
+      "capturedAt": "2026-09-27T03:38:00.124Z"
+    },
+    "禁行区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%BD%89%E6%A0%A1%E7%94%9F",
+      "snapshot": "sources/wiki/pages/be9147d16e036352.json",
+      "capturedAt": "2026-09-27T03:38:00.124Z"
+    },
+    "不安限度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%BD%89%E6%A0%A1%E7%94%9F",
+      "snapshot": "sources/wiki/pages/be9147d16e036352.json",
+      "capturedAt": "2026-09-27T03:38:00.124Z"
+    },
+    "属性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%BD%89%E6%A0%A1%E7%94%9F",
+      "snapshot": "sources/wiki/pages/be9147d16e036352.json",
+      "capturedAt": "2026-09-27T03:38:00.124Z"
+    },
+    "特性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%BD%89%E6%A0%A1%E7%94%9F",
+      "snapshot": "sources/wiki/pages/be9147d16e036352.json",
+      "capturedAt": "2026-09-27T03:38:00.124Z"
+    },
+    "友好能力": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%BD%89%E6%A0%A1%E7%94%9F",
+      "snapshot": "sources/wiki/pages/be9147d16e036352.json",
+      "capturedAt": "2026-09-27T03:38:00.124Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%BD%89%E6%A0%A1%E7%94%9F",
+      "snapshot": "sources/wiki/pages/be9147d16e036352.json",
+      "capturedAt": "2026-09-27T03:38:00.124Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%BD%89%E6%A0%A1%E7%94%9F",
+        "snapshot": "sources/wiki/pages/be9147d16e036352.json",
+        "capturedAt": "2026-09-27T03:38:00.124Z"
+      },
+      "fields": {
+        "角色名": "转校生",
+        "初始区域": "学校",
+        "禁行区域": "无",
+        "不安限度": "2",
+        "属性": [
+          "学生",
+          "少女"
+        ],
+        "特性": "劇本製作時，指定該角色在每輪輪迴第幾天登場。该角色不会在轮回准备时配置上场，在指定天数的回合开始阶段将该角色配置上场。",
+        "友好能力": [
+          {
+            "text": "（友好2）將同一區域另外1名角色身上的1枚密謀指示物替換為友好指示物。",
+            "threshold": 2,
+            "limitText": ""
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "特性": "剧本制作时，指定该角色在每轮轮回第几天登场。该角色不会在轮回准备时配置上场，在指定天数的回合开始阶段将该角色配置上场。",
+        "属性": [
+          "学生",
+          "少女"
+        ],
+        "初始区域": "学校",
+        "禁行区域": "否",
+        "不安限度": "2",
+        "友好能力": [
+          {
+            "text": "将同一区域另外1名角色身上的1枚密谋指示物替换为友好指示物",
+            "threshold": "2",
+            "oncePerLoop": ""
+          }
+        ]
+      }
+    }
+  ],
+  "body": "text/characters/29ba9a9c7f2a5de1.txt",
+  "bodySource": {
+    "provider": "wiki",
+    "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%BD%89%E6%A0%A1%E7%94%9F",
+    "snapshot": "sources/wiki/pages/be9147d16e036352.json",
+    "capturedAt": "2026-09-27T03:38:00.124Z"
+  },
+  "wikiTitle": "轉校生",
+  "originalTables": [],
+  "wikiStatus": "captured",
+  "links": [
+    {
+      "title": "<img style=\"\" src=\"https://static.wikia.nocookie.net/tragedyrooper/images/2/22/%E8%BD%AC%E6%A0%A1%E7%94%9F.png/revision/latest/scale-to-width-down/135?cb=20251023162229&amp;path-prefix=zh\" title=\"转校生.png (239 KB)\" class=\"thumbimage\" alt=\"\" height=\"185\" width=\"185\" data-image-name=\"转校生.png\" data-image-key=\"%E8%BD%AC%E6%A0%A1%E7%94%9F.png\" data-relevant=\"1\">",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E8%BD%AC%E6%A0%A1%E7%94%9F.png"
+    }
+  ],
+  "images": [
+    {
+      "alt": "",
+      "src": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+    }
+  ],
+  "media": [
+    {
+      "title": "转校生.png",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:%E8%BD%AC%E6%A0%A1%E7%94%9F.png",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/2/22/%E8%BD%AC%E6%A0%A1%E7%94%9F.png/revision/latest?cb=20251023162229&format=original&path-prefix=zh",
+      "path": "media/wiki/b4f815f672fd21d5.png",
+      "sourceRecord": "sources/wiki/files/b4f815f672fd21d5.json",
+      "sha256": "c0a4d29a9e6c12ee27d9bf1d17ac8f16de185bd15f27720c3b732036d9077306",
+      "bytes": 244419,
+      "fileInfo": "PNG image data, 305 x 419, 8-bit/color RGBA, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/6fadb2d7054aeea7.json",
+  "tags": [
+    "学生",
+    "少女",
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "特性",
+      "selected": "劇本製作時，指定該角色在每輪輪迴第幾天登場。该角色不会在轮回准备时配置上场，在指定天数的回合开始阶段将该角色配置上场。",
+      "candidate": "剧本制作时，指定该角色在每轮轮回第几天登场。该角色不会在轮回准备时配置上场，在指定天数的回合开始阶段将该角色配置上场。",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "禁行区域",
+      "selected": "无",
+      "candidate": "否",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "友好能力",
+      "selected": [
+        {
+          "text": "（友好2）將同一區域另外1名角色身上的1枚密謀指示物替換為友好指示物。",
+          "threshold": 2,
+          "limitText": ""
+        }
+      ],
+      "candidate": [
+        {
+          "text": "将同一区域另外1名角色身上的1枚密谋指示物替换为友好指示物",
+          "threshold": "2",
+          "oncePerLoop": ""
+        }
+      ],
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    }
+  ]
+}

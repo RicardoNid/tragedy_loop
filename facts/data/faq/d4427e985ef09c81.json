@@ -1,0 +1,60 @@
+{
+  "id": "d4427e985ef09c81",
+  "title": "可以將A.I.身份設置為平民／殺人狂，或者將妹妹身份設置為關鍵人物／主謀嗎？",
+  "kind": "faq",
+  "scope": "纸质 FAQ / AHR / Q1",
+  "aliases": [],
+  "fields": {
+    "question": "可以將A.I.身份設置為平民／殺人狂，或者將妹妹身份設置為關鍵人物／主謀嗎？",
+    "answer": "都可以。表裏身份在設置時無視人數上限等所有限制。"
+  },
+  "provenance": {
+    "question": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+      "snapshot": "sources/paper-faq/another-horizon-revised.json",
+      "page": 15,
+      "questionNumber": 1
+    },
+    "answer": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+      "snapshot": "sources/paper-faq/another-horizon-revised.json",
+      "page": 15,
+      "questionNumber": 1
+    }
+  },
+  "sources": [
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+      "snapshot": "sources/paper-faq/another-horizon-revised.json",
+      "page": 15,
+      "questionNumber": 1
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+        "snapshot": "sources/paper-faq/another-horizon-revised.json",
+        "page": 15,
+        "questionNumber": 1
+      },
+      "fields": {
+        "question": "可以將A.I.身份設置為平民／殺人狂，或者將妹妹身份設置為關鍵人物／主謀嗎？",
+        "answer": "都可以。表裏身份在設置時無視人數上限等所有限制。"
+      }
+    }
+  ],
+  "tags": [
+    "AHR",
+    "纸质 FAQ",
+    "规则",
+    "官方"
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+  "conflicts": []
+}

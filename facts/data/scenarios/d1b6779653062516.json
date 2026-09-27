@@ -1,0 +1,510 @@
+{
+  "id": "d1b6779653062516",
+  "title": "BTX-116",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "BTX-116非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "BTX-116",
+    "loops": 4,
+    "days": 5,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "自杀"
+      },
+      {
+        "day": 2,
+        "incidentText": "蝴蝶效应"
+      },
+      {
+        "day": 4,
+        "incidentText": "邪气污染"
+      },
+      {
+        "day": 5,
+        "incidentText": "谋杀"
+      }
+    ],
+    "剧本名": "推新用剧本",
+    "日文名": "初心者用脚本",
+    "作者": "ぶー太郎",
+    "轮数": "4",
+    "天数": "5"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-116",
+      "snapshot": "sources/wiki/pages/2bf971e2fc717877.json",
+      "capturedAt": "2026-09-27T03:54:08.906Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-116",
+      "snapshot": "sources/wiki/pages/2bf971e2fc717877.json",
+      "capturedAt": "2026-09-27T03:54:08.906Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-116",
+      "snapshot": "sources/wiki/pages/2bf971e2fc717877.json",
+      "capturedAt": "2026-09-27T03:54:08.906Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-116",
+      "snapshot": "sources/wiki/pages/2bf971e2fc717877.json",
+      "capturedAt": "2026-09-27T03:54:08.906Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-116",
+      "snapshot": "sources/wiki/pages/2bf971e2fc717877.json",
+      "capturedAt": "2026-09-27T03:54:08.906Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 119
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 119
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 119
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 119
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 119
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-116",
+      "snapshot": "sources/wiki/pages/2bf971e2fc717877.json",
+      "capturedAt": "2026-09-27T03:54:08.906Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 119
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-116%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/5b6df0a1ef357210.json",
+      "capturedAt": "2026-09-27T03:54:11.692Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-116",
+        "snapshot": "sources/wiki/pages/2bf971e2fc717877.json",
+        "capturedAt": "2026-09-27T03:54:08.906Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "BTX-116",
+        "loops": 4,
+        "days": 5,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "自杀"
+          },
+          {
+            "day": 2,
+            "incidentText": "蝴蝶效应"
+          },
+          {
+            "day": 4,
+            "incidentText": "邪气污染"
+          },
+          {
+            "day": 5,
+            "incidentText": "谋杀"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 2,
+        "row": 119
+      },
+      "fields": {
+        "scenarioCode": "BTX-116",
+        "剧本名": "推新用剧本",
+        "日文名": "初心者用脚本",
+        "作者": "ぶー太郎",
+        "轮数": "4",
+        "天数": "5"
+      }
+    }
+  ],
+  "wikiTitle": "BTX-116",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Basic Tragedy X"
+  ],
+  "module": "Basic Tragedy X",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "d1b6779653062516",
+        "title": "BTX-116",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "BTX-116",
+          "loops": 4,
+          "days": 5,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "自杀"
+            },
+            {
+              "day": 2,
+              "incidentText": "蝴蝶效应"
+            },
+            {
+              "day": 4,
+              "incidentText": "邪气污染"
+            },
+            {
+              "day": 5,
+              "incidentText": "谋杀"
+            }
+          ],
+          "剧本名": "推新用剧本",
+          "日文名": "初心者用脚本",
+          "作者": "ぶー太郎",
+          "轮数": "4",
+          "天数": "5"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-116",
+            "snapshot": "sources/wiki/pages/2bf971e2fc717877.json",
+            "capturedAt": "2026-09-27T03:54:08.906Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-116",
+            "snapshot": "sources/wiki/pages/2bf971e2fc717877.json",
+            "capturedAt": "2026-09-27T03:54:08.906Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-116",
+            "snapshot": "sources/wiki/pages/2bf971e2fc717877.json",
+            "capturedAt": "2026-09-27T03:54:08.906Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-116",
+            "snapshot": "sources/wiki/pages/2bf971e2fc717877.json",
+            "capturedAt": "2026-09-27T03:54:08.906Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-116",
+            "snapshot": "sources/wiki/pages/2bf971e2fc717877.json",
+            "capturedAt": "2026-09-27T03:54:08.906Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 119
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 119
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 119
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 119
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 119
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-116",
+            "snapshot": "sources/wiki/pages/2bf971e2fc717877.json",
+            "capturedAt": "2026-09-27T03:54:08.906Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 119
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-116",
+              "snapshot": "sources/wiki/pages/2bf971e2fc717877.json",
+              "capturedAt": "2026-09-27T03:54:08.906Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "BTX-116",
+              "loops": 4,
+              "days": 5,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "自杀"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "蝴蝶效应"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "邪气污染"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "谋杀"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 2,
+              "row": 119
+            },
+            "fields": {
+              "scenarioCode": "BTX-116",
+              "剧本名": "推新用剧本",
+              "日文名": "初心者用脚本",
+              "作者": "ぶー太郎",
+              "轮数": "4",
+              "天数": "5"
+            }
+          }
+        ],
+        "body": "text/scenarios/d1b6779653062516.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-116",
+          "snapshot": "sources/wiki/pages/2bf971e2fc717877.json",
+          "capturedAt": "2026-09-27T03:54:08.906Z"
+        },
+        "wikiTitle": "BTX-116",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "BTX-116非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-116%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-116?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Basic Tragedy X"
+        ],
+        "module": "Basic Tragedy X"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "e47af8b29170c79d",
+        "title": "BTX-116非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "BTX-116",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "谋杀计划"
+            },
+            {
+              "slot": "X1",
+              "name": "流言四起"
+            },
+            {
+              "slot": "X2",
+              "name": "未知因子KAI"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-116%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/5b6df0a1ef357210.json",
+            "capturedAt": "2026-09-27T03:54:11.692Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-116%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/5b6df0a1ef357210.json",
+            "capturedAt": "2026-09-27T03:54:11.692Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-116%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/5b6df0a1ef357210.json",
+            "capturedAt": "2026-09-27T03:54:11.692Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-116%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/5b6df0a1ef357210.json",
+            "capturedAt": "2026-09-27T03:54:11.692Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-116%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/5b6df0a1ef357210.json",
+              "capturedAt": "2026-09-27T03:54:11.692Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "BTX-116",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "谋杀计划"
+                },
+                {
+                  "slot": "X1",
+                  "name": "流言四起"
+                },
+                {
+                  "slot": "X2",
+                  "name": "未知因子KAI"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/e47af8b29170c79d.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-116%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/5b6df0a1ef357210.json",
+          "capturedAt": "2026-09-27T03:54:11.692Z"
+        },
+        "wikiTitle": "BTX-116非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-116%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-116%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Basic Tragedy X",
+        "tags": [
+          "民间",
+          "Basic Tragedy X"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "e47af8b29170c79d"
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,900 @@
+{
+  "categories": [
+    "分类"
+  ],
+  "hasArticle": true,
+  "headings": [],
+  "html": "<p><strong class=\"mw-selflink selflink\">First Steps</strong>的特殊规则如下\n</p><p>1 剧本只有1条规则X\n</p><p>2 没有最终决战\n</p>\n<table class=\"fandom-table\">\n<tbody><tr>\n<td>FS\n</td>\n<td>剧本\n</td>\n<td>关\n<p>键\n人\n物\n</p>\n</td>\n<td>杀\n<p>手\n</p>\n</td>\n<td>主谋\n</td>\n<td>邪\n<p>教\n徒\n</p>\n</td>\n<td>传谣人\n</td>\n<td>杀人狂\n</td>\n<td>暴徒\n</td>\n<td>亲友\n</td>\n<td>附加规则\n</td></tr>\n<tr>\n<td rowspan=\"3\">Y\n</td>\n<td>谋杀计划\n</td>\n<td>①\n</td>\n<td>①\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td></tr>\n<tr>\n<td>复仇的火种\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>【失败条件：轮回结束时】主谋的初始区域有2枚或以上[密谋]\n</td></tr>\n<tr>\n<td>守护此地\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>【失败条件：轮回结束时】学校有2枚或以上[密谋]\n</td></tr>\n<tr>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td></tr>\n<tr>\n<td rowspan=\"3\">X\n</td>\n<td>开膛者的魔影\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td></tr>\n<tr>\n<td>流言四起\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>【任意能力：剧作家能力阶段】往任意1块版图上放置1枚[密谋]（每轮限1次）\n</td></tr>\n<tr>\n<td>最黑暗的剧本\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>②\n</td>\n<td>①\n</td>\n<td>【任意能力：剧本制作时】剧本制作时，暴徒的人数可以为0-2人\n</td></tr>\n<tr>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td></tr>\n<tr>\n<td rowspan=\"11\">身\n<p>份\n</p>\n</td>\n<td>身份\n</td>\n<td>限\n</td>\n<td colspan=\"3\">身份特性\n</td>\n<td colspan=\"5\">能力\n</td></tr>\n<tr>\n<td>关键人物\n</td>\n<td>\n</td>\n<td colspan=\"3\">\n</td>\n<td colspan=\"5\">【强制：该角色死亡时】主人公失败，当前轮回立即结束\n</td></tr>\n<tr>\n<td rowspan=\"2\">杀手\n</td>\n<td rowspan=\"2\">\n</td>\n<td colspan=\"3\" rowspan=\"2\">无视友好\n</td>\n<td colspan=\"5\">【任意能力：回合结束阶段】同一区域1名关键人物身上有2枚或以上[密谋]→那名关键人物死亡\n</td></tr>\n<tr>\n<td colspan=\"5\">【任意能力：回合结束阶段】该角色身上有4枚或以上[密谋]→主人公死亡\n</td></tr>\n<tr>\n<td>主谋\n</td>\n<td>\n</td>\n<td colspan=\"3\">无视友好\n</td>\n<td colspan=\"5\">【任意能力：剧作家能力阶段】往同一区域任意一名角色身上，或该角色所在的版图上放置1枚[密谋]\n</td></tr>\n<tr>\n<td>邪教徒\n</td>\n<td>\n</td>\n<td colspan=\"3\">必定无视\n<p>友好\n</p>\n</td>\n<td colspan=\"5\">【任意能力：行动结算阶段】可以无效化同一区域中任意角色身上和该角色所在版图上放置的禁止密谋\n</td></tr>\n<tr>\n<td rowspan=\"2\">亲友\n</td>\n<td rowspan=\"2\">②\n</td>\n<td colspan=\"3\" rowspan=\"2\">\n</td>\n<td colspan=\"5\">【失败条件：轮回结束时】该卡牌为死亡状态，此时，需要告知主人公该卡牌的身份\n</td></tr>\n<tr>\n<td colspan=\"5\">【强制：轮回开始时】该角色身份曾被公开→往该角色身上放置1枚[友好]\n</td></tr>\n<tr>\n<td>暴徒\n</td>\n<td>\n</td>\n<td colspan=\"3\">无视友好\n</td>\n<td colspan=\"5\">\n</td></tr>\n<tr>\n<td>杀人狂\n</td>\n<td>\n</td>\n<td colspan=\"3\">\n</td>\n<td colspan=\"5\">【强制：回合结束阶段】仅有1名角色与该角色位于同一区域→那名角色死亡\n</td></tr>\n<tr>\n<td>传谣人\n</td>\n<td>①\n</td>\n<td colspan=\"3\">\n</td>\n<td colspan=\"5\">【任意能力：剧作家能力阶段】往同一区域中任意1名角色身上放置1枚[不安]\n</td></tr>\n<tr>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td></tr>\n<tr>\n<td rowspan=\"9\">事\n<p>件\n</p>\n</td>\n<td>事件名称\n</td>\n<td colspan=\"9\">效果\n</td></tr>\n<tr>\n<td>不安扩散\n</td>\n<td colspan=\"9\">往任意1名角色身上放置2枚[不安]，随后往另外1名角色身上放置1枚[密谋]\n</td></tr>\n<tr>\n<td>谋杀\n</td>\n<td colspan=\"9\">与当事人位于同一区域的另外1名角色死亡\n</td></tr>\n<tr>\n<td rowspan=\"2\">医院事故\n</td>\n<td colspan=\"9\">医院有1枚或以上[密谋]→位于医院的所有角色死亡\n</td></tr>\n<tr>\n<td colspan=\"9\">医院有2枚或以上[密谋]→主人公死亡\n</td></tr>\n<tr>\n<td>自杀\n</td>\n<td colspan=\"9\">当事人死亡\n</td></tr>\n<tr>\n<td>散播\n</td>\n<td colspan=\"9\">从任意1名角色身上移除2枚[友好]，随后，往另外1名角色身上放置2枚[友好]\n</td></tr>\n<tr>\n<td>失踪\n</td>\n<td colspan=\"9\">将当事人移动至任意版图，随后，往当事人所在版图放置1枚[密谋]\n</td></tr>\n<tr>\n<td>远距离杀人\n</td>\n<td colspan=\"9\">任意1名身上有2枚或以上[密谋]的角色死亡\n</td></tr></tbody></table>\n<!-- \nNewPP limit report\nCached time: 20260927032935\nCache expiry: 1209600\nReduced expiry: false\nComplications: []\nCPU time usage: 0.023 seconds\nReal time usage: 0.026 seconds\nPreprocessor visited node count: 1/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/100\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key 1.43.9_prod_zhtragedyrooper:pcache:idhash:259-0!sseVary=RegularPage!zh!FandomDesktop!LegacyGalleries and timestamp 20260927032935 and revision id 496. Rendering was triggered because: page-view\n -->\n",
+  "images": [],
+  "license": [
+    "https://www.fandom.com/zh/licensing-zh"
+  ],
+  "links": [],
+  "tables": [
+    [
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "FS"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "剧本"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "关\n\n键 人 物"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "杀\n\n手"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "主谋"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "邪\n\n教 徒"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "传谣人"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "杀人狂"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "暴徒"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "亲友"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "附加规则"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 3,
+          "text": "Y"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "谋杀计划"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "复仇的火种"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "【失败条件：轮回结束时】主谋的初始区域有2枚或以上[密谋]"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "守护此地"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "【失败条件：轮回结束时】学校有2枚或以上[密谋]"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 3,
+          "text": "X"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "开膛者的魔影"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "流言四起"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "【任意能力：剧作家能力阶段】往任意1块版图上放置1枚[密谋]（每轮限1次）"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "最黑暗的剧本"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "②"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "【任意能力：剧本制作时】剧本制作时，暴徒的人数可以为0-2人"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 11,
+          "text": "身\n\n份"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "身份"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "限"
+        },
+        {
+          "colspan": 3,
+          "rowspan": 1,
+          "text": "身份特性"
+        },
+        {
+          "colspan": 5,
+          "rowspan": 1,
+          "text": "能力"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "关键人物"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 3,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 5,
+          "rowspan": 1,
+          "text": "【强制：该角色死亡时】主人公失败，当前轮回立即结束"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "杀手"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 3,
+          "rowspan": 2,
+          "text": "无视友好"
+        },
+        {
+          "colspan": 5,
+          "rowspan": 1,
+          "text": "【任意能力：回合结束阶段】同一区域1名关键人物身上有2枚或以上[密谋]→那名关键人物死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 5,
+          "rowspan": 1,
+          "text": "【任意能力：回合结束阶段】该角色身上有4枚或以上[密谋]→主人公死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "主谋"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 3,
+          "rowspan": 1,
+          "text": "无视友好"
+        },
+        {
+          "colspan": 5,
+          "rowspan": 1,
+          "text": "【任意能力：剧作家能力阶段】往同一区域任意一名角色身上，或该角色所在的版图上放置1枚[密谋]"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "邪教徒"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 3,
+          "rowspan": 1,
+          "text": "必定无视\n\n友好"
+        },
+        {
+          "colspan": 5,
+          "rowspan": 1,
+          "text": "【任意能力：行动结算阶段】可以无效化同一区域中任意角色身上和该角色所在版图上放置的禁止密谋"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "亲友"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "②"
+        },
+        {
+          "colspan": 3,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 5,
+          "rowspan": 1,
+          "text": "【失败条件：轮回结束时】该卡牌为死亡状态，此时，需要告知主人公该卡牌的身份"
+        }
+      ],
+      [
+        {
+          "colspan": 5,
+          "rowspan": 1,
+          "text": "【强制：轮回开始时】该角色身份曾被公开→往该角色身上放置1枚[友好]"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "暴徒"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 3,
+          "rowspan": 1,
+          "text": "无视友好"
+        },
+        {
+          "colspan": 5,
+          "rowspan": 1,
+          "text": ""
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "杀人狂"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 3,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 5,
+          "rowspan": 1,
+          "text": "【强制：回合结束阶段】仅有1名角色与该角色位于同一区域→那名角色死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "传谣人"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 3,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 5,
+          "rowspan": 1,
+          "text": "【任意能力：剧作家能力阶段】往同一区域中任意1名角色身上放置1枚[不安]"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 9,
+          "text": "事\n\n件"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "事件名称"
+        },
+        {
+          "colspan": 9,
+          "rowspan": 1,
+          "text": "效果"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "不安扩散"
+        },
+        {
+          "colspan": 9,
+          "rowspan": 1,
+          "text": "往任意1名角色身上放置2枚[不安]，随后往另外1名角色身上放置1枚[密谋]"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "谋杀"
+        },
+        {
+          "colspan": 9,
+          "rowspan": 1,
+          "text": "与当事人位于同一区域的另外1名角色死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "医院事故"
+        },
+        {
+          "colspan": 9,
+          "rowspan": 1,
+          "text": "医院有1枚或以上[密谋]→位于医院的所有角色死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 9,
+          "rowspan": 1,
+          "text": "医院有2枚或以上[密谋]→主人公死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "自杀"
+        },
+        {
+          "colspan": 9,
+          "rowspan": 1,
+          "text": "当事人死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "散播"
+        },
+        {
+          "colspan": 9,
+          "rowspan": 1,
+          "text": "从任意1名角色身上移除2枚[友好]，随后，往另外1名角色身上放置2枚[友好]"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "失踪"
+        },
+        {
+          "colspan": 9,
+          "rowspan": 1,
+          "text": "将当事人移动至任意版图，随后，往当事人所在版图放置1枚[密谋]"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "远距离杀人"
+        },
+        {
+          "colspan": 9,
+          "rowspan": 1,
+          "text": "任意1名身上有2枚或以上[密谋]的角色死亡"
+        }
+      ]
+    ]
+  ],
+  "text": "First Steps的特殊规则如下\n\n1 剧本只有1条规则X\n\n2 没有最终决战\n\nFS\t剧本\t关\n\n键 人 物\n\n\t杀\n\n手\n\n\t主谋\t邪\n\n教 徒\n\n\t传谣人\t杀人狂\t暴徒\t亲友\t附加规则\nY\t谋杀计划\t①\t①\t①\t\t\t\t\t\t\n复仇的火种\t\t\t①\t\t\t\t\t\t【失败条件：轮回结束时】主谋的初始区域有2枚或以上[密谋]\n守护此地\t①\t\t\t①\t\t\t\t\t【失败条件：轮回结束时】学校有2枚或以上[密谋]\n\t\t\t\t\t\t\t\t\t\t\nX\t开膛者的魔影\t\t\t\t\t①\t①\t\t\t\n流言四起\t\t\t\t\t①\t\t\t\t【任意能力：剧作家能力阶段】往任意1块版图上放置1枚[密谋]（每轮限1次）\n最黑暗的剧本\t\t\t\t\t①\t\t②\t①\t【任意能力：剧本制作时】剧本制作时，暴徒的人数可以为0-2人\n\t\t\t\t\t\t\t\t\t\t\n身\n\n份\n\n\t身份\t限\t身份特性\t能力\n关键人物\t\t\t【强制：该角色死亡时】主人公失败，当前轮回立即结束\n杀手\t\t无视友好\t【任意能力：回合结束阶段】同一区域1名关键人物身上有2枚或以上[密谋]→那名关键人物死亡\n【任意能力：回合结束阶段】该角色身上有4枚或以上[密谋]→主人公死亡\n主谋\t\t无视友好\t【任意能力：剧作家能力阶段】往同一区域任意一名角色身上，或该角色所在的版图上放置1枚[密谋]\n邪教徒\t\t必定无视\n\n友好\n\n\t【任意能力：行动结算阶段】可以无效化同一区域中任意角色身上和该角色所在版图上放置的禁止密谋\n亲友\t②\t\t【失败条件：轮回结束时】该卡牌为死亡状态，此时，需要告知主人公该卡牌的身份\n【强制：轮回开始时】该角色身份曾被公开→往该角色身上放置1枚[友好]\n暴徒\t\t无视友好\t\n杀人狂\t\t\t【强制：回合结束阶段】仅有1名角色与该角色位于同一区域→那名角色死亡\n传谣人\t①\t\t【任意能力：剧作家能力阶段】往同一区域中任意1名角色身上放置1枚[不安]\n\t\t\t\t\t\t\t\t\t\t\n事\n\n件\n\n\t事件名称\t效果\n不安扩散\t往任意1名角色身上放置2枚[不安]，随后往另外1名角色身上放置1枚[密谋]\n谋杀\t与当事人位于同一区域的另外1名角色死亡\n医院事故\t医院有1枚或以上[密谋]→位于医院的所有角色死亡\n医院有2枚或以上[密谋]→主人公死亡\n自杀\t当事人死亡\n散播\t从任意1名角色身上移除2枚[友好]，随后，往另外1名角色身上放置2枚[友好]\n失踪\t将当事人移动至任意版图，随后，往当事人所在版图放置1枚[密谋]\n远距离杀人\t任意1名身上有2枚或以上[密谋]的角色死亡",
+  "title": "First Steps",
+  "url": "https://tragedyrooper.fandom.com/zh/wiki/First_Steps",
+  "status": "captured",
+  "requestedTitle": "First Steps",
+  "fetchedAt": "2026-09-27T03:29:36.530Z",
+  "source": "wiki",
+  "id": "7bcd897f011ed91f"
+}

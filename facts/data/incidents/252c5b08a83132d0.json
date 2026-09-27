@@ -1,0 +1,58 @@
+{
+  "id": "252c5b08a83132d0",
+  "title": "奇点",
+  "kind": "incidents",
+  "scope": "Another Horizon Revised",
+  "aliases": [],
+  "fields": {
+    "effect": "当前为表世界，并且本局游戏中本事件首次发生，主人公死亡。否则进行世界移动\n当前为里世界，并且当事人初始区域有1枚或以上[密谋]→主人公死亡"
+  },
+  "provenance": {
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon_Revised",
+      "snapshot": "sources/wiki/pages/5a4c2d8594c08b1e.json",
+      "capturedAt": "2026-09-27T03:28:24.166Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon_Revised",
+      "snapshot": "sources/wiki/pages/5a4c2d8594c08b1e.json",
+      "capturedAt": "2026-09-27T03:28:24.166Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon_Revised",
+        "snapshot": "sources/wiki/pages/5a4c2d8594c08b1e.json",
+        "capturedAt": "2026-09-27T03:28:24.166Z"
+      },
+      "fields": {
+        "effect": "当前为表世界，并且本局游戏中本事件首次发生，主人公死亡。否则进行世界移动\n当前为里世界，并且当事人初始区域有1枚或以上[密谋]→主人公死亡"
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "effect": "当前为表世界，并且本局游戏中本事件首次发生，主人公死亡。否则进行世界移动\n当前为里世界，并且当事人初始区域有1枚或以上[密谋]→主人公死亡"
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "官方"
+  ],
+  "conflicts": []
+}

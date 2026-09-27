@@ -1,0 +1,67 @@
+{
+  "id": "26a9e525e0605d82",
+  "title": "身上有诅咒牌的角色移动了，那张诅咒牌如何处理？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / HSA / 第 2 行",
+  "aliases": [],
+  "fields": {
+    "question": "身上有诅咒牌的角色移动了，那张诅咒牌如何处理？",
+    "answer": "跟随那个角色一起移动"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1u35d2",
+      "snapshot": "sources/faq-sheet/hsa.json",
+      "sheet": "HSA",
+      "row": 2,
+      "cells": "A2:B2",
+      "capturedAt": "2026-09-27T05:40:17.319Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1u35d2",
+      "snapshot": "sources/faq-sheet/hsa.json",
+      "sheet": "HSA",
+      "row": 2,
+      "cells": "A2:B2",
+      "capturedAt": "2026-09-27T05:40:17.319Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1u35d2",
+      "snapshot": "sources/faq-sheet/hsa.json",
+      "sheet": "HSA",
+      "row": 2,
+      "cells": "A2:B2",
+      "capturedAt": "2026-09-27T05:40:17.319Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1u35d2",
+        "snapshot": "sources/faq-sheet/hsa.json",
+        "sheet": "HSA",
+        "row": 2,
+        "cells": "A2:B2",
+        "capturedAt": "2026-09-27T05:40:17.319Z"
+      },
+      "fields": {
+        "question": "身上有诅咒牌的角色移动了，那张诅咒牌如何处理？",
+        "answer": "跟随那个角色一起移动"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "HSA",
+    "关于诅咒牌",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

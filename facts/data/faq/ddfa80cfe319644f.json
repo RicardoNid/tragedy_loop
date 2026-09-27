@@ -1,0 +1,67 @@
+{
+  "id": "ddfa80cfe319644f",
+  "title": "【妄想扩大病毒】局外人可以是杀人狂吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / FS BTX / 第 5 行",
+  "aliases": [],
+  "fields": {
+    "question": "【妄想扩大病毒】局外人可以是杀人狂吗？",
+    "answer": "可以，规则中没有杀人狂"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000005",
+      "snapshot": "sources/faq-sheet/fs-btx.json",
+      "sheet": "FS BTX",
+      "row": 5,
+      "cells": "A5:B5",
+      "capturedAt": "2026-09-27T05:39:54.615Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000005",
+      "snapshot": "sources/faq-sheet/fs-btx.json",
+      "sheet": "FS BTX",
+      "row": 5,
+      "cells": "A5:B5",
+      "capturedAt": "2026-09-27T05:39:54.615Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000005",
+      "snapshot": "sources/faq-sheet/fs-btx.json",
+      "sheet": "FS BTX",
+      "row": 5,
+      "cells": "A5:B5",
+      "capturedAt": "2026-09-27T05:39:54.615Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000005",
+        "snapshot": "sources/faq-sheet/fs-btx.json",
+        "sheet": "FS BTX",
+        "row": 5,
+        "cells": "A5:B5",
+        "capturedAt": "2026-09-27T05:39:54.615Z"
+      },
+      "fields": {
+        "question": "【妄想扩大病毒】局外人可以是杀人狂吗？",
+        "answer": "可以，规则中没有杀人狂"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "FS BTX",
+    "关于规则",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

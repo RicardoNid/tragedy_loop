@@ -1,0 +1,488 @@
+{
+  "id": "90cfb49e6aa8c2c7",
+  "title": "BTX-41",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "BTX-41非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "BTX-41",
+    "loops": 5,
+    "days": 4,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "不安扩散"
+      },
+      {
+        "day": 2,
+        "incidentText": "自杀"
+      },
+      {
+        "day": 3,
+        "incidentText": "失踪"
+      },
+      {
+        "day": 4,
+        "incidentText": "医院事故"
+      }
+    ],
+    "剧本名": "妒忌之神",
+    "作者": "minimipool",
+    "轮数": "5",
+    "天数": "4"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-41",
+      "snapshot": "sources/wiki/pages/e2b021f2c2c42e28.json",
+      "capturedAt": "2026-09-27T04:04:39.772Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-41",
+      "snapshot": "sources/wiki/pages/e2b021f2c2c42e28.json",
+      "capturedAt": "2026-09-27T04:04:39.772Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-41",
+      "snapshot": "sources/wiki/pages/e2b021f2c2c42e28.json",
+      "capturedAt": "2026-09-27T04:04:39.772Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-41",
+      "snapshot": "sources/wiki/pages/e2b021f2c2c42e28.json",
+      "capturedAt": "2026-09-27T04:04:39.772Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-41",
+      "snapshot": "sources/wiki/pages/e2b021f2c2c42e28.json",
+      "capturedAt": "2026-09-27T04:04:39.772Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 42
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 42
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 42
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 42
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-41",
+      "snapshot": "sources/wiki/pages/e2b021f2c2c42e28.json",
+      "capturedAt": "2026-09-27T04:04:39.772Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 42
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-41%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/9ddb9e273b476cd8.json",
+      "capturedAt": "2026-09-27T04:04:42.547Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-41",
+        "snapshot": "sources/wiki/pages/e2b021f2c2c42e28.json",
+        "capturedAt": "2026-09-27T04:04:39.772Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "BTX-41",
+        "loops": 5,
+        "days": 4,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "不安扩散"
+          },
+          {
+            "day": 2,
+            "incidentText": "自杀"
+          },
+          {
+            "day": 3,
+            "incidentText": "失踪"
+          },
+          {
+            "day": 4,
+            "incidentText": "医院事故"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 2,
+        "row": 42
+      },
+      "fields": {
+        "scenarioCode": "BTX-41",
+        "剧本名": "妒忌之神",
+        "作者": "minimipool",
+        "轮数": "5",
+        "天数": "4"
+      }
+    }
+  ],
+  "wikiTitle": "BTX-41",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Basic Tragedy X"
+  ],
+  "module": "Basic Tragedy X",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "90cfb49e6aa8c2c7",
+        "title": "BTX-41",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "BTX-41",
+          "loops": 5,
+          "days": 4,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "不安扩散"
+            },
+            {
+              "day": 2,
+              "incidentText": "自杀"
+            },
+            {
+              "day": 3,
+              "incidentText": "失踪"
+            },
+            {
+              "day": 4,
+              "incidentText": "医院事故"
+            }
+          ],
+          "剧本名": "妒忌之神",
+          "作者": "minimipool",
+          "轮数": "5",
+          "天数": "4"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-41",
+            "snapshot": "sources/wiki/pages/e2b021f2c2c42e28.json",
+            "capturedAt": "2026-09-27T04:04:39.772Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-41",
+            "snapshot": "sources/wiki/pages/e2b021f2c2c42e28.json",
+            "capturedAt": "2026-09-27T04:04:39.772Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-41",
+            "snapshot": "sources/wiki/pages/e2b021f2c2c42e28.json",
+            "capturedAt": "2026-09-27T04:04:39.772Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-41",
+            "snapshot": "sources/wiki/pages/e2b021f2c2c42e28.json",
+            "capturedAt": "2026-09-27T04:04:39.772Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-41",
+            "snapshot": "sources/wiki/pages/e2b021f2c2c42e28.json",
+            "capturedAt": "2026-09-27T04:04:39.772Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 42
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 42
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 42
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 42
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-41",
+            "snapshot": "sources/wiki/pages/e2b021f2c2c42e28.json",
+            "capturedAt": "2026-09-27T04:04:39.772Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 42
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-41",
+              "snapshot": "sources/wiki/pages/e2b021f2c2c42e28.json",
+              "capturedAt": "2026-09-27T04:04:39.772Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "BTX-41",
+              "loops": 5,
+              "days": 4,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "不安扩散"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "自杀"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "失踪"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "医院事故"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 2,
+              "row": 42
+            },
+            "fields": {
+              "scenarioCode": "BTX-41",
+              "剧本名": "妒忌之神",
+              "作者": "minimipool",
+              "轮数": "5",
+              "天数": "4"
+            }
+          }
+        ],
+        "body": "text/scenarios/90cfb49e6aa8c2c7.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-41",
+          "snapshot": "sources/wiki/pages/e2b021f2c2c42e28.json",
+          "capturedAt": "2026-09-27T04:04:39.772Z"
+        },
+        "wikiTitle": "BTX-41",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "BTX-41非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-41%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-41?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Basic Tragedy X"
+        ],
+        "module": "Basic Tragedy X"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "7c1ffad4ebed5604",
+        "title": "BTX-41非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "BTX-41",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "谋杀计划"
+            },
+            {
+              "slot": "X1",
+              "name": "恋爱风景线"
+            },
+            {
+              "slot": "X2",
+              "name": "潜伏的杀人狂"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-41%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/9ddb9e273b476cd8.json",
+            "capturedAt": "2026-09-27T04:04:42.547Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-41%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/9ddb9e273b476cd8.json",
+            "capturedAt": "2026-09-27T04:04:42.547Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-41%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/9ddb9e273b476cd8.json",
+            "capturedAt": "2026-09-27T04:04:42.547Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-41%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/9ddb9e273b476cd8.json",
+            "capturedAt": "2026-09-27T04:04:42.547Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-41%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/9ddb9e273b476cd8.json",
+              "capturedAt": "2026-09-27T04:04:42.547Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "BTX-41",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "谋杀计划"
+                },
+                {
+                  "slot": "X1",
+                  "name": "恋爱风景线"
+                },
+                {
+                  "slot": "X2",
+                  "name": "潜伏的杀人狂"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/7c1ffad4ebed5604.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-41%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/9ddb9e273b476cd8.json",
+          "capturedAt": "2026-09-27T04:04:42.547Z"
+        },
+        "wikiTitle": "BTX-41非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-41%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Basic Tragedy X",
+        "tags": [
+          "民间",
+          "Basic Tragedy X"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "7c1ffad4ebed5604"
+  ],
+  "conflicts": []
+}

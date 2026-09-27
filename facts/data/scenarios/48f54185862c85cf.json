@@ -1,0 +1,508 @@
+{
+  "id": "48f54185862c85cf",
+  "title": "BTX-96",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "BTX-96非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "BTX-96",
+    "loops": 6,
+    "days": 5,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "远距离杀人"
+      },
+      {
+        "day": 2,
+        "incidentText": "不安扩散"
+      },
+      {
+        "day": 3,
+        "incidentText": "失踪"
+      },
+      {
+        "day": 4,
+        "incidentText": "医院事故"
+      },
+      {
+        "day": 5,
+        "incidentText": "蝴蝶效应"
+      }
+    ],
+    "剧本名": "大小姐保护协会（2）",
+    "作者": "影影子",
+    "轮数": "6 4",
+    "天数": "5"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-96",
+      "snapshot": "sources/wiki/pages/8b9b1b6cd935edf6.json",
+      "capturedAt": "2026-09-27T04:22:53.278Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-96",
+      "snapshot": "sources/wiki/pages/8b9b1b6cd935edf6.json",
+      "capturedAt": "2026-09-27T04:22:53.278Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-96",
+      "snapshot": "sources/wiki/pages/8b9b1b6cd935edf6.json",
+      "capturedAt": "2026-09-27T04:22:53.278Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-96",
+      "snapshot": "sources/wiki/pages/8b9b1b6cd935edf6.json",
+      "capturedAt": "2026-09-27T04:22:53.278Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-96",
+      "snapshot": "sources/wiki/pages/8b9b1b6cd935edf6.json",
+      "capturedAt": "2026-09-27T04:22:53.278Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 97
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 97
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 97
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 97
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-96",
+      "snapshot": "sources/wiki/pages/8b9b1b6cd935edf6.json",
+      "capturedAt": "2026-09-27T04:22:53.278Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 97
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-96%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/3083943e1048006f.json",
+      "capturedAt": "2026-09-27T04:22:56.389Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-96",
+        "snapshot": "sources/wiki/pages/8b9b1b6cd935edf6.json",
+        "capturedAt": "2026-09-27T04:22:53.278Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "BTX-96",
+        "loops": 6,
+        "days": 5,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "远距离杀人"
+          },
+          {
+            "day": 2,
+            "incidentText": "不安扩散"
+          },
+          {
+            "day": 3,
+            "incidentText": "失踪"
+          },
+          {
+            "day": 4,
+            "incidentText": "医院事故"
+          },
+          {
+            "day": 5,
+            "incidentText": "蝴蝶效应"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 2,
+        "row": 97
+      },
+      "fields": {
+        "scenarioCode": "BTX-96",
+        "剧本名": "大小姐保护协会（2）",
+        "作者": "影影子",
+        "轮数": "6 4",
+        "天数": "5"
+      }
+    }
+  ],
+  "wikiTitle": "BTX-96",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Basic Tragedy X"
+  ],
+  "module": "Basic Tragedy X",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "48f54185862c85cf",
+        "title": "BTX-96",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "BTX-96",
+          "loops": 6,
+          "days": 5,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "远距离杀人"
+            },
+            {
+              "day": 2,
+              "incidentText": "不安扩散"
+            },
+            {
+              "day": 3,
+              "incidentText": "失踪"
+            },
+            {
+              "day": 4,
+              "incidentText": "医院事故"
+            },
+            {
+              "day": 5,
+              "incidentText": "蝴蝶效应"
+            }
+          ],
+          "剧本名": "大小姐保护协会（2）",
+          "作者": "影影子",
+          "轮数": "6 4",
+          "天数": "5"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-96",
+            "snapshot": "sources/wiki/pages/8b9b1b6cd935edf6.json",
+            "capturedAt": "2026-09-27T04:22:53.278Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-96",
+            "snapshot": "sources/wiki/pages/8b9b1b6cd935edf6.json",
+            "capturedAt": "2026-09-27T04:22:53.278Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-96",
+            "snapshot": "sources/wiki/pages/8b9b1b6cd935edf6.json",
+            "capturedAt": "2026-09-27T04:22:53.278Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-96",
+            "snapshot": "sources/wiki/pages/8b9b1b6cd935edf6.json",
+            "capturedAt": "2026-09-27T04:22:53.278Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-96",
+            "snapshot": "sources/wiki/pages/8b9b1b6cd935edf6.json",
+            "capturedAt": "2026-09-27T04:22:53.278Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 97
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 97
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 97
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 97
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-96",
+            "snapshot": "sources/wiki/pages/8b9b1b6cd935edf6.json",
+            "capturedAt": "2026-09-27T04:22:53.278Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 97
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-96",
+              "snapshot": "sources/wiki/pages/8b9b1b6cd935edf6.json",
+              "capturedAt": "2026-09-27T04:22:53.278Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "BTX-96",
+              "loops": 6,
+              "days": 5,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "远距离杀人"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "不安扩散"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "失踪"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "医院事故"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "蝴蝶效应"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 2,
+              "row": 97
+            },
+            "fields": {
+              "scenarioCode": "BTX-96",
+              "剧本名": "大小姐保护协会（2）",
+              "作者": "影影子",
+              "轮数": "6 4",
+              "天数": "5"
+            }
+          }
+        ],
+        "body": "text/scenarios/48f54185862c85cf.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-96",
+          "snapshot": "sources/wiki/pages/8b9b1b6cd935edf6.json",
+          "capturedAt": "2026-09-27T04:22:53.278Z"
+        },
+        "wikiTitle": "BTX-96",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-96?action=edit&section=1"
+          },
+          {
+            "title": "BTX-96非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-96%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-96?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Basic Tragedy X"
+        ],
+        "module": "Basic Tragedy X"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "ee9506abadb458b4",
+        "title": "BTX-96非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "BTX-96",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "改变未来"
+            },
+            {
+              "slot": "X1",
+              "name": "潜伏的杀人狂"
+            },
+            {
+              "slot": "X2",
+              "name": "恋爱风景线"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-96%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/3083943e1048006f.json",
+            "capturedAt": "2026-09-27T04:22:56.389Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-96%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/3083943e1048006f.json",
+            "capturedAt": "2026-09-27T04:22:56.389Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-96%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/3083943e1048006f.json",
+            "capturedAt": "2026-09-27T04:22:56.389Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-96%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/3083943e1048006f.json",
+            "capturedAt": "2026-09-27T04:22:56.389Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-96%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/3083943e1048006f.json",
+              "capturedAt": "2026-09-27T04:22:56.389Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "BTX-96",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "改变未来"
+                },
+                {
+                  "slot": "X1",
+                  "name": "潜伏的杀人狂"
+                },
+                {
+                  "slot": "X2",
+                  "name": "恋爱风景线"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/ee9506abadb458b4.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-96%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/3083943e1048006f.json",
+          "capturedAt": "2026-09-27T04:22:56.389Z"
+        },
+        "wikiTitle": "BTX-96非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-96%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Basic Tragedy X",
+        "tags": [
+          "民间",
+          "Basic Tragedy X"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "ee9506abadb458b4"
+  ],
+  "conflicts": []
+}

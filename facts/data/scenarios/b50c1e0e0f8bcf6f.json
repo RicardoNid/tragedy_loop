@@ -1,0 +1,558 @@
+{
+  "id": "b50c1e0e0f8bcf6f",
+  "title": "MC-51",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "MC-51非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "MC-51",
+    "loops": 4,
+    "days": 6,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "大小姐"
+      },
+      {
+        "day": 2,
+        "incidentText": "班长"
+      },
+      {
+        "day": 3,
+        "incidentText": "手下"
+      },
+      {
+        "day": 4,
+        "incidentText": "巫女"
+      },
+      {
+        "day": 5,
+        "incidentText": "前兆"
+      },
+      {
+        "day": 6,
+        "incidentText": "情报商"
+      }
+    ],
+    "剧本名": "轰鸣的伟大存在",
+    "英文名": "Vroom Vroom Greatness",
+    "作者": "Justin Karp",
+    "轮数": "4",
+    "天数": "6"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-51",
+      "snapshot": "sources/wiki/pages/72772d8b5082bbec.json",
+      "capturedAt": "2026-09-27T04:40:34.831Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-51",
+      "snapshot": "sources/wiki/pages/72772d8b5082bbec.json",
+      "capturedAt": "2026-09-27T04:40:34.831Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-51",
+      "snapshot": "sources/wiki/pages/72772d8b5082bbec.json",
+      "capturedAt": "2026-09-27T04:40:34.831Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-51",
+      "snapshot": "sources/wiki/pages/72772d8b5082bbec.json",
+      "capturedAt": "2026-09-27T04:40:34.831Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-51",
+      "snapshot": "sources/wiki/pages/72772d8b5082bbec.json",
+      "capturedAt": "2026-09-27T04:40:34.831Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 53
+    },
+    "英文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 53
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 53
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 53
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 53
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-51",
+      "snapshot": "sources/wiki/pages/72772d8b5082bbec.json",
+      "capturedAt": "2026-09-27T04:40:34.831Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 53
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-51%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/79909c362c4ee086.json",
+      "capturedAt": "2026-09-27T04:40:38.221Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-51",
+        "snapshot": "sources/wiki/pages/72772d8b5082bbec.json",
+        "capturedAt": "2026-09-27T04:40:34.831Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "MC-51",
+        "loops": 4,
+        "days": 6,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "大小姐"
+          },
+          {
+            "day": 2,
+            "incidentText": "班长"
+          },
+          {
+            "day": 3,
+            "incidentText": "手下"
+          },
+          {
+            "day": 4,
+            "incidentText": "巫女"
+          },
+          {
+            "day": 5,
+            "incidentText": "前兆"
+          },
+          {
+            "day": 6,
+            "incidentText": "情报商"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 4,
+        "row": 53
+      },
+      "fields": {
+        "scenarioCode": "MC-51",
+        "剧本名": "轰鸣的伟大存在",
+        "英文名": "Vroom Vroom Greatness",
+        "作者": "Justin Karp",
+        "轮数": "4",
+        "天数": "6"
+      }
+    }
+  ],
+  "wikiTitle": "MC-51",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Mystery Circle"
+  ],
+  "module": "Mystery Circle",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "b50c1e0e0f8bcf6f",
+        "title": "MC-51",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "MC-51",
+          "loops": 4,
+          "days": 6,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "大小姐"
+            },
+            {
+              "day": 2,
+              "incidentText": "班长"
+            },
+            {
+              "day": 3,
+              "incidentText": "手下"
+            },
+            {
+              "day": 4,
+              "incidentText": "巫女"
+            },
+            {
+              "day": 5,
+              "incidentText": "前兆"
+            },
+            {
+              "day": 6,
+              "incidentText": "情报商"
+            }
+          ],
+          "剧本名": "轰鸣的伟大存在",
+          "英文名": "Vroom Vroom Greatness",
+          "作者": "Justin Karp",
+          "轮数": "4",
+          "天数": "6"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-51",
+            "snapshot": "sources/wiki/pages/72772d8b5082bbec.json",
+            "capturedAt": "2026-09-27T04:40:34.831Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-51",
+            "snapshot": "sources/wiki/pages/72772d8b5082bbec.json",
+            "capturedAt": "2026-09-27T04:40:34.831Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-51",
+            "snapshot": "sources/wiki/pages/72772d8b5082bbec.json",
+            "capturedAt": "2026-09-27T04:40:34.831Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-51",
+            "snapshot": "sources/wiki/pages/72772d8b5082bbec.json",
+            "capturedAt": "2026-09-27T04:40:34.831Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-51",
+            "snapshot": "sources/wiki/pages/72772d8b5082bbec.json",
+            "capturedAt": "2026-09-27T04:40:34.831Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 53
+          },
+          "英文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 53
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 53
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 53
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 53
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-51",
+            "snapshot": "sources/wiki/pages/72772d8b5082bbec.json",
+            "capturedAt": "2026-09-27T04:40:34.831Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 53
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-51",
+              "snapshot": "sources/wiki/pages/72772d8b5082bbec.json",
+              "capturedAt": "2026-09-27T04:40:34.831Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "MC-51",
+              "loops": 4,
+              "days": 6,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "大小姐"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "班长"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "手下"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "巫女"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "前兆"
+                },
+                {
+                  "day": 6,
+                  "incidentText": "情报商"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 4,
+              "row": 53
+            },
+            "fields": {
+              "scenarioCode": "MC-51",
+              "剧本名": "轰鸣的伟大存在",
+              "英文名": "Vroom Vroom Greatness",
+              "作者": "Justin Karp",
+              "轮数": "4",
+              "天数": "6"
+            }
+          }
+        ],
+        "body": "text/scenarios/b50c1e0e0f8bcf6f.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-51",
+          "snapshot": "sources/wiki/pages/72772d8b5082bbec.json",
+          "capturedAt": "2026-09-27T04:40:34.831Z"
+        },
+        "wikiTitle": "MC-51",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-51?action=edit&section=1"
+          },
+          {
+            "title": "MC-51非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-51%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-51?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Mystery Circle"
+        ],
+        "module": "Mystery Circle"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "42249f256b13c95a",
+        "title": "MC-51非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "MC-51",
+          "loops": 4,
+          "days": 6,
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "事件交织的罗网"
+            },
+            {
+              "slot": "X1",
+              "name": "火药的味道"
+            },
+            {
+              "slot": "X2",
+              "name": "隔离病房惊魂记"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-51%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/79909c362c4ee086.json",
+            "capturedAt": "2026-09-27T04:40:38.221Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-51%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/79909c362c4ee086.json",
+            "capturedAt": "2026-09-27T04:40:38.221Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-51%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/79909c362c4ee086.json",
+            "capturedAt": "2026-09-27T04:40:38.221Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-51%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/79909c362c4ee086.json",
+            "capturedAt": "2026-09-27T04:40:38.221Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-51%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/79909c362c4ee086.json",
+            "capturedAt": "2026-09-27T04:40:38.221Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-51%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/79909c362c4ee086.json",
+            "capturedAt": "2026-09-27T04:40:38.221Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-51%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/79909c362c4ee086.json",
+              "capturedAt": "2026-09-27T04:40:38.221Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "MC-51",
+              "loops": 4,
+              "days": 6,
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "事件交织的罗网"
+                },
+                {
+                  "slot": "X1",
+                  "name": "火药的味道"
+                },
+                {
+                  "slot": "X2",
+                  "name": "隔离病房惊魂记"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/42249f256b13c95a.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-51%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/79909c362c4ee086.json",
+          "capturedAt": "2026-09-27T04:40:38.221Z"
+        },
+        "wikiTitle": "MC-51非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-51%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Mystery Circle",
+        "tags": [
+          "民间",
+          "Mystery Circle"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "42249f256b13c95a"
+  ],
+  "conflicts": []
+}

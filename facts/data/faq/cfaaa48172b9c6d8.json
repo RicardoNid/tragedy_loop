@@ -1,0 +1,67 @@
+{
+  "id": "cfaaa48172b9c6d8",
+  "title": "友好能力能无限发动吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 基础规则 / 第 53 行",
+  "aliases": [],
+  "fields": {
+    "question": "友好能力能无限发动吗？",
+    "answer": "如果没有每轮限1次，每个友好能力可以在主人公能力阶段发动1次"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+      "snapshot": "sources/faq-sheet/basic.json",
+      "sheet": "基础规则",
+      "row": 53,
+      "cells": "A53:B53",
+      "capturedAt": "2026-09-27T05:40:57.223Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+      "snapshot": "sources/faq-sheet/basic.json",
+      "sheet": "基础规则",
+      "row": 53,
+      "cells": "A53:B53",
+      "capturedAt": "2026-09-27T05:40:57.223Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+      "snapshot": "sources/faq-sheet/basic.json",
+      "sheet": "基础规则",
+      "row": 53,
+      "cells": "A53:B53",
+      "capturedAt": "2026-09-27T05:40:57.223Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+        "snapshot": "sources/faq-sheet/basic.json",
+        "sheet": "基础规则",
+        "row": 53,
+        "cells": "A53:B53",
+        "capturedAt": "2026-09-27T05:40:57.223Z"
+      },
+      "fields": {
+        "question": "友好能力能无限发动吗？",
+        "answer": "如果没有每轮限1次，每个友好能力可以在主人公能力阶段发动1次"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "基础规则",
+    "主人公能力",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

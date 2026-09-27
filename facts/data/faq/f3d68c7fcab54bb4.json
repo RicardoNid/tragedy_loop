@@ -1,0 +1,67 @@
+{
+  "id": "f3d68c7fcab54bb4",
+  "title": "剧作家发动医生的能力之后，主人公在同一天还能发动医生的能力吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 基础规则 / 第 39 行",
+  "aliases": [],
+  "fields": {
+    "question": "剧作家发动医生的能力之后，主人公在同一天还能发动医生的能力吗？",
+    "answer": "能"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+      "snapshot": "sources/faq-sheet/basic.json",
+      "sheet": "基础规则",
+      "row": 39,
+      "cells": "A39:B39",
+      "capturedAt": "2026-09-27T05:40:57.223Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+      "snapshot": "sources/faq-sheet/basic.json",
+      "sheet": "基础规则",
+      "row": 39,
+      "cells": "A39:B39",
+      "capturedAt": "2026-09-27T05:40:57.223Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+      "snapshot": "sources/faq-sheet/basic.json",
+      "sheet": "基础规则",
+      "row": 39,
+      "cells": "A39:B39",
+      "capturedAt": "2026-09-27T05:40:57.223Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+        "snapshot": "sources/faq-sheet/basic.json",
+        "sheet": "基础规则",
+        "row": 39,
+        "cells": "A39:B39",
+        "capturedAt": "2026-09-27T05:40:57.223Z"
+      },
+      "fields": {
+        "question": "剧作家发动医生的能力之后，主人公在同一天还能发动医生的能力吗？",
+        "answer": "能"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "基础规则",
+    "剧作家能力",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

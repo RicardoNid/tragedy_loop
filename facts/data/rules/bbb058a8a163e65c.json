@@ -1,0 +1,68 @@
+{
+  "id": "bbb058a8a163e65c",
+  "title": "雇凶杀人",
+  "kind": "rules",
+  "scope": "Supernatural Tragedy",
+  "aliases": [],
+  "fields": {
+    "ruleType": "X",
+    "identityCounts": {
+      "职业杀手": "①",
+      "关键人物": "①"
+    },
+    "effect": ""
+  },
+  "provenance": {
+    "ruleType": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Supernatural_Tragedy",
+      "snapshot": "sources/wiki/pages/34e1e734e8da4777.json",
+      "capturedAt": "2026-09-27T03:30:06.385Z"
+    },
+    "identityCounts": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Supernatural_Tragedy",
+      "snapshot": "sources/wiki/pages/34e1e734e8da4777.json",
+      "capturedAt": "2026-09-27T03:30:06.385Z"
+    },
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Supernatural_Tragedy",
+      "snapshot": "sources/wiki/pages/34e1e734e8da4777.json",
+      "capturedAt": "2026-09-27T03:30:06.385Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Supernatural_Tragedy",
+      "snapshot": "sources/wiki/pages/34e1e734e8da4777.json",
+      "capturedAt": "2026-09-27T03:30:06.385Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Supernatural_Tragedy",
+        "snapshot": "sources/wiki/pages/34e1e734e8da4777.json",
+        "capturedAt": "2026-09-27T03:30:06.385Z"
+      },
+      "fields": {
+        "ruleType": "X",
+        "identityCounts": {
+          "职业杀手": "①",
+          "关键人物": "①"
+        },
+        "effect": ""
+      }
+    }
+  ],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "X",
+    "民间"
+  ],
+  "conflicts": []
+}

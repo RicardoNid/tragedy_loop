@@ -1,0 +1,65 @@
+{
+  "id": "172304a1a07c9c81",
+  "title": "主谋",
+  "kind": "identities",
+  "scope": "Basic Tragedy",
+  "aliases": [],
+  "fields": {
+    "max": "",
+    "traits": "无视友好",
+    "abilities": [
+      "【任意能力：剧作家能力阶段】往同一区域任意一名角色身上，或该角色所在的版图上放置1枚[密谋]"
+    ]
+  },
+  "provenance": {
+    "max": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy",
+      "snapshot": "sources/wiki/pages/c5967c2abd41a1b6.json",
+      "capturedAt": "2026-09-27T03:28:26.906Z"
+    },
+    "traits": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy",
+      "snapshot": "sources/wiki/pages/c5967c2abd41a1b6.json",
+      "capturedAt": "2026-09-27T03:28:26.906Z"
+    },
+    "abilities": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy",
+      "snapshot": "sources/wiki/pages/c5967c2abd41a1b6.json",
+      "capturedAt": "2026-09-27T03:28:26.906Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy",
+      "snapshot": "sources/wiki/pages/c5967c2abd41a1b6.json",
+      "capturedAt": "2026-09-27T03:28:26.906Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy",
+        "snapshot": "sources/wiki/pages/c5967c2abd41a1b6.json",
+        "capturedAt": "2026-09-27T03:28:26.906Z"
+      },
+      "fields": {
+        "max": "",
+        "traits": "无视友好",
+        "abilities": [
+          "【任意能力：剧作家能力阶段】往同一区域任意一名角色身上，或该角色所在的版图上放置1枚[密谋]"
+        ]
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "官方"
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,494 @@
+{
+  "id": "57c5bb7142eb873f",
+  "title": "AHR-09",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "AHR-09非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "AHR-09",
+    "loops": 4,
+    "days": 5,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "次元转换"
+      },
+      {
+        "day": 2,
+        "incidentText": "冲动杀人"
+      },
+      {
+        "day": 3,
+        "incidentText": "绝望之暗"
+      },
+      {
+        "day": 4,
+        "incidentText": "遗失物"
+      },
+      {
+        "day": 5,
+        "incidentText": "冲动杀人"
+      }
+    ],
+    "剧本名": "没有感情，全是绝望",
+    "日文名": "感情は信じられない。でも絶望は信じられる。",
+    "作者": "ぶー太郎",
+    "轮数": "4",
+    "天数": "5",
+    "难度": "6"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-09",
+      "snapshot": "sources/wiki/pages/31fe2ffb4b91a670.json",
+      "capturedAt": "2026-09-27T03:40:56.980Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-09",
+      "snapshot": "sources/wiki/pages/31fe2ffb4b91a670.json",
+      "capturedAt": "2026-09-27T03:40:56.980Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-09",
+      "snapshot": "sources/wiki/pages/31fe2ffb4b91a670.json",
+      "capturedAt": "2026-09-27T03:40:56.980Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-09",
+      "snapshot": "sources/wiki/pages/31fe2ffb4b91a670.json",
+      "capturedAt": "2026-09-27T03:40:56.980Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-09",
+      "snapshot": "sources/wiki/pages/31fe2ffb4b91a670.json",
+      "capturedAt": "2026-09-27T03:40:56.980Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 10
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 10
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 10
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 10
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 10
+    },
+    "难度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 10
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-09",
+      "snapshot": "sources/wiki/pages/31fe2ffb4b91a670.json",
+      "capturedAt": "2026-09-27T03:40:56.980Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 10
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-09%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/7488df47b5be099d.json",
+      "capturedAt": "2026-09-27T03:40:59.852Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-09",
+        "snapshot": "sources/wiki/pages/31fe2ffb4b91a670.json",
+        "capturedAt": "2026-09-27T03:40:56.980Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "AHR-09",
+        "loops": 4,
+        "days": 5,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "次元转换"
+          },
+          {
+            "day": 2,
+            "incidentText": "冲动杀人"
+          },
+          {
+            "day": 3,
+            "incidentText": "绝望之暗"
+          },
+          {
+            "day": 4,
+            "incidentText": "遗失物"
+          },
+          {
+            "day": 5,
+            "incidentText": "冲动杀人"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 7,
+        "row": 10
+      },
+      "fields": {
+        "scenarioCode": "AHR-09",
+        "剧本名": "没有感情，全是绝望",
+        "日文名": "感情は信じられない。でも絶望は信じられる。",
+        "作者": "ぶー太郎",
+        "轮数": "4",
+        "天数": "5",
+        "难度": "6"
+      }
+    }
+  ],
+  "wikiTitle": "AHR-09",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Another Horizon Revised"
+  ],
+  "module": "Another Horizon Revised",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "57c5bb7142eb873f",
+        "title": "AHR-09",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "AHR-09",
+          "loops": 4,
+          "days": 5,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "次元转换"
+            },
+            {
+              "day": 2,
+              "incidentText": "冲动杀人"
+            },
+            {
+              "day": 3,
+              "incidentText": "绝望之暗"
+            },
+            {
+              "day": 4,
+              "incidentText": "遗失物"
+            },
+            {
+              "day": 5,
+              "incidentText": "冲动杀人"
+            }
+          ],
+          "剧本名": "没有感情，全是绝望",
+          "日文名": "感情は信じられない。でも絶望は信じられる。",
+          "作者": "ぶー太郎",
+          "轮数": "4",
+          "天数": "5",
+          "难度": "6"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-09",
+            "snapshot": "sources/wiki/pages/31fe2ffb4b91a670.json",
+            "capturedAt": "2026-09-27T03:40:56.980Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-09",
+            "snapshot": "sources/wiki/pages/31fe2ffb4b91a670.json",
+            "capturedAt": "2026-09-27T03:40:56.980Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-09",
+            "snapshot": "sources/wiki/pages/31fe2ffb4b91a670.json",
+            "capturedAt": "2026-09-27T03:40:56.980Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-09",
+            "snapshot": "sources/wiki/pages/31fe2ffb4b91a670.json",
+            "capturedAt": "2026-09-27T03:40:56.980Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-09",
+            "snapshot": "sources/wiki/pages/31fe2ffb4b91a670.json",
+            "capturedAt": "2026-09-27T03:40:56.980Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 10
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 10
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 10
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 10
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 10
+          },
+          "难度": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 10
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-09",
+            "snapshot": "sources/wiki/pages/31fe2ffb4b91a670.json",
+            "capturedAt": "2026-09-27T03:40:56.980Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 10
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-09",
+              "snapshot": "sources/wiki/pages/31fe2ffb4b91a670.json",
+              "capturedAt": "2026-09-27T03:40:56.980Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "AHR-09",
+              "loops": 4,
+              "days": 5,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "次元转换"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "冲动杀人"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "绝望之暗"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "遗失物"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "冲动杀人"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 7,
+              "row": 10
+            },
+            "fields": {
+              "scenarioCode": "AHR-09",
+              "剧本名": "没有感情，全是绝望",
+              "日文名": "感情は信じられない。でも絶望は信じられる。",
+              "作者": "ぶー太郎",
+              "轮数": "4",
+              "天数": "5",
+              "难度": "6"
+            }
+          }
+        ],
+        "body": "text/scenarios/57c5bb7142eb873f.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-09",
+          "snapshot": "sources/wiki/pages/31fe2ffb4b91a670.json",
+          "capturedAt": "2026-09-27T03:40:56.980Z"
+        },
+        "wikiTitle": "AHR-09",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "AHR-09非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-09%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-09?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Another Horizon Revised"
+        ],
+        "module": "Another Horizon Revised"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "5d9207d1f6ee485d",
+        "title": "AHR-09非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "AHR-09"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-09%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/7488df47b5be099d.json",
+            "capturedAt": "2026-09-27T03:40:59.852Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-09%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/7488df47b5be099d.json",
+            "capturedAt": "2026-09-27T03:40:59.852Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-09%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/7488df47b5be099d.json",
+            "capturedAt": "2026-09-27T03:40:59.852Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-09%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/7488df47b5be099d.json",
+              "capturedAt": "2026-09-27T03:40:59.852Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "AHR-09"
+            }
+          }
+        ],
+        "wikiTitle": "AHR-09非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Another Horizon Revised",
+        "tags": [
+          "民间",
+          "Another Horizon Revised"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "5d9207d1f6ee485d"
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,536 @@
+{
+  "id": "721530103bc29b73",
+  "title": "MZ-06",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "MZ-06非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "MZ-06",
+    "loops": 4,
+    "days": 4,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "自白"
+      },
+      {
+        "day": 3,
+        "incidentText": "自杀"
+      },
+      {
+        "day": 4,
+        "incidentText": "医院事故"
+      }
+    ],
+    "剧本名": "第一次入职",
+    "日文名": "はじめてのよげんしゃ",
+    "作者": "KM(キャクホンカミナライ)",
+    "轮数": "4",
+    "天数": "4",
+    "难度": "4"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-06",
+      "snapshot": "sources/wiki/pages/ef4fa56f0d20ea8e.json",
+      "capturedAt": "2026-09-27T04:42:53.703Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-06",
+      "snapshot": "sources/wiki/pages/ef4fa56f0d20ea8e.json",
+      "capturedAt": "2026-09-27T04:42:53.703Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-06",
+      "snapshot": "sources/wiki/pages/ef4fa56f0d20ea8e.json",
+      "capturedAt": "2026-09-27T04:42:53.703Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-06",
+      "snapshot": "sources/wiki/pages/ef4fa56f0d20ea8e.json",
+      "capturedAt": "2026-09-27T04:42:53.703Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-06",
+      "snapshot": "sources/wiki/pages/ef4fa56f0d20ea8e.json",
+      "capturedAt": "2026-09-27T04:42:53.703Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 7
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 7
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 7
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 7
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 7
+    },
+    "难度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 7
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-06",
+      "snapshot": "sources/wiki/pages/ef4fa56f0d20ea8e.json",
+      "capturedAt": "2026-09-27T04:42:53.703Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 7
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/384572096a88704e.json",
+      "capturedAt": "2026-09-27T04:43:22.861Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-06",
+        "snapshot": "sources/wiki/pages/ef4fa56f0d20ea8e.json",
+        "capturedAt": "2026-09-27T04:42:53.703Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "MZ-06",
+        "loops": 4,
+        "days": 4,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "自白"
+          },
+          {
+            "day": 3,
+            "incidentText": "自杀"
+          },
+          {
+            "day": 4,
+            "incidentText": "医院事故"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 3,
+        "row": 7
+      },
+      "fields": {
+        "scenarioCode": "MZ-06",
+        "剧本名": "第一次入职",
+        "日文名": "はじめてのよげんしゃ",
+        "作者": "KM(キャクホンカミナライ)",
+        "轮数": "4",
+        "天数": "4",
+        "难度": "4"
+      }
+    }
+  ],
+  "wikiTitle": "MZ-06",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Midnight Zone"
+  ],
+  "module": "Midnight Zone",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "721530103bc29b73",
+        "title": "MZ-06",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "MZ-06",
+          "loops": 4,
+          "days": 4,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "自白"
+            },
+            {
+              "day": 3,
+              "incidentText": "自杀"
+            },
+            {
+              "day": 4,
+              "incidentText": "医院事故"
+            }
+          ],
+          "剧本名": "第一次入职",
+          "日文名": "はじめてのよげんしゃ",
+          "作者": "KM(キャクホンカミナライ)",
+          "轮数": "4",
+          "天数": "4",
+          "难度": "4"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-06",
+            "snapshot": "sources/wiki/pages/ef4fa56f0d20ea8e.json",
+            "capturedAt": "2026-09-27T04:42:53.703Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-06",
+            "snapshot": "sources/wiki/pages/ef4fa56f0d20ea8e.json",
+            "capturedAt": "2026-09-27T04:42:53.703Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-06",
+            "snapshot": "sources/wiki/pages/ef4fa56f0d20ea8e.json",
+            "capturedAt": "2026-09-27T04:42:53.703Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-06",
+            "snapshot": "sources/wiki/pages/ef4fa56f0d20ea8e.json",
+            "capturedAt": "2026-09-27T04:42:53.703Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-06",
+            "snapshot": "sources/wiki/pages/ef4fa56f0d20ea8e.json",
+            "capturedAt": "2026-09-27T04:42:53.703Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 7
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 7
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 7
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 7
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 7
+          },
+          "难度": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 7
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-06",
+            "snapshot": "sources/wiki/pages/ef4fa56f0d20ea8e.json",
+            "capturedAt": "2026-09-27T04:42:53.703Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 7
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-06",
+              "snapshot": "sources/wiki/pages/ef4fa56f0d20ea8e.json",
+              "capturedAt": "2026-09-27T04:42:53.703Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "MZ-06",
+              "loops": 4,
+              "days": 4,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "自白"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "自杀"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "医院事故"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 3,
+              "row": 7
+            },
+            "fields": {
+              "scenarioCode": "MZ-06",
+              "剧本名": "第一次入职",
+              "日文名": "はじめてのよげんしゃ",
+              "作者": "KM(キャクホンカミナライ)",
+              "轮数": "4",
+              "天数": "4",
+              "难度": "4"
+            }
+          }
+        ],
+        "body": "text/scenarios/721530103bc29b73.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-06",
+          "snapshot": "sources/wiki/pages/ef4fa56f0d20ea8e.json",
+          "capturedAt": "2026-09-27T04:42:53.703Z"
+        },
+        "wikiTitle": "MZ-06",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "MZ-06非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-06?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Midnight Zone"
+        ],
+        "module": "Midnight Zone"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "2f2570f60cce3faa",
+        "title": "MZ-06非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "MZ-06",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "魔爪渐进"
+            },
+            {
+              "slot": "X1",
+              "name": "灭亡讴歌"
+            },
+            {
+              "slot": "X2",
+              "name": "心无灵犀"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/384572096a88704e.json",
+            "capturedAt": "2026-09-27T04:43:22.861Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/384572096a88704e.json",
+            "capturedAt": "2026-09-27T04:43:22.861Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/384572096a88704e.json",
+            "capturedAt": "2026-09-27T04:43:22.861Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/384572096a88704e.json",
+            "capturedAt": "2026-09-27T04:43:22.861Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/384572096a88704e.json",
+              "capturedAt": "2026-09-27T04:43:22.861Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "MZ-06",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "魔爪渐进"
+                },
+                {
+                  "slot": "X1",
+                  "name": "灭亡讴歌"
+                },
+                {
+                  "slot": "X2",
+                  "name": "心无灵犀"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/2f2570f60cce3faa.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/384572096a88704e.json",
+          "capturedAt": "2026-09-27T04:43:22.861Z"
+        },
+        "wikiTitle": "MZ-06非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "1 第一次入职 作者： KM(キャクホンカミナライ)",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%85%A5%E8%81%8C_%E4%BD%9C%E8%80%85%EF%BC%9A_KM(%E3%82%AD%E3%83%A3%E3%82%AF%E3%83%9B%E3%83%B3%E3%82%AB%E3%83%9F%E3%83%8A%E3%83%A9%E3%82%A4)"
+          },
+          {
+            "title": "1.1 剧本特征",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E5%89%A7%E6%9C%AC%E7%89%B9%E5%BE%81"
+          },
+          {
+            "title": "1.2 故事",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E6%95%85%E4%BA%8B"
+          },
+          {
+            "title": "1.3 剧作家指南",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E5%89%A7%E4%BD%9C%E5%AE%B6%E6%8C%87%E5%8D%97"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=3"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=4"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Midnight Zone",
+        "tags": [
+          "民间",
+          "Midnight Zone"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "2f2570f60cce3faa"
+  ],
+  "conflicts": []
+}

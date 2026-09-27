@@ -1,0 +1,67 @@
+{
+  "id": "43f8031ba998ccc7",
+  "title": "黑手",
+  "kind": "identities",
+  "scope": "Sin City",
+  "aliases": [],
+  "fields": {
+    "max": "",
+    "traits": "累犯\n\n无视友好",
+    "abilities": [
+      "【任意能力：常驻】该角色将被移动至远方或从远方移出时，可以无效那个移动（每轮限1次）",
+      "【强制：担任当事人的事件完成结算后】如果该事件指定了对象，则被指定为对象的角色死亡，如果该角色已经触发了3个或以上事件，主人公死亡"
+    ]
+  },
+  "provenance": {
+    "max": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Sin_City",
+      "snapshot": "sources/wiki/pages/59c6099598cb6333.json",
+      "capturedAt": "2026-09-27T03:30:03.250Z"
+    },
+    "traits": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Sin_City",
+      "snapshot": "sources/wiki/pages/59c6099598cb6333.json",
+      "capturedAt": "2026-09-27T03:30:03.250Z"
+    },
+    "abilities": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Sin_City",
+      "snapshot": "sources/wiki/pages/59c6099598cb6333.json",
+      "capturedAt": "2026-09-27T03:30:03.250Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Sin_City",
+      "snapshot": "sources/wiki/pages/59c6099598cb6333.json",
+      "capturedAt": "2026-09-27T03:30:03.250Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Sin_City",
+        "snapshot": "sources/wiki/pages/59c6099598cb6333.json",
+        "capturedAt": "2026-09-27T03:30:03.250Z"
+      },
+      "fields": {
+        "max": "",
+        "traits": "累犯\n\n无视友好",
+        "abilities": [
+          "【任意能力：常驻】该角色将被移动至远方或从远方移出时，可以无效那个移动（每轮限1次）",
+          "【强制：担任当事人的事件完成结算后】如果该事件指定了对象，则被指定为对象的角色死亡，如果该角色已经触发了3个或以上事件，主人公死亡"
+        ]
+      }
+    }
+  ],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "民间"
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,506 @@
+{
+  "id": "8afe17cbae4a5b53",
+  "title": "FS-13",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "FS-13非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "FS-13",
+    "loops": 5,
+    "days": 5,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "失踪"
+      },
+      {
+        "day": 2,
+        "incidentText": "医院事故"
+      },
+      {
+        "day": 4,
+        "incidentText": "谋杀"
+      },
+      {
+        "day": 5,
+        "incidentText": "自杀"
+      }
+    ],
+    "剧本名": "再见了，兄弟",
+    "英文名": "Goodbye, My Brother",
+    "作者": "Res_kun",
+    "轮数": "5 4",
+    "天数": "5"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-13",
+      "snapshot": "sources/wiki/pages/3d6bee9c0975c5d9.json",
+      "capturedAt": "2026-09-27T04:25:01.222Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-13",
+      "snapshot": "sources/wiki/pages/3d6bee9c0975c5d9.json",
+      "capturedAt": "2026-09-27T04:25:01.222Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-13",
+      "snapshot": "sources/wiki/pages/3d6bee9c0975c5d9.json",
+      "capturedAt": "2026-09-27T04:25:01.222Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-13",
+      "snapshot": "sources/wiki/pages/3d6bee9c0975c5d9.json",
+      "capturedAt": "2026-09-27T04:25:01.222Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-13",
+      "snapshot": "sources/wiki/pages/3d6bee9c0975c5d9.json",
+      "capturedAt": "2026-09-27T04:25:01.222Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 14
+    },
+    "英文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 14
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 14
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 14
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 14
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-13",
+      "snapshot": "sources/wiki/pages/3d6bee9c0975c5d9.json",
+      "capturedAt": "2026-09-27T04:25:01.222Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 14
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/180278c049b17683.json",
+      "capturedAt": "2026-09-27T04:25:04.239Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-13",
+        "snapshot": "sources/wiki/pages/3d6bee9c0975c5d9.json",
+        "capturedAt": "2026-09-27T04:25:01.222Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "FS-13",
+        "loops": 5,
+        "days": 5,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "失踪"
+          },
+          {
+            "day": 2,
+            "incidentText": "医院事故"
+          },
+          {
+            "day": 4,
+            "incidentText": "谋杀"
+          },
+          {
+            "day": 5,
+            "incidentText": "自杀"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 1,
+        "row": 14
+      },
+      "fields": {
+        "scenarioCode": "FS-13",
+        "剧本名": "再见了，兄弟",
+        "英文名": "Goodbye, My Brother",
+        "作者": "Res_kun",
+        "轮数": "5 4",
+        "天数": "5"
+      }
+    }
+  ],
+  "wikiTitle": "FS-13",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "First Steps"
+  ],
+  "module": "First Steps",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "8afe17cbae4a5b53",
+        "title": "FS-13",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "FS-13",
+          "loops": 5,
+          "days": 5,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "失踪"
+            },
+            {
+              "day": 2,
+              "incidentText": "医院事故"
+            },
+            {
+              "day": 4,
+              "incidentText": "谋杀"
+            },
+            {
+              "day": 5,
+              "incidentText": "自杀"
+            }
+          ],
+          "剧本名": "再见了，兄弟",
+          "英文名": "Goodbye, My Brother",
+          "作者": "Res_kun",
+          "轮数": "5 4",
+          "天数": "5"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-13",
+            "snapshot": "sources/wiki/pages/3d6bee9c0975c5d9.json",
+            "capturedAt": "2026-09-27T04:25:01.222Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-13",
+            "snapshot": "sources/wiki/pages/3d6bee9c0975c5d9.json",
+            "capturedAt": "2026-09-27T04:25:01.222Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-13",
+            "snapshot": "sources/wiki/pages/3d6bee9c0975c5d9.json",
+            "capturedAt": "2026-09-27T04:25:01.222Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-13",
+            "snapshot": "sources/wiki/pages/3d6bee9c0975c5d9.json",
+            "capturedAt": "2026-09-27T04:25:01.222Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-13",
+            "snapshot": "sources/wiki/pages/3d6bee9c0975c5d9.json",
+            "capturedAt": "2026-09-27T04:25:01.222Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 14
+          },
+          "英文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 14
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 14
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 14
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 14
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-13",
+            "snapshot": "sources/wiki/pages/3d6bee9c0975c5d9.json",
+            "capturedAt": "2026-09-27T04:25:01.222Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 14
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-13",
+              "snapshot": "sources/wiki/pages/3d6bee9c0975c5d9.json",
+              "capturedAt": "2026-09-27T04:25:01.222Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "FS-13",
+              "loops": 5,
+              "days": 5,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "失踪"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "医院事故"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "谋杀"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "自杀"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 1,
+              "row": 14
+            },
+            "fields": {
+              "scenarioCode": "FS-13",
+              "剧本名": "再见了，兄弟",
+              "英文名": "Goodbye, My Brother",
+              "作者": "Res_kun",
+              "轮数": "5 4",
+              "天数": "5"
+            }
+          }
+        ],
+        "body": "text/scenarios/8afe17cbae4a5b53.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-13",
+          "snapshot": "sources/wiki/pages/3d6bee9c0975c5d9.json",
+          "capturedAt": "2026-09-27T04:25:01.222Z"
+        },
+        "wikiTitle": "FS-13",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "FS-13非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-13?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "First Steps"
+        ],
+        "module": "First Steps"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "45f7673c3d9065bb",
+        "title": "FS-13非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "FS-13",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "谋杀计划"
+            },
+            {
+              "slot": "X1",
+              "name": "最黑暗的剧本"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/180278c049b17683.json",
+            "capturedAt": "2026-09-27T04:25:04.239Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/180278c049b17683.json",
+            "capturedAt": "2026-09-27T04:25:04.239Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/180278c049b17683.json",
+            "capturedAt": "2026-09-27T04:25:04.239Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/180278c049b17683.json",
+            "capturedAt": "2026-09-27T04:25:04.239Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/180278c049b17683.json",
+              "capturedAt": "2026-09-27T04:25:04.239Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "FS-13",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "谋杀计划"
+                },
+                {
+                  "slot": "X1",
+                  "name": "最黑暗的剧本"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/45f7673c3d9065bb.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/180278c049b17683.json",
+          "capturedAt": "2026-09-27T04:25:04.239Z"
+        },
+        "wikiTitle": "FS-13非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=3"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "First Steps",
+        "tags": [
+          "民间",
+          "First Steps"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "45f7673c3d9065bb"
+  ],
+  "conflicts": []
+}

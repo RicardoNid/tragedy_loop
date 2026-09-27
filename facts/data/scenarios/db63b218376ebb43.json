@@ -1,0 +1,510 @@
+{
+  "id": "db63b218376ebb43",
+  "title": "BTX-66",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "BTX-66非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "BTX-66",
+    "loops": 3,
+    "days": 4,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "蝴蝶效应"
+      },
+      {
+        "day": 2,
+        "incidentText": "不安扩散"
+      },
+      {
+        "day": 3,
+        "incidentText": "自杀"
+      },
+      {
+        "day": 4,
+        "incidentText": "远距离杀人"
+      }
+    ],
+    "剧本名": "人群中的暗箭",
+    "英文名": "Hidden Knife among the people",
+    "作者": "Hero7898",
+    "轮数": "3",
+    "天数": "4"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-66",
+      "snapshot": "sources/wiki/pages/515c558df2d5c887.json",
+      "capturedAt": "2026-09-27T04:15:02.009Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-66",
+      "snapshot": "sources/wiki/pages/515c558df2d5c887.json",
+      "capturedAt": "2026-09-27T04:15:02.009Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-66",
+      "snapshot": "sources/wiki/pages/515c558df2d5c887.json",
+      "capturedAt": "2026-09-27T04:15:02.009Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-66",
+      "snapshot": "sources/wiki/pages/515c558df2d5c887.json",
+      "capturedAt": "2026-09-27T04:15:02.009Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-66",
+      "snapshot": "sources/wiki/pages/515c558df2d5c887.json",
+      "capturedAt": "2026-09-27T04:15:02.009Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 67
+    },
+    "英文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 67
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 67
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 67
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 67
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-66",
+      "snapshot": "sources/wiki/pages/515c558df2d5c887.json",
+      "capturedAt": "2026-09-27T04:15:02.009Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 67
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-66%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/c58de82988b5bbd7.json",
+      "capturedAt": "2026-09-27T04:15:04.816Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-66",
+        "snapshot": "sources/wiki/pages/515c558df2d5c887.json",
+        "capturedAt": "2026-09-27T04:15:02.009Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "BTX-66",
+        "loops": 3,
+        "days": 4,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "蝴蝶效应"
+          },
+          {
+            "day": 2,
+            "incidentText": "不安扩散"
+          },
+          {
+            "day": 3,
+            "incidentText": "自杀"
+          },
+          {
+            "day": 4,
+            "incidentText": "远距离杀人"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 2,
+        "row": 67
+      },
+      "fields": {
+        "scenarioCode": "BTX-66",
+        "剧本名": "人群中的暗箭",
+        "英文名": "Hidden Knife among the people",
+        "作者": "Hero7898",
+        "轮数": "3",
+        "天数": "4"
+      }
+    }
+  ],
+  "wikiTitle": "BTX-66",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Basic Tragedy X"
+  ],
+  "module": "Basic Tragedy X",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "db63b218376ebb43",
+        "title": "BTX-66",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "BTX-66",
+          "loops": 3,
+          "days": 4,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "蝴蝶效应"
+            },
+            {
+              "day": 2,
+              "incidentText": "不安扩散"
+            },
+            {
+              "day": 3,
+              "incidentText": "自杀"
+            },
+            {
+              "day": 4,
+              "incidentText": "远距离杀人"
+            }
+          ],
+          "剧本名": "人群中的暗箭",
+          "英文名": "Hidden Knife among the people",
+          "作者": "Hero7898",
+          "轮数": "3",
+          "天数": "4"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-66",
+            "snapshot": "sources/wiki/pages/515c558df2d5c887.json",
+            "capturedAt": "2026-09-27T04:15:02.009Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-66",
+            "snapshot": "sources/wiki/pages/515c558df2d5c887.json",
+            "capturedAt": "2026-09-27T04:15:02.009Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-66",
+            "snapshot": "sources/wiki/pages/515c558df2d5c887.json",
+            "capturedAt": "2026-09-27T04:15:02.009Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-66",
+            "snapshot": "sources/wiki/pages/515c558df2d5c887.json",
+            "capturedAt": "2026-09-27T04:15:02.009Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-66",
+            "snapshot": "sources/wiki/pages/515c558df2d5c887.json",
+            "capturedAt": "2026-09-27T04:15:02.009Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 67
+          },
+          "英文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 67
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 67
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 67
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 67
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-66",
+            "snapshot": "sources/wiki/pages/515c558df2d5c887.json",
+            "capturedAt": "2026-09-27T04:15:02.009Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 67
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-66",
+              "snapshot": "sources/wiki/pages/515c558df2d5c887.json",
+              "capturedAt": "2026-09-27T04:15:02.009Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "BTX-66",
+              "loops": 3,
+              "days": 4,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "蝴蝶效应"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "不安扩散"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "自杀"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "远距离杀人"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 2,
+              "row": 67
+            },
+            "fields": {
+              "scenarioCode": "BTX-66",
+              "剧本名": "人群中的暗箭",
+              "英文名": "Hidden Knife among the people",
+              "作者": "Hero7898",
+              "轮数": "3",
+              "天数": "4"
+            }
+          }
+        ],
+        "body": "text/scenarios/db63b218376ebb43.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-66",
+          "snapshot": "sources/wiki/pages/515c558df2d5c887.json",
+          "capturedAt": "2026-09-27T04:15:02.009Z"
+        },
+        "wikiTitle": "BTX-66",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "BTX-66非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-66%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-66?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Basic Tragedy X"
+        ],
+        "module": "Basic Tragedy X"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "195f5ee6d1a2792f",
+        "title": "BTX-66非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "BTX-66",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "和我签订契约吧！"
+            },
+            {
+              "slot": "X1",
+              "name": "潜伏的杀人狂"
+            },
+            {
+              "slot": "X2",
+              "name": "流言四起"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-66%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/c58de82988b5bbd7.json",
+            "capturedAt": "2026-09-27T04:15:04.816Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-66%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/c58de82988b5bbd7.json",
+            "capturedAt": "2026-09-27T04:15:04.816Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-66%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/c58de82988b5bbd7.json",
+            "capturedAt": "2026-09-27T04:15:04.816Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-66%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/c58de82988b5bbd7.json",
+            "capturedAt": "2026-09-27T04:15:04.816Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-66%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/c58de82988b5bbd7.json",
+              "capturedAt": "2026-09-27T04:15:04.816Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "BTX-66",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "和我签订契约吧！"
+                },
+                {
+                  "slot": "X1",
+                  "name": "潜伏的杀人狂"
+                },
+                {
+                  "slot": "X2",
+                  "name": "流言四起"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/195f5ee6d1a2792f.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-66%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/c58de82988b5bbd7.json",
+          "capturedAt": "2026-09-27T04:15:04.816Z"
+        },
+        "wikiTitle": "BTX-66非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-66%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-66%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Basic Tragedy X",
+        "tags": [
+          "民间",
+          "Basic Tragedy X"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "195f5ee6d1a2792f"
+  ],
+  "conflicts": []
+}

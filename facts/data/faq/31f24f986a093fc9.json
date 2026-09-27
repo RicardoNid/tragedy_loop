@@ -1,0 +1,67 @@
+{
+  "id": "31f24f986a093fc9",
+  "title": "第三天触发了廷达罗斯之嗅，如果第二天触发过事件，主人公死亡吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / WM / 第 30 行",
+  "aliases": [],
+  "fields": {
+    "question": "第三天触发了廷达罗斯之嗅，如果第二天触发过事件，主人公死亡吗？",
+    "answer": "不死亡，以这个事件发生为限，之后的事件再发生才生效"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=ofqfdw",
+      "snapshot": "sources/faq-sheet/wm.json",
+      "sheet": "WM",
+      "row": 30,
+      "cells": "A30:B30",
+      "capturedAt": "2026-09-27T05:40:23.278Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=ofqfdw",
+      "snapshot": "sources/faq-sheet/wm.json",
+      "sheet": "WM",
+      "row": 30,
+      "cells": "A30:B30",
+      "capturedAt": "2026-09-27T05:40:23.278Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=ofqfdw",
+      "snapshot": "sources/faq-sheet/wm.json",
+      "sheet": "WM",
+      "row": 30,
+      "cells": "A30:B30",
+      "capturedAt": "2026-09-27T05:40:23.278Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=ofqfdw",
+        "snapshot": "sources/faq-sheet/wm.json",
+        "sheet": "WM",
+        "row": 30,
+        "cells": "A30:B30",
+        "capturedAt": "2026-09-27T05:40:23.278Z"
+      },
+      "fields": {
+        "question": "第三天触发了廷达罗斯之嗅，如果第二天触发过事件，主人公死亡吗？",
+        "answer": "不死亡，以这个事件发生为限，之后的事件再发生才生效"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "WM",
+    "关于事件",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

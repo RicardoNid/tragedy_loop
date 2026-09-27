@@ -1,0 +1,95 @@
+{
+  "id": "33bd6eea0ce2e53e",
+  "title": "亲友",
+  "kind": "identities",
+  "scope": "Mystery Circle",
+  "aliases": [],
+  "fields": {
+    "max": "②",
+    "traits": "",
+    "abilities": [
+      "【失败条件：轮回结束时】该卡牌为死亡状态，此时，需要告知主人公该卡牌的身份",
+      "【强制：轮回开始时】该角色身份曾被公开→往该角色身上放置1枚[友好]"
+    ]
+  },
+  "provenance": {
+    "max": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Mystery_Circle",
+      "snapshot": "sources/wiki/pages/b21e3f528569eced.json",
+      "capturedAt": "2026-09-27T03:29:50.486Z"
+    },
+    "traits": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Mystery_Circle",
+      "snapshot": "sources/wiki/pages/b21e3f528569eced.json",
+      "capturedAt": "2026-09-27T03:29:50.486Z"
+    },
+    "abilities": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Mystery_Circle",
+      "snapshot": "sources/wiki/pages/b21e3f528569eced.json",
+      "capturedAt": "2026-09-27T03:29:50.486Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Mystery_Circle",
+      "snapshot": "sources/wiki/pages/b21e3f528569eced.json",
+      "capturedAt": "2026-09-27T03:29:50.486Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Mystery_Circle",
+        "snapshot": "sources/wiki/pages/b21e3f528569eced.json",
+        "capturedAt": "2026-09-27T03:29:50.486Z"
+      },
+      "fields": {
+        "max": "②",
+        "traits": "",
+        "abilities": [
+          "【失败条件：轮回结束时】该卡牌为死亡状态，此时，需要告知主人公该卡牌的身份",
+          "【强制：轮回开始时】该角色身份曾被公开→往该角色身上放置1枚[友好]"
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "max": "2",
+        "traits": "",
+        "abilities": [
+          "【失败条件：轮回结束时】该卡牌为死亡状态，此时，需要告知主人公该卡牌的身份",
+          "【强制：轮回开始时】该角色身份曾被公开→往该角色身上放置1枚[友好]"
+        ]
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "max",
+      "selected": "②",
+      "candidate": "2",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    }
+  ]
+}

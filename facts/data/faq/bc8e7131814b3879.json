@@ -1,0 +1,67 @@
+{
+  "id": "bc8e7131814b3879",
+  "title": "手下愚者触发连续杀人，杀死关键人物之后，需要移除不安吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 角色 / 第 24 行",
+  "aliases": [],
+  "fields": {
+    "question": "手下愚者触发连续杀人，杀死关键人物之后，需要移除不安吗？",
+    "answer": "需要，两个强制能力同时结算"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 24,
+      "cells": "A24:B24",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 24,
+      "cells": "A24:B24",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 24,
+      "cells": "A24:B24",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+        "snapshot": "sources/faq-sheet/characters.json",
+        "sheet": "角色",
+        "row": 24,
+        "cells": "A24:B24",
+        "capturedAt": "2026-09-27T05:39:49.068Z"
+      },
+      "fields": {
+        "question": "手下愚者触发连续杀人，杀死关键人物之后，需要移除不安吗？",
+        "answer": "需要，两个强制能力同时结算"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "角色",
+    "关于手下",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

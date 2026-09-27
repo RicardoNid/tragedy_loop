@@ -1,0 +1,66 @@
+{
+  "id": "e3e77beb4a4a2fac",
+  "title": "混沌之城",
+  "kind": "rules",
+  "scope": "Sin City",
+  "aliases": [],
+  "fields": {
+    "ruleType": "X",
+    "identityCounts": {
+      "愉快犯": "①"
+    },
+    "effect": "【强制：事件阶段】判定事件是否发生时，与当事人位于同一区域的每个非该事件当事人的平民角色会使当事人的不安限度-1"
+  },
+  "provenance": {
+    "ruleType": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Sin_City",
+      "snapshot": "sources/wiki/pages/59c6099598cb6333.json",
+      "capturedAt": "2026-09-27T03:30:03.250Z"
+    },
+    "identityCounts": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Sin_City",
+      "snapshot": "sources/wiki/pages/59c6099598cb6333.json",
+      "capturedAt": "2026-09-27T03:30:03.250Z"
+    },
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Sin_City",
+      "snapshot": "sources/wiki/pages/59c6099598cb6333.json",
+      "capturedAt": "2026-09-27T03:30:03.250Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Sin_City",
+      "snapshot": "sources/wiki/pages/59c6099598cb6333.json",
+      "capturedAt": "2026-09-27T03:30:03.250Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Sin_City",
+        "snapshot": "sources/wiki/pages/59c6099598cb6333.json",
+        "capturedAt": "2026-09-27T03:30:03.250Z"
+      },
+      "fields": {
+        "ruleType": "X",
+        "identityCounts": {
+          "愉快犯": "①"
+        },
+        "effect": "【强制：事件阶段】判定事件是否发生时，与当事人位于同一区域的每个非该事件当事人的平民角色会使当事人的不安限度-1"
+      }
+    }
+  ],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "X",
+    "民间"
+  ],
+  "conflicts": []
+}

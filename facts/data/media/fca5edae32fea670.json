@@ -1,0 +1,60 @@
+{
+  "id": "fca5edae32fea670",
+  "title": "仙人.png",
+  "kind": "media",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "bytes": 280274,
+    "sha256": "06d413c6818cb7bcd9faa6005076ac79ae3a3d3afbf614ea61adc4fa19a75dd5"
+  },
+  "provenance": {
+    "bytes": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E4%BB%99%E4%BA%BA.png",
+      "snapshot": "sources/wiki/files/2b3c43b182e3158e.json"
+    },
+    "sha256": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E4%BB%99%E4%BA%BA.png",
+      "snapshot": "sources/wiki/files/2b3c43b182e3158e.json"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E4%BB%99%E4%BA%BA.png",
+      "snapshot": "sources/wiki/files/2b3c43b182e3158e.json"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E4%BB%99%E4%BA%BA.png",
+        "snapshot": "sources/wiki/files/2b3c43b182e3158e.json"
+      },
+      "fields": {
+        "bytes": 280274,
+        "sha256": "06d413c6818cb7bcd9faa6005076ac79ae3a3d3afbf614ea61adc4fa19a75dd5"
+      }
+    }
+  ],
+  "media": [
+    {
+      "title": "仙人.png",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:%E4%BB%99%E4%BA%BA.png",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/5/5a/%E4%BB%99%E4%BA%BA.png/revision/latest?cb=20251023165108&format=original&path-prefix=zh",
+      "path": "media/wiki/2b3c43b182e3158e.png",
+      "sourceRecord": "sources/wiki/files/2b3c43b182e3158e.json",
+      "sha256": "06d413c6818cb7bcd9faa6005076ac79ae3a3d3afbf614ea61adc4fa19a75dd5",
+      "bytes": 280274,
+      "fileInfo": "PNG image data, 300 x 421, 8-bit/color RGBA, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "tags": [],
+  "conflicts": []
+}

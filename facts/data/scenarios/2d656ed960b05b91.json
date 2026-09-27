@@ -1,0 +1,362 @@
+{
+  "id": "2d656ed960b05b91",
+  "title": "WM-14",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "WM-14非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "WM-14",
+    "loops": 8,
+    "days": 1,
+    "剧本名": "Hyperion",
+    "作者": "新手之二",
+    "轮数": "8",
+    "天数": "1"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-14?oldid=1468",
+      "snapshot": "sources/wiki/pages/442176d363227e3a.json",
+      "capturedAt": "2026-09-27T05:02:12.009Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-14?oldid=1468",
+      "snapshot": "sources/wiki/pages/442176d363227e3a.json",
+      "capturedAt": "2026-09-27T05:02:12.009Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-14?oldid=1468",
+      "snapshot": "sources/wiki/pages/442176d363227e3a.json",
+      "capturedAt": "2026-09-27T05:02:12.009Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-14?oldid=1468",
+      "snapshot": "sources/wiki/pages/442176d363227e3a.json",
+      "capturedAt": "2026-09-27T05:02:12.009Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 16
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 16
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 16
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 16
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-14?oldid=1468",
+      "snapshot": "sources/wiki/pages/442176d363227e3a.json",
+      "capturedAt": "2026-09-27T05:02:12.009Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 16
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-14%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1879",
+      "snapshot": "sources/wiki/pages/4e3e64123089357c.json",
+      "capturedAt": "2026-09-27T05:02:25.589Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-14?oldid=1468",
+        "snapshot": "sources/wiki/pages/442176d363227e3a.json",
+        "capturedAt": "2026-09-27T05:02:12.009Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "WM-14",
+        "loops": 8,
+        "days": 1
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 6,
+        "row": 16
+      },
+      "fields": {
+        "scenarioCode": "WM-14",
+        "剧本名": "Hyperion",
+        "作者": "新手之二",
+        "轮数": "8",
+        "天数": "1"
+      }
+    }
+  ],
+  "wikiTitle": "WM-14",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Weird Mythology"
+  ],
+  "module": "Weird Mythology",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "2d656ed960b05b91",
+        "title": "WM-14",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "WM-14",
+          "loops": 8,
+          "days": 1,
+          "剧本名": "Hyperion",
+          "作者": "新手之二",
+          "轮数": "8",
+          "天数": "1"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-14?oldid=1468",
+            "snapshot": "sources/wiki/pages/442176d363227e3a.json",
+            "capturedAt": "2026-09-27T05:02:12.009Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-14?oldid=1468",
+            "snapshot": "sources/wiki/pages/442176d363227e3a.json",
+            "capturedAt": "2026-09-27T05:02:12.009Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-14?oldid=1468",
+            "snapshot": "sources/wiki/pages/442176d363227e3a.json",
+            "capturedAt": "2026-09-27T05:02:12.009Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-14?oldid=1468",
+            "snapshot": "sources/wiki/pages/442176d363227e3a.json",
+            "capturedAt": "2026-09-27T05:02:12.009Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 16
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 16
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 16
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 16
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-14?oldid=1468",
+            "snapshot": "sources/wiki/pages/442176d363227e3a.json",
+            "capturedAt": "2026-09-27T05:02:12.009Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 16
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-14?oldid=1468",
+              "snapshot": "sources/wiki/pages/442176d363227e3a.json",
+              "capturedAt": "2026-09-27T05:02:12.009Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "WM-14",
+              "loops": 8,
+              "days": 1
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 6,
+              "row": 16
+            },
+            "fields": {
+              "scenarioCode": "WM-14",
+              "剧本名": "Hyperion",
+              "作者": "新手之二",
+              "轮数": "8",
+              "天数": "1"
+            }
+          }
+        ],
+        "body": "text/scenarios/2d656ed960b05b91.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-14?oldid=1468",
+          "snapshot": "sources/wiki/pages/442176d363227e3a.json",
+          "capturedAt": "2026-09-27T05:02:12.009Z"
+        },
+        "wikiTitle": "WM-14",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-14?action=edit&section=1"
+          },
+          {
+            "title": "WM-14非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-14%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-14?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Weird Mythology"
+        ],
+        "module": "Weird Mythology"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "650d673d7808b9b7",
+        "title": "WM-14非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "WM-14"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-14%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1879",
+            "snapshot": "sources/wiki/pages/4e3e64123089357c.json",
+            "capturedAt": "2026-09-27T05:02:25.589Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-14%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1879",
+            "snapshot": "sources/wiki/pages/4e3e64123089357c.json",
+            "capturedAt": "2026-09-27T05:02:25.589Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-14%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1879",
+            "snapshot": "sources/wiki/pages/4e3e64123089357c.json",
+            "capturedAt": "2026-09-27T05:02:25.589Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-14%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1879",
+              "snapshot": "sources/wiki/pages/4e3e64123089357c.json",
+              "capturedAt": "2026-09-27T05:02:25.589Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "WM-14"
+            }
+          }
+        ],
+        "wikiTitle": "WM-14非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Weird Mythology",
+        "tags": [
+          "民间",
+          "Weird Mythology"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "650d673d7808b9b7"
+  ],
+  "conflicts": []
+}

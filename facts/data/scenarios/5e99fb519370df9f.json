@@ -1,0 +1,448 @@
+{
+  "id": "5e99fb519370df9f",
+  "title": "MZ+-02",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "MZ+02",
+    "MZ+-02非公开信息表"
+  ],
+  "fields": {
+    "scenarioCode": "MZ+-02",
+    "剧本名": "一个都不能少",
+    "作者": "海天一色&Choconut",
+    "轮数": "n",
+    "天数": "3"
+  },
+  "provenance": {
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 64
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 64
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 64
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 64
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 64
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 64
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B02",
+      "snapshot": "sources/wiki/pages/6b3e7858b570ff25.json",
+      "capturedAt": "2026-09-27T04:42:12.309Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-02%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/8affed69b446297c.json",
+      "capturedAt": "2026-09-27T04:41:41.586Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 3,
+        "row": 64
+      },
+      "fields": {
+        "scenarioCode": "MZ+-02",
+        "剧本名": "一个都不能少",
+        "作者": "海天一色&Choconut",
+        "轮数": "n",
+        "天数": "3"
+      }
+    }
+  ],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Midnight Zone Plus"
+  ],
+  "module": "Midnight Zone Plus",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "5e99fb519370df9f",
+        "title": "MZ+-02",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "scenarioCode": "MZ+-02",
+          "剧本名": "一个都不能少",
+          "作者": "海天一色&Choconut",
+          "轮数": "n",
+          "天数": "3"
+        },
+        "provenance": {
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 64
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 64
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 64
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 64
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 64
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 64
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 3,
+              "row": 64
+            },
+            "fields": {
+              "scenarioCode": "MZ+-02",
+              "剧本名": "一个都不能少",
+              "作者": "海天一色&Choconut",
+              "轮数": "n",
+              "天数": "3"
+            }
+          }
+        ],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Midnight Zone Plus"
+        ],
+        "module": "Midnight Zone Plus"
+      }
+    },
+    {
+      "visibility": "public",
+      "record": {
+        "id": "9b5dbdd4915dc2d4",
+        "title": "MZ+02",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "MZ+-02",
+          "loops": "无限",
+          "days": 3,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "破局"
+            },
+            {
+              "day": 2,
+              "incidentText": "阴谋活动"
+            },
+            {
+              "day": 3,
+              "incidentText": "医院事敌"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B02",
+            "snapshot": "sources/wiki/pages/6b3e7858b570ff25.json",
+            "capturedAt": "2026-09-27T04:42:12.309Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B02",
+            "snapshot": "sources/wiki/pages/6b3e7858b570ff25.json",
+            "capturedAt": "2026-09-27T04:42:12.309Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B02",
+            "snapshot": "sources/wiki/pages/6b3e7858b570ff25.json",
+            "capturedAt": "2026-09-27T04:42:12.309Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B02",
+            "snapshot": "sources/wiki/pages/6b3e7858b570ff25.json",
+            "capturedAt": "2026-09-27T04:42:12.309Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B02",
+            "snapshot": "sources/wiki/pages/6b3e7858b570ff25.json",
+            "capturedAt": "2026-09-27T04:42:12.309Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B02",
+            "snapshot": "sources/wiki/pages/6b3e7858b570ff25.json",
+            "capturedAt": "2026-09-27T04:42:12.309Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B02",
+              "snapshot": "sources/wiki/pages/6b3e7858b570ff25.json",
+              "capturedAt": "2026-09-27T04:42:12.309Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "MZ+-02",
+              "loops": "无限",
+              "days": 3,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "破局"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "阴谋活动"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "医院事敌"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/9b5dbdd4915dc2d4.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B02",
+          "snapshot": "sources/wiki/pages/6b3e7858b570ff25.json",
+          "capturedAt": "2026-09-27T04:42:12.309Z"
+        },
+        "wikiTitle": "MZ+02",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B02?action=edit&section=1"
+          },
+          {
+            "title": "MZ+-02非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-02%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B02?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Midnight Zone Plus",
+        "tags": [
+          "民间",
+          "Midnight Zone Plus"
+        ]
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "c8663387eba6f392",
+        "title": "MZ+-02非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "MZ+-02",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "魔爪渐近"
+            },
+            {
+              "slot": "X1",
+              "name": "魔女的茶会"
+            },
+            {
+              "slot": "X2",
+              "name": "心无灵犀"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-02%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/8affed69b446297c.json",
+            "capturedAt": "2026-09-27T04:41:41.586Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-02%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/8affed69b446297c.json",
+            "capturedAt": "2026-09-27T04:41:41.586Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-02%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/8affed69b446297c.json",
+            "capturedAt": "2026-09-27T04:41:41.586Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-02%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/8affed69b446297c.json",
+            "capturedAt": "2026-09-27T04:41:41.586Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-02%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/8affed69b446297c.json",
+              "capturedAt": "2026-09-27T04:41:41.586Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "MZ+-02",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "魔爪渐近"
+                },
+                {
+                  "slot": "X1",
+                  "name": "魔女的茶会"
+                },
+                {
+                  "slot": "X2",
+                  "name": "心无灵犀"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/c8663387eba6f392.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-02%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/8affed69b446297c.json",
+          "capturedAt": "2026-09-27T04:41:41.586Z"
+        },
+        "wikiTitle": "MZ+-02非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-02%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-02%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ%2B-02%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=3"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Midnight Zone Plus",
+        "tags": [
+          "民间",
+          "Midnight Zone Plus"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "9b5dbdd4915dc2d4",
+    "c8663387eba6f392"
+  ],
+  "conflicts": []
+}

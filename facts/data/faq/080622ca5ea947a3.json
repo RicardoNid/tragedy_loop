@@ -1,0 +1,67 @@
+{
+  "id": "080622ca5ea947a3",
+  "title": "幻想是秘钥，在发动第二个友好能力后，会发动秘钥的能力吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 角色 / 第 88 行",
+  "aliases": [],
+  "fields": {
+    "question": "幻想是秘钥，在发动第二个友好能力后，会发动秘钥的能力吗？",
+    "answer": "不会，因为幻想在友好能力结算之后已经被移除"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 88,
+      "cells": "A88:B88",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 88,
+      "cells": "A88:B88",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 88,
+      "cells": "A88:B88",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+        "snapshot": "sources/faq-sheet/characters.json",
+        "sheet": "角色",
+        "row": 88,
+        "cells": "A88:B88",
+        "capturedAt": "2026-09-27T05:39:49.068Z"
+      },
+      "fields": {
+        "question": "幻想是秘钥，在发动第二个友好能力后，会发动秘钥的能力吗？",
+        "answer": "不会，因为幻想在友好能力结算之后已经被移除"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "角色",
+    "关于幻想",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

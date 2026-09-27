@@ -1,0 +1,60 @@
+{
+  "id": "1cc22d1803d213f7",
+  "title": "DB050311F3E9EA0EC48CE02A16C6C1C6.png",
+  "kind": "media",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "bytes": 2059715,
+    "sha256": "3ab0f17c78c81458d7ff329c65bec4483d523a6198a221cf16f43b25b54f83eb"
+  },
+  "provenance": {
+    "bytes": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:DB050311F3E9EA0EC48CE02A16C6C1C6.png",
+      "snapshot": "sources/wiki/files/ef9763ffec95bbaf.json"
+    },
+    "sha256": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:DB050311F3E9EA0EC48CE02A16C6C1C6.png",
+      "snapshot": "sources/wiki/files/ef9763ffec95bbaf.json"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:DB050311F3E9EA0EC48CE02A16C6C1C6.png",
+      "snapshot": "sources/wiki/files/ef9763ffec95bbaf.json"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/File:DB050311F3E9EA0EC48CE02A16C6C1C6.png",
+        "snapshot": "sources/wiki/files/ef9763ffec95bbaf.json"
+      },
+      "fields": {
+        "bytes": 2059715,
+        "sha256": "3ab0f17c78c81458d7ff329c65bec4483d523a6198a221cf16f43b25b54f83eb"
+      }
+    }
+  ],
+  "media": [
+    {
+      "title": "DB050311F3E9EA0EC48CE02A16C6C1C6.png",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:DB050311F3E9EA0EC48CE02A16C6C1C6.png",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/4/4f/DB050311F3E9EA0EC48CE02A16C6C1C6.png/revision/latest?cb=20260304084411&format=original&path-prefix=zh",
+      "path": "media/wiki/ef9763ffec95bbaf.png",
+      "sourceRecord": "sources/wiki/files/ef9763ffec95bbaf.json",
+      "sha256": "3ab0f17c78c81458d7ff329c65bec4483d523a6198a221cf16f43b25b54f83eb",
+      "bytes": 2059715,
+      "fileInfo": "PNG image data, 1024 x 1536, 8-bit/color RGB, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "tags": [],
+  "conflicts": []
+}

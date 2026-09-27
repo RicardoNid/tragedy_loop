@@ -1,0 +1,446 @@
+{
+  "id": "4f00ac159040606b",
+  "title": "WM-03",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "WM-03非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "WM-03",
+    "loops": 5,
+    "days": 4,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "不安扩散"
+      },
+      {
+        "day": 2,
+        "incidentText": "灭绝之火"
+      },
+      {
+        "day": 3,
+        "incidentText": "疯狂杀人"
+      },
+      {
+        "day": 4,
+        "incidentText": "发现"
+      }
+    ],
+    "剧本名": "永生之饵",
+    "作者": "SCP2950",
+    "轮数": "5",
+    "天数": "4"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-03?oldid=1439",
+      "snapshot": "sources/wiki/pages/954ba4ea4eca6033.json",
+      "capturedAt": "2026-09-27T04:59:40.711Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-03?oldid=1439",
+      "snapshot": "sources/wiki/pages/954ba4ea4eca6033.json",
+      "capturedAt": "2026-09-27T04:59:40.711Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-03?oldid=1439",
+      "snapshot": "sources/wiki/pages/954ba4ea4eca6033.json",
+      "capturedAt": "2026-09-27T04:59:40.711Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-03?oldid=1439",
+      "snapshot": "sources/wiki/pages/954ba4ea4eca6033.json",
+      "capturedAt": "2026-09-27T04:59:40.711Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-03?oldid=1439",
+      "snapshot": "sources/wiki/pages/954ba4ea4eca6033.json",
+      "capturedAt": "2026-09-27T04:59:40.711Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 4
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 4
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 4
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 4
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-03?oldid=1439",
+      "snapshot": "sources/wiki/pages/954ba4ea4eca6033.json",
+      "capturedAt": "2026-09-27T04:59:40.711Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 4
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-03%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1890",
+      "snapshot": "sources/wiki/pages/c7d05c8fb27606ea.json",
+      "capturedAt": "2026-09-27T04:59:46.227Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-03?oldid=1439",
+        "snapshot": "sources/wiki/pages/954ba4ea4eca6033.json",
+        "capturedAt": "2026-09-27T04:59:40.711Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "WM-03",
+        "loops": 5,
+        "days": 4,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "不安扩散"
+          },
+          {
+            "day": 2,
+            "incidentText": "灭绝之火"
+          },
+          {
+            "day": 3,
+            "incidentText": "疯狂杀人"
+          },
+          {
+            "day": 4,
+            "incidentText": "发现"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 6,
+        "row": 4
+      },
+      "fields": {
+        "scenarioCode": "WM-03",
+        "剧本名": "永生之饵",
+        "作者": "SCP2950",
+        "轮数": "5",
+        "天数": "4"
+      }
+    }
+  ],
+  "wikiTitle": "WM-03",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Weird Mythology"
+  ],
+  "module": "Weird Mythology",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "4f00ac159040606b",
+        "title": "WM-03",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "WM-03",
+          "loops": 5,
+          "days": 4,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "不安扩散"
+            },
+            {
+              "day": 2,
+              "incidentText": "灭绝之火"
+            },
+            {
+              "day": 3,
+              "incidentText": "疯狂杀人"
+            },
+            {
+              "day": 4,
+              "incidentText": "发现"
+            }
+          ],
+          "剧本名": "永生之饵",
+          "作者": "SCP2950",
+          "轮数": "5",
+          "天数": "4"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-03?oldid=1439",
+            "snapshot": "sources/wiki/pages/954ba4ea4eca6033.json",
+            "capturedAt": "2026-09-27T04:59:40.711Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-03?oldid=1439",
+            "snapshot": "sources/wiki/pages/954ba4ea4eca6033.json",
+            "capturedAt": "2026-09-27T04:59:40.711Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-03?oldid=1439",
+            "snapshot": "sources/wiki/pages/954ba4ea4eca6033.json",
+            "capturedAt": "2026-09-27T04:59:40.711Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-03?oldid=1439",
+            "snapshot": "sources/wiki/pages/954ba4ea4eca6033.json",
+            "capturedAt": "2026-09-27T04:59:40.711Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-03?oldid=1439",
+            "snapshot": "sources/wiki/pages/954ba4ea4eca6033.json",
+            "capturedAt": "2026-09-27T04:59:40.711Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 4
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 4
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 4
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 4
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-03?oldid=1439",
+            "snapshot": "sources/wiki/pages/954ba4ea4eca6033.json",
+            "capturedAt": "2026-09-27T04:59:40.711Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 4
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-03?oldid=1439",
+              "snapshot": "sources/wiki/pages/954ba4ea4eca6033.json",
+              "capturedAt": "2026-09-27T04:59:40.711Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "WM-03",
+              "loops": 5,
+              "days": 4,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "不安扩散"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "灭绝之火"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "疯狂杀人"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "发现"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 6,
+              "row": 4
+            },
+            "fields": {
+              "scenarioCode": "WM-03",
+              "剧本名": "永生之饵",
+              "作者": "SCP2950",
+              "轮数": "5",
+              "天数": "4"
+            }
+          }
+        ],
+        "body": "text/scenarios/4f00ac159040606b.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-03?oldid=1439",
+          "snapshot": "sources/wiki/pages/954ba4ea4eca6033.json",
+          "capturedAt": "2026-09-27T04:59:40.711Z"
+        },
+        "wikiTitle": "WM-03",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-03?action=edit&section=1"
+          },
+          {
+            "title": "WM-03非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-03%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-03?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Weird Mythology"
+        ],
+        "module": "Weird Mythology"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "6234cc6ead644d8e",
+        "title": "WM-03非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "WM-03"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-03%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1890",
+            "snapshot": "sources/wiki/pages/c7d05c8fb27606ea.json",
+            "capturedAt": "2026-09-27T04:59:46.227Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-03%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1890",
+            "snapshot": "sources/wiki/pages/c7d05c8fb27606ea.json",
+            "capturedAt": "2026-09-27T04:59:46.227Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-03%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1890",
+            "snapshot": "sources/wiki/pages/c7d05c8fb27606ea.json",
+            "capturedAt": "2026-09-27T04:59:46.227Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-03%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1890",
+              "snapshot": "sources/wiki/pages/c7d05c8fb27606ea.json",
+              "capturedAt": "2026-09-27T04:59:46.227Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "WM-03"
+            }
+          }
+        ],
+        "wikiTitle": "WM-03非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Weird Mythology",
+        "tags": [
+          "民间",
+          "Weird Mythology"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "6234cc6ead644d8e"
+  ],
+  "conflicts": []
+}

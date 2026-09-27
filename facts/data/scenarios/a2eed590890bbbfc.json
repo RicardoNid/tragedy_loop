@@ -1,0 +1,478 @@
+{
+  "id": "a2eed590890bbbfc",
+  "title": "WM-16",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "WM-16非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "WM-16",
+    "loops": 4,
+    "days": 5,
+    "schedule": [
+      {
+        "day": 2,
+        "incidentText": "不安扩散"
+      },
+      {
+        "day": 3,
+        "incidentText": "邪气污染"
+      },
+      {
+        "day": 4,
+        "incidentText": "疯狂杀人"
+      },
+      {
+        "day": 5,
+        "incidentText": "集体自杀"
+      }
+    ],
+    "剧本名": "可怕的知识",
+    "英文名": "Eldritch Knowledge",
+    "作者": "Augustin-Louis Cauchy",
+    "轮数": "4",
+    "天数": "5",
+    "难度": "7"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-16?oldid=1472",
+      "snapshot": "sources/wiki/pages/be2737f4b78bebc5.json",
+      "capturedAt": "2026-09-27T05:02:40.975Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-16?oldid=1472",
+      "snapshot": "sources/wiki/pages/be2737f4b78bebc5.json",
+      "capturedAt": "2026-09-27T05:02:40.975Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-16?oldid=1472",
+      "snapshot": "sources/wiki/pages/be2737f4b78bebc5.json",
+      "capturedAt": "2026-09-27T05:02:40.975Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-16?oldid=1472",
+      "snapshot": "sources/wiki/pages/be2737f4b78bebc5.json",
+      "capturedAt": "2026-09-27T05:02:40.975Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-16?oldid=1472",
+      "snapshot": "sources/wiki/pages/be2737f4b78bebc5.json",
+      "capturedAt": "2026-09-27T05:02:40.975Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 18
+    },
+    "英文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 18
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 18
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 18
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 18
+    },
+    "难度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 18
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-16?oldid=1472",
+      "snapshot": "sources/wiki/pages/be2737f4b78bebc5.json",
+      "capturedAt": "2026-09-27T05:02:40.975Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 18
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-16%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1877",
+      "snapshot": "sources/wiki/pages/afc4a4c98227c931.json",
+      "capturedAt": "2026-09-27T05:02:45.997Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-16?oldid=1472",
+        "snapshot": "sources/wiki/pages/be2737f4b78bebc5.json",
+        "capturedAt": "2026-09-27T05:02:40.975Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "WM-16",
+        "loops": 4,
+        "days": 5,
+        "schedule": [
+          {
+            "day": 2,
+            "incidentText": "不安扩散"
+          },
+          {
+            "day": 3,
+            "incidentText": "邪气污染"
+          },
+          {
+            "day": 4,
+            "incidentText": "疯狂杀人"
+          },
+          {
+            "day": 5,
+            "incidentText": "集体自杀"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 6,
+        "row": 18
+      },
+      "fields": {
+        "scenarioCode": "WM-16",
+        "剧本名": "可怕的知识",
+        "英文名": "Eldritch Knowledge",
+        "作者": "Augustin-Louis Cauchy",
+        "轮数": "4",
+        "天数": "5",
+        "难度": "7"
+      }
+    }
+  ],
+  "wikiTitle": "WM-16",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Weird Mythology"
+  ],
+  "module": "Weird Mythology",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "a2eed590890bbbfc",
+        "title": "WM-16",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "WM-16",
+          "loops": 4,
+          "days": 5,
+          "schedule": [
+            {
+              "day": 2,
+              "incidentText": "不安扩散"
+            },
+            {
+              "day": 3,
+              "incidentText": "邪气污染"
+            },
+            {
+              "day": 4,
+              "incidentText": "疯狂杀人"
+            },
+            {
+              "day": 5,
+              "incidentText": "集体自杀"
+            }
+          ],
+          "剧本名": "可怕的知识",
+          "英文名": "Eldritch Knowledge",
+          "作者": "Augustin-Louis Cauchy",
+          "轮数": "4",
+          "天数": "5",
+          "难度": "7"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-16?oldid=1472",
+            "snapshot": "sources/wiki/pages/be2737f4b78bebc5.json",
+            "capturedAt": "2026-09-27T05:02:40.975Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-16?oldid=1472",
+            "snapshot": "sources/wiki/pages/be2737f4b78bebc5.json",
+            "capturedAt": "2026-09-27T05:02:40.975Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-16?oldid=1472",
+            "snapshot": "sources/wiki/pages/be2737f4b78bebc5.json",
+            "capturedAt": "2026-09-27T05:02:40.975Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-16?oldid=1472",
+            "snapshot": "sources/wiki/pages/be2737f4b78bebc5.json",
+            "capturedAt": "2026-09-27T05:02:40.975Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-16?oldid=1472",
+            "snapshot": "sources/wiki/pages/be2737f4b78bebc5.json",
+            "capturedAt": "2026-09-27T05:02:40.975Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 18
+          },
+          "英文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 18
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 18
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 18
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 18
+          },
+          "难度": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 18
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-16?oldid=1472",
+            "snapshot": "sources/wiki/pages/be2737f4b78bebc5.json",
+            "capturedAt": "2026-09-27T05:02:40.975Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 18
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-16?oldid=1472",
+              "snapshot": "sources/wiki/pages/be2737f4b78bebc5.json",
+              "capturedAt": "2026-09-27T05:02:40.975Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "WM-16",
+              "loops": 4,
+              "days": 5,
+              "schedule": [
+                {
+                  "day": 2,
+                  "incidentText": "不安扩散"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "邪气污染"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "疯狂杀人"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "集体自杀"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 6,
+              "row": 18
+            },
+            "fields": {
+              "scenarioCode": "WM-16",
+              "剧本名": "可怕的知识",
+              "英文名": "Eldritch Knowledge",
+              "作者": "Augustin-Louis Cauchy",
+              "轮数": "4",
+              "天数": "5",
+              "难度": "7"
+            }
+          }
+        ],
+        "body": "text/scenarios/a2eed590890bbbfc.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-16?oldid=1472",
+          "snapshot": "sources/wiki/pages/be2737f4b78bebc5.json",
+          "capturedAt": "2026-09-27T05:02:40.975Z"
+        },
+        "wikiTitle": "WM-16",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "WM-16非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-16%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-16?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Weird Mythology"
+        ],
+        "module": "Weird Mythology"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "a0265e5a9b2c2142",
+        "title": "WM-16非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "WM-16"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-16%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1877",
+            "snapshot": "sources/wiki/pages/afc4a4c98227c931.json",
+            "capturedAt": "2026-09-27T05:02:45.997Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-16%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1877",
+            "snapshot": "sources/wiki/pages/afc4a4c98227c931.json",
+            "capturedAt": "2026-09-27T05:02:45.997Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-16%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1877",
+            "snapshot": "sources/wiki/pages/afc4a4c98227c931.json",
+            "capturedAt": "2026-09-27T05:02:45.997Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-16%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1877",
+              "snapshot": "sources/wiki/pages/afc4a4c98227c931.json",
+              "capturedAt": "2026-09-27T05:02:45.997Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "WM-16"
+            }
+          }
+        ],
+        "wikiTitle": "WM-16非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Weird Mythology",
+        "tags": [
+          "民间",
+          "Weird Mythology"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "a0265e5a9b2c2142"
+  ],
+  "conflicts": []
+}

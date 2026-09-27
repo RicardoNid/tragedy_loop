@@ -1,0 +1,510 @@
+{
+  "id": "2aeed655323a5777",
+  "title": "FS-02",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "FS-02非公开情报表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "FS-02",
+    "loops": 3,
+    "days": 2,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "失踪"
+      },
+      {
+        "day": 2,
+        "incidentText": "自杀"
+      }
+    ],
+    "剧本名": "学校的惨剧",
+    "日文名": "学校の惨劇",
+    "英文名": "The School Tragedy",
+    "作者": "ペンスキー",
+    "轮数": "3",
+    "天数": "2",
+    "难度": "1"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-02",
+      "snapshot": "sources/wiki/pages/97acf3ed747387fe.json",
+      "capturedAt": "2026-09-27T04:23:31.232Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-02",
+      "snapshot": "sources/wiki/pages/97acf3ed747387fe.json",
+      "capturedAt": "2026-09-27T04:23:31.232Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-02",
+      "snapshot": "sources/wiki/pages/97acf3ed747387fe.json",
+      "capturedAt": "2026-09-27T04:23:31.232Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-02",
+      "snapshot": "sources/wiki/pages/97acf3ed747387fe.json",
+      "capturedAt": "2026-09-27T04:23:31.232Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-02",
+      "snapshot": "sources/wiki/pages/97acf3ed747387fe.json",
+      "capturedAt": "2026-09-27T04:23:31.232Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 3
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 3
+    },
+    "英文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 3
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 3
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 3
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 3
+    },
+    "难度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 3
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-02",
+      "snapshot": "sources/wiki/pages/97acf3ed747387fe.json",
+      "capturedAt": "2026-09-27T04:23:31.232Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 3
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-02%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/d29079946362cf83.json",
+      "capturedAt": "2026-09-27T04:23:34.227Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-02",
+        "snapshot": "sources/wiki/pages/97acf3ed747387fe.json",
+        "capturedAt": "2026-09-27T04:23:31.232Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "FS-02",
+        "loops": 3,
+        "days": 2,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "失踪"
+          },
+          {
+            "day": 2,
+            "incidentText": "自杀"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 1,
+        "row": 3
+      },
+      "fields": {
+        "scenarioCode": "FS-02",
+        "剧本名": "学校的惨剧",
+        "日文名": "学校の惨劇",
+        "英文名": "The School Tragedy",
+        "作者": "ペンスキー",
+        "轮数": "3",
+        "天数": "2",
+        "难度": "1"
+      }
+    }
+  ],
+  "wikiTitle": "FS-02",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "First Steps"
+  ],
+  "module": "First Steps",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "2aeed655323a5777",
+        "title": "FS-02",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "FS-02",
+          "loops": 3,
+          "days": 2,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "失踪"
+            },
+            {
+              "day": 2,
+              "incidentText": "自杀"
+            }
+          ],
+          "剧本名": "学校的惨剧",
+          "日文名": "学校の惨劇",
+          "英文名": "The School Tragedy",
+          "作者": "ペンスキー",
+          "轮数": "3",
+          "天数": "2",
+          "难度": "1"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-02",
+            "snapshot": "sources/wiki/pages/97acf3ed747387fe.json",
+            "capturedAt": "2026-09-27T04:23:31.232Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-02",
+            "snapshot": "sources/wiki/pages/97acf3ed747387fe.json",
+            "capturedAt": "2026-09-27T04:23:31.232Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-02",
+            "snapshot": "sources/wiki/pages/97acf3ed747387fe.json",
+            "capturedAt": "2026-09-27T04:23:31.232Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-02",
+            "snapshot": "sources/wiki/pages/97acf3ed747387fe.json",
+            "capturedAt": "2026-09-27T04:23:31.232Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-02",
+            "snapshot": "sources/wiki/pages/97acf3ed747387fe.json",
+            "capturedAt": "2026-09-27T04:23:31.232Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 3
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 3
+          },
+          "英文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 3
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 3
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 3
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 3
+          },
+          "难度": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 3
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-02",
+            "snapshot": "sources/wiki/pages/97acf3ed747387fe.json",
+            "capturedAt": "2026-09-27T04:23:31.232Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 3
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-02",
+              "snapshot": "sources/wiki/pages/97acf3ed747387fe.json",
+              "capturedAt": "2026-09-27T04:23:31.232Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "FS-02",
+              "loops": 3,
+              "days": 2,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "失踪"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "自杀"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 1,
+              "row": 3
+            },
+            "fields": {
+              "scenarioCode": "FS-02",
+              "剧本名": "学校的惨剧",
+              "日文名": "学校の惨劇",
+              "英文名": "The School Tragedy",
+              "作者": "ペンスキー",
+              "轮数": "3",
+              "天数": "2",
+              "难度": "1"
+            }
+          }
+        ],
+        "body": "text/scenarios/2aeed655323a5777.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-02",
+          "snapshot": "sources/wiki/pages/97acf3ed747387fe.json",
+          "capturedAt": "2026-09-27T04:23:31.232Z"
+        },
+        "wikiTitle": "FS-02",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "FS-02非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-02%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-02?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "First Steps"
+        ],
+        "module": "First Steps"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "c338c0782455e6cf",
+        "title": "FS-02非公开情报表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "FS-02",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "守护此地"
+            },
+            {
+              "slot": "X1",
+              "name": "流言四起"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-02%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/d29079946362cf83.json",
+            "capturedAt": "2026-09-27T04:23:34.227Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-02%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/d29079946362cf83.json",
+            "capturedAt": "2026-09-27T04:23:34.227Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-02%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/d29079946362cf83.json",
+            "capturedAt": "2026-09-27T04:23:34.227Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-02%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/d29079946362cf83.json",
+            "capturedAt": "2026-09-27T04:23:34.227Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-02%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/d29079946362cf83.json",
+              "capturedAt": "2026-09-27T04:23:34.227Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "FS-02",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "守护此地"
+                },
+                {
+                  "slot": "X1",
+                  "name": "流言四起"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/c338c0782455e6cf.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-02%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/d29079946362cf83.json",
+          "capturedAt": "2026-09-27T04:23:34.227Z"
+        },
+        "wikiTitle": "FS-02非公开情报表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-02%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-02%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-02%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8?action=edit&section=3"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "First Steps",
+        "tags": [
+          "民间",
+          "First Steps"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "c338c0782455e6cf"
+  ],
+  "conflicts": []
+}

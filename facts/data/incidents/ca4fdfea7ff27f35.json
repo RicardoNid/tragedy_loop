@@ -1,0 +1,45 @@
+{
+  "id": "ca4fdfea7ff27f35",
+  "title": "谋杀",
+  "kind": "incidents",
+  "scope": "Basic Tragedy",
+  "aliases": [],
+  "fields": {
+    "effect": "与当事人位于同一区域的另外1名角色死亡"
+  },
+  "provenance": {
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy",
+      "snapshot": "sources/wiki/pages/c5967c2abd41a1b6.json",
+      "capturedAt": "2026-09-27T03:28:26.906Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy",
+      "snapshot": "sources/wiki/pages/c5967c2abd41a1b6.json",
+      "capturedAt": "2026-09-27T03:28:26.906Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy",
+        "snapshot": "sources/wiki/pages/c5967c2abd41a1b6.json",
+        "capturedAt": "2026-09-27T03:28:26.906Z"
+      },
+      "fields": {
+        "effect": "与当事人位于同一区域的另外1名角色死亡"
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "官方"
+  ],
+  "conflicts": []
+}

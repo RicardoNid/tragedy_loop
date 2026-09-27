@@ -1,0 +1,272 @@
+{
+  "id": "f12d390c80dcb640",
+  "title": "WM-07",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "WM-07非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "WM-07",
+    "剧本名": "*撤稿"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-07?oldid=1610",
+      "snapshot": "sources/wiki/pages/ef14a19030f90c03.json",
+      "capturedAt": "2026-09-27T05:00:41.744Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-07?oldid=1610",
+      "snapshot": "sources/wiki/pages/ef14a19030f90c03.json",
+      "capturedAt": "2026-09-27T05:00:41.744Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 9
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-07?oldid=1610",
+      "snapshot": "sources/wiki/pages/ef14a19030f90c03.json",
+      "capturedAt": "2026-09-27T05:00:41.744Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 9
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-07%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1611",
+      "snapshot": "sources/wiki/pages/f3dcdc0bbc6c3701.json",
+      "capturedAt": "2026-09-27T05:00:46.884Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-07?oldid=1610",
+        "snapshot": "sources/wiki/pages/ef14a19030f90c03.json",
+        "capturedAt": "2026-09-27T05:00:41.744Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "WM-07"
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 6,
+        "row": 9
+      },
+      "fields": {
+        "scenarioCode": "WM-07",
+        "剧本名": "*撤稿"
+      }
+    }
+  ],
+  "wikiTitle": "WM-07",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Weird Mythology"
+  ],
+  "module": "Weird Mythology",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "f12d390c80dcb640",
+        "title": "WM-07",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "WM-07",
+          "剧本名": "*撤稿"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-07?oldid=1610",
+            "snapshot": "sources/wiki/pages/ef14a19030f90c03.json",
+            "capturedAt": "2026-09-27T05:00:41.744Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-07?oldid=1610",
+            "snapshot": "sources/wiki/pages/ef14a19030f90c03.json",
+            "capturedAt": "2026-09-27T05:00:41.744Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 9
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-07?oldid=1610",
+            "snapshot": "sources/wiki/pages/ef14a19030f90c03.json",
+            "capturedAt": "2026-09-27T05:00:41.744Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 9
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-07?oldid=1610",
+              "snapshot": "sources/wiki/pages/ef14a19030f90c03.json",
+              "capturedAt": "2026-09-27T05:00:41.744Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "WM-07"
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 6,
+              "row": 9
+            },
+            "fields": {
+              "scenarioCode": "WM-07",
+              "剧本名": "*撤稿"
+            }
+          }
+        ],
+        "body": "text/scenarios/f12d390c80dcb640.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-07?oldid=1610",
+          "snapshot": "sources/wiki/pages/ef14a19030f90c03.json",
+          "capturedAt": "2026-09-27T05:00:41.744Z"
+        },
+        "wikiTitle": "WM-07",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "WM-07非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-07%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-07?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Weird Mythology"
+        ],
+        "module": "Weird Mythology"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "506a1a9a58ee8168",
+        "title": "WM-07非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "WM-07"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-07%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1611",
+            "snapshot": "sources/wiki/pages/f3dcdc0bbc6c3701.json",
+            "capturedAt": "2026-09-27T05:00:46.884Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-07%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1611",
+            "snapshot": "sources/wiki/pages/f3dcdc0bbc6c3701.json",
+            "capturedAt": "2026-09-27T05:00:46.884Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-07%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1611",
+            "snapshot": "sources/wiki/pages/f3dcdc0bbc6c3701.json",
+            "capturedAt": "2026-09-27T05:00:46.884Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-07%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1611",
+              "snapshot": "sources/wiki/pages/f3dcdc0bbc6c3701.json",
+              "capturedAt": "2026-09-27T05:00:46.884Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "WM-07"
+            }
+          }
+        ],
+        "wikiTitle": "WM-07非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Weird Mythology",
+        "tags": [
+          "民间",
+          "Weird Mythology"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "506a1a9a58ee8168"
+  ],
+  "conflicts": []
+}

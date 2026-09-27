@@ -1,0 +1,67 @@
+{
+  "id": "8a2333a6303bfacd",
+  "title": "诅咒牌在版图，版图没有角色，那张诅咒牌如何处理？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / HSA / 第 3 行",
+  "aliases": [],
+  "fields": {
+    "question": "诅咒牌在版图，版图没有角色，那张诅咒牌如何处理？",
+    "answer": "无事发生，如果是【被诅咒的土地】，可以杀死主人公"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1u35d2",
+      "snapshot": "sources/faq-sheet/hsa.json",
+      "sheet": "HSA",
+      "row": 3,
+      "cells": "A3:B3",
+      "capturedAt": "2026-09-27T05:40:17.319Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1u35d2",
+      "snapshot": "sources/faq-sheet/hsa.json",
+      "sheet": "HSA",
+      "row": 3,
+      "cells": "A3:B3",
+      "capturedAt": "2026-09-27T05:40:17.319Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1u35d2",
+      "snapshot": "sources/faq-sheet/hsa.json",
+      "sheet": "HSA",
+      "row": 3,
+      "cells": "A3:B3",
+      "capturedAt": "2026-09-27T05:40:17.319Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1u35d2",
+        "snapshot": "sources/faq-sheet/hsa.json",
+        "sheet": "HSA",
+        "row": 3,
+        "cells": "A3:B3",
+        "capturedAt": "2026-09-27T05:40:17.319Z"
+      },
+      "fields": {
+        "question": "诅咒牌在版图，版图没有角色，那张诅咒牌如何处理？",
+        "answer": "无事发生，如果是【被诅咒的土地】，可以杀死主人公"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "HSA",
+    "关于诅咒牌",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

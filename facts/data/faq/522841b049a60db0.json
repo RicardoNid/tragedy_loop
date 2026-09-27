@@ -1,0 +1,67 @@
+{
+  "id": "522841b049a60db0",
+  "title": "远方能放牌吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 中文特供Promo卡 / 第 7 行",
+  "aliases": [],
+  "fields": {
+    "question": "远方能放牌吗？",
+    "answer": "不能，没有版图"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=mknfvi",
+      "snapshot": "sources/faq-sheet/promo.json",
+      "sheet": "中文特供Promo卡",
+      "row": 7,
+      "cells": "A7:B7",
+      "capturedAt": "2026-09-27T05:40:39.708Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=mknfvi",
+      "snapshot": "sources/faq-sheet/promo.json",
+      "sheet": "中文特供Promo卡",
+      "row": 7,
+      "cells": "A7:B7",
+      "capturedAt": "2026-09-27T05:40:39.708Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=mknfvi",
+      "snapshot": "sources/faq-sheet/promo.json",
+      "sheet": "中文特供Promo卡",
+      "row": 7,
+      "cells": "A7:B7",
+      "capturedAt": "2026-09-27T05:40:39.708Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=mknfvi",
+        "snapshot": "sources/faq-sheet/promo.json",
+        "sheet": "中文特供Promo卡",
+        "row": 7,
+        "cells": "A7:B7",
+        "capturedAt": "2026-09-27T05:40:39.708Z"
+      },
+      "fields": {
+        "question": "远方能放牌吗？",
+        "answer": "不能，没有版图"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "中文特供Promo卡",
+    "关于远方",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

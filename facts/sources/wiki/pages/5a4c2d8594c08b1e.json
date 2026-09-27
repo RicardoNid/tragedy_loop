@@ -1,0 +1,1822 @@
+{
+  "categories": [],
+  "headings": [],
+  "html": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-N6XD44P\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->\n<div class=\"mw-content-ltr mw-parser-output\" lang=\"zh-Hans-CN\" dir=\"ltr\"><p><strong class=\"mw-selflink selflink\">Another Horizon Revised</strong>的特殊规则如下\n</p><p>表世界与里世界\n</p><p>每轮轮回开始时EX槽为0。根据目前ex槽的奇偶性判定世界线，偶数代表当前位于表世界，奇数代表位于里世界。\n</p><p>如果当天进行过世界移动（无论几次），则在当天的回合结束阶段开始时，提升1点ex槽。（优先于杀人狂等强制判定）\n</p><p>除了模组中提到的世界移动之外，每轮限1次的友好能力正常处理完毕之后，也会进行世界移动。\n</p><p>心境反转\n</p><p>在里世界时，不安指示物与友好指示物效果按如下替换：\n</p><p>通过友好指示物数量判定事件是否发生，通过不安指示物数量判定是否能够使用友好能力。\n</p><p>傀儡无视友好\n</p><p>傀儡无视友好是无视友好特性的一种\n</p><p>在无视友好特性的基础上，剧作家可以在剧作家能力阶段使用带有该特性的角色的友好能力（需满足对应的指示物数量条件）。此时，剧作家必须明确声明使用能力的角色和目标。\n</p><p>可变身份\n</p><p>在规则与身份一览表中，如果某条规则中带有表/里字样，则代表在同1名角色上分配了诸如强迫症/关键人物这样的身份\n</p><p>该卡牌在表世界为强迫症，里世界为关键人物，最终决战时需要明确指出该角色表里两个世界的身份。\n</p><p>初始手牌变更\n</p><p>在AHR模组中，主人公在轮回开始时会额外获得不安+2，剧作家会在轮回开始时额外获得友好+1，并且在第一轮轮回开始时额外获得绝望+1\n</p>\n<table class=\"fandom-table\">\n<tbody><tr>\n<td>AHR\n</td>\n<td>剧本\n</td>\n<td>关\n<p>键\n人\n物\n</p>\n</td>\n<td>强迫症\n</td>\n<td>提线木偶\n</td>\n<td>叙述者\n</td>\n<td>童谣\n</td>\n<td>次元旅者\n</td>\n<td>主谋\n</td>\n<td>因果残片\n</td>\n<td>杀人狂\n</td>\n<td>魔笛手\n</td>\n<td>传谣人\n</td>\n<td>布道者\n</td>\n<td>爱丽丝\n</td>\n<td>附加规则\n</td></tr>\n<tr>\n<td rowspan=\"5\">Y\n</td>\n<td>闭锁的未来\n</td>\n<td>里\n</td>\n<td>表\n</td>\n<td>①\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>【失败条件：轮回结束时】当前为表世界\n</td></tr>\n<tr>\n<td>童话里的杀人鬼\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td></tr>\n<tr>\n<td>鹅妈妈神秘故事\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>【失败条件：轮回结束时】有X具或以上尸体（X为当前轮回数，且最大为3）\n</td></tr>\n<tr>\n<td>次元融合计划\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>【失败条件：轮回结束时】本轮轮回中引发过遗言或遗失物事件\n</td></tr>\n<tr>\n<td>虚幻世界\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>【失败条件：轮回结束时】追加自该规则的强迫症（或尸体）身上的[密谋]与当前Ex槽的数值合计为3或以上\n</td></tr>\n<tr>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td></tr>\n<tr>\n<td rowspan=\"7\">X\n</td>\n<td>化身博士\n</td>\n<td>表\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>里\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td></tr>\n<tr>\n<td>恶魔吹着笛子来\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>表\n</td>\n<td>\n</td>\n<td>里\n</td>\n<td>\n</td>\n<td>\n</td></tr>\n<tr>\n<td>傀儡之线\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>里\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>【强制：常驻】所有无视友好变为傀儡无视友好（包括绝望附加的）\n</td></tr>\n<tr>\n<td>爱丽丝梦游仙境\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>里\n</td>\n<td>\n</td>\n<td>表\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>【强制：剧本创作时】爱丽丝必须有少女属性\n</td></tr>\n<tr>\n<td>超越世界线\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>【强制：轮回开始时】偶数轮轮回开始时，剧作家获得[绝望+1]，最终轮轮回开始时，主人公获得[希望+1]\n</td></tr>\n<tr>\n<td>难以言喻的怪物\n</td>\n<td>\n</td>\n<td>里\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>表\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>【任意能力：回合结束阶段】Ex槽为3或以上→主人公死亡\n</td></tr>\n<tr>\n<td>空想扩大病毒\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>【强制：常驻】当前为里世界→身上有2种或以上不同指示物的平民或因果残片的角色身份变为杀人狂\n</td></tr>\n<tr>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td></tr>\n<tr>\n<td rowspan=\"23\">身\n<p>份\n</p>\n</td>\n<td>\n</td>\n<td>限\n</td>\n<td colspan=\"5\">身份特性\n</td>\n<td colspan=\"8\">\n</td></tr>\n<tr>\n<td>关键人物\n</td>\n<td>\n</td>\n<td colspan=\"5\">\n</td>\n<td colspan=\"8\">【强制：该角色死亡时】主人公失败，当前轮回立即结束\n</td></tr>\n<tr>\n<td rowspan=\"2\">强迫症\n</td>\n<td rowspan=\"2\">\n</td>\n<td colspan=\"5\" rowspan=\"2\">必定无视友好\n</td>\n<td colspan=\"8\">【强制：剧本制作时】必须成为某1个事件的当事人\n</td></tr>\n<tr>\n<td colspan=\"8\">【强制：事件阶段】当事人为该角色的事件必定会发生\n</td></tr>\n<tr>\n<td>提线木偶\n</td>\n<td>\n</td>\n<td colspan=\"5\">傀儡无视友好\n</td>\n<td colspan=\"8\">【强制：结算该角色友好能力后】该角色身上有2种或以上不同指示物→该角色死亡，进行世界移动\n</td></tr>\n<tr>\n<td rowspan=\"2\">叙述者\n</td>\n<td rowspan=\"2\">\n</td>\n<td colspan=\"5\" rowspan=\"2\">不死\n</td>\n<td colspan=\"8\">【任意能力：剧作家能力阶段】Ex槽为1或以上→选择与该角色位于同一区域的另外2名角色，移动两者之间的一个标记。\n</td></tr>\n<tr>\n<td colspan=\"8\">【强制：轮回开始时】若上轮轮回结束时Ex槽为3或以上→主人公获得[希望+1]\n</td></tr>\n<tr>\n<td rowspan=\"3\">童谣\n</td>\n<td rowspan=\"3\">\n</td>\n<td colspan=\"5\" rowspan=\"3\">傀儡无视友好\n</td>\n<td colspan=\"8\">【强制：结算该角色友好能力后】若该角色的友好能力指定了对象，那些被指定为对象的角色死亡\n</td></tr>\n<tr>\n<td colspan=\"8\">【任意能力：剧作家能力阶段】往同一区域中任意1名角色身上放置1枚[不安]或[友好]（每轮限1次）\n</td></tr>\n<tr>\n<td colspan=\"8\">【任意能力：回合结束阶段】该角色身上有4种或以上不同指示物→主人公死亡\n</td></tr>\n<tr>\n<td rowspan=\"2\">次元旅者\n</td>\n<td rowspan=\"2\">\n</td>\n<td colspan=\"5\" rowspan=\"2\">不死\n</td>\n<td colspan=\"8\">【强制：行动结算阶段】无视该角色身上放置的禁止友好\n</td></tr>\n<tr>\n<td colspan=\"8\">【任意能力：最终日的回合结束阶段】该角色身上有2种或以下不同指示物→主人公死亡\n</td></tr>\n<tr>\n<td>主谋\n</td>\n<td>\n</td>\n<td colspan=\"5\">无视友好\n</td>\n<td colspan=\"8\">【任意能力：剧作家能力阶段】往同一区域中任意一名角色身上，或该角色所在的版图上放置1枚[密谋]\n</td></tr>\n<tr>\n<td rowspan=\"2\">因果残片\n</td>\n<td rowspan=\"2\">\n</td>\n<td colspan=\"5\" rowspan=\"2\">\n</td>\n<td colspan=\"8\">【强制：轮回开始时】若该角色在上轮轮回结束时处于死亡状态→剧作家获得[绝望+1]\n</td></tr>\n<tr>\n<td colspan=\"8\">【强制：轮回开始时】若该角色在上轮轮回结束时存活并且身上有2枚或以上的[友好]，主人公获得[希望+1]\n</td></tr>\n<tr>\n<td>杀人狂\n</td>\n<td>\n</td>\n<td colspan=\"5\">\n</td>\n<td colspan=\"8\">【强制：回合结束阶段】仅有1名角色与该角色位于同一区域→那名角色死亡\n</td></tr>\n<tr>\n<td rowspan=\"2\">魔笛手\n</td>\n<td rowspan=\"2\">\n</td>\n<td colspan=\"5\" rowspan=\"2\">无视友好\n</td>\n<td colspan=\"8\">【强制：回合结束阶段】Ex槽为2或以上→使同一区域任意1名角色死亡（每轮限1次）\n</td></tr>\n<tr>\n<td colspan=\"8\">【任意能力：回合结束阶段】可以往同一区域任意1具尸体上放置1枚[密谋]，随后，如果所有尸体上的[密谋]合计有3枚或以上，则主人公死亡\n</td></tr>\n<tr>\n<td>传谣人\n</td>\n<td>①\n</td>\n<td colspan=\"5\">\n</td>\n<td colspan=\"8\">【任意能力：剧作家能力阶段】往同一区域中任意1名角色身上放置1枚[不安]\n</td></tr>\n<tr>\n<td rowspan=\"2\">布道者\n</td>\n<td rowspan=\"2\">①\n</td>\n<td colspan=\"5\" rowspan=\"2\">\n</td>\n<td colspan=\"8\">【任意能力：剧作家能力阶段】往同一区域中任意1名角色身上放置1枚[友好]\n</td></tr>\n<tr>\n<td colspan=\"8\">【强制：该角色死亡时】往同区域中任意1名角色身上放置1枚[绝望]，随后，可以进行世界移动\n</td></tr>\n<tr>\n<td rowspan=\"2\">爱丽丝\n</td>\n<td rowspan=\"2\">\n</td>\n<td colspan=\"5\" rowspan=\"2\">\n</td>\n<td colspan=\"8\">【失败条件：轮回结束时】该卡牌为死亡状态\n</td></tr>\n<tr>\n<td colspan=\"8\">【强制：结算该角色友好能力后】Ex槽为1或以上→往同一区域的所有其他角色身上放置1枚[希望]（每轮限1次）\n</td></tr>\n<tr>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td></tr>\n<tr>\n<td rowspan=\"14\">事\n<p>件\n</p>\n</td>\n<td>事件名称\n</td>\n<td colspan=\"14\">效果\n</td></tr>\n<tr>\n<td>冲动杀人\n</td>\n<td colspan=\"14\">&lt;当事人不安限度-1&gt;与当事人位于同一区域的另外1名角色死亡\n</td></tr>\n<tr>\n<td>次元转换\n</td>\n<td colspan=\"14\">&lt;当事人存活时必定发生&gt;进行世界移动\n</td></tr>\n<tr>\n<td>次元歪曲\n</td>\n<td colspan=\"14\">可以进行世界移动，往任意1名角色身上放置2枚[不安]，随后往另外1名角色身上放置2枚[友好]\n</td></tr>\n<tr>\n<td>次元断层\n</td>\n<td colspan=\"14\">可以进行世界移动，随后，若当事人身上有3种或以上不同种类的指示物→主人公死亡\n</td></tr>\n<tr>\n<td>遗失物\n</td>\n<td colspan=\"14\">往和当事人位于同一区域的1名角色身上放置1枚[密谋]，然后，将当事人移动至任意版图\n</td></tr>\n<tr>\n<td>空想事件\n</td>\n<td colspan=\"14\">&lt;通过密谋指示物数量判定是否发生&gt;从冲动杀人、次元歪曲或遗失事件中，选择1个事件进行结算\n</td></tr>\n<tr>\n<td>遗言\n</td>\n<td colspan=\"14\">当事人死亡，下轮轮回开始时，主人公获得[希望+1]\n</td></tr>\n<tr>\n<td rowspan=\"2\">医院事故\n</td>\n<td colspan=\"14\">医院有1枚或以上[密谋]→位于医院的所有角色死亡\n</td></tr>\n<tr>\n<td colspan=\"14\">医院有2枚或以上[密谋]→主人公死亡\n</td></tr>\n<tr>\n<td rowspan=\"2\">奇点\n</td>\n<td colspan=\"14\">当前为表世界，并且本局游戏中本事件首次发生，主人公死亡。否则进行世界移动\n</td></tr>\n<tr>\n<td colspan=\"14\">当前为里世界，并且当事人初始区域有1枚或以上[密谋]→主人公死亡\n</td></tr>\n<tr>\n<td>隙间的阳光\n</td>\n<td colspan=\"14\">队长选择一名角色，往那名角色身上放置1枚[希望]\n</td></tr>\n<tr>\n<td>绝望之暗\n</td>\n<td colspan=\"14\">往任意1名角色身上放置1枚[绝望]\n</td></tr></tbody></table>\n<!-- \nNewPP limit report\nCached time: 20260926161359\nCache expiry: 2592000\nReduced expiry: false\nComplications: []\nCPU time usage: 0.033 seconds\nReal time usage: 0.035 seconds\nPreprocessor visited node count: 1/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/100\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key 1.43.9_prod_zhtragedyrooper:pcache:idhash:265-0!sseVary=RegularPage!zh-cn!FandomDesktop!LegacyGalleries and timestamp 20260926161359 and revision id 502. Rendering was triggered because: page-view\n -->\n</div>",
+  "images": [],
+  "license": [
+    "https://www.fandom.com/zh/licensing-zh"
+  ],
+  "links": [],
+  "tables": [
+    [
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "AHR"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "剧本"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "关\n\n键 人 物"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "强迫症"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "提线木偶"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "叙述者"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "童谣"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "次元旅者"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "主谋"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "因果残片"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "杀人狂"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "魔笛手"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "传谣人"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "布道者"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "爱丽丝"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "附加规则"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 5,
+          "text": "Y"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "闭锁的未来"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "里"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "表"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "【失败条件：轮回结束时】当前为表世界"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "童话里的杀人鬼"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "鹅妈妈神秘故事"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "【失败条件：轮回结束时】有X具或以上尸体（X为当前轮回数，且最大为3）"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "次元融合计划"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "【失败条件：轮回结束时】本轮轮回中引发过遗言或遗失物事件"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "虚幻世界"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "【失败条件：轮回结束时】追加自该规则的强迫症（或尸体）身上的[密谋]与当前Ex槽的数值合计为3或以上"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 7,
+          "text": "X"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "化身博士"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "表"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "里"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "恶魔吹着笛子来"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "表"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "里"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "傀儡之线"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "里"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "【强制：常驻】所有无视友好变为傀儡无视友好（包括绝望附加的）"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "爱丽丝梦游仙境"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "里"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "表"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "【强制：剧本创作时】爱丽丝必须有少女属性"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "超越世界线"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "【强制：轮回开始时】偶数轮轮回开始时，剧作家获得[绝望+1]，最终轮轮回开始时，主人公获得[希望+1]"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "难以言喻的怪物"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "里"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "表"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "【任意能力：回合结束阶段】Ex槽为3或以上→主人公死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "空想扩大病毒"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "【强制：常驻】当前为里世界→身上有2种或以上不同指示物的平民或因果残片的角色身份变为杀人狂"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 23,
+          "text": "身\n\n份"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "限"
+        },
+        {
+          "colspan": 5,
+          "rowspan": 1,
+          "text": "身份特性"
+        },
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": ""
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "关键人物"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 5,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": "【强制：该角色死亡时】主人公失败，当前轮回立即结束"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "强迫症"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 5,
+          "rowspan": 2,
+          "text": "必定无视友好"
+        },
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": "【强制：剧本制作时】必须成为某1个事件的当事人"
+        }
+      ],
+      [
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": "【强制：事件阶段】当事人为该角色的事件必定会发生"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "提线木偶"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 5,
+          "rowspan": 1,
+          "text": "傀儡无视友好"
+        },
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": "【强制：结算该角色友好能力后】该角色身上有2种或以上不同指示物→该角色死亡，进行世界移动"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "叙述者"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 5,
+          "rowspan": 2,
+          "text": "不死"
+        },
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": "【任意能力：剧作家能力阶段】Ex槽为1或以上→选择与该角色位于同一区域的另外2名角色，移动两者之间的一个标记。"
+        }
+      ],
+      [
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": "【强制：轮回开始时】若上轮轮回结束时Ex槽为3或以上→主人公获得[希望+1]"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 3,
+          "text": "童谣"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 3,
+          "text": ""
+        },
+        {
+          "colspan": 5,
+          "rowspan": 3,
+          "text": "傀儡无视友好"
+        },
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": "【强制：结算该角色友好能力后】若该角色的友好能力指定了对象，那些被指定为对象的角色死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": "【任意能力：剧作家能力阶段】往同一区域中任意1名角色身上放置1枚[不安]或[友好]（每轮限1次）"
+        }
+      ],
+      [
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": "【任意能力：回合结束阶段】该角色身上有4种或以上不同指示物→主人公死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "次元旅者"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 5,
+          "rowspan": 2,
+          "text": "不死"
+        },
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": "【强制：行动结算阶段】无视该角色身上放置的禁止友好"
+        }
+      ],
+      [
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": "【任意能力：最终日的回合结束阶段】该角色身上有2种或以下不同指示物→主人公死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "主谋"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 5,
+          "rowspan": 1,
+          "text": "无视友好"
+        },
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": "【任意能力：剧作家能力阶段】往同一区域中任意一名角色身上，或该角色所在的版图上放置1枚[密谋]"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "因果残片"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 5,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": "【强制：轮回开始时】若该角色在上轮轮回结束时处于死亡状态→剧作家获得[绝望+1]"
+        }
+      ],
+      [
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": "【强制：轮回开始时】若该角色在上轮轮回结束时存活并且身上有2枚或以上的[友好]，主人公获得[希望+1]"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "杀人狂"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 5,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": "【强制：回合结束阶段】仅有1名角色与该角色位于同一区域→那名角色死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "魔笛手"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 5,
+          "rowspan": 2,
+          "text": "无视友好"
+        },
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": "【强制：回合结束阶段】Ex槽为2或以上→使同一区域任意1名角色死亡（每轮限1次）"
+        }
+      ],
+      [
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": "【任意能力：回合结束阶段】可以往同一区域任意1具尸体上放置1枚[密谋]，随后，如果所有尸体上的[密谋]合计有3枚或以上，则主人公死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "传谣人"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 5,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": "【任意能力：剧作家能力阶段】往同一区域中任意1名角色身上放置1枚[不安]"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "布道者"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "①"
+        },
+        {
+          "colspan": 5,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": "【任意能力：剧作家能力阶段】往同一区域中任意1名角色身上放置1枚[友好]"
+        }
+      ],
+      [
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": "【强制：该角色死亡时】往同区域中任意1名角色身上放置1枚[绝望]，随后，可以进行世界移动"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "爱丽丝"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 5,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": "【失败条件：轮回结束时】该卡牌为死亡状态"
+        }
+      ],
+      [
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": "【强制：结算该角色友好能力后】Ex槽为1或以上→往同一区域的所有其他角色身上放置1枚[希望]（每轮限1次）"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 14,
+          "text": "事\n\n件"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "事件名称"
+        },
+        {
+          "colspan": 14,
+          "rowspan": 1,
+          "text": "效果"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "冲动杀人"
+        },
+        {
+          "colspan": 14,
+          "rowspan": 1,
+          "text": "<当事人不安限度-1>与当事人位于同一区域的另外1名角色死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "次元转换"
+        },
+        {
+          "colspan": 14,
+          "rowspan": 1,
+          "text": "<当事人存活时必定发生>进行世界移动"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "次元歪曲"
+        },
+        {
+          "colspan": 14,
+          "rowspan": 1,
+          "text": "可以进行世界移动，往任意1名角色身上放置2枚[不安]，随后往另外1名角色身上放置2枚[友好]"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "次元断层"
+        },
+        {
+          "colspan": 14,
+          "rowspan": 1,
+          "text": "可以进行世界移动，随后，若当事人身上有3种或以上不同种类的指示物→主人公死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "遗失物"
+        },
+        {
+          "colspan": 14,
+          "rowspan": 1,
+          "text": "往和当事人位于同一区域的1名角色身上放置1枚[密谋]，然后，将当事人移动至任意版图"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "空想事件"
+        },
+        {
+          "colspan": 14,
+          "rowspan": 1,
+          "text": "<通过密谋指示物数量判定是否发生>从冲动杀人、次元歪曲或遗失事件中，选择1个事件进行结算"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "遗言"
+        },
+        {
+          "colspan": 14,
+          "rowspan": 1,
+          "text": "当事人死亡，下轮轮回开始时，主人公获得[希望+1]"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "医院事故"
+        },
+        {
+          "colspan": 14,
+          "rowspan": 1,
+          "text": "医院有1枚或以上[密谋]→位于医院的所有角色死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 14,
+          "rowspan": 1,
+          "text": "医院有2枚或以上[密谋]→主人公死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "奇点"
+        },
+        {
+          "colspan": 14,
+          "rowspan": 1,
+          "text": "当前为表世界，并且本局游戏中本事件首次发生，主人公死亡。否则进行世界移动"
+        }
+      ],
+      [
+        {
+          "colspan": 14,
+          "rowspan": 1,
+          "text": "当前为里世界，并且当事人初始区域有1枚或以上[密谋]→主人公死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "隙间的阳光"
+        },
+        {
+          "colspan": 14,
+          "rowspan": 1,
+          "text": "队长选择一名角色，往那名角色身上放置1枚[希望]"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "绝望之暗"
+        },
+        {
+          "colspan": 14,
+          "rowspan": 1,
+          "text": "往任意1名角色身上放置1枚[绝望]"
+        }
+      ]
+    ]
+  ],
+  "text": "Another Horizon Revised的特殊规则如下\n\n表世界与里世界\n\n每轮轮回开始时EX槽为0。根据目前ex槽的奇偶性判定世界线，偶数代表当前位于表世界，奇数代表位于里世界。\n\n如果当天进行过世界移动（无论几次），则在当天的回合结束阶段开始时，提升1点ex槽。（优先于杀人狂等强制判定）\n\n除了模组中提到的世界移动之外，每轮限1次的友好能力正常处理完毕之后，也会进行世界移动。\n\n心境反转\n\n在里世界时，不安指示物与友好指示物效果按如下替换：\n\n通过友好指示物数量判定事件是否发生，通过不安指示物数量判定是否能够使用友好能力。\n\n傀儡无视友好\n\n傀儡无视友好是无视友好特性的一种\n\n在无视友好特性的基础上，剧作家可以在剧作家能力阶段使用带有该特性的角色的友好能力（需满足对应的指示物数量条件）。此时，剧作家必须明确声明使用能力的角色和目标。\n\n可变身份\n\n在规则与身份一览表中，如果某条规则中带有表/里字样，则代表在同1名角色上分配了诸如强迫症/关键人物这样的身份\n\n该卡牌在表世界为强迫症，里世界为关键人物，最终决战时需要明确指出该角色表里两个世界的身份。\n\n初始手牌变更\n\n在AHR模组中，主人公在轮回开始时会额外获得不安+2，剧作家会在轮回开始时额外获得友好+1，并且在第一轮轮回开始时额外获得绝望+1\n\nAHR\t剧本\t关\n\n键 人 物\n\n\t强迫症\t提线木偶\t叙述者\t童谣\t次元旅者\t主谋\t因果残片\t杀人狂\t魔笛手\t传谣人\t布道者\t爱丽丝\t附加规则\nY\t闭锁的未来\t里\t表\t①\t①\t\t\t\t\t\t\t\t\t\t【失败条件：轮回结束时】当前为表世界\n童话里的杀人鬼\t①\t\t\t\t①\t\t①\t\t\t\t\t\t\t\n鹅妈妈神秘故事\t\t\t①\t①\t\t\t\t\t\t\t\t\t\t【失败条件：轮回结束时】有X具或以上尸体（X为当前轮回数，且最大为3）\n次元融合计划\t\t\t\t①\t\t①\t\t①\t\t\t\t\t\t【失败条件：轮回结束时】本轮轮回中引发过遗言或遗失物事件\n虚幻世界\t\t①\t①\t\t\t\t①\t\t\t\t\t\t\t【失败条件：轮回结束时】追加自该规则的强迫症（或尸体）身上的[密谋]与当前Ex槽的数值合计为3或以上\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nX\t化身博士\t表\t\t①\t\t\t\t里\t\t\t\t\t\t\t\n恶魔吹着笛子来\t\t\t\t\t\t\t\t\t\t表\t\t里\t\t\n傀儡之线\t\t\t\t\t\t\t\t①\t里\t\t\t①\t\t【强制：常驻】所有无视友好变为傀儡无视友好（包括绝望附加的）\n爱丽丝梦游仙境\t\t\t\t\t\t\t\t\t里\t\t表\t\t①\t【强制：剧本创作时】爱丽丝必须有少女属性\n超越世界线\t\t\t\t\t\t\t\t\t\t\t①\t\t\t【强制：轮回开始时】偶数轮轮回开始时，剧作家获得[绝望+1]，最终轮轮回开始时，主人公获得[希望+1]\n难以言喻的怪物\t\t里\t\t\t\t\t\t\t\t\t表\t①\t\t【任意能力：回合结束阶段】Ex槽为3或以上→主人公死亡\n空想扩大病毒\t\t\t\t\t\t\t\t①\t\t\t①\t①\t\t【强制：常驻】当前为里世界→身上有2种或以上不同指示物的平民或因果残片的角色身份变为杀人狂\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n身\n\n份\n\n\t\t限\t身份特性\t\n关键人物\t\t\t【强制：该角色死亡时】主人公失败，当前轮回立即结束\n强迫症\t\t必定无视友好\t【强制：剧本制作时】必须成为某1个事件的当事人\n【强制：事件阶段】当事人为该角色的事件必定会发生\n提线木偶\t\t傀儡无视友好\t【强制：结算该角色友好能力后】该角色身上有2种或以上不同指示物→该角色死亡，进行世界移动\n叙述者\t\t不死\t【任意能力：剧作家能力阶段】Ex槽为1或以上→选择与该角色位于同一区域的另外2名角色，移动两者之间的一个标记。\n【强制：轮回开始时】若上轮轮回结束时Ex槽为3或以上→主人公获得[希望+1]\n童谣\t\t傀儡无视友好\t【强制：结算该角色友好能力后】若该角色的友好能力指定了对象，那些被指定为对象的角色死亡\n【任意能力：剧作家能力阶段】往同一区域中任意1名角色身上放置1枚[不安]或[友好]（每轮限1次）\n【任意能力：回合结束阶段】该角色身上有4种或以上不同指示物→主人公死亡\n次元旅者\t\t不死\t【强制：行动结算阶段】无视该角色身上放置的禁止友好\n【任意能力：最终日的回合结束阶段】该角色身上有2种或以下不同指示物→主人公死亡\n主谋\t\t无视友好\t【任意能力：剧作家能力阶段】往同一区域中任意一名角色身上，或该角色所在的版图上放置1枚[密谋]\n因果残片\t\t\t【强制：轮回开始时】若该角色在上轮轮回结束时处于死亡状态→剧作家获得[绝望+1]\n【强制：轮回开始时】若该角色在上轮轮回结束时存活并且身上有2枚或以上的[友好]，主人公获得[希望+1]\n杀人狂\t\t\t【强制：回合结束阶段】仅有1名角色与该角色位于同一区域→那名角色死亡\n魔笛手\t\t无视友好\t【强制：回合结束阶段】Ex槽为2或以上→使同一区域任意1名角色死亡（每轮限1次）\n【任意能力：回合结束阶段】可以往同一区域任意1具尸体上放置1枚[密谋]，随后，如果所有尸体上的[密谋]合计有3枚或以上，则主人公死亡\n传谣人\t①\t\t【任意能力：剧作家能力阶段】往同一区域中任意1名角色身上放置1枚[不安]\n布道者\t①\t\t【任意能力：剧作家能力阶段】往同一区域中任意1名角色身上放置1枚[友好]\n【强制：该角色死亡时】往同区域中任意1名角色身上放置1枚[绝望]，随后，可以进行世界移动\n爱丽丝\t\t\t【失败条件：轮回结束时】该卡牌为死亡状态\n【强制：结算该角色友好能力后】Ex槽为1或以上→往同一区域的所有其他角色身上放置1枚[希望]（每轮限1次）\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n事\n\n件\n\n\t事件名称\t效果\n冲动杀人\t<当事人不安限度-1>与当事人位于同一区域的另外1名角色死亡\n次元转换\t<当事人存活时必定发生>进行世界移动\n次元歪曲\t可以进行世界移动，往任意1名角色身上放置2枚[不安]，随后往另外1名角色身上放置2枚[友好]\n次元断层\t可以进行世界移动，随后，若当事人身上有3种或以上不同种类的指示物→主人公死亡\n遗失物\t往和当事人位于同一区域的1名角色身上放置1枚[密谋]，然后，将当事人移动至任意版图\n空想事件\t<通过密谋指示物数量判定是否发生>从冲动杀人、次元歪曲或遗失事件中，选择1个事件进行结算\n遗言\t当事人死亡，下轮轮回开始时，主人公获得[希望+1]\n医院事故\t医院有1枚或以上[密谋]→位于医院的所有角色死亡\n医院有2枚或以上[密谋]→主人公死亡\n奇点\t当前为表世界，并且本局游戏中本事件首次发生，主人公死亡。否则进行世界移动\n当前为里世界，并且当事人初始区域有1枚或以上[密谋]→主人公死亡\n隙间的阳光\t队长选择一名角色，往那名角色身上放置1枚[希望]\n绝望之暗\t往任意1名角色身上放置1枚[绝望]",
+  "title": "Another Horizon Revised",
+  "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon_Revised",
+  "requestedTitle": "Another Horizon Revised",
+  "fetchedAt": "2026-09-27T03:28:24.166Z",
+  "source": "wiki",
+  "id": "5a4c2d8594c08b1e"
+}

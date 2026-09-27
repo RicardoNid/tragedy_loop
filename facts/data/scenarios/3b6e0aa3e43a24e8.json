@@ -1,0 +1,518 @@
+{
+  "id": "3b6e0aa3e43a24e8",
+  "title": "BTX-133",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "BTX-133非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "BTX-133",
+    "loops": 5,
+    "days": 6,
+    "schedule": [
+      {
+        "day": 2,
+        "incidentText": "谋杀"
+      },
+      {
+        "day": 3,
+        "incidentText": "蝴蝶效应"
+      },
+      {
+        "day": 5,
+        "incidentText": "医院事故"
+      },
+      {
+        "day": 6,
+        "incidentText": "远距离杀人"
+      }
+    ],
+    "剧本名": "溺死在泡沫中",
+    "日文名": "泡溺る",
+    "作者": "弾濫",
+    "轮数": "5",
+    "天数": "6"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-133",
+      "snapshot": "sources/wiki/pages/a7162646989909f3.json",
+      "capturedAt": "2026-09-27T03:58:51.338Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-133",
+      "snapshot": "sources/wiki/pages/a7162646989909f3.json",
+      "capturedAt": "2026-09-27T03:58:51.338Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-133",
+      "snapshot": "sources/wiki/pages/a7162646989909f3.json",
+      "capturedAt": "2026-09-27T03:58:51.338Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-133",
+      "snapshot": "sources/wiki/pages/a7162646989909f3.json",
+      "capturedAt": "2026-09-27T03:58:51.338Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-133",
+      "snapshot": "sources/wiki/pages/a7162646989909f3.json",
+      "capturedAt": "2026-09-27T03:58:51.338Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 138
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 138
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 138
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 138
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 138
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-133",
+      "snapshot": "sources/wiki/pages/a7162646989909f3.json",
+      "capturedAt": "2026-09-27T03:58:51.338Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 138
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-133%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/e4b8a72857e52861.json",
+      "capturedAt": "2026-09-27T03:58:54.510Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-133",
+        "snapshot": "sources/wiki/pages/a7162646989909f3.json",
+        "capturedAt": "2026-09-27T03:58:51.338Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "BTX-133",
+        "loops": 5,
+        "days": 6,
+        "schedule": [
+          {
+            "day": 2,
+            "incidentText": "谋杀"
+          },
+          {
+            "day": 3,
+            "incidentText": "蝴蝶效应"
+          },
+          {
+            "day": 5,
+            "incidentText": "医院事故"
+          },
+          {
+            "day": 6,
+            "incidentText": "远距离杀人"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 2,
+        "row": 138
+      },
+      "fields": {
+        "scenarioCode": "BTX-133",
+        "剧本名": "溺死在泡沫中",
+        "日文名": "泡溺る",
+        "作者": "弾濫",
+        "轮数": "5",
+        "天数": "6"
+      }
+    }
+  ],
+  "wikiTitle": "BTX-133",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Basic Tragedy X"
+  ],
+  "module": "Basic Tragedy X",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "3b6e0aa3e43a24e8",
+        "title": "BTX-133",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "BTX-133",
+          "loops": 5,
+          "days": 6,
+          "schedule": [
+            {
+              "day": 2,
+              "incidentText": "谋杀"
+            },
+            {
+              "day": 3,
+              "incidentText": "蝴蝶效应"
+            },
+            {
+              "day": 5,
+              "incidentText": "医院事故"
+            },
+            {
+              "day": 6,
+              "incidentText": "远距离杀人"
+            }
+          ],
+          "剧本名": "溺死在泡沫中",
+          "日文名": "泡溺る",
+          "作者": "弾濫",
+          "轮数": "5",
+          "天数": "6"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-133",
+            "snapshot": "sources/wiki/pages/a7162646989909f3.json",
+            "capturedAt": "2026-09-27T03:58:51.338Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-133",
+            "snapshot": "sources/wiki/pages/a7162646989909f3.json",
+            "capturedAt": "2026-09-27T03:58:51.338Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-133",
+            "snapshot": "sources/wiki/pages/a7162646989909f3.json",
+            "capturedAt": "2026-09-27T03:58:51.338Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-133",
+            "snapshot": "sources/wiki/pages/a7162646989909f3.json",
+            "capturedAt": "2026-09-27T03:58:51.338Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-133",
+            "snapshot": "sources/wiki/pages/a7162646989909f3.json",
+            "capturedAt": "2026-09-27T03:58:51.338Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 138
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 138
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 138
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 138
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 138
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-133",
+            "snapshot": "sources/wiki/pages/a7162646989909f3.json",
+            "capturedAt": "2026-09-27T03:58:51.338Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 138
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-133",
+              "snapshot": "sources/wiki/pages/a7162646989909f3.json",
+              "capturedAt": "2026-09-27T03:58:51.338Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "BTX-133",
+              "loops": 5,
+              "days": 6,
+              "schedule": [
+                {
+                  "day": 2,
+                  "incidentText": "谋杀"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "蝴蝶效应"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "医院事故"
+                },
+                {
+                  "day": 6,
+                  "incidentText": "远距离杀人"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 2,
+              "row": 138
+            },
+            "fields": {
+              "scenarioCode": "BTX-133",
+              "剧本名": "溺死在泡沫中",
+              "日文名": "泡溺る",
+              "作者": "弾濫",
+              "轮数": "5",
+              "天数": "6"
+            }
+          }
+        ],
+        "body": "text/scenarios/3b6e0aa3e43a24e8.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-133",
+          "snapshot": "sources/wiki/pages/a7162646989909f3.json",
+          "capturedAt": "2026-09-27T03:58:51.338Z"
+        },
+        "wikiTitle": "BTX-133",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-133?action=edit&section=1"
+          },
+          {
+            "title": "BTX-133非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-133%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-133?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Basic Tragedy X"
+        ],
+        "module": "Basic Tragedy X"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "2f04694b463f58c9",
+        "title": "BTX-133非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "BTX-133",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "改变未来"
+            },
+            {
+              "slot": "X1",
+              "name": "好友圈"
+            },
+            {
+              "slot": "X2",
+              "name": "恋爱风景线"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-133%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/e4b8a72857e52861.json",
+            "capturedAt": "2026-09-27T03:58:54.510Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-133%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/e4b8a72857e52861.json",
+            "capturedAt": "2026-09-27T03:58:54.510Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-133%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/e4b8a72857e52861.json",
+            "capturedAt": "2026-09-27T03:58:54.510Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-133%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/e4b8a72857e52861.json",
+            "capturedAt": "2026-09-27T03:58:54.510Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-133%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/e4b8a72857e52861.json",
+              "capturedAt": "2026-09-27T03:58:54.510Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "BTX-133",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "改变未来"
+                },
+                {
+                  "slot": "X1",
+                  "name": "好友圈"
+                },
+                {
+                  "slot": "X2",
+                  "name": "恋爱风景线"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/2f04694b463f58c9.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-133%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/e4b8a72857e52861.json",
+          "capturedAt": "2026-09-27T03:58:54.510Z"
+        },
+        "wikiTitle": "BTX-133非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-133%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-133%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-133%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=3"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Basic Tragedy X",
+        "tags": [
+          "民间",
+          "Basic Tragedy X"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "2f04694b463f58c9"
+  ],
+  "conflicts": []
+}

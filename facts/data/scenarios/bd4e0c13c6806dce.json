@@ -1,0 +1,460 @@
+{
+  "id": "bd4e0c13c6806dce",
+  "title": "BTX-43",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "BTX-43非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "BTX-43",
+    "loops": 5,
+    "days": 4,
+    "schedule": [
+      {
+        "day": 2,
+        "incidentText": "谋杀"
+      },
+      {
+        "day": 4,
+        "incidentText": "医院事故"
+      }
+    ],
+    "剧本名": "外面明明是御神木的气味",
+    "作者": "Zillash",
+    "轮数": "5",
+    "天数": "4"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-43",
+      "snapshot": "sources/wiki/pages/8da2d572e0d2a6fd.json",
+      "capturedAt": "2026-09-27T04:04:50.832Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-43",
+      "snapshot": "sources/wiki/pages/8da2d572e0d2a6fd.json",
+      "capturedAt": "2026-09-27T04:04:50.832Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-43",
+      "snapshot": "sources/wiki/pages/8da2d572e0d2a6fd.json",
+      "capturedAt": "2026-09-27T04:04:50.832Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-43",
+      "snapshot": "sources/wiki/pages/8da2d572e0d2a6fd.json",
+      "capturedAt": "2026-09-27T04:04:50.832Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-43",
+      "snapshot": "sources/wiki/pages/8da2d572e0d2a6fd.json",
+      "capturedAt": "2026-09-27T04:04:50.832Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 44
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 44
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 44
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 44
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-43",
+      "snapshot": "sources/wiki/pages/8da2d572e0d2a6fd.json",
+      "capturedAt": "2026-09-27T04:04:50.832Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 44
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-43%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/e6e733a84dfce315.json",
+      "capturedAt": "2026-09-27T04:04:53.624Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-43",
+        "snapshot": "sources/wiki/pages/8da2d572e0d2a6fd.json",
+        "capturedAt": "2026-09-27T04:04:50.832Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "BTX-43",
+        "loops": 5,
+        "days": 4,
+        "schedule": [
+          {
+            "day": 2,
+            "incidentText": "谋杀"
+          },
+          {
+            "day": 4,
+            "incidentText": "医院事故"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 2,
+        "row": 44
+      },
+      "fields": {
+        "scenarioCode": "BTX-43",
+        "剧本名": "外面明明是御神木的气味",
+        "作者": "Zillash",
+        "轮数": "5",
+        "天数": "4"
+      }
+    }
+  ],
+  "wikiTitle": "BTX-43",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Basic Tragedy X"
+  ],
+  "module": "Basic Tragedy X",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "bd4e0c13c6806dce",
+        "title": "BTX-43",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "BTX-43",
+          "loops": 5,
+          "days": 4,
+          "schedule": [
+            {
+              "day": 2,
+              "incidentText": "谋杀"
+            },
+            {
+              "day": 4,
+              "incidentText": "医院事故"
+            }
+          ],
+          "剧本名": "外面明明是御神木的气味",
+          "作者": "Zillash",
+          "轮数": "5",
+          "天数": "4"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-43",
+            "snapshot": "sources/wiki/pages/8da2d572e0d2a6fd.json",
+            "capturedAt": "2026-09-27T04:04:50.832Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-43",
+            "snapshot": "sources/wiki/pages/8da2d572e0d2a6fd.json",
+            "capturedAt": "2026-09-27T04:04:50.832Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-43",
+            "snapshot": "sources/wiki/pages/8da2d572e0d2a6fd.json",
+            "capturedAt": "2026-09-27T04:04:50.832Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-43",
+            "snapshot": "sources/wiki/pages/8da2d572e0d2a6fd.json",
+            "capturedAt": "2026-09-27T04:04:50.832Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-43",
+            "snapshot": "sources/wiki/pages/8da2d572e0d2a6fd.json",
+            "capturedAt": "2026-09-27T04:04:50.832Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 44
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 44
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 44
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 44
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-43",
+            "snapshot": "sources/wiki/pages/8da2d572e0d2a6fd.json",
+            "capturedAt": "2026-09-27T04:04:50.832Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 44
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-43",
+              "snapshot": "sources/wiki/pages/8da2d572e0d2a6fd.json",
+              "capturedAt": "2026-09-27T04:04:50.832Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "BTX-43",
+              "loops": 5,
+              "days": 4,
+              "schedule": [
+                {
+                  "day": 2,
+                  "incidentText": "谋杀"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "医院事故"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 2,
+              "row": 44
+            },
+            "fields": {
+              "scenarioCode": "BTX-43",
+              "剧本名": "外面明明是御神木的气味",
+              "作者": "Zillash",
+              "轮数": "5",
+              "天数": "4"
+            }
+          }
+        ],
+        "body": "text/scenarios/bd4e0c13c6806dce.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-43",
+          "snapshot": "sources/wiki/pages/8da2d572e0d2a6fd.json",
+          "capturedAt": "2026-09-27T04:04:50.832Z"
+        },
+        "wikiTitle": "BTX-43",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-43?action=edit&section=1"
+          },
+          {
+            "title": "BTX-43非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-43%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-43?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Basic Tragedy X"
+        ],
+        "module": "Basic Tragedy X"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "3fa4f2cd059e97dd",
+        "title": "BTX-43非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "BTX-43",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "谋杀计划"
+            },
+            {
+              "slot": "X1",
+              "name": "潜伏的杀人狂"
+            },
+            {
+              "slot": "X2",
+              "name": "流言四起"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-43%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/e6e733a84dfce315.json",
+            "capturedAt": "2026-09-27T04:04:53.624Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-43%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/e6e733a84dfce315.json",
+            "capturedAt": "2026-09-27T04:04:53.624Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-43%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/e6e733a84dfce315.json",
+            "capturedAt": "2026-09-27T04:04:53.624Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-43%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/e6e733a84dfce315.json",
+            "capturedAt": "2026-09-27T04:04:53.624Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-43%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/e6e733a84dfce315.json",
+              "capturedAt": "2026-09-27T04:04:53.624Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "BTX-43",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "谋杀计划"
+                },
+                {
+                  "slot": "X1",
+                  "name": "潜伏的杀人狂"
+                },
+                {
+                  "slot": "X2",
+                  "name": "流言四起"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/3fa4f2cd059e97dd.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-43%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/e6e733a84dfce315.json",
+          "capturedAt": "2026-09-27T04:04:53.624Z"
+        },
+        "wikiTitle": "BTX-43非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-43%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Basic Tragedy X",
+        "tags": [
+          "民间",
+          "Basic Tragedy X"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "3fa4f2cd059e97dd"
+  ],
+  "conflicts": []
+}

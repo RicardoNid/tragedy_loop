@@ -1,0 +1,60 @@
+{
+  "id": "6e60033c648a8181",
+  "title": "A.I.帶有3枚密謀指示物、1枚希望指示物，A.I.為當事人的事件會發生嗎？",
+  "kind": "faq",
+  "scope": "纸质 FAQ / 十周年 / Q5",
+  "aliases": [],
+  "fields": {
+    "question": "A.I.帶有3枚密謀指示物、1枚希望指示物，A.I.為當事人的事件會發生嗎？",
+    "answer": "會。首先A.I.身上所有的指示物都視作不安，因此希望指示物也會計入。並且希望指示物視作密謀-1指示物，而這個例子中不需要計算密謀指示物的數量，所以不會有抵消的計算。"
+  },
+  "provenance": {
+    "question": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/5e4d811055e32254199f84835b012043.jpg",
+      "snapshot": "sources/paper-faq/anniversary.json",
+      "page": 10,
+      "questionNumber": 5
+    },
+    "answer": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/5e4d811055e32254199f84835b012043.jpg",
+      "snapshot": "sources/paper-faq/anniversary.json",
+      "page": 10,
+      "questionNumber": 5
+    }
+  },
+  "sources": [
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/5e4d811055e32254199f84835b012043.jpg",
+      "snapshot": "sources/paper-faq/anniversary.json",
+      "page": 10,
+      "questionNumber": 5
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/5e4d811055e32254199f84835b012043.jpg",
+        "snapshot": "sources/paper-faq/anniversary.json",
+        "page": 10,
+        "questionNumber": 5
+      },
+      "fields": {
+        "question": "A.I.帶有3枚密謀指示物、1枚希望指示物，A.I.為當事人的事件會發生嗎？",
+        "answer": "會。首先A.I.身上所有的指示物都視作不安，因此希望指示物也會計入。並且希望指示物視作密謀-1指示物，而這個例子中不需要計算密謀指示物的數量，所以不會有抵消的計算。"
+      }
+    }
+  ],
+  "tags": [
+    "十周年",
+    "纸质 FAQ",
+    "希望与绝望",
+    "官方"
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/lunhui/5e4d811055e32254199f84835b012043.jpg",
+  "conflicts": []
+}

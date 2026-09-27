@@ -1,0 +1,430 @@
+{
+  "id": "822d92a5d59c339a",
+  "title": "HSA-10",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "HSA-10非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "HSA-10",
+    "loops": 5,
+    "days": 3,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "言灵诅咒"
+      },
+      {
+        "day": 2,
+        "incidentText": "疯狂之夜"
+      },
+      {
+        "day": 3,
+        "incidentText": "失踪"
+      }
+    ],
+    "剧本名": "瓦尔普吉斯之夜",
+    "作者": "α聆弦",
+    "轮数": "5",
+    "天数": "3"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-10",
+      "snapshot": "sources/wiki/pages/86742e8c6e5a7a54.json",
+      "capturedAt": "2026-09-27T04:29:01.944Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-10",
+      "snapshot": "sources/wiki/pages/86742e8c6e5a7a54.json",
+      "capturedAt": "2026-09-27T04:29:01.944Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-10",
+      "snapshot": "sources/wiki/pages/86742e8c6e5a7a54.json",
+      "capturedAt": "2026-09-27T04:29:01.944Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-10",
+      "snapshot": "sources/wiki/pages/86742e8c6e5a7a54.json",
+      "capturedAt": "2026-09-27T04:29:01.944Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-10",
+      "snapshot": "sources/wiki/pages/86742e8c6e5a7a54.json",
+      "capturedAt": "2026-09-27T04:29:01.944Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 12
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 12
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 12
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 12
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-10",
+      "snapshot": "sources/wiki/pages/86742e8c6e5a7a54.json",
+      "capturedAt": "2026-09-27T04:29:01.944Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 12
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-10%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/409edce3f9c29580.json",
+      "capturedAt": "2026-09-27T04:29:04.984Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-10",
+        "snapshot": "sources/wiki/pages/86742e8c6e5a7a54.json",
+        "capturedAt": "2026-09-27T04:29:01.944Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "HSA-10",
+        "loops": 5,
+        "days": 3,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "言灵诅咒"
+          },
+          {
+            "day": 2,
+            "incidentText": "疯狂之夜"
+          },
+          {
+            "day": 3,
+            "incidentText": "失踪"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 5,
+        "row": 12
+      },
+      "fields": {
+        "scenarioCode": "HSA-10",
+        "剧本名": "瓦尔普吉斯之夜",
+        "作者": "α聆弦",
+        "轮数": "5",
+        "天数": "3"
+      }
+    }
+  ],
+  "wikiTitle": "HSA-10",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Haunted Stage Again"
+  ],
+  "module": "Haunted Stage Again",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "822d92a5d59c339a",
+        "title": "HSA-10",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "HSA-10",
+          "loops": 5,
+          "days": 3,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "言灵诅咒"
+            },
+            {
+              "day": 2,
+              "incidentText": "疯狂之夜"
+            },
+            {
+              "day": 3,
+              "incidentText": "失踪"
+            }
+          ],
+          "剧本名": "瓦尔普吉斯之夜",
+          "作者": "α聆弦",
+          "轮数": "5",
+          "天数": "3"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-10",
+            "snapshot": "sources/wiki/pages/86742e8c6e5a7a54.json",
+            "capturedAt": "2026-09-27T04:29:01.944Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-10",
+            "snapshot": "sources/wiki/pages/86742e8c6e5a7a54.json",
+            "capturedAt": "2026-09-27T04:29:01.944Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-10",
+            "snapshot": "sources/wiki/pages/86742e8c6e5a7a54.json",
+            "capturedAt": "2026-09-27T04:29:01.944Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-10",
+            "snapshot": "sources/wiki/pages/86742e8c6e5a7a54.json",
+            "capturedAt": "2026-09-27T04:29:01.944Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-10",
+            "snapshot": "sources/wiki/pages/86742e8c6e5a7a54.json",
+            "capturedAt": "2026-09-27T04:29:01.944Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 12
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 12
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 12
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 12
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-10",
+            "snapshot": "sources/wiki/pages/86742e8c6e5a7a54.json",
+            "capturedAt": "2026-09-27T04:29:01.944Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 12
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-10",
+              "snapshot": "sources/wiki/pages/86742e8c6e5a7a54.json",
+              "capturedAt": "2026-09-27T04:29:01.944Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "HSA-10",
+              "loops": 5,
+              "days": 3,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "言灵诅咒"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "疯狂之夜"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "失踪"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 5,
+              "row": 12
+            },
+            "fields": {
+              "scenarioCode": "HSA-10",
+              "剧本名": "瓦尔普吉斯之夜",
+              "作者": "α聆弦",
+              "轮数": "5",
+              "天数": "3"
+            }
+          }
+        ],
+        "body": "text/scenarios/822d92a5d59c339a.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-10",
+          "snapshot": "sources/wiki/pages/86742e8c6e5a7a54.json",
+          "capturedAt": "2026-09-27T04:29:01.944Z"
+        },
+        "wikiTitle": "HSA-10",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-10?action=edit&section=1"
+          },
+          {
+            "title": "HSA-10非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-10%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-10?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Haunted Stage Again"
+        ],
+        "module": "Haunted Stage Again"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "94b1fb550d47b611",
+        "title": "HSA-10非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "HSA-10"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-10%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/409edce3f9c29580.json",
+            "capturedAt": "2026-09-27T04:29:04.984Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-10%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/409edce3f9c29580.json",
+            "capturedAt": "2026-09-27T04:29:04.984Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-10%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/409edce3f9c29580.json",
+            "capturedAt": "2026-09-27T04:29:04.984Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-10%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/409edce3f9c29580.json",
+              "capturedAt": "2026-09-27T04:29:04.984Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "HSA-10"
+            }
+          }
+        ],
+        "wikiTitle": "HSA-10非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Haunted Stage Again",
+        "tags": [
+          "民间",
+          "Haunted Stage Again"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "94b1fb550d47b611"
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,552 @@
+{
+  "id": "7a6ff5942bc2aabc",
+  "title": "BTX-78",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "BTX-78非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "BTX-78",
+    "loops": 3,
+    "days": 6,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "谋杀"
+      },
+      {
+        "day": 3,
+        "incidentText": "蝴蝶效应"
+      },
+      {
+        "day": 5,
+        "incidentText": "不安扩散"
+      },
+      {
+        "day": 6,
+        "incidentText": "邪气污染"
+      }
+    ],
+    "剧本名": "为了终结世界",
+    "英文名": "To End This World",
+    "作者": "O'Malley",
+    "轮数": "3",
+    "天数": "6",
+    "难度": "8"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-78",
+      "snapshot": "sources/wiki/pages/979e4d0d8b459141.json",
+      "capturedAt": "2026-09-27T04:17:43.630Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-78",
+      "snapshot": "sources/wiki/pages/979e4d0d8b459141.json",
+      "capturedAt": "2026-09-27T04:17:43.630Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-78",
+      "snapshot": "sources/wiki/pages/979e4d0d8b459141.json",
+      "capturedAt": "2026-09-27T04:17:43.630Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-78",
+      "snapshot": "sources/wiki/pages/979e4d0d8b459141.json",
+      "capturedAt": "2026-09-27T04:17:43.630Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-78",
+      "snapshot": "sources/wiki/pages/979e4d0d8b459141.json",
+      "capturedAt": "2026-09-27T04:17:43.630Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 79
+    },
+    "英文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 79
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 79
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 79
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 79
+    },
+    "难度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 79
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-78",
+      "snapshot": "sources/wiki/pages/979e4d0d8b459141.json",
+      "capturedAt": "2026-09-27T04:17:43.630Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 79
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-78%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/77b77cb507f6cfa6.json",
+      "capturedAt": "2026-09-27T04:17:47.217Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-78",
+        "snapshot": "sources/wiki/pages/979e4d0d8b459141.json",
+        "capturedAt": "2026-09-27T04:17:43.630Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "BTX-78",
+        "loops": 3,
+        "days": 6,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "谋杀"
+          },
+          {
+            "day": 3,
+            "incidentText": "蝴蝶效应"
+          },
+          {
+            "day": 5,
+            "incidentText": "不安扩散"
+          },
+          {
+            "day": 6,
+            "incidentText": "邪气污染"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 2,
+        "row": 79
+      },
+      "fields": {
+        "scenarioCode": "BTX-78",
+        "剧本名": "为了终结世界",
+        "英文名": "To End This World",
+        "作者": "O'Malley",
+        "轮数": "3",
+        "天数": "6",
+        "难度": "8"
+      }
+    }
+  ],
+  "wikiTitle": "BTX-78",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Basic Tragedy X"
+  ],
+  "module": "Basic Tragedy X",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "7a6ff5942bc2aabc",
+        "title": "BTX-78",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "BTX-78",
+          "loops": 3,
+          "days": 6,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "谋杀"
+            },
+            {
+              "day": 3,
+              "incidentText": "蝴蝶效应"
+            },
+            {
+              "day": 5,
+              "incidentText": "不安扩散"
+            },
+            {
+              "day": 6,
+              "incidentText": "邪气污染"
+            }
+          ],
+          "剧本名": "为了终结世界",
+          "英文名": "To End This World",
+          "作者": "O'Malley",
+          "轮数": "3",
+          "天数": "6",
+          "难度": "8"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-78",
+            "snapshot": "sources/wiki/pages/979e4d0d8b459141.json",
+            "capturedAt": "2026-09-27T04:17:43.630Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-78",
+            "snapshot": "sources/wiki/pages/979e4d0d8b459141.json",
+            "capturedAt": "2026-09-27T04:17:43.630Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-78",
+            "snapshot": "sources/wiki/pages/979e4d0d8b459141.json",
+            "capturedAt": "2026-09-27T04:17:43.630Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-78",
+            "snapshot": "sources/wiki/pages/979e4d0d8b459141.json",
+            "capturedAt": "2026-09-27T04:17:43.630Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-78",
+            "snapshot": "sources/wiki/pages/979e4d0d8b459141.json",
+            "capturedAt": "2026-09-27T04:17:43.630Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 79
+          },
+          "英文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 79
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 79
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 79
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 79
+          },
+          "难度": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 79
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-78",
+            "snapshot": "sources/wiki/pages/979e4d0d8b459141.json",
+            "capturedAt": "2026-09-27T04:17:43.630Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 79
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-78",
+              "snapshot": "sources/wiki/pages/979e4d0d8b459141.json",
+              "capturedAt": "2026-09-27T04:17:43.630Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "BTX-78",
+              "loops": 3,
+              "days": 6,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "谋杀"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "蝴蝶效应"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "不安扩散"
+                },
+                {
+                  "day": 6,
+                  "incidentText": "邪气污染"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 2,
+              "row": 79
+            },
+            "fields": {
+              "scenarioCode": "BTX-78",
+              "剧本名": "为了终结世界",
+              "英文名": "To End This World",
+              "作者": "O'Malley",
+              "轮数": "3",
+              "天数": "6",
+              "难度": "8"
+            }
+          }
+        ],
+        "body": "text/scenarios/7a6ff5942bc2aabc.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-78",
+          "snapshot": "sources/wiki/pages/979e4d0d8b459141.json",
+          "capturedAt": "2026-09-27T04:17:43.630Z"
+        },
+        "wikiTitle": "BTX-78",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "BTX-78非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-78%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-78?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Basic Tragedy X"
+        ],
+        "module": "Basic Tragedy X"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "f853e9aa0908d9ed",
+        "title": "BTX-78非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "BTX-78",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "改变未来"
+            },
+            {
+              "slot": "X1",
+              "name": "未知因子KAI"
+            },
+            {
+              "slot": "X2",
+              "name": "流言四起"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-78%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/77b77cb507f6cfa6.json",
+            "capturedAt": "2026-09-27T04:17:47.217Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-78%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/77b77cb507f6cfa6.json",
+            "capturedAt": "2026-09-27T04:17:47.217Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-78%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/77b77cb507f6cfa6.json",
+            "capturedAt": "2026-09-27T04:17:47.217Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-78%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/77b77cb507f6cfa6.json",
+            "capturedAt": "2026-09-27T04:17:47.217Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-78%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/77b77cb507f6cfa6.json",
+              "capturedAt": "2026-09-27T04:17:47.217Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "BTX-78",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "改变未来"
+                },
+                {
+                  "slot": "X1",
+                  "name": "未知因子KAI"
+                },
+                {
+                  "slot": "X2",
+                  "name": "流言四起"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/f853e9aa0908d9ed.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-78%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/77b77cb507f6cfa6.json",
+          "capturedAt": "2026-09-27T04:17:47.217Z"
+        },
+        "wikiTitle": "BTX-78非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "1 为了终结世界 作者：O'Malley",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-78%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E4%B8%BA%E4%BA%86%E7%BB%88%E7%BB%93%E4%B8%96%E7%95%8C_%E4%BD%9C%E8%80%85%EF%BC%9AO'Malley"
+          },
+          {
+            "title": "1.1 故事",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-78%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E6%95%85%E4%BA%8B"
+          },
+          {
+            "title": "1.2 剧作家指南",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-78%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E5%89%A7%E4%BD%9C%E5%AE%B6%E6%8C%87%E5%8D%97"
+          },
+          {
+            "title": "1.3 胜利条件",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-78%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E8%83%9C%E5%88%A9%E6%9D%A1%E4%BB%B6"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-78%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-78%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-78%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=3"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-78%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=4"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Basic Tragedy X",
+        "tags": [
+          "民间",
+          "Basic Tragedy X"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "f853e9aa0908d9ed"
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,218 @@
+{
+  "id": "6bcb295b44e53184",
+  "title": "AI",
+  "kind": "characters",
+  "scope": "",
+  "aliases": [
+    "A.I."
+  ],
+  "fields": {
+    "角色名": "A.I.",
+    "初始区域": "都市",
+    "禁行区域": "神社 医院 学校",
+    "不安限度": "4",
+    "属性": [
+      "造物"
+    ],
+    "特性": "剧本制作时，该角色不能为“平民”。\n\n判定该角色为当事人的事件是否发生时，该角色身上的所有指示物都视作不安指示物。",
+    "友好能力": [
+      {
+        "text": "（友好3 1L1）选择公开信息表中记述的1个事件，处理该事件的效果。处理时，当事人默认为A.I.，且一切需要剧作家决定的内容由队长代为决定（所选事件本身不视作已发生）。",
+        "threshold": 3,
+        "limitText": "1L1",
+        "oncePerLoop": true
+      }
+    ]
+  },
+  "provenance": {
+    "角色名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/A.I.",
+      "snapshot": "sources/wiki/pages/2f5700a082215a9b.json",
+      "capturedAt": "2026-09-27T03:28:18.256Z"
+    },
+    "初始区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/A.I.",
+      "snapshot": "sources/wiki/pages/2f5700a082215a9b.json",
+      "capturedAt": "2026-09-27T03:28:18.256Z"
+    },
+    "禁行区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/A.I.",
+      "snapshot": "sources/wiki/pages/2f5700a082215a9b.json",
+      "capturedAt": "2026-09-27T03:28:18.256Z"
+    },
+    "不安限度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/A.I.",
+      "snapshot": "sources/wiki/pages/2f5700a082215a9b.json",
+      "capturedAt": "2026-09-27T03:28:18.256Z"
+    },
+    "属性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/A.I.",
+      "snapshot": "sources/wiki/pages/2f5700a082215a9b.json",
+      "capturedAt": "2026-09-27T03:28:18.256Z"
+    },
+    "特性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/A.I.",
+      "snapshot": "sources/wiki/pages/2f5700a082215a9b.json",
+      "capturedAt": "2026-09-27T03:28:18.256Z"
+    },
+    "友好能力": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/A.I.",
+      "snapshot": "sources/wiki/pages/2f5700a082215a9b.json",
+      "capturedAt": "2026-09-27T03:28:18.256Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/A.I.",
+      "snapshot": "sources/wiki/pages/2f5700a082215a9b.json",
+      "capturedAt": "2026-09-27T03:28:18.256Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/A.I.",
+        "snapshot": "sources/wiki/pages/2f5700a082215a9b.json",
+        "capturedAt": "2026-09-27T03:28:18.256Z"
+      },
+      "fields": {
+        "角色名": "A.I.",
+        "初始区域": "都市",
+        "禁行区域": "神社 医院 学校",
+        "不安限度": "4",
+        "属性": [
+          "造物"
+        ],
+        "特性": "剧本制作时，该角色不能为“平民”。\n\n判定该角色为当事人的事件是否发生时，该角色身上的所有指示物都视作不安指示物。",
+        "友好能力": [
+          {
+            "text": "（友好3 1L1）选择公开信息表中记述的1个事件，处理该事件的效果。处理时，当事人默认为A.I.，且一切需要剧作家决定的内容由队长代为决定（所选事件本身不视作已发生）。",
+            "threshold": 3,
+            "limitText": "1L1",
+            "oncePerLoop": true
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "特性": "剧本制作时，该角色不能为“平民”。判定该角色为当事人的事件是否发生时，该角色身上的所有指示物都视作不安指示物。",
+        "属性": [
+          "造物"
+        ],
+        "初始区域": "都市",
+        "禁行区域": "神社，医院，学校",
+        "不安限度": "4",
+        "友好能力": [
+          {
+            "text": "选择公开信息表中记述的1个事件，处理该事件的效果。处理时，当事人默认为AI，且一切需要剧作家决定的内容由队长代为决定（所选事件本身不视作已发生）。",
+            "threshold": "3",
+            "oncePerLoop": "是"
+          }
+        ]
+      }
+    }
+  ],
+  "body": "text/characters/6bcb295b44e53184.txt",
+  "bodySource": {
+    "provider": "wiki",
+    "url": "https://tragedyrooper.fandom.com/zh/wiki/A.I.",
+    "snapshot": "sources/wiki/pages/2f5700a082215a9b.json",
+    "capturedAt": "2026-09-27T03:28:18.256Z"
+  },
+  "wikiTitle": "A.I.",
+  "originalTables": [],
+  "wikiStatus": "captured",
+  "links": [
+    {
+      "title": "<img style=\"\" src=\"https://static.wikia.nocookie.net/tragedyrooper/images/4/4d/Ai.png/revision/latest/scale-to-width-down/135?cb=20251023162224&amp;path-prefix=zh\" title=\"Ai.png (259 KB)\" class=\"thumbimage\" alt=\"\" height=\"185\" width=\"185\" data-image-name=\"Ai.png\" data-image-key=\"Ai.png\" data-relevant=\"1\">",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:Ai.png"
+    }
+  ],
+  "images": [
+    {
+      "alt": "",
+      "src": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+    }
+  ],
+  "media": [
+    {
+      "title": "Ai.png",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:Ai.png",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/4/4d/Ai.png/revision/latest?cb=20251023162224&format=original&path-prefix=zh",
+      "path": "media/wiki/5be1c8a19a41fe4f.png",
+      "sourceRecord": "sources/wiki/files/5be1c8a19a41fe4f.json",
+      "sha256": "66722277fe3aea735880de9fd3526ba1f0f65017557ea04296192233a868fffa",
+      "bytes": 265133,
+      "fileInfo": "PNG image data, 308 x 422, 8-bit/color RGBA, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/6fadb2d7054aeea7.json",
+  "tags": [
+    "造物",
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "特性",
+      "selected": "剧本制作时，该角色不能为“平民”。\n\n判定该角色为当事人的事件是否发生时，该角色身上的所有指示物都视作不安指示物。",
+      "candidate": "剧本制作时，该角色不能为“平民”。判定该角色为当事人的事件是否发生时，该角色身上的所有指示物都视作不安指示物。",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "禁行区域",
+      "selected": "神社 医院 学校",
+      "candidate": "神社，医院，学校",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "友好能力",
+      "selected": [
+        {
+          "text": "（友好3 1L1）选择公开信息表中记述的1个事件，处理该事件的效果。处理时，当事人默认为A.I.，且一切需要剧作家决定的内容由队长代为决定（所选事件本身不视作已发生）。",
+          "threshold": 3,
+          "limitText": "1L1",
+          "oncePerLoop": true
+        }
+      ],
+      "candidate": [
+        {
+          "text": "选择公开信息表中记述的1个事件，处理该事件的效果。处理时，当事人默认为AI，且一切需要剧作家决定的内容由队长代为决定（所选事件本身不视作已发生）。",
+          "threshold": "3",
+          "oncePerLoop": "是"
+        }
+      ],
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "12475e9d03341f4f",
+  "title": "隙间的阳光",
+  "kind": "incidents",
+  "scope": "Another Horizon Revised",
+  "aliases": [],
+  "fields": {
+    "effect": "队长选择一名角色，往那名角色身上放置1枚[希望]"
+  },
+  "provenance": {
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon_Revised",
+      "snapshot": "sources/wiki/pages/5a4c2d8594c08b1e.json",
+      "capturedAt": "2026-09-27T03:28:24.166Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon_Revised",
+      "snapshot": "sources/wiki/pages/5a4c2d8594c08b1e.json",
+      "capturedAt": "2026-09-27T03:28:24.166Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon_Revised",
+        "snapshot": "sources/wiki/pages/5a4c2d8594c08b1e.json",
+        "capturedAt": "2026-09-27T03:28:24.166Z"
+      },
+      "fields": {
+        "effect": "队长选择一名角色，往那名角色身上放置1枚[希望]"
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "effect": "队长选择一名角色，往那名角色身上放置1枚[希望]"
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "官方"
+  ],
+  "conflicts": []
+}

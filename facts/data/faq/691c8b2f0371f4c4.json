@@ -1,0 +1,60 @@
+{
+  "id": "691c8b2f0371f4c4",
+  "title": "刑警為提線木偶。他帶有5枚友好指示物，並以他自己為對象使用友好能力後，該怎麼操作？",
+  "kind": "faq",
+  "scope": "纸质 FAQ / AHR / Q12",
+  "aliases": [],
+  "fields": {
+    "question": "刑警為提線木偶。他帶有5枚友好指示物，並以他自己為對象使用友好能力後，該怎麼操作？",
+    "answer": "首先，通過刑警的友好能力為刑警自己放置護衛指示物。在友好能力處理完畢後，身上帶有2種指示物的提線木偶會死亡並進行世界移動。在處理死亡時，將刑警身上的護衛指示物移除來代替死亡處理。從結果而言，僅僅進行了一次世界移動。"
+  },
+  "provenance": {
+    "question": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+      "snapshot": "sources/paper-faq/another-horizon-revised.json",
+      "page": 16,
+      "questionNumber": 12
+    },
+    "answer": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+      "snapshot": "sources/paper-faq/another-horizon-revised.json",
+      "page": 16,
+      "questionNumber": 12
+    }
+  },
+  "sources": [
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+      "snapshot": "sources/paper-faq/another-horizon-revised.json",
+      "page": 16,
+      "questionNumber": 12
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+        "snapshot": "sources/paper-faq/another-horizon-revised.json",
+        "page": 16,
+        "questionNumber": 12
+      },
+      "fields": {
+        "question": "刑警為提線木偶。他帶有5枚友好指示物，並以他自己為對象使用友好能力後，該怎麼操作？",
+        "answer": "首先，通過刑警的友好能力為刑警自己放置護衛指示物。在友好能力處理完畢後，身上帶有2種指示物的提線木偶會死亡並進行世界移動。在處理死亡時，將刑警身上的護衛指示物移除來代替死亡處理。從結果而言，僅僅進行了一次世界移動。"
+      }
+    }
+  ],
+  "tags": [
+    "AHR",
+    "纸质 FAQ",
+    "身份",
+    "官方"
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+  "conflicts": []
+}

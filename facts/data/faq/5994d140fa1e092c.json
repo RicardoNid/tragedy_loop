@@ -1,0 +1,60 @@
+{
+  "id": "5994d140fa1e092c",
+  "title": "規則Y是「惡魔的劇本」，如果監視者帶有1枚絕望指示物，或是帶有1枚密謀指示物和1枚希望指示物，在最終日能使主人公死亡嗎？",
+  "kind": "faq",
+  "scope": "纸质 FAQ / LL / Q7",
+  "aliases": [],
+  "fields": {
+    "question": "規則Y是「惡魔的劇本」，如果監視者帶有1枚絕望指示物，或是帶有1枚密謀指示物和1枚希望指示物，在最終日能使主人公死亡嗎？",
+    "answer": "前者可以，後者不可以。在進行指示物合計數量計算時，無論是希望還是絕望指示物，本身只算作1枚指示物。"
+  },
+  "provenance": {
+    "question": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+      "snapshot": "sources/paper-faq/last-liar.json",
+      "page": 13,
+      "questionNumber": 7
+    },
+    "answer": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+      "snapshot": "sources/paper-faq/last-liar.json",
+      "page": 13,
+      "questionNumber": 7
+    }
+  },
+  "sources": [
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+      "snapshot": "sources/paper-faq/last-liar.json",
+      "page": 13,
+      "questionNumber": 7
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+        "snapshot": "sources/paper-faq/last-liar.json",
+        "page": 13,
+        "questionNumber": 7
+      },
+      "fields": {
+        "question": "規則Y是「惡魔的劇本」，如果監視者帶有1枚絕望指示物，或是帶有1枚密謀指示物和1枚希望指示物，在最終日能使主人公死亡嗎？",
+        "answer": "前者可以，後者不可以。在進行指示物合計數量計算時，無論是希望還是絕望指示物，本身只算作1枚指示物。"
+      }
+    }
+  ],
+  "tags": [
+    "LL",
+    "纸质 FAQ",
+    "规则",
+    "官方"
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+  "conflicts": []
+}

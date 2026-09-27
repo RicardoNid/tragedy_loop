@@ -1,0 +1,67 @@
+{
+  "id": "b54dee7a8b4320c4",
+  "title": "大人物是鬼魂，死亡之后能视为在领地加不安吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 角色 / 第 47 行",
+  "aliases": [],
+  "fields": {
+    "question": "大人物是鬼魂，死亡之后能视为在领地加不安吗？",
+    "answer": "不能，尸体的特性一般无效"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 47,
+      "cells": "A47:B47",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 47,
+      "cells": "A47:B47",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 47,
+      "cells": "A47:B47",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+        "snapshot": "sources/faq-sheet/characters.json",
+        "sheet": "角色",
+        "row": 47,
+        "cells": "A47:B47",
+        "capturedAt": "2026-09-27T05:39:49.068Z"
+      },
+      "fields": {
+        "question": "大人物是鬼魂，死亡之后能视为在领地加不安吗？",
+        "answer": "不能，尸体的特性一般无效"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "角色",
+    "关于大人物",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

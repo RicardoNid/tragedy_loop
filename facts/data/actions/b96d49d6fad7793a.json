@@ -1,0 +1,67 @@
+{
+  "id": "b96d49d6fad7793a",
+  "title": "不安+2",
+  "kind": "actions",
+  "scope": "主人公额外手牌（特殊模组或规则下启用）",
+  "aliases": [],
+  "fields": {
+    "effect": "增加2个不安指示物",
+    "count": "1",
+    "oncePerLoop": "是"
+  },
+  "provenance": {
+    "effect": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    },
+    "count": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    },
+    "oncePerLoop": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  },
+  "sources": [
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "effect": "增加2个不安指示物",
+        "count": "1",
+        "oncePerLoop": "是"
+      }
+    }
+  ],
+  "actionSide": "主人公",
+  "availability": [
+    {
+      "module": "AHR",
+      "state": "available",
+      "condition": "在AHR模组中，主人公在轮回开始时会额外获得不安+2，剧作家会在轮回开始时额外获得友好+1，并且在第一轮轮回开始时额外获得绝望+1",
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon_Revised",
+        "snapshot": "sources/wiki/pages/5a4c2d8594c08b1e.json"
+      }
+    }
+  ],
+  "baseAction": false,
+  "authority": "官方",
+  "tags": [
+    "扩展行动牌",
+    "主人公",
+    "AHR",
+    "官方"
+  ],
+  "conflicts": []
+}

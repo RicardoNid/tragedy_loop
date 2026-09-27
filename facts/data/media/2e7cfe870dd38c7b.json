@@ -1,0 +1,60 @@
+{
+  "id": "2e7cfe870dd38c7b",
+  "title": "仙人水印.jpg",
+  "kind": "media",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "bytes": 74499,
+    "sha256": "1e907e3c9deba346014cc1495c200c597738cfca83150222a8c6e7fb21e22af5"
+  },
+  "provenance": {
+    "bytes": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E4%BB%99%E4%BA%BA%E6%B0%B4%E5%8D%B0.jpg",
+      "snapshot": "sources/wiki/files/74f2576657906f98.json"
+    },
+    "sha256": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E4%BB%99%E4%BA%BA%E6%B0%B4%E5%8D%B0.jpg",
+      "snapshot": "sources/wiki/files/74f2576657906f98.json"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E4%BB%99%E4%BA%BA%E6%B0%B4%E5%8D%B0.jpg",
+      "snapshot": "sources/wiki/files/74f2576657906f98.json"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E4%BB%99%E4%BA%BA%E6%B0%B4%E5%8D%B0.jpg",
+        "snapshot": "sources/wiki/files/74f2576657906f98.json"
+      },
+      "fields": {
+        "bytes": 74499,
+        "sha256": "1e907e3c9deba346014cc1495c200c597738cfca83150222a8c6e7fb21e22af5"
+      }
+    }
+  ],
+  "media": [
+    {
+      "title": "仙人水印.jpg",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:%E4%BB%99%E4%BA%BA%E6%B0%B4%E5%8D%B0.jpg",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/c/ce/%E4%BB%99%E4%BA%BA%E6%B0%B4%E5%8D%B0.jpg/revision/latest?cb=20251211192835&format=original&path-prefix=zh",
+      "path": "media/wiki/74f2576657906f98.jpg",
+      "sourceRecord": "sources/wiki/files/74f2576657906f98.json",
+      "sha256": "1e907e3c9deba346014cc1495c200c597738cfca83150222a8c6e7fb21e22af5",
+      "bytes": 74499,
+      "fileInfo": "JPEG image data, baseline, precision 8, 374x523, components 3",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "tags": [],
+  "conflicts": []
+}

@@ -1,0 +1,67 @@
+{
+  "id": "fa3b58c3aee5bd15",
+  "title": "神灵的性别是？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 角色 / 第 27 行",
+  "aliases": [],
+  "fields": {
+    "question": "神灵的性别是？",
+    "answer": "男性和女性，对于所有角色神灵都是异性"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 27,
+      "cells": "A27:B27",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 27,
+      "cells": "A27:B27",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 27,
+      "cells": "A27:B27",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+        "snapshot": "sources/faq-sheet/characters.json",
+        "sheet": "角色",
+        "row": 27,
+        "cells": "A27:B27",
+        "capturedAt": "2026-09-27T05:39:49.068Z"
+      },
+      "fields": {
+        "question": "神灵的性别是？",
+        "answer": "男性和女性，对于所有角色神灵都是异性"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "角色",
+    "关于神灵",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

@@ -1,0 +1,490 @@
+{
+  "id": "6e1c8e35479e38e7",
+  "title": "FS-16",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "FS-16非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "FS-16",
+    "loops": 4,
+    "days": 4,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "不安扩散"
+      },
+      {
+        "day": 2,
+        "incidentText": "失踪"
+      },
+      {
+        "day": 4,
+        "incidentText": "远距离杀人"
+      }
+    ],
+    "剧本名": "爱，或是噩梦？",
+    "英文名": "Love, or a Nightmare?",
+    "作者": "CipherCybr",
+    "轮数": "4",
+    "天数": "4"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-16",
+      "snapshot": "sources/wiki/pages/e1a64bc1760a4a28.json",
+      "capturedAt": "2026-09-27T04:25:20.412Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-16",
+      "snapshot": "sources/wiki/pages/e1a64bc1760a4a28.json",
+      "capturedAt": "2026-09-27T04:25:20.412Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-16",
+      "snapshot": "sources/wiki/pages/e1a64bc1760a4a28.json",
+      "capturedAt": "2026-09-27T04:25:20.412Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-16",
+      "snapshot": "sources/wiki/pages/e1a64bc1760a4a28.json",
+      "capturedAt": "2026-09-27T04:25:20.412Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-16",
+      "snapshot": "sources/wiki/pages/e1a64bc1760a4a28.json",
+      "capturedAt": "2026-09-27T04:25:20.412Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 17
+    },
+    "英文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 17
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 17
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 17
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 17
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-16",
+      "snapshot": "sources/wiki/pages/e1a64bc1760a4a28.json",
+      "capturedAt": "2026-09-27T04:25:20.412Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 17
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-16%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/f9558e79db544041.json",
+      "capturedAt": "2026-09-27T04:25:23.876Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-16",
+        "snapshot": "sources/wiki/pages/e1a64bc1760a4a28.json",
+        "capturedAt": "2026-09-27T04:25:20.412Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "FS-16",
+        "loops": 4,
+        "days": 4,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "不安扩散"
+          },
+          {
+            "day": 2,
+            "incidentText": "失踪"
+          },
+          {
+            "day": 4,
+            "incidentText": "远距离杀人"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 1,
+        "row": 17
+      },
+      "fields": {
+        "scenarioCode": "FS-16",
+        "剧本名": "爱，或是噩梦？",
+        "英文名": "Love, or a Nightmare?",
+        "作者": "CipherCybr",
+        "轮数": "4",
+        "天数": "4"
+      }
+    }
+  ],
+  "wikiTitle": "FS-16",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "First Steps"
+  ],
+  "module": "First Steps",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "6e1c8e35479e38e7",
+        "title": "FS-16",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "FS-16",
+          "loops": 4,
+          "days": 4,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "不安扩散"
+            },
+            {
+              "day": 2,
+              "incidentText": "失踪"
+            },
+            {
+              "day": 4,
+              "incidentText": "远距离杀人"
+            }
+          ],
+          "剧本名": "爱，或是噩梦？",
+          "英文名": "Love, or a Nightmare?",
+          "作者": "CipherCybr",
+          "轮数": "4",
+          "天数": "4"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-16",
+            "snapshot": "sources/wiki/pages/e1a64bc1760a4a28.json",
+            "capturedAt": "2026-09-27T04:25:20.412Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-16",
+            "snapshot": "sources/wiki/pages/e1a64bc1760a4a28.json",
+            "capturedAt": "2026-09-27T04:25:20.412Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-16",
+            "snapshot": "sources/wiki/pages/e1a64bc1760a4a28.json",
+            "capturedAt": "2026-09-27T04:25:20.412Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-16",
+            "snapshot": "sources/wiki/pages/e1a64bc1760a4a28.json",
+            "capturedAt": "2026-09-27T04:25:20.412Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-16",
+            "snapshot": "sources/wiki/pages/e1a64bc1760a4a28.json",
+            "capturedAt": "2026-09-27T04:25:20.412Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 17
+          },
+          "英文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 17
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 17
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 17
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 17
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-16",
+            "snapshot": "sources/wiki/pages/e1a64bc1760a4a28.json",
+            "capturedAt": "2026-09-27T04:25:20.412Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 17
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-16",
+              "snapshot": "sources/wiki/pages/e1a64bc1760a4a28.json",
+              "capturedAt": "2026-09-27T04:25:20.412Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "FS-16",
+              "loops": 4,
+              "days": 4,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "不安扩散"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "失踪"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "远距离杀人"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 1,
+              "row": 17
+            },
+            "fields": {
+              "scenarioCode": "FS-16",
+              "剧本名": "爱，或是噩梦？",
+              "英文名": "Love, or a Nightmare?",
+              "作者": "CipherCybr",
+              "轮数": "4",
+              "天数": "4"
+            }
+          }
+        ],
+        "body": "text/scenarios/6e1c8e35479e38e7.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-16",
+          "snapshot": "sources/wiki/pages/e1a64bc1760a4a28.json",
+          "capturedAt": "2026-09-27T04:25:20.412Z"
+        },
+        "wikiTitle": "FS-16",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "FS-16非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-16%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-16?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "First Steps"
+        ],
+        "module": "First Steps"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "0e3802777630767c",
+        "title": "FS-16非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "FS-16",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "复仇的火种"
+            },
+            {
+              "slot": "X1",
+              "name": "最黑暗的剧本"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-16%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/f9558e79db544041.json",
+            "capturedAt": "2026-09-27T04:25:23.876Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-16%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/f9558e79db544041.json",
+            "capturedAt": "2026-09-27T04:25:23.876Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-16%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/f9558e79db544041.json",
+            "capturedAt": "2026-09-27T04:25:23.876Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-16%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/f9558e79db544041.json",
+            "capturedAt": "2026-09-27T04:25:23.876Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-16%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/f9558e79db544041.json",
+              "capturedAt": "2026-09-27T04:25:23.876Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "FS-16",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "复仇的火种"
+                },
+                {
+                  "slot": "X1",
+                  "name": "最黑暗的剧本"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/0e3802777630767c.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-16%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/f9558e79db544041.json",
+          "capturedAt": "2026-09-27T04:25:23.876Z"
+        },
+        "wikiTitle": "FS-16非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-16%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-16%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-16%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=3"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "First Steps",
+        "tags": [
+          "民间",
+          "First Steps"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "0e3802777630767c"
+  ],
+  "conflicts": []
+}

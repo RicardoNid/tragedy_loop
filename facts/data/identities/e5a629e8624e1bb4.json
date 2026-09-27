@@ -1,0 +1,69 @@
+{
+  "id": "e5a629e8624e1bb4",
+  "title": "魔女",
+  "kind": "identities",
+  "scope": "Basic Tragedy X",
+  "aliases": [],
+  "fields": {
+    "max": "",
+    "traits": "必定无视友好"
+  },
+  "provenance": {
+    "max": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy_X",
+      "snapshot": "sources/wiki/pages/1095c9f923c9c10c.json",
+      "capturedAt": "2026-09-27T03:28:29.736Z"
+    },
+    "traits": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy_X",
+      "snapshot": "sources/wiki/pages/1095c9f923c9c10c.json",
+      "capturedAt": "2026-09-27T03:28:29.736Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy_X",
+      "snapshot": "sources/wiki/pages/1095c9f923c9c10c.json",
+      "capturedAt": "2026-09-27T03:28:29.736Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy_X",
+        "snapshot": "sources/wiki/pages/1095c9f923c9c10c.json",
+        "capturedAt": "2026-09-27T03:28:29.736Z"
+      },
+      "fields": {
+        "max": "",
+        "traits": "必定无视友好",
+        "abilities": []
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "max": "",
+        "traits": "必定无视友好",
+        "abilities": []
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "官方"
+  ],
+  "conflicts": []
+}

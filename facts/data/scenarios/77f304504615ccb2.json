@@ -1,0 +1,394 @@
+{
+  "id": "77f304504615ccb2",
+  "title": "WM+-06",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "WM+-06非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "WM+-06",
+    "loops": 4,
+    "days": 1,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "发现"
+      }
+    ],
+    "剧本名": "正确的排除法",
+    "作者": "ChatnoiR",
+    "轮数": "4",
+    "天数": "1"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-06?oldid=1497",
+      "snapshot": "sources/wiki/pages/bdc98a2684e847e1.json",
+      "capturedAt": "2026-09-27T04:59:01.256Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-06?oldid=1497",
+      "snapshot": "sources/wiki/pages/bdc98a2684e847e1.json",
+      "capturedAt": "2026-09-27T04:59:01.256Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-06?oldid=1497",
+      "snapshot": "sources/wiki/pages/bdc98a2684e847e1.json",
+      "capturedAt": "2026-09-27T04:59:01.256Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-06?oldid=1497",
+      "snapshot": "sources/wiki/pages/bdc98a2684e847e1.json",
+      "capturedAt": "2026-09-27T04:59:01.256Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-06?oldid=1497",
+      "snapshot": "sources/wiki/pages/bdc98a2684e847e1.json",
+      "capturedAt": "2026-09-27T04:59:01.256Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 30
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 30
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 30
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 30
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-06?oldid=1497",
+      "snapshot": "sources/wiki/pages/bdc98a2684e847e1.json",
+      "capturedAt": "2026-09-27T04:59:01.256Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 30
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1893",
+      "snapshot": "sources/wiki/pages/c28d368d19f74384.json",
+      "capturedAt": "2026-09-27T04:59:12.914Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-06?oldid=1497",
+        "snapshot": "sources/wiki/pages/bdc98a2684e847e1.json",
+        "capturedAt": "2026-09-27T04:59:01.256Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "WM+-06",
+        "loops": 4,
+        "days": 1,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "发现"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 6,
+        "row": 30
+      },
+      "fields": {
+        "scenarioCode": "WM+-06",
+        "剧本名": "正确的排除法",
+        "作者": "ChatnoiR",
+        "轮数": "4",
+        "天数": "1"
+      }
+    }
+  ],
+  "wikiTitle": "WM+-06",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Weird Mythology Plus"
+  ],
+  "module": "Weird Mythology Plus",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "77f304504615ccb2",
+        "title": "WM+-06",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "WM+-06",
+          "loops": 4,
+          "days": 1,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "发现"
+            }
+          ],
+          "剧本名": "正确的排除法",
+          "作者": "ChatnoiR",
+          "轮数": "4",
+          "天数": "1"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-06?oldid=1497",
+            "snapshot": "sources/wiki/pages/bdc98a2684e847e1.json",
+            "capturedAt": "2026-09-27T04:59:01.256Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-06?oldid=1497",
+            "snapshot": "sources/wiki/pages/bdc98a2684e847e1.json",
+            "capturedAt": "2026-09-27T04:59:01.256Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-06?oldid=1497",
+            "snapshot": "sources/wiki/pages/bdc98a2684e847e1.json",
+            "capturedAt": "2026-09-27T04:59:01.256Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-06?oldid=1497",
+            "snapshot": "sources/wiki/pages/bdc98a2684e847e1.json",
+            "capturedAt": "2026-09-27T04:59:01.256Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-06?oldid=1497",
+            "snapshot": "sources/wiki/pages/bdc98a2684e847e1.json",
+            "capturedAt": "2026-09-27T04:59:01.256Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 30
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 30
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 30
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 30
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-06?oldid=1497",
+            "snapshot": "sources/wiki/pages/bdc98a2684e847e1.json",
+            "capturedAt": "2026-09-27T04:59:01.256Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 30
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-06?oldid=1497",
+              "snapshot": "sources/wiki/pages/bdc98a2684e847e1.json",
+              "capturedAt": "2026-09-27T04:59:01.256Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "WM+-06",
+              "loops": 4,
+              "days": 1,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "发现"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 6,
+              "row": 30
+            },
+            "fields": {
+              "scenarioCode": "WM+-06",
+              "剧本名": "正确的排除法",
+              "作者": "ChatnoiR",
+              "轮数": "4",
+              "天数": "1"
+            }
+          }
+        ],
+        "body": "text/scenarios/77f304504615ccb2.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-06?oldid=1497",
+          "snapshot": "sources/wiki/pages/bdc98a2684e847e1.json",
+          "capturedAt": "2026-09-27T04:59:01.256Z"
+        },
+        "wikiTitle": "WM+-06",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "WM+-06非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-06?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Weird Mythology Plus"
+        ],
+        "module": "Weird Mythology Plus"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "047b3505dd002c87",
+        "title": "WM+-06非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "WM+-06"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1893",
+            "snapshot": "sources/wiki/pages/c28d368d19f74384.json",
+            "capturedAt": "2026-09-27T04:59:12.914Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1893",
+            "snapshot": "sources/wiki/pages/c28d368d19f74384.json",
+            "capturedAt": "2026-09-27T04:59:12.914Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1893",
+            "snapshot": "sources/wiki/pages/c28d368d19f74384.json",
+            "capturedAt": "2026-09-27T04:59:12.914Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1893",
+              "snapshot": "sources/wiki/pages/c28d368d19f74384.json",
+              "capturedAt": "2026-09-27T04:59:12.914Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "WM+-06"
+            }
+          }
+        ],
+        "wikiTitle": "WM+-06非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Weird Mythology Plus",
+        "tags": [
+          "民间",
+          "Weird Mythology Plus"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "047b3505dd002c87"
+  ],
+  "conflicts": []
+}

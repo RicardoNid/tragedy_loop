@@ -1,0 +1,58 @@
+{
+  "id": "31c8a9f2f319990c",
+  "title": "前兆",
+  "kind": "incidents",
+  "scope": "Mystery Circle",
+  "aliases": [],
+  "fields": {
+    "effect": "<当事人不安限度-1>往和当事人位于同一区域的1名角色身上放置1枚[不安]"
+  },
+  "provenance": {
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Mystery_Circle",
+      "snapshot": "sources/wiki/pages/b21e3f528569eced.json",
+      "capturedAt": "2026-09-27T03:29:50.486Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Mystery_Circle",
+      "snapshot": "sources/wiki/pages/b21e3f528569eced.json",
+      "capturedAt": "2026-09-27T03:29:50.486Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Mystery_Circle",
+        "snapshot": "sources/wiki/pages/b21e3f528569eced.json",
+        "capturedAt": "2026-09-27T03:29:50.486Z"
+      },
+      "fields": {
+        "effect": "<当事人不安限度-1>往和当事人位于同一区域的1名角色身上放置1枚[不安]"
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "effect": "<当事人不安限度-1>往和当事人位于同一区域的1名角色身上放置1枚[不安]"
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "官方"
+  ],
+  "conflicts": []
+}

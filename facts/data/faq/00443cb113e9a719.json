@@ -1,0 +1,67 @@
+{
+  "id": "00443cb113e9a719",
+  "title": "孤守需要移动大小姐和从者，这时候从者如何跟随？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 角色 / 第 114 行",
+  "aliases": [],
+  "fields": {
+    "question": "孤守需要移动大小姐和从者，这时候从者如何跟随？",
+    "answer": "先决定所有人的移动位置，然后从者无视并跟随大小姐移动"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 114,
+      "cells": "A114:B114",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 114,
+      "cells": "A114:B114",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 114,
+      "cells": "A114:B114",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+        "snapshot": "sources/faq-sheet/characters.json",
+        "sheet": "角色",
+        "row": 114,
+        "cells": "A114:B114",
+        "capturedAt": "2026-09-27T05:39:49.068Z"
+      },
+      "fields": {
+        "question": "孤守需要移动大小姐和从者，这时候从者如何跟随？",
+        "answer": "先决定所有人的移动位置，然后从者无视并跟随大小姐移动"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "角色",
+    "关于从者",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

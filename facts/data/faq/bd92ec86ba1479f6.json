@@ -1,0 +1,67 @@
+{
+  "id": "bd92ec86ba1479f6",
+  "title": "如果临时工和临时工？都在场并且同时满足事件的触发条件该怎么结算？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 角色 / 第 123 行",
+  "aliases": [],
+  "fields": {
+    "question": "如果临时工和临时工？都在场并且同时满足事件的触发条件该怎么结算？",
+    "answer": "声明：事件发生，两人同时发生事件，指定两人各自的结算效果后同时进行结算。"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 123,
+      "cells": "A123:B123",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 123,
+      "cells": "A123:B123",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 123,
+      "cells": "A123:B123",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+        "snapshot": "sources/faq-sheet/characters.json",
+        "sheet": "角色",
+        "row": 123,
+        "cells": "A123:B123",
+        "capturedAt": "2026-09-27T05:39:49.068Z"
+      },
+      "fields": {
+        "question": "如果临时工和临时工？都在场并且同时满足事件的触发条件该怎么结算？",
+        "answer": "声明：事件发生，两人同时发生事件，指定两人各自的结算效果后同时进行结算。"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "角色",
+    "关于临时工/临时工？",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

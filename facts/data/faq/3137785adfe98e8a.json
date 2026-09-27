@@ -1,0 +1,67 @@
+{
+  "id": "3137785adfe98e8a",
+  "title": "仙人的X是多少？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 中文特供Promo卡 / 第 10 行",
+  "aliases": [],
+  "fields": {
+    "question": "仙人的X是多少？",
+    "answer": "由剧本规定，写在非公开情报表上"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=mknfvi",
+      "snapshot": "sources/faq-sheet/promo.json",
+      "sheet": "中文特供Promo卡",
+      "row": 10,
+      "cells": "A10:B10",
+      "capturedAt": "2026-09-27T05:40:39.708Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=mknfvi",
+      "snapshot": "sources/faq-sheet/promo.json",
+      "sheet": "中文特供Promo卡",
+      "row": 10,
+      "cells": "A10:B10",
+      "capturedAt": "2026-09-27T05:40:39.708Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=mknfvi",
+      "snapshot": "sources/faq-sheet/promo.json",
+      "sheet": "中文特供Promo卡",
+      "row": 10,
+      "cells": "A10:B10",
+      "capturedAt": "2026-09-27T05:40:39.708Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=mknfvi",
+        "snapshot": "sources/faq-sheet/promo.json",
+        "sheet": "中文特供Promo卡",
+        "row": 10,
+        "cells": "A10:B10",
+        "capturedAt": "2026-09-27T05:40:39.708Z"
+      },
+      "fields": {
+        "question": "仙人的X是多少？",
+        "answer": "由剧本规定，写在非公开情报表上"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "中文特供Promo卡",
+    "关于仙人",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

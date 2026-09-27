@@ -1,0 +1,67 @@
+{
+  "id": "1a0d734737e70222",
+  "title": "学者发动能力提升了EX槽，回合结束阶段EX槽还会因为世界移动而增加吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / AHR / 第 12 行",
+  "aliases": [],
+  "fields": {
+    "question": "学者发动能力提升了EX槽，回合结束阶段EX槽还会因为世界移动而增加吗？",
+    "answer": "会，学者能力与世界移动无关"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1mwbt4",
+      "snapshot": "sources/faq-sheet/ahr.json",
+      "sheet": "AHR",
+      "row": 12,
+      "cells": "A12:B12",
+      "capturedAt": "2026-09-27T05:40:34.313Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1mwbt4",
+      "snapshot": "sources/faq-sheet/ahr.json",
+      "sheet": "AHR",
+      "row": 12,
+      "cells": "A12:B12",
+      "capturedAt": "2026-09-27T05:40:34.313Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1mwbt4",
+      "snapshot": "sources/faq-sheet/ahr.json",
+      "sheet": "AHR",
+      "row": 12,
+      "cells": "A12:B12",
+      "capturedAt": "2026-09-27T05:40:34.313Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=1mwbt4",
+        "snapshot": "sources/faq-sheet/ahr.json",
+        "sheet": "AHR",
+        "row": 12,
+        "cells": "A12:B12",
+        "capturedAt": "2026-09-27T05:40:34.313Z"
+      },
+      "fields": {
+        "question": "学者发动能力提升了EX槽，回合结束阶段EX槽还会因为世界移动而增加吗？",
+        "answer": "会，学者能力与世界移动无关"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "AHR",
+    "关于能力",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

@@ -1,0 +1,462 @@
+{
+  "id": "895e3aa5b33cc75d",
+  "title": "AHR-19",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "AHR-19非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "AHR-19",
+    "loops": 4,
+    "days": 5,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "空想事件"
+      },
+      {
+        "day": 2,
+        "incidentText": "冲动杀人"
+      },
+      {
+        "day": 3,
+        "incidentText": "隙间的阳光"
+      },
+      {
+        "day": 4,
+        "incidentText": "冲动杀人"
+      },
+      {
+        "day": 5,
+        "incidentText": "遗言"
+      }
+    ],
+    "剧本名": "杀死艾玛",
+    "作者": "DB",
+    "轮数": "4",
+    "天数": "5"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-19",
+      "snapshot": "sources/wiki/pages/ef8f8b97190e859f.json",
+      "capturedAt": "2026-09-27T03:44:11.245Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-19",
+      "snapshot": "sources/wiki/pages/ef8f8b97190e859f.json",
+      "capturedAt": "2026-09-27T03:44:11.245Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-19",
+      "snapshot": "sources/wiki/pages/ef8f8b97190e859f.json",
+      "capturedAt": "2026-09-27T03:44:11.245Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-19",
+      "snapshot": "sources/wiki/pages/ef8f8b97190e859f.json",
+      "capturedAt": "2026-09-27T03:44:11.245Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-19",
+      "snapshot": "sources/wiki/pages/ef8f8b97190e859f.json",
+      "capturedAt": "2026-09-27T03:44:11.245Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 20
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 20
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 20
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 20
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-19",
+      "snapshot": "sources/wiki/pages/ef8f8b97190e859f.json",
+      "capturedAt": "2026-09-27T03:44:11.245Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 20
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-19%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/9a7585fde78f5d07.json",
+      "capturedAt": "2026-09-27T03:44:14.099Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-19",
+        "snapshot": "sources/wiki/pages/ef8f8b97190e859f.json",
+        "capturedAt": "2026-09-27T03:44:11.245Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "AHR-19",
+        "loops": 4,
+        "days": 5,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "空想事件"
+          },
+          {
+            "day": 2,
+            "incidentText": "冲动杀人"
+          },
+          {
+            "day": 3,
+            "incidentText": "隙间的阳光"
+          },
+          {
+            "day": 4,
+            "incidentText": "冲动杀人"
+          },
+          {
+            "day": 5,
+            "incidentText": "遗言"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 7,
+        "row": 20
+      },
+      "fields": {
+        "scenarioCode": "AHR-19",
+        "剧本名": "杀死艾玛",
+        "作者": "DB",
+        "轮数": "4",
+        "天数": "5"
+      }
+    }
+  ],
+  "wikiTitle": "AHR-19",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Another Horizon Revised"
+  ],
+  "module": "Another Horizon Revised",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "895e3aa5b33cc75d",
+        "title": "AHR-19",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "AHR-19",
+          "loops": 4,
+          "days": 5,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "空想事件"
+            },
+            {
+              "day": 2,
+              "incidentText": "冲动杀人"
+            },
+            {
+              "day": 3,
+              "incidentText": "隙间的阳光"
+            },
+            {
+              "day": 4,
+              "incidentText": "冲动杀人"
+            },
+            {
+              "day": 5,
+              "incidentText": "遗言"
+            }
+          ],
+          "剧本名": "杀死艾玛",
+          "作者": "DB",
+          "轮数": "4",
+          "天数": "5"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-19",
+            "snapshot": "sources/wiki/pages/ef8f8b97190e859f.json",
+            "capturedAt": "2026-09-27T03:44:11.245Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-19",
+            "snapshot": "sources/wiki/pages/ef8f8b97190e859f.json",
+            "capturedAt": "2026-09-27T03:44:11.245Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-19",
+            "snapshot": "sources/wiki/pages/ef8f8b97190e859f.json",
+            "capturedAt": "2026-09-27T03:44:11.245Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-19",
+            "snapshot": "sources/wiki/pages/ef8f8b97190e859f.json",
+            "capturedAt": "2026-09-27T03:44:11.245Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-19",
+            "snapshot": "sources/wiki/pages/ef8f8b97190e859f.json",
+            "capturedAt": "2026-09-27T03:44:11.245Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 20
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 20
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 20
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 20
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-19",
+            "snapshot": "sources/wiki/pages/ef8f8b97190e859f.json",
+            "capturedAt": "2026-09-27T03:44:11.245Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 20
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-19",
+              "snapshot": "sources/wiki/pages/ef8f8b97190e859f.json",
+              "capturedAt": "2026-09-27T03:44:11.245Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "AHR-19",
+              "loops": 4,
+              "days": 5,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "空想事件"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "冲动杀人"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "隙间的阳光"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "冲动杀人"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "遗言"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 7,
+              "row": 20
+            },
+            "fields": {
+              "scenarioCode": "AHR-19",
+              "剧本名": "杀死艾玛",
+              "作者": "DB",
+              "轮数": "4",
+              "天数": "5"
+            }
+          }
+        ],
+        "body": "text/scenarios/895e3aa5b33cc75d.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-19",
+          "snapshot": "sources/wiki/pages/ef8f8b97190e859f.json",
+          "capturedAt": "2026-09-27T03:44:11.245Z"
+        },
+        "wikiTitle": "AHR-19",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-19?action=edit&section=1"
+          },
+          {
+            "title": "AHR-19非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-19%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-19?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Another Horizon Revised"
+        ],
+        "module": "Another Horizon Revised"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "ee1bdfd046044794",
+        "title": "AHR-19非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "AHR-19"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-19%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/9a7585fde78f5d07.json",
+            "capturedAt": "2026-09-27T03:44:14.099Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-19%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/9a7585fde78f5d07.json",
+            "capturedAt": "2026-09-27T03:44:14.099Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-19%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/9a7585fde78f5d07.json",
+            "capturedAt": "2026-09-27T03:44:14.099Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-19%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/9a7585fde78f5d07.json",
+              "capturedAt": "2026-09-27T03:44:14.099Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "AHR-19"
+            }
+          }
+        ],
+        "wikiTitle": "AHR-19非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Another Horizon Revised",
+        "tags": [
+          "民间",
+          "Another Horizon Revised"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "ee1bdfd046044794"
+  ],
+  "conflicts": []
+}

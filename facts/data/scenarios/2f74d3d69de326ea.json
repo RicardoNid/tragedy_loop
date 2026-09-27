@@ -1,0 +1,446 @@
+{
+  "id": "2f74d3d69de326ea",
+  "title": "LL-03",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "LL-03非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "LL-03",
+    "loops": 4,
+    "days": 6,
+    "schedule": [
+      {
+        "day": 3,
+        "incidentText": "绝望之暗"
+      },
+      {
+        "day": 4,
+        "incidentText": "失踪"
+      },
+      {
+        "day": 5,
+        "incidentText": "希望之光"
+      },
+      {
+        "day": 6,
+        "incidentText": "代行者"
+      }
+    ],
+    "剧本名": "别妨碍推理秀",
+    "作者": "ペンスキー（gitti）",
+    "轮数": "4",
+    "天数": "6"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-03",
+      "snapshot": "sources/wiki/pages/4859603a5e5b36a9.json",
+      "capturedAt": "2026-09-27T04:31:34.664Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-03",
+      "snapshot": "sources/wiki/pages/4859603a5e5b36a9.json",
+      "capturedAt": "2026-09-27T04:31:34.664Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-03",
+      "snapshot": "sources/wiki/pages/4859603a5e5b36a9.json",
+      "capturedAt": "2026-09-27T04:31:34.664Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-03",
+      "snapshot": "sources/wiki/pages/4859603a5e5b36a9.json",
+      "capturedAt": "2026-09-27T04:31:34.664Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-03",
+      "snapshot": "sources/wiki/pages/4859603a5e5b36a9.json",
+      "capturedAt": "2026-09-27T04:31:34.664Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 8,
+      "row": 4
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 8,
+      "row": 4
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 8,
+      "row": 4
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 8,
+      "row": 4
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-03",
+      "snapshot": "sources/wiki/pages/4859603a5e5b36a9.json",
+      "capturedAt": "2026-09-27T04:31:34.664Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 8,
+      "row": 4
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-03%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/bf613199d4b646c4.json",
+      "capturedAt": "2026-09-27T04:31:37.689Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-03",
+        "snapshot": "sources/wiki/pages/4859603a5e5b36a9.json",
+        "capturedAt": "2026-09-27T04:31:34.664Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "LL-03",
+        "loops": 4,
+        "days": 6,
+        "schedule": [
+          {
+            "day": 3,
+            "incidentText": "绝望之暗"
+          },
+          {
+            "day": 4,
+            "incidentText": "失踪"
+          },
+          {
+            "day": 5,
+            "incidentText": "希望之光"
+          },
+          {
+            "day": 6,
+            "incidentText": "代行者"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 8,
+        "row": 4
+      },
+      "fields": {
+        "scenarioCode": "LL-03",
+        "剧本名": "别妨碍推理秀",
+        "作者": "ペンスキー（gitti）",
+        "轮数": "4",
+        "天数": "6"
+      }
+    }
+  ],
+  "wikiTitle": "LL-03",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Last Liar"
+  ],
+  "module": "Last Liar",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "2f74d3d69de326ea",
+        "title": "LL-03",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "LL-03",
+          "loops": 4,
+          "days": 6,
+          "schedule": [
+            {
+              "day": 3,
+              "incidentText": "绝望之暗"
+            },
+            {
+              "day": 4,
+              "incidentText": "失踪"
+            },
+            {
+              "day": 5,
+              "incidentText": "希望之光"
+            },
+            {
+              "day": 6,
+              "incidentText": "代行者"
+            }
+          ],
+          "剧本名": "别妨碍推理秀",
+          "作者": "ペンスキー（gitti）",
+          "轮数": "4",
+          "天数": "6"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-03",
+            "snapshot": "sources/wiki/pages/4859603a5e5b36a9.json",
+            "capturedAt": "2026-09-27T04:31:34.664Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-03",
+            "snapshot": "sources/wiki/pages/4859603a5e5b36a9.json",
+            "capturedAt": "2026-09-27T04:31:34.664Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-03",
+            "snapshot": "sources/wiki/pages/4859603a5e5b36a9.json",
+            "capturedAt": "2026-09-27T04:31:34.664Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-03",
+            "snapshot": "sources/wiki/pages/4859603a5e5b36a9.json",
+            "capturedAt": "2026-09-27T04:31:34.664Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-03",
+            "snapshot": "sources/wiki/pages/4859603a5e5b36a9.json",
+            "capturedAt": "2026-09-27T04:31:34.664Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 8,
+            "row": 4
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 8,
+            "row": 4
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 8,
+            "row": 4
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 8,
+            "row": 4
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-03",
+            "snapshot": "sources/wiki/pages/4859603a5e5b36a9.json",
+            "capturedAt": "2026-09-27T04:31:34.664Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 8,
+            "row": 4
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-03",
+              "snapshot": "sources/wiki/pages/4859603a5e5b36a9.json",
+              "capturedAt": "2026-09-27T04:31:34.664Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "LL-03",
+              "loops": 4,
+              "days": 6,
+              "schedule": [
+                {
+                  "day": 3,
+                  "incidentText": "绝望之暗"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "失踪"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "希望之光"
+                },
+                {
+                  "day": 6,
+                  "incidentText": "代行者"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 8,
+              "row": 4
+            },
+            "fields": {
+              "scenarioCode": "LL-03",
+              "剧本名": "别妨碍推理秀",
+              "作者": "ペンスキー（gitti）",
+              "轮数": "4",
+              "天数": "6"
+            }
+          }
+        ],
+        "body": "text/scenarios/2f74d3d69de326ea.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-03",
+          "snapshot": "sources/wiki/pages/4859603a5e5b36a9.json",
+          "capturedAt": "2026-09-27T04:31:34.664Z"
+        },
+        "wikiTitle": "LL-03",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-03?action=edit&section=1"
+          },
+          {
+            "title": "LL-03非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-03%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-03?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Last Liar"
+        ],
+        "module": "Last Liar"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "02c1a78efcbde643",
+        "title": "LL-03非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "LL-03"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-03%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/bf613199d4b646c4.json",
+            "capturedAt": "2026-09-27T04:31:37.689Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-03%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/bf613199d4b646c4.json",
+            "capturedAt": "2026-09-27T04:31:37.689Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-03%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/bf613199d4b646c4.json",
+            "capturedAt": "2026-09-27T04:31:37.689Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-03%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/bf613199d4b646c4.json",
+              "capturedAt": "2026-09-27T04:31:37.689Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "LL-03"
+            }
+          }
+        ],
+        "wikiTitle": "LL-03非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Last Liar",
+        "tags": [
+          "民间",
+          "Last Liar"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "02c1a78efcbde643"
+  ],
+  "conflicts": []
+}

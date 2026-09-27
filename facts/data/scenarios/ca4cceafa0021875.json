@@ -1,0 +1,500 @@
+{
+  "id": "ca4cceafa0021875",
+  "title": "BTX-120",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "BTX-120非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "BTX-120",
+    "loops": 6,
+    "days": 4,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "自杀"
+      },
+      {
+        "day": 2,
+        "incidentText": "蝴蝶效应"
+      },
+      {
+        "day": 3,
+        "incidentText": "不安扩散"
+      },
+      {
+        "day": 4,
+        "incidentText": "散播"
+      }
+    ],
+    "剧本名": "翌轮",
+    "作者": "易风",
+    "轮数": "6 5",
+    "天数": "4"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-120",
+      "snapshot": "sources/wiki/pages/d779fada7f609271.json",
+      "capturedAt": "2026-09-27T03:55:49.437Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-120",
+      "snapshot": "sources/wiki/pages/d779fada7f609271.json",
+      "capturedAt": "2026-09-27T03:55:49.437Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-120",
+      "snapshot": "sources/wiki/pages/d779fada7f609271.json",
+      "capturedAt": "2026-09-27T03:55:49.437Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-120",
+      "snapshot": "sources/wiki/pages/d779fada7f609271.json",
+      "capturedAt": "2026-09-27T03:55:49.437Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-120",
+      "snapshot": "sources/wiki/pages/d779fada7f609271.json",
+      "capturedAt": "2026-09-27T03:55:49.437Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 124
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 124
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 124
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 124
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-120",
+      "snapshot": "sources/wiki/pages/d779fada7f609271.json",
+      "capturedAt": "2026-09-27T03:55:49.437Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 124
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-120%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/f65e3b3896aa9149.json",
+      "capturedAt": "2026-09-27T03:55:52.150Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-120",
+        "snapshot": "sources/wiki/pages/d779fada7f609271.json",
+        "capturedAt": "2026-09-27T03:55:49.437Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "BTX-120",
+        "loops": 6,
+        "days": 4,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "自杀"
+          },
+          {
+            "day": 2,
+            "incidentText": "蝴蝶效应"
+          },
+          {
+            "day": 3,
+            "incidentText": "不安扩散"
+          },
+          {
+            "day": 4,
+            "incidentText": "散播"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 2,
+        "row": 124
+      },
+      "fields": {
+        "scenarioCode": "BTX-120",
+        "剧本名": "翌轮",
+        "作者": "易风",
+        "轮数": "6 5",
+        "天数": "4"
+      }
+    }
+  ],
+  "wikiTitle": "BTX-120",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Basic Tragedy X"
+  ],
+  "module": "Basic Tragedy X",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "ca4cceafa0021875",
+        "title": "BTX-120",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "BTX-120",
+          "loops": 6,
+          "days": 4,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "自杀"
+            },
+            {
+              "day": 2,
+              "incidentText": "蝴蝶效应"
+            },
+            {
+              "day": 3,
+              "incidentText": "不安扩散"
+            },
+            {
+              "day": 4,
+              "incidentText": "散播"
+            }
+          ],
+          "剧本名": "翌轮",
+          "作者": "易风",
+          "轮数": "6 5",
+          "天数": "4"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-120",
+            "snapshot": "sources/wiki/pages/d779fada7f609271.json",
+            "capturedAt": "2026-09-27T03:55:49.437Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-120",
+            "snapshot": "sources/wiki/pages/d779fada7f609271.json",
+            "capturedAt": "2026-09-27T03:55:49.437Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-120",
+            "snapshot": "sources/wiki/pages/d779fada7f609271.json",
+            "capturedAt": "2026-09-27T03:55:49.437Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-120",
+            "snapshot": "sources/wiki/pages/d779fada7f609271.json",
+            "capturedAt": "2026-09-27T03:55:49.437Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-120",
+            "snapshot": "sources/wiki/pages/d779fada7f609271.json",
+            "capturedAt": "2026-09-27T03:55:49.437Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 124
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 124
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 124
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 124
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-120",
+            "snapshot": "sources/wiki/pages/d779fada7f609271.json",
+            "capturedAt": "2026-09-27T03:55:49.437Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 124
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-120",
+              "snapshot": "sources/wiki/pages/d779fada7f609271.json",
+              "capturedAt": "2026-09-27T03:55:49.437Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "BTX-120",
+              "loops": 6,
+              "days": 4,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "自杀"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "蝴蝶效应"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "不安扩散"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "散播"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 2,
+              "row": 124
+            },
+            "fields": {
+              "scenarioCode": "BTX-120",
+              "剧本名": "翌轮",
+              "作者": "易风",
+              "轮数": "6 5",
+              "天数": "4"
+            }
+          }
+        ],
+        "body": "text/scenarios/ca4cceafa0021875.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-120",
+          "snapshot": "sources/wiki/pages/d779fada7f609271.json",
+          "capturedAt": "2026-09-27T03:55:49.437Z"
+        },
+        "wikiTitle": "BTX-120",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "UP主",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/UP%E4%B8%BB"
+          },
+          {
+            "title": "BTX-120非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-120%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-120?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Basic Tragedy X"
+        ],
+        "module": "Basic Tragedy X"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "bd3e9fa86c099e18",
+        "title": "BTX-120非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "BTX-120",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "改变未来"
+            },
+            {
+              "slot": "X1",
+              "name": "好友圈"
+            },
+            {
+              "slot": "X2",
+              "name": "因果线"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-120%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/f65e3b3896aa9149.json",
+            "capturedAt": "2026-09-27T03:55:52.150Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-120%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/f65e3b3896aa9149.json",
+            "capturedAt": "2026-09-27T03:55:52.150Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-120%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/f65e3b3896aa9149.json",
+            "capturedAt": "2026-09-27T03:55:52.150Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-120%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/f65e3b3896aa9149.json",
+            "capturedAt": "2026-09-27T03:55:52.150Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-120%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/f65e3b3896aa9149.json",
+              "capturedAt": "2026-09-27T03:55:52.150Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "BTX-120",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "改变未来"
+                },
+                {
+                  "slot": "X1",
+                  "name": "好友圈"
+                },
+                {
+                  "slot": "X2",
+                  "name": "因果线"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/bd3e9fa86c099e18.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-120%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/f65e3b3896aa9149.json",
+          "capturedAt": "2026-09-27T03:55:52.150Z"
+        },
+        "wikiTitle": "BTX-120非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-120%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-120%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-120%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=3"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Basic Tragedy X",
+        "tags": [
+          "民间",
+          "Basic Tragedy X"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "bd3e9fa86c099e18"
+  ],
+  "conflicts": []
+}

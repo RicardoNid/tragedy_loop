@@ -1,0 +1,68 @@
+{
+  "id": "2a19ca8ba45b18ee",
+  "title": "斯德哥尔摩症候群",
+  "kind": "rules",
+  "scope": "Sin City",
+  "aliases": [],
+  "fields": {
+    "ruleType": "X",
+    "identityCounts": {
+      "替罪羊": "①",
+      "绑架犯": "①"
+    },
+    "effect": "【强制：行动结算阶段】禁止友好同时具备禁止移动的效果"
+  },
+  "provenance": {
+    "ruleType": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Sin_City",
+      "snapshot": "sources/wiki/pages/59c6099598cb6333.json",
+      "capturedAt": "2026-09-27T03:30:03.250Z"
+    },
+    "identityCounts": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Sin_City",
+      "snapshot": "sources/wiki/pages/59c6099598cb6333.json",
+      "capturedAt": "2026-09-27T03:30:03.250Z"
+    },
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Sin_City",
+      "snapshot": "sources/wiki/pages/59c6099598cb6333.json",
+      "capturedAt": "2026-09-27T03:30:03.250Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Sin_City",
+      "snapshot": "sources/wiki/pages/59c6099598cb6333.json",
+      "capturedAt": "2026-09-27T03:30:03.250Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Sin_City",
+        "snapshot": "sources/wiki/pages/59c6099598cb6333.json",
+        "capturedAt": "2026-09-27T03:30:03.250Z"
+      },
+      "fields": {
+        "ruleType": "X",
+        "identityCounts": {
+          "替罪羊": "①",
+          "绑架犯": "①"
+        },
+        "effect": "【强制：行动结算阶段】禁止友好同时具备禁止移动的效果"
+      }
+    }
+  ],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "X",
+    "民间"
+  ],
+  "conflicts": []
+}

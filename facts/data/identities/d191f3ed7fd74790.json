@@ -1,0 +1,85 @@
+{
+  "id": "d191f3ed7fd74790",
+  "title": "网络名流",
+  "kind": "identities",
+  "scope": "Last Liar",
+  "aliases": [],
+  "fields": {
+    "max": "",
+    "traits": "",
+    "abilities": [
+      "【强制：该角色死亡时】往与该角色同一初始区域的其他所有角色身上放置1枚[不安]",
+      "【强制：结算该角色友好能力后】往与该角色同一初始区域的其他所有角色身上放置1枚[友好]和1枚[不安]（每轮限1次）"
+    ]
+  },
+  "provenance": {
+    "max": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Last_Liar",
+      "snapshot": "sources/wiki/pages/844cae1ed2f5e214.json",
+      "capturedAt": "2026-09-27T03:29:44.914Z"
+    },
+    "traits": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Last_Liar",
+      "snapshot": "sources/wiki/pages/844cae1ed2f5e214.json",
+      "capturedAt": "2026-09-27T03:29:44.914Z"
+    },
+    "abilities": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Last_Liar",
+      "snapshot": "sources/wiki/pages/844cae1ed2f5e214.json",
+      "capturedAt": "2026-09-27T03:29:44.914Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Last_Liar",
+      "snapshot": "sources/wiki/pages/844cae1ed2f5e214.json",
+      "capturedAt": "2026-09-27T03:29:44.914Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Last_Liar",
+        "snapshot": "sources/wiki/pages/844cae1ed2f5e214.json",
+        "capturedAt": "2026-09-27T03:29:44.914Z"
+      },
+      "fields": {
+        "max": "",
+        "traits": "",
+        "abilities": [
+          "【强制：该角色死亡时】往与该角色同一初始区域的其他所有角色身上放置1枚[不安]",
+          "【强制：结算该角色友好能力后】往与该角色同一初始区域的其他所有角色身上放置1枚[友好]和1枚[不安]（每轮限1次）"
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "max": "",
+        "traits": "",
+        "abilities": [
+          "【强制：该角色死亡时】往与该角色同一初始区域的其他所有角色身上放置1枚[不安]",
+          "【强制：结算该角色友好能力后】往与该角色同一初始区域的其他所有角色身上放置1枚[友好]和1枚[不安]（每轮限1次）"
+        ]
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "官方"
+  ],
+  "conflicts": []
+}

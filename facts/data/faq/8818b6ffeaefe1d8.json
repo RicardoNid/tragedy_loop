@@ -1,0 +1,60 @@
+{
+  "id": "8818b6ffeaefe1d8",
+  "title": "能說明一下特殊勝利條件的判定時點嗎？比如，通過殺人狂的能力滿足了背叛者A的勝利條件，但同時規則Y「封印的終末」也滿足神社有2枚密謀的條件，劇作家能夠殺害主人公嗎？",
+  "kind": "faq",
+  "scope": "纸质 FAQ / LL / Q1",
+  "aliases": [],
+  "fields": {
+    "question": "能說明一下特殊勝利條件的判定時點嗎？比如，通過殺人狂的能力滿足了背叛者A的勝利條件，但同時規則Y「封印的終末」也滿足神社有2枚密謀的條件，劇作家能夠殺害主人公嗎？",
+    "answer": "特殊勝利條件會在其適用的階段中不斷地進行判定。因此這個例子中殺人狂的強制能力解決時，背叛者A立即獲得遊戲勝利。"
+  },
+  "provenance": {
+    "question": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+      "snapshot": "sources/paper-faq/last-liar.json",
+      "page": 13,
+      "questionNumber": 1
+    },
+    "answer": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+      "snapshot": "sources/paper-faq/last-liar.json",
+      "page": 13,
+      "questionNumber": 1
+    }
+  },
+  "sources": [
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+      "snapshot": "sources/paper-faq/last-liar.json",
+      "page": 13,
+      "questionNumber": 1
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+        "snapshot": "sources/paper-faq/last-liar.json",
+        "page": 13,
+        "questionNumber": 1
+      },
+      "fields": {
+        "question": "能說明一下特殊勝利條件的判定時點嗎？比如，通過殺人狂的能力滿足了背叛者A的勝利條件，但同時規則Y「封印的終末」也滿足神社有2枚密謀的條件，劇作家能夠殺害主人公嗎？",
+        "answer": "特殊勝利條件會在其適用的階段中不斷地進行判定。因此這個例子中殺人狂的強制能力解決時，背叛者A立即獲得遊戲勝利。"
+      }
+    }
+  ],
+  "tags": [
+    "LL",
+    "纸质 FAQ",
+    "规则",
+    "官方"
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+  "conflicts": []
+}

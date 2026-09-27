@@ -1,0 +1,67 @@
+{
+  "id": "d376a32d32730aa7",
+  "title": "大人物是杀人狂，领地有角色，原地没有，可以如何结算？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 角色 / 第 41 行",
+  "aliases": [],
+  "fields": {
+    "question": "大人物是杀人狂，领地有角色，原地没有，可以如何结算？",
+    "answer": "可以选择在领地还是在原地，选在领地就杀死领地的角色"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 41,
+      "cells": "A41:B41",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 41,
+      "cells": "A41:B41",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 41,
+      "cells": "A41:B41",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+        "snapshot": "sources/faq-sheet/characters.json",
+        "sheet": "角色",
+        "row": 41,
+        "cells": "A41:B41",
+        "capturedAt": "2026-09-27T05:39:49.068Z"
+      },
+      "fields": {
+        "question": "大人物是杀人狂，领地有角色，原地没有，可以如何结算？",
+        "answer": "可以选择在领地还是在原地，选在领地就杀死领地的角色"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "角色",
+    "关于大人物",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

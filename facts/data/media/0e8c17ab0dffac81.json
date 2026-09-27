@@ -1,0 +1,60 @@
+{
+  "id": "0e8c17ab0dffac81",
+  "title": "妹妹.png",
+  "kind": "media",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "bytes": 252452,
+    "sha256": "4d50069d100d6c92ef4d2764c67037402a587fea9c93d31755ff1823b7b5c7f8"
+  },
+  "provenance": {
+    "bytes": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%A6%B9%E5%A6%B9.png",
+      "snapshot": "sources/wiki/files/f1d23d721539cec8.json"
+    },
+    "sha256": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%A6%B9%E5%A6%B9.png",
+      "snapshot": "sources/wiki/files/f1d23d721539cec8.json"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%A6%B9%E5%A6%B9.png",
+      "snapshot": "sources/wiki/files/f1d23d721539cec8.json"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%A6%B9%E5%A6%B9.png",
+        "snapshot": "sources/wiki/files/f1d23d721539cec8.json"
+      },
+      "fields": {
+        "bytes": 252452,
+        "sha256": "4d50069d100d6c92ef4d2764c67037402a587fea9c93d31755ff1823b7b5c7f8"
+      }
+    }
+  ],
+  "media": [
+    {
+      "title": "妹妹.png",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%A6%B9%E5%A6%B9.png",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/7/70/%E5%A6%B9%E5%A6%B9.png/revision/latest?cb=20251023162227&format=original&path-prefix=zh",
+      "path": "media/wiki/f1d23d721539cec8.png",
+      "sourceRecord": "sources/wiki/files/f1d23d721539cec8.json",
+      "sha256": "4d50069d100d6c92ef4d2764c67037402a587fea9c93d31755ff1823b7b5c7f8",
+      "bytes": 252452,
+      "fileInfo": "PNG image data, 308 x 418, 8-bit/color RGBA, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "tags": [],
+  "conflicts": []
+}

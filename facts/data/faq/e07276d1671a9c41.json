@@ -1,0 +1,67 @@
+{
+  "id": "e07276d1671a9c41",
+  "title": "如果护士是魔女，友好技能该如何结算",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 角色 / 第 21 行",
+  "aliases": [],
+  "fields": {
+    "question": "如果护士是魔女，友好技能该如何结算",
+    "answer": "按描述正常结算"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 21,
+      "cells": "A21:B21",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 21,
+      "cells": "A21:B21",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 21,
+      "cells": "A21:B21",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+        "snapshot": "sources/faq-sheet/characters.json",
+        "sheet": "角色",
+        "row": 21,
+        "cells": "A21:B21",
+        "capturedAt": "2026-09-27T05:39:49.068Z"
+      },
+      "fields": {
+        "question": "如果护士是魔女，友好技能该如何结算",
+        "answer": "按描述正常结算"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "角色",
+    "关于护士",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

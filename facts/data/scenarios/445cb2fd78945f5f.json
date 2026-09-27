@@ -1,0 +1,534 @@
+{
+  "id": "445cb2fd78945f5f",
+  "title": "BTX-35",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "BTX-35非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "BTX-35",
+    "loops": 4,
+    "days": 6,
+    "schedule": [
+      {
+        "day": 3,
+        "incidentText": "谋杀"
+      },
+      {
+        "day": 5,
+        "incidentText": "医院事故"
+      },
+      {
+        "day": 6,
+        "incidentText": "自杀"
+      }
+    ],
+    "剧本名": "过去的真相在尽头",
+    "日文名": "噂の果ての真相",
+    "英文名": "The Truth Behind the Rumors",
+    "作者": "ペンスキー（gitti）",
+    "轮数": "4",
+    "天数": "6",
+    "难度": "5"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-35",
+      "snapshot": "sources/wiki/pages/c350878f99f9b134.json",
+      "capturedAt": "2026-09-27T04:03:52.630Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-35",
+      "snapshot": "sources/wiki/pages/c350878f99f9b134.json",
+      "capturedAt": "2026-09-27T04:03:52.630Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-35",
+      "snapshot": "sources/wiki/pages/c350878f99f9b134.json",
+      "capturedAt": "2026-09-27T04:03:52.630Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-35",
+      "snapshot": "sources/wiki/pages/c350878f99f9b134.json",
+      "capturedAt": "2026-09-27T04:03:52.630Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-35",
+      "snapshot": "sources/wiki/pages/c350878f99f9b134.json",
+      "capturedAt": "2026-09-27T04:03:52.630Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 36
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 36
+    },
+    "英文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 36
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 36
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 36
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 36
+    },
+    "难度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 36
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-35",
+      "snapshot": "sources/wiki/pages/c350878f99f9b134.json",
+      "capturedAt": "2026-09-27T04:03:52.630Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 36
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-35%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/bee0a354f8cdf7b5.json",
+      "capturedAt": "2026-09-27T04:03:55.501Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-35",
+        "snapshot": "sources/wiki/pages/c350878f99f9b134.json",
+        "capturedAt": "2026-09-27T04:03:52.630Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "BTX-35",
+        "loops": 4,
+        "days": 6,
+        "schedule": [
+          {
+            "day": 3,
+            "incidentText": "谋杀"
+          },
+          {
+            "day": 5,
+            "incidentText": "医院事故"
+          },
+          {
+            "day": 6,
+            "incidentText": "自杀"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 2,
+        "row": 36
+      },
+      "fields": {
+        "scenarioCode": "BTX-35",
+        "剧本名": "过去的真相在尽头",
+        "日文名": "噂の果ての真相",
+        "英文名": "The Truth Behind the Rumors",
+        "作者": "ペンスキー（gitti）",
+        "轮数": "4",
+        "天数": "6",
+        "难度": "5"
+      }
+    }
+  ],
+  "wikiTitle": "BTX-35",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Basic Tragedy X"
+  ],
+  "module": "Basic Tragedy X",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "445cb2fd78945f5f",
+        "title": "BTX-35",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "BTX-35",
+          "loops": 4,
+          "days": 6,
+          "schedule": [
+            {
+              "day": 3,
+              "incidentText": "谋杀"
+            },
+            {
+              "day": 5,
+              "incidentText": "医院事故"
+            },
+            {
+              "day": 6,
+              "incidentText": "自杀"
+            }
+          ],
+          "剧本名": "过去的真相在尽头",
+          "日文名": "噂の果ての真相",
+          "英文名": "The Truth Behind the Rumors",
+          "作者": "ペンスキー（gitti）",
+          "轮数": "4",
+          "天数": "6",
+          "难度": "5"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-35",
+            "snapshot": "sources/wiki/pages/c350878f99f9b134.json",
+            "capturedAt": "2026-09-27T04:03:52.630Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-35",
+            "snapshot": "sources/wiki/pages/c350878f99f9b134.json",
+            "capturedAt": "2026-09-27T04:03:52.630Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-35",
+            "snapshot": "sources/wiki/pages/c350878f99f9b134.json",
+            "capturedAt": "2026-09-27T04:03:52.630Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-35",
+            "snapshot": "sources/wiki/pages/c350878f99f9b134.json",
+            "capturedAt": "2026-09-27T04:03:52.630Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-35",
+            "snapshot": "sources/wiki/pages/c350878f99f9b134.json",
+            "capturedAt": "2026-09-27T04:03:52.630Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 36
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 36
+          },
+          "英文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 36
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 36
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 36
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 36
+          },
+          "难度": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 36
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-35",
+            "snapshot": "sources/wiki/pages/c350878f99f9b134.json",
+            "capturedAt": "2026-09-27T04:03:52.630Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 36
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-35",
+              "snapshot": "sources/wiki/pages/c350878f99f9b134.json",
+              "capturedAt": "2026-09-27T04:03:52.630Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "BTX-35",
+              "loops": 4,
+              "days": 6,
+              "schedule": [
+                {
+                  "day": 3,
+                  "incidentText": "谋杀"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "医院事故"
+                },
+                {
+                  "day": 6,
+                  "incidentText": "自杀"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 2,
+              "row": 36
+            },
+            "fields": {
+              "scenarioCode": "BTX-35",
+              "剧本名": "过去的真相在尽头",
+              "日文名": "噂の果ての真相",
+              "英文名": "The Truth Behind the Rumors",
+              "作者": "ペンスキー（gitti）",
+              "轮数": "4",
+              "天数": "6",
+              "难度": "5"
+            }
+          }
+        ],
+        "body": "text/scenarios/445cb2fd78945f5f.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-35",
+          "snapshot": "sources/wiki/pages/c350878f99f9b134.json",
+          "capturedAt": "2026-09-27T04:03:52.630Z"
+        },
+        "wikiTitle": "BTX-35",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "BTX-35非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-35%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-35?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Basic Tragedy X"
+        ],
+        "module": "Basic Tragedy X"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "cd8b1883da30b058",
+        "title": "BTX-35非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "BTX-35",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "巨大定时炸弹X"
+            },
+            {
+              "slot": "X1",
+              "name": "流言四起"
+            },
+            {
+              "slot": "X2",
+              "name": "未知因子KAI"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-35%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/bee0a354f8cdf7b5.json",
+            "capturedAt": "2026-09-27T04:03:55.501Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-35%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/bee0a354f8cdf7b5.json",
+            "capturedAt": "2026-09-27T04:03:55.501Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-35%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/bee0a354f8cdf7b5.json",
+            "capturedAt": "2026-09-27T04:03:55.501Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-35%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/bee0a354f8cdf7b5.json",
+            "capturedAt": "2026-09-27T04:03:55.501Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-35%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/bee0a354f8cdf7b5.json",
+              "capturedAt": "2026-09-27T04:03:55.501Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "BTX-35",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "巨大定时炸弹X"
+                },
+                {
+                  "slot": "X1",
+                  "name": "流言四起"
+                },
+                {
+                  "slot": "X2",
+                  "name": "未知因子KAI"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/cd8b1883da30b058.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-35%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/bee0a354f8cdf7b5.json",
+          "capturedAt": "2026-09-27T04:03:55.501Z"
+        },
+        "wikiTitle": "BTX-35非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-35%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-35%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-35%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=3"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Basic Tragedy X",
+        "tags": [
+          "民间",
+          "Basic Tragedy X"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "cd8b1883da30b058"
+  ],
+  "conflicts": []
+}

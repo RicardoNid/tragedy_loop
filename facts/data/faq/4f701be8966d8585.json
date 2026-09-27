@@ -1,0 +1,67 @@
+{
+  "id": "4f701be8966d8585",
+  "title": "愚者在事件过程中杀死了关键人物或主人公（比如医院事故2密谋），之后需要移除愚者的不安吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / MC / 第 17 行",
+  "aliases": [],
+  "fields": {
+    "question": "愚者在事件过程中杀死了关键人物或主人公（比如医院事故2密谋），之后需要移除愚者的不安吗？",
+    "answer": "需要，是同时的"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=mb92gf",
+      "snapshot": "sources/faq-sheet/mc.json",
+      "sheet": "MC",
+      "row": 17,
+      "cells": "A17:B17",
+      "capturedAt": "2026-09-27T05:40:05.008Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=mb92gf",
+      "snapshot": "sources/faq-sheet/mc.json",
+      "sheet": "MC",
+      "row": 17,
+      "cells": "A17:B17",
+      "capturedAt": "2026-09-27T05:40:05.008Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=mb92gf",
+      "snapshot": "sources/faq-sheet/mc.json",
+      "sheet": "MC",
+      "row": 17,
+      "cells": "A17:B17",
+      "capturedAt": "2026-09-27T05:40:05.008Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=mb92gf",
+        "snapshot": "sources/faq-sheet/mc.json",
+        "sheet": "MC",
+        "row": 17,
+        "cells": "A17:B17",
+        "capturedAt": "2026-09-27T05:40:05.008Z"
+      },
+      "fields": {
+        "question": "愚者在事件过程中杀死了关键人物或主人公（比如医院事故2密谋），之后需要移除愚者的不安吗？",
+        "answer": "需要，是同时的"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "MC",
+    "关于能力",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

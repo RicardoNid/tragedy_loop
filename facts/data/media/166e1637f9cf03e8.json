@@ -1,0 +1,60 @@
+{
+  "id": "166e1637f9cf03e8",
+  "title": "UP水印.jpg",
+  "kind": "media",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "bytes": 68812,
+    "sha256": "383c10af6ae3d56dd1ce52dc5ece9acca0d489b99e4597c71ffc2840a1981ce4"
+  },
+  "provenance": {
+    "bytes": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:UP%E6%B0%B4%E5%8D%B0.jpg",
+      "snapshot": "sources/wiki/files/a2fae53ba30c0e19.json"
+    },
+    "sha256": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:UP%E6%B0%B4%E5%8D%B0.jpg",
+      "snapshot": "sources/wiki/files/a2fae53ba30c0e19.json"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:UP%E6%B0%B4%E5%8D%B0.jpg",
+      "snapshot": "sources/wiki/files/a2fae53ba30c0e19.json"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/File:UP%E6%B0%B4%E5%8D%B0.jpg",
+        "snapshot": "sources/wiki/files/a2fae53ba30c0e19.json"
+      },
+      "fields": {
+        "bytes": 68812,
+        "sha256": "383c10af6ae3d56dd1ce52dc5ece9acca0d489b99e4597c71ffc2840a1981ce4"
+      }
+    }
+  ],
+  "media": [
+    {
+      "title": "UP水印.jpg",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:UP%E6%B0%B4%E5%8D%B0.jpg",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/f/f3/UP%E6%B0%B4%E5%8D%B0.jpg/revision/latest?cb=20251211192740&format=original&path-prefix=zh",
+      "path": "media/wiki/a2fae53ba30c0e19.jpg",
+      "sourceRecord": "sources/wiki/files/a2fae53ba30c0e19.json",
+      "sha256": "383c10af6ae3d56dd1ce52dc5ece9acca0d489b99e4597c71ffc2840a1981ce4",
+      "bytes": 68812,
+      "fileInfo": "JPEG image data, baseline, precision 8, 374x523, components 3",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "tags": [],
+  "conflicts": []
+}

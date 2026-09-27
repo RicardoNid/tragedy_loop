@@ -1,0 +1,85 @@
+{
+  "id": "9b0007c5b2f0f01d",
+  "title": "魔笛手",
+  "kind": "identities",
+  "scope": "Another Horizon Revised",
+  "aliases": [],
+  "fields": {
+    "max": "",
+    "traits": "无视友好",
+    "abilities": [
+      "【强制：回合结束阶段】Ex槽为2或以上→使同一区域任意1名角色死亡（每轮限1次）",
+      "【任意能力：回合结束阶段】可以往同一区域任意1具尸体上放置1枚[密谋]，随后，如果所有尸体上的[密谋]合计有3枚或以上，则主人公死亡"
+    ]
+  },
+  "provenance": {
+    "max": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon_Revised",
+      "snapshot": "sources/wiki/pages/5a4c2d8594c08b1e.json",
+      "capturedAt": "2026-09-27T03:28:24.166Z"
+    },
+    "traits": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon_Revised",
+      "snapshot": "sources/wiki/pages/5a4c2d8594c08b1e.json",
+      "capturedAt": "2026-09-27T03:28:24.166Z"
+    },
+    "abilities": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon_Revised",
+      "snapshot": "sources/wiki/pages/5a4c2d8594c08b1e.json",
+      "capturedAt": "2026-09-27T03:28:24.166Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon_Revised",
+      "snapshot": "sources/wiki/pages/5a4c2d8594c08b1e.json",
+      "capturedAt": "2026-09-27T03:28:24.166Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon_Revised",
+        "snapshot": "sources/wiki/pages/5a4c2d8594c08b1e.json",
+        "capturedAt": "2026-09-27T03:28:24.166Z"
+      },
+      "fields": {
+        "max": "",
+        "traits": "无视友好",
+        "abilities": [
+          "【强制：回合结束阶段】Ex槽为2或以上→使同一区域任意1名角色死亡（每轮限1次）",
+          "【任意能力：回合结束阶段】可以往同一区域任意1具尸体上放置1枚[密谋]，随后，如果所有尸体上的[密谋]合计有3枚或以上，则主人公死亡"
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "max": "",
+        "traits": "无视友好",
+        "abilities": [
+          "【强制：回合结束阶段】Ex槽为2或以上→使同一区域任意1名角色死亡（每轮限1次）",
+          "【任意能力：回合结束阶段】可以往同一区域任意1具尸体上放置1枚[密谋]，随后，如果所有尸体上的[密谋]合计有3枚或以上，则主人公死亡"
+        ]
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "官方"
+  ],
+  "conflicts": []
+}

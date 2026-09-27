@@ -1,0 +1,198 @@
+{
+  "id": "093c8aa340212c3e",
+  "title": "LL-02G",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "scenarioCode": "LL-02G",
+    "剧本名": "Inbred Clan",
+    "日文名": "Inbred Clan",
+    "作者": "明田川探偵事務所",
+    "轮数": "4",
+    "天数": "5"
+  },
+  "provenance": {
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+      "table": 7,
+      "row": 3
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+      "table": 7,
+      "row": 3
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+      "table": 7,
+      "row": 3
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+      "table": 7,
+      "row": 3
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+      "table": 7,
+      "row": 3
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+      "table": 7,
+      "row": 3
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+      "table": 7,
+      "row": 3
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+        "table": 7,
+        "row": 3
+      },
+      "fields": {
+        "scenarioCode": "LL-02G",
+        "剧本名": "Inbred Clan",
+        "日文名": "Inbred Clan",
+        "作者": "明田川探偵事務所",
+        "轮数": "4",
+        "天数": "5"
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/6734a0d13f91359e.json",
+  "tags": [
+    "官方剧本",
+    "官方",
+    "Last Liar"
+  ],
+  "module": "Last Liar",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "093c8aa340212c3e",
+        "title": "LL-02G",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "scenarioCode": "LL-02G",
+          "剧本名": "Inbred Clan",
+          "日文名": "Inbred Clan",
+          "作者": "明田川探偵事務所",
+          "轮数": "4",
+          "天数": "5"
+        },
+        "provenance": {
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+            "table": 7,
+            "row": 3
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+            "table": 7,
+            "row": 3
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+            "table": 7,
+            "row": 3
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+            "table": 7,
+            "row": 3
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+            "table": 7,
+            "row": 3
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+            "table": 7,
+            "row": 3
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+            "table": 7,
+            "row": 3
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+              "table": 7,
+              "row": 3
+            },
+            "fields": {
+              "scenarioCode": "LL-02G",
+              "剧本名": "Inbred Clan",
+              "日文名": "Inbred Clan",
+              "作者": "明田川探偵事務所",
+              "轮数": "4",
+              "天数": "5"
+            }
+          }
+        ],
+        "authority": "官方",
+        "classificationSource": "sources/wiki/pages/6734a0d13f91359e.json",
+        "tags": [
+          "官方剧本",
+          "官方",
+          "Last Liar"
+        ],
+        "module": "Last Liar"
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [],
+  "conflicts": []
+}

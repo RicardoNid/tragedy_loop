@@ -1,0 +1,60 @@
+{
+  "id": "6cf986aec5365261",
+  "title": "Cache -5c1ede9fee27dffc.jpg",
+  "kind": "media",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "bytes": 2871977,
+    "sha256": "7941cfcf6a203f12ad8c326696aa5f7913de69cd9c094cde6fabc1f6e5c0aa19"
+  },
+  "provenance": {
+    "bytes": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:Cache_-5c1ede9fee27dffc.jpg",
+      "snapshot": "sources/wiki/files/2fd187bce113ce93.json"
+    },
+    "sha256": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:Cache_-5c1ede9fee27dffc.jpg",
+      "snapshot": "sources/wiki/files/2fd187bce113ce93.json"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:Cache_-5c1ede9fee27dffc.jpg",
+      "snapshot": "sources/wiki/files/2fd187bce113ce93.json"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/File:Cache_-5c1ede9fee27dffc.jpg",
+        "snapshot": "sources/wiki/files/2fd187bce113ce93.json"
+      },
+      "fields": {
+        "bytes": 2871977,
+        "sha256": "7941cfcf6a203f12ad8c326696aa5f7913de69cd9c094cde6fabc1f6e5c0aa19"
+      }
+    }
+  ],
+  "media": [
+    {
+      "title": "Cache -5c1ede9fee27dffc.jpg",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:Cache_-5c1ede9fee27dffc.jpg",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/8/8f/Cache_-5c1ede9fee27dffc.jpg/revision/latest?cb=20251024085956&format=original&path-prefix=zh",
+      "path": "media/wiki/2fd187bce113ce93.jpg",
+      "sourceRecord": "sources/wiki/files/2fd187bce113ce93.json",
+      "sha256": "7941cfcf6a203f12ad8c326696aa5f7913de69cd9c094cde6fabc1f6e5c0aa19",
+      "bytes": 2871977,
+      "fileInfo": "JPEG image data, Exif standard: [TIFF image data, big-endian, direntries=2, orientation=upper-left], baseline, precision 8, 4439x3137, components 3",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "tags": [],
+  "conflicts": []
+}

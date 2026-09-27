@@ -1,0 +1,442 @@
+{
+  "id": "0efe1e404d8ce314",
+  "title": "AHR-25",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "AHR-25非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "AHR-25",
+    "loops": 6,
+    "days": 4,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "奇点"
+      },
+      {
+        "day": 2,
+        "incidentText": "奇点"
+      },
+      {
+        "day": 3,
+        "incidentText": "遗言"
+      },
+      {
+        "day": 4,
+        "incidentText": "冲动杀人"
+      }
+    ],
+    "剧本名": "冬之钟",
+    "作者": "易风",
+    "轮数": "6 5",
+    "天数": "4"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-25",
+      "snapshot": "sources/wiki/pages/6051993b9aa854a4.json",
+      "capturedAt": "2026-09-27T03:45:06.510Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-25",
+      "snapshot": "sources/wiki/pages/6051993b9aa854a4.json",
+      "capturedAt": "2026-09-27T03:45:06.510Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-25",
+      "snapshot": "sources/wiki/pages/6051993b9aa854a4.json",
+      "capturedAt": "2026-09-27T03:45:06.510Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-25",
+      "snapshot": "sources/wiki/pages/6051993b9aa854a4.json",
+      "capturedAt": "2026-09-27T03:45:06.510Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-25",
+      "snapshot": "sources/wiki/pages/6051993b9aa854a4.json",
+      "capturedAt": "2026-09-27T03:45:06.510Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 26
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 26
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 26
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 26
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-25",
+      "snapshot": "sources/wiki/pages/6051993b9aa854a4.json",
+      "capturedAt": "2026-09-27T03:45:06.510Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 26
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-25%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/ddacfa417bab3540.json",
+      "capturedAt": "2026-09-27T03:45:09.364Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-25",
+        "snapshot": "sources/wiki/pages/6051993b9aa854a4.json",
+        "capturedAt": "2026-09-27T03:45:06.510Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "AHR-25",
+        "loops": 6,
+        "days": 4,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "奇点"
+          },
+          {
+            "day": 2,
+            "incidentText": "奇点"
+          },
+          {
+            "day": 3,
+            "incidentText": "遗言"
+          },
+          {
+            "day": 4,
+            "incidentText": "冲动杀人"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 7,
+        "row": 26
+      },
+      "fields": {
+        "scenarioCode": "AHR-25",
+        "剧本名": "冬之钟",
+        "作者": "易风",
+        "轮数": "6 5",
+        "天数": "4"
+      }
+    }
+  ],
+  "wikiTitle": "AHR-25",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Another Horizon Revised"
+  ],
+  "module": "Another Horizon Revised",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "0efe1e404d8ce314",
+        "title": "AHR-25",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "AHR-25",
+          "loops": 6,
+          "days": 4,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "奇点"
+            },
+            {
+              "day": 2,
+              "incidentText": "奇点"
+            },
+            {
+              "day": 3,
+              "incidentText": "遗言"
+            },
+            {
+              "day": 4,
+              "incidentText": "冲动杀人"
+            }
+          ],
+          "剧本名": "冬之钟",
+          "作者": "易风",
+          "轮数": "6 5",
+          "天数": "4"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-25",
+            "snapshot": "sources/wiki/pages/6051993b9aa854a4.json",
+            "capturedAt": "2026-09-27T03:45:06.510Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-25",
+            "snapshot": "sources/wiki/pages/6051993b9aa854a4.json",
+            "capturedAt": "2026-09-27T03:45:06.510Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-25",
+            "snapshot": "sources/wiki/pages/6051993b9aa854a4.json",
+            "capturedAt": "2026-09-27T03:45:06.510Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-25",
+            "snapshot": "sources/wiki/pages/6051993b9aa854a4.json",
+            "capturedAt": "2026-09-27T03:45:06.510Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-25",
+            "snapshot": "sources/wiki/pages/6051993b9aa854a4.json",
+            "capturedAt": "2026-09-27T03:45:06.510Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 26
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 26
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 26
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 26
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-25",
+            "snapshot": "sources/wiki/pages/6051993b9aa854a4.json",
+            "capturedAt": "2026-09-27T03:45:06.510Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 26
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-25",
+              "snapshot": "sources/wiki/pages/6051993b9aa854a4.json",
+              "capturedAt": "2026-09-27T03:45:06.510Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "AHR-25",
+              "loops": 6,
+              "days": 4,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "奇点"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "奇点"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "遗言"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "冲动杀人"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 7,
+              "row": 26
+            },
+            "fields": {
+              "scenarioCode": "AHR-25",
+              "剧本名": "冬之钟",
+              "作者": "易风",
+              "轮数": "6 5",
+              "天数": "4"
+            }
+          }
+        ],
+        "body": "text/scenarios/0efe1e404d8ce314.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-25",
+          "snapshot": "sources/wiki/pages/6051993b9aa854a4.json",
+          "capturedAt": "2026-09-27T03:45:06.510Z"
+        },
+        "wikiTitle": "AHR-25",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "AHR-25非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-25%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-25?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Another Horizon Revised"
+        ],
+        "module": "Another Horizon Revised"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "8f175c35ca4080c3",
+        "title": "AHR-25非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "AHR-25"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-25%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/ddacfa417bab3540.json",
+            "capturedAt": "2026-09-27T03:45:09.364Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-25%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/ddacfa417bab3540.json",
+            "capturedAt": "2026-09-27T03:45:09.364Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-25%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/ddacfa417bab3540.json",
+            "capturedAt": "2026-09-27T03:45:09.364Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-25%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/ddacfa417bab3540.json",
+              "capturedAt": "2026-09-27T03:45:09.364Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "AHR-25"
+            }
+          }
+        ],
+        "wikiTitle": "AHR-25非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Another Horizon Revised",
+        "tags": [
+          "民间",
+          "Another Horizon Revised"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "8f175c35ca4080c3"
+  ],
+  "conflicts": []
+}

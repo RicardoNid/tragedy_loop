@@ -1,0 +1,532 @@
+{
+  "id": "61af98a9ea673707",
+  "title": "MZ-23",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "MZ-23非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "MZ-23",
+    "loops": 5,
+    "days": 4,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 2,
+        "incidentText": "失踪"
+      },
+      {
+        "day": 3,
+        "incidentText": "自白"
+      },
+      {
+        "day": 4,
+        "incidentText": "暴乱"
+      }
+    ],
+    "剧本名": "局外人到底是谁？",
+    "日文名": "イレギュラーの正体は？",
+    "作者": "ペンスキー（gitti）",
+    "轮数": "5",
+    "天数": "4",
+    "难度": "6"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-23",
+      "snapshot": "sources/wiki/pages/8b9e48c1e5b41065.json",
+      "capturedAt": "2026-09-27T04:45:32.187Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-23",
+      "snapshot": "sources/wiki/pages/8b9e48c1e5b41065.json",
+      "capturedAt": "2026-09-27T04:45:32.187Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-23",
+      "snapshot": "sources/wiki/pages/8b9e48c1e5b41065.json",
+      "capturedAt": "2026-09-27T04:45:32.187Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-23",
+      "snapshot": "sources/wiki/pages/8b9e48c1e5b41065.json",
+      "capturedAt": "2026-09-27T04:45:32.187Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-23",
+      "snapshot": "sources/wiki/pages/8b9e48c1e5b41065.json",
+      "capturedAt": "2026-09-27T04:45:32.187Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 25
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 25
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 25
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 25
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 25
+    },
+    "难度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 25
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-23",
+      "snapshot": "sources/wiki/pages/8b9e48c1e5b41065.json",
+      "capturedAt": "2026-09-27T04:45:32.187Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 25
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-23%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/ec3ec3aa5d1b6714.json",
+      "capturedAt": "2026-09-27T04:45:35.344Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-23",
+        "snapshot": "sources/wiki/pages/8b9e48c1e5b41065.json",
+        "capturedAt": "2026-09-27T04:45:32.187Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "MZ-23",
+        "loops": 5,
+        "days": 4,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 2,
+            "incidentText": "失踪"
+          },
+          {
+            "day": 3,
+            "incidentText": "自白"
+          },
+          {
+            "day": 4,
+            "incidentText": "暴乱"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 3,
+        "row": 25
+      },
+      "fields": {
+        "scenarioCode": "MZ-23",
+        "剧本名": "局外人到底是谁？",
+        "日文名": "イレギュラーの正体は？",
+        "作者": "ペンスキー（gitti）",
+        "轮数": "5",
+        "天数": "4",
+        "难度": "6"
+      }
+    }
+  ],
+  "wikiTitle": "MZ-23",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Midnight Zone"
+  ],
+  "module": "Midnight Zone",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "61af98a9ea673707",
+        "title": "MZ-23",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "MZ-23",
+          "loops": 5,
+          "days": 4,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 2,
+              "incidentText": "失踪"
+            },
+            {
+              "day": 3,
+              "incidentText": "自白"
+            },
+            {
+              "day": 4,
+              "incidentText": "暴乱"
+            }
+          ],
+          "剧本名": "局外人到底是谁？",
+          "日文名": "イレギュラーの正体は？",
+          "作者": "ペンスキー（gitti）",
+          "轮数": "5",
+          "天数": "4",
+          "难度": "6"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-23",
+            "snapshot": "sources/wiki/pages/8b9e48c1e5b41065.json",
+            "capturedAt": "2026-09-27T04:45:32.187Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-23",
+            "snapshot": "sources/wiki/pages/8b9e48c1e5b41065.json",
+            "capturedAt": "2026-09-27T04:45:32.187Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-23",
+            "snapshot": "sources/wiki/pages/8b9e48c1e5b41065.json",
+            "capturedAt": "2026-09-27T04:45:32.187Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-23",
+            "snapshot": "sources/wiki/pages/8b9e48c1e5b41065.json",
+            "capturedAt": "2026-09-27T04:45:32.187Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-23",
+            "snapshot": "sources/wiki/pages/8b9e48c1e5b41065.json",
+            "capturedAt": "2026-09-27T04:45:32.187Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 25
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 25
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 25
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 25
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 25
+          },
+          "难度": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 25
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-23",
+            "snapshot": "sources/wiki/pages/8b9e48c1e5b41065.json",
+            "capturedAt": "2026-09-27T04:45:32.187Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 25
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-23",
+              "snapshot": "sources/wiki/pages/8b9e48c1e5b41065.json",
+              "capturedAt": "2026-09-27T04:45:32.187Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "MZ-23",
+              "loops": 5,
+              "days": 4,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "失踪"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "自白"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "暴乱"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 3,
+              "row": 25
+            },
+            "fields": {
+              "scenarioCode": "MZ-23",
+              "剧本名": "局外人到底是谁？",
+              "日文名": "イレギュラーの正体は？",
+              "作者": "ペンスキー（gitti）",
+              "轮数": "5",
+              "天数": "4",
+              "难度": "6"
+            }
+          }
+        ],
+        "body": "text/scenarios/61af98a9ea673707.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-23",
+          "snapshot": "sources/wiki/pages/8b9e48c1e5b41065.json",
+          "capturedAt": "2026-09-27T04:45:32.187Z"
+        },
+        "wikiTitle": "MZ-23",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "MZ-23非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-23%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-23?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Midnight Zone"
+        ],
+        "module": "Midnight Zone"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "4cf7b7d76a132eb8",
+        "title": "MZ-23非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "MZ-23",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "被封印的邪灵"
+            },
+            {
+              "slot": "X1",
+              "name": "诸神之骰"
+            },
+            {
+              "slot": "X2",
+              "name": "魔女们的茶会"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-23%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/ec3ec3aa5d1b6714.json",
+            "capturedAt": "2026-09-27T04:45:35.344Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-23%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/ec3ec3aa5d1b6714.json",
+            "capturedAt": "2026-09-27T04:45:35.344Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-23%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/ec3ec3aa5d1b6714.json",
+            "capturedAt": "2026-09-27T04:45:35.344Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-23%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/ec3ec3aa5d1b6714.json",
+            "capturedAt": "2026-09-27T04:45:35.344Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-23%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/ec3ec3aa5d1b6714.json",
+              "capturedAt": "2026-09-27T04:45:35.344Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "MZ-23",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "被封印的邪灵"
+                },
+                {
+                  "slot": "X1",
+                  "name": "诸神之骰"
+                },
+                {
+                  "slot": "X2",
+                  "name": "魔女们的茶会"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/4cf7b7d76a132eb8.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-23%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/ec3ec3aa5d1b6714.json",
+          "capturedAt": "2026-09-27T04:45:35.344Z"
+        },
+        "wikiTitle": "MZ-23非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-23%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-23%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-23%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=3"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Midnight Zone",
+        "tags": [
+          "民间",
+          "Midnight Zone"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "4cf7b7d76a132eb8"
+  ],
+  "conflicts": []
+}

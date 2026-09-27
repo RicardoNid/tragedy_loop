@@ -1,0 +1,516 @@
+{
+  "id": "a9615ed7018fc4e4",
+  "title": "BTX-111",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "BTX-111非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "BTX-111",
+    "loops": 5,
+    "days": 5,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "失踪"
+      },
+      {
+        "day": 2,
+        "incidentText": "散播"
+      },
+      {
+        "day": 3,
+        "incidentText": "蝴蝶效应"
+      },
+      {
+        "day": 4,
+        "incidentText": "自杀"
+      },
+      {
+        "day": 5,
+        "incidentText": "谋杀"
+      }
+    ],
+    "剧本名": "遥远的爱，最后的恨",
+    "作者": "8哥",
+    "轮数": "5",
+    "天数": "5"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-111",
+      "snapshot": "sources/wiki/pages/293006b23bfa100c.json",
+      "capturedAt": "2026-09-27T03:53:32.112Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-111",
+      "snapshot": "sources/wiki/pages/293006b23bfa100c.json",
+      "capturedAt": "2026-09-27T03:53:32.112Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-111",
+      "snapshot": "sources/wiki/pages/293006b23bfa100c.json",
+      "capturedAt": "2026-09-27T03:53:32.112Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-111",
+      "snapshot": "sources/wiki/pages/293006b23bfa100c.json",
+      "capturedAt": "2026-09-27T03:53:32.112Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-111",
+      "snapshot": "sources/wiki/pages/293006b23bfa100c.json",
+      "capturedAt": "2026-09-27T03:53:32.112Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 114
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 114
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 114
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 114
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-111",
+      "snapshot": "sources/wiki/pages/293006b23bfa100c.json",
+      "capturedAt": "2026-09-27T03:53:32.112Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 114
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-111%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/2b7776e789a6ee32.json",
+      "capturedAt": "2026-09-27T03:53:35.302Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-111",
+        "snapshot": "sources/wiki/pages/293006b23bfa100c.json",
+        "capturedAt": "2026-09-27T03:53:32.112Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "BTX-111",
+        "loops": 5,
+        "days": 5,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "失踪"
+          },
+          {
+            "day": 2,
+            "incidentText": "散播"
+          },
+          {
+            "day": 3,
+            "incidentText": "蝴蝶效应"
+          },
+          {
+            "day": 4,
+            "incidentText": "自杀"
+          },
+          {
+            "day": 5,
+            "incidentText": "谋杀"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 2,
+        "row": 114
+      },
+      "fields": {
+        "scenarioCode": "BTX-111",
+        "剧本名": "遥远的爱，最后的恨",
+        "作者": "8哥",
+        "轮数": "5",
+        "天数": "5"
+      }
+    }
+  ],
+  "wikiTitle": "BTX-111",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Basic Tragedy X"
+  ],
+  "module": "Basic Tragedy X",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "a9615ed7018fc4e4",
+        "title": "BTX-111",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "BTX-111",
+          "loops": 5,
+          "days": 5,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "失踪"
+            },
+            {
+              "day": 2,
+              "incidentText": "散播"
+            },
+            {
+              "day": 3,
+              "incidentText": "蝴蝶效应"
+            },
+            {
+              "day": 4,
+              "incidentText": "自杀"
+            },
+            {
+              "day": 5,
+              "incidentText": "谋杀"
+            }
+          ],
+          "剧本名": "遥远的爱，最后的恨",
+          "作者": "8哥",
+          "轮数": "5",
+          "天数": "5"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-111",
+            "snapshot": "sources/wiki/pages/293006b23bfa100c.json",
+            "capturedAt": "2026-09-27T03:53:32.112Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-111",
+            "snapshot": "sources/wiki/pages/293006b23bfa100c.json",
+            "capturedAt": "2026-09-27T03:53:32.112Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-111",
+            "snapshot": "sources/wiki/pages/293006b23bfa100c.json",
+            "capturedAt": "2026-09-27T03:53:32.112Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-111",
+            "snapshot": "sources/wiki/pages/293006b23bfa100c.json",
+            "capturedAt": "2026-09-27T03:53:32.112Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-111",
+            "snapshot": "sources/wiki/pages/293006b23bfa100c.json",
+            "capturedAt": "2026-09-27T03:53:32.112Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 114
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 114
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 114
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 114
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-111",
+            "snapshot": "sources/wiki/pages/293006b23bfa100c.json",
+            "capturedAt": "2026-09-27T03:53:32.112Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 114
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-111",
+              "snapshot": "sources/wiki/pages/293006b23bfa100c.json",
+              "capturedAt": "2026-09-27T03:53:32.112Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "BTX-111",
+              "loops": 5,
+              "days": 5,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "失踪"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "散播"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "蝴蝶效应"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "自杀"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "谋杀"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 2,
+              "row": 114
+            },
+            "fields": {
+              "scenarioCode": "BTX-111",
+              "剧本名": "遥远的爱，最后的恨",
+              "作者": "8哥",
+              "轮数": "5",
+              "天数": "5"
+            }
+          }
+        ],
+        "body": "text/scenarios/a9615ed7018fc4e4.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-111",
+          "snapshot": "sources/wiki/pages/293006b23bfa100c.json",
+          "capturedAt": "2026-09-27T03:53:32.112Z"
+        },
+        "wikiTitle": "BTX-111",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-111?action=edit&section=1"
+          },
+          {
+            "title": "BTX-111非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-111%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-111?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Basic Tragedy X"
+        ],
+        "module": "Basic Tragedy X"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "68e35c7e4d866ebc",
+        "title": "BTX-111非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "BTX-111",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "谋杀计划"
+            },
+            {
+              "slot": "X1",
+              "name": "恋爱风景线"
+            },
+            {
+              "slot": "X2",
+              "name": "未知因子X"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-111%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/2b7776e789a6ee32.json",
+            "capturedAt": "2026-09-27T03:53:35.302Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-111%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/2b7776e789a6ee32.json",
+            "capturedAt": "2026-09-27T03:53:35.302Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-111%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/2b7776e789a6ee32.json",
+            "capturedAt": "2026-09-27T03:53:35.302Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-111%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/2b7776e789a6ee32.json",
+            "capturedAt": "2026-09-27T03:53:35.302Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-111%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/2b7776e789a6ee32.json",
+              "capturedAt": "2026-09-27T03:53:35.302Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "BTX-111",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "谋杀计划"
+                },
+                {
+                  "slot": "X1",
+                  "name": "恋爱风景线"
+                },
+                {
+                  "slot": "X2",
+                  "name": "未知因子X"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/68e35c7e4d866ebc.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-111%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/2b7776e789a6ee32.json",
+          "capturedAt": "2026-09-27T03:53:35.302Z"
+        },
+        "wikiTitle": "BTX-111非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-111%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-111%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-111%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=3"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Basic Tragedy X",
+        "tags": [
+          "民间",
+          "Basic Tragedy X"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "68e35c7e4d866ebc"
+  ],
+  "conflicts": []
+}

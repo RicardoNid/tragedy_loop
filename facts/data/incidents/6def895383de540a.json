@@ -1,0 +1,45 @@
+{
+  "id": "6def895383de540a",
+  "title": "模仿犯罪",
+  "kind": "incidents",
+  "scope": "Unheard Malice",
+  "aliases": [],
+  "fields": {
+    "effect": "<通过密谋指示物数量判定是否发生>从公开情报表中声明1个非模仿犯罪的事件名，结算对应的事件效果"
+  },
+  "provenance": {
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Unheard_Malice",
+      "snapshot": "sources/wiki/pages/62df499c8bfa0a4c.json",
+      "capturedAt": "2026-09-27T03:30:12.492Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Unheard_Malice",
+      "snapshot": "sources/wiki/pages/62df499c8bfa0a4c.json",
+      "capturedAt": "2026-09-27T03:30:12.492Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Unheard_Malice",
+        "snapshot": "sources/wiki/pages/62df499c8bfa0a4c.json",
+        "capturedAt": "2026-09-27T03:30:12.492Z"
+      },
+      "fields": {
+        "effect": "<通过密谋指示物数量判定是否发生>从公开情报表中声明1个非模仿犯罪的事件名，结算对应的事件效果"
+      }
+    }
+  ],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "民间"
+  ],
+  "conflicts": []
+}

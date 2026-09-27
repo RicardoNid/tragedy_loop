@@ -1,0 +1,68 @@
+{
+  "id": "87585683d033f2fe",
+  "title": "阴谋活动",
+  "kind": "incidents",
+  "scope": "Midnight Zone",
+  "aliases": [],
+  "fields": {
+    "effect": "<通过密谋指示物数量判定是否发生>结算连续杀人或失踪事件的效果"
+  },
+  "provenance": {
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Midnight_Zone",
+      "snapshot": "sources/wiki/pages/8373b99324f2c1ae.json",
+      "capturedAt": "2026-09-27T03:29:47.701Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Midnight_Zone",
+      "snapshot": "sources/wiki/pages/8373b99324f2c1ae.json",
+      "capturedAt": "2026-09-27T03:29:47.701Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Midnight_Zone",
+        "snapshot": "sources/wiki/pages/8373b99324f2c1ae.json",
+        "capturedAt": "2026-09-27T03:29:47.701Z"
+      },
+      "fields": {
+        "effect": "<通过密谋指示物数量判定是否发生>结算连续杀人或失踪事件的效果"
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "effect": "通过密谋指示物数量判定是否发生，结算连续杀人或失踪事件的效果"
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "effect",
+      "selected": "<通过密谋指示物数量判定是否发生>结算连续杀人或失踪事件的效果",
+      "candidate": "通过密谋指示物数量判定是否发生，结算连续杀人或失踪事件的效果",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    }
+  ]
+}

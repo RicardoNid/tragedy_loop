@@ -1,0 +1,506 @@
+{
+  "id": "bd45c44cbf126c2f",
+  "title": "BTX-72",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "BTX-72非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "BTX-72",
+    "loops": 3,
+    "days": 6,
+    "schedule": [
+      {
+        "day": 2,
+        "incidentText": "不安扩散"
+      },
+      {
+        "day": 4,
+        "incidentText": "谋杀"
+      },
+      {
+        "day": 5,
+        "incidentText": "蝴蝶效应"
+      },
+      {
+        "day": 6,
+        "incidentText": "远距离杀人"
+      }
+    ],
+    "剧本名": "负责的女性",
+    "英文名": "Responsible Women",
+    "作者": "Kitsunin",
+    "轮数": "3",
+    "天数": "6"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-72",
+      "snapshot": "sources/wiki/pages/41128eb250b1ad68.json",
+      "capturedAt": "2026-09-27T04:15:52.215Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-72",
+      "snapshot": "sources/wiki/pages/41128eb250b1ad68.json",
+      "capturedAt": "2026-09-27T04:15:52.215Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-72",
+      "snapshot": "sources/wiki/pages/41128eb250b1ad68.json",
+      "capturedAt": "2026-09-27T04:15:52.215Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-72",
+      "snapshot": "sources/wiki/pages/41128eb250b1ad68.json",
+      "capturedAt": "2026-09-27T04:15:52.215Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-72",
+      "snapshot": "sources/wiki/pages/41128eb250b1ad68.json",
+      "capturedAt": "2026-09-27T04:15:52.215Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 73
+    },
+    "英文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 73
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 73
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 73
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 73
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-72",
+      "snapshot": "sources/wiki/pages/41128eb250b1ad68.json",
+      "capturedAt": "2026-09-27T04:15:52.215Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 73
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-72%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/931aaadf375d78f7.json",
+      "capturedAt": "2026-09-27T04:15:55.452Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-72",
+        "snapshot": "sources/wiki/pages/41128eb250b1ad68.json",
+        "capturedAt": "2026-09-27T04:15:52.215Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "BTX-72",
+        "loops": 3,
+        "days": 6,
+        "schedule": [
+          {
+            "day": 2,
+            "incidentText": "不安扩散"
+          },
+          {
+            "day": 4,
+            "incidentText": "谋杀"
+          },
+          {
+            "day": 5,
+            "incidentText": "蝴蝶效应"
+          },
+          {
+            "day": 6,
+            "incidentText": "远距离杀人"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 2,
+        "row": 73
+      },
+      "fields": {
+        "scenarioCode": "BTX-72",
+        "剧本名": "负责的女性",
+        "英文名": "Responsible Women",
+        "作者": "Kitsunin",
+        "轮数": "3",
+        "天数": "6"
+      }
+    }
+  ],
+  "wikiTitle": "BTX-72",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Basic Tragedy X"
+  ],
+  "module": "Basic Tragedy X",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "bd45c44cbf126c2f",
+        "title": "BTX-72",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "BTX-72",
+          "loops": 3,
+          "days": 6,
+          "schedule": [
+            {
+              "day": 2,
+              "incidentText": "不安扩散"
+            },
+            {
+              "day": 4,
+              "incidentText": "谋杀"
+            },
+            {
+              "day": 5,
+              "incidentText": "蝴蝶效应"
+            },
+            {
+              "day": 6,
+              "incidentText": "远距离杀人"
+            }
+          ],
+          "剧本名": "负责的女性",
+          "英文名": "Responsible Women",
+          "作者": "Kitsunin",
+          "轮数": "3",
+          "天数": "6"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-72",
+            "snapshot": "sources/wiki/pages/41128eb250b1ad68.json",
+            "capturedAt": "2026-09-27T04:15:52.215Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-72",
+            "snapshot": "sources/wiki/pages/41128eb250b1ad68.json",
+            "capturedAt": "2026-09-27T04:15:52.215Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-72",
+            "snapshot": "sources/wiki/pages/41128eb250b1ad68.json",
+            "capturedAt": "2026-09-27T04:15:52.215Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-72",
+            "snapshot": "sources/wiki/pages/41128eb250b1ad68.json",
+            "capturedAt": "2026-09-27T04:15:52.215Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-72",
+            "snapshot": "sources/wiki/pages/41128eb250b1ad68.json",
+            "capturedAt": "2026-09-27T04:15:52.215Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 73
+          },
+          "英文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 73
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 73
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 73
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 73
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-72",
+            "snapshot": "sources/wiki/pages/41128eb250b1ad68.json",
+            "capturedAt": "2026-09-27T04:15:52.215Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 73
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-72",
+              "snapshot": "sources/wiki/pages/41128eb250b1ad68.json",
+              "capturedAt": "2026-09-27T04:15:52.215Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "BTX-72",
+              "loops": 3,
+              "days": 6,
+              "schedule": [
+                {
+                  "day": 2,
+                  "incidentText": "不安扩散"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "谋杀"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "蝴蝶效应"
+                },
+                {
+                  "day": 6,
+                  "incidentText": "远距离杀人"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 2,
+              "row": 73
+            },
+            "fields": {
+              "scenarioCode": "BTX-72",
+              "剧本名": "负责的女性",
+              "英文名": "Responsible Women",
+              "作者": "Kitsunin",
+              "轮数": "3",
+              "天数": "6"
+            }
+          }
+        ],
+        "body": "text/scenarios/bd45c44cbf126c2f.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-72",
+          "snapshot": "sources/wiki/pages/41128eb250b1ad68.json",
+          "capturedAt": "2026-09-27T04:15:52.215Z"
+        },
+        "wikiTitle": "BTX-72",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "BTX-72非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-72%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-72?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Basic Tragedy X"
+        ],
+        "module": "Basic Tragedy X"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "964cfe7bf74a0baa",
+        "title": "BTX-72非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "BTX-72",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "被封印的邪灵"
+            },
+            {
+              "slot": "X2",
+              "name": "妄想扩大病毒"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-72%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/931aaadf375d78f7.json",
+            "capturedAt": "2026-09-27T04:15:55.452Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-72%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/931aaadf375d78f7.json",
+            "capturedAt": "2026-09-27T04:15:55.452Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-72%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/931aaadf375d78f7.json",
+            "capturedAt": "2026-09-27T04:15:55.452Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-72%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/931aaadf375d78f7.json",
+            "capturedAt": "2026-09-27T04:15:55.452Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-72%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/931aaadf375d78f7.json",
+              "capturedAt": "2026-09-27T04:15:55.452Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "BTX-72",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "被封印的邪灵"
+                },
+                {
+                  "slot": "X2",
+                  "name": "妄想扩大病毒"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/964cfe7bf74a0baa.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-72%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/931aaadf375d78f7.json",
+          "capturedAt": "2026-09-27T04:15:55.452Z"
+        },
+        "wikiTitle": "BTX-72非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-72%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-72%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-72%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=3"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Basic Tragedy X",
+        "tags": [
+          "民间",
+          "Basic Tragedy X"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "964cfe7bf74a0baa"
+  ],
+  "conflicts": []
+}

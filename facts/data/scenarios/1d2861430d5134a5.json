@@ -1,0 +1,482 @@
+{
+  "id": "1d2861430d5134a5",
+  "title": "WM-06",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "WM-06非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "WM-06",
+    "loops": 4,
+    "days": 4,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "灭绝之火"
+      },
+      {
+        "day": 2,
+        "incidentText": "不安扩散"
+      },
+      {
+        "day": 3,
+        "incidentText": "医院事故"
+      },
+      {
+        "day": 4,
+        "incidentText": "邪气污染"
+      }
+    ],
+    "剧本名": "Karma.",
+    "日文名": "Karma.",
+    "作者": "比良坂右京",
+    "轮数": "4",
+    "天数": "4",
+    "难度": "4"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-06?oldid=1442",
+      "snapshot": "sources/wiki/pages/b8369af54b8e9ced.json",
+      "capturedAt": "2026-09-27T05:00:31.143Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-06?oldid=1442",
+      "snapshot": "sources/wiki/pages/b8369af54b8e9ced.json",
+      "capturedAt": "2026-09-27T05:00:31.143Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-06?oldid=1442",
+      "snapshot": "sources/wiki/pages/b8369af54b8e9ced.json",
+      "capturedAt": "2026-09-27T05:00:31.143Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-06?oldid=1442",
+      "snapshot": "sources/wiki/pages/b8369af54b8e9ced.json",
+      "capturedAt": "2026-09-27T05:00:31.143Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-06?oldid=1442",
+      "snapshot": "sources/wiki/pages/b8369af54b8e9ced.json",
+      "capturedAt": "2026-09-27T05:00:31.143Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 8
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 8
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 8
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 8
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 8
+    },
+    "难度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 8
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-06?oldid=1442",
+      "snapshot": "sources/wiki/pages/b8369af54b8e9ced.json",
+      "capturedAt": "2026-09-27T05:00:31.143Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 8
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1886",
+      "snapshot": "sources/wiki/pages/c4bfa1100ea7b17d.json",
+      "capturedAt": "2026-09-27T05:00:36.312Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-06?oldid=1442",
+        "snapshot": "sources/wiki/pages/b8369af54b8e9ced.json",
+        "capturedAt": "2026-09-27T05:00:31.143Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "WM-06",
+        "loops": 4,
+        "days": 4,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "灭绝之火"
+          },
+          {
+            "day": 2,
+            "incidentText": "不安扩散"
+          },
+          {
+            "day": 3,
+            "incidentText": "医院事故"
+          },
+          {
+            "day": 4,
+            "incidentText": "邪气污染"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 6,
+        "row": 8
+      },
+      "fields": {
+        "scenarioCode": "WM-06",
+        "剧本名": "Karma.",
+        "日文名": "Karma.",
+        "作者": "比良坂右京",
+        "轮数": "4",
+        "天数": "4",
+        "难度": "4"
+      }
+    }
+  ],
+  "wikiTitle": "WM-06",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Weird Mythology"
+  ],
+  "module": "Weird Mythology",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "1d2861430d5134a5",
+        "title": "WM-06",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "WM-06",
+          "loops": 4,
+          "days": 4,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "灭绝之火"
+            },
+            {
+              "day": 2,
+              "incidentText": "不安扩散"
+            },
+            {
+              "day": 3,
+              "incidentText": "医院事故"
+            },
+            {
+              "day": 4,
+              "incidentText": "邪气污染"
+            }
+          ],
+          "剧本名": "Karma.",
+          "日文名": "Karma.",
+          "作者": "比良坂右京",
+          "轮数": "4",
+          "天数": "4",
+          "难度": "4"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-06?oldid=1442",
+            "snapshot": "sources/wiki/pages/b8369af54b8e9ced.json",
+            "capturedAt": "2026-09-27T05:00:31.143Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-06?oldid=1442",
+            "snapshot": "sources/wiki/pages/b8369af54b8e9ced.json",
+            "capturedAt": "2026-09-27T05:00:31.143Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-06?oldid=1442",
+            "snapshot": "sources/wiki/pages/b8369af54b8e9ced.json",
+            "capturedAt": "2026-09-27T05:00:31.143Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-06?oldid=1442",
+            "snapshot": "sources/wiki/pages/b8369af54b8e9ced.json",
+            "capturedAt": "2026-09-27T05:00:31.143Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-06?oldid=1442",
+            "snapshot": "sources/wiki/pages/b8369af54b8e9ced.json",
+            "capturedAt": "2026-09-27T05:00:31.143Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 8
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 8
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 8
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 8
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 8
+          },
+          "难度": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 8
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-06?oldid=1442",
+            "snapshot": "sources/wiki/pages/b8369af54b8e9ced.json",
+            "capturedAt": "2026-09-27T05:00:31.143Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 8
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-06?oldid=1442",
+              "snapshot": "sources/wiki/pages/b8369af54b8e9ced.json",
+              "capturedAt": "2026-09-27T05:00:31.143Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "WM-06",
+              "loops": 4,
+              "days": 4,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "灭绝之火"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "不安扩散"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "医院事故"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "邪气污染"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 6,
+              "row": 8
+            },
+            "fields": {
+              "scenarioCode": "WM-06",
+              "剧本名": "Karma.",
+              "日文名": "Karma.",
+              "作者": "比良坂右京",
+              "轮数": "4",
+              "天数": "4",
+              "难度": "4"
+            }
+          }
+        ],
+        "body": "text/scenarios/1d2861430d5134a5.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-06?oldid=1442",
+          "snapshot": "sources/wiki/pages/b8369af54b8e9ced.json",
+          "capturedAt": "2026-09-27T05:00:31.143Z"
+        },
+        "wikiTitle": "WM-06",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-06?action=edit&section=1"
+          },
+          {
+            "title": "WM-06非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-06?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Weird Mythology"
+        ],
+        "module": "Weird Mythology"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "6b9425df97b00ad0",
+        "title": "WM-06非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "WM-06"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1886",
+            "snapshot": "sources/wiki/pages/c4bfa1100ea7b17d.json",
+            "capturedAt": "2026-09-27T05:00:36.312Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1886",
+            "snapshot": "sources/wiki/pages/c4bfa1100ea7b17d.json",
+            "capturedAt": "2026-09-27T05:00:36.312Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1886",
+            "snapshot": "sources/wiki/pages/c4bfa1100ea7b17d.json",
+            "capturedAt": "2026-09-27T05:00:36.312Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1886",
+              "snapshot": "sources/wiki/pages/c4bfa1100ea7b17d.json",
+              "capturedAt": "2026-09-27T05:00:36.312Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "WM-06"
+            }
+          }
+        ],
+        "wikiTitle": "WM-06非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Weird Mythology",
+        "tags": [
+          "民间",
+          "Weird Mythology"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "6b9425df97b00ad0"
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,60 @@
+{
+  "id": "da441400af9686a1",
+  "title": "第1輪迴在表世界，使用A.I.的友好能力觸發奇跡事件的效果時該如何處理？另外，在同一個輪迴中的表世界，奇跡事件發生時又該如何處理？",
+  "kind": "faq",
+  "scope": "纸质 FAQ / AHR / Q26",
+  "aliases": [],
+  "fields": {
+    "question": "第1輪迴在表世界，使用A.I.的友好能力觸發奇跡事件的效果時該如何處理？另外，在同一個輪迴中的表世界，奇跡事件發生時又該如何處理？",
+    "answer": "首先，前者的情況下只會進行世界移動。表世界奇跡事件的發動條件是「本事件首次發生」，但是A.I.的友好能力描述是「不視作事件發生」。基於同樣的理由，後者事件發生時主人公會死亡。"
+  },
+  "provenance": {
+    "question": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+      "snapshot": "sources/paper-faq/another-horizon-revised.json",
+      "page": 17,
+      "questionNumber": 26
+    },
+    "answer": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+      "snapshot": "sources/paper-faq/another-horizon-revised.json",
+      "page": 17,
+      "questionNumber": 26
+    }
+  },
+  "sources": [
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+      "snapshot": "sources/paper-faq/another-horizon-revised.json",
+      "page": 17,
+      "questionNumber": 26
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+        "snapshot": "sources/paper-faq/another-horizon-revised.json",
+        "page": 17,
+        "questionNumber": 26
+      },
+      "fields": {
+        "question": "第1輪迴在表世界，使用A.I.的友好能力觸發奇跡事件的效果時該如何處理？另外，在同一個輪迴中的表世界，奇跡事件發生時又該如何處理？",
+        "answer": "首先，前者的情況下只會進行世界移動。表世界奇跡事件的發動條件是「本事件首次發生」，但是A.I.的友好能力描述是「不視作事件發生」。基於同樣的理由，後者事件發生時主人公會死亡。"
+      }
+    }
+  ],
+  "tags": [
+    "AHR",
+    "纸质 FAQ",
+    "事件",
+    "官方"
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+  "conflicts": []
+}

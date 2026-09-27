@@ -1,0 +1,490 @@
+{
+  "id": "3a4f6986e3119ffc",
+  "title": "FS-17",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "FS-17非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "FS-17",
+    "loops": 3,
+    "days": 4,
+    "schedule": [
+      {
+        "day": 2,
+        "incidentText": "失踪"
+      },
+      {
+        "day": 3,
+        "incidentText": "不安扩散"
+      },
+      {
+        "day": 4,
+        "incidentText": "谋杀"
+      }
+    ],
+    "剧本名": "校园混乱",
+    "英文名": "Schoolyard Bedlam",
+    "作者": "Dav Flamerock",
+    "轮数": "3",
+    "天数": "4"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-17",
+      "snapshot": "sources/wiki/pages/d47924eed522f253.json",
+      "capturedAt": "2026-09-27T04:25:27.288Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-17",
+      "snapshot": "sources/wiki/pages/d47924eed522f253.json",
+      "capturedAt": "2026-09-27T04:25:27.288Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-17",
+      "snapshot": "sources/wiki/pages/d47924eed522f253.json",
+      "capturedAt": "2026-09-27T04:25:27.288Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-17",
+      "snapshot": "sources/wiki/pages/d47924eed522f253.json",
+      "capturedAt": "2026-09-27T04:25:27.288Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-17",
+      "snapshot": "sources/wiki/pages/d47924eed522f253.json",
+      "capturedAt": "2026-09-27T04:25:27.288Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 18
+    },
+    "英文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 18
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 18
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 18
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 18
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-17",
+      "snapshot": "sources/wiki/pages/d47924eed522f253.json",
+      "capturedAt": "2026-09-27T04:25:27.288Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 1,
+      "row": 18
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-17%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/ab9b4ff75950db39.json",
+      "capturedAt": "2026-09-27T04:25:30.332Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-17",
+        "snapshot": "sources/wiki/pages/d47924eed522f253.json",
+        "capturedAt": "2026-09-27T04:25:27.288Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "FS-17",
+        "loops": 3,
+        "days": 4,
+        "schedule": [
+          {
+            "day": 2,
+            "incidentText": "失踪"
+          },
+          {
+            "day": 3,
+            "incidentText": "不安扩散"
+          },
+          {
+            "day": 4,
+            "incidentText": "谋杀"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 1,
+        "row": 18
+      },
+      "fields": {
+        "scenarioCode": "FS-17",
+        "剧本名": "校园混乱",
+        "英文名": "Schoolyard Bedlam",
+        "作者": "Dav Flamerock",
+        "轮数": "3",
+        "天数": "4"
+      }
+    }
+  ],
+  "wikiTitle": "FS-17",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "First Steps"
+  ],
+  "module": "First Steps",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "3a4f6986e3119ffc",
+        "title": "FS-17",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "FS-17",
+          "loops": 3,
+          "days": 4,
+          "schedule": [
+            {
+              "day": 2,
+              "incidentText": "失踪"
+            },
+            {
+              "day": 3,
+              "incidentText": "不安扩散"
+            },
+            {
+              "day": 4,
+              "incidentText": "谋杀"
+            }
+          ],
+          "剧本名": "校园混乱",
+          "英文名": "Schoolyard Bedlam",
+          "作者": "Dav Flamerock",
+          "轮数": "3",
+          "天数": "4"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-17",
+            "snapshot": "sources/wiki/pages/d47924eed522f253.json",
+            "capturedAt": "2026-09-27T04:25:27.288Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-17",
+            "snapshot": "sources/wiki/pages/d47924eed522f253.json",
+            "capturedAt": "2026-09-27T04:25:27.288Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-17",
+            "snapshot": "sources/wiki/pages/d47924eed522f253.json",
+            "capturedAt": "2026-09-27T04:25:27.288Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-17",
+            "snapshot": "sources/wiki/pages/d47924eed522f253.json",
+            "capturedAt": "2026-09-27T04:25:27.288Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-17",
+            "snapshot": "sources/wiki/pages/d47924eed522f253.json",
+            "capturedAt": "2026-09-27T04:25:27.288Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 18
+          },
+          "英文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 18
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 18
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 18
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 18
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-17",
+            "snapshot": "sources/wiki/pages/d47924eed522f253.json",
+            "capturedAt": "2026-09-27T04:25:27.288Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 1,
+            "row": 18
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-17",
+              "snapshot": "sources/wiki/pages/d47924eed522f253.json",
+              "capturedAt": "2026-09-27T04:25:27.288Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "FS-17",
+              "loops": 3,
+              "days": 4,
+              "schedule": [
+                {
+                  "day": 2,
+                  "incidentText": "失踪"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "不安扩散"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "谋杀"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 1,
+              "row": 18
+            },
+            "fields": {
+              "scenarioCode": "FS-17",
+              "剧本名": "校园混乱",
+              "英文名": "Schoolyard Bedlam",
+              "作者": "Dav Flamerock",
+              "轮数": "3",
+              "天数": "4"
+            }
+          }
+        ],
+        "body": "text/scenarios/3a4f6986e3119ffc.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-17",
+          "snapshot": "sources/wiki/pages/d47924eed522f253.json",
+          "capturedAt": "2026-09-27T04:25:27.288Z"
+        },
+        "wikiTitle": "FS-17",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "FS-17非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-17%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-17?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "First Steps"
+        ],
+        "module": "First Steps"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "77d6e213b41c7909",
+        "title": "FS-17非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "FS-17",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "守护此地"
+            },
+            {
+              "slot": "X1",
+              "name": "开膛者的魔影"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-17%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/ab9b4ff75950db39.json",
+            "capturedAt": "2026-09-27T04:25:30.332Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-17%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/ab9b4ff75950db39.json",
+            "capturedAt": "2026-09-27T04:25:30.332Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-17%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/ab9b4ff75950db39.json",
+            "capturedAt": "2026-09-27T04:25:30.332Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-17%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/ab9b4ff75950db39.json",
+            "capturedAt": "2026-09-27T04:25:30.332Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-17%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/ab9b4ff75950db39.json",
+              "capturedAt": "2026-09-27T04:25:30.332Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "FS-17",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "守护此地"
+                },
+                {
+                  "slot": "X1",
+                  "name": "开膛者的魔影"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/77d6e213b41c7909.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-17%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/ab9b4ff75950db39.json",
+          "capturedAt": "2026-09-27T04:25:30.332Z"
+        },
+        "wikiTitle": "FS-17非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-17%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-17%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/FS-17%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=3"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "First Steps",
+        "tags": [
+          "民间",
+          "First Steps"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "77d6e213b41c7909"
+  ],
+  "conflicts": []
+}

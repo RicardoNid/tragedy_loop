@@ -1,0 +1,223 @@
+{
+  "id": "b824293e4a0ce969",
+  "title": "模仿犯",
+  "kind": "characters",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "角色名": "模仿犯",
+    "初始区域": "都市",
+    "禁行区域": "无",
+    "不安限度": "2",
+    "属性": [
+      "学生",
+      "少年"
+    ],
+    "特性": "剧本制作时，该角色不参与剧本所选规则的身份分配，但不直接视作平民，而是选择剧本中的另外1名角色、将那名角色的身份额外分配给该角色（此时，无视模组规定的剧本身份上限）",
+    "友好能力": [
+      {
+        "text": "（友好3）必須在第2輪輪迴或之後才可以使用。公開场上与该角色身份相同的所有角色名。即使帶有無視友好特性，也不能拒絕使用該能力。",
+        "threshold": 3,
+        "limitText": ""
+      }
+    ]
+  },
+  "provenance": {
+    "角色名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%A8%A1%E4%BB%BF%E7%8A%AF",
+      "snapshot": "sources/wiki/pages/db932f1e0b7931b7.json",
+      "capturedAt": "2026-09-27T03:33:09.237Z"
+    },
+    "初始区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%A8%A1%E4%BB%BF%E7%8A%AF",
+      "snapshot": "sources/wiki/pages/db932f1e0b7931b7.json",
+      "capturedAt": "2026-09-27T03:33:09.237Z"
+    },
+    "禁行区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%A8%A1%E4%BB%BF%E7%8A%AF",
+      "snapshot": "sources/wiki/pages/db932f1e0b7931b7.json",
+      "capturedAt": "2026-09-27T03:33:09.237Z"
+    },
+    "不安限度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%A8%A1%E4%BB%BF%E7%8A%AF",
+      "snapshot": "sources/wiki/pages/db932f1e0b7931b7.json",
+      "capturedAt": "2026-09-27T03:33:09.237Z"
+    },
+    "属性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%A8%A1%E4%BB%BF%E7%8A%AF",
+      "snapshot": "sources/wiki/pages/db932f1e0b7931b7.json",
+      "capturedAt": "2026-09-27T03:33:09.237Z"
+    },
+    "特性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%A8%A1%E4%BB%BF%E7%8A%AF",
+      "snapshot": "sources/wiki/pages/db932f1e0b7931b7.json",
+      "capturedAt": "2026-09-27T03:33:09.237Z"
+    },
+    "友好能力": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%A8%A1%E4%BB%BF%E7%8A%AF",
+      "snapshot": "sources/wiki/pages/db932f1e0b7931b7.json",
+      "capturedAt": "2026-09-27T03:33:09.237Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%A8%A1%E4%BB%BF%E7%8A%AF",
+      "snapshot": "sources/wiki/pages/db932f1e0b7931b7.json",
+      "capturedAt": "2026-09-27T03:33:09.237Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%A8%A1%E4%BB%BF%E7%8A%AF",
+        "snapshot": "sources/wiki/pages/db932f1e0b7931b7.json",
+        "capturedAt": "2026-09-27T03:33:09.237Z"
+      },
+      "fields": {
+        "角色名": "模仿犯",
+        "初始区域": "都市",
+        "禁行区域": "无",
+        "不安限度": "2",
+        "属性": [
+          "学生",
+          "少年"
+        ],
+        "特性": "剧本制作时，该角色不参与剧本所选规则的身份分配，但不直接视作平民，而是选择剧本中的另外1名角色、将那名角色的身份额外分配给该角色（此时，无视模组规定的剧本身份上限）",
+        "友好能力": [
+          {
+            "text": "（友好3）必須在第2輪輪迴或之後才可以使用。公開场上与该角色身份相同的所有角色名。即使帶有無視友好特性，也不能拒絕使用該能力。",
+            "threshold": 3,
+            "limitText": ""
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "特性": "剧本制作时，该角色不参与剧本所选规则的身份分配，但不直接视作平民，而是选择剧本中的另外1名角色、将那名角色的身份额外分配给该角色（此时，无视模组规定的剧本身份上限）",
+        "属性": [
+          "少年",
+          "学生"
+        ],
+        "初始区域": "都市",
+        "禁行区域": "否",
+        "不安限度": "2",
+        "友好能力": [
+          {
+            "text": "必须在第2轮轮回或随后才可以使用。公开场上与该角色身份相同的所有角色名。即使带有无视友好特性，也不能拒绝使用该能力。",
+            "threshold": "3",
+            "oncePerLoop": ""
+          }
+        ]
+      }
+    }
+  ],
+  "body": "text/characters/b824293e4a0ce969.txt",
+  "bodySource": {
+    "provider": "wiki",
+    "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%A8%A1%E4%BB%BF%E7%8A%AF",
+    "snapshot": "sources/wiki/pages/db932f1e0b7931b7.json",
+    "capturedAt": "2026-09-27T03:33:09.237Z"
+  },
+  "wikiTitle": "模仿犯",
+  "originalTables": [],
+  "wikiStatus": "captured",
+  "links": [
+    {
+      "title": "<img style=\"\" src=\"https://static.wikia.nocookie.net/tragedyrooper/images/6/63/%E6%A8%A1%E4%BB%BF%E7%8A%AF.png/revision/latest/scale-to-width-down/135?cb=20251023162227&amp;path-prefix=zh\" title=\"模仿犯.png (249 KB)\" class=\"thumbimage\" alt=\"\" height=\"185\" width=\"185\" data-image-name=\"模仿犯.png\" data-image-key=\"%E6%A8%A1%E4%BB%BF%E7%8A%AF.png\" data-relevant=\"1\">",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E6%A8%A1%E4%BB%BF%E7%8A%AF.png"
+    }
+  ],
+  "images": [
+    {
+      "alt": "",
+      "src": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+    }
+  ],
+  "media": [
+    {
+      "title": "模仿犯.png",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:%E6%A8%A1%E4%BB%BF%E7%8A%AF.png",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/6/63/%E6%A8%A1%E4%BB%BF%E7%8A%AF.png/revision/latest?cb=20251023162227&format=original&path-prefix=zh",
+      "path": "media/wiki/7ddc45f1492e5221.png",
+      "sourceRecord": "sources/wiki/files/7ddc45f1492e5221.json",
+      "sha256": "65d90e331961b0c3600e17dcef2795aa76760b1f4339f4b99db4398a681e9713",
+      "bytes": 254748,
+      "fileInfo": "PNG image data, 305 x 417, 8-bit/color RGBA, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/6fadb2d7054aeea7.json",
+  "tags": [
+    "学生",
+    "少年",
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "属性",
+      "selected": [
+        "学生",
+        "少年"
+      ],
+      "candidate": [
+        "少年",
+        "学生"
+      ],
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "禁行区域",
+      "selected": "无",
+      "candidate": "否",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "友好能力",
+      "selected": [
+        {
+          "text": "（友好3）必須在第2輪輪迴或之後才可以使用。公開场上与该角色身份相同的所有角色名。即使帶有無視友好特性，也不能拒絕使用該能力。",
+          "threshold": 3,
+          "limitText": ""
+        }
+      ],
+      "candidate": [
+        {
+          "text": "必须在第2轮轮回或随后才可以使用。公开场上与该角色身份相同的所有角色名。即使带有无视友好特性，也不能拒绝使用该能力。",
+          "threshold": "3",
+          "oncePerLoop": ""
+        }
+      ],
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    }
+  ]
+}

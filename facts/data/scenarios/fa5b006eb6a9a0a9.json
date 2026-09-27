@@ -1,0 +1,494 @@
+{
+  "id": "fa5b006eb6a9a0a9",
+  "title": "HSA-04",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "HSA-04非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "HSA-04",
+    "loops": 5,
+    "days": 5,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "疯狂之夜"
+      },
+      {
+        "day": 2,
+        "incidentText": "送葬"
+      },
+      {
+        "day": 3,
+        "incidentText": "孤守"
+      },
+      {
+        "day": 4,
+        "incidentText": "诅咒活化"
+      },
+      {
+        "day": 5,
+        "incidentText": "疯狂之夜"
+      }
+    ],
+    "剧本名": "捕狼陷阱",
+    "日文名": "ウェアウルフ捕物劇",
+    "作者": "ペンスキー（gitti）",
+    "轮数": "5 4",
+    "天数": "5",
+    "难度": "5 6"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-04",
+      "snapshot": "sources/wiki/pages/220a6d1b455a08b4.json",
+      "capturedAt": "2026-09-27T04:28:08.743Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-04",
+      "snapshot": "sources/wiki/pages/220a6d1b455a08b4.json",
+      "capturedAt": "2026-09-27T04:28:08.743Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-04",
+      "snapshot": "sources/wiki/pages/220a6d1b455a08b4.json",
+      "capturedAt": "2026-09-27T04:28:08.743Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-04",
+      "snapshot": "sources/wiki/pages/220a6d1b455a08b4.json",
+      "capturedAt": "2026-09-27T04:28:08.743Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-04",
+      "snapshot": "sources/wiki/pages/220a6d1b455a08b4.json",
+      "capturedAt": "2026-09-27T04:28:08.743Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 6
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 6
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 6
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 6
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 6
+    },
+    "难度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 6
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-04",
+      "snapshot": "sources/wiki/pages/220a6d1b455a08b4.json",
+      "capturedAt": "2026-09-27T04:28:08.743Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 6
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/23a5d4a8eca2fca6.json",
+      "capturedAt": "2026-09-27T04:28:11.848Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-04",
+        "snapshot": "sources/wiki/pages/220a6d1b455a08b4.json",
+        "capturedAt": "2026-09-27T04:28:08.743Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "HSA-04",
+        "loops": 5,
+        "days": 5,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "疯狂之夜"
+          },
+          {
+            "day": 2,
+            "incidentText": "送葬"
+          },
+          {
+            "day": 3,
+            "incidentText": "孤守"
+          },
+          {
+            "day": 4,
+            "incidentText": "诅咒活化"
+          },
+          {
+            "day": 5,
+            "incidentText": "疯狂之夜"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 5,
+        "row": 6
+      },
+      "fields": {
+        "scenarioCode": "HSA-04",
+        "剧本名": "捕狼陷阱",
+        "日文名": "ウェアウルフ捕物劇",
+        "作者": "ペンスキー（gitti）",
+        "轮数": "5 4",
+        "天数": "5",
+        "难度": "5 6"
+      }
+    }
+  ],
+  "wikiTitle": "HSA-04",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Haunted Stage Again"
+  ],
+  "module": "Haunted Stage Again",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "fa5b006eb6a9a0a9",
+        "title": "HSA-04",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "HSA-04",
+          "loops": 5,
+          "days": 5,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "疯狂之夜"
+            },
+            {
+              "day": 2,
+              "incidentText": "送葬"
+            },
+            {
+              "day": 3,
+              "incidentText": "孤守"
+            },
+            {
+              "day": 4,
+              "incidentText": "诅咒活化"
+            },
+            {
+              "day": 5,
+              "incidentText": "疯狂之夜"
+            }
+          ],
+          "剧本名": "捕狼陷阱",
+          "日文名": "ウェアウルフ捕物劇",
+          "作者": "ペンスキー（gitti）",
+          "轮数": "5 4",
+          "天数": "5",
+          "难度": "5 6"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-04",
+            "snapshot": "sources/wiki/pages/220a6d1b455a08b4.json",
+            "capturedAt": "2026-09-27T04:28:08.743Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-04",
+            "snapshot": "sources/wiki/pages/220a6d1b455a08b4.json",
+            "capturedAt": "2026-09-27T04:28:08.743Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-04",
+            "snapshot": "sources/wiki/pages/220a6d1b455a08b4.json",
+            "capturedAt": "2026-09-27T04:28:08.743Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-04",
+            "snapshot": "sources/wiki/pages/220a6d1b455a08b4.json",
+            "capturedAt": "2026-09-27T04:28:08.743Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-04",
+            "snapshot": "sources/wiki/pages/220a6d1b455a08b4.json",
+            "capturedAt": "2026-09-27T04:28:08.743Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 6
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 6
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 6
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 6
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 6
+          },
+          "难度": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 6
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-04",
+            "snapshot": "sources/wiki/pages/220a6d1b455a08b4.json",
+            "capturedAt": "2026-09-27T04:28:08.743Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 6
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-04",
+              "snapshot": "sources/wiki/pages/220a6d1b455a08b4.json",
+              "capturedAt": "2026-09-27T04:28:08.743Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "HSA-04",
+              "loops": 5,
+              "days": 5,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "疯狂之夜"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "送葬"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "孤守"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "诅咒活化"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "疯狂之夜"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 5,
+              "row": 6
+            },
+            "fields": {
+              "scenarioCode": "HSA-04",
+              "剧本名": "捕狼陷阱",
+              "日文名": "ウェアウルフ捕物劇",
+              "作者": "ペンスキー（gitti）",
+              "轮数": "5 4",
+              "天数": "5",
+              "难度": "5 6"
+            }
+          }
+        ],
+        "body": "text/scenarios/fa5b006eb6a9a0a9.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-04",
+          "snapshot": "sources/wiki/pages/220a6d1b455a08b4.json",
+          "capturedAt": "2026-09-27T04:28:08.743Z"
+        },
+        "wikiTitle": "HSA-04",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "HSA-04非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-04?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Haunted Stage Again"
+        ],
+        "module": "Haunted Stage Again"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "1179bd30512d2c51",
+        "title": "HSA-04非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "HSA-04"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/23a5d4a8eca2fca6.json",
+            "capturedAt": "2026-09-27T04:28:11.848Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/23a5d4a8eca2fca6.json",
+            "capturedAt": "2026-09-27T04:28:11.848Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/23a5d4a8eca2fca6.json",
+            "capturedAt": "2026-09-27T04:28:11.848Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-04%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/23a5d4a8eca2fca6.json",
+              "capturedAt": "2026-09-27T04:28:11.848Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "HSA-04"
+            }
+          }
+        ],
+        "wikiTitle": "HSA-04非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Haunted Stage Again",
+        "tags": [
+          "民间",
+          "Haunted Stage Again"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "1179bd30512d2c51"
+  ],
+  "conflicts": []
+}

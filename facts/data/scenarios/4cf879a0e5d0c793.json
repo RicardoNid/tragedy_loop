@@ -1,0 +1,414 @@
+{
+  "id": "4cf879a0e5d0c793",
+  "title": "MC-54",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "MC-54非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "MC-54",
+    "loops": 3,
+    "days": 2,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "自杀"
+      },
+      {
+        "day": 2,
+        "incidentText": "伪装自杀"
+      }
+    ],
+    "剧本名": "超越伪装自杀",
+    "作者": "残蝶未陨",
+    "轮数": "0",
+    "天数": "0"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-54",
+      "snapshot": "sources/wiki/pages/a85ad096c8867b8d.json",
+      "capturedAt": "2026-09-27T04:40:53.433Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-54",
+      "snapshot": "sources/wiki/pages/a85ad096c8867b8d.json",
+      "capturedAt": "2026-09-27T04:40:53.433Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-54",
+      "snapshot": "sources/wiki/pages/a85ad096c8867b8d.json",
+      "capturedAt": "2026-09-27T04:40:53.433Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-54",
+      "snapshot": "sources/wiki/pages/a85ad096c8867b8d.json",
+      "capturedAt": "2026-09-27T04:40:53.433Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-54",
+      "snapshot": "sources/wiki/pages/a85ad096c8867b8d.json",
+      "capturedAt": "2026-09-27T04:40:53.433Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 56
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 56
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 56
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 56
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-54",
+      "snapshot": "sources/wiki/pages/a85ad096c8867b8d.json",
+      "capturedAt": "2026-09-27T04:40:53.433Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 56
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-54%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/515d9cc0c44bd848.json",
+      "capturedAt": "2026-09-27T04:40:56.972Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-54",
+        "snapshot": "sources/wiki/pages/a85ad096c8867b8d.json",
+        "capturedAt": "2026-09-27T04:40:53.433Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "MC-54",
+        "loops": 3,
+        "days": 2,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "自杀"
+          },
+          {
+            "day": 2,
+            "incidentText": "伪装自杀"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 4,
+        "row": 56
+      },
+      "fields": {
+        "scenarioCode": "MC-54",
+        "剧本名": "超越伪装自杀",
+        "作者": "残蝶未陨",
+        "轮数": "0",
+        "天数": "0"
+      }
+    }
+  ],
+  "wikiTitle": "MC-54",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Mystery Circle"
+  ],
+  "module": "Mystery Circle",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "4cf879a0e5d0c793",
+        "title": "MC-54",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "MC-54",
+          "loops": 3,
+          "days": 2,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "自杀"
+            },
+            {
+              "day": 2,
+              "incidentText": "伪装自杀"
+            }
+          ],
+          "剧本名": "超越伪装自杀",
+          "作者": "残蝶未陨",
+          "轮数": "0",
+          "天数": "0"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-54",
+            "snapshot": "sources/wiki/pages/a85ad096c8867b8d.json",
+            "capturedAt": "2026-09-27T04:40:53.433Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-54",
+            "snapshot": "sources/wiki/pages/a85ad096c8867b8d.json",
+            "capturedAt": "2026-09-27T04:40:53.433Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-54",
+            "snapshot": "sources/wiki/pages/a85ad096c8867b8d.json",
+            "capturedAt": "2026-09-27T04:40:53.433Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-54",
+            "snapshot": "sources/wiki/pages/a85ad096c8867b8d.json",
+            "capturedAt": "2026-09-27T04:40:53.433Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-54",
+            "snapshot": "sources/wiki/pages/a85ad096c8867b8d.json",
+            "capturedAt": "2026-09-27T04:40:53.433Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 56
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 56
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 56
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 56
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-54",
+            "snapshot": "sources/wiki/pages/a85ad096c8867b8d.json",
+            "capturedAt": "2026-09-27T04:40:53.433Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 56
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-54",
+              "snapshot": "sources/wiki/pages/a85ad096c8867b8d.json",
+              "capturedAt": "2026-09-27T04:40:53.433Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "MC-54",
+              "loops": 3,
+              "days": 2,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "自杀"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "伪装自杀"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 4,
+              "row": 56
+            },
+            "fields": {
+              "scenarioCode": "MC-54",
+              "剧本名": "超越伪装自杀",
+              "作者": "残蝶未陨",
+              "轮数": "0",
+              "天数": "0"
+            }
+          }
+        ],
+        "body": "text/scenarios/4cf879a0e5d0c793.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-54",
+          "snapshot": "sources/wiki/pages/a85ad096c8867b8d.json",
+          "capturedAt": "2026-09-27T04:40:53.433Z"
+        },
+        "wikiTitle": "MC-54",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-54?action=edit&section=1"
+          },
+          {
+            "title": "MC-54非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-54%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-54?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Mystery Circle"
+        ],
+        "module": "Mystery Circle"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "3239daec04f99034",
+        "title": "MC-54非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "MC-54"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-54%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/515d9cc0c44bd848.json",
+            "capturedAt": "2026-09-27T04:40:56.972Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-54%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/515d9cc0c44bd848.json",
+            "capturedAt": "2026-09-27T04:40:56.972Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-54%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/515d9cc0c44bd848.json",
+            "capturedAt": "2026-09-27T04:40:56.972Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-54%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/515d9cc0c44bd848.json",
+              "capturedAt": "2026-09-27T04:40:56.972Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "MC-54"
+            }
+          }
+        ],
+        "wikiTitle": "MC-54非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Mystery Circle",
+        "tags": [
+          "民间",
+          "Mystery Circle"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "3239daec04f99034"
+  ],
+  "conflicts": []
+}

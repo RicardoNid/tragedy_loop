@@ -1,0 +1,516 @@
+{
+  "id": "39c46d0ec5849291",
+  "title": "MZ-20",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "MZ-20非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "MZ-20",
+    "loops": 4,
+    "days": 6,
+    "schedule": [
+      {
+        "day": 2,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 4,
+        "incidentText": "自白"
+      },
+      {
+        "day": 6,
+        "incidentText": "不安扩散"
+      }
+    ],
+    "剧本名": "影武者是谁？",
+    "日文名": "影武者はどっちだ？",
+    "作者": "ペンスキー（gitti）",
+    "轮数": "4",
+    "天数": "6",
+    "难度": "4"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-20",
+      "snapshot": "sources/wiki/pages/7b62c607df253646.json",
+      "capturedAt": "2026-09-27T04:45:03.616Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-20",
+      "snapshot": "sources/wiki/pages/7b62c607df253646.json",
+      "capturedAt": "2026-09-27T04:45:03.616Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-20",
+      "snapshot": "sources/wiki/pages/7b62c607df253646.json",
+      "capturedAt": "2026-09-27T04:45:03.616Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-20",
+      "snapshot": "sources/wiki/pages/7b62c607df253646.json",
+      "capturedAt": "2026-09-27T04:45:03.616Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-20",
+      "snapshot": "sources/wiki/pages/7b62c607df253646.json",
+      "capturedAt": "2026-09-27T04:45:03.616Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 22
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 22
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 22
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 22
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 22
+    },
+    "难度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 22
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-20",
+      "snapshot": "sources/wiki/pages/7b62c607df253646.json",
+      "capturedAt": "2026-09-27T04:45:03.616Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 22
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-20%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/d8aeb76a8cdb1824.json",
+      "capturedAt": "2026-09-27T04:45:16.382Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-20",
+        "snapshot": "sources/wiki/pages/7b62c607df253646.json",
+        "capturedAt": "2026-09-27T04:45:03.616Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "MZ-20",
+        "loops": 4,
+        "days": 6,
+        "schedule": [
+          {
+            "day": 2,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 4,
+            "incidentText": "自白"
+          },
+          {
+            "day": 6,
+            "incidentText": "不安扩散"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 3,
+        "row": 22
+      },
+      "fields": {
+        "scenarioCode": "MZ-20",
+        "剧本名": "影武者是谁？",
+        "日文名": "影武者はどっちだ？",
+        "作者": "ペンスキー（gitti）",
+        "轮数": "4",
+        "天数": "6",
+        "难度": "4"
+      }
+    }
+  ],
+  "wikiTitle": "MZ-20",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Midnight Zone"
+  ],
+  "module": "Midnight Zone",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "39c46d0ec5849291",
+        "title": "MZ-20",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "MZ-20",
+          "loops": 4,
+          "days": 6,
+          "schedule": [
+            {
+              "day": 2,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 4,
+              "incidentText": "自白"
+            },
+            {
+              "day": 6,
+              "incidentText": "不安扩散"
+            }
+          ],
+          "剧本名": "影武者是谁？",
+          "日文名": "影武者はどっちだ？",
+          "作者": "ペンスキー（gitti）",
+          "轮数": "4",
+          "天数": "6",
+          "难度": "4"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-20",
+            "snapshot": "sources/wiki/pages/7b62c607df253646.json",
+            "capturedAt": "2026-09-27T04:45:03.616Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-20",
+            "snapshot": "sources/wiki/pages/7b62c607df253646.json",
+            "capturedAt": "2026-09-27T04:45:03.616Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-20",
+            "snapshot": "sources/wiki/pages/7b62c607df253646.json",
+            "capturedAt": "2026-09-27T04:45:03.616Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-20",
+            "snapshot": "sources/wiki/pages/7b62c607df253646.json",
+            "capturedAt": "2026-09-27T04:45:03.616Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-20",
+            "snapshot": "sources/wiki/pages/7b62c607df253646.json",
+            "capturedAt": "2026-09-27T04:45:03.616Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 22
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 22
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 22
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 22
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 22
+          },
+          "难度": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 22
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-20",
+            "snapshot": "sources/wiki/pages/7b62c607df253646.json",
+            "capturedAt": "2026-09-27T04:45:03.616Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 22
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-20",
+              "snapshot": "sources/wiki/pages/7b62c607df253646.json",
+              "capturedAt": "2026-09-27T04:45:03.616Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "MZ-20",
+              "loops": 4,
+              "days": 6,
+              "schedule": [
+                {
+                  "day": 2,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "自白"
+                },
+                {
+                  "day": 6,
+                  "incidentText": "不安扩散"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 3,
+              "row": 22
+            },
+            "fields": {
+              "scenarioCode": "MZ-20",
+              "剧本名": "影武者是谁？",
+              "日文名": "影武者はどっちだ？",
+              "作者": "ペンスキー（gitti）",
+              "轮数": "4",
+              "天数": "6",
+              "难度": "4"
+            }
+          }
+        ],
+        "body": "text/scenarios/39c46d0ec5849291.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-20",
+          "snapshot": "sources/wiki/pages/7b62c607df253646.json",
+          "capturedAt": "2026-09-27T04:45:03.616Z"
+        },
+        "wikiTitle": "MZ-20",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "MZ-20非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-20%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-20?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Midnight Zone"
+        ],
+        "module": "Midnight Zone"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "e6a5a0f538036b71",
+        "title": "MZ-20非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "MZ-20",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "男子汉的战争"
+            },
+            {
+              "slot": "X1",
+              "name": "心无灵犀"
+            },
+            {
+              "slot": "X2",
+              "name": "诸神之骰"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-20%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/d8aeb76a8cdb1824.json",
+            "capturedAt": "2026-09-27T04:45:16.382Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-20%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/d8aeb76a8cdb1824.json",
+            "capturedAt": "2026-09-27T04:45:16.382Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-20%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/d8aeb76a8cdb1824.json",
+            "capturedAt": "2026-09-27T04:45:16.382Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-20%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/d8aeb76a8cdb1824.json",
+            "capturedAt": "2026-09-27T04:45:16.382Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-20%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/d8aeb76a8cdb1824.json",
+              "capturedAt": "2026-09-27T04:45:16.382Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "MZ-20",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "男子汉的战争"
+                },
+                {
+                  "slot": "X1",
+                  "name": "心无灵犀"
+                },
+                {
+                  "slot": "X2",
+                  "name": "诸神之骰"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/e6a5a0f538036b71.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-20%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/d8aeb76a8cdb1824.json",
+          "capturedAt": "2026-09-27T04:45:16.382Z"
+        },
+        "wikiTitle": "MZ-20非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-20%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-20%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-20%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=3"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Midnight Zone",
+        "tags": [
+          "民间",
+          "Midnight Zone"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "e6a5a0f538036b71"
+  ],
+  "conflicts": []
+}

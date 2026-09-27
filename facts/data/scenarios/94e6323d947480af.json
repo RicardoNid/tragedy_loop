@@ -1,0 +1,398 @@
+{
+  "id": "94e6323d947480af",
+  "title": "AHR-02",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "AHR-02非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "AHR-02",
+    "loops": "无限",
+    "days": 1,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "冲动杀人"
+      }
+    ],
+    "剧本名": "代号：爱丽丝",
+    "作者": "Sora",
+    "轮数": "n",
+    "天数": "1"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-02",
+      "snapshot": "sources/wiki/pages/e217f7207331c20a.json",
+      "capturedAt": "2026-09-27T03:39:32.066Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-02",
+      "snapshot": "sources/wiki/pages/e217f7207331c20a.json",
+      "capturedAt": "2026-09-27T03:39:32.066Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-02",
+      "snapshot": "sources/wiki/pages/e217f7207331c20a.json",
+      "capturedAt": "2026-09-27T03:39:32.066Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-02",
+      "snapshot": "sources/wiki/pages/e217f7207331c20a.json",
+      "capturedAt": "2026-09-27T03:39:32.066Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-02",
+      "snapshot": "sources/wiki/pages/e217f7207331c20a.json",
+      "capturedAt": "2026-09-27T03:39:32.066Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 3
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 3
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 3
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 3
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-02",
+      "snapshot": "sources/wiki/pages/e217f7207331c20a.json",
+      "capturedAt": "2026-09-27T03:39:32.066Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 3
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-02%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/83b4fc964226d1fb.json",
+      "capturedAt": "2026-09-27T03:39:35.373Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-02",
+        "snapshot": "sources/wiki/pages/e217f7207331c20a.json",
+        "capturedAt": "2026-09-27T03:39:32.066Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "AHR-02",
+        "loops": "无限",
+        "days": 1,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "冲动杀人"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 7,
+        "row": 3
+      },
+      "fields": {
+        "scenarioCode": "AHR-02",
+        "剧本名": "代号：爱丽丝",
+        "作者": "Sora",
+        "轮数": "n",
+        "天数": "1"
+      }
+    }
+  ],
+  "wikiTitle": "AHR-02",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Another Horizon Revised"
+  ],
+  "module": "Another Horizon Revised",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "94e6323d947480af",
+        "title": "AHR-02",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "AHR-02",
+          "loops": "无限",
+          "days": 1,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "冲动杀人"
+            }
+          ],
+          "剧本名": "代号：爱丽丝",
+          "作者": "Sora",
+          "轮数": "n",
+          "天数": "1"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-02",
+            "snapshot": "sources/wiki/pages/e217f7207331c20a.json",
+            "capturedAt": "2026-09-27T03:39:32.066Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-02",
+            "snapshot": "sources/wiki/pages/e217f7207331c20a.json",
+            "capturedAt": "2026-09-27T03:39:32.066Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-02",
+            "snapshot": "sources/wiki/pages/e217f7207331c20a.json",
+            "capturedAt": "2026-09-27T03:39:32.066Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-02",
+            "snapshot": "sources/wiki/pages/e217f7207331c20a.json",
+            "capturedAt": "2026-09-27T03:39:32.066Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-02",
+            "snapshot": "sources/wiki/pages/e217f7207331c20a.json",
+            "capturedAt": "2026-09-27T03:39:32.066Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 3
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 3
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 3
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 3
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-02",
+            "snapshot": "sources/wiki/pages/e217f7207331c20a.json",
+            "capturedAt": "2026-09-27T03:39:32.066Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 3
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-02",
+              "snapshot": "sources/wiki/pages/e217f7207331c20a.json",
+              "capturedAt": "2026-09-27T03:39:32.066Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "AHR-02",
+              "loops": "无限",
+              "days": 1,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "冲动杀人"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 7,
+              "row": 3
+            },
+            "fields": {
+              "scenarioCode": "AHR-02",
+              "剧本名": "代号：爱丽丝",
+              "作者": "Sora",
+              "轮数": "n",
+              "天数": "1"
+            }
+          }
+        ],
+        "body": "text/scenarios/94e6323d947480af.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-02",
+          "snapshot": "sources/wiki/pages/e217f7207331c20a.json",
+          "capturedAt": "2026-09-27T03:39:32.066Z"
+        },
+        "wikiTitle": "AHR-02",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-02?action=edit&section=1"
+          },
+          {
+            "title": "AHR-02非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-02%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-02?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Another Horizon Revised"
+        ],
+        "module": "Another Horizon Revised"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "09c38705e646d0d6",
+        "title": "AHR-02非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "AHR-02"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-02%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/83b4fc964226d1fb.json",
+            "capturedAt": "2026-09-27T03:39:35.373Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-02%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/83b4fc964226d1fb.json",
+            "capturedAt": "2026-09-27T03:39:35.373Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-02%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/83b4fc964226d1fb.json",
+            "capturedAt": "2026-09-27T03:39:35.373Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-02%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/83b4fc964226d1fb.json",
+              "capturedAt": "2026-09-27T03:39:35.373Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "AHR-02"
+            }
+          }
+        ],
+        "wikiTitle": "AHR-02非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Another Horizon Revised",
+        "tags": [
+          "民间",
+          "Another Horizon Revised"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "09c38705e646d0d6"
+  ],
+  "conflicts": []
+}

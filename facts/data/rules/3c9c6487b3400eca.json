@@ -1,0 +1,77 @@
+{
+  "id": "3c9c6487b3400eca",
+  "title": "古墓活尸",
+  "kind": "rules",
+  "scope": "Haunted Stage Again",
+  "aliases": [],
+  "fields": {
+    "ruleType": "Y",
+    "identityCounts": {},
+    "effect": "【强制：常驻】平民、胆小鬼和纸老虎的尸体身份变为丧尸"
+  },
+  "provenance": {
+    "ruleType": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage_Again",
+      "snapshot": "sources/wiki/pages/da682a376d9880ab.json",
+      "capturedAt": "2026-09-27T03:29:42.114Z"
+    },
+    "identityCounts": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage_Again",
+      "snapshot": "sources/wiki/pages/da682a376d9880ab.json",
+      "capturedAt": "2026-09-27T03:29:42.114Z"
+    },
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage_Again",
+      "snapshot": "sources/wiki/pages/da682a376d9880ab.json",
+      "capturedAt": "2026-09-27T03:29:42.114Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage_Again",
+      "snapshot": "sources/wiki/pages/da682a376d9880ab.json",
+      "capturedAt": "2026-09-27T03:29:42.114Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage_Again",
+        "snapshot": "sources/wiki/pages/da682a376d9880ab.json",
+        "capturedAt": "2026-09-27T03:29:42.114Z"
+      },
+      "fields": {
+        "ruleType": "Y",
+        "identityCounts": {},
+        "effect": "【强制：常驻】平民、胆小鬼和纸老虎的尸体身份变为丧尸"
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "ruleType": "Y",
+        "identityCounts": {},
+        "effect": "【强制：常驻】平民、胆小鬼和纸老虎的尸体身份变为丧尸"
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "Y",
+    "官方"
+  ],
+  "conflicts": []
+}

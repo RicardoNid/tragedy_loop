@@ -1,0 +1,107 @@
+{
+  "id": "005bc9ff95862402",
+  "title": "难以言喻的怪物",
+  "kind": "rules",
+  "scope": "Another Horizon Revised",
+  "aliases": [],
+  "fields": {
+    "ruleType": "X",
+    "identityCounts": {
+      "强迫症": "里",
+      "传谣人": "表",
+      "布道者": "①"
+    },
+    "effect": "【任意能力：回合结束阶段】Ex槽为3或以上→主人公死亡"
+  },
+  "provenance": {
+    "ruleType": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon_Revised",
+      "snapshot": "sources/wiki/pages/5a4c2d8594c08b1e.json",
+      "capturedAt": "2026-09-27T03:28:24.166Z"
+    },
+    "identityCounts": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon_Revised",
+      "snapshot": "sources/wiki/pages/5a4c2d8594c08b1e.json",
+      "capturedAt": "2026-09-27T03:28:24.166Z"
+    },
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon_Revised",
+      "snapshot": "sources/wiki/pages/5a4c2d8594c08b1e.json",
+      "capturedAt": "2026-09-27T03:28:24.166Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon_Revised",
+      "snapshot": "sources/wiki/pages/5a4c2d8594c08b1e.json",
+      "capturedAt": "2026-09-27T03:28:24.166Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon_Revised",
+        "snapshot": "sources/wiki/pages/5a4c2d8594c08b1e.json",
+        "capturedAt": "2026-09-27T03:28:24.166Z"
+      },
+      "fields": {
+        "ruleType": "X",
+        "identityCounts": {
+          "强迫症": "里",
+          "传谣人": "表",
+          "布道者": "①"
+        },
+        "effect": "【任意能力：回合结束阶段】Ex槽为3或以上→主人公死亡"
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "ruleType": "X",
+        "identityCounts": {
+          "强迫症": "里",
+          "传谣人": "表",
+          "布道者": "1"
+        },
+        "effect": "【任意能力：回合结束阶段】Ex槽为3或以上→主人公死亡"
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "X",
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "identityCounts",
+      "selected": {
+        "强迫症": "里",
+        "传谣人": "表",
+        "布道者": "①"
+      },
+      "candidate": {
+        "强迫症": "里",
+        "传谣人": "表",
+        "布道者": "1"
+      },
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    }
+  ]
+}

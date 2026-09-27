@@ -1,0 +1,70 @@
+{
+  "id": "50e6967f2c87d303",
+  "title": "雪色修罗场",
+  "kind": "rules",
+  "scope": "Echoing Love A",
+  "aliases": [],
+  "fields": {
+    "ruleType": "Y",
+    "identityCounts": {
+      "青梅竹马": "①",
+      "天降之物": "①",
+      "红娘": "①"
+    },
+    "effect": "【任意能力：回合结束阶段】本日引发过事件且本日未结算过友好能力→主人公失败，当前轮回立刻结束。\n【任意能力：剧作家能力阶段】将2名身上恰好分别放置有1枚和2枚【密谋】的角色同时移动至对方所在的区域。（每轮限1次）"
+  },
+  "provenance": {
+    "ruleType": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Echoing_Love_A",
+      "snapshot": "sources/wiki/pages/c8c2a6dac05a77fd.json",
+      "capturedAt": "2026-09-27T03:28:32.466Z"
+    },
+    "identityCounts": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Echoing_Love_A",
+      "snapshot": "sources/wiki/pages/c8c2a6dac05a77fd.json",
+      "capturedAt": "2026-09-27T03:28:32.466Z"
+    },
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Echoing_Love_A",
+      "snapshot": "sources/wiki/pages/c8c2a6dac05a77fd.json",
+      "capturedAt": "2026-09-27T03:28:32.466Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Echoing_Love_A",
+      "snapshot": "sources/wiki/pages/c8c2a6dac05a77fd.json",
+      "capturedAt": "2026-09-27T03:28:32.466Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Echoing_Love_A",
+        "snapshot": "sources/wiki/pages/c8c2a6dac05a77fd.json",
+        "capturedAt": "2026-09-27T03:28:32.466Z"
+      },
+      "fields": {
+        "ruleType": "Y",
+        "identityCounts": {
+          "青梅竹马": "①",
+          "天降之物": "①",
+          "红娘": "①"
+        },
+        "effect": "【任意能力：回合结束阶段】本日引发过事件且本日未结算过友好能力→主人公失败，当前轮回立刻结束。\n【任意能力：剧作家能力阶段】将2名身上恰好分别放置有1枚和2枚【密谋】的角色同时移动至对方所在的区域。（每轮限1次）"
+      }
+    }
+  ],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "Y",
+    "民间"
+  ],
+  "conflicts": []
+}

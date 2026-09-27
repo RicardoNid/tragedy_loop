@@ -1,0 +1,70 @@
+{
+  "id": "3ad0ffa9c1092b76",
+  "title": "月圆之夜",
+  "kind": "rules",
+  "scope": "Haunted Stage",
+  "aliases": [],
+  "fields": {
+    "ruleType": "Y",
+    "identityCounts": {
+      "梦魇": "①",
+      "狼人": "①",
+      "咒术师": "①"
+    },
+    "effect": ""
+  },
+  "provenance": {
+    "ruleType": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage",
+      "snapshot": "sources/wiki/pages/2c5d6075f60e6bd8.json",
+      "capturedAt": "2026-09-27T03:29:39.254Z"
+    },
+    "identityCounts": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage",
+      "snapshot": "sources/wiki/pages/2c5d6075f60e6bd8.json",
+      "capturedAt": "2026-09-27T03:29:39.254Z"
+    },
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage",
+      "snapshot": "sources/wiki/pages/2c5d6075f60e6bd8.json",
+      "capturedAt": "2026-09-27T03:29:39.254Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage",
+      "snapshot": "sources/wiki/pages/2c5d6075f60e6bd8.json",
+      "capturedAt": "2026-09-27T03:29:39.254Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage",
+        "snapshot": "sources/wiki/pages/2c5d6075f60e6bd8.json",
+        "capturedAt": "2026-09-27T03:29:39.254Z"
+      },
+      "fields": {
+        "ruleType": "Y",
+        "identityCounts": {
+          "梦魇": "①",
+          "狼人": "①",
+          "咒术师": "①"
+        },
+        "effect": ""
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "Y",
+    "官方"
+  ],
+  "conflicts": []
+}

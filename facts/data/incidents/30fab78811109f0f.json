@@ -1,0 +1,45 @@
+{
+  "id": "30fab78811109f0f",
+  "title": "不安扩散",
+  "kind": "incidents",
+  "scope": "Haunted Stage",
+  "aliases": [],
+  "fields": {
+    "effect": "往任意1名角色身上放置2枚[不安]，随后往另1名人物身上放置1枚[密谋]"
+  },
+  "provenance": {
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage",
+      "snapshot": "sources/wiki/pages/2c5d6075f60e6bd8.json",
+      "capturedAt": "2026-09-27T03:29:39.254Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage",
+      "snapshot": "sources/wiki/pages/2c5d6075f60e6bd8.json",
+      "capturedAt": "2026-09-27T03:29:39.254Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage",
+        "snapshot": "sources/wiki/pages/2c5d6075f60e6bd8.json",
+        "capturedAt": "2026-09-27T03:29:39.254Z"
+      },
+      "fields": {
+        "effect": "往任意1名角色身上放置2枚[不安]，随后往另1名人物身上放置1枚[密谋]"
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "官方"
+  ],
+  "conflicts": []
+}

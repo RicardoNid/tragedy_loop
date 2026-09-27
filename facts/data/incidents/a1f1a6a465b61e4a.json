@@ -1,0 +1,45 @@
+{
+  "id": "a1f1a6a465b61e4a",
+  "title": "诱拐",
+  "kind": "incidents",
+  "scope": "Supernatural Tragedy",
+  "aliases": [],
+  "fields": {
+    "effect": "将1名角色移动到其所在版图之外的1块版图。让另外1名角色移动至其所在版图之外的1块版图。"
+  },
+  "provenance": {
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Supernatural_Tragedy",
+      "snapshot": "sources/wiki/pages/34e1e734e8da4777.json",
+      "capturedAt": "2026-09-27T03:30:06.385Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Supernatural_Tragedy",
+      "snapshot": "sources/wiki/pages/34e1e734e8da4777.json",
+      "capturedAt": "2026-09-27T03:30:06.385Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Supernatural_Tragedy",
+        "snapshot": "sources/wiki/pages/34e1e734e8da4777.json",
+        "capturedAt": "2026-09-27T03:30:06.385Z"
+      },
+      "fields": {
+        "effect": "将1名角色移动到其所在版图之外的1块版图。让另外1名角色移动至其所在版图之外的1块版图。"
+      }
+    }
+  ],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "民间"
+  ],
+  "conflicts": []
+}

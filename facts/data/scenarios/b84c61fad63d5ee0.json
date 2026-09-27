@@ -1,0 +1,476 @@
+{
+  "id": "b84c61fad63d5ee0",
+  "title": "MZ-56",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "MZ-56非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "MZ-56",
+    "loops": 4,
+    "days": 5,
+    "schedule": [
+      {
+        "day": 2,
+        "incidentText": "自白"
+      },
+      {
+        "day": 3,
+        "incidentText": "自白"
+      },
+      {
+        "day": 4,
+        "incidentText": "不安扩散"
+      }
+    ],
+    "剧本名": "忍者可以自杀吗？",
+    "作者": "不愿意透露姓名的Y先生和S先生",
+    "轮数": "4",
+    "天数": "5"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-56?oldid=1179",
+      "snapshot": "sources/wiki/pages/687c88d88e44557e.json",
+      "capturedAt": "2026-09-27T04:55:56.876Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-56?oldid=1179",
+      "snapshot": "sources/wiki/pages/687c88d88e44557e.json",
+      "capturedAt": "2026-09-27T04:55:56.876Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-56?oldid=1179",
+      "snapshot": "sources/wiki/pages/687c88d88e44557e.json",
+      "capturedAt": "2026-09-27T04:55:56.876Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-56?oldid=1179",
+      "snapshot": "sources/wiki/pages/687c88d88e44557e.json",
+      "capturedAt": "2026-09-27T04:55:56.876Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-56?oldid=1179",
+      "snapshot": "sources/wiki/pages/687c88d88e44557e.json",
+      "capturedAt": "2026-09-27T04:55:56.876Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 58
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 58
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 58
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 58
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-56?oldid=1179",
+      "snapshot": "sources/wiki/pages/687c88d88e44557e.json",
+      "capturedAt": "2026-09-27T04:55:56.876Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 58
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-56%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=2432",
+      "snapshot": "sources/wiki/pages/fc55333eecf37cef.json",
+      "capturedAt": "2026-09-27T04:56:13.314Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-56?oldid=1179",
+        "snapshot": "sources/wiki/pages/687c88d88e44557e.json",
+        "capturedAt": "2026-09-27T04:55:56.876Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "MZ-56",
+        "loops": 4,
+        "days": 5,
+        "schedule": [
+          {
+            "day": 2,
+            "incidentText": "自白"
+          },
+          {
+            "day": 3,
+            "incidentText": "自白"
+          },
+          {
+            "day": 4,
+            "incidentText": "不安扩散"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 3,
+        "row": 58
+      },
+      "fields": {
+        "scenarioCode": "MZ-56",
+        "剧本名": "忍者可以自杀吗？",
+        "作者": "不愿意透露姓名的Y先生和S先生",
+        "轮数": "4",
+        "天数": "5"
+      }
+    }
+  ],
+  "wikiTitle": "MZ-56",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Midnight Zone"
+  ],
+  "module": "Midnight Zone",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "b84c61fad63d5ee0",
+        "title": "MZ-56",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "MZ-56",
+          "loops": 4,
+          "days": 5,
+          "schedule": [
+            {
+              "day": 2,
+              "incidentText": "自白"
+            },
+            {
+              "day": 3,
+              "incidentText": "自白"
+            },
+            {
+              "day": 4,
+              "incidentText": "不安扩散"
+            }
+          ],
+          "剧本名": "忍者可以自杀吗？",
+          "作者": "不愿意透露姓名的Y先生和S先生",
+          "轮数": "4",
+          "天数": "5"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-56?oldid=1179",
+            "snapshot": "sources/wiki/pages/687c88d88e44557e.json",
+            "capturedAt": "2026-09-27T04:55:56.876Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-56?oldid=1179",
+            "snapshot": "sources/wiki/pages/687c88d88e44557e.json",
+            "capturedAt": "2026-09-27T04:55:56.876Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-56?oldid=1179",
+            "snapshot": "sources/wiki/pages/687c88d88e44557e.json",
+            "capturedAt": "2026-09-27T04:55:56.876Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-56?oldid=1179",
+            "snapshot": "sources/wiki/pages/687c88d88e44557e.json",
+            "capturedAt": "2026-09-27T04:55:56.876Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-56?oldid=1179",
+            "snapshot": "sources/wiki/pages/687c88d88e44557e.json",
+            "capturedAt": "2026-09-27T04:55:56.876Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 58
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 58
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 58
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 58
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-56?oldid=1179",
+            "snapshot": "sources/wiki/pages/687c88d88e44557e.json",
+            "capturedAt": "2026-09-27T04:55:56.876Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 58
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-56?oldid=1179",
+              "snapshot": "sources/wiki/pages/687c88d88e44557e.json",
+              "capturedAt": "2026-09-27T04:55:56.876Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "MZ-56",
+              "loops": 4,
+              "days": 5,
+              "schedule": [
+                {
+                  "day": 2,
+                  "incidentText": "自白"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "自白"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "不安扩散"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 3,
+              "row": 58
+            },
+            "fields": {
+              "scenarioCode": "MZ-56",
+              "剧本名": "忍者可以自杀吗？",
+              "作者": "不愿意透露姓名的Y先生和S先生",
+              "轮数": "4",
+              "天数": "5"
+            }
+          }
+        ],
+        "body": "text/scenarios/b84c61fad63d5ee0.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-56?oldid=1179",
+          "snapshot": "sources/wiki/pages/687c88d88e44557e.json",
+          "capturedAt": "2026-09-27T04:55:56.876Z"
+        },
+        "wikiTitle": "MZ-56",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "MZ-56非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-56%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-56?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Midnight Zone"
+        ],
+        "module": "Midnight Zone"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "682a30c63cfd8df4",
+        "title": "MZ-56非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "MZ-56",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "魔爪渐进"
+            },
+            {
+              "slot": "X1",
+              "name": "死亡真人秀"
+            },
+            {
+              "slot": "X2",
+              "name": "爱与恨的螺旋"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-56%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=2432",
+            "snapshot": "sources/wiki/pages/fc55333eecf37cef.json",
+            "capturedAt": "2026-09-27T04:56:13.314Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-56%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=2432",
+            "snapshot": "sources/wiki/pages/fc55333eecf37cef.json",
+            "capturedAt": "2026-09-27T04:56:13.314Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-56%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=2432",
+            "snapshot": "sources/wiki/pages/fc55333eecf37cef.json",
+            "capturedAt": "2026-09-27T04:56:13.314Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-56%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=2432",
+            "snapshot": "sources/wiki/pages/fc55333eecf37cef.json",
+            "capturedAt": "2026-09-27T04:56:13.314Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-56%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=2432",
+              "snapshot": "sources/wiki/pages/fc55333eecf37cef.json",
+              "capturedAt": "2026-09-27T04:56:13.314Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "MZ-56",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "魔爪渐进"
+                },
+                {
+                  "slot": "X1",
+                  "name": "死亡真人秀"
+                },
+                {
+                  "slot": "X2",
+                  "name": "爱与恨的螺旋"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/682a30c63cfd8df4.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-56%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=2432",
+          "snapshot": "sources/wiki/pages/fc55333eecf37cef.json",
+          "capturedAt": "2026-09-27T04:56:13.314Z"
+        },
+        "wikiTitle": "MZ-56非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-56%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-56%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Midnight Zone",
+        "tags": [
+          "民间",
+          "Midnight Zone"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "682a30c63cfd8df4"
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,508 @@
+{
+  "id": "8e7513107a7a8aae",
+  "title": "MZ-16",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "MZ-16非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "MZ-16",
+    "loops": 1919810,
+    "days": 4,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "伪装自杀"
+      },
+      {
+        "day": 2,
+        "incidentText": "暴乱"
+      },
+      {
+        "day": 3,
+        "incidentText": "自杀"
+      }
+    ],
+    "剧本名": "预言少女",
+    "作者": "喵氏",
+    "轮数": "1919180",
+    "天数": "4"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-16",
+      "snapshot": "sources/wiki/pages/2ea35fdf5105d6bc.json",
+      "capturedAt": "2026-09-27T04:44:32.455Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-16",
+      "snapshot": "sources/wiki/pages/2ea35fdf5105d6bc.json",
+      "capturedAt": "2026-09-27T04:44:32.455Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-16",
+      "snapshot": "sources/wiki/pages/2ea35fdf5105d6bc.json",
+      "capturedAt": "2026-09-27T04:44:32.455Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-16",
+      "snapshot": "sources/wiki/pages/2ea35fdf5105d6bc.json",
+      "capturedAt": "2026-09-27T04:44:32.455Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-16",
+      "snapshot": "sources/wiki/pages/2ea35fdf5105d6bc.json",
+      "capturedAt": "2026-09-27T04:44:32.455Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 17
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 17
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 17
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 17
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-16",
+      "snapshot": "sources/wiki/pages/2ea35fdf5105d6bc.json",
+      "capturedAt": "2026-09-27T04:44:32.455Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 3,
+      "row": 17
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-16%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/8c14f89e34340f8c.json",
+      "capturedAt": "2026-09-27T04:44:35.478Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-16",
+        "snapshot": "sources/wiki/pages/2ea35fdf5105d6bc.json",
+        "capturedAt": "2026-09-27T04:44:32.455Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "MZ-16",
+        "loops": 1919810,
+        "days": 4,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "伪装自杀"
+          },
+          {
+            "day": 2,
+            "incidentText": "暴乱"
+          },
+          {
+            "day": 3,
+            "incidentText": "自杀"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 3,
+        "row": 17
+      },
+      "fields": {
+        "scenarioCode": "MZ-16",
+        "剧本名": "预言少女",
+        "作者": "喵氏",
+        "轮数": "1919180",
+        "天数": "4"
+      }
+    }
+  ],
+  "wikiTitle": "MZ-16",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Midnight Zone"
+  ],
+  "module": "Midnight Zone",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "8e7513107a7a8aae",
+        "title": "MZ-16",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "MZ-16",
+          "loops": 1919810,
+          "days": 4,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "伪装自杀"
+            },
+            {
+              "day": 2,
+              "incidentText": "暴乱"
+            },
+            {
+              "day": 3,
+              "incidentText": "自杀"
+            }
+          ],
+          "剧本名": "预言少女",
+          "作者": "喵氏",
+          "轮数": "1919180",
+          "天数": "4"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-16",
+            "snapshot": "sources/wiki/pages/2ea35fdf5105d6bc.json",
+            "capturedAt": "2026-09-27T04:44:32.455Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-16",
+            "snapshot": "sources/wiki/pages/2ea35fdf5105d6bc.json",
+            "capturedAt": "2026-09-27T04:44:32.455Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-16",
+            "snapshot": "sources/wiki/pages/2ea35fdf5105d6bc.json",
+            "capturedAt": "2026-09-27T04:44:32.455Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-16",
+            "snapshot": "sources/wiki/pages/2ea35fdf5105d6bc.json",
+            "capturedAt": "2026-09-27T04:44:32.455Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-16",
+            "snapshot": "sources/wiki/pages/2ea35fdf5105d6bc.json",
+            "capturedAt": "2026-09-27T04:44:32.455Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 17
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 17
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 17
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 17
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-16",
+            "snapshot": "sources/wiki/pages/2ea35fdf5105d6bc.json",
+            "capturedAt": "2026-09-27T04:44:32.455Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 3,
+            "row": 17
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-16",
+              "snapshot": "sources/wiki/pages/2ea35fdf5105d6bc.json",
+              "capturedAt": "2026-09-27T04:44:32.455Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "MZ-16",
+              "loops": 1919810,
+              "days": 4,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "伪装自杀"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "暴乱"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "自杀"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 3,
+              "row": 17
+            },
+            "fields": {
+              "scenarioCode": "MZ-16",
+              "剧本名": "预言少女",
+              "作者": "喵氏",
+              "轮数": "1919180",
+              "天数": "4"
+            }
+          }
+        ],
+        "body": "text/scenarios/8e7513107a7a8aae.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-16",
+          "snapshot": "sources/wiki/pages/2ea35fdf5105d6bc.json",
+          "capturedAt": "2026-09-27T04:44:32.455Z"
+        },
+        "wikiTitle": "MZ-16",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-16?action=edit&section=1"
+          },
+          {
+            "title": "UP主",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/UP%E4%B8%BB"
+          },
+          {
+            "title": "MZ-16非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-16%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-16?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Midnight Zone"
+        ],
+        "module": "Midnight Zone"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "7780699c69244603",
+        "title": "MZ-16非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "MZ-16",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "因果之绊"
+            },
+            {
+              "slot": "X1",
+              "name": "灭亡讴歌"
+            },
+            {
+              "slot": "X2",
+              "name": "死亡真人秀"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-16%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/8c14f89e34340f8c.json",
+            "capturedAt": "2026-09-27T04:44:35.478Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-16%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/8c14f89e34340f8c.json",
+            "capturedAt": "2026-09-27T04:44:35.478Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-16%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/8c14f89e34340f8c.json",
+            "capturedAt": "2026-09-27T04:44:35.478Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-16%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/8c14f89e34340f8c.json",
+            "capturedAt": "2026-09-27T04:44:35.478Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-16%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/8c14f89e34340f8c.json",
+              "capturedAt": "2026-09-27T04:44:35.478Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "MZ-16",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "因果之绊"
+                },
+                {
+                  "slot": "X1",
+                  "name": "灭亡讴歌"
+                },
+                {
+                  "slot": "X2",
+                  "name": "死亡真人秀"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/7780699c69244603.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-16%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/8c14f89e34340f8c.json",
+          "capturedAt": "2026-09-27T04:44:35.478Z"
+        },
+        "wikiTitle": "MZ-16非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "1 预言少女 作者：喵氏",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-16%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E9%A2%84%E8%A8%80%E5%B0%91%E5%A5%B3_%E4%BD%9C%E8%80%85%EF%BC%9A%E5%96%B5%E6%B0%8F"
+          },
+          {
+            "title": "1.1 出牌方法",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-16%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E5%87%BA%E7%89%8C%E6%96%B9%E6%B3%95"
+          },
+          {
+            "title": "1.2 故事 (BY 八十万)",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-16%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E6%95%85%E4%BA%8B_(BY_%E5%85%AB%E5%8D%81%E4%B8%87)"
+          },
+          {
+            "title": "1.3 剧作家指南",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-16%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E5%89%A7%E4%BD%9C%E5%AE%B6%E6%8C%87%E5%8D%97"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-16%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-16%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-16%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=3"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-16%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=4"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Midnight Zone",
+        "tags": [
+          "民间",
+          "Midnight Zone"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "7780699c69244603"
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,85 @@
+{
+  "id": "0686b8b237d57b47",
+  "title": "因果残片",
+  "kind": "identities",
+  "scope": "Last Liar",
+  "aliases": [],
+  "fields": {
+    "max": "",
+    "traits": "",
+    "abilities": [
+      "【强制：轮回开始时】若该角色上轮轮回结束时处于死亡状态→剧作家获得[绝望+1]",
+      "【强制：轮回开始时】若该角色上轮轮回结束时存活并且身上有2枚或以上的[友好]，主人公获得[希望+1]"
+    ]
+  },
+  "provenance": {
+    "max": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Last_Liar",
+      "snapshot": "sources/wiki/pages/844cae1ed2f5e214.json",
+      "capturedAt": "2026-09-27T03:29:44.914Z"
+    },
+    "traits": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Last_Liar",
+      "snapshot": "sources/wiki/pages/844cae1ed2f5e214.json",
+      "capturedAt": "2026-09-27T03:29:44.914Z"
+    },
+    "abilities": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Last_Liar",
+      "snapshot": "sources/wiki/pages/844cae1ed2f5e214.json",
+      "capturedAt": "2026-09-27T03:29:44.914Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Last_Liar",
+      "snapshot": "sources/wiki/pages/844cae1ed2f5e214.json",
+      "capturedAt": "2026-09-27T03:29:44.914Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Last_Liar",
+        "snapshot": "sources/wiki/pages/844cae1ed2f5e214.json",
+        "capturedAt": "2026-09-27T03:29:44.914Z"
+      },
+      "fields": {
+        "max": "",
+        "traits": "",
+        "abilities": [
+          "【强制：轮回开始时】若该角色上轮轮回结束时处于死亡状态→剧作家获得[绝望+1]",
+          "【强制：轮回开始时】若该角色上轮轮回结束时存活并且身上有2枚或以上的[友好]，主人公获得[希望+1]"
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "max": "",
+        "traits": "",
+        "abilities": [
+          "【强制：轮回开始时】若该角色上轮轮回结束时处于死亡状态→剧作家获得[绝望+1]",
+          "【强制：轮回开始时】若该角色上轮轮回结束时存活并且身上有2枚或以上的[友好]，主人公获得[希望+1]"
+        ]
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "官方"
+  ],
+  "conflicts": []
+}

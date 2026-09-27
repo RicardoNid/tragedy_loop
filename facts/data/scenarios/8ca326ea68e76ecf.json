@@ -1,0 +1,446 @@
+{
+  "id": "8ca326ea68e76ecf",
+  "title": "AHR-13",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "AHR-13非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "AHR-13",
+    "loops": "无限",
+    "days": 4,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "绝望之暗"
+      },
+      {
+        "day": 2,
+        "incidentText": "遗失物"
+      },
+      {
+        "day": 3,
+        "incidentText": "隙间的阳光"
+      },
+      {
+        "day": 4,
+        "incidentText": "次元断层"
+      }
+    ],
+    "剧本名": "愚公移山",
+    "作者": "Choconut",
+    "轮数": "n",
+    "天数": "4"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-13",
+      "snapshot": "sources/wiki/pages/e80edb1080bacac3.json",
+      "capturedAt": "2026-09-27T03:41:24.527Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-13",
+      "snapshot": "sources/wiki/pages/e80edb1080bacac3.json",
+      "capturedAt": "2026-09-27T03:41:24.527Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-13",
+      "snapshot": "sources/wiki/pages/e80edb1080bacac3.json",
+      "capturedAt": "2026-09-27T03:41:24.527Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-13",
+      "snapshot": "sources/wiki/pages/e80edb1080bacac3.json",
+      "capturedAt": "2026-09-27T03:41:24.527Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-13",
+      "snapshot": "sources/wiki/pages/e80edb1080bacac3.json",
+      "capturedAt": "2026-09-27T03:41:24.527Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 14
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 14
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 14
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 14
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-13",
+      "snapshot": "sources/wiki/pages/e80edb1080bacac3.json",
+      "capturedAt": "2026-09-27T03:41:24.527Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 14
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/aeeccaa2653c0104.json",
+      "capturedAt": "2026-09-27T03:41:29.488Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-13",
+        "snapshot": "sources/wiki/pages/e80edb1080bacac3.json",
+        "capturedAt": "2026-09-27T03:41:24.527Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "AHR-13",
+        "loops": "无限",
+        "days": 4,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "绝望之暗"
+          },
+          {
+            "day": 2,
+            "incidentText": "遗失物"
+          },
+          {
+            "day": 3,
+            "incidentText": "隙间的阳光"
+          },
+          {
+            "day": 4,
+            "incidentText": "次元断层"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 7,
+        "row": 14
+      },
+      "fields": {
+        "scenarioCode": "AHR-13",
+        "剧本名": "愚公移山",
+        "作者": "Choconut",
+        "轮数": "n",
+        "天数": "4"
+      }
+    }
+  ],
+  "wikiTitle": "AHR-13",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Another Horizon Revised"
+  ],
+  "module": "Another Horizon Revised",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "8ca326ea68e76ecf",
+        "title": "AHR-13",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "AHR-13",
+          "loops": "无限",
+          "days": 4,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "绝望之暗"
+            },
+            {
+              "day": 2,
+              "incidentText": "遗失物"
+            },
+            {
+              "day": 3,
+              "incidentText": "隙间的阳光"
+            },
+            {
+              "day": 4,
+              "incidentText": "次元断层"
+            }
+          ],
+          "剧本名": "愚公移山",
+          "作者": "Choconut",
+          "轮数": "n",
+          "天数": "4"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-13",
+            "snapshot": "sources/wiki/pages/e80edb1080bacac3.json",
+            "capturedAt": "2026-09-27T03:41:24.527Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-13",
+            "snapshot": "sources/wiki/pages/e80edb1080bacac3.json",
+            "capturedAt": "2026-09-27T03:41:24.527Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-13",
+            "snapshot": "sources/wiki/pages/e80edb1080bacac3.json",
+            "capturedAt": "2026-09-27T03:41:24.527Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-13",
+            "snapshot": "sources/wiki/pages/e80edb1080bacac3.json",
+            "capturedAt": "2026-09-27T03:41:24.527Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-13",
+            "snapshot": "sources/wiki/pages/e80edb1080bacac3.json",
+            "capturedAt": "2026-09-27T03:41:24.527Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 14
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 14
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 14
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 14
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-13",
+            "snapshot": "sources/wiki/pages/e80edb1080bacac3.json",
+            "capturedAt": "2026-09-27T03:41:24.527Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 14
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-13",
+              "snapshot": "sources/wiki/pages/e80edb1080bacac3.json",
+              "capturedAt": "2026-09-27T03:41:24.527Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "AHR-13",
+              "loops": "无限",
+              "days": 4,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "绝望之暗"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "遗失物"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "隙间的阳光"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "次元断层"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 7,
+              "row": 14
+            },
+            "fields": {
+              "scenarioCode": "AHR-13",
+              "剧本名": "愚公移山",
+              "作者": "Choconut",
+              "轮数": "n",
+              "天数": "4"
+            }
+          }
+        ],
+        "body": "text/scenarios/8ca326ea68e76ecf.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-13",
+          "snapshot": "sources/wiki/pages/e80edb1080bacac3.json",
+          "capturedAt": "2026-09-27T03:41:24.527Z"
+        },
+        "wikiTitle": "AHR-13",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-13?action=edit&section=1"
+          },
+          {
+            "title": "AHR-13非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-13?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Another Horizon Revised"
+        ],
+        "module": "Another Horizon Revised"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "18ba4289309c5bbe",
+        "title": "AHR-13非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "AHR-13"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/aeeccaa2653c0104.json",
+            "capturedAt": "2026-09-27T03:41:29.488Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/aeeccaa2653c0104.json",
+            "capturedAt": "2026-09-27T03:41:29.488Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/aeeccaa2653c0104.json",
+            "capturedAt": "2026-09-27T03:41:29.488Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/aeeccaa2653c0104.json",
+              "capturedAt": "2026-09-27T03:41:29.488Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "AHR-13"
+            }
+          }
+        ],
+        "wikiTitle": "AHR-13非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Another Horizon Revised",
+        "tags": [
+          "民间",
+          "Another Horizon Revised"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "18ba4289309c5bbe"
+  ],
+  "conflicts": []
+}

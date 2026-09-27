@@ -1,0 +1,67 @@
+{
+  "id": "5bbe6afa0beaec6d",
+  "title": "【疯狂的真相】会替换整个规则和身份分配吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / WM / 第 13 行",
+  "aliases": [],
+  "fields": {
+    "question": "【疯狂的真相】会替换整个规则和身份分配吗？",
+    "answer": "不会，仅有失败条件变更"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=ofqfdw",
+      "snapshot": "sources/faq-sheet/wm.json",
+      "sheet": "WM",
+      "row": 13,
+      "cells": "A13:B13",
+      "capturedAt": "2026-09-27T05:40:23.278Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=ofqfdw",
+      "snapshot": "sources/faq-sheet/wm.json",
+      "sheet": "WM",
+      "row": 13,
+      "cells": "A13:B13",
+      "capturedAt": "2026-09-27T05:40:23.278Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=ofqfdw",
+      "snapshot": "sources/faq-sheet/wm.json",
+      "sheet": "WM",
+      "row": 13,
+      "cells": "A13:B13",
+      "capturedAt": "2026-09-27T05:40:23.278Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=ofqfdw",
+        "snapshot": "sources/faq-sheet/wm.json",
+        "sheet": "WM",
+        "row": 13,
+        "cells": "A13:B13",
+        "capturedAt": "2026-09-27T05:40:23.278Z"
+      },
+      "fields": {
+        "question": "【疯狂的真相】会替换整个规则和身份分配吗？",
+        "answer": "不会，仅有失败条件变更"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "WM",
+    "关于规则",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

@@ -1,0 +1,538 @@
+{
+  "id": "a3b6ff05eec548ad",
+  "title": "BTX-13",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "BTX-13非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "BTX-13",
+    "loops": 4,
+    "days": 5,
+    "schedule": [
+      {
+        "day": 2,
+        "incidentText": "散播"
+      },
+      {
+        "day": 4,
+        "incidentText": "不安扩散"
+      }
+    ],
+    "剧本名": "匍匐之羽",
+    "日文名": "地を這う羽",
+    "英文名": "Wings Slithering on the Ground",
+    "作者": "ぶー太郎",
+    "轮数": "4",
+    "天数": "5",
+    "难度": "4"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-13",
+      "snapshot": "sources/wiki/pages/59aa48b4a62ec147.json",
+      "capturedAt": "2026-09-27T03:57:51.437Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-13",
+      "snapshot": "sources/wiki/pages/59aa48b4a62ec147.json",
+      "capturedAt": "2026-09-27T03:57:51.437Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-13",
+      "snapshot": "sources/wiki/pages/59aa48b4a62ec147.json",
+      "capturedAt": "2026-09-27T03:57:51.437Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-13",
+      "snapshot": "sources/wiki/pages/59aa48b4a62ec147.json",
+      "capturedAt": "2026-09-27T03:57:51.437Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-13",
+      "snapshot": "sources/wiki/pages/59aa48b4a62ec147.json",
+      "capturedAt": "2026-09-27T03:57:51.437Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 14
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 14
+    },
+    "英文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 14
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 14
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 14
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 14
+    },
+    "难度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 14
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-13",
+      "snapshot": "sources/wiki/pages/59aa48b4a62ec147.json",
+      "capturedAt": "2026-09-27T03:57:51.437Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 14
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/07b7978ed40e2fcb.json",
+      "capturedAt": "2026-09-27T03:59:03.183Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-13",
+        "snapshot": "sources/wiki/pages/59aa48b4a62ec147.json",
+        "capturedAt": "2026-09-27T03:57:51.437Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "BTX-13",
+        "loops": 4,
+        "days": 5,
+        "schedule": [
+          {
+            "day": 2,
+            "incidentText": "散播"
+          },
+          {
+            "day": 4,
+            "incidentText": "不安扩散"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 2,
+        "row": 14
+      },
+      "fields": {
+        "scenarioCode": "BTX-13",
+        "剧本名": "匍匐之羽",
+        "日文名": "地を這う羽",
+        "英文名": "Wings Slithering on the Ground",
+        "作者": "ぶー太郎",
+        "轮数": "4",
+        "天数": "5",
+        "难度": "4"
+      }
+    }
+  ],
+  "wikiTitle": "BTX-13",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Basic Tragedy X"
+  ],
+  "module": "Basic Tragedy X",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "a3b6ff05eec548ad",
+        "title": "BTX-13",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "BTX-13",
+          "loops": 4,
+          "days": 5,
+          "schedule": [
+            {
+              "day": 2,
+              "incidentText": "散播"
+            },
+            {
+              "day": 4,
+              "incidentText": "不安扩散"
+            }
+          ],
+          "剧本名": "匍匐之羽",
+          "日文名": "地を這う羽",
+          "英文名": "Wings Slithering on the Ground",
+          "作者": "ぶー太郎",
+          "轮数": "4",
+          "天数": "5",
+          "难度": "4"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-13",
+            "snapshot": "sources/wiki/pages/59aa48b4a62ec147.json",
+            "capturedAt": "2026-09-27T03:57:51.437Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-13",
+            "snapshot": "sources/wiki/pages/59aa48b4a62ec147.json",
+            "capturedAt": "2026-09-27T03:57:51.437Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-13",
+            "snapshot": "sources/wiki/pages/59aa48b4a62ec147.json",
+            "capturedAt": "2026-09-27T03:57:51.437Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-13",
+            "snapshot": "sources/wiki/pages/59aa48b4a62ec147.json",
+            "capturedAt": "2026-09-27T03:57:51.437Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-13",
+            "snapshot": "sources/wiki/pages/59aa48b4a62ec147.json",
+            "capturedAt": "2026-09-27T03:57:51.437Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 14
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 14
+          },
+          "英文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 14
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 14
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 14
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 14
+          },
+          "难度": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 14
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-13",
+            "snapshot": "sources/wiki/pages/59aa48b4a62ec147.json",
+            "capturedAt": "2026-09-27T03:57:51.437Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 14
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-13",
+              "snapshot": "sources/wiki/pages/59aa48b4a62ec147.json",
+              "capturedAt": "2026-09-27T03:57:51.437Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "BTX-13",
+              "loops": 4,
+              "days": 5,
+              "schedule": [
+                {
+                  "day": 2,
+                  "incidentText": "散播"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "不安扩散"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 2,
+              "row": 14
+            },
+            "fields": {
+              "scenarioCode": "BTX-13",
+              "剧本名": "匍匐之羽",
+              "日文名": "地を這う羽",
+              "英文名": "Wings Slithering on the Ground",
+              "作者": "ぶー太郎",
+              "轮数": "4",
+              "天数": "5",
+              "难度": "4"
+            }
+          }
+        ],
+        "body": "text/scenarios/a3b6ff05eec548ad.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-13",
+          "snapshot": "sources/wiki/pages/59aa48b4a62ec147.json",
+          "capturedAt": "2026-09-27T03:57:51.437Z"
+        },
+        "wikiTitle": "BTX-13",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "BTX-13非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-13?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Basic Tragedy X"
+        ],
+        "module": "Basic Tragedy X"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "a870dbc572f74c8b",
+        "title": "BTX-13非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "BTX-13",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "改变未来"
+            },
+            {
+              "slot": "X1",
+              "name": "流言四起"
+            },
+            {
+              "slot": "X2",
+              "name": "未知因子KAI"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/07b7978ed40e2fcb.json",
+            "capturedAt": "2026-09-27T03:59:03.183Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/07b7978ed40e2fcb.json",
+            "capturedAt": "2026-09-27T03:59:03.183Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/07b7978ed40e2fcb.json",
+            "capturedAt": "2026-09-27T03:59:03.183Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/07b7978ed40e2fcb.json",
+            "capturedAt": "2026-09-27T03:59:03.183Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/07b7978ed40e2fcb.json",
+              "capturedAt": "2026-09-27T03:59:03.183Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "BTX-13",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "改变未来"
+                },
+                {
+                  "slot": "X1",
+                  "name": "流言四起"
+                },
+                {
+                  "slot": "X2",
+                  "name": "未知因子KAI"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/a870dbc572f74c8b.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/07b7978ed40e2fcb.json",
+          "capturedAt": "2026-09-27T03:59:03.183Z"
+        },
+        "wikiTitle": "BTX-13非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "1 匍匐之羽 作者： ぶー太郎",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E5%8C%8D%E5%8C%90%E4%B9%8B%E7%BE%BD_%E4%BD%9C%E8%80%85%EF%BC%9A_%E3%81%B6%E3%83%BC%E5%A4%AA%E9%83%8E"
+          },
+          {
+            "title": "1.1 剧本特征",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E5%89%A7%E6%9C%AC%E7%89%B9%E5%BE%81"
+          },
+          {
+            "title": "1.2 故事",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E6%95%85%E4%BA%8B"
+          },
+          {
+            "title": "1.3 剧作家指南",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E5%89%A7%E4%BD%9C%E5%AE%B6%E6%8C%87%E5%8D%97"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=3"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-13%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=4"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Basic Tragedy X",
+        "tags": [
+          "民间",
+          "Basic Tragedy X"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "a870dbc572f74c8b"
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,198 @@
+{
+  "id": "614a5e86419eb581",
+  "title": "LL-03G",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "scenarioCode": "LL-03G",
+    "剧本名": "現代社會中流傳的都市傳說及其擴散",
+    "日文名": "現代社会における都市伝説とその拡散",
+    "作者": "淵帝",
+    "轮数": "4",
+    "天数": "5"
+  },
+  "provenance": {
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+      "table": 7,
+      "row": 4
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+      "table": 7,
+      "row": 4
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+      "table": 7,
+      "row": 4
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+      "table": 7,
+      "row": 4
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+      "table": 7,
+      "row": 4
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+      "table": 7,
+      "row": 4
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+      "table": 7,
+      "row": 4
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+        "table": 7,
+        "row": 4
+      },
+      "fields": {
+        "scenarioCode": "LL-03G",
+        "剧本名": "現代社會中流傳的都市傳說及其擴散",
+        "日文名": "現代社会における都市伝説とその拡散",
+        "作者": "淵帝",
+        "轮数": "4",
+        "天数": "5"
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/6734a0d13f91359e.json",
+  "tags": [
+    "官方剧本",
+    "官方",
+    "Last Liar"
+  ],
+  "module": "Last Liar",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "614a5e86419eb581",
+        "title": "LL-03G",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "scenarioCode": "LL-03G",
+          "剧本名": "現代社會中流傳的都市傳說及其擴散",
+          "日文名": "現代社会における都市伝説とその拡散",
+          "作者": "淵帝",
+          "轮数": "4",
+          "天数": "5"
+        },
+        "provenance": {
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+            "table": 7,
+            "row": 4
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+            "table": 7,
+            "row": 4
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+            "table": 7,
+            "row": 4
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+            "table": 7,
+            "row": 4
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+            "table": 7,
+            "row": 4
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+            "table": 7,
+            "row": 4
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+            "table": 7,
+            "row": 4
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+              "table": 7,
+              "row": 4
+            },
+            "fields": {
+              "scenarioCode": "LL-03G",
+              "剧本名": "現代社會中流傳的都市傳說及其擴散",
+              "日文名": "現代社会における都市伝説とその拡散",
+              "作者": "淵帝",
+              "轮数": "4",
+              "天数": "5"
+            }
+          }
+        ],
+        "authority": "官方",
+        "classificationSource": "sources/wiki/pages/6734a0d13f91359e.json",
+        "tags": [
+          "官方剧本",
+          "官方",
+          "Last Liar"
+        ],
+        "module": "Last Liar"
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [],
+  "conflicts": []
+}

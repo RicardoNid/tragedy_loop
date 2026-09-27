@@ -1,0 +1,107 @@
+{
+  "id": "ced481ab39b4921d",
+  "title": "士的宁毒液",
+  "kind": "rules",
+  "scope": "Mystery Circle",
+  "aliases": [],
+  "fields": {
+    "ruleType": "Y",
+    "identityCounts": {
+      "关键人物": "①",
+      "投毒者": "①",
+      "愚者": "①"
+    },
+    "effect": "【强制：常驻】判定「连续杀人」「自杀」是否发生时，[密谋]视作[不安]处理"
+  },
+  "provenance": {
+    "ruleType": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Mystery_Circle",
+      "snapshot": "sources/wiki/pages/b21e3f528569eced.json",
+      "capturedAt": "2026-09-27T03:29:50.486Z"
+    },
+    "identityCounts": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Mystery_Circle",
+      "snapshot": "sources/wiki/pages/b21e3f528569eced.json",
+      "capturedAt": "2026-09-27T03:29:50.486Z"
+    },
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Mystery_Circle",
+      "snapshot": "sources/wiki/pages/b21e3f528569eced.json",
+      "capturedAt": "2026-09-27T03:29:50.486Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Mystery_Circle",
+      "snapshot": "sources/wiki/pages/b21e3f528569eced.json",
+      "capturedAt": "2026-09-27T03:29:50.486Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Mystery_Circle",
+        "snapshot": "sources/wiki/pages/b21e3f528569eced.json",
+        "capturedAt": "2026-09-27T03:29:50.486Z"
+      },
+      "fields": {
+        "ruleType": "Y",
+        "identityCounts": {
+          "关键人物": "①",
+          "投毒者": "①",
+          "愚者": "①"
+        },
+        "effect": "【强制：常驻】判定「连续杀人」「自杀」是否发生时，[密谋]视作[不安]处理"
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "ruleType": "Y",
+        "identityCounts": {
+          "关键人物": "1",
+          "投毒者": "1",
+          "愚者": "1"
+        },
+        "effect": "【强制：常驻】判定「连续杀人」「自杀」是否发生时，[密谋]视作[不安]处理"
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "Y",
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "identityCounts",
+      "selected": {
+        "关键人物": "①",
+        "投毒者": "①",
+        "愚者": "①"
+      },
+      "candidate": {
+        "关键人物": "1",
+        "投毒者": "1",
+        "愚者": "1"
+      },
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    }
+  ]
+}

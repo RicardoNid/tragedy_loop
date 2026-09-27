@@ -1,0 +1,357 @@
+{
+  "id": "0dd01427f840ac5c",
+  "title": "WM-04sp",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "WM-04sp",
+    "loops": "无限",
+    "days": 3,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "疯狂杀人"
+      },
+      {
+        "day": 2,
+        "incidentText": "疯狂杀人"
+      },
+      {
+        "day": 3,
+        "incidentText": "疯狂杀人"
+      }
+    ],
+    "剧本名": "葛林的奇策",
+    "作者": "Choconut",
+    "轮数": "n",
+    "天数": "3"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-04sp?oldid=1447",
+      "snapshot": "sources/wiki/pages/5c3da50d401d58ae.json",
+      "capturedAt": "2026-09-27T05:00:02.373Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-04sp?oldid=1447",
+      "snapshot": "sources/wiki/pages/5c3da50d401d58ae.json",
+      "capturedAt": "2026-09-27T05:00:02.373Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-04sp?oldid=1447",
+      "snapshot": "sources/wiki/pages/5c3da50d401d58ae.json",
+      "capturedAt": "2026-09-27T05:00:02.373Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-04sp?oldid=1447",
+      "snapshot": "sources/wiki/pages/5c3da50d401d58ae.json",
+      "capturedAt": "2026-09-27T05:00:02.373Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-04sp?oldid=1447",
+      "snapshot": "sources/wiki/pages/5c3da50d401d58ae.json",
+      "capturedAt": "2026-09-27T05:00:02.373Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 6
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 6
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 6
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 6
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-04sp?oldid=1447",
+      "snapshot": "sources/wiki/pages/5c3da50d401d58ae.json",
+      "capturedAt": "2026-09-27T05:00:02.373Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 6
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-04sp?oldid=1447",
+        "snapshot": "sources/wiki/pages/5c3da50d401d58ae.json",
+        "capturedAt": "2026-09-27T05:00:02.373Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "WM-04sp",
+        "loops": "无限",
+        "days": 3,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "疯狂杀人"
+          },
+          {
+            "day": 2,
+            "incidentText": "疯狂杀人"
+          },
+          {
+            "day": 3,
+            "incidentText": "疯狂杀人"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 6,
+        "row": 6
+      },
+      "fields": {
+        "scenarioCode": "WM-04sp",
+        "剧本名": "葛林的奇策",
+        "作者": "Choconut",
+        "轮数": "n",
+        "天数": "3"
+      }
+    }
+  ],
+  "wikiTitle": "WM-04sp",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Weird Mythology"
+  ],
+  "module": "Weird Mythology",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "0dd01427f840ac5c",
+        "title": "WM-04sp",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "WM-04sp",
+          "loops": "无限",
+          "days": 3,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "疯狂杀人"
+            },
+            {
+              "day": 2,
+              "incidentText": "疯狂杀人"
+            },
+            {
+              "day": 3,
+              "incidentText": "疯狂杀人"
+            }
+          ],
+          "剧本名": "葛林的奇策",
+          "作者": "Choconut",
+          "轮数": "n",
+          "天数": "3"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-04sp?oldid=1447",
+            "snapshot": "sources/wiki/pages/5c3da50d401d58ae.json",
+            "capturedAt": "2026-09-27T05:00:02.373Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-04sp?oldid=1447",
+            "snapshot": "sources/wiki/pages/5c3da50d401d58ae.json",
+            "capturedAt": "2026-09-27T05:00:02.373Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-04sp?oldid=1447",
+            "snapshot": "sources/wiki/pages/5c3da50d401d58ae.json",
+            "capturedAt": "2026-09-27T05:00:02.373Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-04sp?oldid=1447",
+            "snapshot": "sources/wiki/pages/5c3da50d401d58ae.json",
+            "capturedAt": "2026-09-27T05:00:02.373Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-04sp?oldid=1447",
+            "snapshot": "sources/wiki/pages/5c3da50d401d58ae.json",
+            "capturedAt": "2026-09-27T05:00:02.373Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 6
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 6
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 6
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 6
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-04sp?oldid=1447",
+            "snapshot": "sources/wiki/pages/5c3da50d401d58ae.json",
+            "capturedAt": "2026-09-27T05:00:02.373Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 6
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-04sp?oldid=1447",
+              "snapshot": "sources/wiki/pages/5c3da50d401d58ae.json",
+              "capturedAt": "2026-09-27T05:00:02.373Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "WM-04sp",
+              "loops": "无限",
+              "days": 3,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "疯狂杀人"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "疯狂杀人"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "疯狂杀人"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 6,
+              "row": 6
+            },
+            "fields": {
+              "scenarioCode": "WM-04sp",
+              "剧本名": "葛林的奇策",
+              "作者": "Choconut",
+              "轮数": "n",
+              "天数": "3"
+            }
+          }
+        ],
+        "body": "text/scenarios/0dd01427f840ac5c.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-04sp?oldid=1447",
+          "snapshot": "sources/wiki/pages/5c3da50d401d58ae.json",
+          "capturedAt": "2026-09-27T05:00:02.373Z"
+        },
+        "wikiTitle": "WM-04sp",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-04sp?action=edit&section=1"
+          },
+          {
+            "title": "WM-04SP非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-04SP%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-04sp?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Weird Mythology"
+        ],
+        "module": "Weird Mythology"
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [],
+  "conflicts": []
+}
