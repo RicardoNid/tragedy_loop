@@ -1,0 +1,13 @@
+{
+  "name": "@tragedy/engine",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./*": "./src/*.ts"
+  },
+  "dependencies": {
+    "@tragedy/contracts": "workspace:*",
+    "zod": "3.25.76"
+  }
+}

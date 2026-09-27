@@ -6,8 +6,9 @@
 1. 先创建或领取 GitHub Issue，记录目标、范围、来源和可验证的验收条件。
 2. `git fetch origin` 后，从最新 `origin/main` 创建 `codex/<issue>-<topic>` 分支；
    并行任务使用独立 worktree，避免混入其他任务未提交的修改。
-3. 实现并执行与变更匹配的检查。代码变更运行 `npm run check`，涉及 GUI 的变更另运行
-   `npm run engine:gui:test`。保留失败证据，分别报告自动检查、GUI 回归和人工验收。
+3. 当前仅为工程骨架：执行冻结安装和 `pnpm check`，它只验证配置，不是应用测试。
+   后续引入代码时再建立相应类型、单元、构建和 GUI 检查，分别报告实际覆盖范围。
+   本工程任务不得修改或提交 `facts/`；它由“规则真源”任务独立维护。
 4. 推送开发分支，用 `gh pr create` 创建 PR，正文写 `Closes #<issue>`，说明最终行为、
    验证结果和未完成项。尚未通过检查或审阅时使用 Draft。
 5. 合并前独立核对项目规范和关联 Issue 的验收条件；审阅必须覆盖当前 head SHA。

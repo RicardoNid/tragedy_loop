@@ -1,0 +1,28 @@
+[project]
+name = "tragedy-tools"
+version = "0.1.0"
+description = "Local source verification and teaching-material tools for Tragedy Loop."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["markdown-it-py>=3,<5"]
+
+[project.scripts]
+tragedy-slides = "tragedy_tools.slides:main"
+tragedy-sources = "tragedy_tools.sources:main"
+
+[build-system]
+requires = ["uv_build>=0.9.17,<0.10.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-root = "python/src"
+
+[dependency-groups]
+dev = ["pytest>=9.1.1", "ruff>=0.15.18"]
+
+[tool.pytest.ini_options]
+testpaths = ["python/tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"

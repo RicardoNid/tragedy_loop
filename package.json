@@ -1,39 +1,23 @@
 {
-  "name": "tragedy_loop",
-  "version": "1.0.0",
-  "description": "惨剧轮回资料整理、教学文档与电子化原型项目。",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs",
-    "test": "code/tests"
+  "name": "tragedy-loop",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.25.0",
+  "engines": {
+    "node": ">=22.12 <23"
   },
   "scripts": {
-    "app:serve": "uv run --locked tragedy-loop --host 127.0.0.1 --port ${APP_PORT:-5173}",
-    "app:test": "node --test code/web/core/rules.test.mjs",
-    "slides:generate": "uv run python code/tools/build_review_slides.py",
-    "slides:diagrams": "mmdc -i products/slides/assets/game-flow.mmd -o products/slides/assets/game-flow.png -b transparent && mmdc -i products/slides/assets/round-flow.mmd -o products/slides/assets/round-flow.png -b transparent",
-    "slides:build": "npm run slides:generate && npm run slides:diagrams && mkdir -p products/public/slides/assets && cp products/slides/assets/*.png products/public/slides/assets/ && marp products/slides/beginner-teaching.marp.md --html --allow-local-files -o products/public/slides/beginner-teaching.html",
-    "slides:serve": "python3 -m http.server 4173 -d products/public",
-    "setup": "bash scripts/bootstrap.sh",
-    "check": "bash scripts/check.sh",
-    "engine:serve": "GUI_PORT=${GUI_PORT:-5174} pnpm --dir integrations/lunhui/lunhui-engine gui",
-    "engine:check": "pnpm --dir integrations/lunhui/lunhui-engine check",
-    "engine:build": "pnpm --dir integrations/lunhui/lunhui-engine gui:build",
-    "engine:gui:test": "pnpm --dir integrations/lunhui/lunhui-engine gui:test",
-    "engine:test": "npm --prefix code/packages/engine test",
-    "engine:simulate": "npm --prefix code/packages/engine run simulate --"
+    "setup:python": "uv sync --locked --python 3.12 --default-index https://pypi.org/simple",
+    "format:check": "prettier --check package.json pnpm-workspace.yaml tsconfig.base.json apps/*/package.json apps/*/tsconfig.json packages/*/package.json .prettierrc.json .github/workflows/check.yml",
+    "check:python-lock": "uv lock --check --offline --default-index https://pypi.org/simple",
+    "check": "pnpm format:check && pnpm check:python-lock"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "devDependencies": {
-    "@marp-team/marp-cli": "^4.4.0",
-    "@mermaid-js/mermaid-cli": "^11.15.0"
-  },
-  "private": true,
-  "engines": {
-    "node": ">=22.12 <23",
-    "npm": ">=9"
+    "@playwright/test": "1.63.0",
+    "@types/node": "22.15.30",
+    "prettier": "3.6.2",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3",
+    "vitest": "3.2.4"
   }
 }

@@ -1,0 +1,13 @@
+{
+  "name": "@tragedy/transport",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./*": "./src/*.ts"
+  },
+  "dependencies": {
+    "@tragedy/engine": "workspace:*",
+    "@tragedy/contracts": "workspace:*"
+  }
+}

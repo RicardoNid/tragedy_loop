@@ -1,25 +1,31 @@
+# Generated dependencies and outputs
+node_modules/
 .venv/
 __pycache__/
 *.py[cod]
-*$py.class
-
 .pytest_cache/
 .ruff_cache/
-node_modules/
-runtime/
-
-build/
 dist/
+build/
+coverage/
+*.tsbuildinfo
 *.egg-info/
+playwright-report/
+test-results/
 
+# Local archive of environments, source clones and previous run evidence
+/archive/local-only/
+
+# Local credentials and machine files
+.env
+.env.*
+!.env.example
 .DS_Store
 
+# Preserve pre-existing source-material ignore rules
+*.pdf
 facts/source_material/scans/*
 !facts/source_material/scans/.gitkeep
-
-# Local source files and extraction dumps. Keep these outside Git unless
-# explicitly approved for archival.
-*.pdf
 facts/source_material/**/*.png
 facts/source_material/**/*.jpg
 facts/source_material/**/*.jpeg
@@ -27,13 +33,8 @@ facts/source_material/**/*.webp
 facts/source_material/**/*.tif
 facts/source_material/**/*.tiff
 
-# Original clones and local-only migration evidence
+# Local runtime and import directories
+runtime/
 .sources/
 .local-imports/
-.env
-.env.*
-!.env.example
-coverage/
-*.tsbuildinfo
-playwright-report/
-test-results/
+*$py.class

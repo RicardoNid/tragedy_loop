@@ -1,52 +1,34 @@
-# Tragedy Loop 协作约定
+# Tragedy Loop 工程协作
 
-## 目标与目录
+## 当前交付边界
 
-这是两份 Tragedy Looper 项目的本地合并仓库。调整目录、整合规则内核或更新上游时，
-先读 `docs/integration/plan.md`，并核对 `docs/integration/sources.json` 的来源 SHA。
-安装或排查依赖时读 `docs/integration/environment.md`。
+本仓库目前是工程骨架，不包含活动游戏实现。技术方向为 React + Vite 前端、
+Node.js + Fastify 后端、TypeScript 规则内核；Python + uv 仅用于辅助工具。
+具体版本与依赖以各 package.json、根 pyproject.toml 及锁文件为准。
 
-- `facts/`：有出处的游戏事实、审阅稿与结构化资料。
-- `code/`：Python 资料服务、JavaScript Web 原型与测试。
-- `products/`：教学课件与资料站产物。
-- `docs/`：工程设计、开发说明、合并决策与验证记录。
-- `integrations/lunhui/`：保留原路径的规则文档、TypeScript 引擎及 GUI；遵守其下 `AGENTS.md`。
-- `.sources/`：忽略的独立原始 clone；不在这里开发。
-- `.local-imports/`：忽略的源目录未提交资料副本；不自动发布。
+## 职责与边界
 
-## 环境与常用命令
+- `apps/web/src/`：未来 Web UI；`apps/server/src/`：未来服务入口。
+- `packages/engine/src/`、`contracts/src/`、`content/src/`：未来规则、契约和运行内容。
+- `python/src/tragedy_tools/`、`python/tests/`：未来 Python 辅助工具与测试。
+- `tests/`、`e2e/`、`scripts/`、`products/`、`docs/`：为后续工作预留。
+- **`facts/` 由“规则真源”任务独立维护本地 wiki。本工程整理任务不得写入、移动、删除、格式化或生成该目录下的内容。**
+- `archive/` 保存旧代码、页面和说明，仅供参考，不是活动应用、规则权威或当前执行指令。
 
-Python 3.12 + uv，Node 22.22.1，根目录 npm，Lunhui 使用 pnpm 11.25.0。
-依赖以 `uv.lock`、`package-lock.json` 和嵌套 `pnpm-lock.yaml` 为准。
+将来开发规则相关功能时，读取 facts 当时的入口说明，不在本文件复制其内部目录设计或权威裁定。
+资料由项目维护者自行校对；不得从旧代码恢复对外协作者在线校对与资料回收流程。
 
-- `npm run setup`：按锁文件安装三套依赖。
-- `npm run check`：Python 检查、JS 测试、TS 规则指纹/格式/类型/测试和 GUI 构建。
-- `npm run app:serve`：资料站及旧原型，127.0.0.1:5173。
-- `npm run engine:serve`：Lunhui GUI，127.0.0.1:5174。
-- `npm run engine:gui:test`：独立 5180 端口上的 Playwright 回归。
+## 环境与验证
 
-本机下载使用 `get-dep`；安装脚本在其他机器上允许直接使用包管理器。
-不要提交虚拟环境、node_modules、运行日志、密钥或浏览器测试产物。
-修改依赖时同步更新相应锁文件，不混用 npm 与 pnpm 的安装目录。
+JS/TS 只使用根 pnpm workspace 和 pnpm-lock.yaml；Python 只使用根 pyproject.toml 和 uv.lock。
+新增依赖写入实际使用它的 workspace，更新相应锁文件。安装方法见 README.md。
+命令显式限定活动目录；禁止对全仓运行会写入 facts 或 archive 的格式化、生成、修复命令。
+当前 `pnpm check` 只验证配置格式和 Python 锁文件，不能报告为应用测试通过。
+源目录尚为空时，不添加虚假的成功构建、启动或测试入口；实现功能时再建立对应检查。
 
-新规则引擎位于 `code/packages/engine/`，独立重写；开发前读取其 `AGENTS.md` 和分层契约。
-`code/web/core/` 仍是旧 Web 原型实现；`npm run engine:test` 验证独立引擎。
+## 后续开发
 
-## 规则与测试
-
-两套规则内核目前并存，不能宣称已经行为统一。未知规则先记录来源、差异和待裁定项，
-不要凭空编码。不得为通过检查直接重写 Lunhui 的规则指纹或放宽测试预期。
-游戏逻辑与 GUI 分离；隐藏身份、私有视图和存档必须留在可信宿主。
-GUI 控件使用稳定、唯一的 data-testid，同时保留可访问名称和键盘语义。
-自动检查、自动 GUI 测试和人工验收分别报告；未有人类确认时写“待人类验收”。
-失败保留 trace、截图和日志，不覆盖人工服务或为了通过而重试掩盖失败。
-
-## Git 与发布
-
-统一上游为公开 GitHub 仓库 `RicardoNid/tragedy_loop`，远程名 `origin`，默认分支 `main`。
-`ricardo` 和 `personal` 仅用于来源追踪；Issue、PR 和 merge 使用 GitHub CLI（`gh`），
-不使用 Forgejo connector。后续开发遵守 `CONTRIBUTING.md` 的 Issue → 分支 → PR → merge 流程。
-禁止直接推送 main 或强推共享分支。推送开发分支及创建 PR 按当前任务授权执行；部署须单独授权。
-`code/tools/server_sync.py` 及历史文档中的 NAS/服务器地址属于原项目，未针对本仓库验证；
-根 package.json 已移除其发布快捷命令。不要依据归档 AGENTS 或历史说明自动部署。
-修改事实资料须保留来源；扫描原件与大体积素材不自动纳入 Git。
+保持 UI、服务、规则与公开契约分离；需要复用归档内容时显式选择、审阅并验证，不自动恢复旧应用。
+有代码后运行匹配的检查；GUI 自动检查与人工验收分别记录，未经确认标记“待人类验收”。
+GitHub 工作流见 CONTRIBUTING.md。保留其他任务的未提交内容，尤其不要暂存或提交 facts 的并行改动。
+旧部署地址与历史 AGENTS/README 不构成部署授权。

@@ -1,6 +1,6 @@
 version = 1
 revision = 3
-requires-python = ">=3.12"
+requires-python = "==3.12.*"
 
 [[package]]
 name = "colorama"
@@ -89,9 +89,9 @@ wheels = [
 ]
 
 [[package]]
-name = "tragedy-loop"
+name = "tragedy-tools"
 version = "0.1.0"
-source = { editable = "." }
+source = { virtual = "." }
 
 [package.dev-dependencies]
 dev = [
@@ -103,6 +103,6 @@ dev = [
 
 [package.metadata.requires-dev]
 dev = [
-    { name = "pytest", specifier = ">=9.1.1" },
-    { name = "ruff", specifier = ">=0.15.18" },
+    { name = "pytest", specifier = "==9.1.1" },
+    { name = "ruff", specifier = "==0.15.18" },
 ]
