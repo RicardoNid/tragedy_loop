@@ -1,0 +1,12 @@
+{
+  "name": "@tragedy/slides",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "marp beginner-teaching.marp.md --html --allow-local-files -o ../public/slides/beginner-teaching.html"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "4.4.0",
+    "@mermaid-js/mermaid-cli": "11.15.0"
+  }
+}

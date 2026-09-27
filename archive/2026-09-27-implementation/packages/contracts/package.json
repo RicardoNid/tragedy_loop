@@ -1,0 +1,12 @@
+{
+  "name": "@tragedy/contracts",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./*": "./src/*.ts"
+  },
+  "dependencies": {
+    "zod": "3.25.76"
+  }
+}

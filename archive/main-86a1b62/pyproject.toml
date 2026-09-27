@@ -1,0 +1,33 @@
+[project]
+name = "tragedy-loop"
+version = "0.1.0"
+description = "Research and prototype tooling for Tragedy Looper teaching and online play."
+readme = "README.md"
+authors = [
+    { name = "ltr", email = "lsfans@qq.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+tragedy-loop = "tragedy_loop:main"
+
+[build-system]
+requires = ["uv_build>=0.9.17,<0.10.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-root = "code/src"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "ruff>=0.15.18",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["code/tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
