@@ -1,0 +1,384 @@
+目录
+1	基本用语
+2	角色
+3	FS
+4	BTX
+5	MZ
+6	MC
+7	HSA
+8	WM
+9	AHR
+10	LL
+11	其它
+基本用语
+简中	繁中	日本語	English	备注
+惨剧轮回	慘劇輪廻	惨劇RoopeR	Tragedy LoopeR	Tragedy Looper: New Tragedies
+主人公	主人公	主人公	Protagonists	
+剧作家	劇作家	脚本家	Mastermind	
+剧本	劇本	脚本	Script	
+规则Y	規則Y	ルールY	Main Plot	
+规则X	規則X	ルールX	Subplot	
+身份	身份	役職	Role	
+事件	事件	事件	Incident	
+当事人	當事人	犯人	Culprit	
+角色	角色	キャラクター	Character	
+登场人物	登場人物	登場人物	Cast	
+惨剧模块	慘劇模組	惨劇セット	Tragedy Set	
+时之缝隙	時之縫隙	時の狭間	Time Spiral	
+最终决战	最終決戰	最後の戦い	Final Guess	
+友好	友好	友好	Goodwill	
+不安	不安	不安	Paranoia	
+不安限度	不安限度	不安臨界	Paranoia limit	
+密谋	密謀	暗躍	Intrigue	
+强制（必定）	強制（必定）	強制（絶対）	Mandatory	
+任意能力	任意能力	任意	Optional	
+不死	不死	不死	Unkillable	
+禁止	禁止	禁止	Forbid	
+能力	能力	能力	Ability	
+拒绝	拒絕	拒否	Refusal	
+版图	版圖	ボード	Location	
+区域	区域	エリア	Area	
+神社	神社	神社	Shrine	
+学校	學校	学校	School	
+医院	醫院	病院	Hospital	
+都市	都市	都市	City	
+远方	遠方	远方		
+领地	領地	テリトリー	Turf	
+牺牲者	犧牲者	犠牲者	Victim(s)	
+群众事件	群眾事件	群像事件	Mob Incident(s)	
+诅咒牌	詛咒牌	呪いカード	Curse card(s)	
+Ex牌	Ex牌	Exカード	EX card	
+角色
+简中	繁中	日本語	English	备注
+男学生	男學生	男子学生	Boy Student	
+女学生	女學生	女子学生	Girl Student	
+大小姐	大小姐	お嬢様	Rich Man's Daughter	
+班长	班長	委員長	Class Rep	
+局外人	局外人	イレギュラー	Mystery Boy	
+巫女	巫女	巫女	Shrine Maiden	
+异界人	異界人	異世界人	Alien	
+神灵	神靈	神格	Godly Being	
+刑警	刑警	刑事	Police Officer	
+职员	職員	サラリーマン	office Worker	
+情报商	情報商	情報屋	Informer	
+偶像	偶像	アイドル	Pop Idol	
+媒体人	媒體人	マスコミ	Journalist	
+大人物	大人物	大物	Boss	
+医生	醫生	医者	Doctor	
+住院患者	住院患者	入院患者	Patient	
+护士	護士	ナース	Nurse	
+手下	手下	手先	Henchman	
+转校生	轉校生	転校生	Transfer Student	
+鉴别员	鑑別員	鑑識官	Forensic Specialist	
+A.I.	A.I.	A.I.	A.I.	
+教师	教師	教師	Teacher	
+军人	軍人	軍人	Soldier	
+黑猫	黑貓	黒猫	Black Cat	
+学者	學者	学者	Scientist	
+幻想	幻想	幻想	Illusion	
+小女孩	小女孩	女の子	Young Girl	以下的英文為民間翻譯
+教主	教主	教祖	Sect Founder	
+模仿犯	模仿犯	コピーキャット	Copycat	
+御神木	御神木	ご神木	Sacred Tree	
+妹妹	妹妹	妹	Little Sister	
+临时工	臨時工	アルバイト	Part-Timer	
+临时工？	臨時工？	アルバイト？	Part-Timer(?)	
+从者	從者	従者	Servant	
+上位存在	上位存在	上位存在	Metaworld Denizen	
+仙人	仙人	仙人	Sennin	
+UP主	UP主	動画配信者	Uploader	
+FS
+简中	繁中	日本語	English(zman)	English(wizard)	备注
+First Steps	First Steps	First Steps	First Steps		
+谋杀计划	謀殺計劃	殺人計画	Murder Plan	PREMEDITATED MURDER	
+复仇的火种	復仇的火種	復讐者の灯火	Light of the Avenger	FIRE OF THE AVENGER	
+守护此地	守護此地	守るべき場所	A Place to Protect	A PLACE TO PROTECT	
+流言四起	流言四起	不穏な噂	An Unsettling Rumour	AN UNSETTLING RUMOR	
+最黑暗的剧本	最黑暗的劇本	最低の却本	A Hideous Script	A HIDEOUS SCRIPT	
+开膛者的魔影	開膛者的魔影	切り裂き魔の影	Shadow of the Ripper	SHADOW OF THE RIPPER	
+关键人物	關鍵人物	キーパーソン	Key Person		
+杀手	殺手	キラー	Killer	Murderer	
+主谋	主謀	クロマク	Brain		
+邪教徒	邪教徒	カルティスト	Cultist		
+亲友	親友	フレンド	Friend		
+传谣人	傳謠人	ミスリーダー	Conspiracy Theorist		
+杀人狂	殺人狂	シリアルキラー	Serial Killer		
+平民	平民	パーソン	Person		
+暴徒	暴徒	マイナス	Curmudgeon		
+谋杀	謀殺	殺人事件	Murder	Homicide	
+不安扩散	不安擴散	不安拡大	Increasing Unease		
+自杀	自殺	自殺	Suicide		
+医院事故	醫院事故	病院の事件	Hospital Incident	Hospital Horror	
+远距离杀人	遠距離殺人	遠隔殺人	Faraway Murder		
+失踪	失蹤	行方不明	Missing Person		
+散播	散播	流布	Spreading	Transfer Friendship	
+BTX
+简中	繁中	日本語	English(zman)	English(wizard)	备注
+Basic Tragedy X	Basic Tragedy X	Basic Tragedy X	Basic Tragedy		
+谋杀计划	謀殺計劃	殺人計画	Murder Plan	PREMEDITATED MURDER	
+被封印的邪灵	被封印的邪靈	封印されしモノ	The Sealed Item	THE SEALED ITEM	
+和我签订契约吧！	和我簽訂契約吧！	僕と契約しようよ！	Sign With Me	SIGN WITH ME!	
+改变未来	改變未來	未来改変プラン	Change of Future	CHANGING THE FUTURE	
+巨大定时炸弹X	巨大定時炸彈X	巨大時限爆弾Xの存在	Giant Time Bomb	GIANT TIME BOMB	
+流言四起	流言四起	不穏な噂	An Unsettling Rumour	AN UNSETTLING RUMOR	
+好友圈	好友圈	友情サークル	Circle of Friends	CIRCLE OF FRIENDS	
+恋爱风景线	戀愛風景線	恋愛風景	A Love Affair	A LOVE AFFAIR	
+潜伏的杀人狂	潛伏的殺人狂	潜む殺人鬼	The Hidden Freak	LURKING PSYCHOPATH	
+妄想扩大病毒	妄想擴大病毒	妄想拡大ウイルス	Paranoia Virus	PARANOIA VIRUS	
+因果线	因果線	因果の糸	Threads of Fate	THREAD OF FATE	
+未知因子χ	未知因子χ	不定因子χ	Unknown Factor X	UNKNOWN FACTOR	
+关键人物	關鍵人物	キーパーソン	Key Person		
+杀手	殺手	キラー	Killer	Murderer	
+主谋	主謀	クロマク	Brain		
+邪教徒	邪教徒	カルティスト	Cultist		
+时间旅者	時間旅者	タイムトラベラー	Time Traveler		
+魔女	魔女	ウィッチ	Witch		
+亲友	親友	フレンド	Friend		
+传谣人	傳謠人	ミスリーダー	Conspiracy Theorist		
+心上人	心上人	ラバーズ	Lover		
+求爱者	求愛者	メインラバーズ	Loved One		
+杀人狂	殺人狂	シリアルキラー	Serial Killer		
+不安定因子	不安定因子	ファクター	Factor		
+平民	平民	パーソン	Person		
+谋杀	謀殺	殺人事件	Murder	Homicide	
+不安扩散	不安擴散	不安拡大	Increasing Unease		
+自杀	自殺	自殺	Suicide		
+医院事故	醫院事故	病院の事件	Hospital Incident	Hospital Horror	
+远距离杀人	遠距離殺人	遠隔殺人	Faraway Murder		
+失踪	失蹤	行方不明	Missing Person		
+散播	散播	流布	Spreading	Transfer Friendship	
+邪气污染	邪氣污染	邪気の汚染	Foul Evil		
+蝴蝶效应	蝴蝶效應	蝶の羽ばたき	Butterfly Effect		
+MZ
+简中	繁中	日本語	English(zman)	English(wizard)	备注
+Midnight Zone	Midnight Zone	Midnight Zone	Midnight Zone		
+被封印的邪灵	被封印的邪靈	封印されしモノ	The Sealed Item	THE SEALED ITEM	
+绝密报告	絕密報告	シークレットレコード	Secret Record	THE SEALED ITEM	
+男子汉的战争	男子漢的戰爭	漢の戦い	Male Confrontation	SIGN WITH ME!	
+魔爪渐进	魔爪漸進	忍び寄る魔手	The Devil's Hand	CHANGING THE FUTURE	
+因果之绊	因果之絆	因果の絆	Fated Connections	GIANT TIME BOMB	
+爱与恨的螺旋	愛與恨的螺旋	憎愛スパイラル	Love-Hate Spiral		
+魔女们的茶会	魔女們的茶會	魔女のお茶会	Witches Tea Time		
+诸神之骰	諸神之骰	神のサイコロ	Dice of the Gods		
+χ异因子	χ異因子	不定因子χ怪	Unsafe Trigger		
+死亡真人秀	死亡真人秀	死のショウタイム	Showtime of Death		
+心无灵犀	心無靈犀	通わぬ心	Unanswered Heart		
+灭亡讴歌	滅亡謳歌	滅亡を謳うもの	Worshippers of the Apocalypse		
+关键人物	關鍵人物	キーパーソン	Key Person		
+主谋	主謀	クロマク	Brain		
+邪教徒	邪教徒	カルティスト	Cultist		
+忍者	忍者	ニンジャ	Ninja		
+亲友	親友	フレンド	Friend		
+杀人狂	殺人狂	シリアルキラー	Serial Killer		
+强迫症	強迫症	ゼッタイシャ	Obstinate		
+魔术师	魔術師	マジシャン	Magician		
+不安定因子	不安定因子	ファクター	Factor		
+魔女	魔女	ウィッチ	Witch		
+永生者	永生者	イモータル	Immortal		
+预言家	預言家	プロフェシー	Prophet		
+连续杀人	連續殺人	連続殺人	Serial Murder		
+自杀	自殺	自殺	Suicide		
+不安扩散	不安擴散	不安拡大	Increasing Unease		
+失踪	失蹤	行方不明	Missing Person		
+阴谋活动	陰謀活動	陰謀工作	Conspiracies		
+医院事故	醫院事故	病院の事件	Hospital Incident	Hospital Horror	
+暴乱	暴亂	大暴動	Uproar		
+自白	自白	告白	Confession		
+破局	破局	打開	Breakthrough		
+伪装自杀	偽裝自殺	偽装自殺	Faked Suicide		
+伪造事件	偽造事件	偽装事件	Fake Incident		
+MC
+简中	繁中	日本語	English(zman)	English(wizard)	备注
+Mystery Circle	Mystery Circle	Mystery Circle X	Mystery Circle		
+谋杀计划	謀殺計劃	殺人計画	Murder Plan	PREMEDITATED MURDER	
+事件交织的罗网	事件交織的羅網	組み重なり事件キルト	A Quilt of Incidents		
+命悬一线的计划	命懸一線的計劃	タイトロープ上の計画	Tightrope Plan		
+黑暗学院	黑暗學院	黒の学園	The Black School		
+士的宁毒液	士的寧毒液	ストリキニーネの雫	A Drop of Strychnine		
+潜伏的杀人狂	潛伏的殺人狂	潜む殺人鬼	The Hidden Freak	LURKING PSYCHOPATH	
+隔离病房惊魂记	隔離病房驚魂記	隔離病棟サイコ	Isolated Institution Psycho		
+火药的味道	火藥的味道	火薬の香り	Smell of Gunpowder		
+我是名侦探	我是名偵探	私は名探偵	I am a Master Detective		
+愚者之舞	愚者之舞	愚者のダンス	Dance of Fools		
+绝对意志	絕對意志	絶対の意志	An Absolute Will		
+双子的诡计	雙子的詭計	双子のトリック	Tricky Twins		
+关键人物	關鍵人物	キーパーソン	Key Person		
+杀手	殺手	キラー	Killer	Murderer	
+主谋	主謀	クロマク	Brain		
+投毒者	投毒者	ドリッパー	Poisoner		
+愚者	愚者	フール	Fool		
+亲友	親友	フレンド	Friend		
+传谣人	傳謠人	ミスリーダー	Conspiracy Theorist		
+杀人狂	殺人狂	シリアルキラー	Serial Killer		
+偏执狂	偏執狂	パラノイア	Paranoiac		
+心理医生	心理醫生	セラピスト	Therapist		
+侦探	偵探	メイタンテイ	Private Investigator		
+强迫症	強迫症	ゼッタイシャ	Obstinate		
+双胞胎	雙胞胎	ツイン	Twin		
+连续杀人	連續殺人	連続殺人	Serial Murder		
+恐怖袭击	恐怖襲擊	テロリズム	Terrorism		
+医院事故	醫院事故	病院の事件	Hospital Incident	Hospital Horror	
+不安扩散	不安擴散	不安拡大	Increasing Unease		
+自杀	自殺	自殺	Suicide		
+前兆	前兆	前兆	Portent		
+猎奇杀人	獵奇殺人	猟奇殺人	Bestial Murder		
+伪装自杀	偽裝自殺	偽装自殺	Faked Suicide		
+可疑信件	可疑信件	不審な手紙	A Suspicious Letter		
+封锁	封鎖	クローズドサークル	Closed Circle		
+银色子弹	銀色子彈	銀の銃弾	The Silver Bullet		
+HSA
+简中	繁中	日本語	English(zman)	English(wizard)	备注
+Haunted Stage Ａ	Haunted Stage Ａ	Haunted Stage Ａ	Prime Evil		
+高贵的血族	高貴的血族	高貴なる血族	The Noble Bloodline		
+月夜凶兽	月夜兇獸	月夜の獣	Moonlight Beast		
+雾中夜惊梦	霧中夜驚夢	夜露の悪夢	Night Mist Nightmare		
+古墓活尸	古墓活尸	墓所より出でし者	The Ones from the Grave		
+被诅咒的土地	被詛咒的土地	呪われし地	The Cursed Land		
+心慌派对	心慌派對	一癖あるヤツラ	Those with Habits		
+恋爱风景线	戀愛風景線	恋愛風景	A Love Affair	A LOVE AFFAIR	
+魔女遗咒	魔女遺咒	魔女の呪い	Witch's Curse		
+少女大危机	少女大危機	鍵たる少女	The Key Girl		
+怪物们的阴谋	怪物們的陰謀	怪物の暗躍	Monster Intrigue		
+恐慌与妄想	恐慌與妄想	恐慌と妄執と	Panic and Obsession		
+不听劝的人	不聽勸的人	話を聞かない人々	People Who Don't Listen		
+关键人物	關鍵人物	キーパーソン	Key Person		
+吸血鬼	吸血鬼	ヴァンパイア	Vampire		
+狼人	狼人	ウェアウルフ	Werewolf		
+梦魇	夢魘	ナイトメア	Nightmare		
+鬼魂	鬼魂	ゴースト	Ghost		
+纸老虎	紙老虎	ミカケダオシ	Show-Off		
+传谣人	傳謠人	ミスリーダー	Conspiracy Theorist		
+杀人狂	殺人狂	シリアルキラー	Serial Killer		
+胆小鬼	膽小鬼	チキンハート	Coward		
+魔女	魔女	ウィッチ	Witch		
+心上人	心上人	ラバーズ	Lover		
+求爱者	求愛者	メインラバーズ	Loved One		
+丧尸	喪尸	ゾンビ	Zombie		
+亵渎杀人	褻瀆殺人	冒涜殺人	Sacrilegious Murder		
+不安扩散	不安擴散	不安拡大	Increasing Unease		
+失踪	失蹤	行方不明	Missing Person		
+邪气污染	邪氣污染	邪気の汚染	Foul Evil		
+送葬	送葬	遂行者	The Executioner		
+言灵诅咒	言靈詛咒	噂の御呪い	Dark Rumor		
+孤守	孤守	立てこもり	Barricade		
+疯狂之夜	瘋狂之夜	狂気の夜	Night of Madness		
+诅咒活化	詛咒活化	呪いの目覚め	Awakened Curse		
+污秽溢出	污穢溢出	穢れの噴出	Fountain of Filth		
+死者默示录	死者默示錄	死者の黙示録	Evangelium of the Dead		
+WM
+简中	繁中	日本語	English(zman)	English(wizard)	备注
+Weird Mythology	Weird Mythology	Weird Mythology	Cosmic Mythology		
+外神合唱曲	外神合唱曲	外なる神への合唱曲	Choir to the Outside God		
+达贡的福音书	達貢的福音書	だごん様の御言葉	The Sacred Words of Dagon		
+黄衣之王	黃衣之王	黄衣の王	The King in Yellow		
+染血的仪式	染血的儀式	血塗られた儀式	Bloody Rites		
+巨大定时炸弹Y	巨大定時炸彈Y	巨大時限爆弾Yの存在	Giant Time Bomb Again		
+流言四起	流言四起	不穏な噂	An Unsettling Rumour	AN UNSETTLING RUMOR	
+抗争者	抗爭者	抗うものたち	The Resistance		
+见证恐惧	見證恐懼	見てしまった人々	People Who Saw		
+伊斯之伟大种族	伊斯之偉大種族	偉大なる種族	The Profound Race		
+深渊之都的私语	深淵之都的私語	深き都の囁き	Whispers from the Deep		
+无貌之神	無貌之神	無貌の神	The Faceless God		
+疯狂的真相	瘋狂的真相	狂った真実	Twisted Truth		
+关键人物	關鍵人物	キーパーソン	Key Person		
+祭品	祭品	ヒトハシラ	Sacrifice		
+邪教徒	邪教徒	カルティスト	Cultist		
+魔女	魔女	ウィッチ	Witch		
+永生者	永生者	イモータル	Immortal		
+深潜者	深潛者	ディープワン	Deep One		
+传谣人	傳謠人	ミスリーダー	Conspiracy Theorist		
+偏执狂	偏執狂	パラノイア	Paranoiac		
+巫师	巫師	ウィザード	Wizard		
+杀人狂	殺人狂	シリアルキラー	Serial Killer		
+时间旅者	時間旅者	タイムトラベラー	Time Traveler		
+目击者	目擊者	モクゲキシャ	Witness		
+无面者	無面者	フェイスレス	Faceless		
+疯狂杀人	瘋狂殺人	狂気殺人	Insane Murder		
+集体自杀	集體自殺	集団自殺	Mass Suicide		
+不安扩散	不安擴散	不安拡大	Increasing Unease		
+失踪	失蹤	行方不明	Missing Person		
+邪气污染	邪氣污染	邪気の汚染	Foul Evil		
+医院事故	醫院事故	病院の事件	Hospital Incident	Hospital Horror	
+暴乱	暴亂	大暴動	Uproar		
+灭绝之火	滅絕之火	滅びの火	Fire of Demise		
+廷达罗斯之嗅	廷達羅斯之嗅	猟犬の嗅覚	Hound Dog Scent		
+发现	發現	発見	Discovery		
+送葬	送葬	遂行者	The Executioner		
+AHR
+简中	繁中	日本語	English	备注
+Another Horizon R	Another Horizon R	Another Horizon R	Another Horizon R	英文為民間翻譯
+闭锁的未来	閉鎖的未來	閉ざされた未来	The Forbidden Future	
+童话里的杀人鬼	童話裡的殺人鬼	御伽噺の殺人鬼	Fairy-Tale Murderer	
+鹅妈妈神秘故事	鵝媽媽神秘故事	マザーグースミステリー	Mother Goose Mystery	
+次元融合计划	次元融合計劃	次元併合プラン	Dimensional Merger	
+虚幻世界	虛幻世界	虚ろいゆく世界	Into Nothingness	
+化身博士	化身博士	ジキルとハイド	Jekyll and Hyde	
+恶魔吹着笛子来	惡魔吹著笛子來	悪疫をもたらす者	The Plaguebringer	
+傀儡之线	傀儡之線	操りの糸	Puppeteer’s Strings	
+爱丽丝梦游仙境	愛麗絲夢遊仙境	鏡の国のアリス	Through the Looking-Glass	
+超越世界线	超越世界線	世界線を越えて	Crossing World Lines	
+难以言喻的怪物	難以言喻的怪物	語られざるべき怪物	Unspeakable Horrors	
+空想扩大病毒	空想擴大病毒	空想拡大ウイルス	Hysteria Virus	
+关键人物	關鍵人物	キーパーソン	keyPerson	
+强迫症	強迫症	ゼッタイシャ	Obstinate	
+提线木偶	提線木偶	マリオネット	Marionette	
+叙述者	敘述者	カタリベ	Storyteller	
+童谣	童謠	ナーサリーライム	Lullaby	
+次元旅者	次元旅者	プレインシフター	Shifter	
+主谋	主謀	クロマク	Brain	
+因果残片	因果殘片	フラグメント	Fragment	
+杀人狂	殺人狂	シリアルキラー	serialKiller	
+魔笛手	魔笛手	パイドパイパー	piedPiper	
+传谣人	傳謠人	ミスリーダー	conspiracyTheorist	
+布道者	佈道者	ゴシップ	gossip	
+爱丽丝	愛麗絲	アリス	Alice	
+冲动杀人	衝動殺人	衝動殺人	Crime of Passion	
+次元转换	次元轉換	次元変貌	Dimensional Distortion	
+次元歪曲	次元歪曲	次元歪曲	Dimensional Perversion	
+次元断层	次元斷層	次元断層	Dimensional Fracture	
+遗失物	遺失物	忘れ物	Left Behind	
+空想事件	空想事件	空想事件	Phantasmal Incident	
+遗言	遺言	遺言	Last Will	
+医院事故	醫院事故	病院の事件	Hospital Incident	
+奇点	奇點	特異点	The Singularity	
+隙间的阳光	隙間的陽光	狭間の陽光	Seeping Daylight	
+绝望之暗	絕望之暗	絶望の闇	The Murk of Despair	
+LL
+简中	繁中	日本語	English	备注
+Last Liar	Last Liar	Last Liar	Last Liar	英文為民間翻譯
+最终计划	最終計劃	最終計画	The Final Plan	
+封印的终末	封印的終末	封印されし終末	The Sealed Conclusion	
+叛逆的世界	叛逆的世界	叛逆の世界	World of Rebellion	
+恶魔的剧本	惡魔的劇本	惡魔の腳本	The Demon’s Script	
+巨大定时炸弹Z	巨大定時炸彈Z	巨大時限爆弾Zの存在	Giant Time Bomb Yet Again	
+真正的怪物	真正的怪物	本当のかいぶつ	The Real Monster	
+神话搜集者	神話蒐集者	神話蒐集者	Keeper of Mythology	
+我才是名侦探	我才是名偵探	私こそが名探偵	I Am the True Detective!	
+超越世界线	超越世界線	世界線を越えて	Crossing World Lines	
+χ异因子	χ異因子	不定因子Χ怪	Unsafe Trigger	
+SNS恐慌	SNS恐慌	SNSパラノイア	Social Media Paranoia	
+捏造的秘密	捏造的秘密	噓憑きの秘密	The Mythomaniac's Secret	
+关键人物	關鍵人物	キーパーソン	Key Person	
+杀手	殺手	キラー	Killer	
+主谋	主謀	クロマク	Brain	
+因果残片	因果殘片	フラグメント	Fragment	
+魔女	魔女	ウィッチ	Witch	
+不安定因子	不安定因子	ファクター	Factor	
+杀人狂	殺人狂	シリアルキラー	Serial Killer	
+监视者	監視者	ウォッチァー	Watcher	
+网络名流	網絡名流	インフルエンサー	Influencer	
+传谣人	傳謠人	ミスリーダー	Conspiracy Theorist	
+密钥	密鑰	シークレット	Secretkeeper	
+怪杰	怪傑	ジョーカー	Wildcard	
+谋杀	謀殺	殺人事件	Murder	
+不安扩散	不安擴散	不安拡大	Increasing Unease	
+失踪	失蹤	行方不明	Missing Person	
+医院事故	醫院事故	病院の事件	Hospital Incident	
+代行者	代行者	実行者	The Executioner	
+骤变	驟變	豹変	Distortion	
+遗言	遺言	遺言	Last Will	
+自白	自白	告白	Confession	
+散播	散播	流布	Spreading	
+希望之光	希望之光	希望の光	The Light of Hope	
+绝望之暗	絕望之暗	絶望の闇	The Murk of Despair	
+其它

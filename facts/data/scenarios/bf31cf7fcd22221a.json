@@ -1,0 +1,436 @@
+{
+  "id": "bf31cf7fcd22221a",
+  "title": "BTX+-08",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "BTX+-08非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "BTX+-08",
+    "loops": 6,
+    "days": 3,
+    "剧本名": "苦命鸳鸯",
+    "作者": "萌新宝宝",
+    "轮数": "6",
+    "天数": "3"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-08",
+      "snapshot": "sources/wiki/pages/4ba9cb39e3c6a331.json",
+      "capturedAt": "2026-09-27T03:47:13.137Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-08",
+      "snapshot": "sources/wiki/pages/4ba9cb39e3c6a331.json",
+      "capturedAt": "2026-09-27T03:47:13.137Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-08",
+      "snapshot": "sources/wiki/pages/4ba9cb39e3c6a331.json",
+      "capturedAt": "2026-09-27T03:47:13.137Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-08",
+      "snapshot": "sources/wiki/pages/4ba9cb39e3c6a331.json",
+      "capturedAt": "2026-09-27T03:47:13.137Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 149
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 149
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 149
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 149
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-08",
+      "snapshot": "sources/wiki/pages/4ba9cb39e3c6a331.json",
+      "capturedAt": "2026-09-27T03:47:13.137Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 149
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-08%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/0e534a65c8177683.json",
+      "capturedAt": "2026-09-27T03:47:15.829Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-08",
+        "snapshot": "sources/wiki/pages/4ba9cb39e3c6a331.json",
+        "capturedAt": "2026-09-27T03:47:13.137Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "BTX+-08",
+        "loops": 6,
+        "days": 3
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 2,
+        "row": 149
+      },
+      "fields": {
+        "scenarioCode": "BTX+-08",
+        "剧本名": "苦命鸳鸯",
+        "作者": "萌新宝宝",
+        "轮数": "6",
+        "天数": "3"
+      }
+    }
+  ],
+  "wikiTitle": "BTX+-08",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Basic Tragedy X Plus"
+  ],
+  "module": "Basic Tragedy X Plus",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "bf31cf7fcd22221a",
+        "title": "BTX+-08",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "BTX+-08",
+          "loops": 6,
+          "days": 3,
+          "剧本名": "苦命鸳鸯",
+          "作者": "萌新宝宝",
+          "轮数": "6",
+          "天数": "3"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-08",
+            "snapshot": "sources/wiki/pages/4ba9cb39e3c6a331.json",
+            "capturedAt": "2026-09-27T03:47:13.137Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-08",
+            "snapshot": "sources/wiki/pages/4ba9cb39e3c6a331.json",
+            "capturedAt": "2026-09-27T03:47:13.137Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-08",
+            "snapshot": "sources/wiki/pages/4ba9cb39e3c6a331.json",
+            "capturedAt": "2026-09-27T03:47:13.137Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-08",
+            "snapshot": "sources/wiki/pages/4ba9cb39e3c6a331.json",
+            "capturedAt": "2026-09-27T03:47:13.137Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 149
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 149
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 149
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 149
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-08",
+            "snapshot": "sources/wiki/pages/4ba9cb39e3c6a331.json",
+            "capturedAt": "2026-09-27T03:47:13.137Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 149
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-08",
+              "snapshot": "sources/wiki/pages/4ba9cb39e3c6a331.json",
+              "capturedAt": "2026-09-27T03:47:13.137Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "BTX+-08",
+              "loops": 6,
+              "days": 3
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 2,
+              "row": 149
+            },
+            "fields": {
+              "scenarioCode": "BTX+-08",
+              "剧本名": "苦命鸳鸯",
+              "作者": "萌新宝宝",
+              "轮数": "6",
+              "天数": "3"
+            }
+          }
+        ],
+        "body": "text/scenarios/bf31cf7fcd22221a.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-08",
+          "snapshot": "sources/wiki/pages/4ba9cb39e3c6a331.json",
+          "capturedAt": "2026-09-27T03:47:13.137Z"
+        },
+        "wikiTitle": "BTX+-08",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-08?action=edit&section=1"
+          },
+          {
+            "title": "BTX+-08非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-08%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-08?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Basic Tragedy X Plus"
+        ],
+        "module": "Basic Tragedy X Plus"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "cdcc58a6d58e53fd",
+        "title": "BTX+-08非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "BTX+-08",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "改变未来"
+            },
+            {
+              "slot": "X1",
+              "name": "好友圈"
+            },
+            {
+              "slot": "X2",
+              "name": "恋爱风景线"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-08%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/0e534a65c8177683.json",
+            "capturedAt": "2026-09-27T03:47:15.829Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-08%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/0e534a65c8177683.json",
+            "capturedAt": "2026-09-27T03:47:15.829Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-08%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/0e534a65c8177683.json",
+            "capturedAt": "2026-09-27T03:47:15.829Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-08%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/0e534a65c8177683.json",
+            "capturedAt": "2026-09-27T03:47:15.829Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-08%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/0e534a65c8177683.json",
+              "capturedAt": "2026-09-27T03:47:15.829Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "BTX+-08",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "改变未来"
+                },
+                {
+                  "slot": "X1",
+                  "name": "好友圈"
+                },
+                {
+                  "slot": "X2",
+                  "name": "恋爱风景线"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/cdcc58a6d58e53fd.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-08%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/0e534a65c8177683.json",
+          "capturedAt": "2026-09-27T03:47:15.829Z"
+        },
+        "wikiTitle": "BTX+-08非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "1 苦命鸳鸯 作者 萌新宝宝",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-08%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E8%8B%A6%E5%91%BD%E9%B8%B3%E9%B8%AF_%E4%BD%9C%E8%80%85_%E8%90%8C%E6%96%B0%E5%AE%9D%E5%AE%9D"
+          },
+          {
+            "title": "1.1 出牌方法",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-08%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E5%87%BA%E7%89%8C%E6%96%B9%E6%B3%95"
+          },
+          {
+            "title": "1.2 故事",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-08%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E6%95%85%E4%BA%8B"
+          },
+          {
+            "title": "1.3 剧作家指南",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-08%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8#%E5%89%A7%E4%BD%9C%E5%AE%B6%E6%8C%87%E5%8D%97"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-08%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-08%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-08%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=3"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX%2B-08%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=4"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Basic Tragedy X Plus",
+        "tags": [
+          "民间",
+          "Basic Tragedy X Plus"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "cdcc58a6d58e53fd"
+  ],
+  "conflicts": []
+}

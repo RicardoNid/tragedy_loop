@@ -1,0 +1,60 @@
+{
+  "id": "bf6e17ec407cbc0f",
+  "title": "A.I.是希望之光的當事人。觸發事件時需要計算哪一種指示物的數量？",
+  "kind": "faq",
+  "scope": "纸质 FAQ / LL / Q15",
+  "aliases": [],
+  "fields": {
+    "question": "A.I.是希望之光的當事人。觸發事件時需要計算哪一種指示物的數量？",
+    "answer": "（在不考慮希望指示物的前提下）需要4枚友好指示物。"
+  },
+  "provenance": {
+    "question": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+      "snapshot": "sources/paper-faq/last-liar.json",
+      "page": 14,
+      "questionNumber": 15
+    },
+    "answer": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+      "snapshot": "sources/paper-faq/last-liar.json",
+      "page": 14,
+      "questionNumber": 15
+    }
+  },
+  "sources": [
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+      "snapshot": "sources/paper-faq/last-liar.json",
+      "page": 14,
+      "questionNumber": 15
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+        "snapshot": "sources/paper-faq/last-liar.json",
+        "page": 14,
+        "questionNumber": 15
+      },
+      "fields": {
+        "question": "A.I.是希望之光的當事人。觸發事件時需要計算哪一種指示物的數量？",
+        "answer": "（在不考慮希望指示物的前提下）需要4枚友好指示物。"
+      }
+    }
+  ],
+  "tags": [
+    "LL",
+    "纸质 FAQ",
+    "身份与事件",
+    "官方"
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+  "conflicts": []
+}

@@ -1,0 +1,67 @@
+{
+  "id": "8b3c73d3b51676f5",
+  "title": "AI能力可以发动群众事件吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 角色 / 第 18 行",
+  "aliases": [],
+  "fields": {
+    "question": "AI能力可以发动群众事件吗？",
+    "answer": "可以，这时可以视为当事人是都市群众"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 18,
+      "cells": "A18:B18",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 18,
+      "cells": "A18:B18",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 18,
+      "cells": "A18:B18",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+        "snapshot": "sources/faq-sheet/characters.json",
+        "sheet": "角色",
+        "row": 18,
+        "cells": "A18:B18",
+        "capturedAt": "2026-09-27T05:39:49.068Z"
+      },
+      "fields": {
+        "question": "AI能力可以发动群众事件吗？",
+        "answer": "可以，这时可以视为当事人是都市群众"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "角色",
+    "关于AI",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

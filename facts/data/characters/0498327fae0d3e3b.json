@@ -1,0 +1,259 @@
+{
+  "id": "0498327fae0d3e3b",
+  "title": "女学生",
+  "kind": "characters",
+  "scope": "",
+  "aliases": [
+    "女學生",
+    "女子学生"
+  ],
+  "fields": {
+    "角色名": "女學生",
+    "初始区域": "学校",
+    "禁行区域": "无",
+    "不安限度": "3",
+    "属性": [
+      "学生",
+      "少女"
+    ],
+    "友好能力": [
+      {
+        "text": "（友好２）移除同一区域另外1名学生身上的1枚不安指示物",
+        "threshold": 2,
+        "limitText": ""
+      }
+    ]
+  },
+  "provenance": {
+    "角色名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%A5%B3%E5%AD%B8%E7%94%9F",
+      "snapshot": "sources/wiki/pages/a2981483fdc442ac.json",
+      "capturedAt": "2026-09-27T03:31:45.169Z"
+    },
+    "初始区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%A5%B3%E5%AD%B8%E7%94%9F",
+      "snapshot": "sources/wiki/pages/a2981483fdc442ac.json",
+      "capturedAt": "2026-09-27T03:31:45.169Z"
+    },
+    "禁行区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%A5%B3%E5%AD%B8%E7%94%9F",
+      "snapshot": "sources/wiki/pages/a2981483fdc442ac.json",
+      "capturedAt": "2026-09-27T03:31:45.169Z"
+    },
+    "不安限度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%A5%B3%E5%AD%B8%E7%94%9F",
+      "snapshot": "sources/wiki/pages/a2981483fdc442ac.json",
+      "capturedAt": "2026-09-27T03:31:45.169Z"
+    },
+    "属性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%A5%B3%E5%AD%B8%E7%94%9F",
+      "snapshot": "sources/wiki/pages/a2981483fdc442ac.json",
+      "capturedAt": "2026-09-27T03:31:45.169Z"
+    },
+    "友好能力": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%A5%B3%E5%AD%B8%E7%94%9F",
+      "snapshot": "sources/wiki/pages/a2981483fdc442ac.json",
+      "capturedAt": "2026-09-27T03:31:45.169Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%A5%B3%E5%AD%B8%E7%94%9F",
+      "snapshot": "sources/wiki/pages/a2981483fdc442ac.json",
+      "capturedAt": "2026-09-27T03:31:45.169Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    },
+    {
+      "provider": "ricardo",
+      "path": "sources/ricardo/reference/character-cards/cards.md",
+      "status": "draft_needs_human_review"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%A5%B3%E5%AD%B8%E7%94%9F",
+        "snapshot": "sources/wiki/pages/a2981483fdc442ac.json",
+        "capturedAt": "2026-09-27T03:31:45.169Z"
+      },
+      "fields": {
+        "角色名": "女學生",
+        "初始区域": "学校",
+        "禁行区域": "无",
+        "不安限度": "3",
+        "属性": [
+          "学生",
+          "少女"
+        ],
+        "友好能力": [
+          {
+            "text": "（友好２）移除同一区域另外1名学生身上的1枚不安指示物",
+            "threshold": 2,
+            "limitText": ""
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "特性": "",
+        "属性": [
+          "学生",
+          "少女"
+        ],
+        "初始区域": "学校",
+        "禁行区域": "否",
+        "不安限度": "3",
+        "友好能力": [
+          {
+            "text": "移除同一区域另外1名学生身上的1枚不安指示物",
+            "threshold": "2",
+            "oncePerLoop": ""
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "ricardo",
+        "path": "sources/ricardo/reference/character-cards/cards.md",
+        "status": "draft_needs_human_review"
+      },
+      "fields": {
+        "不安限度": "3",
+        "初始区域": "学校",
+        "禁行区域": "无",
+        "属性": [
+          "学生；少女"
+        ],
+        "友好能力": [
+          "友好2；每天；主人公能力阶段；主人公：选择同一区域的另一名学生；若其身上有不安，移除 1 枚。"
+        ]
+      }
+    }
+  ],
+  "body": "text/characters/0498327fae0d3e3b.txt",
+  "bodySource": {
+    "provider": "wiki",
+    "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%A5%B3%E5%AD%B8%E7%94%9F",
+    "snapshot": "sources/wiki/pages/a2981483fdc442ac.json",
+    "capturedAt": "2026-09-27T03:31:45.169Z"
+  },
+  "wikiTitle": "女學生",
+  "originalTables": [],
+  "wikiStatus": "captured",
+  "links": [
+    {
+      "title": "<img style=\"\" src=\"https://static.wikia.nocookie.net/tragedyrooper/images/0/01/%E5%A5%B3%E5%AD%A6%E7%94%9F.png/revision/latest/scale-to-width-down/134?cb=20251023161650&amp;path-prefix=zh\" title=\"女学生.png (235 KB)\" class=\"thumbimage\" alt=\"\" height=\"185\" width=\"185\" data-image-name=\"女学生.png\" data-image-key=\"%E5%A5%B3%E5%AD%A6%E7%94%9F.png\" data-relevant=\"1\">",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%A5%B3%E5%AD%A6%E7%94%9F.png"
+    }
+  ],
+  "images": [
+    {
+      "alt": "",
+      "src": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+    }
+  ],
+  "media": [
+    {
+      "title": "女学生.png",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%A5%B3%E5%AD%A6%E7%94%9F.png",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/0/01/%E5%A5%B3%E5%AD%A6%E7%94%9F.png/revision/latest?cb=20251023161650&format=original&path-prefix=zh",
+      "path": "media/wiki/12d58aefbace1b09.png",
+      "sourceRecord": "sources/wiki/files/12d58aefbace1b09.json",
+      "sha256": "1e083ef466c20c81372339fbee1f1c495571c7ab239c4743fda3ae313d542688",
+      "bytes": 240374,
+      "fileInfo": "PNG image data, 308 x 426, 8-bit/color RGBA, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/6fadb2d7054aeea7.json",
+  "tags": [
+    "学生",
+    "少女",
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "禁行区域",
+      "selected": "无",
+      "candidate": "否",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "友好能力",
+      "selected": [
+        {
+          "text": "（友好２）移除同一区域另外1名学生身上的1枚不安指示物",
+          "threshold": 2,
+          "limitText": ""
+        }
+      ],
+      "candidate": [
+        {
+          "text": "移除同一区域另外1名学生身上的1枚不安指示物",
+          "threshold": "2",
+          "oncePerLoop": ""
+        }
+      ],
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "属性",
+      "selected": [
+        "学生",
+        "少女"
+      ],
+      "candidate": [
+        "学生；少女"
+      ],
+      "source": {
+        "provider": "ricardo",
+        "path": "sources/ricardo/reference/character-cards/cards.md",
+        "status": "draft_needs_human_review"
+      }
+    },
+    {
+      "field": "友好能力",
+      "selected": [
+        {
+          "text": "（友好２）移除同一区域另外1名学生身上的1枚不安指示物",
+          "threshold": 2,
+          "limitText": ""
+        }
+      ],
+      "candidate": [
+        "友好2；每天；主人公能力阶段；主人公：选择同一区域的另一名学生；若其身上有不安，移除 1 枚。"
+      ],
+      "source": {
+        "provider": "ricardo",
+        "path": "sources/ricardo/reference/character-cards/cards.md",
+        "status": "draft_needs_human_review"
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "78e5aaeed132dab7",
+  "title": "Site-favicon.ico",
+  "kind": "media",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "bytes": 55143,
+    "sha256": "afd5eceac2e63bdd3b5a7d31f9a33bb76c4e5197a39b4e6e6d6b23d2e590885c"
+  },
+  "provenance": {
+    "bytes": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:Site-favicon.ico",
+      "snapshot": "sources/wiki/files/c1f5ea5ee724f91c.json"
+    },
+    "sha256": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:Site-favicon.ico",
+      "snapshot": "sources/wiki/files/c1f5ea5ee724f91c.json"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:Site-favicon.ico",
+      "snapshot": "sources/wiki/files/c1f5ea5ee724f91c.json"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/File:Site-favicon.ico",
+        "snapshot": "sources/wiki/files/c1f5ea5ee724f91c.json"
+      },
+      "fields": {
+        "bytes": 55143,
+        "sha256": "afd5eceac2e63bdd3b5a7d31f9a33bb76c4e5197a39b4e6e6d6b23d2e590885c"
+      }
+    }
+  ],
+  "media": [
+    {
+      "title": "Site-favicon.ico",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:Site-favicon.ico",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/4/4a/Site-favicon.ico/revision/latest?cb=20251025060812&format=original&path-prefix=zh",
+      "path": "media/wiki/c1f5ea5ee724f91c.png",
+      "sourceRecord": "sources/wiki/files/c1f5ea5ee724f91c.json",
+      "sha256": "afd5eceac2e63bdd3b5a7d31f9a33bb76c4e5197a39b4e6e6d6b23d2e590885c",
+      "bytes": 55143,
+      "fileInfo": "PNG image data, 172 x 121, 8-bit/color RGBA, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "tags": [],
+  "conflicts": []
+}

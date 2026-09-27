@@ -1,0 +1,476 @@
+{
+  "id": "2043d3d2440ea40c",
+  "title": "MC-50",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "MC-50非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "MC-50",
+    "loops": 3,
+    "days": 5,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "不安扩散"
+      },
+      {
+        "day": 2,
+        "incidentText": "封锁"
+      },
+      {
+        "day": 3,
+        "incidentText": "猎奇杀人"
+      },
+      {
+        "day": 4,
+        "incidentText": "恐怖袭击"
+      },
+      {
+        "day": 5,
+        "incidentText": "医院事故"
+      }
+    ],
+    "剧本名": "轰鸣 轰鸣",
+    "英文名": "Vroom Vroom",
+    "作者": "Justin Karp",
+    "轮数": "3",
+    "天数": "5"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-50",
+      "snapshot": "sources/wiki/pages/e01a6d91c2bd1f66.json",
+      "capturedAt": "2026-09-27T04:40:28.457Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-50",
+      "snapshot": "sources/wiki/pages/e01a6d91c2bd1f66.json",
+      "capturedAt": "2026-09-27T04:40:28.457Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-50",
+      "snapshot": "sources/wiki/pages/e01a6d91c2bd1f66.json",
+      "capturedAt": "2026-09-27T04:40:28.457Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-50",
+      "snapshot": "sources/wiki/pages/e01a6d91c2bd1f66.json",
+      "capturedAt": "2026-09-27T04:40:28.457Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-50",
+      "snapshot": "sources/wiki/pages/e01a6d91c2bd1f66.json",
+      "capturedAt": "2026-09-27T04:40:28.457Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 52
+    },
+    "英文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 52
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 52
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 52
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 52
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-50",
+      "snapshot": "sources/wiki/pages/e01a6d91c2bd1f66.json",
+      "capturedAt": "2026-09-27T04:40:28.457Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 52
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-50%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/b4122072c76d2390.json",
+      "capturedAt": "2026-09-27T04:40:31.799Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-50",
+        "snapshot": "sources/wiki/pages/e01a6d91c2bd1f66.json",
+        "capturedAt": "2026-09-27T04:40:28.457Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "MC-50",
+        "loops": 3,
+        "days": 5,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "不安扩散"
+          },
+          {
+            "day": 2,
+            "incidentText": "封锁"
+          },
+          {
+            "day": 3,
+            "incidentText": "猎奇杀人"
+          },
+          {
+            "day": 4,
+            "incidentText": "恐怖袭击"
+          },
+          {
+            "day": 5,
+            "incidentText": "医院事故"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 4,
+        "row": 52
+      },
+      "fields": {
+        "scenarioCode": "MC-50",
+        "剧本名": "轰鸣 轰鸣",
+        "英文名": "Vroom Vroom",
+        "作者": "Justin Karp",
+        "轮数": "3",
+        "天数": "5"
+      }
+    }
+  ],
+  "wikiTitle": "MC-50",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Mystery Circle"
+  ],
+  "module": "Mystery Circle",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "2043d3d2440ea40c",
+        "title": "MC-50",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "MC-50",
+          "loops": 3,
+          "days": 5,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "不安扩散"
+            },
+            {
+              "day": 2,
+              "incidentText": "封锁"
+            },
+            {
+              "day": 3,
+              "incidentText": "猎奇杀人"
+            },
+            {
+              "day": 4,
+              "incidentText": "恐怖袭击"
+            },
+            {
+              "day": 5,
+              "incidentText": "医院事故"
+            }
+          ],
+          "剧本名": "轰鸣 轰鸣",
+          "英文名": "Vroom Vroom",
+          "作者": "Justin Karp",
+          "轮数": "3",
+          "天数": "5"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-50",
+            "snapshot": "sources/wiki/pages/e01a6d91c2bd1f66.json",
+            "capturedAt": "2026-09-27T04:40:28.457Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-50",
+            "snapshot": "sources/wiki/pages/e01a6d91c2bd1f66.json",
+            "capturedAt": "2026-09-27T04:40:28.457Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-50",
+            "snapshot": "sources/wiki/pages/e01a6d91c2bd1f66.json",
+            "capturedAt": "2026-09-27T04:40:28.457Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-50",
+            "snapshot": "sources/wiki/pages/e01a6d91c2bd1f66.json",
+            "capturedAt": "2026-09-27T04:40:28.457Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-50",
+            "snapshot": "sources/wiki/pages/e01a6d91c2bd1f66.json",
+            "capturedAt": "2026-09-27T04:40:28.457Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 52
+          },
+          "英文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 52
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 52
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 52
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 52
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-50",
+            "snapshot": "sources/wiki/pages/e01a6d91c2bd1f66.json",
+            "capturedAt": "2026-09-27T04:40:28.457Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 52
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-50",
+              "snapshot": "sources/wiki/pages/e01a6d91c2bd1f66.json",
+              "capturedAt": "2026-09-27T04:40:28.457Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "MC-50",
+              "loops": 3,
+              "days": 5,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "不安扩散"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "封锁"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "猎奇杀人"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "恐怖袭击"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "医院事故"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 4,
+              "row": 52
+            },
+            "fields": {
+              "scenarioCode": "MC-50",
+              "剧本名": "轰鸣 轰鸣",
+              "英文名": "Vroom Vroom",
+              "作者": "Justin Karp",
+              "轮数": "3",
+              "天数": "5"
+            }
+          }
+        ],
+        "body": "text/scenarios/2043d3d2440ea40c.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-50",
+          "snapshot": "sources/wiki/pages/e01a6d91c2bd1f66.json",
+          "capturedAt": "2026-09-27T04:40:28.457Z"
+        },
+        "wikiTitle": "MC-50",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "MC-50非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-50%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-50?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Mystery Circle"
+        ],
+        "module": "Mystery Circle"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "67ccac0d7a5bf9c1",
+        "title": "MC-50非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "MC-50"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-50%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/b4122072c76d2390.json",
+            "capturedAt": "2026-09-27T04:40:31.799Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-50%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/b4122072c76d2390.json",
+            "capturedAt": "2026-09-27T04:40:31.799Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-50%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/b4122072c76d2390.json",
+            "capturedAt": "2026-09-27T04:40:31.799Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-50%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/b4122072c76d2390.json",
+              "capturedAt": "2026-09-27T04:40:31.799Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "MC-50"
+            }
+          }
+        ],
+        "wikiTitle": "MC-50非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Mystery Circle",
+        "tags": [
+          "民间",
+          "Mystery Circle"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "67ccac0d7a5bf9c1"
+  ],
+  "conflicts": []
+}

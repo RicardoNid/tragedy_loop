@@ -1,0 +1,67 @@
+{
+  "id": "b3a06da0ac467b66",
+  "title": "移动牌没有效果，但是失踪之类的可以把他们移动出来吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 中文特供Promo卡 / 第 4 行",
+  "aliases": [],
+  "fields": {
+    "question": "移动牌没有效果，但是失踪之类的可以把他们移动出来吗？",
+    "answer": "必须移动到版图上"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=mknfvi",
+      "snapshot": "sources/faq-sheet/promo.json",
+      "sheet": "中文特供Promo卡",
+      "row": 4,
+      "cells": "A4:B4",
+      "capturedAt": "2026-09-27T05:40:39.708Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=mknfvi",
+      "snapshot": "sources/faq-sheet/promo.json",
+      "sheet": "中文特供Promo卡",
+      "row": 4,
+      "cells": "A4:B4",
+      "capturedAt": "2026-09-27T05:40:39.708Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=mknfvi",
+      "snapshot": "sources/faq-sheet/promo.json",
+      "sheet": "中文特供Promo卡",
+      "row": 4,
+      "cells": "A4:B4",
+      "capturedAt": "2026-09-27T05:40:39.708Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=mknfvi",
+        "snapshot": "sources/faq-sheet/promo.json",
+        "sheet": "中文特供Promo卡",
+        "row": 4,
+        "cells": "A4:B4",
+        "capturedAt": "2026-09-27T05:40:39.708Z"
+      },
+      "fields": {
+        "question": "移动牌没有效果，但是失踪之类的可以把他们移动出来吗？",
+        "answer": "必须移动到版图上"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "中文特供Promo卡",
+    "关于远方",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

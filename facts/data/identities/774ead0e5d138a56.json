@@ -1,0 +1,72 @@
+{
+  "id": "774ead0e5d138a56",
+  "title": "时间旅者",
+  "kind": "identities",
+  "scope": "Basic Tragedy X Plus",
+  "aliases": [],
+  "fields": {
+    "max": "",
+    "traits": "不死",
+    "abilities": [
+      "【强制：行动结算阶段】无视该角色身上放置的禁止友好",
+      "【任意能力：最终日的回合结束阶段】该角色身上的[友好]为2枚或以下→主人公失败，当前轮回立即结束"
+    ]
+  },
+  "provenance": {
+    "max": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy_X",
+      "snapshot": "sources/wiki/pages/1095c9f923c9c10c.json",
+      "capturedAt": "2026-09-27T03:28:29.736Z"
+    },
+    "traits": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy_X",
+      "snapshot": "sources/wiki/pages/1095c9f923c9c10c.json",
+      "capturedAt": "2026-09-27T03:28:29.736Z"
+    },
+    "abilities": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy_X",
+      "snapshot": "sources/wiki/pages/1095c9f923c9c10c.json",
+      "capturedAt": "2026-09-27T03:28:29.736Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy_X",
+      "snapshot": "sources/wiki/pages/1095c9f923c9c10c.json",
+      "capturedAt": "2026-09-27T03:28:29.736Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy_X",
+        "snapshot": "sources/wiki/pages/1095c9f923c9c10c.json",
+        "capturedAt": "2026-09-27T03:28:29.736Z"
+      },
+      "fields": {
+        "max": "",
+        "traits": "不死",
+        "abilities": [
+          "【强制：行动结算阶段】无视该角色身上放置的禁止友好",
+          "【任意能力：最终日的回合结束阶段】该角色身上的[友好]为2枚或以下→主人公失败，当前轮回立即结束"
+        ]
+      }
+    }
+  ],
+  "inheritedFrom": "34ab981ff12c746a",
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "官方"
+  ],
+  "conflicts": []
+}

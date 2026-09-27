@@ -1,0 +1,464 @@
+{
+  "id": "f6e7a84305759db5",
+  "title": "AHR-01",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "AHR-01非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "AHR-01",
+    "loops": 5,
+    "days": 4,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "遗言"
+      },
+      {
+        "day": 2,
+        "incidentText": "遗言"
+      },
+      {
+        "day": 3,
+        "incidentText": "次元转换"
+      },
+      {
+        "day": 4,
+        "incidentText": "空想事件"
+      }
+    ],
+    "剧本名": "飞往天国的笛声",
+    "作者": "Choconut",
+    "轮数": "5",
+    "天数": "4",
+    "难度": "6"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-01",
+      "snapshot": "sources/wiki/pages/a998d7cf8f9c4b43.json",
+      "capturedAt": "2026-09-27T03:38:45.638Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-01",
+      "snapshot": "sources/wiki/pages/a998d7cf8f9c4b43.json",
+      "capturedAt": "2026-09-27T03:38:45.638Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-01",
+      "snapshot": "sources/wiki/pages/a998d7cf8f9c4b43.json",
+      "capturedAt": "2026-09-27T03:38:45.638Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-01",
+      "snapshot": "sources/wiki/pages/a998d7cf8f9c4b43.json",
+      "capturedAt": "2026-09-27T03:38:45.638Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-01",
+      "snapshot": "sources/wiki/pages/a998d7cf8f9c4b43.json",
+      "capturedAt": "2026-09-27T03:38:45.638Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 2
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 2
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 2
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 2
+    },
+    "难度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 2
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-01",
+      "snapshot": "sources/wiki/pages/a998d7cf8f9c4b43.json",
+      "capturedAt": "2026-09-27T03:38:45.638Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 2
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-01%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1630",
+      "snapshot": "sources/wiki/pages/8780f9310611c60e.json",
+      "capturedAt": "2026-09-27T03:39:28.842Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-01",
+        "snapshot": "sources/wiki/pages/a998d7cf8f9c4b43.json",
+        "capturedAt": "2026-09-27T03:38:45.638Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "AHR-01",
+        "loops": 5,
+        "days": 4,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "遗言"
+          },
+          {
+            "day": 2,
+            "incidentText": "遗言"
+          },
+          {
+            "day": 3,
+            "incidentText": "次元转换"
+          },
+          {
+            "day": 4,
+            "incidentText": "空想事件"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 7,
+        "row": 2
+      },
+      "fields": {
+        "scenarioCode": "AHR-01",
+        "剧本名": "飞往天国的笛声",
+        "作者": "Choconut",
+        "轮数": "5",
+        "天数": "4",
+        "难度": "6"
+      }
+    }
+  ],
+  "wikiTitle": "AHR-01",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Another Horizon Revised"
+  ],
+  "module": "Another Horizon Revised",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "f6e7a84305759db5",
+        "title": "AHR-01",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "AHR-01",
+          "loops": 5,
+          "days": 4,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "遗言"
+            },
+            {
+              "day": 2,
+              "incidentText": "遗言"
+            },
+            {
+              "day": 3,
+              "incidentText": "次元转换"
+            },
+            {
+              "day": 4,
+              "incidentText": "空想事件"
+            }
+          ],
+          "剧本名": "飞往天国的笛声",
+          "作者": "Choconut",
+          "轮数": "5",
+          "天数": "4",
+          "难度": "6"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-01",
+            "snapshot": "sources/wiki/pages/a998d7cf8f9c4b43.json",
+            "capturedAt": "2026-09-27T03:38:45.638Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-01",
+            "snapshot": "sources/wiki/pages/a998d7cf8f9c4b43.json",
+            "capturedAt": "2026-09-27T03:38:45.638Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-01",
+            "snapshot": "sources/wiki/pages/a998d7cf8f9c4b43.json",
+            "capturedAt": "2026-09-27T03:38:45.638Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-01",
+            "snapshot": "sources/wiki/pages/a998d7cf8f9c4b43.json",
+            "capturedAt": "2026-09-27T03:38:45.638Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-01",
+            "snapshot": "sources/wiki/pages/a998d7cf8f9c4b43.json",
+            "capturedAt": "2026-09-27T03:38:45.638Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 2
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 2
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 2
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 2
+          },
+          "难度": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 2
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-01",
+            "snapshot": "sources/wiki/pages/a998d7cf8f9c4b43.json",
+            "capturedAt": "2026-09-27T03:38:45.638Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 2
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-01",
+              "snapshot": "sources/wiki/pages/a998d7cf8f9c4b43.json",
+              "capturedAt": "2026-09-27T03:38:45.638Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "AHR-01",
+              "loops": 5,
+              "days": 4,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "遗言"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "遗言"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "次元转换"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "空想事件"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 7,
+              "row": 2
+            },
+            "fields": {
+              "scenarioCode": "AHR-01",
+              "剧本名": "飞往天国的笛声",
+              "作者": "Choconut",
+              "轮数": "5",
+              "天数": "4",
+              "难度": "6"
+            }
+          }
+        ],
+        "body": "text/scenarios/f6e7a84305759db5.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-01",
+          "snapshot": "sources/wiki/pages/a998d7cf8f9c4b43.json",
+          "capturedAt": "2026-09-27T03:38:45.638Z"
+        },
+        "wikiTitle": "AHR-01",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-01?action=edit&section=1"
+          },
+          {
+            "title": "AHR-01非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-01%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-01?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Another Horizon Revised"
+        ],
+        "module": "Another Horizon Revised"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "745f0794fe7b889a",
+        "title": "AHR-01非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "AHR-01"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-01%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1630",
+            "snapshot": "sources/wiki/pages/8780f9310611c60e.json",
+            "capturedAt": "2026-09-27T03:39:28.842Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-01%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1630",
+            "snapshot": "sources/wiki/pages/8780f9310611c60e.json",
+            "capturedAt": "2026-09-27T03:39:28.842Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-01%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1630",
+            "snapshot": "sources/wiki/pages/8780f9310611c60e.json",
+            "capturedAt": "2026-09-27T03:39:28.842Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-01%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1630",
+              "snapshot": "sources/wiki/pages/8780f9310611c60e.json",
+              "capturedAt": "2026-09-27T03:39:28.842Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "AHR-01"
+            }
+          }
+        ],
+        "wikiTitle": "AHR-01非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Another Horizon Revised",
+        "tags": [
+          "民间",
+          "Another Horizon Revised"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "745f0794fe7b889a"
+  ],
+  "conflicts": []
+}

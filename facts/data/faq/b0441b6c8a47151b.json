@@ -1,0 +1,67 @@
+{
+  "id": "b0441b6c8a47151b",
+  "title": "是不是有无视友好的角色就不能放友好指示物了？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 基础规则 / 第 26 行",
+  "aliases": [],
+  "fields": {
+    "question": "是不是有无视友好的角色就不能放友好指示物了？",
+    "answer": "不是，友好指示物该怎么放就怎么放，友好无视只在主人公能力阶段起效"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+      "snapshot": "sources/faq-sheet/basic.json",
+      "sheet": "基础规则",
+      "row": 26,
+      "cells": "A26:B26",
+      "capturedAt": "2026-09-27T05:40:57.223Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+      "snapshot": "sources/faq-sheet/basic.json",
+      "sheet": "基础规则",
+      "row": 26,
+      "cells": "A26:B26",
+      "capturedAt": "2026-09-27T05:40:57.223Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+      "snapshot": "sources/faq-sheet/basic.json",
+      "sheet": "基础规则",
+      "row": 26,
+      "cells": "A26:B26",
+      "capturedAt": "2026-09-27T05:40:57.223Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+        "snapshot": "sources/faq-sheet/basic.json",
+        "sheet": "基础规则",
+        "row": 26,
+        "cells": "A26:B26",
+        "capturedAt": "2026-09-27T05:40:57.223Z"
+      },
+      "fields": {
+        "question": "是不是有无视友好的角色就不能放友好指示物了？",
+        "answer": "不是，友好指示物该怎么放就怎么放，友好无视只在主人公能力阶段起效"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "基础规则",
+    "关于行动牌",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

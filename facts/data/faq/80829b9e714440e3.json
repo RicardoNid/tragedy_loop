@@ -1,0 +1,60 @@
+{
+  "id": "80829b9e714440e3",
+  "title": "上一個問題中，如果通過上位存在的友好能力給關鍵人物放置了希望指示物，而這也讓上位存在被放置了第6枚已溝通標誌，此時該怎麼處理？",
+  "kind": "faq",
+  "scope": "纸质 FAQ / LL / Q5",
+  "aliases": [],
+  "fields": {
+    "question": "上一個問題中，如果通過上位存在的友好能力給關鍵人物放置了希望指示物，而這也讓上位存在被放置了第6枚已溝通標誌，此時該怎麼處理？",
+    "answer": "因為在聲明使用友好能力時點放置了已溝通標誌時，所以主人公B獲得勝利。"
+  },
+  "provenance": {
+    "question": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+      "snapshot": "sources/paper-faq/last-liar.json",
+      "page": 13,
+      "questionNumber": 5
+    },
+    "answer": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+      "snapshot": "sources/paper-faq/last-liar.json",
+      "page": 13,
+      "questionNumber": 5
+    }
+  },
+  "sources": [
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+      "snapshot": "sources/paper-faq/last-liar.json",
+      "page": 13,
+      "questionNumber": 5
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+        "snapshot": "sources/paper-faq/last-liar.json",
+        "page": 13,
+        "questionNumber": 5
+      },
+      "fields": {
+        "question": "上一個問題中，如果通過上位存在的友好能力給關鍵人物放置了希望指示物，而這也讓上位存在被放置了第6枚已溝通標誌，此時該怎麼處理？",
+        "answer": "因為在聲明使用友好能力時點放置了已溝通標誌時，所以主人公B獲得勝利。"
+      }
+    }
+  ],
+  "tags": [
+    "LL",
+    "纸质 FAQ",
+    "规则",
+    "官方"
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+  "conflicts": []
+}

@@ -1,0 +1,458 @@
+{
+  "id": "3713f45e1bb204f5",
+  "title": "MC-16",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "MC-16非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "MC-16",
+    "loops": 7,
+    "days": 5,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "银色子弹"
+      },
+      {
+        "day": 2,
+        "incidentText": "连续杀人"
+      },
+      {
+        "day": 3,
+        "incidentText": "连续杀人"
+      },
+      {
+        "day": 4,
+        "incidentText": "连续杀人"
+      },
+      {
+        "day": 5,
+        "incidentText": "恐怖袭击"
+      }
+    ],
+    "剧本名": "超极衹笔醚题",
+    "作者": "Redless",
+    "轮数": "7 6",
+    "天数": "5"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-16",
+      "snapshot": "sources/wiki/pages/54e4e5d366baaa06.json",
+      "capturedAt": "2026-09-27T04:36:06.606Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-16",
+      "snapshot": "sources/wiki/pages/54e4e5d366baaa06.json",
+      "capturedAt": "2026-09-27T04:36:06.606Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-16",
+      "snapshot": "sources/wiki/pages/54e4e5d366baaa06.json",
+      "capturedAt": "2026-09-27T04:36:06.606Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-16",
+      "snapshot": "sources/wiki/pages/54e4e5d366baaa06.json",
+      "capturedAt": "2026-09-27T04:36:06.606Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-16",
+      "snapshot": "sources/wiki/pages/54e4e5d366baaa06.json",
+      "capturedAt": "2026-09-27T04:36:06.606Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 18
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 18
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 18
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 18
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-16",
+      "snapshot": "sources/wiki/pages/54e4e5d366baaa06.json",
+      "capturedAt": "2026-09-27T04:36:06.606Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 18
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-16%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/e6c65b85d4394f59.json",
+      "capturedAt": "2026-09-27T04:36:10.169Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-16",
+        "snapshot": "sources/wiki/pages/54e4e5d366baaa06.json",
+        "capturedAt": "2026-09-27T04:36:06.606Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "MC-16",
+        "loops": 7,
+        "days": 5,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "银色子弹"
+          },
+          {
+            "day": 2,
+            "incidentText": "连续杀人"
+          },
+          {
+            "day": 3,
+            "incidentText": "连续杀人"
+          },
+          {
+            "day": 4,
+            "incidentText": "连续杀人"
+          },
+          {
+            "day": 5,
+            "incidentText": "恐怖袭击"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 4,
+        "row": 18
+      },
+      "fields": {
+        "scenarioCode": "MC-16",
+        "剧本名": "超极衹笔醚题",
+        "作者": "Redless",
+        "轮数": "7 6",
+        "天数": "5"
+      }
+    }
+  ],
+  "wikiTitle": "MC-16",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Mystery Circle"
+  ],
+  "module": "Mystery Circle",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "3713f45e1bb204f5",
+        "title": "MC-16",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "MC-16",
+          "loops": 7,
+          "days": 5,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "银色子弹"
+            },
+            {
+              "day": 2,
+              "incidentText": "连续杀人"
+            },
+            {
+              "day": 3,
+              "incidentText": "连续杀人"
+            },
+            {
+              "day": 4,
+              "incidentText": "连续杀人"
+            },
+            {
+              "day": 5,
+              "incidentText": "恐怖袭击"
+            }
+          ],
+          "剧本名": "超极衹笔醚题",
+          "作者": "Redless",
+          "轮数": "7 6",
+          "天数": "5"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-16",
+            "snapshot": "sources/wiki/pages/54e4e5d366baaa06.json",
+            "capturedAt": "2026-09-27T04:36:06.606Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-16",
+            "snapshot": "sources/wiki/pages/54e4e5d366baaa06.json",
+            "capturedAt": "2026-09-27T04:36:06.606Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-16",
+            "snapshot": "sources/wiki/pages/54e4e5d366baaa06.json",
+            "capturedAt": "2026-09-27T04:36:06.606Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-16",
+            "snapshot": "sources/wiki/pages/54e4e5d366baaa06.json",
+            "capturedAt": "2026-09-27T04:36:06.606Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-16",
+            "snapshot": "sources/wiki/pages/54e4e5d366baaa06.json",
+            "capturedAt": "2026-09-27T04:36:06.606Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 18
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 18
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 18
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 18
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-16",
+            "snapshot": "sources/wiki/pages/54e4e5d366baaa06.json",
+            "capturedAt": "2026-09-27T04:36:06.606Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 18
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-16",
+              "snapshot": "sources/wiki/pages/54e4e5d366baaa06.json",
+              "capturedAt": "2026-09-27T04:36:06.606Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "MC-16",
+              "loops": 7,
+              "days": 5,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "银色子弹"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "连续杀人"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "连续杀人"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "连续杀人"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "恐怖袭击"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 4,
+              "row": 18
+            },
+            "fields": {
+              "scenarioCode": "MC-16",
+              "剧本名": "超极衹笔醚题",
+              "作者": "Redless",
+              "轮数": "7 6",
+              "天数": "5"
+            }
+          }
+        ],
+        "body": "text/scenarios/3713f45e1bb204f5.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-16",
+          "snapshot": "sources/wiki/pages/54e4e5d366baaa06.json",
+          "capturedAt": "2026-09-27T04:36:06.606Z"
+        },
+        "wikiTitle": "MC-16",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "MC-16非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-16%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-16?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Mystery Circle"
+        ],
+        "module": "Mystery Circle"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "f35ae12e42e1e44d",
+        "title": "MC-16非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "MC-16"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-16%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/e6c65b85d4394f59.json",
+            "capturedAt": "2026-09-27T04:36:10.169Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-16%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/e6c65b85d4394f59.json",
+            "capturedAt": "2026-09-27T04:36:10.169Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-16%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/e6c65b85d4394f59.json",
+            "capturedAt": "2026-09-27T04:36:10.169Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-16%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/e6c65b85d4394f59.json",
+              "capturedAt": "2026-09-27T04:36:10.169Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "MC-16"
+            }
+          }
+        ],
+        "wikiTitle": "MC-16非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Mystery Circle",
+        "tags": [
+          "民间",
+          "Mystery Circle"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "f35ae12e42e1e44d"
+  ],
+  "conflicts": []
+}

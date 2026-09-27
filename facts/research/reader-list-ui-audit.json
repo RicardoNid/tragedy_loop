@@ -1,0 +1,90 @@
+{
+  "listAudit": [
+    {
+      "kind": "scenarios",
+      "keyword": 1,
+      "tag": 1,
+      "authority": 1,
+      "heading": "剧本与剧本集"
+    },
+    {
+      "kind": "references",
+      "keyword": 1,
+      "tag": 1,
+      "authority": 1,
+      "heading": "来源原文与整理记录"
+    },
+    {
+      "kind": "characters",
+      "keyword": 1,
+      "tag": 1,
+      "authority": 1,
+      "heading": "角色"
+    },
+    {
+      "kind": "modules",
+      "keyword": 1,
+      "tag": 1,
+      "authority": 1,
+      "heading": "模组"
+    },
+    {
+      "kind": "rules",
+      "keyword": 1,
+      "tag": 1,
+      "authority": 1,
+      "heading": "规则 X / Y"
+    },
+    {
+      "kind": "identities",
+      "keyword": 1,
+      "tag": 1,
+      "authority": 1,
+      "heading": "身份"
+    },
+    {
+      "kind": "incidents",
+      "keyword": 1,
+      "tag": 1,
+      "authority": 1,
+      "heading": "事件"
+    },
+    {
+      "kind": "articles",
+      "keyword": 1,
+      "tag": 1,
+      "authority": 1,
+      "heading": "基础规则与资料"
+    },
+    {
+      "kind": "glossary",
+      "keyword": 1,
+      "tag": 1,
+      "authority": 1,
+      "heading": "术语"
+    },
+    {
+      "kind": "actions",
+      "keyword": 1,
+      "tag": 1,
+      "authority": 1,
+      "heading": "行动牌"
+    },
+    {
+      "kind": "media",
+      "keyword": 1,
+      "tag": 1,
+      "authority": 1,
+      "heading": "图片与素材"
+    },
+    {
+      "kind": "faq",
+      "keyword": 1,
+      "tag": 1,
+      "authority": 1,
+      "heading": "FAQ 与裁定"
+    }
+  ],
+  "scenarioCount": 33,
+  "onlyBTXPlus": true
+}

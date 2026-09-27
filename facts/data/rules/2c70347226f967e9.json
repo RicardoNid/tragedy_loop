@@ -1,0 +1,68 @@
+{
+  "id": "2c70347226f967e9",
+  "title": "异界侵蚀",
+  "kind": "rules",
+  "scope": "Another Horizon",
+  "aliases": [],
+  "fields": {
+    "ruleType": "Y",
+    "identityCounts": {
+      "主谋": "①",
+      "入侵者": "①"
+    },
+    "effect": "【失败条件：轮回结束时】X的初始区域有2枚或以上[密谋]（X表世界为主谋，里世界为入侵者）"
+  },
+  "provenance": {
+    "ruleType": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon",
+      "snapshot": "sources/wiki/pages/0bbeabad41fe0a31.json",
+      "capturedAt": "2026-09-27T03:28:21.175Z"
+    },
+    "identityCounts": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon",
+      "snapshot": "sources/wiki/pages/0bbeabad41fe0a31.json",
+      "capturedAt": "2026-09-27T03:28:21.175Z"
+    },
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon",
+      "snapshot": "sources/wiki/pages/0bbeabad41fe0a31.json",
+      "capturedAt": "2026-09-27T03:28:21.175Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon",
+      "snapshot": "sources/wiki/pages/0bbeabad41fe0a31.json",
+      "capturedAt": "2026-09-27T03:28:21.175Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon",
+        "snapshot": "sources/wiki/pages/0bbeabad41fe0a31.json",
+        "capturedAt": "2026-09-27T03:28:21.175Z"
+      },
+      "fields": {
+        "ruleType": "Y",
+        "identityCounts": {
+          "主谋": "①",
+          "入侵者": "①"
+        },
+        "effect": "【失败条件：轮回结束时】X的初始区域有2枚或以上[密谋]（X表世界为主谋，里世界为入侵者）"
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "Y",
+    "官方"
+  ],
+  "conflicts": []
+}

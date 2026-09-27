@@ -1,0 +1,111 @@
+{
+  "id": "49231f667bc39e0b",
+  "title": "恶魔的剧本",
+  "kind": "rules",
+  "scope": "Last Liar",
+  "aliases": [],
+  "fields": {
+    "ruleType": "Y",
+    "identityCounts": {
+      "杀人狂": "①",
+      "监视者": "①"
+    },
+    "effect": "【失败条件：轮回结束时】本轮轮回中引发过遗言或代行者事件\n【任意能力：最终日的回合结束阶段】若监视者身上的指示物仅有1枚或以下→主人公死亡"
+  },
+  "provenance": {
+    "ruleType": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Last_Liar",
+      "snapshot": "sources/wiki/pages/844cae1ed2f5e214.json",
+      "capturedAt": "2026-09-27T03:29:44.914Z"
+    },
+    "identityCounts": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Last_Liar",
+      "snapshot": "sources/wiki/pages/844cae1ed2f5e214.json",
+      "capturedAt": "2026-09-27T03:29:44.914Z"
+    },
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Last_Liar",
+      "snapshot": "sources/wiki/pages/844cae1ed2f5e214.json",
+      "capturedAt": "2026-09-27T03:29:44.914Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Last_Liar",
+      "snapshot": "sources/wiki/pages/844cae1ed2f5e214.json",
+      "capturedAt": "2026-09-27T03:29:44.914Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Last_Liar",
+        "snapshot": "sources/wiki/pages/844cae1ed2f5e214.json",
+        "capturedAt": "2026-09-27T03:29:44.914Z"
+      },
+      "fields": {
+        "ruleType": "Y",
+        "identityCounts": {
+          "杀人狂": "①",
+          "监视者": "①"
+        },
+        "effect": "【失败条件：轮回结束时】本轮轮回中引发过遗言或代行者事件\n【任意能力：最终日的回合结束阶段】若监视者身上的指示物仅有1枚或以下→主人公死亡"
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "ruleType": "Y",
+        "identityCounts": {
+          "杀人狂": "1",
+          "监视者": "1"
+        },
+        "effect": "【失败条件：轮回结束时】本轮轮回中引发过遗言或代行者事件；【任意能力：最终日的回合结束阶段】若监视者身上的指示物仅有1枚或以下→主人公死亡"
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "Y",
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "identityCounts",
+      "selected": {
+        "杀人狂": "①",
+        "监视者": "①"
+      },
+      "candidate": {
+        "杀人狂": "1",
+        "监视者": "1"
+      },
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "effect",
+      "selected": "【失败条件：轮回结束时】本轮轮回中引发过遗言或代行者事件\n【任意能力：最终日的回合结束阶段】若监视者身上的指示物仅有1枚或以下→主人公死亡",
+      "candidate": "【失败条件：轮回结束时】本轮轮回中引发过遗言或代行者事件；【任意能力：最终日的回合结束阶段】若监视者身上的指示物仅有1枚或以下→主人公死亡",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    }
+  ]
+}

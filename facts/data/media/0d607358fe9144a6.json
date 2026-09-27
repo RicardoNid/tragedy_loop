@@ -1,0 +1,60 @@
+{
+  "id": "0d607358fe9144a6",
+  "title": "巫女.png",
+  "kind": "media",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "bytes": 249872,
+    "sha256": "c34f3499406c2212ac08e72eacde438862631fe917eb183d4e0a2caa7c65b1a2"
+  },
+  "provenance": {
+    "bytes": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%B7%AB%E5%A5%B3.png",
+      "snapshot": "sources/wiki/files/5110e82a5e9fadcd.json"
+    },
+    "sha256": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%B7%AB%E5%A5%B3.png",
+      "snapshot": "sources/wiki/files/5110e82a5e9fadcd.json"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%B7%AB%E5%A5%B3.png",
+      "snapshot": "sources/wiki/files/5110e82a5e9fadcd.json"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%B7%AB%E5%A5%B3.png",
+        "snapshot": "sources/wiki/files/5110e82a5e9fadcd.json"
+      },
+      "fields": {
+        "bytes": 249872,
+        "sha256": "c34f3499406c2212ac08e72eacde438862631fe917eb183d4e0a2caa7c65b1a2"
+      }
+    }
+  ],
+  "media": [
+    {
+      "title": "巫女.png",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%B7%AB%E5%A5%B3.png",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/c/cc/%E5%B7%AB%E5%A5%B3.png/revision/latest?cb=20251023162228&format=original&path-prefix=zh",
+      "path": "media/wiki/5110e82a5e9fadcd.png",
+      "sourceRecord": "sources/wiki/files/5110e82a5e9fadcd.json",
+      "sha256": "c34f3499406c2212ac08e72eacde438862631fe917eb183d4e0a2caa7c65b1a2",
+      "bytes": 249872,
+      "fileInfo": "PNG image data, 303 x 428, 8-bit/color RGBA, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "tags": [],
+  "conflicts": []
+}

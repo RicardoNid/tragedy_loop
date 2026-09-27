@@ -1,0 +1,1826 @@
+{
+  "categories": [
+    "分类"
+  ],
+  "hasArticle": true,
+  "headings": [],
+  "html": "<p><strong class=\"mw-selflink selflink\">Mystery Circle</strong>有的模组特殊规则如下\n</p><p>每当事件发生时，EX槽上升1，在每轮轮回开始时将EX槽清零\n</p>\n<table class=\"fandom-table\">\n<tbody><tr>\n<td>MC\n</td>\n<td>规则名\n</td>\n<td>关\n<p>键\n人\n物\n</p>\n</td>\n<td>杀\n<p>手\n</p>\n</td>\n<td>主谋\n</td>\n<td>投\n<p>毒\n者\n</p>\n</td>\n<td>愚\n<p>者\n</p>\n</td>\n<td>传谣人\n</td>\n<td>亲友\n</td>\n<td>杀人狂\n</td>\n<td>偏执狂\n</td>\n<td>心理医生\n</td>\n<td>侦探\n</td>\n<td>强迫症\n</td>\n<td>双胞胎\n</td>\n<td>附加规则\n</td></tr>\n<tr>\n<td rowspan=\"5\">Y\n</td>\n<td>谋杀计划\n</td>\n<td>①\n</td>\n<td>①\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td></tr>\n<tr>\n<td>事件交织的罗网\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>【失败条件：轮回结束时】Ex槽为3或以上\n</td></tr>\n<tr>\n<td>命悬一线的计划\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>【失败条件：轮回结束时】Ex槽为1或以下\n</td></tr>\n<tr>\n<td>黑暗学园\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>【失败条件：轮回结束时】学校的[密谋]为X枚或以上（X=当前轮回数-1）（第一轮轮回必定失败）\n</td></tr>\n<tr>\n<td>士的宁毒液\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>【强制：常驻】判定「连续杀人」「自杀」是否发生时，[密谋]视作[不安]处理\n</td></tr>\n<tr>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td></tr>\n<tr>\n<td rowspan=\"7\">X\n</td>\n<td>潜伏的杀人狂\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td></tr>\n<tr>\n<td>隔离病房惊魂记\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>【强制：轮回开始时】上轮轮回结束时Ex槽为2或以下→Ex槽增加1\n</td></tr>\n<tr>\n<td>火药的味道\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>【失败条件：轮回结束时】所有生存角色身上的[不安]总数为12枚或以上\n</td></tr>\n<tr>\n<td>我是名侦探\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td></tr>\n<tr>\n<td>愚者之舞\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td></tr>\n<tr>\n<td>绝对意志\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td></tr>\n<tr>\n<td>双子的诡计\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>①\n</td>\n<td>\n</td></tr>\n<tr>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td></tr>\n<tr>\n<td rowspan=\"21\">身\n<p>份\n</p>\n</td>\n<td>\n</td>\n<td>限\n</td>\n<td colspan=\"5\">身份特性\n</td>\n<td colspan=\"8\">\n</td></tr>\n<tr>\n<td>关键人物\n</td>\n<td>\n</td>\n<td colspan=\"5\">\n</td>\n<td colspan=\"8\">【强制：该角色死亡时】主人公失败，当前轮回立即结束\n</td></tr>\n<tr>\n<td rowspan=\"2\">杀手\n</td>\n<td rowspan=\"2\">\n</td>\n<td colspan=\"5\" rowspan=\"2\">无视友好\n</td>\n<td colspan=\"8\">【任意能力：回合结束阶段】同一区域1名关键人物身上有2枚或以上[密谋]→那名关键人物死亡\n</td></tr>\n<tr>\n<td colspan=\"8\">【任意能力：回合结束阶段】该角色身上有4枚或以上[密谋]→主人公死亡\n</td></tr>\n<tr>\n<td>主谋\n</td>\n<td>\n</td>\n<td colspan=\"5\">无视友好\n</td>\n<td colspan=\"8\">【任意能力：剧作家能力阶段】往同一区域任意一名角色身上，或该角色所在的版图上放置1枚[密谋]\n</td></tr>\n<tr>\n<td rowspan=\"2\">投毒者\n</td>\n<td rowspan=\"2\">\n</td>\n<td colspan=\"5\" rowspan=\"2\">无视友好\n</td>\n<td colspan=\"8\">【强制：回合结束阶段】Ex槽为2或以上→使同一区域的1名角色死亡（每轮限1次）\n</td></tr>\n<tr>\n<td colspan=\"8\">【强制：回合结束阶段】Ex槽为4或以上→主人公死亡\n</td></tr>\n<tr>\n<td rowspan=\"2\">愚者\n</td>\n<td rowspan=\"2\">①\n</td>\n<td colspan=\"5\" rowspan=\"2\">\n</td>\n<td colspan=\"8\">【强制：剧本制作时】必须成为某1个事件的当事人\n</td></tr>\n<tr>\n<td colspan=\"8\">【强制：担任当事人的事件完成结算后】移除该卡牌上所有的[不安]\n</td></tr>\n<tr>\n<td>传谣人\n</td>\n<td>①\n</td>\n<td colspan=\"5\">\n</td>\n<td colspan=\"8\">【任意能力：剧作家能力阶段】往同一区域中任意1名角色身上放置1枚[不安]\n</td></tr>\n<tr>\n<td rowspan=\"2\">亲友\n</td>\n<td rowspan=\"2\">②\n</td>\n<td colspan=\"5\" rowspan=\"2\">\n</td>\n<td colspan=\"8\">【失败条件：轮回结束时】该卡牌为死亡状态，此时，需要告知主人公该卡牌的身份\n</td></tr>\n<tr>\n<td colspan=\"8\">【强制：轮回开始时】该角色身份曾被公开→往该角色身上放置1枚[友好]\n</td></tr>\n<tr>\n<td>杀人狂\n</td>\n<td>\n</td>\n<td colspan=\"5\">\n</td>\n<td colspan=\"8\">【强制：回合结束阶段】仅有1名角色与该角色位于同一区域→那名角色死亡\n</td></tr>\n<tr>\n<td>偏执狂\n</td>\n<td>\n</td>\n<td colspan=\"5\">必定无视友好\n</td>\n<td colspan=\"8\">【任意能力：剧作家能力阶段】往该角色身上放置1枚[密谋]或[不安]\n</td></tr>\n<tr>\n<td>心理医生\n</td>\n<td>\n</td>\n<td colspan=\"5\">\n</td>\n<td colspan=\"8\">【强制：剧作家能力阶段】Ex槽为1或以上→移除同一区域中自身以外的1名角色身上的1枚[不安]\n</td></tr>\n<tr>\n<td rowspan=\"2\">侦探\n</td>\n<td rowspan=\"2\">\n</td>\n<td colspan=\"5\" rowspan=\"2\">不死\n</td>\n<td colspan=\"8\">【强制：剧本制作时】不可以成为事件的当事人\n</td></tr>\n<tr>\n<td colspan=\"8\">【强制：事件阶段】Ex槽为0→如果与当天事件的当事人（存活）处于同一区域，则事件必定发生\n</td></tr>\n<tr>\n<td rowspan=\"2\">强迫症\n</td>\n<td rowspan=\"2\">\n</td>\n<td colspan=\"5\" rowspan=\"2\">必定无视友好\n</td>\n<td colspan=\"8\">【强制：剧本制作时】必须成为某1个事件的当事人\n</td></tr>\n<tr>\n<td colspan=\"8\">【强制：事件阶段】当事人为该角色的事件必定会发生\n</td></tr>\n<tr>\n<td rowspan=\"2\">双胞胎\n</td>\n<td rowspan=\"2\">\n</td>\n<td colspan=\"5\" rowspan=\"2\">\n</td>\n<td colspan=\"8\">【强制：剧本制作时】必须成为某1个事件的当事人\n</td></tr>\n<tr>\n<td colspan=\"8\">【强制：结算该角色担任当事人的事件时】该角色视为位于本来所在位置对角线上的版图\n</td></tr>\n<tr>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td>\n<td>\n</td></tr>\n<tr>\n<td rowspan=\"16\">事\n<p>件\n</p>\n</td>\n<td>事件名称\n</td>\n<td colspan=\"14\">效果\n</td></tr>\n<tr>\n<td rowspan=\"2\">连续杀人\n</td>\n<td colspan=\"14\">与当事人位于同一区域的另外1名角色死亡\n</td></tr>\n<tr>\n<td colspan=\"14\">1名角色可以同时担任多个连续杀人事件的当事人\n</td></tr>\n<tr>\n<td rowspan=\"2\">恐怖袭击\n</td>\n<td colspan=\"14\">都市有1枚或以上[密谋]→位于都市的所有角色死亡\n</td></tr>\n<tr>\n<td colspan=\"14\">都市有2枚或以上[密谋]→主人公死亡\n</td></tr>\n<tr>\n<td rowspan=\"2\">医院事故\n</td>\n<td colspan=\"14\">医院有1枚或以上[密谋]→位于医院的所有角色死亡\n</td></tr>\n<tr>\n<td colspan=\"14\">医院有2枚或以上[密谋]→主人公死亡\n</td></tr>\n<tr>\n<td>自杀\n</td>\n<td colspan=\"14\">当事人死亡\n</td></tr>\n<tr>\n<td>不安扩散\n</td>\n<td colspan=\"14\">往任意1名角色身上放置2枚[不安]，随后往另外1名角色身上放置1枚[密谋]\n</td></tr>\n<tr>\n<td>前兆\n</td>\n<td colspan=\"14\">&lt;当事人不安限度-1&gt;往和当事人位于同一区域的1名角色身上放置1枚[不安]\n</td></tr>\n<tr>\n<td>猎奇杀人\n</td>\n<td colspan=\"14\">&lt;当事人不安限度+1&gt;&lt;Ex槽增加2&gt;按照「连续杀人」「不安扩散」的顺序结算事件\n</td></tr>\n<tr>\n<td rowspan=\"2\">伪装自杀\n</td>\n<td colspan=\"14\">往当事人身上设置1张Ex牌\n</td></tr>\n<tr>\n<td colspan=\"14\">本轮轮回剩余时间主人公将无法往放置了Ex牌的角色身上放置行动牌\n</td></tr>\n<tr>\n<td>可疑信件\n</td>\n<td colspan=\"14\">将和当事人位于同一区域的1名角色移动至任意版图，如果那名角色被移动至其它版图，则次日那名角色无法移动\n</td></tr>\n<tr>\n<td>封锁\n</td>\n<td colspan=\"14\">指定当事人所在版图，自事件发生日起算，3天内角色无法通过移动进入或离开该版图\n</td></tr>\n<tr>\n<td>银色子弹\n</td>\n<td colspan=\"14\">&lt;Ex槽不增加&gt;该阶段结束时，本轮轮回结束\n</td></tr></tbody></table>\n<!-- \nNewPP limit report\nCached time: 20260927032949\nCache expiry: 1209600\nReduced expiry: false\nComplications: []\nCPU time usage: 0.028 seconds\nReal time usage: 0.029 seconds\nPreprocessor visited node count: 1/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/100\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key 1.43.9_prod_zhtragedyrooper:pcache:idhash:262-0!sseVary=RegularPage!zh!FandomDesktop!LegacyGalleries and timestamp 20260927032949 and revision id 499. Rendering was triggered because: page-view\n -->\n",
+  "images": [],
+  "license": [
+    "https://www.fandom.com/zh/licensing-zh"
+  ],
+  "links": [],
+  "tables": [
+    [
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "MC"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "规则名"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "关\n\n键 人 物"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "杀\n\n手"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "主谋"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "投\n\n毒 者"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "愚\n\n者"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "传谣人"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "亲友"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "杀人狂"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "偏执狂"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "心理医生"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "侦探"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "强迫症"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "双胞胎"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "附加规则"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 5,
+          "text": "Y"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "谋杀计划"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "事件交织的罗网"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "【失败条件：轮回结束时】Ex槽为3或以上"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "命悬一线的计划"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "【失败条件：轮回结束时】Ex槽为1或以下"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "黑暗学园"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "【失败条件：轮回结束时】学校的[密谋]为X枚或以上（X=当前轮回数-1）（第一轮轮回必定失败）"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "士的宁毒液"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "【强制：常驻】判定「连续杀人」「自杀」是否发生时，[密谋]视作[不安]处理"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 7,
+          "text": "X"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "潜伏的杀人狂"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "隔离病房惊魂记"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "【强制：轮回开始时】上轮轮回结束时Ex槽为2或以下→Ex槽增加1"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "火药的味道"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "【失败条件：轮回结束时】所有生存角色身上的[不安]总数为12枚或以上"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "我是名侦探"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "愚者之舞"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "绝对意志"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "双子的诡计"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 21,
+          "text": "身\n\n份"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "限"
+        },
+        {
+          "colspan": 5,
+          "rowspan": 1,
+          "text": "身份特性"
+        },
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": ""
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "关键人物"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 5,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": "【强制：该角色死亡时】主人公失败，当前轮回立即结束"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "杀手"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 5,
+          "rowspan": 2,
+          "text": "无视友好"
+        },
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": "【任意能力：回合结束阶段】同一区域1名关键人物身上有2枚或以上[密谋]→那名关键人物死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": "【任意能力：回合结束阶段】该角色身上有4枚或以上[密谋]→主人公死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "主谋"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 5,
+          "rowspan": 1,
+          "text": "无视友好"
+        },
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": "【任意能力：剧作家能力阶段】往同一区域任意一名角色身上，或该角色所在的版图上放置1枚[密谋]"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "投毒者"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 5,
+          "rowspan": 2,
+          "text": "无视友好"
+        },
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": "【强制：回合结束阶段】Ex槽为2或以上→使同一区域的1名角色死亡（每轮限1次）"
+        }
+      ],
+      [
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": "【强制：回合结束阶段】Ex槽为4或以上→主人公死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "愚者"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "①"
+        },
+        {
+          "colspan": 5,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": "【强制：剧本制作时】必须成为某1个事件的当事人"
+        }
+      ],
+      [
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": "【强制：担任当事人的事件完成结算后】移除该卡牌上所有的[不安]"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "传谣人"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "①"
+        },
+        {
+          "colspan": 5,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": "【任意能力：剧作家能力阶段】往同一区域中任意1名角色身上放置1枚[不安]"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "亲友"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "②"
+        },
+        {
+          "colspan": 5,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": "【失败条件：轮回结束时】该卡牌为死亡状态，此时，需要告知主人公该卡牌的身份"
+        }
+      ],
+      [
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": "【强制：轮回开始时】该角色身份曾被公开→往该角色身上放置1枚[友好]"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "杀人狂"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 5,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": "【强制：回合结束阶段】仅有1名角色与该角色位于同一区域→那名角色死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "偏执狂"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 5,
+          "rowspan": 1,
+          "text": "必定无视友好"
+        },
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": "【任意能力：剧作家能力阶段】往该角色身上放置1枚[密谋]或[不安]"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "心理医生"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 5,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": "【强制：剧作家能力阶段】Ex槽为1或以上→移除同一区域中自身以外的1名角色身上的1枚[不安]"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "侦探"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 5,
+          "rowspan": 2,
+          "text": "不死"
+        },
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": "【强制：剧本制作时】不可以成为事件的当事人"
+        }
+      ],
+      [
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": "【强制：事件阶段】Ex槽为0→如果与当天事件的当事人（存活）处于同一区域，则事件必定发生"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "强迫症"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 5,
+          "rowspan": 2,
+          "text": "必定无视友好"
+        },
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": "【强制：剧本制作时】必须成为某1个事件的当事人"
+        }
+      ],
+      [
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": "【强制：事件阶段】当事人为该角色的事件必定会发生"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "双胞胎"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 5,
+          "rowspan": 2,
+          "text": ""
+        },
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": "【强制：剧本制作时】必须成为某1个事件的当事人"
+        }
+      ],
+      [
+        {
+          "colspan": 8,
+          "rowspan": 1,
+          "text": "【强制：结算该角色担任当事人的事件时】该角色视为位于本来所在位置对角线上的版图"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": ""
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 16,
+          "text": "事\n\n件"
+        },
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "事件名称"
+        },
+        {
+          "colspan": 14,
+          "rowspan": 1,
+          "text": "效果"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "连续杀人"
+        },
+        {
+          "colspan": 14,
+          "rowspan": 1,
+          "text": "与当事人位于同一区域的另外1名角色死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 14,
+          "rowspan": 1,
+          "text": "1名角色可以同时担任多个连续杀人事件的当事人"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "恐怖袭击"
+        },
+        {
+          "colspan": 14,
+          "rowspan": 1,
+          "text": "都市有1枚或以上[密谋]→位于都市的所有角色死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 14,
+          "rowspan": 1,
+          "text": "都市有2枚或以上[密谋]→主人公死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "医院事故"
+        },
+        {
+          "colspan": 14,
+          "rowspan": 1,
+          "text": "医院有1枚或以上[密谋]→位于医院的所有角色死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 14,
+          "rowspan": 1,
+          "text": "医院有2枚或以上[密谋]→主人公死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "自杀"
+        },
+        {
+          "colspan": 14,
+          "rowspan": 1,
+          "text": "当事人死亡"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "不安扩散"
+        },
+        {
+          "colspan": 14,
+          "rowspan": 1,
+          "text": "往任意1名角色身上放置2枚[不安]，随后往另外1名角色身上放置1枚[密谋]"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "前兆"
+        },
+        {
+          "colspan": 14,
+          "rowspan": 1,
+          "text": "<当事人不安限度-1>往和当事人位于同一区域的1名角色身上放置1枚[不安]"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "猎奇杀人"
+        },
+        {
+          "colspan": 14,
+          "rowspan": 1,
+          "text": "<当事人不安限度+1><Ex槽增加2>按照「连续杀人」「不安扩散」的顺序结算事件"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 2,
+          "text": "伪装自杀"
+        },
+        {
+          "colspan": 14,
+          "rowspan": 1,
+          "text": "往当事人身上设置1张Ex牌"
+        }
+      ],
+      [
+        {
+          "colspan": 14,
+          "rowspan": 1,
+          "text": "本轮轮回剩余时间主人公将无法往放置了Ex牌的角色身上放置行动牌"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "可疑信件"
+        },
+        {
+          "colspan": 14,
+          "rowspan": 1,
+          "text": "将和当事人位于同一区域的1名角色移动至任意版图，如果那名角色被移动至其它版图，则次日那名角色无法移动"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "封锁"
+        },
+        {
+          "colspan": 14,
+          "rowspan": 1,
+          "text": "指定当事人所在版图，自事件发生日起算，3天内角色无法通过移动进入或离开该版图"
+        }
+      ],
+      [
+        {
+          "colspan": 1,
+          "rowspan": 1,
+          "text": "银色子弹"
+        },
+        {
+          "colspan": 14,
+          "rowspan": 1,
+          "text": "<Ex槽不增加>该阶段结束时，本轮轮回结束"
+        }
+      ]
+    ]
+  ],
+  "text": "Mystery Circle有的模组特殊规则如下\n\n每当事件发生时，EX槽上升1，在每轮轮回开始时将EX槽清零\n\nMC\t规则名\t关\n\n键 人 物\n\n\t杀\n\n手\n\n\t主谋\t投\n\n毒 者\n\n\t愚\n\n者\n\n\t传谣人\t亲友\t杀人狂\t偏执狂\t心理医生\t侦探\t强迫症\t双胞胎\t附加规则\nY\t谋杀计划\t①\t①\t①\t\t\t\t\t\t\t\t\t\t\t\n事件交织的罗网\t\t\t\t\t①\t①\t\t\t\t\t\t\t\t【失败条件：轮回结束时】Ex槽为3或以上\n命悬一线的计划\t\t①\t①\t\t\t\t\t\t\t\t\t\t\t【失败条件：轮回结束时】Ex槽为1或以下\n黑暗学园\t\t\t①\t\t\t\t\t\t\t\t\t\t\t【失败条件：轮回结束时】学校的[密谋]为X枚或以上（X=当前轮回数-1）（第一轮轮回必定失败）\n士的宁毒液\t①\t\t\t①\t①\t\t\t\t\t\t\t\t\t【强制：常驻】判定「连续杀人」「自杀」是否发生时，[密谋]视作[不安]处理\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nX\t潜伏的杀人狂\t\t\t\t\t\t\t①\t①\t\t\t\t\t\t\n隔离病房惊魂记\t\t\t\t\t\t①\t\t\t①\t①\t\t\t\t【强制：轮回开始时】上轮轮回结束时Ex槽为2或以下→Ex槽增加1\n火药的味道\t\t\t\t\t\t\t\t①\t\t\t\t\t\t【失败条件：轮回结束时】所有生存角色身上的[不安]总数为12枚或以上\n我是名侦探\t\t\t\t\t\t①\t①\t\t\t\t①\t\t\t\n愚者之舞\t\t\t\t\t①\t\t①\t\t\t\t\t\t\t\n绝对意志\t\t\t\t\t\t\t\t\t\t\t\t①\t\t\n双子的诡计\t\t\t\t\t\t\t\t\t①\t\t\t\t①\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n身\n\n份\n\n\t\t限\t身份特性\t\n关键人物\t\t\t【强制：该角色死亡时】主人公失败，当前轮回立即结束\n杀手\t\t无视友好\t【任意能力：回合结束阶段】同一区域1名关键人物身上有2枚或以上[密谋]→那名关键人物死亡\n【任意能力：回合结束阶段】该角色身上有4枚或以上[密谋]→主人公死亡\n主谋\t\t无视友好\t【任意能力：剧作家能力阶段】往同一区域任意一名角色身上，或该角色所在的版图上放置1枚[密谋]\n投毒者\t\t无视友好\t【强制：回合结束阶段】Ex槽为2或以上→使同一区域的1名角色死亡（每轮限1次）\n【强制：回合结束阶段】Ex槽为4或以上→主人公死亡\n愚者\t①\t\t【强制：剧本制作时】必须成为某1个事件的当事人\n【强制：担任当事人的事件完成结算后】移除该卡牌上所有的[不安]\n传谣人\t①\t\t【任意能力：剧作家能力阶段】往同一区域中任意1名角色身上放置1枚[不安]\n亲友\t②\t\t【失败条件：轮回结束时】该卡牌为死亡状态，此时，需要告知主人公该卡牌的身份\n【强制：轮回开始时】该角色身份曾被公开→往该角色身上放置1枚[友好]\n杀人狂\t\t\t【强制：回合结束阶段】仅有1名角色与该角色位于同一区域→那名角色死亡\n偏执狂\t\t必定无视友好\t【任意能力：剧作家能力阶段】往该角色身上放置1枚[密谋]或[不安]\n心理医生\t\t\t【强制：剧作家能力阶段】Ex槽为1或以上→移除同一区域中自身以外的1名角色身上的1枚[不安]\n侦探\t\t不死\t【强制：剧本制作时】不可以成为事件的当事人\n【强制：事件阶段】Ex槽为0→如果与当天事件的当事人（存活）处于同一区域，则事件必定发生\n强迫症\t\t必定无视友好\t【强制：剧本制作时】必须成为某1个事件的当事人\n【强制：事件阶段】当事人为该角色的事件必定会发生\n双胞胎\t\t\t【强制：剧本制作时】必须成为某1个事件的当事人\n【强制：结算该角色担任当事人的事件时】该角色视为位于本来所在位置对角线上的版图\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n事\n\n件\n\n\t事件名称\t效果\n连续杀人\t与当事人位于同一区域的另外1名角色死亡\n1名角色可以同时担任多个连续杀人事件的当事人\n恐怖袭击\t都市有1枚或以上[密谋]→位于都市的所有角色死亡\n都市有2枚或以上[密谋]→主人公死亡\n医院事故\t医院有1枚或以上[密谋]→位于医院的所有角色死亡\n医院有2枚或以上[密谋]→主人公死亡\n自杀\t当事人死亡\n不安扩散\t往任意1名角色身上放置2枚[不安]，随后往另外1名角色身上放置1枚[密谋]\n前兆\t<当事人不安限度-1>往和当事人位于同一区域的1名角色身上放置1枚[不安]\n猎奇杀人\t<当事人不安限度+1><Ex槽增加2>按照「连续杀人」「不安扩散」的顺序结算事件\n伪装自杀\t往当事人身上设置1张Ex牌\n本轮轮回剩余时间主人公将无法往放置了Ex牌的角色身上放置行动牌\n可疑信件\t将和当事人位于同一区域的1名角色移动至任意版图，如果那名角色被移动至其它版图，则次日那名角色无法移动\n封锁\t指定当事人所在版图，自事件发生日起算，3天内角色无法通过移动进入或离开该版图\n银色子弹\t<Ex槽不增加>该阶段结束时，本轮轮回结束",
+  "title": "Mystery Circle",
+  "url": "https://tragedyrooper.fandom.com/zh/wiki/Mystery_Circle",
+  "status": "captured",
+  "requestedTitle": "Mystery Circle",
+  "fetchedAt": "2026-09-27T03:29:50.486Z",
+  "source": "wiki",
+  "id": "b21e3f528569eced"
+}

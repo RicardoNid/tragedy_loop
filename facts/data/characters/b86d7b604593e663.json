@@ -1,0 +1,247 @@
+{
+  "id": "b86d7b604593e663",
+  "title": "神灵",
+  "kind": "characters",
+  "scope": "",
+  "aliases": [
+    "神靈"
+  ],
+  "fields": {
+    "角色名": "神灵",
+    "初始区域": "神社",
+    "禁行区域": "无",
+    "不安限度": "3",
+    "属性": [
+      "男性",
+      "女性"
+    ],
+    "特性": "劇本製作時，指定該角色在第几轮轮回登場。在所指定的輪迴之前，該角色不会在轮回准备时配置上场。",
+    "友好能力": [
+      {
+        "text": "（友好3 1L1）公開1個事件的當事人。",
+        "threshold": 3,
+        "limitText": "1L1",
+        "oncePerLoop": true
+      },
+      {
+        "text": "（友好5）移除同一區域任意1名角色身上，或者该角色所在版图上的1枚密謀指示物。",
+        "threshold": 5,
+        "limitText": ""
+      }
+    ]
+  },
+  "provenance": {
+    "角色名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E7%A5%9E%E9%9D%88",
+      "snapshot": "sources/wiki/pages/eb2f04c87cbab5eb.json",
+      "capturedAt": "2026-09-27T03:33:58.846Z"
+    },
+    "初始区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E7%A5%9E%E9%9D%88",
+      "snapshot": "sources/wiki/pages/eb2f04c87cbab5eb.json",
+      "capturedAt": "2026-09-27T03:33:58.846Z"
+    },
+    "禁行区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E7%A5%9E%E9%9D%88",
+      "snapshot": "sources/wiki/pages/eb2f04c87cbab5eb.json",
+      "capturedAt": "2026-09-27T03:33:58.846Z"
+    },
+    "不安限度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E7%A5%9E%E9%9D%88",
+      "snapshot": "sources/wiki/pages/eb2f04c87cbab5eb.json",
+      "capturedAt": "2026-09-27T03:33:58.846Z"
+    },
+    "属性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E7%A5%9E%E9%9D%88",
+      "snapshot": "sources/wiki/pages/eb2f04c87cbab5eb.json",
+      "capturedAt": "2026-09-27T03:33:58.846Z"
+    },
+    "特性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E7%A5%9E%E9%9D%88",
+      "snapshot": "sources/wiki/pages/eb2f04c87cbab5eb.json",
+      "capturedAt": "2026-09-27T03:33:58.846Z"
+    },
+    "友好能力": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E7%A5%9E%E9%9D%88",
+      "snapshot": "sources/wiki/pages/eb2f04c87cbab5eb.json",
+      "capturedAt": "2026-09-27T03:33:58.846Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E7%A5%9E%E9%9D%88",
+      "snapshot": "sources/wiki/pages/eb2f04c87cbab5eb.json",
+      "capturedAt": "2026-09-27T03:33:58.846Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E7%A5%9E%E9%9D%88",
+        "snapshot": "sources/wiki/pages/eb2f04c87cbab5eb.json",
+        "capturedAt": "2026-09-27T03:33:58.846Z"
+      },
+      "fields": {
+        "角色名": "神灵",
+        "初始区域": "神社",
+        "禁行区域": "无",
+        "不安限度": "3",
+        "属性": [
+          "男性",
+          "女性"
+        ],
+        "特性": "劇本製作時，指定該角色在第几轮轮回登場。在所指定的輪迴之前，該角色不会在轮回准备时配置上场。",
+        "友好能力": [
+          {
+            "text": "（友好3 1L1）公開1個事件的當事人。",
+            "threshold": 3,
+            "limitText": "1L1",
+            "oncePerLoop": true
+          },
+          {
+            "text": "（友好5）移除同一區域任意1名角色身上，或者该角色所在版图上的1枚密謀指示物。",
+            "threshold": 5,
+            "limitText": ""
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "特性": "剧本制作时，指定该角色在第几轮轮回登场。在所指定的轮回之前，该角色不会在轮回准备时配置上场。",
+        "属性": [
+          "男性",
+          "女性"
+        ],
+        "初始区域": "神社",
+        "禁行区域": "否",
+        "不安限度": "3",
+        "友好能力": [
+          {
+            "text": "公开1个事件的当事人",
+            "threshold": "3",
+            "oncePerLoop": "是"
+          },
+          {
+            "text": "移除同一区域任意1名角色身上，或者该角色所在版图上的1枚密谋指示物",
+            "threshold": "5",
+            "oncePerLoop": ""
+          }
+        ]
+      }
+    }
+  ],
+  "body": "text/characters/b86d7b604593e663.txt",
+  "bodySource": {
+    "provider": "wiki",
+    "url": "https://tragedyrooper.fandom.com/zh/wiki/%E7%A5%9E%E9%9D%88",
+    "snapshot": "sources/wiki/pages/eb2f04c87cbab5eb.json",
+    "capturedAt": "2026-09-27T03:33:58.846Z"
+  },
+  "wikiTitle": "神靈",
+  "originalTables": [],
+  "wikiStatus": "captured",
+  "links": [
+    {
+      "title": "<img style=\"\" src=\"https://static.wikia.nocookie.net/tragedyrooper/images/9/9b/%E7%A5%9E%E7%81%B5.png/revision/latest/scale-to-width-down/137?cb=20251023162228&amp;path-prefix=zh\" title=\"神灵.png (268 KB)\" class=\"thumbimage\" alt=\"\" height=\"185\" width=\"185\" data-image-name=\"神灵.png\" data-image-key=\"%E7%A5%9E%E7%81%B5.png\" data-relevant=\"1\">",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E7%A5%9E%E7%81%B5.png"
+    }
+  ],
+  "images": [
+    {
+      "alt": "",
+      "src": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+    }
+  ],
+  "media": [
+    {
+      "title": "神灵.png",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:%E7%A5%9E%E7%81%B5.png",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/9/9b/%E7%A5%9E%E7%81%B5.png/revision/latest?cb=20251023162228&format=original&path-prefix=zh",
+      "path": "media/wiki/b532dbf3a57f7f2c.png",
+      "sourceRecord": "sources/wiki/files/b532dbf3a57f7f2c.json",
+      "sha256": "376c1e602dc8b1521ef747693c35445215827ad2568cfe192811b9d709771c1e",
+      "bytes": 274071,
+      "fileInfo": "PNG image data, 308 x 415, 8-bit/color RGBA, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/6fadb2d7054aeea7.json",
+  "tags": [
+    "男性",
+    "女性",
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "特性",
+      "selected": "劇本製作時，指定該角色在第几轮轮回登場。在所指定的輪迴之前，該角色不会在轮回准备时配置上场。",
+      "candidate": "剧本制作时，指定该角色在第几轮轮回登场。在所指定的轮回之前，该角色不会在轮回准备时配置上场。",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "禁行区域",
+      "selected": "无",
+      "candidate": "否",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "友好能力",
+      "selected": [
+        {
+          "text": "（友好3 1L1）公開1個事件的當事人。",
+          "threshold": 3,
+          "limitText": "1L1",
+          "oncePerLoop": true
+        },
+        {
+          "text": "（友好5）移除同一區域任意1名角色身上，或者该角色所在版图上的1枚密謀指示物。",
+          "threshold": 5,
+          "limitText": ""
+        }
+      ],
+      "candidate": [
+        {
+          "text": "公开1个事件的当事人",
+          "threshold": "3",
+          "oncePerLoop": "是"
+        },
+        {
+          "text": "移除同一区域任意1名角色身上，或者该角色所在版图上的1枚密谋指示物",
+          "threshold": "5",
+          "oncePerLoop": ""
+        }
+      ],
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    }
+  ]
+}

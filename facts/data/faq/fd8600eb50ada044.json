@@ -1,0 +1,67 @@
+{
+  "id": "fd8600eb50ada044",
+  "title": "版图被封锁之后，是不是像幻想友好能力这种也不能进出？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / MC / 第 23 行",
+  "aliases": [],
+  "fields": {
+    "question": "版图被封锁之后，是不是像幻想友好能力这种也不能进出？",
+    "answer": "是的，不能进出"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=mb92gf",
+      "snapshot": "sources/faq-sheet/mc.json",
+      "sheet": "MC",
+      "row": 23,
+      "cells": "A23:B23",
+      "capturedAt": "2026-09-27T05:40:05.008Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=mb92gf",
+      "snapshot": "sources/faq-sheet/mc.json",
+      "sheet": "MC",
+      "row": 23,
+      "cells": "A23:B23",
+      "capturedAt": "2026-09-27T05:40:05.008Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=mb92gf",
+      "snapshot": "sources/faq-sheet/mc.json",
+      "sheet": "MC",
+      "row": 23,
+      "cells": "A23:B23",
+      "capturedAt": "2026-09-27T05:40:05.008Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=mb92gf",
+        "snapshot": "sources/faq-sheet/mc.json",
+        "sheet": "MC",
+        "row": 23,
+        "cells": "A23:B23",
+        "capturedAt": "2026-09-27T05:40:05.008Z"
+      },
+      "fields": {
+        "question": "版图被封锁之后，是不是像幻想友好能力这种也不能进出？",
+        "answer": "是的，不能进出"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "MC",
+    "关于事件",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

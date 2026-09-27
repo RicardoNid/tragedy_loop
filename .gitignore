@@ -15,6 +15,9 @@ test-results/
 
 # Local archive of environments, source clones and previous run evidence
 /archive/local-only/
+/.sources/
+/.local-imports/
+/runtime/
 
 # Local credentials and machine files
 .env
@@ -22,19 +25,35 @@ test-results/
 !.env.example
 .DS_Store
 
-# Preserve pre-existing source-material ignore rules
-*.pdf
-facts/source_material/scans/*
-!facts/source_material/scans/.gitkeep
-facts/source_material/**/*.png
-facts/source_material/**/*.jpg
-facts/source_material/**/*.jpeg
-facts/source_material/**/*.webp
-facts/source_material/**/*.tif
-facts/source_material/**/*.tiff
+# Tool caches and local test output
+.pnpm-store/
+.vite/
+.mypy_cache/
+.tox/
+.nox/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+*.log
+*.pid
+*.pid.lock
 
-# Local runtime and import directories
-runtime/
-.sources/
-.local-imports/
-*$py.class
+# Private browser state and credentials (never needed by the static reader)
+.auth/
+playwright/.auth/
+cookies.txt
+cookies.json
+storage-state.json
+storageState.json
+*.pem
+*.key
+
+# Editor and OS temporary files
+*.swp
+*.swo
+*~
+Thumbs.db
+
+# facts/{assets,data,text,media,sources} are deliverables: commit them normally.
+# Do not ignore images by extension or provider; no Git LFS is needed currently.

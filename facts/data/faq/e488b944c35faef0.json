@@ -1,0 +1,67 @@
+{
+  "id": "e488b944c35faef0",
+  "title": "从者与特性对象在同一区域，特性对象因为事件或角色能力进行移动，也要进行跟随吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 角色 / 第 112 行",
+  "aliases": [],
+  "fields": {
+    "question": "从者与特性对象在同一区域，特性对象因为事件或角色能力进行移动，也要进行跟随吗？",
+    "answer": "是"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 112,
+      "cells": "A112:B112",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 112,
+      "cells": "A112:B112",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 112,
+      "cells": "A112:B112",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+        "snapshot": "sources/faq-sheet/characters.json",
+        "sheet": "角色",
+        "row": 112,
+        "cells": "A112:B112",
+        "capturedAt": "2026-09-27T05:39:49.068Z"
+      },
+      "fields": {
+        "question": "从者与特性对象在同一区域，特性对象因为事件或角色能力进行移动，也要进行跟随吗？",
+        "answer": "是"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "角色",
+    "关于从者",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

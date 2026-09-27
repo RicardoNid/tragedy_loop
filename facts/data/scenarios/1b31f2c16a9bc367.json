@@ -1,0 +1,410 @@
+{
+  "id": "1b31f2c16a9bc367",
+  "title": "AHR-08",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "AHR-08非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "AHR-08",
+    "loops": 6,
+    "days": 2,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "次元歪曲"
+      },
+      {
+        "day": 2,
+        "incidentText": "空想事件"
+      }
+    ],
+    "剧本名": "幻笛声中的空想少女",
+    "作者": "α聆弦",
+    "轮数": "6",
+    "天数": "2"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-08",
+      "snapshot": "sources/wiki/pages/a68f2e960feb3da2.json",
+      "capturedAt": "2026-09-27T03:40:07.336Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-08",
+      "snapshot": "sources/wiki/pages/a68f2e960feb3da2.json",
+      "capturedAt": "2026-09-27T03:40:07.336Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-08",
+      "snapshot": "sources/wiki/pages/a68f2e960feb3da2.json",
+      "capturedAt": "2026-09-27T03:40:07.336Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-08",
+      "snapshot": "sources/wiki/pages/a68f2e960feb3da2.json",
+      "capturedAt": "2026-09-27T03:40:07.336Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-08",
+      "snapshot": "sources/wiki/pages/a68f2e960feb3da2.json",
+      "capturedAt": "2026-09-27T03:40:07.336Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 9
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 9
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 9
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 9
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-08",
+      "snapshot": "sources/wiki/pages/a68f2e960feb3da2.json",
+      "capturedAt": "2026-09-27T03:40:07.336Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 9
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-08%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/72cd3c6cb48186a4.json",
+      "capturedAt": "2026-09-27T03:40:10.138Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-08",
+        "snapshot": "sources/wiki/pages/a68f2e960feb3da2.json",
+        "capturedAt": "2026-09-27T03:40:07.336Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "AHR-08",
+        "loops": 6,
+        "days": 2,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "次元歪曲"
+          },
+          {
+            "day": 2,
+            "incidentText": "空想事件"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 7,
+        "row": 9
+      },
+      "fields": {
+        "scenarioCode": "AHR-08",
+        "剧本名": "幻笛声中的空想少女",
+        "作者": "α聆弦",
+        "轮数": "6",
+        "天数": "2"
+      }
+    }
+  ],
+  "wikiTitle": "AHR-08",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Another Horizon Revised"
+  ],
+  "module": "Another Horizon Revised",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "1b31f2c16a9bc367",
+        "title": "AHR-08",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "AHR-08",
+          "loops": 6,
+          "days": 2,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "次元歪曲"
+            },
+            {
+              "day": 2,
+              "incidentText": "空想事件"
+            }
+          ],
+          "剧本名": "幻笛声中的空想少女",
+          "作者": "α聆弦",
+          "轮数": "6",
+          "天数": "2"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-08",
+            "snapshot": "sources/wiki/pages/a68f2e960feb3da2.json",
+            "capturedAt": "2026-09-27T03:40:07.336Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-08",
+            "snapshot": "sources/wiki/pages/a68f2e960feb3da2.json",
+            "capturedAt": "2026-09-27T03:40:07.336Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-08",
+            "snapshot": "sources/wiki/pages/a68f2e960feb3da2.json",
+            "capturedAt": "2026-09-27T03:40:07.336Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-08",
+            "snapshot": "sources/wiki/pages/a68f2e960feb3da2.json",
+            "capturedAt": "2026-09-27T03:40:07.336Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-08",
+            "snapshot": "sources/wiki/pages/a68f2e960feb3da2.json",
+            "capturedAt": "2026-09-27T03:40:07.336Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 9
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 9
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 9
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 9
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-08",
+            "snapshot": "sources/wiki/pages/a68f2e960feb3da2.json",
+            "capturedAt": "2026-09-27T03:40:07.336Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 9
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-08",
+              "snapshot": "sources/wiki/pages/a68f2e960feb3da2.json",
+              "capturedAt": "2026-09-27T03:40:07.336Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "AHR-08",
+              "loops": 6,
+              "days": 2,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "次元歪曲"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "空想事件"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 7,
+              "row": 9
+            },
+            "fields": {
+              "scenarioCode": "AHR-08",
+              "剧本名": "幻笛声中的空想少女",
+              "作者": "α聆弦",
+              "轮数": "6",
+              "天数": "2"
+            }
+          }
+        ],
+        "body": "text/scenarios/1b31f2c16a9bc367.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-08",
+          "snapshot": "sources/wiki/pages/a68f2e960feb3da2.json",
+          "capturedAt": "2026-09-27T03:40:07.336Z"
+        },
+        "wikiTitle": "AHR-08",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "AHR-08非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-08%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-08?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Another Horizon Revised"
+        ],
+        "module": "Another Horizon Revised"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "d05feacf8f5de0b2",
+        "title": "AHR-08非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "AHR-08"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-08%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/72cd3c6cb48186a4.json",
+            "capturedAt": "2026-09-27T03:40:10.138Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-08%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/72cd3c6cb48186a4.json",
+            "capturedAt": "2026-09-27T03:40:10.138Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-08%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/72cd3c6cb48186a4.json",
+            "capturedAt": "2026-09-27T03:40:10.138Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-08%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/72cd3c6cb48186a4.json",
+              "capturedAt": "2026-09-27T03:40:10.138Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "AHR-08"
+            }
+          }
+        ],
+        "wikiTitle": "AHR-08非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Another Horizon Revised",
+        "tags": [
+          "民间",
+          "Another Horizon Revised"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "d05feacf8f5de0b2"
+  ],
+  "conflicts": []
+}

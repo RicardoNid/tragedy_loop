@@ -1,0 +1,67 @@
+{
+  "id": "c135bc7c37b2462b",
+  "title": "幻想是时间旅者，在幻想所在版图放置了友好禁止和友好+1，友好禁止生效吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 角色 / 第 85 行",
+  "aliases": [],
+  "fields": {
+    "question": "幻想是时间旅者，在幻想所在版图放置了友好禁止和友好+1，友好禁止生效吗？",
+    "answer": "生效，友好禁止没有放置在幻想上。"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 85,
+      "cells": "A85:B85",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 85,
+      "cells": "A85:B85",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 85,
+      "cells": "A85:B85",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+        "snapshot": "sources/faq-sheet/characters.json",
+        "sheet": "角色",
+        "row": 85,
+        "cells": "A85:B85",
+        "capturedAt": "2026-09-27T05:39:49.068Z"
+      },
+      "fields": {
+        "question": "幻想是时间旅者，在幻想所在版图放置了友好禁止和友好+1，友好禁止生效吗？",
+        "answer": "生效，友好禁止没有放置在幻想上。"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "角色",
+    "关于幻想",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

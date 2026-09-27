@@ -1,0 +1,82 @@
+{
+  "id": "ee34aaaaeaf2dfd7",
+  "title": "胆小鬼",
+  "kind": "identities",
+  "scope": "Haunted Stage Again",
+  "aliases": [],
+  "fields": {
+    "max": "",
+    "traits": "",
+    "abilities": [
+      "【强制：剧作家能力阶段】该角色身上有2枚或以上的[不安]→选择1块相邻版图，将该角色移动至那块版图"
+    ]
+  },
+  "provenance": {
+    "max": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage_Again",
+      "snapshot": "sources/wiki/pages/da682a376d9880ab.json",
+      "capturedAt": "2026-09-27T03:29:42.114Z"
+    },
+    "traits": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage_Again",
+      "snapshot": "sources/wiki/pages/da682a376d9880ab.json",
+      "capturedAt": "2026-09-27T03:29:42.114Z"
+    },
+    "abilities": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage_Again",
+      "snapshot": "sources/wiki/pages/da682a376d9880ab.json",
+      "capturedAt": "2026-09-27T03:29:42.114Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage_Again",
+      "snapshot": "sources/wiki/pages/da682a376d9880ab.json",
+      "capturedAt": "2026-09-27T03:29:42.114Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage_Again",
+        "snapshot": "sources/wiki/pages/da682a376d9880ab.json",
+        "capturedAt": "2026-09-27T03:29:42.114Z"
+      },
+      "fields": {
+        "max": "",
+        "traits": "",
+        "abilities": [
+          "【强制：剧作家能力阶段】该角色身上有2枚或以上的[不安]→选择1块相邻版图，将该角色移动至那块版图"
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "max": "",
+        "traits": "",
+        "abilities": [
+          "【强制：剧作家能力阶段】该角色身上有2枚或以上的[不安]→选择1块相邻版图，将该角色移动至那块版图"
+        ]
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "官方"
+  ],
+  "conflicts": []
+}

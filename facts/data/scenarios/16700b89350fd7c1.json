@@ -1,0 +1,216 @@
+{
+  "id": "16700b89350fd7c1",
+  "title": "MZ-04G",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "scenarioCode": "MZ-04G",
+    "剧本名": "女忍血雨腥风隐行贴",
+    "日文名": "くノ一血風隠行帖",
+    "作者": "十六夜",
+    "轮数": "5 4",
+    "天数": "6",
+    "难度": "4 6"
+  },
+  "provenance": {
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+      "table": 3,
+      "row": 5
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+      "table": 3,
+      "row": 5
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+      "table": 3,
+      "row": 5
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+      "table": 3,
+      "row": 5
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+      "table": 3,
+      "row": 5
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+      "table": 3,
+      "row": 5
+    },
+    "难度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+      "table": 3,
+      "row": 5
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+      "table": 3,
+      "row": 5
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+        "table": 3,
+        "row": 5
+      },
+      "fields": {
+        "scenarioCode": "MZ-04G",
+        "剧本名": "女忍血雨腥风隐行贴",
+        "日文名": "くノ一血風隠行帖",
+        "作者": "十六夜",
+        "轮数": "5 4",
+        "天数": "6",
+        "难度": "4 6"
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/6734a0d13f91359e.json",
+  "tags": [
+    "官方剧本",
+    "官方",
+    "Midnight Zone"
+  ],
+  "module": "Midnight Zone",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "16700b89350fd7c1",
+        "title": "MZ-04G",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "scenarioCode": "MZ-04G",
+          "剧本名": "女忍血雨腥风隐行贴",
+          "日文名": "くノ一血風隠行帖",
+          "作者": "十六夜",
+          "轮数": "5 4",
+          "天数": "6",
+          "难度": "4 6"
+        },
+        "provenance": {
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+            "table": 3,
+            "row": 5
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+            "table": 3,
+            "row": 5
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+            "table": 3,
+            "row": 5
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+            "table": 3,
+            "row": 5
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+            "table": 3,
+            "row": 5
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+            "table": 3,
+            "row": 5
+          },
+          "难度": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+            "table": 3,
+            "row": 5
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+            "table": 3,
+            "row": 5
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+              "table": 3,
+              "row": 5
+            },
+            "fields": {
+              "scenarioCode": "MZ-04G",
+              "剧本名": "女忍血雨腥风隐行贴",
+              "日文名": "くノ一血風隠行帖",
+              "作者": "十六夜",
+              "轮数": "5 4",
+              "天数": "6",
+              "难度": "4 6"
+            }
+          }
+        ],
+        "authority": "官方",
+        "classificationSource": "sources/wiki/pages/6734a0d13f91359e.json",
+        "tags": [
+          "官方剧本",
+          "官方",
+          "Midnight Zone"
+        ],
+        "module": "Midnight Zone"
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [],
+  "conflicts": []
+}

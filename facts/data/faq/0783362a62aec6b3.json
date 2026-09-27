@@ -1,0 +1,60 @@
+{
+  "id": "0783362a62aec6b3",
+  "title": "求愛者帶有1枚絕望指示物、2枚不安指示物，能夠使用其能力嗎？",
+  "kind": "faq",
+  "scope": "纸质 FAQ / 十周年 / Q14",
+  "aliases": [],
+  "fields": {
+    "question": "求愛者帶有1枚絕望指示物、2枚不安指示物，能夠使用其能力嗎？",
+    "answer": "可以。計算密謀指示物、不安指示物的量時，都可以分別將絕望指示物代入計算。類似的例子還有祭品。"
+  },
+  "provenance": {
+    "question": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/5e4d811055e32254199f84835b012043.jpg",
+      "snapshot": "sources/paper-faq/anniversary.json",
+      "page": 11,
+      "questionNumber": 14
+    },
+    "answer": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/5e4d811055e32254199f84835b012043.jpg",
+      "snapshot": "sources/paper-faq/anniversary.json",
+      "page": 11,
+      "questionNumber": 14
+    }
+  },
+  "sources": [
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/5e4d811055e32254199f84835b012043.jpg",
+      "snapshot": "sources/paper-faq/anniversary.json",
+      "page": 11,
+      "questionNumber": 14
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/5e4d811055e32254199f84835b012043.jpg",
+        "snapshot": "sources/paper-faq/anniversary.json",
+        "page": 11,
+        "questionNumber": 14
+      },
+      "fields": {
+        "question": "求愛者帶有1枚絕望指示物、2枚不安指示物，能夠使用其能力嗎？",
+        "answer": "可以。計算密謀指示物、不安指示物的量時，都可以分別將絕望指示物代入計算。類似的例子還有祭品。"
+      }
+    }
+  ],
+  "tags": [
+    "十周年",
+    "纸质 FAQ",
+    "希望与绝望",
+    "官方"
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/lunhui/5e4d811055e32254199f84835b012043.jpg",
+  "conflicts": []
+}

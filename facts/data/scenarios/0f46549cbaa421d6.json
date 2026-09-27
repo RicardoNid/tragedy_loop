@@ -1,0 +1,464 @@
+{
+  "id": "0f46549cbaa421d6",
+  "title": "BTX-46",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "BTX-46非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "BTX-46",
+    "loops": 7,
+    "days": 2,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "散播"
+      },
+      {
+        "day": 2,
+        "incidentText": "失踪"
+      }
+    ],
+    "剧本名": "准备万端",
+    "作者": "Choconut",
+    "轮数": "7",
+    "天数": "2"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-46",
+      "snapshot": "sources/wiki/pages/ae750256eaf2d698.json",
+      "capturedAt": "2026-09-27T04:05:07.541Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-46",
+      "snapshot": "sources/wiki/pages/ae750256eaf2d698.json",
+      "capturedAt": "2026-09-27T04:05:07.541Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-46",
+      "snapshot": "sources/wiki/pages/ae750256eaf2d698.json",
+      "capturedAt": "2026-09-27T04:05:07.541Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-46",
+      "snapshot": "sources/wiki/pages/ae750256eaf2d698.json",
+      "capturedAt": "2026-09-27T04:05:07.541Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-46",
+      "snapshot": "sources/wiki/pages/ae750256eaf2d698.json",
+      "capturedAt": "2026-09-27T04:05:07.541Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 47
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 47
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 47
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 47
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-46",
+      "snapshot": "sources/wiki/pages/ae750256eaf2d698.json",
+      "capturedAt": "2026-09-27T04:05:07.541Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 2,
+      "row": 47
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-46%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/9a7a6e00dfbb4efd.json",
+      "capturedAt": "2026-09-27T04:05:10.460Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-46",
+        "snapshot": "sources/wiki/pages/ae750256eaf2d698.json",
+        "capturedAt": "2026-09-27T04:05:07.541Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "BTX-46",
+        "loops": 7,
+        "days": 2,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "散播"
+          },
+          {
+            "day": 2,
+            "incidentText": "失踪"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 2,
+        "row": 47
+      },
+      "fields": {
+        "scenarioCode": "BTX-46",
+        "剧本名": "准备万端",
+        "作者": "Choconut",
+        "轮数": "7",
+        "天数": "2"
+      }
+    }
+  ],
+  "wikiTitle": "BTX-46",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Basic Tragedy X"
+  ],
+  "module": "Basic Tragedy X",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "0f46549cbaa421d6",
+        "title": "BTX-46",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "BTX-46",
+          "loops": 7,
+          "days": 2,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "散播"
+            },
+            {
+              "day": 2,
+              "incidentText": "失踪"
+            }
+          ],
+          "剧本名": "准备万端",
+          "作者": "Choconut",
+          "轮数": "7",
+          "天数": "2"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-46",
+            "snapshot": "sources/wiki/pages/ae750256eaf2d698.json",
+            "capturedAt": "2026-09-27T04:05:07.541Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-46",
+            "snapshot": "sources/wiki/pages/ae750256eaf2d698.json",
+            "capturedAt": "2026-09-27T04:05:07.541Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-46",
+            "snapshot": "sources/wiki/pages/ae750256eaf2d698.json",
+            "capturedAt": "2026-09-27T04:05:07.541Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-46",
+            "snapshot": "sources/wiki/pages/ae750256eaf2d698.json",
+            "capturedAt": "2026-09-27T04:05:07.541Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-46",
+            "snapshot": "sources/wiki/pages/ae750256eaf2d698.json",
+            "capturedAt": "2026-09-27T04:05:07.541Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 47
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 47
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 47
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 47
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-46",
+            "snapshot": "sources/wiki/pages/ae750256eaf2d698.json",
+            "capturedAt": "2026-09-27T04:05:07.541Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 2,
+            "row": 47
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-46",
+              "snapshot": "sources/wiki/pages/ae750256eaf2d698.json",
+              "capturedAt": "2026-09-27T04:05:07.541Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "BTX-46",
+              "loops": 7,
+              "days": 2,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "散播"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "失踪"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 2,
+              "row": 47
+            },
+            "fields": {
+              "scenarioCode": "BTX-46",
+              "剧本名": "准备万端",
+              "作者": "Choconut",
+              "轮数": "7",
+              "天数": "2"
+            }
+          }
+        ],
+        "body": "text/scenarios/0f46549cbaa421d6.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-46",
+          "snapshot": "sources/wiki/pages/ae750256eaf2d698.json",
+          "capturedAt": "2026-09-27T04:05:07.541Z"
+        },
+        "wikiTitle": "BTX-46",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-46?action=edit&section=1"
+          },
+          {
+            "title": "BTX-46非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-46%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-46?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Basic Tragedy X"
+        ],
+        "module": "Basic Tragedy X"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "e854b30d751277a2",
+        "title": "BTX-46非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "BTX-46",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "改变未来"
+            },
+            {
+              "slot": "X1",
+              "name": "因果线"
+            },
+            {
+              "slot": "X2",
+              "name": "未知因子X"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-46%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/9a7a6e00dfbb4efd.json",
+            "capturedAt": "2026-09-27T04:05:10.460Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-46%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/9a7a6e00dfbb4efd.json",
+            "capturedAt": "2026-09-27T04:05:10.460Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-46%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/9a7a6e00dfbb4efd.json",
+            "capturedAt": "2026-09-27T04:05:10.460Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-46%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/9a7a6e00dfbb4efd.json",
+            "capturedAt": "2026-09-27T04:05:10.460Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-46%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/9a7a6e00dfbb4efd.json",
+              "capturedAt": "2026-09-27T04:05:10.460Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "BTX-46",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "改变未来"
+                },
+                {
+                  "slot": "X1",
+                  "name": "因果线"
+                },
+                {
+                  "slot": "X2",
+                  "name": "未知因子X"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/e854b30d751277a2.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-46%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/9a7a6e00dfbb4efd.json",
+          "capturedAt": "2026-09-27T04:05:10.460Z"
+        },
+        "wikiTitle": "BTX-46非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-46%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/BTX-46%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Basic Tragedy X",
+        "tags": [
+          "民间",
+          "Basic Tragedy X"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "e854b30d751277a2"
+  ],
+  "conflicts": []
+}

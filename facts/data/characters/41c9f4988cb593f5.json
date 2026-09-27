@@ -1,0 +1,205 @@
+{
+  "id": "41c9f4988cb593f5",
+  "title": "情报商",
+  "kind": "characters",
+  "scope": "",
+  "aliases": [
+    "情報商"
+  ],
+  "fields": {
+    "角色名": "情报商",
+    "初始区域": "都市",
+    "禁行区域": "无",
+    "不安限度": "3",
+    "属性": [
+      "女性",
+      "成人"
+    ],
+    "友好能力": [
+      {
+        "text": "（友好5 1L1）聲明1條規則X的名稱。劇作家從當前剧本所选用的規則X中，公開1条主人公未聲明的規則X。",
+        "threshold": 5,
+        "limitText": "1L1",
+        "oncePerLoop": true
+      }
+    ]
+  },
+  "provenance": {
+    "角色名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%83%85%E5%A0%B1%E5%95%86",
+      "snapshot": "sources/wiki/pages/31f316c77f6c5900.json",
+      "capturedAt": "2026-09-27T03:32:49.676Z"
+    },
+    "初始区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%83%85%E5%A0%B1%E5%95%86",
+      "snapshot": "sources/wiki/pages/31f316c77f6c5900.json",
+      "capturedAt": "2026-09-27T03:32:49.676Z"
+    },
+    "禁行区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%83%85%E5%A0%B1%E5%95%86",
+      "snapshot": "sources/wiki/pages/31f316c77f6c5900.json",
+      "capturedAt": "2026-09-27T03:32:49.676Z"
+    },
+    "不安限度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%83%85%E5%A0%B1%E5%95%86",
+      "snapshot": "sources/wiki/pages/31f316c77f6c5900.json",
+      "capturedAt": "2026-09-27T03:32:49.676Z"
+    },
+    "属性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%83%85%E5%A0%B1%E5%95%86",
+      "snapshot": "sources/wiki/pages/31f316c77f6c5900.json",
+      "capturedAt": "2026-09-27T03:32:49.676Z"
+    },
+    "友好能力": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%83%85%E5%A0%B1%E5%95%86",
+      "snapshot": "sources/wiki/pages/31f316c77f6c5900.json",
+      "capturedAt": "2026-09-27T03:32:49.676Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%83%85%E5%A0%B1%E5%95%86",
+      "snapshot": "sources/wiki/pages/31f316c77f6c5900.json",
+      "capturedAt": "2026-09-27T03:32:49.676Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%83%85%E5%A0%B1%E5%95%86",
+        "snapshot": "sources/wiki/pages/31f316c77f6c5900.json",
+        "capturedAt": "2026-09-27T03:32:49.676Z"
+      },
+      "fields": {
+        "角色名": "情报商",
+        "初始区域": "都市",
+        "禁行区域": "无",
+        "不安限度": "3",
+        "属性": [
+          "女性",
+          "成人"
+        ],
+        "友好能力": [
+          {
+            "text": "（友好5 1L1）聲明1條規則X的名稱。劇作家從當前剧本所选用的規則X中，公開1条主人公未聲明的規則X。",
+            "threshold": 5,
+            "limitText": "1L1",
+            "oncePerLoop": true
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "特性": "",
+        "属性": [
+          "女性",
+          "成人"
+        ],
+        "初始区域": "都市",
+        "禁行区域": "否",
+        "不安限度": "3",
+        "友好能力": [
+          {
+            "text": "声明1条规则X的名称。剧作家从当前剧本所选用的规则X中，公开1条主人公未声明的规则X。",
+            "threshold": "5",
+            "oncePerLoop": "是"
+          }
+        ]
+      }
+    }
+  ],
+  "body": "text/characters/41c9f4988cb593f5.txt",
+  "bodySource": {
+    "provider": "wiki",
+    "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%83%85%E5%A0%B1%E5%95%86",
+    "snapshot": "sources/wiki/pages/31f316c77f6c5900.json",
+    "capturedAt": "2026-09-27T03:32:49.676Z"
+  },
+  "wikiTitle": "情報商",
+  "originalTables": [],
+  "wikiStatus": "captured",
+  "links": [
+    {
+      "title": "<img style=\"\" src=\"https://static.wikia.nocookie.net/tragedyrooper/images/a/ab/%E6%83%85%E6%8A%A5%E5%95%86.png/revision/latest/scale-to-width-down/133?cb=20251023162228&amp;path-prefix=zh\" title=\"情报商.png (239 KB)\" class=\"thumbimage\" alt=\"\" height=\"185\" width=\"185\" data-image-name=\"情报商.png\" data-image-key=\"%E6%83%85%E6%8A%A5%E5%95%86.png\" data-relevant=\"1\">",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E6%83%85%E6%8A%A5%E5%95%86.png"
+    }
+  ],
+  "images": [
+    {
+      "alt": "",
+      "src": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+    }
+  ],
+  "media": [
+    {
+      "title": "情报商.png",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:%E6%83%85%E6%8A%A5%E5%95%86.png",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/a/ab/%E6%83%85%E6%8A%A5%E5%95%86.png/revision/latest?cb=20251023162228&format=original&path-prefix=zh",
+      "path": "media/wiki/d9a21d3cbf64cb39.png",
+      "sourceRecord": "sources/wiki/files/d9a21d3cbf64cb39.json",
+      "sha256": "24904133ffe3e118f17df20c6f2bc27f33a4cb438aa6cf88e8bbd9cdb31a64de",
+      "bytes": 244618,
+      "fileInfo": "PNG image data, 304 x 423, 8-bit/color RGBA, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/6fadb2d7054aeea7.json",
+  "tags": [
+    "女性",
+    "成人",
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "禁行区域",
+      "selected": "无",
+      "candidate": "否",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "友好能力",
+      "selected": [
+        {
+          "text": "（友好5 1L1）聲明1條規則X的名稱。劇作家從當前剧本所选用的規則X中，公開1条主人公未聲明的規則X。",
+          "threshold": 5,
+          "limitText": "1L1",
+          "oncePerLoop": true
+        }
+      ],
+      "candidate": [
+        {
+          "text": "声明1条规则X的名称。剧作家从当前剧本所选用的规则X中，公开1条主人公未声明的规则X。",
+          "threshold": "5",
+          "oncePerLoop": "是"
+        }
+      ],
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    }
+  ]
+}

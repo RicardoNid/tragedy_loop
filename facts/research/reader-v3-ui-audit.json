@@ -1,0 +1,111 @@
+{
+  "rules": {
+    "order": [
+      "FS",
+      "BTX",
+      "BTX+",
+      "MZ",
+      "MC",
+      "HSA",
+      "WM",
+      "AHR",
+      "LL",
+      "BT",
+      "HS",
+      "AH",
+      "OF",
+      "ST",
+      "UM",
+      "SC",
+      "ELA"
+    ],
+    "selected": [
+      "FS"
+    ],
+    "selectMenus": 0
+  },
+  "identities": {
+    "order": [
+      "FS",
+      "BTX",
+      "BTX+",
+      "MZ",
+      "MC",
+      "HSA",
+      "WM",
+      "AHR",
+      "LL",
+      "BT",
+      "HS",
+      "AH",
+      "OF",
+      "ST",
+      "UM",
+      "SC",
+      "ELA"
+    ],
+    "selected": [
+      "FS"
+    ],
+    "selectMenus": 0
+  },
+  "incidents": {
+    "order": [
+      "FS",
+      "BTX",
+      "BTX+",
+      "MZ",
+      "MC",
+      "HSA",
+      "WM",
+      "AHR",
+      "LL",
+      "BT",
+      "HS",
+      "AH",
+      "OF",
+      "ST",
+      "UM",
+      "SC",
+      "ELA"
+    ],
+    "selected": [
+      "FS"
+    ],
+    "selectMenus": 0
+  },
+  "scenarios": {
+    "order": [
+      "FS",
+      "BTX",
+      "BTX+",
+      "MZ",
+      "MZ+",
+      "MC",
+      "MC+",
+      "HSA",
+      "HSA+",
+      "WM",
+      "WM+",
+      "AHR",
+      "LL",
+      "HS",
+      "AH",
+      "UM",
+      "SC",
+      "特殊"
+    ],
+    "selected": [
+      "FS"
+    ],
+    "selectMenus": 0
+  },
+  "oldSecretLink": {
+    "canonicalURL": "http://127.0.0.1:5188/facts/#entry=b7094eff3ba72592",
+    "secretCollapsed": true
+  },
+  "faq": {
+    "questions": 479,
+    "answers": 479
+  }
+}

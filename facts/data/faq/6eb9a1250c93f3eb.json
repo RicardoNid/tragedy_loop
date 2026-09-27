@@ -1,0 +1,67 @@
+{
+  "id": "6eb9a1250c93f3eb",
+  "title": "友好无视要怎么用？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 基础规则 / 第 49 行",
+  "aliases": [],
+  "fields": {
+    "question": "友好无视要怎么用？",
+    "answer": "在主人公声明完能力的发动之后决定是否拒绝，或必须拒绝（如果是必定友好无视）"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+      "snapshot": "sources/faq-sheet/basic.json",
+      "sheet": "基础规则",
+      "row": 49,
+      "cells": "A49:B49",
+      "capturedAt": "2026-09-27T05:40:57.223Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+      "snapshot": "sources/faq-sheet/basic.json",
+      "sheet": "基础规则",
+      "row": 49,
+      "cells": "A49:B49",
+      "capturedAt": "2026-09-27T05:40:57.223Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+      "snapshot": "sources/faq-sheet/basic.json",
+      "sheet": "基础规则",
+      "row": 49,
+      "cells": "A49:B49",
+      "capturedAt": "2026-09-27T05:40:57.223Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+        "snapshot": "sources/faq-sheet/basic.json",
+        "sheet": "基础规则",
+        "row": 49,
+        "cells": "A49:B49",
+        "capturedAt": "2026-09-27T05:40:57.223Z"
+      },
+      "fields": {
+        "question": "友好无视要怎么用？",
+        "answer": "在主人公声明完能力的发动之后决定是否拒绝，或必须拒绝（如果是必定友好无视）"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "基础规则",
+    "主人公能力",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

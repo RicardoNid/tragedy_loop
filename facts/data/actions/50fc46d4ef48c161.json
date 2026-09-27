@@ -1,0 +1,55 @@
+{
+  "id": "50fc46d4ef48c161",
+  "title": "竖向移动",
+  "kind": "actions",
+  "scope": "剧作家手牌",
+  "aliases": [],
+  "fields": {
+    "effect": "移动到竖向的相邻版图",
+    "count": "1",
+    "oncePerLoop": "否"
+  },
+  "provenance": {
+    "effect": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    },
+    "count": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    },
+    "oncePerLoop": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  },
+  "sources": [
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "effect": "移动到竖向的相邻版图",
+        "count": "1",
+        "oncePerLoop": "否"
+      }
+    }
+  ],
+  "actionSide": "剧作家",
+  "availability": [],
+  "baseAction": true,
+  "authority": "官方",
+  "tags": [
+    "基础行动牌",
+    "剧作家",
+    "官方"
+  ],
+  "conflicts": []
+}

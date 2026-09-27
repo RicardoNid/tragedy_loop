@@ -1,0 +1,60 @@
+{
+  "id": "ed38b203af64bb96",
+  "title": "Ex槽為1或以上時，使用了愛麗絲的友好能力，但是同一區域沒有任何人。次日又用了愛麗絲的友好能力，該怎麼處理？",
+  "kind": "faq",
+  "scope": "纸质 FAQ / AHR / Q20",
+  "aliases": [],
+  "fields": {
+    "question": "Ex槽為1或以上時，使用了愛麗絲的友好能力，但是同一區域沒有任何人。次日又用了愛麗絲的友好能力，該怎麼處理？",
+    "answer": "愛麗絲的能力為強制發動，因此同一區域沒有任何人時也會發動。隨後，發動該能力為每輪限1次，因此次日之後不會再次發動。就結果而言劇作家隱藏起愛麗絲的身份了。"
+  },
+  "provenance": {
+    "question": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+      "snapshot": "sources/paper-faq/another-horizon-revised.json",
+      "page": 17,
+      "questionNumber": 20
+    },
+    "answer": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+      "snapshot": "sources/paper-faq/another-horizon-revised.json",
+      "page": 17,
+      "questionNumber": 20
+    }
+  },
+  "sources": [
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+      "snapshot": "sources/paper-faq/another-horizon-revised.json",
+      "page": 17,
+      "questionNumber": 20
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+        "snapshot": "sources/paper-faq/another-horizon-revised.json",
+        "page": 17,
+        "questionNumber": 20
+      },
+      "fields": {
+        "question": "Ex槽為1或以上時，使用了愛麗絲的友好能力，但是同一區域沒有任何人。次日又用了愛麗絲的友好能力，該怎麼處理？",
+        "answer": "愛麗絲的能力為強制發動，因此同一區域沒有任何人時也會發動。隨後，發動該能力為每輪限1次，因此次日之後不會再次發動。就結果而言劇作家隱藏起愛麗絲的身份了。"
+      }
+    }
+  ],
+  "tags": [
+    "AHR",
+    "纸质 FAQ",
+    "身份",
+    "官方"
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+  "conflicts": []
+}

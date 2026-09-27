@@ -1,0 +1,227 @@
+{
+  "id": "967cc8bdcbd3f0c9",
+  "title": "媒体人",
+  "kind": "characters",
+  "scope": "",
+  "aliases": [
+    "媒體人"
+  ],
+  "fields": {
+    "角色名": "媒体人",
+    "初始区域": "都市",
+    "禁行区域": "无",
+    "不安限度": "2",
+    "属性": [
+      "成人",
+      "男性"
+    ],
+    "友好能力": [
+      {
+        "text": "（友好2）往另外1名角色身上放置1枚不安指示物。",
+        "threshold": 2,
+        "limitText": ""
+      },
+      {
+        "text": "（友好2）往同一區域任意1名角色身上，或者该角色所在版图上放置1枚密謀指示物。",
+        "threshold": 2,
+        "limitText": ""
+      }
+    ]
+  },
+  "provenance": {
+    "角色名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AA%92%E9%AB%94%E4%BA%BA",
+      "snapshot": "sources/wiki/pages/17bd4b4afdac7dfc.json",
+      "capturedAt": "2026-09-27T03:31:51.261Z"
+    },
+    "初始区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AA%92%E9%AB%94%E4%BA%BA",
+      "snapshot": "sources/wiki/pages/17bd4b4afdac7dfc.json",
+      "capturedAt": "2026-09-27T03:31:51.261Z"
+    },
+    "禁行区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AA%92%E9%AB%94%E4%BA%BA",
+      "snapshot": "sources/wiki/pages/17bd4b4afdac7dfc.json",
+      "capturedAt": "2026-09-27T03:31:51.261Z"
+    },
+    "不安限度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AA%92%E9%AB%94%E4%BA%BA",
+      "snapshot": "sources/wiki/pages/17bd4b4afdac7dfc.json",
+      "capturedAt": "2026-09-27T03:31:51.261Z"
+    },
+    "属性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AA%92%E9%AB%94%E4%BA%BA",
+      "snapshot": "sources/wiki/pages/17bd4b4afdac7dfc.json",
+      "capturedAt": "2026-09-27T03:31:51.261Z"
+    },
+    "友好能力": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AA%92%E9%AB%94%E4%BA%BA",
+      "snapshot": "sources/wiki/pages/17bd4b4afdac7dfc.json",
+      "capturedAt": "2026-09-27T03:31:51.261Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AA%92%E9%AB%94%E4%BA%BA",
+      "snapshot": "sources/wiki/pages/17bd4b4afdac7dfc.json",
+      "capturedAt": "2026-09-27T03:31:51.261Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AA%92%E9%AB%94%E4%BA%BA",
+        "snapshot": "sources/wiki/pages/17bd4b4afdac7dfc.json",
+        "capturedAt": "2026-09-27T03:31:51.261Z"
+      },
+      "fields": {
+        "角色名": "媒体人",
+        "初始区域": "都市",
+        "禁行区域": "无",
+        "不安限度": "2",
+        "属性": [
+          "成人",
+          "男性"
+        ],
+        "友好能力": [
+          {
+            "text": "（友好2）往另外1名角色身上放置1枚不安指示物。",
+            "threshold": 2,
+            "limitText": ""
+          },
+          {
+            "text": "（友好2）往同一區域任意1名角色身上，或者该角色所在版图上放置1枚密謀指示物。",
+            "threshold": 2,
+            "limitText": ""
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "特性": "",
+        "属性": [
+          "成人",
+          "男性"
+        ],
+        "初始区域": "都市",
+        "禁行区域": "否",
+        "不安限度": "2",
+        "友好能力": [
+          {
+            "text": "往另外1名角色身上放置1枚不安指示物",
+            "threshold": "2",
+            "oncePerLoop": ""
+          },
+          {
+            "text": "往同一区域任意1名角色身上，或者该角色所在版图上放置1枚密谋指示物",
+            "threshold": "2",
+            "oncePerLoop": ""
+          }
+        ]
+      }
+    }
+  ],
+  "body": "text/characters/967cc8bdcbd3f0c9.txt",
+  "bodySource": {
+    "provider": "wiki",
+    "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AA%92%E9%AB%94%E4%BA%BA",
+    "snapshot": "sources/wiki/pages/17bd4b4afdac7dfc.json",
+    "capturedAt": "2026-09-27T03:31:51.261Z"
+  },
+  "wikiTitle": "媒體人",
+  "originalTables": [],
+  "wikiStatus": "captured",
+  "links": [
+    {
+      "title": "<img style=\"\" src=\"https://static.wikia.nocookie.net/tragedyrooper/images/c/c2/%E8%AE%B0%E8%80%85.png/revision/latest/scale-to-width-down/134?cb=20251023162226&amp;path-prefix=zh\" title=\"记者.png (233 KB)\" class=\"thumbimage\" alt=\"\" height=\"185\" width=\"185\" data-image-name=\"记者.png\" data-image-key=\"%E8%AE%B0%E8%80%85.png\" data-relevant=\"1\">",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E8%AE%B0%E8%80%85.png"
+    }
+  ],
+  "images": [
+    {
+      "alt": "",
+      "src": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+    }
+  ],
+  "media": [
+    {
+      "title": "记者.png",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:%E8%AE%B0%E8%80%85.png",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/c/c2/%E8%AE%B0%E8%80%85.png/revision/latest?cb=20251023162226&format=original&path-prefix=zh",
+      "path": "media/wiki/1ab0766fa3d1dfba.png",
+      "sourceRecord": "sources/wiki/files/1ab0766fa3d1dfba.json",
+      "sha256": "2bd48ff86908008cd21fbea0f9fed0774b8d4fe4300cb435bb007236a9bf3d17",
+      "bytes": 238285,
+      "fileInfo": "PNG image data, 304 x 420, 8-bit/color RGBA, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/6fadb2d7054aeea7.json",
+  "tags": [
+    "成人",
+    "男性",
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "禁行区域",
+      "selected": "无",
+      "candidate": "否",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "友好能力",
+      "selected": [
+        {
+          "text": "（友好2）往另外1名角色身上放置1枚不安指示物。",
+          "threshold": 2,
+          "limitText": ""
+        },
+        {
+          "text": "（友好2）往同一區域任意1名角色身上，或者该角色所在版图上放置1枚密謀指示物。",
+          "threshold": 2,
+          "limitText": ""
+        }
+      ],
+      "candidate": [
+        {
+          "text": "往另外1名角色身上放置1枚不安指示物",
+          "threshold": "2",
+          "oncePerLoop": ""
+        },
+        {
+          "text": "往同一区域任意1名角色身上，或者该角色所在版图上放置1枚密谋指示物",
+          "threshold": "2",
+          "oncePerLoop": ""
+        }
+      ],
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "77704938a043a25c",
+  "title": "自我的波动",
+  "kind": "rules",
+  "scope": "Another Horizon",
+  "aliases": [],
+  "fields": {
+    "ruleType": "X",
+    "identityCounts": {
+      "画中人": "①",
+      "煽动者": "①"
+    },
+    "effect": ""
+  },
+  "provenance": {
+    "ruleType": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon",
+      "snapshot": "sources/wiki/pages/0bbeabad41fe0a31.json",
+      "capturedAt": "2026-09-27T03:28:21.175Z"
+    },
+    "identityCounts": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon",
+      "snapshot": "sources/wiki/pages/0bbeabad41fe0a31.json",
+      "capturedAt": "2026-09-27T03:28:21.175Z"
+    },
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon",
+      "snapshot": "sources/wiki/pages/0bbeabad41fe0a31.json",
+      "capturedAt": "2026-09-27T03:28:21.175Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon",
+      "snapshot": "sources/wiki/pages/0bbeabad41fe0a31.json",
+      "capturedAt": "2026-09-27T03:28:21.175Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon",
+        "snapshot": "sources/wiki/pages/0bbeabad41fe0a31.json",
+        "capturedAt": "2026-09-27T03:28:21.175Z"
+      },
+      "fields": {
+        "ruleType": "X",
+        "identityCounts": {
+          "画中人": "①",
+          "煽动者": "①"
+        },
+        "effect": ""
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "X",
+    "官方"
+  ],
+  "conflicts": []
+}

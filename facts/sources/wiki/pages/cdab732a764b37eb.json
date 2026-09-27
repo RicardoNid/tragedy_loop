@@ -1,0 +1,34 @@
+{
+  "categories": [
+    "分类",
+    "非公开情报表"
+  ],
+  "html": "<p><br>\n</p><p><br>\n</p>\n<h2><span id=\".E6.B5.81.E8.A8.80.E7.9A.84.E8.BF.9E.E9.94.81.E6.95.88.E5.BA.94_.E4.BD.9C.E8.80.85.EF.BC.9Achoconut\"></span><span class=\"mw-headline\" id=\"流言的连锁效应_作者：choconut\">流言的连锁效应 作者：choconut</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a title=\"编辑章节的源代码： 流言的连锁效应 作者：choconut\" data-tracking-label=\"edit-section\" data-action=\"edit-section\" href=\"https://tragedyrooper.fandom.com/zh/wiki/MC-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&amp;section=1\" aria-label=\"编辑章节的源代码： 流言的连锁效应 作者：choconut\"><svg class=\"wds-icon wds-icon-tiny\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#wds-icons-pencil-tiny\"></use></svg></a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<p>规则Y 士的宁毒液\n</p><p>规则X1 我是名侦探\n</p><p>规则X2 隔离病房惊魂记\n</p><p>御神木 侦探\n</p><p>巫女 投毒者\n</p><p>转校生 关键人物 3\n</p><p>大小姐 平民\n</p><p>大人物 心理医生 神社 \n</p><p>职员 愚者\n</p><p>黑猫 亲友\n</p><p>手下 传谣人 \n</p><p>住院患者 偏执狂\n</p><p>1 可疑信件 手下 \n</p><p>2 不安扩散 大小姐 \n</p><p>3 不安扩散 职员 \n</p><p>4 自杀 转校生 \n</p>\n<h3><span id=\".E6.95.85.E4.BA.8B\"></span><span class=\"mw-headline\" id=\"故事\">故事</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a title=\"编辑章节的源代码： 故事\" data-tracking-label=\"edit-section\" data-action=\"edit-section\" href=\"https://tragedyrooper.fandom.com/zh/wiki/MC-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&amp;section=2\" aria-label=\"编辑章节的源代码： 故事\"><svg class=\"wds-icon wds-icon-tiny\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#wds-icons-pencil-tiny\"></use></svg></a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<p>在流言的影响下，人们不是变得偏执、愚妄，就是变得惶恐、脆弱。随着时间的推移，流言如同链条一般，已经蔓延到了整个城市，甚至影响到了你们身边最重要的人。这些流言的源头究竟是谁呢？\n</p>\n<h3><span id=\".E5.89.A7.E4.BD.9C.E5.AE.B6.E6.8C.87.E5.8D.97\"></span><span class=\"mw-headline\" id=\"剧作家指南\">剧作家指南</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a title=\"编辑章节的源代码： 剧作家指南\" data-tracking-label=\"edit-section\" data-action=\"edit-section\" href=\"https://tragedyrooper.fandom.com/zh/wiki/MC-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&amp;section=3\" aria-label=\"编辑章节的源代码： 剧作家指南\"><svg class=\"wds-icon wds-icon-tiny\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#wds-icons-pencil-tiny\"></use></svg></a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<p>第二天：大小姐不安+1\n</p><p>第三天：职员不安+1\n</p><p>第四天：转校生不安+1\n</p><p>第一天让手下给自己一个不安，触发可疑信件，移动到大小姐身边（如果已经在大小姐身边，就直接给大小姐不安），确保事件连锁发生，转校生的自杀无法避免。不死的御神木是隐藏投毒者的好帮手，也可以让心理医生永远可以选它为目标。\n</p><p>解决思路是让投毒者巫女在学校杀死手下或大小姐（在学校时，投毒者无法毒自己），为此必须触发隔离病房惊魂记的效果，让EX+1。但是，能让轮回提前结束的转校生在第三天才会登场，与巫女的毒药错开了时间，似乎不可能让轮回结束时的EX槽控制在2以内。\n</p><p>破局的关键是可疑信件的描述——如果移动到其他区域，次日无法移动——换言之，如果不移动到其他区域，次日就可以移动。所以，主人公第一天让大小姐和手下在都市回合，就可以避免触发可疑信件。这样，EX槽在第三天才会到达2，巫女便可以杀死转校生，在EX=2的情况下提前结束轮回。\n</p>\n<!-- \nNewPP limit report\nCached time: 20260923231944\nCache expiry: 2592000\nReduced expiry: false\nComplications: []\nCPU time usage: 0.040 seconds\nReal time usage: 0.043 seconds\nPreprocessor visited node count: 10/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 2/100\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key 1.43.9_prod_zhtragedyrooper:pcache:idhash:711-0!sseVary=RegularPage!zh!FandomDesktop!LegacyGalleries and timestamp 20260923231944 and revision id 2486. Rendering was triggered because: page-view\n -->\n",
+  "images": [],
+  "license": [
+    "https://www.fandom.com/zh/licensing-zh"
+  ],
+  "links": [
+    {
+      "title": "",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+    },
+    {
+      "title": "",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+    },
+    {
+      "title": "",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=3"
+    }
+  ],
+  "tables": [],
+  "text": "\n\n\n\n\n\n流言的连锁效应 作者：choconut\n\n规则Y 士的宁毒液\n\n规则X1 我是名侦探\n\n规则X2 隔离病房惊魂记\n\n御神木 侦探\n\n巫女 投毒者\n\n转校生 关键人物 3\n\n大小姐 平民\n\n大人物 心理医生 神社\n\n职员 愚者\n\n黑猫 亲友\n\n手下 传谣人\n\n住院患者 偏执狂\n\n1 可疑信件 手下\n\n2 不安扩散 大小姐\n\n3 不安扩散 职员\n\n4 自杀 转校生\n\n故事\n\n在流言的影响下，人们不是变得偏执、愚妄，就是变得惶恐、脆弱。随着时间的推移，流言如同链条一般，已经蔓延到了整个城市，甚至影响到了你们身边最重要的人。这些流言的源头究竟是谁呢？\n\n剧作家指南\n\n第二天：大小姐不安+1\n\n第三天：职员不安+1\n\n第四天：转校生不安+1\n\n第一天让手下给自己一个不安，触发可疑信件，移动到大小姐身边（如果已经在大小姐身边，就直接给大小姐不安），确保事件连锁发生，转校生的自杀无法避免。不死的御神木是隐藏投毒者的好帮手，也可以让心理医生永远可以选它为目标。\n\n解决思路是让投毒者巫女在学校杀死手下或大小姐（在学校时，投毒者无法毒自己），为此必须触发隔离病房惊魂记的效果，让EX+1。但是，能让轮回提前结束的转校生在第三天才会登场，与巫女的毒药错开了时间，似乎不可能让轮回结束时的EX槽控制在2以内。\n\n破局的关键是可疑信件的描述——如果移动到其他区域，次日无法移动——换言之，如果不移动到其他区域，次日就可以移动。所以，主人公第一天让大小姐和手下在都市回合，就可以避免触发可疑信件。这样，EX槽在第三天才会到达2，巫女便可以杀死转校生，在EX=2的情况下提前结束轮回。",
+  "title": "MC-06非公开信息表",
+  "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+  "status": "captured",
+  "requestedTitle": "MC-06非公开信息表",
+  "fetchedAt": "2026-09-27T04:34:06.115Z",
+  "source": "wiki",
+  "id": "cdab732a764b37eb"
+}

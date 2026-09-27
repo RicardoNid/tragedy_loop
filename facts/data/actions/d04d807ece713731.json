@@ -1,0 +1,55 @@
+{
+  "id": "d04d807ece713731",
+  "title": "禁止不安",
+  "kind": "actions",
+  "scope": "剧作家手牌",
+  "aliases": [],
+  "fields": {
+    "effect": "无效化同一位置改变不安指示物的卡牌",
+    "count": "1",
+    "oncePerLoop": "否"
+  },
+  "provenance": {
+    "effect": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    },
+    "count": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    },
+    "oncePerLoop": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  },
+  "sources": [
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "effect": "无效化同一位置改变不安指示物的卡牌",
+        "count": "1",
+        "oncePerLoop": "否"
+      }
+    }
+  ],
+  "actionSide": "剧作家",
+  "availability": [],
+  "baseAction": true,
+  "authority": "官方",
+  "tags": [
+    "基础行动牌",
+    "剧作家",
+    "官方"
+  ],
+  "conflicts": []
+}

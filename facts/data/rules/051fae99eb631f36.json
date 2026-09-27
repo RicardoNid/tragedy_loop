@@ -1,0 +1,102 @@
+{
+  "id": "051fae99eb631f36",
+  "title": "高贵的血族",
+  "kind": "rules",
+  "scope": "Haunted Stage Again",
+  "aliases": [],
+  "fields": {
+    "ruleType": "Y",
+    "identityCounts": {
+      "关键人物": "①",
+      "吸血鬼": "①"
+    },
+    "effect": "【强制：剧本制作时】吸血鬼与关键人物必须互为异性"
+  },
+  "provenance": {
+    "ruleType": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage_Again",
+      "snapshot": "sources/wiki/pages/da682a376d9880ab.json",
+      "capturedAt": "2026-09-27T03:29:42.114Z"
+    },
+    "identityCounts": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage_Again",
+      "snapshot": "sources/wiki/pages/da682a376d9880ab.json",
+      "capturedAt": "2026-09-27T03:29:42.114Z"
+    },
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage_Again",
+      "snapshot": "sources/wiki/pages/da682a376d9880ab.json",
+      "capturedAt": "2026-09-27T03:29:42.114Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage_Again",
+      "snapshot": "sources/wiki/pages/da682a376d9880ab.json",
+      "capturedAt": "2026-09-27T03:29:42.114Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage_Again",
+        "snapshot": "sources/wiki/pages/da682a376d9880ab.json",
+        "capturedAt": "2026-09-27T03:29:42.114Z"
+      },
+      "fields": {
+        "ruleType": "Y",
+        "identityCounts": {
+          "关键人物": "①",
+          "吸血鬼": "①"
+        },
+        "effect": "【强制：剧本制作时】吸血鬼与关键人物必须互为异性"
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "ruleType": "Y",
+        "identityCounts": {
+          "关键人物": "1",
+          "吸血鬼": "1"
+        },
+        "effect": "【强制：剧本制作时】吸血鬼与关键人物必须互为异性"
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "Y",
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "identityCounts",
+      "selected": {
+        "关键人物": "①",
+        "吸血鬼": "①"
+      },
+      "candidate": {
+        "关键人物": "1",
+        "吸血鬼": "1"
+      },
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    }
+  ]
+}

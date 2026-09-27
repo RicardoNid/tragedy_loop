@@ -1,0 +1,67 @@
+{
+  "id": "f1095a6d407d9163",
+  "title": "导入+规则后，局外人或模仿犯可以是因果残片吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 基础规则 / 第 81 行",
+  "aliases": [],
+  "fields": {
+    "question": "导入+规则后，局外人或模仿犯可以是因果残片吗？",
+    "answer": "局外人不行，模仿犯可以"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+      "snapshot": "sources/faq-sheet/basic.json",
+      "sheet": "基础规则",
+      "row": 81,
+      "cells": "A81:B81",
+      "capturedAt": "2026-09-27T05:40:57.223Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+      "snapshot": "sources/faq-sheet/basic.json",
+      "sheet": "基础规则",
+      "row": 81,
+      "cells": "A81:B81",
+      "capturedAt": "2026-09-27T05:40:57.223Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+      "snapshot": "sources/faq-sheet/basic.json",
+      "sheet": "基础规则",
+      "row": 81,
+      "cells": "A81:B81",
+      "capturedAt": "2026-09-27T05:40:57.223Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+        "snapshot": "sources/faq-sheet/basic.json",
+        "sheet": "基础规则",
+        "row": 81,
+        "cells": "A81:B81",
+        "capturedAt": "2026-09-27T05:40:57.223Z"
+      },
+      "fields": {
+        "question": "导入+规则后，局外人或模仿犯可以是因果残片吗？",
+        "answer": "局外人不行，模仿犯可以"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "基础规则",
+    "关于+规则",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

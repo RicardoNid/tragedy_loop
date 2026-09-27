@@ -1,0 +1,67 @@
+{
+  "id": "39572a30de5427d4",
+  "title": "医生有1友好，可以给医生友好+2，给住院患者移动然后让住院患者移动吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 角色 / 第 2 行",
+  "aliases": [],
+  "fields": {
+    "question": "医生有1友好，可以给医生友好+2，给住院患者移动然后让住院患者移动吗？",
+    "answer": "不能，必须先在主人公能力阶段发动医生能力"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 2,
+      "cells": "A2:B2",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 2,
+      "cells": "A2:B2",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 2,
+      "cells": "A2:B2",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+        "snapshot": "sources/faq-sheet/characters.json",
+        "sheet": "角色",
+        "row": 2,
+        "cells": "A2:B2",
+        "capturedAt": "2026-09-27T05:39:49.068Z"
+      },
+      "fields": {
+        "question": "医生有1友好，可以给医生友好+2，给住院患者移动然后让住院患者移动吗？",
+        "answer": "不能，必须先在主人公能力阶段发动医生能力"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "角色",
+    "关于医生",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

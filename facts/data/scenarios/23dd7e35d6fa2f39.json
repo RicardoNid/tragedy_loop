@@ -1,0 +1,480 @@
+{
+  "id": "23dd7e35d6fa2f39",
+  "title": "MC-41",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "MC-41非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "MC-41",
+    "loops": 4,
+    "days": 5,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "银色子弹"
+      },
+      {
+        "day": 2,
+        "incidentText": "银色子弹"
+      },
+      {
+        "day": 3,
+        "incidentText": "银色子弹"
+      },
+      {
+        "day": 4,
+        "incidentText": "银色子弹"
+      },
+      {
+        "day": 5,
+        "incidentText": "前兆"
+      }
+    ],
+    "剧本名": "虚假的银色机关枪",
+    "日文名": "偽りの銀のマシンガン",
+    "作者": "Lapras-hst@パーソン",
+    "轮数": "4",
+    "天数": "5"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-41",
+      "snapshot": "sources/wiki/pages/0ef8c9b9cee4d74a.json",
+      "capturedAt": "2026-09-27T04:39:09.533Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-41",
+      "snapshot": "sources/wiki/pages/0ef8c9b9cee4d74a.json",
+      "capturedAt": "2026-09-27T04:39:09.533Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-41",
+      "snapshot": "sources/wiki/pages/0ef8c9b9cee4d74a.json",
+      "capturedAt": "2026-09-27T04:39:09.533Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-41",
+      "snapshot": "sources/wiki/pages/0ef8c9b9cee4d74a.json",
+      "capturedAt": "2026-09-27T04:39:09.533Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-41",
+      "snapshot": "sources/wiki/pages/0ef8c9b9cee4d74a.json",
+      "capturedAt": "2026-09-27T04:39:09.533Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 43
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 43
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 43
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 43
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 43
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-41",
+      "snapshot": "sources/wiki/pages/0ef8c9b9cee4d74a.json",
+      "capturedAt": "2026-09-27T04:39:09.533Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 43
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-41%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/533fc485aa2f1aef.json",
+      "capturedAt": "2026-09-27T04:39:27.143Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-41",
+        "snapshot": "sources/wiki/pages/0ef8c9b9cee4d74a.json",
+        "capturedAt": "2026-09-27T04:39:09.533Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "MC-41",
+        "loops": 4,
+        "days": 5,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "银色子弹"
+          },
+          {
+            "day": 2,
+            "incidentText": "银色子弹"
+          },
+          {
+            "day": 3,
+            "incidentText": "银色子弹"
+          },
+          {
+            "day": 4,
+            "incidentText": "银色子弹"
+          },
+          {
+            "day": 5,
+            "incidentText": "前兆"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 4,
+        "row": 43
+      },
+      "fields": {
+        "scenarioCode": "MC-41",
+        "剧本名": "虚假的银色机关枪",
+        "日文名": "偽りの銀のマシンガン",
+        "作者": "Lapras-hst@パーソン",
+        "轮数": "4",
+        "天数": "5"
+      }
+    }
+  ],
+  "wikiTitle": "MC-41",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Mystery Circle"
+  ],
+  "module": "Mystery Circle",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "23dd7e35d6fa2f39",
+        "title": "MC-41",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "MC-41",
+          "loops": 4,
+          "days": 5,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "银色子弹"
+            },
+            {
+              "day": 2,
+              "incidentText": "银色子弹"
+            },
+            {
+              "day": 3,
+              "incidentText": "银色子弹"
+            },
+            {
+              "day": 4,
+              "incidentText": "银色子弹"
+            },
+            {
+              "day": 5,
+              "incidentText": "前兆"
+            }
+          ],
+          "剧本名": "虚假的银色机关枪",
+          "日文名": "偽りの銀のマシンガン",
+          "作者": "Lapras-hst@パーソン",
+          "轮数": "4",
+          "天数": "5"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-41",
+            "snapshot": "sources/wiki/pages/0ef8c9b9cee4d74a.json",
+            "capturedAt": "2026-09-27T04:39:09.533Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-41",
+            "snapshot": "sources/wiki/pages/0ef8c9b9cee4d74a.json",
+            "capturedAt": "2026-09-27T04:39:09.533Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-41",
+            "snapshot": "sources/wiki/pages/0ef8c9b9cee4d74a.json",
+            "capturedAt": "2026-09-27T04:39:09.533Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-41",
+            "snapshot": "sources/wiki/pages/0ef8c9b9cee4d74a.json",
+            "capturedAt": "2026-09-27T04:39:09.533Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-41",
+            "snapshot": "sources/wiki/pages/0ef8c9b9cee4d74a.json",
+            "capturedAt": "2026-09-27T04:39:09.533Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 43
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 43
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 43
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 43
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 43
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-41",
+            "snapshot": "sources/wiki/pages/0ef8c9b9cee4d74a.json",
+            "capturedAt": "2026-09-27T04:39:09.533Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 43
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-41",
+              "snapshot": "sources/wiki/pages/0ef8c9b9cee4d74a.json",
+              "capturedAt": "2026-09-27T04:39:09.533Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "MC-41",
+              "loops": 4,
+              "days": 5,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "银色子弹"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "银色子弹"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "银色子弹"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "银色子弹"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "前兆"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 4,
+              "row": 43
+            },
+            "fields": {
+              "scenarioCode": "MC-41",
+              "剧本名": "虚假的银色机关枪",
+              "日文名": "偽りの銀のマシンガン",
+              "作者": "Lapras-hst@パーソン",
+              "轮数": "4",
+              "天数": "5"
+            }
+          }
+        ],
+        "body": "text/scenarios/23dd7e35d6fa2f39.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-41",
+          "snapshot": "sources/wiki/pages/0ef8c9b9cee4d74a.json",
+          "capturedAt": "2026-09-27T04:39:09.533Z"
+        },
+        "wikiTitle": "MC-41",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-41?action=edit&section=1"
+          },
+          {
+            "title": "MC-41非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-41%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-41?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Mystery Circle"
+        ],
+        "module": "Mystery Circle"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "53622ada021d1868",
+        "title": "MC-41非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "MC-41"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-41%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/533fc485aa2f1aef.json",
+            "capturedAt": "2026-09-27T04:39:27.143Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-41%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/533fc485aa2f1aef.json",
+            "capturedAt": "2026-09-27T04:39:27.143Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-41%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/533fc485aa2f1aef.json",
+            "capturedAt": "2026-09-27T04:39:27.143Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-41%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/533fc485aa2f1aef.json",
+              "capturedAt": "2026-09-27T04:39:27.143Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "MC-41"
+            }
+          }
+        ],
+        "wikiTitle": "MC-41非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Mystery Circle",
+        "tags": [
+          "民间",
+          "Mystery Circle"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "53622ada021d1868"
+  ],
+  "conflicts": []
+}

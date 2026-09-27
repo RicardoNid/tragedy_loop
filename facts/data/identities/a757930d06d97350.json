@@ -1,0 +1,88 @@
+{
+  "id": "a757930d06d97350",
+  "title": "祭品",
+  "kind": "identities",
+  "scope": "Weird Mythology",
+  "aliases": [],
+  "fields": {
+    "max": "",
+    "traits": "不死",
+    "abilities": [
+      "【任意能力：回合结束阶段】该角色身上有2枚或以上[密谋]且有2枚或以上[不安]→所有角色和主人公死亡",
+      "【强制：事件阶段】判定该角色为当事人的事件是否触发时，[密谋]视为[不安]处理",
+      "【强制：剧本制作时】必须成为某1个事件的当事人"
+    ]
+  },
+  "provenance": {
+    "max": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Weird_Mythology",
+      "snapshot": "sources/wiki/pages/4d608cef3c4485cd.json",
+      "capturedAt": "2026-09-27T03:30:15.425Z"
+    },
+    "traits": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Weird_Mythology",
+      "snapshot": "sources/wiki/pages/4d608cef3c4485cd.json",
+      "capturedAt": "2026-09-27T03:30:15.425Z"
+    },
+    "abilities": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Weird_Mythology",
+      "snapshot": "sources/wiki/pages/4d608cef3c4485cd.json",
+      "capturedAt": "2026-09-27T03:30:15.425Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Weird_Mythology",
+      "snapshot": "sources/wiki/pages/4d608cef3c4485cd.json",
+      "capturedAt": "2026-09-27T03:30:15.425Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Weird_Mythology",
+        "snapshot": "sources/wiki/pages/4d608cef3c4485cd.json",
+        "capturedAt": "2026-09-27T03:30:15.425Z"
+      },
+      "fields": {
+        "max": "",
+        "traits": "不死",
+        "abilities": [
+          "【任意能力：回合结束阶段】该角色身上有2枚或以上[密谋]且有2枚或以上[不安]→所有角色和主人公死亡",
+          "【强制：事件阶段】判定该角色为当事人的事件是否触发时，[密谋]视为[不安]处理",
+          "【强制：剧本制作时】必须成为某1个事件的当事人"
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "max": "",
+        "traits": "不死",
+        "abilities": [
+          "【任意能力：回合结束阶段】该角色身上有2枚或以上[密谋]且有2枚或以上[不安]→所有角色和主人公死亡",
+          "【强制：事件阶段】判定该角色为当事人的事件是否触发时，[密谋]视为[不安]处理",
+          "【强制：剧本制作时】必须成为某1个事件的当事人"
+        ]
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "官方"
+  ],
+  "conflicts": []
+}

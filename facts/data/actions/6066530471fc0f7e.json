@@ -1,0 +1,67 @@
+{
+  "id": "6066530471fc0f7e",
+  "title": "禁止友好",
+  "kind": "actions",
+  "scope": "剧作家手牌",
+  "aliases": [],
+  "fields": {
+    "effect": "无效化同一位置改变友好指示物的卡牌",
+    "count": "1",
+    "oncePerLoop": "否"
+  },
+  "provenance": {
+    "effect": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    },
+    "count": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    },
+    "oncePerLoop": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  },
+  "sources": [
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "effect": "无效化同一位置改变友好指示物的卡牌",
+        "count": "1",
+        "oncePerLoop": "否"
+      }
+    }
+  ],
+  "actionSide": "剧作家",
+  "availability": [
+    {
+      "module": "UM",
+      "state": "conditional-exclusion",
+      "condition": "怨恨的咆哮\t<当事人不安限度+1>剧作家可以选择手牌中的1张禁止友好、密谋+2或斜向移动，选择的行动牌直到本轮轮回结束从手牌中移除并不能使用",
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Unheard_Malice",
+        "snapshot": "sources/wiki/pages/62df499c8bfa0a4c.json"
+      }
+    }
+  ],
+  "baseAction": true,
+  "authority": "官方",
+  "tags": [
+    "基础行动牌",
+    "剧作家",
+    "UM",
+    "官方"
+  ],
+  "conflicts": []
+}

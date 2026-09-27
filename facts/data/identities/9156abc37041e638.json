@@ -1,0 +1,95 @@
+{
+  "id": "9156abc37041e638",
+  "title": "梦魇",
+  "kind": "identities",
+  "scope": "Haunted Stage Again",
+  "aliases": [],
+  "fields": {
+    "max": "",
+    "traits": "无视友好\n\n不死",
+    "abilities": [
+      "【任意能力：回合结束阶段】与该角色位于同一区域的1名角色死亡",
+      "【任意能力：回合结束阶段】所有尸体上放置的[密谋]总数为3枚或以上→主人公死亡"
+    ]
+  },
+  "provenance": {
+    "max": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage_Again",
+      "snapshot": "sources/wiki/pages/da682a376d9880ab.json",
+      "capturedAt": "2026-09-27T03:29:42.114Z"
+    },
+    "traits": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage_Again",
+      "snapshot": "sources/wiki/pages/da682a376d9880ab.json",
+      "capturedAt": "2026-09-27T03:29:42.114Z"
+    },
+    "abilities": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage_Again",
+      "snapshot": "sources/wiki/pages/da682a376d9880ab.json",
+      "capturedAt": "2026-09-27T03:29:42.114Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage_Again",
+      "snapshot": "sources/wiki/pages/da682a376d9880ab.json",
+      "capturedAt": "2026-09-27T03:29:42.114Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage_Again",
+        "snapshot": "sources/wiki/pages/da682a376d9880ab.json",
+        "capturedAt": "2026-09-27T03:29:42.114Z"
+      },
+      "fields": {
+        "max": "",
+        "traits": "无视友好\n\n不死",
+        "abilities": [
+          "【任意能力：回合结束阶段】与该角色位于同一区域的1名角色死亡",
+          "【任意能力：回合结束阶段】所有尸体上放置的[密谋]总数为3枚或以上→主人公死亡"
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "max": "",
+        "traits": "无视友好；不死",
+        "abilities": [
+          "【任意能力：回合结束阶段】与该角色位于同一区域的1名角色死亡",
+          "【任意能力：回合结束阶段】所有尸体上放置的[密谋]总数为3枚或以上→主人公死亡"
+        ]
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "traits",
+      "selected": "无视友好\n\n不死",
+      "candidate": "无视友好；不死",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    }
+  ]
+}

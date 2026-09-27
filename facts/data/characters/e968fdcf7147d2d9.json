@@ -1,0 +1,162 @@
+{
+  "id": "e968fdcf7147d2d9",
+  "title": "摄影师",
+  "kind": "characters",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "角色名": "摄影师",
+    "初始区域": "神社/学校",
+    "禁行区域": "无",
+    "不安限度": "3",
+    "属性": [
+      "学生",
+      "少女"
+    ],
+    "特性": "如果该角色带有无视友好特性，则该角色也获得傀儡无视友好特性",
+    "友好能力": [
+      {
+        "text": "（友好3 1L1）同区域只有另1名角色时才可以发动，如果那名角色带有无视友好特性，那名角色死亡，否则该角色死亡。",
+        "threshold": 3,
+        "limitText": "1L1",
+        "oncePerLoop": true
+      },
+      {
+        "text": "（友好4）将该角色移动到远方，或将该角色从远方移动到任意版图",
+        "threshold": 4,
+        "limitText": ""
+      }
+    ]
+  },
+  "provenance": {
+    "角色名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%91%84%E5%BD%B1%E5%B8%88",
+      "snapshot": "sources/wiki/pages/4b3552bb5eb3e192.json",
+      "capturedAt": "2026-09-27T03:32:57.921Z"
+    },
+    "初始区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%91%84%E5%BD%B1%E5%B8%88",
+      "snapshot": "sources/wiki/pages/4b3552bb5eb3e192.json",
+      "capturedAt": "2026-09-27T03:32:57.921Z"
+    },
+    "禁行区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%91%84%E5%BD%B1%E5%B8%88",
+      "snapshot": "sources/wiki/pages/4b3552bb5eb3e192.json",
+      "capturedAt": "2026-09-27T03:32:57.921Z"
+    },
+    "不安限度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%91%84%E5%BD%B1%E5%B8%88",
+      "snapshot": "sources/wiki/pages/4b3552bb5eb3e192.json",
+      "capturedAt": "2026-09-27T03:32:57.921Z"
+    },
+    "属性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%91%84%E5%BD%B1%E5%B8%88",
+      "snapshot": "sources/wiki/pages/4b3552bb5eb3e192.json",
+      "capturedAt": "2026-09-27T03:32:57.921Z"
+    },
+    "特性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%91%84%E5%BD%B1%E5%B8%88",
+      "snapshot": "sources/wiki/pages/4b3552bb5eb3e192.json",
+      "capturedAt": "2026-09-27T03:32:57.921Z"
+    },
+    "友好能力": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%91%84%E5%BD%B1%E5%B8%88",
+      "snapshot": "sources/wiki/pages/4b3552bb5eb3e192.json",
+      "capturedAt": "2026-09-27T03:32:57.921Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%91%84%E5%BD%B1%E5%B8%88",
+      "snapshot": "sources/wiki/pages/4b3552bb5eb3e192.json",
+      "capturedAt": "2026-09-27T03:32:57.921Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%91%84%E5%BD%B1%E5%B8%88",
+        "snapshot": "sources/wiki/pages/4b3552bb5eb3e192.json",
+        "capturedAt": "2026-09-27T03:32:57.921Z"
+      },
+      "fields": {
+        "角色名": "摄影师",
+        "初始区域": "神社/学校",
+        "禁行区域": "无",
+        "不安限度": "3",
+        "属性": [
+          "学生",
+          "少女"
+        ],
+        "特性": "如果该角色带有无视友好特性，则该角色也获得傀儡无视友好特性",
+        "友好能力": [
+          {
+            "text": "（友好3 1L1）同区域只有另1名角色时才可以发动，如果那名角色带有无视友好特性，那名角色死亡，否则该角色死亡。",
+            "threshold": 3,
+            "limitText": "1L1",
+            "oncePerLoop": true
+          },
+          {
+            "text": "（友好4）将该角色移动到远方，或将该角色从远方移动到任意版图",
+            "threshold": 4,
+            "limitText": ""
+          }
+        ]
+      }
+    }
+  ],
+  "body": "text/characters/e968fdcf7147d2d9.txt",
+  "bodySource": {
+    "provider": "wiki",
+    "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%91%84%E5%BD%B1%E5%B8%88",
+    "snapshot": "sources/wiki/pages/4b3552bb5eb3e192.json",
+    "capturedAt": "2026-09-27T03:32:57.921Z"
+  },
+  "wikiTitle": "摄影师",
+  "originalTables": [],
+  "wikiStatus": "captured",
+  "links": [
+    {
+      "title": "<img style=\"\" src=\"https://static.wikia.nocookie.net/tragedyrooper/images/1/19/%E6%91%84%E5%BD%B1%E5%B8%88.jpg/revision/latest/scale-to-width-down/132?cb=20251024095337&amp;path-prefix=zh\" title=\"摄影师.jpg (120 KB)\" class=\"thumbimage\" alt=\"\" height=\"185\" width=\"185\" data-image-name=\"摄影师.jpg\" data-image-key=\"%E6%91%84%E5%BD%B1%E5%B8%88.jpg\" data-relevant=\"1\">",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E6%91%84%E5%BD%B1%E5%B8%88.jpg"
+    }
+  ],
+  "images": [
+    {
+      "alt": "",
+      "src": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+    }
+  ],
+  "media": [
+    {
+      "title": "摄影师.jpg",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:%E6%91%84%E5%BD%B1%E5%B8%88.jpg",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/1/19/%E6%91%84%E5%BD%B1%E5%B8%88.jpg/revision/latest?cb=20251024095337&format=original&path-prefix=zh",
+      "path": "media/wiki/979c3d2c40bc7432.jpg",
+      "sourceRecord": "sources/wiki/files/979c3d2c40bc7432.json",
+      "sha256": "ce3b45f660258c2c96dc67b446feb2677be44753e0a94a806b80bd316ba847ee",
+      "bytes": 122735,
+      "fileInfo": "JPEG image data, Exif standard: [TIFF image data, big-endian, direntries=2, orientation=[*0*]], progressive, precision 8, 620x866, components 3",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/6fadb2d7054aeea7.json",
+  "tags": [
+    "学生",
+    "少女",
+    "民间"
+  ],
+  "conflicts": []
+}

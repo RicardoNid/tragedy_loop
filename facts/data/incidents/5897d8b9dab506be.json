@@ -1,0 +1,45 @@
+{
+  "id": "5897d8b9dab506be",
+  "title": "怨恨的咆哮",
+  "kind": "incidents",
+  "scope": "Unheard Malice",
+  "aliases": [],
+  "fields": {
+    "effect": "<当事人不安限度+1>剧作家可以选择手牌中的1张禁止友好、密谋+2或斜向移动，选择的行动牌直到本轮轮回结束从手牌中移除并不能使用\n如果剧作家移除了行动牌，次日行动结算阶段指定任意1张行动牌，无视那张行动牌"
+  },
+  "provenance": {
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Unheard_Malice",
+      "snapshot": "sources/wiki/pages/62df499c8bfa0a4c.json",
+      "capturedAt": "2026-09-27T03:30:12.492Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Unheard_Malice",
+      "snapshot": "sources/wiki/pages/62df499c8bfa0a4c.json",
+      "capturedAt": "2026-09-27T03:30:12.492Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Unheard_Malice",
+        "snapshot": "sources/wiki/pages/62df499c8bfa0a4c.json",
+        "capturedAt": "2026-09-27T03:30:12.492Z"
+      },
+      "fields": {
+        "effect": "<当事人不安限度+1>剧作家可以选择手牌中的1张禁止友好、密谋+2或斜向移动，选择的行动牌直到本轮轮回结束从手牌中移除并不能使用\n如果剧作家移除了行动牌，次日行动结算阶段指定任意1张行动牌，无视那张行动牌"
+      }
+    }
+  ],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "民间"
+  ],
+  "conflicts": []
+}

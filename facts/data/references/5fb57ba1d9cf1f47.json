@@ -1,0 +1,34 @@
+{
+  "id": "5fb57ba1d9cf1f47",
+  "title": "角色卡目录",
+  "kind": "references",
+  "scope": "",
+  "aliases": [],
+  "fields": {},
+  "provenance": {},
+  "sources": [
+    {
+      "provider": "ricardo",
+      "path": "sources/ricardo/reference/character-cards/cards.md",
+      "status": "draft_needs_human_review"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "ricardo",
+        "path": "sources/ricardo/reference/character-cards/cards.md",
+        "status": "draft_needs_human_review"
+      },
+      "fields": {}
+    }
+  ],
+  "body": "text/references/5fb57ba1d9cf1f47.txt",
+  "bodySource": {
+    "provider": "ricardo",
+    "path": "sources/ricardo/reference/character-cards/cards.md",
+    "status": "draft_needs_human_review"
+  },
+  "tags": [],
+  "conflicts": []
+}

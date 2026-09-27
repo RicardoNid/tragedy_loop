@@ -1,0 +1,541 @@
+{
+  "id": "0194ca4eb60a9121",
+  "title": "SC-01",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "SC-01非公开情报表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "SC-01",
+    "loops": 4,
+    "days": 4,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "合谋"
+      },
+      {
+        "day": 2,
+        "incidentText": "逼供"
+      },
+      {
+        "day": 3,
+        "incidentText": "不安扩散"
+      },
+      {
+        "day": 4,
+        "incidentText": "社会运动"
+      }
+    ],
+    "剧本名": "School Criminal",
+    "作者": "新手之二",
+    "轮数": "4",
+    "天数": "4",
+    "难度": "3"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-01?oldid=631",
+      "snapshot": "sources/wiki/pages/c15c0e317feb92ba.json",
+      "capturedAt": "2026-09-27T04:57:01.157Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-01?oldid=631",
+      "snapshot": "sources/wiki/pages/c15c0e317feb92ba.json",
+      "capturedAt": "2026-09-27T04:57:01.157Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-01?oldid=631",
+      "snapshot": "sources/wiki/pages/c15c0e317feb92ba.json",
+      "capturedAt": "2026-09-27T04:57:01.157Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-01?oldid=631",
+      "snapshot": "sources/wiki/pages/c15c0e317feb92ba.json",
+      "capturedAt": "2026-09-27T04:57:01.157Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-01?oldid=631",
+      "snapshot": "sources/wiki/pages/c15c0e317feb92ba.json",
+      "capturedAt": "2026-09-27T04:57:01.157Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+      "table": 4,
+      "row": 2
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+      "table": 4,
+      "row": 2
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+      "table": 4,
+      "row": 2
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+      "table": 4,
+      "row": 2
+    },
+    "难度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+      "table": 4,
+      "row": 2
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-01?oldid=631",
+      "snapshot": "sources/wiki/pages/c15c0e317feb92ba.json",
+      "capturedAt": "2026-09-27T04:57:01.157Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+      "table": 4,
+      "row": 2
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-01%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8?oldid=632",
+      "snapshot": "sources/wiki/pages/7bcff3ea803e9e69.json",
+      "capturedAt": "2026-09-27T04:57:13.556Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-01?oldid=631",
+        "snapshot": "sources/wiki/pages/c15c0e317feb92ba.json",
+        "capturedAt": "2026-09-27T04:57:01.157Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "SC-01",
+        "loops": 4,
+        "days": 4,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "合谋"
+          },
+          {
+            "day": 2,
+            "incidentText": "逼供"
+          },
+          {
+            "day": 3,
+            "incidentText": "不安扩散"
+          },
+          {
+            "day": 4,
+            "incidentText": "社会运动"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+        "table": 4,
+        "row": 2
+      },
+      "fields": {
+        "scenarioCode": "SC-01",
+        "剧本名": "School Criminal",
+        "作者": "新手之二",
+        "轮数": "4",
+        "天数": "4",
+        "难度": "3"
+      }
+    }
+  ],
+  "wikiTitle": "SC-01",
+  "images": [],
+  "media": [],
+  "tags": [
+    "民间模组/旧模组剧本",
+    "Sin City"
+  ],
+  "module": "Sin City",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "0194ca4eb60a9121",
+        "title": "SC-01",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "SC-01",
+          "loops": 4,
+          "days": 4,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "合谋"
+            },
+            {
+              "day": 2,
+              "incidentText": "逼供"
+            },
+            {
+              "day": 3,
+              "incidentText": "不安扩散"
+            },
+            {
+              "day": 4,
+              "incidentText": "社会运动"
+            }
+          ],
+          "剧本名": "School Criminal",
+          "作者": "新手之二",
+          "轮数": "4",
+          "天数": "4",
+          "难度": "3"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-01?oldid=631",
+            "snapshot": "sources/wiki/pages/c15c0e317feb92ba.json",
+            "capturedAt": "2026-09-27T04:57:01.157Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-01?oldid=631",
+            "snapshot": "sources/wiki/pages/c15c0e317feb92ba.json",
+            "capturedAt": "2026-09-27T04:57:01.157Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-01?oldid=631",
+            "snapshot": "sources/wiki/pages/c15c0e317feb92ba.json",
+            "capturedAt": "2026-09-27T04:57:01.157Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-01?oldid=631",
+            "snapshot": "sources/wiki/pages/c15c0e317feb92ba.json",
+            "capturedAt": "2026-09-27T04:57:01.157Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-01?oldid=631",
+            "snapshot": "sources/wiki/pages/c15c0e317feb92ba.json",
+            "capturedAt": "2026-09-27T04:57:01.157Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+            "table": 4,
+            "row": 2
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+            "table": 4,
+            "row": 2
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+            "table": 4,
+            "row": 2
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+            "table": 4,
+            "row": 2
+          },
+          "难度": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+            "table": 4,
+            "row": 2
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-01?oldid=631",
+            "snapshot": "sources/wiki/pages/c15c0e317feb92ba.json",
+            "capturedAt": "2026-09-27T04:57:01.157Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+            "table": 4,
+            "row": 2
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-01?oldid=631",
+              "snapshot": "sources/wiki/pages/c15c0e317feb92ba.json",
+              "capturedAt": "2026-09-27T04:57:01.157Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "SC-01",
+              "loops": 4,
+              "days": 4,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "合谋"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "逼供"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "不安扩散"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "社会运动"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E6%A8%A1%E7%BB%84/%E6%97%A7%E6%A8%A1%E7%BB%84%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/886cd32e99838392.json",
+              "table": 4,
+              "row": 2
+            },
+            "fields": {
+              "scenarioCode": "SC-01",
+              "剧本名": "School Criminal",
+              "作者": "新手之二",
+              "轮数": "4",
+              "天数": "4",
+              "难度": "3"
+            }
+          }
+        ],
+        "body": "text/scenarios/0194ca4eb60a9121.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-01?oldid=631",
+          "snapshot": "sources/wiki/pages/c15c0e317feb92ba.json",
+          "capturedAt": "2026-09-27T04:57:01.157Z"
+        },
+        "wikiTitle": "SC-01",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "SC-01非公开情报表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-01%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-01?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "tags": [
+          "民间模组/旧模组剧本",
+          "Sin City"
+        ],
+        "module": "Sin City"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "3d1fa504727401e0",
+        "title": "SC-01非公开情报表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "SC-01",
+          "loops": 4,
+          "days": 4,
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "稳定的计划"
+            },
+            {
+              "slot": "X1",
+              "name": "污点证人"
+            },
+            {
+              "slot": "X2",
+              "name": "混沌之城"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-01%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8?oldid=632",
+            "snapshot": "sources/wiki/pages/7bcff3ea803e9e69.json",
+            "capturedAt": "2026-09-27T04:57:13.556Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-01%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8?oldid=632",
+            "snapshot": "sources/wiki/pages/7bcff3ea803e9e69.json",
+            "capturedAt": "2026-09-27T04:57:13.556Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-01%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8?oldid=632",
+            "snapshot": "sources/wiki/pages/7bcff3ea803e9e69.json",
+            "capturedAt": "2026-09-27T04:57:13.556Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-01%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8?oldid=632",
+            "snapshot": "sources/wiki/pages/7bcff3ea803e9e69.json",
+            "capturedAt": "2026-09-27T04:57:13.556Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-01%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8?oldid=632",
+            "snapshot": "sources/wiki/pages/7bcff3ea803e9e69.json",
+            "capturedAt": "2026-09-27T04:57:13.556Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-01%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8?oldid=632",
+            "snapshot": "sources/wiki/pages/7bcff3ea803e9e69.json",
+            "capturedAt": "2026-09-27T04:57:13.556Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-01%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8?oldid=632",
+              "snapshot": "sources/wiki/pages/7bcff3ea803e9e69.json",
+              "capturedAt": "2026-09-27T04:57:13.556Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "SC-01",
+              "loops": 4,
+              "days": 4,
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "稳定的计划"
+                },
+                {
+                  "slot": "X1",
+                  "name": "污点证人"
+                },
+                {
+                  "slot": "X2",
+                  "name": "混沌之城"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/3d1fa504727401e0.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-01%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8?oldid=632",
+          "snapshot": "sources/wiki/pages/7bcff3ea803e9e69.json",
+          "capturedAt": "2026-09-27T04:57:13.556Z"
+        },
+        "wikiTitle": "SC-01非公开情报表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "1\tSC-01 非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-01%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8#SC-01_%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "1.1\t剧本特征",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-01%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8#%E5%89%A7%E6%9C%AC%E7%89%B9%E5%BE%81"
+          },
+          {
+            "title": "1.2\t故事",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-01%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8#%E6%95%85%E4%BA%8B"
+          },
+          {
+            "title": "1.3\t剧作家指南",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-01%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8#%E5%89%A7%E4%BD%9C%E5%AE%B6%E6%8C%87%E5%8D%97"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-01%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-01%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-01%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8?action=edit&section=3"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/SC-01%E9%9D%9E%E5%85%AC%E5%BC%80%E6%83%85%E6%8A%A5%E8%A1%A8?action=edit&section=4"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "module": "Sin City",
+        "tags": [
+          "Sin City"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "3d1fa504727401e0"
+  ],
+  "conflicts": []
+}

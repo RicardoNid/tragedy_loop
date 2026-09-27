@@ -1,0 +1,466 @@
+{
+  "id": "98025e3eba99c090",
+  "title": "MC-12",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "MC-12非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "MC-12",
+    "loops": 3,
+    "days": 6,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "前兆"
+      },
+      {
+        "day": 5,
+        "incidentText": "可疑信件"
+      },
+      {
+        "day": 6,
+        "incidentText": "自杀"
+      }
+    ],
+    "剧本名": "刑警的忧郁",
+    "日文名": "刑事の憂鬱",
+    "作者": "ペンスキー（gitti）",
+    "轮数": "3",
+    "天数": "6",
+    "难度": "5"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-12",
+      "snapshot": "sources/wiki/pages/9f0fa8debcbd49a4.json",
+      "capturedAt": "2026-09-27T04:35:41.153Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-12",
+      "snapshot": "sources/wiki/pages/9f0fa8debcbd49a4.json",
+      "capturedAt": "2026-09-27T04:35:41.153Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-12",
+      "snapshot": "sources/wiki/pages/9f0fa8debcbd49a4.json",
+      "capturedAt": "2026-09-27T04:35:41.153Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-12",
+      "snapshot": "sources/wiki/pages/9f0fa8debcbd49a4.json",
+      "capturedAt": "2026-09-27T04:35:41.153Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-12",
+      "snapshot": "sources/wiki/pages/9f0fa8debcbd49a4.json",
+      "capturedAt": "2026-09-27T04:35:41.153Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 14
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 14
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 14
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 14
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 14
+    },
+    "难度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 14
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-12",
+      "snapshot": "sources/wiki/pages/9f0fa8debcbd49a4.json",
+      "capturedAt": "2026-09-27T04:35:41.153Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 14
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/b05f473e31d08477.json",
+      "capturedAt": "2026-09-27T04:35:44.179Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-12",
+        "snapshot": "sources/wiki/pages/9f0fa8debcbd49a4.json",
+        "capturedAt": "2026-09-27T04:35:41.153Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "MC-12",
+        "loops": 3,
+        "days": 6,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "前兆"
+          },
+          {
+            "day": 5,
+            "incidentText": "可疑信件"
+          },
+          {
+            "day": 6,
+            "incidentText": "自杀"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 4,
+        "row": 14
+      },
+      "fields": {
+        "scenarioCode": "MC-12",
+        "剧本名": "刑警的忧郁",
+        "日文名": "刑事の憂鬱",
+        "作者": "ペンスキー（gitti）",
+        "轮数": "3",
+        "天数": "6",
+        "难度": "5"
+      }
+    }
+  ],
+  "wikiTitle": "MC-12",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Mystery Circle"
+  ],
+  "module": "Mystery Circle",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "98025e3eba99c090",
+        "title": "MC-12",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "MC-12",
+          "loops": 3,
+          "days": 6,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "前兆"
+            },
+            {
+              "day": 5,
+              "incidentText": "可疑信件"
+            },
+            {
+              "day": 6,
+              "incidentText": "自杀"
+            }
+          ],
+          "剧本名": "刑警的忧郁",
+          "日文名": "刑事の憂鬱",
+          "作者": "ペンスキー（gitti）",
+          "轮数": "3",
+          "天数": "6",
+          "难度": "5"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-12",
+            "snapshot": "sources/wiki/pages/9f0fa8debcbd49a4.json",
+            "capturedAt": "2026-09-27T04:35:41.153Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-12",
+            "snapshot": "sources/wiki/pages/9f0fa8debcbd49a4.json",
+            "capturedAt": "2026-09-27T04:35:41.153Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-12",
+            "snapshot": "sources/wiki/pages/9f0fa8debcbd49a4.json",
+            "capturedAt": "2026-09-27T04:35:41.153Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-12",
+            "snapshot": "sources/wiki/pages/9f0fa8debcbd49a4.json",
+            "capturedAt": "2026-09-27T04:35:41.153Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-12",
+            "snapshot": "sources/wiki/pages/9f0fa8debcbd49a4.json",
+            "capturedAt": "2026-09-27T04:35:41.153Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 14
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 14
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 14
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 14
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 14
+          },
+          "难度": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 14
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-12",
+            "snapshot": "sources/wiki/pages/9f0fa8debcbd49a4.json",
+            "capturedAt": "2026-09-27T04:35:41.153Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 14
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-12",
+              "snapshot": "sources/wiki/pages/9f0fa8debcbd49a4.json",
+              "capturedAt": "2026-09-27T04:35:41.153Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "MC-12",
+              "loops": 3,
+              "days": 6,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "前兆"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "可疑信件"
+                },
+                {
+                  "day": 6,
+                  "incidentText": "自杀"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 4,
+              "row": 14
+            },
+            "fields": {
+              "scenarioCode": "MC-12",
+              "剧本名": "刑警的忧郁",
+              "日文名": "刑事の憂鬱",
+              "作者": "ペンスキー（gitti）",
+              "轮数": "3",
+              "天数": "6",
+              "难度": "5"
+            }
+          }
+        ],
+        "body": "text/scenarios/98025e3eba99c090.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-12",
+          "snapshot": "sources/wiki/pages/9f0fa8debcbd49a4.json",
+          "capturedAt": "2026-09-27T04:35:41.153Z"
+        },
+        "wikiTitle": "MC-12",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-12?action=edit&section=1"
+          },
+          {
+            "title": "MC-12非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-12?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Mystery Circle"
+        ],
+        "module": "Mystery Circle"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "a6f9de7cfaf0c41b",
+        "title": "MC-12非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "MC-12"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/b05f473e31d08477.json",
+            "capturedAt": "2026-09-27T04:35:44.179Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/b05f473e31d08477.json",
+            "capturedAt": "2026-09-27T04:35:44.179Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/b05f473e31d08477.json",
+            "capturedAt": "2026-09-27T04:35:44.179Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/b05f473e31d08477.json",
+              "capturedAt": "2026-09-27T04:35:44.179Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "MC-12"
+            }
+          }
+        ],
+        "wikiTitle": "MC-12非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Mystery Circle",
+        "tags": [
+          "民间",
+          "Mystery Circle"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "a6f9de7cfaf0c41b"
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,60 @@
+{
+  "id": "46831af79b271b0c",
+  "title": "從者和大小姐位於同一區域，對從者使用了「禁止移動」並且對大小姐使用了「移動↔」，後續怎麼處理？",
+  "kind": "faq",
+  "scope": "纸质 FAQ / 十周年 / Q25",
+  "aliases": [],
+  "fields": {
+    "question": "從者和大小姐位於同一區域，對從者使用了「禁止移動」並且對大小姐使用了「移動↔」，後續怎麼處理？",
+    "answer": "從者會無視自己身上的移動相關卡牌，和大小姐一起移動。"
+  },
+  "provenance": {
+    "question": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+      "snapshot": "sources/paper-faq/anniversary.json",
+      "page": 12,
+      "questionNumber": 25
+    },
+    "answer": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+      "snapshot": "sources/paper-faq/anniversary.json",
+      "page": 12,
+      "questionNumber": 25
+    }
+  },
+  "sources": [
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+      "snapshot": "sources/paper-faq/anniversary.json",
+      "page": 12,
+      "questionNumber": 25
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+        "snapshot": "sources/paper-faq/anniversary.json",
+        "page": 12,
+        "questionNumber": 25
+      },
+      "fields": {
+        "question": "從者和大小姐位於同一區域，對從者使用了「禁止移動」並且對大小姐使用了「移動↔」，後續怎麼處理？",
+        "answer": "從者會無視自己身上的移動相關卡牌，和大小姐一起移動。"
+      }
+    }
+  ],
+  "tags": [
+    "十周年",
+    "纸质 FAQ",
+    "角色",
+    "官方"
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+  "conflicts": []
+}

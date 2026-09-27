@@ -1,0 +1,150 @@
+{
+  "id": "be5602a2f11bd127",
+  "title": "十字军",
+  "kind": "characters",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "角色名": "十字军",
+    "初始区域": "神社",
+    "禁行区域": "无",
+    "不安限度": "4",
+    "属性": [
+      "成人",
+      "男性"
+    ],
+    "特性": "如果该角色拥有超自然特性，那么该角色也获得必定无视友好特性",
+    "友好能力": [
+      {
+        "text": "（友好3）让同一区域任意1名角色死亡，如果那名角色没有超自然特性，主人公失败（轮回立即结束？）",
+        "threshold": 3,
+        "limitText": ""
+      }
+    ]
+  },
+  "provenance": {
+    "角色名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%8D%81%E5%AD%97%E5%86%9B",
+      "snapshot": "sources/wiki/pages/2b04c9849f0fa169.json",
+      "capturedAt": "2026-09-27T03:31:36.708Z"
+    },
+    "初始区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%8D%81%E5%AD%97%E5%86%9B",
+      "snapshot": "sources/wiki/pages/2b04c9849f0fa169.json",
+      "capturedAt": "2026-09-27T03:31:36.708Z"
+    },
+    "禁行区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%8D%81%E5%AD%97%E5%86%9B",
+      "snapshot": "sources/wiki/pages/2b04c9849f0fa169.json",
+      "capturedAt": "2026-09-27T03:31:36.708Z"
+    },
+    "不安限度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%8D%81%E5%AD%97%E5%86%9B",
+      "snapshot": "sources/wiki/pages/2b04c9849f0fa169.json",
+      "capturedAt": "2026-09-27T03:31:36.708Z"
+    },
+    "属性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%8D%81%E5%AD%97%E5%86%9B",
+      "snapshot": "sources/wiki/pages/2b04c9849f0fa169.json",
+      "capturedAt": "2026-09-27T03:31:36.708Z"
+    },
+    "特性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%8D%81%E5%AD%97%E5%86%9B",
+      "snapshot": "sources/wiki/pages/2b04c9849f0fa169.json",
+      "capturedAt": "2026-09-27T03:31:36.708Z"
+    },
+    "友好能力": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%8D%81%E5%AD%97%E5%86%9B",
+      "snapshot": "sources/wiki/pages/2b04c9849f0fa169.json",
+      "capturedAt": "2026-09-27T03:31:36.708Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%8D%81%E5%AD%97%E5%86%9B",
+      "snapshot": "sources/wiki/pages/2b04c9849f0fa169.json",
+      "capturedAt": "2026-09-27T03:31:36.708Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%8D%81%E5%AD%97%E5%86%9B",
+        "snapshot": "sources/wiki/pages/2b04c9849f0fa169.json",
+        "capturedAt": "2026-09-27T03:31:36.708Z"
+      },
+      "fields": {
+        "角色名": "十字军",
+        "初始区域": "神社",
+        "禁行区域": "无",
+        "不安限度": "4",
+        "属性": [
+          "成人",
+          "男性"
+        ],
+        "特性": "如果该角色拥有超自然特性，那么该角色也获得必定无视友好特性",
+        "友好能力": [
+          {
+            "text": "（友好3）让同一区域任意1名角色死亡，如果那名角色没有超自然特性，主人公失败（轮回立即结束？）",
+            "threshold": 3,
+            "limitText": ""
+          }
+        ]
+      }
+    }
+  ],
+  "body": "text/characters/be5602a2f11bd127.txt",
+  "bodySource": {
+    "provider": "wiki",
+    "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%8D%81%E5%AD%97%E5%86%9B",
+    "snapshot": "sources/wiki/pages/2b04c9849f0fa169.json",
+    "capturedAt": "2026-09-27T03:31:36.708Z"
+  },
+  "wikiTitle": "十字军",
+  "originalTables": [],
+  "wikiStatus": "captured",
+  "links": [
+    {
+      "title": "<img style=\"\" src=\"https://static.wikia.nocookie.net/tragedyrooper/images/0/05/%E5%8D%81%E5%AD%97%E5%86%9B.png/revision/latest/scale-to-width-down/131?cb=20251024101211&amp;path-prefix=zh\" title=\"十字军.png (409 KB)\" class=\"thumbimage\" alt=\"\" height=\"185\" width=\"185\" data-image-name=\"十字军.png\" data-image-key=\"%E5%8D%81%E5%AD%97%E5%86%9B.png\" data-relevant=\"1\">",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%8D%81%E5%AD%97%E5%86%9B.png"
+    }
+  ],
+  "images": [
+    {
+      "alt": "",
+      "src": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+    }
+  ],
+  "media": [
+    {
+      "title": "十字军.png",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%8D%81%E5%AD%97%E5%86%9B.png",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/0/05/%E5%8D%81%E5%AD%97%E5%86%9B.png/revision/latest?cb=20251024101211&format=original&path-prefix=zh",
+      "path": "media/wiki/8d47bba80379a93c.png",
+      "sourceRecord": "sources/wiki/files/8d47bba80379a93c.json",
+      "sha256": "5ec8d4fc949305ae8cbbcfe0e5d802b1edb1cb1d17aa61b62d2185b50893852b",
+      "bytes": 418905,
+      "fileInfo": "PNG image data, 392 x 552, 8-bit/color RGBA, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/6fadb2d7054aeea7.json",
+  "tags": [
+    "成人",
+    "男性",
+    "民间"
+  ],
+  "conflicts": []
+}

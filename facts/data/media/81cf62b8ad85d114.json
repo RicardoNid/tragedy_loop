@@ -1,0 +1,60 @@
+{
+  "id": "81cf62b8ad85d114",
+  "title": "猫.png",
+  "kind": "media",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "bytes": 206121,
+    "sha256": "0f5f90e75080eaa6056b3ad81b060a7fff964308d6bdfcb3308d9c55f9528ff9"
+  },
+  "provenance": {
+    "bytes": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E7%8C%AB.png",
+      "snapshot": "sources/wiki/files/6962155fb8ba8524.json"
+    },
+    "sha256": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E7%8C%AB.png",
+      "snapshot": "sources/wiki/files/6962155fb8ba8524.json"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E7%8C%AB.png",
+      "snapshot": "sources/wiki/files/6962155fb8ba8524.json"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E7%8C%AB.png",
+        "snapshot": "sources/wiki/files/6962155fb8ba8524.json"
+      },
+      "fields": {
+        "bytes": 206121,
+        "sha256": "0f5f90e75080eaa6056b3ad81b060a7fff964308d6bdfcb3308d9c55f9528ff9"
+      }
+    }
+  ],
+  "media": [
+    {
+      "title": "猫.png",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:%E7%8C%AB.png",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/0/00/%E7%8C%AB.png/revision/latest?cb=20251023162227&format=original&path-prefix=zh",
+      "path": "media/wiki/6962155fb8ba8524.png",
+      "sourceRecord": "sources/wiki/files/6962155fb8ba8524.json",
+      "sha256": "0f5f90e75080eaa6056b3ad81b060a7fff964308d6bdfcb3308d9c55f9528ff9",
+      "bytes": 206121,
+      "fileInfo": "PNG image data, 302 x 421, 8-bit/color RGBA, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "tags": [],
+  "conflicts": []
+}

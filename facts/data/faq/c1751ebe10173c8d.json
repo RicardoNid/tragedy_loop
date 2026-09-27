@@ -1,0 +1,67 @@
+{
+  "id": "c1751ebe10173c8d",
+  "title": "先发情报商能力被拒绝，之后放置希望之后可以再发吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 基础规则 / 第 66 行",
+  "aliases": [],
+  "fields": {
+    "question": "先发情报商能力被拒绝，之后放置希望之后可以再发吗？",
+    "answer": "可以，拒绝之后轮限不视为已使用"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+      "snapshot": "sources/faq-sheet/basic.json",
+      "sheet": "基础规则",
+      "row": 66,
+      "cells": "A66:B66",
+      "capturedAt": "2026-09-27T05:40:57.223Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+      "snapshot": "sources/faq-sheet/basic.json",
+      "sheet": "基础规则",
+      "row": 66,
+      "cells": "A66:B66",
+      "capturedAt": "2026-09-27T05:40:57.223Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+      "snapshot": "sources/faq-sheet/basic.json",
+      "sheet": "基础规则",
+      "row": 66,
+      "cells": "A66:B66",
+      "capturedAt": "2026-09-27T05:40:57.223Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+        "snapshot": "sources/faq-sheet/basic.json",
+        "sheet": "基础规则",
+        "row": 66,
+        "cells": "A66:B66",
+        "capturedAt": "2026-09-27T05:40:57.223Z"
+      },
+      "fields": {
+        "question": "先发情报商能力被拒绝，之后放置希望之后可以再发吗？",
+        "answer": "可以，拒绝之后轮限不视为已使用"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "基础规则",
+    "关于希望和绝望",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

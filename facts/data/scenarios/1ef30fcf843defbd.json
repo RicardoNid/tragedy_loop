@@ -1,0 +1,430 @@
+{
+  "id": "1ef30fcf843defbd",
+  "title": "AHR-11",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "AHR-11非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "AHR-11",
+    "loops": 10,
+    "days": 3,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "绝望之暗"
+      },
+      {
+        "day": 2,
+        "incidentText": "次元转换"
+      },
+      {
+        "day": 3,
+        "incidentText": "遗言"
+      }
+    ],
+    "剧本名": "童话里怎会有绝望",
+    "作者": "清尘",
+    "轮数": "10 8",
+    "天数": "3"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-11",
+      "snapshot": "sources/wiki/pages/40cfb057c136913d.json",
+      "capturedAt": "2026-09-27T03:41:09.957Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-11",
+      "snapshot": "sources/wiki/pages/40cfb057c136913d.json",
+      "capturedAt": "2026-09-27T03:41:09.957Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-11",
+      "snapshot": "sources/wiki/pages/40cfb057c136913d.json",
+      "capturedAt": "2026-09-27T03:41:09.957Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-11",
+      "snapshot": "sources/wiki/pages/40cfb057c136913d.json",
+      "capturedAt": "2026-09-27T03:41:09.957Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-11",
+      "snapshot": "sources/wiki/pages/40cfb057c136913d.json",
+      "capturedAt": "2026-09-27T03:41:09.957Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 12
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 12
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 12
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 12
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-11",
+      "snapshot": "sources/wiki/pages/40cfb057c136913d.json",
+      "capturedAt": "2026-09-27T03:41:09.957Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 12
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/5ca01c15c462f1cf.json",
+      "capturedAt": "2026-09-27T03:41:12.756Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-11",
+        "snapshot": "sources/wiki/pages/40cfb057c136913d.json",
+        "capturedAt": "2026-09-27T03:41:09.957Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "AHR-11",
+        "loops": 10,
+        "days": 3,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "绝望之暗"
+          },
+          {
+            "day": 2,
+            "incidentText": "次元转换"
+          },
+          {
+            "day": 3,
+            "incidentText": "遗言"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 7,
+        "row": 12
+      },
+      "fields": {
+        "scenarioCode": "AHR-11",
+        "剧本名": "童话里怎会有绝望",
+        "作者": "清尘",
+        "轮数": "10 8",
+        "天数": "3"
+      }
+    }
+  ],
+  "wikiTitle": "AHR-11",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Another Horizon Revised"
+  ],
+  "module": "Another Horizon Revised",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "1ef30fcf843defbd",
+        "title": "AHR-11",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "AHR-11",
+          "loops": 10,
+          "days": 3,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "绝望之暗"
+            },
+            {
+              "day": 2,
+              "incidentText": "次元转换"
+            },
+            {
+              "day": 3,
+              "incidentText": "遗言"
+            }
+          ],
+          "剧本名": "童话里怎会有绝望",
+          "作者": "清尘",
+          "轮数": "10 8",
+          "天数": "3"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-11",
+            "snapshot": "sources/wiki/pages/40cfb057c136913d.json",
+            "capturedAt": "2026-09-27T03:41:09.957Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-11",
+            "snapshot": "sources/wiki/pages/40cfb057c136913d.json",
+            "capturedAt": "2026-09-27T03:41:09.957Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-11",
+            "snapshot": "sources/wiki/pages/40cfb057c136913d.json",
+            "capturedAt": "2026-09-27T03:41:09.957Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-11",
+            "snapshot": "sources/wiki/pages/40cfb057c136913d.json",
+            "capturedAt": "2026-09-27T03:41:09.957Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-11",
+            "snapshot": "sources/wiki/pages/40cfb057c136913d.json",
+            "capturedAt": "2026-09-27T03:41:09.957Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 12
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 12
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 12
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 12
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-11",
+            "snapshot": "sources/wiki/pages/40cfb057c136913d.json",
+            "capturedAt": "2026-09-27T03:41:09.957Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 12
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-11",
+              "snapshot": "sources/wiki/pages/40cfb057c136913d.json",
+              "capturedAt": "2026-09-27T03:41:09.957Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "AHR-11",
+              "loops": 10,
+              "days": 3,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "绝望之暗"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "次元转换"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "遗言"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 7,
+              "row": 12
+            },
+            "fields": {
+              "scenarioCode": "AHR-11",
+              "剧本名": "童话里怎会有绝望",
+              "作者": "清尘",
+              "轮数": "10 8",
+              "天数": "3"
+            }
+          }
+        ],
+        "body": "text/scenarios/1ef30fcf843defbd.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-11",
+          "snapshot": "sources/wiki/pages/40cfb057c136913d.json",
+          "capturedAt": "2026-09-27T03:41:09.957Z"
+        },
+        "wikiTitle": "AHR-11",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-11?action=edit&section=1"
+          },
+          {
+            "title": "AHR-11非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-11?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Another Horizon Revised"
+        ],
+        "module": "Another Horizon Revised"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "ba38b2478ff1f4d7",
+        "title": "AHR-11非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "AHR-11"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/5ca01c15c462f1cf.json",
+            "capturedAt": "2026-09-27T03:41:12.756Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/5ca01c15c462f1cf.json",
+            "capturedAt": "2026-09-27T03:41:12.756Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/5ca01c15c462f1cf.json",
+            "capturedAt": "2026-09-27T03:41:12.756Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/5ca01c15c462f1cf.json",
+              "capturedAt": "2026-09-27T03:41:12.756Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "AHR-11"
+            }
+          }
+        ],
+        "wikiTitle": "AHR-11非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Another Horizon Revised",
+        "tags": [
+          "民间",
+          "Another Horizon Revised"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "ba38b2478ff1f4d7"
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,60 @@
+{
+  "id": "2764ced8c6999048",
+  "title": "通過學者的友好能力使得Ex槽上升了。如果我在同一天進行世界移動，Ex槽還會上升嗎？",
+  "kind": "faq",
+  "scope": "纸质 FAQ / AHR / Q6",
+  "aliases": [],
+  "fields": {
+    "question": "通過學者的友好能力使得Ex槽上升了。如果我在同一天進行世界移動，Ex槽還會上升嗎？",
+    "answer": "會。學者的能力直接影響Ex槽並不屬於世界移動行為。因此重複進行世界移動時，Ex槽只能夠上升1次的規則也與學者的能力無關。"
+  },
+  "provenance": {
+    "question": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+      "snapshot": "sources/paper-faq/another-horizon-revised.json",
+      "page": 15,
+      "questionNumber": 6
+    },
+    "answer": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+      "snapshot": "sources/paper-faq/another-horizon-revised.json",
+      "page": 15,
+      "questionNumber": 6
+    }
+  },
+  "sources": [
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+      "snapshot": "sources/paper-faq/another-horizon-revised.json",
+      "page": 15,
+      "questionNumber": 6
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+        "snapshot": "sources/paper-faq/another-horizon-revised.json",
+        "page": 15,
+        "questionNumber": 6
+      },
+      "fields": {
+        "question": "通過學者的友好能力使得Ex槽上升了。如果我在同一天進行世界移動，Ex槽還會上升嗎？",
+        "answer": "會。學者的能力直接影響Ex槽並不屬於世界移動行為。因此重複進行世界移動時，Ex槽只能夠上升1次的規則也與學者的能力無關。"
+      }
+    }
+  ],
+  "tags": [
+    "AHR",
+    "纸质 FAQ",
+    "规则",
+    "官方"
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+  "conflicts": []
+}

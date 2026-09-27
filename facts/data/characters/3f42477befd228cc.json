@@ -1,0 +1,166 @@
+{
+  "id": "3f42477befd228cc",
+  "title": "御神木",
+  "kind": "characters",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "角色名": "御神木",
+    "初始区域": "神社",
+    "禁行区域": "学校 都市 医院",
+    "不安限度": "4",
+    "属性": [
+      "植物"
+    ],
+    "特性": "主人公在每个回合的主人公能力阶段，可以将该角色身上的1枚指示物移动至同一区域的另外1名角色身上。如果该角色带有无视友好的特性，剧作家必须在剧作家能力阶段使用此特性（强制）"
+  },
+  "provenance": {
+    "角色名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%BE%A1%E7%A5%9E%E6%9C%A8",
+      "snapshot": "sources/wiki/pages/18393f4b04965e9b.json",
+      "capturedAt": "2026-09-27T03:32:46.492Z"
+    },
+    "初始区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%BE%A1%E7%A5%9E%E6%9C%A8",
+      "snapshot": "sources/wiki/pages/18393f4b04965e9b.json",
+      "capturedAt": "2026-09-27T03:32:46.492Z"
+    },
+    "禁行区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%BE%A1%E7%A5%9E%E6%9C%A8",
+      "snapshot": "sources/wiki/pages/18393f4b04965e9b.json",
+      "capturedAt": "2026-09-27T03:32:46.492Z"
+    },
+    "不安限度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%BE%A1%E7%A5%9E%E6%9C%A8",
+      "snapshot": "sources/wiki/pages/18393f4b04965e9b.json",
+      "capturedAt": "2026-09-27T03:32:46.492Z"
+    },
+    "属性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%BE%A1%E7%A5%9E%E6%9C%A8",
+      "snapshot": "sources/wiki/pages/18393f4b04965e9b.json",
+      "capturedAt": "2026-09-27T03:32:46.492Z"
+    },
+    "特性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%BE%A1%E7%A5%9E%E6%9C%A8",
+      "snapshot": "sources/wiki/pages/18393f4b04965e9b.json",
+      "capturedAt": "2026-09-27T03:32:46.492Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%BE%A1%E7%A5%9E%E6%9C%A8",
+      "snapshot": "sources/wiki/pages/18393f4b04965e9b.json",
+      "capturedAt": "2026-09-27T03:32:46.492Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%BE%A1%E7%A5%9E%E6%9C%A8",
+        "snapshot": "sources/wiki/pages/18393f4b04965e9b.json",
+        "capturedAt": "2026-09-27T03:32:46.492Z"
+      },
+      "fields": {
+        "角色名": "御神木",
+        "初始区域": "神社",
+        "禁行区域": "学校 都市 医院",
+        "不安限度": "4",
+        "属性": [
+          "植物"
+        ],
+        "特性": "主人公在每个回合的主人公能力阶段，可以将该角色身上的1枚指示物移动至同一区域的另外1名角色身上。如果该角色带有无视友好的特性，剧作家必须在剧作家能力阶段使用此特性（强制）"
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "特性": "主人公在每个回合的主人公能力阶段，可以将该角色身上的1枚指示物移动至同一区域的另外1名角色身上。如果该角色带有无视友好的特性，剧作家必须在剧作家能力阶段使用此特性。（剧作家可选择使用时机）",
+        "属性": [
+          "植物"
+        ],
+        "初始区域": "神社",
+        "禁行区域": "学校，都市，医院",
+        "不安限度": "4",
+        "友好能力": []
+      }
+    }
+  ],
+  "body": "text/characters/3f42477befd228cc.txt",
+  "bodySource": {
+    "provider": "wiki",
+    "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%BE%A1%E7%A5%9E%E6%9C%A8",
+    "snapshot": "sources/wiki/pages/18393f4b04965e9b.json",
+    "capturedAt": "2026-09-27T03:32:46.492Z"
+  },
+  "wikiTitle": "御神木",
+  "originalTables": [],
+  "wikiStatus": "captured",
+  "links": [
+    {
+      "title": "<img style=\"\" src=\"https://static.wikia.nocookie.net/tragedyrooper/images/f/f7/%E5%BE%A1%E7%A5%9E%E6%9C%A8.png/revision/latest/scale-to-width-down/133?cb=20251023162229&amp;path-prefix=zh\" title=\"御神木.png (274 KB)\" class=\"thumbimage\" alt=\"\" height=\"185\" width=\"185\" data-image-name=\"御神木.png\" data-image-key=\"%E5%BE%A1%E7%A5%9E%E6%9C%A8.png\" data-relevant=\"1\">",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%BE%A1%E7%A5%9E%E6%9C%A8.png"
+    }
+  ],
+  "images": [
+    {
+      "alt": "",
+      "src": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+    }
+  ],
+  "media": [
+    {
+      "title": "御神木.png",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%BE%A1%E7%A5%9E%E6%9C%A8.png",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/f/f7/%E5%BE%A1%E7%A5%9E%E6%9C%A8.png/revision/latest?cb=20251023162229&format=original&path-prefix=zh",
+      "path": "media/wiki/7226f7019e235bd6.png",
+      "sourceRecord": "sources/wiki/files/7226f7019e235bd6.json",
+      "sha256": "6d0f2bf0872daaa9a99ea30245356f25e4bb070702153916ff22bd150f7a84ff",
+      "bytes": 281018,
+      "fileInfo": "PNG image data, 308 x 427, 8-bit/color RGBA, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/6fadb2d7054aeea7.json",
+  "tags": [
+    "植物",
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "特性",
+      "selected": "主人公在每个回合的主人公能力阶段，可以将该角色身上的1枚指示物移动至同一区域的另外1名角色身上。如果该角色带有无视友好的特性，剧作家必须在剧作家能力阶段使用此特性（强制）",
+      "candidate": "主人公在每个回合的主人公能力阶段，可以将该角色身上的1枚指示物移动至同一区域的另外1名角色身上。如果该角色带有无视友好的特性，剧作家必须在剧作家能力阶段使用此特性。（剧作家可选择使用时机）",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "禁行区域",
+      "selected": "学校 都市 医院",
+      "candidate": "学校，都市，医院",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    }
+  ]
+}

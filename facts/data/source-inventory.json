@@ -1,0 +1,330 @@
+[
+  {
+    "path": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+    "provider": "lloyd",
+    "sha256": "f97244ae3cf30fb63c693789130c1cb824fbfd684119e7a91046615a2951479c",
+    "treatment": "source-attachment",
+    "entryId": "c2f7a727fc3ca849"
+  },
+  {
+    "path": "sources/lunhui/5e4d811055e32254199f84835b012043.jpg",
+    "provider": "lloyd",
+    "sha256": "9ecec366bb09b8885755ef3622fc16d9b8c1ca5403a6f14adf3c3f45a1154766",
+    "treatment": "source-attachment",
+    "entryId": "3ac3d2a69b3b80e5"
+  },
+  {
+    "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+    "provider": "lloyd",
+    "sha256": "d7489f8a02669267aff05615ae79614d7725118e66d0d8b9133e93f3fff5418a",
+    "treatment": "source-attachment",
+    "entryId": "4c92d6c6bd6ed414"
+  },
+  {
+    "path": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+    "provider": "lloyd",
+    "sha256": "b9d56eb368d6ae515e83022c63c6a067f3e7c1a37fb94403f7b6115616fbeba6",
+    "treatment": "source-attachment",
+    "entryId": "c94381cf5c48fbe8"
+  },
+  {
+    "path": "sources/lunhui/FAQ历史/在线FAQ流程复核（2026-09-22）.md",
+    "provider": "lloyd",
+    "sha256": "0481672bf40861de2dac6cb4239f5de7b06aca45a533234d464a9629184a9783",
+    "treatment": "reader-entry",
+    "entryId": "671fb3821fa1a183"
+  },
+  {
+    "path": "sources/lunhui/appendix-data.json",
+    "provider": "lloyd",
+    "sha256": "eb5f0daa970078c78c5e03f972664e33e587668d6852d4bc8559c2a0b4f95e6b",
+    "treatment": "structured-source"
+  },
+  {
+    "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md",
+    "provider": "lloyd",
+    "sha256": "0697a4e41effcdb8ebc116ec9b4a14630b7df268f8679ffef369ccf263498c1c",
+    "treatment": "reader-entry",
+    "entryId": "b95c5cd736df73b2"
+  },
+  {
+    "path": "sources/lunhui/tragedy_loop_appendix_module_audit(1)(2).md",
+    "provider": "lloyd",
+    "sha256": "eeda27d916c861dc9676a4be8400a75cffaea8dc520e51ec0a00059098234add",
+    "treatment": "reader-entry",
+    "entryId": "d1040408adbfbb41"
+  },
+  {
+    "path": "sources/lunhui/tragedy_loop_development(2)(1).md",
+    "provider": "lloyd",
+    "sha256": "d6df1bf9958d9d9cd2b2d09506e31e47c87ac0396525c9c9aa1e23f497ddd76f",
+    "treatment": "engineering-source-only"
+  },
+  {
+    "path": "sources/lunhui/tragedy_loop_game_rules(3)(1).md",
+    "provider": "lloyd",
+    "sha256": "02ba734e8c2838add791a7104af28af0d12dfebdd34f8b82153c6f92ef69f14a",
+    "treatment": "reader-entry",
+    "entryId": "156717aa7f6b1574"
+  },
+  {
+    "path": "sources/lunhui/主人公之书(3)(1).txt",
+    "provider": "lloyd",
+    "sha256": "555fdb666b5979f7f2109a06fd90c0ac2d67526d9763946047b1e33963d16591",
+    "treatment": "reader-entry",
+    "entryId": "f82c02b2ecd5e14e"
+  },
+  {
+    "path": "sources/lunhui/事件阶段逻辑样例.md",
+    "provider": "lloyd",
+    "sha256": "29eb929182b6b3e344b97a22deebe2fa590ba94ef7ed03d88e73288583ee935f",
+    "treatment": "reader-entry",
+    "entryId": "6cda708f32f18238"
+  },
+  {
+    "path": "sources/lunhui/全阶段逻辑样例.md",
+    "provider": "lloyd",
+    "sha256": "c2053e8d0a3c16b9fefd41d2f5c478b47c530817c1abc5ae369b5031693c4869",
+    "treatment": "reader-entry",
+    "entryId": "308fc73ab869b7c4"
+  },
+  {
+    "path": "sources/lunhui/在线FAQ流程复核（2026-09-22）.md",
+    "provider": "lloyd",
+    "sha256": "fb485ae564f0b17ff86f8ed68b185515cb9a87ae4a1644d71d259c58c88411dd",
+    "treatment": "reader-entry",
+    "entryId": "671fb3821fa1a183"
+  },
+  {
+    "path": "sources/lunhui/开发框架-01-工具选型.md",
+    "provider": "lloyd",
+    "sha256": "56df492681ed6b5bd42cfa75743f1d8c959fd425688c55e325e0b76e512d2e88",
+    "treatment": "engineering-source-only"
+  },
+  {
+    "path": "sources/lunhui/开发框架-02-规则引擎模板.md",
+    "provider": "lloyd",
+    "sha256": "f75dd9f8a076cde6b923f869e7298c4dfdb40d644c3c75d2edbc3a31bd04b88e",
+    "treatment": "engineering-source-only"
+  },
+  {
+    "path": "sources/lunhui/开发框架-03-开发流程.md",
+    "provider": "lloyd",
+    "sha256": "3e78d973990891882f0b684fae85dfc31954344e60f87d6d76993e5caa4a64cb",
+    "treatment": "engineering-source-only"
+  },
+  {
+    "path": "sources/lunhui/既有规则裁定摘录.md",
+    "provider": "lloyd",
+    "sha256": "8cabe36df176249e91ef998adc0801914b43bbb270d1125a84c9586ed9f74d29",
+    "treatment": "reader-entry",
+    "entryId": "e0c74efbf4909132"
+  },
+  {
+    "path": "sources/lunhui/步骤结算流程（独立稿）.md",
+    "provider": "lloyd",
+    "sha256": "33cabc2c7523f1fd9be99519fc0bfbdeb5c63fb97bcf350f371867f62e183026",
+    "treatment": "reader-entry",
+    "entryId": "b0829b595b77aa65"
+  },
+  {
+    "path": "sources/lunhui/轮回术语修改计划(1).md",
+    "provider": "lloyd",
+    "sha256": "7d28adb9df61f22061765d68ee036bfff11eb7e31d8ab15b65cfe0a1d66d8a6d",
+    "treatment": "reader-entry",
+    "entryId": "07e7322795e9c687"
+  },
+  {
+    "path": "sources/ricardo/reference/character-cards/cards.md",
+    "provider": "ricardo",
+    "sha256": "3b69b60188a7597c671f066920b6d0009547ca3cb281341149b5824e9f03ac9e",
+    "treatment": "reader-entry",
+    "entryId": "5fb57ba1d9cf1f47"
+  },
+  {
+    "path": "sources/ricardo/reference/module/identity-traits.md",
+    "provider": "ricardo",
+    "sha256": "09df71fe16e1e8dcc1a188fb209e3fe93c490dfb6fc2f577806c1a30c43c78de",
+    "treatment": "reader-entry",
+    "entryId": "d25d0f797965378b"
+  },
+  {
+    "path": "sources/ricardo/reference/module/modules/another-horizon-r.md",
+    "provider": "ricardo",
+    "sha256": "76e1103edf929cfcfd61ba752d44fda842431b3940dd939878810c6fe91713f6",
+    "treatment": "reader-entry",
+    "entryId": "dcc8d351794e56f5"
+  },
+  {
+    "path": "sources/ricardo/reference/module/modules/basic-tragedy-x.md",
+    "provider": "ricardo",
+    "sha256": "79f0b54eb48a21d6f9fd2d7d61a39f50961b09d7820ea296977b7559cad9ff56",
+    "treatment": "reader-entry",
+    "entryId": "5591c3336674bda0"
+  },
+  {
+    "path": "sources/ricardo/reference/module/modules/first-steps.md",
+    "provider": "ricardo",
+    "sha256": "35f63bf7da345d2cad96f470d15810c2a587ece3dbcc17db0fe5bb51c59dc89a",
+    "treatment": "reader-entry",
+    "entryId": "62a1a4734d559e10"
+  },
+  {
+    "path": "sources/ricardo/reference/module/modules/haunted-stage-a.md",
+    "provider": "ricardo",
+    "sha256": "3bca3ef911d2f1d793af5b36d986c51db4c893566d5a72069038ce60c551c846",
+    "treatment": "reader-entry",
+    "entryId": "1bfa535200f4e08b"
+  },
+  {
+    "path": "sources/ricardo/reference/module/modules/last-liar.md",
+    "provider": "ricardo",
+    "sha256": "1de3b56fcf2d50f9ea2e54f4e6c5b5ba2f5995ff002f1e35bc3569cb84abc287",
+    "treatment": "reader-entry",
+    "entryId": "de417edd3a792366"
+  },
+  {
+    "path": "sources/ricardo/reference/module/modules/midnight-zone.md",
+    "provider": "ricardo",
+    "sha256": "60ae3e2c8634a86470ec9b4bd4b90aa781b58cfe917674a6ccaff0792a1a40df",
+    "treatment": "reader-entry",
+    "entryId": "64bf59670575d54d"
+  },
+  {
+    "path": "sources/ricardo/reference/module/modules/mystery-circle.md",
+    "provider": "ricardo",
+    "sha256": "597c1bcd461984a9280280a850f3fa14136bf1c8f7c96f5743a43791ddee82e6",
+    "treatment": "reader-entry",
+    "entryId": "6335a554f4582f65"
+  },
+  {
+    "path": "sources/ricardo/reference/module/modules/weird-mythology.md",
+    "provider": "ricardo",
+    "sha256": "47295370c9d4771dee741290cf8107238756e17eff20743e59735a2226aea381",
+    "treatment": "reader-entry",
+    "entryId": "b82967fa65d7ea99"
+  },
+  {
+    "path": "working/ricardo/FAQ.md",
+    "provider": "ricardo",
+    "sha256": "da9c0e72d351d1eb24d8fd3db17d30a3c3bb85480b8b5fc86d9e9b5f8aff3ab5",
+    "treatment": "reader-entry",
+    "entryId": "5d1ec028d9ca8bc2"
+  },
+  {
+    "path": "working/ricardo/modules/first-steps.json",
+    "provider": "ricardo",
+    "sha256": "d809d1ae9bac2c27e3bce83214f2570160f64a0d661aed4ff5ac6b7d6ba40a74",
+    "treatment": "structured-source"
+  },
+  {
+    "path": "working/ricardo/modules/module-index.json",
+    "provider": "ricardo",
+    "sha256": "239b7f488f6a7c5dba74abe7811b8953290e9e68358b96adc04efe826b51deec",
+    "treatment": "structured-source"
+  },
+  {
+    "path": "working/ricardo/rules/protagonist-book-state-machine.md",
+    "provider": "ricardo",
+    "sha256": "e144ea86dfe9ea1fccdcf1686241bd913109b98d0790fbebb563832c375d5c79",
+    "treatment": "reader-entry",
+    "entryId": "49f9c22ef4c98632"
+  },
+  {
+    "path": "working/ricardo/scenario-drafts/current-play.md",
+    "provider": "ricardo",
+    "sha256": "8f282c3ef9dde06376984546f3381fafaa5714e49d77d6afa6b2e87b00190569",
+    "treatment": "reader-entry",
+    "entryId": "50097f09c77e5bc8"
+  },
+  {
+    "path": "sources/faq-sheet/ahr.json",
+    "provider": "wiki",
+    "sha256": "cd17767fdaae26739287d275f2c495a6c052a1ab532dc8561898af2af6c7bc71",
+    "treatment": "faq-source"
+  },
+  {
+    "path": "sources/faq-sheet/basic.json",
+    "provider": "wiki",
+    "sha256": "6833d5b0ebe338cef38a81e1a0d35ee4c6fb9f57ae874225f63e07e369f3c328",
+    "treatment": "faq-source"
+  },
+  {
+    "path": "sources/faq-sheet/characters.json",
+    "provider": "wiki",
+    "sha256": "a04e5805d8c4654770c099e50dbee9b06e183bf18ae0cf519479c1b5fe178743",
+    "treatment": "faq-source"
+  },
+  {
+    "path": "sources/faq-sheet/discussion.json",
+    "provider": "wiki",
+    "sha256": "5bc0707f00a9894e0c636ea3e40f57bc2778889ee91decbe91214eda493d1b5c",
+    "treatment": "faq-source"
+  },
+  {
+    "path": "sources/faq-sheet/fs-btx.json",
+    "provider": "wiki",
+    "sha256": "d815776698ca799921177dcaac402a0e1def52445da9ae311f85e35240a450d8",
+    "treatment": "faq-source"
+  },
+  {
+    "path": "sources/faq-sheet/hsa.json",
+    "provider": "wiki",
+    "sha256": "a482c06e25b409fc3ba17ee25341096cef2f6d1a376b770b81c5c4c26d406914",
+    "treatment": "faq-source"
+  },
+  {
+    "path": "sources/faq-sheet/ll.json",
+    "provider": "wiki",
+    "sha256": "d83f9d711bd21ad472a20497df55fcca7fef008d003037874d2c6663721e1fcf",
+    "treatment": "faq-source"
+  },
+  {
+    "path": "sources/faq-sheet/mc.json",
+    "provider": "wiki",
+    "sha256": "54a192f28005daa03ba243067f9ad7cbbbb7d2dd76f79df6f59740f34f401e27",
+    "treatment": "faq-source"
+  },
+  {
+    "path": "sources/faq-sheet/mz.json",
+    "provider": "wiki",
+    "sha256": "5baf34a8e23f9e9ecf3d4ebe8798d0351722f3414260e8a6c6dc99ca488e5890",
+    "treatment": "faq-source"
+  },
+  {
+    "path": "sources/faq-sheet/preface.json",
+    "provider": "wiki",
+    "sha256": "7eb932ae302968b1618d01b58c22f2add3dfd132c506094306b5e42dc4e3186b",
+    "treatment": "faq-source"
+  },
+  {
+    "path": "sources/faq-sheet/promo.json",
+    "provider": "wiki",
+    "sha256": "d8433dd6ab1c97fdd3c6d9a6e0332265752a146b4e0ce27645fef4bf72158e22",
+    "treatment": "faq-source"
+  },
+  {
+    "path": "sources/faq-sheet/wm.json",
+    "provider": "wiki",
+    "sha256": "63078e422219cfc9ab53f09c853469364a3b404a528765dde78cc5fff1ad6848",
+    "treatment": "faq-source"
+  },
+  {
+    "path": "sources/paper-faq/anniversary.json",
+    "provider": "lloyd",
+    "sha256": "5e54a24b2ff5f0bb5aa9417609ba31ff85ba8d3825bf415e08af3f5ec2dc31ed",
+    "treatment": "faq-source"
+  },
+  {
+    "path": "sources/paper-faq/another-horizon-revised.json",
+    "provider": "lloyd",
+    "sha256": "5f4fc8d692db77d601c349bead77b1057a0c74c36a7ccc5e6b60defd7c0a8ae5",
+    "treatment": "faq-source"
+  },
+  {
+    "path": "sources/paper-faq/last-liar.json",
+    "provider": "lloyd",
+    "sha256": "cc667cbc6dc67913e094148f5e0b312bff57463eb19663e93b36058d800a8783",
+    "treatment": "faq-source"
+  }
+]

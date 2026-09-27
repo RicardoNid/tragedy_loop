@@ -1,0 +1,362 @@
+{
+  "id": "b9cc0c1321821228",
+  "title": "WM-10",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "WM-10非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "WM-10",
+    "loops": 5,
+    "days": 1,
+    "剧本名": "献给神的礼物",
+    "作者": "minimipool",
+    "轮数": "5",
+    "天数": "1"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-10?oldid=1456",
+      "snapshot": "sources/wiki/pages/d0691c947b4a099d.json",
+      "capturedAt": "2026-09-27T05:01:30.632Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-10?oldid=1456",
+      "snapshot": "sources/wiki/pages/d0691c947b4a099d.json",
+      "capturedAt": "2026-09-27T05:01:30.632Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-10?oldid=1456",
+      "snapshot": "sources/wiki/pages/d0691c947b4a099d.json",
+      "capturedAt": "2026-09-27T05:01:30.632Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-10?oldid=1456",
+      "snapshot": "sources/wiki/pages/d0691c947b4a099d.json",
+      "capturedAt": "2026-09-27T05:01:30.632Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 12
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 12
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 12
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 12
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-10?oldid=1456",
+      "snapshot": "sources/wiki/pages/d0691c947b4a099d.json",
+      "capturedAt": "2026-09-27T05:01:30.632Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 12
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-10%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1883",
+      "snapshot": "sources/wiki/pages/74b15dce98a5b4f7.json",
+      "capturedAt": "2026-09-27T05:01:35.749Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-10?oldid=1456",
+        "snapshot": "sources/wiki/pages/d0691c947b4a099d.json",
+        "capturedAt": "2026-09-27T05:01:30.632Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "WM-10",
+        "loops": 5,
+        "days": 1
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 6,
+        "row": 12
+      },
+      "fields": {
+        "scenarioCode": "WM-10",
+        "剧本名": "献给神的礼物",
+        "作者": "minimipool",
+        "轮数": "5",
+        "天数": "1"
+      }
+    }
+  ],
+  "wikiTitle": "WM-10",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Weird Mythology"
+  ],
+  "module": "Weird Mythology",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "b9cc0c1321821228",
+        "title": "WM-10",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "WM-10",
+          "loops": 5,
+          "days": 1,
+          "剧本名": "献给神的礼物",
+          "作者": "minimipool",
+          "轮数": "5",
+          "天数": "1"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-10?oldid=1456",
+            "snapshot": "sources/wiki/pages/d0691c947b4a099d.json",
+            "capturedAt": "2026-09-27T05:01:30.632Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-10?oldid=1456",
+            "snapshot": "sources/wiki/pages/d0691c947b4a099d.json",
+            "capturedAt": "2026-09-27T05:01:30.632Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-10?oldid=1456",
+            "snapshot": "sources/wiki/pages/d0691c947b4a099d.json",
+            "capturedAt": "2026-09-27T05:01:30.632Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-10?oldid=1456",
+            "snapshot": "sources/wiki/pages/d0691c947b4a099d.json",
+            "capturedAt": "2026-09-27T05:01:30.632Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 12
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 12
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 12
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 12
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-10?oldid=1456",
+            "snapshot": "sources/wiki/pages/d0691c947b4a099d.json",
+            "capturedAt": "2026-09-27T05:01:30.632Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 12
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-10?oldid=1456",
+              "snapshot": "sources/wiki/pages/d0691c947b4a099d.json",
+              "capturedAt": "2026-09-27T05:01:30.632Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "WM-10",
+              "loops": 5,
+              "days": 1
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 6,
+              "row": 12
+            },
+            "fields": {
+              "scenarioCode": "WM-10",
+              "剧本名": "献给神的礼物",
+              "作者": "minimipool",
+              "轮数": "5",
+              "天数": "1"
+            }
+          }
+        ],
+        "body": "text/scenarios/b9cc0c1321821228.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-10?oldid=1456",
+          "snapshot": "sources/wiki/pages/d0691c947b4a099d.json",
+          "capturedAt": "2026-09-27T05:01:30.632Z"
+        },
+        "wikiTitle": "WM-10",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-10?action=edit&section=1"
+          },
+          {
+            "title": "WM-10非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-10%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-10?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Weird Mythology"
+        ],
+        "module": "Weird Mythology"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "766d5f80674a6dc9",
+        "title": "WM-10非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "WM-10"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-10%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1883",
+            "snapshot": "sources/wiki/pages/74b15dce98a5b4f7.json",
+            "capturedAt": "2026-09-27T05:01:35.749Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-10%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1883",
+            "snapshot": "sources/wiki/pages/74b15dce98a5b4f7.json",
+            "capturedAt": "2026-09-27T05:01:35.749Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-10%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1883",
+            "snapshot": "sources/wiki/pages/74b15dce98a5b4f7.json",
+            "capturedAt": "2026-09-27T05:01:35.749Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM-10%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1883",
+              "snapshot": "sources/wiki/pages/74b15dce98a5b4f7.json",
+              "capturedAt": "2026-09-27T05:01:35.749Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "WM-10"
+            }
+          }
+        ],
+        "wikiTitle": "WM-10非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Weird Mythology",
+        "tags": [
+          "民间",
+          "Weird Mythology"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "766d5f80674a6dc9"
+  ],
+  "conflicts": []
+}

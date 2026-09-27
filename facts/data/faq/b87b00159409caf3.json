@@ -1,0 +1,67 @@
+{
+  "id": "b87b00159409caf3",
+  "title": "神灵使用友好能力询问转校生担当的事件，这时转校生没有登场，此时如何声明？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 角色 / 第 69 行",
+  "aliases": [],
+  "fields": {
+    "question": "神灵使用友好能力询问转校生担当的事件，这时转校生没有登场，此时如何声明？",
+    "answer": "正常声明当事人是转校生，神灵能力直接作用于非公开信息表，与角色无关"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 69,
+      "cells": "A69:B69",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 69,
+      "cells": "A69:B69",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 69,
+      "cells": "A69:B69",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+        "snapshot": "sources/faq-sheet/characters.json",
+        "sheet": "角色",
+        "row": 69,
+        "cells": "A69:B69",
+        "capturedAt": "2026-09-27T05:39:49.068Z"
+      },
+      "fields": {
+        "question": "神灵使用友好能力询问转校生担当的事件，这时转校生没有登场，此时如何声明？",
+        "answer": "正常声明当事人是转校生，神灵能力直接作用于非公开信息表，与角色无关"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "角色",
+    "关于转校生",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

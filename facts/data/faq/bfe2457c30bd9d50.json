@@ -1,0 +1,66 @@
+{
+  "id": "bfe2457c30bd9d50",
+  "title": "我想买牌套/token盒，请告诉我尺寸。",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 写在前面 / 第 13 行",
+  "aliases": [],
+  "fields": {
+    "question": "我想买牌套/token盒，请告诉我尺寸。",
+    "answer": "卡牌尺寸 63.5*88mm 要买卡套的话要100张\n\ntoken尺寸\n\n全部为正圆形 小的直径15mm 70个\n\n大的直径20mm 24个 合计94个"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000001",
+      "snapshot": "sources/faq-sheet/preface.json",
+      "sheet": "写在前面",
+      "row": 13,
+      "cells": "A13:B13",
+      "capturedAt": "2026-09-27T05:41:03.158Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000001",
+      "snapshot": "sources/faq-sheet/preface.json",
+      "sheet": "写在前面",
+      "row": 13,
+      "cells": "A13:B13",
+      "capturedAt": "2026-09-27T05:41:03.158Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000001",
+      "snapshot": "sources/faq-sheet/preface.json",
+      "sheet": "写在前面",
+      "row": 13,
+      "cells": "A13:B13",
+      "capturedAt": "2026-09-27T05:41:03.158Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000001",
+        "snapshot": "sources/faq-sheet/preface.json",
+        "sheet": "写在前面",
+        "row": 13,
+        "cells": "A13:B13",
+        "capturedAt": "2026-09-27T05:41:03.158Z"
+      },
+      "fields": {
+        "question": "我想买牌套/token盒，请告诉我尺寸。",
+        "answer": "卡牌尺寸 63.5*88mm 要买卡套的话要100张\n\ntoken尺寸\n\n全部为正圆形 小的直径15mm 70个\n\n大的直径20mm 24个 合计94个"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "写在前面",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

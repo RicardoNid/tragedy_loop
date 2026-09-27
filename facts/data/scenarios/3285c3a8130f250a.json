@@ -1,0 +1,446 @@
+{
+  "id": "3285c3a8130f250a",
+  "title": "AHR-06",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "AHR-06非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "AHR-06",
+    "loops": 5,
+    "days": 4,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "次元转换"
+      },
+      {
+        "day": 2,
+        "incidentText": "次元转换"
+      },
+      {
+        "day": 3,
+        "incidentText": "次元转换"
+      },
+      {
+        "day": 4,
+        "incidentText": "次元转换"
+      }
+    ],
+    "剧本名": "遗存的神谕",
+    "作者": "α聆弦",
+    "轮数": "5 4",
+    "天数": "4"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-06",
+      "snapshot": "sources/wiki/pages/432023171716d769.json",
+      "capturedAt": "2026-09-27T03:39:55.132Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-06",
+      "snapshot": "sources/wiki/pages/432023171716d769.json",
+      "capturedAt": "2026-09-27T03:39:55.132Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-06",
+      "snapshot": "sources/wiki/pages/432023171716d769.json",
+      "capturedAt": "2026-09-27T03:39:55.132Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-06",
+      "snapshot": "sources/wiki/pages/432023171716d769.json",
+      "capturedAt": "2026-09-27T03:39:55.132Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-06",
+      "snapshot": "sources/wiki/pages/432023171716d769.json",
+      "capturedAt": "2026-09-27T03:39:55.132Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 7
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 7
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 7
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 7
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-06",
+      "snapshot": "sources/wiki/pages/432023171716d769.json",
+      "capturedAt": "2026-09-27T03:39:55.132Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 7,
+      "row": 7
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/2b9af67aa499f4ff.json",
+      "capturedAt": "2026-09-27T03:39:57.909Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-06",
+        "snapshot": "sources/wiki/pages/432023171716d769.json",
+        "capturedAt": "2026-09-27T03:39:55.132Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "AHR-06",
+        "loops": 5,
+        "days": 4,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "次元转换"
+          },
+          {
+            "day": 2,
+            "incidentText": "次元转换"
+          },
+          {
+            "day": 3,
+            "incidentText": "次元转换"
+          },
+          {
+            "day": 4,
+            "incidentText": "次元转换"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 7,
+        "row": 7
+      },
+      "fields": {
+        "scenarioCode": "AHR-06",
+        "剧本名": "遗存的神谕",
+        "作者": "α聆弦",
+        "轮数": "5 4",
+        "天数": "4"
+      }
+    }
+  ],
+  "wikiTitle": "AHR-06",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Another Horizon Revised"
+  ],
+  "module": "Another Horizon Revised",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "3285c3a8130f250a",
+        "title": "AHR-06",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "AHR-06",
+          "loops": 5,
+          "days": 4,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "次元转换"
+            },
+            {
+              "day": 2,
+              "incidentText": "次元转换"
+            },
+            {
+              "day": 3,
+              "incidentText": "次元转换"
+            },
+            {
+              "day": 4,
+              "incidentText": "次元转换"
+            }
+          ],
+          "剧本名": "遗存的神谕",
+          "作者": "α聆弦",
+          "轮数": "5 4",
+          "天数": "4"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-06",
+            "snapshot": "sources/wiki/pages/432023171716d769.json",
+            "capturedAt": "2026-09-27T03:39:55.132Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-06",
+            "snapshot": "sources/wiki/pages/432023171716d769.json",
+            "capturedAt": "2026-09-27T03:39:55.132Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-06",
+            "snapshot": "sources/wiki/pages/432023171716d769.json",
+            "capturedAt": "2026-09-27T03:39:55.132Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-06",
+            "snapshot": "sources/wiki/pages/432023171716d769.json",
+            "capturedAt": "2026-09-27T03:39:55.132Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-06",
+            "snapshot": "sources/wiki/pages/432023171716d769.json",
+            "capturedAt": "2026-09-27T03:39:55.132Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 7
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 7
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 7
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 7
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-06",
+            "snapshot": "sources/wiki/pages/432023171716d769.json",
+            "capturedAt": "2026-09-27T03:39:55.132Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 7,
+            "row": 7
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-06",
+              "snapshot": "sources/wiki/pages/432023171716d769.json",
+              "capturedAt": "2026-09-27T03:39:55.132Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "AHR-06",
+              "loops": 5,
+              "days": 4,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "次元转换"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "次元转换"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "次元转换"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "次元转换"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 7,
+              "row": 7
+            },
+            "fields": {
+              "scenarioCode": "AHR-06",
+              "剧本名": "遗存的神谕",
+              "作者": "α聆弦",
+              "轮数": "5 4",
+              "天数": "4"
+            }
+          }
+        ],
+        "body": "text/scenarios/3285c3a8130f250a.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-06",
+          "snapshot": "sources/wiki/pages/432023171716d769.json",
+          "capturedAt": "2026-09-27T03:39:55.132Z"
+        },
+        "wikiTitle": "AHR-06",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-06?action=edit&section=1"
+          },
+          {
+            "title": "AHR-06非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-06?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Another Horizon Revised"
+        ],
+        "module": "Another Horizon Revised"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "950adb3ec6a3c446",
+        "title": "AHR-06非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "AHR-06"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/2b9af67aa499f4ff.json",
+            "capturedAt": "2026-09-27T03:39:57.909Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/2b9af67aa499f4ff.json",
+            "capturedAt": "2026-09-27T03:39:57.909Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/2b9af67aa499f4ff.json",
+            "capturedAt": "2026-09-27T03:39:57.909Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/AHR-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/2b9af67aa499f4ff.json",
+              "capturedAt": "2026-09-27T03:39:57.909Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "AHR-06"
+            }
+          }
+        ],
+        "wikiTitle": "AHR-06非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Another Horizon Revised",
+        "tags": [
+          "民间",
+          "Another Horizon Revised"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "950adb3ec6a3c446"
+  ],
+  "conflicts": []
+}

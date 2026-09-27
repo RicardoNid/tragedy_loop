@@ -1,0 +1,67 @@
+{
+  "id": "72d660fec816db21",
+  "title": "医生有必定无视，剧作家可以发动他的能力并结算吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 角色 / 第 3 行",
+  "aliases": [],
+  "fields": {
+    "question": "医生有必定无视，剧作家可以发动他的能力并结算吗？",
+    "answer": "可以，无视友好在剧作家能力阶段不生效"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 3,
+      "cells": "A3:B3",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 3,
+      "cells": "A3:B3",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 3,
+      "cells": "A3:B3",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+        "snapshot": "sources/faq-sheet/characters.json",
+        "sheet": "角色",
+        "row": 3,
+        "cells": "A3:B3",
+        "capturedAt": "2026-09-27T05:39:49.068Z"
+      },
+      "fields": {
+        "question": "医生有必定无视，剧作家可以发动他的能力并结算吗？",
+        "answer": "可以，无视友好在剧作家能力阶段不生效"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "角色",
+    "关于医生",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

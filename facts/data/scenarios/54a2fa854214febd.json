@@ -1,0 +1,494 @@
+{
+  "id": "54a2fa854214febd",
+  "title": "HSA-06",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "HSA-06非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "HSA-06",
+    "loops": 4,
+    "days": 5,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "亵渎杀人"
+      },
+      {
+        "day": 2,
+        "incidentText": "污秽溢出"
+      },
+      {
+        "day": 3,
+        "incidentText": "言灵诅咒"
+      },
+      {
+        "day": 4,
+        "incidentText": "失踪"
+      },
+      {
+        "day": 5,
+        "incidentText": "疯狂之夜"
+      }
+    ],
+    "剧本名": "只有神知道的真相",
+    "日文名": "神のみぞ知る真相",
+    "作者": "ペンスキー（gitti）",
+    "轮数": "4",
+    "天数": "5",
+    "难度": "5"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-06",
+      "snapshot": "sources/wiki/pages/07ca706e7ebae3a3.json",
+      "capturedAt": "2026-09-27T04:28:21.538Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-06",
+      "snapshot": "sources/wiki/pages/07ca706e7ebae3a3.json",
+      "capturedAt": "2026-09-27T04:28:21.538Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-06",
+      "snapshot": "sources/wiki/pages/07ca706e7ebae3a3.json",
+      "capturedAt": "2026-09-27T04:28:21.538Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-06",
+      "snapshot": "sources/wiki/pages/07ca706e7ebae3a3.json",
+      "capturedAt": "2026-09-27T04:28:21.538Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-06",
+      "snapshot": "sources/wiki/pages/07ca706e7ebae3a3.json",
+      "capturedAt": "2026-09-27T04:28:21.538Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 8
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 8
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 8
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 8
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 8
+    },
+    "难度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 8
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-06",
+      "snapshot": "sources/wiki/pages/07ca706e7ebae3a3.json",
+      "capturedAt": "2026-09-27T04:28:21.538Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 8
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/e756288d0ffabd4f.json",
+      "capturedAt": "2026-09-27T04:28:24.442Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-06",
+        "snapshot": "sources/wiki/pages/07ca706e7ebae3a3.json",
+        "capturedAt": "2026-09-27T04:28:21.538Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "HSA-06",
+        "loops": 4,
+        "days": 5,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "亵渎杀人"
+          },
+          {
+            "day": 2,
+            "incidentText": "污秽溢出"
+          },
+          {
+            "day": 3,
+            "incidentText": "言灵诅咒"
+          },
+          {
+            "day": 4,
+            "incidentText": "失踪"
+          },
+          {
+            "day": 5,
+            "incidentText": "疯狂之夜"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 5,
+        "row": 8
+      },
+      "fields": {
+        "scenarioCode": "HSA-06",
+        "剧本名": "只有神知道的真相",
+        "日文名": "神のみぞ知る真相",
+        "作者": "ペンスキー（gitti）",
+        "轮数": "4",
+        "天数": "5",
+        "难度": "5"
+      }
+    }
+  ],
+  "wikiTitle": "HSA-06",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Haunted Stage Again"
+  ],
+  "module": "Haunted Stage Again",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "54a2fa854214febd",
+        "title": "HSA-06",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "HSA-06",
+          "loops": 4,
+          "days": 5,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "亵渎杀人"
+            },
+            {
+              "day": 2,
+              "incidentText": "污秽溢出"
+            },
+            {
+              "day": 3,
+              "incidentText": "言灵诅咒"
+            },
+            {
+              "day": 4,
+              "incidentText": "失踪"
+            },
+            {
+              "day": 5,
+              "incidentText": "疯狂之夜"
+            }
+          ],
+          "剧本名": "只有神知道的真相",
+          "日文名": "神のみぞ知る真相",
+          "作者": "ペンスキー（gitti）",
+          "轮数": "4",
+          "天数": "5",
+          "难度": "5"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-06",
+            "snapshot": "sources/wiki/pages/07ca706e7ebae3a3.json",
+            "capturedAt": "2026-09-27T04:28:21.538Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-06",
+            "snapshot": "sources/wiki/pages/07ca706e7ebae3a3.json",
+            "capturedAt": "2026-09-27T04:28:21.538Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-06",
+            "snapshot": "sources/wiki/pages/07ca706e7ebae3a3.json",
+            "capturedAt": "2026-09-27T04:28:21.538Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-06",
+            "snapshot": "sources/wiki/pages/07ca706e7ebae3a3.json",
+            "capturedAt": "2026-09-27T04:28:21.538Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-06",
+            "snapshot": "sources/wiki/pages/07ca706e7ebae3a3.json",
+            "capturedAt": "2026-09-27T04:28:21.538Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 8
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 8
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 8
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 8
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 8
+          },
+          "难度": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 8
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-06",
+            "snapshot": "sources/wiki/pages/07ca706e7ebae3a3.json",
+            "capturedAt": "2026-09-27T04:28:21.538Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 8
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-06",
+              "snapshot": "sources/wiki/pages/07ca706e7ebae3a3.json",
+              "capturedAt": "2026-09-27T04:28:21.538Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "HSA-06",
+              "loops": 4,
+              "days": 5,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "亵渎杀人"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "污秽溢出"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "言灵诅咒"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "失踪"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "疯狂之夜"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 5,
+              "row": 8
+            },
+            "fields": {
+              "scenarioCode": "HSA-06",
+              "剧本名": "只有神知道的真相",
+              "日文名": "神のみぞ知る真相",
+              "作者": "ペンスキー（gitti）",
+              "轮数": "4",
+              "天数": "5",
+              "难度": "5"
+            }
+          }
+        ],
+        "body": "text/scenarios/54a2fa854214febd.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-06",
+          "snapshot": "sources/wiki/pages/07ca706e7ebae3a3.json",
+          "capturedAt": "2026-09-27T04:28:21.538Z"
+        },
+        "wikiTitle": "HSA-06",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "HSA-06非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-06?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Haunted Stage Again"
+        ],
+        "module": "Haunted Stage Again"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "f42d998cb8c7adea",
+        "title": "HSA-06非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "HSA-06"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/e756288d0ffabd4f.json",
+            "capturedAt": "2026-09-27T04:28:24.442Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/e756288d0ffabd4f.json",
+            "capturedAt": "2026-09-27T04:28:24.442Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/e756288d0ffabd4f.json",
+            "capturedAt": "2026-09-27T04:28:24.442Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-06%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/e756288d0ffabd4f.json",
+              "capturedAt": "2026-09-27T04:28:24.442Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "HSA-06"
+            }
+          }
+        ],
+        "wikiTitle": "HSA-06非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Haunted Stage Again",
+        "tags": [
+          "民间",
+          "Haunted Stage Again"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "f42d998cb8c7adea"
+  ],
+  "conflicts": []
+}

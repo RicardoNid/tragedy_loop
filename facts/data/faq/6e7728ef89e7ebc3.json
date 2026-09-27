@@ -1,0 +1,60 @@
+{
+  "id": "6e7728ef89e7ebc3",
+  "title": "劇作家可以使用帶有傀儡無視友好特性的班長的友好能力，並且回收「絕望+1」嗎？",
+  "kind": "faq",
+  "scope": "纸质 FAQ / AHR / Q7",
+  "aliases": [],
+  "fields": {
+    "question": "劇作家可以使用帶有傀儡無視友好特性的班長的友好能力，並且回收「絕望+1」嗎？",
+    "answer": "可以。只要本輪輪迴的輪迴開始時，劇作家獲得了「絕望+1」的手牌的話就能夠回收。"
+  },
+  "provenance": {
+    "question": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+      "snapshot": "sources/paper-faq/another-horizon-revised.json",
+      "page": 15,
+      "questionNumber": 7
+    },
+    "answer": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+      "snapshot": "sources/paper-faq/another-horizon-revised.json",
+      "page": 15,
+      "questionNumber": 7
+    }
+  },
+  "sources": [
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+      "snapshot": "sources/paper-faq/another-horizon-revised.json",
+      "page": 15,
+      "questionNumber": 7
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+        "snapshot": "sources/paper-faq/another-horizon-revised.json",
+        "page": 15,
+        "questionNumber": 7
+      },
+      "fields": {
+        "question": "劇作家可以使用帶有傀儡無視友好特性的班長的友好能力，並且回收「絕望+1」嗎？",
+        "answer": "可以。只要本輪輪迴的輪迴開始時，劇作家獲得了「絕望+1」的手牌的話就能夠回收。"
+      }
+    }
+  ],
+  "tags": [
+    "AHR",
+    "纸质 FAQ",
+    "规则",
+    "官方"
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/lunhui/9481175a05593e803795714b31ff81f1.jpg",
+  "conflicts": []
+}

@@ -1,0 +1,67 @@
+{
+  "id": "6d58fd97cc1ebec3",
+  "title": "自白只声明当事人身份吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / MZ / 第 33 行",
+  "aliases": [],
+  "fields": {
+    "question": "自白只声明当事人身份吗？",
+    "answer": "必须声明角色和身份"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000006",
+      "snapshot": "sources/faq-sheet/mz.json",
+      "sheet": "MZ",
+      "row": 33,
+      "cells": "A33:B33",
+      "capturedAt": "2026-09-27T05:39:59.659Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000006",
+      "snapshot": "sources/faq-sheet/mz.json",
+      "sheet": "MZ",
+      "row": 33,
+      "cells": "A33:B33",
+      "capturedAt": "2026-09-27T05:39:59.659Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000006",
+      "snapshot": "sources/faq-sheet/mz.json",
+      "sheet": "MZ",
+      "row": 33,
+      "cells": "A33:B33",
+      "capturedAt": "2026-09-27T05:39:59.659Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000006",
+        "snapshot": "sources/faq-sheet/mz.json",
+        "sheet": "MZ",
+        "row": 33,
+        "cells": "A33:B33",
+        "capturedAt": "2026-09-27T05:39:59.659Z"
+      },
+      "fields": {
+        "question": "自白只声明当事人身份吗？",
+        "answer": "必须声明角色和身份"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "MZ",
+    "关于事件",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

@@ -1,0 +1,512 @@
+{
+  "id": "5d3077dd3f4d3e8d",
+  "title": "MC+-01",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "MC+-01非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "MC+-01",
+    "loops": 6,
+    "days": 5,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "连续杀人"
+      },
+      {
+        "day": 2,
+        "incidentText": "恐怖袭击"
+      },
+      {
+        "day": 3,
+        "incidentText": "食人术"
+      },
+      {
+        "day": 4,
+        "incidentText": "不安扩散"
+      },
+      {
+        "day": 5,
+        "incidentText": "可疑信件"
+      }
+    ],
+    "剧本名": "达尔文事变",
+    "作者": "萌新宝宝",
+    "轮数": "6 5",
+    "天数": "5"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC%2B-01",
+      "snapshot": "sources/wiki/pages/507b45be0499b59f.json",
+      "capturedAt": "2026-09-27T04:32:58.064Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC%2B-01",
+      "snapshot": "sources/wiki/pages/507b45be0499b59f.json",
+      "capturedAt": "2026-09-27T04:32:58.064Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC%2B-01",
+      "snapshot": "sources/wiki/pages/507b45be0499b59f.json",
+      "capturedAt": "2026-09-27T04:32:58.064Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC%2B-01",
+      "snapshot": "sources/wiki/pages/507b45be0499b59f.json",
+      "capturedAt": "2026-09-27T04:32:58.064Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC%2B-01",
+      "snapshot": "sources/wiki/pages/507b45be0499b59f.json",
+      "capturedAt": "2026-09-27T04:32:58.064Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 62
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 62
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 62
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 62
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC%2B-01",
+      "snapshot": "sources/wiki/pages/507b45be0499b59f.json",
+      "capturedAt": "2026-09-27T04:32:58.064Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 62
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC%2B-01%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/6d8f6459457ee048.json",
+      "capturedAt": "2026-09-27T04:33:01.056Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/MC%2B-01",
+        "snapshot": "sources/wiki/pages/507b45be0499b59f.json",
+        "capturedAt": "2026-09-27T04:32:58.064Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "MC+-01",
+        "loops": 6,
+        "days": 5,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "连续杀人"
+          },
+          {
+            "day": 2,
+            "incidentText": "恐怖袭击"
+          },
+          {
+            "day": 3,
+            "incidentText": "食人术"
+          },
+          {
+            "day": 4,
+            "incidentText": "不安扩散"
+          },
+          {
+            "day": 5,
+            "incidentText": "可疑信件"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 4,
+        "row": 62
+      },
+      "fields": {
+        "scenarioCode": "MC+-01",
+        "剧本名": "达尔文事变",
+        "作者": "萌新宝宝",
+        "轮数": "6 5",
+        "天数": "5"
+      }
+    }
+  ],
+  "wikiTitle": "MC+-01",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Mystery Circle Plus"
+  ],
+  "module": "Mystery Circle Plus",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "5d3077dd3f4d3e8d",
+        "title": "MC+-01",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "MC+-01",
+          "loops": 6,
+          "days": 5,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "连续杀人"
+            },
+            {
+              "day": 2,
+              "incidentText": "恐怖袭击"
+            },
+            {
+              "day": 3,
+              "incidentText": "食人术"
+            },
+            {
+              "day": 4,
+              "incidentText": "不安扩散"
+            },
+            {
+              "day": 5,
+              "incidentText": "可疑信件"
+            }
+          ],
+          "剧本名": "达尔文事变",
+          "作者": "萌新宝宝",
+          "轮数": "6 5",
+          "天数": "5"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC%2B-01",
+            "snapshot": "sources/wiki/pages/507b45be0499b59f.json",
+            "capturedAt": "2026-09-27T04:32:58.064Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC%2B-01",
+            "snapshot": "sources/wiki/pages/507b45be0499b59f.json",
+            "capturedAt": "2026-09-27T04:32:58.064Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC%2B-01",
+            "snapshot": "sources/wiki/pages/507b45be0499b59f.json",
+            "capturedAt": "2026-09-27T04:32:58.064Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC%2B-01",
+            "snapshot": "sources/wiki/pages/507b45be0499b59f.json",
+            "capturedAt": "2026-09-27T04:32:58.064Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC%2B-01",
+            "snapshot": "sources/wiki/pages/507b45be0499b59f.json",
+            "capturedAt": "2026-09-27T04:32:58.064Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 62
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 62
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 62
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 62
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC%2B-01",
+            "snapshot": "sources/wiki/pages/507b45be0499b59f.json",
+            "capturedAt": "2026-09-27T04:32:58.064Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 62
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MC%2B-01",
+              "snapshot": "sources/wiki/pages/507b45be0499b59f.json",
+              "capturedAt": "2026-09-27T04:32:58.064Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "MC+-01",
+              "loops": 6,
+              "days": 5,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "连续杀人"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "恐怖袭击"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "食人术"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "不安扩散"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "可疑信件"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 4,
+              "row": 62
+            },
+            "fields": {
+              "scenarioCode": "MC+-01",
+              "剧本名": "达尔文事变",
+              "作者": "萌新宝宝",
+              "轮数": "6 5",
+              "天数": "5"
+            }
+          }
+        ],
+        "body": "text/scenarios/5d3077dd3f4d3e8d.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MC%2B-01",
+          "snapshot": "sources/wiki/pages/507b45be0499b59f.json",
+          "capturedAt": "2026-09-27T04:32:58.064Z"
+        },
+        "wikiTitle": "MC+-01",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC%2B-01?action=edit&section=1"
+          },
+          {
+            "title": "MC+-01非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC%2B-01%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC%2B-01?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Mystery Circle Plus"
+        ],
+        "module": "Mystery Circle Plus"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "ed1269d5c8f39728",
+        "title": "MC+-01非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "MC+-01",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "谋杀计划"
+            },
+            {
+              "slot": "X1",
+              "name": "隔离病房惊魂记"
+            },
+            {
+              "slot": "X2",
+              "name": "火药的味道"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC%2B-01%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/6d8f6459457ee048.json",
+            "capturedAt": "2026-09-27T04:33:01.056Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC%2B-01%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/6d8f6459457ee048.json",
+            "capturedAt": "2026-09-27T04:33:01.056Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC%2B-01%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/6d8f6459457ee048.json",
+            "capturedAt": "2026-09-27T04:33:01.056Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC%2B-01%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/6d8f6459457ee048.json",
+            "capturedAt": "2026-09-27T04:33:01.056Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MC%2B-01%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/6d8f6459457ee048.json",
+              "capturedAt": "2026-09-27T04:33:01.056Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "MC+-01",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "谋杀计划"
+                },
+                {
+                  "slot": "X1",
+                  "name": "隔离病房惊魂记"
+                },
+                {
+                  "slot": "X2",
+                  "name": "火药的味道"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/ed1269d5c8f39728.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MC%2B-01%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+          "snapshot": "sources/wiki/pages/6d8f6459457ee048.json",
+          "capturedAt": "2026-09-27T04:33:01.056Z"
+        },
+        "wikiTitle": "MC+-01非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC%2B-01%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC%2B-01%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Mystery Circle Plus",
+        "tags": [
+          "民间",
+          "Mystery Circle Plus"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "ed1269d5c8f39728"
+  ],
+  "conflicts": []
+}

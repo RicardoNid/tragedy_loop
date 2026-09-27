@@ -1,0 +1,233 @@
+{
+  "id": "77b779d8ce1c4d20",
+  "title": "鉴别员",
+  "kind": "characters",
+  "scope": "",
+  "aliases": [
+    "鑑別員"
+  ],
+  "fields": {
+    "角色名": "鉴别员",
+    "初始区域": "都市",
+    "禁行区域": "无",
+    "不安限度": "3",
+    "属性": [
+      "成人",
+      "男性"
+    ],
+    "友好能力": [
+      {
+        "text": "（友好2 1L1）选择同一区域另外2名角色，将1枚任意指示物在两者之间移动",
+        "threshold": 2,
+        "limitText": "1L1",
+        "oncePerLoop": true
+      },
+      {
+        "text": "（友好5 1L1）公开1具尸体的身份",
+        "threshold": 5,
+        "limitText": "1L1",
+        "oncePerLoop": true
+      }
+    ]
+  },
+  "provenance": {
+    "角色名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E9%91%91%E5%88%A5%E5%93%A1",
+      "snapshot": "sources/wiki/pages/6d479b6b2fec45cd.json",
+      "capturedAt": "2026-09-27T03:38:08.216Z"
+    },
+    "初始区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E9%91%91%E5%88%A5%E5%93%A1",
+      "snapshot": "sources/wiki/pages/6d479b6b2fec45cd.json",
+      "capturedAt": "2026-09-27T03:38:08.216Z"
+    },
+    "禁行区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E9%91%91%E5%88%A5%E5%93%A1",
+      "snapshot": "sources/wiki/pages/6d479b6b2fec45cd.json",
+      "capturedAt": "2026-09-27T03:38:08.216Z"
+    },
+    "不安限度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E9%91%91%E5%88%A5%E5%93%A1",
+      "snapshot": "sources/wiki/pages/6d479b6b2fec45cd.json",
+      "capturedAt": "2026-09-27T03:38:08.216Z"
+    },
+    "属性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E9%91%91%E5%88%A5%E5%93%A1",
+      "snapshot": "sources/wiki/pages/6d479b6b2fec45cd.json",
+      "capturedAt": "2026-09-27T03:38:08.216Z"
+    },
+    "友好能力": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E9%91%91%E5%88%A5%E5%93%A1",
+      "snapshot": "sources/wiki/pages/6d479b6b2fec45cd.json",
+      "capturedAt": "2026-09-27T03:38:08.216Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E9%91%91%E5%88%A5%E5%93%A1",
+      "snapshot": "sources/wiki/pages/6d479b6b2fec45cd.json",
+      "capturedAt": "2026-09-27T03:38:08.216Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E9%91%91%E5%88%A5%E5%93%A1",
+        "snapshot": "sources/wiki/pages/6d479b6b2fec45cd.json",
+        "capturedAt": "2026-09-27T03:38:08.216Z"
+      },
+      "fields": {
+        "角色名": "鉴别员",
+        "初始区域": "都市",
+        "禁行区域": "无",
+        "不安限度": "3",
+        "属性": [
+          "成人",
+          "男性"
+        ],
+        "友好能力": [
+          {
+            "text": "（友好2 1L1）选择同一区域另外2名角色，将1枚任意指示物在两者之间移动",
+            "threshold": 2,
+            "limitText": "1L1",
+            "oncePerLoop": true
+          },
+          {
+            "text": "（友好5 1L1）公开1具尸体的身份",
+            "threshold": 5,
+            "limitText": "1L1",
+            "oncePerLoop": true
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "特性": "",
+        "属性": [
+          "成人",
+          "男性"
+        ],
+        "初始区域": "都市",
+        "禁行区域": "否",
+        "不安限度": "3",
+        "友好能力": [
+          {
+            "text": "选择同一区域另外2名角色，将1枚任意指示物在两者之间移动",
+            "threshold": "2",
+            "oncePerLoop": "是"
+          },
+          {
+            "text": "公开1具尸体的身份",
+            "threshold": "5",
+            "oncePerLoop": "是"
+          }
+        ]
+      }
+    }
+  ],
+  "body": "text/characters/77b779d8ce1c4d20.txt",
+  "bodySource": {
+    "provider": "wiki",
+    "url": "https://tragedyrooper.fandom.com/zh/wiki/%E9%91%91%E5%88%A5%E5%93%A1",
+    "snapshot": "sources/wiki/pages/6d479b6b2fec45cd.json",
+    "capturedAt": "2026-09-27T03:38:08.216Z"
+  },
+  "wikiTitle": "鑑別員",
+  "originalTables": [],
+  "wikiStatus": "captured",
+  "links": [
+    {
+      "title": "<img style=\"\" src=\"https://static.wikia.nocookie.net/tragedyrooper/images/c/c9/%E9%89%B4%E5%88%AB%E5%91%98.png/revision/latest/scale-to-width-down/136?cb=20251023162226&amp;path-prefix=zh\" title=\"鉴别员.png (246 KB)\" class=\"thumbimage\" alt=\"\" height=\"185\" width=\"185\" data-image-name=\"鉴别员.png\" data-image-key=\"%E9%89%B4%E5%88%AB%E5%91%98.png\" data-relevant=\"1\">",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E9%89%B4%E5%88%AB%E5%91%98.png"
+    }
+  ],
+  "images": [
+    {
+      "alt": "",
+      "src": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+    }
+  ],
+  "media": [
+    {
+      "title": "鉴别员.png",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:%E9%89%B4%E5%88%AB%E5%91%98.png",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/c/c9/%E9%89%B4%E5%88%AB%E5%91%98.png/revision/latest?cb=20251023162226&format=original&path-prefix=zh",
+      "path": "media/wiki/099671cc09e8143a.png",
+      "sourceRecord": "sources/wiki/files/099671cc09e8143a.json",
+      "sha256": "ee590c954bf5951d616341d0f39e2cb9c8ca007c4f52da61c7600153f5ec5c14",
+      "bytes": 252312,
+      "fileInfo": "PNG image data, 309 x 421, 8-bit/color RGBA, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/6fadb2d7054aeea7.json",
+  "tags": [
+    "成人",
+    "男性",
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "禁行区域",
+      "selected": "无",
+      "candidate": "否",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "友好能力",
+      "selected": [
+        {
+          "text": "（友好2 1L1）选择同一区域另外2名角色，将1枚任意指示物在两者之间移动",
+          "threshold": 2,
+          "limitText": "1L1",
+          "oncePerLoop": true
+        },
+        {
+          "text": "（友好5 1L1）公开1具尸体的身份",
+          "threshold": 5,
+          "limitText": "1L1",
+          "oncePerLoop": true
+        }
+      ],
+      "candidate": [
+        {
+          "text": "选择同一区域另外2名角色，将1枚任意指示物在两者之间移动",
+          "threshold": "2",
+          "oncePerLoop": "是"
+        },
+        {
+          "text": "公开1具尸体的身份",
+          "threshold": "5",
+          "oncePerLoop": "是"
+        }
+      ],
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    }
+  ]
+}

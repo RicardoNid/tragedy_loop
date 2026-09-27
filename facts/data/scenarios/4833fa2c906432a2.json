@@ -1,0 +1,216 @@
+{
+  "id": "4833fa2c906432a2",
+  "title": "BTX+-01G",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "scenarioCode": "BTX+-01G",
+    "剧本名": "從〇開始",
+    "日文名": "レイに向けて",
+    "作者": "零の最果て",
+    "轮数": "5 4",
+    "天数": "6",
+    "难度": "3 5"
+  },
+  "provenance": {
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+      "table": 2,
+      "row": 17
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+      "table": 2,
+      "row": 17
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+      "table": 2,
+      "row": 17
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+      "table": 2,
+      "row": 17
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+      "table": 2,
+      "row": 17
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+      "table": 2,
+      "row": 17
+    },
+    "难度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+      "table": 2,
+      "row": 17
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+      "table": 2,
+      "row": 17
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+        "table": 2,
+        "row": 17
+      },
+      "fields": {
+        "scenarioCode": "BTX+-01G",
+        "剧本名": "從〇開始",
+        "日文名": "レイに向けて",
+        "作者": "零の最果て",
+        "轮数": "5 4",
+        "天数": "6",
+        "难度": "3 5"
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/6734a0d13f91359e.json",
+  "tags": [
+    "官方剧本",
+    "官方",
+    "Basic Tragedy X Plus"
+  ],
+  "module": "Basic Tragedy X Plus",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "4833fa2c906432a2",
+        "title": "BTX+-01G",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "scenarioCode": "BTX+-01G",
+          "剧本名": "從〇開始",
+          "日文名": "レイに向けて",
+          "作者": "零の最果て",
+          "轮数": "5 4",
+          "天数": "6",
+          "难度": "3 5"
+        },
+        "provenance": {
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+            "table": 2,
+            "row": 17
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+            "table": 2,
+            "row": 17
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+            "table": 2,
+            "row": 17
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+            "table": 2,
+            "row": 17
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+            "table": 2,
+            "row": 17
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+            "table": 2,
+            "row": 17
+          },
+          "难度": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+            "table": 2,
+            "row": 17
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+            "table": 2,
+            "row": 17
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+              "table": 2,
+              "row": 17
+            },
+            "fields": {
+              "scenarioCode": "BTX+-01G",
+              "剧本名": "從〇開始",
+              "日文名": "レイに向けて",
+              "作者": "零の最果て",
+              "轮数": "5 4",
+              "天数": "6",
+              "难度": "3 5"
+            }
+          }
+        ],
+        "authority": "官方",
+        "classificationSource": "sources/wiki/pages/6734a0d13f91359e.json",
+        "tags": [
+          "官方剧本",
+          "官方",
+          "Basic Tragedy X Plus"
+        ],
+        "module": "Basic Tragedy X Plus"
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [],
+  "conflicts": []
+}

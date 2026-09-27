@@ -1,0 +1,476 @@
+{
+  "id": "59813053a8fcaa99",
+  "title": "LL-12",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "LL-12非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "LL-12",
+    "loops": 4,
+    "days": 6,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "代行者"
+      },
+      {
+        "day": 2,
+        "incidentText": "遗言"
+      },
+      {
+        "day": 4,
+        "incidentText": "散播"
+      },
+      {
+        "day": 5,
+        "incidentText": "谋杀"
+      },
+      {
+        "day": 6,
+        "incidentText": "骤变"
+      }
+    ],
+    "剧本名": "Same Nightmare",
+    "日文名": "Same Nightmare",
+    "作者": "弾濫",
+    "轮数": "4",
+    "天数": "6"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-12",
+      "snapshot": "sources/wiki/pages/96570ba4db13a0a1.json",
+      "capturedAt": "2026-09-27T04:32:45.305Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-12",
+      "snapshot": "sources/wiki/pages/96570ba4db13a0a1.json",
+      "capturedAt": "2026-09-27T04:32:45.305Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-12",
+      "snapshot": "sources/wiki/pages/96570ba4db13a0a1.json",
+      "capturedAt": "2026-09-27T04:32:45.305Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-12",
+      "snapshot": "sources/wiki/pages/96570ba4db13a0a1.json",
+      "capturedAt": "2026-09-27T04:32:45.305Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-12",
+      "snapshot": "sources/wiki/pages/96570ba4db13a0a1.json",
+      "capturedAt": "2026-09-27T04:32:45.305Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 8,
+      "row": 13
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 8,
+      "row": 13
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 8,
+      "row": 13
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 8,
+      "row": 13
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 8,
+      "row": 13
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-12",
+      "snapshot": "sources/wiki/pages/96570ba4db13a0a1.json",
+      "capturedAt": "2026-09-27T04:32:45.305Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 8,
+      "row": 13
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/b650ab1af0d26013.json",
+      "capturedAt": "2026-09-27T04:32:48.238Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-12",
+        "snapshot": "sources/wiki/pages/96570ba4db13a0a1.json",
+        "capturedAt": "2026-09-27T04:32:45.305Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "LL-12",
+        "loops": 4,
+        "days": 6,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "代行者"
+          },
+          {
+            "day": 2,
+            "incidentText": "遗言"
+          },
+          {
+            "day": 4,
+            "incidentText": "散播"
+          },
+          {
+            "day": 5,
+            "incidentText": "谋杀"
+          },
+          {
+            "day": 6,
+            "incidentText": "骤变"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 8,
+        "row": 13
+      },
+      "fields": {
+        "scenarioCode": "LL-12",
+        "剧本名": "Same Nightmare",
+        "日文名": "Same Nightmare",
+        "作者": "弾濫",
+        "轮数": "4",
+        "天数": "6"
+      }
+    }
+  ],
+  "wikiTitle": "LL-12",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Last Liar"
+  ],
+  "module": "Last Liar",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "59813053a8fcaa99",
+        "title": "LL-12",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "LL-12",
+          "loops": 4,
+          "days": 6,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "代行者"
+            },
+            {
+              "day": 2,
+              "incidentText": "遗言"
+            },
+            {
+              "day": 4,
+              "incidentText": "散播"
+            },
+            {
+              "day": 5,
+              "incidentText": "谋杀"
+            },
+            {
+              "day": 6,
+              "incidentText": "骤变"
+            }
+          ],
+          "剧本名": "Same Nightmare",
+          "日文名": "Same Nightmare",
+          "作者": "弾濫",
+          "轮数": "4",
+          "天数": "6"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-12",
+            "snapshot": "sources/wiki/pages/96570ba4db13a0a1.json",
+            "capturedAt": "2026-09-27T04:32:45.305Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-12",
+            "snapshot": "sources/wiki/pages/96570ba4db13a0a1.json",
+            "capturedAt": "2026-09-27T04:32:45.305Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-12",
+            "snapshot": "sources/wiki/pages/96570ba4db13a0a1.json",
+            "capturedAt": "2026-09-27T04:32:45.305Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-12",
+            "snapshot": "sources/wiki/pages/96570ba4db13a0a1.json",
+            "capturedAt": "2026-09-27T04:32:45.305Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-12",
+            "snapshot": "sources/wiki/pages/96570ba4db13a0a1.json",
+            "capturedAt": "2026-09-27T04:32:45.305Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 8,
+            "row": 13
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 8,
+            "row": 13
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 8,
+            "row": 13
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 8,
+            "row": 13
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 8,
+            "row": 13
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-12",
+            "snapshot": "sources/wiki/pages/96570ba4db13a0a1.json",
+            "capturedAt": "2026-09-27T04:32:45.305Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 8,
+            "row": 13
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-12",
+              "snapshot": "sources/wiki/pages/96570ba4db13a0a1.json",
+              "capturedAt": "2026-09-27T04:32:45.305Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "LL-12",
+              "loops": 4,
+              "days": 6,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "代行者"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "遗言"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "散播"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "谋杀"
+                },
+                {
+                  "day": 6,
+                  "incidentText": "骤变"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 8,
+              "row": 13
+            },
+            "fields": {
+              "scenarioCode": "LL-12",
+              "剧本名": "Same Nightmare",
+              "日文名": "Same Nightmare",
+              "作者": "弾濫",
+              "轮数": "4",
+              "天数": "6"
+            }
+          }
+        ],
+        "body": "text/scenarios/59813053a8fcaa99.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-12",
+          "snapshot": "sources/wiki/pages/96570ba4db13a0a1.json",
+          "capturedAt": "2026-09-27T04:32:45.305Z"
+        },
+        "wikiTitle": "LL-12",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "LL-12非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-12?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Last Liar"
+        ],
+        "module": "Last Liar"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "053ffdb8a1dda3e5",
+        "title": "LL-12非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "LL-12"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/b650ab1af0d26013.json",
+            "capturedAt": "2026-09-27T04:32:48.238Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/b650ab1af0d26013.json",
+            "capturedAt": "2026-09-27T04:32:48.238Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/b650ab1af0d26013.json",
+            "capturedAt": "2026-09-27T04:32:48.238Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/LL-12%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/b650ab1af0d26013.json",
+              "capturedAt": "2026-09-27T04:32:48.238Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "LL-12"
+            }
+          }
+        ],
+        "wikiTitle": "LL-12非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Last Liar",
+        "tags": [
+          "民间",
+          "Last Liar"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "053ffdb8a1dda3e5"
+  ],
+  "conflicts": []
+}

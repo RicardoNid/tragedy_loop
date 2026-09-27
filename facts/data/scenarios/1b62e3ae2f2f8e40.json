@@ -1,0 +1,460 @@
+{
+  "id": "1b62e3ae2f2f8e40",
+  "title": "HSA-19",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "HSA-19非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "HSA-19",
+    "loops": 4,
+    "days": 6,
+    "schedule": [
+      {
+        "day": 2,
+        "incidentText": "诅咒活化"
+      },
+      {
+        "day": 4,
+        "incidentText": "送葬"
+      },
+      {
+        "day": 5,
+        "incidentText": "疯狂之夜"
+      },
+      {
+        "day": 6,
+        "incidentText": "邪气污染"
+      }
+    ],
+    "剧本名": "Tragical Garnet",
+    "日文名": "Tragical Garnet",
+    "作者": "弾濫",
+    "轮数": "4",
+    "天数": "6"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-19",
+      "snapshot": "sources/wiki/pages/e5bb112b53a52d1b.json",
+      "capturedAt": "2026-09-27T04:30:12.850Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-19",
+      "snapshot": "sources/wiki/pages/e5bb112b53a52d1b.json",
+      "capturedAt": "2026-09-27T04:30:12.850Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-19",
+      "snapshot": "sources/wiki/pages/e5bb112b53a52d1b.json",
+      "capturedAt": "2026-09-27T04:30:12.850Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-19",
+      "snapshot": "sources/wiki/pages/e5bb112b53a52d1b.json",
+      "capturedAt": "2026-09-27T04:30:12.850Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-19",
+      "snapshot": "sources/wiki/pages/e5bb112b53a52d1b.json",
+      "capturedAt": "2026-09-27T04:30:12.850Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 21
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 21
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 21
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 21
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 21
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-19",
+      "snapshot": "sources/wiki/pages/e5bb112b53a52d1b.json",
+      "capturedAt": "2026-09-27T04:30:12.850Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 21
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-19%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/668ff203605900d9.json",
+      "capturedAt": "2026-09-27T04:30:15.845Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-19",
+        "snapshot": "sources/wiki/pages/e5bb112b53a52d1b.json",
+        "capturedAt": "2026-09-27T04:30:12.850Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "HSA-19",
+        "loops": 4,
+        "days": 6,
+        "schedule": [
+          {
+            "day": 2,
+            "incidentText": "诅咒活化"
+          },
+          {
+            "day": 4,
+            "incidentText": "送葬"
+          },
+          {
+            "day": 5,
+            "incidentText": "疯狂之夜"
+          },
+          {
+            "day": 6,
+            "incidentText": "邪气污染"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 5,
+        "row": 21
+      },
+      "fields": {
+        "scenarioCode": "HSA-19",
+        "剧本名": "Tragical Garnet",
+        "日文名": "Tragical Garnet",
+        "作者": "弾濫",
+        "轮数": "4",
+        "天数": "6"
+      }
+    }
+  ],
+  "wikiTitle": "HSA-19",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Haunted Stage Again"
+  ],
+  "module": "Haunted Stage Again",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "1b62e3ae2f2f8e40",
+        "title": "HSA-19",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "HSA-19",
+          "loops": 4,
+          "days": 6,
+          "schedule": [
+            {
+              "day": 2,
+              "incidentText": "诅咒活化"
+            },
+            {
+              "day": 4,
+              "incidentText": "送葬"
+            },
+            {
+              "day": 5,
+              "incidentText": "疯狂之夜"
+            },
+            {
+              "day": 6,
+              "incidentText": "邪气污染"
+            }
+          ],
+          "剧本名": "Tragical Garnet",
+          "日文名": "Tragical Garnet",
+          "作者": "弾濫",
+          "轮数": "4",
+          "天数": "6"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-19",
+            "snapshot": "sources/wiki/pages/e5bb112b53a52d1b.json",
+            "capturedAt": "2026-09-27T04:30:12.850Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-19",
+            "snapshot": "sources/wiki/pages/e5bb112b53a52d1b.json",
+            "capturedAt": "2026-09-27T04:30:12.850Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-19",
+            "snapshot": "sources/wiki/pages/e5bb112b53a52d1b.json",
+            "capturedAt": "2026-09-27T04:30:12.850Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-19",
+            "snapshot": "sources/wiki/pages/e5bb112b53a52d1b.json",
+            "capturedAt": "2026-09-27T04:30:12.850Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-19",
+            "snapshot": "sources/wiki/pages/e5bb112b53a52d1b.json",
+            "capturedAt": "2026-09-27T04:30:12.850Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 21
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 21
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 21
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 21
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 21
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-19",
+            "snapshot": "sources/wiki/pages/e5bb112b53a52d1b.json",
+            "capturedAt": "2026-09-27T04:30:12.850Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 21
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-19",
+              "snapshot": "sources/wiki/pages/e5bb112b53a52d1b.json",
+              "capturedAt": "2026-09-27T04:30:12.850Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "HSA-19",
+              "loops": 4,
+              "days": 6,
+              "schedule": [
+                {
+                  "day": 2,
+                  "incidentText": "诅咒活化"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "送葬"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "疯狂之夜"
+                },
+                {
+                  "day": 6,
+                  "incidentText": "邪气污染"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 5,
+              "row": 21
+            },
+            "fields": {
+              "scenarioCode": "HSA-19",
+              "剧本名": "Tragical Garnet",
+              "日文名": "Tragical Garnet",
+              "作者": "弾濫",
+              "轮数": "4",
+              "天数": "6"
+            }
+          }
+        ],
+        "body": "text/scenarios/1b62e3ae2f2f8e40.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-19",
+          "snapshot": "sources/wiki/pages/e5bb112b53a52d1b.json",
+          "capturedAt": "2026-09-27T04:30:12.850Z"
+        },
+        "wikiTitle": "HSA-19",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "HSA-19非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-19%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-19?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Haunted Stage Again"
+        ],
+        "module": "Haunted Stage Again"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "c3b54474b29d5ab6",
+        "title": "HSA-19非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "HSA-19"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-19%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/668ff203605900d9.json",
+            "capturedAt": "2026-09-27T04:30:15.845Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-19%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/668ff203605900d9.json",
+            "capturedAt": "2026-09-27T04:30:15.845Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-19%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/668ff203605900d9.json",
+            "capturedAt": "2026-09-27T04:30:15.845Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-19%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/668ff203605900d9.json",
+              "capturedAt": "2026-09-27T04:30:15.845Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "HSA-19"
+            }
+          }
+        ],
+        "wikiTitle": "HSA-19非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Haunted Stage Again",
+        "tags": [
+          "民间",
+          "Haunted Stage Again"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "c3b54474b29d5ab6"
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,60 @@
+{
+  "id": "96fb0c53d63e323b",
+  "title": "男學生帶有1枚不安指示物、1枚絕望指示物。護士能夠對他使用友好能力嗎？",
+  "kind": "faq",
+  "scope": "纸质 FAQ / 十周年 / Q11",
+  "aliases": [],
+  "fields": {
+    "question": "男學生帶有1枚不安指示物、1枚絕望指示物。護士能夠對他使用友好能力嗎？",
+    "answer": "可以。在使用護士的友好能力進行計算時，絕望指示物視作不安指示物計入（但是在移除時無法移除絕望指示物）。教主也一樣。"
+  },
+  "provenance": {
+    "question": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/5e4d811055e32254199f84835b012043.jpg",
+      "snapshot": "sources/paper-faq/anniversary.json",
+      "page": 11,
+      "questionNumber": 11
+    },
+    "answer": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/5e4d811055e32254199f84835b012043.jpg",
+      "snapshot": "sources/paper-faq/anniversary.json",
+      "page": 11,
+      "questionNumber": 11
+    }
+  },
+  "sources": [
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/5e4d811055e32254199f84835b012043.jpg",
+      "snapshot": "sources/paper-faq/anniversary.json",
+      "page": 11,
+      "questionNumber": 11
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/5e4d811055e32254199f84835b012043.jpg",
+        "snapshot": "sources/paper-faq/anniversary.json",
+        "page": 11,
+        "questionNumber": 11
+      },
+      "fields": {
+        "question": "男學生帶有1枚不安指示物、1枚絕望指示物。護士能夠對他使用友好能力嗎？",
+        "answer": "可以。在使用護士的友好能力進行計算時，絕望指示物視作不安指示物計入（但是在移除時無法移除絕望指示物）。教主也一樣。"
+      }
+    }
+  ],
+  "tags": [
+    "十周年",
+    "纸质 FAQ",
+    "希望与绝望",
+    "官方"
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/lunhui/5e4d811055e32254199f84835b012043.jpg",
+  "conflicts": []
+}

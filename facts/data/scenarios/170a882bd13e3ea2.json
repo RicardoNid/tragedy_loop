@@ -1,0 +1,416 @@
+{
+  "id": "170a882bd13e3ea2",
+  "title": "HSA-11",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "HSA-11非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "HSA-11",
+    "loops": 4,
+    "days": 1,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "疯狂之夜"
+      }
+    ],
+    "剧本名": "给花心者铁锤",
+    "作者": "ペンスキー（gitti）",
+    "轮数": "4",
+    "天数": "1",
+    "难度": "3"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-11",
+      "snapshot": "sources/wiki/pages/7ea439d4a2b536cf.json",
+      "capturedAt": "2026-09-27T04:29:08.090Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-11",
+      "snapshot": "sources/wiki/pages/7ea439d4a2b536cf.json",
+      "capturedAt": "2026-09-27T04:29:08.090Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-11",
+      "snapshot": "sources/wiki/pages/7ea439d4a2b536cf.json",
+      "capturedAt": "2026-09-27T04:29:08.090Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-11",
+      "snapshot": "sources/wiki/pages/7ea439d4a2b536cf.json",
+      "capturedAt": "2026-09-27T04:29:08.090Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-11",
+      "snapshot": "sources/wiki/pages/7ea439d4a2b536cf.json",
+      "capturedAt": "2026-09-27T04:29:08.090Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 13
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 13
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 13
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 13
+    },
+    "难度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 13
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-11",
+      "snapshot": "sources/wiki/pages/7ea439d4a2b536cf.json",
+      "capturedAt": "2026-09-27T04:29:08.090Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 13
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/336c42ebd5387926.json",
+      "capturedAt": "2026-09-27T04:29:11.072Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-11",
+        "snapshot": "sources/wiki/pages/7ea439d4a2b536cf.json",
+        "capturedAt": "2026-09-27T04:29:08.090Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "HSA-11",
+        "loops": 4,
+        "days": 1,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "疯狂之夜"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 5,
+        "row": 13
+      },
+      "fields": {
+        "scenarioCode": "HSA-11",
+        "剧本名": "给花心者铁锤",
+        "作者": "ペンスキー（gitti）",
+        "轮数": "4",
+        "天数": "1",
+        "难度": "3"
+      }
+    }
+  ],
+  "wikiTitle": "HSA-11",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Haunted Stage Again"
+  ],
+  "module": "Haunted Stage Again",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "170a882bd13e3ea2",
+        "title": "HSA-11",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "HSA-11",
+          "loops": 4,
+          "days": 1,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "疯狂之夜"
+            }
+          ],
+          "剧本名": "给花心者铁锤",
+          "作者": "ペンスキー（gitti）",
+          "轮数": "4",
+          "天数": "1",
+          "难度": "3"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-11",
+            "snapshot": "sources/wiki/pages/7ea439d4a2b536cf.json",
+            "capturedAt": "2026-09-27T04:29:08.090Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-11",
+            "snapshot": "sources/wiki/pages/7ea439d4a2b536cf.json",
+            "capturedAt": "2026-09-27T04:29:08.090Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-11",
+            "snapshot": "sources/wiki/pages/7ea439d4a2b536cf.json",
+            "capturedAt": "2026-09-27T04:29:08.090Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-11",
+            "snapshot": "sources/wiki/pages/7ea439d4a2b536cf.json",
+            "capturedAt": "2026-09-27T04:29:08.090Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-11",
+            "snapshot": "sources/wiki/pages/7ea439d4a2b536cf.json",
+            "capturedAt": "2026-09-27T04:29:08.090Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 13
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 13
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 13
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 13
+          },
+          "难度": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 13
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-11",
+            "snapshot": "sources/wiki/pages/7ea439d4a2b536cf.json",
+            "capturedAt": "2026-09-27T04:29:08.090Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 13
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-11",
+              "snapshot": "sources/wiki/pages/7ea439d4a2b536cf.json",
+              "capturedAt": "2026-09-27T04:29:08.090Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "HSA-11",
+              "loops": 4,
+              "days": 1,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "疯狂之夜"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 5,
+              "row": 13
+            },
+            "fields": {
+              "scenarioCode": "HSA-11",
+              "剧本名": "给花心者铁锤",
+              "作者": "ペンスキー（gitti）",
+              "轮数": "4",
+              "天数": "1",
+              "难度": "3"
+            }
+          }
+        ],
+        "body": "text/scenarios/170a882bd13e3ea2.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-11",
+          "snapshot": "sources/wiki/pages/7ea439d4a2b536cf.json",
+          "capturedAt": "2026-09-27T04:29:08.090Z"
+        },
+        "wikiTitle": "HSA-11",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-11?action=edit&section=1"
+          },
+          {
+            "title": "HSA-11非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-11?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Haunted Stage Again"
+        ],
+        "module": "Haunted Stage Again"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "a9a9d74cac5c9ec2",
+        "title": "HSA-11非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "HSA-11"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/336c42ebd5387926.json",
+            "capturedAt": "2026-09-27T04:29:11.072Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/336c42ebd5387926.json",
+            "capturedAt": "2026-09-27T04:29:11.072Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/336c42ebd5387926.json",
+            "capturedAt": "2026-09-27T04:29:11.072Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-11%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/336c42ebd5387926.json",
+              "capturedAt": "2026-09-27T04:29:11.072Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "HSA-11"
+            }
+          }
+        ],
+        "wikiTitle": "HSA-11非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Haunted Stage Again",
+        "tags": [
+          "民间",
+          "Haunted Stage Again"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "a9a9d74cac5c9ec2"
+  ],
+  "conflicts": []
+}

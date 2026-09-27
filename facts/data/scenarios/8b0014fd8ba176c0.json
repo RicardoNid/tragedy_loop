@@ -1,0 +1,182 @@
+{
+  "id": "8b0014fd8ba176c0",
+  "title": "MZ-69",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "MZ-69非公开信息表"
+  ],
+  "fields": {
+    "scenarioCode": "MZ-69"
+  },
+  "provenance": {
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-69%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=2466",
+      "snapshot": "sources/wiki/pages/374c9eb095c8fe23.json",
+      "capturedAt": "2026-09-27T04:56:55.977Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-69%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=2466",
+      "snapshot": "sources/wiki/pages/374c9eb095c8fe23.json",
+      "capturedAt": "2026-09-27T04:56:55.977Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-69%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=2466",
+        "snapshot": "sources/wiki/pages/374c9eb095c8fe23.json",
+        "capturedAt": "2026-09-27T04:56:55.977Z"
+      },
+      "fields": {
+        "visibility": "secret",
+        "scenarioCode": "MZ-69",
+        "selectedRules": [
+          {
+            "slot": "Y",
+            "name": "因果之绊"
+          },
+          {
+            "slot": "X1",
+            "name": "诸神之骰"
+          },
+          {
+            "slot": "X2",
+            "name": "死亡真人秀"
+          }
+        ]
+      }
+    }
+  ],
+  "wikiTitle": "MZ-69非公开信息表",
+  "images": [],
+  "media": [],
+  "module": "Midnight Zone",
+  "tags": [
+    "Midnight Zone"
+  ],
+  "scenarioParts": [
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "8b0014fd8ba176c0",
+        "title": "MZ-69非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "MZ-69",
+          "selectedRules": [
+            {
+              "slot": "Y",
+              "name": "因果之绊"
+            },
+            {
+              "slot": "X1",
+              "name": "诸神之骰"
+            },
+            {
+              "slot": "X2",
+              "name": "死亡真人秀"
+            }
+          ]
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-69%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=2466",
+            "snapshot": "sources/wiki/pages/374c9eb095c8fe23.json",
+            "capturedAt": "2026-09-27T04:56:55.977Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-69%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=2466",
+            "snapshot": "sources/wiki/pages/374c9eb095c8fe23.json",
+            "capturedAt": "2026-09-27T04:56:55.977Z"
+          },
+          "selectedRules": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-69%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=2466",
+            "snapshot": "sources/wiki/pages/374c9eb095c8fe23.json",
+            "capturedAt": "2026-09-27T04:56:55.977Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-69%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=2466",
+            "snapshot": "sources/wiki/pages/374c9eb095c8fe23.json",
+            "capturedAt": "2026-09-27T04:56:55.977Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-69%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=2466",
+              "snapshot": "sources/wiki/pages/374c9eb095c8fe23.json",
+              "capturedAt": "2026-09-27T04:56:55.977Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "MZ-69",
+              "selectedRules": [
+                {
+                  "slot": "Y",
+                  "name": "因果之绊"
+                },
+                {
+                  "slot": "X1",
+                  "name": "诸神之骰"
+                },
+                {
+                  "slot": "X2",
+                  "name": "死亡真人秀"
+                }
+              ]
+            }
+          }
+        ],
+        "body": "text/scenarios/8b0014fd8ba176c0.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-69%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=2466",
+          "snapshot": "sources/wiki/pages/374c9eb095c8fe23.json",
+          "capturedAt": "2026-09-27T04:56:55.977Z"
+        },
+        "wikiTitle": "MZ-69非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-69%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=1"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-69%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=2"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MZ-69%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?action=edit&section=3"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "module": "Midnight Zone",
+        "tags": [
+          "Midnight Zone"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [],
+  "conflicts": []
+}

@@ -1,0 +1,67 @@
+{
+  "id": "507518f13255b0b4",
+  "title": "【因果线】上一轮死亡的角色有友好，放置不安吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / FS BTX / 第 8 行",
+  "aliases": [],
+  "fields": {
+    "question": "【因果线】上一轮死亡的角色有友好，放置不安吗？",
+    "answer": "放置，这时角色不是尸体"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000005",
+      "snapshot": "sources/faq-sheet/fs-btx.json",
+      "sheet": "FS BTX",
+      "row": 8,
+      "cells": "A8:B8",
+      "capturedAt": "2026-09-27T05:39:54.615Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000005",
+      "snapshot": "sources/faq-sheet/fs-btx.json",
+      "sheet": "FS BTX",
+      "row": 8,
+      "cells": "A8:B8",
+      "capturedAt": "2026-09-27T05:39:54.615Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000005",
+      "snapshot": "sources/faq-sheet/fs-btx.json",
+      "sheet": "FS BTX",
+      "row": 8,
+      "cells": "A8:B8",
+      "capturedAt": "2026-09-27T05:39:54.615Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000005",
+        "snapshot": "sources/faq-sheet/fs-btx.json",
+        "sheet": "FS BTX",
+        "row": 8,
+        "cells": "A8:B8",
+        "capturedAt": "2026-09-27T05:39:54.615Z"
+      },
+      "fields": {
+        "question": "【因果线】上一轮死亡的角色有友好，放置不安吗？",
+        "answer": "放置，这时角色不是尸体"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "FS BTX",
+    "关于规则",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

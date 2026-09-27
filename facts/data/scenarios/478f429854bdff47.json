@@ -1,0 +1,234 @@
+{
+  "id": "478f429854bdff47",
+  "title": "MC-01G",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "scenarioCode": "MC-01G",
+    "剧本名": "妄念探测",
+    "日文名": "妄執ディテクション",
+    "英文名": "Obsession Detection",
+    "作者": "BakaFire",
+    "轮数": "4",
+    "天数": "5",
+    "难度": "2"
+  },
+  "provenance": {
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+      "table": 4,
+      "row": 2
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+      "table": 4,
+      "row": 2
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+      "table": 4,
+      "row": 2
+    },
+    "英文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+      "table": 4,
+      "row": 2
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+      "table": 4,
+      "row": 2
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+      "table": 4,
+      "row": 2
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+      "table": 4,
+      "row": 2
+    },
+    "难度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+      "table": 4,
+      "row": 2
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+      "table": 4,
+      "row": 2
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+        "table": 4,
+        "row": 2
+      },
+      "fields": {
+        "scenarioCode": "MC-01G",
+        "剧本名": "妄念探测",
+        "日文名": "妄執ディテクション",
+        "英文名": "Obsession Detection",
+        "作者": "BakaFire",
+        "轮数": "4",
+        "天数": "5",
+        "难度": "2"
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/6734a0d13f91359e.json",
+  "tags": [
+    "官方剧本",
+    "官方",
+    "Mystery Circle"
+  ],
+  "module": "Mystery Circle",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "478f429854bdff47",
+        "title": "MC-01G",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "scenarioCode": "MC-01G",
+          "剧本名": "妄念探测",
+          "日文名": "妄執ディテクション",
+          "英文名": "Obsession Detection",
+          "作者": "BakaFire",
+          "轮数": "4",
+          "天数": "5",
+          "难度": "2"
+        },
+        "provenance": {
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+            "table": 4,
+            "row": 2
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+            "table": 4,
+            "row": 2
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+            "table": 4,
+            "row": 2
+          },
+          "英文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+            "table": 4,
+            "row": 2
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+            "table": 4,
+            "row": 2
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+            "table": 4,
+            "row": 2
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+            "table": 4,
+            "row": 2
+          },
+          "难度": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+            "table": 4,
+            "row": 2
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+            "table": 4,
+            "row": 2
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%AE%98%E6%96%B9%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/6734a0d13f91359e.json",
+              "table": 4,
+              "row": 2
+            },
+            "fields": {
+              "scenarioCode": "MC-01G",
+              "剧本名": "妄念探测",
+              "日文名": "妄執ディテクション",
+              "英文名": "Obsession Detection",
+              "作者": "BakaFire",
+              "轮数": "4",
+              "天数": "5",
+              "难度": "2"
+            }
+          }
+        ],
+        "authority": "官方",
+        "classificationSource": "sources/wiki/pages/6734a0d13f91359e.json",
+        "tags": [
+          "官方剧本",
+          "官方",
+          "Mystery Circle"
+        ],
+        "module": "Mystery Circle"
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [],
+  "conflicts": []
+}

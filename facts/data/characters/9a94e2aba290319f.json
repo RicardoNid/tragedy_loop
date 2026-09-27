@@ -1,0 +1,233 @@
+{
+  "id": "9a94e2aba290319f",
+  "title": "军人",
+  "kind": "characters",
+  "scope": "",
+  "aliases": [
+    "軍人"
+  ],
+  "fields": {
+    "角色名": "军人",
+    "初始区域": "医院",
+    "禁行区域": "无",
+    "不安限度": "3",
+    "属性": [
+      "男性",
+      "成人"
+    ],
+    "友好能力": [
+      {
+        "text": "（友好2 1L1）往同一區域任意1名角色身上放置2枚不安指示物。",
+        "threshold": 2,
+        "limitText": "1L1",
+        "oncePerLoop": true
+      },
+      {
+        "text": "（友好5 1L1）本輪輪迴中，主人公不會死亡。",
+        "threshold": 5,
+        "limitText": "1L1",
+        "oncePerLoop": true
+      }
+    ]
+  },
+  "provenance": {
+    "角色名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%BB%8D%E4%BA%BA",
+      "snapshot": "sources/wiki/pages/1f04cee2d52c126f.json",
+      "capturedAt": "2026-09-27T03:34:28.771Z"
+    },
+    "初始区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%BB%8D%E4%BA%BA",
+      "snapshot": "sources/wiki/pages/1f04cee2d52c126f.json",
+      "capturedAt": "2026-09-27T03:34:28.771Z"
+    },
+    "禁行区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%BB%8D%E4%BA%BA",
+      "snapshot": "sources/wiki/pages/1f04cee2d52c126f.json",
+      "capturedAt": "2026-09-27T03:34:28.771Z"
+    },
+    "不安限度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%BB%8D%E4%BA%BA",
+      "snapshot": "sources/wiki/pages/1f04cee2d52c126f.json",
+      "capturedAt": "2026-09-27T03:34:28.771Z"
+    },
+    "属性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%BB%8D%E4%BA%BA",
+      "snapshot": "sources/wiki/pages/1f04cee2d52c126f.json",
+      "capturedAt": "2026-09-27T03:34:28.771Z"
+    },
+    "友好能力": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%BB%8D%E4%BA%BA",
+      "snapshot": "sources/wiki/pages/1f04cee2d52c126f.json",
+      "capturedAt": "2026-09-27T03:34:28.771Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%BB%8D%E4%BA%BA",
+      "snapshot": "sources/wiki/pages/1f04cee2d52c126f.json",
+      "capturedAt": "2026-09-27T03:34:28.771Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%BB%8D%E4%BA%BA",
+        "snapshot": "sources/wiki/pages/1f04cee2d52c126f.json",
+        "capturedAt": "2026-09-27T03:34:28.771Z"
+      },
+      "fields": {
+        "角色名": "军人",
+        "初始区域": "医院",
+        "禁行区域": "无",
+        "不安限度": "3",
+        "属性": [
+          "男性",
+          "成人"
+        ],
+        "友好能力": [
+          {
+            "text": "（友好2 1L1）往同一區域任意1名角色身上放置2枚不安指示物。",
+            "threshold": 2,
+            "limitText": "1L1",
+            "oncePerLoop": true
+          },
+          {
+            "text": "（友好5 1L1）本輪輪迴中，主人公不會死亡。",
+            "threshold": 5,
+            "limitText": "1L1",
+            "oncePerLoop": true
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "特性": "",
+        "属性": [
+          "男性",
+          "成人"
+        ],
+        "初始区域": "医院",
+        "禁行区域": "否",
+        "不安限度": "3",
+        "友好能力": [
+          {
+            "text": "往同一区域任意1名角色身上放置2枚不安指示物",
+            "threshold": "2",
+            "oncePerLoop": "是"
+          },
+          {
+            "text": "本轮轮回中，主人公不会死亡",
+            "threshold": "5",
+            "oncePerLoop": "是"
+          }
+        ]
+      }
+    }
+  ],
+  "body": "text/characters/9a94e2aba290319f.txt",
+  "bodySource": {
+    "provider": "wiki",
+    "url": "https://tragedyrooper.fandom.com/zh/wiki/%E8%BB%8D%E4%BA%BA",
+    "snapshot": "sources/wiki/pages/1f04cee2d52c126f.json",
+    "capturedAt": "2026-09-27T03:34:28.771Z"
+  },
+  "wikiTitle": "軍人",
+  "originalTables": [],
+  "wikiStatus": "captured",
+  "links": [
+    {
+      "title": "<img style=\"\" src=\"https://static.wikia.nocookie.net/tragedyrooper/images/7/74/%E5%86%9B%E4%BA%BA.png/revision/latest/scale-to-width-down/135?cb=20251023162227&amp;path-prefix=zh\" title=\"军人.png (215 KB)\" class=\"thumbimage\" alt=\"\" height=\"185\" width=\"185\" data-image-name=\"军人.png\" data-image-key=\"%E5%86%9B%E4%BA%BA.png\" data-relevant=\"1\">",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%86%9B%E4%BA%BA.png"
+    }
+  ],
+  "images": [
+    {
+      "alt": "",
+      "src": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+    }
+  ],
+  "media": [
+    {
+      "title": "军人.png",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%86%9B%E4%BA%BA.png",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/7/74/%E5%86%9B%E4%BA%BA.png/revision/latest?cb=20251023162227&format=original&path-prefix=zh",
+      "path": "media/wiki/2bb2461a44117e55.png",
+      "sourceRecord": "sources/wiki/files/2bb2461a44117e55.json",
+      "sha256": "e33863b74cb40f19573c77fd15c86af4e918a1e10feb52985f3eb10d543cc580",
+      "bytes": 219892,
+      "fileInfo": "PNG image data, 306 x 419, 8-bit/color RGBA, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/6fadb2d7054aeea7.json",
+  "tags": [
+    "男性",
+    "成人",
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "禁行区域",
+      "selected": "无",
+      "candidate": "否",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "友好能力",
+      "selected": [
+        {
+          "text": "（友好2 1L1）往同一區域任意1名角色身上放置2枚不安指示物。",
+          "threshold": 2,
+          "limitText": "1L1",
+          "oncePerLoop": true
+        },
+        {
+          "text": "（友好5 1L1）本輪輪迴中，主人公不會死亡。",
+          "threshold": 5,
+          "limitText": "1L1",
+          "oncePerLoop": true
+        }
+      ],
+      "candidate": [
+        {
+          "text": "往同一区域任意1名角色身上放置2枚不安指示物",
+          "threshold": "2",
+          "oncePerLoop": "是"
+        },
+        {
+          "text": "本轮轮回中，主人公不会死亡",
+          "threshold": "5",
+          "oncePerLoop": "是"
+        }
+      ],
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    }
+  ]
+}

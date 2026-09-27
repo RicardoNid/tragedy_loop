@@ -1,0 +1,45 @@
+{
+  "id": "72307a8914705bd6",
+  "title": "星星之火",
+  "kind": "incidents",
+  "scope": "Another Horizon",
+  "aliases": [],
+  "fields": {
+    "effect": "<当事人不安限度-1>队长选择任意1名角色，并往那名角色身上放置1枚[友好]、[不安]或[密谋]"
+  },
+  "provenance": {
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon",
+      "snapshot": "sources/wiki/pages/0bbeabad41fe0a31.json",
+      "capturedAt": "2026-09-27T03:28:21.175Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon",
+      "snapshot": "sources/wiki/pages/0bbeabad41fe0a31.json",
+      "capturedAt": "2026-09-27T03:28:21.175Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon",
+        "snapshot": "sources/wiki/pages/0bbeabad41fe0a31.json",
+        "capturedAt": "2026-09-27T03:28:21.175Z"
+      },
+      "fields": {
+        "effect": "<当事人不安限度-1>队长选择任意1名角色，并往那名角色身上放置1枚[友好]、[不安]或[密谋]"
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "官方"
+  ],
+  "conflicts": []
+}

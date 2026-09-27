@@ -1,0 +1,60 @@
+{
+  "id": "f6faa3c617738272",
+  "title": "大人物身份是佈道者，位於醫院，且需要進行死亡處理。他的領地都市中有從者，此時該怎麼處理？",
+  "kind": "faq",
+  "scope": "纸质 FAQ / AHR / Q19",
+  "aliases": [],
+  "fields": {
+    "question": "大人物身份是佈道者，位於醫院，且需要進行死亡處理。他的領地都市中有從者，此時該怎麼處理？",
+    "answer": "首先，大人物這次死亡不被從者代替。大人物的特性只有在劇作家使用能力時，才可以把領地視作他的所在區域，死亡處理時與領地無關。隨後，將絕望指示物放置於醫院或都市中任意1名角色的身上。"
+  },
+  "provenance": {
+    "question": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+      "snapshot": "sources/paper-faq/another-horizon-revised.json",
+      "page": 17,
+      "questionNumber": 19
+    },
+    "answer": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+      "snapshot": "sources/paper-faq/another-horizon-revised.json",
+      "page": 17,
+      "questionNumber": 19
+    }
+  },
+  "sources": [
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+      "snapshot": "sources/paper-faq/another-horizon-revised.json",
+      "page": 17,
+      "questionNumber": 19
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+        "snapshot": "sources/paper-faq/another-horizon-revised.json",
+        "page": 17,
+        "questionNumber": 19
+      },
+      "fields": {
+        "question": "大人物身份是佈道者，位於醫院，且需要進行死亡處理。他的領地都市中有從者，此時該怎麼處理？",
+        "answer": "首先，大人物這次死亡不被從者代替。大人物的特性只有在劇作家使用能力時，才可以把領地視作他的所在區域，死亡處理時與領地無關。隨後，將絕望指示物放置於醫院或都市中任意1名角色的身上。"
+      }
+    }
+  ],
+  "tags": [
+    "AHR",
+    "纸质 FAQ",
+    "身份",
+    "官方"
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/lunhui/0b361f1647a9ed91fc6ed9194ded672e.jpg",
+  "conflicts": []
+}

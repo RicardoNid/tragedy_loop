@@ -1,0 +1,66 @@
+{
+  "id": "5f621adc716d5584",
+  "title": "为什么牌背是剪影/不是死亡特效？是代表死亡吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 写在前面 / 第 2 行",
+  "aliases": [],
+  "fields": {
+    "question": "为什么牌背是剪影/不是死亡特效？是代表死亡吗？",
+    "answer": "自选喜欢的一面使用，死亡特效是TTS图包作者自己P的。不代表死亡，死亡用角色横置表示。"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000001",
+      "snapshot": "sources/faq-sheet/preface.json",
+      "sheet": "写在前面",
+      "row": 2,
+      "cells": "A2:B2",
+      "capturedAt": "2026-09-27T05:41:03.158Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000001",
+      "snapshot": "sources/faq-sheet/preface.json",
+      "sheet": "写在前面",
+      "row": 2,
+      "cells": "A2:B2",
+      "capturedAt": "2026-09-27T05:41:03.158Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000001",
+      "snapshot": "sources/faq-sheet/preface.json",
+      "sheet": "写在前面",
+      "row": 2,
+      "cells": "A2:B2",
+      "capturedAt": "2026-09-27T05:41:03.158Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000001",
+        "snapshot": "sources/faq-sheet/preface.json",
+        "sheet": "写在前面",
+        "row": 2,
+        "cells": "A2:B2",
+        "capturedAt": "2026-09-27T05:41:03.158Z"
+      },
+      "fields": {
+        "question": "为什么牌背是剪影/不是死亡特效？是代表死亡吗？",
+        "answer": "自选喜欢的一面使用，死亡特效是TTS图包作者自己P的。不代表死亡，死亡用角色横置表示。"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "写在前面",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

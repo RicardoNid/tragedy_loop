@@ -1,0 +1,66 @@
+{
+  "id": "251ec3c9644c266f",
+  "title": "我想在网上玩这个游戏，要怎么办？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 写在前面 / 第 10 行",
+  "aliases": [],
+  "fields": {
+    "question": "我想在网上玩这个游戏，要怎么办？",
+    "answer": "一般使用TTS进行游戏，可以加入惨剧轮回联机群955872728寻找牌友"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000001",
+      "snapshot": "sources/faq-sheet/preface.json",
+      "sheet": "写在前面",
+      "row": 10,
+      "cells": "A10:B10",
+      "capturedAt": "2026-09-27T05:41:03.158Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000001",
+      "snapshot": "sources/faq-sheet/preface.json",
+      "sheet": "写在前面",
+      "row": 10,
+      "cells": "A10:B10",
+      "capturedAt": "2026-09-27T05:41:03.158Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000001",
+      "snapshot": "sources/faq-sheet/preface.json",
+      "sheet": "写在前面",
+      "row": 10,
+      "cells": "A10:B10",
+      "capturedAt": "2026-09-27T05:41:03.158Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000001",
+        "snapshot": "sources/faq-sheet/preface.json",
+        "sheet": "写在前面",
+        "row": 10,
+        "cells": "A10:B10",
+        "capturedAt": "2026-09-27T05:41:03.158Z"
+      },
+      "fields": {
+        "question": "我想在网上玩这个游戏，要怎么办？",
+        "answer": "一般使用TTS进行游戏，可以加入惨剧轮回联机群955872728寻找牌友"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "写在前面",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

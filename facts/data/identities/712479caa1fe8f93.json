@@ -1,0 +1,95 @@
+{
+  "id": "712479caa1fe8f93",
+  "title": "无面者",
+  "kind": "identities",
+  "scope": "Weird Mythology",
+  "aliases": [],
+  "fields": {
+    "max": "",
+    "traits": "不死\n\n无视友好",
+    "abilities": [
+      "【强制：常驻】Ex槽为1或以下→该角色获得传谣人的能力（身份不发生变化）",
+      "【强制：常驻】Ex槽为2或以上→该角色获得深潜者的能力（身份不发生变化）"
+    ]
+  },
+  "provenance": {
+    "max": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Weird_Mythology",
+      "snapshot": "sources/wiki/pages/4d608cef3c4485cd.json",
+      "capturedAt": "2026-09-27T03:30:15.425Z"
+    },
+    "traits": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Weird_Mythology",
+      "snapshot": "sources/wiki/pages/4d608cef3c4485cd.json",
+      "capturedAt": "2026-09-27T03:30:15.425Z"
+    },
+    "abilities": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Weird_Mythology",
+      "snapshot": "sources/wiki/pages/4d608cef3c4485cd.json",
+      "capturedAt": "2026-09-27T03:30:15.425Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Weird_Mythology",
+      "snapshot": "sources/wiki/pages/4d608cef3c4485cd.json",
+      "capturedAt": "2026-09-27T03:30:15.425Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Weird_Mythology",
+        "snapshot": "sources/wiki/pages/4d608cef3c4485cd.json",
+        "capturedAt": "2026-09-27T03:30:15.425Z"
+      },
+      "fields": {
+        "max": "",
+        "traits": "不死\n\n无视友好",
+        "abilities": [
+          "【强制：常驻】Ex槽为1或以下→该角色获得传谣人的能力（身份不发生变化）",
+          "【强制：常驻】Ex槽为2或以上→该角色获得深潜者的能力（身份不发生变化）"
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "max": "",
+        "traits": "不死；无视友好",
+        "abilities": [
+          "【强制：常驻】Ex槽为1或以下→该角色获得传谣人的能力（身份不发生变化）",
+          "【强制：常驻】Ex槽为2或以上→该角色获得深潜者的能力（身份不发生变化）"
+        ]
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "traits",
+      "selected": "不死\n\n无视友好",
+      "candidate": "不死；无视友好",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    }
+  ]
+}

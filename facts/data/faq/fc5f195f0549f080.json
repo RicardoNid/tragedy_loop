@@ -1,0 +1,67 @@
+{
+  "id": "fc5f195f0549f080",
+  "title": "UP主可以对没EX牌的角色用能力吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 中文特供Promo卡 / 第 15 行",
+  "aliases": [],
+  "fields": {
+    "question": "UP主可以对没EX牌的角色用能力吗？",
+    "answer": "可以"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=mknfvi",
+      "snapshot": "sources/faq-sheet/promo.json",
+      "sheet": "中文特供Promo卡",
+      "row": 15,
+      "cells": "A15:B15",
+      "capturedAt": "2026-09-27T05:40:39.708Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=mknfvi",
+      "snapshot": "sources/faq-sheet/promo.json",
+      "sheet": "中文特供Promo卡",
+      "row": 15,
+      "cells": "A15:B15",
+      "capturedAt": "2026-09-27T05:40:39.708Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=mknfvi",
+      "snapshot": "sources/faq-sheet/promo.json",
+      "sheet": "中文特供Promo卡",
+      "row": 15,
+      "cells": "A15:B15",
+      "capturedAt": "2026-09-27T05:40:39.708Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=mknfvi",
+        "snapshot": "sources/faq-sheet/promo.json",
+        "sheet": "中文特供Promo卡",
+        "row": 15,
+        "cells": "A15:B15",
+        "capturedAt": "2026-09-27T05:40:39.708Z"
+      },
+      "fields": {
+        "question": "UP主可以对没EX牌的角色用能力吗？",
+        "answer": "可以"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "中文特供Promo卡",
+    "关于UP主",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

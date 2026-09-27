@@ -1,0 +1,524 @@
+{
+  "id": "d271802f31d0214f",
+  "title": "MC-52",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "MC-52非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "MC-52",
+    "loops": 3,
+    "days": 8,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "封锁"
+      },
+      {
+        "day": 2,
+        "incidentText": "连续杀人"
+      },
+      {
+        "day": 3,
+        "incidentText": "医院事故"
+      },
+      {
+        "day": 4,
+        "incidentText": "不安扩散"
+      },
+      {
+        "day": 5,
+        "incidentText": "连续杀人"
+      },
+      {
+        "day": 6,
+        "incidentText": "银色子弹"
+      },
+      {
+        "day": 7,
+        "incidentText": "连续杀人"
+      },
+      {
+        "day": 8,
+        "incidentText": "自杀"
+      }
+    ],
+    "剧本名": "谁死了？为什么？",
+    "英文名": "Who Died? And Why?",
+    "作者": "O'Malley",
+    "轮数": "4 3",
+    "天数": "8"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-52",
+      "snapshot": "sources/wiki/pages/560ff8b1e242a5ed.json",
+      "capturedAt": "2026-09-27T04:40:41.265Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-52",
+      "snapshot": "sources/wiki/pages/560ff8b1e242a5ed.json",
+      "capturedAt": "2026-09-27T04:40:41.265Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-52",
+      "snapshot": "sources/wiki/pages/560ff8b1e242a5ed.json",
+      "capturedAt": "2026-09-27T04:40:41.265Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-52",
+      "snapshot": "sources/wiki/pages/560ff8b1e242a5ed.json",
+      "capturedAt": "2026-09-27T04:40:41.265Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-52",
+      "snapshot": "sources/wiki/pages/560ff8b1e242a5ed.json",
+      "capturedAt": "2026-09-27T04:40:41.265Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 54
+    },
+    "英文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 54
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 54
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 54
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 54
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-52",
+      "snapshot": "sources/wiki/pages/560ff8b1e242a5ed.json",
+      "capturedAt": "2026-09-27T04:40:41.265Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 54
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-52%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/3d8485362739e5e5.json",
+      "capturedAt": "2026-09-27T04:40:44.250Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-52",
+        "snapshot": "sources/wiki/pages/560ff8b1e242a5ed.json",
+        "capturedAt": "2026-09-27T04:40:41.265Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "MC-52",
+        "loops": 3,
+        "days": 8,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "封锁"
+          },
+          {
+            "day": 2,
+            "incidentText": "连续杀人"
+          },
+          {
+            "day": 3,
+            "incidentText": "医院事故"
+          },
+          {
+            "day": 4,
+            "incidentText": "不安扩散"
+          },
+          {
+            "day": 5,
+            "incidentText": "连续杀人"
+          },
+          {
+            "day": 6,
+            "incidentText": "银色子弹"
+          },
+          {
+            "day": 7,
+            "incidentText": "连续杀人"
+          },
+          {
+            "day": 8,
+            "incidentText": "自杀"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 4,
+        "row": 54
+      },
+      "fields": {
+        "scenarioCode": "MC-52",
+        "剧本名": "谁死了？为什么？",
+        "英文名": "Who Died? And Why?",
+        "作者": "O'Malley",
+        "轮数": "4 3",
+        "天数": "8"
+      }
+    }
+  ],
+  "wikiTitle": "MC-52",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Mystery Circle"
+  ],
+  "module": "Mystery Circle",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "d271802f31d0214f",
+        "title": "MC-52",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "MC-52",
+          "loops": 3,
+          "days": 8,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "封锁"
+            },
+            {
+              "day": 2,
+              "incidentText": "连续杀人"
+            },
+            {
+              "day": 3,
+              "incidentText": "医院事故"
+            },
+            {
+              "day": 4,
+              "incidentText": "不安扩散"
+            },
+            {
+              "day": 5,
+              "incidentText": "连续杀人"
+            },
+            {
+              "day": 6,
+              "incidentText": "银色子弹"
+            },
+            {
+              "day": 7,
+              "incidentText": "连续杀人"
+            },
+            {
+              "day": 8,
+              "incidentText": "自杀"
+            }
+          ],
+          "剧本名": "谁死了？为什么？",
+          "英文名": "Who Died? And Why?",
+          "作者": "O'Malley",
+          "轮数": "4 3",
+          "天数": "8"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-52",
+            "snapshot": "sources/wiki/pages/560ff8b1e242a5ed.json",
+            "capturedAt": "2026-09-27T04:40:41.265Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-52",
+            "snapshot": "sources/wiki/pages/560ff8b1e242a5ed.json",
+            "capturedAt": "2026-09-27T04:40:41.265Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-52",
+            "snapshot": "sources/wiki/pages/560ff8b1e242a5ed.json",
+            "capturedAt": "2026-09-27T04:40:41.265Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-52",
+            "snapshot": "sources/wiki/pages/560ff8b1e242a5ed.json",
+            "capturedAt": "2026-09-27T04:40:41.265Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-52",
+            "snapshot": "sources/wiki/pages/560ff8b1e242a5ed.json",
+            "capturedAt": "2026-09-27T04:40:41.265Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 54
+          },
+          "英文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 54
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 54
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 54
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 54
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-52",
+            "snapshot": "sources/wiki/pages/560ff8b1e242a5ed.json",
+            "capturedAt": "2026-09-27T04:40:41.265Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 54
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-52",
+              "snapshot": "sources/wiki/pages/560ff8b1e242a5ed.json",
+              "capturedAt": "2026-09-27T04:40:41.265Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "MC-52",
+              "loops": 3,
+              "days": 8,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "封锁"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "连续杀人"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "医院事故"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "不安扩散"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "连续杀人"
+                },
+                {
+                  "day": 6,
+                  "incidentText": "银色子弹"
+                },
+                {
+                  "day": 7,
+                  "incidentText": "连续杀人"
+                },
+                {
+                  "day": 8,
+                  "incidentText": "自杀"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 4,
+              "row": 54
+            },
+            "fields": {
+              "scenarioCode": "MC-52",
+              "剧本名": "谁死了？为什么？",
+              "英文名": "Who Died? And Why?",
+              "作者": "O'Malley",
+              "轮数": "4 3",
+              "天数": "8"
+            }
+          }
+        ],
+        "body": "text/scenarios/d271802f31d0214f.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-52",
+          "snapshot": "sources/wiki/pages/560ff8b1e242a5ed.json",
+          "capturedAt": "2026-09-27T04:40:41.265Z"
+        },
+        "wikiTitle": "MC-52",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "MC-52非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-52%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-52?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Mystery Circle"
+        ],
+        "module": "Mystery Circle"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "0668b1533664eb96",
+        "title": "MC-52非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "MC-52"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-52%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/3d8485362739e5e5.json",
+            "capturedAt": "2026-09-27T04:40:44.250Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-52%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/3d8485362739e5e5.json",
+            "capturedAt": "2026-09-27T04:40:44.250Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-52%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/3d8485362739e5e5.json",
+            "capturedAt": "2026-09-27T04:40:44.250Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-52%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/3d8485362739e5e5.json",
+              "capturedAt": "2026-09-27T04:40:44.250Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "MC-52"
+            }
+          }
+        ],
+        "wikiTitle": "MC-52非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Mystery Circle",
+        "tags": [
+          "民间",
+          "Mystery Circle"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "0668b1533664eb96"
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,60 @@
+{
+  "id": "f4532e7e8e78745c",
+  "title": "黑道.png",
+  "kind": "media",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "bytes": 4404712,
+    "sha256": "2366f6af93a34b0924dad918315203f3444856d1de63fc3da464cd848c105275"
+  },
+  "provenance": {
+    "bytes": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E9%BB%91%E9%81%93.png",
+      "snapshot": "sources/wiki/files/af7cb325f8099bc7.json"
+    },
+    "sha256": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E9%BB%91%E9%81%93.png",
+      "snapshot": "sources/wiki/files/af7cb325f8099bc7.json"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E9%BB%91%E9%81%93.png",
+      "snapshot": "sources/wiki/files/af7cb325f8099bc7.json"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E9%BB%91%E9%81%93.png",
+        "snapshot": "sources/wiki/files/af7cb325f8099bc7.json"
+      },
+      "fields": {
+        "bytes": 4404712,
+        "sha256": "2366f6af93a34b0924dad918315203f3444856d1de63fc3da464cd848c105275"
+      }
+    }
+  ],
+  "media": [
+    {
+      "title": "黑道.png",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:%E9%BB%91%E9%81%93.png",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/7/79/%E9%BB%91%E9%81%93.png/revision/latest?cb=20260314125352&format=original&path-prefix=zh",
+      "path": "media/wiki/af7cb325f8099bc7.png",
+      "sourceRecord": "sources/wiki/files/af7cb325f8099bc7.json",
+      "sha256": "2366f6af93a34b0924dad918315203f3444856d1de63fc3da464cd848c105275",
+      "bytes": 4404712,
+      "fileInfo": "PNG image data, 1732 x 2419, 8-bit/color RGBA, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "tags": [],
+  "conflicts": []
+}

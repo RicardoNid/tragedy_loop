@@ -1,0 +1,55 @@
+{
+  "id": "674ce67f96a9310b",
+  "title": "禁止密谋",
+  "kind": "actions",
+  "scope": "主人公手牌",
+  "aliases": [],
+  "fields": {
+    "effect": "1.无效化同一位置改变密谋指示的卡牌\n2.同时打出两张禁止密谋时两张禁止密谋均失效",
+    "count": "1",
+    "oncePerLoop": "否"
+  },
+  "provenance": {
+    "effect": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    },
+    "count": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    },
+    "oncePerLoop": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  },
+  "sources": [
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "effect": "1.无效化同一位置改变密谋指示的卡牌\n2.同时打出两张禁止密谋时两张禁止密谋均失效",
+        "count": "1",
+        "oncePerLoop": "否"
+      }
+    }
+  ],
+  "actionSide": "主人公",
+  "availability": [],
+  "baseAction": true,
+  "authority": "官方",
+  "tags": [
+    "基础行动牌",
+    "主人公",
+    "官方"
+  ],
+  "conflicts": []
+}

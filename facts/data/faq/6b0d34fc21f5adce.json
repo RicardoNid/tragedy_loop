@@ -1,0 +1,60 @@
+{
+  "id": "6b0d34fc21f5adce",
+  "title": "那麼，當A.I.身上帶有2枚不安指示物和1枚絕望指示物時，其作為當事人的事件還會發生嗎？",
+  "kind": "faq",
+  "scope": "纸质 FAQ / 十周年 / Q6",
+  "aliases": [],
+  "fields": {
+    "question": "那麼，當A.I.身上帶有2枚不安指示物和1枚絕望指示物時，其作為當事人的事件還會發生嗎？",
+    "answer": "不會。A.I.的特性和絕望指示物的效果其實是一樣的，兩種效果都會將絕望指示物作為不安指示物進行計算。但是絕望指示物本身作為1指示物只有1枚，因此不會被多次計入。類似的例子還有祭品（出自WM模組）。"
+  },
+  "provenance": {
+    "question": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/5e4d811055e32254199f84835b012043.jpg",
+      "snapshot": "sources/paper-faq/anniversary.json",
+      "page": 10,
+      "questionNumber": 6
+    },
+    "answer": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/5e4d811055e32254199f84835b012043.jpg",
+      "snapshot": "sources/paper-faq/anniversary.json",
+      "page": 10,
+      "questionNumber": 6
+    }
+  },
+  "sources": [
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/5e4d811055e32254199f84835b012043.jpg",
+      "snapshot": "sources/paper-faq/anniversary.json",
+      "page": 10,
+      "questionNumber": 6
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/5e4d811055e32254199f84835b012043.jpg",
+        "snapshot": "sources/paper-faq/anniversary.json",
+        "page": 10,
+        "questionNumber": 6
+      },
+      "fields": {
+        "question": "那麼，當A.I.身上帶有2枚不安指示物和1枚絕望指示物時，其作為當事人的事件還會發生嗎？",
+        "answer": "不會。A.I.的特性和絕望指示物的效果其實是一樣的，兩種效果都會將絕望指示物作為不安指示物進行計算。但是絕望指示物本身作為1指示物只有1枚，因此不會被多次計入。類似的例子還有祭品（出自WM模組）。"
+      }
+    }
+  ],
+  "tags": [
+    "十周年",
+    "纸质 FAQ",
+    "希望与绝望",
+    "官方"
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/lunhui/5e4d811055e32254199f84835b012043.jpg",
+  "conflicts": []
+}

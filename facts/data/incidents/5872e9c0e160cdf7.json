@@ -1,0 +1,45 @@
+{
+  "id": "5872e9c0e160cdf7",
+  "title": "逼供",
+  "kind": "incidents",
+  "scope": "Sin City",
+  "aliases": [],
+  "fields": {
+    "effect": "移除与当事人位于同区域的另1名角色身上的所有指示物，若被移除的指示物中某种指示物有2枚或以上，被移除指示物的角色死亡"
+  },
+  "provenance": {
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Sin_City",
+      "snapshot": "sources/wiki/pages/59c6099598cb6333.json",
+      "capturedAt": "2026-09-27T03:30:03.250Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Sin_City",
+      "snapshot": "sources/wiki/pages/59c6099598cb6333.json",
+      "capturedAt": "2026-09-27T03:30:03.250Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Sin_City",
+        "snapshot": "sources/wiki/pages/59c6099598cb6333.json",
+        "capturedAt": "2026-09-27T03:30:03.250Z"
+      },
+      "fields": {
+        "effect": "移除与当事人位于同区域的另1名角色身上的所有指示物，若被移除的指示物中某种指示物有2枚或以上，被移除指示物的角色死亡"
+      }
+    }
+  ],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "民间"
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,234 @@
+{
+  "id": "ae549cabeba59eef",
+  "title": "绝望+1",
+  "kind": "actions",
+  "scope": "剧作家特殊手牌（特殊模组或规则下启用）",
+  "aliases": [],
+  "fields": {
+    "effect": "增加1个绝望指示物；其持续效果按下方“希望／绝望指示物通则”处理",
+    "count": "1",
+    "oncePerLoop": "是"
+  },
+  "provenance": {
+    "effect": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    },
+    "count": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    },
+    "oncePerLoop": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  },
+  "sources": [
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "effect": "增加1个绝望指示物；其持续效果按下方“希望／绝望指示物通则”处理",
+        "count": "1",
+        "oncePerLoop": "是"
+      }
+    }
+  ],
+  "actionSide": "剧作家",
+  "availability": [
+    {
+      "module": "AHR",
+      "state": "conditional",
+      "condition": "在AHR模组中，主人公在轮回开始时会额外获得不安+2，剧作家会在轮回开始时额外获得友好+1，并且在第一轮轮回开始时额外获得绝望+1",
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon_Revised",
+        "snapshot": "sources/wiki/pages/5a4c2d8594c08b1e.json"
+      }
+    },
+    {
+      "module": "AHR",
+      "state": "conditional",
+      "condition": "超越世界线\t\t\t\t\t\t\t\t\t\t\t①\t\t\t【强制：轮回开始时】偶数轮轮回开始时，剧作家获得[绝望+1]，最终轮轮回开始时，主人公获得[希望+1]",
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon_Revised",
+        "snapshot": "sources/wiki/pages/5a4c2d8594c08b1e.json"
+      }
+    },
+    {
+      "module": "AHR",
+      "state": "conditional",
+      "condition": "因果残片\t\t\t【强制：轮回开始时】若该角色在上轮轮回结束时处于死亡状态→剧作家获得[绝望+1]",
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Another_Horizon_Revised",
+        "snapshot": "sources/wiki/pages/5a4c2d8594c08b1e.json"
+      }
+    },
+    {
+      "module": "FS+",
+      "state": "conditional",
+      "condition": "超越世界线\t传谣人1\t【强制：轮回开始时】偶数轮轮回开始时，剧作家获得[绝望+1]，最终轮轮回开始时，主人公获得[希望+1]",
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%8D%81%E5%91%A8%E5%B9%B4%E8%A7%84%E5%88%99",
+        "snapshot": "sources/wiki/pages/64edfee587f8aad7.json"
+      }
+    },
+    {
+      "module": "BTX+",
+      "state": "conditional",
+      "condition": "超越世界线\t传谣人1\t【强制：轮回开始时】偶数轮轮回开始时，剧作家获得[绝望+1]，最终轮轮回开始时，主人公获得[希望+1]",
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%8D%81%E5%91%A8%E5%B9%B4%E8%A7%84%E5%88%99",
+        "snapshot": "sources/wiki/pages/64edfee587f8aad7.json"
+      }
+    },
+    {
+      "module": "MZ+",
+      "state": "conditional",
+      "condition": "超越世界线\t传谣人1\t【强制：轮回开始时】偶数轮轮回开始时，剧作家获得[绝望+1]，最终轮轮回开始时，主人公获得[希望+1]",
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%8D%81%E5%91%A8%E5%B9%B4%E8%A7%84%E5%88%99",
+        "snapshot": "sources/wiki/pages/64edfee587f8aad7.json"
+      }
+    },
+    {
+      "module": "MC+",
+      "state": "conditional",
+      "condition": "超越世界线\t传谣人1\t【强制：轮回开始时】偶数轮轮回开始时，剧作家获得[绝望+1]，最终轮轮回开始时，主人公获得[希望+1]",
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%8D%81%E5%91%A8%E5%B9%B4%E8%A7%84%E5%88%99",
+        "snapshot": "sources/wiki/pages/64edfee587f8aad7.json"
+      }
+    },
+    {
+      "module": "HSA+",
+      "state": "conditional",
+      "condition": "超越世界线\t传谣人1\t【强制：轮回开始时】偶数轮轮回开始时，剧作家获得[绝望+1]，最终轮轮回开始时，主人公获得[希望+1]",
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%8D%81%E5%91%A8%E5%B9%B4%E8%A7%84%E5%88%99",
+        "snapshot": "sources/wiki/pages/64edfee587f8aad7.json"
+      }
+    },
+    {
+      "module": "WM+",
+      "state": "conditional",
+      "condition": "超越世界线\t传谣人1\t【强制：轮回开始时】偶数轮轮回开始时，剧作家获得[绝望+1]，最终轮轮回开始时，主人公获得[希望+1]",
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%8D%81%E5%91%A8%E5%B9%B4%E8%A7%84%E5%88%99",
+        "snapshot": "sources/wiki/pages/64edfee587f8aad7.json"
+      }
+    },
+    {
+      "module": "FS+",
+      "state": "conditional",
+      "condition": "因果残片\t\t\t【强制：轮回开始时】若该角色上轮轮回结束时处于死亡状态→剧作家获得[绝望+1]",
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%8D%81%E5%91%A8%E5%B9%B4%E8%A7%84%E5%88%99",
+        "snapshot": "sources/wiki/pages/64edfee587f8aad7.json"
+      }
+    },
+    {
+      "module": "BTX+",
+      "state": "conditional",
+      "condition": "因果残片\t\t\t【强制：轮回开始时】若该角色上轮轮回结束时处于死亡状态→剧作家获得[绝望+1]",
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%8D%81%E5%91%A8%E5%B9%B4%E8%A7%84%E5%88%99",
+        "snapshot": "sources/wiki/pages/64edfee587f8aad7.json"
+      }
+    },
+    {
+      "module": "MZ+",
+      "state": "conditional",
+      "condition": "因果残片\t\t\t【强制：轮回开始时】若该角色上轮轮回结束时处于死亡状态→剧作家获得[绝望+1]",
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%8D%81%E5%91%A8%E5%B9%B4%E8%A7%84%E5%88%99",
+        "snapshot": "sources/wiki/pages/64edfee587f8aad7.json"
+      }
+    },
+    {
+      "module": "MC+",
+      "state": "conditional",
+      "condition": "因果残片\t\t\t【强制：轮回开始时】若该角色上轮轮回结束时处于死亡状态→剧作家获得[绝望+1]",
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%8D%81%E5%91%A8%E5%B9%B4%E8%A7%84%E5%88%99",
+        "snapshot": "sources/wiki/pages/64edfee587f8aad7.json"
+      }
+    },
+    {
+      "module": "HSA+",
+      "state": "conditional",
+      "condition": "因果残片\t\t\t【强制：轮回开始时】若该角色上轮轮回结束时处于死亡状态→剧作家获得[绝望+1]",
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%8D%81%E5%91%A8%E5%B9%B4%E8%A7%84%E5%88%99",
+        "snapshot": "sources/wiki/pages/64edfee587f8aad7.json"
+      }
+    },
+    {
+      "module": "WM+",
+      "state": "conditional",
+      "condition": "因果残片\t\t\t【强制：轮回开始时】若该角色上轮轮回结束时处于死亡状态→剧作家获得[绝望+1]",
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%8D%81%E5%91%A8%E5%B9%B4%E8%A7%84%E5%88%99",
+        "snapshot": "sources/wiki/pages/64edfee587f8aad7.json"
+      }
+    },
+    {
+      "module": "LL",
+      "state": "conditional",
+      "condition": "超越世界线\t\t\t\t\t\t\t\t\t\t①\t\t\t【强制：轮回开始时】偶数轮轮回开始时，剧作家获得[绝望+1]，最终轮轮回开始时，主人公获得[希望+1]",
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Last_Liar",
+        "snapshot": "sources/wiki/pages/844cae1ed2f5e214.json"
+      }
+    },
+    {
+      "module": "LL",
+      "state": "conditional",
+      "condition": "因果残片\t\t\t【强制：轮回开始时】若该角色上轮轮回结束时处于死亡状态→剧作家获得[绝望+1]",
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Last_Liar",
+        "snapshot": "sources/wiki/pages/844cae1ed2f5e214.json"
+      }
+    }
+  ],
+  "baseAction": false,
+  "authority": "官方",
+  "tags": [
+    "扩展行动牌",
+    "剧作家",
+    "AHR",
+    "FS+",
+    "BTX+",
+    "MZ+",
+    "MC+",
+    "HSA+",
+    "WM+",
+    "LL",
+    "官方"
+  ],
+  "conflicts": []
+}

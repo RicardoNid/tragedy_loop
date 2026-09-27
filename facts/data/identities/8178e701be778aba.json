@@ -1,0 +1,85 @@
+{
+  "id": "8178e701be778aba",
+  "title": "丧尸",
+  "kind": "identities",
+  "scope": "Haunted Stage Again",
+  "aliases": [],
+  "fields": {
+    "max": "",
+    "traits": "",
+    "abilities": [
+      "【强制：回合结束阶段】选择1块丧尸数量大于非丧尸的角色数量，且至少有1名角色存活的版图→使该版图中的1名角色死亡（所有丧尸合计，每日限1次）",
+      "【任意能力：回合结束阶段】将1具身份为丧尸的尸体移动至相邻版图（所有丧尸合计，每日限1次）"
+    ]
+  },
+  "provenance": {
+    "max": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage_Again",
+      "snapshot": "sources/wiki/pages/da682a376d9880ab.json",
+      "capturedAt": "2026-09-27T03:29:42.114Z"
+    },
+    "traits": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage_Again",
+      "snapshot": "sources/wiki/pages/da682a376d9880ab.json",
+      "capturedAt": "2026-09-27T03:29:42.114Z"
+    },
+    "abilities": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage_Again",
+      "snapshot": "sources/wiki/pages/da682a376d9880ab.json",
+      "capturedAt": "2026-09-27T03:29:42.114Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage_Again",
+      "snapshot": "sources/wiki/pages/da682a376d9880ab.json",
+      "capturedAt": "2026-09-27T03:29:42.114Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage_Again",
+        "snapshot": "sources/wiki/pages/da682a376d9880ab.json",
+        "capturedAt": "2026-09-27T03:29:42.114Z"
+      },
+      "fields": {
+        "max": "",
+        "traits": "",
+        "abilities": [
+          "【强制：回合结束阶段】选择1块丧尸数量大于非丧尸的角色数量，且至少有1名角色存活的版图→使该版图中的1名角色死亡（所有丧尸合计，每日限1次）",
+          "【任意能力：回合结束阶段】将1具身份为丧尸的尸体移动至相邻版图（所有丧尸合计，每日限1次）"
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "max": "",
+        "traits": "",
+        "abilities": [
+          "【强制：回合结束阶段】选择1块丧尸数量大于非丧尸的角色数量，且至少有1名角色存活的版图→使该版图中的1名角色死亡（所有丧尸合计，每日限1次）",
+          "【任意能力：回合结束阶段】将1具身份为丧尸的尸体移动至相邻版图（所有丧尸合计，每日限1次）"
+        ]
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "官方"
+  ],
+  "conflicts": []
+}

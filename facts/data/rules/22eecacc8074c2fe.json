@@ -1,0 +1,111 @@
+{
+  "id": "22eecacc8074c2fe",
+  "title": "封印的终末",
+  "kind": "rules",
+  "scope": "Last Liar",
+  "aliases": [],
+  "fields": {
+    "ruleType": "Y",
+    "identityCounts": {
+      "因果残片": "①",
+      "不安定因子": "①"
+    },
+    "effect": "【任意能力：回合结束阶段】神社有2枚或以上[密谋]→主人公死亡\n【强制：进行判定时】计算某块版图上的[密谋]数量时，该区域角色身上的[希望]和[绝望]也视为位于版图上。"
+  },
+  "provenance": {
+    "ruleType": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Last_Liar",
+      "snapshot": "sources/wiki/pages/844cae1ed2f5e214.json",
+      "capturedAt": "2026-09-27T03:29:44.914Z"
+    },
+    "identityCounts": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Last_Liar",
+      "snapshot": "sources/wiki/pages/844cae1ed2f5e214.json",
+      "capturedAt": "2026-09-27T03:29:44.914Z"
+    },
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Last_Liar",
+      "snapshot": "sources/wiki/pages/844cae1ed2f5e214.json",
+      "capturedAt": "2026-09-27T03:29:44.914Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Last_Liar",
+      "snapshot": "sources/wiki/pages/844cae1ed2f5e214.json",
+      "capturedAt": "2026-09-27T03:29:44.914Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Last_Liar",
+        "snapshot": "sources/wiki/pages/844cae1ed2f5e214.json",
+        "capturedAt": "2026-09-27T03:29:44.914Z"
+      },
+      "fields": {
+        "ruleType": "Y",
+        "identityCounts": {
+          "因果残片": "①",
+          "不安定因子": "①"
+        },
+        "effect": "【任意能力：回合结束阶段】神社有2枚或以上[密谋]→主人公死亡\n【强制：进行判定时】计算某块版图上的[密谋]数量时，该区域角色身上的[希望]和[绝望]也视为位于版图上。"
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "ruleType": "Y",
+        "identityCounts": {
+          "因果残片": "1",
+          "不安定因子": "1"
+        },
+        "effect": "【任意能力：回合结束阶段】神社有2枚或以上[密谋]→主人公死亡；【强制：进行判定时】计算某块版图上的[密谋]数量时，该区域角色身上的[希望]和[绝望]也视为位于版图上"
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "Y",
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "identityCounts",
+      "selected": {
+        "因果残片": "①",
+        "不安定因子": "①"
+      },
+      "candidate": {
+        "因果残片": "1",
+        "不安定因子": "1"
+      },
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "effect",
+      "selected": "【任意能力：回合结束阶段】神社有2枚或以上[密谋]→主人公死亡\n【强制：进行判定时】计算某块版图上的[密谋]数量时，该区域角色身上的[希望]和[绝望]也视为位于版图上。",
+      "candidate": "【任意能力：回合结束阶段】神社有2枚或以上[密谋]→主人公死亡；【强制：进行判定时】计算某块版图上的[密谋]数量时，该区域角色身上的[希望]和[绝望]也视为位于版图上",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    }
+  ]
+}

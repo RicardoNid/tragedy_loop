@@ -1,0 +1,414 @@
+{
+  "id": "24f35c2799d8be40",
+  "title": "HSA-02",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "HSA-02非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "HSA-02",
+    "loops": 5,
+    "days": 3,
+    "schedule": [
+      {
+        "day": 2,
+        "incidentText": "邪气污染"
+      },
+      {
+        "day": 3,
+        "incidentText": "疯狂之夜"
+      }
+    ],
+    "剧本名": "迷途的小猫",
+    "作者": "Choconut",
+    "轮数": "5",
+    "天数": "3"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-02",
+      "snapshot": "sources/wiki/pages/cb8d7ded002c83b4.json",
+      "capturedAt": "2026-09-27T04:27:56.362Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-02",
+      "snapshot": "sources/wiki/pages/cb8d7ded002c83b4.json",
+      "capturedAt": "2026-09-27T04:27:56.362Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-02",
+      "snapshot": "sources/wiki/pages/cb8d7ded002c83b4.json",
+      "capturedAt": "2026-09-27T04:27:56.362Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-02",
+      "snapshot": "sources/wiki/pages/cb8d7ded002c83b4.json",
+      "capturedAt": "2026-09-27T04:27:56.362Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-02",
+      "snapshot": "sources/wiki/pages/cb8d7ded002c83b4.json",
+      "capturedAt": "2026-09-27T04:27:56.362Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 4
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 4
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 4
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 4
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-02",
+      "snapshot": "sources/wiki/pages/cb8d7ded002c83b4.json",
+      "capturedAt": "2026-09-27T04:27:56.362Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 4
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-02%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/e22fa9ac170930eb.json",
+      "capturedAt": "2026-09-27T04:27:59.385Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-02",
+        "snapshot": "sources/wiki/pages/cb8d7ded002c83b4.json",
+        "capturedAt": "2026-09-27T04:27:56.362Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "HSA-02",
+        "loops": 5,
+        "days": 3,
+        "schedule": [
+          {
+            "day": 2,
+            "incidentText": "邪气污染"
+          },
+          {
+            "day": 3,
+            "incidentText": "疯狂之夜"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 5,
+        "row": 4
+      },
+      "fields": {
+        "scenarioCode": "HSA-02",
+        "剧本名": "迷途的小猫",
+        "作者": "Choconut",
+        "轮数": "5",
+        "天数": "3"
+      }
+    }
+  ],
+  "wikiTitle": "HSA-02",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Haunted Stage Again"
+  ],
+  "module": "Haunted Stage Again",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "24f35c2799d8be40",
+        "title": "HSA-02",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "HSA-02",
+          "loops": 5,
+          "days": 3,
+          "schedule": [
+            {
+              "day": 2,
+              "incidentText": "邪气污染"
+            },
+            {
+              "day": 3,
+              "incidentText": "疯狂之夜"
+            }
+          ],
+          "剧本名": "迷途的小猫",
+          "作者": "Choconut",
+          "轮数": "5",
+          "天数": "3"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-02",
+            "snapshot": "sources/wiki/pages/cb8d7ded002c83b4.json",
+            "capturedAt": "2026-09-27T04:27:56.362Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-02",
+            "snapshot": "sources/wiki/pages/cb8d7ded002c83b4.json",
+            "capturedAt": "2026-09-27T04:27:56.362Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-02",
+            "snapshot": "sources/wiki/pages/cb8d7ded002c83b4.json",
+            "capturedAt": "2026-09-27T04:27:56.362Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-02",
+            "snapshot": "sources/wiki/pages/cb8d7ded002c83b4.json",
+            "capturedAt": "2026-09-27T04:27:56.362Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-02",
+            "snapshot": "sources/wiki/pages/cb8d7ded002c83b4.json",
+            "capturedAt": "2026-09-27T04:27:56.362Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 4
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 4
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 4
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 4
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-02",
+            "snapshot": "sources/wiki/pages/cb8d7ded002c83b4.json",
+            "capturedAt": "2026-09-27T04:27:56.362Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 4
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-02",
+              "snapshot": "sources/wiki/pages/cb8d7ded002c83b4.json",
+              "capturedAt": "2026-09-27T04:27:56.362Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "HSA-02",
+              "loops": 5,
+              "days": 3,
+              "schedule": [
+                {
+                  "day": 2,
+                  "incidentText": "邪气污染"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "疯狂之夜"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 5,
+              "row": 4
+            },
+            "fields": {
+              "scenarioCode": "HSA-02",
+              "剧本名": "迷途的小猫",
+              "作者": "Choconut",
+              "轮数": "5",
+              "天数": "3"
+            }
+          }
+        ],
+        "body": "text/scenarios/24f35c2799d8be40.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-02",
+          "snapshot": "sources/wiki/pages/cb8d7ded002c83b4.json",
+          "capturedAt": "2026-09-27T04:27:56.362Z"
+        },
+        "wikiTitle": "HSA-02",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-02?action=edit&section=1"
+          },
+          {
+            "title": "HSA-02非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-02%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-02?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Haunted Stage Again"
+        ],
+        "module": "Haunted Stage Again"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "b33bcf5a09fd4217",
+        "title": "HSA-02非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "HSA-02"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-02%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/e22fa9ac170930eb.json",
+            "capturedAt": "2026-09-27T04:27:59.385Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-02%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/e22fa9ac170930eb.json",
+            "capturedAt": "2026-09-27T04:27:59.385Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-02%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/e22fa9ac170930eb.json",
+            "capturedAt": "2026-09-27T04:27:59.385Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-02%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/e22fa9ac170930eb.json",
+              "capturedAt": "2026-09-27T04:27:59.385Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "HSA-02"
+            }
+          }
+        ],
+        "wikiTitle": "HSA-02非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Haunted Stage Again",
+        "tags": [
+          "民间",
+          "Haunted Stage Again"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "b33bcf5a09fd4217"
+  ],
+  "conflicts": []
+}

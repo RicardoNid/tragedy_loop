@@ -1,0 +1,164 @@
+{
+  "id": "e4343b14c9278338",
+  "title": "黑道",
+  "kind": "characters",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "角色名": "黑道",
+    "初始区域": "医院",
+    "禁行区域": "无",
+    "不安限度": "4",
+    "属性": [
+      "男性",
+      "成人"
+    ],
+    "特性": "与该角色位于同一区域的所有角色获得必定无视友好特性",
+    "友好能力": [
+      {
+        "text": "（友好2 1L1）本轮轮回剩余时间，该角色失去角色特性，即使拥有无视友好的特性，也不能拒绝行使该能力",
+        "threshold": 2,
+        "limitText": "1L1",
+        "oncePerLoop": true
+      },
+      {
+        "text": "（友好5 1L1）本轮轮回剩余时间，与该角色位于同一区域的所有角色失去无视友好特性",
+        "threshold": 5,
+        "limitText": "1L1",
+        "oncePerLoop": true
+      }
+    ]
+  },
+  "provenance": {
+    "角色名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E9%BB%91%E9%81%93",
+      "snapshot": "sources/wiki/pages/3a45c5a5fa6a8245.json",
+      "capturedAt": "2026-09-27T03:38:42.914Z"
+    },
+    "初始区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E9%BB%91%E9%81%93",
+      "snapshot": "sources/wiki/pages/3a45c5a5fa6a8245.json",
+      "capturedAt": "2026-09-27T03:38:42.914Z"
+    },
+    "禁行区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E9%BB%91%E9%81%93",
+      "snapshot": "sources/wiki/pages/3a45c5a5fa6a8245.json",
+      "capturedAt": "2026-09-27T03:38:42.914Z"
+    },
+    "不安限度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E9%BB%91%E9%81%93",
+      "snapshot": "sources/wiki/pages/3a45c5a5fa6a8245.json",
+      "capturedAt": "2026-09-27T03:38:42.914Z"
+    },
+    "属性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E9%BB%91%E9%81%93",
+      "snapshot": "sources/wiki/pages/3a45c5a5fa6a8245.json",
+      "capturedAt": "2026-09-27T03:38:42.914Z"
+    },
+    "特性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E9%BB%91%E9%81%93",
+      "snapshot": "sources/wiki/pages/3a45c5a5fa6a8245.json",
+      "capturedAt": "2026-09-27T03:38:42.914Z"
+    },
+    "友好能力": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E9%BB%91%E9%81%93",
+      "snapshot": "sources/wiki/pages/3a45c5a5fa6a8245.json",
+      "capturedAt": "2026-09-27T03:38:42.914Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E9%BB%91%E9%81%93",
+      "snapshot": "sources/wiki/pages/3a45c5a5fa6a8245.json",
+      "capturedAt": "2026-09-27T03:38:42.914Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E9%BB%91%E9%81%93",
+        "snapshot": "sources/wiki/pages/3a45c5a5fa6a8245.json",
+        "capturedAt": "2026-09-27T03:38:42.914Z"
+      },
+      "fields": {
+        "角色名": "黑道",
+        "初始区域": "医院",
+        "禁行区域": "无",
+        "不安限度": "4",
+        "属性": [
+          "男性",
+          "成人"
+        ],
+        "特性": "与该角色位于同一区域的所有角色获得必定无视友好特性",
+        "友好能力": [
+          {
+            "text": "（友好2 1L1）本轮轮回剩余时间，该角色失去角色特性，即使拥有无视友好的特性，也不能拒绝行使该能力",
+            "threshold": 2,
+            "limitText": "1L1",
+            "oncePerLoop": true
+          },
+          {
+            "text": "（友好5 1L1）本轮轮回剩余时间，与该角色位于同一区域的所有角色失去无视友好特性",
+            "threshold": 5,
+            "limitText": "1L1",
+            "oncePerLoop": true
+          }
+        ]
+      }
+    }
+  ],
+  "body": "text/characters/e4343b14c9278338.txt",
+  "bodySource": {
+    "provider": "wiki",
+    "url": "https://tragedyrooper.fandom.com/zh/wiki/%E9%BB%91%E9%81%93",
+    "snapshot": "sources/wiki/pages/3a45c5a5fa6a8245.json",
+    "capturedAt": "2026-09-27T03:38:42.914Z"
+  },
+  "wikiTitle": "黑道",
+  "originalTables": [],
+  "wikiStatus": "captured",
+  "links": [
+    {
+      "title": "<img style=\"\" src=\"https://static.wikia.nocookie.net/tragedyrooper/images/7/79/%E9%BB%91%E9%81%93.png/revision/latest/scale-to-width-down/132?cb=20260314125352&amp;path-prefix=zh\" title=\"黑道.png (4.2 MB)\" class=\"thumbimage\" alt=\"\" height=\"185\" width=\"185\" data-image-name=\"黑道.png\" data-image-key=\"%E9%BB%91%E9%81%93.png\" data-relevant=\"1\">",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E9%BB%91%E9%81%93.png"
+    }
+  ],
+  "images": [
+    {
+      "alt": "",
+      "src": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+    }
+  ],
+  "media": [
+    {
+      "title": "黑道.png",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:%E9%BB%91%E9%81%93.png",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/7/79/%E9%BB%91%E9%81%93.png/revision/latest?cb=20260314125352&format=original&path-prefix=zh",
+      "path": "media/wiki/af7cb325f8099bc7.png",
+      "sourceRecord": "sources/wiki/files/af7cb325f8099bc7.json",
+      "sha256": "2366f6af93a34b0924dad918315203f3444856d1de63fc3da464cd848c105275",
+      "bytes": 4404712,
+      "fileInfo": "PNG image data, 1732 x 2419, 8-bit/color RGBA, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/6fadb2d7054aeea7.json",
+  "tags": [
+    "男性",
+    "成人",
+    "民间"
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,67 @@
+{
+  "id": "0d96537460e801e6",
+  "title": "从者在大人物的领地，大人物是胆小鬼，可以视为大人物在领地移动，并且跟随大人物移动吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 角色 / 第 113 行",
+  "aliases": [],
+  "fields": {
+    "question": "从者在大人物的领地，大人物是胆小鬼，可以视为大人物在领地移动，并且跟随大人物移动吗？",
+    "answer": "如果视为大人物在领地移动，就跟随大人物移动"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 113,
+      "cells": "A113:B113",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 113,
+      "cells": "A113:B113",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 113,
+      "cells": "A113:B113",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+        "snapshot": "sources/faq-sheet/characters.json",
+        "sheet": "角色",
+        "row": 113,
+        "cells": "A113:B113",
+        "capturedAt": "2026-09-27T05:39:49.068Z"
+      },
+      "fields": {
+        "question": "从者在大人物的领地，大人物是胆小鬼，可以视为大人物在领地移动，并且跟随大人物移动吗？",
+        "answer": "如果视为大人物在领地移动，就跟随大人物移动"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "角色",
+    "关于从者",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

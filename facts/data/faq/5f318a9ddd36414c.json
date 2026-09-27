@@ -1,0 +1,66 @@
+{
+  "id": "5f318a9ddd36414c",
+  "title": "为什么没有剧本卡？剧本在哪里？/为什么有些剧本和我之前玩的不一样？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 写在前面 / 第 3 行",
+  "aliases": [],
+  "fields": {
+    "question": "为什么没有剧本卡？剧本在哪里？/为什么有些剧本和我之前玩的不一样？",
+    "answer": "剧本卡为英版游戏附带，日版游戏中没有剧本卡，剧本都在剧作家之书和各扩展集中。日版剧本和英版剧本有些即使名字一样，内容也不同，具体不同请自行对照"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000001",
+      "snapshot": "sources/faq-sheet/preface.json",
+      "sheet": "写在前面",
+      "row": 3,
+      "cells": "A3:B3",
+      "capturedAt": "2026-09-27T05:41:03.158Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000001",
+      "snapshot": "sources/faq-sheet/preface.json",
+      "sheet": "写在前面",
+      "row": 3,
+      "cells": "A3:B3",
+      "capturedAt": "2026-09-27T05:41:03.158Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000001",
+      "snapshot": "sources/faq-sheet/preface.json",
+      "sheet": "写在前面",
+      "row": 3,
+      "cells": "A3:B3",
+      "capturedAt": "2026-09-27T05:41:03.158Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000001",
+        "snapshot": "sources/faq-sheet/preface.json",
+        "sheet": "写在前面",
+        "row": 3,
+        "cells": "A3:B3",
+        "capturedAt": "2026-09-27T05:41:03.158Z"
+      },
+      "fields": {
+        "question": "为什么没有剧本卡？剧本在哪里？/为什么有些剧本和我之前玩的不一样？",
+        "answer": "剧本卡为英版游戏附带，日版游戏中没有剧本卡，剧本都在剧作家之书和各扩展集中。日版剧本和英版剧本有些即使名字一样，内容也不同，具体不同请自行对照"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "写在前面",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

@@ -1,0 +1,111 @@
+{
+  "id": "abcb39b33989d430",
+  "title": "被诅咒的土地",
+  "kind": "rules",
+  "scope": "Haunted Stage Again",
+  "aliases": [],
+  "fields": {
+    "ruleType": "Y",
+    "identityCounts": {
+      "鬼魂": "①",
+      "纸老虎": "①"
+    },
+    "effect": "【任意能力：轮回开始时】往鬼魂的初始区域对应的版图上放置1张诅咒牌\n【任意能力：回合结束阶段】本回合结束阶段结算诅咒牌时，1张或以上位于版图上的诅咒牌没有目标角色可以放置→主人公死亡"
+  },
+  "provenance": {
+    "ruleType": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage_Again",
+      "snapshot": "sources/wiki/pages/da682a376d9880ab.json",
+      "capturedAt": "2026-09-27T03:29:42.114Z"
+    },
+    "identityCounts": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage_Again",
+      "snapshot": "sources/wiki/pages/da682a376d9880ab.json",
+      "capturedAt": "2026-09-27T03:29:42.114Z"
+    },
+    "effect": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage_Again",
+      "snapshot": "sources/wiki/pages/da682a376d9880ab.json",
+      "capturedAt": "2026-09-27T03:29:42.114Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage_Again",
+      "snapshot": "sources/wiki/pages/da682a376d9880ab.json",
+      "capturedAt": "2026-09-27T03:29:42.114Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Haunted_Stage_Again",
+        "snapshot": "sources/wiki/pages/da682a376d9880ab.json",
+        "capturedAt": "2026-09-27T03:29:42.114Z"
+      },
+      "fields": {
+        "ruleType": "Y",
+        "identityCounts": {
+          "鬼魂": "①",
+          "纸老虎": "①"
+        },
+        "effect": "【任意能力：轮回开始时】往鬼魂的初始区域对应的版图上放置1张诅咒牌\n【任意能力：回合结束阶段】本回合结束阶段结算诅咒牌时，1张或以上位于版图上的诅咒牌没有目标角色可以放置→主人公死亡"
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "ruleType": "Y",
+        "identityCounts": {
+          "鬼魂": "1",
+          "纸老虎": "1"
+        },
+        "effect": "【任意能力：轮回开始时】往鬼魂的初始区域对应的版图上放置1张诅咒牌；【任意能力：回合结束阶段】本回合结束阶段结算诅咒牌时，1张或以上位于版图上的诅咒牌没有目标角色可以放置→主人公死亡"
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "Y",
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "identityCounts",
+      "selected": {
+        "鬼魂": "①",
+        "纸老虎": "①"
+      },
+      "candidate": {
+        "鬼魂": "1",
+        "纸老虎": "1"
+      },
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "effect",
+      "selected": "【任意能力：轮回开始时】往鬼魂的初始区域对应的版图上放置1张诅咒牌\n【任意能力：回合结束阶段】本回合结束阶段结算诅咒牌时，1张或以上位于版图上的诅咒牌没有目标角色可以放置→主人公死亡",
+      "candidate": "【任意能力：轮回开始时】往鬼魂的初始区域对应的版图上放置1张诅咒牌；【任意能力：回合结束阶段】本回合结束阶段结算诅咒牌时，1张或以上位于版图上的诅咒牌没有目标角色可以放置→主人公死亡",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    }
+  ]
+}

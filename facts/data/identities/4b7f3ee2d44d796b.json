@@ -1,0 +1,48 @@
+{
+  "id": "4b7f3ee2d44d796b",
+  "title": "因果残片",
+  "kind": "identities",
+  "scope": "Basic Tragedy X Plus",
+  "aliases": [],
+  "fields": {
+    "abilities": [
+      "【强制：轮回开始时】若该角色上轮轮回结束时处于死亡状态→剧作家获得[绝望+1]",
+      "【强制：轮回开始时】若该角色上轮轮回结束时存活并且身上有2枚或以上的[友好]，主人公获得[希望+1]"
+    ]
+  },
+  "provenance": {
+    "abilities": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%8D%81%E5%91%A8%E5%B9%B4%E8%A7%84%E5%88%99",
+      "snapshot": "sources/wiki/pages/64edfee587f8aad7.json"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%8D%81%E5%91%A8%E5%B9%B4%E8%A7%84%E5%88%99",
+      "snapshot": "sources/wiki/pages/64edfee587f8aad7.json"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%8D%81%E5%91%A8%E5%B9%B4%E8%A7%84%E5%88%99",
+        "snapshot": "sources/wiki/pages/64edfee587f8aad7.json"
+      },
+      "fields": {
+        "abilities": [
+          "【强制：轮回开始时】若该角色上轮轮回结束时处于死亡状态→剧作家获得[绝望+1]",
+          "【强制：轮回开始时】若该角色上轮轮回结束时存活并且身上有2枚或以上的[友好]，主人公获得[希望+1]"
+        ]
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "官方"
+  ],
+  "conflicts": []
+}

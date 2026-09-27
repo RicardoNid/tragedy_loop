@@ -1,0 +1,208 @@
+{
+  "id": "0edd1d147d165672",
+  "title": "局外人",
+  "kind": "characters",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "角色名": "局外人",
+    "初始区域": "学校",
+    "禁行区域": "无",
+    "不安限度": "3",
+    "属性": [
+      "学生",
+      "少年"
+    ],
+    "特性": "剧本制作时，该角色不参与剧本所选规则的身份分配，但不直接视作平民，而是为其分配当前模组中存在、并且剧本所选规则中未带有的某一身份",
+    "友好能力": [
+      {
+        "text": "（友好3）必須在第2輪輪迴或之後才可以使用。公開該角色的身份。即使帶有無視友好特性，也不能拒絕行使該能力。",
+        "threshold": 3,
+        "limitText": ""
+      }
+    ]
+  },
+  "provenance": {
+    "角色名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%B1%80%E5%A4%96%E4%BA%BA",
+      "snapshot": "sources/wiki/pages/8ecc994f3b3e8eb7.json",
+      "capturedAt": "2026-09-27T03:32:03.171Z"
+    },
+    "初始区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%B1%80%E5%A4%96%E4%BA%BA",
+      "snapshot": "sources/wiki/pages/8ecc994f3b3e8eb7.json",
+      "capturedAt": "2026-09-27T03:32:03.171Z"
+    },
+    "禁行区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%B1%80%E5%A4%96%E4%BA%BA",
+      "snapshot": "sources/wiki/pages/8ecc994f3b3e8eb7.json",
+      "capturedAt": "2026-09-27T03:32:03.171Z"
+    },
+    "不安限度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%B1%80%E5%A4%96%E4%BA%BA",
+      "snapshot": "sources/wiki/pages/8ecc994f3b3e8eb7.json",
+      "capturedAt": "2026-09-27T03:32:03.171Z"
+    },
+    "属性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%B1%80%E5%A4%96%E4%BA%BA",
+      "snapshot": "sources/wiki/pages/8ecc994f3b3e8eb7.json",
+      "capturedAt": "2026-09-27T03:32:03.171Z"
+    },
+    "特性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%B1%80%E5%A4%96%E4%BA%BA",
+      "snapshot": "sources/wiki/pages/8ecc994f3b3e8eb7.json",
+      "capturedAt": "2026-09-27T03:32:03.171Z"
+    },
+    "友好能力": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%B1%80%E5%A4%96%E4%BA%BA",
+      "snapshot": "sources/wiki/pages/8ecc994f3b3e8eb7.json",
+      "capturedAt": "2026-09-27T03:32:03.171Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%B1%80%E5%A4%96%E4%BA%BA",
+      "snapshot": "sources/wiki/pages/8ecc994f3b3e8eb7.json",
+      "capturedAt": "2026-09-27T03:32:03.171Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%B1%80%E5%A4%96%E4%BA%BA",
+        "snapshot": "sources/wiki/pages/8ecc994f3b3e8eb7.json",
+        "capturedAt": "2026-09-27T03:32:03.171Z"
+      },
+      "fields": {
+        "角色名": "局外人",
+        "初始区域": "学校",
+        "禁行区域": "无",
+        "不安限度": "3",
+        "属性": [
+          "学生",
+          "少年"
+        ],
+        "特性": "剧本制作时，该角色不参与剧本所选规则的身份分配，但不直接视作平民，而是为其分配当前模组中存在、并且剧本所选规则中未带有的某一身份",
+        "友好能力": [
+          {
+            "text": "（友好3）必須在第2輪輪迴或之後才可以使用。公開該角色的身份。即使帶有無視友好特性，也不能拒絕行使該能力。",
+            "threshold": 3,
+            "limitText": ""
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "特性": "剧本制作时，该角色不参与剧本所选规则的身份分配，但不直接视作平民，而是为其分配当前模组中存在、并且剧本所选规则中未带有的某一身份",
+        "属性": [
+          "学生",
+          "少年"
+        ],
+        "初始区域": "学校",
+        "禁行区域": "否",
+        "不安限度": "3",
+        "友好能力": [
+          {
+            "text": "必须在第2轮轮回或随后才可以使用。公开该角色的身份。即使带有无视友好特性，也不能拒绝行使该能力。",
+            "threshold": "3",
+            "oncePerLoop": ""
+          }
+        ]
+      }
+    }
+  ],
+  "body": "text/characters/0edd1d147d165672.txt",
+  "bodySource": {
+    "provider": "wiki",
+    "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%B1%80%E5%A4%96%E4%BA%BA",
+    "snapshot": "sources/wiki/pages/8ecc994f3b3e8eb7.json",
+    "capturedAt": "2026-09-27T03:32:03.171Z"
+  },
+  "wikiTitle": "局外人",
+  "originalTables": [],
+  "wikiStatus": "captured",
+  "links": [
+    {
+      "title": "<img style=\"\" src=\"https://static.wikia.nocookie.net/tragedyrooper/images/7/73/%E5%B1%80%E5%A4%96%E4%BA%BA.png/revision/latest/scale-to-width-down/134?cb=20251023162226&amp;path-prefix=zh\" title=\"局外人.png (256 KB)\" class=\"thumbimage\" alt=\"\" height=\"185\" width=\"185\" data-image-name=\"局外人.png\" data-image-key=\"%E5%B1%80%E5%A4%96%E4%BA%BA.png\" data-relevant=\"1\">",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%B1%80%E5%A4%96%E4%BA%BA.png"
+    }
+  ],
+  "images": [
+    {
+      "alt": "",
+      "src": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+    }
+  ],
+  "media": [
+    {
+      "title": "局外人.png",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%B1%80%E5%A4%96%E4%BA%BA.png",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/7/73/%E5%B1%80%E5%A4%96%E4%BA%BA.png/revision/latest?cb=20251023162226&format=original&path-prefix=zh",
+      "path": "media/wiki/48b6b0dd13d74332.png",
+      "sourceRecord": "sources/wiki/files/48b6b0dd13d74332.json",
+      "sha256": "45efcd55a39e7b4c4995e8dabc72a1c79dba83e8e42806cd3dc289970d4b992c",
+      "bytes": 262344,
+      "fileInfo": "PNG image data, 306 x 421, 8-bit/color RGBA, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/6fadb2d7054aeea7.json",
+  "tags": [
+    "学生",
+    "少年",
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "禁行区域",
+      "selected": "无",
+      "candidate": "否",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "友好能力",
+      "selected": [
+        {
+          "text": "（友好3）必須在第2輪輪迴或之後才可以使用。公開該角色的身份。即使帶有無視友好特性，也不能拒絕行使該能力。",
+          "threshold": 3,
+          "limitText": ""
+        }
+      ],
+      "candidate": [
+        {
+          "text": "必须在第2轮轮回或随后才可以使用。公开该角色的身份。即使带有无视友好特性，也不能拒绝行使该能力。",
+          "threshold": "3",
+          "oncePerLoop": ""
+        }
+      ],
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    }
+  ]
+}

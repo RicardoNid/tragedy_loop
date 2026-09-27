@@ -1,0 +1,67 @@
+{
+  "id": "3e37b609e5cc373d",
+  "title": "具体是怎么操作的？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 基础规则 / 第 36 行",
+  "aliases": [],
+  "fields": {
+    "question": "具体是怎么操作的？",
+    "answer": "比如，强制A强制B同时发动，可选C，可选D。"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+      "snapshot": "sources/faq-sheet/basic.json",
+      "sheet": "基础规则",
+      "row": 36,
+      "cells": "A36:B36",
+      "capturedAt": "2026-09-27T05:40:57.223Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+      "snapshot": "sources/faq-sheet/basic.json",
+      "sheet": "基础规则",
+      "row": 36,
+      "cells": "A36:B36",
+      "capturedAt": "2026-09-27T05:40:57.223Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+      "snapshot": "sources/faq-sheet/basic.json",
+      "sheet": "基础规则",
+      "row": 36,
+      "cells": "A36:B36",
+      "capturedAt": "2026-09-27T05:40:57.223Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+        "snapshot": "sources/faq-sheet/basic.json",
+        "sheet": "基础规则",
+        "row": 36,
+        "cells": "A36:B36",
+        "capturedAt": "2026-09-27T05:40:57.223Z"
+      },
+      "fields": {
+        "question": "具体是怎么操作的？",
+        "answer": "比如，强制A强制B同时发动，可选C，可选D。"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "基础规则",
+    "剧作家能力",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

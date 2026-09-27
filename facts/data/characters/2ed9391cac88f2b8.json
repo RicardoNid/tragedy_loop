@@ -1,0 +1,208 @@
+{
+  "id": "2ed9391cac88f2b8",
+  "title": "妹妹",
+  "kind": "characters",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "角色名": "妹妹",
+    "初始区域": "神社",
+    "禁行区域": "无",
+    "不安限度": "3",
+    "属性": [
+      "少女",
+      "妹妹"
+    ],
+    "特性": "剧本制作时，该角色的身份不可以为有无视友好特性的身份",
+    "友好能力": [
+      {
+        "text": "（友好5）同一区域的1名成人使用1个友好能力，此时无视该成人的友好指示物数量。即使该成人带有无视友好特性，也不能拒绝使用那个能力。但能力依然受到次数限制。",
+        "threshold": 5,
+        "limitText": ""
+      }
+    ]
+  },
+  "provenance": {
+    "角色名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%A6%B9%E5%A6%B9",
+      "snapshot": "sources/wiki/pages/4a165a95a57dc529.json",
+      "capturedAt": "2026-09-27T03:31:47.846Z"
+    },
+    "初始区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%A6%B9%E5%A6%B9",
+      "snapshot": "sources/wiki/pages/4a165a95a57dc529.json",
+      "capturedAt": "2026-09-27T03:31:47.846Z"
+    },
+    "禁行区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%A6%B9%E5%A6%B9",
+      "snapshot": "sources/wiki/pages/4a165a95a57dc529.json",
+      "capturedAt": "2026-09-27T03:31:47.846Z"
+    },
+    "不安限度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%A6%B9%E5%A6%B9",
+      "snapshot": "sources/wiki/pages/4a165a95a57dc529.json",
+      "capturedAt": "2026-09-27T03:31:47.846Z"
+    },
+    "属性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%A6%B9%E5%A6%B9",
+      "snapshot": "sources/wiki/pages/4a165a95a57dc529.json",
+      "capturedAt": "2026-09-27T03:31:47.846Z"
+    },
+    "特性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%A6%B9%E5%A6%B9",
+      "snapshot": "sources/wiki/pages/4a165a95a57dc529.json",
+      "capturedAt": "2026-09-27T03:31:47.846Z"
+    },
+    "友好能力": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%A6%B9%E5%A6%B9",
+      "snapshot": "sources/wiki/pages/4a165a95a57dc529.json",
+      "capturedAt": "2026-09-27T03:31:47.846Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%A6%B9%E5%A6%B9",
+      "snapshot": "sources/wiki/pages/4a165a95a57dc529.json",
+      "capturedAt": "2026-09-27T03:31:47.846Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%A6%B9%E5%A6%B9",
+        "snapshot": "sources/wiki/pages/4a165a95a57dc529.json",
+        "capturedAt": "2026-09-27T03:31:47.846Z"
+      },
+      "fields": {
+        "角色名": "妹妹",
+        "初始区域": "神社",
+        "禁行区域": "无",
+        "不安限度": "3",
+        "属性": [
+          "少女",
+          "妹妹"
+        ],
+        "特性": "剧本制作时，该角色的身份不可以为有无视友好特性的身份",
+        "友好能力": [
+          {
+            "text": "（友好5）同一区域的1名成人使用1个友好能力，此时无视该成人的友好指示物数量。即使该成人带有无视友好特性，也不能拒绝使用那个能力。但能力依然受到次数限制。",
+            "threshold": 5,
+            "limitText": ""
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "特性": "剧本制作时，该角色的身份不可以为有无视友好特性的身份",
+        "属性": [
+          "少女",
+          "妹妹"
+        ],
+        "初始区域": "神社",
+        "禁行区域": "否",
+        "不安限度": "3",
+        "友好能力": [
+          {
+            "text": "同一区域的1名成人使用1个友好能力，此时无视该成人的友好指示物数量。即使该成人带有无视友好特性，也不能拒绝使用那个能力。但能力依然受到次数限制。",
+            "threshold": "5",
+            "oncePerLoop": ""
+          }
+        ]
+      }
+    }
+  ],
+  "body": "text/characters/2ed9391cac88f2b8.txt",
+  "bodySource": {
+    "provider": "wiki",
+    "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%A6%B9%E5%A6%B9",
+    "snapshot": "sources/wiki/pages/4a165a95a57dc529.json",
+    "capturedAt": "2026-09-27T03:31:47.846Z"
+  },
+  "wikiTitle": "妹妹",
+  "originalTables": [],
+  "wikiStatus": "captured",
+  "links": [
+    {
+      "title": "<img style=\"\" src=\"https://static.wikia.nocookie.net/tragedyrooper/images/7/70/%E5%A6%B9%E5%A6%B9.png/revision/latest/scale-to-width-down/136?cb=20251023162227&amp;path-prefix=zh\" title=\"妹妹.png (247 KB)\" class=\"thumbimage\" alt=\"\" height=\"185\" width=\"185\" data-image-name=\"妹妹.png\" data-image-key=\"%E5%A6%B9%E5%A6%B9.png\" data-relevant=\"1\">",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%A6%B9%E5%A6%B9.png"
+    }
+  ],
+  "images": [
+    {
+      "alt": "",
+      "src": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+    }
+  ],
+  "media": [
+    {
+      "title": "妹妹.png",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%A6%B9%E5%A6%B9.png",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/7/70/%E5%A6%B9%E5%A6%B9.png/revision/latest?cb=20251023162227&format=original&path-prefix=zh",
+      "path": "media/wiki/f1d23d721539cec8.png",
+      "sourceRecord": "sources/wiki/files/f1d23d721539cec8.json",
+      "sha256": "4d50069d100d6c92ef4d2764c67037402a587fea9c93d31755ff1823b7b5c7f8",
+      "bytes": 252452,
+      "fileInfo": "PNG image data, 308 x 418, 8-bit/color RGBA, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/6fadb2d7054aeea7.json",
+  "tags": [
+    "少女",
+    "妹妹",
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "禁行区域",
+      "selected": "无",
+      "candidate": "否",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "友好能力",
+      "selected": [
+        {
+          "text": "（友好5）同一区域的1名成人使用1个友好能力，此时无视该成人的友好指示物数量。即使该成人带有无视友好特性，也不能拒绝使用那个能力。但能力依然受到次数限制。",
+          "threshold": 5,
+          "limitText": ""
+        }
+      ],
+      "candidate": [
+        {
+          "text": "同一区域的1名成人使用1个友好能力，此时无视该成人的友好指示物数量。即使该成人带有无视友好特性，也不能拒绝使用那个能力。但能力依然受到次数限制。",
+          "threshold": "5",
+          "oncePerLoop": ""
+        }
+      ],
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    }
+  ]
+}

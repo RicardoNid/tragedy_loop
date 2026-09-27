@@ -1,0 +1,412 @@
+{
+  "id": "909674e1387257c0",
+  "title": "HSA-21",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "HSA-21非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "HSA-21",
+    "loops": 6,
+    "days": 1,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "疯狂之夜"
+      }
+    ],
+    "剧本名": "狼人的眷属",
+    "日文名": "人狼の眷属",
+    "作者": "ペンスキー（gitti）",
+    "轮数": "6",
+    "天数": "1"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-21",
+      "snapshot": "sources/wiki/pages/a14ae56b0a9e8165.json",
+      "capturedAt": "2026-09-27T04:30:25.520Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-21",
+      "snapshot": "sources/wiki/pages/a14ae56b0a9e8165.json",
+      "capturedAt": "2026-09-27T04:30:25.520Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-21",
+      "snapshot": "sources/wiki/pages/a14ae56b0a9e8165.json",
+      "capturedAt": "2026-09-27T04:30:25.520Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-21",
+      "snapshot": "sources/wiki/pages/a14ae56b0a9e8165.json",
+      "capturedAt": "2026-09-27T04:30:25.520Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-21",
+      "snapshot": "sources/wiki/pages/a14ae56b0a9e8165.json",
+      "capturedAt": "2026-09-27T04:30:25.520Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 23
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 23
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 23
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 23
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 23
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-21",
+      "snapshot": "sources/wiki/pages/a14ae56b0a9e8165.json",
+      "capturedAt": "2026-09-27T04:30:25.520Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 5,
+      "row": 23
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-21%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/f86988ccf8221012.json",
+      "capturedAt": "2026-09-27T04:30:28.607Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-21",
+        "snapshot": "sources/wiki/pages/a14ae56b0a9e8165.json",
+        "capturedAt": "2026-09-27T04:30:25.520Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "HSA-21",
+        "loops": 6,
+        "days": 1,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "疯狂之夜"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 5,
+        "row": 23
+      },
+      "fields": {
+        "scenarioCode": "HSA-21",
+        "剧本名": "狼人的眷属",
+        "日文名": "人狼の眷属",
+        "作者": "ペンスキー（gitti）",
+        "轮数": "6",
+        "天数": "1"
+      }
+    }
+  ],
+  "wikiTitle": "HSA-21",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Haunted Stage Again"
+  ],
+  "module": "Haunted Stage Again",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "909674e1387257c0",
+        "title": "HSA-21",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "HSA-21",
+          "loops": 6,
+          "days": 1,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "疯狂之夜"
+            }
+          ],
+          "剧本名": "狼人的眷属",
+          "日文名": "人狼の眷属",
+          "作者": "ペンスキー（gitti）",
+          "轮数": "6",
+          "天数": "1"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-21",
+            "snapshot": "sources/wiki/pages/a14ae56b0a9e8165.json",
+            "capturedAt": "2026-09-27T04:30:25.520Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-21",
+            "snapshot": "sources/wiki/pages/a14ae56b0a9e8165.json",
+            "capturedAt": "2026-09-27T04:30:25.520Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-21",
+            "snapshot": "sources/wiki/pages/a14ae56b0a9e8165.json",
+            "capturedAt": "2026-09-27T04:30:25.520Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-21",
+            "snapshot": "sources/wiki/pages/a14ae56b0a9e8165.json",
+            "capturedAt": "2026-09-27T04:30:25.520Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-21",
+            "snapshot": "sources/wiki/pages/a14ae56b0a9e8165.json",
+            "capturedAt": "2026-09-27T04:30:25.520Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 23
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 23
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 23
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 23
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 23
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-21",
+            "snapshot": "sources/wiki/pages/a14ae56b0a9e8165.json",
+            "capturedAt": "2026-09-27T04:30:25.520Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 5,
+            "row": 23
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-21",
+              "snapshot": "sources/wiki/pages/a14ae56b0a9e8165.json",
+              "capturedAt": "2026-09-27T04:30:25.520Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "HSA-21",
+              "loops": 6,
+              "days": 1,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "疯狂之夜"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 5,
+              "row": 23
+            },
+            "fields": {
+              "scenarioCode": "HSA-21",
+              "剧本名": "狼人的眷属",
+              "日文名": "人狼の眷属",
+              "作者": "ペンスキー（gitti）",
+              "轮数": "6",
+              "天数": "1"
+            }
+          }
+        ],
+        "body": "text/scenarios/909674e1387257c0.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-21",
+          "snapshot": "sources/wiki/pages/a14ae56b0a9e8165.json",
+          "capturedAt": "2026-09-27T04:30:25.520Z"
+        },
+        "wikiTitle": "HSA-21",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "HSA-21非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-21%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-21?action=edit&section=1"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Haunted Stage Again"
+        ],
+        "module": "Haunted Stage Again"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "5506ad1aa8728c94",
+        "title": "HSA-21非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "HSA-21"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-21%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/f86988ccf8221012.json",
+            "capturedAt": "2026-09-27T04:30:28.607Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-21%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/f86988ccf8221012.json",
+            "capturedAt": "2026-09-27T04:30:28.607Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-21%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/f86988ccf8221012.json",
+            "capturedAt": "2026-09-27T04:30:28.607Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/HSA-21%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/f86988ccf8221012.json",
+              "capturedAt": "2026-09-27T04:30:28.607Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "HSA-21"
+            }
+          }
+        ],
+        "wikiTitle": "HSA-21非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Haunted Stage Again",
+        "tags": [
+          "民间",
+          "Haunted Stage Again"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "5506ad1aa8728c94"
+  ],
+  "conflicts": []
+}

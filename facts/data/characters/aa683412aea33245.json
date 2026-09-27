@@ -1,0 +1,202 @@
+{
+  "id": "aa683412aea33245",
+  "title": "班长",
+  "kind": "characters",
+  "scope": "",
+  "aliases": [
+    "班長"
+  ],
+  "fields": {
+    "角色名": "班长",
+    "初始区域": "学校",
+    "禁行区域": "无",
+    "不安限度": "2",
+    "属性": [
+      "学生",
+      "少女"
+    ],
+    "友好能力": [
+      {
+        "text": "（友好2）由队长选择1张属于自己、每轮限1次且已经使用完毕的行动牌，将其收回至手牌",
+        "threshold": 2,
+        "limitText": ""
+      }
+    ]
+  },
+  "provenance": {
+    "角色名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E7%8F%AD%E9%95%B7",
+      "snapshot": "sources/wiki/pages/46166d54006a4691.json",
+      "capturedAt": "2026-09-27T03:33:50.261Z"
+    },
+    "初始区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E7%8F%AD%E9%95%B7",
+      "snapshot": "sources/wiki/pages/46166d54006a4691.json",
+      "capturedAt": "2026-09-27T03:33:50.261Z"
+    },
+    "禁行区域": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E7%8F%AD%E9%95%B7",
+      "snapshot": "sources/wiki/pages/46166d54006a4691.json",
+      "capturedAt": "2026-09-27T03:33:50.261Z"
+    },
+    "不安限度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E7%8F%AD%E9%95%B7",
+      "snapshot": "sources/wiki/pages/46166d54006a4691.json",
+      "capturedAt": "2026-09-27T03:33:50.261Z"
+    },
+    "属性": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E7%8F%AD%E9%95%B7",
+      "snapshot": "sources/wiki/pages/46166d54006a4691.json",
+      "capturedAt": "2026-09-27T03:33:50.261Z"
+    },
+    "友好能力": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E7%8F%AD%E9%95%B7",
+      "snapshot": "sources/wiki/pages/46166d54006a4691.json",
+      "capturedAt": "2026-09-27T03:33:50.261Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E7%8F%AD%E9%95%B7",
+      "snapshot": "sources/wiki/pages/46166d54006a4691.json",
+      "capturedAt": "2026-09-27T03:33:50.261Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E7%8F%AD%E9%95%B7",
+        "snapshot": "sources/wiki/pages/46166d54006a4691.json",
+        "capturedAt": "2026-09-27T03:33:50.261Z"
+      },
+      "fields": {
+        "角色名": "班长",
+        "初始区域": "学校",
+        "禁行区域": "无",
+        "不安限度": "2",
+        "属性": [
+          "学生",
+          "少女"
+        ],
+        "友好能力": [
+          {
+            "text": "（友好2）由队长选择1张属于自己、每轮限1次且已经使用完毕的行动牌，将其收回至手牌",
+            "threshold": 2,
+            "limitText": ""
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "特性": "",
+        "属性": [
+          "学生",
+          "少女"
+        ],
+        "初始区域": "学校",
+        "禁行区域": "否",
+        "不安限度": "2",
+        "友好能力": [
+          {
+            "text": "由队长选择1张属于自己、每轮限1次且已经使用完毕的行动牌，将其收回至手牌",
+            "threshold": "2",
+            "oncePerLoop": ""
+          }
+        ]
+      }
+    }
+  ],
+  "body": "text/characters/aa683412aea33245.txt",
+  "bodySource": {
+    "provider": "wiki",
+    "url": "https://tragedyrooper.fandom.com/zh/wiki/%E7%8F%AD%E9%95%B7",
+    "snapshot": "sources/wiki/pages/46166d54006a4691.json",
+    "capturedAt": "2026-09-27T03:33:50.261Z"
+  },
+  "wikiTitle": "班長",
+  "originalTables": [],
+  "wikiStatus": "captured",
+  "links": [
+    {
+      "title": "<img style=\"\" src=\"https://static.wikia.nocookie.net/tragedyrooper/images/c/c7/%E7%8F%AD%E9%95%BF.png/revision/latest/scale-to-width-down/134?cb=20251023162225&amp;path-prefix=zh\" title=\"班长.png (230 KB)\" class=\"thumbimage\" alt=\"\" height=\"185\" width=\"185\" data-image-name=\"班长.png\" data-image-key=\"%E7%8F%AD%E9%95%BF.png\" data-relevant=\"1\">",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E7%8F%AD%E9%95%BF.png"
+    }
+  ],
+  "images": [
+    {
+      "alt": "",
+      "src": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+    }
+  ],
+  "media": [
+    {
+      "title": "班长.png",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:%E7%8F%AD%E9%95%BF.png",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/c/c7/%E7%8F%AD%E9%95%BF.png/revision/latest?cb=20251023162225&format=original&path-prefix=zh",
+      "path": "media/wiki/b20d026b40be8ca9.png",
+      "sourceRecord": "sources/wiki/files/b20d026b40be8ca9.json",
+      "sha256": "a7617bb29fdd6b20772d41c46f934f09192d7339d5e41c6f20af9b2022a11471",
+      "bytes": 235329,
+      "fileInfo": "PNG image data, 307 x 422, 8-bit/color RGBA, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/6fadb2d7054aeea7.json",
+  "tags": [
+    "学生",
+    "少女",
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "禁行区域",
+      "selected": "无",
+      "candidate": "否",
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    },
+    {
+      "field": "友好能力",
+      "selected": [
+        {
+          "text": "（友好2）由队长选择1张属于自己、每轮限1次且已经使用完毕的行动牌，将其收回至手牌",
+          "threshold": 2,
+          "limitText": ""
+        }
+      ],
+      "candidate": [
+        {
+          "text": "由队长选择1张属于自己、每轮限1次且已经使用完毕的行动牌，将其收回至手牌",
+          "threshold": "2",
+          "oncePerLoop": ""
+        }
+      ],
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      }
+    }
+  ]
+}

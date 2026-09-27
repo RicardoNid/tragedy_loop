@@ -1,0 +1,67 @@
+{
+  "id": "cae62e6b37486ab4",
+  "title": "异界人杀死一个发动过能力的角色并在同一天把他复活，角色能再使用一次能力吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 角色 / 第 57 行",
+  "aliases": [],
+  "fields": {
+    "question": "异界人杀死一个发动过能力的角色并在同一天把他复活，角色能再使用一次能力吗？",
+    "answer": "不能"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 57,
+      "cells": "A57:B57",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 57,
+      "cells": "A57:B57",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 57,
+      "cells": "A57:B57",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+        "snapshot": "sources/faq-sheet/characters.json",
+        "sheet": "角色",
+        "row": 57,
+        "cells": "A57:B57",
+        "capturedAt": "2026-09-27T05:39:49.068Z"
+      },
+      "fields": {
+        "question": "异界人杀死一个发动过能力的角色并在同一天把他复活，角色能再使用一次能力吗？",
+        "answer": "不能"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "角色",
+    "关于异界人",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

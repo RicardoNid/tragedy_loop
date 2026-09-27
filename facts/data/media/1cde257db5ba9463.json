@@ -1,0 +1,60 @@
+{
+  "id": "1cde257db5ba9463",
+  "title": "护士.png",
+  "kind": "media",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "bytes": 240547,
+    "sha256": "34c026aa507ff866bdc89ad4601f9b221c27c3bf29f6d814f07eceb322887ca4"
+  },
+  "provenance": {
+    "bytes": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E6%8A%A4%E5%A3%AB.png",
+      "snapshot": "sources/wiki/files/035fccaae3ed4afb.json"
+    },
+    "sha256": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E6%8A%A4%E5%A3%AB.png",
+      "snapshot": "sources/wiki/files/035fccaae3ed4afb.json"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E6%8A%A4%E5%A3%AB.png",
+      "snapshot": "sources/wiki/files/035fccaae3ed4afb.json"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E6%8A%A4%E5%A3%AB.png",
+        "snapshot": "sources/wiki/files/035fccaae3ed4afb.json"
+      },
+      "fields": {
+        "bytes": 240547,
+        "sha256": "34c026aa507ff866bdc89ad4601f9b221c27c3bf29f6d814f07eceb322887ca4"
+      }
+    }
+  ],
+  "media": [
+    {
+      "title": "护士.png",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:%E6%8A%A4%E5%A3%AB.png",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/5/54/%E6%8A%A4%E5%A3%AB.png/revision/latest?cb=20251023162225&format=original&path-prefix=zh",
+      "path": "media/wiki/035fccaae3ed4afb.png",
+      "sourceRecord": "sources/wiki/files/035fccaae3ed4afb.json",
+      "sha256": "34c026aa507ff866bdc89ad4601f9b221c27c3bf29f6d814f07eceb322887ca4",
+      "bytes": 240547,
+      "fileInfo": "PNG image data, 305 x 416, 8-bit/color RGBA, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "tags": [],
+  "conflicts": []
+}

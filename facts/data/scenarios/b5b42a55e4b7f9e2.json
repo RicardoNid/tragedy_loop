@@ -1,0 +1,482 @@
+{
+  "id": "b5b42a55e4b7f9e2",
+  "title": "WM+-03",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "WM+-03非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "WM+-03",
+    "loops": 5,
+    "days": 5,
+    "schedule": [
+      {
+        "day": 2,
+        "incidentText": "希望之光"
+      },
+      {
+        "day": 3,
+        "incidentText": "灭绝之火"
+      },
+      {
+        "day": 4,
+        "incidentText": "廷达罗斯之嗅"
+      },
+      {
+        "day": 5,
+        "incidentText": "送葬"
+      }
+    ],
+    "剧本名": "电车向少女驶去",
+    "日文名": "トロッコは少女に向けて走っていく",
+    "作者": "ぶー太郎",
+    "轮数": "5",
+    "天数": "5",
+    "难度": "8"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-03?oldid=1500",
+      "snapshot": "sources/wiki/pages/8895c854190a29ae.json",
+      "capturedAt": "2026-09-27T04:58:28.537Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-03?oldid=1500",
+      "snapshot": "sources/wiki/pages/8895c854190a29ae.json",
+      "capturedAt": "2026-09-27T04:58:28.537Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-03?oldid=1500",
+      "snapshot": "sources/wiki/pages/8895c854190a29ae.json",
+      "capturedAt": "2026-09-27T04:58:28.537Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-03?oldid=1500",
+      "snapshot": "sources/wiki/pages/8895c854190a29ae.json",
+      "capturedAt": "2026-09-27T04:58:28.537Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-03?oldid=1500",
+      "snapshot": "sources/wiki/pages/8895c854190a29ae.json",
+      "capturedAt": "2026-09-27T04:58:28.537Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 27
+    },
+    "日文名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 27
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 27
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 27
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 27
+    },
+    "难度": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 27
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-03?oldid=1500",
+      "snapshot": "sources/wiki/pages/8895c854190a29ae.json",
+      "capturedAt": "2026-09-27T04:58:28.537Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 6,
+      "row": 27
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-03%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1896",
+      "snapshot": "sources/wiki/pages/4c5082bfd4d57073.json",
+      "capturedAt": "2026-09-27T04:58:34.650Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-03?oldid=1500",
+        "snapshot": "sources/wiki/pages/8895c854190a29ae.json",
+        "capturedAt": "2026-09-27T04:58:28.537Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "WM+-03",
+        "loops": 5,
+        "days": 5,
+        "schedule": [
+          {
+            "day": 2,
+            "incidentText": "希望之光"
+          },
+          {
+            "day": 3,
+            "incidentText": "灭绝之火"
+          },
+          {
+            "day": 4,
+            "incidentText": "廷达罗斯之嗅"
+          },
+          {
+            "day": 5,
+            "incidentText": "送葬"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 6,
+        "row": 27
+      },
+      "fields": {
+        "scenarioCode": "WM+-03",
+        "剧本名": "电车向少女驶去",
+        "日文名": "トロッコは少女に向けて走っていく",
+        "作者": "ぶー太郎",
+        "轮数": "5",
+        "天数": "5",
+        "难度": "8"
+      }
+    }
+  ],
+  "wikiTitle": "WM+-03",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Weird Mythology Plus"
+  ],
+  "module": "Weird Mythology Plus",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "b5b42a55e4b7f9e2",
+        "title": "WM+-03",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "WM+-03",
+          "loops": 5,
+          "days": 5,
+          "schedule": [
+            {
+              "day": 2,
+              "incidentText": "希望之光"
+            },
+            {
+              "day": 3,
+              "incidentText": "灭绝之火"
+            },
+            {
+              "day": 4,
+              "incidentText": "廷达罗斯之嗅"
+            },
+            {
+              "day": 5,
+              "incidentText": "送葬"
+            }
+          ],
+          "剧本名": "电车向少女驶去",
+          "日文名": "トロッコは少女に向けて走っていく",
+          "作者": "ぶー太郎",
+          "轮数": "5",
+          "天数": "5",
+          "难度": "8"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-03?oldid=1500",
+            "snapshot": "sources/wiki/pages/8895c854190a29ae.json",
+            "capturedAt": "2026-09-27T04:58:28.537Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-03?oldid=1500",
+            "snapshot": "sources/wiki/pages/8895c854190a29ae.json",
+            "capturedAt": "2026-09-27T04:58:28.537Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-03?oldid=1500",
+            "snapshot": "sources/wiki/pages/8895c854190a29ae.json",
+            "capturedAt": "2026-09-27T04:58:28.537Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-03?oldid=1500",
+            "snapshot": "sources/wiki/pages/8895c854190a29ae.json",
+            "capturedAt": "2026-09-27T04:58:28.537Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-03?oldid=1500",
+            "snapshot": "sources/wiki/pages/8895c854190a29ae.json",
+            "capturedAt": "2026-09-27T04:58:28.537Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 27
+          },
+          "日文名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 27
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 27
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 27
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 27
+          },
+          "难度": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 27
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-03?oldid=1500",
+            "snapshot": "sources/wiki/pages/8895c854190a29ae.json",
+            "capturedAt": "2026-09-27T04:58:28.537Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 6,
+            "row": 27
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-03?oldid=1500",
+              "snapshot": "sources/wiki/pages/8895c854190a29ae.json",
+              "capturedAt": "2026-09-27T04:58:28.537Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "WM+-03",
+              "loops": 5,
+              "days": 5,
+              "schedule": [
+                {
+                  "day": 2,
+                  "incidentText": "希望之光"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "灭绝之火"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "廷达罗斯之嗅"
+                },
+                {
+                  "day": 5,
+                  "incidentText": "送葬"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 6,
+              "row": 27
+            },
+            "fields": {
+              "scenarioCode": "WM+-03",
+              "剧本名": "电车向少女驶去",
+              "日文名": "トロッコは少女に向けて走っていく",
+              "作者": "ぶー太郎",
+              "轮数": "5",
+              "天数": "5",
+              "难度": "8"
+            }
+          }
+        ],
+        "body": "text/scenarios/b5b42a55e4b7f9e2.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-03?oldid=1500",
+          "snapshot": "sources/wiki/pages/8895c854190a29ae.json",
+          "capturedAt": "2026-09-27T04:58:28.537Z"
+        },
+        "wikiTitle": "WM+-03",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-03?action=edit&section=1"
+          },
+          {
+            "title": "WM+-03非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-03%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-03?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Weird Mythology Plus"
+        ],
+        "module": "Weird Mythology Plus"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "9e4ad678388983e8",
+        "title": "WM+-03非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "WM+-03"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-03%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1896",
+            "snapshot": "sources/wiki/pages/4c5082bfd4d57073.json",
+            "capturedAt": "2026-09-27T04:58:34.650Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-03%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1896",
+            "snapshot": "sources/wiki/pages/4c5082bfd4d57073.json",
+            "capturedAt": "2026-09-27T04:58:34.650Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-03%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1896",
+            "snapshot": "sources/wiki/pages/4c5082bfd4d57073.json",
+            "capturedAt": "2026-09-27T04:58:34.650Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/WM%2B-03%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8?oldid=1896",
+              "snapshot": "sources/wiki/pages/4c5082bfd4d57073.json",
+              "capturedAt": "2026-09-27T04:58:34.650Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "WM+-03"
+            }
+          }
+        ],
+        "wikiTitle": "WM+-03非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Weird Mythology Plus",
+        "tags": [
+          "民间",
+          "Weird Mythology Plus"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "9e4ad678388983e8"
+  ],
+  "conflicts": []
+}

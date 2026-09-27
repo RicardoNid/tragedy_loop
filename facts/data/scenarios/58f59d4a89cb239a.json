@@ -1,0 +1,446 @@
+{
+  "id": "58f59d4a89cb239a",
+  "title": "MC-37",
+  "kind": "scenarios",
+  "scope": "",
+  "aliases": [
+    "MC-37非公开信息表"
+  ],
+  "fields": {
+    "visibility": "public-or-index",
+    "scenarioCode": "MC-37",
+    "loops": 6,
+    "days": 4,
+    "schedule": [
+      {
+        "day": 1,
+        "incidentText": "不安扩散"
+      },
+      {
+        "day": 2,
+        "incidentText": "前兆"
+      },
+      {
+        "day": 3,
+        "incidentText": "前兆"
+      },
+      {
+        "day": 4,
+        "incidentText": "前兆"
+      }
+    ],
+    "剧本名": "不靠谱的保健品",
+    "作者": "牛角面包星星",
+    "轮数": "6",
+    "天数": "4"
+  },
+  "provenance": {
+    "visibility": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-37",
+      "snapshot": "sources/wiki/pages/e3000dff678fb38b.json",
+      "capturedAt": "2026-09-27T04:38:43.697Z"
+    },
+    "scenarioCode": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-37",
+      "snapshot": "sources/wiki/pages/e3000dff678fb38b.json",
+      "capturedAt": "2026-09-27T04:38:43.697Z"
+    },
+    "loops": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-37",
+      "snapshot": "sources/wiki/pages/e3000dff678fb38b.json",
+      "capturedAt": "2026-09-27T04:38:43.697Z"
+    },
+    "days": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-37",
+      "snapshot": "sources/wiki/pages/e3000dff678fb38b.json",
+      "capturedAt": "2026-09-27T04:38:43.697Z"
+    },
+    "schedule": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-37",
+      "snapshot": "sources/wiki/pages/e3000dff678fb38b.json",
+      "capturedAt": "2026-09-27T04:38:43.697Z"
+    },
+    "剧本名": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 39
+    },
+    "作者": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 39
+    },
+    "轮数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 39
+    },
+    "天数": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 39
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-37",
+      "snapshot": "sources/wiki/pages/e3000dff678fb38b.json",
+      "capturedAt": "2026-09-27T04:38:43.697Z"
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+      "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+      "table": 4,
+      "row": 39
+    },
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-37%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+      "snapshot": "sources/wiki/pages/dcaa3f0648538a96.json",
+      "capturedAt": "2026-09-27T04:38:47.066Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-37",
+        "snapshot": "sources/wiki/pages/e3000dff678fb38b.json",
+        "capturedAt": "2026-09-27T04:38:43.697Z"
+      },
+      "fields": {
+        "visibility": "public-or-index",
+        "scenarioCode": "MC-37",
+        "loops": 6,
+        "days": 4,
+        "schedule": [
+          {
+            "day": 1,
+            "incidentText": "不安扩散"
+          },
+          {
+            "day": 2,
+            "incidentText": "前兆"
+          },
+          {
+            "day": 3,
+            "incidentText": "前兆"
+          },
+          {
+            "day": 4,
+            "incidentText": "前兆"
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+        "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+        "table": 4,
+        "row": 39
+      },
+      "fields": {
+        "scenarioCode": "MC-37",
+        "剧本名": "不靠谱的保健品",
+        "作者": "牛角面包星星",
+        "轮数": "6",
+        "天数": "4"
+      }
+    }
+  ],
+  "wikiTitle": "MC-37",
+  "images": [],
+  "media": [],
+  "authority": "民间",
+  "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+  "tags": [
+    "民间剧本",
+    "民间",
+    "Mystery Circle"
+  ],
+  "module": "Mystery Circle",
+  "scenarioParts": [
+    {
+      "visibility": "public",
+      "record": {
+        "id": "58f59d4a89cb239a",
+        "title": "MC-37",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "public-or-index",
+          "scenarioCode": "MC-37",
+          "loops": 6,
+          "days": 4,
+          "schedule": [
+            {
+              "day": 1,
+              "incidentText": "不安扩散"
+            },
+            {
+              "day": 2,
+              "incidentText": "前兆"
+            },
+            {
+              "day": 3,
+              "incidentText": "前兆"
+            },
+            {
+              "day": 4,
+              "incidentText": "前兆"
+            }
+          ],
+          "剧本名": "不靠谱的保健品",
+          "作者": "牛角面包星星",
+          "轮数": "6",
+          "天数": "4"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-37",
+            "snapshot": "sources/wiki/pages/e3000dff678fb38b.json",
+            "capturedAt": "2026-09-27T04:38:43.697Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-37",
+            "snapshot": "sources/wiki/pages/e3000dff678fb38b.json",
+            "capturedAt": "2026-09-27T04:38:43.697Z"
+          },
+          "loops": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-37",
+            "snapshot": "sources/wiki/pages/e3000dff678fb38b.json",
+            "capturedAt": "2026-09-27T04:38:43.697Z"
+          },
+          "days": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-37",
+            "snapshot": "sources/wiki/pages/e3000dff678fb38b.json",
+            "capturedAt": "2026-09-27T04:38:43.697Z"
+          },
+          "schedule": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-37",
+            "snapshot": "sources/wiki/pages/e3000dff678fb38b.json",
+            "capturedAt": "2026-09-27T04:38:43.697Z"
+          },
+          "剧本名": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 39
+          },
+          "作者": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 39
+          },
+          "轮数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 39
+          },
+          "天数": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 39
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-37",
+            "snapshot": "sources/wiki/pages/e3000dff678fb38b.json",
+            "capturedAt": "2026-09-27T04:38:43.697Z"
+          },
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+            "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+            "table": 4,
+            "row": 39
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-37",
+              "snapshot": "sources/wiki/pages/e3000dff678fb38b.json",
+              "capturedAt": "2026-09-27T04:38:43.697Z"
+            },
+            "fields": {
+              "visibility": "public-or-index",
+              "scenarioCode": "MC-37",
+              "loops": 6,
+              "days": 4,
+              "schedule": [
+                {
+                  "day": 1,
+                  "incidentText": "不安扩散"
+                },
+                {
+                  "day": 2,
+                  "incidentText": "前兆"
+                },
+                {
+                  "day": 3,
+                  "incidentText": "前兆"
+                },
+                {
+                  "day": 4,
+                  "incidentText": "前兆"
+                }
+              ]
+            }
+          },
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/%E6%B0%91%E9%97%B4%E5%89%A7%E6%9C%AC",
+              "snapshot": "sources/wiki/pages/5eae5beed691d446.json",
+              "table": 4,
+              "row": 39
+            },
+            "fields": {
+              "scenarioCode": "MC-37",
+              "剧本名": "不靠谱的保健品",
+              "作者": "牛角面包星星",
+              "轮数": "6",
+              "天数": "4"
+            }
+          }
+        ],
+        "body": "text/scenarios/58f59d4a89cb239a.txt",
+        "bodySource": {
+          "provider": "wiki",
+          "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-37",
+          "snapshot": "sources/wiki/pages/e3000dff678fb38b.json",
+          "capturedAt": "2026-09-27T04:38:43.697Z"
+        },
+        "wikiTitle": "MC-37",
+        "originalTables": [],
+        "wikiStatus": "captured",
+        "links": [
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-37?action=edit&section=1"
+          },
+          {
+            "title": "MC-37非公开信息表",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-37%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8"
+          },
+          {
+            "title": "",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-37?action=edit&section=2"
+          }
+        ],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "tags": [
+          "民间剧本",
+          "民间",
+          "Mystery Circle"
+        ],
+        "module": "Mystery Circle"
+      }
+    },
+    {
+      "visibility": "secret",
+      "record": {
+        "id": "dc48a8ebc6ce7fd7",
+        "title": "MC-37非公开信息表",
+        "kind": "scenarios",
+        "scope": "",
+        "aliases": [],
+        "fields": {
+          "visibility": "secret",
+          "scenarioCode": "MC-37"
+        },
+        "provenance": {
+          "visibility": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-37%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/dcaa3f0648538a96.json",
+            "capturedAt": "2026-09-27T04:38:47.066Z"
+          },
+          "scenarioCode": {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-37%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/dcaa3f0648538a96.json",
+            "capturedAt": "2026-09-27T04:38:47.066Z"
+          }
+        },
+        "sources": [
+          {
+            "provider": "wiki",
+            "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-37%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+            "snapshot": "sources/wiki/pages/dcaa3f0648538a96.json",
+            "capturedAt": "2026-09-27T04:38:47.066Z"
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "provider": "wiki",
+              "url": "https://tragedyrooper.fandom.com/zh/wiki/MC-37%E9%9D%9E%E5%85%AC%E5%BC%80%E4%BF%A1%E6%81%AF%E8%A1%A8",
+              "snapshot": "sources/wiki/pages/dcaa3f0648538a96.json",
+              "capturedAt": "2026-09-27T04:38:47.066Z"
+            },
+            "fields": {
+              "visibility": "secret",
+              "scenarioCode": "MC-37"
+            }
+          }
+        ],
+        "wikiTitle": "MC-37非公开信息表",
+        "originalTables": [],
+        "wikiStatus": "empty-source",
+        "links": [],
+        "images": [],
+        "media": [],
+        "authority": "民间",
+        "classificationSource": "sources/wiki/pages/5eae5beed691d446.json",
+        "module": "Mystery Circle",
+        "tags": [
+          "民间",
+          "Mystery Circle"
+        ]
+      }
+    }
+  ],
+  "relatedEntries": [],
+  "redirectIds": [
+    "dc48a8ebc6ce7fd7"
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,60 @@
+{
+  "id": "7315fa0396e78d9b",
+  "title": "規則Y是「最終計劃」，關鍵人物帶有希望指示物。背叛者A或B的特殊勝利條件滿足時該如何處理？",
+  "kind": "faq",
+  "scope": "纸质 FAQ / LL / Q4",
+  "aliases": [],
+  "fields": {
+    "question": "規則Y是「最終計劃」，關鍵人物帶有希望指示物。背叛者A或B的特殊勝利條件滿足時該如何處理？",
+    "answer": "在本輪輪迴中主人公A或B無法獲勝。下一輪迴由於希望指示物被移除了，因此在輪迴第1天對應的特殊勝利判斷時點，對應的背叛者會獲勝。"
+  },
+  "provenance": {
+    "question": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+      "snapshot": "sources/paper-faq/last-liar.json",
+      "page": 13,
+      "questionNumber": 4
+    },
+    "answer": {
+      "provider": "lloyd",
+      "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+      "snapshot": "sources/paper-faq/last-liar.json",
+      "page": 13,
+      "questionNumber": 4
+    }
+  },
+  "sources": [
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+      "snapshot": "sources/paper-faq/last-liar.json",
+      "page": 13,
+      "questionNumber": 4
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+        "snapshot": "sources/paper-faq/last-liar.json",
+        "page": 13,
+        "questionNumber": 4
+      },
+      "fields": {
+        "question": "規則Y是「最終計劃」，關鍵人物帶有希望指示物。背叛者A或B的特殊勝利條件滿足時該如何處理？",
+        "answer": "在本輪輪迴中主人公A或B無法獲勝。下一輪迴由於希望指示物被移除了，因此在輪迴第1天對應的特殊勝利判斷時點，對應的背叛者會獲勝。"
+      }
+    }
+  ],
+  "tags": [
+    "LL",
+    "纸质 FAQ",
+    "规则",
+    "官方"
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+  "conflicts": []
+}

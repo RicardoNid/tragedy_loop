@@ -1,0 +1,116 @@
+{
+  "id": "6c08652dd90fb178",
+  "title": "关键人物",
+  "kind": "identities",
+  "scope": "First Steps",
+  "aliases": [],
+  "fields": {
+    "max": "",
+    "traits": "",
+    "abilities": [
+      "【强制：该角色死亡时】主人公失败，当前轮回立即结束"
+    ]
+  },
+  "provenance": {
+    "max": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/First_Steps",
+      "snapshot": "sources/wiki/pages/7bcd897f011ed91f.json",
+      "capturedAt": "2026-09-27T03:29:36.530Z"
+    },
+    "traits": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/First_Steps",
+      "snapshot": "sources/wiki/pages/7bcd897f011ed91f.json",
+      "capturedAt": "2026-09-27T03:29:36.530Z"
+    },
+    "abilities": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/First_Steps",
+      "snapshot": "sources/wiki/pages/7bcd897f011ed91f.json",
+      "capturedAt": "2026-09-27T03:29:36.530Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/First_Steps",
+      "snapshot": "sources/wiki/pages/7bcd897f011ed91f.json",
+      "capturedAt": "2026-09-27T03:29:36.530Z"
+    },
+    {
+      "provider": "lloyd",
+      "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+    },
+    {
+      "provider": "ricardo",
+      "path": "sources/ricardo/reference/module/modules/first-steps.md",
+      "status": "draft_needs_human_review"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/First_Steps",
+        "snapshot": "sources/wiki/pages/7bcd897f011ed91f.json",
+        "capturedAt": "2026-09-27T03:29:36.530Z"
+      },
+      "fields": {
+        "max": "",
+        "traits": "",
+        "abilities": [
+          "【强制：该角色死亡时】主人公失败，当前轮回立即结束"
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/tragedy_loop_appendix(3)(1).md"
+      },
+      "fields": {
+        "max": "",
+        "traits": "",
+        "abilities": [
+          "【强制：该角色死亡时】主人公失败，当前轮回立即结束"
+        ]
+      }
+    },
+    {
+      "source": {
+        "provider": "ricardo",
+        "path": "sources/ricardo/reference/module/modules/first-steps.md",
+        "status": "draft_needs_human_review"
+      },
+      "fields": {
+        "max": "",
+        "traits": "",
+        "abilities": [
+          "该角色死亡时，主人公失败，当前轮回立即结束。"
+        ]
+      }
+    }
+  ],
+  "authority": "官方",
+  "classificationSource": "sources/wiki/pages/c81a236074b5a9e4.json",
+  "tags": [
+    "官方"
+  ],
+  "conflicts": [
+    {
+      "field": "abilities",
+      "selected": [
+        "【强制：该角色死亡时】主人公失败，当前轮回立即结束"
+      ],
+      "candidate": [
+        "该角色死亡时，主人公失败，当前轮回立即结束。"
+      ],
+      "source": {
+        "provider": "ricardo",
+        "path": "sources/ricardo/reference/module/modules/first-steps.md",
+        "status": "draft_needs_human_review"
+      }
+    }
+  ]
+}

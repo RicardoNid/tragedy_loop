@@ -1,0 +1,60 @@
+{
+  "id": "653ff040727e122c",
+  "title": "药剂师.png",
+  "kind": "media",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "bytes": 1183017,
+    "sha256": "e2e6ffdffc299001180e4e2a6d157a15c846aa655c98a08acfc56bc99ecf56c1"
+  },
+  "provenance": {
+    "bytes": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E8%8D%AF%E5%89%82%E5%B8%88.png",
+      "snapshot": "sources/wiki/files/f3e6d060cb6b8aa1.json"
+    },
+    "sha256": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E8%8D%AF%E5%89%82%E5%B8%88.png",
+      "snapshot": "sources/wiki/files/f3e6d060cb6b8aa1.json"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E8%8D%AF%E5%89%82%E5%B8%88.png",
+      "snapshot": "sources/wiki/files/f3e6d060cb6b8aa1.json"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E8%8D%AF%E5%89%82%E5%B8%88.png",
+        "snapshot": "sources/wiki/files/f3e6d060cb6b8aa1.json"
+      },
+      "fields": {
+        "bytes": 1183017,
+        "sha256": "e2e6ffdffc299001180e4e2a6d157a15c846aa655c98a08acfc56bc99ecf56c1"
+      }
+    }
+  ],
+  "media": [
+    {
+      "title": "药剂师.png",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:%E8%8D%AF%E5%89%82%E5%B8%88.png",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/d/da/%E8%8D%AF%E5%89%82%E5%B8%88.png/revision/latest?cb=20260418192944&format=original&path-prefix=zh",
+      "path": "media/wiki/f3e6d060cb6b8aa1.png",
+      "sourceRecord": "sources/wiki/files/f3e6d060cb6b8aa1.json",
+      "sha256": "e2e6ffdffc299001180e4e2a6d157a15c846aa655c98a08acfc56bc99ecf56c1",
+      "bytes": 1183017,
+      "fileInfo": "PNG image data, 583 x 808, 8-bit/color RGBA, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "tags": [],
+  "conflicts": []
+}

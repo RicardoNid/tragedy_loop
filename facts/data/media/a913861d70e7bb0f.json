@@ -1,0 +1,60 @@
+{
+  "id": "a913861d70e7bb0f",
+  "title": "军人.png",
+  "kind": "media",
+  "scope": "",
+  "aliases": [],
+  "fields": {
+    "bytes": 219892,
+    "sha256": "e33863b74cb40f19573c77fd15c86af4e918a1e10feb52985f3eb10d543cc580"
+  },
+  "provenance": {
+    "bytes": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%86%9B%E4%BA%BA.png",
+      "snapshot": "sources/wiki/files/2bb2461a44117e55.json"
+    },
+    "sha256": {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%86%9B%E4%BA%BA.png",
+      "snapshot": "sources/wiki/files/2bb2461a44117e55.json"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%86%9B%E4%BA%BA.png",
+      "snapshot": "sources/wiki/files/2bb2461a44117e55.json"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%86%9B%E4%BA%BA.png",
+        "snapshot": "sources/wiki/files/2bb2461a44117e55.json"
+      },
+      "fields": {
+        "bytes": 219892,
+        "sha256": "e33863b74cb40f19573c77fd15c86af4e918a1e10feb52985f3eb10d543cc580"
+      }
+    }
+  ],
+  "media": [
+    {
+      "title": "军人.png",
+      "sourcePage": "https://tragedyrooper.fandom.com/zh/wiki/File:%E5%86%9B%E4%BA%BA.png",
+      "originalUrl": "https://static.wikia.nocookie.net/tragedyrooper/images/7/74/%E5%86%9B%E4%BA%BA.png/revision/latest?cb=20251023162227&format=original&path-prefix=zh",
+      "path": "media/wiki/2bb2461a44117e55.png",
+      "sourceRecord": "sources/wiki/files/2bb2461a44117e55.json",
+      "sha256": "e33863b74cb40f19573c77fd15c86af4e918a1e10feb52985f3eb10d543cc580",
+      "bytes": 219892,
+      "fileInfo": "PNG image data, 306 x 419, 8-bit/color RGBA, non-interlaced",
+      "license": [
+        "https://www.fandom.com/zh/licensing-zh"
+      ]
+    }
+  ],
+  "tags": [],
+  "conflicts": []
+}

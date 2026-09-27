@@ -1,0 +1,67 @@
+{
+  "id": "8a72d941bd3fd3e6",
+  "title": "从者与特性对象在同一区域，并且从者身上有护卫指示物，如果他们同时死亡，如何结算？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 角色 / 第 10 行",
+  "aliases": [],
+  "fields": {
+    "question": "从者与特性对象在同一区域，并且从者身上有护卫指示物，如果他们同时死亡，如何结算？",
+    "answer": "移除护卫指示物，从者死亡，因为在此时从者死了两次"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 10,
+      "cells": "A10:B10",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 10,
+      "cells": "A10:B10",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 10,
+      "cells": "A10:B10",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+        "snapshot": "sources/faq-sheet/characters.json",
+        "sheet": "角色",
+        "row": 10,
+        "cells": "A10:B10",
+        "capturedAt": "2026-09-27T05:39:49.068Z"
+      },
+      "fields": {
+        "question": "从者与特性对象在同一区域，并且从者身上有护卫指示物，如果他们同时死亡，如何结算？",
+        "answer": "移除护卫指示物，从者死亡，因为在此时从者死了两次"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "角色",
+    "关于刑警",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}

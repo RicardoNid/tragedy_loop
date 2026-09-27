@@ -1,0 +1,67 @@
+{
+  "id": "319a1d291925d8ca",
+  "title": "鉴别员的能力可以指定有指示物的角色但是不移动指示物吗？",
+  "kind": "faq",
+  "scope": "FAQ 表格 / 角色 / 第 72 行",
+  "aliases": [],
+  "fields": {
+    "question": "鉴别员的能力可以指定有指示物的角色但是不移动指示物吗？",
+    "answer": "如果两个角色身上有指示物，必须选1枚移动"
+  },
+  "provenance": {
+    "question": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 72,
+      "cells": "A72:B72",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    },
+    "answer": {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 72,
+      "cells": "A72:B72",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  },
+  "sources": [
+    {
+      "provider": "wiki",
+      "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+      "snapshot": "sources/faq-sheet/characters.json",
+      "sheet": "角色",
+      "row": 72,
+      "cells": "A72:B72",
+      "capturedAt": "2026-09-27T05:39:49.068Z"
+    }
+  ],
+  "variants": [
+    {
+      "source": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+        "snapshot": "sources/faq-sheet/characters.json",
+        "sheet": "角色",
+        "row": 72,
+        "cells": "A72:B72",
+        "capturedAt": "2026-09-27T05:39:49.068Z"
+      },
+      "fields": {
+        "question": "鉴别员的能力可以指定有指示物的角色但是不移动指示物吗？",
+        "answer": "如果两个角色身上有指示物，必须选1枚移动"
+      }
+    }
+  ],
+  "tags": [
+    "FAQ 表格",
+    "角色",
+    "关于鉴别员",
+    "待核定"
+  ],
+  "authority": "待核定",
+  "conflicts": []
+}
