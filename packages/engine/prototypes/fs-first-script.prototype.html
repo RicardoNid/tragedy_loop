@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FS 入门剧本 · 状态与观察实验台</title>
+<style>
+:root{font-family:system-ui,'Noto Sans CJK SC',sans-serif;color:#20302d;background:#f2f5f2;line-height:1.65;--accent:#11675b;--line:#d6e1dc}*{box-sizing:border-box}body{margin:0}header,main,footer{max-width:1580px;margin:auto;padding:24px}h1{font-size:30px;line-height:1.3;margin:8px 0}h2{font-size:19px;margin:0 0 12px}h3{font-size:16px;margin:10px 0}p{margin:8px 0}.muted,small{color:#64736d}.eyebrow{letter-spacing:.12em;font-size:12px;color:var(--accent);font-weight:750}.intro{max-width:1050px}.bar{display:flex;flex-wrap:wrap;gap:9px;align-items:center}button,select{font:inherit;border:1px solid #b7cac1;background:white;border-radius:7px;padding:7px 12px;color:inherit}button{cursor:pointer}button:hover{background:#e8f2ed}button.primary,button.active{background:var(--accent);color:white;border-color:var(--accent)}button:disabled{opacity:.4;cursor:default}a{color:#126659}.panel{background:white;border:1px solid var(--line);border-radius:12px;padding:18px;min-width:0}.grid{display:grid;grid-template-columns:1.05fr 1fr;gap:16px;margin-top:16px}.wide{grid-column:1/-1}.status{font-size:21px;font-weight:700}.pill{font-size:12px;background:#e8f1ed;border-radius:4px;padding:2px 6px;white-space:nowrap}.warn{background:#fff4dc;color:#78520e;padding:10px 14px;border-radius:8px}.board{display:grid;grid-template-columns:1fr 1fr;gap:10px}.location{border:1px solid var(--line);border-radius:8px;padding:10px;min-height:100px;background:#fbfcfa}.character{padding:7px 0;border-top:1px solid #e7ece8}.dead{opacity:.55;text-decoration:line-through}.role{color:#8c5548}.log{max-height:400px;overflow:auto}.entry{border-bottom:1px solid #e6ece8;padding:10px 0}.entry:last-child{border:0}.entry code{display:block;word-break:break-word;font-size:12px;color:#58685e}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f5f7f5;border-radius:6px;padding:12px;font-size:12px;max-height:360px;overflow:auto}details{margin:8px 0}summary{cursor:pointer;color:#37534b}table{border-collapse:collapse;width:100%;font-size:13px}th,td{text-align:left;border-bottom:1px solid var(--line);padding:7px;vertical-align:top}.timeline{max-height:330px;overflow:auto;display:grid;gap:5px}.timeline button{text-align:left;font-size:13px}.timeline .done{color:#4c7163}.explain{border-left:3px solid var(--accent);padding-left:14px;margin:12px 0}.cols{display:grid;grid-template-columns:1fr 1fr;gap:14px}.count{font-size:12px;float:right;color:#64736d}input[type=range]{width:100%}.notice{min-height:28px;color:#8e5620}.source{font-size:13px}.sticky{position:sticky;top:0;z-index:2;background:#f2f5f2ed;padding:10px 0;backdrop-filter:blur(5px)}#stepNote{min-height:54px}footer{padding-bottom:50px}@media(max-width:1000px){.grid{grid-template-columns:1fr}.wide{grid-column:1}.cols{grid-template-columns:1fr}header,main,footer{padding:16px}.sticky{position:static}}@media print{.sticky,#freeplay,.timeline,button,input{display:none}.grid{display:block}.panel{break-inside:avoid;margin-bottom:14px}.log{max-height:none}}
+</style>
+<header><div class="eyebrow">TRAGEDY LOOP / THROWAWAY LOGIC PROTOTYPE / 01</div><h1>一局游戏，六个状态面板</h1><p class="intro">以 FS 官方入门剧本《はじまりの脚本》贯穿三次轮回：检查<strong>行动、权威状态、内部结算、视图、观察历史、推论</strong>能否完整描述一局游戏。点击每一步，查看同一个事实如何进入不同人的视野。</p><p class="warn">设计评估原型 · 含完整剧透 · 待设计者验收。这里的选择是教学编排，不代表最优策略；只有本剧本涉及的规则子集，未实现通用 FS 引擎或完整解空间求解器。全部状态仅保存在内存。</p></header>
+<main>
+<div class="bar" id="scenarios"><button data-scenario="full" class="active">① 完整对局</button><button data-scenario="refusal">② 拒绝与次数</button><button data-scenario="illegal">③ 非法输入</button></div>
+<p id="scenarioNote"></p>
+<div class="sticky"><div class="bar"><button id="prev">上一步（回看）</button><button id="next" class="primary">执行下一步</button><button id="end">演算到结局</button><button id="reset">重新开始当前导览</button><span id="progress"></span><span class="muted">回看是实验台重放，不是游戏内撤销。</span></div><input id="scrub" type="range" min="0" max="0" value="0" aria-label="回看步骤"></div>
+<div class="panel"><div class="bar"><span id="status" class="status"></span><span id="pending" class="pill"></span></div><h3 id="stepTitle"></h3><div id="stepNote" class="explain"></div><div id="termDelta" class="muted"></div><div id="delta"></div><div id="notice" class="notice" role="status"></div></div>
+<div class="grid">
+<section class="panel"><h2>01 · 权威盘面 <span class="pill">设计者全知</span></h2><div id="board" class="board"></div><details><summary>剧本、资源、次数与流程栈</summary><div id="authority"></div></details></section>
+<section class="panel"><h2>02 · 视图 <span class="pill">按观察者投影</span></h2><div class="bar"><button data-view="P" class="active">主人公共享</button><button data-view="M">剧作家</button></div><p id="viewExplanation" class="muted"></p><div id="view"></div><details><summary>当前观察者的手牌与轮回资源</summary><div id="hands"></div></details></section>
+<section class="panel"><h2>03 · 输入与内部结算 <span class="pill">设计者全知</span></h2><p class="muted">动作不等于效果。秘密来源只在这里出现，不直接复制进主人公历史。</p><div id="events" class="log"></div></section>
+<section class="panel"><h2>04 · 直接观察历史 <span id="historyCount" class="count"></span></h2><div class="bar"><label><input id="onlyNew" type="checkbox" checked> 只看本步新增</label><label><input id="showLogic" type="checkbox" checked> 显示结构化语句</label></div><p class="muted">与上方视图使用同一个观察者。历史只追加；推论不写入此区。调试步号用于设计者对齐，不属于玩家可观测语义，也不参与候选世界比较。</p><div id="observations" class="log"></div></section>
+<section class="panel"><h2>05 · 推论与解空间约束</h2><label><input id="knowledgeOn" type="checkbox" checked> 展示知识辅助层</label><p class="muted">仅按主人公历史运行有限示例推理。结论健全性可核查，算法不完备；没有候选世界数量，没有概率，没有读取秘密身份来补答案。</p><div id="knowledge"></div></section>
+<section class="panel" id="freeplay"><h2>06 · 自由交互</h2><p class="muted">在当前阶段尝试另一项输入。成功后进入自由分支；可重新开始导览恢复固定对局。所有按钮都经过同一规则入口。</p><div class="bar"><select id="actor" aria-label="行动者"><option value="M">剧作家</option><option value="P1">主人公 1</option><option value="P2">主人公 2</option><option value="P3">主人公 3</option></select><select id="card" aria-label="行动牌"></select><select id="target" aria-label="目标"></select><button id="playCard">暗置所选牌</button></div><div class="bar" style="margin-top:10px"><button id="advance">推进当前系统环节</button><button id="closeAbility">结束当前能力阶段</button><button id="declareOffice">声明职员好感能力</button><button id="refuse">拒绝待回应能力</button><button id="accept">接受待回应能力</button><button id="boyHelp">男学生为女学生减不安</button></div><p class="muted">自由分支覆盖出牌、系统推进及两项本局使用的好感能力。其他角色的可选能力未开放为自由按钮；完整导览内的剧作家身份能力单独可见。</p></section>
+<section class="panel"><h2>逐步导览</h2><p class="muted">每项是实际输入。可点击任意步骤从开局重放到该处；秘密策略说明仅供设计者阅读。</p><div id="timeline" class="timeline"></div></section>
+<section class="panel"><h2>本次要检视的概念</h2><table><tr><th>词语</th><th>在这个原型中的具体位置</th></tr><tr><td>权威状态</td><td>固定剧本、盘面、实体牌的持有/暗置/弃置、日与轮回、能力次数、待回应选择、输赢。</td></tr><tr><td>行动</td><td>出牌、发动能力、回应拒绝、选择放弃。系统推进是调度输入，标有 SYSTEM。</td></tr><tr><td>内部结算</td><td>真实身份检查、秘密能力来源、同时批次、失败原因；保留完整因果。</td></tr><tr><td>观察</td><td>注册谓词 + 具名参数 + 获知时点 + 有效时点 + 同时组；通过固定模板变为中文。</td></tr><tr><td>历史 / 视图</td><td>历史保存获得过什么；视图显示现在获准知道什么。剧作家也不知道未翻开的主人公牌。</td></tr><tr><td>推论 / 公开</td><td>根据死亡反推身份是推论；好感能力告知身份是直接观察。两者来源不同。</td></tr><tr><td>窗口</td><td>阶段结束只保证该阶段规定的公开效果完整；没有观察到暗中能力来源，不等于它不存在。</td></tr></table><details><summary>逻辑语句与自然语言的约定</summary><div class="source"><p>语句形状为 <code>{op: "atom", predicate, args}</code>。实体使用固定 ID，数值使用整数；显示名只在模板渲染时替换。独立的角色身份、主规则、副规则、事件犯人各自形成一条观察，不能把整份秘密剧本当作一个不可分的信息点。</p><table><tr><th>注册谓词（示例）</th><th>参数类型</th><th>固定中文模板</th></tr><tr><td>CharacterAt</td><td>角色 ID × 地点 ID</td><td>{角色}位于{地点}</td></tr><tr><td>CounterEquals</td><td>角色或地点 ID × token 类别 × 非负整数</td><td>{目标}的{类别}为{值}</td></tr><tr><td>CardFace</td><td>出牌者 ID × 牌型 × 目标 ID × 牌位 ID</td><td>{出牌者}的牌{牌型}位于{目标}</td></tr><tr><td>AbilityResponse</td><td>角色 ID × refused / accepted</td><td>剧作家拒绝 / 接受了{角色}的能力声明</td></tr><tr><td>RoleRevealed</td><td>角色 ID × 身份 ID</td><td>依能力正式公开：{角色}为{身份}</td></tr><tr><td>WindowClosed</td><td>阶段 ID × 完整性契约</td><td>{阶段}观察窗口关闭；完整范围由契约给出</td></tr></table><p>自然语言函数只消费已筛选的语句及公共词典；不能回读真实身份生成解释。内部事件中的来源不是自然语言补全素材。调试 revision 和事件 ID 是设计者元数据；玩家历史比较需要去除这些索引，保留语义语句、逻辑时点与同时关系。本原型只演示有限谓词，不实现通用布尔约束语言和 schema 校验器。</p></div></details><details><summary>本局来源、版本与实现边界</summary><div class="source"><p>主要来源：<a href="https://main-bakafire.ssl-lolipop.jp/rooper/10th/quickset.html" target="_blank">BakaFire 官方十周年站的入门套件</a>，2021-11 文件：script_sheet(a5).pdf 第 1 页、summary(a4).pdf 第 1 页、data_token_chara(b4).pdf 第 1 页、instguide.pdf 第 5–8 页。下载与核对日期：2026-09-26。</p><p>官方设定：FS、三轮三天、六名角色、无特殊规则、第三天自杀；身份配置见全知盘面。套件属于官方 5th 入门素材；项目按用户指定叠加十周年“拒绝不耗次数”裁定及主人公共享视野。没有宣称已经实现所有十周年增量规则。本例不涉及傀儡等其他模组效果。</p><p>采用原型自己的动作序列，未复制官方教学对局或故事文案。中文显示采用项目常用译名：密谋对应暗躍，不安对应 Paranoia，好感对应友好。</p><p>支持本局的卡牌、强制杀人狂、可选杀手、主谋、传谣人、职员及男学生好感技能、自杀事件、重置及 FS 结局；其他好感技能暂不开放。能力次数按日 / 轮回分别建模；本局使用的职员与男学生技能按日计数。没有完整 SMT/SAT 推理、最优策略搜索、网络、数据库或玩家权限隔离服务。</p><p>角色死亡保留 token；强制效果按同一前态收集后同时落地；结束一轮先结算再重置。第 3 轮仍失败则剧作家胜，FS 无最后猜测。领队在每日指定阶段轮换；中途失败不执行尚未发生的轮换，跨轮保留当前领队。</p></div></details></section>
+</div>
+<details class="panel" style="margin-top:16px"><summary>完整机器快照（设计者调试，不属于任何玩家视图）</summary><pre id="raw"></pre></details>
+</main><footer><p>本原型的研究问题：这些概念是否足以描述完整对局，并防止“内部发生了什么”无意泄露成“玩家观察到了什么”？记录的可运行示例不构成规则内核已验收。</p></footer>
+<script>
+/* Pure model: no DOM, I/O, time, randomness or external dependencies. */
+const Demo = (()=>{
+const names={boy:'男学生',girl:'女学生',maiden:'巫女',office:'职员',idol:'偶像',doctor:'医生',hospital:'医院',shrine:'神社',city:'都市',school:'学校',P1:'主人公 1',P2:'主人公 2',P3:'主人公 3',P:'主人公共享阵营',M:'剧作家',SYSTEM:'系统',V:'纵向移动',H:'横向移动',D:'斜向移动',I1:'密谋 +1',I2:'密谋 +2',A1:'不安 +1',A1b:'不安 +1（第二张）',Am:'不安 −1',G1:'好感 +1',G2:'好感 +2',FI:'禁止密谋',FM:'禁止移动',FA:'禁止不安',FG:'禁止好感',person:'普通人',key:'关键人物',killer:'杀手',serial:'杀人狂',brain:'主谋',conspiracy:'传谣人',cultist:'邪教徒',minus:'减因',friend:'朋友',intrigue:'密谋',paranoia:'不安',goodwill:'好感',reveal:'职员身份公开',calm:'男学生安抚学生'};
+const title=x=>names[x]??String(x);
+const starts={boy:'school',girl:'school',maiden:'shrine',office:'city',idol:'city',doctor:'hospital'};
+const roles={boy:'person',girl:'key',maiden:'serial',office:'killer',idol:'conspiracy',doctor:'brain'};
+const limits={boy:2,girl:3,maiden:2,office:2,idol:2,doctor:2};
+const locations=['hospital','shrine','city','school'];
+const phaseNames={setup:'准备 / 公开设定',dawn:'日初',mmCards:'剧作家暗置',pCards:'主人公暗置',revealCards:'行动牌 / 同时翻开',movement:'行动牌 / 移动',tokens:'行动牌 / 计数物',returnCards:'行动牌 / 回收',mmAbility:'剧作家能力',goodwill:'主人公好感能力',incident:'事件发生',leader:'领队轮换',night:'日末',loopEnd:'轮回结束结算',gap:'轮回间隙',gameOver:'整局结束'};
+const cardsM=['V','H','D','A1','A1b','Am','FA','FG','I1','I2'];
+const cardsP=['V','H','A1','Am','G1','G2','FI','FM'];
+const limited=(who,c)=>who==='M'?['D','I2'].includes(c):['Am','G2','FM'].includes(c);
+const clone=x=>JSON.parse(JSON.stringify(x));
+const time=s=>({loop:s.loop,day:s.day,phase:s.phase,revision:s.revision});
+const fmtTime=t=>`L${t.loop}·D${t.day}·${phaseNames[t.phase]}`;
+const atom=(predicate,...args)=>({op:'atom',predicate,args});
+const factText=f=>{
+ const a=f.args||[]; const n=i=>title(a[i]);
+ switch(f.predicate){
+ case 'RuleProfile':return '采用 FS、十周年拒绝不耗次数、主人公共享视野。';
+ case 'PublicRoster':return `公开角色全集：${a[0].map(title).join('、')}，共 ${a[0].length} 人。`;
+ case 'MaxLoops':return `本局最多 ${a[0]} 轮。`;
+ case 'DaysPerLoop':return `每轮 ${a[0]} 天。`;
+ case 'PlotIs':return `${a[0]==='main'?'主':'副'}规则是 ${a[1]}。`;
+ case 'RoleIs':return `${n(0)}的真实身份是${n(1)}。`;
+ case 'CulpritIs':return `第 ${a[0]} 天事件的犯人是${n(1)}。`;
+ case 'IncidentSchedule':return `第 ${a[0]} 天预定「自杀」。`;
+ case 'SecretScript':return '剧作家获知完整秘密剧本：谋杀计划 / 开膛者的魔影；身份和犯人见结构化参数。';
+ case 'CharacterAt':return `${n(0)}位于${n(1)}。`;
+ case 'CharacterAlive':return `${n(0)}${a[1]?'存活':'死亡'}。`;
+ case 'CounterEquals':return `${n(0)}的${n(1)}为 ${a[2]}。`;
+ case 'PhaseEntered':return `进入「${phaseNames[a[0]]}」。`;
+ case 'LeaderIs':return `领队为${n(0)}。`;
+ case 'CardPlaced':return `${n(0)}在${n(1)}暗置一张行动牌（位置 ${a[2]}）。`;
+ case 'CardFace':return `${n(0)}的牌「${n(1)}」位于${n(2)}。`;
+ case 'ResourceSpent':return `${n(0)}的「${n(1)}」本轮已消耗，回收时进入轮回弃置区。`;
+ case 'CardsRecovered':return '普通行动牌返回手牌；本轮限用牌保留在弃置区。';
+ case 'AbilityDeclared':return `${n(0)}声明「${n(1)}」，目标${n(2)}。`;
+ case 'AbilityResponse':return `剧作家${a[1]==='refused'?'拒绝':'接受'}了${n(0)}的能力声明。`;
+ case 'AbilityUses':return `${n(0)}的「${n(1)}」今日已使用 ${a[2]} 次。`;
+ case 'RoleRevealed':return `依能力正式公开：${n(0)}的身份为${n(1)}。`;
+ case 'HiddenAbilityChosen':return `确认秘密选择：${n(0)}以${n(1)}能力作用于${n(2)}。`;
+ case 'KillerPolicy':return `本步剧作家选择${a[0]?'发动':'不发动'}满足条件的杀手能力。`;
+ case 'IncidentOccurred':return `今日预定「自杀」${a[0]?'发生':'未发生'}。`;
+ case 'WindowClosed':return `「${phaseNames[a[0]]}」观察窗口关闭；完整范围：${a[1].description}。`;
+ case 'LoopLost':return '主人公本轮失败；具体失败原因未被直接公开。';
+ case 'LoopClosed':return `第 ${a[0]} 轮结算完成。`;
+ case 'LoopReset':return `进入第 ${a[0]} 轮第 1 天：人物复位、计数物和次数归零、牌恢复；既有观察保留。`;
+ case 'GameResult':return `${a[0]==='P'?'主人公':'剧作家'}获得整局胜利。`;
+ default:return `${f.predicate}(${a.map(x=>typeof x==='object'?JSON.stringify(x):title(x)).join(', ')})`;
+ }
+};
+function initial(){return {revision:0,started:false,loop:1,day:1,phase:'setup',leader:'P1',config:{module:'FS',maxLoops:3,days:3,refusalConsumes:false,sharedProtagonist:true},script:{main:'Murder Plan',sub:'Shadow of the Ripper',roles:clone(roles),schedule:[{day:3,type:'Suicide',culprit:'girl'}]},chars:Object.fromEntries(Object.entries(starts).map(([id,loc])=>[id,{loc,alive:true,goodwill:0,paranoia:0,intrigue:0,limit:limits[id],forbidden:id==='maiden'?['city']:id==='office'?['school']:[],student:['boy','girl','maiden','idol'].includes(id)}])),boards:Object.fromEntries(locations.map(x=>[x,0])),placed:[],spent:{M:[],P1:[],P2:[],P3:[]},used:{},pending:null,everRevealed:{},lost:false,result:null,histories:{P:[],M:[]},events:[],last:{action:null,events:[],observations:{P:[],M:[]},note:'初始化前：剧本已装入待开始状态，但玩家尚未收到初始化披露。',delta:[]}};}
+function event(s,type,data){const e={id:`E${s.events.length+1}`,time:time(s),type,data};s.events.push(e);s.last.events.push(e);return e;}
+function obs(s,audience,f,refersTo=time(s),group=null){for(const side of audience){const o={id:`${side}${s.histories[side].length+1}`,learnedAt:time(s),refersTo:clone(refersTo),simultaneousGroup:group,statement:f};s.histories[side].push(o);s.last.observations[side].push(o);}}
+const pub=(s,f,t,g)=>obs(s,['P','M'],f,t,g);
+function phase(s,p){s.phase=p;pub(s,atom('PhaseEntered',p));}
+function closeWindow(s,scope='本阶段所有依规则必须披露的盘面结果'){pub(s,atom('WindowClosed',s.phase,{contract:'required-public-effects-v1',phase:s.phase,through:'current-resolution-batch',predicates:['CharacterAt','CharacterAlive','CounterEquals','IncidentOccurred','LoopLost'],description:scope}));}
+function counter(s,id,k,v,g=null){const before=locations.includes(id)?s.boards[id]:s.chars[id][k];v=Math.max(0,v);if(v===before)return;if(locations.includes(id))s.boards[id]=v;else s.chars[id][k]=v;event(s,'CounterChanged',{target:id,counter:k,from:before,to:v});pub(s,atom('CounterEquals',id,k,v),time(s),g);s.last.delta.push(`${title(id)} ${title(k)} ${before} → ${v}`);}
+function move(s,id,loc,g){const from=s.chars[id].loc;if(from===loc)return;s.chars[id].loc=loc;event(s,'Moved',{character:id,from,to:loc});pub(s,atom('CharacterAt',id,loc),time(s),g);s.last.delta.push(`${title(id)} ${title(from)} → ${title(loc)}`);}
+function die(s,ids,cause){const group=`deaths-${s.revision}`;const victims=[...new Set(ids)].filter(x=>s.chars[x].alive);for(const id of victims){s.chars[id].alive=false;event(s,'DeathResolved',{character:id,cause});pub(s,atom('CharacterAlive',id,false),time(s),group);s.last.delta.push(`${title(id)}死亡；计数物保留`);}if(victims.some(x=>s.script.roles[x]==='key'))lose(s,'关键人物死亡');}
+function lose(s,cause){if(s.lost)return;s.lost=true;event(s,'LossConditionSatisfied',{cause});pub(s,atom('LoopLost'));closeWindow(s,'本阶段截至本次同时结算批次的全部应公开结果；后续环节已中断');phase(s,'loopEnd');}
+function validate(s,a){
+ if(!['START','PLAY','DECLARE','RESPOND','SECRET_ABILITY','PASS','TICK'].includes(a.type))return '未知输入类型';
+ if(a.type==='PASS'&&a.actor!==(s.phase==='mmAbility'?'M':s.leader))return '应由当前能力阶段的行动者结束阶段';
+ if(a.type==='START')return s.started?'游戏已经开始':null;
+ if(!s.started)return '请先初始化游戏';
+ if(a.type==='PLAY'){
+ if(!['mmCards','pCards'].includes(s.phase))return '此阶段不能暗置行动牌';
+ const m=s.phase==='mmCards';const placed=s.placed.filter(x=>(x.actor==='M')===m);
+ const expected=m?'M':`P${(Number(s.leader[1])-1+placed.length)%3+1}`;
+ if(a.actor!==expected)return `此时轮到${title(expected)}`;
+ if(placed.length>=3)return '本阵营已经放置三张牌';
+ if(!(m?cardsM:cardsP).includes(a.card))return '行动者没有这张牌';
+ if(s.spent[a.actor].includes(a.card)||s.placed.some(x=>x.actor===a.actor&&x.card===a.card))return '这张实体牌已消耗或已经暗置';
+ if(!s.chars[a.target]&&!locations.includes(a.target))return '不存在的目标';
+ if(s.chars[a.target]&&!s.chars[a.target].alive)return '不能以死亡角色为行动牌目标';
+ if(placed.some(x=>x.target===a.target))return '同一阵营不能在同一目标放置第二张牌';
+ }
+ if(a.type==='DECLARE'){
+ if(s.phase!=='goodwill'||s.pending)return '当前不能声明新的好感能力';
+ if(a.actor!==s.leader)return '只有当前领队可以声明好感能力';
+ if(!['office','boy'].includes(a.character))return '本原型仅开放职员与男学生的好感能力';
+ const c=s.chars[a.character],t=s.chars[a.target],need=a.character==='office'?3:2;
+ if(!c.alive||c.goodwill<need)return '公开条件不满足：需存活且好感达到阈值';
+ if(s.used[`gw:${a.character}`])return '该能力今日已经实际使用';
+ if(a.character==='office'&&a.target!=='office')return '职员的这项能力只能公开自身身份';
+ if(a.character==='boy'&&(!t||!t.alive||!t.student||a.target==='boy'||t.loc!==c.loc))return '需同区另一名存活学生作为目标';
+ }
+ if(a.type==='RESPOND'){
+ if(!s.pending||s.phase!=='goodwill')return '没有待回应的能力声明';
+ if(a.actor!=='M')return '由剧作家回应能力声明';
+ const role=s.script.roles[s.pending.character];
+ if(a.refuse&&!['killer','brain','cultist','minus'].includes(role))return '此真实身份不允许拒绝（该错误只应返给剧作家）';
+ if(!a.refuse&&role==='cultist')return '该真实身份必须拒绝';
+ }
+ if(a.type==='SECRET_ABILITY'){
+ if(s.phase!=='mmAbility'||a.actor!=='M')return '不在剧作家能力阶段';
+ if(!['brain','conspiracy'].includes(a.role))return '本原型不支持该秘密能力';
+ const id=Object.keys(s.script.roles).find(x=>s.script.roles[x]===a.role),c=s.chars[id];
+ if(!c?.alive||s.used[`mm:${id}`])return '能力来源死亡或本日已经使用';
+ if(locations.includes(a.target)){if(a.role!=='brain'||a.target!==c.loc)return '此身份能力不能作用于该地点';}
+ else if(!s.chars[a.target]?.alive||s.chars[a.target].loc!==c.loc)return '目标必须为同区存活角色';
+ }
+ if(a.type==='PASS'&&(!['mmAbility','goodwill'].includes(s.phase)||s.pending))return '当前不能结束能力阶段';
+ if(a.type==='TICK'&&(['setup','mmCards','pCards','mmAbility','goodwill','gameOver'].includes(s.phase)||s.pending))return '当前需要玩家行动，不能由系统自动推进';
+ return null;
+}
+function reduce(state,a){
+ const error=validate(state,a);if(error)return {state,ok:false,error};
+ const s=clone(state);s.revision++;s.last={before:{phase:state.phase,loop:state.loop,day:state.day},action:clone(a),events:[],observations:{P:[],M:[]},note:a.note||'',delta:[]};
+ event(s,'InputAccepted',{actor:a.actor||'SYSTEM',type:a.type,...a});
+ switch(a.type){
+ case 'START':s.started=true;pub(s,atom('RuleProfile','FS','anniversary-refusal','shared-P'));pub(s,atom('PublicRoster',Object.keys(starts)));pub(s,atom('MaxLoops',3));pub(s,atom('DaysPerLoop',3));pub(s,atom('IncidentSchedule',3,'Suicide'));obs(s,['M'],atom('PlotIs','main',s.script.main));obs(s,['M'],atom('PlotIs','sub',s.script.sub));for(const [id,role] of Object.entries(s.script.roles))obs(s,['M'],atom('RoleIs',id,role));obs(s,['M'],atom('CulpritIs',3,'girl'));for(const [id,c] of Object.entries(s.chars)){pub(s,atom('CharacterAt',id,c.loc));pub(s,atom('CharacterAlive',id,true));for(const k of ['goodwill','paranoia','intrigue'])pub(s,atom('CounterEquals',id,k,0));}for(const id of locations)pub(s,atom('CounterEquals',id,'intrigue',0));pub(s,atom('LeaderIs',s.leader));phase(s,'dawn');break;
+ case 'PLAY':{
+ const slot=`L${s.loop}D${s.day}-${s.placed.length+1}`;s.placed.push({actor:a.actor,card:a.card,target:a.target,slot,revealed:false,placedAt:time(s)});pub(s,atom('CardPlaced',a.actor,a.target,slot));obs(s,a.actor==='M'?['M']:['P'],atom('CardFace',a.actor,a.card,a.target,slot));if(s.placed.length===3)phase(s,'pCards');if(s.placed.length===6)phase(s,'revealCards');break;}
+ case 'SECRET_ABILITY':{
+ const id=Object.keys(s.script.roles).find(x=>s.script.roles[x]===a.role);s.used[`mm:${id}`]=1;event(s,'HiddenAbilityResolved',{source:id,role:a.role,target:a.target});obs(s,['M'],atom('HiddenAbilityChosen',id,a.role,a.target));const k=a.role==='brain'?'intrigue':'paranoia';counter(s,a.target,k,(locations.includes(a.target)?s.boards[a.target]:s.chars[a.target][k])+1);break;}
+ case 'DECLARE':s.pending={character:a.character,target:a.target,ability:a.character==='office'?'reveal':'calm',declaredAt:time(s)};pub(s,atom('AbilityDeclared',a.character,s.pending.ability,a.target));break;
+ case 'RESPOND':{
+ const p=s.pending;pub(s,atom('AbilityResponse',p.character,a.refuse?'refused':'accepted'));if(!a.refuse){s.used[`gw:${p.character}`]=1;if(p.character==='office'){s.everRevealed.office=s.script.roles.office;pub(s,atom('RoleRevealed','office',s.script.roles.office));}else counter(s,p.target,'paranoia',s.chars[p.target].paranoia-1);}pub(s,atom('AbilityUses',p.character,p.ability,s.used[`gw:${p.character}`]||0));event(s,'AbilitySettled',{...p,response:a.refuse?'refused':'accepted',consumed:!a.refuse});s.pending=null;break;}
+ case 'PASS':closeWindow(s);phase(s,s.phase==='mmAbility'?'goodwill':'incident');break;
+ case 'TICK':{
+ switch(s.phase){
+ case 'dawn':s.used={};event(s,'DailyUsesReset',{});closeWindow(s);phase(s,'mmCards');break;
+ case 'revealCards':{
+ const g=`reveal-${s.revision}`;for(const c of s.placed){c.revealed=true;pub(s,atom('CardFace',c.actor,c.card,c.target,c.slot),c.placedAt,g);if(limited(c.actor,c.card)){s.spent[c.actor].push(c.card);pub(s,atom('ResourceSpent',c.actor,c.card),time(s),g);}}phase(s,'movement');break;}
+ case 'movement':{
+ const moves=[];for(const [id,c] of Object.entries(s.chars)){if(!c.alive)continue;const cs=s.placed.filter(x=>x.target===id).map(x=>x.card);if(cs.includes('FM')){event(s,'MovementBlocked',{target:id});continue;}const dirs=[...new Set(cs.filter(x=>['H','V','D'].includes(x)))];if(!dirs.length)continue;let mask=0;for(const d of dirs)mask^={H:1,V:2,D:3}[d];const dest=locations[locations.indexOf(c.loc)^mask];if(c.forbidden.includes(dest)){event(s,'ForbiddenDestination',{target:id,destination:dest});continue;}moves.push([id,dest]);}for(const [id,dest] of moves)move(s,id,dest,`move-${s.revision}`);phase(s,'tokens');break;}
+ case 'tokens':{
+ const double=s.placed.filter(x=>x.card==='FI').length>=2;event(s,'ForbidIntrigueCount',{count:s.placed.filter(x=>x.card==='FI').length,allCancelled:double});for(const id of [...Object.keys(s.chars),...locations]){const cs=s.placed.filter(x=>x.target===id).map(x=>x.card);if(!cs.length)continue;for(const k of ['intrigue','goodwill','paranoia']){if(locations.includes(id)&&k!=='intrigue')continue;const block=k==='intrigue'?cs.includes('FI')&&!double:k==='goodwill'?cs.includes('FG'):cs.includes('FA');if(block){event(s,'TokenCardsBlocked',{target:id,counter:k});continue;}const deltas=k==='intrigue'?{I1:1,I2:2}:k==='goodwill'?{G1:1,G2:2}:{A1:1,A1b:1,Am:-1};const d=cs.reduce((n,c)=>n+(deltas[c]||0),0);if(d)counter(s,id,k,(locations.includes(id)?s.boards[id]:s.chars[id][k])+d,`tokens-${s.revision}`);}}phase(s,'returnCards');break;}
+ case 'returnCards':s.placed=[];pub(s,atom('CardsRecovered'));closeWindow(s,'本日六张牌的牌面、移动与计数物效果以及回收');phase(s,'mmAbility');break;
+ case 'incident':{
+ if(s.day===3){const id=s.script.schedule[0].culprit,c=s.chars[id],happens=c.alive&&c.paranoia>=c.limit;event(s,'IncidentEligibility',{culprit:id,alive:c.alive,paranoia:c.paranoia,threshold:c.limit,happens});pub(s,atom('IncidentOccurred',happens));if(happens)die(s,[id],'自杀事件');}
+ if(!s.lost){closeWindow(s,'今日所有预定事件是否发生及必须公开的效果');phase(s,'leader');}break;}
+ case 'leader':s.leader=`P${Number(s.leader[1])%3+1}`;pub(s,atom('LeaderIs',s.leader));phase(s,'night');break;
+ case 'night':{
+ const kills=[];for(const [id,c] of Object.entries(s.chars)){if(!c.alive)continue;if(s.script.roles[id]==='serial'){const others=Object.keys(s.chars).filter(x=>x!==id&&s.chars[x].alive&&s.chars[x].loc===c.loc);if(others.length===1){kills.push(others[0]);event(s,'MandatoryTriggerCollected',{source:id,role:'serial',target:others[0],group:`night-${s.revision}`});}}}
+ // Optional Killer choices are explicit in the guide's SYSTEM instruction, not inferred from silence.
+ if(a.useKiller){const k=Object.keys(s.chars).find(x=>s.script.roles[x]==='killer'),c=s.chars[k];if(c.alive){obs(s,['M'],atom('KillerPolicy',true));if(c.intrigue>=4)lose(s,'杀手以自身密谋 4 杀死主人公');for(const [id,t] of Object.entries(s.chars))if(t.alive&&s.script.roles[id]==='key'&&t.loc===c.loc&&t.intrigue>=2)kills.push(id);}}
+ if(kills.length)die(s,kills,'日末角色能力');if(!s.lost){closeWindow(s,'日末依法必须公开的角色死亡、主人公死亡与失败通知');if(s.day===3)phase(s,'loopEnd');else{s.day++;phase(s,'dawn');}}break;}
+ case 'loopEnd':pub(s,atom('LoopClosed',s.loop));if(!s.lost){s.result='P';pub(s,atom('GameResult','P'));phase(s,'gameOver');}else if(s.loop===3){s.result='M';pub(s,atom('GameResult','M'));phase(s,'gameOver');}else phase(s,'gap');break;
+ case 'gap':s.loop++;s.day=1;s.lost=false;s.placed=[];s.spent={M:[],P1:[],P2:[],P3:[]};s.used={};s.pending=null;for(const [id,c] of Object.entries(s.chars))Object.assign(c,{loc:starts[id],alive:true,goodwill:0,paranoia:0,intrigue:0});for(const id of locations)s.boards[id]=0;pub(s,atom('LoopReset',s.loop));event(s,'BoardAndResourcesReset',{retained:['script','histories','everRevealed','leader']});phase(s,'dawn');s.last.delta.push('盘面与轮回资源重置；双方历史、已知身份和固定剧本保留');break;
+ }
+ break;}
+ }
+ return {state:s,ok:true};
+}
+function view(s,side){if(!s.started)return {observer:side,notInitialized:true};return {observer:side,publicSetup:s.started?{module:'FS',maxLoops:3,days:3,roster:Object.keys(starts),incidents:[{day:3,type:'Suicide'}]}:null,time:time(s),phase:s.phase,leader:s.leader,characters:clone(s.chars),boards:clone(s.boards),knownRoles:side==='M'?clone(s.script.roles):clone(s.everRevealed),secretScript:side==='M'&&s.started?clone(s.script):null,placed:s.placed.map(c=>({actor:c.actor,target:c.target,slot:c.slot,face:c.revealed||(side==='M'?c.actor==='M':c.actor!=='M')?c.card:null})),spent:clone(s.spent),pending:s.pending?{character:s.pending.character,target:s.pending.target,ability:s.pending.ability}:null,result:s.result};}
+function deductions(history){
+ const out=[];const add=(id,text,evidence,scope)=>{if(!out.some(x=>x.id===id))out.push({id,text,evidence,scope});};
+ const setup=history.find(o=>o.statement.predicate==='PublicRoster');if(setup)add('domain','候选世界必须恰好包含公开的这六名角色、三天事件表及 FS 合法规则；不能用剧本标题或目录筛选。',[setup.id,...history.filter(o=>['RuleProfile','MaxLoops','DaysPerLoop','IncidentSchedule'].includes(o.statement.predicate)).map(o=>o.id)],'初始剧本域');
+ for(const o of history){const f=o.statement,a=f.args;
+ if(f.predicate==='AbilityResponse'&&a[1]==='refused')add('refusal-'+a[0],`${title(a[0])}属于具有拒绝能力的身份集合 {杀手、主谋、邪教徒、减因}；还需与合法 FS 配役、其他观察联合约束。`,[o.id],'剧本约束');
+ if(f.predicate==='RoleRevealed'&&a[1]==='killer')add('plot','职员被正式公开为杀手；FS 中只有「谋杀计划」配置杀手，因此主规则为谋杀计划。',[o.id,setup?.id].filter(Boolean),'剧本约束');
+ if(f.predicate==='ResourceSpent'&&a[0]==='M'&&a[1]==='I2')add('spent-'+o.learnedAt.loop,`在第 ${o.learnedAt.loop} 轮剩余时间，后来暗置的剧作家牌不可能再是密谋 +2；此限制到轮回重置为止。`,[o.id],'动态隐藏状态约束');
+ if(f.predicate==='IncidentOccurred'&&a[0]){const death=history.find(d=>d.learnedAt.revision===o.learnedAt.revision&&d.statement.predicate==='CharacterAlive'&&!d.statement.args[1]);if(death)add('culprit','自杀事件发生并使女学生死亡；该事件杀死犯人自身，因此女学生是第 3 天事件犯人。',[o.id,death.id],'剧本约束');}
+ }
+ const publicChars={},initialLocations={};
+ for(const o of history){
+ const f=o.statement,a=f.args;
+ if(f.predicate==='CharacterAt'){publicChars[a[0]]??={refs:{}};publicChars[a[0]].loc=a[1];publicChars[a[0]].refs.loc=o.id;initialLocations[a[0]]??=a[1];}
+ if(f.predicate==='CharacterAlive'){publicChars[a[0]]??={refs:{}};publicChars[a[0]].alive=a[1];publicChars[a[0]].refs.alive=o.id;}
+ if(f.predicate==='CounterEquals'&&publicChars[a[0]]){publicChars[a[0]][a[1]]=a[2];publicChars[a[0]].refs[a[1]]=o.id;}
+ if(f.predicate==='LoopReset')for(const [id,c] of Object.entries(publicChars)){Object.assign(c,{loc:initialLocations[id],alive:true,intrigue:0,goodwill:0,paranoia:0});c.refs={reset:o.id};}
+ if(f.predicate!=='LoopLost')continue;
+ const batch=history.filter(d=>d.learnedAt.revision===o.learnedAt.revision),deaths=batch.filter(d=>d.statement.predicate==='CharacterAlive'&&!d.statement.args[1]);
+ const window=batch.find(d=>d.statement.predicate==='WindowClosed');
+ const countersKnown=Object.values(publicChars).every(c=>Number.isInteger(c.intrigue)&&c.intrigue<4);
+ if(deaths.length!==1||deaths[0].statement.args[0]!=='girl'||!window||!countersKnown||!['night','incident'].includes(deaths[0].learnedAt.phase))continue;
+ const refs=[deaths[0].id,o.id,window.id,...Object.values(publicChars).flatMap(c=>Object.values(c.refs))];
+ add('key','女学生单独死亡后即时失败；完整结果窗口已关闭，全部角色密谋均不足 4，排除杀手杀死主人公。FS 在此时只能由关键人物死亡导致此失败，因此女学生为关键人物。这不是正式公开。',[...new Set(refs)],'剧本约束');
+ if(deaths[0].learnedAt.phase==='night'&&publicChars.girl.intrigue<2){const others=Object.entries(publicChars).filter(([id,c])=>id!=='girl'&&c.alive&&c.loc===publicChars.girl.loc);if(others.length===1){const id=others[0][0];add('serial',`女学生在日末死亡，密谋不足 2，排除杀手的杀死关键人物能力；其同区唯一另一人是${title(id)}。在本例 FS 公开规则范围内，可推出${title(id)}为杀人狂。`,[...new Set(refs)],'剧本约束');add('subplot','由杀人狂存在，可推出 FS 副规则为「开膛者的魔影」。这里展示推论触发下一条推论。',['推论 serial',setup?.id].filter(Boolean),'递归传播');}}
+ }
+ return out;
+}
+const guides=[];let built=initial();function append(a,label,note=''){a={...a,note};const r=reduce(built,a);if(!r.ok)throw Error(label+': '+r.error);built=r.state;guides.push({a,label,note,state:built});}
+const tick=(label,note='',extra={})=>append({type:'TICK',...extra},label,note);
+const pass=note=>append({type:'PASS',actor:built.phase==='mmAbility'?'M':built.leader},'结束能力阶段',note||'选择不继续使用可选能力；只关闭该阶段规定的公开效果窗口。');
+const secret=(role,target)=>append({type:'SECRET_ABILITY',actor:'M',role,target},`${title(role)}能力 → ${title(target)}`,'主人公只观察到计数物变化；能力的来源、身份及选择只进入剧作家历史。');
+function day(mm,pp,opt={}){
+ tick(`L${built.loop} D${built.day} · 日初`,'重置按日计数；本轮限用牌仍维持已消耗状态。');
+ for(const [card,target] of mm)append({type:'PLAY',actor:'M',card,target},`剧作家暗置 ${title(card)} → ${title(target)}`,'只有位置被公开；牌面仅对出牌阵营确认。暗置不立即产生牌面效果。');
+ for(const [card,target] of pp){const index=built.placed.filter(x=>x.actor!=='M').length,actor=`P${(Number(built.leader[1])-1+index)%3+1}`;append({type:'PLAY',actor,card,target},`${title(actor)}暗置 ${title(card)} → ${title(target)}`,'主人公完全共享本阵营已确认的牌面；剧作家此时只能看见位置。');}
+ tick('同时翻开六张牌','所有牌面属于同一披露批次；获知时间是现在，牌面所指的暗置时间更早。');
+ tick('统一结算移动','依据同一结算前态计算目的地；禁止移动、方向组合、禁止地区依次处理。');
+ tick('统一结算计数物','处理禁止效果后增减计数物；两张以上禁止密谋会全部失效。');
+ tick('回收行动牌','普通牌回手；本轮限用牌进入弃置区。之后身份能力不受本日行动牌禁止效果阻止。');
+ secret('brain','hospital');secret('conspiracy',built.day===3?'girl':'office');pass();
+ if(opt.reveal){append({type:'DECLARE',actor:built.leader,character:'office',target:'office'},'领队声明职员技能','公开条件满足即可声明；不得因隐藏身份具有拒绝能力而预先禁止声明。');append({type:'RESPOND',actor:'M',refuse:true},'剧作家拒绝','十周年裁定：次数仍为 0，好感不减少。拒绝本身成为观察，收敛身份候选。');append({type:'DECLARE',actor:built.leader,character:'office',target:'office'},'再次声明同一能力','拒绝没有消耗次数，所以仍可合法声明。此重复是演示选择，不是强迫剧作家接受。');append({type:'RESPOND',actor:'M',refuse:false},'剧作家选择接受并公开身份','可选拒绝身份允许接受。本例故意提供一次信息以展示正式公开；并非最佳防守。次数变为 1。');}
+ if(opt.calm){append({type:'DECLARE',actor:built.leader,character:'boy',target:'girl'},'男学生安抚女学生','女学生是不安 1 的存活同区学生；主人公针对前轮推理出的犯人行动。');append({type:'RESPOND',actor:'M',refuse:false},'接受并移除女学生的不安','男学生为普通人，不能拒绝；好感是阈值而不是消耗。');}
+ pass(opt.skip?'新手选择放弃安抚：这个合法但失误的选择将让女学生保留 3 不安。':'' );
+ tick('检查今日预定事件',built.day===3?'先检查秘密犯人的存活和不安阈值；只公开发生与否及必要结果，不直接说出犯人。':'今日没有预定事件。阶段仍存在，且有明确关闭边界。');
+ if(!built.lost){tick('轮换领队','这是权威流程状态的一部分；若在事件阶段已失败，此步骤不会发生。');tick('结算日末角色能力','强制触发统一收集；死亡结果公开，真实能力来源隐藏。',{useKiller:true});}
+ if(built.phase==='loopEnd')tick('完成轮回结算',built.lost?'先保留失败终态，再进入轮回间隙。':'完整存活三天，检查轮回末条件后获得整局胜利；不要求已解开所有身份。');
+}
+append({type:'START'},'公开开局信息与私密剧本','权威状态装载完整剧本；双方获得不同初始化观察。公开名单限制初始候选域，剧本目录不构成信息。');
+day([['V','girl'],['I1','office'],['A1','doctor']],[['G2','office'],['G2','doctor'],['G2','maiden']]);
+tick('重置 → 第 2 轮','人物和牌恢复；第 1 轮观察及推论依旧有效。领队保留此前已经完成的轮换。');
+day([['V','girl'],['I2','office'],['A1','doctor']],[['FM','girl'],['G2','office'],['G2','boy']]);
+day([['A1','girl'],['I1','office'],['FG','boy']],[['G1','office'],['G1','maiden'],['G2','doctor']],{reveal:true});
+day([['A1','girl'],['H','idol'],['I1','office']],[['FI','office'],['G1','boy'],['G1','maiden']],{skip:true});
+tick('重置 → 第 3 轮','失败发生在事件阶段，因此未轮换领队。已知犯人和职员身份跨轮保留，密谋 +2 再次可用。');
+day([['V','girl'],['I2','office'],['A1','doctor']],[['FM','girl'],['G2','office'],['G2','boy']]);
+day([['A1','girl'],['I1','office'],['FG','boy']],[['Am','girl'],['G1','office'],['G2','maiden']]);
+day([['A1','girl'],['H','idol'],['I1','office']],[['FI','office'],['Am','girl'],['G1','boy']],{calm:true});
+return {initial,reduce,view,deductions,guides,title,phaseNames,cardsM,cardsP,locations,limited,factText,time,fmtTime};
+})();
+</script>
+<script>
+/* Disposable presentation. All mutations go through Demo.reduce. */
+const $=id=>document.getElementById(id),esc=x=>String(x).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let state=Demo.initial(),cursor=0,scenario='full',side='P',free=false,notice='';
+const focusRefusal=Demo.guides.findIndex(x=>x.label==='剧作家拒绝')+1;
+const focusIllegal=Demo.guides.findIndex(x=>x.label.startsWith('剧作家暗置'))+1;
+const baseFor=x=>x==='refusal'?focusRefusal-2:x==='illegal'?focusIllegal:0;
+function seek(n){cursor=n;state=n?Demo.guides[n-1].state:Demo.initial();free=false;notice='';render();}
+function dispatch(a){const before=state;const r=Demo.reduce(state,a);if(r.ok){state=r.state;free=true;notice='已进入自由分支。若要继续固定完整对局，请点击导览步骤或重新开始。';}else{notice=`输入未进入游戏历史：${r.error}。权威状态与双方历史均未改变。`;}render();}
+function options(list){return list.map(x=>`<option value="${esc(x)}">${esc(Demo.title(x))}</option>`).join('');}
+$('card').innerHTML=options([...new Set([...Demo.cardsM,...Demo.cardsP])]);$('target').innerHTML=options([...Object.keys(state.chars),...Demo.locations]);
+const statusText=s=>`第 ${s.loop} / 3 轮 · 第 ${s.day} / 3 天 · ${Demo.phaseNames[s.phase]}`;
+function rows(s,view=false){return Demo.locations.map(loc=>`<div class="location"><strong>${Demo.title(loc)}</strong> <span class="pill">密谋 ${s.boards[loc]}</span>${Object.entries(s.chars||s.characters).filter(([id,c])=>c.loc===loc).map(([id,c])=>`<div class="character"><span class="${c.alive?'':'dead'}"><strong>${Demo.title(id)}</strong></span> <small>${c.alive?'存活':'死亡'}</small><br><span>好感 ${c.goodwill} · 不安 ${c.paranoia}/${c.limit} · 密谋 ${c.intrigue}</span><br><small class="role">${view?(s.knownRoles[id]?`直接获知：${Demo.title(s.knownRoles[id])}`:'身份未正式公开'):Demo.title(s.script.roles[id])}</small></div>`).join('')}</div>`).join('');}
+function resourceTable(){return `<table><tr><th>牌组</th><th>当前可用牌</th><th>本轮已用限次牌</th></tr>${['M','P1','P2','P3'].filter(x=>side==='M'?x==='M':x!=='M').map(who=>`<tr><td>${Demo.title(who)}</td><td>${(who==='M'?Demo.cardsM:Demo.cardsP).filter(c=>!state.spent[who].includes(c)&&!state.placed.some(x=>x.actor===who&&x.card===c)).map(Demo.title).join('、')}</td><td>${state.spent[who].map(Demo.title).join('、')||'无'}</td></tr>`).join('')}</table>`;}
+function render(){
+ $('scenarioNote').textContent=scenario==='full'?'从初始化到第三轮胜利，共享同一条可重放的输入序列。建议先逐步走过第一轮，再用导览跳转关注点。':scenario==='refusal'?'已经重放到第二轮第 2 天的能力阶段。依次查看声明、拒绝、再次声明、接受；接受后可在自由区再声明，检查次数限制。':'已经重放到第一次剧作家暗置之后。试着给同一目标再放一张牌，或让主人公提前出牌：合法性校验应拒绝输入且不新增游戏观察。';
+ $('progress').textContent=free?'自由分支':`${cursor} / ${Demo.guides.length} 步`;
+ $('status').textContent=statusText(state)+(state.result?` · ${state.result==='P'?'主人公胜利':'剧作家胜利'}`:'');
+ $('pending').textContent=state.pending?'待剧作家回应能力':state.phase==='pCards'?'待领队顺序出牌':state.phase==='mmCards'?'待剧作家出牌':state.phase==='gameOver'?'无待处理选择':'流程进行中';
+ $('stepTitle').textContent=free?'本步：自由输入':cursor?`本步刚完成：${Demo.guides[cursor-1].label}`:'本步：等待初始化';
+ $('stepNote').textContent=state.last.note;
+ const prevHist=state.histories.P.slice(0,state.histories.P.length-state.last.observations.P.length),oldD=Demo.deductions(prevHist),newD=Demo.deductions(state.histories.P);
+ $('termDelta').textContent=`流程：${state.last.before?Demo.phaseNames[state.last.before.phase]+' → ':''}${Demo.phaseNames[state.phase]} ｜ 新观察：主人公 ${state.last.observations.P.length} 条 / 剧作家 ${state.last.observations.M.length} 条 ｜ 新示例推论：${Math.max(0,newD.length-oldD.length)} 条`;
+ $('delta').innerHTML='<strong>本步盘面差异：</strong>'+esc(state.last.delta.length?state.last.delta.join('；'):'没有位置、存活或计数物变化。观察、流程、资源或待回应选择仍可能改变。');
+ $('notice').textContent=notice;$('scrub').max=Demo.guides.length;$('scrub').value=cursor;$('prev').disabled=cursor===0;$('next').disabled=free||cursor===Demo.guides.length;$('end').disabled=free||cursor===Demo.guides.length;
+ $('board').innerHTML=rows(state);
+ $('authority').innerHTML=`<p>主规则：谋杀计划；副规则：开膛者的魔影。事件：第 3 天自杀 / 犯人女学生。</p><p>领队：${Demo.title(state.leader)}；本轮失败：${state.lost?'是':'否'}；已正式公开：${Object.entries(state.everRevealed).map(([k,v])=>`${Demo.title(k)} = ${Demo.title(v)}`).join('、')||'无'}。</p><p>本轮消耗：${Object.entries(state.spent).map(([k,v])=>`${Demo.title(k)} [${v.map(Demo.title).join('、')||'无'}]`).join('；')}</p><p>今日次数：${esc(JSON.stringify(state.used))}。挂起选择：${esc(JSON.stringify(state.pending))}。</p>`;
+ const v=Demo.view(state,side);$('viewExplanation').textContent=side==='P'?'主人公三人的已知信息完全共享。下方身份栏只列直接获知的身份；推理所得身份见推论区。':'剧作家知道完整剧本，但在翻牌前不知道主人公牌面，因此仍需独立视图。';
+ $('view').innerHTML=v.notInitialized?'<p>尚未收到初始化披露。</p>':`<div class="board">${rows(v,true)}</div><h3>当前暗置 / 待回收行动牌</h3>${v.placed.length?`<table><tr><th>出牌者</th><th>目标</th><th>获准看到的牌面</th></tr>${v.placed.map(c=>`<tr><td>${Demo.title(c.actor)}</td><td>${Demo.title(c.target)}</td><td>${c.face?Demo.title(c.face):'暗置 · 未知'}</td></tr>`).join('')}</table>`:'<p class="muted">当前没有桌面行动牌。</p>'}`;
+ $('hands').innerHTML=state.started?resourceTable():'尚未发牌。';
+ $('events').innerHTML=state.last.events.map(e=>`<div class="entry"><strong>${esc(e.id)} · ${esc(({InputAccepted:'输入已接收',CounterChanged:'计数物变化',Moved:'角色移动',DeathResolved:'死亡结算',LossConditionSatisfied:'失败条件成立',DailyUsesReset:'按日次数重置',HiddenAbilityResolved:'秘密身份能力结算',AbilitySettled:'好感能力回应结算',MovementBlocked:'移动被禁止',ForbiddenDestination:'目的地为禁止地区',ForbidIntrigueCount:'核对禁止密谋牌数量',TokenCardsBlocked:'计数物行动牌被禁止',IncidentEligibility:'检查事件触发条件',MandatoryTriggerCollected:'收集强制触发',BoardAndResourcesReset:'盘面与轮回资源复位'})[e.type]||e.type)}</strong><code>${esc(JSON.stringify(e.data))}</code></div>`).join('')||'<p class="muted">尚未开始。</p>';
+ const hist=state.histories[side],list=$('onlyNew').checked?state.last.observations[side]:hist;
+ $('historyCount').textContent=`${side==='P'?'主人公':'剧作家'} · 累积 ${hist.length} 条`;
+ $('observations').innerHTML=list.map(o=>`<div class="entry"><strong>${o.id}</strong> ${esc(Demo.factText(o.statement))}<br><small>获知 ${Demo.fmtTime(o.learnedAt)} · 调试步 #${o.learnedAt.revision}${o.refersTo.revision!==o.learnedAt.revision?` / 指向 #${o.refersTo.revision}`:''}${o.simultaneousGroup?' / 同时组 '+o.simultaneousGroup:''}</small>${$('showLogic').checked?`<code>${esc(JSON.stringify(o.statement))}</code>`:''}</div>`).join('')||'<p class="muted">本步没有给该观察者新增直接观察。</p>';
+ const ded=Demo.deductions(state.histories.P);$('knowledge').innerHTML=$('knowledgeOn').checked?`<div class="pill">计算状态：局部规则传播；完整性未完成</div>${ded.map(d=>`<div class="entry"><strong>${esc(d.scope)}</strong><p>${esc(d.text)}</p><small>证据：${d.evidence.join('、')} + 已知 FS 规则。${d.id.startsWith('spent-')&&Number(d.id.split('-')[1])!==state.loop?'此为过去轮回约束；当前已重置。':''}</small></div>`).join('')||'<p>等待初始化披露。</p>'}`:'<p class="muted">知识辅助层已隐藏；直接观察和权威游戏状态仍正常推进。</p>';
+ $('timeline').innerHTML=Demo.guides.map((g,i)=>`<button data-step="${i+1}" class="${i+1===cursor?'active':i+1<cursor?'done':''}">${String(i+1).padStart(3,'0')} · L${g.state.last.events[0].time.loop} D${g.state.last.events[0].time.day} · ${esc(g.label)}</button>`).join('');
+ $('raw').textContent=JSON.stringify({...state,last:undefined,histories:{P:`${state.histories.P.length} 条，见观察区`,M:`${state.histories.M.length} 条，见观察区`},events:`${state.events.length} 条，本步见结算区`},null,2);
+ document.querySelectorAll('[data-view]').forEach(b=>b.classList.toggle('active',b.dataset.view===side));document.querySelectorAll('[data-scenario]').forEach(b=>b.classList.toggle('active',b.dataset.scenario===scenario));
+}
+$('next').onclick=()=>seek(cursor+1);$('prev').onclick=()=>seek(cursor-1);$('end').onclick=()=>seek(Demo.guides.length);$('reset').onclick=()=>seek(baseFor(scenario));$('scrub').oninput=e=>seek(Number(e.target.value));
+$('timeline').onclick=e=>{const b=e.target.closest('[data-step]');if(b)seek(Number(b.dataset.step));};$('scenarios').onclick=e=>{const b=e.target.closest('[data-scenario]');if(b){scenario=b.dataset.scenario;seek(baseFor(scenario));}};
+document.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>{side=b.dataset.view;render();});for(const id of ['onlyNew','showLogic','knowledgeOn'])$(id).onchange=render;
+$('playCard').onclick=()=>dispatch({type:'PLAY',actor:$('actor').value,card:$('card').value,target:$('target').value,note:'自由分支：尝试一次暗置牌输入。'});
+$('advance').onclick=()=>dispatch(state.started?{type:'TICK',note:'自由分支：推进一个系统结算环节。',useKiller:true}:{type:'START'});
+$('closeAbility').onclick=()=>dispatch({type:'PASS',actor:state.phase==='mmAbility'?'M':state.leader});
+$('declareOffice').onclick=()=>dispatch({type:'DECLARE',actor:state.leader,character:'office',target:'office'});
+$('refuse').onclick=()=>dispatch({type:'RESPOND',actor:'M',refuse:true});$('accept').onclick=()=>dispatch({type:'RESPOND',actor:'M',refuse:false});
+$('boyHelp').onclick=()=>dispatch({type:'DECLARE',actor:state.leader,character:'boy',target:'girl'});
+render();
+</script></html>
