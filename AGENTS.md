@@ -40,7 +40,7 @@ GUI 控件使用稳定、唯一的 data-testid，同时保留可访问名称和�
 
 ## Git 与发布
 
-统一上游为私有 GitHub 仓库 `RicardoNid/tragedy_loop`，远程名 `origin`，默认分支 `main`。
+统一上游为公开 GitHub 仓库 `RicardoNid/tragedy_loop`，远程名 `origin`，默认分支 `main`。
 `ricardo` 和 `personal` 仅用于来源追踪；Issue、PR 和 merge 使用 GitHub CLI（`gh`），
 不使用 Forgejo connector。后续开发遵守 `CONTRIBUTING.md` 的 Issue → 分支 → PR → merge 流程。
 禁止直接推送 main 或强推共享分支。推送开发分支及创建 PR 按当前任务授权执行；部署须单独授权。

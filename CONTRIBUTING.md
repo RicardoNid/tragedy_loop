@@ -1,6 +1,6 @@
 # GitHub 开发流程
 
-统一上游：[RicardoNid/tragedy_loop](https://github.com/RicardoNid/tragedy_loop)（私有）。
+统一上游：[RicardoNid/tragedy_loop](https://github.com/RicardoNid/tragedy_loop)（公开）。
 默认分支为 `main`，远程名为 `origin`。`ricardo` 与 `personal` 只用于追溯原始来源。
 
 1. 先创建或领取 GitHub Issue，记录目标、范围、来源和可验证的验收条件。
@@ -19,7 +19,8 @@
 GitHub CLI 的默认仓库可通过 `gh repo set-default RicardoNid/tragedy_loop` 设置。
 本仓库使用 GitHub Issue/PR；Forgejo 专用接口与 exact-SHA API 不适用于此仓库。
 
-当前 GitHub 账户套餐不支持此私有仓库的分支保护（API 返回 403，要求 GitHub Pro 或公开仓库）。
-以上合并约束当前依靠协作规范执行，不能宣称已有服务端强制保护；保持仓库私有。
-以后具备支持条件时应启用 main 的 PR 必需和 CI 必需保护。
+仓库已公开，main 已启用服务端分支保护，管理员同样受约束：
+必须通过 PR 合并，GitHub Actions 的 `check` 检查必须通过，分支必须与最新 main 同步，
+所有审阅讨论必须解决；禁止强推和删除 main。
+目前不强制其他账号批准（required approvals 为 0），但仍须完成上述规范和验收条件审阅。
 部署不属于 PR 合并的隐含操作，历史 NAS/服务器部署脚本仍未经本仓库验证。
