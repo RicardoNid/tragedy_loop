@@ -8,6 +8,8 @@
     "test": "code/tests"
   },
   "scripts": {
+    "engine:test": "npm --prefix code/packages/engine test",
+    "engine:simulate": "npm --prefix code/packages/engine run simulate --",
     "app:serve": "uv run tragedy-loop",
     "app:test": "node --test code/web/core/rules.test.mjs",
     "server:capture": "uv run python code/tools/server_sync.py capture",

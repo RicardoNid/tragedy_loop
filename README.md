@@ -56,6 +56,8 @@
 
 ## 开发
 
+新规则引擎在独立 package [code/packages/engine](code/packages/engine/README.md) 中从零重写；目前提供声明式执行骨架、CLI 模拟与重放，尚未覆盖真实游戏规则。设计原则与后续范围通过 package 内的分层上下文维护。使用 `npm run engine:test` 验证，使用 `npm run engine:simulate -- --seed 42` 运行合成场景。现有 Web 原型仍使用旧核心。
+
 ```bash
 uv sync
 uv run tragedy-loop

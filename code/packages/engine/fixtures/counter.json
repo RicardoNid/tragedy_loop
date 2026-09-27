@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "synthetic.counter",
+  "actors": ["tester"],
+  "phases": {"turn": {"actor": "tester"}},
+  "initialPhase": "turn",
+  "counters": {"energy": {"min": 0, "max": 3, "initial": 3}},
+  "rules": [
+    {
+      "id": "spend", "phase": "turn", "actor": "tester",
+      "when": [{"op": "counter_gte", "counter": "energy", "value": 1}],
+      "effects": [{"op": "change_counter", "counter": "energy", "amount": -1}],
+      "outcome": {"goto": "turn"}
+    },
+    {
+      "id": "stop", "phase": "turn", "actor": "tester",
+      "when": [], "effects": [], "outcome": {"finish": "completed"}
+    }
+  ]
+}
