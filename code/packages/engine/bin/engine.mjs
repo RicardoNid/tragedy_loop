@@ -14,8 +14,9 @@ try {
   else {
     if (!["simulate", "replay"].includes(mode) || !path) throw new Error(help);
     const options = {};
+    const optionNames = new Map([["--seed", "seed"], ["--max-steps", "maxSteps"]]);
     for (let i = 0; i < args.length; i += 2) {
-      const key = { "--seed": "seed", "--max-steps": "maxSteps" }[args[i]];
+      const key = optionNames.get(args[i]);
       if (mode !== "simulate" || !key || Object.hasOwn(options, key) || !/^\d+$/.test(args[i + 1] ?? "")) throw new Error("invalid CLI options");
       options[key] = Number(args[i + 1]);
     }

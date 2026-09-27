@@ -148,6 +148,9 @@ test("CLI produces replayable JSON and nonzero exit codes for incomplete runs", 
   assert.equal(trace.result.kind, "finished");
   assert.equal(run("simulate", fixtureUrl.pathname, "--max-steps", "0").status, 1);
   assert.equal(run("simulate", fixtureUrl.pathname, "--seed", "-1").status, 2);
+  for (const unknown of ["toString", "constructor", "__proto__", "--unknown"]) {
+    assert.equal(run("simulate", fixtureUrl.pathname, unknown, "123").status, 2);
+  }
   const dir = mkdtempSync(join(tmpdir(), "tragedy-engine-"));
   try {
     const path = join(dir, "trace.json"); writeFileSync(path, completed.stdout);
