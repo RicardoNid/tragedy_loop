@@ -60,3 +60,26 @@ const playerView = restored.view('protagonistA');
 - [流程映射](docs/flow-implementation.md)、[裁定及信任边界](docs/rulings.md)、[内容与测试映射](docs/rule-index.md)、[公开日志](docs/public-announcement-plan.md)。
 
 v1 的 `start(sources)`、`beginLoopEnd`、`announcementsFor` 等接口不再适用。存档版本为 2；不承诺迁移旧模型存档。UI、网络服务器、数据库和模型玩家不属于本轮规则内核重构。
+
+## 本地 Web GUI
+
+基础 GUI 使用 TypeScript + Vite；Node 本地服务持有引擎，通过 HTTP 提供席位快照和选择提交。引擎依赖 `node:crypto`，因此不把引擎或原始存档打包到浏览器。无需 Qt 或模型密钥。
+
+```bash
+pnpm install --frozen-lockfile
+pnpm gui
+# 浏览器打开 http://127.0.0.1:5173
+```
+
+入口为 `apps/web/server.ts`（服务）和 `apps/web/main.ts`（界面）。支持 First Steps 剧本、四地点角色盘面、当前选择、席位切换、手牌、公开事件与日志、结局和重新开局。先选择初始队长，再按右侧提示提交选择；等待其他席位时点击“切换到当前行动席位”。
+
+这是单机共用屏幕的演示工具：任意操作人均可切换剧作家或主人公席位，不能当作保密多人对局。服务仅绑定本机 `127.0.0.1:5173`，所有标签页共享同一局。刷新页面保留服务中的进度，重启服务或重新开局会丢弃当前对局；尚未提供存档和联网认证。
+
+`pnpm gui:build` 验证前端构建，产物位于 `apps/web/dist/`；该静态产物需要配套 API，不能独立作为完整游戏运行。`pnpm check` 继续检查整个项目。
+
+## GUI 测试入口
+
+- **自动GUI测试**：`pnpm gui:test`，独立 Playwright 程序，无需 Agent；`pnpm gui:test:headed` 可观看执行，`pnpm gui:test:report` 查看录像、步骤和报告。
+- **陪同GUI测试**：人类操作，Agent 观察和整理反馈，人类决定验收。
+
+首次需 `pnpm exec playwright install chromium`。详细范围、隔离策略及证据位置见 [GUI 测试说明](docs/gui-testing.md)，控件 test ID 规范见仓库根 `AGENTS.md`。本地服务可通过 `GUI_PORT` 指定端口，默认 5173。
