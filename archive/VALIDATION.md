@@ -14,5 +14,5 @@
 | 停止旧演示 | 原本由本任务启动的 5273 服务已停止，端口监听检查为空 |
 | 协作规范 | 根 AGENTS.md 明确骨架状态、facts 独立所有权、archive 只读参考、配置检查的实际含义 |
 
-没有应用行为、GUI 或规则语义验收声明。本次不提交、推送或合并混合工作区。
+没有应用行为、GUI 或规则语义验收声明。本次在独立 worktree 构建 PR，不提交原工作区的 facts 并行改动。
 干净副本验证日志在本机 /tmp/tragedy-scaffold-clean.log；归档清单见 migration-map.json。

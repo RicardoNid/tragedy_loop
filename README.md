@@ -3,12 +3,11 @@
 当前交付的是**结构、配置和协作边界**。旧游戏、服务、资料页面、测试和生成工具均已移入
 `archive/`，不再作为活动实现运行。尚无可启动游戏应用；不提供 dev/start/build/test 假入口。
 
-`facts/` 是独立可运行的静态规则资料站，包含图片、正文和来源快照，随普通 Git 同步。
-克隆后从仓库根运行 `python3 -m http.server 5188 --bind 127.0.0.1`，
-打开 http://127.0.0.1:5188/facts/ 。无需 Git LFS、Wiki 登录或安装前端依赖。
-
 计划技术栈：React + Vite、Node.js + Fastify、TypeScript；Python + uv 用于未来辅助工具。
 JS/TS 的版本、workspace 依赖和锁定记录已经配置。Python 环境是非打包环境，暂不声明 CLI 或构建包。
+
+`facts/` 是独立静态规则资料站，图片、正文和来源快照随普通 Git 同步，无需 LFS 或 Wiki 登录。
+克隆后从仓库根运行 `python3 -m http.server 5188 --bind 127.0.0.1`，打开 http://127.0.0.1:5188/facts/ 。
 
 ## 目录
 
