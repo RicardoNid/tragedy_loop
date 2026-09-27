@@ -8,15 +8,18 @@
     "test": "code/tests"
   },
   "scripts": {
-    "app:serve": "uv run tragedy-loop",
+    "app:serve": "uv run --locked tragedy-loop --host 127.0.0.1 --port ${APP_PORT:-5173}",
     "app:test": "node --test code/web/core/rules.test.mjs",
-    "server:capture": "uv run python code/tools/server_sync.py capture",
-    "server:deploy": "uv run python code/tools/server_sync.py deploy",
-    "server:review-help": "uv run python code/tools/server_sync.py review-help",
     "slides:generate": "uv run python code/tools/build_review_slides.py",
     "slides:diagrams": "mmdc -i products/slides/assets/game-flow.mmd -o products/slides/assets/game-flow.png -b transparent && mmdc -i products/slides/assets/round-flow.mmd -o products/slides/assets/round-flow.png -b transparent",
     "slides:build": "npm run slides:generate && npm run slides:diagrams && mkdir -p products/public/slides/assets && cp products/slides/assets/*.png products/public/slides/assets/ && marp products/slides/beginner-teaching.marp.md --html --allow-local-files -o products/public/slides/beginner-teaching.html",
-    "slides:serve": "python3 -m http.server 4173 -d products/public"
+    "slides:serve": "python3 -m http.server 4173 -d products/public",
+    "setup": "bash scripts/bootstrap.sh",
+    "check": "bash scripts/check.sh",
+    "engine:serve": "GUI_PORT=${GUI_PORT:-5174} pnpm --dir integrations/lunhui/lunhui-engine gui",
+    "engine:check": "pnpm --dir integrations/lunhui/lunhui-engine check",
+    "engine:build": "pnpm --dir integrations/lunhui/lunhui-engine gui:build",
+    "engine:gui:test": "pnpm --dir integrations/lunhui/lunhui-engine gui:test"
   },
   "keywords": [],
   "author": "",
@@ -25,5 +28,10 @@
   "devDependencies": {
     "@marp-team/marp-cli": "^4.4.0",
     "@mermaid-js/mermaid-cli": "^11.15.0"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22.12 <23",
+    "npm": ">=9"
   }
 }
