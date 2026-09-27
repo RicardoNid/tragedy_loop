@@ -29,6 +29,9 @@ Python 3.12 + uv，Node 22.22.1，根目录 npm，Lunhui 使用 pnpm 11.25.0。
 不要提交虚拟环境、node_modules、运行日志、密钥或浏览器测试产物。
 修改依赖时同步更新相应锁文件，不混用 npm 与 pnpm 的安装目录。
 
+新规则引擎位于 `code/packages/engine/`，独立重写；开发前读取其 `AGENTS.md` 和分层契约。
+`code/web/core/` 仍是旧 Web 原型实现；`npm run engine:test` 验证独立引擎。
+
 ## 规则与测试
 
 两套规则内核目前并存，不能宣称已经行为统一。未知规则先记录来源、差异和待裁定项，

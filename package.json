@@ -19,7 +19,9 @@
     "engine:serve": "GUI_PORT=${GUI_PORT:-5174} pnpm --dir integrations/lunhui/lunhui-engine gui",
     "engine:check": "pnpm --dir integrations/lunhui/lunhui-engine check",
     "engine:build": "pnpm --dir integrations/lunhui/lunhui-engine gui:build",
-    "engine:gui:test": "pnpm --dir integrations/lunhui/lunhui-engine gui:test"
+    "engine:gui:test": "pnpm --dir integrations/lunhui/lunhui-engine gui:test",
+    "engine:test": "npm --prefix code/packages/engine test",
+    "engine:simulate": "npm --prefix code/packages/engine run simulate --"
   },
   "keywords": [],
   "author": "",
