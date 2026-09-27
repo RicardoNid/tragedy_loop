@@ -28,6 +28,8 @@ JS/TS 只使用根 pnpm workspace 和 pnpm-lock.yaml；Python 只使用根 pypro
 
 ## 后续开发
 
+方案文件总是以 HTML 格式交付。
+
 保持 UI、服务、规则与公开契约分离；需要复用归档内容时显式选择、审阅并验证，不自动恢复旧应用。
 有代码后运行匹配的检查；GUI 自动检查与人工验收分别记录，未经确认标记“待人类验收”。
 GitHub 工作流见 CONTRIBUTING.md。保留其他任务的未提交内容，尤其不要暂存或提交 facts 的并行改动。

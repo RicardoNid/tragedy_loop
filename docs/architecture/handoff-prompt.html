@@ -1,0 +1,173 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>解空间与算法 · 交接 Prompt · 惨剧轮回</title><style>
+:root{--paper:#faf8f3;--ink:#25342f;--muted:#617068;--accent:#17664f;--line:#dbe2d9;--card:#fff;--gold:#996526}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:26px}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.85 system-ui,-apple-system,"Noto Sans CJK SC","Microsoft YaHei",sans-serif}a{color:var(--accent);text-underline-offset:4px}a:hover{color:#103f33}button,a:focus-visible{outline-offset:5px}button{font:inherit;cursor:pointer;border:1px solid var(--accent);border-radius:8px;padding:9px 17px;background:var(--accent);color:white}button.secondary{background:transparent;color:var(--accent)}.shell{max-width:1480px;margin:auto;display:grid;grid-template-columns:260px minmax(0,1fr);gap:64px;padding:44px 52px}.sidebar{position:sticky;top:32px;align-self:start;max-height:calc(100vh - 64px);overflow:auto}.brand{letter-spacing:.16em;font-size:12px;font-weight:750;color:var(--accent)}.sidebar strong{display:block;font-size:20px;margin:9px 0 28px}.nav-label{font-size:12px;color:var(--muted);margin:24px 0 8px}.sidebar a{display:block;font-size:14px;line-height:1.6;padding:7px 0;text-decoration:none;color:var(--muted)}.sidebar a:hover{color:var(--accent)}main{min-width:0;max-width:960px}.eyebrow{color:var(--accent);font-size:12px;font-weight:750;letter-spacing:.12em}h1{font-size:clamp(29px,3.5vw,44px);line-height:1.35;letter-spacing:-.025em;margin:14px 0 18px}header .intro{font-size:18px;color:var(--muted);max-width:740px}.pills{display:flex;flex-wrap:wrap;gap:8px;margin:24px 0}.pill{font-size:12px;padding:4px 11px;border:1px solid var(--line);border-radius:100px;background:#fff}.pill.confirmed{background:#e6f0e9;color:var(--accent);border-color:#c7ded0}.actions{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin:22px 0}.actions a{text-decoration:none;border-bottom:1px solid var(--accent)}.overview{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:34px 0 42px}.card{background:white;border:1px solid var(--line);border-radius:12px;padding:20px}.card span{font-size:12px;letter-spacing:.08em;color:var(--accent)}.card strong{display:block;font-size:18px;margin:8px 0}.card p{color:var(--muted);font-size:14px;margin:0}.rule{border-left:4px solid var(--accent);padding:16px 22px;background:#edf3ec;border-radius:0 10px 10px 0;margin:26px 0}.rule strong{color:var(--accent)}.rule p{margin:5px 0 0}article h2{font-size:25px;line-height:1.45;border-top:1px solid var(--line);padding-top:36px;margin:50px 0 22px}article h3{font-size:19px;margin:30px 0 12px}article p{margin:14px 0}article li{padding-left:3px;margin:7px 0}article ul,article ol{padding-left:25px}article code{background:#eaf0e9;border-radius:4px;padding:2px 5px;font-size:.88em;overflow-wrap:anywhere}article pre{background:#233930;color:#edf6ed;padding:22px;border-radius:10px;white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.65}article pre code{padding:0;background:none;color:inherit}article a{overflow-wrap:anywhere}.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:10px;margin:24px 0;background:white}table{border-collapse:collapse;width:100%;font-size:14px;line-height:1.7;min-width:570px}th,td{padding:15px 17px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}th{background:#edf2eb;color:var(--accent);font-weight:650}tr:last-child td{border-bottom:0}td:first-child{font-weight:600}footer{border-top:1px solid var(--line);margin-top:54px;padding:24px 0;color:var(--muted);font-size:13px}.copy-source{position:fixed;left:-10000px;top:0}#copy-status{font-size:13px;color:var(--accent)}.skip{position:absolute;left:-10000px}.skip:focus{left:20px;top:10px;background:white;z-index:2}.mobile-nav{display:none}
+@media(max-width:1050px){.shell{gap:30px;padding:32px 28px;grid-template-columns:215px minmax(0,1fr)}.overview{grid-template-columns:1fr}.card{padding:16px}.card strong{display:inline;margin:0 12px}.card p{margin-top:8px}}
+@media(max-width:760px){.shell{display:block;padding:26px 20px}.sidebar{position:static;max-height:none;margin-bottom:30px}.sidebar nav{display:none}.sidebar strong{margin-bottom:12px}.sidebar .nav-label{display:none}.sidebar>.quicklinks{display:flex;gap:20px}.overview{gap:9px;margin:24px 0}.mobile-nav{display:block;margin:20px 0;padding:12px 16px;border:1px solid var(--line);border-radius:8px}.mobile-nav a{display:block;padding:5px 0;font-size:14px}article h2{font-size:23px;margin-top:38px}.intro{font-size:16px!important}}
+@media print{body{background:white;font-size:11pt}.shell{display:block;padding:0}.sidebar,.actions,.mobile-nav,.skip{display:none}main{max-width:none}header{break-after:avoid}.overview{display:none}article h2{break-after:avoid;margin-top:24px;padding-top:18px}pre,.rule{break-inside:avoid}table{min-width:0;font-size:9pt}th,td{padding:8px}.table-wrap{overflow:visible}a{color:inherit}footer{font-size:9pt}}
+
+.sidebar .current{color:var(--accent);font-weight:700}article blockquote{border-left:3px solid var(--accent);margin:22px 0;padding:4px 20px;color:var(--muted)}.final-note{background:#edf3ec;border:1px solid #ccdfcf;padding:18px 22px;border-radius:12px}.final-note p{margin:6px 0}article h4{font-size:17px}.sidebar strong{margin-bottom:18px}article td:first-child{min-width:110px}.source-note{font-size:13px;color:var(--muted)}</style></head><body><a class="skip" href="#content">跳转到正文</a><div class="shell"><aside class="sidebar"><div class="brand">TRAGEDY LOOP</div><strong>设计阅读室</strong><div class="quicklinks"><a href="framework.html" class="">完整方案 ↗</a><a href="glossary.html" class="">已确认术语 ↗</a><a href="handoff-prompt.html" class="current">算法交接 ↗</a></div><a href="../../packages/engine/prototypes/fs-first-script.prototype.html">FS 完整对局原型 ↗</a><div class="nav-label">本页目录</div><nav aria-label="本页目录"><a href="#section-1">1. 先读权威交付</a><a href="#section-2">2. 工作目标</a><a href="#section-3">3. 设计与实验任务</a><a href="#section-4">4. 输出要求与工程边界</a><a href="#section-5">5. Suggested skills</a></nav></aside><main id="content"><header><div class="eyebrow">DESIGN / 03 · 三轮问询已结束</div><h1>解空间与算法 · 交接 Prompt</h1><p class="intro">供独立会话继续设计并验证：从全部合法剧本构造候选，结合传播与历史兼容性检查，明确精确完成的条件。</p><div class="pills"><span class="pill confirmed">领域决策已确认</span><span class="pill">十周年规则</span><span class="pill">工程实现待验证</span></div><div class="actions"><button type="button" id="print" class="secondary">打印 / 保存 PDF</button><button type="button" id="copy-prompt">复制完整交接 Prompt</button><span id="copy-status" role="status" aria-live="polite"></span></div></header><details class="mobile-nav"><summary>展开本页目录</summary><a href="#section-1">1. 先读权威交付</a><a href="#section-2">2. 工作目标</a><a href="#section-3">3. 设计与实验任务</a><a href="#section-4">4. 输出要求与工程边界</a><a href="#section-5">5. Suggested skills</a></details><article><p>请作为独立设计会话，基于已经完成三轮设计问询的方案，研究惨剧轮回解空间的表示、删减与验证算法。交付是 HTML 设计文档及必要的小规模可复现实验；不是完整游戏、GUI 或最优策略搜索。</p>
+<h2 id="section-1">1. 先读权威交付</h2>
+<ul>
+<li>完整方案：<code>docs/architecture/framework.html</code></li>
+<li>当前领域术语：<code>CONTEXT.md</code></li>
+<li>术语阅读版：<code>docs/architecture/glossary.html</code></li>
+<li>工作区：<code>仓库根目录（当前 checkout）</code></li>
+</ul>
+<p>方案第 1 节记录已确认决策，第 5—9 节定义观察、历史、候选范围及实验模式，第 11 节给出接口和验收性质，第 12 节列出项目及规则资料。</p>
+<p>问询已经结束，当前方案取代原始问询中的历史提案。不要重复整份状态机方案或重新启动第四轮基础术语问询。技术问题先查资料、用可逆原型验证，再给出有依据的建议；若发现已确认边界间存在真正矛盾，应报告最小反例，不能默默改写前提。</p>
+<p>先验证上述文件可读；若临时文件已清理或不在同一主机，说明缺失的确切路径，请求补充材料，不能假称读过。使用项目当前 AGENTS.md 与 CONTRIBUTING.md，不因历史归档猜测规则或开发流程。</p>
+<h2 id="section-2">2. 工作目标</h2>
+<p>设计一个在公开规则与阵营观察历史下，保留剧本和动态隐藏状态关联的知识模块。它必须同时支持规则传播和完整历史兼容性检查，并给出可解释的可能、不可能、尚未判定及矛盾状态。</p>
+<p>尤其遵守主方案第 7 节：合法剧本是按规则和剧本公开信息构造的，不是从剧本目录筛选的。项目是否收录某剧本不是推理信息，也不能成为未公布的概率先验。明确的公开角色全集为 8 人时，9 人剧本被排除；仅观察到某时刻版图上有 8 人，不自动等价于这个全集声明。</p>
+<p>主人公阵营完全共享视野是正式游玩设定，不能退回个人隔离知识模型，也不能因此提前向剧作家披露主人公暗牌。十周年拒绝次数语义已由设计者确认，按主方案落实，不恢复旧版处理。</p>
+<h2 id="section-3">3. 设计与实验任务</h2>
+<h3>A. 知识表示与信息点传播</h3>
+<p>在已确认有限逻辑语言上，设计变量、候选域、联合约束、时间作用域、证据与推论依赖。说明哪些是权威输入，哪些是可重建缓存，哪些只是 GUI 查询投影。</p>
+<p>给出传播规则声明形式、工作队列、去重、全局数量／互斥交互和固定点伪代码。规则传播应健全；不能将固定点当作完整逻辑闭包，也不能把推论写回直接观察历史。</p>
+<p>比较不同来源的命题如何被引用；玩家假设不能混入真实知识约束。解释矛盾如何被发现和定位，避免无解知识库推出任意结论。</p>
+<h3>B. 全部合法剧本与完整历史兼容性</h3>
+<p>形式化初始合法构造约束、公开设定约束、已知动作、秘密选择及观察投影。给出如何从规则表达全部合法候选的路线，不以剧本目录作为枚举器的全集。</p>
+<p>提供增量伪代码：读取新增观察、扩展历史前缀、保留所有相关秘密分支、处理跨轮回状态与延迟披露，将求解出的必然命题回灌传播队列。</p>
+<p>候选存在性必须由一段连贯合法历史支持。一个剧本的一条路径失败并不足以排除剧本；真实秘密动作不能代替未知变量。只比较当前盘面、按每条观察独立拼接不一致历史均不合格。</p>
+<p>说明如何复用规则语义或验证约束编码与真实引擎一致，避免两套规则无约束漂移。提出候选见证的具体重放校验方式。</p>
+<h3>C. 加速路线比较</h3>
+<p>至少比较：规则传播加显式搜索／记忆化的基线；增量 CSP／SAT／SMT 或符号执行；一种分类、对称性、观察相关切片或抽象细化方法。BDD 可作为候选，但不为覆盖名词实现所有方法。</p>
+<p>每个方法说明适用规模、成本、最坏情况、精确性、可解释性和工程复杂度。特别证明何时可以只运行某类的代表，区分当前查询等价与未来行为等价；合并时保留剧本和运行状态的关联。</p>
+<p>推荐一个可验证的起点与备选路线。技术依据使用官方文档、原始论文或工具作者材料。可以参考主方案中引用的 Programming Z3，但不预先锁定它。</p>
+<h3>D. 预算、查询与理想实验完成契约</h3>
+<p>设计低成本传播、符号查询和显式枚举的调度。候选数量未知时考虑截断枚举、变量域与分支估计，不为决定是否枚举先做昂贵精确计数。阈值由基准测量确定，不虚构常数。</p>
+<p>按主方案第 9 节给出实验前可固定的查询集合与完成契约，涵盖身份、规则、事件当事人、秘密牌资源及必要联合关系。说明有限查询目标的精确完成与保存完整联合约束之间的关系，不把所有单变量候选表误称为全部联合逻辑后果。</p>
+<p>普通模式异步更新；理想实验在决策点等待登记目标精确完成。预算用尽、未知规则、证据矛盾等需要不同状态；未知不等于不可能，切换普通模式也不能保留理想样本标签。</p>
+<h3>E. 正确性案例与基准</h3>
+<p>至少覆盖以下场景，来源与假设须清楚标注：</p>
+<ul>
+<li>未收录但合法且符合公开设定的剧本必须保留；改变目录内容不改变推理结果。</li>
+<li>明确 8 人角色全集与仅当前在场 8 人产生不同约束；候选服从前者的完整人数限制。</li>
+<li>主人公成员共享已确认暗牌，剧作家未到揭示时点仍不知道牌面。</li>
+<li>接受／可选拒绝／强制拒绝，十周年拒绝不消耗次数，且不错误阻断后续合法发动。</li>
+<li>唯一密谋 +2 已知消耗后收窄暗牌；只有服务器知道时，主人公候选不应被额外删减。</li>
+<li>确定一个身份后，通过全局人数约束进一步收窄其他角色。</li>
+<li>同一剧本一条隐藏路径失败、另一条仍相容；相同当前盘面但历史信息不同；相同当前视图但未来行为不同。</li>
+<li>析取观察不被拆成多个独立成立的事实；自然语言不增加秘密原因。</li>
+<li>获知时点与命题有效时点不同；同时结算；窗口关闭后的缺席推理；事件发生但无现象；轮回结束披露与跨轮回知识。</li>
+<li>求解超时、未知规则和矛盾不被标为精确完成，理想实验门槛不被提前放行。</li>
+</ul>
+<p>用小规模完整枚举作为参照，但初始集合仍从明确规则生成。与候选算法差分比较可行剧本、隐藏状态和目标命题；辅以独立手工例子，不能只让两个共享同一错误的实现互相验证。</p>
+<p>基准报告变量规模、初始构造条件、隐藏分支、历史长度、耗时、内存、完成率和精确性；目录大小不代表初始解空间大小，单变量候选数也不代表联合解数。</p>
+<h2 id="section-4">4. 输出要求与工程边界</h2>
+<p>输出一份 HTML 算法设计文档：数据模型、伪代码、方案比较、推荐路线、预算实验、完成契约、验收判据和接口需求。保存到临时目录并返回绝对路径；交付引用本方案，避免重复抄写已确认设计。</p>
+<p>必要时可在临时目录做小原型，附源码、命令、输入参数和原始结果。没有运行则明确标为设计，不能声称性能达标。最终报告区分已确认领域决定、实测证据与可修订的工程建议。</p>
+<p>本阶段不修改仓库文件，不创建 Issue／PR，不推送或部署；facts/ 只读，不恢复 archive/ 的旧引擎。需要将成果正式纳入工程时，报告可独立实施的后续工作。对尚待校对的内容规则显式标记支持边界，不自行编造。</p>
+<p>主状态机方案与本算法任务均不包含对手必然最优的假设，不保证唯一剧本，也不把“理想推理”扩大为全知或完整最优行动策略。GUI 开关作为后续接口需求保留。</p>
+<h2 id="section-5">5. Suggested skills</h2>
+<p>在环境支持时通过 Skill 工具调用；没有该工具时，按技能系统读取对应 SKILL.md：</p>
+<ul>
+<li><code>mattpocock-skills:codebase-design</code>：设计知识模块与规则、视图模块之间的小接口。</li>
+<li><code>mattpocock-skills:research</code>：查证求解与抽象技术；本任务明确要求成果以 HTML 保存到临时目录。</li>
+<li><code>mattpocock-skills:prototype</code>：需要小规模实验来回答选型问题时使用，遵守不修改活动仓库的边界。</li>
+</ul>
+<p>不自动新建其他会话或代理。最终交付应让工程能选择并验证算法路线，而不是再次得到一份泛泛的“可以使用求解器”。</p>
+</article><textarea id="prompt-source" class="copy-source" aria-label="完整交接 Prompt" tabindex="-1"># 交接 Prompt · 惨剧轮回解空间与算法设计
+
+请作为独立设计会话，基于已经完成三轮设计问询的方案，研究惨剧轮回解空间的表示、删减与验证算法。交付是 HTML 设计文档及必要的小规模可复现实验；不是完整游戏、GUI 或最优策略搜索。
+
+## 1. 先读权威交付
+
+- 完整方案：`docs/architecture/framework.html`
+- 当前领域术语：`CONTEXT.md`
+- 术语阅读版：`docs/architecture/glossary.html`
+- 工作区：`仓库根目录（当前 checkout）`
+
+方案第 1 节记录已确认决策，第 5—9 节定义观察、历史、候选范围及实验模式，第 11 节给出接口和验收性质，第 12 节列出项目及规则资料。
+
+问询已经结束，当前方案取代原始问询中的历史提案。不要重复整份状态机方案或重新启动第四轮基础术语问询。技术问题先查资料、用可逆原型验证，再给出有依据的建议；若发现已确认边界间存在真正矛盾，应报告最小反例，不能默默改写前提。
+
+先验证上述文件可读；若临时文件已清理或不在同一主机，说明缺失的确切路径，请求补充材料，不能假称读过。使用项目当前 AGENTS.md 与 CONTRIBUTING.md，不因历史归档猜测规则或开发流程。
+
+## 2. 工作目标
+
+设计一个在公开规则与阵营观察历史下，保留剧本和动态隐藏状态关联的知识模块。它必须同时支持规则传播和完整历史兼容性检查，并给出可解释的可能、不可能、尚未判定及矛盾状态。
+
+尤其遵守主方案第 7 节：合法剧本是按规则和剧本公开信息构造的，不是从剧本目录筛选的。项目是否收录某剧本不是推理信息，也不能成为未公布的概率先验。明确的公开角色全集为 8 人时，9 人剧本被排除；仅观察到某时刻版图上有 8 人，不自动等价于这个全集声明。
+
+主人公阵营完全共享视野是正式游玩设定，不能退回个人隔离知识模型，也不能因此提前向剧作家披露主人公暗牌。十周年拒绝次数语义已由设计者确认，按主方案落实，不恢复旧版处理。
+
+## 3. 设计与实验任务
+
+### A. 知识表示与信息点传播
+
+在已确认有限逻辑语言上，设计变量、候选域、联合约束、时间作用域、证据与推论依赖。说明哪些是权威输入，哪些是可重建缓存，哪些只是 GUI 查询投影。
+
+给出传播规则声明形式、工作队列、去重、全局数量／互斥交互和固定点伪代码。规则传播应健全；不能将固定点当作完整逻辑闭包，也不能把推论写回直接观察历史。
+
+比较不同来源的命题如何被引用；玩家假设不能混入真实知识约束。解释矛盾如何被发现和定位，避免无解知识库推出任意结论。
+
+### B. 全部合法剧本与完整历史兼容性
+
+形式化初始合法构造约束、公开设定约束、已知动作、秘密选择及观察投影。给出如何从规则表达全部合法候选的路线，不以剧本目录作为枚举器的全集。
+
+提供增量伪代码：读取新增观察、扩展历史前缀、保留所有相关秘密分支、处理跨轮回状态与延迟披露，将求解出的必然命题回灌传播队列。
+
+候选存在性必须由一段连贯合法历史支持。一个剧本的一条路径失败并不足以排除剧本；真实秘密动作不能代替未知变量。只比较当前盘面、按每条观察独立拼接不一致历史均不合格。
+
+说明如何复用规则语义或验证约束编码与真实引擎一致，避免两套规则无约束漂移。提出候选见证的具体重放校验方式。
+
+### C. 加速路线比较
+
+至少比较：规则传播加显式搜索／记忆化的基线；增量 CSP／SAT／SMT 或符号执行；一种分类、对称性、观察相关切片或抽象细化方法。BDD 可作为候选，但不为覆盖名词实现所有方法。
+
+每个方法说明适用规模、成本、最坏情况、精确性、可解释性和工程复杂度。特别证明何时可以只运行某类的代表，区分当前查询等价与未来行为等价；合并时保留剧本和运行状态的关联。
+
+推荐一个可验证的起点与备选路线。技术依据使用官方文档、原始论文或工具作者材料。可以参考主方案中引用的 Programming Z3，但不预先锁定它。
+
+### D. 预算、查询与理想实验完成契约
+
+设计低成本传播、符号查询和显式枚举的调度。候选数量未知时考虑截断枚举、变量域与分支估计，不为决定是否枚举先做昂贵精确计数。阈值由基准测量确定，不虚构常数。
+
+按主方案第 9 节给出实验前可固定的查询集合与完成契约，涵盖身份、规则、事件当事人、秘密牌资源及必要联合关系。说明有限查询目标的精确完成与保存完整联合约束之间的关系，不把所有单变量候选表误称为全部联合逻辑后果。
+
+普通模式异步更新；理想实验在决策点等待登记目标精确完成。预算用尽、未知规则、证据矛盾等需要不同状态；未知不等于不可能，切换普通模式也不能保留理想样本标签。
+
+### E. 正确性案例与基准
+
+至少覆盖以下场景，来源与假设须清楚标注：
+
+- 未收录但合法且符合公开设定的剧本必须保留；改变目录内容不改变推理结果。
+- 明确 8 人角色全集与仅当前在场 8 人产生不同约束；候选服从前者的完整人数限制。
+- 主人公成员共享已确认暗牌，剧作家未到揭示时点仍不知道牌面。
+- 接受／可选拒绝／强制拒绝，十周年拒绝不消耗次数，且不错误阻断后续合法发动。
+- 唯一密谋 +2 已知消耗后收窄暗牌；只有服务器知道时，主人公候选不应被额外删减。
+- 确定一个身份后，通过全局人数约束进一步收窄其他角色。
+- 同一剧本一条隐藏路径失败、另一条仍相容；相同当前盘面但历史信息不同；相同当前视图但未来行为不同。
+- 析取观察不被拆成多个独立成立的事实；自然语言不增加秘密原因。
+- 获知时点与命题有效时点不同；同时结算；窗口关闭后的缺席推理；事件发生但无现象；轮回结束披露与跨轮回知识。
+- 求解超时、未知规则和矛盾不被标为精确完成，理想实验门槛不被提前放行。
+
+用小规模完整枚举作为参照，但初始集合仍从明确规则生成。与候选算法差分比较可行剧本、隐藏状态和目标命题；辅以独立手工例子，不能只让两个共享同一错误的实现互相验证。
+
+基准报告变量规模、初始构造条件、隐藏分支、历史长度、耗时、内存、完成率和精确性；目录大小不代表初始解空间大小，单变量候选数也不代表联合解数。
+
+## 4. 输出要求与工程边界
+
+输出一份 HTML 算法设计文档：数据模型、伪代码、方案比较、推荐路线、预算实验、完成契约、验收判据和接口需求。保存到临时目录并返回绝对路径；交付引用本方案，避免重复抄写已确认设计。
+
+必要时可在临时目录做小原型，附源码、命令、输入参数和原始结果。没有运行则明确标为设计，不能声称性能达标。最终报告区分已确认领域决定、实测证据与可修订的工程建议。
+
+本阶段不修改仓库文件，不创建 Issue／PR，不推送或部署；facts/ 只读，不恢复 archive/ 的旧引擎。需要将成果正式纳入工程时，报告可独立实施的后续工作。对尚待校对的内容规则显式标记支持边界，不自行编造。
+
+主状态机方案与本算法任务均不包含对手必然最优的假设，不保证唯一剧本，也不把“理想推理”扩大为全知或完整最优行动策略。GUI 开关作为后续接口需求保留。
+
+## 5. Suggested skills
+
+在环境支持时通过 Skill 工具调用；没有该工具时，按技能系统读取对应 SKILL.md：
+
+- `mattpocock-skills:codebase-design`：设计知识模块与规则、视图模块之间的小接口。
+- `mattpocock-skills:research`：查证求解与抽象技术；本任务明确要求成果以 HTML 保存到临时目录。
+- `mattpocock-skills:prototype`：需要小规模实验来回答选型问题时使用，遵守不修改活动仓库的边界。
+
+不自动新建其他会话或代理。最终交付应让工程能选择并验证算法路线，而不是再次得到一份泛泛的“可以使用求解器”。
+</textarea><footer>惨剧轮回 · 核心状态机设计交付。方案、术语与算法交接已同步；本轮不再追加设计问询。<br>规则内容与实现效果仍按工程验收独立验证。</footer></main></div><script>
+document.getElementById('print').addEventListener('click',()=>window.print());
+const copy=document.getElementById('copy-prompt');
+if(copy)copy.addEventListener('click',async()=>{const source=document.getElementById('prompt-source');const status=document.getElementById('copy-status');try{await navigator.clipboard.writeText(source.value);status.textContent='已复制完整交接 Prompt';}catch(error){source.style.position='static';source.style.width='100%';source.style.minHeight='320px';source.focus();source.select();status.textContent='请按 Ctrl+C 或 Command+C 复制下方已选中的内容';}});
+</script></body></html>

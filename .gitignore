@@ -38,3 +38,19 @@ runtime/
 .sources/
 .local-imports/
 *$py.class
+
+# Local caches, logs and scratch files (keep source HTML and lockfiles tracked)
+.pnpm-store/
+.vite/
+.cache/
+/tmp/
+/logs/
+*.log
+.coverage
+.coverage.*
+htmlcov/
+.hypothesis/
+*.swp
+*.swo
+*~
+Thumbs.db
