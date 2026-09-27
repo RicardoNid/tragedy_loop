@@ -1,0 +1,114 @@
+{
+  "personal": {
+    "source": "/home/ltr/personal/tragedy-Loop",
+    "upstream": "git@github.com:MrLloyd/tragedy-Loop.git",
+    "commit": "475658063e7df4fca150a453fd4281222b48eab4",
+    "destination": "integrations/lunhui"
+  },
+  "ricardo": {
+    "source": "https://github.com/RicardoNid/tragedy_loop.git",
+    "commit": "e10bae12efa422e9b683fca149c79e85ce6e1d58",
+    "destination": "."
+  },
+  "local_untracked": {
+    "destination": ".local-imports/personal",
+    "files": [
+      {
+        "path": "index.html",
+        "sha256": "c27390b3f368bb240aa0e868fcf0c78bbfc05fff0af288278ef2ba1cb4840c5f"
+      },
+      {
+        "path": "local-docs/README.md",
+        "sha256": "007197ee2c1b0dd8caf96e934d7bce640cc1eeaf4486ace8b568ec39b7e16a27"
+      },
+      {
+        "path": "local-docs/assets/app.js",
+        "sha256": "5b36ff2981f4a1df967a37f66fa18b022d20a3897d2d6b13aea8d9b7e19bd971"
+      },
+      {
+        "path": "local-docs/assets/mermaid.LICENSE",
+        "sha256": "ec9fb67dcb25eccc416ed56e1aab819222c805a2a4bfe4cb19e7556bf2ffde80"
+      },
+      {
+        "path": "local-docs/assets/mermaid.min.js",
+        "sha256": "5a8ec91820bd55afef049068489369910e5d6ce70c8103952f27e29d3e76e8bc"
+      },
+      {
+        "path": "local-docs/assets/style.css",
+        "sha256": "ab7dae42cc5e7388051c87d05ddaaf683cd050ef04392223378b305e83859362"
+      },
+      {
+        "path": "local-docs/index-preview.png",
+        "sha256": "08539629835ba4b866e02aca2eb8dbcb93dd56c91b25a8c8a940d8df83da022e"
+      },
+      {
+        "path": "local-docs/index.html",
+        "sha256": "c0e59267658f9625b61e602aaf7663aa52272268aabd9a5419f6a2290a69b825"
+      },
+      {
+        "path": "local-docs/manifest.json",
+        "sha256": "580251e2ce5b2fc18dd88c300d84fefcbbf7a1e0df25270b42255b1ba2645125"
+      },
+      {
+        "path": "local-docs/official-source-review-2026-09-27.md",
+        "sha256": "a153e47be17fe335f69af8826dfbe6da3226c2eee60cb824d0099a70d92bd1db"
+      },
+      {
+        "path": "local-docs/pages/tragedy_loop_appendix-3--1-.html",
+        "sha256": "d2fb9812854b42aa16456c2697c58e33f3951335e11a6b0dd567451eda51171d"
+      },
+      {
+        "path": "local-docs/pages/tragedy_loop_appendix_module_audit-1--2-.html",
+        "sha256": "6fb9cdd02217628d4539f684c9f7fd9ff00d6b034b3daf127a293e020f8c48c4"
+      },
+      {
+        "path": "local-docs/pages/tragedy_loop_development-2--1-.html",
+        "sha256": "62ab024e80735d6e10ff800a6825cf0dd1fa293ce900b9686f16032fd55e8728"
+      },
+      {
+        "path": "local-docs/pages/tragedy_loop_game_rules-3--1-.html",
+        "sha256": "91499e62b4f2c79e5c0ab8d8bfca1b91662e3c44a76f5a73e6e30055af3d32f1"
+      },
+      {
+        "path": "local-docs/pages/事件阶段逻辑样例.html",
+        "sha256": "d247b94bc4165ad86a6774973e710d3e22eb2a2d4e9312a65484077e7ce290fc"
+      },
+      {
+        "path": "local-docs/pages/全阶段逻辑样例.html",
+        "sha256": "730aee83d2a9def66876a2216969a6bc0afb9d9ab1b438e3326c37a4215f1c81"
+      },
+      {
+        "path": "local-docs/pages/在线FAQ流程复核-2026-09-22-.html",
+        "sha256": "19a70bb85b08b9399519433617766f9feb811d6db91e0ba4ccefcb000b41820c"
+      },
+      {
+        "path": "local-docs/pages/开发框架-01-工具选型.html",
+        "sha256": "9c21dfa37c389438d13cbc45c2c798941a4e958e1e02a5e986c4cb9b698485b9"
+      },
+      {
+        "path": "local-docs/pages/开发框架-02-规则引擎模板.html",
+        "sha256": "65a3a2b834b5c6b7c5b2fd305203902e5bd29900120c8e7805f1ba38e4b44437"
+      },
+      {
+        "path": "local-docs/pages/开发框架-03-开发流程.html",
+        "sha256": "591c4f4e065012626608d0f102add31ec9393cfe1a7f7d4f92f39d01d77da7c9"
+      },
+      {
+        "path": "local-docs/pages/步骤结算流程-独立稿-.html",
+        "sha256": "67e52360df9bec90683ceabfcdc50181cd17f5fdc5a5a438f7665a2ac737f990"
+      },
+      {
+        "path": "local-docs/pages/轮回术语修改计划-1-.html",
+        "sha256": "1d5c25e9052fcd1dd34ff646521cc98a13df6281e585d7f464bf24f6f6ef104e"
+      },
+      {
+        "path": "local-docs/tooling/build.py",
+        "sha256": "1a9f318696fcf29dd32068d57ab341598923f6c2ad4b85ad9fcc15dc8807c3a1"
+      },
+      {
+        "path": "规则完整性分析-2026-09-27.md",
+        "sha256": "37f83fb14a380a68d84791717688b16a920379a7c9a6aa28c3fdc11bdaf4fca2"
+      }
+    ]
+  }
+}

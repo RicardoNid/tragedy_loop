@@ -1,0 +1,25 @@
+name: 工作项
+description: 描述目标、依据和验收条件
+title: ""
+body:
+  - type: textarea
+    id: outcome
+    attributes:
+      label: 目标与范围
+      description: 需要改变的行为以及本次边界
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: 背景与来源
+      description: 相关规则、资料或现有问题
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: 验收条件
+      description: 可验证的完成条件，区分自动检查与人工验收
+    validations:
+      required: true

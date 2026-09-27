@@ -26,3 +26,14 @@ facts/source_material/**/*.jpeg
 facts/source_material/**/*.webp
 facts/source_material/**/*.tif
 facts/source_material/**/*.tiff
+
+# Original clones and local-only migration evidence
+.sources/
+.local-imports/
+.env
+.env.*
+!.env.example
+coverage/
+*.tsbuildinfo
+playwright-report/
+test-results/

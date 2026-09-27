@@ -1,0 +1,41 @@
+# 合并决策
+
+## 已实现
+
+2026-09-27（Asia/Shanghai）在 `/home/ltr/tragedy_loop` 建立统一仓库。
+Ricardo GitHub 当前 HEAD 成为根目录基线；personal 仓库当前已提交 HEAD 通过
+双亲 merge commit 导入 `integrations/lunhui/`。双方历史均可由 `git log --all` 追溯。
+来源 SHA 见 `sources.json`。原始 clone 保存在忽略目录 `.sources/`。
+personal 以本机 checkout 为来源，未把它自动更新到 GitHub 最新状态。
+
+使用子目录整合而非文件覆盖，是因为双方没有共享历史，且 Lunhui 的 baseline、内容导入、
+技能和文档依赖原有相对路径。根目录的资料、Python 服务和课件脚本也依赖原目录布局。
+嵌套源码是当前仓库普通受跟踪文件，不是 submodule，不需要二次 clone。
+
+personal 的三个未提交入口（index.html、local-docs、规则完整性分析）复制到
+`.local-imports/personal/`，逐文件 SHA256 记录在 `sources.json`；未混作上游已提交内容。
+该目录不会随新 clone 分发，需要正式纳入时先审阅来源和重复内容。
+原 personal 工作区未修改。
+
+旧 `.github` 工作流随源目录留存但不会在根仓库触发，其中 data-validation 引用原仓库
+已经不存在的 Python 路径。根目录另建针对当前目录结构的 CI。
+
+## 尚未完成的产品合并
+
+目前是一个仓库、统一命令、两个运行入口，不是一个已经统一行为的游戏程序。
+
+建议后续将 Ricardo 的资料站、事实编辑器和教学课件保留为资料产品；以 Lunhui 的
+UI 无关引擎作为候选游戏核心，但须先逐项核对规则来源、实际覆盖与缺陷，不能仅凭测试数量决定。
+
+1. 建立模组/角色/身份/事件的 ID 和术语映射，记录两边字段及来源；不先删除任何一方资料。
+2. 对齐阶段推进、同时行动、死亡与替代、事件结算、轮回重置、最终决战和隐藏信息边界。
+   每个差异建立可重放场景与独立预期，无法裁定的差异明确挂起。
+3. 给资料服务和 TS 引擎定义版本化 HTTP/JSON 接口，由服务端持有私密状态与席位权限。
+   Python 资料工具无需迁移成 TS；现有两种引擎状态不能直接互相反序列化。
+4. 将资料导航与选定游戏 GUI 接入统一入口，保留旧原型为回归对照，完成自动 GUI 与人工验收。
+5. 完成数据迁移和来源审阅后，再决定移走规则原文、淘汰旧内核、统一包管理器或发布位置。
+
+旧 NAS 和 server-ltr 部署属于历史项目，未运行部署脚本。
+后续已将 `RicardoNid/tragedy_loop` 设为统一 GitHub 上游（origin）；
+整合内容通过 Issue/PR 提交，开发流程见根目录 `CONTRIBUTING.md`。
+仓库内的 license 字段保留上游元数据，不据此推定全部规则文字与图片的再发布授权。
