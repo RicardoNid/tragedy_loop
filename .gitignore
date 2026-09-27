@@ -23,11 +23,18 @@ test-results/
 .DS_Store
 
 # Preserve pre-existing source-material ignore rules
-facts/sources/ricardo/scans/*
-!facts/sources/ricardo/scans/.gitkeep
-facts/sources/ricardo/**/*.png
-facts/sources/ricardo/**/*.jpg
-facts/sources/ricardo/**/*.jpeg
-facts/sources/ricardo/**/*.webp
-facts/sources/ricardo/**/*.tif
-facts/sources/ricardo/**/*.tiff
+*.pdf
+facts/source_material/scans/*
+!facts/source_material/scans/.gitkeep
+facts/source_material/**/*.png
+facts/source_material/**/*.jpg
+facts/source_material/**/*.jpeg
+facts/source_material/**/*.webp
+facts/source_material/**/*.tif
+facts/source_material/**/*.tiff
+
+# Local runtime and import directories
+runtime/
+.sources/
+.local-imports/
+*$py.class
