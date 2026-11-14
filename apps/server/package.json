@@ -4,5 +4,9 @@
   "type": "module",
   "dependencies": {
     "fastify": "^5.0.0"
+  },
+  "scripts": {
+    "dev": "tsx watch src/main.ts",
+    "check": "tsc --noEmit"
   }
 }

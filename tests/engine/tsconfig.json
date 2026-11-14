@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": { "module": "NodeNext", "moduleResolution": "NodeNext", "types": ["node"] },
+  "include": [
+    "../../packages/engine/src/**/*.ts",
+    "../../packages/contracts/src/**/*.ts",
+    "../../packages/content/src/**/*.ts",
+    "./**/*.ts",
+    "../../scripts/engine/*.ts"
+  ]
+}

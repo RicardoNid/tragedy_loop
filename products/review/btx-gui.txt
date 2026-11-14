@@ -1,0 +1,16 @@
+vite v7.3.6 building client environment for production...
+transforming...
+✓ 29 modules transformed.
+rendering chunks...
+✓ built in 1.48s
+Local UI: tragedy-test-ui.html
+
+Running 5 tests using 1 worker
+
+  ok 1 e2e\review\knowledge.spec.ts:3:1 › live solution space, visibility toggle and revision-safe history (7.8s)
+  ok 2 e2e\review\knowledge.spec.ts:23:1 › mobile solution space remains readable without horizontal overflow (2.4s)
+  ok 3 e2e\review\knowledge.spec.ts:34:1 › official BTX roster, hospital incident and restart retain the selected module (461ms)
+  ok 4 e2e\review\review.spec.ts:3:1 › human review: board, protagonist controls, hidden cards, history, export and real victory (2.9s)
+  ok 5 e2e\review\review.spec.ts:73:1 › mobile layout and invalid import preserve the board (737ms)
+
+  5 passed (19.1s)

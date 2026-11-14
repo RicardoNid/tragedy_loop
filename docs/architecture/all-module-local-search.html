@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>各模组的观察剪枝与局部穷举评估</title>
+<style>
+*{box-sizing:border-box}body{margin:auto;max-width:58rem;padding:2rem 5vw 5rem;color:#222e33;background:#fcfbf8;font:16px/1.7 system-ui,sans-serif}h1,h2{line-height:1.3}h2{border-top:1px solid #a8b5b5;padding-top:1rem;margin-top:2rem}a{color:#126167}li{margin:.55em 0}small{color:#435252}code{overflow-wrap:anywhere}dt{font-weight:bold;margin-top:1em}dd{margin:.15em 0 .6em}strong{color:#164e52}
+</style>
+<main><small>工程评估 · 2026-11-12</small><h1>各模组的观察剪枝与局部穷举</h1>
+<p><strong>可以共用求解流程。每条硬剪枝需要限定适用的规则、时点和可见信息；最坏情况下，局部搜索仍会扩展到整个剧本历史。</strong> 本文按本地 Wiki 的 17 个模组条目考虑覆盖范围。工程契约列有 8 个模组代号，周年叠加另设开关。实时求解入口仅接受 FS、BTX 的受支持开局。其余模组的分析依据规则条目，不是实机覆盖率。</p>
+<h2>目前实际剪到了哪里</h2>
+<p>当前目录的 <code>runtime/reference.ts</code> 在调用方给定的有限剧本集合上按主人公观察前缀搜索。实时实现位于本机另一工作树 <code>codex/realtime-fs-btx</code>，核查版本 <code>36157a3</code>。下列源码路径相对于该版本的 <code>packages/engine/src/runtime/</code>。</p>
+<ol>
+<li><code>knowledge-domain.ts</code> 先建立主副线组合、身份配额、角色和事件当事人的候选域。即使一条副线没有直接效果，它提供的身份名额仍约束整局。</li>
+<li><code>knowledge-pruning.ts</code> 按阶段、变化类型、指示物和增减方向索引可能来源，再检验对象、范围、公开条件、间接调用和延迟时点。官方 FS 中，剧作家能力阶段学校密谋增加，可来自同区主谋，或本轮仍有次数的「流言四起」。旧记录 <code>products/realtime/compound.json</code> 使用人为注入的多区域能力；其中「复仇的火种」增加版图密谋仅用于验证多区域结算。</li>
+<li><code>knowledge-causes.ts</code> 将共享身份、选择或次数的原因连在一起，搜索相容组合，检查外部约束。在一个效果能改变四块版图的情况下，四条报告可以共用一次发动。把每条报告分别记作一次消耗会误删，把每个局部都分配到同一个已用完的次数又会漏剪。</li>
+<li><code>knowledge-pair.ts</code> 识别两步、不同存活目标、固定指示物变化的程序。普通且两步可辨时可直接验公开目标；教主重复执行时每次重选；临时工与替身并行时，同一步对同一目标的变化合并。零友好上的扣减虽然无报告，仍可占据第一次选择。该模板以外的复合程序仍需一般原因约束或历史核验。</li>
+<li><code>knowledge-quiet.ts</code> 对特定程序计算产生无可见变化的条件。无现象、事件未发生、观察窗口尚未结束是三种证据。完整配置查询由 <code>knowledge-live.ts</code> 衔接约束与历史搜索；传播停止本身不能证明某个配置存在完整见证。</li></ol>
+<h2>按“单项过滤 → 剩余规则状态穷举”复核 · 2026-11-13</h2>
+<p>实时工作树含 FS／BTX 修订。<code>knowledge-scope.ts</code> 在生成候选原因前调用 <code>forChange</code>、<code>indexOwners</code> 和 <code>eligibleSource</code>；随后 <code>CauseNetwork</code> 逐个连接共享变量、次数和选择。它枚举已编码的原因组合，变量投影已有支持时可以提前停止。只有被显式表示的条件才能在这一步参与联合检查，当前没有覆盖剩余程序全部状态转移的通用局部解释器。</p>
+<p>使用未修改的 FS、BTX 官方规则包，从合法开局构造受控观察。固定医生为杀手，医生和住院患者同在医院，患者有 2 枚密谋。第一组公开患者为主谋，男学生为关键人物；对照组交换这两人的身份。给实时入口送入相应身份、规则和同一条日末患者死亡报告。主谋组中，执行内核对杀手能力求出的目标集为空；关键人物组中，目标集含患者。两个模组的局部求解在两组都列出「医生是杀手」解释，对这一条死亡观察均未请求历史搜索，快照均为 <code>incomplete</code>。这是合成输入上的局部漏剪，未将这些前缀作为完整合法对局，也未观察到最终精确查询误删。</p>
+<p>原因在于目标选择器中的身份比较遇到私有字段时返回未知，候选原因记录了发动者是杀手，未将“受害者在该结算时是关键人物”绑定为联合搜索前提。若要按该方案收紧，应让剩余选择器在局部赋值和正确时点上再次求值；涉及能力复制或身份变化时读取当时的有效身份，保留仍无法确定的取值。对两组做成对验收：公开身份排除关键人物时剔除这条来源，允许关键人物时保留，身份未公开时保留条件关系。本次重跑区域筛选、原因关系、双目标事件、同批死亡四个测试文件，39/39 通过。</p>
+<h2>用实测区分正确性和收益</h2>
+<p>本次在实时工作树重新运行 <code>pnpm check:realtime</code>，类型检查通过，110 项测试通过，失败和跳过均为 0。FS、BTX 各跑「不安扩散」「散播」的普通、重复、并行三种三人场景。每个事件分别有 6、36、144 条合法选择路径，共 744 条；单个并行场景中 144 条路径只产生 72 种公开轨迹。普通场景的原因搜索分支数为 0，重复和并行场景确实展开了局部分支。这些计数只覆盖测试设定的盘面。</p>
+<p>BTX 医院事故回归固定 A、B 同批死亡、C 存活，检查「求爱者／心上人／魔女」全部 6 种分配。逐条死亡报告到达时仍允许 6 种；事件窗口闭合且 C 没有增加不安后，保留 A、B 互换的 2 种，排除其余 4 种。两种保留配置均重放出相同公开记录。这里有信息价值的是幸存者在闭合窗口内的表现，不能从两条死亡公告的先后推断情侣方向。</p>
+<p>性能取自该分支既有 <code>products/realtime/catalog-comparison.json</code>，本次没有重测耗时。在对比旧版本的 7 轮记录中，FS「谋杀」第 29 条观察的中位数约从 0.87 到 0.49 ms；FS「医院事故」第 29 条约从 0.42 到 0.75 ms。两处候选投影均一致；过滤和建关系也有成本。</p>
+<h2>11 月 12 日复现的扩展错误（后续已修复）</h2>
+<p>取 <code>tests/engine/knowledge-realtime.test.ts</code> 顶部合法 BTX 开局，正常包的配置查询为 <code>possible</code>。在进程内复制规则包，仅设 <code>identities['时间旅者'].supported = false</code>，开局和观察保持一致。模块守卫仍返回空原因列表，开局校验仅报告 <code>unsupported-identity</code>，而 <code>queryConfiguration</code> 返回 <code>excluded</code>。原因位于 <code>knowledge-live.ts:429</code> 附近：任何校验诊断都走排除分支。分批翻译新包时，这条路径会把“尚未实现”显示为“已证不可能”。应区别非法与未支持诊断，并检查初始域构造是否已经漏掉未翻译取值。此复现使用受控修改的包，未在未改动的官方 BTX 包中观察到该错误。旧报告中的周年无平民残片问题，在本次实时分支有通过的专门回归。</p>
+<h2>模组差异如何改变搜索边界</h2>
+<dl>
+<dt>FS、BTX、Basic Tragedy、BTX Plus · 配额与周年叠加</dt>
+<dd>Basic Tragedy 的「潜伏的杀人狂」效果栏为空，却引入亲友和杀人狂。删去整条规则会改变可产生死亡的身份集合。周年希望参与友好计数，因果残片读上一轮结局。开局身份、判定时身份和跨轮记录须分别保留。<a href="../../facts/data/rules/02a085a0fa957967.json">身份配额</a> · <a href="../../facts/data/modules/4a58c0b98260d133.json">Plus 条目</a></dd>
+<dt>Midnight Zone、Mystery Circle · 事件名称和触发资格</dt>
+<dd>MZ 的伪造事件可任意命名；预言家可阻止同区其他角色触发事件。MC 的侦探在 EX 为 0 时可令同区存活当事人的事件必发。单凭公告名或不安阈值筛当事人会漏掉合法解释。<a href="../../facts/data/incidents/5b5a4b8cdb15bad6.json">伪造事件</a> · <a href="../../facts/data/identities/15bc81986082afe6.json">预言家</a> · <a href="../../facts/data/identities/bc7692b7337b7e19.json">侦探</a></dd>
+<dt>Haunted Stage、Haunted Stage Again · 搜索对象</dt>
+<dd>前者允许对尸体打牌，死后活性决定能否处理；后者的群众事件绑定版图，版图密谋亦计作尸体。只枚举活人或给事件只分配一名角色，初始域就已不完整。<a href="../../facts/data/modules/123fa175cdc345be.json">HS</a> · <a href="../../facts/data/modules/f497855359fe9b6e.json">HSA</a></dd>
+<dt>Another Horizon、Another Horizon Revised、Weird Mythology · 世界线与跨轮状态</dt>
+<dd>表里世界切换会对调事件与友好能力所读的计数；原版与 Revised 的 EX 初值和重置规则不同。WM 中拒绝友好能力会提高跨轮保留的 EX，EX 达到 3 可改变多张禁止密谋牌的抵消。一次拒绝可成为下一轮牌面变化的祖先。<a href="../../facts/data/modules/11fdfed6f53e85e2.json">AH</a> · <a href="../../facts/data/modules/7580de694ee21043.json">AHR</a> · <a href="../../facts/data/modules/f7c96b28229536d3.json">WM</a></dd>
+<dt>Last Liar、Old Fashion、Unheard Malice · 谁能够看到什么</dt>
+<dd>LL 的 EX 身份牌只有持有者知道，背叛者有个人胜利条件；Old Fashion 允许省略主人公死亡原因；Unheard Malice 中被无视的具体行动牌可以不公布。若把主持端状态或未发公告当成公共事实，会给出玩家无权获得的确定结论。<a href="../../facts/data/modules/07a03c94050c1185.json">LL</a> · <a href="../../facts/data/modules/9b819da91ebf779d.json">Old Fashion</a> · <a href="../../facts/data/modules/d1d725e0279eb2b6.json">Unheard Malice</a></dd>
+<dt>Echoing Love A、Sin City、Supernatural Tragedy · 当事人关系和动态身份</dt>
+<dd>共谋事件需要两名当事人共同满足修正后的条件；累犯允许同一人担任多起事件的当事人，阈值还读取本轮此前的触发次数；复制者会在日末按区域人数改变身份。单人、单日、固定身份三种分解在这里分别失效。<a href="../../facts/data/modules/1ca7ce24ba25c478.json">共谋</a> · <a href="../../facts/data/modules/4ef580c73ed71d88.json">累犯</a> · <a href="../../facts/data/identities/0050f0ff6ff34677.json">复制者</a></dd>
+</dl>
+<h2>怎样允许硬剪枝</h2>
+<ol><li>先固定查询者、观察前缀和结算边界。将“该来源不能直接生成这条报告”限定为本次来源过滤；只要存在间接调用、改写触发条件、占用共享资源、改变后续合法选择等路径，保留相应约束。</li>
+<li>从观察向前追踪相关变量至依赖闭合，包括阶段入口快照、同批目标、次数、配额、EX、观察权限和延迟队列。局部以外的变量可以暂缓枚举，但边界上要保留它们允许的联合取值。边界约束缺失时扩大范围；相关域无法有界化时采用符号约束或返回未知。</li>
+<li>用局部必要条件证伪；要断言某个完整配置可行，需要同一条历史同时满足所有观察。预算用尽保留未知。全局 EX、共享次数或人数比较可把整局连成一块，记录实际展开数、未决比例及耗时分布再决定该模板是否值得启用。</li>
+<li>每引入一种新语义，准备来源独立推导的小盘面与可重放见证。按每条公开前缀检查真实配置存活，再将小域内全部联合配置与完整搜索核对；涵盖同批分拆送达、跨轮、私有视角和预算中断。参考求解与实时求解复用执行内核，两者一致仍需来源级反例校准。</li></ol>
+<p><small>本次核查依据本地规则资料、源码及实时回归。17 个模组条目用于机制覆盖审查，未逐剧本穷举，未测全部模组速度。规则内容待人类验收。</small></p>
+</main></html>

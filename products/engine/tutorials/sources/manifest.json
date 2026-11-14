@@ -1,0 +1,42 @@
+{
+  "purpose": "Retained read-only source evidence for official scenario fixtures. No facts/ content was modified.",
+  "githubCommit": "d103ef38e2c6989ac61fc359195e3e3162999032",
+  "readDate": "2026-11-09",
+  "records": [
+    {
+      "file": "base-game.jsonc",
+      "url": "https://raw.githubusercontent.com/tragedy-looper/tragedy-looper.github.io/d103ef38e2c6989ac61fc359195e3e3162999032/data/base-game/scripts.jsonc",
+      "sha256": "0c04b29b107d899c5a2b8a3ef8d94b6c695267ab56a27564d399e009677972f3"
+    },
+    {
+      "file": "cosmic-evil.jsonc",
+      "url": "https://raw.githubusercontent.com/tragedy-looper/tragedy-looper.github.io/d103ef38e2c6989ac61fc359195e3e3162999032/data/cosmic-evil/scripts.jsonc",
+      "sha256": "7798b6100142db7daaa4ac830cc9627a6a424baaedee2ea94e0b9a70f391c6d9"
+    },
+    {
+      "file": "fs-script.pdf",
+      "url": "https://main-bakafire.ssl-lolipop.jp/rooper/10th/dl/quickset.zip",
+      "sha256": "ce82baeed0b3387bcb0649978e5c7ab0c452e8121bb04c1107dc2aec8b84f715"
+    },
+    {
+      "file": "ll.pdf",
+      "url": "https://tesera.ru/images/items/2034080/Last%20Liar%20Rulebook.pdf",
+      "sha256": "c4e798f3185494469845d86a04d49708942028ddc7b8a86c23c7236339e25b7e"
+    },
+    {
+      "file": "midnight-circle.jsonc",
+      "url": "https://raw.githubusercontent.com/tragedy-looper/tragedy-looper.github.io/d103ef38e2c6989ac61fc359195e3e3162999032/data/midnight-circle/scripts.jsonc",
+      "sha256": "318f43134d347c48421cb27b47fd55218dff531b98fb54a18b737e09ec618b16"
+    },
+    {
+      "file": "midnight.pdf",
+      "url": "https://tesera.ru/images/items/1237966/en-tragedylooper-mc-masterbook-v2.pdf",
+      "sha256": "a7b0bdea76499c2c5a0d3511de7e373bca38b16720ff6c3368e8704e11059c9d"
+    },
+    {
+      "file": "rei.jsonc",
+      "url": "https://raw.githubusercontent.com/tragedy-looper/tragedy-looper.github.io/d103ef38e2c6989ac61fc359195e3e3162999032/data/rei/scripts.jsonc",
+      "sha256": "699a0bcf296977174ca872da495bf39dc7227bf3bc153cefd43539a4a2bbf77d"
+    }
+  ]
+}

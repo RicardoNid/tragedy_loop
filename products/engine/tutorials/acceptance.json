@@ -1,0 +1,40 @@
+{
+  "verifiedAt": "2026-11-14T10:50:10.388215+00:00",
+  "historiesHash": "9d8aa30639f03ca5cbdc80d85722e0fa6ceec621ea141e2aa3b7689ee1ba4fd5",
+  "checks": [
+    {
+      "command": "pnpm check:engine",
+      "passed": 73,
+      "failed": 0,
+      "durationMs": 168892.5755
+    },
+    {
+      "command": "pnpm check:rules",
+      "passed": 12,
+      "failed": 0
+    },
+    {
+      "command": "pnpm check:review",
+      "passed": 7,
+      "failed": 0
+    },
+    {
+      "command": "pnpm test:review:local",
+      "passed": 8,
+      "failed": 0
+    }
+  ],
+  "reportGui": {
+    "browser": "Microsoft Edge headless",
+    "viewport": [
+      1440,
+      1000
+    ],
+    "tutorialModuleRows": 8,
+    "inventoryEntries": 311,
+    "inventoryInternalAnchors": "passed",
+    "inventorySearch": "passed",
+    "inventoryHorizontalOverflow": false
+  },
+  "humanAcceptance": "待人类验收"
+}

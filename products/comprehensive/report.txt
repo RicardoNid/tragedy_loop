@@ -1,0 +1,65 @@
+{
+  "targeted": {
+    "total": 168,
+    "passed": 168
+  },
+  "faq": {
+    "passed": 446,
+    "partial": 0,
+    "nonruntime": 27,
+    "unsupported": 5,
+    "manual": 1,
+    "failed": 0,
+    "missing": 0
+  },
+  "checks": [
+    [
+      "comprehensive-types",
+      "passed"
+    ],
+    [
+      "engine-types",
+      "passed"
+    ],
+    [
+      "engine-regression",
+      "passed"
+    ],
+    [
+      "rules-types",
+      "passed"
+    ],
+    [
+      "rules-regression",
+      "passed"
+    ],
+    [
+      "targeted-log",
+      "passed"
+    ],
+    [
+      "stress-log",
+      "passed"
+    ],
+    [
+      "web-build",
+      "passed"
+    ],
+    [
+      "web-types",
+      "passed"
+    ],
+    [
+      "server-types",
+      "passed"
+    ],
+    [
+      "review-regression",
+      "passed"
+    ],
+    [
+      "gui-regression",
+      "passed"
+    ]
+  ]
+}

@@ -1,0 +1,436 @@
+TAP version 13
+# Subtest: all current official profiles and 37 character cards have explicit translations
+ok 1 - all current official profiles and 37 character cards have explicit translations
+  ---
+  duration_ms: 109.6549
+  type: 'test'
+  ...
+# Subtest: optional refusal consumes no use; an accepted no-op consumes the ability once
+ok 2 - optional refusal consumes no use; an accepted no-op consumes the ability once
+  ---
+  duration_ms: 24.8595
+  type: 'test'
+  ...
+# Subtest: goodwill menu cannot reveal optional versus mandatory hidden refusal traits
+ok 3 - goodwill menu cannot reveal optional versus mandatory hidden refusal traits
+  ---
+  duration_ms: 3.7347
+  type: 'test'
+  ...
+# Subtest: AHR: paired identities switch without changing initial identities; repeated world movements add one EX at day end
+ok 4 - AHR: paired identities switch without changing initial identities; repeated world movements add one EX at day end
+  ---
+  duration_ms: 3.3779
+  type: 'test'
+  ...
+# Subtest: AHR: zero-EX Alice does not gain an EX>=1 completion effect from a later world-move marker
+ok 5 - AHR: zero-EX Alice does not gain an EX>=1 completion effect from a later world-move marker
+  ---
+  duration_ms: 4.2165
+  type: 'test'
+  ...
+# Subtest: AHR: paired setup validates exact whole pairs and exempts their compulsory culprit constraint
+ok 6 - AHR: paired setup validates exact whole pairs and exempts their compulsory culprit constraint
+  ---
+  duration_ms: 1.127
+  type: 'test'
+  ...
+# Subtest: WM: EX persists between loops and cumulative knowledge does not get cleared
+ok 7 - WM: EX persists between loops and cumulative knowledge does not get cleared
+  ---
+  duration_ms: 4.6119
+  type: 'test'
+  ...
+# Subtest: HSA: victims count as corpses and reviving one removes exactly one intrigue
+ok 8 - HSA: victims count as corpses and reviving one removes exactly one intrigue
+  ---
+  duration_ms: 0.8803
+  type: 'test'
+  ...
+# Subtest: HSA: two attached curses generate two requests and return to the board
+ok 9 - HSA: two attached curses generate two requests and return to the board
+  ---
+  duration_ms: 3.9942
+  type: 'test'
+  ...
+# Subtest: MZ: magician death cleanup survives an already latched key-person failure
+ok 10 - MZ: magician death cleanup survives an already latched key-person failure
+  ---
+  duration_ms: 2.302
+  type: 'test'
+  ...
+# Subtest: AI invocation does not register an incident or trigger WM first-occurrence extermination
+ok 11 - AI invocation does not register an incident or trigger WM first-occurrence extermination
+  ---
+  duration_ms: 2.3286
+  type: 'test'
+  ...
+# Subtest: reference search keeps correlated setups, returns unknown for unsearched branches, and replays its witness
+ok 12 - reference search keeps correlated setups, returns unknown for unsearched branches, and replays its witness
+  ---
+  duration_ms: 3.7497
+  type: 'test'
+  ...
+# Subtest: replay and batch calls reproduce the same state and do not mutate the source
+ok 13 - replay and batch calls reproduce the same state and do not mutate the source
+  ---
+  duration_ms: 6.0315
+  type: 'test'
+  ...
+# Subtest: LL private roles are visible only to their owner
+ok 14 - LL private roles are visible only to their owner
+  ---
+  duration_ms: 1.3178
+  type: 'test'
+  ...
+# Subtest: LL sixth communication wins before ability effects; refusal never registers communication
+ok 15 - LL sixth communication wins before ability effects; refusal never registers communication
+  ---
+  duration_ms: 6.104
+  type: 'test'
+  ...
+# Subtest: LL fifth death is checked only in day-end, and final-plan hope disables traitors
+ok 16 - LL fifth death is checked only in day-end, and final-plan hope disables traitors
+  ---
+  duration_ms: 1.8362
+  type: 'test'
+  ...
+# Subtest: LL delegate decisions remain personal even in no-discussion mode
+ok 17 - LL delegate decisions remain personal even in no-discussion mode
+  ---
+  duration_ms: 1.3503
+  type: 'test'
+  ...
+# Subtest: LL key reveal on the final day schedules same-day mandatory death, not next-loop restrictions
+ok 18 - LL key reveal on the final day schedules same-day mandatory death, not next-loop restrictions
+  ---
+  duration_ms: 1.865
+  type: 'test'
+  ...
+# Subtest: two or more intrigue prohibitions cancel globally; additions precede subtraction
+ok 19 - two or more intrigue prohibitions cancel globally; additions precede subtraction
+  ---
+  duration_ms: 3.2846
+  type: 'test'
+  ...
+# Subtest: hope is not blocked by goodwill prohibition and one played hope removes all hope cards
+ok 20 - hope is not blocked by goodwill prohibition and one played hope removes all hope cards
+  ---
+  duration_ms: 1.9683
+  type: 'test'
+  ...
+# Subtest: multiple hope cards become goodwill and return to their owners
+ok 21 - multiple hope cards become goodwill and return to their owners
+  ---
+  duration_ms: 2.4547
+  type: 'test'
+  ...
+# Subtest: surrendering remaining loops requires an explicit vote from all three protagonists
+ok 22 - surrendering remaining loops requires an explicit vote from all three protagonists
+  ---
+  duration_ms: 1.9943
+  type: 'test'
+  ...
+# Subtest: both legal discussion modes produce the same finite-domain reference result
+ok 23 - both legal discussion modes produce the same finite-domain reference result
+  ---
+  duration_ms: 2.5486
+  type: 'test'
+  ...
+# Subtest: only actual serial murders may reuse a character culprit
+ok 24 - only actual serial murders may reuse a character culprit
+  ---
+  duration_ms: 1.3755
+  type: 'test'
+  ...
+# Subtest: cult leader doubles threshold offsets and compound effects exactly once
+ok 25 - cult leader doubles threshold offsets and compound effects exactly once
+  ---
+  duration_ms: 12.1199
+  type: 'test'
+  ...
+# Subtest: explicit goodwill incident thresholds override AI total-counter substitution
+ok 26 - explicit goodwill incident thresholds override AI total-counter substitution
+  ---
+  duration_ms: 1.6256
+  type: 'test'
+  ...
+# Subtest: sacrifice incident counting does not count despair twice
+ok 27 - sacrifice incident counting does not count despair twice
+  ---
+  duration_ms: 1.1669
+  type: 'test'
+  ...
+# Subtest: a truncated repeated compound incident cannot trigger fool completion from its completed child
+ok 28 - a truncated repeated compound incident cannot trigger fool completion from its completed child
+  ---
+  duration_ms: 3.9996
+  type: 'test'
+  ...
+# Subtest: LL private C final guesses precede ordinary final guesses and have their own winner
+ok 29 - LL private C final guesses precede ordinary final guesses and have their own winner
+  ---
+  duration_ms: 2.6511
+  type: 'test'
+  ...
+# Subtest: JSON boundaries reject malformed commands and unknown setup rules without changing the game
+ok 30 - JSON boundaries reject malformed commands and unknown setup rules without changing the game
+  ---
+  duration_ms: 1.6113
+  type: 'test'
+  ...
+# Subtest: official evidence is pinned to current read-only source files; stale translations are detected
+ok 31 - official evidence is pinned to current read-only source files; stale translations are detected
+  ---
+  duration_ms: 90.6197
+  type: 'test'
+  ...
+# Subtest: BTX complete failed loop reaches final guesses; a wrong guess loses and correct guesses win
+ok 32 - BTX complete failed loop reaches final guesses; a wrong guess loses and correct guesses win
+  ---
+  duration_ms: 75.7182
+  type: 'test'
+  ...
+# Subtest: complete rule-generated domain includes unlisted scripts; only public roster is used
+ok 33 - complete rule-generated domain includes unlisted scripts; only public roster is used
+  ---
+  duration_ms: 26.3317
+  type: 'test'
+  ...
+# Subtest: global assignment propagation, provenance, contradiction and no rewriting history
+ok 34 - global assignment propagation, provenance, contradiction and no rewriting history
+  ---
+  duration_ms: 4.8094
+  type: 'test'
+  ...
+# Subtest: secret identity permutation and discussion policy cannot change initial knowledge
+ok 35 - secret identity permutation and discussion policy cannot change initial knowledge
+  ---
+  duration_ms: 5.0008
+  type: 'test'
+  ...
+# Subtest: budget exhaustion retains candidates and new known actions resume coherent histories
+ok 36 - budget exhaustion retains candidates and new known actions resume coherent histories
+  ---
+  duration_ms: 10.1409
+  type: 'test'
+  ...
+# Subtest: anniversary domain allocates exactly one civilian fragment without reading the real one
+ok 37 - anniversary domain allocates exactly one civilian fragment without reading the real one
+  ---
+  duration_ms: 17.5605
+  type: 'test'
+  ...
+# Subtest: unbounded setup variables report unsupported instead of an empty exact space
+ok 38 - unbounded setup variables report unsupported instead of an empty exact space
+  ---
+  duration_ms: 0.8258
+  type: 'test'
+  ...
+# Subtest: real engine disclosure shrinks the space and matches independent finite reference search
+ok 39 - real engine disclosure shrinks the space and matches independent finite reference search
+  ---
+  duration_ms: 21.9905
+  type: 'test'
+  ...
+# Subtest: multiple unknown mastermind card branches stay compatible without using the real cards
+ok 40 - multiple unknown mastermind card branches stay compatible without using the real cards
+  ---
+  duration_ms: 577.5121
+  type: 'test'
+  ...
+# Subtest: official source snapshots match their provenance hashes
+ok 41 - official source snapshots match their provenance hashes
+  ---
+  duration_ms: 25.4695
+  type: 'test'
+  ...
+# Subtest: official fixtures and reviewed histories are pinned, with both outcomes for all 8 modules
+ok 42 - official fixtures and reviewed histories are pinned, with both outcomes for all 8 modules
+  ---
+  duration_ms: 45.8308
+  type: 'test'
+  ...
+# Subtest: FS-01G official full game → protagonists: exact replay, persisted resume, retry and batch
+ok 43 - FS-01G official full game → protagonists: exact replay, persisted resume, retry and batch
+  ---
+  duration_ms: 619.8908
+  type: 'test'
+  ...
+# Subtest: FS-01G official full game → mastermind: exact replay, persisted resume, retry and batch
+ok 44 - FS-01G official full game → mastermind: exact replay, persisted resume, retry and batch
+  ---
+  duration_ms: 5632.3602
+  type: 'test'
+  ...
+# Subtest: BTX-01G official full game → protagonists: exact replay, persisted resume, retry and batch
+ok 45 - BTX-01G official full game → protagonists: exact replay, persisted resume, retry and batch
+  ---
+  duration_ms: 942.1017
+  type: 'test'
+  ...
+# Subtest: BTX-01G official full game → mastermind: exact replay, persisted resume, retry and batch
+ok 46 - BTX-01G official full game → mastermind: exact replay, persisted resume, retry and batch
+  ---
+  duration_ms: 23807.8422
+  type: 'test'
+  ...
+# Subtest: MZ-01G official full game → protagonists: exact replay, persisted resume, retry and batch
+ok 47 - MZ-01G official full game → protagonists: exact replay, persisted resume, retry and batch
+  ---
+  duration_ms: 1065.7083
+  type: 'test'
+  ...
+# Subtest: MZ-01G official full game → mastermind: exact replay, persisted resume, retry and batch
+ok 48 - MZ-01G official full game → mastermind: exact replay, persisted resume, retry and batch
+  ---
+  duration_ms: 16115.3019
+  type: 'test'
+  ...
+# Subtest: MC-01G official full game → protagonists: exact replay, persisted resume, retry and batch
+ok 49 - MC-01G official full game → protagonists: exact replay, persisted resume, retry and batch
+  ---
+  duration_ms: 4788.8634
+  type: 'test'
+  ...
+# Subtest: MC-01G official full game → mastermind: exact replay, persisted resume, retry and batch
+ok 50 - MC-01G official full game → mastermind: exact replay, persisted resume, retry and batch
+  ---
+  duration_ms: 28554.3388
+  type: 'test'
+  ...
+# Subtest: HSA-01G official full game → protagonists: exact replay, persisted resume, retry and batch
+ok 51 - HSA-01G official full game → protagonists: exact replay, persisted resume, retry and batch
+  ---
+  duration_ms: 602.8167
+  type: 'test'
+  ...
+# Subtest: HSA-01G official full game → mastermind: exact replay, persisted resume, retry and batch
+ok 52 - HSA-01G official full game → mastermind: exact replay, persisted resume, retry and batch
+  ---
+  duration_ms: 11124.2594
+  type: 'test'
+  ...
+# Subtest: WM-01G official full game → protagonists: exact replay, persisted resume, retry and batch
+ok 53 - WM-01G official full game → protagonists: exact replay, persisted resume, retry and batch
+  ---
+  duration_ms: 660.6778
+  type: 'test'
+  ...
+# Subtest: WM-01G official full game → mastermind: exact replay, persisted resume, retry and batch
+ok 54 - WM-01G official full game → mastermind: exact replay, persisted resume, retry and batch
+  ---
+  duration_ms: 19091.7567
+  type: 'test'
+  ...
+# Subtest: AHR-01G official full game → protagonists: exact replay, persisted resume, retry and batch
+ok 55 - AHR-01G official full game → protagonists: exact replay, persisted resume, retry and batch
+  ---
+  duration_ms: 760.1527
+  type: 'test'
+  ...
+# Subtest: AHR-01G official full game → mastermind: exact replay, persisted resume, retry and batch
+ok 56 - AHR-01G official full game → mastermind: exact replay, persisted resume, retry and batch
+  ---
+  duration_ms: 4037.9718
+  type: 'test'
+  ...
+# Subtest: LL-01G official full game → protagonists: exact replay, persisted resume, retry and batch
+ok 57 - LL-01G official full game → protagonists: exact replay, persisted resume, retry and batch
+  ---
+  duration_ms: 1027.699
+  type: 'test'
+  ...
+# Subtest: LL-01G official full game → mastermind: exact replay, persisted resume, retry and batch
+ok 58 - LL-01G official full game → mastermind: exact replay, persisted resume, retry and batch
+  ---
+  duration_ms: 17365.3443
+  type: 'test'
+  ...
+# Subtest: valid setup creates an independent mutable state with an immutable reusable pack
+ok 59 - valid setup creates an independent mutable state with an immutable reusable pack
+  ---
+  duration_ms: 10.6729
+  type: 'test'
+  ...
+# Subtest: full FS loop can reach a real win, with ordered facedown cards and captain rotation
+ok 60 - full FS loop can reach a real win, with ordered facedown cards and captain rotation
+  ---
+  duration_ms: 52.2604
+  type: 'test'
+  ...
+# Subtest: Q1: two substitute requests plus one direct request consume one guard and kill once
+ok 61 - Q1: two substitute requests plus one direct request consume one guard and kill once
+  ---
+  duration_ms: 1.6158
+  type: 'test'
+  ...
+# Subtest: immortality prevents guard consumption and actual death triggers
+ok 62 - immortality prevents guard consumption and actual death triggers
+  ---
+  duration_ms: 7.4397
+  type: 'test'
+  ...
+# Subtest: Q2: established hospital batch kills everyone before loop interruption, fool completion still fires
+ok 63 - Q2: established hospital batch kills everyone before loop interruption, fool completion still fires
+  ---
+  duration_ms: 8.335
+  type: 'test'
+  ...
+# Subtest: Q2: interrupted horrific murder does not run spread or fool completion
+ok 64 - Q2: interrupted horrific murder does not run spread or fool completion
+  ---
+  duration_ms: 2.8575
+  type: 'test'
+  ...
+# Subtest: simultaneous serial killers cannot cancel one another by execution order
+ok 65 - simultaneous serial killers cannot cancel one another by execution order
+  ---
+  duration_ms: 1.1841
+  type: 'test'
+  ...
+# Subtest: Q3: post-loop-end snapshot includes changes; causal link does not invent a loop zero
+ok 66 - Q3: post-loop-end snapshot includes changes; causal link does not invent a loop zero
+  ---
+  duration_ms: 2.5393
+  type: 'test'
+  ...
+# Subtest: raw counters differ from effective counts; board intrigue is capped at three
+ok 67 - raw counters differ from effective counts; board intrigue is capped at three
+  ---
+  duration_ms: 0.9353
+  type: 'test'
+  ...
+# Subtest: budget exhaustion is resumable, rejected commands leave input unchanged, retries are idempotent
+ok 68 - budget exhaustion is resumable, rejected commands leave input unchanged, retries are idempotent
+  ---
+  duration_ms: 1.6152
+  type: 'test'
+  ...
+# Subtest: ports hide initial identities, selected rules and opposing facedown cards
+ok 69 - ports hide initial identities, selected rules and opposing facedown cards
+  ---
+  duration_ms: 4.2159
+  type: 'test'
+  ...
+# Subtest: actor-bound port rejects spoofed actor fields and uses only visible revision tokens
+ok 70 - actor-bound port rejects spoofed actor fields and uses only visible revision tokens
+  ---
+  duration_ms: 2.4453
+  type: 'test'
+  ...
+# Subtest: discussion policy changes communication permission but not game observations
+ok 71 - discussion policy changes communication permission but not game observations
+  ---
+  duration_ms: 4.5126
+  type: 'test'
+  ...
+1..71
+# tests 71
+# suites 0
+# pass 71
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 136975.8073

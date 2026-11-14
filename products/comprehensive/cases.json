@@ -1,0 +1,1779 @@
+[
+  {
+    "id": "death-counters",
+    "faq": [
+      40
+    ],
+    "title": "死亡保留所有指示物",
+    "status": "passed",
+    "ms": 77.03650000000016
+  },
+  {
+    "id": "dead-targets",
+    "faq": [
+      41,
+      57,
+      61
+    ],
+    "title": "尸体不接受普通行动与活人选择",
+    "status": "passed",
+    "ms": 1.8489999999999327
+  },
+  {
+    "id": "board-cards",
+    "faq": [
+      42,
+      371
+    ],
+    "title": "可对四版图盖普通牌；远方不是版图",
+    "status": "passed",
+    "ms": 1.858699999999999
+  },
+  {
+    "id": "effective-hope-despair",
+    "faq": [
+      83,
+      85,
+      217,
+      284,
+      417,
+      420,
+      467
+    ],
+    "title": "希望绝望按用途计数，密谋不为负",
+    "status": "passed",
+    "ms": 9.768199999999979
+  },
+  {
+    "id": "no-board-special-counters",
+    "faq": [
+      71,
+      407
+    ],
+    "title": "版图不存放希望绝望",
+    "status": "passed",
+    "ms": 2.3712000000000444
+  },
+  {
+    "id": "raw-ai-counters",
+    "faq": [
+      76,
+      77,
+      411,
+      412
+    ],
+    "title": "AI 事件只按实体指示物总数，不重复计算希望绝望",
+    "status": "passed",
+    "ms": 26.284900000000107
+  },
+  {
+    "id": "refusal-modes",
+    "faq": [
+      32,
+      33,
+      34,
+      43,
+      78,
+      413
+    ],
+    "title": "拒绝只控制友好请求，不妨碍放友好；绝望可改变妹妹",
+    "status": "passed",
+    "ms": 4.068700000000035
+  },
+  {
+    "id": "puppet-refusal",
+    "faq": [
+      2,
+      3
+    ],
+    "title": "傀儡之线将必拒绝改为可选拒绝，含绝望",
+    "status": "passed",
+    "ms": 14.99570000000017
+  },
+  {
+    "id": "immortal-guard",
+    "faq": [
+      31,
+      107
+    ],
+    "title": "不死先于护卫，不消耗护卫",
+    "status": "passed",
+    "ms": 1.2569999999998345
+  },
+  {
+    "id": "servant-multikill",
+    "faq": [
+      108,
+      189,
+      190
+    ],
+    "title": "从者同批替代与自身死亡请求分别消耗护卫",
+    "status": "passed",
+    "ms": 2.0434000000000196
+  },
+  {
+    "id": "servant-immortal-target",
+    "faq": [
+      187,
+      430
+    ],
+    "title": "不死大小姐不产生替代死亡",
+    "status": "passed",
+    "ms": 2.3197999999999865
+  },
+  {
+    "id": "servant-follow",
+    "faq": [
+      188,
+      191,
+      431
+    ],
+    "title": "从者跟随特性对象，忽略自身禁止移动牌",
+    "status": "passed",
+    "ms": 7.6077000000000226
+  },
+  {
+    "id": "servant-batch-move",
+    "faq": [
+      193,
+      273
+    ],
+    "title": "同时移动从者忽略自己的目的地，跟随大小姐",
+    "status": "passed",
+    "ms": 0.7741000000000895
+  },
+  {
+    "id": "remove-not-move",
+    "faq": [
+      194,
+      264
+    ],
+    "title": "移除幻想不会带走从者，附着诅咒一起移除",
+    "status": "passed",
+    "ms": 11.455200000000104
+  },
+  {
+    "id": "move-restrictions",
+    "faq": [
+      58,
+      67,
+      234,
+      235,
+      258,
+      268
+    ],
+    "title": "移动不能进入禁行区域，可选择原地或禁止目的地并停留",
+    "status": "passed",
+    "ms": 0.850099999999884
+  },
+  {
+    "id": "move-composition",
+    "faq": [
+      44,
+      45,
+      46,
+      102
+    ],
+    "title": "移动先于计数，巫女两张移动组合为禁行斜向",
+    "status": "passed",
+    "ms": 21.271600000000035
+  },
+  {
+    "id": "far-movement",
+    "faq": [
+      366
+    ],
+    "title": "远方普通移动牌无效，同在远方可互相选择",
+    "status": "passed",
+    "ms": 2.748299999999972
+  },
+  {
+    "id": "illusion-move-counters",
+    "faq": [
+      167,
+      168
+    ],
+    "title": "幻想先移动再承受移动后版图的计数牌",
+    "status": "passed",
+    "ms": 7.226200000000063
+  },
+  {
+    "id": "illusion-board-block",
+    "faq": [
+      169
+    ],
+    "title": "时间旅者幻想不能无视版图上的友好禁止",
+    "status": "passed",
+    "ms": 3.3589999999999236
+  },
+  {
+    "id": "illusion-opponent-card",
+    "faq": [
+      173
+    ],
+    "title": "预言家幻想仍受版图行动牌作用",
+    "status": "passed",
+    "ms": 6.8163999999999305
+  },
+  {
+    "id": "no-special-block",
+    "faq": [
+      72,
+      73,
+      408
+    ],
+    "title": "禁止友好和禁止密谋不能禁止希望绝望",
+    "status": "passed",
+    "ms": 5.192400000000134
+  },
+  {
+    "id": "addition-before-subtraction",
+    "faq": [
+      48
+    ],
+    "title": "行动牌加减顺序在零值仍正确",
+    "status": "passed",
+    "ms": 3.3213999999998123
+  },
+  {
+    "id": "death-reveal-ninja",
+    "faq": [
+      160,
+      339
+    ],
+    "title": "尸体忍者不能谎报身份",
+    "status": "passed",
+    "ms": 0.7418999999999869
+  },
+  {
+    "id": "copycat-reveal",
+    "faq": [
+      7,
+      181,
+      182,
+      183,
+      184,
+      437,
+      469
+    ],
+    "title": "模仿犯报告其他所有同身份存活角色，排除自己、尸体和未登场",
+    "status": "passed",
+    "ms": 3.0471999999999753
+  },
+  {
+    "id": "attributes",
+    "faq": [
+      110,
+      120,
+      142,
+      376
+    ],
+    "title": "AI黑猫无性别、神灵双性别、UP主学生男性",
+    "status": "passed",
+    "ms": 0.4782000000000153
+  },
+  {
+    "id": "nurse-unrefusable",
+    "faq": [
+      74,
+      116,
+      409
+    ],
+    "title": "护士绝望/必定无视不能拒绝自身能力",
+    "status": "passed",
+    "ms": 8.205200000000104
+  },
+  {
+    "id": "scholar-clear",
+    "faq": [
+      80,
+      166,
+      415,
+      447
+    ],
+    "title": "学者移除包括希望绝望护卫全部计数，木偶不再触发",
+    "status": "passed",
+    "ms": 7.375099999999975
+  },
+  {
+    "id": "counter-transfer",
+    "faq": [
+      81,
+      82,
+      159,
+      174,
+      416,
+      418
+    ],
+    "title": "鉴别员与御神木可转移希望绝望护卫",
+    "status": "passed",
+    "ms": 2.3774000000000797
+  },
+  {
+    "id": "transfer-no-intrigue",
+    "faq": [
+      155
+    ],
+    "title": "转校生没有密谋时不会凭空增加友好",
+    "status": "passed",
+    "ms": 4.510899999999992
+  },
+  {
+    "id": "reveal-absent-culprit",
+    "faq": [
+      156
+    ],
+    "title": "神灵事件揭示读取剧本中的未登场当事人",
+    "status": "passed",
+    "ms": 0.9320999999999913
+  },
+  {
+    "id": "grant-dedup",
+    "faq": [
+      88
+    ],
+    "title": "多个希望绝望获得条件不重复发牌",
+    "status": "passed",
+    "ms": 1.5799999999999272
+  },
+  {
+    "id": "hsa-victims",
+    "faq": [
+      248,
+      249,
+      252,
+      253,
+      265
+    ],
+    "title": "HSA版图密谋作为尸体可移动复活和揭示",
+    "status": "passed",
+    "ms": 1.6757000000000062
+  },
+  {
+    "id": "curse-removal",
+    "faq": [
+      237,
+      239,
+      240,
+      242
+    ],
+    "title": "附身诅咒跟随角色；尸体/不死的诅咒归还版图",
+    "status": "passed",
+    "ms": 15.205600000000004
+  },
+  {
+    "id": "curse-unlimited",
+    "faq": [
+      244,
+      245
+    ],
+    "title": "新增诅咒不挪用旧牌，无五张上限",
+    "status": "passed",
+    "ms": 28.448300000000017
+  },
+  {
+    "id": "virus-reversible",
+    "faq": [
+      30,
+      213
+    ],
+    "title": "妄想扩大病毒是动态身份，不安下降恢复平民",
+    "status": "passed",
+    "ms": 0.48490000000015243
+  },
+  {
+    "id": "causal-identity",
+    "faq": [
+      198,
+      317,
+      318,
+      319,
+      320,
+      321,
+      428
+    ],
+    "title": "因果之绊EX覆盖运行身份及拒绝，不保留亲友身份",
+    "status": "passed",
+    "ms": 2.319200000000137
+  },
+  {
+    "id": "world-current-reveal",
+    "faq": [
+      8,
+      439
+    ],
+    "title": "表里身份公开按当前世界，而非死亡时世界",
+    "status": "passed",
+    "ms": 0.6692999999997937
+  },
+  {
+    "id": "world-ex-independent",
+    "faq": [
+      9,
+      440
+    ],
+    "title": "学者EX修改与一天多次世界移动分别累计",
+    "status": "passed",
+    "ms": 1.3169000000000324
+  },
+  {
+    "id": "death-absence",
+    "faq": [
+      123,
+      124,
+      298
+    ],
+    "title": "未登场强迫症不能发生事件，时间旅者和侦探不能用能力",
+    "status": "passed",
+    "ms": 10.739199999999983
+  },
+  {
+    "id": "projection-arrival",
+    "faq": [
+      121
+    ],
+    "title": "未登场神灵与转校生不泄露给主人公",
+    "status": "passed",
+    "ms": 2.0877000000000407
+  },
+  {
+    "id": "traitor-hope",
+    "faq": [
+      278,
+      279,
+      280,
+      464
+    ],
+    "title": "最终计划希望暂时禁用背叛者，移除希望恢复",
+    "status": "passed",
+    "ms": 0.5739000000000942
+  },
+  {
+    "id": "setup-pairs",
+    "faq": [
+      0,
+      4,
+      5,
+      6,
+      185,
+      435,
+      436,
+      438
+    ],
+    "title": "AHR完整身份对：禁止混配、局外人不持成对身份、AI妹妹豁免与模仿犯复制",
+    "status": "passed",
+    "ms": 2.289099999999962
+  },
+  {
+    "id": "setup-arrival",
+    "faq": [
+      122,
+      153,
+      154
+    ],
+    "title": "登场轮日必须固定且在剧本范围内，允许更早事件由晚登场角色担当",
+    "status": "passed",
+    "ms": 2.6424999999999272
+  },
+  {
+    "id": "setup-character-constraints",
+    "faq": [
+      186,
+      195,
+      197,
+      200,
+      315,
+      369,
+      373,
+      375,
+      426,
+      429
+    ],
+    "title": "从者仙人初始区域、仙人X、临时工书写、少女与男性限制",
+    "status": "passed",
+    "ms": 2.380000000000109
+  },
+  {
+    "id": "setup-copycat-attributes",
+    "faq": [
+      179
+    ],
+    "title": "模仿犯也应满足身份对应的剧本制作属性限制",
+    "status": "passed",
+    "ms": 1.6573000000000775
+  },
+  {
+    "id": "setup-outsider",
+    "faq": [
+      125,
+      127,
+      128,
+      180,
+      212
+    ],
+    "title": "局外人只能取当前模组且不被规则直接分配的身份，模仿犯可复制",
+    "status": "passed",
+    "ms": 2.1527000000000953
+  },
+  {
+    "id": "setup-secret-addition",
+    "faq": [
+      130,
+      282,
+      283,
+      468
+    ],
+    "title": "捏造秘密追加身份不应占用局外人的规则自带身份池",
+    "status": "passed",
+    "ms": 1.22849999999994
+  },
+  {
+    "id": "setup-true-incidents",
+    "faq": [
+      330,
+      340,
+      347,
+      349,
+      352
+    ],
+    "title": "真实连续杀人才能共用当事人；伪造命名不改变真实事件约束",
+    "status": "passed",
+    "ms": 1.6764999999998054
+  },
+  {
+    "id": "setup-opposite-sex",
+    "faq": [
+      246,
+      247,
+      427
+    ],
+    "title": "吸血鬼神灵可配男性或女性关键人物，AI无性别不能配",
+    "status": "passed",
+    "ms": 1.776600000000144
+  },
+  {
+    "id": "fs-plus-x-count",
+    "faq": [
+      93
+    ],
+    "title": "FS+仍一个X槽，提供第四个X规则超越世界线",
+    "status": "passed",
+    "ms": 18.306299999999965
+  },
+  {
+    "id": "plus-fragment-allocation",
+    "faq": [
+      92,
+      94,
+      95,
+      131,
+      434
+    ],
+    "title": "因果残片在身份分配后覆盖平民；模仿犯先模仿平民再覆盖，局外人不可取",
+    "status": "passed",
+    "ms": 6.4681000000000495
+  },
+  {
+    "id": "nurse-effective-target",
+    "faq": [
+      83,
+      217,
+      417
+    ],
+    "title": "护士可以减少1不安1绝望男学生的不安，但不移除绝望",
+    "status": "passed",
+    "ms": 3.911000000000058
+  },
+  {
+    "id": "lover-despair",
+    "faq": [
+      85,
+      420
+    ],
+    "title": "求爱者2不安1绝望可杀害主人公",
+    "status": "passed",
+    "ms": 1.9303999999999633
+  },
+  {
+    "id": "doctor-mastermind",
+    "faq": [
+      54,
+      75,
+      103,
+      410
+    ],
+    "title": "医生的必定无视不阻止剧作家使用2友好能力",
+    "status": "passed",
+    "ms": 5.399800000000141
+  },
+  {
+    "id": "doctor-release-refusal",
+    "faq": [
+      104
+    ],
+    "title": "医生释放住院患者必须成功通过拒绝",
+    "status": "passed",
+    "ms": 8.975099999999884
+  },
+  {
+    "id": "reused-after-revival",
+    "faq": [
+      146
+    ],
+    "title": "同日死亡复活不重置能力次数",
+    "status": "passed",
+    "ms": 21.17529999999988
+  },
+  {
+    "id": "soldier-persistent",
+    "faq": [
+      148
+    ],
+    "title": "军人保护在角色死亡后保持",
+    "status": "passed",
+    "ms": 6.906799999999976
+  },
+  {
+    "id": "alien-empty-revive",
+    "faq": [
+      147
+    ],
+    "title": "无同区尸体不能发动异界人复活",
+    "status": "passed",
+    "ms": 1.1937000000000353
+  },
+  {
+    "id": "class-empty-recover",
+    "faq": [
+      105
+    ],
+    "title": "班长无已用轮限牌不能空发",
+    "status": "passed",
+    "ms": 1.4378999999998996
+  },
+  {
+    "id": "class-puppet-despair",
+    "faq": [
+      10,
+      106,
+      441
+    ],
+    "title": "傀儡班长允许剧作家收回已用绝望牌",
+    "status": "passed",
+    "ms": 9.909400000000005
+  },
+  {
+    "id": "appraiser-empty",
+    "faq": [
+      157,
+      158
+    ],
+    "title": "鉴别员允许无指示物目标；有指示物则必须移动",
+    "status": "passed",
+    "ms": 9.701700000000073
+  },
+  {
+    "id": "puppet-guard",
+    "faq": [
+      11,
+      446
+    ],
+    "title": "提线木偶刑警先得到护卫，再免死并世界移动",
+    "status": "passed",
+    "ms": 5.7952999999999975
+  },
+  {
+    "id": "puppet-removed",
+    "faq": [
+      12,
+      172,
+      448
+    ],
+    "title": "移除幻想后不触发提线木偶或密钥的友好后续",
+    "status": "passed",
+    "ms": 6.813699999999926
+  },
+  {
+    "id": "fairytale-transfer",
+    "faq": [
+      13,
+      450
+    ],
+    "title": "童谣鉴别员杀死移动指示物的双方",
+    "status": "passed",
+    "ms": 25.29690000000005
+  },
+  {
+    "id": "fairytale-servant",
+    "faq": [
+      15,
+      452
+    ],
+    "title": "童谣从者保护的目标死亡由从者自己替代",
+    "status": "passed",
+    "ms": 5.602000000000089
+  },
+  {
+    "id": "fairytale-no-target",
+    "faq": [
+      449
+    ],
+    "title": "无指定对象的童谣职员能力不杀害角色",
+    "status": "passed",
+    "ms": 3.749900000000025
+  },
+  {
+    "id": "henchman-no-incident",
+    "faq": [
+      19,
+      117,
+      336,
+      445,
+      458
+    ],
+    "title": "禁止事件优先强迫症、预言家与次元转换必发",
+    "status": "passed",
+    "ms": 3.427400000000034
+  },
+  {
+    "id": "prophet-self",
+    "faq": [
+      337,
+      338
+    ],
+    "title": "预言家不阻止自己的事件，也不阻止传谣人放不安",
+    "status": "passed",
+    "ms": 8.825399999999945
+  },
+  {
+    "id": "black-cat-events",
+    "faq": [
+      143,
+      144,
+      145,
+      304
+    ],
+    "title": "黑猫事件无效果，但MC事件发生和EX正常记录",
+    "status": "passed",
+    "ms": 6.227100000000064
+  },
+  {
+    "id": "hospital-batch",
+    "faq": [
+      228,
+      229,
+      230
+    ],
+    "title": "医院事故按密谋分级，同批死亡不公开关键人物身份",
+    "status": "passed",
+    "ms": 7.814900000000307
+  },
+  {
+    "id": "disappearance-stationary",
+    "faq": [
+      235,
+      236,
+      308
+    ],
+    "title": "失踪原地不动不公开当事人，也不创建次日定身",
+    "status": "passed",
+    "ms": 5.51740000000018
+  },
+  {
+    "id": "corpse-love",
+    "faq": [
+      220,
+      257
+    ],
+    "title": "两恋人同时死亡不加不安；一心上人死亡为两个求爱者加6",
+    "status": "passed",
+    "ms": 6.152799999999843
+  },
+  {
+    "id": "key-friend-cleanup",
+    "faq": [
+      37,
+      218,
+      221
+    ],
+    "title": "关键人物触发轮回结束仍必须公开死亡亲友",
+    "status": "passed",
+    "ms": 4.0470000000000255
+  },
+  {
+    "id": "causal-previous",
+    "faq": [
+      84,
+      149,
+      171,
+      203,
+      215,
+      419
+    ],
+    "title": "因果线读取跨轮有效友好；转校生和替代临时工未登场排除",
+    "status": "passed",
+    "ms": 4.91800000000012
+  },
+  {
+    "id": "causal-ex-once",
+    "faq": [
+      150,
+      316,
+      323,
+      324
+    ],
+    "title": "因果之绊与诸神之骰同用只产生一次EX选择并排除未登场",
+    "status": "passed",
+    "ms": 3.989300000000185
+  },
+  {
+    "id": "wm-low-ex",
+    "faq": [
+      382,
+      383
+    ],
+    "title": "EX下降使当前阈值效果失效，未到日末不判4EX死亡",
+    "status": "passed",
+    "ms": 6.682699999999841
+  },
+  {
+    "id": "wm-ex-history",
+    "faq": [
+      387
+    ],
+    "title": "黄衣之王按曾经上升判断，不是当前EX",
+    "status": "passed",
+    "ms": 2.1484999999997854
+  },
+  {
+    "id": "wm-refusal-retry",
+    "faq": [
+      380,
+      422
+    ],
+    "title": "WM重复拒绝可重试，每次EX增加",
+    "status": "passed",
+    "ms": 6.197299999999814
+  },
+  {
+    "id": "once-scheduled-incident",
+    "faq": [
+      403,
+      404,
+      459
+    ],
+    "title": "同名不同日事件各有本局首次发生记录",
+    "status": "passed",
+    "ms": 3.873199999999997
+  },
+  {
+    "id": "special-markers-absent",
+    "faq": [
+      90,
+      277,
+      424,
+      463
+    ],
+    "title": "LL特殊胜利计入未登场与移除角色标记",
+    "status": "passed",
+    "ms": 0.6774000000000342
+  },
+  {
+    "id": "sacrifice-batch",
+    "faq": [
+      392
+    ],
+    "title": "祭品同时杀害所有非不死角色和主人公",
+    "status": "passed",
+    "ms": 4.354800000000068
+  },
+  {
+    "id": "virtual-world",
+    "faq": [
+      1,
+      442,
+      443,
+      444
+    ],
+    "title": "虚幻世界只统计规则分配的在场强迫症，含尸体不含移除",
+    "status": "passed",
+    "ms": 2.5068999999998596
+  },
+  {
+    "id": "boss-ghost",
+    "faq": [
+      138,
+      261
+    ],
+    "title": "尸体大人物鬼魂不能把领地视作当前区域",
+    "status": "passed",
+    "ms": 4.1206999999999425
+  },
+  {
+    "id": "living-zombie",
+    "faq": [
+      129,
+      266
+    ],
+    "title": "独处的局外人丧尸也计为丧尸，优势杀害自己",
+    "status": "passed",
+    "ms": 1.7093000000004395
+  },
+  {
+    "id": "boss-killer-target",
+    "faq": [
+      133,
+      134,
+      224,
+      225
+    ],
+    "title": "大人物可从领地发动杀手，但不能被外部视作身处领地",
+    "status": "passed",
+    "ms": 5.271900000000187
+  },
+  {
+    "id": "boss-incident",
+    "faq": [
+      136,
+      137,
+      231,
+      300,
+      301
+    ],
+    "title": "大人物事件作用于实际所在地而非领地",
+    "status": "passed",
+    "ms": 1.7049000000001797
+  },
+  {
+    "id": "ninja-setup-reveal",
+    "faq": [
+      334,
+      335
+    ],
+    "title": "活忍者可声明剧本的未登场身份，不可声明运行期派生身份",
+    "status": "passed",
+    "ms": 0.5761000000002241
+  },
+  {
+    "id": "forged-threshold",
+    "faq": [
+      346,
+      348
+    ],
+    "title": "伪造事件按实际事件的不安条件；公开阴谋不改成密谋条件",
+    "status": "passed",
+    "ms": 1.821100000000115
+  },
+  {
+    "id": "ai-forged",
+    "faq": [
+      111,
+      112,
+      113,
+      115,
+      297,
+      350,
+      351,
+      460
+    ],
+    "title": "AI只调用公开事件效果；不存在的事件无效果，调用不记事件发生",
+    "status": "passed",
+    "ms": 37.556800000000294
+  },
+  {
+    "id": "event-no-self-murder",
+    "faq": [
+      232,
+      406
+    ],
+    "title": "谋杀可以指向不死角色，疯狂杀人也可以指向自己",
+    "status": "passed",
+    "ms": 2.9265999999997803
+  },
+  {
+    "id": "broadcast-clamp",
+    "faq": [
+      233
+    ],
+    "title": "散播可从零友好角色移除，仍放置固定2友好",
+    "status": "passed",
+    "ms": 3.804200000000037
+  },
+  {
+    "id": "break-incident",
+    "faq": [
+      342,
+      343
+    ],
+    "title": "破局排除尸体，允许零密谋活人",
+    "status": "passed",
+    "ms": 2.0524999999997817
+  },
+  {
+    "id": "confession",
+    "faq": [
+      341
+    ],
+    "title": "自白公开角色及身份",
+    "status": "passed",
+    "ms": 1.3933000000001812
+  },
+  {
+    "id": "classify-report",
+    "faq": [
+      312,
+      314
+    ],
+    "title": "绝密报告根据公开身份名判定，而不是角色真实身份",
+    "status": "passed",
+    "ms": 1.5533999999997832
+  },
+  {
+    "id": "factor-corpse",
+    "faq": [
+      327,
+      328
+    ],
+    "title": "X异因子不选尸体，不借大人物领地放密谋",
+    "status": "passed",
+    "ms": 7.791099999999915
+  },
+  {
+    "id": "initial-position",
+    "faq": [
+      210,
+      211,
+      285,
+      470
+    ],
+    "title": "炸弹读取初始区域，未登场神灵魔女仍计数",
+    "status": "passed",
+    "ms": 2.7356999999997242
+  },
+  {
+    "id": "loss-timing",
+    "faq": [
+      35,
+      385,
+      386
+    ],
+    "title": "达贡和染血按轮回末判断，零EX也满足阈值",
+    "status": "passed",
+    "ms": 2.43100000000004
+  },
+  {
+    "id": "scholar-start",
+    "faq": [
+      162,
+      163,
+      164
+    ],
+    "title": "学者每轮由剧作家选择普通三种指示物",
+    "status": "passed",
+    "ms": 0.470299999999952
+  },
+  {
+    "id": "friend-revival",
+    "faq": [
+      161,
+      219,
+      322
+    ],
+    "title": "公开过的亲友复活后跨轮有友好，EX与亲友友好同时存在",
+    "status": "passed",
+    "ms": 3.5576999999998407
+  },
+  {
+    "id": "parttimer-replacement",
+    "faq": [
+      196,
+      199,
+      425
+    ],
+    "title": "临时工死亡次日只登场一张替代牌，临时工尸体为平民",
+    "status": "passed",
+    "ms": 1.2024999999998727
+  },
+  {
+    "id": "far-ability-targets",
+    "faq": [
+      367,
+      368,
+      372,
+      378
+    ],
+    "title": "失踪不能选择远方但可离开远方；媒体人无限射程",
+    "status": "passed",
+    "ms": 14.09270000000015
+  },
+  {
+    "id": "fool-intrigue",
+    "faq": [
+      292
+    ],
+    "title": "士的宁愚者事件后清不安但不清密谋",
+    "status": "passed",
+    "ms": 3.1282999999998538
+  },
+  {
+    "id": "twins-area",
+    "faq": [
+      293,
+      294,
+      295,
+      370
+    ],
+    "title": "双胞胎改变事件计算位置，但尸体留在实际位置；远方不取对角",
+    "status": "passed",
+    "ms": 2.753700000000208
+  },
+  {
+    "id": "lockdown-moves",
+    "faq": [
+      303,
+      311
+    ],
+    "title": "封锁公开版图并禁止能力进出",
+    "status": "passed",
+    "ms": 1.9605999999998858
+  },
+  {
+    "id": "wm-witness",
+    "faq": [
+      401
+    ],
+    "title": "目击者和杀人狂同批死亡仍加EX",
+    "status": "passed",
+    "ms": 1.6298999999999069
+  },
+  {
+    "id": "wizard-death",
+    "faq": [
+      394,
+      395
+    ],
+    "title": "死亡巫师不公开身份；深潜者公开角色和身份",
+    "status": "passed",
+    "ms": 4.384700000000066
+  },
+  {
+    "id": "no-negative-incident-threshold",
+    "faq": [
+      331,
+      333
+    ],
+    "title": "灭亡讴歌降低平民阈值但不能绕过事件的禁止条件",
+    "status": "passed",
+    "ms": 3.1460000000001855
+  },
+  {
+    "id": "butterfly-counters",
+    "faq": [
+      86,
+      421
+    ],
+    "title": "蝴蝶效应只提供友好不安密谋，不提供希望绝望",
+    "status": "passed",
+    "ms": 2.7024999999998727
+  },
+  {
+    "id": "wm-madness",
+    "faq": [
+      384
+    ],
+    "title": "EX4即使提前死亡也不继续剩余轮回",
+    "status": "passed",
+    "ms": 3.8318999999996777
+  },
+  {
+    "id": "psychologist-empty",
+    "faq": [
+      302
+    ],
+    "title": "心理医生减少零不安不产生角色变化公开通知",
+    "status": "passed",
+    "ms": 1.9406999999996515
+  },
+  {
+    "id": "sister-fairytale",
+    "faq": [
+      14,
+      451
+    ],
+    "title": "妹妹调用童谣媒体人：指定目标随后死亡",
+    "status": "passed",
+    "ms": 8.58120000000008
+  },
+  {
+    "id": "boss-evangelist",
+    "faq": [
+      16,
+      140,
+      453
+    ],
+    "title": "布道者大人物死后可选择领地放绝望，但领地从者不替死",
+    "status": "passed",
+    "ms": 24.562600000000202
+  },
+  {
+    "id": "alice-noop",
+    "faq": [
+      17,
+      454
+    ],
+    "title": "爱丽丝无目标仍消耗每轮一次，次日新增同区角色不再给希望",
+    "status": "passed",
+    "ms": 16.94880000000012
+  },
+  {
+    "id": "singularity-once",
+    "faq": [
+      20,
+      21
+    ],
+    "title": "奇点跨表里世界仍只首次死亡；AI只移动世界",
+    "status": "passed",
+    "ms": 11.004399999999805
+  },
+  {
+    "id": "cult-thresholds",
+    "faq": [
+      18,
+      177,
+      178,
+      457
+    ],
+    "title": "教主两次偏移阈值，猎奇杀人仍仅增加2EX",
+    "status": "passed",
+    "ms": 4.467200000000048
+  },
+  {
+    "id": "mastermind-doctor-independent",
+    "faq": [
+      47,
+      53,
+      55,
+      56
+    ],
+    "title": "医生双方使用次数独立；主谋计数能力不被行动牌禁止",
+    "status": "passed",
+    "ms": 4.204099999999926
+  },
+  {
+    "id": "two-goodwill",
+    "faq": [
+      59,
+      62,
+      63
+    ],
+    "title": "同一角色不同友好能力各可用；当阶段新增友好即时开放",
+    "status": "passed",
+    "ms": 8.901800000000094
+  },
+  {
+    "id": "wm-despair-refusal",
+    "faq": [
+      87
+    ],
+    "title": "WM由绝望产生友好无视，拒绝仍增加EX",
+    "status": "passed",
+    "ms": 2.6860999999998967
+  },
+  {
+    "id": "informant-plus",
+    "faq": [
+      91,
+      109,
+      433
+    ],
+    "title": "扩展情报商选项包含超越世界线",
+    "status": "passed",
+    "ms": 1.6416999999996733
+  },
+  {
+    "id": "ai-crowd",
+    "faq": [
+      114,
+      263
+    ],
+    "title": "AI调用群众事件以都市为当事人区域",
+    "status": "passed",
+    "ms": 11.79989999999998
+  },
+  {
+    "id": "boss-serial",
+    "faq": [
+      132,
+      223
+    ],
+    "title": "大人物杀人狂可选择领地单独角色",
+    "status": "passed",
+    "ms": 2.807800000000043
+  },
+  {
+    "id": "boss-coward-servant",
+    "faq": [
+      139,
+      192,
+      262
+    ],
+    "title": "大人物胆小鬼从领地移动，领地从者跟随",
+    "status": "passed",
+    "ms": 3.5460000000002765
+  },
+  {
+    "id": "absent-loop-memory",
+    "faq": [
+      151,
+      152,
+      202,
+      204,
+      205
+    ],
+    "title": "转校生和替代临时工轮初不在场，不授予因果牌或EX牌",
+    "status": "passed",
+    "ms": 10.54970000000003
+  },
+  {
+    "id": "scholar-ex-choice",
+    "faq": [
+      165
+    ],
+    "title": "学者清空后在EX模组必须选择加减",
+    "status": "passed",
+    "ms": 4.09900000000016
+  },
+  {
+    "id": "removed-reset",
+    "faq": [
+      170
+    ],
+    "title": "移除幻想下一轮重新登场",
+    "status": "passed",
+    "ms": 1.1927999999998065
+  },
+  {
+    "id": "higher-being-shared",
+    "faq": [
+      206,
+      207,
+      208,
+      432
+    ],
+    "title": "上位存在轮限双方共享，拒绝不消耗",
+    "status": "passed",
+    "ms": 13.969499999999698
+  },
+  {
+    "id": "contract-factor",
+    "faq": [
+      209,
+      227
+    ],
+    "title": "契约不安定因子不因都市2密谋变关键人物；死亡后不转化",
+    "status": "passed",
+    "ms": 3.0396999999998116
+  },
+  {
+    "id": "black-cat-butterfly",
+    "faq": [
+      214
+    ],
+    "title": "黑猫抑制事件效果但仍触发改变未来失败",
+    "status": "passed",
+    "ms": 2.7393999999999323
+  },
+  {
+    "id": "gossip-self",
+    "faq": [
+      216
+    ],
+    "title": "传谣人允许给自己放不安",
+    "status": "passed",
+    "ms": 3.4812999999999192
+  },
+  {
+    "id": "curse-empty",
+    "faq": [
+      238
+    ],
+    "title": "空版图诅咒不附着角色，被诅咒土地仍判失败",
+    "status": "passed",
+    "ms": 2.6842999999998938
+  },
+  {
+    "id": "ghost-order",
+    "faq": [
+      251,
+      254,
+      255,
+      256,
+      260
+    ],
+    "title": "鬼魂强制优先；胆小鬼与鬼魂同批按入口位置加不安移动",
+    "status": "passed",
+    "ms": 5.733999999999924
+  },
+  {
+    "id": "desecration-no-target",
+    "faq": [
+      274
+    ],
+    "title": "亵渎杀人无杀害对象必须放版图密谋",
+    "status": "passed",
+    "ms": 7.034499999999753
+  },
+  {
+    "id": "celebrity-independent",
+    "faq": [
+      286,
+      471
+    ],
+    "title": "两位网络名流轮限独立",
+    "status": "passed",
+    "ms": 35.92710000000034
+  },
+  {
+    "id": "sealed-effective",
+    "faq": [
+      291,
+      476
+    ],
+    "title": "封印终末与爆裂用有效密谋计数",
+    "status": "passed",
+    "ms": 1.8702000000002954
+  },
+  {
+    "id": "twins-detective",
+    "faq": [
+      296
+    ],
+    "title": "侦探按实际位置触发双胞胎事件",
+    "status": "passed",
+    "ms": 2.735899999999674
+  },
+  {
+    "id": "poisoner-self",
+    "faq": [
+      305
+    ],
+    "title": "EX2独处投毒者必须选择自己死亡",
+    "status": "passed",
+    "ms": 1.309700000000248
+  },
+  {
+    "id": "removed-count",
+    "faq": [
+      329
+    ],
+    "title": "死亡真人秀排除已移除幻想",
+    "status": "passed",
+    "ms": 1.5290999999997439
+  },
+  {
+    "id": "absent-prophet",
+    "faq": [
+      332
+    ],
+    "title": "未登场移除和EX预言家不降低平民事件阈值",
+    "status": "passed",
+    "ms": 2.0718000000001666
+  },
+  {
+    "id": "fake-suicide-ex",
+    "faq": [
+      344,
+      345
+    ],
+    "title": "伪装自杀使所有EX牌角色禁止主人公行动，仍可友好",
+    "status": "passed",
+    "ms": 2.2103000000001884
+  },
+  {
+    "id": "streamer-virtual",
+    "faq": [
+      377,
+      379
+    ],
+    "title": "UP主可在关注区域对无EX目标用能力",
+    "status": "passed",
+    "ms": 8.138699999999972
+  },
+  {
+    "id": "paranoid-refusal",
+    "faq": [
+      388
+    ],
+    "title": "私语获得友好能力仍保留偏执狂强制拒绝",
+    "status": "passed",
+    "ms": 3.3779999999997017
+  },
+  {
+    "id": "mad-truth",
+    "faq": [
+      389,
+      390,
+      391
+    ],
+    "title": "疯狂真相仅轮初EX决定替换失败条件，不改变身份，无魔女炸弹不失败",
+    "status": "passed",
+    "ms": 2.0282999999999447
+  },
+  {
+    "id": "sacrifice-intrigue-event",
+    "faq": [
+      393
+    ],
+    "title": "祭品不能用不安替代廷达罗斯密谋阈值",
+    "status": "passed",
+    "ms": 0.8737999999998465
+  },
+  {
+    "id": "wizard-completion",
+    "faq": [
+      396,
+      398,
+      399,
+      400
+    ],
+    "title": "巫师友好完成先公开，队长选EX；死亡巫师不公开",
+    "status": "passed",
+    "ms": 55.322200000000066
+  },
+  {
+    "id": "hound-prior",
+    "faq": [
+      405
+    ],
+    "title": "廷达罗斯只在之后发生事件时杀主人公",
+    "status": "passed",
+    "ms": 1.4805999999998676
+  },
+  {
+    "id": "ll-hospital-special-timing",
+    "faq": [
+      276,
+      462
+    ],
+    "title": "医院事故达第五死亡后主人公死亡：有次轮才可在下轮日末胜利",
+    "status": "passed",
+    "ms": 6.346900000000005
+  },
+  {
+    "id": "ll-key-next-loop",
+    "faq": [
+      288,
+      473
+    ],
+    "title": "最后一天密钥触发后次轮恢复三张剧作家牌",
+    "status": "passed",
+    "ms": 7.879500000000007
+  },
+  {
+    "id": "unsupported-custom-contract",
+    "faq": [],
+    "title": "任意文本特殊规则被契约明确拒绝，不能误当作已实现",
+    "status": "passed",
+    "ms": 1.0187000000000808
+  },
+  {
+    "id": "henchman-fool-completion",
+    "faq": [
+      118,
+      119,
+      309,
+      310
+    ],
+    "title": "手下愚者：连续杀人完成清不安，猎奇杀人中断不清",
+    "status": "passed",
+    "ms": 10.609400000000278
+  },
+  {
+    "id": "ll-communication-order",
+    "faq": [
+      89,
+      423
+    ],
+    "title": "LL异界人先已沟通再死亡标记，再关键人物失败",
+    "status": "passed",
+    "ms": 4.186400000000049
+  },
+  {
+    "id": "ll-hope-final",
+    "faq": [
+      281,
+      466
+    ],
+    "title": "最终计划希望禁用C，最终轮失败进入普通决战",
+    "status": "passed",
+    "ms": 0.6415000000001783
+  },
+  {
+    "id": "zombie-before-optional",
+    "faq": [
+      259
+    ],
+    "title": "丧尸优势杀害先于可选的尸体移动",
+    "status": "passed",
+    "ms": 1.1455000000000837
+  },
+  {
+    "id": "identity-pool-cap",
+    "faq": [
+      29
+    ],
+    "title": "身份上限裁剪规则追加数量，游戏中变更不重新验证分配",
+    "status": "passed",
+    "ms": 0.6529999999997926
+  },
+  {
+    "id": "failure-disclosure",
+    "faq": [
+      36,
+      38,
+      39,
+      226
+    ],
+    "title": "失败不泄露隐藏原因；主人公死亡单独声明",
+    "status": "passed",
+    "ms": 3.4499000000000706
+  },
+  {
+    "id": "refusal-notification",
+    "faq": [
+      64,
+      65,
+      66,
+      68,
+      69,
+      79,
+      414
+    ],
+    "title": "拒绝公开通知且不消耗轮限；接受空发消耗次数",
+    "status": "passed",
+    "ms": 104.89029999999957
+  },
+  {
+    "id": "outsider-guess",
+    "faq": [
+      126
+    ],
+    "title": "局外人也在最终决战猜测角色中",
+    "status": "passed",
+    "ms": 0.76299999999992
+  },
+  {
+    "id": "parttimer-simultaneous",
+    "faq": [
+      201
+    ],
+    "title": "临时工与替代同时触发，两份效果同批",
+    "status": "passed",
+    "ms": 2.125499999999647
+  },
+  {
+    "id": "cult-compound",
+    "faq": [
+      175,
+      176
+    ],
+    "title": "教主第二次效果使用第一次移动后的区域",
+    "status": "passed",
+    "ms": 23.04930000000013
+  },
+  {
+    "id": "curses-choice",
+    "faq": [
+      241
+    ],
+    "title": "两张诅咒可选同一人或不同人",
+    "status": "passed",
+    "ms": 4.571300000000065
+  },
+  {
+    "id": "curses-before-killer",
+    "faq": [
+      243
+    ],
+    "title": "诅咒先杀第三人，杀人狂再按两人独处杀害",
+    "status": "passed",
+    "ms": 2.720800000000054
+  },
+  {
+    "id": "two-curse-plots",
+    "faq": [
+      250
+    ],
+    "title": "魔女遗咒与被诅咒土地各放一张诅咒",
+    "status": "passed",
+    "ms": 4.1283000000003085
+  },
+  {
+    "id": "crowd-area-and-interruption",
+    "faq": [
+      269,
+      271,
+      272
+    ],
+    "title": "群众事件使用群众版图；关键人物死亡中断后续主人公死亡",
+    "status": "passed",
+    "ms": 9.179799999999886
+  },
+  {
+    "id": "solitude-batch",
+    "faq": [
+      270
+    ],
+    "title": "孤守为每人分别选版图后同时移动",
+    "status": "passed",
+    "ms": 3.666400000000067
+  },
+  {
+    "id": "wizard-outsider",
+    "faq": [
+      398
+    ],
+    "title": "异界人巫师杀关键人物后仍公开活巫师",
+    "status": "passed",
+    "ms": 5.197099999999864
+  },
+  {
+    "id": "immortal-clockwise",
+    "faq": [
+      374
+    ],
+    "title": "仙人事件可选顺时针区域并在该区域选目标",
+    "status": "passed",
+    "ms": 2.1875
+  },
+  {
+    "id": "empathy-captain",
+    "faq": [
+      381
+    ],
+    "title": "禁止讨论下感应咒文由队长放友好",
+    "status": "passed",
+    "ms": 0.6618000000003121
+  },
+  {
+    "id": "cultist-virtual-area",
+    "faq": [
+      141,
+      397,
+      402
+    ],
+    "title": "EX3邪教徒能同时取消所选区域的禁止密谋，不能覆盖两个区域",
+    "status": "passed",
+    "ms": 10.905299999999897
+  },
+  {
+    "id": "boss-detective",
+    "faq": [
+      135,
+      299
+    ],
+    "title": "EX0大人物侦探可以选择领地是否触发事件",
+    "status": "passed",
+    "ms": 3.1448999999997795
+  }
+]

@@ -1,0 +1,67 @@
+vite v7.3.6 building client environment for production...
+transforming...
+✓ 31 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.41 kB │ gzip:  0.31 kB
+dist/assets/index-D3NqyRp0.css    4.89 kB │ gzip:  1.73 kB
+dist/assets/index-O5ZiizqB.js   241.32 kB │ gzip: 76.84 kB
+✓ built in 1.10s
+TAP version 13
+# Subtest: browser source and production bundle contain no rule engine or secret fixture
+ok 1 - browser source and production bundle contain no rule engine or secret fixture
+  ---
+  duration_ms: 19.2301
+  type: 'test'
+  ...
+# Subtest: BTX review uses complete official BTX-01G, including key person and day-three hospital incident
+ok 2 - BTX review uses complete official BTX-01G, including key person and day-three hospital incident
+  ---
+  duration_ms: 451.2739
+  type: 'test'
+  ...
+# Subtest: default FS profile is the complete official FS-01G three-day script
+ok 3 - default FS profile is the complete official FS-01G three-day script
+  ---
+  duration_ms: 499.491
+  type: 'test'
+  ...
+# Subtest: background knowledge endpoint uses public version, returns counts and closes worker
+ok 4 - background knowledge endpoint uses public version, returns counts and closes worker
+  ---
+  duration_ms: 3463.3007
+  type: 'test'
+  ...
+# Subtest: file UI preflight, authenticated reads/writes, and rejection of other opaque origins
+ok 5 - file UI preflight, authenticated reads/writes, and rejection of other opaque origins
+  ---
+  duration_ms: 458.4322
+  type: 'test'
+  ...
+# Subtest: review API preserves player isolation, validates commands, and reaches a real engine victory
+ok 6 - review API preserves player isolation, validates commands, and reaches a real engine victory
+  ---
+  duration_ms: 774.2612
+  type: 'test'
+  ...
+# Subtest: invalid scripts do not replace an existing game; games stay independent
+ok 7 - invalid scripts do not replace an existing game; games stay independent
+  ---
+  duration_ms: 12.3898
+  type: 'test'
+  ...
+# Subtest: protagonist card counters and goodwill ability choices settle through the engine
+ok 8 - protagonist card counters and goodwill ability choices settle through the engine
+  ---
+  duration_ms: 42.2089
+  type: 'test'
+  ...
+1..8
+# tests 8
+# suites 0
+# pass 8
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 4769.2618

@@ -1,0 +1,282 @@
+{
+  "generatedAt": "2026-11-08T15:50:37.487Z",
+  "codeDigest": "34525035ae7bbcae6c6b3bcaacd96cfb79b5c46ee7b5afecfc49cde94963ed25",
+  "ruleDigest": "17757dbf8a680d78a59da3a9ad0ad191283a1aa15c7d1d718d3ac23e1b34e21a",
+  "verification": {
+    "typecheck": "passed",
+    "tests": 45,
+    "passed": 45,
+    "humanAcceptance": "pending",
+    "exhaustiveCombinationProof": false,
+    "reportBrowserCheck": "passed",
+    "repositoryChecks": {
+      "machineRuleAssets": {
+        "status": "passed",
+        "passed": 12
+      },
+      "configuration": {
+        "status": "failed",
+        "details": "[warn] pnpm-workspace.yaml\n[warn] tsconfig.base.json\n[warn] apps/server/package.json\n[warn] apps/web/package.json\n[warn] apps/server/tsconfig.json\n[warn] apps/web/tsconfig.json\n[warn] packages/content/package.json\n[warn] packages/contracts/package.json\n[warn] packages/engine/package.json\n[warn] .prettierrc.json\n[warn] .github/workflows/check.yml\n[warn] Code style issues found in 11 files. Run Prettier with --write to fix."
+      },
+      "pythonLock": {
+        "status": "not-verified",
+        "details": "spawnSync uv ENOENT"
+      }
+    }
+  },
+  "coverage": [
+    {
+      "module": "FS",
+      "coverage": [
+        {
+          "kind": "characters",
+          "total": 37,
+          "translated": 37,
+          "pending": []
+        },
+        {
+          "kind": "identities",
+          "total": 9,
+          "translated": 9,
+          "pending": []
+        },
+        {
+          "kind": "plots",
+          "total": 6,
+          "translated": 6,
+          "pending": []
+        },
+        {
+          "kind": "incidents",
+          "total": 7,
+          "translated": 7,
+          "pending": []
+        }
+      ]
+    },
+    {
+      "module": "BTX",
+      "coverage": [
+        {
+          "kind": "characters",
+          "total": 37,
+          "translated": 37,
+          "pending": []
+        },
+        {
+          "kind": "identities",
+          "total": 13,
+          "translated": 13,
+          "pending": []
+        },
+        {
+          "kind": "plots",
+          "total": 12,
+          "translated": 12,
+          "pending": []
+        },
+        {
+          "kind": "incidents",
+          "total": 9,
+          "translated": 9,
+          "pending": []
+        }
+      ]
+    },
+    {
+      "module": "MZ",
+      "coverage": [
+        {
+          "kind": "characters",
+          "total": 37,
+          "translated": 37,
+          "pending": []
+        },
+        {
+          "kind": "identities",
+          "total": 14,
+          "translated": 14,
+          "pending": []
+        },
+        {
+          "kind": "plots",
+          "total": 12,
+          "translated": 12,
+          "pending": []
+        },
+        {
+          "kind": "incidents",
+          "total": 11,
+          "translated": 11,
+          "pending": []
+        }
+      ]
+    },
+    {
+      "module": "MC",
+      "coverage": [
+        {
+          "kind": "characters",
+          "total": 37,
+          "translated": 37,
+          "pending": []
+        },
+        {
+          "kind": "identities",
+          "total": 14,
+          "translated": 14,
+          "pending": []
+        },
+        {
+          "kind": "plots",
+          "total": 12,
+          "translated": 12,
+          "pending": []
+        },
+        {
+          "kind": "incidents",
+          "total": 11,
+          "translated": 11,
+          "pending": []
+        }
+      ]
+    },
+    {
+      "module": "HSA",
+      "coverage": [
+        {
+          "kind": "characters",
+          "total": 37,
+          "translated": 37,
+          "pending": []
+        },
+        {
+          "kind": "identities",
+          "total": 14,
+          "translated": 14,
+          "pending": []
+        },
+        {
+          "kind": "plots",
+          "total": 12,
+          "translated": 12,
+          "pending": []
+        },
+        {
+          "kind": "incidents",
+          "total": 11,
+          "translated": 11,
+          "pending": []
+        }
+      ]
+    },
+    {
+      "module": "WM",
+      "coverage": [
+        {
+          "kind": "characters",
+          "total": 37,
+          "translated": 37,
+          "pending": []
+        },
+        {
+          "kind": "identities",
+          "total": 14,
+          "translated": 14,
+          "pending": []
+        },
+        {
+          "kind": "plots",
+          "total": 12,
+          "translated": 12,
+          "pending": []
+        },
+        {
+          "kind": "incidents",
+          "total": 11,
+          "translated": 11,
+          "pending": []
+        }
+      ]
+    },
+    {
+      "module": "AHR",
+      "coverage": [
+        {
+          "kind": "characters",
+          "total": 37,
+          "translated": 37,
+          "pending": []
+        },
+        {
+          "kind": "identities",
+          "total": 14,
+          "translated": 14,
+          "pending": []
+        },
+        {
+          "kind": "plots",
+          "total": 12,
+          "translated": 12,
+          "pending": []
+        },
+        {
+          "kind": "incidents",
+          "total": 11,
+          "translated": 11,
+          "pending": []
+        }
+      ]
+    },
+    {
+      "module": "LL",
+      "coverage": [
+        {
+          "kind": "characters",
+          "total": 37,
+          "translated": 37,
+          "pending": []
+        },
+        {
+          "kind": "identities",
+          "total": 13,
+          "translated": 13,
+          "pending": []
+        },
+        {
+          "kind": "plots",
+          "total": 12,
+          "translated": 12,
+          "pending": []
+        },
+        {
+          "kind": "incidents",
+          "total": 11,
+          "translated": 11,
+          "pending": []
+        }
+      ]
+    }
+  ],
+  "benchmark": {
+    "environment": {
+      "node": "v22.22.1",
+      "platform": "win32",
+      "arch": "x64",
+      "cpu": "Intel(R) Core(TM) i5-10600KF CPU @ 4.10GHz"
+    },
+    "sample": "FS / 4 characters / 3 days / no incidents / legal neutral actions",
+    "iterations": 60,
+    "completed": 60,
+    "commandsPerGame": 16,
+    "coldCompileMs": 8.345899999999801,
+    "cachedCompileMeanMs": 0.0003734000000004016,
+    "replayMedianMs": 15.464100000000144,
+    "replayP95Ms": 17.690700000000106,
+    "sequentialBatchMs": 927.2588999999998,
+    "gamesPerSecond": 64.70684724622218,
+    "fullSnapshotMeanMs": 0.6624969999999984,
+    "peakRssKb": 125492,
+    "limitation": "Single-process sequential batch; simple sample only; not a training throughput guarantee."
+  }
+}

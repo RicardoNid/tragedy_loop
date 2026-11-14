@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "executionStatus": "review-fixtures-only-not-executed",
+  "cases": [
+    {
+      "id": "R01",
+      "title": "同时死亡与披露",
+      "scope": [
+        "BTX"
+      ],
+      "sources": [
+        "faq.two-serial-killers",
+        "btx.hospital",
+        "faq.hospital-both",
+        "faq.hospital-no-secret",
+        "faq.hospital-empty"
+      ],
+      "status": "source-resolved-awaiting-human-acceptance",
+      "initial": [
+        "例 A：回合结束强制能力时点，A、B 是两个杀人狂，单独同区，均存活，无保护、替代或其他修正。",
+        "例 B：已合法发生医院事故，医院有 2 密谋，关键人物 K 与平民 C 在医院，无保护或替代。"
+      ],
+      "expectedProcess": [
+        "例 A：同一快照生成 A→B、B→A 两项死亡请求，同批应用；先处理 A 不取消 B 的已成立效果。",
+        "例 B：角色全体死亡与主人公死亡均成立；两项均处理。角色死亡正常公开，不额外公开 K 的身份或关键人物死亡原因。"
+      ],
+      "expectedResult": [
+        "例 A：A、B 均死亡，公开同时死亡。",
+        "例 B：K、C 与主人公均死亡。若医院为 0 密谋，事件仍可发生，但效果无现象。"
+      ],
+      "openQuestions": [],
+      "engineRequirements": [
+        "same-snapshot-batch",
+        "death-request-vs-actual-death",
+        "public-effect-without-hidden-cause"
+      ]
+    },
+    {
+      "id": "R02",
+      "title": "从者、护卫与多项死亡请求",
+      "scope": [
+        "official-character-interactions"
+      ],
+      "sources": [
+        "character.servant",
+        "faq.substitute-guard",
+        "faq.immortal-guard",
+        "faq.substitute-immortal"
+      ],
+      "status": "user-confirmed-definition-not-executed",
+      "initial": [
+        "已确定例：从者 S 与大小姐 L 同区；S 带本局唯一护卫。一个效果同时令 S、L 死亡；均无不死。",
+        "多人例：S、大小姐 L、大人物 G 同区；S 带唯一护卫。医院事故同时令三者死亡，均无不死。"
+      ],
+      "expectedProcess": [
+        "已确定例：S 受直接死亡及替代 L 死亡两项请求；护卫抵消一次，仍有一次使 S 死亡。不能按角色把请求去重。",
+        "不死变体：L 不死时不产生需要 S 代替的死亡处理；不死角色本身不消耗护卫。",
+        "多人例：按同批开始时的资格，从者替 L 与 G 各承受一项请求，再加其自身直接请求，共三项；护卫抵消一项，剩两项。"
+      ],
+      "expectedResult": [
+        "已确定例：L 存活，S 死亡，护卫移除；只记录一次实际死亡。",
+        "多人例：L、G 均存活；S 死亡，护卫移除。S 只有一次实际死亡转换，不因三项请求记录三次死亡。"
+      ],
+      "openQuestions": [],
+      "engineRequirements": [
+        "death-request-multiset",
+        "replacement-choice",
+        "shared-protection-resource"
+      ],
+      "decisionRefs": [
+        "Q1"
+      ]
+    },
+    {
+      "id": "R03",
+      "title": "事件中断与完成后能力",
+      "scope": [
+        "MC",
+        "shared-resolution"
+      ],
+      "sources": [
+        "mc.horrific",
+        "mc.fool",
+        "faq.fool-hospital",
+        "faq.fool-horrific",
+        "general.interrupt",
+        "general.completion"
+      ],
+      "status": "user-confirmed-definition-not-executed",
+      "initial": [
+        "例 A：愚者 F 为医院事故当事人；医院 2 密谋，F 有不安，医院内有关键人物。",
+        "例 B：手下为愚者，是猎奇杀人的当事人；连续杀人部分已使关键人物死亡，尚未开始不安扩散部分。其余合法发生条件已满足。"
+      ],
+      "expectedProcess": [
+        "例 A：按 FAQ 仍须移除愚者不安，不能以轮回立即结束省略。",
+        "例 B：中断后续不安扩散；猎奇杀人未整体完成，愚者不移除不安。",
+        "共同语义已确认：记录结束要求，处理当前已成立批次及已到时点的强制后续；来源全部文本完成才产生完成通知。未开始的随后步骤及新的任意能力不执行。此裁定不覆盖整局特殊胜利。"
+      ],
+      "expectedResult": [
+        "例 A：移除 F 不安后进入轮回结束；例 B：保留 F 不安，不开始后段。两者不是同一完成状态。"
+      ],
+      "openQuestions": [],
+      "engineRequirements": [
+        "pending-loop-end",
+        "source-completed-vs-step-closed",
+        "ordered-program",
+        "mandatory-followup"
+      ],
+      "decisionRefs": [
+        "Q2"
+      ]
+    },
+    {
+      "id": "R04",
+      "title": "因果线读取上轮、作用于本轮",
+      "scope": [
+        "BTX",
+        "anniversary-interaction"
+      ],
+      "sources": [
+        "btx.causal",
+        "faq.causal-transfer",
+        "faq.causal-parttimer",
+        "faq.causal-dead",
+        "faq.causal-removed",
+        "faq.causal-hope",
+        "conflict.causal-scope"
+      ],
+      "status": "user-confirmed-definition-not-executed",
+      "initial": [
+        "上轮结束：A 已死且有 1 友好；转校生 T 有 1 友好；临时工？P 有 1 友好；幻想 I 已移除且有 1 友好；普通角色 H 只有 1 希望。",
+        "本轮开始：A 正常复原，T/P 尚未登场；I 按角色正常复原。H 的例子明确启用适用十周年计数规则。"
+      ],
+      "expectedProcess": [
+        "读取上轮是否满足友好计数，结合本轮是否在场决定是否放置。希望计入有效友好；不能简单遍历上轮所有卡牌一律放置。",
+        "跨轮快照在上轮全部结束处理完成后、清盘前保存，包含结束处理中产生的变化。"
+      ],
+      "expectedResult": [
+        "A、I、H 各放 2 不安；T、P 不放。第一轮无上一轮数据，不虚构第 0 轮。",
+        "边界夹具：角色在上轮结束处理中才获得 1 友好，若本轮正常登场，因果线放置 2 不安。"
+      ],
+      "openQuestions": [],
+      "engineRequirements": [
+        "previous-loop-snapshot",
+        "current-presence-gate",
+        "effective-vs-physical-counter",
+        "explicit-reset-policy"
+      ],
+      "decisionRefs": [
+        "Q3"
+      ]
+    },
+    {
+      "id": "R05",
+      "title": "正式公开不等于推理确定",
+      "scope": [
+        "FS",
+        "BTX",
+        "project-observation-policy"
+      ],
+      "sources": [
+        "btx.friend",
+        "faq.friend-disclosure",
+        "faq.friend-dead"
+      ],
+      "status": "source-and-project-policy-resolved",
+      "initial": [
+        "A 是亲友，主人公只靠推理唯一确定 A 身份，但从未有规则效果公开。B 是亲友，巫女能力曾正式揭示 B 身份。下轮 A、B 均正常登场。"
+      ],
+      "expectedProcess": [
+        "仅检查正式公开记录，不读取解空间唯一候选或用户口头猜测。巫女揭示符合 FAQ。"
+      ],
+      "expectedResult": [
+        "A 不因推理唯一而获得友好；B 放 1 友好。若亲友与关键人物同时死亡，先触发立即结束，再在结束时公开亲友。"
+      ],
+      "openQuestions": [],
+      "engineRequirements": [
+        "formal-disclosure-flag",
+        "inference-separate-from-observation",
+        "end-loop-disclosure"
+      ]
+    },
+    {
+      "id": "R06",
+      "title": "WM 十周年拒绝例外不能被通则覆盖",
+      "scope": [
+        "WM",
+        "anniversary"
+      ],
+      "sources": [
+        "general.wm-anniversary"
+      ],
+      "status": "source-resolved-version-applicability-pending",
+      "initial": [
+        "WM 剧本使用 FAQ 指定的十周年修订特规；角色的每轮限 1 次友好能力被合法拒绝。"
+      ],
+      "expectedProcess": [
+        "应用该 WM 特规：被拒绝后视为已经使用过。该例外与通常拒绝不耗次分开。"
+      ],
+      "expectedResult": [
+        "该 1L1 本轮不可再次使用。不能推广到 FS/BTX，不能将同名旧版 WM 直接覆盖。"
+      ],
+      "openQuestions": [
+        "旧版 WM、修订特规与十周年内容的完整组合矩阵仍未审完；属于后续来源核对，不要求用户现在重新批准全部版本。"
+      ],
+      "engineRequirements": [
+        "profile-scoped-override",
+        "usage-on-refusal-exception"
+      ]
+    },
+    {
+      "id": "R07",
+      "title": "事件效果调用与事件发生分开",
+      "scope": [
+        "official-characters",
+        "BTX"
+      ],
+      "sources": [
+        "character.ai",
+        "btx.evil-contamination",
+        "general.incident-disclosure"
+      ],
+      "status": "source-resolved-awaiting-human-acceptance",
+      "initial": [
+        "BTX 公开信息表写有邪气污染。AI 存活、有效友好至少 3，1L1 未用，能力合法发动且未被拒绝；无其他修正。另设一条普通预定邪气污染正常发生的对照路径。"
+      ],
+      "expectedProcess": [
+        "AI 按公开表选择邪气污染，以 AI 为默认当事人，需要剧作家选择的内容改由队长决定（本事件无目标选择）。两条路径都给神社加 2 密谋。"
+      ],
+      "expectedResult": [
+        "AI 路径不记录事件发生，普通预定事件路径记录发生；不能仅凭同一盘面变化合并两段历史。首批效果预览器只生成加指示物请求，尚不执行 AI 生命周期。"
+      ],
+      "openQuestions": [],
+      "engineRequirements": [
+        "effect-invocation-context",
+        "occurrence-record",
+        "chooser-override"
+      ]
+    }
+  ]
+}

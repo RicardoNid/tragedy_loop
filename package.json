@@ -7,10 +7,20 @@
     "node": ">=22.12 <23"
   },
   "scripts": {
+    "check:engine": "tsc -p tests/engine/tsconfig.json && tsx --test tests/engine/*.test.ts",
+    "check:realtime": "tsc -p tests/engine/tsconfig.json && tsx --test tests/engine/knowledge*.test.ts",
+    "report:engine": "tsx scripts/engine/report.ts",
+    "check:rules": "tsc -p tests/rules/tsconfig.json && tsx --test tests/rules/*.test.ts",
     "setup:python": "uv sync --locked --python 3.12 --default-index https://pypi.org/simple",
     "format:check": "prettier --check package.json pnpm-workspace.yaml tsconfig.base.json apps/*/package.json apps/*/tsconfig.json packages/*/package.json .prettierrc.json .github/workflows/check.yml",
     "check:python-lock": "uv lock --check --offline --default-index https://pypi.org/simple",
-    "check": "pnpm format:check && pnpm check:python-lock"
+    "check": "pnpm format:check && pnpm check:python-lock",
+    "dev:review": "node scripts/review/dev.mjs",
+    "check:review": "pnpm --filter @tragedy/web build && pnpm --filter @tragedy/server check && tsx --test tests/review/*.test.ts",
+    "test:review:gui": "playwright test -c scripts/review/playwright.config.ts",
+    "check:comprehensive": "tsx scripts/comprehensive/all.ts",
+    "build:review:local": "node scripts/review/build-local.mjs",
+    "test:review:local": "pnpm build:review:local && playwright test -c scripts/review/playwright.local.config.ts"
   },
   "devDependencies": {
     "@playwright/test": "1.63.0",

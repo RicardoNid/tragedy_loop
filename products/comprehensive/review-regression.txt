@@ -1,0 +1,40 @@
+TAP version 13
+# Subtest: browser source and production bundle contain no rule engine or secret fixture
+ok 1 - browser source and production bundle contain no rule engine or secret fixture
+  ---
+  duration_ms: 9.1919
+  type: 'test'
+  ...
+# Subtest: background knowledge endpoint uses public version, returns counts and closes worker
+ok 2 - background knowledge endpoint uses public version, returns counts and closes worker
+  ---
+  duration_ms: 1693.9499
+  type: 'test'
+  ...
+# Subtest: review API preserves player isolation, validates commands, and reaches a real engine victory
+ok 3 - review API preserves player isolation, validates commands, and reaches a real engine victory
+  ---
+  duration_ms: 421.7664
+  type: 'test'
+  ...
+# Subtest: invalid scripts do not replace an existing game; games stay independent
+ok 4 - invalid scripts do not replace an existing game; games stay independent
+  ---
+  duration_ms: 11.5396
+  type: 'test'
+  ...
+# Subtest: protagonist card counters and goodwill ability choices settle through the engine
+ok 5 - protagonist card counters and goodwill ability choices settle through the engine
+  ---
+  duration_ms: 37.4006
+  type: 'test'
+  ...
+1..5
+# tests 5
+# suites 0
+# pass 5
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2657.3794

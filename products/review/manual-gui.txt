@@ -1,0 +1,29 @@
+$ pnpm build:review:local && playwright test -c scripts/review/playwright.local.config.ts
+$ node scripts/review/build-local.mjs
+vite v7.3.6 building client environment for production...
+transforming...
+✓ 29 modules transformed.
+rendering chunks...
+✓ built in 1.03s
+Local UI: tragedy-test-ui.html
+[WebServer] (node:38884) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:38884) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 10 tests using 1 worker
+
+(node:41444) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  1 e2e\review\knowledge.spec.ts:3:1 › live solution space, visibility toggle and revision-safe history (4.5s)
+  ok  2 e2e\review\knowledge.spec.ts:26:1 › mobile solution space remains readable without horizontal overflow (1.3s)
+  ok  3 e2e\review\knowledge.spec.ts:37:1 › official BTX roster, hospital incident and restart retain the selected module (462ms)
+  ok  4 e2e\review\manual.spec.ts:4:1 › manual mastermind ability, target selection and protagonist goodwill ability settle on the board (1.2s)
+  ok  5 e2e\review\manual.spec.ts:66:1 › BTX final-answer proposal, three votes and all identity answers are operable through UI (1.1s)
+  ok  6 e2e\review\manual.spec.ts:100:3 › FS: a complete game through both human UI ports without fixture automation (2.5s)
+  ok  7 e2e\review\manual.spec.ts:100:3 › BTX: a complete game through both human UI ports without fixture automation (3.7s)
+  ok  8 e2e\review\review.spec.ts:2:1 › reload and repeated official FS creation do not open browser dialogs or extra pages (3.0s)
+  ok  9 e2e\review\review.spec.ts:24:1 › human review: board, protagonist controls, hidden cards, history, export and real victory (4.1s)
+  ok 10 e2e\review\review.spec.ts:94:1 › mobile layout and invalid import preserve the board (603ms)
+
+  10 passed (25.6s)

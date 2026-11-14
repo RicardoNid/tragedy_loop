@@ -1,0 +1,82 @@
+TAP version 13
+# Subtest: every citation is pinned and resolves to the exact original excerpt
+ok 1 - every citation is pinned and resolves to the exact original excerpt
+  ---
+  duration_ms: 27.2778
+  type: 'test'
+  ...
+# Subtest: catalog scope preserves official versions and explicit character requirements
+ok 2 - catalog scope preserves official versions and explicit character requirements
+  ---
+  duration_ms: 105.7525
+  type: 'test'
+  ...
+# Subtest: FS module overrides: one X slot and no final guess
+ok 3 - FS module overrides: one X slot and no final guess
+  ---
+  duration_ms: 0.31
+  type: 'test'
+  ...
+# Subtest: FS rumors: any board gets exactly one intrigue; faraway is not a board
+ok 4 - FS rumors: any board gets exactly one intrigue; faraway is not a board
+  ---
+  duration_ms: 0.5546
+  type: 'test'
+  ...
+# Subtest: FS gossip: self and living same-area targets only
+ok 5 - FS gossip: self and living same-area targets only
+  ---
+  duration_ms: 0.4741
+  type: 'test'
+  ...
+# Subtest: BTX rumors: any board gets exactly one intrigue; faraway is not a board
+ok 6 - BTX rumors: any board gets exactly one intrigue; faraway is not a board
+  ---
+  duration_ms: 0.3612
+  type: 'test'
+  ...
+# Subtest: BTX gossip: self and living same-area targets only
+ok 7 - BTX gossip: self and living same-area targets only
+  ---
+  duration_ms: 0.206
+  type: 'test'
+  ...
+# Subtest: evil contamination emits two shrine intrigue with no chosen target or occurrence claim
+ok 8 - evil contamination emits two shrine intrigue with no chosen target or occurrence claim
+  ---
+  duration_ms: 0.242
+  type: 'test'
+  ...
+# Subtest: mismatched scope and timing are rejected; immutable inputs support replay
+ok 9 - mismatched scope and timing are rejected; immutable inputs support replay
+  ---
+  duration_ms: 0.5502
+  type: 'test'
+  ...
+# Subtest: finite fragment history check retains only one coherent hidden owner throughout
+ok 10 - finite fragment history check retains only one coherent hidden owner throughout
+  ---
+  duration_ms: 1.2567
+  type: 'test'
+  ...
+# Subtest: state transition and unresolved semantics remain explicit data
+ok 11 - state transition and unresolved semantics remain explicit data
+  ---
+  duration_ms: 1.018
+  type: 'test'
+  ...
+# Subtest: confirmed project decisions preserve provenance and independent case expectations
+ok 12 - confirmed project decisions preserve provenance and independent case expectations
+  ---
+  duration_ms: 0.758
+  type: 'test'
+  ...
+1..12
+# tests 12
+# suites 0
+# pass 12
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 505.4812

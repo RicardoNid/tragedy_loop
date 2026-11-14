@@ -1,0 +1,735 @@
+{
+  "schemaVersion": 1,
+  "capturedForTask": "2026-11-08",
+  "policy": "wiki > lloyd > ricardo, per field",
+  "sources": {
+    "fs.settings": {
+      "file": "facts/data/modules/13222d412f58d5ab.json",
+      "sha256": "e68f98a585bd6c6cc0a764f0ff96a3076d7c1a670b48b7e5a94c887512d51f44",
+      "pointer": "/fields/special",
+      "excerpt": "First Steps 的特殊规则如下\n  1 剧本只有1条规则X\n  2 没有最终决战",
+      "provenance": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/First_Steps",
+        "snapshot": "sources/wiki/pages/7bcd897f011ed91f.json",
+        "capturedAt": "2026-09-27T03:29:36.530Z"
+      },
+      "upstream": {
+        "file": "facts/sources/wiki/pages/7bcd897f011ed91f.json",
+        "sha256": "8c6e2cc25d539a3791169373aca034b869c21b47b8cd89526a8ed7f2f37c7c63"
+      }
+    },
+    "fs.random-intrigue": {
+      "file": "facts/data/rules/8ff617a0561ece90.json",
+      "sha256": "e777714b3c9f75a26093c8a4e2a3043df76f4a2f66d3a1338bea2c12a0af790e",
+      "pointer": "/fields/effect",
+      "excerpt": "【任意能力：剧作家能力阶段】往任意1块版图上放置1枚[密谋]（每轮限1次）",
+      "provenance": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/First_Steps",
+        "snapshot": "sources/wiki/pages/7bcd897f011ed91f.json",
+        "capturedAt": "2026-09-27T03:29:36.530Z"
+      },
+      "upstream": {
+        "file": "facts/sources/wiki/pages/7bcd897f011ed91f.json",
+        "sha256": "8c6e2cc25d539a3791169373aca034b869c21b47b8cd89526a8ed7f2f37c7c63"
+      }
+    },
+    "btx.random-intrigue": {
+      "file": "facts/data/rules/5dfad689bca7fed4.json",
+      "sha256": "ab5648cc700420c2d41970255b0cd1e6cb2177ca3925f536785a97a2ed18a690",
+      "pointer": "/fields/effect",
+      "excerpt": "【任意能力：剧作家能力阶段】往任意1块版图上放置1枚[密谋]（每轮限1次）",
+      "provenance": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy_X",
+        "snapshot": "sources/wiki/pages/1095c9f923c9c10c.json",
+        "capturedAt": "2026-09-27T03:28:29.736Z"
+      },
+      "upstream": {
+        "file": "facts/sources/wiki/pages/1095c9f923c9c10c.json",
+        "sha256": "abe59c1b8148d060a31620fbb041e9b94d2e79217b17901a20edec4c7a751036"
+      }
+    },
+    "fs.gossip": {
+      "file": "facts/data/identities/f16898d92f630937.json",
+      "sha256": "1a0ce459f7dc64892b7bc2e3376fb9cbd15f8f82e95c4b35b678eaba928eb8b2",
+      "pointer": "/fields/abilities/0",
+      "excerpt": "【任意能力：剧作家能力阶段】往同一区域中任意1名角色身上放置1枚[不安]",
+      "provenance": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/First_Steps",
+        "snapshot": "sources/wiki/pages/7bcd897f011ed91f.json",
+        "capturedAt": "2026-09-27T03:29:36.530Z"
+      },
+      "upstream": {
+        "file": "facts/sources/wiki/pages/7bcd897f011ed91f.json",
+        "sha256": "8c6e2cc25d539a3791169373aca034b869c21b47b8cd89526a8ed7f2f37c7c63"
+      }
+    },
+    "btx.gossip": {
+      "file": "facts/data/identities/27cc906490dd3178.json",
+      "sha256": "9f169bf22b0f427362254b0b6bae2c5e94198841489e8bd931c8cc8fc3f96878",
+      "pointer": "/fields/abilities/0",
+      "excerpt": "【任意能力：剧作家能力阶段】往同一区域中任意1名角色身上放置1枚[不安]",
+      "provenance": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy_X",
+        "snapshot": "sources/wiki/pages/1095c9f923c9c10c.json",
+        "capturedAt": "2026-09-27T03:28:29.736Z"
+      },
+      "upstream": {
+        "file": "facts/sources/wiki/pages/1095c9f923c9c10c.json",
+        "sha256": "abe59c1b8148d060a31620fbb041e9b94d2e79217b17901a20edec4c7a751036"
+      }
+    },
+    "btx.evil-contamination": {
+      "file": "facts/data/incidents/ecc3824a2e25ff40.json",
+      "sha256": "ab349d37ebd61fdbdf80fb810e043ca9f8abd0d6c1a2c1696c829df73d71522e",
+      "pointer": "/fields/effect",
+      "excerpt": "往神社放置2枚[密谋]",
+      "provenance": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy_X",
+        "snapshot": "sources/wiki/pages/1095c9f923c9c10c.json",
+        "capturedAt": "2026-09-27T03:28:29.736Z"
+      },
+      "upstream": {
+        "file": "facts/sources/wiki/pages/1095c9f923c9c10c.json",
+        "sha256": "abe59c1b8148d060a31620fbb041e9b94d2e79217b17901a20edec4c7a751036"
+      }
+    },
+    "faq.gossip-self": {
+      "file": "facts/data/faq/410fa861debfaffd.json",
+      "sha256": "a8e6ac156376b4aa1e17fa44f55ea5ca395262ecad03a126500c42b94c860c49",
+      "pointer": "/fields/answer",
+      "excerpt": "可以，如果不能会写为【另外1名】",
+      "provenance": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000005",
+        "snapshot": "sources/faq-sheet/fs-btx.json",
+        "sheet": "FS BTX",
+        "row": 10,
+        "cells": "A10:B10",
+        "capturedAt": "2026-09-27T05:39:54.615Z"
+      },
+      "upstream": {
+        "file": "facts/sources/faq-sheet/fs-btx.json",
+        "sha256": "36809051e8b3b010535d207d19e413d7c8a41dd65aac8f5d4d67f9ea97b77c1f"
+      },
+      "question": "传谣人可以给自己放置不安吗？"
+    },
+    "faq.once-phase": {
+      "file": "facts/data/faq/be825c0e9e9f6413.json",
+      "sha256": "69eec1494d4c98b5dd89f49a5908afdd3283e899b6e536d279fe4f18d76fc03d",
+      "pointer": "/fields/answer",
+      "excerpt": "一般情况下，每个剧作家能发动的能力可以在对应阶段发动1次",
+      "provenance": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000003",
+        "snapshot": "sources/faq-sheet/basic.json",
+        "sheet": "基础规则",
+        "row": 40,
+        "cells": "A40:B40",
+        "capturedAt": "2026-09-27T05:40:57.223Z"
+      },
+      "upstream": {
+        "file": "facts/sources/faq-sheet/basic.json",
+        "sha256": "54cf99519628ac0c240cf5a5b428030bd468f1a15c3d40a53714bdf75f1bc226"
+      },
+      "question": "剧作家能力能无限发动吗？"
+    },
+    "faq.two-serial-killers": {
+      "file": "facts/data/faq/70858d0d8544c57b.json",
+      "sha256": "7dfc5739e82884de1db2247f192f2f9fba791ea08c7050bfcbd217f318476bfa",
+      "pointer": "/fields/answer",
+      "excerpt": "同时死亡，同时点的强制能力同时结算",
+      "provenance": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000005",
+        "snapshot": "sources/faq-sheet/fs-btx.json",
+        "sheet": "FS BTX",
+        "row": 16,
+        "cells": "A16:B16",
+        "capturedAt": "2026-09-27T05:39:54.615Z"
+      },
+      "upstream": {
+        "file": "facts/sources/faq-sheet/fs-btx.json",
+        "sha256": "36809051e8b3b010535d207d19e413d7c8a41dd65aac8f5d4d67f9ea97b77c1f"
+      },
+      "question": "【妄想扩大病毒】两个杀人狂独处，如何结算？"
+    },
+    "faq.hospital-both": {
+      "file": "facts/data/faq/3522539a0b4c29fd.json",
+      "sha256": "f8fec8ed3360f5fdce0c866c24c7c3c5a983f79976dd33d48e6ff5aa6cdc0e92",
+      "pointer": "/fields/answer",
+      "excerpt": "不是，医院的所有角色也死亡",
+      "provenance": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000005",
+        "snapshot": "sources/faq-sheet/fs-btx.json",
+        "sheet": "FS BTX",
+        "row": 24,
+        "cells": "A24:B24",
+        "capturedAt": "2026-09-27T05:39:54.615Z"
+      },
+      "upstream": {
+        "file": "facts/sources/faq-sheet/fs-btx.json",
+        "sha256": "36809051e8b3b010535d207d19e413d7c8a41dd65aac8f5d4d67f9ea97b77c1f"
+      },
+      "question": "医院事故发生时医院有2枚密谋，是不是只有主人公死亡？"
+    },
+    "faq.hospital-no-secret": {
+      "file": "facts/data/faq/12ef2c6c95429ab1.json",
+      "sha256": "bc015df0366bf548470ea474ec443fc45fcf457498a8954a2b1abf98dad37985",
+      "pointer": "/fields/answer",
+      "excerpt": "不需要，关键人物死亡本身不需要声明（与其他角色一同正常死亡）",
+      "provenance": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000005",
+        "snapshot": "sources/faq-sheet/fs-btx.json",
+        "sheet": "FS BTX",
+        "row": 25,
+        "cells": "A25:B25",
+        "capturedAt": "2026-09-27T05:39:54.615Z"
+      },
+      "upstream": {
+        "file": "facts/sources/faq-sheet/fs-btx.json",
+        "sha256": "36809051e8b3b010535d207d19e413d7c8a41dd65aac8f5d4d67f9ea97b77c1f"
+      },
+      "question": "医院事故发生时医院有2枚密谋，关键人物也在医院，需不需要告知主人公关键人物也死了？"
+    },
+    "faq.hospital-empty": {
+      "file": "facts/data/faq/6f557b4046072e56.json",
+      "sha256": "6ae798648e647bddb831ae68f1e07de65197beea754f54d5d761dfad5f39ee5c",
+      "pointer": "/fields/answer",
+      "excerpt": "不是，这时可以声明：事件发生了，但没有任何现象",
+      "provenance": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000005",
+        "snapshot": "sources/faq-sheet/fs-btx.json",
+        "sheet": "FS BTX",
+        "row": 23,
+        "cells": "A23:B23",
+        "capturedAt": "2026-09-27T05:39:54.615Z"
+      },
+      "upstream": {
+        "file": "facts/sources/faq-sheet/fs-btx.json",
+        "sha256": "36809051e8b3b010535d207d19e413d7c8a41dd65aac8f5d4d67f9ea97b77c1f"
+      },
+      "question": "医院事故是不是当事人满足条件但医院没有密谋，就不发生了？"
+    },
+    "faq.substitute-guard": {
+      "file": "facts/data/faq/8a72d941bd3fd3e6.json",
+      "sha256": "1d769c856a66fae02f16862b9c1ec90dd0c3963ff352ed5852a06bed20ec7cf2",
+      "pointer": "/fields/answer",
+      "excerpt": "移除护卫指示物，从者死亡，因为在此时从者死了两次",
+      "provenance": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+        "snapshot": "sources/faq-sheet/characters.json",
+        "sheet": "角色",
+        "row": 10,
+        "cells": "A10:B10",
+        "capturedAt": "2026-09-27T05:39:49.068Z"
+      },
+      "upstream": {
+        "file": "facts/sources/faq-sheet/characters.json",
+        "sha256": "45d8f635c382d6ccbc37c4ea590fab7be32b1e029b24dbe96cbbf3a7cb177f37"
+      },
+      "question": "从者与特性对象在同一区域，并且从者身上有护卫指示物，如果他们同时死亡，如何结算？"
+    },
+    "faq.immortal-guard": {
+      "file": "facts/data/faq/024896648fd9ba4d.json",
+      "sha256": "fabde79b6f348109988b55175a0094968b6e9daec29abca2e029beaf6add5bfd",
+      "pointer": "/fields/answer",
+      "excerpt": "因为角色不会死亡，所以，护卫指示物也不会移除",
+      "provenance": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+        "snapshot": "sources/faq-sheet/characters.json",
+        "sheet": "角色",
+        "row": 9,
+        "cells": "A9:B9",
+        "capturedAt": "2026-09-27T05:39:49.068Z"
+      },
+      "upstream": {
+        "file": "facts/sources/faq-sheet/characters.json",
+        "sha256": "45d8f635c382d6ccbc37c4ea590fab7be32b1e029b24dbe96cbbf3a7cb177f37"
+      },
+      "question": "护卫指示物如果在不死的角色身上，那名角色死亡时如何结算？"
+    },
+    "faq.substitute-immortal": {
+      "file": "facts/data/faq/d8af2317ba109cf8.json",
+      "sha256": "8885cf31185d20e8005d458e1a6ec9624a34aa07e61cb4c99a9ca5c0552d9544",
+      "pointer": "/fields/answer",
+      "excerpt": "從者會代替大小姐死亡。如果大小姐是不死特性，那麼就不存在需要代替她死亡的處理，因此沒有人死亡。",
+      "provenance": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/673edef27fa4262133139845cf71b248.jpg",
+        "snapshot": "sources/paper-faq/anniversary.json",
+        "page": 12,
+        "questionNumber": 24
+      },
+      "upstream": {
+        "file": "facts/sources/paper-faq/anniversary.json",
+        "sha256": "7ddd2769771b1219ee60b8c64489e0d7cd1856443fca3cb81d9de770090f47a3"
+      },
+      "question": "從者是殺人狂，和大小姐兩人在回合結束時獨處了，怎麼辦？另外要是大小姐帶有不死特性該怎麼辦？"
+    },
+    "faq.fool-hospital": {
+      "file": "facts/data/faq/4f701be8966d8585.json",
+      "sha256": "0d1d9a484a49db2d7ec4690a9be9a67cbd93d85c9a63cc177dfb18df7fc5ca7e",
+      "pointer": "/fields/answer",
+      "excerpt": "需要，是同时的",
+      "provenance": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=mb92gf",
+        "snapshot": "sources/faq-sheet/mc.json",
+        "sheet": "MC",
+        "row": 17,
+        "cells": "A17:B17",
+        "capturedAt": "2026-09-27T05:40:05.008Z"
+      },
+      "upstream": {
+        "file": "facts/sources/faq-sheet/mc.json",
+        "sha256": "c14cf80b884889359ed5692768b5480e5b221fb6920849eb8b94487f448e2a89"
+      },
+      "question": "愚者在事件过程中杀死了关键人物或主人公（比如医院事故2密谋），之后需要移除愚者的不安吗？"
+    },
+    "faq.fool-horrific": {
+      "file": "facts/data/faq/75bf9f777d1ef926.json",
+      "sha256": "c24663c91a34161be0c36384f9c8d1e85ed5449ec70b29d73bafb409e297260f",
+      "pointer": "/fields/answer",
+      "excerpt": "不需要",
+      "provenance": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=mb92gf",
+        "snapshot": "sources/faq-sheet/mc.json",
+        "sheet": "MC",
+        "row": 18,
+        "cells": "A18:B18",
+        "capturedAt": "2026-09-27T05:40:05.008Z"
+      },
+      "upstream": {
+        "file": "facts/sources/faq-sheet/mc.json",
+        "sha256": "c14cf80b884889359ed5692768b5480e5b221fb6920849eb8b94487f448e2a89"
+      },
+      "question": "愚者在猎奇杀人过程中杀死了关键人物之后需要移除愚者的不安吗？"
+    },
+    "faq.causal-transfer": {
+      "file": "facts/data/faq/aa029c7a644c1d94.json",
+      "sha256": "ee1832b99abbe240faaea7438dadd9121bc692c8a15992ac098d6948aa45b01d",
+      "pointer": "/fields/answer",
+      "excerpt": "不能，转校生在轮回开始时不在场",
+      "provenance": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+        "snapshot": "sources/faq-sheet/characters.json",
+        "sheet": "角色",
+        "row": 62,
+        "cells": "A62:B62",
+        "capturedAt": "2026-09-27T05:39:49.068Z"
+      },
+      "upstream": {
+        "file": "facts/sources/faq-sheet/characters.json",
+        "sha256": "45d8f635c382d6ccbc37c4ea590fab7be32b1e029b24dbe96cbbf3a7cb177f37"
+      },
+      "question": "【因果线】，上轮转校生有友好，可以在轮回开始时给转校生不安吗？"
+    },
+    "faq.causal-parttimer": {
+      "file": "facts/data/faq/193a1d3a3cfaf4dd.json",
+      "sha256": "b5a5183bb57f6c90f29c7308326afa7ecab1cef82e5a296f1d2f1b64739e7986",
+      "pointer": "/fields/answer",
+      "excerpt": "不能，临时工？在轮回开始时不在场",
+      "provenance": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+        "snapshot": "sources/faq-sheet/characters.json",
+        "sheet": "角色",
+        "row": 125,
+        "cells": "A125:B125",
+        "capturedAt": "2026-09-27T05:39:49.068Z"
+      },
+      "upstream": {
+        "file": "facts/sources/faq-sheet/characters.json",
+        "sha256": "45d8f635c382d6ccbc37c4ea590fab7be32b1e029b24dbe96cbbf3a7cb177f37"
+      },
+      "question": "【因果线】，上轮临时工？有友好，可以在轮回开始时给临时工？不安吗？"
+    },
+    "faq.causal-dead": {
+      "file": "facts/data/faq/507518f13255b0b4.json",
+      "sha256": "a415dd14af67e08c023dfef424a02919dbbd15a2c367623a32b12a307e134148",
+      "pointer": "/fields/answer",
+      "excerpt": "放置，这时角色不是尸体",
+      "provenance": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000005",
+        "snapshot": "sources/faq-sheet/fs-btx.json",
+        "sheet": "FS BTX",
+        "row": 8,
+        "cells": "A8:B8",
+        "capturedAt": "2026-09-27T05:39:54.615Z"
+      },
+      "upstream": {
+        "file": "facts/sources/faq-sheet/fs-btx.json",
+        "sha256": "36809051e8b3b010535d207d19e413d7c8a41dd65aac8f5d4d67f9ea97b77c1f"
+      },
+      "question": "【因果线】上一轮死亡的角色有友好，放置不安吗？"
+    },
+    "faq.causal-removed": {
+      "file": "facts/data/faq/0b1ac228bacc9130.json",
+      "sha256": "42df59c2edd46160a59967213f2660cb812c0b1c05035cf18e84adf7caf8a157",
+      "pointer": "/fields/answer",
+      "excerpt": "可以，幻想虽然被移除但是指示物保留",
+      "provenance": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000004",
+        "snapshot": "sources/faq-sheet/characters.json",
+        "sheet": "角色",
+        "row": 87,
+        "cells": "A87:B87",
+        "capturedAt": "2026-09-27T05:39:49.068Z"
+      },
+      "upstream": {
+        "file": "facts/sources/faq-sheet/characters.json",
+        "sha256": "45d8f635c382d6ccbc37c4ea590fab7be32b1e029b24dbe96cbbf3a7cb177f37"
+      },
+      "question": "【因果线】，上轮幻想有友好，但被移除，可以在轮回开始时给幻想不安吗？"
+    },
+    "faq.causal-hope": {
+      "file": "facts/data/faq/a7598881cc7b439b.json",
+      "sha256": "54ae8ef22b262879c0954406bf94bf431f6fd1571bbfc1328f828fdbebb86870",
+      "pointer": "/fields/answer",
+      "excerpt": "需要。在計算友好指示物時希望指示物也算作友好指示物。",
+      "provenance": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/5e4d811055e32254199f84835b012043.jpg",
+        "snapshot": "sources/paper-faq/anniversary.json",
+        "page": 11,
+        "questionNumber": 13
+      },
+      "upstream": {
+        "file": "facts/sources/paper-faq/anniversary.json",
+        "sha256": "7ddd2769771b1219ee60b8c64489e0d7cd1856443fca3cb81d9de770090f47a3"
+      },
+      "question": "規則X是「因果線」。上輪輪迴結束時被放置了希望指示物的角色，本輪需要放置不安指示物嗎？"
+    },
+    "faq.friend-disclosure": {
+      "file": "facts/data/faq/a65424f88d6fab89.json",
+      "sha256": "ba8fcc3f3e9eaf4741f5acdeb99f1689f02b60607747bbf25da5fad2f232e0c2",
+      "pointer": "/fields/answer",
+      "excerpt": "放置",
+      "provenance": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000005",
+        "snapshot": "sources/faq-sheet/fs-btx.json",
+        "sheet": "FS BTX",
+        "row": 13,
+        "cells": "A13:B13",
+        "capturedAt": "2026-09-27T05:39:54.615Z"
+      },
+      "upstream": {
+        "file": "facts/sources/faq-sheet/fs-btx.json",
+        "sha256": "36809051e8b3b010535d207d19e413d7c8a41dd65aac8f5d4d67f9ea97b77c1f"
+      },
+      "question": "巫女验出了亲友，下轮回开始时亲友放置友好吗？"
+    },
+    "faq.friend-dead": {
+      "file": "facts/data/faq/7dd6066fa7680371.json",
+      "sha256": "3be1216066059768ba99fe12963fb434b7795148a1c2d82b878e65d52ebd6ef7",
+      "pointer": "/fields/answer",
+      "excerpt": "先触发关键人物能力，轮回立即结束，然后公开亲友身份",
+      "provenance": {
+        "provider": "wiki",
+        "url": "https://docs.qq.com/sheet/DQWN4bEZ6UnF3b3BR?tab=000005",
+        "snapshot": "sources/faq-sheet/fs-btx.json",
+        "sheet": "FS BTX",
+        "row": 15,
+        "cells": "A15:B15",
+        "capturedAt": "2026-09-27T05:39:54.615Z"
+      },
+      "upstream": {
+        "file": "facts/sources/faq-sheet/fs-btx.json",
+        "sha256": "36809051e8b3b010535d207d19e413d7c8a41dd65aac8f5d4d67f9ea97b77c1f"
+      },
+      "question": "关键人物和亲友同时死亡了如何处理？"
+    },
+    "general.once-loop": {
+      "file": "facts/text/references/2db1b5d63b2bcd80.txt",
+      "sha256": "62ab9b1c0e6f9eac765202911041c8d2810ab6387db50fb0dae385e5bcb0e301",
+      "startLine": 24,
+      "endLine": 24,
+      "excerpt": "Q：每轮限1次是什么？\tA：每轮回只能用1次，牌和角色能力都有",
+      "provenance": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/FAQ/%E6%B8%B8%E6%88%8F%E5%9F%BA%E7%A1%80%E8%A7%84%E5%88%99",
+        "snapshot": "sources/wiki/pages/891dcc28ce790fb4.json",
+        "capturedAt": "2026-09-27T03:29:30.465Z"
+      },
+      "upstream": {
+        "file": "facts/sources/wiki/pages/891dcc28ce790fb4.json",
+        "sha256": "ee1cf27f14ca8febb6eae83a5f6ba4b2970442a0e95ed2da9a4cc2a7acb9abc4"
+      }
+    },
+    "general.once-phase": {
+      "file": "facts/text/references/2db1b5d63b2bcd80.txt",
+      "sha256": "62ab9b1c0e6f9eac765202911041c8d2810ab6387db50fb0dae385e5bcb0e301",
+      "startLine": 52,
+      "endLine": 52,
+      "excerpt": "Q：剧作家能力能无限发动吗？\tA：一般情况下，每个剧作家能发动的能力可以在对应阶段发动1次",
+      "provenance": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/FAQ/%E6%B8%B8%E6%88%8F%E5%9F%BA%E7%A1%80%E8%A7%84%E5%88%99",
+        "snapshot": "sources/wiki/pages/891dcc28ce790fb4.json",
+        "capturedAt": "2026-09-27T03:29:30.465Z"
+      },
+      "upstream": {
+        "file": "facts/sources/wiki/pages/891dcc28ce790fb4.json",
+        "sha256": "ee1cf27f14ca8febb6eae83a5f6ba4b2970442a0e95ed2da9a4cc2a7acb9abc4"
+      }
+    },
+    "general.characters": {
+      "file": "facts/text/references/2db1b5d63b2bcd80.txt",
+      "sha256": "62ab9b1c0e6f9eac765202911041c8d2810ab6387db50fb0dae385e5bcb0e301",
+      "startLine": 25,
+      "endLine": 25,
+      "excerpt": "Q：角色和卡牌有什么区别？\tA：角色一般指代活人，卡牌无论生死",
+      "provenance": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/FAQ/%E6%B8%B8%E6%88%8F%E5%9F%BA%E7%A1%80%E8%A7%84%E5%88%99",
+        "snapshot": "sources/wiki/pages/891dcc28ce790fb4.json",
+        "capturedAt": "2026-09-27T03:29:30.465Z"
+      },
+      "upstream": {
+        "file": "facts/sources/wiki/pages/891dcc28ce790fb4.json",
+        "sha256": "ee1cf27f14ca8febb6eae83a5f6ba4b2970442a0e95ed2da9a4cc2a7acb9abc4"
+      }
+    },
+    "general.disclosure": {
+      "file": "facts/text/references/2db1b5d63b2bcd80.txt",
+      "sha256": "62ab9b1c0e6f9eac765202911041c8d2810ab6387db50fb0dae385e5bcb0e301",
+      "startLine": 51,
+      "endLine": 51,
+      "excerpt": "Q：剧作家发动能力时怎么声明？\tA：不声明能力是由谁或什么效果发动的，只将会有的现象（指示物的变化、位置的变化、生死等）描述出来",
+      "provenance": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/FAQ/%E6%B8%B8%E6%88%8F%E5%9F%BA%E7%A1%80%E8%A7%84%E5%88%99",
+        "snapshot": "sources/wiki/pages/891dcc28ce790fb4.json",
+        "capturedAt": "2026-09-27T03:29:30.465Z"
+      },
+      "upstream": {
+        "file": "facts/sources/wiki/pages/891dcc28ce790fb4.json",
+        "sha256": "ee1cf27f14ca8febb6eae83a5f6ba4b2970442a0e95ed2da9a4cc2a7acb9abc4"
+      }
+    },
+    "general.incident-disclosure": {
+      "file": "facts/text/references/2db1b5d63b2bcd80.txt",
+      "sha256": "62ab9b1c0e6f9eac765202911041c8d2810ab6387db50fb0dae385e5bcb0e301",
+      "startLine": 75,
+      "endLine": 75,
+      "excerpt": "Q：事件要怎么声明？\tA：首先声明发没发生，如果发生了，将现象（指示物的变化、位置的变化、生死等）描述出来",
+      "provenance": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/FAQ/%E6%B8%B8%E6%88%8F%E5%9F%BA%E7%A1%80%E8%A7%84%E5%88%99",
+        "snapshot": "sources/wiki/pages/891dcc28ce790fb4.json",
+        "capturedAt": "2026-09-27T03:29:30.465Z"
+      },
+      "upstream": {
+        "file": "facts/sources/wiki/pages/891dcc28ce790fb4.json",
+        "sha256": "ee1cf27f14ca8febb6eae83a5f6ba4b2970442a0e95ed2da9a4cc2a7acb9abc4"
+      }
+    },
+    "general.interrupt": {
+      "file": "facts/text/references/2db1b5d63b2bcd80.txt",
+      "sha256": "62ab9b1c0e6f9eac765202911041c8d2810ab6387db50fb0dae385e5bcb0e301",
+      "startLine": 78,
+      "endLine": 78,
+      "excerpt": "Q：如果在事件阶段途中关键人物或主人公死亡，如何结算？\tA：触发角色死亡时发动的强制能力，并终止一切后续结算，主人公失败（如果主人公死亡需宣言），然后进行轮回结束时的处理",
+      "provenance": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/FAQ/%E6%B8%B8%E6%88%8F%E5%9F%BA%E7%A1%80%E8%A7%84%E5%88%99",
+        "snapshot": "sources/wiki/pages/891dcc28ce790fb4.json",
+        "capturedAt": "2026-09-27T03:29:30.465Z"
+      },
+      "upstream": {
+        "file": "facts/sources/wiki/pages/891dcc28ce790fb4.json",
+        "sha256": "ee1cf27f14ca8febb6eae83a5f6ba4b2970442a0e95ed2da9a4cc2a7acb9abc4"
+      }
+    },
+    "general.wm-anniversary": {
+      "file": "facts/text/references/2db1b5d63b2bcd80.txt",
+      "sha256": "62ab9b1c0e6f9eac765202911041c8d2810ab6387db50fb0dae385e5bcb0e301",
+      "startLine": 100,
+      "endLine": 100,
+      "excerpt": "Q：十周年规则之后WM的剧本怎么办？\tA：所有现存的WM剧本加特规【角色的1L1被拒绝之后视为已经使用过】",
+      "provenance": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/FAQ/%E6%B8%B8%E6%88%8F%E5%9F%BA%E7%A1%80%E8%A7%84%E5%88%99",
+        "snapshot": "sources/wiki/pages/891dcc28ce790fb4.json",
+        "capturedAt": "2026-09-27T03:29:30.465Z"
+      },
+      "upstream": {
+        "file": "facts/sources/wiki/pages/891dcc28ce790fb4.json",
+        "sha256": "ee1cf27f14ca8febb6eae83a5f6ba4b2970442a0e95ed2da9a4cc2a7acb9abc4"
+      }
+    },
+    "general.optional": {
+      "file": "facts/text/articles/f82c02b2ecd5e14e.txt",
+      "sha256": "0dbc31f8f3985b991d4670fe958ee7770e0983e767542b2ba20fb1309e57816e",
+      "startLine": 994,
+      "endLine": 998,
+      "excerpt": "即使满足条件，剧作家也可以选择是否结算该能力。\n\n只有在该时点所有必须结算的【强制】能力全部处理完毕之后，才能结算【任意】能力。\n\n如果多个【任意】能力同时可以结算，剧作家可以按照任意顺序处理。",
+      "provenance": {
+        "provider": "lloyd",
+        "path": "sources/lunhui/主人公之书(3)(1).txt"
+      },
+      "upstream": {
+        "file": "facts/sources/lunhui/主人公之书(3)(1).txt",
+        "sha256": "0dbc31f8f3985b991d4670fe958ee7770e0983e767542b2ba20fb1309e57816e"
+      }
+    },
+    "general.completion": {
+      "file": "facts/sources/lunhui/tragedy_loop_game_rules(3)(1).md",
+      "sha256": "72bf2d8cfd62f00763d18e9ddf091d37530dce8440d78b5f36a1af9a1ff76fab",
+      "startLine": 196,
+      "endLine": 196,
+      "excerpt": "只有事件、能力或规则规定的全部效果文本都已按顺序处理完毕，且没有因结束要求而中断，该来源才视为**完成结算**。这与包含后续强制效果的“结算步骤收尾结束”区分：到达来源完成时点即可触发“完成结算后”的能力，这些强制后续也纳入当前步骤收尾，不能等步骤收尾结束后才触发。每个来源的完成与限次只登记一次。",
+      "provenance": {
+        "provider": "lloyd"
+      }
+    },
+    "conflict.causal-scope": {
+      "file": "facts/sources/lunhui/tragedy_loop_game_rules(3)(1).md",
+      "sha256": "72bf2d8cfd62f00763d18e9ddf091d37530dce8440d78b5f36a1af9a1ff76fab",
+      "startLine": 159,
+      "endLine": 159,
+      "excerpt": "- 因果线检查上一轮回结束时有效友好数量大于 0 的角色卡，包括当时为尸体或已从版图移除的卡。新轮回完成通常复原后，再向这些角色卡放置不安；上一轮回的死亡或移除状态不使其脱离因果线的对象集合。",
+      "provenance": {
+        "provider": "lloyd"
+      }
+    },
+    "conflict.fs-settings": {
+      "file": "facts/sources/lunhui/tragedy_loop_game_rules(3)(1).md",
+      "sha256": "72bf2d8cfd62f00763d18e9ddf091d37530dce8440d78b5f36a1af9a1ff76fab",
+      "startLine": 42,
+      "endLine": 42,
+      "excerpt": "First Steps 默认不开放最终决战；剧作家在剧本制作时可以选择开放，此时条件 2 也适用。以上是通常的阵营胜利；Last Liar 按背叛者与个人胜利规则决定具体获胜玩家，见第 7.3 节。",
+      "provenance": {
+        "provider": "lloyd"
+      }
+    },
+    "btx.causal": {
+      "file": "facts/data/rules/9d51f3526f0e04db.json",
+      "sha256": "7b70ea561e696fe4f31586c575c290d0e18f34ff06bbce8b9366b943e1273f14",
+      "pointer": "/fields/effect",
+      "excerpt": "【强制：轮回开始时】上轮轮回结束时所有带有[友好]的角色，全部放置2枚[不安]",
+      "provenance": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy_X",
+        "snapshot": "sources/wiki/pages/1095c9f923c9c10c.json",
+        "capturedAt": "2026-09-27T03:28:29.736Z"
+      },
+      "upstream": {
+        "file": "facts/sources/wiki/pages/1095c9f923c9c10c.json",
+        "sha256": "abe59c1b8148d060a31620fbb041e9b94d2e79217b17901a20edec4c7a751036"
+      }
+    },
+    "btx.friend": {
+      "file": "facts/data/identities/cf76a8767153fd13.json",
+      "sha256": "cd2bf8a5433e18272c56a38839f57b0b986e9319e5c67091160cce2f96598696",
+      "pointer": "/fields/abilities/1",
+      "excerpt": "【强制：轮回开始时】该角色身份曾被公开→往该角色身上放置1枚[友好]",
+      "provenance": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy_X",
+        "snapshot": "sources/wiki/pages/1095c9f923c9c10c.json",
+        "capturedAt": "2026-09-27T03:28:29.736Z"
+      },
+      "upstream": {
+        "file": "facts/sources/wiki/pages/1095c9f923c9c10c.json",
+        "sha256": "abe59c1b8148d060a31620fbb041e9b94d2e79217b17901a20edec4c7a751036"
+      }
+    },
+    "btx.hospital": {
+      "file": "facts/data/incidents/62be423c7130d75f.json",
+      "sha256": "c7a0d08be4d43cc51c3afe2ee139d96e6d2b5c7a02536aaa8ef04ed6e2d038c1",
+      "pointer": "/fields/effect",
+      "excerpt": "医院有1枚或以上[密谋]→位于医院的所有角色死亡\n医院有2枚或以上[密谋]→主人公死亡",
+      "provenance": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Basic_Tragedy_X",
+        "snapshot": "sources/wiki/pages/1095c9f923c9c10c.json",
+        "capturedAt": "2026-09-27T03:28:29.736Z"
+      },
+      "upstream": {
+        "file": "facts/sources/wiki/pages/1095c9f923c9c10c.json",
+        "sha256": "abe59c1b8148d060a31620fbb041e9b94d2e79217b17901a20edec4c7a751036"
+      }
+    },
+    "mc.horrific": {
+      "file": "facts/data/incidents/b131d70dc5ced968.json",
+      "sha256": "eb1e2b2221a514a31cbcc78e396af4191939cace4f04c122732c2e7ced918584",
+      "pointer": "/fields/effect",
+      "excerpt": "<当事人不安限度+1><Ex槽增加2>按照「连续杀人」「不安扩散」的顺序结算事件",
+      "provenance": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Mystery_Circle",
+        "snapshot": "sources/wiki/pages/b21e3f528569eced.json",
+        "capturedAt": "2026-09-27T03:29:50.486Z"
+      },
+      "upstream": {
+        "file": "facts/sources/wiki/pages/b21e3f528569eced.json",
+        "sha256": "54f946788e03252c8ce85569ebe8ee37131e7f98b03d80c99d31ee8b7f2c2273"
+      }
+    },
+    "mc.fool": {
+      "file": "facts/data/identities/0e9089dadbdd7c93.json",
+      "sha256": "245bd6cf90c1279659dad64dc142c98d3699f5ab5344cabad1dd122ab1cb1c92",
+      "pointer": "/fields/abilities/1",
+      "excerpt": "【强制：担任当事人的事件完成结算后】移除该卡牌上所有的[不安]",
+      "provenance": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/Mystery_Circle",
+        "snapshot": "sources/wiki/pages/b21e3f528569eced.json",
+        "capturedAt": "2026-09-27T03:29:50.486Z"
+      },
+      "upstream": {
+        "file": "facts/sources/wiki/pages/b21e3f528569eced.json",
+        "sha256": "54f946788e03252c8ce85569ebe8ee37131e7f98b03d80c99d31ee8b7f2c2273"
+      }
+    },
+    "character.servant": {
+      "file": "facts/data/characters/ff7a5b572d8e564f.json",
+      "sha256": "a763396d33c5639ef6f355f797be1944d5616d039984de9ed387a0523cda424f",
+      "pointer": "/fields/特性",
+      "excerpt": "同一區域的大人物或大小姐移動時，无视自身移动并跟隨那名角色移動（如果多名角色同時移動，由主人公選擇跟隨哪名角色）。同一區域的大人物或大小姐死亡時，代替那名角色死亡",
+      "provenance": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/%E5%BE%9E%E8%80%85",
+        "snapshot": "sources/wiki/pages/3021eeaa7071de48.json",
+        "capturedAt": "2026-09-27T03:32:43.741Z"
+      },
+      "upstream": {
+        "file": "facts/sources/wiki/pages/3021eeaa7071de48.json",
+        "sha256": "212d1071fdf3420fd4707dba25bc8b906bd5f618281476619e75584d4e48bb5a"
+      }
+    },
+    "character.ai": {
+      "file": "facts/data/characters/6bcb295b44e53184.json",
+      "sha256": "6a981657e1189c510e79db242a5d49fb586814a0ba827c90fd483b74dcbdd5fc",
+      "pointer": "/fields/友好能力/0/text",
+      "excerpt": "（友好3 1L1）选择公开信息表中记述的1个事件，处理该事件的效果。处理时，当事人默认为A.I.，且一切需要剧作家决定的内容由队长代为决定（所选事件本身不视作已发生）。",
+      "provenance": {
+        "provider": "wiki",
+        "url": "https://tragedyrooper.fandom.com/zh/wiki/A.I.",
+        "snapshot": "sources/wiki/pages/2f5700a082215a9b.json",
+        "capturedAt": "2026-09-27T03:28:18.256Z"
+      },
+      "upstream": {
+        "file": "facts/sources/wiki/pages/2f5700a082215a9b.json",
+        "sha256": "f0698f17ae502ba8a24ee60125b0dd03f85a9ea1cbf895f713bb7805d8aaddad"
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-08",
+  "authority": "project-user-decision",
+  "originalReply": "Q1 可以，多人则出现两个死亡请求在从者身上  Q2 A Q3A",
+  "clarification": "两项替代＋一项自身，合计三项",
+  "implementationStatus": "definitions-only-not-executed",
+  "decisions": [
+    {
+      "id": "Q1",
+      "caseId": "R02",
+      "title": "同批多人替代死亡",
+      "status": "confirmed",
+      "summary": "从者可以同时替多名合格角色承受死亡请求。替代请求与自身直接请求分别计数，不合并。",
+      "semantics": {
+        "eligibilitySnapshot": "batch-entry",
+        "multipleProtectedTargets": true,
+        "requestCollection": "multiset",
+        "oneReplacementRequestPerProtectedDeathRequest": true,
+        "retainDirectRequests": true,
+        "commitActualDeaths": "after-all-requests-resolved",
+        "actualDeathTransitionsPerLivingCharacterPerBatch": 1
+      },
+      "example": {
+        "servantDirectRequests": 1,
+        "replacementRequests": 2,
+        "totalRequests": 3,
+        "guardCancelledRequests": 1,
+        "unblockedRequests": 2,
+        "actualServantDeaths": 1,
+        "protectedCharactersSurvive": true
+      },
+      "sources": ["character.servant", "faq.substitute-guard", "faq.immortal-guard", "faq.substitute-immortal"]
+    },
+    {
+      "id": "Q2",
+      "caseId": "R03",
+      "title": "轮回立即结束的收尾边界",
+      "status": "confirmed",
+      "summary": "先记录轮回结束要求，完成当前已成立的同时效果及其已到时点的强制后续；未开始的随后步骤和新的任意能力不再开始。来源全部文本完成才产生完成通知。",
+      "semantics": {
+        "endRequest": "latch-when-raised",
+        "settleEstablishedBatch": true,
+        "drainDueMandatoryFollowups": true,
+        "startUnstartedThenStep": false,
+        "startNewOptionalAbility": false,
+        "sourceCompletion": "all-source-text-finished-without-interruption",
+        "completionFollowups": "inside-current-step-cleanup",
+        "scope": "loop-end-not-game-victory"
+      },
+      "sources": ["general.interrupt", "general.completion", "faq.fool-hospital", "faq.fool-horrific"]
+    },
+    {
+      "id": "Q3",
+      "caseId": "R04",
+      "title": "跨轮快照边界",
+      "status": "confirmed",
+      "summary": "上轮全部结束处理完成后、清盘复原前保存快照；本轮恢复普通状态后，按当前登场情况执行跨轮效果。",
+      "semantics": {
+        "previousLoopSnapshot": "after-loop-end-processing-before-reset",
+        "includeLoopEndChanges": true,
+        "nextLoopOrder": ["normal-reset-and-placement", "loop-start-effects"],
+        "causalLineEligibility": "previous-effective-goodwill-and-current-presence-with-explicit-exceptions",
+        "firstLoopPreviousSnapshot": null
+      },
+      "sources": ["btx.causal", "conflict.causal-scope", "faq.causal-transfer", "faq.causal-parttimer", "faq.causal-dead", "faq.causal-removed", "faq.causal-hope"]
+    }
+  ]
+}

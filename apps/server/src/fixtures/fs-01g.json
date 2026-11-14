@@ -1,0 +1,62 @@
+{
+  "id": "FS-01G",
+  "title": "初学者剧本",
+  "source": {
+    "url": "https://raw.githubusercontent.com/tragedy-looper/tragedy-looper.github.io/master/data/base-game/scripts.jsonc",
+    "sha256": "0c04b29b107d899c5a2b8a3ef8d94b6c695267ab56a27564d399e009677972f3",
+    "notes": [
+      "Cross-checked against official quickset/script_sheet(a5).pdf page 1. Uses 3-day NT/5th version."
+    ],
+    "catalog": "facts/data/scenarios/dcba31fc8e0e4b8c.json",
+    "snapshot": "products/engine/tutorials/sources/base-game.jsonc"
+  },
+  "setup": {
+    "module": "FS",
+    "anniversary": false,
+    "loops": 3,
+    "days": 3,
+    "captain": "p0",
+    "discussion": "between-loops",
+    "y": "谋杀计划",
+    "x": ["开膛者的魔影"],
+    "characters": [
+      {
+        "id": "girlStudent",
+        "character": "女学生",
+        "identity": "关键人物"
+      },
+      {
+        "id": "officeWorker",
+        "character": "职员",
+        "identity": "杀手"
+      },
+      {
+        "id": "doctor",
+        "character": "医生",
+        "identity": "主谋"
+      },
+      {
+        "id": "popIdol",
+        "character": "偶像",
+        "identity": "传谣人"
+      },
+      {
+        "id": "shrineMaiden",
+        "character": "巫女",
+        "identity": "杀人狂"
+      },
+      {
+        "id": "boyStudent",
+        "character": "男学生",
+        "identity": "平民"
+      }
+    ],
+    "incidents": [
+      {
+        "day": 3,
+        "name": "自杀",
+        "culprit": "girlStudent"
+      }
+    ]
+  }
+}

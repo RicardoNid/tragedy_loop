@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>结构化规则与求解器残留引用检查</title>
+<style>body{max-width:64rem;margin:auto;padding:2rem 5vw 4rem;font:16px/1.7 system-ui,sans-serif;color:#172e34}h1,h2{line-height:1.3}h2{margin-top:2.3rem}article{border-top:1px solid #bbc9c9;padding:.6rem 0}code{overflow-wrap:anywhere;color:#164e55}a{color:#16576c}th,td{padding:.5rem;text-align:left;border-bottom:1px solid #ccc}table{border-collapse:collapse;width:100%}</style></head>
+<body><main><h1>结构化规则与求解器残留引用检查</h1>
+<section><h2>同步后清理</h2>
+<p>主工作区的服务、实时求解器和历史搜索共用本地 0.3.1 规则。领地候选、虚拟区域、保护特性和事件追加步骤按编译字段读取。缺少公开领地的旧输入仍可枚举四个版图。独立穷举器以 EnumeratedKnowledge 命名，用于和实时求解结果交叉验证。</p>
+<p>已清理 9 处未使用的形参或导入，以及历史搜索对象上重复保存的剧本和未读取的初始化计数。严格未使用检查通过。引擎与求解器联合回归 193/193，规则资产 12/12，审阅接口 10/10，前端构建和服务类型检查通过。两项新增回归分别检验领地标记改挂到其他角色，以及其他事件也可通过追加步骤移动角色。<a href="../../tests/engine/knowledge-constraints.test.ts">领地建域回归</a> · <a href="../../tests/engine/knowledge-pruning.test.ts">事件剪枝回归</a> · <a href="pruning-order.html">同步后重新生成的剪枝表</a></p></section>
+<details><summary>同步前的两工作树检查记录与复现证据</summary>
+<p>2026-11-14 · 检查两个工作树的磁盘内容，包含未提交修改。当前规则基准为主目录 <a href="../../packages/content/src/official/compile.ts">compileOfficial</a> 生成的 0.3.1，复合语义以<a href="../../packages/content/src/official/interaction-rules.ts">交互规则定义</a>和对应回归断言核对。实时求解器取自同仓库的 <code>codex/realtime-fs-btx</code> 工作树（HEAD 36157a3）。</p>
+<h2>会改变结果的引用</h2>
+<article><h3>高 · 实时建域仍把公开领地当成隐藏参数</h3>
+<p>使用 BTX「谋杀计划」「流言四起」「因果线」合法开局，a 大人物为关键人物，领地学校；b 女学生为传谣人，c 医生为杀手，d 巫女为主谋。用当前 <code>createSession</code> 取得 p0 开局视图，实测 <code>opening.territory = "school"</code>。把该视图传给生产 worker 使用的 <code>new LiveKnowledge(旧版 BTX 包, opening)</code>，首次 <code>snapshot().parameters['territory:a']</code> 返回医院、神社、都市、学校四项。预期只保留学校。该例已观察到多留三个值，没有测得误删真实身份。</p>
+<p>求解器工作树 <code>runtime/knowledge-domain.ts:186</code> 用 <code>new Set(BOARDS)</code> 建域，<code>runtime/knowledge-enumerated.ts:147</code> 在枚举路径同样遍历四版图。迁移时两条路径都应读取公开值，并测试开局投影、候选域和枚举见证一致。</p></article>
+<article><h3>高 · 历史搜索执行另一套编译器与状态转换</h3>
+<p>求解器工作树 <code>apps/server/src/knowledge-worker.ts:27</code> 从本地编译 0.1.0 包；<code>runtime/knowledge-live.ts:373</code> 将它交给 HistorySearch，后者调用同树的 initialize / advance。该树仍在 <code>official/programs.ts:1028</code> 实现仙人先移动再选尸体，在 <code>runtime/engine.ts:489</code> 分别写入双胞胎与仙人的区域模式，再按旧时点计算孤守目标。当前规则将目的地和尸体都放进拒绝前声明，并从身份基准区域计算角色的备选区域。</p>
+<p>用当前 <a href="../../tests/engine/compound-rules.test.ts">复合规则测试</a>与其 harness 保留全部输入和断言，仅切换两者的 packages 导入目标。当前引擎 10/10 通过；求解器工作树引擎 0/10 通过。其中仙人复活在预期 p0 选尸体时已轮到剧作家；仙人双胞胎的医院事故用例提交当前合法选择时被拒绝。其余失败涉及字段驱动的区域组合、孤守、大人物领地及能力声明、胆小鬼与丧尸的禁区移动、从者禁移跟随。MC、HSA、AHR 例用于定位共享执行层差异，不能据此计算 FS/BTX 剪枝错误率。</p>
+<p>应先对齐内容、执行层与公开契约，再检验真实公开历史能否保留生成它的剧本。只替换规则包版本号无法修正旧状态转换。同步时保留求解器工作树中独立的、尚未提交的剪枝与执行修正。</p></article>
+<article><h3>中 · 旧领地假设仍会进入审阅报告</h3>
+<p>主目录 <a href="../../scripts/engine/pruning-order.mjs">pruning-order.mjs</a> 第 814–823 行仍以“领地未公开”和四版图起始域作为大人物的审阅样例，生成的 <a href="pruning-order.html">剪枝顺序表</a>含相同假设。该表能说明旧求解器如何运行，用来验收 0.3.1 则会接受上述错误结果。待实现对齐后，应同步更新生成器的输入预期并重建报告。</p></article>
+<h2>无用引用及应保留的入口</h2>
+<p>对两个工作树分别执行 <code>pnpm exec tsc -p tests/engine/tsconfig.json --noUnusedLocals --noUnusedParameters</code>。当前树得到 6 条诊断，求解器树得到相同的 6 条和另 3 条。以下是该 tsconfig 范围内的完整静态诊断。</p>
+<table><thead><tr><th>位置（相对各自工作树）</th><th>诊断与处置</th></tr></thead><tbody>
+<tr><td>packages/engine/src/runtime/engine.ts</td><td>未使用的 recompute 导入可清理。settlement.ts 仍调用 recompute，须保留函数。私有 startLoop 的 pack 形参未读，可连同调用实参整理。</td></tr>
+<tr><td>packages/engine/src/runtime/expressions.ts</td><td>identities 的 pack 形参未读。函数为导出接口，有活动调用；改签名前需核对调用方。</td></tr>
+<tr><td>tests/engine/advanced.test.ts、runtime.test.ts</td><td>前者未使用 createSession、effective 导入，后者未使用 RulePack 类型导入。</td></tr>
+<tr><td>仅求解器树</td><td>runtime/knowledge-scope.ts 的 Ability、tests/engine/knowledge-event-pair.test.ts 的 PairMode、tests/engine/knowledge.test.ts 的 enumerateChoices 均为未使用导入。</td></tr>
+</tbody></table>
+<p>主目录参考求解器 <code>runtime/reference.ts:86</code> 校验 pack.digest 后调用当前引擎。它仍是有限候选域参考入口。首批机器规则和效果预览由 <code>tests/rules/first-batch.test.ts</code> 直接导入；这两组代码均有独立用途。</p>
+<h2>验证记录与复现边界</h2>
+<table><thead><tr><th>检查</th><th>通过 / 总数</th></tr></thead><tbody><tr><td>主目录 pnpm check:rules</td><td>12 / 12</td></tr><tr><td>主目录 pnpm check:engine</td><td>73 / 73（含上述 10 项）</td></tr><tr><td>求解器树 pnpm check:realtime</td><td>117 / 117（本树规则）</td></tr><tr><td>主目录复合规则断言调用求解器树执行层</td><td>0 / 10</td></tr></tbody></table>
+<p>复现交叉检查时，临时复制 compound-rules.test.ts 和 <a href="../../tests/comprehensive/harness.ts">harness.ts</a> 到同一目录，测试的 harness 导入指向同目录，将两文件中 packages 导入改为目标工作树对应 .ts 文件的绝对 file URL，再执行 <code>pnpm exec tsx --test</code> 加临时测试文件路径。无须更新回放或运行生成器。</p>
+<p>实际编译的基础包摘要（SHA-256）</p><ul><li>当前 FS <code>1557e6eb35aa3e2badfb495fd3d80272ba9a9f576f89bc75e0477af7ab487721</code><br>当前 BTX <code>240ab9c580a15855399b0dee89ef2acd2ce4f08025b1c63330fdce37fb54485f</code></li><li>求解器 FS <code>17757dbf8a680d78a59da3a9ad0ad191283a1aa15c7d1d718d3ac23e1b34e21a</code><br>求解器 BTX <code>4ff369537b992a93ed21ba79805c67bb950a9d64dadf3e893f2a96ec9b0c85d9</code></li></ul>
+<p>检查覆盖运行入口、迁移所涉交互字段、参考求解、实时建域、历史重放和相关测试及表格生成器。尚未逐条证明全部模组与输入历史的等价性。本次交付为审查记录；规则迁移、清理和人类验收仍待进行。</p></details></main></body></html>

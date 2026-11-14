@@ -1,0 +1,1247 @@
+{
+  "schema": 1,
+  "ruleDigest": "17757dbf8a680d78a59da3a9ad0ad191283a1aa15c7d1d718d3ac23e1b34e21a",
+  "setup": {
+    "module": "FS",
+    "anniversary": false,
+    "loops": 2,
+    "days": 3,
+    "captain": "p0",
+    "discussion": "between-loops",
+    "y": "复仇的火种",
+    "x": [
+      "流言四起"
+    ],
+    "characters": [
+      {
+        "id": "boy",
+        "character": "男学生",
+        "identity": "主谋"
+      },
+      {
+        "id": "girl",
+        "character": "女学生",
+        "identity": "传谣人"
+      },
+      {
+        "id": "doctor",
+        "character": "医生",
+        "identity": "平民"
+      },
+      {
+        "id": "maiden",
+        "character": "巫女",
+        "identity": "平民"
+      }
+    ],
+    "incidents": []
+  },
+  "trace": [
+    {
+      "actor": "p0",
+      "choice": {
+        "kind": "continue"
+      }
+    },
+    {
+      "actor": "mastermind",
+      "choice": {
+        "kind": "cards",
+        "placements": [
+          {
+            "card": "mastermind-0",
+            "target": "hospital"
+          },
+          {
+            "card": "mastermind-1",
+            "target": "shrine"
+          },
+          {
+            "card": "mastermind-6",
+            "target": "city"
+          }
+        ]
+      }
+    },
+    {
+      "actor": "p0",
+      "choice": {
+        "kind": "cards",
+        "placements": [
+          {
+            "card": "p0-0",
+            "target": "hospital"
+          }
+        ]
+      }
+    },
+    {
+      "actor": "p1",
+      "choice": {
+        "kind": "cards",
+        "placements": [
+          {
+            "card": "p1-0",
+            "target": "shrine"
+          }
+        ]
+      }
+    },
+    {
+      "actor": "p2",
+      "choice": {
+        "kind": "cards",
+        "placements": [
+          {
+            "card": "p2-0",
+            "target": "city"
+          }
+        ]
+      }
+    },
+    {
+      "actor": "mastermind",
+      "choice": {
+        "kind": "pass"
+      }
+    },
+    {
+      "actor": "mastermind",
+      "choice": {
+        "kind": "cards",
+        "placements": [
+          {
+            "card": "mastermind-0",
+            "target": "hospital"
+          },
+          {
+            "card": "mastermind-1",
+            "target": "shrine"
+          },
+          {
+            "card": "mastermind-6",
+            "target": "city"
+          }
+        ]
+      }
+    },
+    {
+      "actor": "p1",
+      "choice": {
+        "kind": "cards",
+        "placements": [
+          {
+            "card": "p1-0",
+            "target": "hospital"
+          }
+        ]
+      }
+    },
+    {
+      "actor": "p2",
+      "choice": {
+        "kind": "cards",
+        "placements": [
+          {
+            "card": "p2-0",
+            "target": "shrine"
+          }
+        ]
+      }
+    },
+    {
+      "actor": "p0",
+      "choice": {
+        "kind": "cards",
+        "placements": [
+          {
+            "card": "p0-0",
+            "target": "city"
+          }
+        ]
+      }
+    },
+    {
+      "actor": "mastermind",
+      "choice": {
+        "kind": "pass"
+      }
+    },
+    {
+      "actor": "mastermind",
+      "choice": {
+        "kind": "cards",
+        "placements": [
+          {
+            "card": "mastermind-0",
+            "target": "hospital"
+          },
+          {
+            "card": "mastermind-1",
+            "target": "shrine"
+          },
+          {
+            "card": "mastermind-6",
+            "target": "city"
+          }
+        ]
+      }
+    },
+    {
+      "actor": "p2",
+      "choice": {
+        "kind": "cards",
+        "placements": [
+          {
+            "card": "p2-0",
+            "target": "hospital"
+          }
+        ]
+      }
+    },
+    {
+      "actor": "p0",
+      "choice": {
+        "kind": "cards",
+        "placements": [
+          {
+            "card": "p0-0",
+            "target": "shrine"
+          }
+        ]
+      }
+    },
+    {
+      "actor": "p1",
+      "choice": {
+        "kind": "cards",
+        "placements": [
+          {
+            "card": "p1-0",
+            "target": "city"
+          }
+        ]
+      }
+    },
+    {
+      "actor": "mastermind",
+      "choice": {
+        "kind": "pass"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "sequence": 1,
+      "loop": 1,
+      "day": 1,
+      "phase": "discussion",
+      "type": "boundary",
+      "data": {
+        "phase": "discussion",
+        "captain": "p0"
+      }
+    },
+    {
+      "sequence": 2,
+      "loop": 1,
+      "day": 1,
+      "phase": "loop-start",
+      "type": "boundary",
+      "data": {
+        "phase": "loop-start",
+        "captain": "p0"
+      }
+    },
+    {
+      "sequence": 3,
+      "loop": 1,
+      "day": 1,
+      "phase": "loop-start",
+      "type": "own-choice",
+      "data": {
+        "actor": "p0",
+        "choice": {
+          "kind": "continue"
+        }
+      }
+    },
+    {
+      "sequence": 4,
+      "loop": 1,
+      "day": 1,
+      "phase": "day-start",
+      "type": "boundary",
+      "data": {
+        "phase": "day-start",
+        "captain": "p0"
+      }
+    },
+    {
+      "sequence": 5,
+      "loop": 1,
+      "day": 1,
+      "phase": "mastermind-cards",
+      "type": "boundary",
+      "data": {
+        "phase": "mastermind-cards",
+        "captain": "p0"
+      }
+    },
+    {
+      "sequence": 6,
+      "loop": 1,
+      "day": 1,
+      "phase": "mastermind-cards",
+      "type": "cards",
+      "data": {
+        "placements": [
+          {
+            "owner": "mastermind",
+            "target": "city"
+          },
+          {
+            "owner": "mastermind",
+            "target": "hospital"
+          },
+          {
+            "owner": "mastermind",
+            "target": "shrine"
+          }
+        ]
+      }
+    },
+    {
+      "sequence": 7,
+      "loop": 1,
+      "day": 1,
+      "phase": "protagonist-cards",
+      "type": "boundary",
+      "data": {
+        "phase": "protagonist-cards",
+        "captain": "p0"
+      }
+    },
+    {
+      "sequence": 8,
+      "loop": 1,
+      "day": 1,
+      "phase": "protagonist-cards",
+      "type": "cards",
+      "data": {
+        "placements": [
+          {
+            "owner": "p0",
+            "target": "hospital"
+          }
+        ]
+      }
+    },
+    {
+      "sequence": 9,
+      "loop": 1,
+      "day": 1,
+      "phase": "protagonist-cards",
+      "type": "cards",
+      "data": {
+        "placements": [
+          {
+            "card": "p0-0",
+            "target": "hospital",
+            "kind": "horizontal"
+          }
+        ]
+      }
+    },
+    {
+      "sequence": 10,
+      "loop": 1,
+      "day": 1,
+      "phase": "protagonist-cards",
+      "type": "own-choice",
+      "data": {
+        "actor": "p0",
+        "choice": {
+          "kind": "cards",
+          "placements": [
+            {
+              "card": "p0-0",
+              "target": "hospital"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sequence": 11,
+      "loop": 1,
+      "day": 1,
+      "phase": "protagonist-cards",
+      "type": "cards",
+      "data": {
+        "placements": [
+          {
+            "owner": "p1",
+            "target": "shrine"
+          }
+        ]
+      }
+    },
+    {
+      "sequence": 12,
+      "loop": 1,
+      "day": 1,
+      "phase": "protagonist-cards",
+      "type": "cards",
+      "data": {
+        "placements": [
+          {
+            "card": "p1-0",
+            "target": "shrine",
+            "kind": "horizontal"
+          }
+        ]
+      }
+    },
+    {
+      "sequence": 13,
+      "loop": 1,
+      "day": 1,
+      "phase": "protagonist-cards",
+      "type": "own-choice",
+      "data": {
+        "actor": "p1",
+        "choice": {
+          "kind": "cards",
+          "placements": [
+            {
+              "card": "p1-0",
+              "target": "shrine"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sequence": 14,
+      "loop": 1,
+      "day": 1,
+      "phase": "protagonist-cards",
+      "type": "cards",
+      "data": {
+        "placements": [
+          {
+            "owner": "p2",
+            "target": "city"
+          }
+        ]
+      }
+    },
+    {
+      "sequence": 15,
+      "loop": 1,
+      "day": 1,
+      "phase": "protagonist-cards",
+      "type": "cards",
+      "data": {
+        "placements": [
+          {
+            "card": "p2-0",
+            "target": "city",
+            "kind": "horizontal"
+          }
+        ]
+      }
+    },
+    {
+      "sequence": 16,
+      "loop": 1,
+      "day": 1,
+      "phase": "protagonist-cards",
+      "type": "own-choice",
+      "data": {
+        "actor": "p2",
+        "choice": {
+          "kind": "cards",
+          "placements": [
+            {
+              "card": "p2-0",
+              "target": "city"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sequence": 17,
+      "loop": 1,
+      "day": 1,
+      "phase": "card-resolution",
+      "type": "boundary",
+      "data": {
+        "phase": "card-resolution",
+        "captain": "p0"
+      }
+    },
+    {
+      "sequence": 18,
+      "loop": 1,
+      "day": 1,
+      "phase": "card-resolution",
+      "type": "cards",
+      "data": {
+        "placements": [
+          {
+            "owner": "mastermind",
+            "target": "city",
+            "kind": "paranoia-1"
+          },
+          {
+            "owner": "mastermind",
+            "target": "hospital",
+            "kind": "horizontal"
+          },
+          {
+            "owner": "mastermind",
+            "target": "shrine",
+            "kind": "vertical"
+          },
+          {
+            "owner": "p0",
+            "target": "hospital",
+            "kind": "horizontal"
+          },
+          {
+            "owner": "p1",
+            "target": "shrine",
+            "kind": "horizontal"
+          },
+          {
+            "owner": "p2",
+            "target": "city",
+            "kind": "horizontal"
+          }
+        ]
+      }
+    },
+    {
+      "sequence": 19,
+      "loop": 1,
+      "day": 1,
+      "phase": "mastermind-abilities",
+      "type": "boundary",
+      "data": {
+        "phase": "mastermind-abilities",
+        "captain": "p0"
+      }
+    },
+    {
+      "sequence": 20,
+      "loop": 1,
+      "day": 1,
+      "phase": "protagonist-abilities",
+      "type": "boundary",
+      "data": {
+        "phase": "protagonist-abilities",
+        "captain": "p0"
+      }
+    },
+    {
+      "sequence": 21,
+      "loop": 1,
+      "day": 1,
+      "phase": "incident",
+      "type": "boundary",
+      "data": {
+        "phase": "incident",
+        "captain": "p0"
+      }
+    },
+    {
+      "sequence": 22,
+      "loop": 1,
+      "day": 1,
+      "phase": "captain-change",
+      "type": "boundary",
+      "data": {
+        "phase": "captain-change",
+        "captain": "p0"
+      }
+    },
+    {
+      "sequence": 23,
+      "loop": 1,
+      "day": 1,
+      "phase": "day-end",
+      "type": "boundary",
+      "data": {
+        "phase": "day-end",
+        "captain": "p1"
+      }
+    },
+    {
+      "sequence": 24,
+      "loop": 1,
+      "day": 2,
+      "phase": "day-start",
+      "type": "boundary",
+      "data": {
+        "phase": "day-start",
+        "captain": "p1"
+      }
+    },
+    {
+      "sequence": 25,
+      "loop": 1,
+      "day": 2,
+      "phase": "mastermind-cards",
+      "type": "boundary",
+      "data": {
+        "phase": "mastermind-cards",
+        "captain": "p1"
+      }
+    },
+    {
+      "sequence": 26,
+      "loop": 1,
+      "day": 2,
+      "phase": "mastermind-cards",
+      "type": "cards",
+      "data": {
+        "placements": [
+          {
+            "owner": "mastermind",
+            "target": "city"
+          },
+          {
+            "owner": "mastermind",
+            "target": "hospital"
+          },
+          {
+            "owner": "mastermind",
+            "target": "shrine"
+          }
+        ]
+      }
+    },
+    {
+      "sequence": 27,
+      "loop": 1,
+      "day": 2,
+      "phase": "protagonist-cards",
+      "type": "boundary",
+      "data": {
+        "phase": "protagonist-cards",
+        "captain": "p1"
+      }
+    },
+    {
+      "sequence": 28,
+      "loop": 1,
+      "day": 2,
+      "phase": "protagonist-cards",
+      "type": "cards",
+      "data": {
+        "placements": [
+          {
+            "owner": "p1",
+            "target": "hospital"
+          }
+        ]
+      }
+    },
+    {
+      "sequence": 29,
+      "loop": 1,
+      "day": 2,
+      "phase": "protagonist-cards",
+      "type": "cards",
+      "data": {
+        "placements": [
+          {
+            "card": "p1-0",
+            "target": "hospital",
+            "kind": "horizontal"
+          }
+        ]
+      }
+    },
+    {
+      "sequence": 30,
+      "loop": 1,
+      "day": 2,
+      "phase": "protagonist-cards",
+      "type": "own-choice",
+      "data": {
+        "actor": "p1",
+        "choice": {
+          "kind": "cards",
+          "placements": [
+            {
+              "card": "p1-0",
+              "target": "hospital"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sequence": 31,
+      "loop": 1,
+      "day": 2,
+      "phase": "protagonist-cards",
+      "type": "cards",
+      "data": {
+        "placements": [
+          {
+            "owner": "p2",
+            "target": "shrine"
+          }
+        ]
+      }
+    },
+    {
+      "sequence": 32,
+      "loop": 1,
+      "day": 2,
+      "phase": "protagonist-cards",
+      "type": "cards",
+      "data": {
+        "placements": [
+          {
+            "card": "p2-0",
+            "target": "shrine",
+            "kind": "horizontal"
+          }
+        ]
+      }
+    },
+    {
+      "sequence": 33,
+      "loop": 1,
+      "day": 2,
+      "phase": "protagonist-cards",
+      "type": "own-choice",
+      "data": {
+        "actor": "p2",
+        "choice": {
+          "kind": "cards",
+          "placements": [
+            {
+              "card": "p2-0",
+              "target": "shrine"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sequence": 34,
+      "loop": 1,
+      "day": 2,
+      "phase": "protagonist-cards",
+      "type": "cards",
+      "data": {
+        "placements": [
+          {
+            "owner": "p0",
+            "target": "city"
+          }
+        ]
+      }
+    },
+    {
+      "sequence": 35,
+      "loop": 1,
+      "day": 2,
+      "phase": "protagonist-cards",
+      "type": "cards",
+      "data": {
+        "placements": [
+          {
+            "card": "p0-0",
+            "target": "city",
+            "kind": "horizontal"
+          }
+        ]
+      }
+    },
+    {
+      "sequence": 36,
+      "loop": 1,
+      "day": 2,
+      "phase": "protagonist-cards",
+      "type": "own-choice",
+      "data": {
+        "actor": "p0",
+        "choice": {
+          "kind": "cards",
+          "placements": [
+            {
+              "card": "p0-0",
+              "target": "city"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sequence": 37,
+      "loop": 1,
+      "day": 2,
+      "phase": "card-resolution",
+      "type": "boundary",
+      "data": {
+        "phase": "card-resolution",
+        "captain": "p1"
+      }
+    },
+    {
+      "sequence": 38,
+      "loop": 1,
+      "day": 2,
+      "phase": "card-resolution",
+      "type": "cards",
+      "data": {
+        "placements": [
+          {
+            "owner": "mastermind",
+            "target": "city",
+            "kind": "paranoia-1"
+          },
+          {
+            "owner": "mastermind",
+            "target": "hospital",
+            "kind": "horizontal"
+          },
+          {
+            "owner": "mastermind",
+            "target": "shrine",
+            "kind": "vertical"
+          },
+          {
+            "owner": "p1",
+            "target": "hospital",
+            "kind": "horizontal"
+          },
+          {
+            "owner": "p2",
+            "target": "shrine",
+            "kind": "horizontal"
+          },
+          {
+            "owner": "p0",
+            "target": "city",
+            "kind": "horizontal"
+          }
+        ]
+      }
+    },
+    {
+      "sequence": 39,
+      "loop": 1,
+      "day": 2,
+      "phase": "mastermind-abilities",
+      "type": "boundary",
+      "data": {
+        "phase": "mastermind-abilities",
+        "captain": "p1"
+      }
+    },
+    {
+      "sequence": 40,
+      "loop": 1,
+      "day": 2,
+      "phase": "protagonist-abilities",
+      "type": "boundary",
+      "data": {
+        "phase": "protagonist-abilities",
+        "captain": "p1"
+      }
+    },
+    {
+      "sequence": 41,
+      "loop": 1,
+      "day": 2,
+      "phase": "incident",
+      "type": "boundary",
+      "data": {
+        "phase": "incident",
+        "captain": "p1"
+      }
+    },
+    {
+      "sequence": 42,
+      "loop": 1,
+      "day": 2,
+      "phase": "captain-change",
+      "type": "boundary",
+      "data": {
+        "phase": "captain-change",
+        "captain": "p1"
+      }
+    },
+    {
+      "sequence": 43,
+      "loop": 1,
+      "day": 2,
+      "phase": "day-end",
+      "type": "boundary",
+      "data": {
+        "phase": "day-end",
+        "captain": "p2"
+      }
+    },
+    {
+      "sequence": 44,
+      "loop": 1,
+      "day": 3,
+      "phase": "day-start",
+      "type": "boundary",
+      "data": {
+        "phase": "day-start",
+        "captain": "p2"
+      }
+    },
+    {
+      "sequence": 45,
+      "loop": 1,
+      "day": 3,
+      "phase": "mastermind-cards",
+      "type": "boundary",
+      "data": {
+        "phase": "mastermind-cards",
+        "captain": "p2"
+      }
+    },
+    {
+      "sequence": 46,
+      "loop": 1,
+      "day": 3,
+      "phase": "mastermind-cards",
+      "type": "cards",
+      "data": {
+        "placements": [
+          {
+            "owner": "mastermind",
+            "target": "city"
+          },
+          {
+            "owner": "mastermind",
+            "target": "hospital"
+          },
+          {
+            "owner": "mastermind",
+            "target": "shrine"
+          }
+        ]
+      }
+    },
+    {
+      "sequence": 47,
+      "loop": 1,
+      "day": 3,
+      "phase": "protagonist-cards",
+      "type": "boundary",
+      "data": {
+        "phase": "protagonist-cards",
+        "captain": "p2"
+      }
+    },
+    {
+      "sequence": 48,
+      "loop": 1,
+      "day": 3,
+      "phase": "protagonist-cards",
+      "type": "cards",
+      "data": {
+        "placements": [
+          {
+            "owner": "p2",
+            "target": "hospital"
+          }
+        ]
+      }
+    },
+    {
+      "sequence": 49,
+      "loop": 1,
+      "day": 3,
+      "phase": "protagonist-cards",
+      "type": "cards",
+      "data": {
+        "placements": [
+          {
+            "card": "p2-0",
+            "target": "hospital",
+            "kind": "horizontal"
+          }
+        ]
+      }
+    },
+    {
+      "sequence": 50,
+      "loop": 1,
+      "day": 3,
+      "phase": "protagonist-cards",
+      "type": "own-choice",
+      "data": {
+        "actor": "p2",
+        "choice": {
+          "kind": "cards",
+          "placements": [
+            {
+              "card": "p2-0",
+              "target": "hospital"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sequence": 51,
+      "loop": 1,
+      "day": 3,
+      "phase": "protagonist-cards",
+      "type": "cards",
+      "data": {
+        "placements": [
+          {
+            "owner": "p0",
+            "target": "shrine"
+          }
+        ]
+      }
+    },
+    {
+      "sequence": 52,
+      "loop": 1,
+      "day": 3,
+      "phase": "protagonist-cards",
+      "type": "cards",
+      "data": {
+        "placements": [
+          {
+            "card": "p0-0",
+            "target": "shrine",
+            "kind": "horizontal"
+          }
+        ]
+      }
+    },
+    {
+      "sequence": 53,
+      "loop": 1,
+      "day": 3,
+      "phase": "protagonist-cards",
+      "type": "own-choice",
+      "data": {
+        "actor": "p0",
+        "choice": {
+          "kind": "cards",
+          "placements": [
+            {
+              "card": "p0-0",
+              "target": "shrine"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sequence": 54,
+      "loop": 1,
+      "day": 3,
+      "phase": "protagonist-cards",
+      "type": "cards",
+      "data": {
+        "placements": [
+          {
+            "owner": "p1",
+            "target": "city"
+          }
+        ]
+      }
+    },
+    {
+      "sequence": 55,
+      "loop": 1,
+      "day": 3,
+      "phase": "protagonist-cards",
+      "type": "cards",
+      "data": {
+        "placements": [
+          {
+            "card": "p1-0",
+            "target": "city",
+            "kind": "horizontal"
+          }
+        ]
+      }
+    },
+    {
+      "sequence": 56,
+      "loop": 1,
+      "day": 3,
+      "phase": "protagonist-cards",
+      "type": "own-choice",
+      "data": {
+        "actor": "p1",
+        "choice": {
+          "kind": "cards",
+          "placements": [
+            {
+              "card": "p1-0",
+              "target": "city"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sequence": 57,
+      "loop": 1,
+      "day": 3,
+      "phase": "card-resolution",
+      "type": "boundary",
+      "data": {
+        "phase": "card-resolution",
+        "captain": "p2"
+      }
+    },
+    {
+      "sequence": 58,
+      "loop": 1,
+      "day": 3,
+      "phase": "card-resolution",
+      "type": "cards",
+      "data": {
+        "placements": [
+          {
+            "owner": "mastermind",
+            "target": "city",
+            "kind": "paranoia-1"
+          },
+          {
+            "owner": "mastermind",
+            "target": "hospital",
+            "kind": "horizontal"
+          },
+          {
+            "owner": "mastermind",
+            "target": "shrine",
+            "kind": "vertical"
+          },
+          {
+            "owner": "p2",
+            "target": "hospital",
+            "kind": "horizontal"
+          },
+          {
+            "owner": "p0",
+            "target": "shrine",
+            "kind": "horizontal"
+          },
+          {
+            "owner": "p1",
+            "target": "city",
+            "kind": "horizontal"
+          }
+        ]
+      }
+    },
+    {
+      "sequence": 59,
+      "loop": 1,
+      "day": 3,
+      "phase": "mastermind-abilities",
+      "type": "boundary",
+      "data": {
+        "phase": "mastermind-abilities",
+        "captain": "p2"
+      }
+    },
+    {
+      "sequence": 60,
+      "loop": 1,
+      "day": 3,
+      "phase": "protagonist-abilities",
+      "type": "boundary",
+      "data": {
+        "phase": "protagonist-abilities",
+        "captain": "p2"
+      }
+    },
+    {
+      "sequence": 61,
+      "loop": 1,
+      "day": 3,
+      "phase": "incident",
+      "type": "boundary",
+      "data": {
+        "phase": "incident",
+        "captain": "p2"
+      }
+    },
+    {
+      "sequence": 62,
+      "loop": 1,
+      "day": 3,
+      "phase": "captain-change",
+      "type": "boundary",
+      "data": {
+        "phase": "captain-change",
+        "captain": "p2"
+      }
+    },
+    {
+      "sequence": 63,
+      "loop": 1,
+      "day": 3,
+      "phase": "day-end",
+      "type": "boundary",
+      "data": {
+        "phase": "day-end",
+        "captain": "p0"
+      }
+    },
+    {
+      "sequence": 64,
+      "loop": 1,
+      "day": 3,
+      "phase": "loop-end",
+      "type": "boundary",
+      "data": {
+        "phase": "loop-end",
+        "captain": "p0"
+      }
+    },
+    {
+      "sequence": 65,
+      "loop": 1,
+      "day": 3,
+      "phase": "finished",
+      "type": "boundary",
+      "data": {
+        "phase": "finished",
+        "captain": "p0"
+      }
+    },
+    {
+      "sequence": 66,
+      "loop": 1,
+      "day": 3,
+      "phase": "finished",
+      "type": "victory",
+      "data": {
+        "winner": "protagonists",
+        "winners": [
+          "p0",
+          "p1",
+          "p2"
+        ]
+      }
+    }
+  ],
+  "winner": "protagonists"
+}

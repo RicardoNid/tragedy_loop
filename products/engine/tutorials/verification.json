@@ -1,0 +1,23 @@
+{
+  "verifiedAt": "2026-11-14T10:47:04.763Z",
+  "node": "v22.22.1",
+  "platform": "win32",
+  "fixturesHash": "38c92e0b7896659a00ad1f91af991dcb4728c5c8f779852c1099b5a5a5447d8b",
+  "historiesHash": "9d8aa30639f03ca5cbdc80d85722e0fa6ceec621ea141e2aa3b7689ee1ba4fd5",
+  "modules": 8,
+  "games": 16,
+  "commands": 1124,
+  "budgets": [
+    1,
+    7,
+    10000
+  ],
+  "views": [
+    "mastermind",
+    "p0",
+    "p1",
+    "p2",
+    "protagonists"
+  ],
+  "humanAcceptance": "待人类验收"
+}

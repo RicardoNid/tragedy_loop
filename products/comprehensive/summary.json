@@ -1,0 +1,158 @@
+{
+  "faq": 479,
+  "counts": {
+    "passed": 446,
+    "partial": 0,
+    "nonruntime": 27,
+    "unsupported": 5,
+    "manual": 1,
+    "failed": 0,
+    "missing": 0
+  },
+  "targeted": {
+    "total": 168,
+    "passed": 168
+  },
+  "stress": {
+    "games": 64,
+    "commands": 4468,
+    "characterProfiles": 6993,
+    "counterVectors": 1024,
+    "failures": []
+  },
+  "defects": [
+    {
+      "title": "幻想版图禁止友好",
+      "problem": "时间旅者幻想错误忽略版图上的禁止友好",
+      "test": "illusion-board-block",
+      "status": "passed"
+    },
+    {
+      "title": "尸体忍者公开",
+      "problem": "尸体仍可谎报身份",
+      "test": "death-reveal-ninja",
+      "status": "passed"
+    },
+    {
+      "title": "模仿犯身份通知",
+      "problem": "错误包含模仿犯自己",
+      "test": "copycat-reveal",
+      "status": "passed"
+    },
+    {
+      "title": "未登场角色保密",
+      "problem": "首次登场前泄露神灵等角色",
+      "test": "projection-arrival",
+      "status": "passed"
+    },
+    {
+      "title": "傀儡班长回收牌",
+      "problem": "剧作家使用班长时无法回收自己的绝望牌",
+      "test": "class-puppet-despair",
+      "status": "passed"
+    },
+    {
+      "title": "鉴别员移交指示物",
+      "problem": "可选择不存在的指示物规避必须移动",
+      "test": "appraiser-empty",
+      "status": "passed"
+    },
+    {
+      "title": "黑猫事件EX",
+      "problem": "错误套用银色子弹0／猎奇杀人2的特殊增量",
+      "test": "black-cat-events",
+      "status": "passed"
+    },
+    {
+      "title": "事件首次发生",
+      "problem": "不同日期同名事件错误共用首次发生记录",
+      "test": "once-scheduled-incident",
+      "status": "passed"
+    },
+    {
+      "title": "模仿犯制作限制",
+      "problem": "错误豁免剧本身份的属性限制",
+      "test": "setup-copycat-attributes",
+      "status": "passed"
+    },
+    {
+      "title": "捏造秘密与局外人",
+      "problem": "追加身份错误占用局外人的可分配身份池",
+      "test": "setup-secret-addition",
+      "status": "passed"
+    },
+    {
+      "title": "局外人因果残片",
+      "problem": "错误允许直接取得周年追加身份",
+      "test": "plus-fragment-allocation",
+      "status": "passed"
+    },
+    {
+      "title": "虚幻世界移除角色",
+      "problem": "错误统计不在场强迫症",
+      "test": "virtual-world",
+      "status": "passed"
+    },
+    {
+      "title": "大人物鬼魂",
+      "problem": "尸体仍可借用领地特性",
+      "test": "boss-ghost",
+      "status": "passed"
+    },
+    {
+      "title": "存活丧尸",
+      "problem": "局外人丧尸未计入优势判定",
+      "test": "living-zombie",
+      "status": "passed"
+    },
+    {
+      "title": "AI调用封锁",
+      "problem": "仅调用效果也错误封锁版图",
+      "test": "ai-forged",
+      "status": "passed"
+    },
+    {
+      "title": "封锁公开通知",
+      "problem": "主人公未收到被封锁区域",
+      "test": "lockdown-moves",
+      "status": "passed"
+    },
+    {
+      "title": "大人物条件判断",
+      "problem": "只按实际位置判断强制能力，漏掉领地的合法发动",
+      "test": "boss-serial",
+      "status": "passed"
+    },
+    {
+      "title": "大人物移动与从者",
+      "problem": "相邻目的地和跟随起点错误使用实际位置",
+      "test": "boss-coward-servant",
+      "status": "passed"
+    },
+    {
+      "title": "亵渎杀人空分支",
+      "problem": "无可杀目标仍能选择杀人分支规避放密谋",
+      "test": "desecration-no-target",
+      "status": "passed"
+    },
+    {
+      "title": "伪装自杀与EX牌",
+      "problem": "其他效果放置的EX牌未禁止主人公行动牌",
+      "test": "fake-suicide-ex",
+      "status": "passed"
+    },
+    {
+      "title": "大人物邪教徒",
+      "problem": "取消禁止密谋时丢失所选择的领地",
+      "test": "cultist-virtual-area",
+      "status": "passed"
+    },
+    {
+      "title": "大人物侦探",
+      "problem": "缺少以领地触发事件的选择",
+      "test": "boss-detective",
+      "status": "passed"
+    }
+  ],
+  "humanAcceptance": "pending"
+}

@@ -1,0 +1,137 @@
+{
+  "startedAt": "2026-11-08T18:53:34.307Z",
+  "completedAt": "2026-11-08T18:59:11.291Z",
+  "checks": [
+    {
+      "name": "comprehensive-types",
+      "status": "passed",
+      "exit": 0,
+      "ms": 3238.9747,
+      "log": "comprehensive-types.txt"
+    },
+    {
+      "name": "engine-types",
+      "status": "passed",
+      "exit": 0,
+      "ms": 3051.4028,
+      "log": "engine-types.txt"
+    },
+    {
+      "name": "engine-regression",
+      "status": "passed",
+      "exit": 0,
+      "ms": 137271.553,
+      "log": "engine-regression.txt"
+    },
+    {
+      "name": "rules-types",
+      "status": "passed",
+      "exit": 0,
+      "ms": 2914.182300000015,
+      "log": "rules-types.txt"
+    },
+    {
+      "name": "rules-regression",
+      "status": "passed",
+      "exit": 0,
+      "ms": 871.4433000000136,
+      "log": "rules-regression.txt"
+    },
+    {
+      "name": "targeted-log",
+      "status": "passed",
+      "exit": 0,
+      "ms": 1153.326000000001,
+      "log": "targeted-log.txt"
+    },
+    {
+      "name": "stress-log",
+      "status": "passed",
+      "exit": 0,
+      "ms": 160764.69000000003,
+      "log": "stress-log.txt"
+    },
+    {
+      "name": "web-build",
+      "status": "passed",
+      "exit": 0,
+      "ms": 2147.3234999999986,
+      "log": "web-build.txt"
+    },
+    {
+      "name": "web-types",
+      "status": "passed",
+      "exit": 0,
+      "ms": 1840.8097999999882,
+      "log": "web-types.txt"
+    },
+    {
+      "name": "server-types",
+      "status": "passed",
+      "exit": 0,
+      "ms": 4291.18809999997,
+      "log": "server-types.txt"
+    },
+    {
+      "name": "review-regression",
+      "status": "passed",
+      "exit": 0,
+      "ms": 3076.13949999999,
+      "log": "review-regression.txt"
+    },
+    {
+      "name": "gui-regression",
+      "status": "passed",
+      "exit": 0,
+      "ms": 15833.91889999999,
+      "log": "gui-regression.txt"
+    }
+  ],
+  "sourceHashes": {
+    "packages/engine/src/runtime/context.ts": "e1e4cd733ad8b6ce27e542c283463e34de398a76f48ff7bfc26b72a339888dba",
+    "packages/engine/src/runtime/engine.ts": "30cb0da59c2dafea1072871f6c141438aa195dccbf216ff5600cf62723a3b0b1",
+    "packages/engine/src/runtime/expressions.ts": "9f9726357f9cf4683a52a515e94b9aa542400b13e192d88bacc9f582217d5ccd",
+    "packages/engine/src/runtime/knowledge.ts": "040a19f653faf322c070f40909066d8884d2685819a8a4b4e68b7790ecb6165b",
+    "packages/engine/src/runtime/model.ts": "40c723cb8eab6aad7019136826d47655c43e79d7cc199baa9b97a9ed073e72c5",
+    "packages/engine/src/runtime/ports.ts": "3e11b5df166106d437e4a244283f79e1464f0a37497e56130cf28e125c6d68af",
+    "packages/engine/src/runtime/reference.ts": "e8e6bf537570ad4efdfe41de086a4db90d2128ed6a48acd3487ba14b66e1a133",
+    "packages/engine/src/runtime/replay.ts": "9aaf910de03424eb119f2bed90dad5970c5f8be61b9bd04d8a9c480aa128bfb8",
+    "packages/engine/src/runtime/settlement.ts": "38f351a510b2cef0744cc579d997aed61e0206f6dc2700d359995a2511e03839",
+    "packages/engine/src/runtime/setup.ts": "76e36eb265395066f2be98f9ee3ba03bf16e93698ff1e7e51bc5690cf7bcb52d",
+    "packages/content/src/official/compile.ts": "5080bc84296cacb23746899b866093530c1645ddd6f2d19c7b1f7dbdc65d08e7",
+    "packages/content/src/official/index.ts": "317542161a31f76636d413c40ba1147528220324bbe028c4f98ea42a1656ad52",
+    "packages/content/src/official/programs.ts": "146c258dc9316001af8358886028baf0910c890e64f5e887b5785dcfffd06a04",
+    "packages/content/src/official/source-catalog.json": "30ba5fe9b362dbe6eb3ec0b3f8fe7f19541c743b4413d7193c07bd35c924ca60",
+    "packages/contracts/src/game.ts": "6e5bdddd5ba88bac6419553be352235c414ad8532d674be274fb1f226753584f",
+    "packages/contracts/src/index.ts": "084c65c9099f12092cb5d91dd22bfc9eb45b439230d70cffb654d767ebad2e4d",
+    "packages/contracts/src/knowledge.ts": "e7208e1b3c080f67070fb9fd294b7375aeaae3dcb6ba8232c11b06eb94691c9a",
+    "packages/contracts/src/validation.ts": "aa464c0fd3dfeff9078c983d36c7a9ff98608885b1aac1fb573ed139f4d47b64",
+    "tests/comprehensive/cases.ts": "663501a9623701fd75d0220ec737b59006979d3880075b9a608dcc03dcd7fd40",
+    "tests/comprehensive/faq-policy.ts": "72681c8fe0bcecc62c430ccf393f338a709685d325f223343984bec9e0cebb04",
+    "tests/comprehensive/final-cases.ts": "b999ee648caecb604ea61d123b30f5119a08aa237df7cb5a48f1be10a1e5a9c4",
+    "tests/comprehensive/fixtures/faq-index.json": "c882469d0f1f0af207ac81b1b6823fb5830008911233a9af0f19146ce4e628b3",
+    "tests/comprehensive/harness.ts": "48cfd5249a1861018a90c01f8153188269228600bee6aef8c541e8e99f63cbc9",
+    "tests/comprehensive/interactions.ts": "ffb1f72b354e531583394bc5c949a66c05ed269b7c32866e92861885d452c655",
+    "tests/comprehensive/more.ts": "03fce53569627f456e776684b85f93dbfe3a88b169cfde0b7b0cd4fa870afb2d",
+    "tests/comprehensive/remaining.ts": "cbe6a7247be10773c6ea79734b6e55f13718a19e8df4b12fdc8a537a5cd11079",
+    "tests/comprehensive/setup-cases.ts": "181588d2ae241fec4e3aa645d5ba2b50c1d5be4c916a76c5d1a14538f9fc5d2d",
+    "tests/comprehensive/tsconfig.json": "b0e9ef26d76e62a78887faeddea9c6b00bde0e265c36bfc4f4f10eceeac8414d",
+    "scripts/comprehensive/all.ts": "fedc09eaf0c2f052cbfc6924b63e36194db109410c96b70e9c3ac59324473f05",
+    "scripts/comprehensive/migrate-content.ts": "5ab0cbbfb56af07d8e868fe25ceba5bd9f3f0e1a474152a5116d49849ce783ad",
+    "scripts/comprehensive/migrate-projections.ts": "b1cb28de0842262b5b4ad8bbe387feb26fa4799fd9413064a7e6b0d5f7ed5f0c",
+    "scripts/comprehensive/playwright.config.ts": "bb9d79c2e5e9363792da38ca71d53827101197665141d75a64893eade80724b1",
+    "scripts/comprehensive/report.ts": "8af388b92fa68ced7ab831a6337214040973cd35ad1671b77e45ab71d22e4ee0",
+    "scripts/comprehensive/run.ts": "83866a93430238d578eb4bbfacfb98226dd31bbbeec11089770ea6507f514ba6",
+    "scripts/comprehensive/source-check.ts": "2458f2af01a5c91850770579a0027d2c4a20fcd9627b281e6da2d3d310939f76",
+    "scripts/comprehensive/stress.ts": "1d6a04d265fafa86a6b218bd69ef906ee4830285f6fe1a619b69bc3ec090e0b8",
+    "apps/web/src/api.ts": "e0d0fff7aa56b0d2f9172dc04b1548d37b6b60b8fc91a81afd73083bc829e7b9",
+    "apps/web/src/Knowledge.tsx": "b4287e95100a1a2767db8e58af0b9ee31623c5755014e9f06ae9f12fe6ee6527",
+    "apps/web/src/labels.ts": "4e0a63e3ad451bf3752ca1ca7f5c61b0d7b5700401c9fd74e8dc112c07736566",
+    "apps/web/src/main.tsx": "c711aa081003277df406ab467b21a8db2674486a1f723050461cf9445942f3c9",
+    "apps/web/src/style.css": "b194efd069f46815fb6dcbc1e58c5c7f66caa705d6c0464ef67673e846ff8019",
+    "apps/server/src/knowledge-worker.ts": "5ed4985a2f790c87c9337ed814fad8cf967e020b085a8904a6396ef9722e7b0f",
+    "apps/server/src/knowledge.ts": "c24b1a491a06897a2fa8b0b0f0a85cfab78ecbc4499db1d44519a1ff00b53d59",
+    "apps/server/src/main.ts": "fd48caf5fee24ace3e13af99e5371fd2fd54fcb7f284e3829a80d2a98eb6c73e",
+    "apps/server/src/review.ts": "84995c6f58a722ce7a7261d34db192dd0f9d897214fab9cfda073a71c15a713c"
+  }
+}
