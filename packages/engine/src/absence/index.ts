@@ -2,7 +2,7 @@ import { absenceProgramIndex } from './programs.js';
 import type { PlayerView, PublicCharacter } from '../../../contracts/src/game.js';
 import { roleImmortal } from '../runtime/expressions.js';
 import { publicCondition, type PublicContext } from '../runtime/knowledge-conditions.js';
-import type { Effect, RulePack } from '../runtime/model.js';
+import type { Condition, Effect, RulePack } from '../runtime/model.js';
 
 /** Position at the start of the mandatory batch, after any earlier effects.
  * Domains describe effective identities at this instant, not initial script slots. */
@@ -28,6 +28,8 @@ export interface AbsenceWindow {
     | { kind: 'death' | 'goodwill-completed' | 'incident-completed'; owner: string };
   /** "complete" certifies full roster, actual settlement and observation of the specified outcomes. */
   coverage: 'complete' | 'partial' | 'interrupted';
+  /** Only supply a limit when usage left at this timing is established publicly. */
+  availableLimitedAbilities?: readonly { owner: string; ability: string }[];
   absent: readonly { phenomenon: Phenomenon; character: string }[];
 }
 export interface AbsenceConstraint {
@@ -43,6 +45,8 @@ export interface AbsenceConstraint {
 export interface AbsenceSpace {
   domains: Record<string, string[]>;
   constraints: AbsenceConstraint[];
+  /** No assignment may satisfy every term of one clause. */
+  choiceConflicts?: { source: string; ability: string; terms: Record<string, string[]> }[];
 }
 
 /** Ground deterministic public consequences of the official mandatory programs. */
@@ -73,7 +77,8 @@ export function buildAbsenceSpace(
     ]),
   );
   const constraints: AbsenceConstraint[] = [];
-  const space = { domains, constraints };
+  const choiceConflicts: NonNullable<AbsenceSpace['choiceConflicts']> = [];
+  const space = { domains, constraints, choiceConflicts };
   if (
     window.coverage !== 'complete' ||
     entry.publicSpecialRules?.length ||
@@ -82,6 +87,42 @@ export function buildAbsenceSpace(
     return space;
 
   const index = absenceProgramIndex(pack);
+  function vulnerable(target: PublicCharacter) {
+    if (
+      target.status !== 'alive' ||
+      target.counters.guard !== 0 ||
+      entry.characters.some(
+        (c) =>
+          c.id !== target.id &&
+          c.area === target.area &&
+          c.status === 'alive' &&
+          (!pack.characters[c.character]?.supported || pack.characters[c.character]?.protects),
+      )
+    )
+      return [];
+    return domains[target.id]!.filter(
+      (r) =>
+        Object.hasOwn(pack.identities, r) &&
+        pack.identities[r]!.supported &&
+        !roleImmortal(pack, r, target.counters),
+    );
+  }
+  function enabled(condition: Condition | undefined, ctx: PublicContext) {
+    if (
+      entry.ex !== undefined &&
+      condition &&
+      typeof condition === 'object' &&
+      'cmp' in condition
+    ) {
+      const read = (v: typeof condition.left) =>
+        v && typeof v === 'object' && 'game' in v && v.game === 'ex' ? entry.ex! : v;
+      return publicCondition(
+        { ...condition, left: read(condition.left), right: read(condition.right) },
+        ctx,
+      );
+    }
+    return publicCondition(condition, ctx);
+  }
   for (const owner of entry.characters) {
     if ('owner' in timing && timing.owner !== owner.id) continue;
     if (
@@ -106,16 +147,65 @@ export function buildAbsenceSpace(
         if (
           !a.mandatory ||
           a.timing !== timing.kind ||
-          a.loopLimit !== undefined ||
+          (a.loopLimit !== undefined &&
+            !window.availableLimitedAbilities?.some(
+              (v) => v.owner === owner.id && v.ability === a.id,
+            )) ||
           a.threshold !== undefined ||
           a.declarationArea ||
           !step ||
-          step.choices?.length ||
           step.moveOthersFromEffectiveArea ||
-          publicCondition(a.condition, ctx) !== true ||
+          enabled(a.condition, ctx) !== true ||
           publicCondition(step.condition, ctx) !== true
         )
           continue;
+        if (step.choices?.length) {
+          const [choice] = step.choices;
+          const [effect] = step.effects;
+          if (
+            step.choices.length !== 1 ||
+            !choice ||
+            choice.optional ||
+            choice.allowEmpty ||
+            Array.isArray(choice.options) ||
+            choice.options.kind !== 'alive' ||
+            step.effects.length !== 1 ||
+            effect?.op !== 'kill' ||
+            effect.target !== '$' + choice.key
+          )
+            continue;
+          const terms = new Map<string, string[]>([[owner.id, [identity]]]);
+          let targets = 0,
+            open = false;
+          for (const c of entry.characters.filter((c) => c.status === 'alive')) {
+            const eligible = publicCondition(choice.options.where, {
+              ...ctx,
+              bindings: { it: c.id },
+            });
+            if (eligible === false) continue;
+            if (
+              eligible === undefined ||
+              !window.absent.some((e) => e.phenomenon === 'death' && e.character === c.id)
+            ) {
+              open = true;
+              break;
+            }
+            const roles = vulnerable(c).filter((r) => owner.id !== c.id || r === identity);
+            if (!roles.length) {
+              open = true;
+              break;
+            }
+            terms.set(c.id, roles);
+            targets++;
+          }
+          if (!open && targets)
+            choiceConflicts.push({
+              source: a.source,
+              ability: a.id,
+              terms: Object.fromEntries(terms),
+            });
+          continue;
+        }
         function visit(effect: Effect, bound?: PublicCharacter) {
           const local = { ...ctx, bindings: bound && { it: bound.id } };
           if (effect.op === 'when') {
@@ -143,27 +233,7 @@ export function buildAbsenceSpace(
           if (!window.absent.some((e) => e.character === target.id && e.phenomenon === phenomenon))
             return;
           let roles = domains[target.id]!;
-          if (phenomenon === 'death') {
-            if (target.status !== 'alive' || target.counters.guard !== 0) return;
-            // Private substitute selection can shield the target. Keep that explanation open.
-            if (
-              entry.characters.some(
-                (c) =>
-                  c.id !== target.id &&
-                  c.area === target.area &&
-                  c.status === 'alive' &&
-                  (!pack.characters[c.character]?.supported ||
-                    pack.characters[c.character]?.protects),
-              )
-            )
-              return;
-            roles = roles.filter(
-              (r) =>
-                Object.hasOwn(pack.identities, r) &&
-                pack.identities[r]!.supported &&
-                !roleImmortal(pack, r, target.counters),
-            );
-          }
+          if (phenomenon === 'death') roles = vulnerable(target);
           if (owner.id === target.id) roles = roles.filter((r) => r === identity);
           if (roles.length)
             constraints.push({

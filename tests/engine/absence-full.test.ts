@@ -251,7 +251,7 @@ for (const module of ['BTX', 'FS', 'MZ', 'MC', 'AHR', 'WM', 'HSA', 'LL'] as cons
             'possible',
             p.owner + '/' + p.id,
           );
-          if (forced && before.includes(forced))
+          if (forced && before.some((o) => o.sequence === forced.sequence))
             assert.equal(
               verifyAbsencePhase(
                 pack,

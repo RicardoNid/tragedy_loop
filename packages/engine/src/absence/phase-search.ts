@@ -1,4 +1,4 @@
-import type { Choice, Observation } from '../../../contracts/src/game.js';
+import type { Actor, Choice, Observation } from '../../../contracts/src/game.js';
 import { advance, drive } from '../runtime/engine.js';
 import { canonical, clone, type EngineState, type RulePack } from '../runtime/model.js';
 import { enumerateChoices } from '../runtime/replay.js';
@@ -15,6 +15,8 @@ export interface PhaseEvidence {
   end: Clock;
   coverage: 'complete' | 'partial' | 'interrupted';
   absent: readonly MissingReport[];
+  /** Optional fully known decision stream for this phase (e.g. an offline replay). */
+  decisions?: readonly { actor: Actor; choice: Choice }[];
 }
 export interface PhaseResult {
   status: 'possible' | 'excluded' | 'unknown';
@@ -111,7 +113,9 @@ export function verifyAbsencePhase(
   type Branch = { state: EngineState; cursor: number; trace: Choice[] };
   function* children(b: Branch): Generator<Branch> {
     const d = b.state.pending!;
-    for (const choice of actions(pack, b.state)) {
+    const known = evidence.decisions?.[b.trace.length];
+    if (evidence.decisions && known?.actor !== d.actor) return;
+    for (const choice of known ? [known.choice] : actions(pack, b.state)) {
       if (work >= limit) {
         unresolved = 'budget';
         return;
@@ -128,7 +132,7 @@ export function verifyAbsencePhase(
         0,
       );
       if (next.status === 'rejected') {
-        unresolved = 'unresolved-choice';
+        if (!known) unresolved = 'unresolved-choice';
         continue;
       }
       yield { state: next.state, cursor: b.cursor, trace: [...b.trace, choice] };
@@ -151,7 +155,10 @@ export function verifyAbsencePhase(
       for (; b.cursor < reports.length; b.cursor++) {
         const o = reports[b.cursor]!;
         if (o.type === 'boundary' && !sameClock(o, evidence.start)) {
-          if (sameClock(o, evidence.end))
+          if (
+            sameClock(o, evidence.end) &&
+            (!evidence.decisions || b.trace.length === evidence.decisions.length)
+          )
             return { ...result('possible', 'closed-witness'), witness: b.trace };
           conflict = true;
           break;

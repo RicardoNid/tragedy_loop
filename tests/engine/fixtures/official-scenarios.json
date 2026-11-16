@@ -1,0 +1,635 @@
+[
+  {
+    "id": "FS-01G",
+    "title": "The First Script (NT)",
+    "source": {
+      "url": "https://raw.githubusercontent.com/tragedy-looper/tragedy-looper.github.io/master/data/base-game/scripts.jsonc",
+      "sha256": "0c04b29b107d899c5a2b8a3ef8d94b6c695267ab56a27564d399e009677972f3",
+      "notes": [
+        "Cross-checked against official quickset/script_sheet(a5).pdf page 1. Uses 3-day NT/5th version."
+      ]
+    },
+    "setup": {
+      "module": "FS",
+      "anniversary": false,
+      "loops": 3,
+      "days": 3,
+      "captain": "p0",
+      "discussion": "between-loops",
+      "y": "谋杀计划",
+      "x": [
+        "开膛者的魔影"
+      ],
+      "characters": [
+        {
+          "id": "girlStudent",
+          "character": "女学生",
+          "identity": "关键人物"
+        },
+        {
+          "id": "officeWorker",
+          "character": "职员",
+          "identity": "杀手"
+        },
+        {
+          "id": "doctor",
+          "character": "医生",
+          "identity": "主谋"
+        },
+        {
+          "id": "popIdol",
+          "character": "偶像",
+          "identity": "传谣人"
+        },
+        {
+          "id": "shrineMaiden",
+          "character": "巫女",
+          "identity": "杀人狂"
+        },
+        {
+          "id": "boyStudent",
+          "character": "男学生",
+          "identity": "平民"
+        }
+      ],
+      "incidents": [
+        {
+          "day": 3,
+          "name": "自杀",
+          "culprit": "girlStudent"
+        }
+      ]
+    }
+  },
+  {
+    "id": "BTX-01G",
+    "title": "Magical Girls' Superiority",
+    "source": {
+      "url": "https://raw.githubusercontent.com/tragedy-looper/tragedy-looper.github.io/master/data/base-game/scripts.jsonc",
+      "sha256": "0c04b29b107d899c5a2b8a3ef8d94b6c695267ab56a27564d399e009677972f3",
+      "notes": []
+    },
+    "setup": {
+      "module": "BTX",
+      "anniversary": false,
+      "loops": 4,
+      "days": 5,
+      "captain": "p0",
+      "discussion": "between-loops",
+      "y": "和我签订契约吧！",
+      "x": [
+        "流言四起",
+        "潜伏的杀人狂"
+      ],
+      "characters": [
+        {
+          "id": "popIdol",
+          "character": "偶像",
+          "identity": "关键人物"
+        },
+        {
+          "id": "doctor",
+          "character": "医生",
+          "identity": "传谣人"
+        },
+        {
+          "id": "boyStudent",
+          "character": "男学生",
+          "identity": "杀人狂"
+        },
+        {
+          "id": "patient",
+          "character": "住院患者",
+          "identity": "平民"
+        },
+        {
+          "id": "teacher",
+          "character": "教师",
+          "identity": "平民"
+        },
+        {
+          "id": "richStudent",
+          "character": "大小姐",
+          "identity": "平民"
+        },
+        {
+          "id": "shrineMaiden",
+          "character": "巫女",
+          "identity": "亲友"
+        }
+      ],
+      "incidents": [
+        {
+          "day": 2,
+          "name": "不安扩散",
+          "culprit": "patient"
+        },
+        {
+          "day": 3,
+          "name": "医院事故",
+          "culprit": "shrineMaiden"
+        },
+        {
+          "day": 5,
+          "name": "失踪",
+          "culprit": "boyStudent"
+        }
+      ]
+    }
+  },
+  {
+    "id": "MZ-01G",
+    "title": "Romance Antithesis",
+    "source": {
+      "url": "https://raw.githubusercontent.com/tragedy-looper/tragedy-looper.github.io/master/data/midnight-circle/scripts.jsonc",
+      "sha256": "318f43134d347c48421cb27b47fd55218dff531b98fb54a18b737e09ec618b16",
+      "notes": [
+        "Upstream duplicates day 4. Midnight Circle Mastermind Handbook p6 explicitly identifies Office Worker confession as day 3; corrected only in this fixture."
+      ]
+    },
+    "setup": {
+      "module": "MZ",
+      "anniversary": false,
+      "loops": 4,
+      "days": 5,
+      "captain": "p0",
+      "discussion": "between-loops",
+      "y": "男子汉的战争",
+      "x": [
+        "X异因子",
+        "爱与恨的螺旋"
+      ],
+      "characters": [
+        {
+          "id": "boyStudent",
+          "character": "男学生",
+          "identity": "平民"
+        },
+        {
+          "id": "girlStudent",
+          "character": "女学生",
+          "identity": "强迫症"
+        },
+        {
+          "id": "richStudent",
+          "character": "大小姐",
+          "identity": "亲友"
+        },
+        {
+          "id": "shrineMaiden",
+          "character": "巫女",
+          "identity": "平民"
+        },
+        {
+          "id": "alien",
+          "character": "异界人",
+          "identity": "不安定因子"
+        },
+        {
+          "id": "policeOfficer",
+          "character": "刑警",
+          "identity": "平民"
+        },
+        {
+          "id": "officeWorker",
+          "character": "职员",
+          "identity": "忍者"
+        }
+      ],
+      "incidents": [
+        {
+          "day": 2,
+          "name": "自白",
+          "culprit": "richStudent"
+        },
+        {
+          "day": 3,
+          "name": "自白",
+          "culprit": "officeWorker"
+        },
+        {
+          "day": 4,
+          "name": "不安扩散",
+          "culprit": "girlStudent"
+        }
+      ]
+    }
+  },
+  {
+    "id": "MC-01G",
+    "title": "Obsession Detection",
+    "source": {
+      "url": "https://raw.githubusercontent.com/tragedy-looper/tragedy-looper.github.io/master/data/midnight-circle/scripts.jsonc",
+      "sha256": "318f43134d347c48421cb27b47fd55218dff531b98fb54a18b737e09ec618b16",
+      "notes": []
+    },
+    "setup": {
+      "module": "MC",
+      "anniversary": false,
+      "loops": 4,
+      "days": 5,
+      "captain": "p0",
+      "discussion": "between-loops",
+      "y": "黑暗学园",
+      "x": [
+        "双子的诡计",
+        "愚者之舞"
+      ],
+      "characters": [
+        {
+          "id": "boyStudent",
+          "character": "男学生",
+          "identity": "主谋"
+        },
+        {
+          "id": "richStudent",
+          "character": "大小姐",
+          "identity": "愚者"
+        },
+        {
+          "id": "shrineMaiden",
+          "character": "巫女",
+          "identity": "平民"
+        },
+        {
+          "id": "alien",
+          "character": "异界人",
+          "identity": "双胞胎"
+        },
+        {
+          "id": "policeOfficer",
+          "character": "刑警",
+          "identity": "偏执狂"
+        },
+        {
+          "id": "officeWorker",
+          "character": "职员",
+          "identity": "平民"
+        },
+        {
+          "id": "journalist",
+          "character": "媒体人",
+          "identity": "平民"
+        },
+        {
+          "id": "patient",
+          "character": "住院患者",
+          "identity": "亲友"
+        }
+      ],
+      "incidents": [
+        {
+          "day": 1,
+          "name": "前兆",
+          "culprit": "richStudent"
+        },
+        {
+          "day": 2,
+          "name": "银色子弹",
+          "culprit": "policeOfficer"
+        },
+        {
+          "day": 4,
+          "name": "医院事故",
+          "culprit": "shrineMaiden"
+        },
+        {
+          "day": 5,
+          "name": "连续杀人",
+          "culprit": "alien"
+        }
+      ]
+    }
+  },
+  {
+    "id": "HSA-01G",
+    "title": "Master Thief Seven Tails",
+    "source": {
+      "url": "https://raw.githubusercontent.com/tragedy-looper/tragedy-looper.github.io/master/data/cosmic-evil/scripts.jsonc",
+      "sha256": "7798b6100142db7daaa4ac830cc9627a6a424baaedee2ea94e0b9a70f391c6d9",
+      "notes": []
+    },
+    "setup": {
+      "module": "HSA",
+      "anniversary": false,
+      "loops": 4,
+      "days": 4,
+      "captain": "p0",
+      "discussion": "between-loops",
+      "y": "被诅咒的土地",
+      "x": [
+        "恐慌与妄想",
+        "少女大危机"
+      ],
+      "characters": [
+        {
+          "id": "boyStudent",
+          "character": "男学生",
+          "identity": "魔女"
+        },
+        {
+          "id": "richStudent",
+          "character": "大小姐",
+          "identity": "鬼魂"
+        },
+        {
+          "id": "classRep",
+          "character": "班长",
+          "identity": "胆小鬼"
+        },
+        {
+          "id": "shrineMaiden",
+          "character": "巫女",
+          "identity": "关键人物"
+        },
+        {
+          "id": "policeOfficer",
+          "character": "刑警",
+          "identity": "纸老虎"
+        },
+        {
+          "id": "officeWorker",
+          "character": "职员",
+          "identity": "杀人狂"
+        }
+      ],
+      "incidents": [
+        {
+          "day": 2,
+          "name": "失踪",
+          "culprit": "richStudent"
+        },
+        {
+          "day": 3,
+          "name": "亵渎杀人",
+          "culprit": "classRep"
+        },
+        {
+          "day": 4,
+          "name": "死者默示录",
+          "culprit": "school"
+        }
+      ]
+    }
+  },
+  {
+    "id": "WM-01G",
+    "title": "Banquet School Life",
+    "source": {
+      "url": "https://raw.githubusercontent.com/tragedy-looper/tragedy-looper.github.io/master/data/cosmic-evil/scripts.jsonc",
+      "sha256": "7798b6100142db7daaa4ac830cc9627a6a424baaedee2ea94e0b9a70f391c6d9",
+      "notes": []
+    },
+    "setup": {
+      "module": "WM",
+      "anniversary": false,
+      "loops": 4,
+      "days": 4,
+      "captain": "p0",
+      "discussion": "between-loops",
+      "y": "巨大定时炸弹Y",
+      "x": [
+        "抗争者",
+        "流言四起"
+      ],
+      "characters": [
+        {
+          "id": "boyStudent",
+          "character": "男学生",
+          "identity": "传谣人"
+        },
+        {
+          "id": "girlStudent",
+          "character": "女学生",
+          "identity": "魔女"
+        },
+        {
+          "id": "richStudent",
+          "character": "大小姐",
+          "identity": "杀人狂"
+        },
+        {
+          "id": "shrineMaiden",
+          "character": "巫女",
+          "identity": "平民"
+        },
+        {
+          "id": "policeOfficer",
+          "character": "刑警",
+          "identity": "平民"
+        },
+        {
+          "id": "officeWorker",
+          "character": "职员",
+          "identity": "巫师"
+        },
+        {
+          "id": "doctor",
+          "character": "医生",
+          "identity": "深潜者"
+        }
+      ],
+      "incidents": [
+        {
+          "day": 2,
+          "name": "失踪",
+          "culprit": "richStudent"
+        },
+        {
+          "day": 3,
+          "name": "邪气污染",
+          "culprit": "shrineMaiden"
+        },
+        {
+          "day": 4,
+          "name": "疯狂杀人",
+          "culprit": "boyStudent"
+        }
+      ]
+    }
+  },
+  {
+    "id": "AHR-01G",
+    "title": "Beyond Praying Stage",
+    "source": {
+      "url": "https://raw.githubusercontent.com/tragedy-looper/tragedy-looper.github.io/master/data/rei/scripts.jsonc",
+      "sha256": "699a0bcf296977174ca872da495bf39dc7227bf3bc153cefd43539a4a2bbf77d",
+      "notes": [
+        "Uses 3-loop upstream variant; local wiki lists 4/3. Part Timer replacement is created by engine, not an extra cast member."
+      ]
+    },
+    "setup": {
+      "module": "AHR",
+      "anniversary": false,
+      "loops": 3,
+      "days": 4,
+      "captain": "p0",
+      "discussion": "between-loops",
+      "y": "虚幻世界",
+      "x": [
+        "化身博士",
+        "爱丽丝梦游仙境"
+      ],
+      "characters": [
+        {
+          "id": "girlStudent",
+          "character": "女学生",
+          "identity": "爱丽丝"
+        },
+        {
+          "id": "richStudent",
+          "character": "大小姐",
+          "identity": "关键人物",
+          "reverseIdentity": "主谋"
+        },
+        {
+          "id": "classRep",
+          "character": "班长",
+          "identity": "平民"
+        },
+        {
+          "id": "shrineMaiden",
+          "character": "巫女",
+          "identity": "提线木偶"
+        },
+        {
+          "id": "officeWorker",
+          "character": "职员",
+          "identity": "提线木偶"
+        },
+        {
+          "id": "popIdol",
+          "character": "偶像",
+          "identity": "强迫症"
+        },
+        {
+          "id": "partTimer",
+          "character": "临时工",
+          "identity": "主谋"
+        },
+        {
+          "id": "soldier",
+          "character": "军人",
+          "identity": "传谣人",
+          "reverseIdentity": "杀人狂"
+        }
+      ],
+      "incidents": [
+        {
+          "day": 3,
+          "name": "遗言",
+          "culprit": "richStudent"
+        },
+        {
+          "day": 4,
+          "name": "冲动杀人",
+          "culprit": "popIdol"
+        }
+      ]
+    }
+  },
+  {
+    "id": "LL-01G",
+    "title": "Pervasive Secrets",
+    "source": {
+      "url": "https://docs.google.com/document/d/1P_y7dkyrjB36DprpQmHRK6zT72oKo7izW1Jrx3knToU/edit",
+      "modified": "2021-12-21T11:48:29.794Z",
+      "notes": [
+        "Official sample 1, English fan translation linked from Last Liar Rulebook p18. Private role permutation is recorded host input."
+      ]
+    },
+    "setup": {
+      "module": "LL",
+      "anniversary": false,
+      "loops": 3,
+      "days": 5,
+      "captain": "p0",
+      "discussion": "between-loops",
+      "privateRoles": {
+        "p0": "A",
+        "p1": "B",
+        "p2": "C"
+      },
+      "y": "巨大定时炸弹Z",
+      "x": [
+        "神话收集者",
+        "捏造的秘密"
+      ],
+      "characters": [
+        {
+          "id": "girlStudent",
+          "character": "女学生",
+          "identity": "平民"
+        },
+        {
+          "id": "classRep",
+          "character": "班长",
+          "identity": "平民"
+        },
+        {
+          "id": "teacher",
+          "character": "教师",
+          "identity": "魔女"
+        },
+        {
+          "id": "alien",
+          "character": "异界人",
+          "identity": "网络名流"
+        },
+        {
+          "id": "god",
+          "character": "神灵",
+          "identity": "密钥",
+          "enterLoop": 3
+        },
+        {
+          "id": "denizen",
+          "character": "上位存在",
+          "identity": "传谣人"
+        },
+        {
+          "id": "officeWorker",
+          "character": "职员",
+          "identity": "怪杰"
+        },
+        {
+          "id": "informer",
+          "character": "情报商",
+          "identity": "平民"
+        },
+        {
+          "id": "popIdol",
+          "character": "偶像",
+          "identity": "主谋"
+        },
+        {
+          "id": "soldier",
+          "character": "军人",
+          "identity": "平民"
+        }
+      ],
+      "incidents": [
+        {
+          "day": 2,
+          "name": "骤变",
+          "culprit": "alien"
+        },
+        {
+          "day": 3,
+          "name": "代行者",
+          "culprit": "officeWorker"
+        },
+        {
+          "day": 4,
+          "name": "不安扩散",
+          "culprit": "classRep"
+        },
+        {
+          "day": 5,
+          "name": "失踪",
+          "culprit": "informer"
+        }
+      ]
+    }
+  }
+]
