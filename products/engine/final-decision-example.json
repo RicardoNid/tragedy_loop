@@ -1,0 +1,201 @@
+{
+  "exhaustive": true,
+  "candidates": [
+    {
+      "setup": {
+        "module": "BTX",
+        "anniversary": false,
+        "loops": 4,
+        "days": 5,
+        "captain": "p0",
+        "discussion": "between-loops",
+        "y": "和我签订契约吧！",
+        "x": [
+          "流言四起",
+          "潜伏的杀人狂"
+        ],
+        "characters": [
+          {
+            "id": "popIdol",
+            "character": "偶像",
+            "identity": "关键人物"
+          },
+          {
+            "id": "doctor",
+            "character": "医生",
+            "identity": "传谣人"
+          },
+          {
+            "id": "boyStudent",
+            "character": "男学生",
+            "identity": "杀人狂"
+          },
+          {
+            "id": "patient",
+            "character": "住院患者",
+            "identity": "平民"
+          },
+          {
+            "id": "teacher",
+            "character": "教师",
+            "identity": "平民"
+          },
+          {
+            "id": "richStudent",
+            "character": "大小姐",
+            "identity": "平民"
+          },
+          {
+            "id": "shrineMaiden",
+            "character": "巫女",
+            "identity": "亲友"
+          }
+        ],
+        "incidents": [
+          {
+            "day": 2,
+            "name": "不安扩散",
+            "culprit": "patient"
+          },
+          {
+            "day": 3,
+            "name": "医院事故",
+            "culprit": "shrineMaiden"
+          },
+          {
+            "day": 5,
+            "name": "失踪",
+            "culprit": "boyStudent"
+          }
+        ]
+      },
+      "choices": [
+        {
+          "actor": "p0",
+          "choice": {
+            "kind": "request-final-guess"
+          }
+        },
+        {
+          "actor": "p0",
+          "choice": {
+            "kind": "vote-final-guess",
+            "agree": true
+          }
+        },
+        {
+          "actor": "p1",
+          "choice": {
+            "kind": "vote-final-guess",
+            "agree": true
+          }
+        },
+        {
+          "actor": "p2",
+          "choice": {
+            "kind": "vote-final-guess",
+            "agree": true
+          }
+        }
+      ]
+    },
+    {
+      "setup": {
+        "module": "BTX",
+        "anniversary": false,
+        "loops": 4,
+        "days": 5,
+        "captain": "p0",
+        "discussion": "between-loops",
+        "y": "和我签订契约吧！",
+        "x": [
+          "流言四起",
+          "潜伏的杀人狂"
+        ],
+        "characters": [
+          {
+            "id": "popIdol",
+            "character": "偶像",
+            "identity": "关键人物"
+          },
+          {
+            "id": "doctor",
+            "character": "医生",
+            "identity": "杀人狂"
+          },
+          {
+            "id": "boyStudent",
+            "character": "男学生",
+            "identity": "传谣人"
+          },
+          {
+            "id": "patient",
+            "character": "住院患者",
+            "identity": "平民"
+          },
+          {
+            "id": "teacher",
+            "character": "教师",
+            "identity": "平民"
+          },
+          {
+            "id": "richStudent",
+            "character": "大小姐",
+            "identity": "平民"
+          },
+          {
+            "id": "shrineMaiden",
+            "character": "巫女",
+            "identity": "亲友"
+          }
+        ],
+        "incidents": [
+          {
+            "day": 2,
+            "name": "不安扩散",
+            "culprit": "patient"
+          },
+          {
+            "day": 3,
+            "name": "医院事故",
+            "culprit": "shrineMaiden"
+          },
+          {
+            "day": 5,
+            "name": "失踪",
+            "culprit": "boyStudent"
+          }
+        ]
+      },
+      "choices": [
+        {
+          "actor": "p0",
+          "choice": {
+            "kind": "request-final-guess"
+          }
+        },
+        {
+          "actor": "p0",
+          "choice": {
+            "kind": "vote-final-guess",
+            "agree": true
+          }
+        },
+        {
+          "actor": "p1",
+          "choice": {
+            "kind": "vote-final-guess",
+            "agree": true
+          }
+        },
+        {
+          "actor": "p2",
+          "choice": {
+            "kind": "vote-final-guess",
+            "agree": true
+          }
+        }
+      ]
+    }
+  ]
+}

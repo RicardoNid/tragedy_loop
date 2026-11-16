@@ -47,6 +47,21 @@ archive/               旧实现与归档说明；不参与 workspace 或检查
 原型保留教学编排、实现范围和待验收标记，不作为活动引擎或规则权威。
 方案文件总是以 HTML 格式交付。
 
+## 最终决战决策求解器
+
+在仓库根目录运行以下命令，可查看两个合法 BTX 候选剧本共有的安全回答。
+
+```bash
+pnpm solve:final products/engine/final-decision-example.json
+pnpm check:decision
+```
+
+示例中医生与男学生的身份互换。求解器给出其余五人的安全回答，两个剧本各自单独输入时都能生成七步完整答题顺序。
+
+输入 JSON 的 `candidates` 数组包含同一公开问题下仍可行的剧本，每项提供 `setup` 和按顺序记录的 `choices`（每步含 `actor`、`choice`）。重放应恰好停在等待回答的最终决战。候选已覆盖所有可能情况时填 `exhaustive: true`；只掌握部分候选时填 `false`。可选的 `worldLimit` 限制复核的候选数。宿主也可直接将已停在决战提问处的状态流传给 `solveFinalDecision`。反向解空间中的阶段有效身份需结合初始身份和行动历史补全后使用。
+
+`safeChoices` 是所有候选都接受的下一步。只有每名待答角色都有共同正确的答案时，`plan` 才给出可连续提交的完整顺序。周年版因果残片可答平民，AHR 的表里身份按一对核验。LL 主人公 C 在专属提问中须一次提交各日当事人的联合答案。覆盖不足、超出预算或有未建模特规时返回 `unknown`；穷尽输入后无候选返回 `no-candidates`。
+
 ## 安装和配置检查
 
 Node 版本见 `.node-version`（当前 22.22.1），pnpm 版本见 package.json（11.25.0），

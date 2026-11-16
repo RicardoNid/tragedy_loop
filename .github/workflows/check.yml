@@ -23,6 +23,7 @@ jobs:
       - run: uv sync --locked --python 3.12 --default-index https://pypi.org/simple
       - run: pnpm check
       - run: pnpm check:absence
+      - run: pnpm check:decision
       - name: Verify generated absence report
         run: |
           pnpm exec tsx scripts/engine/absence-report.ts

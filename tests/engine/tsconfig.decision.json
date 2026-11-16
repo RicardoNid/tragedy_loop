@@ -1,0 +1,4 @@
+{
+  "extends": "./tsconfig.absence.json",
+  "include": ["./final-decision.test.ts", "../../scripts/engine/final-decision.ts"]
+}
