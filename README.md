@@ -1,7 +1,7 @@
-# Tragedy Loop · 项目骨架
+# Tragedy Loop
 
-当前交付的是**结构、配置和协作边界**。旧游戏、服务、资料页面、测试和生成工具均已移入
-`archive/`，不再作为活动实现运行。尚无可启动游戏应用；不提供 dev/start/build/test 假入口。
+独立的 TypeScript 规则内核和官方内容包支持基于缺席观察的推理。Web 与服务目录保留工程骨架。
+下载仓库后可双击打开[未发生现象的解空间](products/engine/absence-space.html)，逐格查看角色身份组合、剪枝依据和各模组规则清单。
 
 计划技术栈：React + Vite、Node.js + Fastify、TypeScript；Python + uv 用于未来辅助工具。
 JS/TS 的版本、workspace 依赖和锁定记录已经配置。Python 环境是非打包环境，暂不声明 CLI 或构建包。
@@ -16,16 +16,16 @@ apps/
   web/                 package.json、tsconfig.json；src/ 空
   server/              package.json、tsconfig.json；src/ 空
 packages/
-  engine/              src/ 空；prototypes/ 保存独立 HTML 设计原型
-  contracts/           package.json；src/ 空
-  content/             package.json；src/ 空
+  engine/              src/absence/ 独立反向解空间，src/runtime/ 正向规则结算
+  contracts/           游戏输入和公开观察类型
+  content/             官方规则包及其来源
 python/
   src/tragedy_tools/    空
   tests/               空
-tests/                 空
+tests/                 解空间回归、逐程序核验及剧本样本
 e2e/                   空
-scripts/               空
-products/              空
+scripts/engine/        解空间报告生成器
+products/engine/       可离线查看的解空间报告
 docs/
   architecture/        HTML 方案、术语阅读版和算法交接
   development/         空
@@ -56,10 +56,12 @@ Python 版本见 `.python-version`（3.12）；使用 uv 管理 Python 环境。
 pnpm install --frozen-lockfile
 uv sync --locked --python 3.12 --default-index https://pypi.org/simple
 pnpm check
+pnpm check:absence
 ```
 
 本机联网安装在命令前加 `get-dep`。`pnpm check` 只校验配置格式和 Python 锁一致性；
-CI 另外执行冻结安装。当前没有活动应用代码或应用单元测试；独立原型已有浏览器操作检查，领域规则仍待人类验收。
+CI 另外执行冻结安装，以及 `pnpm check:absence` 的类型检查和游戏规则回归。规则包发生变化时，运行
+`pnpm exec tsx scripts/engine/absence-report.ts` 更新报告。CI 会检查提交的报告是否可复现。
 TypeScript 配置已为 web/server 预置；等出现源码后再运行类型检查和构建。
 
 根只有一套 pnpm/uv 活动锁文件。归档中的旧配置仅是历史副本，不参与自动安装。
