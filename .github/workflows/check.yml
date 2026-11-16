@@ -22,6 +22,11 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - run: uv sync --locked --python 3.12 --default-index https://pypi.org/simple
       - run: pnpm check
+      - run: pnpm check:absence
+      - name: Verify generated absence report
+        run: |
+          pnpm exec tsx scripts/engine/absence-report.ts
+          git diff --exit-code -- products/engine/absence-space.html
       - name: Verify portable facts reader
         run: |
           python3 facts/tools/verify_wiki.py

@@ -2,14 +2,14 @@
 
 ## 当前交付边界
 
-本仓库目前是工程骨架，不包含活动游戏实现。技术方向为 React + Vite 前端、
+本仓库包含独立反向解空间及其正向结算依赖。Web 与服务保留工程骨架。技术方向为 React + Vite 前端、
 Node.js + Fastify 后端、TypeScript 规则内核；Python + uv 仅用于辅助工具。
 具体版本与依赖以各 package.json、根 pyproject.toml 及锁文件为准。
 
 ## 职责与边界
 
 - `apps/web/src/`：未来 Web UI；`apps/server/src/`：未来服务入口。
-- `packages/engine/src/`、`contracts/src/`、`content/src/`：未来规则、契约和运行内容。
+- `packages/engine/src/absence/`、`packages/engine/src/runtime/`、`packages/contracts/src/`、`packages/content/src/`：反向解空间、正向结算、游戏契约及官方内容。
 - `python/src/tragedy_tools/`、`python/tests/`：未来 Python 辅助工具与测试。
 - `tests/`、`e2e/`、`scripts/`、`products/`、`docs/`：为后续工作预留。
 - **`facts/` 由“规则真源”任务独立维护本地 wiki。本工程整理任务不得写入、移动、删除、格式化或生成该目录下的内容。**
@@ -24,6 +24,7 @@ JS/TS 只使用根 pnpm workspace 和 pnpm-lock.yaml；Python 只使用根 pypro
 新增依赖写入实际使用它的 workspace，更新相应锁文件。安装方法见 README.md。
 命令显式限定活动目录；禁止对全仓运行会写入 facts 或 archive 的格式化、生成、修复命令。
 当前 `pnpm check` 只验证配置格式和 Python 锁文件，不能报告为应用测试通过。
+运行 `pnpm check:absence` 检查反向解空间类型和回归。报告入口为 `products/engine/absence-space.html`。
 源目录尚为空时，不添加虚假的成功构建、启动或测试入口；实现功能时再建立对应检查。
 
 ## 后续开发
