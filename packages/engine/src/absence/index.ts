@@ -28,6 +28,9 @@ export interface AbsenceWindow {
     | { kind: 'death' | 'goodwill-completed' | 'incident-completed'; owner: string };
   /** "complete" certifies full roster, actual settlement and observation of the specified outcomes. */
   coverage: 'complete' | 'partial' | 'interrupted';
+  /** Phase-wide silence can also be checked against optional and delayed effects.
+   * Otherwise absence is certified only for the specified mandatory batch. */
+  extent?: 'phase';
   /** Only supply a limit when usage left at this timing is established publicly. */
   availableLimitedAbilities?: readonly { owner: string; ability: string }[];
   absent: readonly { phenomenon: Phenomenon; character: string }[];
@@ -81,6 +84,10 @@ export function buildAbsenceSpace(
   const space = { domains, constraints, choiceConflicts };
   if (
     window.coverage !== 'complete' ||
+    // AHR world movement and HSA curses precede the mandatory group.
+    (window.extent === 'phase' &&
+      timing.kind === 'day-end' &&
+      ['AHR', 'HSA'].includes(entry.module)) ||
     entry.publicSpecialRules?.length ||
     (!('owner' in timing) && entry.phase !== timing.kind)
   )

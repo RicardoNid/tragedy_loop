@@ -469,6 +469,7 @@ export function settle(
   for (const [id, area] of Object.entries(moves)) state.characters[id]!.area = area;
   for (const id of revivals) state.characters[id]!.status = 'alive';
   for (const id of dying) {
+    if (state.traceOutcomes) state.audit.push({ kind: 'character-died', data: id });
     if (state.ll && !state.ll.died.includes(id)) {
       state.ll.died.push(id);
       announce(state, 'board', { diedMarker: id });
