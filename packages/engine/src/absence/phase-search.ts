@@ -1,20 +1,22 @@
 import type { Actor, Choice, Observation } from '../../../contracts/src/game.js';
-import { advance, drive } from '../runtime/engine.js';
-import { canonical, clone, type EngineState, type RulePack } from '../runtime/model.js';
+import { advance, cardCount, drive, legalCardTargets } from '../runtime/engine.js';
+import { clone, type EngineState, type RulePack } from '../runtime/model.js';
 import { enumerateChoices } from '../runtime/replay.js';
 
+import {
+  compileOutcomes,
+  type MissingReport,
+  type OutcomeRule,
+  type ShownCard,
+} from './outcomes.js';
+export type { MissingReport, OutcomeRule } from './outcomes.js';
 type Clock = Pick<Observation, 'loop' | 'day' | 'phase'>;
-/** Patterns match the observation envelope and any supplied top-level data fields.
- * Omitted fields are wildcards. A missing matching public report is the evidence. */
-export interface MissingReport {
-  type: Observation['type'];
-  fields?: Readonly<Record<string, unknown>>;
-}
 export interface PhaseEvidence {
   start: Clock;
   end: Clock;
   coverage: 'complete' | 'partial' | 'interrupted';
   absent: readonly MissingReport[];
+  rules?: readonly OutcomeRule[];
   /** Optional fully known decision stream for this phase (e.g. an offline replay). */
   decisions?: readonly { actor: Actor; choice: Choice }[];
 }
@@ -28,15 +30,43 @@ export interface PhaseResult {
 const sameClock = (a: Clock, b: Clock) =>
   a.day === b.day && a.loop === b.loop && a.phase === b.phase;
 
-function* permutations<T>(items: T[]): Generator<T[]> {
-  if (!items.length) {
-    yield [];
+// With a complete later reveal only card IDs with that face can be witnesses.
+function* revealedActions(state: EngineState, shown: readonly ShownCard[]): Generator<Choice> {
+  const actor = state.pending!.actor;
+  const cards = shown.filter((p) => p.owner === actor);
+  const targets = legalCardTargets(state, actor);
+  if (
+    cards.length !== cardCount(state, actor) ||
+    new Set(cards.map((p) => p.target)).size !== cards.length ||
+    cards.some((p) => !targets.includes(p.target))
+  )
+    return;
+  function* bind(i: number, used: { card: string; target: string }[]): Generator<Choice> {
+    if (i === cards.length) {
+      yield { kind: 'cards', placements: used };
+      return;
+    }
+    const p = cards[i]!;
+    for (const c of state.cards)
+      if (
+        c.owner === actor &&
+        c.status === 'hand' &&
+        c.kind === p.kind &&
+        !used.some((u) => u.card === c.id)
+      )
+        yield* bind(i + 1, [...used, { card: c.id, target: p.target }]);
+  }
+  yield* bind(0, []);
+}
+function* actions(
+  pack: RulePack,
+  state: EngineState,
+  shown?: readonly ShownCard[],
+): Generator<Choice> {
+  if (shown && state.pending?.kind === 'cards') {
+    yield* revealedActions(state, shown);
     return;
   }
-  for (const [i, item] of items.entries())
-    for (const rest of permutations(items.filter((_, j) => i !== j))) yield [item, ...rest];
-}
-function* actions(pack: RulePack, state: EngineState): Generator<Choice> {
   if (state.pending?.kind === 'guess') {
     if (state.flags['c-guess']) {
       const days = state.setup.incidents.map((i) => String(i.day));
@@ -63,10 +93,9 @@ function* actions(pack: RulePack, state: EngineState): Generator<Choice> {
             yield { kind: 'guess', character: c.id, identity, reverseIdentity };
     return;
   }
-  for (const c of enumerateChoices(state)) {
-    if (c.kind !== 'cards') yield c;
-    else for (const placements of permutations(c.placements)) yield { kind: 'cards', placements };
-  }
+  // applyChoice canonicalizes target order before publication and play. A known
+  // private command is still replayed verbatim; unknown order has one representative.
+  yield* enumerateChoices(state);
 }
 
 /** Trusted-host phase verifier. All mandatory frames, static traits, incidents,
@@ -79,119 +108,189 @@ export function verifyAbsencePhase(
   evidence: PhaseEvidence,
   limit: number,
 ): PhaseResult {
-  if (!Number.isSafeInteger(limit) || limit < 0) throw Error('Invalid work limit');
+  return verifyAbsenceHistory(pack, root, [evidence], limit);
+}
+
+export function verifyAbsenceHistory(
+  pack: RulePack,
+  root: EngineState,
+  stages: readonly PhaseEvidence[],
+  limit: number,
+): PhaseResult {
+  return prepareAbsenceHistory(pack, stages)(root, limit);
+}
+
+/** Compile each observation index once for the entire candidate space. */
+export function prepareAbsenceHistory(pack: RulePack, stages: readonly PhaseEvidence[]) {
   if (
-    !sameClock(root, evidence.start) ||
-    root.ruleDigest !== pack.digest ||
-    sameClock(evidence.start, evidence.end)
+    !stages.length ||
+    stages.some(
+      (e, i) => sameClock(e.start, e.end) || (i > 0 && !sameClock(e.start, stages[i - 1]!.end)),
+    )
   )
     throw Error('Wrong phase window or rule pack');
-  let work = 0,
-    choices = 0;
-  const result = (status: PhaseResult['status'], reason: string): PhaseResult => ({
-    status,
-    reason,
-    work,
-    choices,
+  const open = stages.some((e) => e.coverage !== 'complete');
+  const traceOutcomes = stages.some((e) =>
+    e.rules?.some((r) => r.kind === 'no-death' || r.kind === 'ability-completed'),
+  );
+  const compiled = stages.map((e) => compileOutcomes(e.absent, e.rules ?? []));
+  const cardHints = stages.map((stage, i) => {
+    const offset =
+      stage.start.phase === 'mastermind-cards'
+        ? 2
+        : stage.start.phase === 'protagonist-cards'
+          ? 1
+          : 0;
+    const reveal = stages[i + offset];
+    if (
+      !offset ||
+      !reveal ||
+      reveal.start.phase !== 'card-resolution' ||
+      reveal.start.day !== stage.start.day ||
+      reveal.start.loop !== stage.start.loop ||
+      (offset === 2 && stages[i + 1]?.start.phase !== 'protagonist-cards')
+    )
+      return;
+    return reveal.rules?.find((r) => r.kind === 'cards')?.placements;
   });
-  if (evidence.coverage !== 'complete' || root.setup.publicSpecialRules?.length)
-    return result('unknown', 'open-window-or-special-rule');
-  const selected = [
-    ...Object.values(root.characters).flatMap((c) => [
-      pack.characters[c.character],
-      pack.identities[c.identity],
-    ]),
-    ...[root.setup.y, ...root.setup.x, root.setup.alternateY]
-      .filter(Boolean)
-      .map((n) => pack.plots[n!]),
-    ...root.setup.incidents.map((i) => pack.incidents[i.name]),
-  ];
-  if (selected.some((d) => !d?.supported)) return result('unknown', 'untranslated-rule');
-  // Index observations by type. Unrelated public changes do not invalidate silence.
-  const byType = new Map<Observation['type'], MissingReport[]>();
-  for (const p of evidence.absent) byType.set(p.type, [...(byType.get(p.type) ?? []), p]);
-  type Branch = { state: EngineState; cursor: number; trace: Choice[] };
-  function* children(b: Branch): Generator<Branch> {
-    const d = b.state.pending!;
-    const known = evidence.decisions?.[b.trace.length];
-    if (evidence.decisions && known?.actor !== d.actor) return;
-    for (const choice of known ? [known.choice] : actions(pack, b.state)) {
-      if (work >= limit) {
-        unresolved = 'budget';
-        return;
+  return function verify(root: EngineState, limit: number): PhaseResult {
+    if (!Number.isSafeInteger(limit) || limit < 0) throw Error('Invalid work limit');
+    if (!sameClock(root, stages[0]!.start) || root.ruleDigest !== pack.digest)
+      throw Error('Wrong phase window or rule pack');
+    let work = 0,
+      choices = 0;
+    const result = (status: PhaseResult['status'], reason: string): PhaseResult => ({
+      status,
+      reason,
+      work,
+      choices,
+    });
+    if (open || root.setup.publicSpecialRules?.length)
+      return result('unknown', 'open-window-or-special-rule');
+    const selected = [
+      ...Object.values(root.characters).flatMap((c) => [
+        pack.characters[c.character],
+        pack.identities[c.identity],
+      ]),
+      ...root.setup.characters.flatMap((c) =>
+        [c.identity, c.reverseIdentity]
+          .filter((r): r is string => !!r)
+          .map((r) => pack.identities[r]),
+      ),
+      ...[root.setup.y, ...root.setup.x, root.setup.alternateY]
+        .filter(Boolean)
+        .map((n) => pack.plots[n!]),
+      ...root.setup.incidents.map((i) => pack.incidents[i.name]),
+    ];
+    if (selected.some((d) => !d?.supported)) return result('unknown', 'untranslated-rule');
+    if (stages.some((stage, i) => !compiled[i]!.admits(root, stage.start.phase, stage.start.day)))
+      return result('excluded', 'incompatible-schedule');
+    type Branch = {
+      state: EngineState;
+      cursor: number;
+      trace: Choice[];
+      stage: number;
+      decisionStart: number;
+      auditStart: number;
+      counts: number[];
+    };
+    function* children(b: Branch): Generator<Branch> {
+      const d = b.state.pending!;
+      const evidence = stages[b.stage]!;
+      const known = evidence.decisions?.[b.trace.length - b.decisionStart];
+      if (evidence.decisions && known?.actor !== d.actor) return;
+      for (const choice of known ? [known.choice] : actions(pack, b.state, cardHints[b.stage])) {
+        if (work >= limit) {
+          unresolved = 'budget';
+          return;
+        }
+        work++;
+        choices++;
+        let id = 'absence-' + b.state.revision;
+        while (Object.hasOwn(b.state.receipts, id)) id += '-';
+        const next = advance(
+          pack,
+          b.state,
+          d.actor,
+          { id, expectedRevision: b.state.revision, decisionId: d.id, choice },
+          0,
+        );
+        if (next.status === 'rejected') {
+          if (!known) unresolved = 'unresolved-choice';
+          continue;
+        }
+        yield { ...b, counts: [...b.counts], state: next.state, trace: [...b.trace, choice] };
       }
-      work++;
-      choices++;
-      let id = 'absence-' + b.state.revision;
-      while (Object.hasOwn(b.state.receipts, id)) id += '-';
-      const next = advance(
-        pack,
-        b.state,
-        d.actor,
-        { id, expectedRevision: b.state.revision, decisionId: d.id, choice },
-        0,
-      );
-      if (next.status === 'rejected') {
-        if (!known) unresolved = 'unresolved-choice';
+    }
+    let unresolved = '';
+    const initial = clone(root);
+    if (traceOutcomes) initial.traceOutcomes = true;
+    const stack: Iterator<Branch>[] = [
+      [
+        {
+          state: initial,
+          cursor: root.observations.public.length,
+          trace: [],
+          stage: 0,
+          decisionStart: 0,
+          auditStart: root.audit.length,
+          counts: compiled[0]!.initial(),
+        },
+      ][Symbol.iterator](),
+    ];
+    while (stack.length) {
+      const item = stack.at(-1)!.next();
+      if (item.done) {
+        stack.pop();
         continue;
       }
-      yield { state: next.state, cursor: b.cursor, trace: [...b.trace, choice] };
-    }
-  }
-  let unresolved = '';
-  const stack: Iterator<Branch>[] = [
-    [{ state: clone(root), cursor: root.observations.public.length, trace: [] }][Symbol.iterator](),
-  ];
-  while (stack.length) {
-    const item = stack.at(-1)!.next();
-    if (item.done) {
-      stack.pop();
-      continue;
-    }
-    const b = item.value;
-    while (true) {
-      const reports = b.state.observations.public;
-      let conflict = false;
-      for (; b.cursor < reports.length; b.cursor++) {
-        const o = reports[b.cursor]!;
-        if (o.type === 'boundary' && !sameClock(o, evidence.start)) {
-          if (
-            sameClock(o, evidence.end) &&
-            (!evidence.decisions || b.trace.length === evidence.decisions.length)
-          )
-            return { ...result('possible', 'closed-witness'), witness: b.trace };
-          conflict = true;
+      const b = item.value;
+      while (true) {
+        const reports = b.state.observations.public;
+        let conflict = false;
+        for (; b.cursor < reports.length; b.cursor++) {
+          const o = reports[b.cursor]!;
+          const evidence = stages[b.stage]!;
+          const current = compiled[b.stage]!;
+          if (o.type === 'boundary' && !sameClock(o, evidence.start)) {
+            if (
+              !sameClock(o, evidence.end) ||
+              (evidence.decisions &&
+                b.trace.length - b.decisionStart !== evidence.decisions.length) ||
+              !current.closed(b.state, b.auditStart, b.counts)
+            ) {
+              conflict = true;
+              break;
+            }
+            if (++b.stage === stages.length)
+              return { ...result('possible', 'closed-witness'), witness: b.trace };
+            b.counts = compiled[b.stage]!.initial();
+            b.auditStart = b.state.audit.length;
+            b.decisionStart = b.trace.length;
+            continue;
+          }
+          if (!current.accept(o, b.counts)) {
+            conflict = true;
+            break;
+          }
+        }
+        if (conflict || b.state.winner) break;
+        if (b.state.diagnostic) {
+          unresolved = 'engine-diagnostic';
           break;
         }
-        if (
-          byType
-            .get(o.type)
-            ?.some((p) =>
-              Object.entries(p.fields ?? {}).every(
-                ([k, v]) => Object.hasOwn(o.data, k) && canonical(o.data[k]) === canonical(v),
-              ),
-            )
-        ) {
-          conflict = true;
+        if (work >= limit) return result('unknown', 'budget');
+        if (b.state.pending) {
+          stack.push(children(b));
           break;
         }
+        // Move one interpreter tick, preserving simultaneous settlements and their observations.
+        work++;
+        drive(pack, b.state, 1);
       }
-      if (conflict || b.state.winner) break;
-      if (b.state.diagnostic) {
-        unresolved = 'engine-diagnostic';
-        break;
-      }
-      if (work >= limit) return result('unknown', 'budget');
-      if (b.state.pending) {
-        stack.push(children(b));
-        break;
-      }
-      // Move one interpreter tick, preserving simultaneous settlements and their observations.
-      work++;
-      drive(pack, b.state, 1);
     }
-  }
-  return unresolved
-    ? result('unknown', unresolved)
-    : result('excluded', 'all-completions-conflict');
+    return unresolved
+      ? result('unknown', unresolved)
+      : result('excluded', 'all-completions-conflict');
+  };
 }

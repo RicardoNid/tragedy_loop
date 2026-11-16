@@ -601,6 +601,36 @@ function enqueueIncident(
   });
   return id;
 }
+function incidentHadPublicEffect(state: EngineState): boolean {
+  // Invoked text shares the day's occurrence and never announces a second incident.
+  const reports = state.observations.public;
+  for (let i = reports.length - 1; i >= 0; i--) {
+    const o = reports[i]!;
+    if (o.type === 'incident' || o.type === 'boundary') break;
+    // MC raises EX for the occurrence before applying even a black cat's empty text.
+    if (
+      state.setup.module === 'MC' &&
+      o.type === 'board' &&
+      'ex' in o.data &&
+      reports[i - 1]?.type === 'incident'
+    )
+      continue;
+    if (
+      [
+        'character',
+        'board',
+        'failure',
+        'identity',
+        'rule',
+        'culprit',
+        'card-grant',
+        'victory',
+      ].includes(o.type)
+    )
+      return true;
+  }
+  return false;
+}
 function complete(pack: RulePack, state: EngineState, frame: Frame): void {
   state.flags[`completed:${frame.id}`] = 'yes';
   if (frame.ability)
@@ -612,11 +642,16 @@ function complete(pack: RulePack, state: EngineState, frame: Frame): void {
       id: frame.id,
       source: frame.source,
       ability: frame.ability?.id,
+      ...(state.traceOutcomes && { owner: frame.owner, choices: { ...frame.choices } }),
       incident: frame.incident,
     },
   });
   if (frame.kind === 'incident') {
-    if (frame.occurrence && frame.bound.beforeVisible === visibleBoard(state))
+    if (
+      frame.occurrence &&
+      frame.bound.beforeVisible === visibleBoard(state) &&
+      !incidentHadPublicEffect(state)
+    )
       announce(state, 'no-effect', { day: state.day });
     if (!frame.nestedIncident)
       enqueueMandatory(pack, state, 'incident-completed', frame.owner, true);
@@ -781,7 +816,11 @@ function processBatch(pack: RulePack, state: EngineState): void {
     if (
       frame.step === 0 &&
       frame.ability?.threshold !== undefined &&
-      frame.actor !== 'mastermind' &&
+      (frame.actor !== 'mastermind' ||
+        (pack.module === 'AHR' &&
+          state.phase === 'mastermind-abilities' &&
+          (pack.identities[state.characters[frame.owner]?.identity ?? '']?.puppet ||
+            state.setup.x.includes('傀儡之线')))) &&
       !frame.bound.refusalChecked &&
       !frame.bound.skipStep
     ) {
@@ -793,7 +832,10 @@ function processBatch(pack: RulePack, state: EngineState): void {
         });
         frame.bound.declared = 'yes';
       }
-      const mode = frame.ability.cannotRefuse ? 'none' : refusal(pack, state, frame.owner);
+      const mode =
+        frame.actor === 'mastermind' || frame.ability.cannotRefuse
+          ? 'none'
+          : refusal(pack, state, frame.owner);
       if (mode === 'mandatory') {
         rejectAbility(pack, state, frame);
         frame.bound.refused = 'yes';
@@ -1153,7 +1195,11 @@ function resolveCards(pack: RulePack, state: EngineState, part: number): void {
     const group = placements.filter(
       (p) => p.target === target || (c?.character === '幻想' && p.target === c.area),
     );
-    const kinds = group.map((p) => p.card.kind);
+    const ignoresBlock =
+      c && identities(state, target).some((i) => ['时间旅者', '次元旅者'].includes(i));
+    const kinds = group
+      .filter((p) => !(ignoresBlock && p.target === target && p.card.kind === 'block-goodwill'))
+      .map((p) => p.card.kind);
     if (
       part === 0 &&
       c &&
@@ -1177,13 +1223,7 @@ function resolveCards(pack: RulePack, state: EngineState, part: number): void {
           continue;
         const n = Number(magnitude);
         if ((part === 1 && n < 0) || (part === 2 && n > 0)) continue;
-        if (
-          counter === 'goodwill' &&
-          kinds.includes('block-goodwill') &&
-          (!identities(state, target).some((i) => ['时间旅者', '次元旅者'].includes(i)) ||
-            group.some((p) => p.card.kind === 'block-goodwill' && p.target !== target))
-        )
-          continue;
+        if (counter === 'goodwill' && kinds.includes('block-goodwill')) continue;
         if (counter === 'paranoia' && kinds.includes('block-paranoia')) continue;
         const cultist = Object.values(state.characters).some(
           (t) =>

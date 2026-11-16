@@ -61,8 +61,6 @@ export function observeDayEnd(
     })
   )
     return window;
-  // World movement and curses can change effective identities or the board before the mandatory batch.
-  if (entry.module === 'AHR' || entry.module === 'HSA') return window;
   const day = reports.slice(0, -1);
   if (
     day.some(
@@ -97,6 +95,7 @@ export function observeDayEnd(
   return {
     ...window,
     coverage: 'complete',
+    extent: 'phase',
     absent: [
       ...Array.from(survived, (character) => ({ phenomenon: 'death' as const, character })),
       ...Array.from(concealed, (character) => ({

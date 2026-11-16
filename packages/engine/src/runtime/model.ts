@@ -279,6 +279,8 @@ export interface EngineState {
     cAnswered?: boolean;
   };
   observations: Record<'public' | 'protagonists' | 'mastermind', Observation[]>;
+  /** Collect per-source bindings and actual deaths on a private search copy only. */
+  traceOutcomes?: true;
   audit: { kind: string; data: unknown }[];
   choices: { actor: Actor; decisionId: string; choice: Choice }[];
   /** Complete receipt contents, not only ID, are retained for safe retries. */
