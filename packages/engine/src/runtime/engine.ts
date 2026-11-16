@@ -44,6 +44,7 @@ import {
   settle,
   type Intent,
 } from './settlement.js';
+import { acceptedIdentities } from './final-answers.js';
 import { initialState, validateSetup } from './setup.js';
 import { commandSchema } from '../../../contracts/src/validation.js';
 
@@ -1982,10 +1983,9 @@ function applyChoice(pack: RulePack, state: EngineState, choice: Choice): boolea
       return false;
     const config = state.setup.characters.find((c) => c.id === choice.character);
     const correct =
-      (state.characters[choice.character]!.initialIdentity === choice.identity ||
-        (pack.anniversary &&
-          state.characters[choice.character]!.initialIdentity === '因果残片' &&
-          choice.identity === '平民')) &&
+      acceptedIdentities(pack, state.characters[choice.character]!.initialIdentity).includes(
+        choice.identity,
+      ) &&
       config?.reverseIdentity === choice.reverseIdentity;
     announce(state, 'identity', { character: choice.character, guess: choice.identity, correct });
     if (!correct) win(state, 'mastermind');
