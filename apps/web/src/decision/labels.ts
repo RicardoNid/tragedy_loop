@@ -58,11 +58,11 @@ export const cardNames: Record<CardKind, string> = {
   'hope+1': '希望 +1',
   'despair+1': '绝望 +1',
 };
-export const target = (id: string, view?: PolicyView) =>
+export const target = (id: string, view?: Pick<PolicyView, 'characters'>) =>
   view?.characters.find((c) => c.id === id)?.character ?? areas[id as Board] ?? id;
 export const actor = (id: string) =>
   ({ p0: '主人公一', p1: '主人公二', p2: '主人公三', mastermind: '剧作家' })[id] ?? id;
-export function action(choice: Choice, view?: PolicyView): string {
+export function action(choice: Choice, view?: Pick<PolicyView, 'characters' | 'ownCards'>): string {
   switch (choice.kind) {
     case 'cards':
       return choice.placements

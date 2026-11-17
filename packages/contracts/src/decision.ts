@@ -11,6 +11,7 @@ import type {
   Protagonist,
   PublicCharacter,
 } from './game.js';
+import type { InvestigationOptions, InvestigationResult } from './investigation.js';
 
 export type DecisionGoal =
   | { kind: 'game' }
@@ -91,4 +92,6 @@ export interface DecisionAnalysis {
   generatedSetups?: number;
   advice?: PolicyAdvice;
   verification?: PublicVerification;
+  suggestedInvestigation?: InvestigationOptions;
+  investigation?: { options: InvestigationOptions; result: InvestigationResult };
 }

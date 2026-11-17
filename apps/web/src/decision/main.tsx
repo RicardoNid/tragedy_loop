@@ -9,10 +9,12 @@ import { actor, phases, reasons, target } from './labels.js';
 import { Board } from './Board.js';
 import { Policy } from './Policy.js';
 import { ImportDialog } from './ImportDialog.js';
+import { Investigation } from './Investigation.js';
+import type { InvestigationOptions } from '../../../../packages/contracts/src/investigation.js';
 import './style.css';
 
 type Source = { scenario: string } | { question: unknown; name: string };
-type Mode = 'inspect' | 'solve' | 'verify';
+type Mode = 'inspect' | 'solve' | 'verify' | 'investigate';
 const number = (n: number) => n.toLocaleString('zh-CN');
 function save(policy: PolicyNode) {
   const url = URL.createObjectURL(
@@ -49,7 +51,13 @@ function App() {
   const active = useRef<AbortController | null>(null);
   const scenario =
     'scenario' in source ? scenarios.find((s) => s.id === source.scenario) : undefined;
-  async function run(mode: Mode, input = source, chosen = policy, limit = budget) {
+  async function run(
+    mode: Mode,
+    input = source,
+    chosen = policy,
+    limit = budget,
+    investigation?: InvestigationOptions,
+  ) {
     active.current?.abort();
     const controller = new AbortController();
     active.current = controller;
@@ -60,6 +68,7 @@ function App() {
       setData((d) => d && { ...d, advice: undefined, verification: undefined });
     }
     if (mode === 'verify') setData((d) => d && { ...d, verification: undefined });
+    if (mode === 'investigate') setData((d) => d && { ...d, investigation: undefined });
     try {
       if (limit && (!/^\d+$/.test(limit) || Number(limit) > 1000000))
         throw Error('正向预算需要是 0 至 1000000 的整数。');
@@ -68,6 +77,7 @@ function App() {
         ...('scenario' in input ? { scenario: input.scenario } : { question: input.question }),
         ...(limit && { workLimit: Number(limit) }),
         ...(mode === 'verify' && { policy: chosen }),
+        ...(investigation && { investigation }),
       };
       const res = await fetch('/api/decision', {
         method: 'POST',
@@ -79,7 +89,7 @@ function App() {
       if (!res.ok) throw Error(result.error ?? '局面请求失败');
       if (active.current !== controller) return;
       const next = result as DecisionAnalysis;
-      setData((old) => (mode === 'verify' ? { ...next, advice: old?.advice } : next));
+      setData((old) => ({ ...old, ...next }));
       if (mode === 'solve') {
         setPolicy(next.advice?.policy);
         setVersion((v) => v + 1);
@@ -179,6 +189,13 @@ function App() {
             </p>
           )}
           {view && <Board view={view} sheet={data?.sheet} />}
+          {data && view?.phase === 'protagonist-abilities' && view.menu.kind === 'ability' && (
+            <Investigation
+              data={data}
+              busy={!!busy}
+              submit={(options) => void run('investigate', source, undefined, budget, options)}
+            />
+          )}
           <section className="panel analysis">
             <div className="panel-heading">
               <h2>决策分析</h2>
