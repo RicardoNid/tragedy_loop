@@ -2,6 +2,7 @@ import type { Choice } from '../../../contracts/src/game.js';
 import type { MastermindGoal } from '../../../contracts/src/decision.js';
 import { culpritAnswer } from '../runtime/final-answers.js';
 import type { EngineState, RulePack } from '../runtime/model.js';
+import { identityConfiguration } from '../runtime/model.js';
 import { enumerateChoices } from '../runtime/replay.js';
 import { mastermindQuestion, type PolicyCandidates } from './position.js';
 import { searchPolicy } from './policy-search.js';
@@ -24,7 +25,7 @@ function protagonistReplies(s: EngineState): Iterable<Choice> {
     (c) => c.status !== 'absent' && !guessed.has(c.id),
   );
   if (!character) return [];
-  const reverseIdentity = s.setup.characters.find((c) => c.id === character.id)?.reverseIdentity;
+  const reverseIdentity = identityConfiguration(s, character.id)?.reverseIdentity;
   return [
     {
       kind: 'guess',

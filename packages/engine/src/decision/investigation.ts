@@ -8,7 +8,12 @@ import type {
 } from '../../../contracts/src/investigation.js';
 import type { Choice } from '../../../contracts/src/game.js';
 import { drive } from '../runtime/engine.js';
-import { canonical, type EngineState, type RulePack } from '../runtime/model.js';
+import {
+  canonical,
+  identityConfiguration,
+  type EngineState,
+  type RulePack,
+} from '../runtime/model.js';
 import { enumerateChoices } from '../runtime/replay.js';
 import {
   observedBoard,
@@ -33,7 +38,7 @@ function hypothesis(s: EngineState, target: InvestigationTarget): Hypothesis {
   const c = s.characters[target.character];
   if (!c || (c.status === 'absent' && !s.appeared.includes(c.id)))
     throw Error('Expected a visible character');
-  const reverseIdentity = s.setup.characters.find((entry) => entry.id === c.id)?.reverseIdentity;
+  const reverseIdentity = identityConfiguration(s, c.id)?.reverseIdentity;
   return { identity: c.initialIdentity, ...(reverseIdentity && { reverseIdentity }) };
 }
 function answersOf(worlds: World[]): Hypothesis[] {

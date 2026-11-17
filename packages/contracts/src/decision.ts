@@ -126,7 +126,16 @@ export interface DecisionAnalysis {
     skippedSetups: number;
     skippedChoices: number;
     sources: {
-      kind: 'culprit' | 'culprit-answers' | 'initial-answer' | 'personal-role' | 'incident-outcome';
+      kind:
+        | 'culprit'
+        | 'culprit-answers'
+        | 'initial-answer'
+        | 'personal-role'
+        | 'incident-outcome'
+        | 'missing-loop-grant';
+      character?: string;
+      grant?: 'hope+1' | 'despair+1';
+      endReport?: number;
       report?: number;
       occurred?: boolean;
     }[];

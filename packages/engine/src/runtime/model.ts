@@ -297,6 +297,13 @@ export interface Diagnostic {
 }
 export type Environment = Record<string, string>;
 export const clone = <T>(value: T): T => structuredClone(value);
+/** The replacement shares only the part-timer's configured identity pair and
+ * incident assignment. Its card, counters, flags and presence remain distinct. */
+export function identityConfiguration(state: EngineState, id: string) {
+  return state.characters[id]?.character === '临时工？'
+    ? state.setup.characters.find((c) => c.character === '临时工' && c.id + '_replacement' === id)
+    : state.setup.characters.find((c) => c.id === id);
+}
 export function canonical(value: unknown): string {
   if (Array.isArray(value)) return `[${value.map(canonical).join(',')}]`;
   if (value !== null && typeof value === 'object')

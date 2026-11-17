@@ -1,5 +1,5 @@
 import type { EngineState, RulePack } from '../runtime/model.js';
-import { canonical } from '../runtime/model.js';
+import { canonical, identityConfiguration } from '../runtime/model.js';
 import { visibleReport } from './position.js';
 import { acceptedIdentities, culpritAnswer, type FinalGuess } from '../runtime/final-answers.js';
 
@@ -57,15 +57,15 @@ function ordinaryAnswers(pack: RulePack, state: EngineState) {
     .filter((c) => c.status !== 'absent' && !guessed.has(c.id))
     .sort((a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0));
   if (!roster.length) throw Error('Empty pending identity question');
-  const reverse = new Map(state.setup.characters.map((c) => [c.id, c.reverseIdentity]));
-  const choices = roster.flatMap((c) =>
-    acceptedIdentities(pack, c.initialIdentity).map((identity) => ({
+  const choices = roster.flatMap((c) => {
+    const reverseIdentity = identityConfiguration(state, c.id)?.reverseIdentity;
+    return acceptedIdentities(pack, c.initialIdentity).map((identity) => ({
       kind: 'guess' as const,
       character: c.id,
       identity,
-      ...(reverse.get(c.id) && { reverseIdentity: reverse.get(c.id) }),
-    })),
-  );
+      ...(reverseIdentity && { reverseIdentity }),
+    }));
+  });
   return { roster, choices };
 }
 

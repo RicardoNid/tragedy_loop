@@ -60,7 +60,9 @@ export function inferObservedWorlds(
   evidence: DecisionEvidence,
   workLimit: number,
   worldLimit: number,
-  pruning: boolean | { script?: boolean; dayEnd?: boolean; incident?: boolean } = true,
+  pruning:
+    | boolean
+    | { script?: boolean; dayEnd?: boolean; incident?: boolean; loopGrants?: boolean } = true,
 ): InferredWorlds {
   if (![workLimit, worldLimit].every((n) => Number.isSafeInteger(n) && n >= 0))
     throw Error('Invalid reconstruction limits');
@@ -126,7 +128,11 @@ export function inferObservedWorlds(
 
   const states: EngineState[] = [];
   const constraints = (typeof pruning === 'boolean' ? pruning : pruning.script !== false)
-    ? compileScriptEvidence(evidence, typeof pruning === 'boolean' || pruning.incident !== false)
+    ? compileScriptEvidence(
+        evidence,
+        typeof pruning === 'boolean' || pruning.incident !== false,
+        typeof pruning === 'boolean' || pruning.loopGrants !== false,
+      )
     : undefined;
   const dayEnd = (typeof pruning === 'boolean' ? pruning : pruning.dayEnd !== false)
     ? new DayEndIntersection(pack, reports)

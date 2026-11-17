@@ -1,8 +1,11 @@
 import type { GameSetup, Protagonist, ScheduledIncident } from '../../../contracts/src/game.js';
 import { acceptedIdentities } from '../runtime/final-answers.js';
 import type { EngineState, RulePack } from '../runtime/model.js';
+import { identityConfiguration } from '../runtime/model.js';
 import type { DecisionEvidence } from './observed-worlds.js';
 import { IncidentEvidence, incidentEvidence, type IncidentFact } from './incident-evidence.js';
+
+import { loopGrantEvidence, allowsLoopGrants, type LoopGrantFact } from './loop-grant-evidence.js';
 
 type DayFact = { kind: 'culprit'; day: number; culprit: string; report: number };
 type TupleFact = {
@@ -21,7 +24,7 @@ type GuessFact = {
   report: number;
 };
 type SeatFact = { kind: 'personal-role'; seat: Protagonist; role: 'A' | 'B' | 'C' };
-type Fact = DayFact | TupleFact | GuessFact | SeatFact | IncidentFact;
+type Fact = DayFact | TupleFact | GuessFact | SeatFact | IncidentFact | LoopGrantFact;
 
 /** Only assertions about immutable script fields belong here. An ordinary
  * identity announcement may be a Ninja declaration or an effective identity
@@ -29,6 +32,7 @@ type Fact = DayFact | TupleFact | GuessFact | SeatFact | IncidentFact;
 export function compileScriptEvidence(
   evidence: DecisionEvidence,
   checkIncidents = true,
+  checkLoopGrants = true,
 ): ScriptEvidence {
   const facts: Fact[] = [];
   if (evidence.coverage !== 'complete' || evidence.sheet.specialRules.length)
@@ -103,11 +107,17 @@ export function compileScriptEvidence(
   if (evidence.sheet.module === 'LL' && evidence.seat && evidence.view.personalRole)
     facts.push({ kind: 'personal-role', seat: evidence.seat, role: evidence.view.personalRole });
   const windows = checkIncidents ? incidentEvidence(reports, evidence.sheet.incidents) : [];
+  if (
+    checkLoopGrants &&
+    (evidence.sheet.anniversary || ['LL', 'AHR'].includes(evidence.sheet.module))
+  )
+    facts.push(...loopGrantEvidence(reports));
   facts.push(...windows.map((w) => w.fact));
   return new ScriptEvidence(facts, windows.length ? new IncidentEvidence(windows) : undefined);
 }
 
 export class ScriptEvidence {
+  private readonly loopGrants: LoopGrantFact[] = [];
   private readonly fixedDays = new Map<number, Set<string>>();
   private readonly guesses = new Map<string, GuessFact[]>();
   private readonly tuples: TupleFact[] = [];
@@ -122,7 +132,8 @@ export class ScriptEvidence {
       this.fixedDays.set(day, found);
     };
     for (const f of facts) {
-      if (f.kind === 'culprit') record(f.day, f.culprit);
+      if (f.kind === 'missing-loop-grant') this.loopGrants.push(f);
+      else if (f.kind === 'culprit') record(f.day, f.culprit);
       else if (f.kind === 'culprit-answers') {
         if (f.correct) for (const [day, who] of Object.entries(f.answers)) record(Number(day), who);
         else this.tuples.push(f);
@@ -133,6 +144,9 @@ export class ScriptEvidence {
         this.guesses.set(f.character, rows);
       }
     }
+  }
+  allowsLoopRoles(roster: GameSetup['characters'], fragment?: string) {
+    return allowsLoopGrants(this.loopGrants, roster, fragment);
   }
   allowsCulprit(day: number, who: string) {
     const fixed = this.fixedDays.get(day);
@@ -170,6 +184,7 @@ export class ScriptEvidence {
   allowsState(pack: RulePack, s: EngineState) {
     if (!this.facts.length) return true;
     if (
+      !this.allowsLoopRoles(s.setup.characters, s.setup.anniversaryFragment) ||
       !this.allowsShuffle(s.setup.privateRoles) ||
       !this.allowsTuple(s.setup.incidents) ||
       s.setup.incidents.some((i) => !this.allowsIncident(pack, s.setup.characters, i))
@@ -177,7 +192,7 @@ export class ScriptEvidence {
       return false;
     for (const id of this.guesses.keys()) {
       const c = s.characters[id],
-        setup = s.setup.characters.find((row) => row.id === id);
+        setup = identityConfiguration(s, id);
       if (!c || !this.allowsIdentity(pack, id, c.initialIdentity, setup?.reverseIdentity))
         return false;
     }
