@@ -3,6 +3,7 @@ import { drive } from '../runtime/engine.js';
 import { canonical, clone, type EngineState, type RulePack } from '../runtime/model.js';
 import { enumerateChoices } from '../runtime/replay.js';
 import { observedMenu, submitChoice, rulesSupported, type PolicyCandidates } from './position.js';
+import { terminalProofKey, TerminalProofs } from './terminal-proofs.js';
 
 type View = ReturnType<typeof observedMenu>;
 export interface PolicyNode {
@@ -15,6 +16,7 @@ export interface PolicyNode {
 export interface PolicyAdvice {
   status: 'guaranteed' | 'no-guaranteed-policy' | 'unknown' | 'no-candidates';
   work: number;
+  reusedProofs?: number;
   reason?: 'limit' | 'unsupported' | 'incomplete';
   policy?: PolicyNode;
 }
@@ -43,6 +45,7 @@ interface SearchDomain {
   maxAbilities?: number;
   frontierLimit?: number;
   traceDeaths?: boolean;
+  proofCacheLimit?: number;
 }
 export function searchPolicy(
   pack: RulePack,
@@ -57,6 +60,7 @@ export function searchPolicy(
   if (candidates.states.some((s) => !rulesSupported(pack, s)))
     return { status: 'unknown', reason: 'unsupported', work: 0 };
   let work = 0;
+  const proofs = domain.proofCacheLimit ? new TerminalProofs(domain.proofCacheLimit) : undefined;
 
   function apply(branch: Branch, choice: Choice): Branch | 'unsupported' | 'limit' {
     if (work >= workLimit) return 'limit';
@@ -70,6 +74,16 @@ export function searchPolicy(
   function expand(input: Branch[], choice: Choice, since: number): Group[] | Outcome {
     const groups = new Map<string, Group>();
     let retained = 0;
+    let origin = 0;
+    type Checkpoint = { key: string; retained: number };
+    const active: Checkpoint[] = [];
+    // The same concrete world often refutes several actions. Visit it first
+    // next time without discarding any other member of the information set.
+    function loss(): Outcome {
+      if (origin) [input[0], input[origin]] = [input[origin]!, input[0]!];
+      for (const mark of active) proofs!.put(mark.key, 'lose');
+      return 'lose';
+    }
     function* successors(b: Branch, choices: Iterable<Choice>) {
       let any = false;
       for (const c of choices) {
@@ -79,11 +93,13 @@ export function searchPolicy(
       if (!any) yield 'unsupported' as const;
     }
     function* initial() {
-      for (const b of input) yield apply(b, choice);
+      for (origin = 0; origin < input.length; origin++) yield apply(input[origin]!, choice);
     }
     // A mastermind card placement may have thousands of legal siblings. Allocate
     // each child only when DFS visits it; a single immediate loss settles the action.
-    const pending: Iterator<Branch | 'limit' | 'unsupported'>[] = [initial()];
+    const pending: Iterator<Branch | { after: Checkpoint } | 'limit' | 'unsupported'>[] = [
+      initial(),
+    ];
     while (pending.length) {
       const item = pending.at(-1)!.next();
       if (item.done) {
@@ -92,13 +108,29 @@ export function searchPolicy(
       }
       const b = item.value;
       if (typeof b === 'string') return b;
+      if ('after' in b) {
+        active.pop();
+        // Any new controlled prompt requires its own policy, even if the hidden
+        // rule state there is identical. Never reuse that subtree as a terminal win.
+        if (retained === b.after.retained) proofs!.put(b.after.key, 'win');
+        continue;
+      }
       const s = b.state;
       for (;;) {
         if (s.diagnostic) return 'unsupported';
         const end = domain.outcome(s, b.audit);
         b.audit = s.audit.length;
-        if (end === 'lose') return 'lose';
+        if (end === 'lose') return loss();
         if (end === 'win') break;
+        const key = proofs && terminalProofKey(s);
+        if (key) {
+          const old = proofs!.get(key);
+          if (old === 'lose') return loss();
+          if (old === 'win') break;
+          const mark = { key, retained };
+          active.push(mark);
+          pending.push([{ after: mark }][Symbol.iterator]());
+        }
         const d = s.pending;
         if (!d) {
           if (work >= workLimit) return 'limit';
@@ -166,7 +198,8 @@ export function searchPolicy(
     return { state, audit: state.audit.length };
   });
   const policy = decide(branches, domain.maxAbilities ?? Infinity, 0);
-  if (typeof policy !== 'string') return { status: 'guaranteed', policy, work };
-  if (policy === 'lose') return { status: 'no-guaranteed-policy', work };
-  return { status: 'unknown', reason: policy, work };
+  const counts = { work, ...(proofs && { reusedProofs: proofs.hits }) };
+  if (typeof policy !== 'string') return { status: 'guaranteed', policy, ...counts };
+  if (policy === 'lose') return { status: 'no-guaranteed-policy', ...counts };
+  return { status: 'unknown', reason: policy, ...counts };
 }

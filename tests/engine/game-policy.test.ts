@@ -11,7 +11,77 @@ import { adviseWinningPolicy } from '../../scripts/engine/game-policy.js';
 import { compileOfficial } from '../../packages/content/src/official/compile.js';
 import { enumerateChoices } from '../../packages/engine/src/runtime/replay.js';
 import { replayCandidates } from '../../scripts/engine/candidate-replays.js';
+import { adviseObservedGame, exportObservation } from '../../scripts/engine/observed-game.js';
 import { act, character, lab, phase, type Lab } from '../comprehensive/harness.js';
+
+test('720 个暗置世界共同的学校防守在有限预算内得到完整终局证明', () => {
+  const q = JSON.parse(
+    readFileSync(
+      new URL('../../products/engine/game-policy-example.json', import.meta.url),
+      'utf8',
+    ),
+  );
+  const result = adviseObservedGame({
+    evidence: exportObservation(q.candidates[0]),
+    setups: [q.candidates[0].setup],
+    exhaustiveSetups: true,
+    worldLimit: 720,
+    workLimit: 30000,
+  });
+  assert.equal(result.history.worlds, 720);
+  assert.equal(result.advice.status, 'guaranteed');
+  assert.deepEqual(result.advice.policy?.choice, {
+    kind: 'cards',
+    placements: [{ card: 'p2-7', target: 'school' }],
+  });
+  assert.ok((result.advice.reusedProofs ?? 0) > 500);
+});
+
+test('结算后盘面一致但后续仍需医生选择，保留两种翻牌观察和各自可执行的后续行动', () => {
+  const boards = ['hospital', 'school'];
+  const worlds = boards.map((_, i) => {
+    const l = lab('FS');
+    l.state.setup.days = l.state.setup.loops = 1;
+    const b = character(l, 'b', '住院患者', '平民', 'hospital');
+    b.counters.paranoia = b.paranoiaLimit;
+    character(l, 'c', '医生', '平民', 'hospital').counters.goodwill = 2;
+    l.state.boards.hospital = 2;
+    l.state.setup.incidents = [{ day: 1, name: '医院事故', culprit: 'b' }];
+    phase(l, 'mastermind-cards');
+    act(l, {
+      kind: 'cards',
+      placements: [
+        { card: 'mastermind-0', target: boards[i]! },
+        { card: 'mastermind-1', target: boards[1 - i]! },
+        { card: 'mastermind-3', target: 'city' },
+      ],
+    });
+    act(l, { kind: 'cards', placements: [{ card: 'p0-3', target: 'shrine' }] });
+    act(l, { kind: 'cards', placements: [{ card: 'p1-3', target: 'school' }] });
+    return l;
+  });
+  const candidates = { states: worlds.map((w) => w.state), exhaustive: true };
+  for (const cap of [0, 1, 100]) {
+    const r = findWinningPolicy(worlds[0]!.pack, candidates, 10000, 512, undefined, cap);
+    assert.equal(r.status, 'guaranteed');
+    assert.equal(r.policy?.responses.length, 2);
+    for (const l of worlds) replayWin(l, r.policy!);
+  }
+});
+
+test('相同角色和当前区域下，未来延迟败北不可使用另一世界的获胜证明', () => {
+  const l = lastCard('school', true, false);
+  const losing = clone(l.state);
+  losing.delayed = [{ day: 1, loop: 1, timing: 'day-end', effects: [{ op: 'fail' }], env: {} }];
+  for (const states of [[l.state], [losing], [l.state, losing], [losing, l.state]]) {
+    const expected = states.includes(losing) ? 'no-guaranteed-policy' : 'guaranteed';
+    for (const cap of [0, 1, 512])
+      assert.equal(
+        findWinningPolicy(l.pack, { exhaustive: true, states }, 15000, 512, undefined, cap).status,
+        expected,
+      );
+  }
+});
 
 test('合法 FS 示例，遍历剧作家全部后续选择，逐叶复核获胜和另一种出牌的败局', () => {
   const q = JSON.parse(
