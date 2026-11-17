@@ -13,6 +13,7 @@ import {
   BOARDS,
   COUNTERS,
   canonical,
+  identityConfiguration,
   clone,
   zeroCounters,
   type Ability,
@@ -1978,7 +1979,7 @@ function applyChoice(pack: RulePack, state: EngineState, choice: Choice): boolea
       state.characters[choice.character]!.status === 'absent'
     )
       return false;
-    const config = state.setup.characters.find((c) => c.id === choice.character);
+    const config = identityConfiguration(state, choice.character);
     const correct =
       acceptedIdentities(pack, state.characters[choice.character]!.initialIdentity).includes(
         choice.identity,

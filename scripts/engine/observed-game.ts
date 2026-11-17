@@ -27,6 +27,7 @@ export interface ObservedQuestion {
   historyWorkLimit?: number;
   dayEndAbsence?: boolean;
   incidentEvidence?: boolean;
+  loopGrantEvidence?: boolean;
   worldLimit?: number;
   workLimit?: number;
   frontierLimit?: number;
@@ -39,6 +40,7 @@ export function resolveObservedCandidates(input: ObservedQuestion) {
     (input.setupDomains !== undefined && !Array.isArray(input.setupDomains)) ||
     typeof input.exhaustiveSetups !== 'boolean' ||
     (input.dayEndAbsence !== undefined && typeof input.dayEndAbsence !== 'boolean') ||
+    (input.loopGrantEvidence !== undefined && typeof input.loopGrantEvidence !== 'boolean') ||
     (input.incidentEvidence !== undefined && typeof input.incidentEvidence !== 'boolean') ||
     !input.evidence?.sheet ||
     (input.goal &&
@@ -62,6 +64,7 @@ export function resolveObservedCandidates(input: ObservedQuestion) {
       input.generationWorkLimit ?? 100000,
       true,
       input.incidentEvidence,
+      input.loopGrantEvidence,
     );
   const pool = generated?.setups ?? input.setups!.map((s) => setupSchema.parse(s));
   const { states, ...progress } = inferObservedWorlds(
@@ -71,7 +74,11 @@ export function resolveObservedCandidates(input: ObservedQuestion) {
     input.evidence,
     input.historyWorkLimit ?? 50000,
     input.worldLimit ?? 512,
-    { dayEnd: input.dayEndAbsence, incident: input.incidentEvidence },
+    {
+      dayEnd: input.dayEndAbsence,
+      incident: input.incidentEvidence,
+      loopGrants: input.loopGrantEvidence,
+    },
   );
   const exhaustive = progress.exhaustive && (!generated || generated.stats.complete);
   const candidates = { exhaustive, states };

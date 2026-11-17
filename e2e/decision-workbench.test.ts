@@ -58,6 +58,18 @@ test('在同一盘面改选学校或医院，结果可独立复核，再次自�
     await page.close();
   }
 });
+test('第二轮缺少希望牌，浏览器说明排除职员所依赖的两轮观察', async () => {
+  const page = await browser.newPage();
+  try {
+    await page.goto(url);
+    await page.getByRole('button', { name: /第二轮缺少的希望牌/ }).click();
+    await page.getByText(/剧本剪枝依据/).click();
+    await expect(page.getByText(/观察 35.*观察 29.*职员.*三名主人公希望牌/)).toBeVisible();
+    await expect(page.getByText(/历史重放前排除 1 个剧本/)).toBeVisible();
+  } finally {
+    await page.close();
+  }
+});
 test('浏览器展示医院事故未发生的正式公告及已排除剧本数', async () => {
   const page = await browser.newPage();
   try {

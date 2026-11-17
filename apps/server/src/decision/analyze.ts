@@ -58,6 +58,11 @@ function resolveInput(input: ObservedQuestion | ReplayQuestion) {
             sources: history.scriptEvidence.map((f) => ({
               kind: f.kind,
               ...('report' in f && { report: f.report }),
+              ...(f.kind === 'missing-loop-grant' && {
+                character: f.character,
+                grant: f.grant,
+                endReport: f.endReport,
+              }),
               ...(f.kind === 'incident-outcome' && { occurred: f.occurred }),
             })),
           },

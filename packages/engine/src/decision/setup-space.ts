@@ -246,6 +246,7 @@ export function generateSetups(
   limit: number,
   pruneScript = false,
   checkIncidents = true,
+  checkLoopGrants = true,
 ) {
   if (!Number.isSafeInteger(limit) || limit < 0) throw Error('Invalid generation work limit');
   const stats = {
@@ -265,7 +266,9 @@ export function generateSetups(
   const sheet = evidence.sheet;
   // An untranslated component can change what an announcement means. Retain
   // unsupported diagnostics rather than pruning a possibly applicable model.
-  const evidenceRules = pruneScript ? compileScriptEvidence(evidence, checkIncidents) : undefined;
+  const evidenceRules = pruneScript
+    ? compileScriptEvidence(evidence, checkIncidents, checkLoopGrants)
+    : undefined;
   const safe =
     evidenceRules?.facts.length &&
     [pack.identities, pack.characters, pack.incidents, pack.plots].every((catalog) =>
@@ -315,6 +318,7 @@ export function generateSetups(
           )
         )
           continue;
+        if (!kept(!safe || safe.allowsLoopRoles(characters, fragment))) continue;
         stats.validated++;
         const setup: GameSetup = {
           module: pack.module,

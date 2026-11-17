@@ -11,6 +11,12 @@ export const scenarios: Scenario[] = [
     description: '医生的不安已达界限，事件阶段却宣布医院事故未发生。检查当事人还能是谁。',
   },
   {
+    id: 'loop-grant',
+    module: 'FS',
+    title: '第二轮缺少的希望牌',
+    description: '第一轮结束时职员有两枚友好，女学生只有一枚。第二轮开始时无人获得希望牌。',
+  },
+  {
     id: 'day-end-observation',
     module: 'BTX',
     title: '两人独处的日末',

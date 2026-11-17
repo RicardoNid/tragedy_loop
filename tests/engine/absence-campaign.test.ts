@@ -20,6 +20,13 @@ import {
   incidentEvidence,
 } from '../../packages/engine/src/decision/incident-evidence.js';
 
+import {
+  loopGrantEvidence,
+  allowsLoopGrants,
+} from '../../packages/engine/src/decision/loop-grant-evidence.js';
+
+let anniversaryGames = 0,
+  loopGrantFacts = 0;
 let totalWindows = 0,
   multipleLoops = 0,
   games = 0,
@@ -28,7 +35,7 @@ let totalWindows = 0,
   incidentWindows = 0;
 after(() =>
   console.log(
-    `games=${games} multipleLoops=${multipleLoops} closedPhases=${totalWindows} dayEndWindows=${dayEndWindows} applicableBatches=${applicableBatches} incidentWindows=${incidentWindows}`,
+    `games=${games} multipleLoops=${multipleLoops} closedPhases=${totalWindows} dayEndWindows=${dayEndWindows} applicableBatches=${applicableBatches} incidentWindows=${incidentWindows} anniversaryGames=${anniversaryGames} loopGrantFacts=${loopGrantFacts}`,
   ),
 );
 function finalGuess(s: EngineState): Choice {
@@ -45,13 +52,29 @@ function finalGuess(s: EngineState): Choice {
     kind: 'guess',
     character: c.id,
     identity: c.initialIdentity,
-    reverseIdentity: s.setup.characters.find((p) => p.id === c.id)?.reverseIdentity,
+    reverseIdentity: s.setup.characters.find(
+      (p) => p.id === c.id || (p.character === '临时工' && c.id === p.id + '_replacement'),
+    )?.reverseIdentity,
   };
 }
-for (const { id, setup } of fixtures as unknown as { id: string; setup: GameSetup }[]) {
-  for (const initialSeed of [
-    1709, 2039, 2441, 3253, 4027, 5107, 6421, 7919, 8731, 9341, 10243, 12269,
-  ])
+const samples = (fixtures as unknown as { id: string; setup: GameSetup }[]).flatMap((f) => {
+  const base = {
+    ...f,
+    seeds: [1709, 2039, 2441, 3253, 4027, 5107, 6421, 7919, 8731, 9341, 10243, 12269],
+  };
+  if (['LL', 'AHR'].includes(f.setup.module)) return [base];
+  const setup = clone(f.setup);
+  let civilian = setup.characters.find((c) => c.identity === '平民');
+  if (!civilian) {
+    civilian = { id: 'extraDoctor', character: '医生', identity: '平民' };
+    setup.characters.push(civilian);
+  }
+  setup.anniversary = true;
+  setup.anniversaryFragment = civilian.id;
+  return [base, { id: f.id + '/周年', setup, seeds: [17431, 20533, 31957, 41081] }];
+});
+for (const { id, setup, seeds } of samples) {
+  for (const initialSeed of seeds)
     test(id + '/' + initialSeed + ' 合法开局逐阶段核验', () => {
       const pack = compileOfficial(setup.module, setup.anniversary);
       const init = initializeDiscussion(pack, setup, 0);
@@ -188,6 +211,15 @@ for (const { id, setup } of fixtures as unknown as { id: string; setup: GameSetu
       for (const i of setup.incidents)
         assert.ok(evidence.allows(pack, setup.characters, i), id + '/' + i.day + '/real incident');
       incidentWindows += observations.length;
+      if (setup.anniversary || ['LL', 'AHR'].includes(setup.module)) {
+        const grants = loopGrantEvidence(state.observations.protagonists);
+        assert.ok(
+          allowsLoopGrants(grants, setup.characters, setup.anniversaryFragment),
+          id + '/actual fragment',
+        );
+        loopGrantFacts += grants.length;
+      }
+      anniversaryGames += Number(setup.anniversary);
       games++;
       totalWindows += windows;
       multipleLoops += Number(state.loop > 1);

@@ -2,6 +2,7 @@ import type { Area, Board, Counter, Counters } from '../../../contracts/src/game
 import {
   BOARDS,
   COUNTERS,
+  identityConfiguration,
   type Condition,
   type EngineState,
   type Environment,
@@ -195,7 +196,7 @@ export function select(
 export function recompute(state: EngineState): void {
   for (const c of Object.values(state.characters)) {
     if (state.setup.module === 'AHR') {
-      const config = state.setup.characters.find((t) => t.id === c.id);
+      const config = identityConfiguration(state, c.id);
       c.identity =
         state.ex % 2 === 1 && config?.reverseIdentity ? config.reverseIdentity : c.initialIdentity;
       if (c.character === '临时工') c.identity = '平民';

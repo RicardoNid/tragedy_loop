@@ -423,8 +423,8 @@ export function initialState(pack: RulePack, setup: GameSetup): EngineState {
     characters[id] = {
       id,
       character: '临时工？',
-      initialIdentity: parttimer.identity,
-      identity: parttimer.identity,
+      initialIdentity: characters[parttimer.id]!.initialIdentity,
+      identity: characters[parttimer.id]!.initialIdentity,
       initialArea: 'city',
       area: 'city',
       status: 'absent',
