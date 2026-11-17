@@ -13,6 +13,7 @@ import {
   validateSetup,
 } from '../runtime/setup.js';
 import type { DecisionEvidence } from './observed-worlds.js';
+import { compileScriptEvidence, type ScriptEvidence } from './script-evidence.js';
 
 type Slot = SetupDomain['characters'][number];
 type Role = NonNullable<Slot['roles']>[number];
@@ -40,6 +41,7 @@ function* roleRows(
   domain: SetupDomain,
   layout: Layout,
   tick: Tick,
+  acceptsRole: (id: string, role: Role) => boolean,
 ): Generator<CharacterSetup[]> {
   const defs = [layout.y, ...layout.x].map((n) => pack.plots[n]!);
   const { pool, pairs } = roleInventory(pack, defs);
@@ -59,9 +61,10 @@ function* roleRows(
     .filter((c) => !['局外人', '模仿犯'].includes(c.character))
     .map((c) => ({
       slot: c,
-      options: c.roles
+      options: (c.roles
         ? roles.filter((r) => c.roles!.some((v) => canonical(v) === canonical(r)))
-        : roles,
+        : roles
+      ).filter((r) => acceptsRole(c.id, r)),
     }))
     .sort((a, b) => a.options.length - b.options.length);
   const outsiders = domain.characters.filter((c) => c.character === '局外人');
@@ -76,7 +79,7 @@ function* roleRows(
     });
   }
   const allowed = (c: Slot, r: Role) =>
-    !c.roles || c.roles.some((v) => canonical(v) === canonical(r));
+    (!c.roles || c.roles.some((v) => canonical(v) === canonical(r))) && acceptsRole(c.id, r);
   const row = () => domain.characters.map((c) => rows.get(c.id)!);
   function* exceptions(): Generator<CharacterSetup[]> {
     const outsider = outsiders[0];
@@ -178,6 +181,8 @@ function* schedules(
   domain: SetupDomain,
   characters: CharacterSetup[],
   tick: Tick,
+  evidence: ScriptEvidence | undefined,
+  kept: (ok: boolean) => boolean,
 ): Generator<ScheduledIncident[]> {
   const row: ScheduledIncident[] = [];
   const ids = characters.filter((c) => culpritDuty(c) !== 'forbidden').map((c) => c.id);
@@ -187,7 +192,7 @@ function* schedules(
   function* visit(i: number): Generator<ScheduledIncident[]> {
     if (required.size > sheet.incidents.length - i) return;
     if (i === sheet.incidents.length) {
-      yield [...row];
+      if (kept(!evidence || evidence.allowsTuple(row))) yield [...row];
       return;
     }
     const { day, name: shown } = sheet.incidents[i]!;
@@ -195,7 +200,9 @@ function* schedules(
     for (const name of unique(restriction?.names ?? [shown, '伪造事件'])) {
       const def = pack.incidents[name];
       if (!def || (name !== shown && name !== '伪造事件')) continue;
-      const culprits = def.crowdThreshold !== undefined ? BOARDS : ids;
+      const culprits = (def.crowdThreshold !== undefined ? BOARDS : ids).filter((c) =>
+        kept(!evidence || evidence.allowsCulprit(day, c)),
+      );
       for (const culprit of culprits) {
         tick();
         if (restriction?.culprits && !restriction.culprits.includes(culprit)) continue;
@@ -237,6 +244,7 @@ export function generateSetups(
   evidence: DecisionEvidence,
   domains: readonly SetupDomain[],
   limit: number,
+  pruneScript = false,
 ) {
   if (!Number.isSafeInteger(limit) || limit < 0) throw Error('Invalid generation work limit');
   const stats = {
@@ -246,6 +254,7 @@ export function generateSetups(
     complete: false,
     limited: false,
     unsupported: false,
+    prunedChoices: 0,
   };
   const stop = Symbol('generation limit');
   const tick = () => {
@@ -253,6 +262,21 @@ export function generateSetups(
     stats.work++;
   };
   const sheet = evidence.sheet;
+  // An untranslated component can change what an announcement means. Retain
+  // unsupported diagnostics rather than pruning a possibly applicable model.
+  const evidenceRules = pruneScript ? compileScriptEvidence(evidence) : undefined;
+  const safe =
+    evidenceRules?.facts.length &&
+    [pack.identities, pack.characters, pack.incidents, pack.plots].every((catalog) =>
+      Object.values(catalog).every((v) => v.supported),
+    )
+      ? evidenceRules
+      : undefined;
+  const kept = (ok: boolean) => {
+    if (!ok) stats.prunedChoices++;
+    return ok;
+  };
+  const acceptsRole = (id: string, r: Role) => kept(!safe || safe.allowsBaseRole(pack, id, r));
   const first = evidence.view.reports.find(
     (r) => r.type === 'boundary' && r.phase === 'discussion',
   );
@@ -272,9 +296,24 @@ export function generateSetups(
           )
           .map((c) => c.id)
       : [undefined];
-    for (const privateRoles of shuffles(pack, domain))
+    for (const privateRoles of shuffles(pack, domain)) {
+      if (!kept(!safe || safe.allowsShuffle(privateRoles))) continue;
       for (const fragment of fragments) {
         tick();
+        if (
+          !kept(
+            !safe ||
+              characters.every((c) =>
+                safe.allowsIdentity(
+                  pack,
+                  c.id,
+                  fragment === c.id ? '因果残片' : c.identity,
+                  c.reverseIdentity,
+                ),
+              ),
+          )
+        )
+          continue;
         stats.validated++;
         const setup: GameSetup = {
           module: pack.module,
@@ -297,6 +336,7 @@ export function generateSetups(
           yield setup;
         }
       }
+    }
   }
   function* generate() {
     try {
@@ -356,9 +396,17 @@ export function generateSetups(
             if (poolExtra && [y, ...xs].some((p) => p!.identities[poolExtra])) continue;
             const allocation = { ...layout, secretAddition: poolExtra };
             const actualExtra = layout.secretAddition ?? poolExtra;
-            for (const row of roleRows(pack, domain, allocation, tick))
+            for (const row of roleRows(pack, domain, allocation, tick, acceptsRole))
               for (const characters of placements(pack, row, sheet, tick))
-                for (const incidents of schedules(pack, sheet, domain, characters, tick))
+                for (const incidents of schedules(
+                  pack,
+                  sheet,
+                  domain,
+                  characters,
+                  tick,
+                  safe,
+                  kept,
+                ))
                   for (const alternateY of alternate)
                     yield* finish(
                       domain,

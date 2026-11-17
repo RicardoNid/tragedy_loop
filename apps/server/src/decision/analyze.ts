@@ -41,6 +41,16 @@ function resolveInput(input: ObservedQuestion | ReplayQuestion) {
         historyWork: history.work,
         historyReason: history.reason,
         generatedSetups: generation?.legal,
+        ...(history.scriptEvidence?.length && {
+          scriptPruning: {
+            skippedSetups: history.prunedSetups ?? 0,
+            skippedChoices: generation?.prunedChoices ?? 0,
+            sources: history.scriptEvidence.map((f) => ({
+              kind: f.kind,
+              ...('report' in f && { report: f.report }),
+            })),
+          },
+        }),
       },
     };
   }

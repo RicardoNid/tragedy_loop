@@ -56,6 +56,7 @@ export function resolveObservedCandidates(input: ObservedQuestion) {
       input.evidence,
       input.setupDomains.map((d) => setupDomainSchema.parse(d)),
       input.generationWorkLimit ?? 100000,
+      true,
     );
   const pool = generated?.setups ?? input.setups!.map((s) => setupSchema.parse(s));
   const { states, ...progress } = inferObservedWorlds(

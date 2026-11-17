@@ -6,11 +6,46 @@ import { fileURLToPath } from 'node:url';
 import { chromium, expect, type Browser } from '@playwright/test';
 import { makeDecisionServer } from '../apps/server/src/decision/server.js';
 import type { PolicyNode } from '../packages/contracts/src/decision.js';
+import { exportObservation } from '../scripts/engine/observed-game.js';
+import type { CandidateReplay } from '../scripts/engine/candidate-replays.js';
 
 let server: Awaited<ReturnType<typeof makeDecisionServer>>;
 let browser: Browser;
 let url: string;
 const results = new URL('../test-results/decision-workbench/', import.meta.url);
+
+test('载入已经答对医生身份的观察，展示排除剧本数与对应观察序号', async () => {
+  const input = JSON.parse(
+    await readFile(
+      new URL('../products/engine/final-decision-example.json', import.meta.url),
+      'utf8',
+    ),
+  );
+  const c: CandidateReplay = input.candidates[0];
+  c.choices.push({
+    actor: 'p0',
+    choice: { kind: 'guess', character: 'doctor', identity: '传谣人' },
+  });
+  const evidence = exportObservation(c);
+  const source = {
+    evidence,
+    setups: input.candidates.map((entry: CandidateReplay) => entry.setup),
+    exhaustiveSetups: true,
+  };
+  const page = await browser.newPage();
+  try {
+    await page.goto(url);
+    await expect(page.getByRole('heading', { name: '公开盘面' })).toBeVisible();
+    await page.getByRole('button', { name: '导入问题' }).click();
+    await page.getByRole('textbox', { name: 'JSON 内容' }).fill(JSON.stringify(source));
+    await page.getByRole('button', { name: '载入问题' }).click();
+    await page.getByText('剧本剪枝依据（1）').click();
+    await expect(page.getByText(/历史重放前排除 1 个剧本/)).toBeVisible();
+    await expect(page.getByText(/观察 \d+ · 最终决战身份裁定/)).toBeVisible();
+  } finally {
+    await page.close();
+  }
+});
 before(async () => {
   server = await makeDecisionServer();
   url = await server.listen({ host: '127.0.0.1', port: 0 });

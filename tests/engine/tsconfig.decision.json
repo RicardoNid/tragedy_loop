@@ -1,6 +1,7 @@
 {
   "extends": "./tsconfig.absence.json",
   "include": [
+    "./script-evidence.test.ts",
     "./investigation.test.ts",
     "../../scripts/engine/investigate.ts",
     "./verify-policy.test.ts",
