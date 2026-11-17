@@ -39,6 +39,7 @@ function resolveInput(input: ObservedQuestion | ReplayQuestion) {
       goal,
       metrics: {
         historyWork: history.work,
+        dayEndPruning: history.dayEndPruning,
         historyReason: history.reason,
         generatedSetups: generation?.legal,
         ...(history.scriptEvidence?.length && {

@@ -14,6 +14,20 @@ let browser: Browser;
 let url: string;
 const results = new URL('../test-results/decision-workbench/', import.meta.url);
 
+test('浏览器展示完整日末的公开范围和一个被排除的假设组合', async () => {
+  const page = await browser.newPage();
+  try {
+    await page.goto(url);
+    await expect(page.getByRole('heading', { name: '公开盘面' })).toBeVisible();
+    await page.getByRole('button', { name: /两人独处的日末/ }).click();
+    await page.getByText('日末静默排除 8 条历史').click();
+    await expect(page.getByText(/观察 24 至 25/)).toBeVisible();
+    await expect(page.getByText(/排除示例.*杀人狂/)).toBeVisible();
+  } finally {
+    await page.close();
+  }
+});
+
 test('载入已经答对医生身份的观察，展示排除剧本数与对应观察序号', async () => {
   const input = JSON.parse(
     await readFile(

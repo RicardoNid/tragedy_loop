@@ -11,6 +11,8 @@ import { canonical, type EngineState, type RulePack } from '../runtime/model.js'
 import { cardsAtTargets, enumerateChoices } from '../runtime/replay.js';
 import { hasUnsupportedDiagnostic } from '../runtime/setup.js';
 import { compileScriptEvidence, type ScriptEvidence } from './script-evidence.js';
+import { DayEndIntersection } from './day-end-intersection.js';
+import type { DayEndPruning } from '../../../contracts/src/decision.js';
 import {
   observeQuestion,
   publicQuestion,
@@ -31,6 +33,7 @@ export interface InferredWorlds {
   reason?: Reason;
   prunedSetups?: number;
   scriptEvidence?: ScriptEvidence['facts'];
+  dayEndPruning?: DayEndPruning;
 }
 
 function placements(o: Observation | undefined): MarkedCard[] | undefined {
@@ -56,7 +59,7 @@ export function inferObservedWorlds(
   evidence: DecisionEvidence,
   workLimit: number,
   worldLimit: number,
-  pruneScript = true,
+  pruning: boolean | { script?: boolean; dayEnd?: boolean } = true,
 ): InferredWorlds {
   if (![workLimit, worldLimit].every((n) => Number.isSafeInteger(n) && n >= 0))
     throw Error('Invalid reconstruction limits');
@@ -121,7 +124,12 @@ export function inferObservedWorlds(
     sheet = canonical(evidence.sheet);
 
   const states: EngineState[] = [];
-  const constraints = pruneScript ? compileScriptEvidence(evidence) : undefined;
+  const constraints = (typeof pruning === 'boolean' ? pruning : pruning.script !== false)
+    ? compileScriptEvidence(evidence)
+    : undefined;
+  const dayEnd = (typeof pruning === 'boolean' ? pruning : pruning.dayEnd !== false)
+    ? new DayEndIntersection(pack, reports)
+    : undefined;
   let prunedSetups = 0;
   let work = 0,
     commands = 0;
@@ -133,6 +141,7 @@ export function inferObservedWorlds(
     exhaustive: !why,
     ...(prunedSetups && { prunedSetups }),
     ...(constraints?.facts.length && { scriptEvidence: constraints.facts }),
+    ...(dayEnd?.stats.checked && { dayEndPruning: dayEnd.stats }),
     ...(why && { reason: why }),
   });
 
@@ -219,6 +228,7 @@ export function inferObservedWorlds(
           break;
         }
         if (s.winner) break;
+        if (s.phase === 'day-end' && dayEnd?.excludes(s, cursor)) break;
         if (s.pending) {
           if (cursor === reports.length && s.pending.actor !== 'mastermind') {
             if (

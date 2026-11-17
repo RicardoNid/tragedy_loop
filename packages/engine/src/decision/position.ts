@@ -93,17 +93,20 @@ export function observedBoard(
       })
       .sort((a, b) => byText(canonical(a), canonical(b))),
     ...(s.curses?.length && { curses: s.curses.map((c) => c.target).sort() }),
-    characters: (briefing ? [] : Object.values(s.characters))
-      .filter((c) => c.status !== 'absent' || s.appeared.includes(c.id))
-      .map((c) => ({
-        id: c.id,
-        character: c.character,
-        area: c.area,
-        status: c.status,
-        counters: c.counters,
-      }))
-      .sort((a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0)),
+    characters: visibleCharacters(s),
   };
+}
+export function visibleCharacters(s: EngineState) {
+  return (s.phase === 'briefing' ? [] : Object.values(s.characters))
+    .filter((c) => c.status !== 'absent' || s.appeared.includes(c.id))
+    .map((c) => ({
+      id: c.id,
+      character: c.character,
+      area: c.area,
+      status: c.status,
+      counters: c.counters,
+    }))
+    .sort((a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0));
 }
 
 export function submitChoice(pack: RulePack, s: EngineState, choice: Choice) {

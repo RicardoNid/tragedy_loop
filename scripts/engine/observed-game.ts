@@ -25,6 +25,7 @@ export interface ObservedQuestion {
   goal?: DecisionGoal;
   investigation?: InvestigationOptions;
   historyWorkLimit?: number;
+  dayEndAbsence?: boolean;
   worldLimit?: number;
   workLimit?: number;
   frontierLimit?: number;
@@ -36,6 +37,7 @@ export function resolveObservedCandidates(input: ObservedQuestion) {
     (input.setups !== undefined && !Array.isArray(input.setups)) ||
     (input.setupDomains !== undefined && !Array.isArray(input.setupDomains)) ||
     typeof input.exhaustiveSetups !== 'boolean' ||
+    (input.dayEndAbsence !== undefined && typeof input.dayEndAbsence !== 'boolean') ||
     !input.evidence?.sheet ||
     (input.goal &&
       input.goal.kind !== 'game' &&
@@ -66,6 +68,7 @@ export function resolveObservedCandidates(input: ObservedQuestion) {
     input.evidence,
     input.historyWorkLimit ?? 50000,
     input.worldLimit ?? 512,
+    { dayEnd: input.dayEndAbsence },
   );
   const exhaustive = progress.exhaustive && (!generated || generated.stats.complete);
   const candidates = { exhaustive, states };

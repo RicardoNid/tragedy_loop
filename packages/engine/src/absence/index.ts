@@ -31,7 +31,8 @@ export interface AbsenceWindow {
   /** Phase-wide silence can also be checked against optional and delayed effects.
    * Otherwise absence is certified only for the specified mandatory batch. */
   extent?: 'phase';
-  /** Only supply a limit when usage left at this timing is established publicly. */
+  /** Public inference requires publicly established availability. A host checking
+   * one concrete history may condition its proof on a frame already queued there. */
   availableLimitedAbilities?: readonly { owner: string; ability: string }[];
   absent: readonly { phenomenon: Phenomenon; character: string }[];
 }
@@ -49,7 +50,12 @@ export interface AbsenceSpace {
   domains: Record<string, string[]>;
   constraints: AbsenceConstraint[];
   /** No assignment may satisfy every term of one clause. */
-  choiceConflicts?: { source: string; ability: string; terms: Record<string, string[]> }[];
+  choiceConflicts?: {
+    source: string;
+    ability: string;
+    owner?: string;
+    terms: Record<string, string[]>;
+  }[];
 }
 
 /** Ground deterministic public consequences of the official mandatory programs. */
@@ -209,6 +215,7 @@ export function buildAbsenceSpace(
             choiceConflicts.push({
               source: a.source,
               ability: a.id,
+              owner: owner.id,
               terms: Object.fromEntries(terms),
             });
           continue;
