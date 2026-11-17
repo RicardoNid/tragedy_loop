@@ -313,6 +313,10 @@ summary {
   font-size: 13px;
   overflow-wrap: anywhere;
 }
+.log article ul {
+  margin: 0;
+  padding-inline-start: 1.2em;
+}
 .notes textarea,
 textarea {
   display: block;

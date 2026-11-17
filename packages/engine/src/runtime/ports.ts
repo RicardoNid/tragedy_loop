@@ -1,3 +1,4 @@
+import { awaitingFirstPlacement } from '../../../contracts/src/game.js';
 import { createHash } from 'node:crypto';
 import type {
   Actor,
@@ -16,6 +17,15 @@ import type { GameSetup } from '../../../contracts/src/game.js';
 import { commandSchema } from '../../../contracts/src/validation.js';
 
 export function project(state: EngineState, observer: Observer): PlayerView | MastermindView {
+  return projectView(state, observer, observer !== 'mastermind' && awaitingFirstPlacement(state));
+}
+
+/** Initial pieces used by the solver to reconstruct play once placement is public. */
+export function initialPlacementView(state: EngineState): PlayerView {
+  return projectView(state, 'protagonists', false);
+}
+
+function projectView(state: EngineState, observer: Observer, hidePieces: boolean): PlayerView | MastermindView {
   const mastermind = observer === 'mastermind';
   const beforeArrival = state.phase === 'briefing' && !mastermind;
   const history = state.observations[mastermind ? 'mastermind' : 'protagonists'];
@@ -43,7 +53,7 @@ export function project(state: EngineState, observer: Observer): PlayerView | Ma
     characters: Object.values(state.characters)
       .filter(
         (c) =>
-          !beforeArrival && (mastermind || c.status !== 'absent' || state.appeared.includes(c.id)),
+          !hidePieces && (mastermind || c.status !== 'absent' || state.appeared.includes(c.id)),
       )
       .map((c) => ({
         id: c.id,
@@ -53,7 +63,7 @@ export function project(state: EngineState, observer: Observer): PlayerView | Ma
         counters: clone(c.counters),
       })),
     boards: clone(state.boards),
-    territory: beforeArrival ? undefined : state.publicTerritory,
+    territory: hidePieces ? undefined : state.publicTerritory,
     ex: ['MC', 'WM', 'AHR'].includes(state.setup.module) ? state.ex : undefined,
     curses: state.curses ? clone(state.curses) : undefined,
     markers: state.ll
@@ -170,7 +180,7 @@ export function createSession(pack: RulePack, setup: GameSetup, budget = 10000) 
       );
       if (result.status === 'rejected') return { status: 'rejected', reason: 'invalid-command' };
       state = result.state;
-      if (command.choice.kind === 'start') opening = project(state, 'protagonists');
+      if (command.choice.kind === 'start') opening = initialPlacementView(state);
       receipts.set(receiptKey, { payload, actor });
       return { status: result.status, view: project(state, actor) as V };
     } catch {
@@ -193,7 +203,7 @@ export function createSession(pack: RulePack, setup: GameSetup, budget = 10000) 
     protagonists,
     /** Trusted host-only methods, not included in either player port. */
     host: {
-      publicOpening: () => clone(opening),
+      publicOpening: () => awaitingFirstPlacement(state) ? project(state, 'protagonists') : clone(opening),
       snapshot: () => clone(state),
       resume: (limit: number) => {
         const r = resume(pack, state, limit);

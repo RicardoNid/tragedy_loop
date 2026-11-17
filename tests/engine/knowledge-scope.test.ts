@@ -3,9 +3,11 @@ import assert from 'node:assert/strict';
 import { compileOfficial } from '../../packages/content/src/official/index.js';
 import { announce } from '../../packages/engine/src/runtime/settlement.js';
 import { initializeDiscussion, advance, drive } from '../../packages/engine/src/runtime/engine.js';
-import { project } from '../../packages/engine/src/runtime/ports.js';
+import { initialPlacementView, project } from '../../packages/engine/src/runtime/ports.js';
 import { buildProfiles } from '../../packages/engine/src/runtime/knowledge-domain.js';
 import { CausalScope } from '../../packages/engine/src/runtime/knowledge-scope.js';
+import { CardReports } from '../../packages/engine/src/runtime/knowledge-cards.js';
+import { cardDestination } from '../../packages/engine/src/runtime/card-settlement.js';
 import { LiveKnowledge } from '../../packages/engine/src/runtime/knowledge.js';
 import {
   ConstraintStore,
@@ -51,7 +53,7 @@ function fixture(module: 'FS' | 'BTX' = 'FS') {
   };
   const initialized = initializeDiscussion(pack, config);
   assert.ok(initialized.state, JSON.stringify(initialized));
-  const opening = project(initialized.state, 'protagonists');
+  const opening = initialPlacementView(initialized.state);
   const profiles = buildProfiles(pack, opening, { checks: 0, removed: 0, branches: 0 }).filter(
     (p) =>
       p.y === config.y && JSON.stringify([...p.x].sort()) === JSON.stringify([...config.x].sort()),
@@ -81,7 +83,7 @@ for (const module of ['FS', 'BTX'] as const)
         { id: 'c', character: '巫女', identity: '传谣人' },
       ],
     };
-    const opening = project(initializeDiscussion(pack, config).state!, 'protagonists');
+    const opening = initialPlacementView(initializeDiscussion(pack, config).state!);
     const profiles = buildProfiles(pack, opening, { checks: 0, removed: 0, branches: 0 })
       .filter((p) => p.y === config.y && config.x.every((name) => p.x.includes(name)));
     assert.ok(profiles.length);
@@ -432,7 +434,7 @@ test('new source constraints cannot mutate suspended search dependency indices',
 test('real legal mastermind ability retains true configuration with zero global work in the local batch', () => {
   const pack = compileOfficial('FS');
   let state = initializeDiscussion(pack, setup).state!;
-  const opening = project(state, 'protagonists');
+  const opening = initialPlacementView(state);
   const k = new LiveKnowledge(pack, opening);
   let through = 0,
     used = false,
@@ -446,8 +448,8 @@ test('real legal mastermind ability retains true configuration with zero global 
       observed = true;
       assert.equal(
         k.snapshot().scope?.deferred,
-        false,
-        'the earlier compound card batch still needs joint replay',
+        true,
+        'the compound card batch leaves whole-script replay deferred',
       );
       assert.equal(k.snapshot().generated, 0);
       assert.equal(k.snapshot().propagation?.branches, 0);
@@ -598,6 +600,188 @@ test('publicly declared simple ability explains its own target without choosing 
   });
   assert.deepEqual(changed?.alternatives, ['男学生（a）的raise']);
 });
+test('multi-step independent goodwill uses only the named activation; refusal closes it and a retry can resolve', () => {
+  const { pack, opening, profiles } = fixture();
+  for (const c of opening.characters.slice(0, 2)) {
+    c.counters.goodwill = 3;
+    pack.characters[c.character]!.abilities = ['cast', 'other'].map((id) => ({
+      id,
+      source: 'test',
+      timing: 'protagonist-abilities',
+      threshold: 3,
+      loopLimit: 1,
+      steps: [
+        {
+          choices: [{ key: 'target', options: { kind: 'alive' } }],
+          effects: [{ op: 'counter', target: '$target', counter: 'hope', amount: 1 }],
+        },
+        { effects: [{ op: 'counter', target: '$self', counter: 'despair', amount: 1 }] },
+      ],
+    }));
+  }
+  const scope = new CausalScope(pack, opening);
+  let n = 0;
+  const receive = (type: Observation['type'], data: Observation['data']) =>
+    scope.consume(observation(type, data, 'protagonist-abilities', ++n), profiles);
+  const cast = () => {
+    receive('own-choice', {
+      actor: 'p0',
+      choice: { kind: 'ability', owner: 'a', ability: 'cast' },
+    });
+    receive('declaration', { character: 'a', ability: 'cast', choices: { target: 'b' } });
+  };
+  const [a, b] = opening.characters;
+  receive('boundary', {});
+  cast();
+  receive('refused', { character: 'a', ability: 'cast' });
+  cast();
+  const first = receive('character', {
+    character: 'b',
+    status: 'alive',
+    area: b!.area,
+    counters: { ...b!.counters, hope: 1 },
+  });
+  assert.deepEqual(first?.alternatives, ['男学生（a）的cast']);
+  const second = receive('character', {
+    character: 'a',
+    status: 'alive',
+    area: a!.area,
+    counters: { ...a!.counters, despair: 1 },
+  });
+  assert.deepEqual(second?.alternatives, ['男学生（a）的cast']);
+  assert.ok(second?.skippedCharacters.includes('b'));
+});
+
+test('declared alien kill skips the cause search; actual death, failure, and missing reports remain evidence', () => {
+  for (const outcome of ['failure', 'normal-close', 'no-death'] as const) {
+    const { pack, opening } = fixture('BTX');
+    const caster = opening.characters[0]!,
+      victim = opening.characters[1]!;
+    caster.character = '异界人';
+    victim.character = '女学生';
+    for (const c of [caster, victim])
+      if (opening.roster) opening.roster.find((r) => r.id === c.id)!.character = c.character;
+    caster.area = victim.area = 'shrine';
+    caster.counters.goodwill = 4;
+    const k = new LiveKnowledge(pack, opening);
+    const phase = 'protagonist-abilities';
+    let n = 0;
+    const send = (
+      type: Observation['type'],
+      data: Observation['data'],
+      timing: Observation['phase'] = phase,
+    ) => {
+      k.append([observation(type, data, timing, n + 1)], n, n + 1);
+      n++;
+      return k.snapshot();
+    };
+    send('boundary', {});
+    send('own-choice', {
+      actor: 'p0',
+      choice: { kind: 'ability', owner: caster.id, ability: 'alien-kill' },
+    });
+    assert.deepEqual(
+      send('own-choice', { actor: 'p0', choice: { kind: 'select', value: victim.id } }).transition
+        ?.historyCandidates,
+      [],
+    );
+    const declaration = send('declaration', {
+      character: caster.id,
+      ability: 'alien-kill',
+      choices: { target: victim.id },
+    });
+    assert.ok(declaration.identities[victim.id]?.includes('时间旅者'));
+    if (outcome === 'no-death') {
+      assert.equal(send('boundary', {}, 'incident').scope?.needsHistory, true);
+      continue;
+    }
+    const death = send('character', {
+      character: victim.id,
+      area: victim.area,
+      status: 'dead',
+      counters: victim.counters,
+    });
+    assert.equal(death.scope?.locallyExplained, true);
+    assert.notEqual(death.scope?.publicSettlement, true);
+    assert.deepEqual(death.transition?.historyCandidates, []);
+    assert.equal(death.generated, 0);
+    assert.equal(
+      death.relations?.some((r) => r.observation === n),
+      false,
+    );
+    assert.ok(!death.identities[victim.id]?.includes('时间旅者'));
+    assert.ok(death.identities[victim.id]?.includes('关键人物'));
+    if (outcome === 'failure') {
+      const failure = send('failure', { result: 'protagonist-failure' });
+      assert.ok(failure.scope?.alternatives?.some((reason) => reason.includes('关键人物')));
+      assert.ok(!failure.scope?.alternatives?.some((reason) => reason.includes('alien-kill')));
+    } else {
+      assert.ok(!send('boundary', {}, 'incident').identities[victim.id]?.includes('关键人物'));
+    }
+  }
+});
+
+test('a declared counter swap consumes one whole public report and preserves the use limit', () => {
+  const { pack, opening, profiles } = fixture();
+  const [caster, victim] = opening.characters;
+  assert.ok(caster && victim);
+  caster.character = '转校生';
+  if (opening.roster) opening.roster.find((c) => c.id === caster.id)!.character = caster.character;
+  caster.area = victim.area = 'school';
+  caster.counters.goodwill = 5;
+  victim.counters.intrigue = 2;
+  const scope = new CausalScope(pack, opening);
+  let n = 0;
+  const send = (type: Observation['type'], data: Observation['data']) =>
+    scope.consume(observation(type, data, 'protagonist-abilities', ++n), profiles);
+  const request = {
+    actor: 'p0',
+    choice: { kind: 'ability', owner: caster.id, ability: 'transfer-student' },
+  };
+  send('boundary', {});
+  send('own-choice', request);
+  send('declaration', {
+    character: caster.id,
+    ability: 'transfer-student',
+    choices: { target: victim.id },
+  });
+  const changed = send('character', {
+    character: victim.id,
+    area: 'school',
+    status: 'alive',
+    counters: { ...victim.counters, intrigue: 1, goodwill: 1 },
+  });
+  assert.equal(changed?.locallyExplained, true);
+  assert.deepEqual(changed?.characters, []);
+  assert.equal(changed?.publicSettlement, true);
+  assert.equal(scope.causeBranches, 0);
+  send('own-choice', request);
+  assert.ok(profiles.every((p) => !p.active));
+});
+
+test('a public refusal is incompatible with an explicitly unrefusable goodwill ability', () => {
+  const { pack, opening, profiles } = fixture();
+  const actor = opening.characters[0]!;
+  const ability = pack.characters[actor.character]!.abilities.find(
+    (a) => a.threshold !== undefined,
+  )!;
+  ability.cannotRefuse = true;
+  const ordinary = { ...ability, id: 'ordinary', cannotRefuse: false };
+  pack.characters[actor.character]!.abilities.push(ordinary);
+  actor.counters.despair = 1;
+  const solver = new CausalScope(pack, opening);
+  solver.consume(
+    observation('refused', { character: actor.id, ability: ability.id }, 'protagonist-abilities'),
+    profiles,
+  );
+  assert.ok(profiles.length > 0 && profiles.every((p) => !p.active));
+  solver.consume(
+    observation('refused', { character: actor.id, ability: ordinary.id }, 'protagonist-abilities', 2),
+    profiles,
+  );
+  assert.ok(profiles.every((p) => !p.active));
+});
+
 test('wide hidden disjunctions retain their tenth and later possible source', () => {
   const { pack, opening, profiles } = fixture();
   const c = opening.characters[0]!;
@@ -645,7 +829,7 @@ test('a revealed blocked goodwill gain requires a time traveller, with both card
         { id: 'c', character: '医生', identity: '邪教徒' },
       ],
     };
-  const opening = project(initializeDiscussion(pack, config).state!, 'protagonists'),
+  const opening = initialPlacementView(initializeDiscussion(pack, config).state!),
     k = new LiveKnowledge(pack, opening);
   const actor = opening.characters.find((c) => c.id === 'b')!;
   const reports: Observation[] = [
@@ -857,6 +1041,137 @@ test('ordinary card reports only advance the board; a closed blocked goodwill wi
   }
 });
 
+test('card settlement only requests modifiers for the affected target and effective card type', () => {
+  const { pack, opening } = fixture('BTX');
+  const characters = new Map(opening.characters.map((c) => [c.id, c]));
+  const cards = new CardReports(characters, opening.boards, pack);
+  const queried: string[] = [];
+  let plotChecks = 0;
+  function flip(entries: string[][]) {
+    queried.length = 0;
+    plotChecks = 0;
+    cards.collect(
+      observation(
+        'cards',
+        {
+          placements: entries.map(([target, kind], i) => ({
+            target,
+            kind,
+            owner: ['mastermind', 'p0', 'p1', 'p2'][i % 4],
+          })),
+        },
+        'card-resolution',
+      ),
+      (key, id) => {
+        queried.push(key + ':' + id);
+        return false;
+      },
+      () => {
+        plotChecks++;
+        return true;
+      },
+    );
+  }
+  flip([
+    ['a', 'block-goodwill'],
+    ['a', 'paranoia+1'],
+    ['b', 'goodwill+1'],
+    ['c', 'block-intrigue'],
+  ]);
+  assert.deepEqual(queried, []);
+  assert.equal(plotChecks, 0);
+  assert.deepEqual(cards.targets.get('a')?.kinds.plus, ['paranoia+1']);
+  flip([
+    ['a', 'block-goodwill'],
+    ['a', 'hope+1'],
+    ['b', 'hope+1'],
+    ['a', 'horizontal'],
+  ]);
+  assert.deepEqual(queried, ['goodwill:a']);
+  assert.equal(plotChecks, 1);
+  assert.equal(cards.targets.get('b')?.plus?.goodwill, 1);
+  assert.equal(cards.pendingGoodwill.size, 0);
+  flip([
+    ['school', 'block-intrigue'],
+    ['school', 'intrigue+1'],
+    ['b', 'block-intrigue'],
+    ['a', 'hope+1'],
+  ]);
+  assert.deepEqual(queried, []);
+  assert.equal(cards.targets.get('school')?.plus?.intrigue, 1);
+  assert.equal(cards.targets.get('a')?.plus?.hope, 1);
+});
+
+test('a moved illusion reads counter cards from its new board and cannot bypass a board goodwill block', () => {
+  const { pack, opening, profiles } = fixture('BTX');
+  const actor = opening.characters[0]!;
+  actor.character = '幻想';
+  actor.area = 'school';
+  const scope = new CausalScope(pack, opening);
+  const receive = (n: number, type: Observation['type'], data: Observation['data']) =>
+    scope.consume(observation(type, data, 'card-resolution', n), profiles);
+  const area = cardDestination('school', ['horizontal'], false);
+  receive(1, 'cards', {
+    placements: [
+      { owner: 'mastermind', target: 'school', kind: 'horizontal' },
+      { owner: 'p0', target: area, kind: 'paranoia+1' },
+      { owner: 'p1', target: area, kind: 'block-goodwill' },
+      { owner: 'p2', target: area, kind: 'goodwill+2' },
+    ],
+  });
+  const move = receive(2, 'character', { ...actor, character: actor.id, area });
+  assert.equal(move?.locallyExplained, true);
+  const gain = receive(3, 'character', {
+    ...actor,
+    character: actor.id,
+    area,
+    counters: { ...actor.counters, paranoia: 1 },
+  });
+  assert.equal(gain?.locallyExplained, true);
+  assert.deepEqual(gain?.skippedCharacters.sort(), opening.characters.map((c) => c.id).sort());
+  assert.ok(gain?.alternatives?.[0]?.startsWith('paranoia+1 ·'));
+  assert.equal(
+    scope.consume(observation('boundary', {}, 'mastermind-abilities', 4), profiles)?.needsHistory,
+    undefined,
+  );
+});
+
+test('a missing follow matters only when a living protected character in the same area actually moved', () => {
+  for (const didMove of [true, false]) {
+    const { pack, opening } = fixture();
+    const characters = new Map(opening.characters.map((c) => [c.id, c]));
+    const leader = characters.get('a')!,
+      guardian = characters.get('b')!;
+    guardian.character = '从者';
+    leader.character = '大小姐';
+    guardian.area = leader.area = 'school';
+    const cards = new CardReports(characters, opening.boards, pack);
+    cards.collect(
+      observation(
+        'cards',
+        {
+          placements: [
+            { owner: 'mastermind', target: 'a', kind: 'horizontal' },
+            { owner: 'p0', target: 'a', kind: didMove ? 'paranoia+1' : 'block-movement' },
+            { owner: 'p1', target: 'hospital', kind: 'block-goodwill' },
+            { owner: 'p2', target: 'city', kind: 'block-movement' },
+          ],
+        },
+        'card-resolution',
+      ),
+      () => false,
+      () => false,
+    );
+    assert.equal(cards.possibleFollowers.has('b'), didMove);
+    if (didMove) leader.area = cardDestination(leader.area, ['horizontal'], false);
+    const { unresolved } = cards.close(observation('boundary', {}, 'mastermind-abilities'));
+    assert.equal(
+      unresolved.some((reason) => reason.includes('随行')),
+      didMove,
+    );
+  }
+});
+
 test('an unchanged global incident after a public zero-intrigue trigger adds no culprit evidence', () => {
   for (const hospital of [0, 1]) {
     const { pack, opening } = fixture('BTX');
@@ -1028,7 +1343,7 @@ test('real hospital settlements account for the untouched survivor at phase clos
       c.counters.paranoia = 8;
     }
     s.characters.c!.counters.guard = guard;
-    const opening = project(s, 'protagonists'),
+    const opening = initialPlacementView(s),
       offset = opening.observations.length;
     s.pending = null;
     s.batch = null;
@@ -1041,16 +1356,19 @@ test('real hospital settlements account for the untouched survivor at phase clos
     const close = records.findIndex((o) => o.phase === 'captain-change');
     assert.ok(close >= 0);
     const k = new LiveKnowledge(pack, opening);
-    records.slice(0, close + 1).forEach((o, i) => k.append([{ ...o, sequence: i + 1 }], i, i + 1));
+    records.slice(0, close).forEach((o, i) => k.append([{ ...o, sequence: i + 1 }], i, i + 1));
+    assert.deepEqual(k.snapshot().identities.b, ['时间旅者'], 'the entire death batch establishes the untouched survivor before phase close');
+    assert.deepEqual(new Set(k.snapshot().scope?.compound?.participants), new Set(['b', 'c']));
+    k.append([{ ...records[close]!, sequence: close + 1 }], close, close + 1);
     assert.deepEqual(k.snapshot().identities.b, ['时间旅者']);
     assert.ok(!k.snapshot().identities.c!.includes('时间旅者'));
     assert.equal(
       k.historySearchDeferred,
-      false,
-      'the hospital batch schedules joint replay after local victim pruning',
+      true,
+      'no complete script enumeration is scheduled for hospital settlement',
     );
+    assert.equal(k.snapshot().generated, 0);
     assert.equal(s.characters.c!.status, guard ? 'alive' : 'dead');
-    assert.ok(k.snapshot().relations!.some((r) => r.fact.includes('部分应受死亡请求')));
   }
 });
 
@@ -1178,8 +1496,8 @@ test('quiet completion checks only a possible acting culprit for mandatory follo
     k.append([observation('boundary', { phase: 'captain-change' }, 'captain-change', 5)], 4, 2);
     assert.equal(
       k.historySearchDeferred,
-      false,
-      'both windows have multiple observations, so their remaining assignments are replayed',
+      culprit !== 'b',
+      'only the possible acting owner of the completion ability needs further history',
     );
     if (culprit === 'b') assert.deepEqual(k.snapshot().scope?.characters, ['b']);
   }

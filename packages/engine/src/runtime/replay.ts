@@ -2,6 +2,8 @@ import type { Actor, Choice, GameSetup } from '../../../contracts/src/game.js';
 import { advance, cardCount, initialize, initializeDiscussion, legalCardTargets } from './engine.js';
 import { canonical, type EngineState, type RulePack } from './model.js';
 
+import { normalizeHistory, matchesObservation } from './observation-history.js';
+
 export interface RecordedChoice {
   actor: Actor;
   choice: Choice;
@@ -10,6 +12,8 @@ export interface ReplayRequest {
   setup: GameSetup;
   choices: RecordedChoice[];
   stepBudget?: number;
+  /** Complete recorded streams for the audiences the caller wants to verify. */
+  expectedObservations?: Partial<EngineState['observations']>;
 }
 export function replay(pack: RulePack, request: ReplayRequest) {
   // Older histories begin with the first discussion after the initial pieces were placed.
@@ -18,6 +22,36 @@ export function replay(pack: RulePack, request: ReplayRequest) {
   const started = start(pack, request.setup, request.stepBudget);
   if (!started.state) return { status: 'invalid' as const, diagnostics: started.diagnostics };
   let state = started.state;
+  const checked = { public: 0, protagonists: 0, mastermind: 0 };
+  function checkAnnouncements(index: number, finished = false) {
+    if (!request.expectedObservations) return;
+    for (const audience of ['public', 'protagonists', 'mastermind'] as const) {
+      const expected = request.expectedObservations[audience];
+      if (!expected) continue;
+      const actual = state.observations[audience];
+      while (checked[audience] < actual.length) {
+        const n = checked[audience];
+        const size = actual[n]!.simultaneousSize ?? 1;
+        const recorded = expected.slice(n, n + size);
+        if (recorded.length !== size || recorded.some((o, j) => o.sequence !== n + j + 1)) break;
+        let keys: string[];
+        try {
+          keys = normalizeHistory(recorded);
+        } catch {
+          break; // Malformed or interleaved batch in an imported replay.
+        }
+        const emitted = actual.slice(n, n + size);
+        if (keys.length !== size || normalizeHistory(emitted).some((key, j) =>
+          !matchesObservation(key, keys[j]!, emitted[j]!))) break;
+        checked[audience] += size;
+      }
+      if (checked[audience] < actual.length || (finished && expected.length !== actual.length))
+        return { status: 'mismatch' as const, reason: 'announcement-mismatch', index,
+          audience, sequence: checked[audience] + 1, state };
+    }
+  }
+  const initialMismatch = checkAnnouncements(-1);
+  if (initialMismatch) return initialMismatch;
   for (let i = 0; i < request.choices.length; i++) {
     const input = request.choices[i]!;
     if (!state.pending)
@@ -42,9 +76,11 @@ export function replay(pack: RulePack, request: ReplayRequest) {
     if (result.status === 'rejected')
       return { status: 'mismatch' as const, index: i, reason: result.reason, state };
     state = result.state;
+    const mismatch = checkAnnouncements(i);
+    if (mismatch) return mismatch;
     if (result.status === 'paused') return { status: 'paused' as const, index: i, state };
   }
-  return { status: 'replayed' as const, state };
+  return checkAnnouncements(request.choices.length, true) ?? { status: 'replayed' as const, state };
 }
 export function runBatch(pack: RulePack, requests: ReplayRequest[]) {
   return requests.map((request) => replay(pack, request));

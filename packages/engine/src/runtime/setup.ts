@@ -1,4 +1,6 @@
-import type { Actor, Board, CardKind, GameSetup } from '../../../contracts/src/game.js';
+import { lifecycle } from './shared-lifecycle.js';
+import { initialRoleViolation, requiredAttribute, culpritRequirement, oppositeSexAttributes } from './setup-rules.js';
+import { officialModules, supportsAnniversary, type Actor, type Board, type CardKind, type GameSetup } from '../../../contracts/src/game.js';
 import { setupSchema } from '../../../contracts/src/validation.js';
 import {
   BOARDS,
@@ -28,13 +30,13 @@ export function validateSetup(pack: RulePack, setup: GameSetup): Diagnostic[] {
     errors.push({ code, path, message });
   if (setup.module !== pack.module || setup.anniversary !== pack.anniversary)
     fail('profile-mismatch', 'module', 'Setup and compiled rule profile differ.');
-  if (!['FS', 'BTX', 'MZ', 'MC', 'WM', 'HSA', 'AHR', 'LL'].includes(pack.module))
+  if (!officialModules.includes(pack.module))
     fail(
       'unsupported-module-semantics',
       'module',
       'This module is inventoried but not yet executable.',
     );
-  if (pack.anniversary && ['AHR', 'LL'].includes(pack.module))
+  if (pack.anniversary && !supportsAnniversary(pack.module))
     fail(
       'invalid-overlay',
       'anniversary',
@@ -51,7 +53,7 @@ export function validateSetup(pack: RulePack, setup: GameSetup): Diagnostic[] {
     fail('invalid-captain', 'captain', 'Exactly three protagonist seats are supported.');
   if (!['allowed', 'between-loops'].includes(setup.discussion))
     fail('invalid-policy', 'discussion', 'Unknown discussion policy.');
-  const xCount = pack.module === 'FS' ? 1 : 2;
+  const xCount = pack.setupRules.xSlots;
   if (setup.x.length !== xCount || new Set(setup.x).size !== setup.x.length)
     fail('invalid-x-slots', 'x', `Exactly ${xCount} distinct X rules are required.`);
   const pool: Record<string, number> = {};
@@ -151,14 +153,12 @@ export function validateSetup(pack: RulePack, setup: GameSetup): Diagnostic[] {
       fail('missing-x', path, 'Immortal requires a nonnegative X.');
     if (def?.abilityArea && !BOARDS.includes(c[def.abilityArea.publicMarker]!))
       fail('missing-territory', path, 'Boss requires a territory.');
-    if (c.character === 'AI' && c.identity === '平民' && !c.reverseIdentity)
-      fail('ai-civilian', path, 'AI cannot be a civilian.');
-    if (c.character === '妹妹' && identity?.ignore && !c.reverseIdentity)
-      fail(
-        'sister-ignore',
-        path,
-        'Little sister cannot have a goodwill-refusing initial identity.',
-      );
+    const violation = initialRoleViolation(pack, setup.y, c.character, c.identity, c.reverseIdentity);
+    if (violation) fail(violation, path, {
+      'ai-civilian': 'AI cannot be a civilian.',
+      'sister-ignore': 'Little sister cannot have a goodwill-refusing initial identity.',
+      'required-attribute': 'Key person must have the girl attribute.',
+    }[violation]);
     if (c.character === '局外人') {
       if (
         inherentPool[c.identity] ||
@@ -183,24 +183,16 @@ export function validateSetup(pack: RulePack, setup: GameSetup): Diagnostic[] {
     } else if (c.reverseIdentity) assignedPairs.push(`${c.identity}/${c.reverseIdentity}`);
     else actual[c.identity] = (actual[c.identity] ?? 0) + 1;
     if (
-      !c.reverseIdentity &&
-      ['强迫症', '愚者', '双胞胎', '祭品', '怪杰'].includes(c.identity) &&
+      culpritRequirement(c.identity,c.reverseIdentity) === 'required' &&
       !setup.incidents.some((i) => i.culprit === c.id)
     )
       fail('required-culprit', path, 'Identity must be a scheduled culprit.');
     if (
-      !c.reverseIdentity &&
-      c.identity === '侦探' &&
+      culpritRequirement(c.identity,c.reverseIdentity) === 'forbidden' &&
       setup.incidents.some((i) => i.culprit === c.id)
     )
       fail('forbidden-culprit', path, 'Detective cannot be a culprit.');
-    if (
-      setup.y === '和我签订契约吧！' &&
-      c.identity === '关键人物' &&
-      !def?.attributes.includes('少女') &&
-      c.character !== '局外人'
-    )
-      fail('required-attribute', path, 'Key person must have the girl attribute.');
+
   }
   if (JSON.stringify(pairs.sort()) !== JSON.stringify(assignedPairs.sort()))
     fail(
@@ -212,7 +204,7 @@ export function validateSetup(pack: RulePack, setup: GameSetup): Diagnostic[] {
     if (identity === '平民') continue;
     const n = actual[identity] ?? 0,
       required = pool[identity] ?? 0;
-    if (identity === '暴徒' && n <= required) continue;
+    if (identity === pack.setupRules.optionalQuota && n <= required) continue;
     if (n !== required)
       fail('identity-pool', 'characters', `Expected ${required} ${identity}, got ${n}.`);
   }
@@ -236,7 +228,7 @@ export function validateSetup(pack: RulePack, setup: GameSetup): Diagnostic[] {
       );
     if (!pack.incidents[i.name]?.supported)
       fail('unsupported-incident', 'incidents', `Pending incident: ${i.name}`);
-    if (i.publicName && i.publicName !== i.name && i.name !== '伪造事件')
+    if (i.publicName && i.publicName !== i.name && i.name !== lifecycle.incident.disguised)
       fail(
         'invalid-public-name',
         'incidents',
@@ -244,7 +236,7 @@ export function validateSetup(pack: RulePack, setup: GameSetup): Diagnostic[] {
       );
   }
   for (const [culprit, names] of culpritIncidents)
-    if (names.length > 1 && names.some((name) => name !== '连续杀人'))
+    if (names.length > 1 && names.some((name) => name !== lifecycle.incident.repeatCulprit))
       fail(
         'repeated-culprit',
         `incidents.${culprit}`,
@@ -267,42 +259,11 @@ export function validateSetup(pack: RulePack, setup: GameSetup): Diagnostic[] {
       'alternateY',
       'Mad truth requires an informant and another configured Y loss condition.',
     );
-  if (setup.y === '男子汉的战争')
-    for (const c of setup.characters.filter(
-      (c) => c.identity === '忍者' && c.character !== '局外人',
-    ))
-      if (!pack.characters[c.character]?.attributes.includes('男性'))
-        fail(
-          'required-attribute',
-          `characters.${c.id}`,
-          'Ninja must have the male attribute; boy is not a substitute.',
-        );
-  if (setup.x.includes('少女大危机'))
-    for (const c of setup.characters.filter(
-      (c) => c.identity === '关键人物' && c.character !== '局外人',
-    ))
-      if (!pack.characters[c.character]?.attributes.includes('少女'))
-        fail(
-          'required-attribute',
-          `characters.${c.id}`,
-          'Key person must have the girl attribute.',
-        );
-  if (setup.x.includes('爱丽丝梦游仙境'))
-    for (const c of setup.characters.filter(
-      (c) => c.identity === '爱丽丝' && c.character !== '局外人',
-    ))
-      if (!pack.characters[c.character]?.attributes.includes('少女'))
-        fail('required-attribute', `characters.${c.id}`, 'Alice must have the girl attribute.');
-  if (setup.y === '叛逆的世界')
-    for (const c of setup.characters.filter(
-      (c) => ['关键人物', '因果残片'].includes(c.identity) && c.character !== '局外人',
-    ))
-      if (!pack.characters[c.character]?.attributes.includes('少女'))
-        fail(
-          'required-attribute',
-          `characters.${c.id}`,
-          'Both specified identities require the girl attribute.',
-        );
+  for (const c of setup.characters) {
+    const attr = requiredAttribute(setup.y,setup.x,c.character,c.identity);
+    if (attr && !pack.characters[c.character]?.attributes.includes(attr))
+      fail('required-attribute', `characters.${c.id}`, `${c.identity} requires the ${attr} attribute.`);
+  }
   if (setup.y === '高贵的血族') {
     const keys = setup.characters.filter(
       (c) => c.identity === '关键人物' && c.character !== '局外人',
@@ -310,16 +271,9 @@ export function validateSetup(pack: RulePack, setup: GameSetup): Diagnostic[] {
     const vampires = setup.characters.filter(
       (c) => c.identity === '吸血鬼' && c.character !== '局外人',
     );
-    const male = ['男性', '少年'],
-      female = ['女性', '少女'];
     for (const a of keys)
       for (const b of vampires) {
-        const aa = pack.characters[a.character]?.attributes ?? [],
-          bb = pack.characters[b.character]?.attributes ?? [];
-        if (
-          !(male.some((t) => aa.includes(t)) && female.some((t) => bb.includes(t))) &&
-          !(female.some((t) => aa.includes(t)) && male.some((t) => bb.includes(t)))
-        )
+        if (!oppositeSexAttributes(pack,a.character,b.character))
           fail(
             'opposite-sex-required',
             'characters',

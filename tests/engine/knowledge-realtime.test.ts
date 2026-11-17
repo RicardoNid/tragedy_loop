@@ -8,12 +8,12 @@ import {
 } from '../../packages/engine/src/runtime/knowledge.js';
 import { HistorySearch } from '../../packages/engine/src/runtime/knowledge-history.js';
 import { initializeDiscussion } from '../../packages/engine/src/runtime/engine.js';
-import { project } from '../../packages/engine/src/runtime/ports.js';
+import { initialPlacementView } from '../../packages/engine/src/runtime/ports.js';
 import type { GameSetup, Observation } from '../../packages/contracts/src/game.js';
 
 test('direct, delegated and pending goodwill requests narrow different hypotheses', () => {
   const pack = compileOfficial('BTX');
-  const opening = project(initializeDiscussion(pack, setup).state!, 'protagonists');
+  const opening = initialPlacementView(initializeDiscussion(pack, setup).state!);
   opening.characters[0]!.character = '男学生';
   (opening.roster ?? opening.characters).find((c) => c.id === opening.characters[0]!.id)!.character = '男学生';
   const actor = opening.characters[0]!;
@@ -107,7 +107,7 @@ for (const module of ['FS', 'BTX'] as const)
             };
       config.incidents = [{ day: 1, name: '医院事故', culprit: 'b' }];
       const full = compileOfficial(module);
-      const opening = project(initializeDiscussion(full, config).state!, 'protagonists');
+      const opening = initialPlacementView(initializeDiscussion(full, config).state!);
       for (const Solver of [LiveKnowledge, EnumeratedKnowledge]) {
         const solver = new Solver(full, opening);
         assert.equal(solver.queryConfiguration(config), 'possible');
@@ -164,7 +164,7 @@ for (const module of ['FS', 'BTX'] as const)
 test('closed loop-start window requires public effects; open windows and positive reports preserve alternatives', () => {
   for (const reported of [false, true]) {
     const pack = compileOfficial('BTX'),
-      opening = project(initializeDiscussion(pack, setup).state!, 'protagonists');
+      opening = initialPlacementView(initializeDiscussion(pack, setup).state!);
     const k = new LiveKnowledge(pack, opening);
     let n = 0;
     function receive(
@@ -220,7 +220,7 @@ test('anniversary requires a civilian overlay in validation and both solver doma
   assert.ok(initial.diagnostics.some((d) => d.code === 'missing-anniversary-fragment'));
   const legal = { ...config, y: '复仇的火种', x: ['流言四起'], anniversaryFragment: 'c',
     characters: config.characters.map((c,i) => ({ ...c, identity: ['主谋','传谣人','平民'][i]! })) };
-  const opening = project(initializeDiscussion(pack, legal).state!, 'protagonists'),
+  const opening = initialPlacementView(initializeDiscussion(pack, legal).state!),
     k = new LiveKnowledge(pack, opening);
   k.update(opening.observations, 1);
   assert.equal(k.snapshot().generated, 0);
@@ -231,7 +231,7 @@ test('anniversary requires a civilian overlay in validation and both solver doma
 
 test('simple observations stop alone and in mixed public packets; hidden outcomes still wake search', () => {
   const pack = compileOfficial('BTX'),
-    opening = project(initializeDiscussion(pack, setup).state!, 'protagonists');
+    opening = initialPlacementView(initializeDiscussion(pack, setup).state!);
   const k = new LiveKnowledge(pack, opening);
   const actor = opening.characters[0]!;
   const observe = (
@@ -293,7 +293,7 @@ test('simple observations stop alone and in mixed public packets; hidden outcome
 
 test('conflicting cards, a second unexplained increment and closed mandatory windows keep their history checks', () => {
   const pack = compileOfficial('BTX'),
-    opening = project(initializeDiscussion(pack, setup).state!, 'protagonists');
+    opening = initialPlacementView(initializeDiscussion(pack, setup).state!);
   const actor = opening.characters[0]!;
   for (const blocked of [true, false]) {
     const k = new LiveKnowledge(pack, opening);
@@ -328,12 +328,11 @@ test('conflicting cards, a second unexplained increment and closed mandatory win
 
 test('a known black-cat culprit explains its own no-effect report exactly once', () => {
   const pack = compileOfficial('BTX');
-  const opening = project(
+  const opening = initialPlacementView(
     initializeDiscussion(pack, {
       ...setup,
       incidents: [{ day: 1, name: '医院事故', culprit: 'c' }],
     }).state!,
-    'protagonists',
   );
   const k = new LiveKnowledge(pack, opening);
   const cat = opening.characters.find((c) => c.id === 'c')!;

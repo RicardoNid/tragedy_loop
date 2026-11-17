@@ -17,7 +17,7 @@ const { HistorySearch } = await runtime('knowledge-history');
 const { LiveKnowledge } = await runtime('knowledge-live');
 const { buildProfiles, configurations } = await runtime('knowledge-domain');
 const { normalizeHistory, queryReference, createReferenceKnowledge } = await runtime('reference');
-const { project } = await runtime('ports');
+const { initialPlacementView } = await runtime('ports');
 const { advance, drive, initializeDiscussion: initialize } = await runtime('engine');
 const { initialState } = await runtime('setup');
 const { settle } = await runtime('settlement');
@@ -122,7 +122,7 @@ function checkpointSearch(s, history) {
   // The production search normally seeds its stack from initialize(). Isolated mid-game
   // states have no preceding history. Replace ONLY its root stack in this test adapter.
   const evidence = { observations: history, normalized: normalizeHistory(history), version: 1 };
-  const search = new HistorySearch(pack, s.setup, evidence, project(s, 'protagonists'));
+  const search = new HistorySearch(pack, s.setup, evidence, initialPlacementView(s));
   const start = structuredClone(s);
   if (!start.pending && !start.winner) drive(pack, start, 10000);
   assert.ok(Array.isArray(search.active), 'HistorySearch 检查点接口已变更');
@@ -776,7 +776,7 @@ function realtime() {
           const s = state('discussion');
           s.characters.a.counters.paranoia = 2;
           s.setup.incidents = [{ day: 1, name: event, culprit: 'a' }];
-          const k = new LiveKnowledge(pack, project(s, 'protagonists'));
+          const k = new LiveKnowledge(pack, initialPlacementView(s));
           const before = k.snapshot().culprits['1'];
           k.append(
             [
@@ -819,7 +819,7 @@ for (module of ['FS', 'BTX']) {
       'FS 选择「最黑暗的剧本」。固定其他必需身份，最后三个普通位各在平民、暴徒中选择，逐一比较八种赋值。',
       () => {
         const setup = configs('复仇的火种', ['最黑暗的剧本'], ['平民', '平民']);
-        const opening = project(initialState(pack, setup), 'protagonists');
+        const opening = initialPlacementView(initialState(pack, setup));
         const profiles = buildProfiles(pack, opening, { checks: 0, removed: 0, branches: 0 })
           .filter((p) => p.y === setup.y && p.x.includes(setup.x[0]));
         const generated = new Set();
@@ -860,14 +860,14 @@ for (module of ['FS', 'BTX']) {
   goodwillCases(helpers);
   traitCases(helpers);
   extraCases(helpers);
-  abilityWindows({ ...helpers, row, LiveKnowledge, project, state });
+  abilityWindows({ ...helpers, row, LiveKnowledge, initialPlacementView, state });
   legalHistory({
     ...helpers,
     row,
     initialize,
     advance,
     LiveKnowledge,
-    project,
+    initialPlacementView,
     HistorySearch,
     normalizeHistory,
   });

@@ -4,7 +4,7 @@ import { compileOfficial } from '../../packages/content/src/official/index.js';
 import type { Choice, GameSetup } from '../../packages/contracts/src/game.js';
 import { advance, initializeDiscussion } from '../../packages/engine/src/runtime/engine.js';
 import { LiveKnowledge, EnumeratedKnowledge } from '../../packages/engine/src/runtime/knowledge.js';
-import { project } from '../../packages/engine/src/runtime/ports.js';
+import { initialPlacementView, project } from '../../packages/engine/src/runtime/ports.js';
 
 test('BTX same-batch hospital deaths preserve both joint partner assignments through phase close', () => {
   const pack = compileOfficial('BTX');
@@ -28,7 +28,7 @@ test('BTX same-batch hospital deaths preserve both joint partner assignments thr
     const init = initializeDiscussion(pack, config);
     assert.deepEqual(init.diagnostics, []);
     let state = init.state!;
-    const opening = project(state, 'protagonists');
+    const opening = initialPlacementView(state);
     for (let i = 0; i < 40; i++) {
       const d = state.pending!;
       let choice: Choice;

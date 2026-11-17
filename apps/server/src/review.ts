@@ -1,3 +1,4 @@
+import { awaitingFirstPlacement } from '../../../packages/contracts/src/game.js';
 import { waitingForCharacters } from '../../../packages/engine/src/runtime/knowledge-live.js';
 import Fastify from 'fastify';
 import { randomUUID } from 'node:crypto';
@@ -30,7 +31,7 @@ export function buildReviewServer() {
         const game = games.get(req.params.id);
         if (!game) return reply.code(404).send({ message: '对局不存在。' });
         const view = game.protagonists.p0.view();
-        if (view.phase === 'briefing') return waitingForCharacters(view.revision);
+        if (awaitingFirstPlacement(view)) return waitingForCharacters(view.revision);
         return knowledge.get(req.params.id, game.host.publicOpening(), view, verify);
       },
     });

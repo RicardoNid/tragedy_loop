@@ -1,14 +1,23 @@
+import { incidentStepProjection } from './knowledge-incident-settlement.js';
+import { projectIncidentDeaths } from './knowledge-death-settlement.js';
+import { projectDayEnd } from './knowledge-mandatory-settlement.js';
+import { routesObservation } from './knowledge-routes.js';
+import { lifecycle, characterCounter } from './shared-lifecycle.js';
 import type { Observation, PlayerView } from '../../../contracts/src/game.js';
 import type { KnowledgeView } from '../../../contracts/src/knowledge.js';
+import { partnerPairs } from './knowledge-traits.js';
 import { BOARDS, COUNTERS, type RulePack } from './model.js';
-import { baseIdentity, shownIdentity, type Profile } from './knowledge-domain.js';
+import { roleImmortal, roleRefusal, boardVictims, goodwillCounter, incidentExGain, incidentThresholdMet } from './expressions.js';
+import { baseIdentity, possibleForms, shownIdentity, type Profile } from './knowledge-domain.js';
 import { relation } from './knowledge-constraints.js';
 
 import { PairExecution, type PairMode } from './knowledge-pair.js';
 import { groupVictims, quietTargets } from './knowledge-quiet.js';
 import { hasVirtualArea, traits, intrinsicCauses } from './knowledge-traits.js';
 import { CardReports } from './knowledge-cards.js';
-import { PruningCatalog, eligibleSource, indexOwners } from './knowledge-pruning.js';
+import { firstGoodwillReports, matchesGoodwillReport } from './knowledge-goodwill.js';
+import { cardBypassRoles, goodwillMovePlot, mastermindCardImmune, multipleBlocksApply } from './card-settlement.js';
+import { PruningCatalog, eligibleSource, indexOwners, requiresGoodwillDeclaration } from './knowledge-pruning.js';
 import { directDeathEffect, type EffectSource, type VisibleChange } from './knowledge-effects.js';
 import { publicCondition, publicNumber, type PublicContext } from './knowledge-conditions.js';
 import { CauseNetwork, counterCauses, type Cause, type CauseRecord } from './knowledge-causes.js';
@@ -47,7 +56,27 @@ export class CausalScope {
   private boards: PlayerView['boards'];
   private roster: { id: string; character: string }[];
   private readonly catalog: PruningCatalog;
+  // These packs have additional engine lifecycle sources outside ordinary ability steps.
+  private readonly extended: boolean;
   private networks = new Map<string, CauseNetwork>();
+  private simultaneous?: FieldBatch;
+  beginSimultaneous() {
+    this.simultaneous = { records: new Map(), projections: [] };
+  }
+  finishSimultaneous() {
+    const batch = this.simultaneous;
+    if (!batch) return;
+    this.simultaneous = undefined;
+    for (const [p,records] of batch.records)
+      if (p.active) this.network(p).addMany(p,records);
+    for (const project of batch.projections) project();
+  }
+  private addCauses(p: Profile, records: CauseRecord[]) {
+    if (!this.simultaneous) return this.network(p).addMany(p,records);
+    const pending = this.simultaneous.records.get(p) ?? [];
+    pending.push(...records);
+    this.simultaneous.records.set(p,pending);
+  }
   private relationFacts = new Map<
     string | number,
     {
@@ -69,7 +98,14 @@ export class CausalScope {
     phase: Observation['phase'];
     choices: Record<string, string>;
     independent: boolean;
+    primary?: Map<string, VisibleChange[]>;
+    primarySequence?: number;
+    singleStep?: boolean;
+    checkKillResolution?: boolean;
+    useKeys?: readonly string[];
   };
+  private nestedDeclaration = false;
+  private completedGoodwill = new Map<string, number>();
   private directRequest?: { id: string; ability: string };
   private readonly hasIncidentAreaIdentity: boolean;
   private readonly cardReports: CardReports;
@@ -106,6 +142,9 @@ export class CausalScope {
   private publicRelations: NonNullable<KnowledgeView['relations']> = [];
   private days: number;
   private loops: number;
+  private publicEx: number;
+  get ex() { return this.publicEx; }
+  private mcGain?: { sequence: number; day: number; loop: number; before: number };
   private eventRelations = new Map<string, NonNullable<KnowledgeView['relations']>>();
   private incidentPairs = new Map<
     string,
@@ -117,14 +156,23 @@ export class CausalScope {
     private pack: RulePack,
     private readonly opening: PlayerView,
   ) {
+    const interrupt = (a: { mandatory?: boolean; timing: string }) => a.mandatory && a.timing === 'incident';
+    this.hasIncidentInterrupt = pack.moduleAbilities.some(({ability}) => interrupt(ability)) ||
+      Object.values(pack.identities).some(def => def.abilities.some(interrupt)) ||
+      [...(opening.roster ?? opening.characters), ...opening.characters].some(c =>
+        pack.characters[c.character]?.abilities.some(interrupt) ||
+        (c.character === '临时工' && pack.characters['临时工？']?.abilities.some(interrupt)));
+    this.interruptPlots = new Set(Object.values(pack.plots).filter(def => def.abilities.some(interrupt)).map(def => def.name));
+    this.extended = !['FS', 'BTX'].includes(pack.module);
     this.hasIncidentAreaIdentity = Object.values(pack.identities).some(
       (identity) => identity.baseIncidentArea && identity.baseIncidentArea !== 'actual',
     );
     this.days = opening.days;
     this.loops = opening.loops;
+    this.publicEx = opening.ex ?? 0;
     this.characters = new Map(opening.characters.map((c) => [c.id, structuredClone(c)]));
     this.boards = { ...opening.boards };
-    this.cardReports = new CardReports(this.characters, this.boards);
+    this.cardReports = new CardReports(this.characters, this.boards, pack);
     this.initialAreas = new Map(opening.characters.map((c) => [c.id, c.area]));
     this.eventSchedule = opening.incidents;
     this.scheduledDays = new Set(opening.incidents.map((i) => i.day));
@@ -158,10 +206,19 @@ export class CausalScope {
     target = String(o.data.board ?? o.data.character),
   ): PublicContext {
     const character = this.roster.find((c) => c.id === owner)?.character;
+    const declaration =
+      o.phase === 'protagonist-abilities' &&
+      this.declared?.id === owner &&
+      this.declared?.ability === source.ability?.id &&
+      requiresGoodwillDeclaration(source)
+        ? this.declared
+        : undefined;
     return {
       clock: o,
+      declaredGoodwill: !!declaration,
+      ex: this.publicEx,
       occurred: (name) => {
-        if (this.pack.incidents['伪造事件'] || source.detached) return;
+        if (this.pack.incidents[lifecycle.incident.disguised] || source.detached) return;
         const slots = this.eventSchedule.filter((e) => e.name === name && e.day <= o.day);
         const flags = slots.map((e) => this.occurrence.get(o.loop + ':' + e.day));
         if (flags.includes(true)) return true;
@@ -176,8 +233,8 @@ export class CausalScope {
       target,
       bindings:
         !source.detached && source.target?.startsWith('$') && !source.target.includes('.')
-          ? { [source.target.slice(1)]: target }
-          : {},
+          ? { ...(source.entryStep && declaration?.choices), [source.target.slice(1)]: target }
+          : (source.entryStep && declaration?.choices) || {},
       staticOnly: source.detached || !source.safeSnapshot,
       moved: source.detached || !this.lastBoundary ? undefined : this.movedInWindow,
       virtualArea:
@@ -266,6 +323,76 @@ export class CausalScope {
       this.networks.set(p.id, network);
     }
     return network;
+  }
+  private hasIncidentInterrupt: boolean;
+  private interruptPlots: Set<string>;
+  get causeJoins() {
+    let count = 0;
+    for (const network of this.networks.values()) count += network.joins;
+    return count;
+  }
+  get causeBudgetLimited() {
+    return [...this.networks.values()].some(network => network.uncertain);
+  }
+  private nextIncidentStep?: { loop: number; day: number };
+  private dayEndEntry?: Observation;
+  /** Called once per complete announcement, after single-rule filtering, before board writes. */
+  finishSettlement(reports: Observation[], profiles: Profile[], remaining: { branches: number }, compound: boolean) {
+    const first = reports[0]!;
+    const previous = this.dayEndEntry;
+    if (first.type !== 'own-choice') this.dayEndEntry =
+      first.type === 'boundary' && first.phase === 'day-end' ? first : undefined;
+    if (previous && previous.day === first.day && previous.loop === first.loop &&
+        first.phase === 'day-end' && first.simultaneousSize !== undefined && compound) {
+      const context: PublicContext = { clock: first, pack: this.pack, characters: this.characters,
+        boards: this.boards, days: this.days, loops: this.loops, ex:this.publicEx };
+      let matched = false, open = false;
+      const participants = new Set<string>();
+      for (const p of profiles) {
+        if (!p.active) continue;
+        if (remaining.branches <= 0) { open = true; break; }
+        const result = projectDayEnd(context,this.opening,reports,p,remaining);
+        if (!result) { open = true; continue; }
+        matched = true;
+        open ||= result.open;
+        for (const id of result.participants) participants.add(id);
+      }
+      if (matched) { this.version++; return { participants, open }; }
+    }
+    if (first.type === 'incident') {
+      this.nextIncidentStep = first.data.occurred === true ? { loop: first.loop, day: first.day } : undefined;
+      return;
+    }
+    const entry = this.nextIncidentStep;
+    if (!entry) return;
+    if (first.phase === 'incident' && first.loop === entry.loop && first.day === entry.day) {
+      if (first.type === 'own-choice' ||
+          (this.pack.module === 'MC' && first.type === 'board' && typeof first.data.ex === 'number' &&
+           first.simultaneousSize === undefined)) return;
+      this.nextIncidentStep = undefined;
+      if (first.simultaneousSize === undefined || this.hasIncidentInterrupt) return;
+      const context: PublicContext = { clock: first, pack: this.pack, characters: this.characters,
+        boards: this.boards, days: this.days, loops: this.loops, ex: this.publicEx };
+      const publicStep = incidentStepProjection(context, this.opening, reports, remaining);
+      const participants = new Set<string>();
+      let matched = false, open = false;
+      for (const p of profiles) {
+        if (!p.active) continue;
+        if ([p.y, ...p.x].some(name => this.interruptPlots.has(name))) { open = true; continue; }
+        if (remaining.branches <= 0) { open = true; break; }
+        const result = projectIncidentDeaths(context, reports, p, remaining);
+        const direct = p.active && compound ? publicStep(p) : undefined;
+        if (!result && !direct) { open = true; continue; }
+        matched = true;
+        open ||= result?.open !== false && direct?.open !== false;
+        for (const id of result?.participants ?? []) participants.add(id);
+        for (const id of direct?.participants ?? []) participants.add(id);
+      }
+      if (matched) {
+        this.version++;
+        return { participants, open };
+      }
+    } else this.nextIncidentStep = undefined;
   }
   get causeBranches() {
     let branches = this.pairBranches + this.counterWork.branches;
@@ -397,9 +524,9 @@ export class CausalScope {
   private pairModes(id: string): PairMode[] | undefined {
     const actor = this.roster.find((c) => c.id === id)?.character;
     if (!actor) return;
-    if (traits(actor).execution === 'cancel') return [];
-    if (traits(actor).execution === 'repeat') return ['repeated'];
-    if (traits(actor).execution === 'proxy') {
+    if (traits(this.pack, actor).execution === 'cancel') return [];
+    if (traits(this.pack, actor).execution === 'repeat') return ['repeated'];
+    if (traits(this.pack, actor).execution === 'proxy') {
       const proxies = [...this.characters.values()].filter(
         (c) => c.character === '临时工？' && c.status === 'alive',
       );
@@ -487,11 +614,36 @@ export class CausalScope {
       if (!byOwner.has(key)) byOwner.set(key, this.eligible(source, o, change, owner, day));
       return byOwner.get(key)!;
     };
-    const cats = this.roster.filter((c) => c.character === '黑猫');
+    const cats = this.roster.filter((c) => this.pack.characters[c.character]?.loopShrineIntrigue);
     const victim = this.characters.get(change.target);
     const virtualVictim =
-      this.hasIncidentAreaIdentity || !!(victim && this.pack.characters[victim.character]?.incidentAreaFromBase);
-    const indexed = this.catalog.forChange(o.phase, change);
+      this.hasIncidentAreaIdentity ||
+      !!(victim && this.pack.characters[victim.character]?.incidentAreaFromBase);
+    const indexed = this.catalog.forChange(
+      o.phase,
+      change,
+      routesObservation('declaredEffect', o)
+        ? this.declared?.singleStep && this.declared.primary?.size === 0
+          ? null
+          : (this.declared ?? null)
+        : undefined,
+    );
+    if (this.extended) {
+      // The indexed effects are candidates. An implicit lifecycle hook, borrowed ability
+      // or changed identity can also produce this report; only replay proves exhaustiveness.
+      const roles = [...indexed.identities].filter(([, sources]) => sources.some(s => eligible(s))).map(([name]) => name);
+      scope.characters = [...indexed.cards].filter(([id, sources]) => sources.some(s => eligible(s, id))).map(([id]) => id);
+      scope.rules = [...indexed.rules].filter(([name, sources]) =>
+        sources.some(s => eligible(s) && (allRules.has(name) || (s.ability?.id === 'loss' &&
+          profiles.some(p => p.store.domains.get('alternateY')?.has(name)))))).map(([name]) => name);
+      scope.events = [...indexed.events].filter(([name,sources]) => sources.some(s =>
+        this.eventSchedule.some(day => (s.detached || day.day === o.day) &&
+          (day.name === name || name === lifecycle.incident.disguised) && eligible(s,undefined,day.day)))).map(([name])=>name);
+      scope.alternatives = [...roles, ...indexed.modules.keys(), ...scope.rules, ...scope.characters, ...scope.events];
+      scope.needsHistory = true;
+      scope.conservative.push('已按时点和效果筛选来源；另核对模组触发、当前身份和隐藏选择。');
+      return scope;
+    }
     const owners = indexOwners(
       this.roster,
       this.characters,
@@ -514,7 +666,26 @@ export class CausalScope {
     }
     const cardSources = new Map<string, EffectSource[]>();
     for (const [id, sources] of indexed.cards) {
-      const valid = sources.filter((s) => eligible(s, id));
+      const valid = sources.filter((s) => {
+        if (
+          this.declared?.primary?.size === 0 &&
+          s.entryStep &&
+          requiresGoodwillDeclaration(s) &&
+          this.declared.id === id &&
+          this.declared.ability === s.ability?.id
+        )
+          return false;
+        if (
+          o.phase === 'protagonist-abilities' &&
+          this.declared &&
+          !this.declared.independent &&
+          this.declared.id === id &&
+          this.declared.ability === s.ability?.id
+        ) {
+          scope.needsHistory = true;
+        }
+        return eligible(s, id);
+      });
       if (valid.length) cardSources.set(id, valid);
     }
     // The public base card can act through a replacement with a different
@@ -579,7 +750,9 @@ export class CausalScope {
             ? [
                 source.delay
                   ? `可能的延迟效果于第 ${o.loop} 轮第 ${o.day} 日 ${o.phase} 到期，发动时点为 ${source.delay.origin}。`
-                  : directDeathEffect(source) ? '该能力在角色死亡时触发。' : '间接来源：保留先前发动条件。',
+                  : directDeathEffect(source)
+                    ? '该能力在角色死亡时触发。'
+                    : '间接来源：保留先前发动条件。',
               ]
             : source.conditions.some(
                   (c) => publicCondition(c, this.context(o, source, owner)) === undefined,
@@ -627,14 +800,23 @@ export class CausalScope {
           const identity = baseIdentity(value);
           const matching = [...(roles.get(identity) ?? [])];
           if (identity === '怪杰') matching.push(...(roles.get('主谋') ?? []));
-          if (description && identity === '不安定因子') {
-            if (this.boards.school >= 2) matching.push(...(roles.get('传谣人') ?? []));
-            if (this.cityQualifiedAtDeath.has(c.id)) matching.push(...(roles.get('关键人物') ?? []));
+          if (description && identity === lifecycle.borrowed.identity) {
+            if (this.boards.school >= lifecycle.borrowed.threshold)
+              matching.push(...(roles.get(lifecycle.borrowed.school) ?? []));
+            if (this.cityQualifiedAtDeath.has(c.id))
+              matching.push(...(roles.get(lifecycle.borrowed.city) ?? []));
           }
-          if (description && value === '平民' && p.x.includes('妄想扩大病毒')) {
+          if (
+            description &&
+            value === lifecycle.transformation.initial &&
+            p.x.includes(lifecycle.transformation.plot)
+          ) {
             const old = this.endEntry?.characters.get(c.id);
-            if (!old || old.counters.paranoia + old.counters.despair >= 3)
-              matching.push(...(roles.get('杀人狂') ?? []));
+            if (
+              !old ||
+              old.counters.paranoia + old.counters.despair >= lifecycle.transformation.paranoia
+            )
+              matching.push(...(roles.get(lifecycle.transformation.effective) ?? []));
           }
           if (matching.length) {
             relevantCharacters.add(c.id);
@@ -646,8 +828,7 @@ export class CausalScope {
                   ? `${c.character}（${c.id}）可能先前发动的 ${identity} 效果`
                   : `${c.character}（${c.id}）是${identity}${description && source.ability ? '（' + source.ability.id + '）' : ''}`,
                 c.id,
-                source.detached && !directDeathEffect(source)
-                  ? [] : [{ key, value }],
+                source.detached && !directDeathEffect(source) ? [] : [{ key, value }],
               );
           }
         }
@@ -728,8 +909,8 @@ export class CausalScope {
                   source.selection &&
                   !this.roster.some(
                     (c) =>
-                      (traits(c.character).execution === 'repeat' ||
-                        traits(c.character).execution === 'proxy') &&
+                      (traits(this.pack, c.character).execution === 'repeat' ||
+                        traits(this.pack, c.character).execution === 'proxy') &&
                       (id ? c.id === id : actors.has(c.id)),
                   )
                 ) {
@@ -883,8 +1064,8 @@ export class CausalScope {
           const culpritKey = 'culprit:' + o.day;
           const repeaters = this.roster.filter(
             (c) =>
-              (traits(c.character).execution === 'repeat' ||
-                traits(c.character).execution === 'proxy') &&
+              (traits(this.pack, c.character).execution === 'repeat' ||
+                traits(this.pack, c.character).execution === 'proxy') &&
               p.store.values(culpritKey).has(c.id),
           );
           const repeated = unique.flatMap((a) =>
@@ -953,29 +1134,58 @@ export class CausalScope {
           const records = batch.records.get(p) ?? [];
           records.push(record);
           batch.records.set(p, records);
-        } else this.network(p).add(p, record);
+        } else this.addCauses(p, [record]);
       }
     }
     const project = () => {
-      const surviving = [...clauses].filter(([p]) => p.active).flatMap(([p, causes]) =>
-        causes.filter((c) => !this.networks.get(p.id)?.excludedCauses.has(c) &&
-          c.requires.every((g) => p.store.values(g.key).has(g.value))));
+      const surviving = [...clauses]
+        .filter(([p]) => p.active)
+        .flatMap(([p, causes]) =>
+          causes.filter(
+            (c) =>
+              !this.networks.get(p.id)?.excludedCauses.has(c) &&
+              c.requires.every((g) => p.store.values(g.key).has(g.value)),
+          ),
+        );
       if (!scope.needsHistory && !batch && surviving.length) {
         for (const guard of surviving[0]!.requires) {
-          if (guard.key.startsWith('identity:') && surviving.every((c) => c.requires.some(
-            (g) => g.key === guard.key && g.value === guard.value))) {
-            this.impliedIdentities[guard.key.slice(9)] = { identity: shownIdentity(guard.value), observation: o.sequence };
+          if (
+            guard.key.startsWith('identity:') &&
+            surviving.every((c) =>
+              c.requires.some((g) => g.key === guard.key && g.value === guard.value),
+            )
+          ) {
+            this.impliedIdentities[guard.key.slice(9)] = {
+              identity: shownIdentity(guard.value),
+              observation: o.sequence,
+            };
           }
         }
-        if (o.phase === 'mastermind-abilities' && change.kind === 'counter' &&
-            change.counter === 'paranoia' && change.after === (change.before ?? NaN) + 1 &&
-            surviving.every((c) => c.ability === 'gossip' && c.requires.length === 1))
+        if (
+          o.phase === 'mastermind-abilities' &&
+          change.kind === 'counter' &&
+          change.counter === 'paranoia' &&
+          change.after === (change.before ?? NaN) + 1 &&
+          surviving.every((c) => c.ability === 'gossip' && c.requires.length === 1)
+        )
           scope.locallyExplained = true;
       }
       scope.alternatives = [...new Set(surviving.map((cause) => cause.label))];
-      if (declared && scope.alternatives.length === 1) {
+      if (
+        declared &&
+        surviving.length &&
+        surviving.every((c) => c.owner === declared.id && c.ability === declared.ability)
+      ) {
         relevantCharacters.clear();
         relevantCharacters.add(declared.id);
+        // This exact single counter report is accounted for. A later disclosure
+        // or completion reaction still arrives as its own observation.
+        if (
+          this.declared?.independent &&
+          !scope.needsHistory &&
+          surviving.every((c) => !c.notes.length && !c.requires.length)
+        )
+          scope.locallyExplained = true;
         relevantRules.clear();
         relevantEvents.clear();
       }
@@ -999,6 +1209,7 @@ export class CausalScope {
     };
     if (batch) batch.projections.push(project);
     else project();
+    this.simultaneous?.projections.push(project);
     return scope;
   }
   private quietIncident(
@@ -1082,14 +1293,18 @@ export class CausalScope {
             free = true;
             add('保留未核验的结算解释');
           };
-          if (traits(actor?.character).execution === 'cancel' && !incident?.afterIncidentSteps?.length) {
+          if (
+            traits(this.pack, actor?.character).execution === 'cancel' &&
+            !incident?.afterIncidentSteps?.length
+          ) {
             free = true;
             add('黑猫当事人取消事件效果');
           } else if (
             !actor ||
             ['临时工', '临时工？'].includes(actor.character) ||
             this.pack.characters[actor.character]?.incidentAreaFromBase ||
-            !incident || incident.afterIncidentSteps?.length
+            !incident ||
+            incident.afterIncidentSteps?.length
           )
             unknown();
           else {
@@ -1135,7 +1350,10 @@ export class CausalScope {
                     ['临时工', '临时工？'].includes(c.character) ||
                     (c.counters.guard === 0 &&
                       alive.some(
-                        (a) => a.id !== target && a.area === c.area && this.pack.characters[a.character]?.protects,
+                        (a) =>
+                          a.id !== target &&
+                          a.area === c.area &&
+                          this.pack.characters[a.character]?.protects,
                       ))
                   ) {
                     unsupported = true;
@@ -1214,10 +1432,118 @@ export class CausalScope {
     if (!scope.needsHistory && !survivors) w.settledQuietly = true;
     return scope;
   }
+  private moduleIncident(
+    o: Observation,
+    profiles: Profile[],
+    day: number,
+    occurred: boolean,
+  ): Scope {
+    const scope = this.summary(o, 'incident-occurrence');
+    if (this.pack.module === 'MC' && occurred)
+      this.mcGain = { sequence: o.sequence, loop: o.loop, day, before: this.publicEx };
+    let unresolved = false;
+    const event = 'event:' + day,
+      owner = 'culprit:' + day;
+    for (const p of profiles) {
+      if (!p.active || !p.store.domains.has(event)) continue;
+      const allowed = new Set<string>();
+      const owners = [...this.characters.values()]
+        .filter((c) => c.status === 'alive')
+        .map((c) => ({
+          actor: c,
+          roles: new Set(
+            ['临时工', '临时工？'].includes(c.character)
+              ? Object.keys(this.pack.identities)
+              : [...(p.store.domains.get('identity:' + c.id) ?? [])].flatMap((v) =>
+                  possibleForms(p, v),
+                ),
+          ),
+        }));
+      const prophetAlive = owners.some((c) => c.roles.has('预言家'));
+      const areaTrigger = owners.some((c) =>
+        [...c.roles].some((role) => this.pack.identities[role]?.sameAreaIncidentTrigger),
+      );
+      for (const name of p.store.values(event))
+        for (const id of p.store.values(owner)) {
+          const rule = this.pack.incidents[name]!;
+          const actor = this.characters.get(id);
+          if (rule.crowdThreshold !== undefined) {
+            if (!BOARDS.includes(id as (typeof BOARDS)[number])) continue;
+            const corpses =
+              [...this.characters.values()].filter((c) => c.status === 'dead' && c.area === id)
+                .length +
+              boardVictims(this.pack.module, this.boards[id as (typeof BOARDS)[number]]);
+            if (corpses >= rule.crowdThreshold !== occurred) continue;
+          } else {
+            if (BOARDS.includes(id as (typeof BOARDS)[number])) continue;
+            if (
+              actor &&
+              traits(this.pack, actor.character).execution !== 'proxy' &&
+              occurred &&
+              actor.status !== 'alive'
+            )
+              continue;
+            if (!actor || traits(this.pack, actor.character).privateTrigger) unresolved = true;
+            if (
+              actor &&
+              !traits(this.pack, actor.character).privateTrigger &&
+              actor.status === 'alive'
+            ) {
+              const possibleRoles = owners.find((c) => c.actor.id === id)!.roles;
+              const nearby = owners.filter((c) => c.actor.area === actor.area);
+              const forced = name === '次元转换';
+              const forcePossible =
+                areaTrigger ||
+                (actor.counters.despair > 0 && nearby.some((c) => c.roles.has('监视者')));
+              const suppressPossible =
+                traits(this.pack, actor.character).maySuppress ||
+                nearby.some((c) => c.actor.id !== id && c.roles.has('预言家'));
+              if (forcePossible || suppressPossible || possibleRoles.size > 1) unresolved = true;
+              const compatible = [...possibleRoles].some((role) => {
+                const automatic = forced || role === '强迫症';
+                const met = incidentThresholdMet(
+                  this.pack,
+                  name,
+                  actor.character,
+                  role,
+                  actor.counters,
+                  this.pack.characters[actor.character]!.paranoia,
+                  this.publicEx,
+                  p.y,
+                  p.x,
+                  occurred && prophetAlive,
+                );
+                return occurred
+                  ? automatic || forcePossible || met
+                  : suppressPossible || (!automatic && !met);
+              });
+              if (!compatible) continue;
+            }
+          }
+          allowed.add(JSON.stringify([name, id]));
+        }
+      p.store.add(
+        relation('module-incident:' + o.sequence, event, owner, (name, id) =>
+          allowed.has(JSON.stringify([name, id])),
+        ),
+      );
+      p.active = p.store.propagate();
+      if (p.active) {
+        scope.events.push(...p.store.values(event));
+        scope.characters.push(...p.store.values(owner));
+      }
+    }
+    scope.events = [...new Set(scope.events)];
+    scope.characters = [...new Set(scope.characters)];
+    scope.needsHistory = unresolved;
+    scope.conservative.push('已按真实事件和当事人配对；私有触发、区域尸体、Ex 与正文另核验。');
+    return scope;
+  }
   private incident(o: Observation, profiles: Profile[]): Scope | undefined {
     const day = o.data.day;
     if (o.phase !== 'incident' || typeof day !== 'number' || typeof o.data.occurred !== 'boolean')
       return;
+    if (this.extended) return this.moduleIncident(o, profiles, day, o.data.occurred);
     if (!this.catalog.publicTriggerModel) return;
     if (profiles.some((p) => p.y === '士的宁毒液' || p.x.includes('灭亡讴歌'))) return;
     const scope = this.summary(o, 'incident-occurrence');
@@ -1258,7 +1584,10 @@ export class CausalScope {
       );
       if (o.data.occurred)
         for (const pair of pairs) {
-          if (traits(roster.find((c) => c.id === pair.id)?.character).execution === 'cancel')
+          if (
+            traits(this.pack, roster.find((c) => c.id === pair.id)?.character).execution ===
+            'cancel'
+          )
             continue;
           for (const source of this.catalog.events.get(pair.name) ?? []) {
             if (!source.delay?.day) continue;
@@ -1320,7 +1649,11 @@ export class CausalScope {
         loop: o.loop,
         next: o.sequence + 1,
         missing: new Set(alive.filter((c) => this.priorFriends.has(c.id)).map((c) => c.id)),
-        cats: new Set(alive.filter((c) => c.character === '黑猫').map((c) => c.id)),
+        cats: new Set(
+          alive
+            .filter((c) => this.pack.characters[c.character]?.loopShrineIntrigue)
+            .map((c) => c.id),
+        ),
       };
       return;
     }
@@ -1355,11 +1688,12 @@ export class CausalScope {
     }
     this.window = undefined;
     if (o.type !== 'boundary' || o.phase !== 'day-start') return;
-    const conflict = w.missing.size > 0 && profiles.some((p) => p.x.includes('因果线'));
+    const conflict =
+      w.missing.size > 0 && profiles.some((p) => p.x.includes(lifecycle.previousFriend.plot));
     if (!w.cats.size && !conflict) return;
     const scope = this.summary(o, 'mandatory-absence');
     scope.characters = [...new Set([...w.cats, ...(conflict ? w.missing : [])])];
-    scope.rules = conflict ? ['因果线'] : [];
+    scope.rules = conflict ? [lifecycle.previousFriend.plot] : [];
     scope.skippedRules = [...new Set(profiles.flatMap((p) => [p.y, ...p.x]))].filter(
       (r) => !scope.rules.includes(r),
     );
@@ -1392,7 +1726,8 @@ export class CausalScope {
         },
       ],
     });
-    for (const p of profiles) if (w.cats.size || p.x.includes('因果线')) p.active = false;
+    for (const p of profiles)
+      if (w.cats.size || p.x.includes(lifecycle.previousFriend.plot)) p.active = false;
     this.version++;
     return scope;
   }
@@ -1419,6 +1754,9 @@ export class CausalScope {
           typeof choice === 'object' &&
           'kind' in choice &&
           (['cards', 'continue', 'pass'].includes(String(choice.kind)) ||
+            (choice.kind === 'select' &&
+              o.phase === 'protagonist-abilities' &&
+              !!this.directRequest) ||
             (choice.kind === 'ability' &&
               'owner' in choice &&
               'ability' in choice &&
@@ -1480,8 +1818,10 @@ export class CausalScope {
     const actors = [...entry.characters.values()].filter((c) => c.status === 'alive');
     if (
       actors.some(
-        (c) => ['临时工', '临时工？'].includes(c.character) ||
-          this.pack.characters[c.character]?.protects || hasVirtualArea(this.pack, c.character),
+        (c) =>
+          ['临时工', '临时工？'].includes(c.character) ||
+          this.pack.characters[c.character]?.protects ||
+          hasVirtualArea(this.pack, c.character),
       )
     )
       return;
@@ -1522,10 +1862,11 @@ export class CausalScope {
               to = 'identity:' + target.id;
             const uses = (v: string) =>
               shownIdentity(v) === identity ||
-              (identity === '杀人狂' &&
-                v === '平民' &&
-                p.x.includes('妄想扩大病毒') &&
-                owner.counters.paranoia + owner.counters.despair >= 3);
+              (identity === lifecycle.transformation.effective &&
+                v === lifecycle.transformation.initial &&
+                p.x.includes(lifecycle.transformation.plot) &&
+                owner.counters.paranoia + owner.counters.despair >=
+                  lifecycle.transformation.paranoia);
             const domain = p.store.domains.get(from);
             if (!p.active || !domain || ![...domain].some(uses) || !p.store.domains.has(to))
               continue;
@@ -1592,20 +1933,29 @@ export class CausalScope {
         ? o.data.intrigue !== this.boards[id as (typeof BOARDS)[number]]
         : actor && (o.data.counters as Record<string, number>)[key] !== actor.counters[key];
     if (!changed) return;
-    const role = key === 'goodwill' ? '时间旅者' : '邪教徒';
-    const owners =
+    const roles = cardBypassRoles[key];
+    const inRange =
       key === 'goodwill'
         ? [id]
         : [...this.characters.values()]
             // Modern openings disclose the territory. Older inputs may omit it.
-            .filter((c) =>
-              c.status === 'alive' &&
-              (c.area === area ||
-                c.character === 'UP主' ||
-                (this.pack.characters[c.character]?.abilityArea?.publicMarker === 'territory' &&
-                  (!this.opening.territory || this.opening.territory === area))),
+            .filter(
+              (c) =>
+                c.status === 'alive' &&
+                (c.area === area ||
+                  c.character === 'UP主' ||
+                  (this.pack.characters[c.character]?.abilityArea?.publicMarker === 'territory' &&
+                    (!this.opening.territory || this.opening.territory === area))),
             )
             .map((c) => c.id);
+    const owners = inRange.filter(
+      (owner) =>
+        ['临时工', '临时工？'].includes(this.characters.get(owner)?.character ?? '') ||
+        profiles.some(
+          (p) =>
+            p.active && roles.some((role) => p.store.domains.get('identity:' + owner)?.has(role)),
+        ),
+    );
     // Leave alternative custom/delayed card-resolution sources to a history witness.
     const before = actor?.counters[key] ?? this.boards[id as (typeof BOARDS)[number]];
     const after =
@@ -1619,7 +1969,9 @@ export class CausalScope {
       sign: Math.sign(after - before),
     };
     if (
-      this.roster.some((c) => ['临时工', '临时工？'].includes(c.character)) ||
+      owners.some((id) =>
+        ['临时工', '临时工？'].includes(this.characters.get(id)?.character ?? ''),
+      ) ||
       Object.values(this.catalog.forChange(o.phase, change)).some((table) =>
         [...table.values()].some((sources) => sources.some((s) => this.eligible(s, o, change))),
       )
@@ -1628,15 +1980,18 @@ export class CausalScope {
     const causes = new Set<string>();
     for (const p of profiles) {
       if (!p.active) continue;
-      const alternatives: Cause[] = owners
-        .filter((owner) => p.store.domains.get('identity:' + owner)?.has(role))
-        .map((owner) => ({
-          category: 'character',
-          label: this.roster.find((c) => c.id === owner)?.character + '（' + owner + '）是' + role,
-          requires: [{ key: 'identity:' + owner, value: role }],
-          resources: [],
-          notes: [],
-        }));
+      const alternatives: Cause[] = owners.flatMap((owner) =>
+        roles
+          .filter((role) => p.store.domains.get('identity:' + owner)?.has(role))
+          .map((role) => ({
+            category: 'character',
+            label:
+              this.roster.find((c) => c.id === owner)?.character + '（' + owner + '）是' + role,
+            requires: [{ key: 'identity:' + owner, value: role }],
+            resources: [],
+            notes: [],
+          })),
+      );
       alternatives.forEach((a) => causes.add(a.label));
       this.network(p).add(p, {
         observation: o.sequence,
@@ -1794,26 +2149,38 @@ export class CausalScope {
   }
   private refusal(o: Observation, profiles: Profile[]): Scope | undefined {
     const actor = this.characters.get(String(o.data.character));
-    if (
-      !actor ||
-      ['临时工', '临时工？'].includes(actor.character) ||
-      !this.pack.characters[actor.character]?.abilities.some((a) => a.id === o.data.ability)
-    )
-      return;
+    if (!actor) return;
+    const ability = this.pack.characters[actor.character]?.abilities.find(
+      (a) => a.id === o.data.ability,
+    );
+    if (!ability) return;
+    if (ability.cannotRefuse) {
+      for (const p of profiles) p.active = false;
+      return this.publicFact(
+        o,
+        actor.character + '的能力明确不可拒绝，与拒绝报告冲突。',
+        [],
+        'refused',
+        actor.id,
+      );
+    }
+    if (['临时工', '临时工？'].includes(actor.character)) return;
     const key = 'identity:' + actor.id;
     for (const p of profiles) {
+      if (!p.active) continue;
       const domain = p.store.domains.get(key);
       if (!domain) continue;
       p.store.narrow(
         key,
         [...domain].filter((v) => {
+          if (this.extended) return possibleForms(p,v).some(role => roleRefusal(this.pack,p.x,role,actor.counters) !== 'none');
           let identity = shownIdentity(v);
           if (
-            identity === '平民' &&
-            p.x.includes('妄想扩大病毒') &&
-            actor.counters.paranoia + actor.counters.despair >= 3
+            identity === lifecycle.transformation.initial &&
+            p.x.includes(lifecycle.transformation.plot) &&
+            actor.counters.paranoia + actor.counters.despair >= lifecycle.transformation.paranoia
           )
-            identity = '杀人狂';
+            identity = lifecycle.transformation.effective;
           return (
             actor.counters.hope === 0 &&
             (actor.counters.despair > 0 || !!this.pack.identities[identity]?.ignore)
@@ -1851,6 +2218,45 @@ export class CausalScope {
       !changes.length
     )
       return;
+    if (routesObservation('declaredEffect', o) && this.nestedDeclaration) {
+      const scope = this.summary(o, 'visible-effect');
+      scope.needsHistory = true;
+      scope.conservative.push(
+        '已公开代为发动的能力；按调用次序核验其结算、后续反应和原能力的剩余步骤。',
+      );
+      return scope;
+    }
+    const active = this.declared;
+    if (
+      active?.independent &&
+      active.phase === o.phase &&
+      active.primary?.size &&
+      active.primarySequence !== undefined &&
+      active.primarySequence >= (o.simultaneousGroup ?? o.sequence) - 1 &&
+      active.primarySequence < o.sequence
+    ) {
+      const target = changes[0]!.target;
+      const expected = active.primary.get(target);
+      if (expected && matchesGoodwillReport(expected, changes)) {
+        active.primary.delete(target);
+        active.primarySequence = o.sequence;
+        const actor = this.characters.get(active.id)!;
+        if (active.useKeys && !active.primary.size) this.recordGoodwill(active.useKeys);
+        const scope = this.summary(o, 'visible-effect');
+        scope.target = target;
+        scope.skippedCharacters = this.roster.map((c) => c.id);
+        scope.alternatives = [actor.character + '（' + actor.id + '）的' + active.ability];
+        scope.conservative.push('首批变化与声明相符，直接更新盘面；额外披露或死亡反应另行处理。');
+        scope.locallyExplained = true;
+        scope.publicSettlement = true;
+        return scope;
+      }
+      // A failed prediction does not make another local source necessary.
+      // consume() retains this report for replay and still updates the board.
+      const scope = this.summary(o, 'visible-effect');
+      scope.needsHistory = true;
+      return scope;
+    }
     const names = {
       move: '移动',
       kill: '死亡',
@@ -1872,7 +2278,8 @@ export class CausalScope {
     let certain: { id: string; ability: string } | undefined;
     if (
       declaration &&
-      declaration.sequence === o.sequence - 1 &&
+      !declaration.independent &&
+      declaration.sequence === (o.simultaneousGroup ?? o.sequence) - 1 &&
       declaration.phase === o.phase &&
       changes.length === 1
     ) {
@@ -1889,7 +2296,9 @@ export class CausalScope {
         e.counter === c.counter &&
         typeof e.amount === 'number' &&
         Math.sign(e.amount) === c.sign &&
-        !ability?.steps[0]?.condition
+        ability?.steps.length === 1 &&
+        !ability.condition &&
+        !ability.steps[0]?.condition
       ) {
         const target =
           e.target === '$self'
@@ -1919,35 +2328,75 @@ export class CausalScope {
       return this.visibleEffect(o, profiles, change, label, certain, batch);
     });
     if (batch) {
-      for (const [p, records] of batch.records) this.network(p).addMany(p, records);
+      for (const [p, records] of batch.records) this.addCauses(p, records);
       for (const project of batch.projections) project();
     }
     const local = scopes.filter((s): s is Scope => !!s);
-    if (!local.length) return;
-    const merged = this.summary(o, 'visible-effect');
-    merged.target = changes[0]!.target;
-    if (batch)
-      merged.fields = fields.map((field, i) => ({ field, alternatives: scopes[i]?.alternatives }));
-    for (const k of ['characters', 'rules', 'events', 'alternatives', 'conservative'] as const)
-      merged[k] = [...new Set(local.flatMap((s) => s[k] ?? []))];
-    for (const [skipped, used] of [
-      ['skippedCharacters', 'characters'],
-      ['skippedRules', 'rules'],
-      ['skippedEvents', 'events'],
-    ] as const)
-      merged[skipped] = [...new Set(local.flatMap((s) => s[skipped]))].filter(
-        (v) => !merged[used].includes(v),
+    if (!local.length) {
+      if (!routesObservation('declaredEffect', o)) return;
+      const scope = this.summary(o, 'visible-effect');
+      scope.needsHistory = true;
+      scope.conservative.push(
+        '当前声明及已知的后续来源无法在本地解释这条观察，按实际选择核验历史。',
       );
-    if (local.length !== scopes.length || local.some((s) => s.needsHistory))
-      merged.needsHistory = true;
-    if (changes.length === 1 && local[0]?.locallyExplained) merged.locallyExplained = true;
+      return scope;
+    }
+    const merged = this.summary(o, 'visible-effect');
+    const merge = () => {
+      merged.target = changes[0]!.target;
+      if (batch)
+        merged.fields = fields.map((field, i) => ({ field, alternatives: scopes[i]?.alternatives }));
+      for (const k of ['characters', 'rules', 'events', 'alternatives', 'conservative'] as const)
+        merged[k] = [...new Set([...(k === 'conservative' ? merged.conservative : []), ...local.flatMap((s) => s[k] ?? [])])];
+      for (const [skipped, used] of [
+        ['skippedCharacters', 'characters'],
+        ['skippedRules', 'rules'],
+        ['skippedEvents', 'events'],
+      ] as const)
+        merged[skipped] = [...new Set(local.flatMap((s) => s[skipped]))].filter(
+          (v) => !merged[used].includes(v),
+        );
+      if (local.length !== scopes.length || local.some((s) => s.needsHistory))
+        merged.needsHistory = true;
+      if (declaration?.independent && declaration.sequence + 1 === o.sequence && !declaration.primary)
+        merged.needsHistory = true;
+      if (changes.length === 1 && local[0]?.locallyExplained) merged.locallyExplained = true;
+    };
+    merge();
+    this.simultaneous?.projections.push(merge);
     return merged;
   }
-  consume(o: Observation, profiles: Profile[]): Scope | undefined {
+  private goodwillKeys(o: Observation, key: string) {
+    return [JSON.stringify([o.loop, o.day, o.phase, key]), JSON.stringify([o.loop, key])] as const;
+  }
+  private recordGoodwill(keys: readonly string[]) {
+    for (const key of keys)
+      this.completedGoodwill.set(key, (this.completedGoodwill.get(key) ?? 0) + 1);
+  }
+  consume(o: Observation, profiles: Profile[], pendingWrites?: (() => void)[]): Scope | undefined {
+    // All members read the entry board. Publish their changes before the next settlement.
+    const write = (apply: () => void) => {
+      if (pendingWrites) pendingWrites.push(apply);
+      else apply();
+    };
     // Mandatory refusal is published immediately after a direct declaration. A
     // delegated ability (little sister) has different threshold/refusal rules.
     const prior = this.declared;
-    if (prior?.independent && prior.sequence + 1 === o.sequence && o.type !== 'refused') {
+    const constrainedCharacters = new Set<string>();
+    const pending = prior?.primary?.size ?? 0;
+    if (
+      prior?.useKeys &&
+      prior.primary?.size === 0 &&
+      prior.sequence + 1 === o.sequence &&
+      o.type !== 'refused'
+    )
+      this.recordGoodwill(prior.useKeys);
+    if (
+      routesObservation('afterDeclaration', o) &&
+      prior?.independent &&
+      prior.sequence + 1 === o.sequence &&
+      o.type !== 'refused'
+    ) {
       const actor = this.characters.get(prior.id);
       const ability =
         actor &&
@@ -1963,6 +2412,19 @@ export class CausalScope {
         for (const p of profiles) {
           const domain = p.store.domains.get(key);
           if (!p.active || !domain) continue;
+          if (this.extended) {
+            if (p.store.narrow(key, [...domain].filter(v => possibleForms(p,v).some(role =>
+              roleRefusal(this.pack,p.x,role,actor.counters) !== 'mandatory')))) {
+              constrainedCharacters.add(actor.id);
+              p.active = p.store.propagate();
+            }
+            continue;
+          }
+          if (
+            actor.counters.despair === 0 &&
+            ![...domain].some((v) => this.pack.identities[shownIdentity(v)]?.ignore === 'mandatory')
+          )
+            continue;
           p.store.narrow(
             key,
             [...domain].filter(
@@ -1971,16 +2433,25 @@ export class CausalScope {
                 this.pack.identities[shownIdentity(v)]?.ignore !== 'mandatory',
             ),
           );
+          constrainedCharacters.add(actor.id);
           p.active = p.store.propagate();
         }
       }
     }
     const requested = this.directRequest;
     const choice = o.type === 'own-choice' ? o.data.choice : undefined;
+    if (
+      o.type === 'boundary' ||
+      o.type === 'refused' ||
+      (choice && typeof choice === 'object' && 'kind' in choice && choice.kind !== 'select')
+    ) {
+      this.declared = undefined;
+      this.nestedDeclaration = false;
+    }
     if (!(choice && typeof choice === 'object' && 'kind' in choice && choice.kind === 'select'))
       this.directRequest = undefined;
     if (
-      o.phase === 'protagonist-abilities' &&
+      routesObservation('direct', o) &&
       choice &&
       typeof choice === 'object' &&
       'kind' in choice &&
@@ -1995,11 +2466,29 @@ export class CausalScope {
         actor &&
         this.pack.characters[actor.character]?.abilities.find((a) => a.id === choice.ability);
       if (actor && ability?.threshold !== undefined) {
-        if (actor.counters.goodwill + actor.counters.hope < ability.threshold) {
+        const [phaseUse, loopUse] = this.goodwillKeys(
+          o,
+          ability.sharedKey ?? actor.id + ':' + ability.id,
+        );
+        if (
+          this.completedGoodwill.has(phaseUse) ||
+          (ability.loopLimit !== undefined &&
+            (this.completedGoodwill.get(loopUse) ?? 0) >= ability.loopLimit)
+        ) {
           for (const p of profiles) p.active = false;
           return this.publicFact(
             o,
-            actor.character + '独立请求的有效友好低于门槛',
+            '已公开完成的友好能力达到使用上限',
+            [],
+            'goodwill-limit',
+            actor.id,
+          );
+        }
+        if (characterCounter(actor.counters,goodwillCounter(this.pack.module,this.publicEx,'protagonist',ability.id)) < ability.threshold) {
+          for (const p of profiles) p.active = false;
+          return this.publicFact(
+            o,
+            actor.character + (goodwillCounter(this.pack.module,this.publicEx,'protagonist',ability.id) === 'paranoia' ? '独立请求的有效不安低于门槛' : '独立请求的有效友好低于门槛'),
             [],
             'goodwill-threshold',
             actor.id,
@@ -2010,9 +2499,9 @@ export class CausalScope {
     }
     if (this.pairWindow && !['own-choice', 'no-effect', 'boundary', 'incident'].includes(o.type))
       this.pairWindow.hasReport = true;
-    const closed = this.closedDayEnd(o, profiles);
+    const closed = !this.extended && routesObservation('end', o) ? this.closedDayEnd(o, profiles) : undefined;
     let pairClosed: Scope | undefined;
-    if (o.type === 'boundary' && this.pairWindow) {
+    if (!this.extended && routesObservation('pairClose', o) && this.pairWindow) {
       const { day, loop, reports } = this.pairWindow;
       if (
         !this.pairWindow.settledQuietly &&
@@ -2055,7 +2544,9 @@ export class CausalScope {
           const changed = p.store.narrow(ck, [
             ...this.pairCulprits(tracker, [...p.store.values(ck)], result, o.sequence),
             ...[...p.store.values(ck)].filter(
-              (id) => reports === 0 && this.characters.get(id)?.character === '黑猫',
+              (id) =>
+                reports === 0 &&
+                traits(this.pack, this.characters.get(id)?.character).execution === 'cancel',
             ),
           ]);
           needsHistory ||= result.needsHistory;
@@ -2111,10 +2602,9 @@ export class CausalScope {
               const to = 'identity:' + target.id,
                 roles = p.store.domains.get(to);
               if (!roles) continue;
-              const pairs = [
-                ['求爱者', '心上人'],
-                ['心上人', '求爱者'],
-              ].filter(([a, b]) => domain.has(a!) && roles.has(b!));
+              const pairs = partnerPairs(this.pack).filter(
+                ([a, b]) => domain.has(a!) && roles.has(b!),
+              );
               if (!pairs.length) continue;
               if (this.catalog.extraDeathReaction) {
                 pairClosed ??= this.summary(o, 'mandatory-absence');
@@ -2176,9 +2666,60 @@ export class CausalScope {
       this.pairStates.clear();
       this.pairWindow = undefined;
     }
-    if (o.type === 'boundary') this.resetTargets.clear();
+    let goodwillDeaths: Scope | undefined;
+    if (
+      o.type === 'boundary' &&
+      o.phase === 'incident' &&
+      this.lastBoundary?.phase === 'protagonist-abilities' &&
+      this.lastBoundary.loop === o.loop &&
+      this.lastBoundary.day === o.day &&
+      this.deathsInWindow.size && !this.extended
+    ) {
+      const pairs = partnerPairs(this.pack);
+      for (const dead of this.deathsInWindow) {
+        if (['临时工', '临时工？'].includes(this.characters.get(dead)?.character ?? '')) continue;
+        const key = 'identity:' + dead;
+        for (const p of profiles) {
+          const domain = p.store.domains.get(key);
+          if (!p.active || !domain) continue;
+          if (
+            p.store.narrow(
+              key,
+              [...domain].filter((v) => !this.catalog.failureRoles.includes(shownIdentity(v))),
+            )
+          ) {
+            p.active = p.store.propagate();
+            goodwillDeaths ??= this.summary(o, 'mandatory-absence');
+            if (!goodwillDeaths.characters.includes(dead)) goodwillDeaths.characters.push(dead);
+          }
+          if (
+            p.active &&
+            pairs.some(
+              ([role, partner]) =>
+                domain.has(role) &&
+                [...this.characters.values()].some(
+                  (c) =>
+                    c.status === 'alive' && p.store.domains.get('identity:' + c.id)?.has(partner),
+                ),
+            )
+          ) {
+            goodwillDeaths ??= this.summary(o, 'mandatory-absence');
+            goodwillDeaths.needsHistory = true;
+          }
+        }
+      }
+      if (goodwillDeaths)
+        goodwillDeaths.conservative.push(
+          '已正常进入事件阶段，死者不能是死亡必定触发败北的身份；可能的幸存者联动按实际报告核验。',
+        );
+    }
+    if (o.type === 'boundary') {
+      this.resetTargets.clear();
+      if ((o.phase === 'discussion' && this.pack.module !== 'WM') || o.phase === 'final-guess') this.publicEx = 0;
+    }
     if (o.phase === 'day-end' && o.type !== 'boundary' && !['own-choice', 'cards'].includes(o.type))
       this.quietDayEnd = false;
+    const hadDeaths = this.deathsInWindow.size > 0;
     if (o.type === 'boundary') {
       this.quietDayEnd = o.phase === 'day-end';
       this.deathsInWindow.clear();
@@ -2188,12 +2729,60 @@ export class CausalScope {
         ? { boards: { ...this.boards }, characters: new Map(this.characters) }
         : undefined;
     }
+    const needsDeathHistory = this.extended && o.type === 'boundary' && o.phase === 'incident' &&
+        this.lastBoundary?.phase === 'protagonist-abilities' && hadDeaths;
     if (o.type === 'boundary') this.lastBoundary = { loop: o.loop, day: o.day, phase: o.phase };
     const closedCards =
       o.type === 'boundary' || o.phase !== 'card-resolution'
         ? this.cardReports.close(o)
         : undefined;
-    if (o.type === 'cards' && o.phase === 'card-resolution') this.cardReports.collect(o);
+    let targeted: Scope | undefined;
+    if (routesObservation('cardSettlement', o)) {
+      if (Object.keys(this.pack.identities).some(mastermindCardImmune) && Array.isArray(o.data.placements)) {
+        for (const placement of o.data.placements) {
+          if (placement?.owner !== 'mastermind') continue;
+          const card = this.characters.get(placement.target);
+          if (!card || ['临时工','临时工？'].includes(card.character)) continue;
+          const key = 'identity:' + card.id;
+          for (const p of profiles) {
+            const slots = p.store.domains.get(key);
+            if (p.active && slots && p.store.narrow(key,[...slots].filter(v =>
+              possibleForms(p,v).some(role => !mastermindCardImmune(role))))) {
+              p.active = p.store.propagate();
+              targeted ??= this.summary(o,'visible-effect');
+              if (!targeted.characters.includes(card.id)) targeted.characters.push(card.id);
+            }
+          }
+        }
+        if (targeted) targeted.conservative.push('剧作家的公开出牌目标须可被选中，排除当时不能成为目标的身份。');
+      }
+      this.cardReports.collect(
+        o,
+        (key, target) => {
+          const roles = cardBypassRoles[key];
+          if (!roles.some((role) => this.pack.identities[role])) return false;
+          // Movement settles before the cultist chooses an area. Use the post-move
+          // locations in bypass(); the flip can exclude only unavailable owners.
+          const owners =
+            key === 'goodwill' ? [this.characters.get(target)] : this.characters.values();
+          for (const owner of owners) {
+            if (!owner || owner.status !== 'alive') continue;
+            if (
+              ['临时工', '临时工？'].includes(owner.character) ||
+              profiles.some(
+                (p) =>
+                  p.active &&
+                  roles.some((role) => p.store.domains.get('identity:' + owner.id)?.has(role)),
+              )
+            )
+              return true;
+          }
+          return false;
+        },
+        () => profiles.some((p) => p.active && p.x.includes(goodwillMovePlot)),
+        multipleBlocksApply(this.pack.module, this.publicEx),
+      );
+    }
     const card = this.cardReports.match(o);
     if (card) delete this.cardReports.targets.get(String(o.data.character ?? o.data.board))![card];
     if (o.type === 'character' && this.cardReports.pendingGoodwill.has(String(o.data.character))) {
@@ -2204,16 +2793,23 @@ export class CausalScope {
         this.cardReports.pendingGoodwill.delete(id);
     }
     let scope =
-      this.mandatoryWindow(o, profiles) ??
+      (!this.extended && routesObservation('loopWindow', o) ? this.mandatoryWindow(o, profiles) : undefined) ??
+      targeted ?? goodwillDeaths ??
       closed ??
       pairClosed ??
-      this.reset(o, profiles) ??
-      this.arrival(o, profiles);
+      (routesObservation('reset', o) ? this.reset(o, profiles) : undefined) ??
+      (routesObservation('arrival', o) ? this.arrival(o, profiles) : undefined);
     if (closedCards?.missing.length && ['FS', 'BTX'].includes(this.pack.module)) {
       const excluded: string[] = [];
       for (const id of closedCards.missing) {
         const key = 'identity:' + id;
-        if (!profiles.some((p) => p.active && p.store.domains.get(key)?.has('时间旅者'))) continue;
+        const travelers = cardBypassRoles.goodwill;
+        if (
+          !profiles.some(
+            (p) => p.active && travelers.some((role) => p.store.domains.get(key)?.has(role)),
+          )
+        )
+          continue;
         // A nonstandard ability can alter the same field during the card window.
         const indexed = this.catalog.forChange('card-resolution', {
           kind: 'counter',
@@ -2222,7 +2818,7 @@ export class CausalScope {
           sign: 1,
         });
         if (
-          this.roster.some((c) => ['临时工', '临时工？'].includes(c.character)) ||
+          ['临时工', '临时工？'].includes(this.characters.get(id)?.character ?? '') ||
           Object.values(indexed).some((table) => table.size)
         ) {
           closedCards.unresolved.push(id + ' 的友好禁止窗口有替身或其他结算来源');
@@ -2230,11 +2826,15 @@ export class CausalScope {
         }
         for (const p of profiles) {
           const domain = p.store.domains.get(key);
-          if (!p.active || !domain || ![...domain].some((v) => shownIdentity(v) === '时间旅者'))
+          if (
+            !p.active ||
+            !domain ||
+            ![...domain].some((v) => travelers.includes(shownIdentity(v)))
+          )
             continue;
           p.store.narrow(
             key,
-            [...domain].filter((v) => shownIdentity(v) !== '时间旅者'),
+            [...domain].filter((v) => !travelers.includes(shownIdentity(v))),
           );
           p.active = p.store.propagate();
           if (!excluded.includes(id)) excluded.push(id);
@@ -2263,6 +2863,7 @@ export class CausalScope {
       typeof o.data.character === 'string' &&
       typeof o.data.ability === 'string'
     ) {
+      if (this.declared && !requested) this.nestedDeclaration = true;
       this.declared = {
         independent:
           requested?.id === o.data.character &&
@@ -2274,9 +2875,52 @@ export class CausalScope {
         phase: o.phase,
         choices: (o.data.choices ?? {}) as Record<string, string>,
       };
+      if (this.declared.independent) {
+        const actor = this.characters.get(this.declared.id);
+        const ability =
+          actor &&
+          this.pack.characters[actor.character]?.abilities.find(
+            (a) => a.id === this.declared!.ability,
+          );
+        if (actor && ability) {
+          this.declared.primary = firstGoodwillReports(ability, {
+            clock: o,
+            days: this.days,
+            loops: this.loops,
+            pack: this.pack,
+            characters: this.characters,
+            boards: this.boards,
+            owner: actor.id,
+            bindings: this.declared.choices,
+            virtualArea: hasVirtualArea(this.pack, actor.character),
+          });
+          this.declared.primarySequence = o.sequence;
+          this.declared.singleStep = ability.steps.length === 1;
+          if (this.declared.singleStep && this.declared.primary)
+            this.declared.useKeys = this.goodwillKeys(
+              o,
+              ability.sharedKey ?? actor.id + ':' + ability.id,
+            );
+          this.declared.checkKillResolution =
+            !this.declared.primary && ability.steps[0]?.effects.some((e) => e.op === 'kill');
+        }
+      }
+      if (this.declared.independent && !scope) {
+        scope = this.summary(o, 'visible-effect');
+        scope.target = this.declared.id;
+        scope.skippedCharacters = this.roster.map((c) => c.id);
+        scope.alternatives = [
+          '主人公已声明 ' +
+            this.declared.id +
+            ' 的 ' +
+            this.declared.ability +
+            '，等待拒绝或结算观察。',
+        ];
+        scope.locallyExplained = true;
+      }
     }
     if (
-      o.type === 'failure' &&
+      routesObservation('failure', o) &&
       ['protagonist-death', 'protagonist-failure'].includes(String(o.data.result))
     )
       scope = this.classifyChanges(o, profiles, [
@@ -2285,7 +2929,7 @@ export class CausalScope {
           target: '主人公',
         },
       ]);
-    if (o.type === 'refused') scope = this.refusal(o, profiles);
+    if (routesObservation('refusal', o)) scope = this.refusal(o, profiles);
     if (card) {
       const target = String(o.data.character ?? o.data.board);
       const label =
@@ -2295,15 +2939,24 @@ export class CausalScope {
       scope = this.summary(o, 'visible-effect');
       scope.target = target;
       scope.alternatives = [
-        this.cardReports.targets.get(target)!.kinds.join(' ＋ ') + ' · ' + label,
+        this.cardReports.targets.get(target)!.kinds[card].join(' ＋ ') + ' · ' + label,
       ];
       scope.skippedCharacters = this.roster.map((c) => c.id);
       scope.locallyExplained = true;
+      scope.publicSettlement = true;
       if (card === 'move') {
         const actor = this.characters.get(target);
-        if (actor && this.pack.characters[actor.character]?.protects) {
+        if (
+          actor &&
+          this.pack.characters[actor.character]?.protects &&
+          this.cardReports.possibleFollowers.has(target)
+        ) {
           scope.alternatives.push(actor.character + '跟随同区保护对象移动');
           scope = this.publicFact(o, target + ' 的移动结算', scope.alternatives, 'cards', target);
+        }
+        if (this.cardReports.targets.get(target)!.goodwillMayBlockMove) {
+          scope.needsHistory = true;
+          scope.conservative.push('同目标有禁止友好与移动牌，候选副线心无灵犀可禁止这次移动。');
         }
         if (
           actor &&
@@ -2313,14 +2966,16 @@ export class CausalScope {
           scope.conservative.push('移动进入原禁行区域，还须满足解除禁行条件。');
         }
       }
-      const bypass = this.cardReports.targets.get(target)!.bypass;
-      if (bypass && card !== 'move') {
+      if (card !== 'move') {
         const old = this.characters.get(target);
-        const changed =
-          o.type === 'board' ||
-          (old && (o.data.counters as Record<string, number>)[bypass] !== old.counters[bypass]);
-        if (changed) {
-          const narrowed = this.bypass(o, profiles, bypass, target);
+        const changed = [...this.cardReports.targets.get(target)!.bypass].filter((key) =>
+          o.type === 'board'
+            ? key === 'intrigue'
+            : old && (o.data.counters as Record<string, number>)[key] !== old.counters[key],
+        );
+        if (changed.length > 1) scope.needsHistory = true;
+        else if (changed.length === 1) {
+          const narrowed = this.extended ? undefined : this.bypass(o, profiles, changed[0]!, target);
           if (narrowed) scope = narrowed;
           else scope.needsHistory = true;
         }
@@ -2347,7 +3002,7 @@ export class CausalScope {
         !(
           o.phase === 'loop-start' &&
           board === 'shrine' &&
-          this.roster.some((c) => c.character === '黑猫')
+          this.roster.some((c) => this.pack.characters[c.character]?.loopShrineIntrigue)
         )
       )
         scope =
@@ -2361,9 +3016,10 @@ export class CausalScope {
               after: o.data.intrigue,
             },
           ]) ?? scope;
-      this.boards[board] = o.data.intrigue;
-    } else if (o.type === 'no-effect') {
-      scope = this.quietIncident(o, profiles) ?? scope;
+      const intrigue = o.data.intrigue;
+      write(() => { this.boards[board] = intrigue; });
+    } else if (routesObservation('empty', o)) {
+      scope = this.extended ? undefined : this.quietIncident(o, profiles) ?? scope;
       const window = this.pairWindow;
       if (
         window &&
@@ -2391,7 +3047,7 @@ export class CausalScope {
               arrivals: new Set(),
             }
           : undefined;
-      scope = this.incident(o, profiles);
+      scope = routesObservation('occurrence', o) ? this.incident(o, profiles) : undefined;
       if (this.pairWindow && ['FS', 'BTX'].includes(this.pack.module)) {
         const names = new Set(
           profiles
@@ -2464,36 +3120,44 @@ export class CausalScope {
         )
           scope = this.classifyChanges(o, profiles, changes) ?? scope;
         if (old.status === 'alive' && o.data.status === 'dead') {
-          this.deathsInWindow.add(target);
-          if (this.boards.city >= 2) this.cityQualifiedAtDeath.add(target);
+          write(() => { this.deathsInWindow.add(target); });
+          if (this.boards.city >= lifecycle.borrowed.threshold)
+            write(() => { this.cityQualifiedAtDeath.add(target); });
           if (!['临时工', '临时工？'].includes(old.character))
             for (const p of profiles) {
               const key = 'identity:' + target,
                 domain = p.store.domains.get(key);
-              if (domain && p.active) {
+              if (
+                domain &&
+                p.active &&
+                [...domain].some((v) => this.pack.identities[shownIdentity(v)]?.immortal)
+              ) {
                 p.store.narrow(
                   key,
-                  [...domain].filter((v) => !this.pack.identities[shownIdentity(v)]?.immortal),
+                  [...domain].filter((v) => possibleForms(p,v).some(role => !roleImmortal(this.pack,role,old.counters))),
                 );
+                constrainedCharacters.add(target);
                 p.active = p.store.propagate();
               }
             }
         }
       }
-      if (old && old.area !== o.data.area) this.movedInWindow.add(old.id);
+      if (old && old.area !== o.data.area) write(() => { this.movedInWindow.add(old.id); });
       if (
         entry &&
         typeof o.data.area === 'string' &&
         typeof o.data.status === 'string' &&
         o.data.counters
       )
-        this.characters.set(entry.id, {
+        write(() => this.characters.set(entry.id, {
           ...old,
           ...entry,
           area: o.data.area,
           status: o.data.status,
           counters: structuredClone(o.data.counters),
-        } as PlayerView['characters'][number]);
+        } as PlayerView['characters'][number]));
+      if (old && old.area !== o.data.area && o.phase === 'card-resolution')
+        write(() => this.cardReports.afterMove(old.id));
     }
     if (
       this.pairWindow?.group &&
@@ -2509,6 +3173,55 @@ export class CausalScope {
     )
       this.pairWindow.reports++;
     if (scope && pairClosed?.needsHistory) scope.needsHistory = true;
+    if (scope?.locallyExplained && constrainedCharacters.size) {
+      scope.publicSettlement = false;
+      scope.characters = [...new Set([...scope.characters, ...constrainedCharacters])];
+      scope.skippedCharacters = scope.skippedCharacters.filter(
+        (id) => !constrainedCharacters.has(id),
+      );
+    }
+    const missingPrimary = o.simultaneousGroup === undefined
+      ? pending > 0 && prior?.primary?.size === pending
+      : o.sequence + 1 === o.simultaneousGroup + (o.simultaneousSize ?? 1) && !!prior?.primary?.size;
+    if (
+      prior &&
+      o.type !== 'refused' &&
+      (missingPrimary ||
+        (prior.checkKillResolution && prior.sequence + 1 === o.sequence))
+    ) {
+      // The first report is missing, altered, or interrupted. It can disclose
+      // immunity, substitution, or a hidden condition; never skip that evidence.
+      prior.primary = undefined;
+      scope ??= this.summary(o, 'visible-effect');
+      scope.needsHistory = true;
+      scope.conservative.push('实际结算与声明可预期的首批报告不同，核验免疫、替代或其他介入。');
+    }
+    if (this.extended && (needsDeathHistory || (closedCards?.missing.length ?? 0) > 0 || (o.type === 'boundary' &&
+        o.phase === 'incident' && pending > 0))) {
+      scope ??= this.summary(o, 'mandatory-absence');
+      scope.needsHistory = true;
+    }
+    if (o.type === 'board' && typeof o.data.ex === 'number') {
+      const pending = this.mcGain;
+      if (pending && o.phase === 'incident' && pending.sequence + 1 === (o.simultaneousGroup ?? o.sequence) &&
+          o.loop === pending.loop && o.day === pending.day) {
+        const gain = o.data.ex - pending.before;
+        const roster = new Map(this.roster.map(c => [c.id,c.character]));
+        for (const p of profiles) {
+          const event = 'event:' + o.day, owner = 'culprit:' + o.day;
+          if (!p.store.domains.has(event)) continue;
+          p.store.add(relation('incident-ex:' + o.sequence, event, owner, (name,id) => {
+            const card = roster.get(id);
+            return !card || incidentExGain(this.pack,name,card) === gain;
+          }));
+          p.active = p.store.propagate();
+        }
+        scope = this.publicFact(o,'事件发生后 Ex 变化 '+gain,['按真实事件与当事人结算方式配对'],'incident-ex');
+      }
+      const ex = o.data.ex;
+      write(() => { this.publicEx = ex; });
+    }
+    if (scope?.needsHistory) delete scope.publicSettlement;
     return scope;
   }
 }

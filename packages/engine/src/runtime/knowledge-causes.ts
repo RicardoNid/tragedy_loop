@@ -91,6 +91,7 @@ export class CauseNetwork {
   readonly excludedCauses = new Set<Cause>();
   private components: Component[] = [];
   checks = 0;
+  joins = 0;
   uncertain = false;
   constructor(
     private quota: Map<string, number>,
@@ -134,6 +135,7 @@ export class CauseNetwork {
     ))
       links.add(key);
     const connected = this.components.filter((c) => [...c.links].some((k) => links.has(k)));
+    if (connected.length) this.joins++;
     const records = [...connected.flatMap((c) => c.records), record];
     for (const c of connected) {
       for (const k of c.links) links.add(k);
@@ -163,6 +165,7 @@ export class CauseNetwork {
         }
     const constraint: Constraint = {
       name: component.name,
+      inputs: reads,
       reads:
         records.length === 1 && record.alternatives.every((a) => a.requires.length <= 1)
           ? reads

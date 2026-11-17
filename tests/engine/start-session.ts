@@ -1,3 +1,4 @@
+import { initialPlacementView } from '../../packages/engine/src/runtime/ports.js';
 import assert from 'node:assert/strict';
 import type { createSession } from '../../packages/engine/src/runtime/ports.js';
 
@@ -16,4 +17,10 @@ export function startSession(
     choice: { kind: 'start' },
   });
   assert.equal(result.status, 'ok');
+}
+
+/** Synthetic post-placement board with the original captain decision for solver-only cases. */
+export function solverOpening(session: Extract<Session, { status: 'ready' }>) {
+  const placement = initialPlacementView(session.host.snapshot());
+  return { ...session.protagonists.p0.view(), characters: placement.characters, territory: placement.territory };
 }

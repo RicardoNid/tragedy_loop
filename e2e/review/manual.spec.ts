@@ -66,6 +66,10 @@ test('manual mastermind ability, target selection and protagonist goodwill abili
     await panel.getByRole('button', { name: '盖放行动牌', exact: true }).click();
   }
   await current();
+  const simultaneous = page.locator('.log article').filter({ has: page.getByText('同时发生', { exact: true }) }).first();
+  await expect(simultaneous.getByRole('listitem')).toHaveCount(2);
+  await expect(simultaneous).toContainText('男学生');
+  await expect(simultaneous).toContainText('女学生');
   await panel.getByRole('button', { name: '医生 · 主谋：放置密谋', exact: true }).click();
   await ready();
   await panel.getByRole('button', { name: '医院', exact: true }).click();
@@ -142,6 +146,8 @@ for (const profile of ['FS', 'BTX']) {
     const status = page.getByRole('status').first();
     const knowledge = page.getByRole('region', { name: '解空间', exact: true });
     const matrix = knowledge.getByRole('table', { name: '角色 × 初始身份', exact: true });
+    await expect(matrix).toHaveCount(0);
+    await panel.getByRole('button', { name: '继续', exact: true }).click();
     await expect(matrix.locator('tbody tr')).toHaveCount(profile === 'FS' ? 6 : 7);
     const openingStatus = await knowledge.locator('[aria-live]').innerText();
     await expect(panel).toBeVisible();
@@ -286,6 +292,8 @@ test('board perspective shows the true script and hides it again for each protag
   }
   await seats.getByRole('button', { name: '主人公 1', exact: true }).click();
   await page.getByRole('button', { name: '开始游戏', exact: true }).click();
+  await expect(page.locator('.character')).toHaveCount(0);
+  await page.getByRole('button', { name: '继续', exact: true }).click();
   await expect(page.locator('.character')).toHaveCount(5);
   await expect(page.locator('.board')).not.toContainText('转校生');
   await expect(page.locator('.board')).not.toContainText('神灵');

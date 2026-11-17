@@ -193,9 +193,10 @@ test('protagonist card counters and goodwill ability choices settle through the 
       });
       assert.equal(result.statusCode, 200, result.body);
     };
-    const arrived = await submit('p0', { kind: 'start' });
+    const discussion = await submit('p0', { kind: 'start' });
+    assert.deepEqual(discussion.characters, []);
+    const arrived = await submit('p0', { kind: 'continue' });
     assert.equal('identity' in arrived.characters[0]!, false);
-    await submit('p0', { kind: 'continue' });
     await fixture();
     for (const [seat, kind, target] of [
       ['p0', 'goodwill+2', 'girlStudent'],

@@ -1,4 +1,4 @@
-import { startSession } from './start-session.js';
+import { startSession, solverOpening } from './start-session.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {
@@ -20,6 +20,8 @@ import {
 } from '../../packages/engine/src/runtime/knowledge.js';
 import { canonical } from '../../packages/engine/src/runtime/model.js';
 import type { GameSetup, Observation } from '../../packages/contracts/src/game.js';
+
+import { normalizeHistory } from '../../packages/engine/src/runtime/reference.js';
 
 const setup: GameSetup = {
   module: 'FS',
@@ -51,6 +53,44 @@ function finish(k: LiveKnowledge) {
 }
 const mapping = (domains: Domains) =>
   Object.fromEntries([...domains].map(([key, values]) => [key, [...values].sort()]));
+
+test('compound closure finds an arc-consistent contradiction through earlier evidence', () => {
+  function cycle(budget: number) {
+    const s = new ConstraintStore(new Map(['a','b','c','idle'].map(k => [k, new Set(['0','1'])])));
+    s.finishSetup();
+    const differs = (a: string, b: string) => a !== b;
+    s.add(relation('ab','a','b',differs));
+    s.add(relation('bc','b','c',differs));
+    s.beginSettlement();
+    s.add(relation('ca','c','a',differs));
+    assert.ok(s.propagate());
+    return { s, result: s.finishSettlement(true,budget) };
+  }
+  const partial = cycle(1);
+  assert.ok(!partial.result.complete && partial.s.consistent);
+  assert.deepEqual([...partial.s.values('a')], ['0','1']);
+  const full = cycle(2);
+  assert.deepEqual(full.result.keys, new Set(['a','b','c']));
+  assert.ok(full.result.complete && !full.s.consistent);
+});
+
+test('simultaneous independent allocations use the sum of local branches', () => {
+  const s = new ConstraintStore(new Map([
+    ['a',new Set(['0','1'])], ['b',new Set(['0','1'])],
+    ['x',new Set(['2','3'])], ['y',new Set(['2','3'])], ['idle',new Set(['4','5'])],
+  ]));
+  s.add(allocation([...s.domains.keys()], ['0','1','2','3','4','5'], undefined, false));
+  s.finishSetup();
+  s.beginSettlement();
+  s.add(relation('ab','a','b',(a,b) => a !== b));
+  s.add(relation('xy','x','y',(x,y) => x !== y));
+  assert.ok(s.propagate());
+  const result = s.finishSettlement(true,4);
+  assert.deepEqual(result.keys,new Set(['a','b','x','y']));
+  assert.ok(result.complete);
+  assert.equal(result.branches,4);
+  assert.deepEqual([...s.values('idle')],['4','5']);
+});
 
 test('dependency queue matches full propagation while skipping unrelated constraints', () => {
   function make() {
@@ -97,7 +137,7 @@ test('global allocation prunes Hall sets and detects capacity contradictions wit
 });
 
 test('initial symbolic construction materializes zero setups; duplicate information and idle ticks do no work', () => {
-  const opening = session().protagonists.p0.view();
+  const opening = solverOpening(session());
   const k = new LiveKnowledge(compileOfficial('FS'), opening);
   k.append(opening.observations, 0, opening.revision);
   const first = k.snapshot();
@@ -129,7 +169,7 @@ test('initial symbolic construction materializes zero setups; duplicate informat
 
 test('new action reuses prior history states and an exhausted budget never removes unknown values', () => {
   const s = session(),
-    opening = s.protagonists.p0.view();
+    opening = solverOpening(s);
   const k = new LiveKnowledge(compileOfficial('FS'), opening);
   k.append(opening.observations, 0, opening.revision);
   const initial = finish(k);
@@ -168,8 +208,50 @@ test('new action reuses prior history states and an exhausted budget never remov
   assert.deepEqual(after.identities, initial.identities);
 });
 
+test('simultaneous disclosures commit together, accept reordered retries and preserve later evidence', () => {
+  const opening = solverOpening(session());
+  const start = opening.observations.length + 1;
+  const report = (character: string, identity: string, sequence: number): Observation => ({
+    sequence, loop: 1, day: 1, phase: 'protagonist-abilities', type: 'identity',
+    simultaneousGroup: start, simultaneousSize: 2, data: { character, identity },
+  });
+  const group = [report('a', '主谋', start), report('b', '传谣人', start + 1)];
+  const reversed = [report('b', '传谣人', start), report('a', '主谋', start + 1)];
+  const singles = group.map(({ simultaneousGroup: _group, ...o }) => ({ ...o, simultaneousSize: 1 }));
+  assert.deepEqual(normalizeHistory(group), normalizeHistory(reversed));
+  assert.notDeepEqual(normalizeHistory(group), normalizeHistory(singles));
+  assert.deepEqual(normalizeHistory(group.slice(0, 1)), []);
+  const solve = () => {
+    const k = new LiveKnowledge(compileOfficial('FS'), opening);
+    k.update(opening.observations, 1);
+    return k;
+  };
+  const k = solve();
+  const before = k.snapshot();
+  k.append([reversed[0]!], start - 1, 2);
+  assert.equal(k.observationCount, start);
+  assert.equal(k.snapshot().evidenceThrough, start - 1);
+  assert.deepEqual(k.snapshot().identities, before.identities);
+  assert.deepEqual(k.snapshot().propagation, before.propagation);
+  assert.throws(() => k.append([singles[1]!], start, 2), /同时结算/);
+  assert.equal(k.observationCount, start);
+  k.append([reversed[1]!], start, 2);
+  const complete = k.snapshot();
+  assert.equal(complete.evidenceThrough, start + 1);
+  const full = solve();
+  full.append(group, start - 1, 2);
+  assert.deepEqual(complete.identities, full.snapshot().identities);
+  assert.deepEqual(complete.identities.a, ['主谋']);
+  k.update([...opening.observations, ...group], 2);
+  assert.deepEqual(k.snapshot().propagation, complete.propagation);
+  assert.throws(() => k.update([...opening.observations, group[0]!, { ...group[0]!, sequence: start + 1 }], 2), /改写/);
+  const later = { ...singles[0]!, sequence: start + 2, data: { character: 'a', identity: '传谣人' } };
+  k.append([later], start + 1, 3);
+  assert.equal(k.snapshot().status, 'contradiction');
+});
+
 test('direct disclosures propagate conditional quotas immediately, including contradiction', () => {
-  const opening = session().protagonists.p0.view();
+  const opening = solverOpening(session());
   const k = new LiveKnowledge(compileOfficial('FS'), opening);
   k.append(opening.observations, 0, 1);
   const o: Observation = {
@@ -188,7 +270,7 @@ test('direct disclosures propagate conditional quotas immediately, including con
 });
 
 test('verified marginals do not license invalid joint combinations or expose private setup fields', () => {
-  const opening = session().protagonists.p0.view();
+  const opening = solverOpening(session());
   assert.equal(opening.roster, undefined);
   const k = new LiveKnowledge(compileOfficial('FS'), opening);
   k.append(opening.observations, 0, opening.revision);
@@ -206,7 +288,7 @@ test('verified marginals do not license invalid joint combinations or expose pri
 
 test('later card disclosure retains alternative hidden explanations and matches a fresh solver', () => {
   const s = session(),
-    opening = s.protagonists.p0.view();
+    opening = solverOpening(s);
   const k = new LiveKnowledge(compileOfficial('FS'), opening);
   k.append(opening.observations, 0, opening.revision);
   finish(k);
@@ -272,7 +354,7 @@ test('later card disclosure retains alternative hidden explanations and matches 
 });
 
 test('unsupported infinite parameters remain unknown instead of being reported as a contradiction', () => {
-  const opening = session().protagonists.p0.view();
+  const opening = solverOpening(session());
   opening.characters[0]!.character = '仙人';
   const k = new LiveKnowledge(compileOfficial('FS'), opening);
   k.append(opening.observations, 0, opening.revision);
@@ -288,7 +370,7 @@ test('real event type and culprit reuse remain conditional rather than unconditi
     { day: 1, name: '医院事故', culprit: 'a' },
     { day: 2, name: '谋杀', culprit: 'b' },
   ];
-  const opening = session(config).protagonists.p0.view();
+  const opening = solverOpening(session(config));
   const pack = structuredClone(compileOfficial('FS'));
   // Controlled content fixture exercises the conditional machinery; FS itself has no forged event.
   pack.incidents['伪造事件'] = { ...pack.incidents['谋杀']!, name: '伪造事件' };
@@ -372,7 +454,7 @@ for (const variant of [
         ? [{ day: 2, name: '医院事故', culprit: 'c' }]
         : [{ day: 1, name: '医院事故', culprit: 'b' }];
     const pack = compileOfficial(config.module, config.anniversary),
-      opening = session(config).protagonists.p0.view();
+      opening = solverOpening(session(config));
     if (variant === '转校生' || variant === '神灵') {
       assert.equal(opening.roster, undefined);
       // This test supplies a known roster explicitly; the engine never discloses hidden arrivals.
@@ -415,7 +497,7 @@ test('territory domains follow the compiled marker for both current and older op
   config.characters[0]!.territory = 'school';
   const session = createSession(pack, config);
   startSession(session);
-  const opening = session.protagonists!.p0.view();
+  const opening = solverOpening(session);
   assert.equal(opening.territory, 'school');
   for (const expected of [['school'], ['hospital', 'shrine', 'city', 'school']]) {
     const profiles = buildProfiles(pack, opening, { checks: 0, removed: 0, branches: 0 });

@@ -2,6 +2,9 @@
 export type Domains = Map<string, Set<string>>;
 export interface Constraint {
   cause?: boolean;
+  /** Actual hidden inputs. reads may also contain variables that merely wake propagation. */
+  inputs?: string[];
+  neighbors?: (store: ConstraintStore, key: string) => string[];
   name: string;
   reads: string[];
   revise: (store: ConstraintStore) => void;
@@ -17,6 +20,67 @@ export class ConstraintStore {
   private dependencies = new Map<string, Set<number>>();
   private queue = new Set<number>();
   private invalid = false;
+  private setupCount = 0;
+  private settlementInputs?: Set<string>;
+  private propagating = false;
+
+  finishSetup() {
+    this.setupCount = this.constraints.length;
+  }
+  beginSettlement() {
+    this.settlementInputs = new Set();
+  }
+  /** Enumerate evidence inputs only. Allocation, copying and legal event pairs propagate on each branch. */
+  finishSettlement(compound: boolean, budget: number) {
+    const inputs = this.settlementInputs;
+    this.settlementInputs = undefined;
+    const keys = new Set<string>();
+    let branches = 0, complete = true;
+    if (!compound || !inputs?.size || !this.consistent) return { keys, branches, complete };
+    const evidence = new Set(inputs);
+    for (const factor of this.constraints.slice(this.setupCount))
+      for (const key of factor.inputs ?? factor.reads) evidence.add(key);
+    for (const seed of inputs) {
+      if (!this.consistent || keys.has(seed) || this.values(seed).size <= 1) continue;
+      const connected = this.related([seed], true);
+      // Setup-only slots transmit quotas or copy constraints but stay symbolic.
+      const component = [...connected].filter(k => evidence.has(k) && this.values(k).size > 1);
+      for (const k of component) keys.add(k);
+      if (component.length < 2) continue;
+      const result = this.projectComponent(component, budget - branches);
+      branches += result.branches;
+      complete &&= result.complete;
+    }
+    return { keys, branches, complete };
+  }
+  private projectComponent(component: string[], budget: number) {
+    let branches = 0, complete = true;
+    const ordered = component.sort((a,b) => this.values(a).size - this.values(b).size);
+    const support: Domains = new Map(ordered.map(k => [k, new Set<string>()]));
+    const covered = () => ordered.every(k => support.get(k)!.size === this.values(k).size);
+    const visit = (s: ConstraintStore, index: number) => {
+      while (index < ordered.length && s.values(ordered[index]!).size === 1) index++;
+      if (index === ordered.length) {
+        for (const key of ordered) support.get(key)!.add(s.values(key).values().next().value!);
+        return;
+      }
+      const key = ordered[index]!;
+      for (const value of s.values(key)) {
+        if (branches >= budget) { complete = false; return; }
+        branches++;
+        const next = s.clone({ checks: 0, removed: 0, branches: 0 });
+        next.narrow(key, [value]);
+        if (next.propagate()) visit(next, index + 1);
+        if (!complete || covered()) return;
+      }
+    };
+    visit(this, 0);
+    if (complete) {
+      for (const [key, values] of support) this.narrow(key, values);
+      this.propagate();
+    }
+    return { branches, complete };
+  }
   constructor(
     domains: Domains,
     readonly stats: PropagationStats = { checks: 0, removed: 0, branches: 0 },
@@ -24,6 +88,7 @@ export class ConstraintStore {
     this.domains = new Map([...domains].map(([key, values]) => [key, new Set(values)]));
   }
   add(constraint: Constraint) {
+    for (const k of constraint.inputs ?? constraint.reads) this.settlementInputs?.add(k);
     const index = this.constraints.push(constraint) - 1;
     for (const key of constraint.reads) {
       const readers = this.dependencies.get(key) ?? new Set<number>();
@@ -39,6 +104,7 @@ export class ConstraintStore {
       return;
     }
     for (const key of this.constraints[index]!.reads) this.dependencies.get(key)?.delete(index);
+    for (const k of constraint.inputs ?? constraint.reads) this.settlementInputs?.add(k);
     this.constraints[index] = constraint;
     for (const key of constraint.reads) {
       const readers = this.dependencies.get(key) ?? new Set<number>();
@@ -63,28 +129,33 @@ export class ConstraintStore {
         this.stats.removed++;
         changed = true;
       }
+    if (changed && !this.propagating) this.settlementInputs?.add(key);
     if (changed) for (const reader of this.dependencies.get(key) ?? []) this.queue.add(reader);
     return changed;
   }
   get consistent() {
     return !this.invalid && [...this.domains.values()].every((values) => values.size > 0);
   }
-  related(keys: Iterable<string>) {
+  related(keys: Iterable<string>, includeCauses = false) {
     const result = new Set(keys),
       visited = new Set<number>();
     for (const key of result) {
       if (this.values(key).size <= 1) continue;
       for (const index of this.dependencies.get(key) ?? []) {
         const constraint = this.constraints[index]!;
-        if (constraint.cause || visited.has(index)) continue;
-        visited.add(index);
-        for (const other of constraint.reads) if (this.values(other).size > 1) result.add(other);
+        if ((!includeCauses && constraint.cause) || visited.has(index)) continue;
+        const inputs = constraint.inputs ?? constraint.reads;
+        if (!inputs.includes(key)) continue;
+        if (!constraint.neighbors) visited.add(index);
+        for (const other of constraint.neighbors?.(this, key) ?? inputs)
+          if (this.values(other).size > 1) result.add(other);
       }
     }
     return result;
   }
   propagate(all = false, skipCauses = false) {
     if (all) this.constraints.forEach((_, index) => this.queue.add(index));
+    this.propagating = true;
     while (this.queue.size && this.consistent) {
       const index = this.queue.values().next().value!;
       this.queue.delete(index);
@@ -92,11 +163,13 @@ export class ConstraintStore {
       this.stats.checks++;
       this.constraints[index]!.revise(this);
     }
+    this.propagating = false;
     return this.consistent;
   }
   // Test a local conjunction against quotas, event/culprit pairs and other
   // ordinary constraints without feeding a speculative cause back into itself.
   probe(selected: ReadonlyMap<string, string>) {
+    if ([...selected].some(([k,v]) => !this.values(k).has(v))) return;
     if ([...selected.keys()].every((k) => this.values(k).size === 1)) return this;
     const copy = this.clone({ checks: 0, removed: 0, branches: 0 });
     copy.queue = new Set(this.queue);
@@ -169,6 +242,10 @@ export function allocation(
   return {
     name: 'identity-allocation',
     reads: keys,
+    neighbors(store, key) {
+      const roles = new Set([...store.values(key)].map(identity));
+      return keys.filter(k => [...store.values(k)].some(v => roles.has(identity(v))));
+    },
     revise(s) {
       if (!keys.length) return;
       if (!feasible(s)) {
@@ -180,6 +257,18 @@ export function allocation(
           key,
           [...s.values(key)].filter((value) => feasible(s, key, value)),
         );
+    },
+  };
+}
+
+export function atLeastOne(keys: string[], value: string): Constraint {
+  return {
+    name: 'at-least-one-' + value,
+    reads: keys,
+    revise(s) {
+      const possible = keys.filter((key) => s.values(key).has(value));
+      if (!possible.length) s.invalidate();
+      else if (possible.length === 1) s.narrow(possible[0]!, [value]);
     },
   };
 }

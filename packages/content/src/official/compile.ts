@@ -1,3 +1,4 @@
+import { lifecycle } from '../../../engine/src/runtime/shared-lifecycle.js';
 import { createHash } from 'node:crypto';
 import {
   characterTraits,
@@ -47,7 +48,17 @@ export function compileOfficial(module: Module, anniversary = false): RulePack {
   if (cached) return cached;
   const pack: RulePack = {
     schema: 1,
-    semanticVersion: '0.3.1',
+    semanticVersion: '0.4.0',
+    setupRules: {
+      xSlots: module === 'FS' ? 1 : 2,
+      optionalQuota: '暴徒',
+      attribute: {
+        plot: '和我签订契约吧！',
+        identity: '关键人物',
+        attribute: '少女',
+        except: '局外人',
+      },
+    },
     moduleAbilities: moduleAbilities[module] ?? [],
     digest: '',
     module,
@@ -155,6 +166,7 @@ export function compileOfficial(module: Module, anniversary = false): RulePack {
     .update(
       canonical({
         pack,
+        lifecycle,
         sources: entries
           .filter(
             (e) =>

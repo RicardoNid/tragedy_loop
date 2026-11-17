@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { compileOfficial } from '../../packages/content/src/official/index.js';
 import { initializeDiscussion, advance } from '../../packages/engine/src/runtime/engine.js';
-import { project } from '../../packages/engine/src/runtime/ports.js';
+import { initialPlacementView, project } from '../../packages/engine/src/runtime/ports.js';
 import { buildProfiles } from '../../packages/engine/src/runtime/knowledge-domain.js';
 import { CausalScope } from '../../packages/engine/src/runtime/knowledge-scope.js';
 import { LiveKnowledge } from '../../packages/engine/src/runtime/knowledge.js';
@@ -26,7 +26,7 @@ import type { Ability, Effect } from '../../packages/engine/src/runtime/model.js
 function playBtxFirstDay(useGossip: boolean, intrigueBoard: 'city' | 'shrine') {
   const pack = compileOfficial('BTX');
   let state = initializeDiscussion(pack, officialBTX.setup as GameSetup).state!;
-  const solver = new LiveKnowledge(pack, project(state, 'protagonists'));
+  const solver = new LiveKnowledge(pack, initialPlacementView(state));
   const placements: Record<string, [string, string][]> = {
     mastermind: [
       ['horizontal', 'boyStudent'],
@@ -94,7 +94,7 @@ function fixture() {
     ],
     incidents: [],
   };
-  const opening = project(initializeDiscussion(pack, setup).state!, 'protagonists');
+  const opening = initialPlacementView(initializeDiscussion(pack, setup).state!);
   const profiles = buildProfiles(pack, opening, { checks: 0, removed: 0, branches: 0 }).filter(
     (p) => p.y === setup.y && p.x.includes('流言四起'),
   );
@@ -478,7 +478,7 @@ test('copycat brain does not consume a second ordinary identity slot in the caus
   };
   const state = initializeDiscussion(pack, setup);
   assert.ok(state.state, JSON.stringify(state.diagnostics));
-  const opening = project(state.state, 'protagonists');
+  const opening = initialPlacementView(state.state);
   const profiles = buildProfiles(pack, opening, { checks: 0, removed: 0, branches: 0 }).filter(
     (p) => p.y === setup.y && p.x.includes('流言四起'),
   );
@@ -527,7 +527,7 @@ test('legal play reuses mastermind ability each day and rumor each loop without 
     incidents: [],
   };
   let state = initializeDiscussion(pack, setup).state!;
-  const opening = project(state, 'protagonists'),
+  const opening = initialPlacementView(state),
     k = new LiveKnowledge(pack, opening);
   let through = 0;
   const used = new Set<string>();

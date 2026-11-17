@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>规则引擎对局与重放测试 · 2026-11-15</title>
+<style>
+body{max-width:55rem;margin:auto;padding:2rem 1rem 4rem;font:16px/1.7 system-ui,sans-serif;color:#182c36}
+h1,h2{line-height:1.35}h2{margin-top:2rem} table{width:100%;border-collapse:collapse}
+td,th{padding:.45rem;text-align:left;border-bottom:1px solid #ccd8da}th{background:#eef4f4}
+code{overflow-wrap:anywhere}a{color:#165c73}
+</style>
+<main>
+<h1>规则引擎对局与重放测试</h1>
+<p><a href="simultaneous-interactions.html">同时结算与复合能力专项：89 种预设分支组合</a></p>
+<p>2026 年 11 月 15 日 · 本地工作区</p>
+<p>首轮发现并修复一处读档后重复询问的问题。修复后，首轮 336 场随机对局全部抵达终局。扩测另跑 7,168 局，全部走到终局且重放一致。</p>
+<h2>更换种子的扩测</h2>
+<p>从 32 位种子空间均匀取 16 个起点，每个起点连续取 32 个种子，每个种子运行 14 种配置。512 个新种子与首轮的 1–24 均无重叠。</p>
+<table><thead><tr><th>观测项</th><th>扩测结果</th></tr></thead><tbody>
+<tr><td>推进与重放</td><td>7,168 局抵达终局，321,619 次决定逐步核对完整存档状态和五种视图，284,819 次分段恢复。全部历史经重放入口核对终态，零分歧。</td></tr>
+<tr><td>分支触达</td><td>遇到全部六类待决定菜单，触发样例剧本安排的全部 16 种事件，选用 29 种能力。884 次可选拒绝中，451 次拒绝、433 次放行。另有 700 次身份猜测。</td></tr>
+<tr><td>胜负分布</td><td>主人公方获胜 7,031 局，剧作家获胜 137 局。分布取决于样例和行动选取方式。</td></tr>
+<tr><td>补测特殊结局</td><td>随机样例未启用 LL 的 C 单独推理规则。用启用“我才是名侦探”的合法变体，从开局简报开始测试六种私密身份排列。每种分别验证 C 答对后独胜，以及答错后进入普通决战；12 条历史均核对了胜者与重放。</td></tr>
+<tr><td>代码覆盖</td><td>单独运行全部 213 项内核回归，全部通过。Node 对 packages/engine/src/runtime/*.ts 统计的行覆盖率为 96.97%，分支覆盖率为 91.63%。分母是运行时代码分支；不同剧本和规则交互的组合总数仍未知。</td></tr>
+</tbody></table>
+<p>复跑任一批次可执行 <code>pnpm test:engine:campaign 32 104729</code>，将末尾参数替换成相应起点。第 k 批起点为 104729 + 268435456 × k，k 从 0 到 15。</p>
+<p><a href="campaign-seeds.json">16 批结果与触达明细</a> · <a href="../../tests/engine/ll-final-replay.test.ts">LL 特殊结局回归</a></p>
+<h2>可复现的失败</h2>
+<p>种子 2 在 FS-01G 普通版和周年版的第一轮第二天、第 20 次决定出现分歧。AHR-01G 同一种子在第一轮第四天、第 24 次决定也出现分歧。剧作家选择是否拒绝友好能力时，JSON 读档把同一个待结算能力还原成了两个对象。旧实现将答复写到其中一个对象，实际结算仍会再次询问。现在按能力执行记录的 ID 更新实际待结算项。</p>
+<p>固定回归分别提交“拒绝”和“放行”，要求读档后的状态与连续运行一致，且都已退出本次询问。另有定向回归覆盖提前决战投票，三位投票人分别否决时，均可继续游戏，重新提议也须取得全部三票。</p>
+<h2>首轮验证方法与结果</h2>
+<table>
+<thead><tr><th>测试</th><th>规模</th><th>通过条件</th></tr></thead>
+<tbody>
+<tr><td>随机整局</td><td>14 种配置 × 24 个种子</td><td>从开局简报到终局均能提交下一步。每局最多 1,500 次决定，每次最多恢复 1,000 次。</td></tr>
+<tr><td>读档与重放</td><td>15,510 次决定，13,701 次分段恢复</td><td>同一输入一路连续运行，一路从 JSON 读档后小步恢复。每次核对完整可存档状态、剧作家、三名主人公及主人公方共五种视图。每局结束后通过重放入口再执行全部历史，核对完整终态。</td></tr>
+<tr><td>既有策略对局</td><td>64 局，4,468 次指令</td><td>激进与保守策略均可结束，重放所得终态和视图符合检查点。</td></tr>
+<tr><td>规则定向测试</td><td>168 项</td><td>核对预期裁定，包含同时死亡的替代与护卫、移动与计数的先后、未登场当事人、跨轮状态和特殊胜利时机。</td></tr>
+<tr><td>状态组合</td><td>6,993 个角色配置，1,024 组计数向量</td><td>隔离测试检查能力选择与计数边界，并核对希望和绝望对三种有效计数的影响。</td></tr>
+</tbody></table>
+<h2>覆盖边界</h2>
+<p>完整随机对局基于八个官方剧本及六个周年变体。周年变体为测试构造，HSA 变体另加入一名平民以满足因果残片的开局条件。隔离测试允许构造难以自然抵达的局面，部分组合无法作为完整剧本开局。</p>
+<p>24 个种子合计遇到 24 次可选拒绝、55 次猜测决定。随机局每次选取一条合法分支，对其他剧本、角色组合与全部分支的覆盖仍有限。规则正确性由有预期裁定的定向断言检验；同历史重放检验执行一致性。</p>
+<h2>复跑首轮种子</h2>
+<p>在仓库根目录执行 <code>pnpm test:engine:campaign 24 1</code> 可重跑全部随机对局。两个参数分别为种子数量和起始种子。用 <code>pnpm test:engine:campaign 1 2</code> 单独复测种子 2。出现失败时终端会显示剧本、周年配置和种子，并以非零状态退出。</p>
+<p><a href="../../scripts/comprehensive/campaign.ts">随机对局测试源码</a> · <a href="../../tests/engine/advanced.test.ts">固定回归</a> · <a href="../comprehensive/cases.json">定向用例及其规则索引</a></p>
+</main>
+</html>

@@ -45,7 +45,8 @@ export function publishChanges(before: EngineState, after: EngineState): void {
   for (const board of BOARDS)
     if (before.boards[board] !== after.boards[board])
       announce(after, 'board', { board, intrigue: after.boards[board] });
-  for (const c of Object.values(after.characters)) {
+  for (const id of orderedCharacterIds(after)) {
+    const c = after.characters[id]!;
     const old = before.characters[c.id];
     if (
       !old ||
@@ -64,6 +65,21 @@ export function publishChanges(before: EngineState, after: EngineState): void {
     announce(after, 'failure', { result: 'protagonist-death' });
   else if (!before.failed && after.failed)
     announce(after, 'failure', { result: 'protagonist-failure' });
+  for (const audience of ['public', 'protagonists', 'mastermind'] as const) {
+    const start = before.observations[audience].length;
+    const events = after.observations[audience];
+    const size = events.length - start;
+    for (let i = start; i < events.length; i++) {
+      if (size > 1) events[i]!.simultaneousGroup = start + 1;
+      events[i]!.simultaneousSize = size;
+    }
+  }
+}
+// The scenario roster is stable across snapshot formats and map insertion orders.
+function orderedCharacterIds(state: EngineState): string[] {
+  const ids = new Set(state.setup.characters.map(c => c.id));
+  for (const id of Object.keys(state.characters).sort()) ids.add(id);
+  return [...ids].filter(id => Object.hasOwn(state.characters, id));
 }
 export function grantCard(
   state: EngineState,
@@ -78,7 +94,7 @@ export function grantCard(
   else state.cards.push({ id: `${owner}-${kind}`, owner, kind, once: true, status: 'hand' });
   announce(state, 'card-grant', { owner, kind });
 }
-function flatten(pack: RulePack, snapshot: EngineState, intents: Intent[]): Intent[] {
+export function flatten(pack: RulePack, snapshot: EngineState, intents: Intent[]): Intent[] {
   const result: Intent[] = [];
   for (const intent of intents) {
     const { effect } = intent,
@@ -120,6 +136,35 @@ function protects(pack: RulePack, guardian: CharacterState, target: CharacterSta
   );
 }
 
+/** Established requests share the same entry position and spend guards per hit. */
+export function resolveDeathRequests(
+  targets: readonly string[],
+  entryGuard: (id: string) => number,
+  isImmortal: (id: string) => boolean,
+  substitute: (id: string) => string | undefined,
+  onReplacement?: (from: string, to: string) => void,
+) {
+  const guards: Record<string, number> = Object.create(null);
+  const dying = new Set<string>();
+  const stopped = (id: string) => {
+    if (isImmortal(id)) return true;
+    const guard = guards[id] ?? entryGuard(id);
+    if (!guard) return false;
+    guards[id] = guard - 1;
+    return true;
+  };
+  for (const target of targets) {
+    if (stopped(target)) continue;
+    const protector = substitute(target);
+    if (protector !== undefined) {
+      onReplacement?.(target, protector);
+      if (stopped(protector)) continue;
+    }
+    dying.add(protector ?? target);
+  }
+  return { dying, guards };
+}
+
 export function permitsMove(state: EngineState, id: string, area: Area): boolean {
   const c = state.characters[id];
   const locked = state.flags['lockdown-area'];
@@ -144,6 +189,7 @@ export function settle(
   choices: Environment = {},
 ): Settlement {
   const before = clone(state);
+  before.characters = Object.fromEntries(orderedCharacterIds(before).map(id => [id, before.characters[id]!]));
   const intents = flatten(pack, before, input);
   const moves: Record<string, Area> = {};
   const moveOrigins: Record<string, Area> = {};
@@ -274,7 +320,6 @@ export function settle(
         const existing = effect.id && curses.find((c) => c.id === effect.id);
         if (existing) existing.target = target;
         else curses.push({ id: `curse-${++state.serial}`, target });
-        announce(state, 'board', { curses });
         break;
       }
       case 'place': {
@@ -425,32 +470,14 @@ export function settle(
     }
   }
   // Guard consumption is per request, not per final corpse. Substitutes use entry eligibility.
-  const guards = Object.fromEntries(
-    Object.values(before.characters).map((c) => [c.id, c.counters.guard]),
+  const { dying, guards } = resolveDeathRequests(
+    deaths.map(request => request.target),
+    id => before.characters[id]!.counters.guard,
+    id => immortal(pack, before, id),
+    id => Object.values(before.characters).find(c =>
+      c.area === before.characters[id]!.area && protects(pack, c, before.characters[id]!))?.id,
+    (from, to) => state.audit.push({ kind: 'replacement-request', data: { from, to } }),
   );
-  const dying = new Set<string>();
-  for (const request of deaths) {
-    let target = request.target;
-    if (immortal(pack, before, target)) continue;
-    if ((guards[target] ?? 0) > 0) {
-      guards[target]!--;
-      continue;
-    }
-    const original = before.characters[target]!;
-    const substitute = Object.values(before.characters).find(
-      (c) => c.area === original.area && protects(pack, c, original),
-    );
-    if (substitute) {
-      target = substitute.id;
-      state.audit.push({ kind: 'replacement-request', data: { from: request.target, to: target } });
-      if (immortal(pack, before, target)) continue;
-      if ((guards[target] ?? 0) > 0) {
-        guards[target]!--;
-        continue;
-      }
-    }
-    dying.add(target);
-  }
   state.audit.push({ kind: 'death-requests', data: clone(deaths) });
   for (const [id, n] of Object.entries(guards))
     add(id, 'guard', n - before.characters[id]!.counters.guard);
@@ -477,6 +504,8 @@ export function settle(
   }
   for (const id of removals) state.characters[id]!.status = 'removed';
   if (removals.size) state.curses = state.curses?.filter((c) => !removals.has(c.target));
+  if (JSON.stringify(before.curses ?? []) !== JSON.stringify(state.curses ?? []))
+    announce(state, 'board', { curses: state.curses ?? [] });
   state.ex = Math.max(0, state.ex);
   recompute(state);
   publishChanges(before, state);

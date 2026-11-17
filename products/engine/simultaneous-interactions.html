@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>同时结算与复合能力测试</title>
+<style>
+body{max-width:62rem;margin:auto;padding:1.5rem 1rem 3rem;font:16px/1.65 system-ui,sans-serif;color:#20313b}
+h1,h2{line-height:1.25}h2{margin-top:2rem}table{border-collapse:collapse;width:100%}th,td{text-align:left;padding:.6rem;vertical-align:top;border-bottom:1px solid #cbd6dc}th{background:#edf2f5}code{overflow-wrap:anywhere}a{color:#185d75}
+</style></head>
+<body><main>
+<h1>同时结算与复合能力测试</h1>
+<p>2026 年 11 月 15 日。本轮新增 8 组正式回归，逐项运行 89 种预设分支组合，全部通过。两条 BTX 历史从合法剧本开局走到终局，其余 87 个用例在指定规则局面开始执行。数量按测试分支计，不代表独立规则总数。</p>
+<h2>规则交互覆盖表</h2>
+<table>
+<thead><tr><th>场景</th><th>组合数</th><th>核对的裁定与失败信号</th></tr></thead>
+<tbody>
+<tr><td>从者、大人物、大小姐与幻想同时出牌</td><td>5</td><td>从者是否已用友好能力追加幻想，决定队长可从两人还是三人中选择。作答前所有角色仍在原地。结算后从者跟随所选角色，幻想只获得目的地版图的友好，出发地的不安不生效。</td></tr>
+<tr><td>医院事故、从者替死与愚者收尾</td><td>48</td><td>医院密谋取 0、1、2，从者护卫取 0 至 3，大人物实际在医院或只有领地在医院，并正反排列角色。逐项核对替死次数、剩余护卫、每名角色生死、主人公死亡，以及愚者完成事件后清空不安。</td></tr>
+<tr><td>仙人移动后复活、从者跟随与封锁</td><td>8</td><td>交叉测试封锁、可选拒绝及 X 取 0 或 3。可声明的尸体取决于仙人实际能抵达的地点。宣告错误目标应被拒绝；放行后只复活选定尸体并放置 X 枚友好；拒绝后不移动、不跟随、不复活。</td></tr>
+<tr><td>EX 3 的大人物邪教徒与幻想</td><td>4</td><td>实际区域和领地各有一张禁止密谋，幻想已随移动牌抵达领地。对两种选区分别执行发动与跳过，核对两个版图及幻想身上的密谋。</td></tr>
+<tr><td>两名杀人狂、从者替死与关键人物死亡</td><td>12</td><td>大人物在原地或领地发动，从者有 0 至 2 枚护卫，角色顺序正反各一次。领地的关键人物死亡仍须处理此前已成立的从者替死；选择原地时，从者承受两次死亡请求。</td></tr>
+<tr><td>BTX 五角色完整剧本</td><td>2</td><td>大人物、大小姐、仙人、幻想、从者按合法配置开局。通过两天实际出牌制造跟随分歧，分别让从者跟大人物或大小姐。两局同为主人公获胜，从者终局位置分别为神社和都市。从简报重放各自全部输入，逐局核对完整终态。</td></tr>
+<tr><td>LL 幻想密钥、沟通标志与 B 特殊胜利</td><td>6</td><td>分别从 4 枚、5 枚及已有幻想标志的 5 枚开始，逐一拒绝或放行。第六个不同角色沟通时 B 先胜，幻想仍在场；未达六枚而移除时保留沟通标志，从者留在原地，密钥没有延迟死亡效果。</td></tr>
+<tr><td>仙人触发孤守，从者面对两名同时移动的对象</td><td>4</td><td>原地和顺时针区域各走两条跟随分支。剧作家为三人分别选完目的地，仍未移动任何人；随后由队长选跟随对象，整批移动，仙人本身仍在原地。逐次将读档路径与连续运行比较。</td></tr>
+</tbody></table>
+<h2>如何验证测试能识别错误</h2>
+<p>在独立源码副本中逐一模拟四种错误。强制从者只跟第一个对象、护卫抵消死亡却不消耗、邪教徒始终只看实际所在地、仙人始终按被封锁的目的地选尸体。四次均由相应的断言检出。副本已清理。</p>
+<h2>复跑与后续安排</h2>
+<p>本轮完整验证通过 223 项内核回归、168 项独立定向用例及 12 项机器规则资产检查。本表的 8 组包含在 223 项内核回归中。</p>
+<p>复跑本表用 <code>pnpm exec tsx --test tests/engine/simultaneous-interactions.test.ts</code>。本表已纳入 <code>pnpm check:engine</code>。更改同时结算、能力选区或读档逻辑时，随全套内核回归一起执行。</p>
+<p>下一批优先覆盖三类组合：妹妹代理发动仙人复活时的拒绝与后续；教主重复事件时，第一次结算移除角色对第二次选目标的影响；同批死亡触发多个死亡时能力，随后又触发特殊胜利。每例先固定裁定，再分别核对结算前、等待输入时、批次结束后的状态。孤守与黑猫合用时，当前内容包仍标记等待维护者裁定；本表的孤守测试限定仙人为当事人。</p>
+<p>局面测试允许直接放置指示物、指定阶段，以及组合某些官方样例没有安排的身份与效果。只有表中注明的两条完整剧本历史用于证明从开局可达。</p>
+<p><a href="../../tests/engine/simultaneous-interactions.test.ts">新增回归源码</a> · <a href="../../tests/engine/compound-rules.test.ts">已有复合规则回归</a> · <a href="../../tests/engine/runtime.test.ts">已有同时结算回归</a> · <a href="campaign-audit.html">随机整局与重放报告</a></p>
+<p>规则依据见<a href="../../facts/text/articles/156717aa7f6b1574.txt">规则书 4.1.1 至 4.1.3</a>，以及<a href="../../facts/data/characters/1a4ec21b9d7bb05f.json">大人物</a>、<a href="../../facts/data/characters/ff7a5b572d8e564f.json">从者</a>、<a href="../../facts/data/characters/96847c4f07faea8f.json">仙人</a>、<a href="../../facts/data/characters/bd9f5e4dd428366b.json">幻想</a>角色卡。源码注释列出相应的本地 FAQ 零起始索引。</p>
+</main></body></html>

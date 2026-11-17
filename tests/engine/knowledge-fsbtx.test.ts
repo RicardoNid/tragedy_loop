@@ -2,13 +2,13 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { compileOfficial } from '../../packages/content/src/official/index.js';
 import { initializeDiscussion, advance } from '../../packages/engine/src/runtime/engine.js';
-import { project } from '../../packages/engine/src/runtime/ports.js';
+import { initialPlacementView, project } from '../../packages/engine/src/runtime/ports.js';
 import {
   EnumeratedKnowledge,
   LiveKnowledge,
   generateDomain,
 } from '../../packages/engine/src/runtime/knowledge.js';
-import type { Choice, GameSetup } from '../../packages/contracts/src/game.js';
+import { completeObservationGroups, type Choice, type GameSetup } from '../../packages/contracts/src/game.js';
 import type { EngineState } from '../../packages/engine/src/runtime/model.js';
 import { canonical } from '../../packages/engine/src/runtime/model.js';
 
@@ -168,7 +168,7 @@ for (const fixture of cases)
     const initialized = initializeDiscussion(pack, fixture.setup);
     assert.ok(initialized.state, JSON.stringify(initialized.diagnostics));
     let state = initialized.state;
-    const opening = project(state, 'protagonists');
+    const opening = initialPlacementView(state);
     // Keep the comparison domain explicit and bypass static disclosure pruning.
     const k = new EnumeratedKnowledge(pack, opening, 5000, true);
     const symbolic = new LiveKnowledge(pack, opening);
@@ -341,13 +341,15 @@ for (const fixture of cases)
     fixture.verify(state);
     compareJoint();
     const oneShot = new LiveKnowledge(pack, opening);
-    oneShot.append(state.observations.protagonists, 0, state.revision);
+    const reordered = completeObservationGroups(state.observations.protagonists).flatMap(group =>
+      [...group].reverse().map((o, i) => ({ ...o, sequence: group[0]!.sequence + i })));
+    oneShot.append(reordered, 0, state.revision);
     oneShot.verifyCombinations();
     complete(oneShot);
     assert.deepEqual(
       new Set(oneShot.jointSolutions()!.map(key)),
       previousSolutions,
-      'incremental and one-shot spaces differ',
+      'reversing reports inside simultaneous settlements changed a joint solution',
     );
     const result = complete(k);
     const constrained = complete(symbolic);

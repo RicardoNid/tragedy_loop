@@ -108,7 +108,7 @@ for (const module of ['FS', 'BTX'] as const)
         panel.getByRole('table', { name: '角色 × 初始身份', exact: true }).locator('tbody tr'),
       ).toHaveCount(3);
       await panel.screenshot({ path: test.info().outputPath('pruning-scope.png') });
-      // Coupled observations automatically start joint verification.
+      // Local compound settlement can leave full-history verification deferred.
       const verify = panel.getByRole('button', { name: '核验联合历史' });
       if (await verify.isVisible()) await verify.click();
       await expect(panel.locator('[aria-live]')).toContainText('候选取值验证完成', {
@@ -150,6 +150,7 @@ test('scope table keeps skipped candidates and offers explicit full-history veri
           skippedCharacters: ['remote'],
           skippedRules: ['流言四起'],
           skippedEvents: ['1:谋杀'],
+          compound: { variables: ['culprit:1'], participants: ['local'], branches: 6, unresolved: true },
           conservative: [],
           deferred: !verified,
         },
@@ -159,11 +160,15 @@ test('scope table keeps skipped candidates and offers explicit full-history veri
   await page.goto(process.env.REVIEW_FILE_UI ?? '/');
   await page.getByRole('button', { name: '新建 FS 测试对局' }).click();
   await page.getByRole('button', { name: '开始游戏', exact: true }).click();
+  await expect(page.locator('.character')).toHaveCount(0);
+  await page.getByRole('button', { name: '继续', exact: true }).click();
   const panel = page.getByRole('region', { name: '解空间', exact: true });
   await expect(panel.locator('[aria-live]')).toContainText(/局部传播完成|正在验证|候选取值验证完成|尚未判定完毕/);
   const fields = panel.getByRole('list', { name: '复合观察的逐项原因' });
   await expect(fields.getByRole('listitem')).toHaveCount(3);
   await expect(fields.getByRole('listitem').nth(2)).toContainText('两个来源共同贡献');
+  await expect(panel.getByLabel('复合结算', {exact:true})).toContainText('6 个分支');
+  await expect(panel.getByLabel('复合结算', {exact:true})).toContainText('第 1 天的当事人');
   await expect(panel.getByRole('table', { name: '本次计算范围' })).toContainText('remote');
   await expect(panel.getByRole('table', { name: '本次计算范围' })).toContainText('流言四起');
   await expect(
@@ -177,6 +182,8 @@ test('live solution space, visibility toggle and revision-safe history', async (
   await page.goto(process.env.REVIEW_FILE_UI ?? '/');
   await page.getByRole('button', { name: '新建 FS 测试对局' }).click();
   await page.getByRole('button', { name: '开始游戏', exact: true }).click();
+  await expect(page.locator('.character')).toHaveCount(0);
+  await page.getByRole('button', { name: '继续', exact: true }).click();
   const panel = page.getByRole('region', { name: '解空间', exact: true });
   await expect(panel.getByText(/^候选取值 [1-9][0-9]*$/)).toBeVisible({ timeout: 10000 });
   await expect(panel.locator('[aria-live]')).toContainText(/局部传播完成|正在验证|候选取值验证完成|尚未判定完毕/);
@@ -199,14 +206,13 @@ test('live solution space, visibility toggle and revision-safe history', async (
   await panel.getByRole('checkbox').uncheck();
   await expect(panel.locator('table')).toHaveCount(0);
   await panel.getByRole('checkbox').check();
-  await page.getByRole('button', { name: '继续', exact: true }).click();
   // The official six-character script has a larger post-action search domain.
   // Verify a fresh result and historical isolation while the search may continue.
   await expect(panel.getByText(/观察版本 1$/)).toHaveCount(0);
   await expect(panel.getByText(/^候选取值 [1-9][0-9]*$/)).toBeVisible({ timeout: 10000 });
   await page.getByRole('button', { name: '上一步', exact: true }).click();
-  await expect(panel.getByText(/观察版本 1$/)).toBeVisible();
-  await expect(panel.getByText(/^候选取值 [1-9][0-9]*$/)).toBeVisible();
+  await expect(panel.getByRole('table')).toHaveCount(0);
+  await expect(page.locator('.character')).toHaveCount(0);
   await page.getByRole('button', { name: '返回当前', exact: true }).click();
   await expect(panel.getByText(/观察版本 1$/)).toHaveCount(0);
   await expect(panel.locator('[aria-live]')).toContainText('局部传播完成', { timeout: 15000 });
@@ -243,6 +249,8 @@ test('certainty symbols distinguish witnesses, unique unverified candidates, and
   );
   await page.getByRole('button', { name: '新建 FS 测试对局' }).click();
   await page.getByRole('button', { name: '开始游戏', exact: true }).click();
+  await expect(page.locator('.character')).toHaveCount(0);
+  await page.getByRole('button', { name: '继续', exact: true }).click();
   const { id } = await (await created).json();
   roster = (await (await page.request.get(`/api/games/${id}/p0`)).json()).characters;
   const matrix = page.getByRole('table', { name: '角色 × 初始身份', exact: true });
@@ -272,6 +280,8 @@ test('mobile solution space remains readable without horizontal overflow', async
   await page.goto(process.env.REVIEW_FILE_UI ?? '/');
   await page.getByRole('button', { name: '新建 FS 测试对局' }).click();
   await page.getByRole('button', { name: '开始游戏', exact: true }).click();
+  await expect(page.locator('.character')).toHaveCount(0);
+  await page.getByRole('button', { name: '继续', exact: true }).click();
   await expect(page.getByText(/^候选取值 [1-9][0-9]*$/)).toBeVisible({ timeout: 10000 });
   await expect(
     page.getByRole('region', { name: '解空间', exact: true }).locator('[aria-live]'),
@@ -297,12 +307,16 @@ test('official BTX roster, hospital incident and restart retain the selected mod
   await page.goto(process.env.REVIEW_FILE_UI ?? '/');
   await page.getByRole('button', { name: '新建 BTX 测试对局' }).click();
   await page.getByRole('button', { name: '开始游戏', exact: true }).click();
+  await expect(page.locator('.character')).toHaveCount(0);
+  await page.getByRole('button', { name: '继续', exact: true }).click();
   const panel = page.getByRole('region', { name: '解空间', exact: true });
   await expect(page.locator('.character')).toHaveCount(7);
   await expect(page.getByText('医院事故', { exact: false }).first()).toBeVisible();
   await expect(panel).toBeVisible();
   await page.getByRole('button', { name: '重新开始', exact: true }).click();
   await page.getByRole('button', { name: '开始游戏', exact: true }).click();
+  await expect(page.locator('.character')).toHaveCount(0);
+  await page.getByRole('button', { name: '继续', exact: true }).click();
   await expect(page.locator('.character')).toHaveCount(7);
   await expect(page.getByText('医院事故', { exact: false }).first()).toBeVisible();
   await expect(page.locator('.clock')).toContainText('BTX');
@@ -314,11 +328,13 @@ test('BTX solution space stays mounted across mastermind operations and seat swi
   await page.goto(process.env.REVIEW_FILE_UI ?? '/');
   await page.getByRole('button', { name: '新建 BTX 测试对局' }).click();
   await page.getByRole('button', { name: '开始游戏', exact: true }).click();
+  await expect(page.locator('.character')).toHaveCount(0);
+  await page.getByRole('button', { name: '继续', exact: true }).click();
   const knowledge = page.getByRole('region', { name: '解空间', exact: true });
   const actions = page.getByRole('region', { name: '对局操作', exact: true });
   const ready = () => expect(page.getByRole('status').first()).toHaveText('');
   await expect(knowledge).toBeVisible();
-  await actions.getByRole('button', { name: '继续', exact: true }).click();
+
   await ready();
   await actions.getByRole('button', { name: '切换到剧作家操作', exact: true }).click();
   await ready();

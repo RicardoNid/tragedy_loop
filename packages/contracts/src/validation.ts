@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import type { Command, GameSetup } from './game.js';
+import { officialModules, type Command, type GameSetup } from './game.js';
 
 const text = z.string().min(1);
 const integer = z.number().int().safe().nonnegative();
@@ -10,7 +10,7 @@ const role = z.enum(['A', 'B', 'C']);
 /** Strict JSON boundary: unknown fields must never silently become ignored rules. */
 export const setupSchema: z.ZodType<GameSetup> = z
   .object({
-    module: z.enum(['FS', 'BTX', 'MZ', 'MC', 'HSA', 'WM', 'AHR', 'LL']),
+    module: z.enum(officialModules),
     anniversary: z.boolean(),
     loops: positive,
     days: positive,

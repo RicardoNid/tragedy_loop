@@ -1,3 +1,4 @@
+import { awaitingFirstPlacement, completeObservationGroups } from '../../../packages/contracts/src/game';
 import React, { useRef, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import type { Choice, GameSetup, PlayerView, Actor } from '../../../packages/contracts/src/game.js';
@@ -446,8 +447,8 @@ function App() {
                     ))}
                   </div>
                   {shown.ex !== undefined && <p>EX · {shown.ex}</p>}
-                  {shown.phase === 'briefing' && !masterBoard && (
-                    <p className="muted">开始游戏后放置首批角色。后续角色在各自的登场时点公开。</p>
+                  {awaitingFirstPlacement(shown) && !masterBoard && (
+                    <p className="muted">第一轮讨论结束、轮回开始时放置首批角色。后续角色在各自的登场时点公开。</p>
                   )}
                   {!!shown.publicSpecialRules?.length && (
                     <section aria-label="公开特殊规则">
@@ -624,18 +625,20 @@ function App() {
                 </div>
               </div>
               <div className="log">
-                {shown.observations
-                  .slice()
-                  .reverse()
-                  .map((o) => (
-                    <article key={o.sequence}>
-                      <small>
-                        第 {o.loop} 轮 · 第 {o.day} 日
-                      </small>
-                      <strong>{label(o.type)}</strong>
-                      <span>{readable(o.data, shown)}</span>
+                {completeObservationGroups(shown.observations).reverse().map((group) => {
+                  const first = group[0]!;
+                  return (
+                    <article key={first.sequence}>
+                      <small>第 {first.loop} 轮 · 第 {first.day} 日</small>
+                      <strong>{group.length > 1 ? '同时发生' : label(first.type)}</strong>
+                      {group.length > 1 ? (
+                        <ul>{group.map((o) => (
+                          <li key={o.sequence}>{label(o.type)} · {readable(o.data, shown)}</li>
+                        ))}</ul>
+                      ) : <span>{readable(first.data, shown)}</span>}
                     </article>
-                  ))}
+                  );
+                })}
               </div>
             </section>
             <section className="panel notes">

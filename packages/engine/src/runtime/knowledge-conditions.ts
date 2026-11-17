@@ -1,3 +1,4 @@
+import { characterCounter } from './shared-lifecycle.js';
 import type { Observation, PlayerView } from '../../../contracts/src/game.js';
 import type { Condition, RulePack, Value } from './model.js';
 
@@ -5,6 +6,7 @@ const unknown = Symbol('unknown');
 type Scalar = string | number | boolean | null | typeof unknown;
 export interface PublicContext {
   clock: Pick<Observation, 'loop' | 'day' | 'phase'>;
+  ex?: number;
   days: number;
   loops: number;
   pack: RulePack;
@@ -16,6 +18,8 @@ export interface PublicContext {
   virtualArea?: boolean;
   /** Multi-step/indirect sources do not share the current activation snapshot. */
   staticOnly?: boolean;
+  /** A public goodwill declaration has already passed the request-time threshold or its waiver. */
+  declaredGoodwill?: boolean;
   occurred?: (name: string) => boolean | undefined;
   moved?: ReadonlySet<string>;
 }
@@ -74,13 +78,7 @@ export function publicValue(v: Value, c: PublicContext): Scalar {
         : unknown;
     const n = actor.counters[v.counter];
     if (v.raw) return n;
-    return v.counter === 'goodwill'
-      ? n + actor.counters.hope
-      : v.counter === 'paranoia'
-        ? n + actor.counters.despair
-        : v.counter === 'intrigue'
-          ? Math.max(0, n + actor.counters.despair - actor.counters.hope)
-          : n;
+    return characterCounter(actor.counters, v.counter);
   }
   if ('field' in v) {
     if (v.field === 'paranoiaLimit' && actor)

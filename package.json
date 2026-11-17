@@ -7,7 +7,9 @@
     "node": ">=22.12 <23"
   },
   "scripts": {
+    "check:absence": "tsc -p tests/engine/tsconfig.absence.json && tsx --test tests/engine/absence*.test.ts",
     "check:engine": "tsc -p tests/engine/tsconfig.json && tsx --test tests/engine/*.test.ts",
+    "test:engine:campaign": "tsx scripts/comprehensive/campaign.ts",
     "check:realtime": "tsc -p tests/engine/tsconfig.json && tsx --test tests/engine/knowledge*.test.ts",
     "report:engine": "tsx scripts/engine/report.ts",
     "check:rules": "tsc -p tests/rules/tsconfig.json && tsx --test tests/rules/*.test.ts",

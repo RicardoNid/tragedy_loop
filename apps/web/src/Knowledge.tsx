@@ -76,6 +76,11 @@ export function Knowledge({
   const parameter = (key: string, values: string[]) => {
     const [kind, id] = key.split(':');
     const names: Record<string, string> = {
+      firstX: '首先公开的副线',
+      secretAddition: '额外身份',
+      reverse: '里身份',
+      alternateY: '备选主线',
+      privateRoles: '私有席位排列（依次为 P0、P1、P2）',
       copy: '复制对象',
       x: '不安限度 X',
       enterDay: '登场日期',
@@ -90,7 +95,7 @@ export function Knowledge({
       school: '学校',
       far: '远方',
     };
-    return `${roster.find((c) => c.id === id)?.character ?? id} · ${names[kind!] ?? kind}：${values.map((v) => (kind === 'copy' ? (roster.find((c) => c.id === v)?.character ?? v) : (areas[v] ?? v))).join('、')}`;
+    return `${id ? (roster.find((c) => c.id === id)?.character ?? id) + ' · ' : ''}${names[kind!] ?? kind}：${values.map((v) => (kind === 'copy' ? (roster.find((c) => c.id === v)?.character ?? v) : (areas[v] ?? v))).join('、')}`;
   };
   return (
     <section className="panel knowledge" aria-label="解空间">
@@ -285,7 +290,9 @@ export function Knowledge({
                   <details open>
                     <summary>本次计算范围 · 观察 #{result.scope.observation}</summary>
                     <p>
-                      角色、规则、事件分别筛选；下列“跳过”只表示未参与本次原因计算，仍保留在总解空间。身份名额等关联约束可能继续传播。
+                      {result.scope.publicSettlement
+                        ? '这条变化与已声明的能力或公开牌面吻合，已直接更新盘面。'
+                        : '角色、规则、事件分别筛选；下列“跳过”只表示未参与本次原因计算，仍保留在总解空间。身份名额等关联约束可能继续传播。'}
                     </p>
                     <div className="knowledge-table">
                       <table aria-label="本次计算范围">
@@ -317,6 +324,19 @@ export function Knowledge({
                         </tbody>
                       </table>
                     </div>
+                    {result.scope.compound && (
+                      <div aria-label="复合结算">
+                        <p>本次局部结算检查了 {result.scope.compound.branches} 个分支。
+                          {result.scope.compound.unresolved && '仍有可能的解释，已保留相关候选。'}</p>
+                        {!!result.scope.compound.participants.length && <p>参与角色 · {result.scope.compound.participants.map(characterName).join('、')}</p>}
+                        {!!result.scope.compound.variables.length && <p>关联变量 · {result.scope.compound.variables.map(key => {
+                          const [kind, subject] = key.split(':');
+                          if (kind === 'event' || kind === 'culprit') return `第 ${subject} 天的${kind === 'event' ? '真实事件' : '当事人'}`;
+                          if (kind === 'identity') return characterName(subject!) + '的身份';
+                          return key;
+                        }).join('、')}</p>}
+                      </div>
+                    )}
                     {result.scope.fields && (
                       <ul aria-label="复合观察的逐项原因">
                         {result.scope.fields.map((row) => (

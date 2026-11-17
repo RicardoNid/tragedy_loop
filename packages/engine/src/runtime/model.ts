@@ -69,16 +69,31 @@ export interface AbilityAreaRule {
   selection: 'before-declaration' | 'first-step';
 }
 export type IncidentAreaMode = 'actual' | 'diagonal' | 'clockwise';
+export interface IncidentBehavior {
+  execution?: 'cancel' | 'repeat' | 'proxy';
+  privateTrigger?: boolean;
+  maySuppress?: boolean;
+  totalThreshold?: boolean;
+  thresholdMultiplier?: number;
+}
 export interface CharacterTraits {
+  incident?: IncidentBehavior;
+  loopShrineIntrigue?: true;
+  mastermindGoodwill?: { ability?: string; minimum: number; overrideThreshold?: number };
+  mandatoryFirstMastermindAbility?: true;
+  forbiddenInitial?: 'civilian' | 'ignores-goodwill';
   abilityArea?: AbilityAreaRule;
   incidentAreaFromBase?: IncidentAreaMode;
   protects?: { characters: string[]; selectedTargetFlag: string };
 }
 export interface IdentityTraits {
+  /** On actual death, each living holder of this identity receives the amount. */
+  partnerReaction?: { survivor: string; paranoia: number };
   baseIncidentArea?: IncidentAreaMode;
   sameAreaIncidentTrigger?: Condition;
 }
 export interface RulePack {
+  setupRules: { xSlots: 1 | 2; optionalQuota: string; attribute?: { plot: string; identity: string; attribute: string; except: string } };
   moduleAbilities: { owner: string; ability: Ability }[];
   schema: 1;
   semanticVersion: string;

@@ -1,7 +1,8 @@
-import type { GameSetup, Observation, PlayerView } from '../../../contracts/src/game.js';
+import { routesObservation } from './knowledge-routes.js';
+import { completeObservationGroups, supportsAnniversary, type GameSetup, type Observation, type PlayerView } from '../../../contracts/src/game.js';
 import type { KnowledgeView } from '../../../contracts/src/knowledge.js';
 import { canonical, type RulePack } from './model.js';
-import { normalizeHistory } from './reference.js';
+import { observationKey, orderedSettlement } from './observation-history.js';
 import { hasUnsupportedDiagnostic, validateSetup } from './setup.js';
 import {
   buildProfiles,
@@ -9,6 +10,7 @@ import {
   combinationKey,
   applyDisclosure,
   configurations,
+  configuredAddition,
   setupValues,
   shownIdentity,
   supports,
@@ -65,10 +67,10 @@ export function unsupportedDomain(pack: RulePack, opening: PlayerView): string[]
     opening.day !== 1
   )
     reasons.push('求解需要相同规则版本的第一轮开局公开视图。');
-  if (!['FS', 'BTX'].includes(pack.module)) reasons.push('增量约束求解器当前支持 FS、BTX。');
+  if (pack.anniversary && !supportsAnniversary(pack.module)) reasons.push('该模组不适用周年追加。');
   if (hasHermit(opening)) reasons.push('仙人的无界整数 X 尚需符号数值约束，不能截断为有限精确域。');
-  if (Object.values(pack.plots).some((p) => !p.supported || p.pair))
-    reasons.push('当前内容包含未支持的规则或双面身份约束。');
+  if (Object.values(pack.plots).some((p) => !p.supported))
+    reasons.push('当前内容包含未支持的规则。');
   return reasons.concat(incompleteContent(pack, opening));
 }
 
@@ -77,6 +79,8 @@ export class LiveKnowledge {
   private profiles: Profile[];
   private readonly stats: PropagationStats = { checks: 0, removed: 0, branches: 0 };
   private evidence: EvidenceLog = { observations: [], normalized: [], version: 0 };
+  private received: string[] = [];
+  private pendingReports: Observation[] = [];
   private revision = -1;
   private constraintVersion = 0;
   private projectedTargets?: Target[];
@@ -101,15 +105,15 @@ export class LiveKnowledge {
   private readonly openingColumns: NonNullable<KnowledgeView['openingColumns']>;
   private scope?: KnowledgeView['scope'];
   private deferred = true;
-  // Exhaust all surviving *joint configurations* once a coupled window is seen.
+  // Explicit whole-space verification retains each compatible configuration.
   // Retain the iterator, rejected configurations, and every surviving replay
   // stack across append(): later evidence can only remove solutions.
   private joint?: { iterator: Generator<GameSetup | null>; exhausted: boolean };
   private jointUnknown = false;
   private readonly enumeratedRecords = new Set<RecordEntry>();
-  private windowReports = 0;
+  private localCompound = false;
+  private explicitHistory = false;
   private trace: NonNullable<KnowledgeView['calculationTrace']> = [];
-  private windowPhase?: Observation['phase'];
   private publicContradiction = false;
   get historySearchDeferred() {
     return this.deferred;
@@ -143,45 +147,55 @@ export class LiveKnowledge {
   /** Complete logs and incremental deliveries share the same prefix validation. */
   update(history: Observation[], revision: number) {
     if (revision < this.revision) throw Error('观察版本不能回退。');
-    if (history.length < this.evidence.observations.length)
+    if (history.length < this.observationCount)
       throw Error('观察必须追加，不能改写已有历史。');
-    this.append(history, 0, revision);
+    this.receive(history, 0, revision, true);
   }
   get observationCount() {
-    return this.evidence.observations.length;
+    return this.received.length;
   }
   /** Empty and retried deliveries never wake inference. */
   append(observations: Observation[], after: number, revision: number) {
-    if (!Number.isSafeInteger(after) || after < 0 || after > this.evidence.observations.length)
+    this.receive(observations, after, revision, false);
+  }
+  private receive(observations: Observation[], after: number, revision: number, completeLegacyLog: boolean) {
+    const count = this.observationCount;
+    if (!Number.isSafeInteger(after) || after < 0 || after > count)
       throw Error('观察追加偏移不连续。');
-    const normalized = normalizeHistory(observations);
-    const overlap = Math.min(this.evidence.observations.length - after, observations.length);
-    for (let i = 0; i < overlap; i++)
-      if (
-        observations[i]!.sequence !== after + i + 1 ||
-        normalized[i] !== this.evidence.normalized[after + i]
-      )
-        throw Error('观察必须追加，不能改写已有历史。');
-    const fresh: Observation[] = [],
-      suffix: string[] = [];
-    // Sequences in one public feed start at one. Check the whole delivery
-    // before publishing any changes, including overlaps within a retry batch.
-    for (let i = overlap; i < observations.length; i++) {
+    const added: Observation[] = [];
+    const keys: string[] = [];
+    const overlap = Math.min(count - after, observations.length);
+    for (let i = 0; i < observations.length; i++) {
       const o = observations[i]!;
       const index = o.sequence - 1;
-      const offset = index - this.evidence.normalized.length;
-      if (!Number.isSafeInteger(index) || index < 0 || offset > fresh.length)
+      if (i < overlap && index !== after + i) throw Error('观察必须追加，不能改写已有历史。');
+      if (!Number.isSafeInteger(index) || index < 0 || index > count + added.length)
         throw Error('观察序号不连续。');
-      if (offset === fresh.length) {
-        fresh.push(o);
-        suffix.push(normalized[i]!);
-      } else if (
-        (offset < 0 ? this.evidence.normalized[index] : suffix[offset]) !== normalized[i]
-      ) {
-        throw Error('同序号观察内容冲突。');
+      // A complete, already committed group can be retried in another display order.
+      const size = o.simultaneousSize;
+      if (size !== undefined && size >= 2 && o.simultaneousGroup === o.sequence &&
+          index + size <= this.evidence.normalized.length && i + size <= observations.length) {
+        const [group] = completeObservationGroups(observations.slice(i, i + size));
+        if (!group || orderedSettlement(group).some((r, j) =>
+          observationKey(r) !== this.evidence.normalized[index + j]))
+          throw Error('观察必须追加，不能改写已有历史。');
+        i += size - 1;
+        continue;
+      }
+      const key = observationKey(o);
+      if (index === count + added.length) {
+        added.push(o);
+        keys.push(key);
+      } else if ((index < count ? this.received[index] : keys[index - count]) !== key) {
+        throw Error('观察必须追加，不能改写已有历史。');
       }
     }
-    if (revision < this.revision && fresh.length) throw Error('观察版本不能回退。');
+    if (revision < this.revision && added.length) throw Error('观察版本不能回退。');
+    const buffered = this.pendingReports.concat(structuredClone(added));
+    const groups = completeObservationGroups(buffered, completeLegacyLog);
+    const fresh = groups.flatMap(orderedSettlement);
+    this.pendingReports = buffered.slice(fresh.length);
+    this.received.push(...keys);
     this.revision = Math.max(this.revision, revision);
     if (!fresh.length) return;
     this.priorRoots = this.initializations;
@@ -193,8 +207,9 @@ export class LiveKnowledge {
       firstObservation: this.evidence.observations.length + 1,
       lastObservation: this.evidence.observations.length + fresh.length,
     };
-    this.evidence.observations.push(...structuredClone(fresh));
-    this.evidence.normalized.push(...suffix);
+    // Keep the original sequence for diagnostics while using canonical slots for local cursors.
+    this.evidence.observations.push(...fresh);
+    this.evidence.normalized.push(...fresh.map(observationKey));
     this.evidence.version++;
     this.epochWork = this.work;
     this.limited = false;
@@ -207,71 +222,105 @@ export class LiveKnowledge {
       profileCount = this.profiles.length,
       relationVersion = this.causal.version;
 
-    for (const [index, o] of fresh.entries()) {
+    let pendingWrites: (() => void)[] | undefined;
+    let group: Observation[] = [];
+    let complex = false;
+    let groupNeedsHistory = false;
+    let allExplained = true;
+    let joins = 0;
+    let causeBranches = 0;
+    let historyStart = 0;
+    let compound: NonNullable<KnowledgeView['scope']>['compound'];
+    let groupScope: KnowledgeView['scope'];
+    for (const [index, report] of fresh.entries()) {
+      const slot = this.transition.firstObservation + index;
+      const o = report.sequence === slot ? report : { ...report, sequence: slot };
+      if (!group.length) {
+        for (const p of this.profiles) p.store.beginSettlement();
+        if (o.simultaneousSize !== undefined) pendingWrites = [];
+        if (o.simultaneousGroup !== undefined) this.causal.beginSimultaneous();
+        complex = o.simultaneousGroup !== undefined;
+        groupNeedsHistory = false;
+        allExplained = true;
+        groupScope = undefined;
+        joins = this.causal.causeJoins;
+        causeBranches = this.causal.causeBranches;
+        historyStart = this.transition.historyCandidates!.length;
+        compound = undefined;
+      }
+      group.push(o);
       const prior = this.stats.removed,
         size = this.profiles.length;
       const publicUpdate = this.causal.publicUpdate(o);
-      const scope = this.causal.consume(o, this.profiles);
-      const wasJoint = !!this.joint;
-      if (o.type === 'boundary') {
-        if (this.windowReports >= 2) this.startJointSearch();
-        this.windowPhase = o.phase;
-        this.windowReports = 0;
-      } else if (
-        o.phase === this.windowPhase &&
-        [
-          'incident',
-          'mastermind-abilities',
-          'protagonist-abilities',
-          'day-end',
-          'loop-end',
-          'card-resolution',
-          'loop-start',
-        ].includes(o.phase) &&
-        [
-          'incident',
-          'character',
-          'board',
-          'declaration',
-          'failure',
-          'refused',
-          'identity',
-          'no-effect',
-        ].includes(o.type)
-      ) {
-        if (!scope?.locallyExplained || scope.needsHistory) this.windowReports++;
-      }
-      if (
-        scope?.needsHistory ||
-        (!scope?.locallyExplained && o.phase === this.windowPhase &&
-          (o.type === 'character' || o.type === 'board' || o.type === 'failure') &&
-          ((scope?.fields?.length ?? 0) > 1 || (scope?.alternatives?.length ?? 0) > 1))
-      )
-        this.startJointSearch();
-      if (scope) this.scope = scope;
+      const scope = this.causal.consume(o, this.profiles, pendingWrites);
+      complex ||= (scope?.fields?.length ?? 0) > 1;
+      allExplained &&= !!scope?.locallyExplained || (!scope && publicUpdate);
+      groupNeedsHistory ||= !!scope?.needsHistory || (!scope && !publicUpdate);
+      if (scope) this.scope = groupScope = scope;
       if (scope?.needsHistory || (!scope && !publicUpdate)) {
-        this.transition.historyCandidates!.push(o.sequence);
+        this.transition.historyCandidates!.push(report.sequence);
       }
-      this.profiles = this.profiles.filter((p) => p.active);
-      if (o.type === 'identity' || o.type === 'rule' || o.type === 'culprit')
+      if (!scope?.publicSettlement || scope.needsHistory || this.stats.removed !== prior)
+        this.profiles = this.profiles.filter((p) => p.active);
+      if (routesObservation('disclosure',o))
         this.profiles = this.profiles.filter(
-          (p) => (p.active = applyDisclosure(p, this.opening, o) && p.store.propagate()),
+          (p) => (p.active = applyDisclosure(p, this.opening, o, this.causal?.ex) && p.store.propagate()),
         );
+      const groupEnds = !o.simultaneousGroup || fresh[index + 1]?.simultaneousGroup !== o.simultaneousGroup;
+      if (groupEnds) {
+        this.causal.finishSimultaneous();
+        const limit = 4096;
+        const remaining = { branches: limit };
+        const settlement = this.causal.finishSettlement(group, this.profiles, remaining, complex);
+        const joined = this.causal.causeJoins !== joins;
+        complex ||= !!settlement || joined;
+        const checkCompound = complex && (!allExplained || !!settlement || joined);
+        const variables = new Set<string>();
+        let unresolved = (settlement?.open ?? groupNeedsHistory) || this.causal.causeBudgetLimited;
+        for (const p of this.profiles) {
+          const result = p.store.finishSettlement(checkCompound && p.active,
+            Math.max(0, remaining.branches));
+          remaining.branches -= result.branches;
+          for (const key of result.keys) variables.add(key);
+          unresolved ||= !result.complete;
+          p.active &&= p.store.consistent;
+        }
+        this.profiles = this.profiles.filter(p => p.active);
+        if (checkCompound) {
+          unresolved ||= this.causal.causeBudgetLimited;
+          this.localCompound = true;
+          this.scope = groupScope ?? { observation: o.sequence, phase: o.phase, kind: 'visible-effect',
+            target: '同时结算', characters: [], rules: [], events: [], skippedCharacters: [],
+            skippedRules: [], skippedEvents: [], conservative: [], deferred: true };
+          compound = this.scope.compound = { variables: [...variables], participants: [...(settlement?.participants ?? [])],
+            branches: this.causal.causeBranches - causeBranches + limit - Math.max(0, remaining.branches), unresolved };
+          if (settlement && !unresolved) {
+            this.scope.needsHistory = false;
+            this.transition.historyCandidates!.length = historyStart;
+          }
+        }
+        if (pendingWrites) for (const apply of pendingWrites) apply();
+        pendingWrites = undefined;
+        group = [];
+      }
       if (size && !this.profiles.length) this.publicContradiction = true;
 
       const removed = this.stats.removed - prior + size - this.profiles.length;
       const needsHistory = !!scope?.needsHistory || (!scope && !publicUpdate);
       this.trace.push({
-        observation: o.sequence, removed,
-        mode: this.joint ? 'joint' : needsHistory ? 'history' : 'local',
-        reason: !wasJoint && this.joint ? '本观察触发联合历史核验' :
+        observation: report.sequence, removed,
+        ...(compound && { compound }),
+        mode: this.joint ? 'joint' : groupEnds && complex ? 'local' : needsHistory ? 'history' : 'local',
+        reason: compound ?
+          (compound.unresolved ? '已核对关联条件，保留尚未区分的解释' : '已联合核对本次结算所涉及的条件与选择') :
           needsHistory ? '公开窗口仍有未建模的历史条件' :
+          scope?.locallyExplained && !removed ? '本条观察已由公开结算解释' :
           scope ? '已按公开盘面传播原因约束' : '更新公开盘面',
         ...(scope?.alternatives?.length && { alternatives: scope.alternatives }),
       });
       if (removed)
         this.deductions.push({
-          observation: this.evidence.observations.length - fresh.length + index + 1,
+          observation: report.sequence,
           removed,
           reason: scope
             ? '按效果、时点与对象分类建立必要原因约束；角色区域只筛选角色来源，无关规则保留。仅在关联约束收紧时继续传播。'
@@ -303,7 +352,8 @@ export class LiveKnowledge {
       return !valid;
     });
     this.finishJointSearch();
-    this.deferred = !this.joint && this.transition.historyCandidates!.length === 0;
+    this.deferred = !this.joint && (this.transition.historyCandidates!.length === 0 ||
+      (this.localCompound && !this.explicitHistory));
     if (this.scope) this.scope.deferred = this.deferred;
   }
   private startJointSearch() {
@@ -317,6 +367,7 @@ export class LiveKnowledge {
   }
   /** Explicit full-history validation, independent of the lightweight local cause pass. */
   verifyAll() {
+    this.explicitHistory = true;
     this.deferred = false;
     if (this.scope) this.scope.deferred = false;
     this.limited = false;
@@ -354,7 +405,8 @@ export class LiveKnowledge {
     return canonical({
       ...setup,
       discussion: 'allowed',
-      x: [...setup.x].sort(),
+      x: setup.module === 'WM' ? setup.x : [...setup.x].sort(),
+      secretAddition: configuredAddition(setup),
       characters: setup.characters
         .map((c) => ({
           ...c,
@@ -371,15 +423,28 @@ export class LiveKnowledge {
     return this.profiles.some(
       (p) =>
         p.y === setup.y &&
+        p.secretAddition === configuredAddition(setup) &&
         canonical([...p.x].sort()) === canonical([...setup.x].sort()) &&
-        [...values].every(([key, value]) => supports(p, { key, value })),
+        [...values].every(([key, value]) => supports(p, { key, value })) &&
+        this.satisfiesSettlement(p, values),
     );
+  }
+  private satisfiesSettlement(p: Profile, values: Map<string,string>) {
+    if (!this.localCompound) return true;
+    const assigned = p.store.clone({checks:0, removed:0, branches:0});
+    for (const [key,value] of values) {
+      const slots = assigned.values(key);
+      assigned.narrow(key, key.startsWith('identity:') ? [...slots].filter(v => shownIdentity(v) === value) : [value]);
+    }
+    return assigned.propagate();
   }
   private record(setup: GameSetup) {
     const key = this.key(setup),
       old = this.records.get(key);
     if (old) return old;
     const values = setupValues(setup);
+    for (const c of setup.characters)
+      if (!c.reverseIdentity && [setup.y,...setup.x].some(r => this.pack.plots[r]?.pair)) values.set('reverse:' + c.id, '无');
     for (const c of setup.characters)
       if (!this.opening.characters.some((v) => v.id === c.id))
         values.set(`area:${c.id}`, c.initialArea ?? this.pack.characters[c.character]!.initial[0]!);
@@ -607,6 +672,9 @@ export class LiveKnowledge {
     }
     for (const c of this.opening.roster ?? this.opening.characters)
       if (c.character === '仙人') parameters['x:' + c.id] = ['非负整数（符号域）'];
+    const delivered = <T extends { observation: number }>(fact: T): T => ({
+      ...fact, observation: this.evidence.observations[fact.observation - 1]?.sequence ?? fact.observation,
+    });
     const verifiedValues = targets.filter((t) => this.verified.has(targetId(t))).length;
     const possible = [...this.records.values()].filter(
       (r) => r.search.result === 'possible',
@@ -646,7 +714,8 @@ export class LiveKnowledge {
       elapsedMs: Math.round(performance.now() - this.started),
       identities,
       impliedIdentities: Object.fromEntries(Object.entries(this.causal?.impliedIdentities ?? {})
-        .filter(([id, fact]) => identities[id]?.length === 1 && identities[id]?.[0] === fact.identity)),
+        .filter(([id, fact]) => identities[id]?.length === 1 && identities[id]?.[0] === fact.identity)
+        .map(([id, fact]) => [id, delivered(fact)])),
       rules: rules.sort(),
       culprits,
       realIncidents,
@@ -666,8 +735,8 @@ export class LiveKnowledge {
       ],
       evidenceThrough: this.evidence.observations.length,
       deductions: this.deductions.slice(-100),
-      scope: this.scope,
-      relations: this.causal?.relations(this.profiles) ?? [],
+      scope: this.scope && delivered(this.scope),
+      relations: this.causal?.relations(this.profiles).map(delivered) ?? [],
       transition: this.transition && {
         ...this.transition,
         newHistoryRoots: this.initializations - this.priorRoots,

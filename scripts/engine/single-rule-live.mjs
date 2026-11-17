@@ -1,5 +1,5 @@
 // Feed a short, local, public observation window directly to the production solver.
-export function abilityWindows({ pack, row, LiveKnowledge, project, state, card, sourceEntry }) {
+export function abilityWindows({ pack, row, LiveKnowledge, initialPlacementView, state, card, sourceEntry }) {
   for (const [name, def] of Object.entries(pack.characters)) {
     const entries = sourceEntry('characters', name).fields['友好能力'] ?? [];
     for (const [index, ability] of def.abilities
@@ -30,7 +30,7 @@ export function abilityWindows({ pack, row, LiveKnowledge, project, state, card,
             for (const c of Object.values(s.characters)) c.area = area;
             peer.counters.paranoia = 3;
             peer.counters.intrigue = 1;
-            const opening = project(s, 'protagonists');
+            const opening = initialPlacementView(s);
             if (name === '转校生' || name === '神灵') {
               // Isolate the threshold after a previously identified character arrives.
               opening.roster = s.setup.characters.map(({ id, character }) => ({ id, character }));
@@ -115,7 +115,7 @@ export function legalHistory({
   configs,
   initialize,
   advance,
-  project,
+  initialPlacementView,
   LiveKnowledge,
   HistorySearch,
   normalizeHistory,
@@ -143,7 +143,7 @@ export function legalHistory({
       b.characters[2].identity = '传谣人';
       let s = initialize(pack, a).state;
       eq(initialize(pack, b).diagnostics, []);
-      const opening = project(s, 'protagonists');
+      const opening = initialPlacementView(s);
       const k = new LiveKnowledge(pack, opening);
       const placements = {
         mastermind: [
@@ -187,7 +187,7 @@ export function legalHistory({
           break;
       }
       eq(s.characters.b.counters.paranoia, 0);
-      const view = project(s, 'protagonists'),
+      const view = initialPlacementView(s),
         history = view.observations;
       eq(
         history.some((o) => o.type === 'declaration' && o.data.character === 'a'),

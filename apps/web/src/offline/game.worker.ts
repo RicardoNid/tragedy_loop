@@ -1,3 +1,4 @@
+import { awaitingFirstPlacement } from '../../../../packages/contracts/src/game';
 import {
   openGame,
   inspectMastermind,
@@ -86,7 +87,7 @@ function dispatch(call: Call) {
     case 'knowledge':
     case 'verifyKnowledge': {
       const view = game.protagonists.p0.view();
-      if (view.phase === 'briefing') return waitingForCharacters(view.revision);
+      if (awaitingFirstPlacement(view)) return waitingForCharacters(view.revision);
       return knowledge(game.host.publicOpening(), view, call.method === 'verifyKnowledge');
     }
   }

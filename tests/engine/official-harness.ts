@@ -7,6 +7,7 @@ import type {
   Command,
   GameSetup,
   Observer,
+  Module,
 } from '../../packages/contracts/src/game.js';
 import { compileOfficial } from '../../packages/content/src/official/compile.js';
 import {
@@ -29,6 +30,16 @@ export const fixtures = fixturesJson as unknown as {
   source: unknown;
   setup: GameSetup;
 }[];
+export function officialScenarioSetup(module: Module, anniversary = false): GameSetup {
+  const setup = structuredClone(fixtures.find((f) => f.setup.module === module)!.setup);
+  setup.anniversary = anniversary;
+  if (anniversary) {
+    if (!setup.characters.some((c) => c.identity === '平民'))
+      setup.characters.push({ id: 'extra', character: '女学生', identity: '平民' });
+    setup.anniversaryFragment = setup.characters.find((c) => c.identity === '平民')!.id;
+  }
+  return setup;
+}
 export const hash = (value: unknown) => createHash('sha256').update(canonical(value)).digest('hex');
 export const observers: Observer[] = ['mastermind', 'p0', 'p1', 'p2', 'protagonists'];
 export const checkpoint = (s: EngineState) => ({

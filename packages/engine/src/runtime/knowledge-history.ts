@@ -1,7 +1,7 @@
 import type { Choice, GameSetup, Observation, PlayerView } from '../../../contracts/src/game.js';
 import { advance, initializeDiscussion } from './engine.js';
 import { canonical, type EngineState, type RulePack } from './model.js';
-import { normalizeHistory } from './reference.js';
+import { normalizeHistory, matchesObservation } from './observation-history.js';
 import { enumerateChoices } from './replay.js';
 import { hasUnsupportedDiagnostic } from './setup.js';
 
@@ -79,7 +79,8 @@ export class HistorySearch {
     if (node && node.normalized.length >= this.evidence.normalized.length) {
       while (node.matched < this.evidence.normalized.length) {
         this.compared++;
-        if (node.normalized[node.matched] !== this.evidence.normalized[node.matched]) break;
+        if (!matchesObservation(node.normalized[node.matched]!, this.evidence.normalized[node.matched]!,
+          node.state.observations.protagonists[node.matched]!)) break;
         node.matched++;
       }
       if (node.matched === this.evidence.normalized.length) {
@@ -110,7 +111,8 @@ export class HistorySearch {
     const end = Math.min(node.normalized.length, this.evidence.normalized.length);
     while (node.matched < end) {
       this.compared++;
-      if (node.normalized[node.matched] !== this.evidence.normalized[node.matched]) {
+      if (!matchesObservation(node.normalized[node.matched]!, this.evidence.normalized[node.matched]!,
+          node.state.observations.protagonists[node.matched]!)) {
         this.active.pop();
         return;
       }
