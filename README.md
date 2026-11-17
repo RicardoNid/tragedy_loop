@@ -160,6 +160,10 @@ pnpm check:decision
 
 `safeChoices` 是所有候选都接受的下一步。只有每名待答角色都有共同正确的答案时，`plan` 才给出可连续提交的完整顺序。周年版因果残片可答平民，AHR 的表里身份按一对核验。LL 主人公 C 在专属提问中须一次提交各日当事人的联合答案。覆盖不足、超出预算或有未建模特规时返回 `unknown`；穷尽输入后无候选返回 `no-candidates`。
 
+## 事件公告与当事人
+
+`pnpm solve:observed products/engine/incident-outcome-example.json` 重建第一轮的医院事故。三名候选中，医生的不安已达界限，公告明确说事件未发生，因此只留下男学生和巫女，共 8 条历史。设置 `incidentEvidence: false` 可逐状态用原正向历史复核。发生公告和效果公告分开处理，即使医院没有密谋、事故没有造成死亡，也保留宣告发生的历史。HSA 的区域事件同时计算角色尸体和区域的受害者标记；隐蔽触发、替班或抑制条件仍有可能时，交给正向重放。
+
 ## 剧作家决策
 
 `pnpm solve:mastermind products/engine/mastermind-policy-example.json` 从剧作家正在选择的时点出发。示例中 FS「守护此地」的学校已有一枚密谋，在「流言四起」中选择学校，轮回末两枚密谋使剧作家获胜。输出的 `policy` 可以交给 `pnpm verify:policy <问题.json> <策略.json>` 独立重放。

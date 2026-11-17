@@ -201,7 +201,7 @@ function* schedules(
       const def = pack.incidents[name];
       if (!def || (name !== shown && name !== '伪造事件')) continue;
       const culprits = (def.crowdThreshold !== undefined ? BOARDS : ids).filter((c) =>
-        kept(!evidence || evidence.allowsCulprit(day, c)),
+        kept(!evidence || evidence.allowsIncident(pack, characters, { day, name, culprit: c })),
       );
       for (const culprit of culprits) {
         tick();
@@ -245,6 +245,7 @@ export function generateSetups(
   domains: readonly SetupDomain[],
   limit: number,
   pruneScript = false,
+  checkIncidents = true,
 ) {
   if (!Number.isSafeInteger(limit) || limit < 0) throw Error('Invalid generation work limit');
   const stats = {
@@ -264,7 +265,7 @@ export function generateSetups(
   const sheet = evidence.sheet;
   // An untranslated component can change what an announcement means. Retain
   // unsupported diagnostics rather than pruning a possibly applicable model.
-  const evidenceRules = pruneScript ? compileScriptEvidence(evidence) : undefined;
+  const evidenceRules = pruneScript ? compileScriptEvidence(evidence, checkIncidents) : undefined;
   const safe =
     evidenceRules?.facts.length &&
     [pack.identities, pack.characters, pack.incidents, pack.plots].every((catalog) =>
@@ -428,5 +429,11 @@ export function generateSetups(
       stats.limited = true;
     }
   }
-  return { setups: generate(), stats };
+  return {
+    setups: generate(),
+    stats,
+    get incidentExamples() {
+      return safe?.incidentExamples ?? [];
+    },
+  };
 }

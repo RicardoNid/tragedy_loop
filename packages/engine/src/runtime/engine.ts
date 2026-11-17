@@ -45,6 +45,7 @@ import {
   type Intent,
 } from './settlement.js';
 import { acceptedIdentities } from './final-answers.js';
+import { incidentPressure, incidentThreshold } from './incident-threshold.js';
 import { initialState, validateSetup } from './setup.js';
 import { commandSchema } from '../../../contracts/src/validation.js';
 
@@ -1316,8 +1317,7 @@ function occur(pack: RulePack, state: EngineState): void {
   const triggered: string[] = [];
   for (const c of culprits) {
     const definition = pack.incidents[i.name]!;
-    let threshold =
-      c.paranoiaLimit + (definition.thresholdOffset ?? 0) * (c.character === '教主' ? 2 : 1);
+    let threshold = incidentThreshold(c.paranoiaLimit, c.character, definition);
     if (
       state.setup.x.includes('灭亡讴歌') &&
       c.identity === '平民' &&
@@ -1339,22 +1339,14 @@ function occur(pack: RulePack, state: EngineState): void {
       Object.values(state.characters).some(
         (t) => t.status === 'alive' && t.identity === '监视者' && t.area === c.area,
       );
-    let paranoia = effective(
-      state,
-      c.id,
-      definition.thresholdCounter ??
-        (pack.module === 'AHR' && state.ex % 2 === 1 ? 'goodwill' : 'paranoia'),
+    const paranoia = incidentPressure(
+      c.counters,
+      c.character,
+      definition,
+      pack.module === 'AHR' && state.ex % 2 === 1,
+      c.identity === '祭品' ||
+        (state.setup.y === '士的宁毒液' && ['连续杀人', '自杀'].includes(i.name)),
     );
-    const ordinaryParanoia =
-      !definition.thresholdCounter && !(pack.module === 'AHR' && state.ex % 2 === 1);
-    if (ordinaryParanoia && c.character === 'AI')
-      paranoia = COUNTERS.reduce((n, k) => n + c.counters[k], 0);
-    else if (
-      ordinaryParanoia &&
-      (c.identity === '祭品' ||
-        (state.setup.y === '士的宁毒液' && ['连续杀人', '自杀'].includes(i.name)))
-    )
-      paranoia += c.counters.intrigue;
     const occurred =
       c.status === 'alive' &&
       !c.flags['no-incidents'] &&

@@ -263,8 +263,15 @@ function App() {
                           'culprit-answers': '整组当事人回答',
                           'initial-answer': '最终决战身份裁定',
                           'personal-role': '本人 Ex',
+                          'incident-outcome': f.occurred ? '事件宣告发生' : '事件宣告未发生',
                         }[f.kind]
                       }
+                    </li>
+                  ))}
+                  {data.scriptPruning.incidentExamples?.map((e) => (
+                    <li key={e.report + '/' + e.culprit}>
+                      若当事人是{target(e.culprit, view)}，事件必然{e.predicted ? '发生' : '不发生'}
+                      ，与观察 {e.report} 矛盾。
                     </li>
                   ))}
                 </ul>

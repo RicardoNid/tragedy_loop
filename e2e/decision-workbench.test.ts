@@ -13,6 +13,19 @@ let server: Awaited<ReturnType<typeof makeDecisionServer>>;
 let browser: Browser;
 let url: string;
 const results = new URL('../test-results/decision-workbench/', import.meta.url);
+test('浏览器展示医院事故未发生的正式公告及已排除剧本数', async () => {
+  const page = await browser.newPage();
+  try {
+    await page.goto(url);
+    await page.getByRole('button', { name: /未发生的医院事故/ }).click();
+    await page.getByText(/剧本剪枝依据/).click();
+    await expect(page.getByText(/观察 .*事件宣告未发生/)).toBeVisible();
+    await expect(page.getByText(/历史重放前排除 1 个剧本/)).toBeVisible();
+    await expect(page.getByText(/若当事人是医生，事件必然发生/)).toBeVisible();
+  } finally {
+    await page.close();
+  }
+});
 
 test('浏览器展示完整日末的公开范围和一个被排除的假设组合', async () => {
   const page = await browser.newPage();

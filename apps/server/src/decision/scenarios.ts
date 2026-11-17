@@ -5,6 +5,12 @@ import type { ObservedQuestion } from '../../../../scripts/engine/observed-game.
 
 export const scenarios: Scenario[] = [
   {
+    id: 'incident-outcome',
+    module: 'FS',
+    title: '未发生的医院事故',
+    description: '医生的不安已达界限，事件阶段却宣布医院事故未发生。检查当事人还能是谁。',
+  },
+  {
     id: 'day-end-observation',
     module: 'BTX',
     title: '两人独处的日末',

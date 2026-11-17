@@ -46,9 +46,11 @@ function resolveInput(input: ObservedQuestion | ReplayQuestion) {
           scriptPruning: {
             skippedSetups: history.prunedSetups ?? 0,
             skippedChoices: generation?.prunedChoices ?? 0,
+            incidentExamples: history.incidentExamples,
             sources: history.scriptEvidence.map((f) => ({
               kind: f.kind,
               ...('report' in f && { report: f.report }),
+              ...(f.kind === 'incident-outcome' && { occurred: f.occurred }),
             })),
           },
         }),

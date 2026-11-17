@@ -26,6 +26,7 @@ export interface ObservedQuestion {
   investigation?: InvestigationOptions;
   historyWorkLimit?: number;
   dayEndAbsence?: boolean;
+  incidentEvidence?: boolean;
   worldLimit?: number;
   workLimit?: number;
   frontierLimit?: number;
@@ -38,6 +39,7 @@ export function resolveObservedCandidates(input: ObservedQuestion) {
     (input.setupDomains !== undefined && !Array.isArray(input.setupDomains)) ||
     typeof input.exhaustiveSetups !== 'boolean' ||
     (input.dayEndAbsence !== undefined && typeof input.dayEndAbsence !== 'boolean') ||
+    (input.incidentEvidence !== undefined && typeof input.incidentEvidence !== 'boolean') ||
     !input.evidence?.sheet ||
     (input.goal &&
       input.goal.kind !== 'game' &&
@@ -59,6 +61,7 @@ export function resolveObservedCandidates(input: ObservedQuestion) {
       input.setupDomains.map((d) => setupDomainSchema.parse(d)),
       input.generationWorkLimit ?? 100000,
       true,
+      input.incidentEvidence,
     );
   const pool = generated?.setups ?? input.setups!.map((s) => setupSchema.parse(s));
   const { states, ...progress } = inferObservedWorlds(
@@ -68,7 +71,7 @@ export function resolveObservedCandidates(input: ObservedQuestion) {
     input.evidence,
     input.historyWorkLimit ?? 50000,
     input.worldLimit ?? 512,
-    { dayEnd: input.dayEndAbsence },
+    { dayEnd: input.dayEndAbsence, incident: input.incidentEvidence },
   );
   const exhaustive = progress.exhaustive && (!generated || generated.stats.complete);
   const candidates = { exhaustive, states };
@@ -78,6 +81,8 @@ export function resolveObservedCandidates(input: ObservedQuestion) {
     ...(generated && { generation: generated.stats }),
     history: {
       ...progress,
+      ...(!progress.incidentExamples?.length &&
+        generated?.incidentExamples.length && { incidentExamples: generated.incidentExamples }),
       exhaustive,
       ...(!progress.reason && !exhaustive && { reason: 'setup-domain' }),
       worlds: states.length,

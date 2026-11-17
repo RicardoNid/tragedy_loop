@@ -33,6 +33,7 @@ export interface InferredWorlds {
   reason?: Reason;
   prunedSetups?: number;
   scriptEvidence?: ScriptEvidence['facts'];
+  incidentExamples?: ScriptEvidence['incidentExamples'];
   dayEndPruning?: DayEndPruning;
 }
 
@@ -59,7 +60,7 @@ export function inferObservedWorlds(
   evidence: DecisionEvidence,
   workLimit: number,
   worldLimit: number,
-  pruning: boolean | { script?: boolean; dayEnd?: boolean } = true,
+  pruning: boolean | { script?: boolean; dayEnd?: boolean; incident?: boolean } = true,
 ): InferredWorlds {
   if (![workLimit, worldLimit].every((n) => Number.isSafeInteger(n) && n >= 0))
     throw Error('Invalid reconstruction limits');
@@ -125,7 +126,7 @@ export function inferObservedWorlds(
 
   const states: EngineState[] = [];
   const constraints = (typeof pruning === 'boolean' ? pruning : pruning.script !== false)
-    ? compileScriptEvidence(evidence)
+    ? compileScriptEvidence(evidence, typeof pruning === 'boolean' || pruning.incident !== false)
     : undefined;
   const dayEnd = (typeof pruning === 'boolean' ? pruning : pruning.dayEnd !== false)
     ? new DayEndIntersection(pack, reports)
@@ -141,6 +142,7 @@ export function inferObservedWorlds(
     exhaustive: !why,
     ...(prunedSetups && { prunedSetups }),
     ...(constraints?.facts.length && { scriptEvidence: constraints.facts }),
+    ...(constraints?.incidentExamples.length && { incidentExamples: constraints.incidentExamples }),
     ...(dayEnd?.stats.checked && { dayEndPruning: dayEnd.stats }),
     ...(why && { reason: why }),
   });
