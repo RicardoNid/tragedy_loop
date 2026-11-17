@@ -80,6 +80,19 @@ export interface Scenario {
   module: Module;
   description: string;
 }
+export interface DayEndPruning {
+  checked: number;
+  compiled: number;
+  excluded: number;
+  windows: {
+    firstReport: number;
+    lastReport: number;
+    loop: number;
+    day: number;
+    branches: number;
+    example: { ability: string; owner: string; roles: Record<string, string> };
+  }[];
+}
 export interface DecisionAnalysis {
   module: Module;
   sheet?: { loops: number; days: number; incidents: { day: number; name: string }[] };
@@ -88,6 +101,7 @@ export interface DecisionAnalysis {
   worlds: number;
   exhaustive: boolean;
   historyWork?: number;
+  dayEndPruning?: DayEndPruning;
   historyReason?: string;
   generatedSetups?: number;
   advice?: PolicyAdvice;

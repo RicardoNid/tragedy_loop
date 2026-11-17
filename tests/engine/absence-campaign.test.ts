@@ -14,12 +14,17 @@ import { clone, type EngineState } from '../../packages/engine/src/runtime/model
 import { observeDayEnd } from '../../packages/engine/src/absence/day-end-history.js';
 import { buildAbsenceSpace, absenceSolutions } from '../../packages/engine/src/absence/index.js';
 import { verifyAbsencePhase } from '../../packages/engine/src/absence/phase-search.js';
+import { DayEndIntersection } from '../../packages/engine/src/decision/day-end-intersection.js';
 
 let totalWindows = 0,
   multipleLoops = 0,
-  games = 0;
+  games = 0,
+  dayEndWindows = 0,
+  applicableBatches = 0;
 after(() =>
-  console.log(`games=${games} multipleLoops=${multipleLoops} closedPhases=${totalWindows}`),
+  console.log(
+    `games=${games} multipleLoops=${multipleLoops} closedPhases=${totalWindows} dayEndWindows=${dayEndWindows} applicableBatches=${applicableBatches}`,
+  ),
 );
 function finalGuess(s: EngineState): Choice {
   if (s.flags['c-guess'])
@@ -39,7 +44,9 @@ function finalGuess(s: EngineState): Choice {
   };
 }
 for (const { id, setup } of fixtures as unknown as { id: string; setup: GameSetup }[]) {
-  for (const initialSeed of [1709, 2039, 2441, 3253, 4027, 5107, 6421, 7919])
+  for (const initialSeed of [
+    1709, 2039, 2441, 3253, 4027, 5107, 6421, 7919, 8731, 9341, 10243, 12269,
+  ])
     test(id + '/' + initialSeed + ' 合法开局逐阶段核验', () => {
       const pack = compileOfficial(setup.module, setup.anniversary);
       const init = initializeDiscussion(pack, setup, 0);
@@ -144,6 +151,16 @@ for (const { id, setup } of fixtures as unknown as { id: string; setup: GameSetu
             );
         }
         if (root.phase === 'day-end' && cursor > 0) {
+          const batch = clone(root);
+          drive(pack, batch, 1);
+          const intersection = new DayEndIntersection(pack, state.observations.protagonists);
+          assert.equal(
+            intersection.excludes(batch, batch.observations.protagonists.length),
+            false,
+            id + '/must retain actual history',
+          );
+          dayEndWindows++;
+          applicableBatches += intersection.stats.checked;
           const entry = { ...root, ...setup, characters: Object.values(root.characters) };
           const w = observeDayEnd(entry, [
             root.observations.public[cursor - 1]!,

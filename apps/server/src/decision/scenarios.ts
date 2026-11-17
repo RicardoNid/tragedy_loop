@@ -5,6 +5,13 @@ import type { ObservedQuestion } from '../../../../scripts/engine/observed-game.
 
 export const scenarios: Scenario[] = [
   {
+    id: 'day-end-observation',
+    module: 'BTX',
+    title: '两人独处的日末',
+    description:
+      '第一天日末，医院里只有医生和住院患者，两人都活到了次日。核对哪些身份组合仍能解释这个结果。',
+  },
+  {
     id: 'investigation',
     module: 'BTX',
     title: '职员的证言',

@@ -226,6 +226,26 @@ function App() {
               </div>
             )}
             {data?.historyReason && <p>{reasons[data.historyReason] ?? data.historyReason}</p>}
+            {!!data?.dayEndPruning?.excluded && (
+              <details className="observations">
+                <summary>日末静默排除 {number(data.dayEndPruning.excluded)} 条历史</summary>
+                <ul>
+                  {data.dayEndPruning.windows.map((w) => (
+                    <li key={w.firstReport}>
+                      第 {w.loop} 轮回第 {w.day} 天 · 观察 {w.firstReport} 至 {w.lastReport} · 排除{' '}
+                      {w.branches} 条
+                      <p>
+                        排除示例　
+                        {Object.entries(w.example.roles)
+                          .map(([id, role]) => target(id, view) + '为' + role)
+                          .join('、')}
+                        （{w.example.ability}）
+                      </p>
+                    </li>
+                  ))}
+                </ul>
+              </details>
+            )}
             {data?.scriptPruning && (
               <details className="observations">
                 <summary>剧本剪枝依据（{data.scriptPruning.sources.length}）</summary>
