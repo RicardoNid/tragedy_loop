@@ -1,4 +1,9 @@
-import type { Choice, GameSetup, Observation, Protagonist } from '../../../contracts/src/game.js';
+import type {
+  DecisionGoal,
+  PolicyFailure,
+  PublicVerification,
+} from '../../../contracts/src/decision.js';
+import type { Choice, GameSetup } from '../../../contracts/src/game.js';
 import { drive } from '../runtime/engine.js';
 import { canonical, clone, type EngineState, type RulePack } from '../runtime/model.js';
 import { enumerateChoices, type RecordedChoice } from '../runtime/replay.js';
@@ -13,29 +18,8 @@ import {
   type PolicyCandidates,
 } from './position.js';
 
-export type DecisionGoal =
-  | { kind: 'game' }
-  | { kind: 'seat-win'; seat: Protagonist }
-  | { kind: 'survival'; target: string; maxAbilities?: number };
-type Failure =
-  | 'lost'
-  | 'death'
-  | 'left-play'
-  | 'illegal-choice'
-  | 'missing-response'
-  | 'ambiguous-response'
-  | 'invalid-node'
-  | 'ability-limit';
-export interface PolicyVerification {
-  status: 'verified' | 'counterexample' | 'unknown' | 'no-candidates';
-  work: number;
-  winningLeaves: number;
-  reason?: Failure | 'limit' | 'unsupported' | 'incomplete';
-  counterexample?: {
-    at: Pick<EngineState, 'loop' | 'day' | 'phase'>;
-    reports: Observation[];
-    question?: ReturnType<typeof observedMenu>;
-  };
+export type { DecisionGoal } from '../../../contracts/src/decision.js';
+export interface PolicyVerification extends PublicVerification {
   hostWitness?: {
     candidate: number;
     rootCommands: number;
@@ -145,7 +129,7 @@ export function verifyPolicy(
       [{ s: start, abilities: 0, audit: start.audit.length }][Symbol.iterator](),
     ];
     const since = root.observations.protagonists.length;
-    function fail(reason: Failure, s: EngineState, controlled = false): PolicyVerification {
+    function fail(reason: PolicyFailure, s: EngineState, controlled = false): PolicyVerification {
       return {
         ...result('counterexample', reason),
         counterexample: {

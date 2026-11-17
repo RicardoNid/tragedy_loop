@@ -24,6 +24,7 @@ jobs:
       - run: pnpm check
       - run: pnpm check:absence
       - run: pnpm check:decision
+      - run: pnpm check:decision-ui
       - name: Verify generated absence report
         run: |
           pnpm exec tsx scripts/engine/absence-report.ts

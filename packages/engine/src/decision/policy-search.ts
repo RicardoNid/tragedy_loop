@@ -1,4 +1,6 @@
 import type { Choice, Protagonist } from '../../../contracts/src/game.js';
+import type { PolicyNode, PolicyAdvice } from '../../../contracts/src/decision.js';
+export type { PolicyNode, PolicyAdvice } from '../../../contracts/src/decision.js';
 import { drive } from '../runtime/engine.js';
 import { canonical, clone, type EngineState, type RulePack } from '../runtime/model.js';
 import { enumerateChoices } from '../runtime/replay.js';
@@ -6,20 +8,6 @@ import { observedMenu, submitChoice, rulesSupported, type PolicyCandidates } fro
 import { terminalProofKey, TerminalProofs } from './terminal-proofs.js';
 
 type View = ReturnType<typeof observedMenu>;
-export interface PolicyNode {
-  seat?: Protagonist;
-  choice: Choice;
-  /** Observer-local cursor at the moment of issuing choice. */
-  reportsBefore: number;
-  responses: { when: View; then: PolicyNode }[];
-}
-export interface PolicyAdvice {
-  status: 'guaranteed' | 'no-guaranteed-policy' | 'unknown' | 'no-candidates';
-  work: number;
-  reusedProofs?: number;
-  reason?: 'limit' | 'unsupported' | 'incomplete';
-  policy?: PolicyNode;
-}
 type Branch = { state: EngineState; audit: number };
 type Outcome = 'lose' | 'unsupported' | 'limit';
 
