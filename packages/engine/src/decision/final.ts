@@ -1,5 +1,6 @@
 import type { EngineState, RulePack } from '../runtime/model.js';
 import { canonical } from '../runtime/model.js';
+import { visibleReport } from './position.js';
 import { acceptedIdentities, culpritAnswer, type FinalGuess } from '../runtime/final-answers.js';
 
 export interface FinalAdvice {
@@ -29,7 +30,7 @@ function answers(pack: RulePack, state: EngineState) {
     incidents: state.setup.incidents
       .map((i) => ({ day: i.day, name: i.publicName ?? i.name }))
       .sort((a, b) => a.day - b.day),
-    observations: state.observations.protagonists,
+    observations: state.observations.protagonists.map(visibleReport),
   };
   if (state.flags['c-guess']) {
     const joint = culpritAnswer(state);
