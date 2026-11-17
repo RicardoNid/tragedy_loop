@@ -18,9 +18,111 @@ import {
   type ObservedQuestion,
 } from '../../scripts/engine/observed-game.js';
 
-const q: ObservedQuestion = JSON.parse(
+const full: ObservedQuestion = JSON.parse(
   readFileSync(new URL('../../products/engine/loop-grant-example.json', import.meta.url), 'utf8'),
 );
+const q = { ...full, setups: full.setups!.filter((s) => s.x.includes('流言四起')) };
+test('隐藏规则 X 和周年身份交叉：按布局提前排除，所有存活历史逐个相等', () => {
+  const four = full.setups!;
+  const question = full;
+  const fast = resolveObservedCandidates(question),
+    slow = resolveObservedCandidates({ ...question, loopGrantEvidence: false });
+  assert.ok(fast.candidates.exhaustive && slow.candidates.exhaustive);
+  assert.deepEqual(
+    new Set(fast.candidates.states.map(canonical)),
+    new Set(slow.candidates.states.map(canonical)),
+  );
+  assert.equal(fast.candidates.states.length, 16);
+  assert.equal(fast.history.prunedSetups, 3);
+  assert.ok(fast.history.work < slow.history.work);
+  assert.ok(
+    fast.candidates.states.every(
+      (s) => s.setup.x[0] === '流言四起' && s.setup.anniversaryFragment === 'girl',
+    ),
+  );
+  const one = four[0]!;
+  const domain = {
+    plots: [
+      { y: one.y, x: one.x },
+      { y: one.y, x: ['超越世界线'] },
+    ],
+    characters: one.characters.map((c) => ({
+      id: c.id,
+      character: c.character,
+      roles: [c.identity],
+    })),
+  };
+  const generated = generateSetups(fast.pack, q.evidence, [domain], 5000, true, true, true);
+  const plain = generateSetups(fast.pack, q.evidence, [domain], 5000, true, true, false);
+  assert.equal([...generated.setups].length, 1);
+  assert.equal([...plain.setups].length, 4);
+  assert.ok(
+    generated.stats.complete && plain.stats.complete && generated.stats.work < plain.stats.work,
+  );
+});
+
+test('单轮、奇偶轮和偶数最终轮授牌的公开子集与规则文字逐一对照', () => {
+  const pack = compileOfficial('FS', true);
+  for (const loops of [1, 2, 3, 4])
+    for (let loop = 1; loop <= loops; loop++) {
+      const setup = clone(q.setups![0]!);
+      setup.loops = loops;
+      setup.x = ['超越世界线'];
+      const init = initializeDiscussion(pack, setup);
+      assert.ok(init.state, JSON.stringify(init.diagnostics));
+      const s = init.state,
+        d = s.pending!;
+      s.loop = loop;
+      const next = advance(pack, s, d.actor, {
+        id: 'continue',
+        expectedRevision: s.revision,
+        decisionId: d.id,
+        choice: { kind: 'continue' },
+      });
+      assert.equal(next.status, 'ok');
+      const actual = next.state.observations.protagonists.filter((o) => o.type === 'card-grant');
+      const expected = [
+        ...(loop % 2 === 0 ? ['mastermind/despair+1'] : []),
+        ...(loop === loops ? ['p0/hope+1', 'p1/hope+1', 'p2/hope+1'] : []),
+      ];
+      assert.deepEqual(actual.map((o) => o.data.owner + '/' + o.data.kind).sort(), expected.sort());
+      const boundary = (loop: number, phase: Observation['phase']): Observation => ({
+        type: 'boundary',
+        day: 1,
+        loop,
+        phase,
+        data: { phase },
+        sequence: 0,
+      });
+      const head =
+        loop === 1 ? [] : [boundary(loop - 1, 'loop-start'), boundary(loop - 1, 'loop-end')];
+      for (let mask = 0; mask < 16; mask++) {
+        const reports = [...head, boundary(loop, 'discussion'), boundary(loop, 'loop-start')];
+        for (const [i, owner] of ['p0', 'p1', 'p2', 'mastermind'].entries()) {
+          if (mask & (1 << i))
+            reports.push({
+              ...boundary(loop, 'loop-start'),
+              type: 'card-grant',
+              data: { owner, kind: i === 3 ? 'despair+1' : 'hope+1' },
+            });
+        }
+        reports.push(boundary(loop, 'day-start'));
+        reports.forEach((o, i) => (o.sequence = i + 1));
+        const wanted = [
+          ...(loop % 2 === 0 && !(mask & 8) ? ['despair+1'] : []),
+          ...(loop === loops && (mask & 7) !== 7 ? ['hope+1'] : []),
+        ];
+        assert.deepEqual(
+          loopGrantEvidence(reports, loops)
+            .filter((f) => f.kind === 'missing-plot-grant')
+            .map((f) => f.grant)
+            .sort(),
+          wanted.sort(),
+        );
+        assert.deepEqual(loopGrantEvidence(reports.slice(0, -1), loops), []);
+      }
+    }
+});
 test('跨轮回实局：职员有两友好，女学生一友好；生成与重放得到同一组完整历史', () => {
   const plain = resolveObservedCandidates({ ...q, loopGrantEvidence: false });
   const fast = resolveObservedCandidates(q);
@@ -194,5 +296,12 @@ test('AHR 临时工继承完整身份两面，里世界及最终两面回答逐�
       choice: { ...correct, reverseIdentity: back },
     });
     assert.equal(r.state.winner, back === '杀人狂' ? 'protagonists' : 'mastermind');
+  }
+});
+
+test('六个周年模组和两个原生模组都配置一名传谣人', () => {
+  for (const module of ['FS', 'BTX', 'MZ', 'MC', 'HSA', 'WM', 'AHR', 'LL'] as const) {
+    const pack = compileOfficial(module, !['AHR', 'LL'].includes(module));
+    assert.deepEqual(pack.plots['超越世界线']!.identities, { 传谣人: 1 }, module);
   }
 });

@@ -383,6 +383,7 @@ export function generateSetups(
             stats.unsupported = true;
             continue;
           }
+          if (!kept(!safe || safe.allowsPlots(layout.x))) continue;
           const alternate = layout.alternateY
             ? [layout.alternateY]
             : layout.x.includes('疯狂的真相')

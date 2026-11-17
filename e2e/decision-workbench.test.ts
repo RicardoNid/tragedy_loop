@@ -65,7 +65,9 @@ test('第二轮缺少希望牌，浏览器说明排除职员所依赖的两轮�
     await page.getByRole('button', { name: /第二轮缺少的希望牌/ }).click();
     await page.getByText(/剧本剪枝依据/).click();
     await expect(page.getByText(/观察 35.*观察 29.*职员.*三名主人公希望牌/)).toBeVisible();
-    await expect(page.getByText(/历史重放前排除 1 个剧本/)).toBeVisible();
+    await expect(page.getByText(/缺少偶数轮剧作家的绝望牌.*超越世界线/)).toBeVisible();
+    await expect(page.getByText(/缺少最终轮三名主人公的希望牌.*超越世界线/)).toBeVisible();
+    await expect(page.getByText(/历史重放前排除 3 个剧本/)).toBeVisible();
   } finally {
     await page.close();
   }

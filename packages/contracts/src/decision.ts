@@ -132,7 +132,9 @@ export interface DecisionAnalysis {
         | 'initial-answer'
         | 'personal-role'
         | 'incident-outcome'
-        | 'missing-loop-grant';
+        | 'missing-loop-grant'
+        | 'missing-plot-grant';
+      plot?: '超越世界线';
       character?: string;
       grant?: 'hope+1' | 'despair+1';
       endReport?: number;
