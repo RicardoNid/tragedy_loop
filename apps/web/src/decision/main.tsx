@@ -16,7 +16,14 @@ import type { InvestigationOptions } from '../../../../packages/contracts/src/in
 import './style.css';
 
 type Source = { scenario: string } | { question: unknown; name: string };
-type Mode = 'inspect' | 'solve' | 'verify' | 'investigate' | 'action';
+type Mode =
+  | 'inspect'
+  | 'solve'
+  | 'verify'
+  | 'investigate'
+  | 'action'
+  | 'coverage'
+  | 'verify-coverage';
 const number = (n: number) => n.toLocaleString('zh-CN');
 function save(policy: PolicyNode) {
   const url = URL.createObjectURL(
@@ -72,6 +79,9 @@ function App() {
       setData((d) => d && { ...d, advice: undefined, verification: undefined, opening: undefined });
     }
     if (mode === 'verify') setData((d) => d && { ...d, verification: undefined });
+    if (mode === 'coverage')
+      setData((d) => d && { ...d, coverage: undefined, coverageCheck: undefined });
+    if (mode === 'verify-coverage') setData((d) => d && { ...d, coverageCheck: undefined });
     if (mode === 'investigate') setData((d) => d && { ...d, investigation: undefined });
     try {
       if (limit && (!/^\d+$/.test(limit) || Number(limit) > 1000000))
@@ -80,7 +90,7 @@ function App() {
         mode,
         ...('scenario' in input ? { scenario: input.scenario } : { question: input.question }),
         ...(limit && { workLimit: Number(limit) }),
-        ...(mode === 'verify' && { policy: chosen }),
+        ...((mode === 'verify' || mode === 'verify-coverage') && { policy: chosen }),
         ...(investigation && { investigation }),
         ...(mode === 'action' && { choice: opening }),
       };
@@ -321,6 +331,63 @@ function App() {
                     ? '正在逐分支复核…'
                     : '正在推演候选…')}
             </div>
+            {data && view && (
+              <details className="opening coverage">
+                <summary>最多可以覆盖几个剧本</summary>
+                <p>同一策略在某个剧本的所有相容历史和对手应对中都达标，才计入该剧本。</p>
+                <button disabled={!!busy} onClick={() => void run('coverage')}>
+                  求解剧本覆盖
+                </button>
+                {data.coverage && (
+                  <div className="verdict">
+                    <strong>
+                      {data.coverage.status === 'optimal'
+                        ? '最多可保证 ' +
+                          data.coverage.lower +
+                          ' / ' +
+                          data.coverage.scripts +
+                          ' 个剧本'
+                        : data.coverage.status === 'bounded'
+                          ? '已证实 ' +
+                            data.coverage.lower +
+                            ' 个，上界 ' +
+                            data.coverage.upper +
+                            ' 个'
+                          : data.coverage.status === 'no-candidates'
+                            ? '没有相容候选'
+                            : '剧本覆盖尚无法判定'}
+                    </strong>
+                    {data.coverage.reason && <p>{reasons[data.coverage.reason]}</p>}
+                    {data.coverage.policy && (
+                      <>
+                        <Policy
+                          key={JSON.stringify(data.coverage.policy.choice)}
+                          policy={data.coverage.policy}
+                          rootView={view}
+                        />
+                        <div className="tools">
+                          <button
+                            disabled={!!busy}
+                            onClick={() =>
+                              void run('verify-coverage', source, data.coverage!.policy)
+                            }
+                          >
+                            逐剧本复核
+                          </button>
+                          <button onClick={() => save(data.coverage!.policy!)}>下载覆盖策略</button>
+                        </div>
+                      </>
+                    )}
+                  </div>
+                )}
+                {data.coverageCheck && (
+                  <p role="status">
+                    复核通过 {data.coverageCheck.verified} 个剧本，找到反例{' '}
+                    {data.coverageCheck.refuted} 个，待定 {data.coverageCheck.unresolved} 个。
+                  </p>
+                )}
+              </details>
+            )}
             {data?.advice && (
               <div className="verdict">
                 {data.opening && <p>指定行动　{action(data.opening, view)}</p>}

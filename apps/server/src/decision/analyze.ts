@@ -20,12 +20,16 @@ import {
   type ObservedQuestion,
 } from '../../../../scripts/engine/observed-game.js';
 import { loadScenario } from './scenarios.js';
+import {
+  maximizeCoverage,
+  verifyCoverage,
+} from '../../../../packages/engine/src/decision/coverage.js';
 import { cardCount } from '../../../../packages/engine/src/runtime/engine.js';
 import { readOpening } from '../../../../scripts/engine/evaluate-action.js';
 import type { Choice } from '../../../../packages/contracts/src/game.js';
 
 export interface AnalysisRequest {
-  mode: 'inspect' | 'solve' | 'verify' | 'investigate' | 'action';
+  mode: 'inspect' | 'solve' | 'verify' | 'investigate' | 'action' | 'coverage' | 'verify-coverage';
   choice?: Choice;
   investigation?: InvestigationOptions;
   scenario?: string;
@@ -66,7 +70,15 @@ function resolveInput(input: ObservedQuestion | ReplayQuestion) {
 export function analyze(request: AnalysisRequest): DecisionAnalysis {
   if (
     !request ||
-    !['inspect', 'solve', 'verify', 'investigate', 'action'].includes(request.mode) ||
+    ![
+      'inspect',
+      'solve',
+      'verify',
+      'investigate',
+      'action',
+      'coverage',
+      'verify-coverage',
+    ].includes(request.mode) ||
     (request.scenario !== undefined) === (request.question !== undefined)
   )
     throw Error('请选择一个示例或导入一份问题');
@@ -135,6 +147,12 @@ export function analyze(request: AnalysisRequest): DecisionAnalysis {
   if (request.mode === 'verify') {
     if (!request.policy) throw Error('请选择待复核的策略');
     out.verification = verifyPolicy(pack, candidates, request.policy, goal, workLimit);
+  }
+  if (request.mode === 'coverage')
+    out.coverage = maximizeCoverage(pack, candidates, goal, workLimit, 256, input.frontierLimit);
+  if (request.mode === 'verify-coverage') {
+    if (!request.policy) throw Error('请选择待复核的策略');
+    out.coverageCheck = verifyCoverage(pack, candidates, goal, request.policy, workLimit);
   }
   if (request.mode === 'investigate') {
     if (

@@ -40,20 +40,7 @@ function answers(pack: RulePack, state: EngineState) {
       choices: [{ kind: 'guess-culprits', answers: joint }] as FinalGuess[],
     };
   }
-  const guessed = new Set<string>(JSON.parse(state.flags.guessed ?? '[]'));
-  const roster = Object.values(state.characters)
-    .filter((c) => c.status !== 'absent' && !guessed.has(c.id))
-    .sort((a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0));
-  if (!roster.length) throw Error('Empty pending identity question');
-  const reverse = new Map(state.setup.characters.map((c) => [c.id, c.reverseIdentity]));
-  const choices: FinalGuess[] = roster.flatMap((c) =>
-    acceptedIdentities(pack, c.initialIdentity).map((identity) => ({
-      kind: 'guess' as const,
-      character: c.id,
-      identity,
-      ...(reverse.get(c.id) && { reverseIdentity: reverse.get(c.id) }),
-    })),
-  );
+  const { roster, choices } = ordinaryAnswers(pack, state);
   return {
     signature: canonical({
       ...sheet,
@@ -63,6 +50,33 @@ function answers(pack: RulePack, state: EngineState) {
     count: roster.length,
     choices,
   };
+}
+function ordinaryAnswers(pack: RulePack, state: EngineState) {
+  const guessed = new Set<string>(JSON.parse(state.flags.guessed ?? '[]'));
+  const roster = Object.values(state.characters)
+    .filter((c) => c.status !== 'absent' && !guessed.has(c.id))
+    .sort((a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0));
+  if (!roster.length) throw Error('Empty pending identity question');
+  const reverse = new Map(state.setup.characters.map((c) => [c.id, c.reverseIdentity]));
+  const choices = roster.flatMap((c) =>
+    acceptedIdentities(pack, c.initialIdentity).map((identity) => ({
+      kind: 'guess' as const,
+      character: c.id,
+      identity,
+      ...(reverse.get(c.id) && { reverseIdentity: reverse.get(c.id) }),
+    })),
+  );
+  return { roster, choices };
+}
+
+/** Maximum common ordinary answer class. Saying civilian is accepted both for
+ * civilian and an anniversary fragment. The reverse side must still be exact. */
+export function ordinaryAnswerClass(pack: RulePack, state: EngineState) {
+  const slots = new Map<string, FinalGuess>();
+  for (const c of ordinaryAnswers(pack, state).choices) {
+    if (!slots.has(c.character) || c.identity === '平民') slots.set(c.character, c);
+  }
+  return canonical([...slots.values()]);
 }
 
 /** Host-side intersection over viable worlds for one observed question. A correct ordinary

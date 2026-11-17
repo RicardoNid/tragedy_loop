@@ -1,6 +1,8 @@
 {
   "extends": "./tsconfig.absence.json",
   "include": [
+    "./script-coverage.test.ts",
+    "../../scripts/engine/script-coverage.ts",
     "./evaluate-action.test.ts",
     "../../scripts/engine/evaluate-action.ts",
     "./incident-evidence.test.ts",

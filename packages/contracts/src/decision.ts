@@ -12,6 +12,7 @@ import type {
   PublicCharacter,
 } from './game.js';
 import type { InvestigationOptions, InvestigationResult } from './investigation.js';
+import type { CoverageResult, CoverageCheck } from './coverage.js';
 
 export type DecisionGoal =
   | { kind: 'game' }
@@ -102,6 +103,8 @@ export interface IncidentConflict {
   predicted: boolean;
 }
 export interface DecisionAnalysis {
+  coverage?: CoverageResult;
+  coverageCheck?: CoverageCheck;
   opening?: Choice;
   actionInput?: { cardCount?: number; identities?: string[] };
   module: Module;
