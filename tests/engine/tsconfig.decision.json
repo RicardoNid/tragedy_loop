@@ -1,6 +1,8 @@
 {
   "extends": "./tsconfig.absence.json",
   "include": [
+    "./day-policy.test.ts",
+    "../../scripts/engine/day-policy.ts",
     "./day-survival.test.ts",
     "../../scripts/engine/day-survival.ts",
     "./final-decision.test.ts",
