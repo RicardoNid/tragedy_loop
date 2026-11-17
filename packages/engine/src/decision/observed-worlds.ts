@@ -10,6 +10,7 @@ import { drive, initialize, initializeDiscussion } from '../runtime/engine.js';
 import { canonical, type EngineState, type RulePack } from '../runtime/model.js';
 import { cardsAtTargets, enumerateChoices } from '../runtime/replay.js';
 import { hasUnsupportedDiagnostic } from '../runtime/setup.js';
+import { compileScriptEvidence, type ScriptEvidence } from './script-evidence.js';
 import {
   observeQuestion,
   publicQuestion,
@@ -28,6 +29,8 @@ export interface InferredWorlds {
   work: number;
   commands: number;
   reason?: Reason;
+  prunedSetups?: number;
+  scriptEvidence?: ScriptEvidence['facts'];
 }
 
 function placements(o: Observation | undefined): MarkedCard[] | undefined {
@@ -53,6 +56,7 @@ export function inferObservedWorlds(
   evidence: DecisionEvidence,
   workLimit: number,
   worldLimit: number,
+  pruneScript = true,
 ): InferredWorlds {
   if (![workLimit, worldLimit].every((n) => Number.isSafeInteger(n) && n >= 0))
     throw Error('Invalid reconstruction limits');
@@ -117,6 +121,8 @@ export function inferObservedWorlds(
     sheet = canonical(evidence.sheet);
 
   const states: EngineState[] = [];
+  const constraints = pruneScript ? compileScriptEvidence(evidence) : undefined;
+  let prunedSetups = 0;
   let work = 0,
     commands = 0;
   let reason: Reason | undefined = exhaustiveSetups ? undefined : 'setup-coverage';
@@ -125,6 +131,8 @@ export function inferObservedWorlds(
     work,
     commands,
     exhaustive: !why,
+    ...(prunedSetups && { prunedSetups }),
+    ...(constraints?.facts.length && { scriptEvidence: constraints.facts }),
     ...(why && { reason: why }),
   });
 
@@ -166,12 +174,6 @@ export function inferObservedWorlds(
     if (work >= workLimit) return result('work-limit');
     work++;
     if (canonical(publicSheet(setup)) !== sheet) continue;
-    if (
-      evidence.seat &&
-      evidence.view.personalRole &&
-      setup.privateRoles?.[evidence.seat] !== evidence.view.personalRole
-    )
-      continue;
     const key = canonical(setup);
     if (seenSetups.has(key)) continue;
     seenSetups.add(key);
@@ -183,6 +185,12 @@ export function inferObservedWorlds(
     const init = start(pack, setup, 0);
     if (!init.state) {
       if (hasUnsupportedDiagnostic(init.diagnostics)) reason = 'unsupported';
+      continue;
+    }
+    // Keep official validation and unsupported diagnostics ahead of static
+    // deductions. Initial-state identities include the part-timer replacement.
+    if (constraints && !constraints.allowsState(pack, init.state)) {
+      prunedSetups++;
       continue;
     }
     const stack: Iterator<Branch | 'limit'>[] = [

@@ -226,6 +226,30 @@ function App() {
               </div>
             )}
             {data?.historyReason && <p>{reasons[data.historyReason] ?? data.historyReason}</p>}
+            {data?.scriptPruning && (
+              <details className="observations">
+                <summary>剧本剪枝依据（{data.scriptPruning.sources.length}）</summary>
+                <p>
+                  生成时跳过 {number(data.scriptPruning.skippedChoices)} 个取值，历史重放前排除{' '}
+                  {number(data.scriptPruning.skippedSetups)} 个剧本。
+                </p>
+                <ul>
+                  {data.scriptPruning.sources.map((f, i) => (
+                    <li key={i}>
+                      {f.report ? '观察 ' + f.report + ' · ' : ''}
+                      {
+                        {
+                          culprit: '事件当事人公告',
+                          'culprit-answers': '整组当事人回答',
+                          'initial-answer': '最终决战身份裁定',
+                          'personal-role': '本人 Ex',
+                        }[f.kind]
+                      }
+                    </li>
+                  ))}
+                </ul>
+              </details>
+            )}
             <div className="controls">
               <button
                 className="primary"

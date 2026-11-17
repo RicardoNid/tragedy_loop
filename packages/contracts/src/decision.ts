@@ -94,4 +94,12 @@ export interface DecisionAnalysis {
   verification?: PublicVerification;
   suggestedInvestigation?: InvestigationOptions;
   investigation?: { options: InvestigationOptions; result: InvestigationResult };
+  scriptPruning?: {
+    skippedSetups: number;
+    skippedChoices: number;
+    sources: {
+      kind: 'culprit' | 'culprit-answers' | 'initial-answer' | 'personal-role';
+      report?: number;
+    }[];
+  };
 }
