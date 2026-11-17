@@ -73,6 +73,19 @@ pnpm solve:game products/engine/game-policy-example.json
 
 运行 `pnpm bench:decision` 可从这份 FS 示例的暗置记录重建全部 720 种分配，再分别关闭和打开终局证明缓存。两次搜索使用相同的行动顺序，均选在学校禁止密谋；关闭缓存用了 304560 步，打开后用了 18816 步，复用了 1436 次证明。记录重建另计 5770 步。只有从同一规则状态出发、在下次需要主人公选择前已能判定的终局才可复用。翻牌后仍需要选择医生目标等行动时，每种可见观察都保留自己的应对。
 
+### 复核一份策略
+
+在仓库根目录保存求解结果，再用同一份问题逐步检查策略树。下面两条命令适用于 PowerShell 7 和 Bash。
+
+```bash
+pnpm --silent solve:game products/engine/game-policy-example.json > policy.json
+pnpm verify:policy products/engine/game-policy-example.json policy.json
+```
+
+复核入口接受整局、LL 个人和当日保人策略，以及从完整观察重建的问题。它在每个主人公提问处按可见记录匹配唯一应对，在其余提问处展开对手选择，直接运行正向规则直到目标达成或落空。`verified` 表示所有输入候选和后续分支均通过。`winningLeaves` 统计到达目标的分支次数，同一剧本可能产生多个分支。`workLimit` 同时适用于这里的正向复核，默认 100000；较复杂的成功策略可能比搜索时需要更多复核步数。
+
+`counterexample` 随附发生问题的轮、日、阶段及从起点新增的可见记录，可区分败局、角色死亡、缺失或重复应对、指令非法等情形。只掌握部分世界时，一个实际反例仍能推翻策略，其余情况保留 `unknown`。宿主可以在命令末尾加 `--host-witness` 获取含真实剧本、暗牌和对手选择的重放，适合在揭晓后复盘。
+
 ### LL 个人获胜
 
 ```bash

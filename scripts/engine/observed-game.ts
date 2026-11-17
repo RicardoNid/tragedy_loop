@@ -13,24 +13,22 @@ import {
 import { observeQuestion } from '../../packages/engine/src/decision/position.js';
 import { findDayPolicy } from '../../packages/engine/src/decision/day-policy.js';
 import { findWinningPolicy } from '../../packages/engine/src/decision/game-policy.js';
+import type { DecisionGoal } from '../../packages/engine/src/decision/verify-policy.js';
 import { replayCandidates, type CandidateReplay } from './candidate-replays.js';
 
-type Goal =
-  | { kind: 'game' }
-  | { kind: 'seat-win'; seat: Protagonist }
-  | { kind: 'survival'; target: string; maxAbilities?: number };
-export function adviseObservedGame(input: {
+export interface ObservedQuestion {
   setups?: GameSetup[];
   setupDomains?: SetupDomain[];
   generationWorkLimit?: number;
   exhaustiveSetups: boolean;
   evidence: DecisionEvidence;
-  goal?: Goal;
+  goal?: DecisionGoal;
   historyWorkLimit?: number;
   worldLimit?: number;
   workLimit?: number;
   frontierLimit?: number;
-}) {
+}
+export function resolveObservedCandidates(input: ObservedQuestion) {
   if (
     !input ||
     Array.isArray(input.setups) === Array.isArray(input.setupDomains) ||
@@ -69,6 +67,21 @@ export function adviseObservedGame(input: {
   );
   const exhaustive = progress.exhaustive && (!generated || generated.stats.complete);
   const candidates = { exhaustive, states };
+  return {
+    pack,
+    candidates,
+    ...(generated && { generation: generated.stats }),
+    history: {
+      ...progress,
+      exhaustive,
+      ...(!progress.reason && !exhaustive && { reason: 'setup-domain' }),
+      worlds: states.length,
+    },
+  };
+}
+
+export function adviseObservedGame(input: ObservedQuestion) {
+  const { pack, candidates, ...stats } = resolveObservedCandidates(input);
   const workLimit = input.workLimit ?? 10000;
   const advice =
     input.goal?.kind === 'survival'
@@ -80,16 +93,7 @@ export function adviseObservedGame(input: {
           input.frontierLimit ?? 512,
           input.goal?.kind === 'seat-win' ? input.goal.seat : undefined,
         );
-  return {
-    ...(generated && { generation: generated.stats }),
-    history: {
-      ...progress,
-      exhaustive,
-      ...(!progress.reason && !exhaustive && { reason: 'setup-domain' }),
-      worlds: states.length,
-    },
-    advice,
-  };
+  return { ...stats, advice };
 }
 
 /** A trusted host can export the observation without exporting scripts, opponent

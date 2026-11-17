@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { clone, canonical } from '../../packages/engine/src/runtime/model.js';
 import { findWinningPolicy } from '../../packages/engine/src/decision/game-policy.js';
+import { verifyPolicy } from '../../packages/engine/src/decision/verify-policy.js';
 import {
   nextPolicyStep,
   type PolicyNode,
@@ -208,6 +209,10 @@ test('同样的暗置目标，医院与学校的复合败北条件；四种牌�
         mask + '/' + secondBlock,
       );
       if (advice.policy) {
+        assert.equal(
+          verifyPolicy(set[0]!.l.pack, candidates, advice.policy, { kind: 'game' }, 20000).status,
+          'verified',
+        );
         if (threats.size)
           assert.deepEqual(advice.policy.choice, {
             kind: 'cards',
@@ -261,6 +266,16 @@ test('跨日触发延迟死亡，进入第二轮讨论，三票同意再逐人�
   const advice = findWinningPolicy(l.pack, { states: [l.state], exhaustive: true }, 2000);
   assert.equal(advice.status, 'guaranteed');
   assert.equal(canonical(l.state), before);
+  assert.equal(
+    verifyPolicy(
+      l.pack,
+      { states: [l.state], exhaustive: true },
+      advice.policy!,
+      { kind: 'game' },
+      5000,
+    ).status,
+    'verified',
+  );
   const r = replayWin(l, advice.policy!);
   assert.equal(r.state.loop, 2);
   assert.equal(r.state.choices.filter((v) => v.choice.kind === 'vote-final-guess').length, 3);
