@@ -13,6 +13,28 @@ let server: Awaited<ReturnType<typeof makeDecisionServer>>;
 let browser: Browser;
 let url: string;
 const results = new URL('../test-results/decision-workbench/', import.meta.url);
+test('两个最终决战剧本只能覆盖一个，逐剧本复核区分获胜与反例', async () => {
+  const page = await browser.newPage();
+  try {
+    await page.goto(url);
+    const scenarios = (await (await fetch(url + '/api/scenarios')).json()) as {
+      id: string;
+      title: string;
+    }[];
+    await page
+      .getByRole('button', {
+        name: new RegExp(scenarios.find((s) => s.id === 'final-decision')!.title),
+      })
+      .click();
+    await page.getByText('最多可以覆盖几个剧本', { exact: true }).click();
+    await page.getByRole('button', { name: '求解剧本覆盖' }).click();
+    await expect(page.getByText('最多可保证 1 / 2 个剧本')).toBeVisible();
+    await page.getByRole('button', { name: '逐剧本复核' }).click();
+    await expect(page.getByText(/复核通过 1 个剧本，找到反例 1 个，待定 0 个/)).toBeVisible();
+  } finally {
+    await page.close();
+  }
+});
 test('在同一盘面改选学校或医院，结果可独立复核，再次自由求解会清除起手限制', async () => {
   const page = await browser.newPage();
   try {

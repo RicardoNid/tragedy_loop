@@ -164,6 +164,12 @@ pnpm check:decision
 
 `pnpm solve:observed products/engine/incident-outcome-example.json` 重建第一轮的医院事故。三名候选中，医生的不安已达界限，公告明确说事件未发生，因此只留下男学生和巫女，共 8 条历史。设置 `incidentEvidence: false` 可逐状态用原正向历史复核。发生公告和效果公告分开处理，即使医院没有密谋、事故没有造成死亡，也保留宣告发生的历史。HSA 的区域事件同时计算角色尸体和区域的受害者标记；隐蔽触发、替班或抑制条件仍有可能时，交给正向重放。
 
+## 求同一策略的最大剧本覆盖
+
+当所有剧本无法同时保证达标时，可在工作台展开「最多可以覆盖几个剧本」，或运行 `pnpm solve:coverage products/engine/final-decision-example.json`。示例的同一套回答最多覆盖两个剧本中的一个。一个剧本有多种暗置牌、行动顺序或 LL 发牌时，只有其中每条历史都能保证达标才计一次。结果中的 `lower` 是已有策略证明的数量，`upper` 是仍可能达到的上界；两者相等表示已经求到最优。候选不完备时不推断总体上界。普通最终决战按可共同答对的完整身份组合分组，其他阶段允许后续根据新公告改变选择。
+
+将覆盖结果存成 JSON 后运行 `pnpm solve:coverage <问题.json> <覆盖结果.json>`，可独立逐剧本重放同一策略，分别得到通过、有反例及仍未确定的剧本数。对局中若出现策略树未列出的观察，应根据新的候选局面重新求解。
+
 ## 评估指定行动
 
 在工作台展开「评估指定行动」可以选择一张牌及目标、能力或最终答案。命令行使用 `pnpm solve:action products/engine/game-policy-example.json products/engine/school-block-choice.json`。同一张「禁止密谋」放在学校能保证获胜，放在医院则存在可击败主人公的应对。返回策略的第一步固定为指定行动，后续仍可依据新公告改变决策。公开观察问题、候选重放和剧作家问题均可输入；`illegal-opening` 表示该行动无法在全部候选中合法提交，`unknown` 表示搜索或候选覆盖不足。
