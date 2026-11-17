@@ -2,7 +2,7 @@ import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { compileOfficial } from '../../packages/content/src/official/compile.js';
-import type { GameSetup } from '../../packages/contracts/src/game.js';
+import type { GameSetup, Protagonist } from '../../packages/contracts/src/game.js';
 import { setupSchema } from '../../packages/contracts/src/validation.js';
 import { setupDomainSchema, type SetupDomain } from '../../packages/contracts/src/setup-domain.js';
 import { generateSetups } from '../../packages/engine/src/decision/setup-space.js';
@@ -15,7 +15,10 @@ import { findDayPolicy } from '../../packages/engine/src/decision/day-policy.js'
 import { findWinningPolicy } from '../../packages/engine/src/decision/game-policy.js';
 import { replayCandidates, type CandidateReplay } from './candidate-replays.js';
 
-type Goal = { kind: 'game' } | { kind: 'survival'; target: string; maxAbilities?: number };
+type Goal =
+  | { kind: 'game' }
+  | { kind: 'seat-win'; seat: Protagonist }
+  | { kind: 'survival'; target: string; maxAbilities?: number };
 export function adviseObservedGame(input: {
   setups?: GameSetup[];
   setupDomains?: SetupDomain[];
@@ -37,6 +40,11 @@ export function adviseObservedGame(input: {
     !input.evidence?.sheet ||
     (input.goal &&
       input.goal.kind !== 'game' &&
+      !(
+        input.goal.kind === 'seat-win' &&
+        ['p0', 'p1', 'p2'].includes(input.goal.seat) &&
+        input.goal.seat === input.evidence.seat
+      ) &&
       (input.goal.kind !== 'survival' || typeof input.goal.target !== 'string'))
   )
     throw Error('Invalid observed game question');
@@ -65,7 +73,13 @@ export function adviseObservedGame(input: {
   const advice =
     input.goal?.kind === 'survival'
       ? findDayPolicy(pack, candidates, input.goal.target, input.goal.maxAbilities ?? 2, workLimit)
-      : findWinningPolicy(pack, candidates, workLimit, input.frontierLimit ?? 512);
+      : findWinningPolicy(
+          pack,
+          candidates,
+          workLimit,
+          input.frontierLimit ?? 512,
+          input.goal?.kind === 'seat-win' ? input.goal.seat : undefined,
+        );
   return {
     ...(generated && { generation: generated.stats }),
     history: {
@@ -80,10 +94,10 @@ export function adviseObservedGame(input: {
 
 /** A trusted host can export the observation without exporting scripts, opponent
  * commands or their card faces. The setup pool is supplied separately to inference. */
-export function exportObservation(candidate: CandidateReplay) {
+export function exportObservation(candidate: CandidateReplay, seat?: Protagonist) {
   const setup = setupSchema.parse(candidate?.setup);
   const pack = compileOfficial(setup.module, setup.anniversary);
-  return observeQuestion([...replayCandidates(pack, [candidate])][0]!);
+  return observeQuestion([...replayCandidates(pack, [candidate])][0]!, seat);
 }
 if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1])).href) {
   try {
@@ -94,7 +108,9 @@ if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1]
         'Usage: pnpm solve:observed <question.json> or pnpm observe:decision <replays.json>',
       );
     const input = JSON.parse(readFileSync(path, 'utf8').replace(/^\uFEFF/, ''));
-    const result = exporting ? exportObservation(input.candidates?.[0]) : adviseObservedGame(input);
+    const result = exporting
+      ? exportObservation(input.candidates?.[0], process.argv[4] as Protagonist | undefined)
+      : adviseObservedGame(input);
     console.log(JSON.stringify(result, null, 2));
   } catch (e) {
     console.error(e instanceof Error ? e.message : String(e));

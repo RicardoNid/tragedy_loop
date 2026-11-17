@@ -1416,11 +1416,11 @@ function prepareFinalGuess(state: EngineState): void {
   if (state.ll) {
     if (
       state.setup.y === '最终计划' &&
+      state.phase === 'loop-end' &&
       state.loop === state.setup.loops &&
       Object.values(state.characters).some((c) => c.identity === '关键人物' && c.counters.hope > 0)
     )
       state.ll.finalTraitorsDisabled = true;
-    state.ll.finalEligible = seats.filter((p) => !traitors(state).includes(p));
   }
   for (const c of Object.values(state.characters)) {
     c.counters = zeroCounters();
@@ -1430,6 +1430,9 @@ function prepareFinalGuess(state: EngineState): void {
   }
   state.boards = { hospital: 0, shrine: 0, city: 0, school: 0 };
   state.ex = 0;
+  // The ordinary suppression from hope expires on cleanup. Only the special
+  // carry-over from the completed final loop remains during the final guesses.
+  if (state.ll) state.ll.finalEligible = seats.filter((p) => !traitors(state).includes(p));
   state.flags['guessed'] = '[]';
   enter(state, 'final-guess');
 }
@@ -1985,8 +1988,7 @@ function applyChoice(pack: RulePack, state: EngineState, choice: Choice): boolea
     const correct =
       acceptedIdentities(pack, state.characters[choice.character]!.initialIdentity).includes(
         choice.identity,
-      ) &&
-      config?.reverseIdentity === choice.reverseIdentity;
+      ) && config?.reverseIdentity === choice.reverseIdentity;
     announce(state, 'identity', { character: choice.character, guess: choice.identity, correct });
     if (!correct) win(state, 'mastermind');
     else {

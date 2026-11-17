@@ -63,7 +63,8 @@ export function inferObservedWorlds(
     evidence.sheet?.module !== pack.module ||
     evidence.sheet.anniversary !== pack.anniversary ||
     !Array.isArray(evidence.view?.reports) ||
-    !['p0', 'p1', 'p2'].includes(evidence.view.menu?.actor)
+    !['p0', 'p1', 'p2'].includes(evidence.view.menu?.actor) ||
+    (evidence.seat !== undefined && evidence.seat !== evidence.view.menu.actor)
   )
     throw Error('Expected a complete protagonist observation for this rule pack');
   const reports = evidence.view.reports;
@@ -91,8 +92,30 @@ export function inferObservedWorlds(
     }
   }
   const reportKeys = reports.map(canonical);
-  const expected = canonical(evidence),
+  const view = { ...evidence.view };
+  // Early version-1 exports omitted the LL marker summary. Its content is
+  // derivable from the complete log. Briefing exports used to show setup pieces.
+  if (evidence.sheet.module === 'LL' && !view.markers) {
+    const ids = (field: string) =>
+      [
+        ...new Set(
+          reports.flatMap((o) =>
+            o.type === 'board' && typeof o.data[field] === 'string'
+              ? [o.data[field] as string]
+              : [],
+          ),
+        ),
+      ].sort();
+    view.markers = { communicated: ids('communicatedMarker'), died: ids('diedMarker') };
+  }
+  if (view.phase === 'briefing') {
+    view.characters = [];
+    view.ownCards = [];
+    view.territory = undefined;
+  }
+  const expected = canonical({ ...evidence, view }),
     sheet = canonical(evidence.sheet);
+
   const states: EngineState[] = [];
   let work = 0,
     commands = 0;
@@ -143,6 +166,12 @@ export function inferObservedWorlds(
     if (work >= workLimit) return result('work-limit');
     work++;
     if (canonical(publicSheet(setup)) !== sheet) continue;
+    if (
+      evidence.seat &&
+      evidence.view.personalRole &&
+      setup.privateRoles?.[evidence.seat] !== evidence.view.personalRole
+    )
+      continue;
     const key = canonical(setup);
     if (seenSetups.has(key)) continue;
     seenSetups.add(key);
@@ -184,7 +213,11 @@ export function inferObservedWorlds(
         if (s.winner) break;
         if (s.pending) {
           if (cursor === reports.length && s.pending.actor !== 'mastermind') {
-            if (s.phase === evidence.view.phase && publicQuestion(s) === expected) {
+            if (
+              s.phase === evidence.view.phase &&
+              (!evidence.seat || s.pending.actor === evidence.seat) &&
+              publicQuestion(s, evidence.seat) === expected
+            ) {
               if (states.length === worldLimit) return result('world-limit');
               states.push(s);
             }

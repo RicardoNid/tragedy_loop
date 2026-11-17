@@ -1,4 +1,4 @@
-import type { Choice, Observation } from '../../../contracts/src/game.js';
+import type { Choice, Observation, Protagonist } from '../../../contracts/src/game.js';
 import { advance, legalCardTargets } from '../runtime/engine.js';
 import { canonical, type EngineState, type RulePack } from '../runtime/model.js';
 
@@ -38,7 +38,7 @@ export interface PolicyCandidates {
 }
 /** Information used by the joint protagonist observer. Opaque runtime IDs
  * and characters that have not appeared do not identify a public position. */
-export function observedMenu(s: EngineState, since: number) {
+export function observedMenu(s: EngineState, since: number, seat?: Protagonist) {
   const menu = s.pending!;
   const briefing = s.phase === 'briefing';
   return {
@@ -46,6 +46,15 @@ export function observedMenu(s: EngineState, since: number) {
     day: s.day,
     phase: s.phase,
     captain: s.captain,
+    ...(s.ll && {
+      markers: { communicated: [...s.ll.communicated].sort(), died: [...s.ll.died].sort() },
+    }),
+    ...(seat &&
+      s.ll &&
+      (s.loop > 1 ||
+        s.observations.public.some((o) => o.type === 'boundary' && o.phase === 'loop-start')) && {
+        personalRole: s.ll.roles[seat],
+      }),
     reports: s.observations.protagonists.slice(since).map(visibleReport),
     menu: {
       actor: menu.actor,
@@ -115,16 +124,22 @@ export function publicSheet(setup: EngineState['setup']) {
   };
 }
 
-export function observeQuestion(s: EngineState) {
-  if (!s.pending || s.pending.actor === 'mastermind' || s.winner)
+export function observeQuestion(s: EngineState, seat?: Protagonist) {
+  if (
+    !s.pending ||
+    s.pending.actor === 'mastermind' ||
+    (seat && s.pending.actor !== seat) ||
+    s.winner
+  )
     throw Error('Expected a protagonist decision');
   return {
     version: 1 as const,
     coverage: 'complete' as const,
+    ...(seat && { seat }),
     sheet: publicSheet(s.setup),
-    view: observedMenu(s, 0),
+    view: observedMenu(s, 0, seat),
   };
 }
-export function publicQuestion(s: EngineState) {
-  return canonical(observeQuestion(s));
+export function publicQuestion(s: EngineState, seat?: Protagonist) {
+  return canonical(observeQuestion(s, seat));
 }

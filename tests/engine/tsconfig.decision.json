@@ -1,6 +1,7 @@
 {
   "extends": "./tsconfig.absence.json",
   "include": [
+    "./seat-policy.test.ts",
     "./setup-space.test.ts",
     "./observed-worlds.test.ts",
     "../../scripts/engine/observed-game.ts",

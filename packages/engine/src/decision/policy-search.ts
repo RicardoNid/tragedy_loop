@@ -1,4 +1,4 @@
-import type { Choice } from '../../../contracts/src/game.js';
+import type { Choice, Protagonist } from '../../../contracts/src/game.js';
 import { drive } from '../runtime/engine.js';
 import { canonical, clone, type EngineState, type RulePack } from '../runtime/model.js';
 import { enumerateChoices } from '../runtime/replay.js';
@@ -6,6 +6,7 @@ import { observedMenu, submitChoice, rulesSupported, type PolicyCandidates } fro
 
 type View = ReturnType<typeof observedMenu>;
 export interface PolicyNode {
+  seat?: Protagonist;
   choice: Choice;
   /** Observer-local cursor at the moment of issuing choice. */
   reportsBefore: number;
@@ -23,12 +24,19 @@ type Outcome = 'lose' | 'unsupported' | 'limit';
 /** Follow the returned tree at the next captain prompt using only the visible change
  * since the previous command. Opponent decisions never occur in the policy. */
 export function nextPolicyStep(node: PolicyNode, state: EngineState) {
-  if (!state.pending || state.pending.actor === 'mastermind') return undefined;
-  const key = canonical(observedMenu(state, node.reportsBefore));
+  if (
+    !state.pending ||
+    state.pending.actor === 'mastermind' ||
+    (node.seat && state.pending.actor !== node.seat)
+  )
+    return undefined;
+  const key = canonical(observedMenu(state, node.reportsBefore, node.seat));
   return node.responses.find((r) => canonical(r.when) === key)?.then;
 }
 
 interface SearchDomain {
+  seat?: Protagonist;
+  opponentChoices?(s: EngineState): Iterable<Choice>;
   controls(s: EngineState): boolean;
   outcome(s: EngineState, audit: number): 'win' | 'lose' | undefined;
   choices(states: EngineState[], depth: number): Iterable<Choice> | 'lose' | 'unsupported';
@@ -100,13 +108,13 @@ export function searchPolicy(
         }
         if (domain.controls(s)) {
           if (++retained > (domain.frontierLimit ?? Infinity)) return 'limit';
-          const when = observedMenu(s, since);
+          const when = observedMenu(s, since, domain.seat);
           const key = canonical(when);
           const group = groups.get(key);
           if (group) group.branches.push(b);
           else groups.set(key, { when, branches: [b] });
         } else {
-          pending.push(successors(b, enumerateChoices(s)));
+          pending.push(successors(b, domain.opponentChoices?.(s) ?? enumerateChoices(s)));
         }
         break;
       }
@@ -145,7 +153,8 @@ export function searchPolicy(
           if (then === 'lose' || work >= workLimit) break;
         } else responses.push({ when: g.when, then });
       }
-      if (!failure) return { choice, reportsBefore, responses };
+      if (!failure)
+        return { choice, reportsBefore, responses, ...(domain.seat && { seat: domain.seat }) };
       if (failure !== 'lose') unresolved = failure;
       if (work >= workLimit && failure === 'limit') return failure;
     }
