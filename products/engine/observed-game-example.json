@@ -1,0 +1,744 @@
+{
+  "exhaustiveSetups": true,
+  "setups": [
+    {
+      "module": "BTX",
+      "anniversary": false,
+      "loops": 4,
+      "days": 5,
+      "captain": "p0",
+      "discussion": "between-loops",
+      "y": "和我签订契约吧！",
+      "x": [
+        "流言四起",
+        "潜伏的杀人狂"
+      ],
+      "characters": [
+        {
+          "id": "popIdol",
+          "character": "偶像",
+          "identity": "关键人物"
+        },
+        {
+          "id": "doctor",
+          "character": "医生",
+          "identity": "传谣人"
+        },
+        {
+          "id": "boyStudent",
+          "character": "男学生",
+          "identity": "杀人狂"
+        },
+        {
+          "id": "patient",
+          "character": "住院患者",
+          "identity": "平民"
+        },
+        {
+          "id": "teacher",
+          "character": "教师",
+          "identity": "平民"
+        },
+        {
+          "id": "richStudent",
+          "character": "大小姐",
+          "identity": "平民"
+        },
+        {
+          "id": "shrineMaiden",
+          "character": "巫女",
+          "identity": "亲友"
+        }
+      ],
+      "incidents": [
+        {
+          "day": 2,
+          "name": "不安扩散",
+          "culprit": "shrineMaiden"
+        },
+        {
+          "day": 1,
+          "name": "医院事故",
+          "culprit": "patient"
+        },
+        {
+          "day": 5,
+          "name": "失踪",
+          "culprit": "boyStudent"
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "version": 1,
+    "coverage": "complete",
+    "sheet": {
+      "module": "BTX",
+      "anniversary": false,
+      "days": 5,
+      "loops": 4,
+      "discussion": "between-loops",
+      "specialRules": [],
+      "incidents": [
+        {
+          "day": 1,
+          "name": "医院事故"
+        },
+        {
+          "day": 2,
+          "name": "不安扩散"
+        },
+        {
+          "day": 5,
+          "name": "失踪"
+        }
+      ]
+    },
+    "view": {
+      "loop": 1,
+      "day": 1,
+      "phase": "protagonist-abilities",
+      "captain": "p0",
+      "reports": [
+        {
+          "sequence": 1,
+          "loop": 1,
+          "day": 1,
+          "phase": "discussion",
+          "type": "boundary",
+          "data": {
+            "phase": "discussion",
+            "captain": "p0"
+          }
+        },
+        {
+          "sequence": 2,
+          "loop": 1,
+          "day": 1,
+          "phase": "loop-start",
+          "type": "boundary",
+          "data": {
+            "phase": "loop-start",
+            "captain": "p0"
+          }
+        },
+        {
+          "sequence": 3,
+          "loop": 1,
+          "day": 1,
+          "phase": "loop-start",
+          "type": "own-choice",
+          "data": {
+            "actor": "p0",
+            "choice": {
+              "kind": "continue"
+            }
+          }
+        },
+        {
+          "sequence": 4,
+          "loop": 1,
+          "day": 1,
+          "phase": "day-start",
+          "type": "boundary",
+          "data": {
+            "phase": "day-start",
+            "captain": "p0"
+          }
+        },
+        {
+          "sequence": 5,
+          "loop": 1,
+          "day": 1,
+          "phase": "mastermind-cards",
+          "type": "boundary",
+          "data": {
+            "phase": "mastermind-cards",
+            "captain": "p0"
+          }
+        },
+        {
+          "sequence": 6,
+          "loop": 1,
+          "day": 1,
+          "phase": "mastermind-cards",
+          "type": "cards",
+          "data": {
+            "placements": [
+              {
+                "owner": "mastermind",
+                "target": "hospital"
+              },
+              {
+                "owner": "mastermind",
+                "target": "patient"
+              },
+              {
+                "owner": "mastermind",
+                "target": "school"
+              }
+            ]
+          }
+        },
+        {
+          "sequence": 7,
+          "loop": 1,
+          "day": 1,
+          "phase": "protagonist-cards",
+          "type": "boundary",
+          "data": {
+            "phase": "protagonist-cards",
+            "captain": "p0"
+          }
+        },
+        {
+          "sequence": 8,
+          "loop": 1,
+          "day": 1,
+          "phase": "protagonist-cards",
+          "type": "cards",
+          "data": {
+            "placements": [
+              {
+                "owner": "p0",
+                "target": "doctor"
+              }
+            ]
+          }
+        },
+        {
+          "sequence": 9,
+          "loop": 1,
+          "day": 1,
+          "phase": "protagonist-cards",
+          "type": "cards",
+          "data": {
+            "placements": [
+              {
+                "card": "p0-4",
+                "target": "doctor",
+                "kind": "goodwill+2"
+              }
+            ]
+          }
+        },
+        {
+          "sequence": 10,
+          "loop": 1,
+          "day": 1,
+          "phase": "protagonist-cards",
+          "type": "own-choice",
+          "data": {
+            "actor": "p0",
+            "choice": {
+              "kind": "cards",
+              "placements": [
+                {
+                  "card": "p0-4",
+                  "target": "doctor"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "sequence": 11,
+          "loop": 1,
+          "day": 1,
+          "phase": "protagonist-cards",
+          "type": "cards",
+          "data": {
+            "placements": [
+              {
+                "owner": "p1",
+                "target": "patient"
+              }
+            ]
+          }
+        },
+        {
+          "sequence": 12,
+          "loop": 1,
+          "day": 1,
+          "phase": "protagonist-cards",
+          "type": "cards",
+          "data": {
+            "placements": [
+              {
+                "card": "p1-5",
+                "target": "patient",
+                "kind": "paranoia+1"
+              }
+            ]
+          }
+        },
+        {
+          "sequence": 13,
+          "loop": 1,
+          "day": 1,
+          "phase": "protagonist-cards",
+          "type": "own-choice",
+          "data": {
+            "actor": "p1",
+            "choice": {
+              "kind": "cards",
+              "placements": [
+                {
+                  "card": "p1-5",
+                  "target": "patient"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "sequence": 14,
+          "loop": 1,
+          "day": 1,
+          "phase": "protagonist-cards",
+          "type": "cards",
+          "data": {
+            "placements": [
+              {
+                "owner": "p2",
+                "target": "city"
+              }
+            ]
+          }
+        },
+        {
+          "sequence": 15,
+          "loop": 1,
+          "day": 1,
+          "phase": "protagonist-cards",
+          "type": "cards",
+          "data": {
+            "placements": [
+              {
+                "card": "p2-7",
+                "target": "city",
+                "kind": "block-intrigue"
+              }
+            ]
+          }
+        },
+        {
+          "sequence": 16,
+          "loop": 1,
+          "day": 1,
+          "phase": "protagonist-cards",
+          "type": "own-choice",
+          "data": {
+            "actor": "p2",
+            "choice": {
+              "kind": "cards",
+              "placements": [
+                {
+                  "card": "p2-7",
+                  "target": "city"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "sequence": 17,
+          "loop": 1,
+          "day": 1,
+          "phase": "card-resolution",
+          "type": "boundary",
+          "data": {
+            "phase": "card-resolution",
+            "captain": "p0"
+          }
+        },
+        {
+          "sequence": 18,
+          "loop": 1,
+          "day": 1,
+          "phase": "card-resolution",
+          "type": "cards",
+          "data": {
+            "placements": [
+              {
+                "owner": "mastermind",
+                "target": "hospital",
+                "kind": "intrigue+1"
+              },
+              {
+                "owner": "mastermind",
+                "target": "patient",
+                "kind": "paranoia+1"
+              },
+              {
+                "owner": "mastermind",
+                "target": "school",
+                "kind": "block-goodwill"
+              },
+              {
+                "owner": "p0",
+                "target": "doctor",
+                "kind": "goodwill+2"
+              },
+              {
+                "owner": "p1",
+                "target": "patient",
+                "kind": "paranoia+1"
+              },
+              {
+                "owner": "p2",
+                "target": "city",
+                "kind": "block-intrigue"
+              }
+            ]
+          }
+        },
+        {
+          "sequence": 19,
+          "loop": 1,
+          "day": 1,
+          "phase": "card-resolution",
+          "type": "board",
+          "data": {
+            "board": "hospital",
+            "intrigue": 1
+          }
+        },
+        {
+          "sequence": 20,
+          "loop": 1,
+          "day": 1,
+          "phase": "card-resolution",
+          "type": "character",
+          "data": {
+            "character": "doctor",
+            "area": "hospital",
+            "status": "alive",
+            "counters": {
+              "goodwill": 2,
+              "paranoia": 0,
+              "intrigue": 0,
+              "guard": 0,
+              "hope": 0,
+              "despair": 0
+            }
+          }
+        },
+        {
+          "sequence": 21,
+          "loop": 1,
+          "day": 1,
+          "phase": "card-resolution",
+          "type": "character",
+          "data": {
+            "character": "patient",
+            "area": "hospital",
+            "status": "alive",
+            "counters": {
+              "goodwill": 0,
+              "paranoia": 2,
+              "intrigue": 0,
+              "guard": 0,
+              "hope": 0,
+              "despair": 0
+            }
+          }
+        },
+        {
+          "sequence": 22,
+          "loop": 1,
+          "day": 1,
+          "phase": "mastermind-abilities",
+          "type": "boundary",
+          "data": {
+            "phase": "mastermind-abilities",
+            "captain": "p0"
+          }
+        },
+        {
+          "sequence": 23,
+          "loop": 1,
+          "day": 1,
+          "phase": "protagonist-abilities",
+          "type": "boundary",
+          "data": {
+            "phase": "protagonist-abilities",
+            "captain": "p0"
+          }
+        }
+      ],
+      "menu": {
+        "actor": "p0",
+        "kind": "ability",
+        "options": [
+          {
+            "kind": "ability",
+            "owner": "doctor",
+            "ability": "doctor-counter"
+          },
+          {
+            "kind": "pass"
+          }
+        ]
+      },
+      "boards": {
+        "hospital": 1,
+        "shrine": 0,
+        "city": 0,
+        "school": 0
+      },
+      "ex": 0,
+      "ownCards": [
+        {
+          "id": "p0-0",
+          "owner": "p0",
+          "kind": "horizontal",
+          "status": "hand"
+        },
+        {
+          "id": "p0-1",
+          "owner": "p0",
+          "kind": "vertical",
+          "status": "hand"
+        },
+        {
+          "id": "p0-2",
+          "owner": "p0",
+          "kind": "block-movement",
+          "status": "hand"
+        },
+        {
+          "id": "p0-3",
+          "owner": "p0",
+          "kind": "goodwill+1",
+          "status": "hand"
+        },
+        {
+          "id": "p0-4",
+          "owner": "p0",
+          "kind": "goodwill+2",
+          "status": "used"
+        },
+        {
+          "id": "p0-5",
+          "owner": "p0",
+          "kind": "paranoia+1",
+          "status": "hand"
+        },
+        {
+          "id": "p0-6",
+          "owner": "p0",
+          "kind": "paranoia-1",
+          "status": "hand"
+        },
+        {
+          "id": "p0-7",
+          "owner": "p0",
+          "kind": "block-intrigue",
+          "status": "hand"
+        },
+        {
+          "id": "p1-0",
+          "owner": "p1",
+          "kind": "horizontal",
+          "status": "hand"
+        },
+        {
+          "id": "p1-1",
+          "owner": "p1",
+          "kind": "vertical",
+          "status": "hand"
+        },
+        {
+          "id": "p1-2",
+          "owner": "p1",
+          "kind": "block-movement",
+          "status": "hand"
+        },
+        {
+          "id": "p1-3",
+          "owner": "p1",
+          "kind": "goodwill+1",
+          "status": "hand"
+        },
+        {
+          "id": "p1-4",
+          "owner": "p1",
+          "kind": "goodwill+2",
+          "status": "hand"
+        },
+        {
+          "id": "p1-5",
+          "owner": "p1",
+          "kind": "paranoia+1",
+          "status": "hand"
+        },
+        {
+          "id": "p1-6",
+          "owner": "p1",
+          "kind": "paranoia-1",
+          "status": "hand"
+        },
+        {
+          "id": "p1-7",
+          "owner": "p1",
+          "kind": "block-intrigue",
+          "status": "hand"
+        },
+        {
+          "id": "p2-0",
+          "owner": "p2",
+          "kind": "horizontal",
+          "status": "hand"
+        },
+        {
+          "id": "p2-1",
+          "owner": "p2",
+          "kind": "vertical",
+          "status": "hand"
+        },
+        {
+          "id": "p2-2",
+          "owner": "p2",
+          "kind": "block-movement",
+          "status": "hand"
+        },
+        {
+          "id": "p2-3",
+          "owner": "p2",
+          "kind": "goodwill+1",
+          "status": "hand"
+        },
+        {
+          "id": "p2-4",
+          "owner": "p2",
+          "kind": "goodwill+2",
+          "status": "hand"
+        },
+        {
+          "id": "p2-5",
+          "owner": "p2",
+          "kind": "paranoia+1",
+          "status": "hand"
+        },
+        {
+          "id": "p2-6",
+          "owner": "p2",
+          "kind": "paranoia-1",
+          "status": "hand"
+        },
+        {
+          "id": "p2-7",
+          "owner": "p2",
+          "kind": "block-intrigue",
+          "status": "hand"
+        }
+      ],
+      "placements": [],
+      "characters": [
+        {
+          "id": "boyStudent",
+          "character": "男学生",
+          "area": "school",
+          "status": "alive",
+          "counters": {
+            "goodwill": 0,
+            "paranoia": 0,
+            "intrigue": 0,
+            "guard": 0,
+            "hope": 0,
+            "despair": 0
+          }
+        },
+        {
+          "id": "doctor",
+          "character": "医生",
+          "area": "hospital",
+          "status": "alive",
+          "counters": {
+            "goodwill": 2,
+            "paranoia": 0,
+            "intrigue": 0,
+            "guard": 0,
+            "hope": 0,
+            "despair": 0
+          }
+        },
+        {
+          "id": "patient",
+          "character": "住院患者",
+          "area": "hospital",
+          "status": "alive",
+          "counters": {
+            "goodwill": 0,
+            "paranoia": 2,
+            "intrigue": 0,
+            "guard": 0,
+            "hope": 0,
+            "despair": 0
+          }
+        },
+        {
+          "id": "popIdol",
+          "character": "偶像",
+          "area": "city",
+          "status": "alive",
+          "counters": {
+            "goodwill": 0,
+            "paranoia": 0,
+            "intrigue": 0,
+            "guard": 0,
+            "hope": 0,
+            "despair": 0
+          }
+        },
+        {
+          "id": "richStudent",
+          "character": "大小姐",
+          "area": "school",
+          "status": "alive",
+          "counters": {
+            "goodwill": 0,
+            "paranoia": 0,
+            "intrigue": 0,
+            "guard": 0,
+            "hope": 0,
+            "despair": 0
+          }
+        },
+        {
+          "id": "shrineMaiden",
+          "character": "巫女",
+          "area": "shrine",
+          "status": "alive",
+          "counters": {
+            "goodwill": 0,
+            "paranoia": 0,
+            "intrigue": 0,
+            "guard": 0,
+            "hope": 0,
+            "despair": 0
+          }
+        },
+        {
+          "id": "teacher",
+          "character": "教师",
+          "area": "school",
+          "status": "alive",
+          "counters": {
+            "goodwill": 0,
+            "paranoia": 0,
+            "intrigue": 0,
+            "guard": 0,
+            "hope": 0,
+            "despair": 0
+          }
+        }
+      ]
+    }
+  },
+  "goal": {
+    "kind": "survival",
+    "target": "patient"
+  }
+}

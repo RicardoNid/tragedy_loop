@@ -1,7 +1,7 @@
 import type { Actor, Choice, Observation } from '../../../contracts/src/game.js';
-import { advance, cardCount, drive, legalCardTargets } from '../runtime/engine.js';
+import { advance, drive } from '../runtime/engine.js';
 import { clone, type EngineState, type RulePack } from '../runtime/model.js';
-import { enumerateChoices } from '../runtime/replay.js';
+import { cardsAtTargets, enumerateChoices } from '../runtime/replay.js';
 
 import {
   compileOutcomes,
@@ -30,41 +30,13 @@ export interface PhaseResult {
 const sameClock = (a: Clock, b: Clock) =>
   a.day === b.day && a.loop === b.loop && a.phase === b.phase;
 
-// With a complete later reveal only card IDs with that face can be witnesses.
-function* revealedActions(state: EngineState, shown: readonly ShownCard[]): Generator<Choice> {
-  const actor = state.pending!.actor;
-  const cards = shown.filter((p) => p.owner === actor);
-  const targets = legalCardTargets(state, actor);
-  if (
-    cards.length !== cardCount(state, actor) ||
-    new Set(cards.map((p) => p.target)).size !== cards.length ||
-    cards.some((p) => !targets.includes(p.target))
-  )
-    return;
-  function* bind(i: number, used: { card: string; target: string }[]): Generator<Choice> {
-    if (i === cards.length) {
-      yield { kind: 'cards', placements: used };
-      return;
-    }
-    const p = cards[i]!;
-    for (const c of state.cards)
-      if (
-        c.owner === actor &&
-        c.status === 'hand' &&
-        c.kind === p.kind &&
-        !used.some((u) => u.card === c.id)
-      )
-        yield* bind(i + 1, [...used, { card: c.id, target: p.target }]);
-  }
-  yield* bind(0, []);
-}
 function* actions(
   pack: RulePack,
   state: EngineState,
   shown?: readonly ShownCard[],
 ): Generator<Choice> {
   if (shown && state.pending?.kind === 'cards') {
-    yield* revealedActions(state, shown);
+    yield* cardsAtTargets(state, shown);
     return;
   }
   if (state.pending?.kind === 'guess') {
