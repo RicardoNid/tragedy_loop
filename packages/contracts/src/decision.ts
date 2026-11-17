@@ -17,6 +17,7 @@ export type DecisionGoal =
   | { kind: 'game' }
   | { kind: 'seat-win'; seat: Protagonist }
   | { kind: 'survival'; target: string; maxAbilities?: number };
+export type MastermindGoal = { kind: 'loop-failure' } | { kind: 'mastermind-win' };
 export interface PolicyView {
   loop: number;
   day: number;
@@ -42,7 +43,7 @@ export interface PolicyView {
   characters: PublicCharacter[];
 }
 export interface PolicyNode {
-  seat?: Protagonist;
+  seat?: Actor;
   choice: Choice;
   reportsBefore: number;
   responses: { when: PolicyView; then: PolicyNode }[];

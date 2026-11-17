@@ -18,10 +18,7 @@ export interface ReplayQuestion {
   investigation?: InvestigationOptions;
 }
 export function resolveReplayQuestion(input: ReplayQuestion) {
-  if (!Array.isArray(input.candidates) || typeof input.exhaustive !== 'boolean')
-    throw Error('Invalid replay question');
-  const setup = input.candidates.length ? setupSchema.parse(input.candidates[0]?.setup) : undefined;
-  const pack = compileOfficial(setup?.module ?? 'BTX', setup?.anniversary ?? false);
+  const pool = resolveReplayCandidates(input);
   const goal: DecisionGoal =
     input.goal ??
     (input.target !== undefined
@@ -29,9 +26,15 @@ export function resolveReplayQuestion(input: ReplayQuestion) {
       : input.seat !== undefined
         ? { kind: 'seat-win', seat: input.seat }
         : { kind: 'game' });
+  return { ...pool, goal };
+}
+export function resolveReplayCandidates(input: Pick<ReplayQuestion, 'candidates' | 'exhaustive'>) {
+  if (!Array.isArray(input.candidates) || typeof input.exhaustive !== 'boolean')
+    throw Error('Invalid replay question');
+  const setup = input.candidates.length ? setupSchema.parse(input.candidates[0]?.setup) : undefined;
+  const pack = compileOfficial(setup?.module ?? 'BTX', setup?.anniversary ?? false);
   return {
     pack,
-    goal,
     candidates: {
       exhaustive: input.exhaustive,
       states: [...replayCandidates(pack, input.candidates)],

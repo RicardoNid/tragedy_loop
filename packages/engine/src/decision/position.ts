@@ -1,4 +1,4 @@
-import type { Choice, Observation, Protagonist } from '../../../contracts/src/game.js';
+import type { Actor, Choice, Observation, Protagonist } from '../../../contracts/src/game.js';
 import type { PolicyView } from '../../../contracts/src/decision.js';
 import { advance, legalCardTargets } from '../runtime/engine.js';
 import { canonical, type EngineState, type RulePack } from '../runtime/model.js';
@@ -37,10 +37,12 @@ export interface PolicyCandidates {
   exhaustive: boolean;
   states: readonly EngineState[];
 }
-/** Information used by the joint protagonist observer. Opaque runtime IDs
- * and characters that have not appeared do not identify a public position. */
-export function observedMenu(s: EngineState, since: number, seat?: Protagonist): PolicyView {
-  const menu = s.pending!;
+/** Only the decision owner can see this menu. The three protagonist seats
+ * share their public game information, with private LL roles scoped by seat. */
+export function observedMenu(s: EngineState, since: number, seat?: Actor): PolicyView {
+  const menu = s.pending;
+  if (!menu || (seat ? menu.actor !== seat : menu.actor === 'mastermind'))
+    throw Error('Expected a decision owned by the requested observer');
   return {
     ...observedBoard(s, since, seat),
     menu: {
@@ -57,9 +59,10 @@ export function observedMenu(s: EngineState, since: number, seat?: Protagonist):
 export function observedBoard(
   s: EngineState,
   since: number,
-  seat?: Protagonist,
+  seat?: Actor,
 ): Omit<PolicyView, 'menu' | 'targets' | 'answerKind'> {
   const briefing = s.phase === 'briefing';
+  const own = (actor: Actor) => (actor === 'mastermind') === (seat === 'mastermind');
   return {
     loop: s.loop,
     day: s.day,
@@ -69,17 +72,18 @@ export function observedBoard(
       markers: { communicated: [...s.ll.communicated].sort(), died: [...s.ll.died].sort() },
     }),
     ...(seat &&
+      seat !== 'mastermind' &&
       s.ll &&
       (s.loop > 1 ||
         s.observations.public.some((o) => o.type === 'boundary' && o.phase === 'loop-start')) && {
         personalRole: s.ll.roles[seat],
       }),
-    reports: s.observations.protagonists.slice(since).map(visibleReport),
+    reports: policyReports(s, seat).slice(since).map(visibleReport),
     territory: briefing ? undefined : s.publicTerritory,
     boards: s.boards,
     ex: s.ex,
     ownCards: (briefing ? [] : s.cards)
-      .filter((c) => c.owner !== 'mastermind')
+      .filter((c) => own(c.owner))
       .map((c) => ({ id: c.id, owner: c.owner, kind: c.kind, status: c.status }))
       .sort((a, b) => byText(a.id, b.id)),
     placements: s.placements
@@ -88,13 +92,26 @@ export function observedBoard(
         return {
           owner: card.owner,
           target: p.target,
-          ...(card.owner !== 'mastermind' && { card: card.id }),
+          ...(own(card.owner) && { card: card.id }),
         };
       })
       .sort((a, b) => byText(canonical(a), canonical(b))),
     ...(s.curses?.length && { curses: s.curses.map((c) => c.target).sort() }),
     characters: visibleCharacters(s),
   };
+}
+export function policyReports(s: EngineState, seat?: Actor) {
+  return seat === 'mastermind' ? s.observations.mastermind : s.observations.protagonists;
+}
+
+/** The script author knows the selected roles and incident culprits. The LL
+ * seat shuffle belongs to the players. Neither raw host flags nor opponents'
+ * private commands are available to disambiguate a decision. */
+export function mastermindQuestion(s: EngineState) {
+  if (s.pending?.actor !== 'mastermind' || s.winner) throw Error('Expected a mastermind decision');
+  if (s.setup.module === 'LL' && !s.ll) throw Error('Missing LL seat assignments in host state');
+  const { privateRoles, ...script } = s.setup;
+  return canonical({ script, view: observedMenu(s, 0, 'mastermind') });
 }
 export function visibleCharacters(s: EngineState) {
   return (s.phase === 'briefing' ? [] : Object.values(s.characters))
