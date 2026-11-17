@@ -51,6 +51,7 @@ archive/               旧实现与归档说明；不参与 workspace 或检查
 
 ```bash
 pnpm solve:survival products/engine/day-survival-example.json
+pnpm solve:policy products/engine/day-survival-example.json
 ```
 
 示例重放到第一天的主人公能力阶段。医院已有密谋，住院患者的不安达到医院事故门槛。求解器找到医生发动能力并移除一枚不安的操作；若直接放弃，患者会在事件阶段死亡。
@@ -58,6 +59,10 @@ pnpm solve:survival products/engine/day-survival-example.json
 输入中的 `target` 是待保护的存活角色 ID，`candidates` 是与同一已知局面相符的候选重放，格式与最终决战示例一致。只有穷尽可行候选才能声明 `exhaustive: true`。自动搜索从当前菜单尝试放弃或发动一项能力，必要时补上队长后续的目标、数值等选择，然后放弃剩余任意能力。也可以用 `plans` 列出要比较的队长命令序列，包括连续发动多项能力。目标按实际弹出的 `select` 菜单填写，自动确定的唯一目标无需提交命令。未遇到的序列后缀不会执行。
 
 `guaranteed` 表示在所有候选和剩余合法选择下，目标直到当日结束或轮回提前结束都存活在场；期间死亡后复活仍算失败。剧作家的拒绝、事件目标和日末能力都按正向内核展开。此目标允许主人公因其他原因失败。`no-guaranteed-plan` 只针对自动搜索的单次发动及预先约定的选择序列。显式方案返回 `counterexample` 时，原因区分死亡、离场和指令不可执行。`workPerPlan` 限制每个方案的正向步数，`maxPlans` 限制自动搜索的方案数（默认 100）；无法完成判定时返回 `unknown`。
+
+`solve:policy` 支持主人公根据新观察连续发动能力。例如两名嫌疑人的不安都达到医院事故门槛，医生今天只能帮其中一人。若候选剧本中职员的两个可能身份分别对应不同当事人，可以先让职员公开身份，再决定医生的目标。若同一公开身份仍兼容两个当事人，该行动无法保证保人。
+
+策略从 `policy.choice` 开始。下次轮到队长时，按 `responses[].when` 给出的新增报告、盘面与菜单匹配下一条 `then.choice`；引擎调用方可直接使用 `nextDayPolicy`。剧作家掌握的当事人和私下选择不会出现在条件中。`maxAbilities` 是每条路线允许声明的能力次数（默认 2，拒绝也计一次），`workLimit` 是整次搜索共享的正向推进与命令次数（默认 10000）。`no-guaranteed-policy` 表示该发动上限内穷尽后无解；候选不全、规则未支持、步数耗尽或单路线达到 128 个队长提问时返回 `unknown`，除非其他路线已足以确定结果。
 
 ## 最终决战决策求解器
 

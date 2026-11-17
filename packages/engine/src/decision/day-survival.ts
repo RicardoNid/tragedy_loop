@@ -9,7 +9,7 @@ export interface SurvivalResult {
   reason?: 'death' | 'left-play' | 'unavailable' | 'limit' | 'incomplete' | 'unsupported';
 }
 
-function supported(pack: RulePack, s: EngineState) {
+export function dayRulesSupported(pack: RulePack, s: EngineState) {
   const roles = Object.values(s.characters).flatMap((c) => [c.identity, c.initialIdentity]);
   for (const c of s.setup.characters) if (c.reverseIdentity) roles.push(c.reverseIdentity);
   return (
@@ -22,13 +22,43 @@ function supported(pack: RulePack, s: EngineState) {
   );
 }
 
-interface Candidates {
+export interface DayCandidates {
   exhaustive: boolean;
   states: readonly EngineState[];
 }
-function prepare(pack: RulePack, candidates: Candidates, target: string, workPerPlan: number) {
-  if (!Number.isSafeInteger(workPerPlan) || workPerPlan < 0)
-    throw Error('Invalid per-plan work limit');
+/** Everything a captain can use to distinguish these ability menus. Opaque runtime IDs
+ * and characters that have not appeared do not identify a public position. */
+export function dayMenuView(s: EngineState, since: number) {
+  const menu = s.pending!;
+  return {
+    loop: s.loop,
+    day: s.day,
+    phase: s.phase,
+    captain: s.captain,
+    reports: s.observations.protagonists.slice(since),
+    menu: {
+      actor: menu.actor,
+      kind: menu.kind,
+      areas: menu.areas,
+      options: [...menu.options].sort((a, b) => canonical(a).localeCompare(canonical(b))),
+    },
+    territory: s.publicTerritory,
+    boards: s.boards,
+    ex: s.ex,
+    characters: Object.values(s.characters)
+      .filter((c) => c.status !== 'absent')
+      .map((c) => ({
+        id: c.id,
+        character: c.character,
+        area: c.area,
+        status: c.status,
+        counters: c.counters,
+      }))
+      .sort((a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0)),
+  };
+}
+
+export function checkDayRoots(pack: RulePack, candidates: DayCandidates, target: string) {
   let question: string | undefined;
   for (const s of candidates.states) {
     if (
@@ -45,26 +75,36 @@ function prepare(pack: RulePack, candidates: Candidates, target: string, workPer
     const signature = canonical([
       s.setup.days,
       s.setup.loops,
-      s.publicTerritory,
+      s.setup.discussion,
       s.setup.incidents
         .map((i) => ({ day: i.day, name: i.publicName ?? i.name }))
         .sort((a, b) => a.day - b.day),
-      s.loop,
-      s.day,
-      s.captain,
-      s.observations.protagonists,
-      s.pending.options.map(canonical).sort(),
-      s.boards,
-      s.ex,
-      Object.values(s.characters)
-        .map((c) => canonical([c.id, c.character, c.area, c.status, c.counters]))
-        .sort(),
+      dayMenuView(s, 0),
     ]);
     if (question !== undefined && question !== signature)
       throw Error('Different observed decision positions');
     question = signature;
   }
-  const worlds = candidates.states.map((s) => ({ s, supported: supported(pack, s) }));
+}
+
+export function submitDayChoice(pack: RulePack, s: EngineState, choice: Choice) {
+  const d = s.pending!;
+  let id = 'survival-' + s.revision;
+  while (Object.hasOwn(s.receipts, id)) id += '-';
+  return advance(
+    pack,
+    s,
+    d.actor,
+    { id, decisionId: d.id, expectedRevision: s.revision, choice },
+    0,
+  );
+}
+
+function prepare(pack: RulePack, candidates: DayCandidates, target: string, workPerPlan: number) {
+  if (!Number.isSafeInteger(workPerPlan) || workPerPlan < 0)
+    throw Error('Invalid per-plan work limit');
+  checkDayRoots(pack, candidates, target);
+  const worlds = candidates.states.map((s) => ({ s, supported: dayRulesSupported(pack, s) }));
   return function evaluate(
     plan: readonly Choice[],
     refine?: (choices: Choice[]) => void,
@@ -107,22 +147,13 @@ function prepare(pack: RulePack, candidates: Candidates, target: string, workPer
         choices: readonly Choice[],
         nextStep: number,
       ): Generator<Branch> {
-        const d = b.s.pending!;
         for (const choice of choices) {
           if (work >= workPerPlan) {
             doubt = 'limit';
             return;
           }
           work++;
-          let id = 'survival-' + b.s.revision;
-          while (Object.hasOwn(b.s.receipts, id)) id += '-';
-          const r = advance(
-            pack,
-            b.s,
-            d.actor,
-            { id, decisionId: d.id, expectedRevision: b.s.revision, choice },
-            0,
-          );
+          const r = submitDayChoice(pack, b.s, choice);
           if (r.status === 'rejected') {
             doubt = 'unsupported';
             continue;
@@ -188,7 +219,7 @@ function prepare(pack: RulePack, candidates: Candidates, target: string, workPer
  * optional abilities. Every other legal choice is quantified universally. */
 export function solveDaySurvival(
   pack: RulePack,
-  candidates: Candidates,
+  candidates: DayCandidates,
   target: string,
   plans: readonly (readonly Choice[])[],
   workPerPlan: number,
@@ -202,7 +233,7 @@ export function solveDaySurvival(
  * on that branch. A loss before any such menu rules out the entire prefix. */
 export function findDaySurvival(
   pack: RulePack,
-  candidates: Candidates,
+  candidates: DayCandidates,
   target: string,
   workPerPlan: number,
   maxPlans: number,
