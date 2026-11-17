@@ -41,6 +41,7 @@ export function findMastermindPolicy(
   goal: MastermindGoal,
   workLimit: number,
   frontierLimit = 512,
+  opening?: Choice,
 ) {
   if (goal?.kind !== 'loop-failure' && goal?.kind !== 'mastermind-win')
     throw Error('Expected a mastermind goal');
@@ -63,6 +64,7 @@ export function findMastermindPolicy(
   }
   const loop = candidates.states[0]?.loop;
   return searchPolicy(pack, candidates, workLimit, {
+    opening,
     seat: 'mastermind',
     frontierLimit,
     controls: (s) => s.pending!.actor === 'mastermind',

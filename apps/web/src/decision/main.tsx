@@ -5,7 +5,9 @@ import type {
   PolicyNode,
   Scenario,
 } from '../../../../packages/contracts/src/decision.js';
-import { actor, phases, reasons, target } from './labels.js';
+import { action, actor, phases, reasons, target } from './labels.js';
+import type { Choice } from '../../../../packages/contracts/src/game.js';
+import { OpeningChoice } from './OpeningChoice.js';
 import { Board } from './Board.js';
 import { Policy } from './Policy.js';
 import { ImportDialog } from './ImportDialog.js';
@@ -14,7 +16,7 @@ import type { InvestigationOptions } from '../../../../packages/contracts/src/in
 import './style.css';
 
 type Source = { scenario: string } | { question: unknown; name: string };
-type Mode = 'inspect' | 'solve' | 'verify' | 'investigate';
+type Mode = 'inspect' | 'solve' | 'verify' | 'investigate' | 'action';
 const number = (n: number) => n.toLocaleString('zh-CN');
 function save(policy: PolicyNode) {
   const url = URL.createObjectURL(
@@ -31,6 +33,7 @@ const verdict = {
   'no-guaranteed-policy': '没有保证策略',
   unknown: '尚无法判定',
   'no-candidates': '没有相容候选',
+  'illegal-opening': '此行动在候选局面中不合法',
 };
 const verification = {
   verified: '策略通过复核',
@@ -57,15 +60,16 @@ function App() {
     chosen = policy,
     limit = budget,
     investigation?: InvestigationOptions,
+    opening?: Choice,
   ) {
     active.current?.abort();
     const controller = new AbortController();
     active.current = controller;
     setBusy(mode);
     setError('');
-    if (mode === 'solve') {
+    if (mode === 'solve' || mode === 'action') {
       setPolicy(undefined);
-      setData((d) => d && { ...d, advice: undefined, verification: undefined });
+      setData((d) => d && { ...d, advice: undefined, verification: undefined, opening: undefined });
     }
     if (mode === 'verify') setData((d) => d && { ...d, verification: undefined });
     if (mode === 'investigate') setData((d) => d && { ...d, investigation: undefined });
@@ -78,6 +82,7 @@ function App() {
         ...(limit && { workLimit: Number(limit) }),
         ...(mode === 'verify' && { policy: chosen }),
         ...(investigation && { investigation }),
+        ...(mode === 'action' && { choice: opening }),
       };
       const res = await fetch('/api/decision', {
         method: 'POST',
@@ -89,8 +94,8 @@ function App() {
       if (!res.ok) throw Error(result.error ?? '局面请求失败');
       if (active.current !== controller) return;
       const next = result as DecisionAnalysis;
-      setData((old) => ({ ...old, ...next }));
-      if (mode === 'solve') {
+      setData((old) => ({ ...old, ...next, ...(mode === 'solve' && { opening: undefined }) }));
+      if (mode === 'solve' || mode === 'action') {
         setPolicy(next.advice?.policy);
         setVersion((v) => v + 1);
       }
@@ -298,6 +303,16 @@ function App() {
                 />
               </label>
             </div>
+            {data && view && (
+              <OpeningChoice
+                data={data}
+                view={view}
+                busy={!!busy}
+                evaluate={(choice) =>
+                  void run('action', source, undefined, budget, undefined, choice)
+                }
+              />
+            )}
             <div role="status" aria-live="polite">
               {busy &&
                 (busy === 'inspect'
@@ -308,6 +323,7 @@ function App() {
             </div>
             {data?.advice && (
               <div className="verdict">
+                {data.opening && <p>指定行动　{action(data.opening, view)}</p>}
                 <strong>{verdict[data.advice.status]}</strong>
                 {data.advice.reason && <p>{reasons[data.advice.reason]}</p>}
               </div>

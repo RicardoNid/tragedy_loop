@@ -13,6 +13,29 @@ let server: Awaited<ReturnType<typeof makeDecisionServer>>;
 let browser: Browser;
 let url: string;
 const results = new URL('../test-results/decision-workbench/', import.meta.url);
+test('在同一盘面改选学校或医院，结果可独立复核，再次自由求解会清除起手限制', async () => {
+  const page = await browser.newPage();
+  try {
+    await page.goto(url);
+    await page.getByText('评估指定行动', { exact: true }).click();
+    await page.getByLabel('行动牌', { exact: true }).selectOption('p2-7');
+    await page.getByLabel('放置目标').selectOption('hospital');
+    const solve = page.getByRole('button', { name: '求解此行动的后续' });
+    await solve.click();
+    await expect(page.getByText('没有保证策略', { exact: true })).toBeVisible();
+    await expect(page.getByText(/指定行动.*对医院使用禁止密谋/)).toBeVisible();
+    await page.getByLabel('放置目标').selectOption('school');
+    await solve.click();
+    await expect(page.getByText('存在保证策略', { exact: true })).toBeVisible();
+    await page.getByRole('button', { name: '独立复核', exact: true }).click();
+    await expect(page.getByText('策略通过复核', { exact: true })).toBeVisible();
+    await page.getByRole('button', { name: '求解策略', exact: true }).click();
+    await expect(page.getByText('存在保证策略', { exact: true })).toBeVisible();
+    await expect(page.locator('.verdict p').filter({ hasText: /^指定行动/ })).toHaveCount(0);
+  } finally {
+    await page.close();
+  }
+});
 test('浏览器展示医院事故未发生的正式公告及已排除剧本数', async () => {
   const page = await browser.newPage();
   try {

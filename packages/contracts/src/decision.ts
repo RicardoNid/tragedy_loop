@@ -49,7 +49,7 @@ export interface PolicyNode {
   responses: { when: PolicyView; then: PolicyNode }[];
 }
 export interface PolicyAdvice {
-  status: 'guaranteed' | 'no-guaranteed-policy' | 'unknown' | 'no-candidates';
+  status: 'guaranteed' | 'no-guaranteed-policy' | 'unknown' | 'no-candidates' | 'illegal-opening';
   work: number;
   reusedProofs?: number;
   reason?: 'limit' | 'unsupported' | 'incomplete';
@@ -102,6 +102,8 @@ export interface IncidentConflict {
   predicted: boolean;
 }
 export interface DecisionAnalysis {
+  opening?: Choice;
+  actionInput?: { cardCount?: number; identities?: string[] };
   module: Module;
   sheet?: { loops: number; days: number; incidents: { day: number; name: string }[] };
   goal: DecisionGoal;

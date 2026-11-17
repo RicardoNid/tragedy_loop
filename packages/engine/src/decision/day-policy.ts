@@ -1,4 +1,5 @@
 import type { EngineState, RulePack } from '../runtime/model.js';
+import type { Choice } from '../../../contracts/src/game.js';
 import { checkDayRoots } from './day-survival.js';
 import type { PolicyCandidates } from './position.js';
 import { nextPolicyStep, searchPolicy, type PolicyNode } from './policy-search.js';
@@ -16,11 +17,13 @@ export function findDayPolicy(
   target: string,
   maxAbilities: number,
   workLimit: number,
+  opening?: Choice,
 ) {
   if (!Number.isSafeInteger(maxAbilities) || maxAbilities < 0) throw Error('Invalid policy limits');
   checkDayRoots(pack, candidates, target);
   const root = candidates.states[0];
   return searchPolicy(pack, candidates, workLimit, {
+    opening,
     maxAbilities,
     traceDeaths: true,
     controls: (s) => s.phase === 'protagonist-abilities' && s.pending?.actor === root?.captain,

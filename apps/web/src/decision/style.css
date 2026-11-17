@@ -293,13 +293,46 @@ nav button:hover:not(:disabled),
   font-size: 14px;
   color: #53645a;
 }
-.investigation select {
+.investigation select,
+.opening select,
+.opening input {
   max-width: 100%;
   font: inherit;
   padding: 7px;
   border: 1px solid #bdc6bc;
   border-radius: 4px;
   background: #fffefa;
+}
+.opening {
+  margin: 12px 0;
+  padding: 9px 12px;
+  border: 1px solid #cbd3c7;
+  border-radius: 5px;
+}
+.opening summary {
+  cursor: pointer;
+  color: #29473f;
+  font-weight: 600;
+}
+.opening form,
+.opening-row {
+  display: flex;
+  align-items: end;
+  flex-wrap: wrap;
+  gap: 9px 12px;
+}
+.opening form {
+  margin-top: 10px;
+}
+.opening label {
+  display: grid;
+  gap: 3px;
+  min-width: 0;
+  font-size: 14px;
+}
+.opening select:focus-visible {
+  outline: 3px solid #b96b34;
+  outline-offset: 2px;
 }
 .investigation input[type='number'] {
   width: 68px;
