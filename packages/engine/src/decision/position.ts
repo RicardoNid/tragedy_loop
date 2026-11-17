@@ -40,6 +40,7 @@ export interface PolicyCandidates {
  * and characters that have not appeared do not identify a public position. */
 export function observedMenu(s: EngineState, since: number) {
   const menu = s.pending!;
+  const briefing = s.phase === 'briefing';
   return {
     loop: s.loop,
     day: s.day,
@@ -56,10 +57,10 @@ export function observedMenu(s: EngineState, since: number) {
       targets: legalCardTargets(s, menu.actor).sort(),
     }),
     ...(menu.kind === 'guess' && { answerKind: s.flags['c-guess'] ? 'culprits' : 'identities' }),
-    territory: s.publicTerritory,
+    territory: briefing ? undefined : s.publicTerritory,
     boards: s.boards,
     ex: s.ex,
-    ownCards: s.cards
+    ownCards: (briefing ? [] : s.cards)
       .filter((c) => c.owner !== 'mastermind')
       .map((c) => ({ id: c.id, owner: c.owner, kind: c.kind, status: c.status }))
       .sort((a, b) => byText(a.id, b.id)),
@@ -74,8 +75,8 @@ export function observedMenu(s: EngineState, since: number) {
       })
       .sort((a, b) => byText(canonical(a), canonical(b))),
     ...(s.curses?.length && { curses: s.curses.map((c) => c.target).sort() }),
-    characters: Object.values(s.characters)
-      .filter((c) => c.status !== 'absent')
+    characters: (briefing ? [] : Object.values(s.characters))
+      .filter((c) => c.status !== 'absent' || s.appeared.includes(c.id))
       .map((c) => ({
         id: c.id,
         character: c.character,

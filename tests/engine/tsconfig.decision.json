@@ -1,6 +1,7 @@
 {
   "extends": "./tsconfig.absence.json",
   "include": [
+    "./setup-space.test.ts",
     "./observed-worlds.test.ts",
     "../../scripts/engine/observed-game.ts",
     "./game-policy.test.ts",

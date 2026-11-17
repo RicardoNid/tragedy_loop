@@ -16,6 +16,10 @@ function sample(name: string) {
     ),
   );
 }
+function fixedHospital() {
+  const { setupDomains: _, ...q } = sample('observed-game');
+  return { ...q, setups: [sample('day-survival').candidates[0].setup] };
+}
 test('揭牌前只有三个暗置位置：独立生成十张牌的 720 个有序分配，逐一比对重建结果', () => {
   const q = sample('game-policy'),
     pack = compileOfficial('FS');
@@ -47,7 +51,7 @@ test('揭牌前只有三个暗置位置：独立生成十张牌的 720 个有序
 });
 
 test('揭牌后只剩两张同面的不安牌可互换，公开盘面、完整观察及决策均能复现', () => {
-  const q = sample('observed-game'),
+  const q = fixedHospital(),
     pack = compileOfficial('BTX');
   const original = sample('day-survival');
   assert.deepEqual(
@@ -84,7 +88,7 @@ test('揭牌后只剩两张同面的不安牌可互换，公开盘面、完整�
 });
 
 test('来源范围、矛盾证据、闭合区间、未支持特规与中间漏记', () => {
-  const q = sample('observed-game');
+  const q = fixedHospital();
   const empty = adviseObservedGame({ ...q, setups: [] });
   assert.equal(empty.advice.status, 'no-candidates');
   const broken = clone(q);
