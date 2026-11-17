@@ -2,7 +2,11 @@ import assert from 'node:assert/strict';
 import test from 'node:test';
 import { readFileSync } from 'node:fs';
 import { clone } from '../../packages/engine/src/runtime/model.js';
-import { maximizeCoverage, verifyCoverage } from '../../packages/engine/src/decision/coverage.js';
+import {
+  maximizeCoverage,
+  verifyCoverage,
+  compareCoverage,
+} from '../../packages/engine/src/decision/coverage.js';
 import { coverageQuestion } from '../../scripts/engine/script-coverage.js';
 import {
   resolveReplayQuestion,
@@ -153,4 +157,101 @@ test('LL 旁座的未公开洗牌不会将一个剧本计成两个，个人目�
   const r = coverageQuestion(q).coverage!;
   assert.deepEqual([r.status, r.lower, r.scripts], ['optimal', 1, 1]);
   assert.equal(coverageQuestion(q, r.policy!).verification?.verified, 1);
+});
+
+test('两个最终剧本、三种回答策略、全部非空候选子集的 27 组覆盖关系', () => {
+  const q = fixture('final-decision');
+  const pool = resolveReplayQuestion(q);
+  const plans = q.candidates.map(
+    (c) => coverageQuestion({ ...q, candidates: [c] }).coverage!.policy!,
+  );
+  const wrong = clone(plans[0]!);
+  wrong.choice = { kind: 'guess', character: 'doctor', identity: '主谋' };
+  plans.push(wrong);
+  for (const mask of [1, 2, 3]) {
+    const states = pool.candidates.states.filter((_, i) => mask & (1 << i));
+    for (const [i, left] of plans.entries())
+      for (const [j, right] of plans.entries()) {
+        const l = mask & [1, 2, 0][i]!,
+          r = mask & [1, 2, 0][j]!;
+        const expected =
+          l === r
+            ? 'equivalent'
+            : (l & r) === r
+              ? 'left-superset'
+              : (l & r) === l
+                ? 'right-superset'
+                : 'incomparable';
+        const result = compareCoverage(
+          pool.pack,
+          { exhaustive: true, states },
+          game,
+          left,
+          right,
+          10000,
+        );
+        assert.equal(result.relation, expected, [mask, i, j].join('/'));
+        assert.equal(result.scripts.length, states.length);
+        assert.ok(result.work <= 10000);
+        assert.deepEqual(
+          result.scripts,
+          compareCoverage(
+            pool.pack,
+            { exhaustive: true, states: [...states].reverse() },
+            game,
+            left,
+            right,
+            10000,
+          ).scripts,
+        );
+      }
+  }
+  const both = coverageQuestion(q, plans[0], plans[1]).comparison!;
+  assert.equal(both.relation, 'incomparable');
+  assert.equal(
+    both.scripts.filter((s) => s.left === 'verified' && s.right === 'refuted').length,
+    1,
+  );
+  assert.equal(
+    both.scripts.filter((s) => s.right === 'verified' && s.left === 'refuted').length,
+    1,
+  );
+  for (const budget of [0, 1, 2, 4, 16, 64, 512]) {
+    const result = compareCoverage(pool.pack, pool.candidates, game, plans[0]!, plans[1]!, budget);
+    assert.ok(result.work <= budget);
+    assert.ok(['unknown', 'incomparable'].includes(result.relation));
+    if (!budget)
+      assert.ok(result.scripts.every((s) => s.left === 'unresolved' && s.right === 'unresolved'));
+  }
+  assert.equal(
+    coverageQuestion({ ...q, exhaustive: false }, plans[0], wrong).comparison!.relation,
+    'unknown',
+  );
+  assert.equal(
+    coverageQuestion({ ...q, candidates: [] }, plans[0], wrong).comparison!.relation,
+    'no-candidates',
+  );
+});
+test('同一剧本含必死的隐藏延迟结算时，两种保人策略都不能覆盖此剧本', () => {
+  const l = hospital('平民', 'a'),
+    other = hospital('时间旅者', 'b');
+  const doomed = clone(l.state);
+  doomed.delayed = [
+    { loop: 1, day: 1, timing: 'day-end', effects: [{ op: 'kill', target: 'c' }], env: {} },
+  ];
+  const goal = { kind: 'survival', target: 'c', maxAbilities: 1 } as const;
+  const [left, right] = [l, other].map(
+    (w) => maximizeCoverage(w.pack, { exhaustive: true, states: [w.state] }, goal, 50000).policy!,
+  );
+  const r = compareCoverage(
+    l.pack,
+    { exhaustive: true, states: [doomed, other.state, l.state] },
+    goal,
+    left!,
+    right!,
+    50000,
+  );
+  assert.equal(r.relation, 'right-superset');
+  assert.equal(r.scripts.filter((s) => s.left === 'refuted' && s.right === 'refuted').length, 1);
+  assert.equal(r.scripts.filter((s) => s.left === 'refuted' && s.right === 'verified').length, 1);
 });

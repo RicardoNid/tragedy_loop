@@ -17,3 +17,16 @@ export interface CoverageCheck {
   work: number;
   exhaustive: boolean;
 }
+export type ScriptVerdict = 'verified' | 'refuted' | 'unresolved';
+export interface CoverageComparison {
+  relation:
+    | 'equivalent'
+    | 'left-superset'
+    | 'right-superset'
+    | 'incomparable'
+    | 'unknown'
+    | 'no-candidates';
+  exhaustive: boolean;
+  work: number;
+  scripts: { script: number; left: ScriptVerdict; right: ScriptVerdict }[];
+}
