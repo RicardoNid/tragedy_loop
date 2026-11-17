@@ -7,6 +7,21 @@ const positive = integer.positive();
 const board = z.enum(['hospital', 'shrine', 'city', 'school']);
 const seat = z.enum(['p0', 'p1', 'p2']);
 const role = z.enum(['A', 'B', 'C']);
+export const characterSetupSchema = z
+  .object({
+    id: text,
+    character: text,
+    identity: text,
+    initialArea: z.enum(['hospital', 'shrine', 'city', 'school', 'far']).optional(),
+    enterDay: positive.optional(),
+    enterLoop: positive.optional(),
+    x: integer.optional(),
+    territory: board.optional(),
+    copiedFrom: text.optional(),
+    reverseIdentity: text.optional(),
+  })
+  .strict();
+
 /** Strict JSON boundary: unknown fields must never silently become ignored rules. */
 export const setupSchema: z.ZodType<GameSetup> = z
   .object({
@@ -19,24 +34,7 @@ export const setupSchema: z.ZodType<GameSetup> = z
     captain: seat,
     discussion: z.enum(['allowed', 'between-loops']),
     publicSpecialRules: z.array(text).optional(),
-    characters: z
-      .array(
-        z
-          .object({
-            id: text,
-            character: text,
-            identity: text,
-            initialArea: z.enum(['hospital', 'shrine', 'city', 'school', 'far']).optional(),
-            enterDay: positive.optional(),
-            enterLoop: positive.optional(),
-            x: integer.optional(),
-            territory: board.optional(),
-            copiedFrom: text.optional(),
-            reverseIdentity: text.optional(),
-          })
-          .strict(),
-      )
-      .min(1),
+    characters: z.array(characterSetupSchema).min(1),
     incidents: z.array(
       z.object({ day: positive, name: text, publicName: text.optional(), culprit: text }).strict(),
     ),

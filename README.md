@@ -55,9 +55,11 @@ archive/               旧实现与归档说明；不参与 workspace 或检查
 pnpm solve:observed products/engine/observed-game-example.json
 ```
 
-此示例提供候选剧本和主人公共享观察。医院事故前已经翻牌，所以能确定牌面，但剧作家的两张不安 +1 实体牌仍可互换。程序找到两条相容历史，再给出对两者都成立的医生保人策略。翻牌前只能用已经公开的暗置目标缩减枚举，不能提前使用牌面。主人公自己提交过的行动按其确认记录重放。
+此示例提供角色候选身份、已知规则组合、事件当事人及主人公的观察记录。偶像和大小姐均可能是关键人物，也均可能是平民。身份配额只允许两个完整剧本。医院事故前已经翻牌，但两张不安 +1 实体牌仍可互换，总计四条相容历史。四种情况下医生都能保住患者。翻牌前只能用已经公开的暗置目标缩减枚举。
 
-输入中的 `setups` 是宿主提供的候选剧本，`exhaustiveSetups` 声明这些剧本是否覆盖当前问题。`evidence` 是从开局到当前主人公提问的完整观察，可用 `pnpm observe:decision products/engine/day-survival-example.json` 从首条候选重放导出。普通整局目标使用 `goal: {"kind":"game"}` 或省略；当日保人目标使用 `{"kind":"survival","target":"patient","maxAbilities":2}`。输出分别报告历史搜索和决策搜索。`historyWorkLimit` 默认 50000，`worldLimit` 默认 512。任一上限截断了仍可能相容的历史、候选剧本范围不全或特规未建模时，策略判定为 `unknown`。剧本和内部运行状态只供宿主使用。
+输入可提供完整候选剧本数组 `setups`，也可提供若干个 `setupDomains`。每个域给出一份完整角色表，`roles` 可限制该角色的身份（AHR 表里身份写成二元数组）。省略 `plots` 时枚举当前模组的 Y 和有序 X 槽。省略某日的 `names`、`culprits` 时按公开事件表枚举该模组支持的实际事件、伪造事件和合法当事人。核验包括身份配额、模仿犯复制、局外人、成对身份、可选暴徒、周年残片和 LL 座位分配。转校生和神灵未指定登场时点时枚举所有合法日、轮。仙人的 X 无规则上限，需要在各域里给出待检验的取值。
+
+`exhaustiveSetups` 声明输入是否覆盖所有可能的角色名单和配置。`evidence` 是从开局到当前主人公提问的完整观察，可用 `pnpm observe:decision products/engine/day-survival-example.json` 从首条候选重放导出。普通整局目标使用 `goal: {"kind":"game"}` 或省略；当日保人目标使用 `{"kind":"survival","target":"patient","maxAbilities":2}`。输出分别报告剧本生成、历史重建和决策搜索。`generationWorkLimit` 默认 100000，`historyWorkLimit` 默认 50000，`worldLimit` 默认 512。超出上限、范围不全或特规未建模时，不能据已找到的部分世界给出保证。剧本和内部运行状态只供宿主使用。
 
 ```bash
 pnpm solve:game products/engine/game-policy-example.json

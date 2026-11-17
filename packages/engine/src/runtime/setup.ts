@@ -1,4 +1,10 @@
-import type { Actor, Board, CardKind, GameSetup } from '../../../contracts/src/game.js';
+import type {
+  Actor,
+  Board,
+  CardKind,
+  CharacterSetup,
+  GameSetup,
+} from '../../../contracts/src/game.js';
 import { setupSchema } from '../../../contracts/src/validation.js';
 import {
   BOARDS,
@@ -8,11 +14,32 @@ import {
   type CharacterState,
   type Diagnostic,
   type EngineState,
+  type PlotDefinition,
   type RulePack,
 } from './model.js';
 
 export function hasUnsupportedDiagnostic(diagnostics: Diagnostic[]) {
   return diagnostics.some((d) => d.code.startsWith('unsupported'));
+}
+export function culpritDuty(c: CharacterSetup) {
+  if (c.reverseIdentity) return;
+  if (['强迫症', '愚者', '双胞胎', '祭品', '怪杰'].includes(c.identity)) return 'required';
+  if (c.identity === '侦探') return 'forbidden';
+}
+
+/** Fixed roles are capped across the chosen rules. A paired identity occupies one
+ * character slot and is allocated separately from the single-role counts. */
+export function roleInventory(pack: RulePack, plots: readonly PlotDefinition[]) {
+  const pool: Record<string, number> = {};
+  const pairs: [string, string][] = [];
+  for (const plot of plots) {
+    for (const [identity, n] of Object.entries(plot.identities))
+      pool[identity] = (pool[identity] ?? 0) + n;
+    if (plot.pair) pairs.push(plot.pair);
+  }
+  for (const id of Object.keys(pool))
+    pool[id] = Math.min(pool[id]!, pack.identities[id]?.max ?? Infinity);
+  return { pool, pairs };
 }
 
 export function validateSetup(pack: RulePack, setup: GameSetup): Diagnostic[] {
@@ -54,9 +81,8 @@ export function validateSetup(pack: RulePack, setup: GameSetup): Diagnostic[] {
   const xCount = pack.module === 'FS' ? 1 : 2;
   if (setup.x.length !== xCount || new Set(setup.x).size !== setup.x.length)
     fail('invalid-x-slots', 'x', `Exactly ${xCount} distinct X rules are required.`);
-  const pool: Record<string, number> = {};
-  const pairs: string[] = [],
-    assignedPairs: string[] = [];
+  const plots: PlotDefinition[] = [];
+  const assignedPairs: string[] = [];
   for (const [name, type] of [[setup.y, 'Y'], ...setup.x.map((x) => [x, 'X'])]) {
     const plot = name ? pack.plots[name] : undefined;
     if (!plot || plot.type !== type) {
@@ -64,12 +90,11 @@ export function validateSetup(pack: RulePack, setup: GameSetup): Diagnostic[] {
       continue;
     }
     if (!plot.supported) fail('unsupported-rule', 'rules', `Pending translation: ${name}`);
-    for (const [identity, n] of Object.entries(plot.identities))
-      pool[identity] = (pool[identity] ?? 0) + n;
-    if (plot.pair) pairs.push(plot.pair.join('/'));
+    plots.push(plot);
   }
-  for (const id of Object.keys(pool))
-    pool[id] = Math.min(pool[id]!, pack.identities[id]?.max ?? Infinity);
+  const inventory = roleInventory(pack, plots);
+  const pool = inventory.pool,
+    pairs = inventory.pairs.map((p) => p.join('/'));
   const inherentPool = { ...pool };
   if (setup.x.includes('捏造的秘密') && !setup.characters.some((c) => c.identity === '密钥')) {
     if (!setup.secretAddition || pool[setup.secretAddition])
@@ -182,17 +207,10 @@ export function validateSetup(pack: RulePack, setup: GameSetup): Diagnostic[] {
         );
     } else if (c.reverseIdentity) assignedPairs.push(`${c.identity}/${c.reverseIdentity}`);
     else actual[c.identity] = (actual[c.identity] ?? 0) + 1;
-    if (
-      !c.reverseIdentity &&
-      ['强迫症', '愚者', '双胞胎', '祭品', '怪杰'].includes(c.identity) &&
-      !setup.incidents.some((i) => i.culprit === c.id)
-    )
+    const duty = culpritDuty(c);
+    if (duty === 'required' && !setup.incidents.some((i) => i.culprit === c.id))
       fail('required-culprit', path, 'Identity must be a scheduled culprit.');
-    if (
-      !c.reverseIdentity &&
-      c.identity === '侦探' &&
-      setup.incidents.some((i) => i.culprit === c.id)
-    )
+    if (duty === 'forbidden' && setup.incidents.some((i) => i.culprit === c.id))
       fail('forbidden-culprit', path, 'Detective cannot be a culprit.');
     if (
       setup.y === '和我签订契约吧！' &&
