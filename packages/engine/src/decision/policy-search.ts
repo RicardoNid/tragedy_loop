@@ -1,10 +1,16 @@
-import type { Choice, Protagonist } from '../../../contracts/src/game.js';
+import type { Actor, Choice } from '../../../contracts/src/game.js';
 import type { PolicyNode, PolicyAdvice } from '../../../contracts/src/decision.js';
 export type { PolicyNode, PolicyAdvice } from '../../../contracts/src/decision.js';
 import { drive } from '../runtime/engine.js';
 import { canonical, clone, type EngineState, type RulePack } from '../runtime/model.js';
 import { enumerateChoices } from '../runtime/replay.js';
-import { observedMenu, submitChoice, rulesSupported, type PolicyCandidates } from './position.js';
+import {
+  observedMenu,
+  policyReports,
+  submitChoice,
+  rulesSupported,
+  type PolicyCandidates,
+} from './position.js';
 import { terminalProofKey, TerminalProofs } from './terminal-proofs.js';
 
 type View = ReturnType<typeof observedMenu>;
@@ -16,8 +22,7 @@ type Outcome = 'lose' | 'unsupported' | 'limit';
 export function nextPolicyStep(node: PolicyNode, state: EngineState) {
   if (
     !state.pending ||
-    state.pending.actor === 'mastermind' ||
-    (node.seat && state.pending.actor !== node.seat)
+    (node.seat ? state.pending.actor !== node.seat : state.pending.actor === 'mastermind')
   )
     return undefined;
   const key = canonical(observedMenu(state, node.reportsBefore, node.seat));
@@ -25,7 +30,7 @@ export function nextPolicyStep(node: PolicyNode, state: EngineState) {
 }
 
 interface SearchDomain {
-  seat?: Protagonist;
+  seat?: Actor;
   opponentChoices?(s: EngineState): Iterable<Choice>;
   controls(s: EngineState): boolean;
   outcome(s: EngineState, audit: number): 'win' | 'lose' | undefined;
@@ -146,7 +151,7 @@ export function searchPolicy(
     // Protect the JS stack even when a caller supplies an arbitrarily large budget.
     if (depth >= 128) return 'limit';
     const s = branches[0]!.state;
-    const reportsBefore = s.observations.protagonists.length;
+    const reportsBefore = policyReports(s, domain.seat).length;
     let unresolved: Outcome = 'lose';
     const choices = domain.choices(
       branches.map((b) => b.state),

@@ -1,5 +1,6 @@
 import type {
   DecisionGoal,
+  MastermindGoal,
   PolicyFailure,
   PublicVerification,
 } from '../../../contracts/src/decision.js';
@@ -11,6 +12,8 @@ import { checkDayRoots } from './day-survival.js';
 import type { PolicyNode } from './policy-search.js';
 import {
   observedMenu,
+  mastermindQuestion,
+  policyReports,
   publicQuestion,
   rulesSupported,
   submitChoice,
@@ -74,14 +77,18 @@ export function verifyPolicy(
   pack: RulePack,
   candidates: PolicyCandidates,
   policy: PolicyNode,
-  goal: DecisionGoal,
+  goal: DecisionGoal | MastermindGoal,
   workLimit: number,
   includeHostWitness = false,
 ): PolicyVerification {
   if (!Number.isSafeInteger(workLimit) || workLimit < 0) throw Error('Invalid verification limit');
-  if (!goal || !['game', 'seat-win', 'survival'].includes(goal.kind))
+  if (
+    !goal ||
+    !['game', 'seat-win', 'survival', 'loop-failure', 'mastermind-win'].includes(goal.kind)
+  )
     throw Error('Invalid verification goal');
-  const seat = goal.kind === 'seat-win' ? goal.seat : undefined;
+  const mastermind = goal.kind === 'loop-failure' || goal.kind === 'mastermind-win';
+  const seat = mastermind ? 'mastermind' : goal.kind === 'seat-win' ? goal.seat : undefined;
   const abilityLimit = goal.kind === 'survival' ? (goal.maxAbilities ?? 2) : Infinity;
   if (goal.kind === 'seat-win' && !['p0', 'p1', 'p2'].includes(goal.seat))
     throw Error('Invalid seat');
@@ -98,7 +105,9 @@ export function verifyPolicy(
         s.setup.anniversary !== pack.anniversary
       )
         throw Error('Mismatched verification rule pack');
-      const view = publicQuestion(s, seat);
+      if (goal.kind === 'loop-failure' && (s.failed || s.protagonistDead))
+        throw Error('Current loop failure has already occurred');
+      const view = seat === 'mastermind' ? mastermindQuestion(s) : publicQuestion(s, seat);
       if (expected !== undefined && expected !== view)
         throw Error('Different observed decision positions');
       expected = view;
@@ -128,13 +137,13 @@ export function verifyPolicy(
     const stack: Iterator<Item>[] = [
       [{ s: start, abilities: 0, audit: start.audit.length }][Symbol.iterator](),
     ];
-    const since = root.observations.protagonists.length;
+    const since = policyReports(root, seat).length;
     function fail(reason: PolicyFailure, s: EngineState, controlled = false): PolicyVerification {
       return {
         ...result('counterexample', reason),
         counterexample: {
           at: { loop: s.loop, day: s.day, phase: s.phase },
-          reports: s.observations.protagonists.slice(since).map(visibleReport),
+          reports: policyReports(s, seat).slice(since).map(visibleReport),
           ...(controlled && { question: observedMenu(s, since, seat) }),
         },
         ...(includeHostWitness && {
@@ -190,6 +199,12 @@ export function verifyPolicy(
             winningLeaves++;
             break;
           }
+        } else if (goal.kind === 'loop-failure') {
+          if (s.loop === root.loop && (s.failed || s.protagonistDead)) {
+            winningLeaves++;
+            break;
+          }
+          if (s.winner || s.loop !== root.loop || s.phase === 'final-guess') return fail('lost', s);
         } else if (s.winner) {
           if (seat ? !s.winners?.includes(seat) : s.winner !== 'protagonists')
             return fail('lost', s);
@@ -227,7 +242,7 @@ export function verifyPolicy(
           !node ||
           node.seat !== seat ||
           !Array.isArray(node.responses) ||
-          node.reportsBefore !== s.observations.protagonists.length
+          node.reportsBefore !== policyReports(s, seat).length
         )
           return fail('invalid-node', s, true);
         if (node.choice?.kind === 'ability' && ++path.abilities > abilityLimit)

@@ -2114,8 +2114,13 @@ export function advance(
   if (!applyChoice(pack, state, command.choice))
     return { status: 'rejected', state: input, reason: 'invalid-command' };
   // The briefing ends before the gameplay observation log used for replay begins.
-  if (actor !== 'mastermind' && command.choice.kind !== 'start')
-    announce(state, 'own-choice', { actor, choice: command.choice }, 'protagonists');
+  if (command.choice.kind !== 'start')
+    announce(
+      state,
+      'own-choice',
+      { actor, choice: command.choice },
+      actor === 'mastermind' ? 'mastermind' : 'protagonists',
+    );
   state.choices.push({ actor, decisionId: command.decisionId, choice: clone(command.choice) });
   state.pending = null;
   state.revision++;

@@ -160,6 +160,12 @@ pnpm check:decision
 
 `safeChoices` 是所有候选都接受的下一步。只有每名待答角色都有共同正确的答案时，`plan` 才给出可连续提交的完整顺序。周年版因果残片可答平民，AHR 的表里身份按一对核验。LL 主人公 C 在专属提问中须一次提交各日当事人的联合答案。覆盖不足、超出预算或有未建模特规时返回 `unknown`；穷尽输入后无候选返回 `no-candidates`。
 
+## 剧作家决策
+
+`pnpm solve:mastermind products/engine/mastermind-policy-example.json` 从剧作家正在选择的时点出发。示例中 FS「守护此地」的学校已有一枚密谋，在「流言四起」中选择学校，轮回末两枚密谋使剧作家获胜。输出的 `policy` 可以交给 `pnpm verify:policy <问题.json> <策略.json>` 独立重放。
+
+问题文件使用 `perspective: "mastermind"`。目标 `loop-failure` 要求本轮尚未发生的主人公败北或死亡之后必然触发；`mastermind-win` 一直检查到正向裁定公布剧作家为整局胜者。在允许最终决战的模组，主人公碰巧全部答对也属于合法应对。只有对每个候选和所有应对都成立的行动才会得到保证。策略按剧作家收到的公告、自己选过的行动、自己的手牌和当前公开盘面分支；LL 的三张私人身份牌继续保密。输入候选应具有同一私有剧本和剧作家观察，`exhaustive` 填写候选是否完备。搜索超过 `workLimit` 或 `frontierLimit` 会返回 `unknown`。
+
 ## 安装和配置检查
 
 Node 版本见 `.node-version`（当前 22.22.1），pnpm 版本见 package.json（11.25.0），

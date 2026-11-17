@@ -4,14 +4,37 @@ import { pathToFileURL } from 'node:url';
 import type { PolicyNode } from '../../packages/engine/src/decision/policy-search.js';
 import { verifyPolicy } from '../../packages/engine/src/decision/verify-policy.js';
 import { resolveObservedCandidates, type ObservedQuestion } from './observed-game.js';
-import { resolveReplayQuestion, type ReplayQuestion } from './candidate-replays.js';
+import {
+  resolveReplayCandidates,
+  resolveReplayQuestion,
+  type ReplayQuestion,
+} from './candidate-replays.js';
+import type { MastermindQuestion } from './mastermind-policy.js';
 
 export function verifyPolicyQuestion(
-  input: ObservedQuestion | ReplayQuestion,
+  input: ObservedQuestion | ReplayQuestion | MastermindQuestion,
   policy: PolicyNode,
   includeHostWitness = false,
 ) {
   if (!input || typeof input !== 'object' || !policy) throw Error('Expected a question and policy');
+  if ('perspective' in input) {
+    if (
+      input.perspective !== 'mastermind' ||
+      !['mastermind-win', 'loop-failure'].includes(input.goal?.kind)
+    )
+      throw Error('Expected a mastermind question');
+    const { pack, candidates } = resolveReplayCandidates(input);
+    return {
+      verification: verifyPolicy(
+        pack,
+        candidates,
+        policy,
+        input.goal,
+        input.workLimit ?? 100000,
+        includeHostWitness,
+      ),
+    };
+  }
   if ('evidence' in input) {
     const { pack, candidates, ...stats } = resolveObservedCandidates(input);
     return {
