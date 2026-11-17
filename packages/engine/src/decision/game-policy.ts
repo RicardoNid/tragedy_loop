@@ -75,6 +75,7 @@ export function findWinningPolicy(
   frontierLimit = 512,
   seat?: Protagonist,
   proofCacheLimit = 1024,
+  opening?: Choice,
 ): PolicyAdvice {
   if (!Number.isSafeInteger(workLimit) || workLimit < 0) throw Error('Invalid policy work limit');
   if (!Number.isSafeInteger(frontierLimit) || frontierLimit < 1)
@@ -109,6 +110,7 @@ export function findWinningPolicy(
     (c) => c.kind === 'vote-final-guess',
   );
   return searchPolicy(pack, candidates, workLimit, {
+    opening,
     frontierLimit,
     proofCacheLimit,
     seat,

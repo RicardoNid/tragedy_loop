@@ -164,6 +164,10 @@ pnpm check:decision
 
 `pnpm solve:observed products/engine/incident-outcome-example.json` 重建第一轮的医院事故。三名候选中，医生的不安已达界限，公告明确说事件未发生，因此只留下男学生和巫女，共 8 条历史。设置 `incidentEvidence: false` 可逐状态用原正向历史复核。发生公告和效果公告分开处理，即使医院没有密谋、事故没有造成死亡，也保留宣告发生的历史。HSA 的区域事件同时计算角色尸体和区域的受害者标记；隐蔽触发、替班或抑制条件仍有可能时，交给正向重放。
 
+## 评估指定行动
+
+在工作台展开「评估指定行动」可以选择一张牌及目标、能力或最终答案。命令行使用 `pnpm solve:action products/engine/game-policy-example.json products/engine/school-block-choice.json`。同一张「禁止密谋」放在学校能保证获胜，放在医院则存在可击败主人公的应对。返回策略的第一步固定为指定行动，后续仍可依据新公告改变决策。公开观察问题、候选重放和剧作家问题均可输入；`illegal-opening` 表示该行动无法在全部候选中合法提交，`unknown` 表示搜索或候选覆盖不足。
+
 ## 剧作家决策
 
 `pnpm solve:mastermind products/engine/mastermind-policy-example.json` 从剧作家正在选择的时点出发。示例中 FS「守护此地」的学校已有一枚密谋，在「流言四起」中选择学校，轮回末两枚密谋使剧作家获胜。输出的 `policy` 可以交给 `pnpm verify:policy <问题.json> <策略.json>` 独立重放。

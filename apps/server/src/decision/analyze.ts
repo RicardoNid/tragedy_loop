@@ -20,9 +20,13 @@ import {
   type ObservedQuestion,
 } from '../../../../scripts/engine/observed-game.js';
 import { loadScenario } from './scenarios.js';
+import { cardCount } from '../../../../packages/engine/src/runtime/engine.js';
+import { readOpening } from '../../../../scripts/engine/evaluate-action.js';
+import type { Choice } from '../../../../packages/contracts/src/game.js';
 
 export interface AnalysisRequest {
-  mode: 'inspect' | 'solve' | 'verify' | 'investigate';
+  mode: 'inspect' | 'solve' | 'verify' | 'investigate' | 'action';
+  choice?: Choice;
   investigation?: InvestigationOptions;
   scenario?: string;
   question?: ObservedQuestion | ReplayQuestion;
@@ -62,7 +66,7 @@ function resolveInput(input: ObservedQuestion | ReplayQuestion) {
 export function analyze(request: AnalysisRequest): DecisionAnalysis {
   if (
     !request ||
-    !['inspect', 'solve', 'verify', 'investigate'].includes(request.mode) ||
+    !['inspect', 'solve', 'verify', 'investigate', 'action'].includes(request.mode) ||
     (request.scenario !== undefined) === (request.question !== undefined)
   )
     throw Error('请选择一个示例或导入一份问题');
@@ -106,6 +110,10 @@ export function analyze(request: AnalysisRequest): DecisionAnalysis {
   if (first) {
     const { view, sheet } = observeQuestion(first, seat);
     out.view = view;
+    if (view.menu.kind === 'cards')
+      out.actionInput = { cardCount: cardCount(first, view.menu.actor) };
+    if (view.answerKind === 'identities')
+      out.actionInput = { identities: Object.keys(pack.identities).sort() };
     out.sheet = { loops: sheet.loops, days: sheet.days, incidents: sheet.incidents };
     const hint = input.investigation;
     const proposed = hint?.target;
@@ -120,6 +128,10 @@ export function analyze(request: AnalysisRequest): DecisionAnalysis {
   }
   if (request.mode === 'solve')
     out.advice = solveGoal(pack, candidates, goal, workLimit, input.frontierLimit);
+  if (request.mode === 'action') {
+    out.opening = readOpening(request.choice);
+    out.advice = solveGoal(pack, candidates, goal, workLimit, input.frontierLimit, out.opening);
+  }
   if (request.mode === 'verify') {
     if (!request.policy) throw Error('请选择待复核的策略');
     out.verification = verifyPolicy(pack, candidates, request.policy, goal, workLimit);

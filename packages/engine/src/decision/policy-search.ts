@@ -30,6 +30,7 @@ export function nextPolicyStep(node: PolicyNode, state: EngineState) {
 }
 
 interface SearchDomain {
+  opening?: Choice;
   seat?: Actor;
   opponentChoices?(s: EngineState): Iterable<Choice>;
   controls(s: EngineState): boolean;
@@ -64,7 +65,12 @@ export function searchPolicy(
   type Group = { when: View; branches: Branch[] };
   // On a given action, any losing continuation refutes the action. All other live
   // continuations must be grouped before deciding what the captain will do next.
-  function expand(input: Branch[], choice: Choice, since: number): Group[] | Outcome {
+  function expand(
+    input: Branch[],
+    choice: Choice,
+    since: number,
+    after?: Branch[],
+  ): Group[] | Outcome {
     const groups = new Map<string, Group>();
     let retained = 0;
     let origin = 0;
@@ -91,7 +97,7 @@ export function searchPolicy(
     // A mastermind card placement may have thousands of legal siblings. Allocate
     // each child only when DFS visits it; a single immediate loss settles the action.
     const pending: Iterator<Branch | { after: Checkpoint } | 'limit' | 'unsupported'>[] = [
-      initial(),
+      after?.values() ?? initial(),
     ];
     while (pending.length) {
       const item = pending.at(-1)!.next();
@@ -153,17 +159,20 @@ export function searchPolicy(
     const s = branches[0]!.state;
     const reportsBefore = policyReports(s, domain.seat).length;
     let unresolved: Outcome = 'lose';
-    const choices = domain.choices(
-      branches.map((b) => b.state),
-      depth,
-    );
+    const fixed = depth === 0 && domain.opening !== undefined;
+    const choices = fixed
+      ? [domain.opening!]
+      : domain.choices(
+          branches.map((b) => b.state),
+          depth,
+        );
     if (typeof choices === 'string') return choices;
     let any = false;
     for (const choice of choices) {
       any = true;
       const cost = Number(choice.kind === 'ability');
       if (cost > abilities) continue;
-      const groups = expand(branches, choice, reportsBefore);
+      const groups = expand(branches, choice, reportsBefore, fixed ? afterOpening : undefined);
       if (typeof groups === 'string') {
         if (groups === 'limit' && work >= workLimit) return groups;
         if (groups !== 'lose') unresolved = groups;
@@ -190,6 +199,18 @@ export function searchPolicy(
     if (domain.traceDeaths) state.traceOutcomes = true;
     return { state, audit: state.audit.length };
   });
+  let afterOpening: Branch[] | undefined;
+  if (domain.opening !== undefined) {
+    // Verify a common legal command before any tactical result. Reuse these
+    // transitions, also when a wrong guess ends a world immediately.
+    afterOpening = [];
+    for (const b of branches) {
+      const r = apply(b, domain.opening);
+      if (r === 'unsupported') return { status: 'illegal-opening', work };
+      if (r === 'limit') return { status: 'unknown', reason: 'limit', work };
+      afterOpening.push(r);
+    }
+  }
   const policy = decide(branches, domain.maxAbilities ?? Infinity, 0);
   const counts = { work, ...(proofs && { reusedProofs: proofs.hits }) };
   if (typeof policy !== 'string') return { status: 'guaranteed', policy, ...counts };
