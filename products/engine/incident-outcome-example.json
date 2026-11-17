@@ -1,0 +1,805 @@
+{
+  "evidence": {
+    "version": 1,
+    "coverage": "complete",
+    "sheet": {
+      "module": "FS",
+      "anniversary": false,
+      "days": 1,
+      "loops": 2,
+      "discussion": "between-loops",
+      "specialRules": [],
+      "incidents": [
+        {
+          "day": 1,
+          "name": "医院事故"
+        }
+      ]
+    },
+    "view": {
+      "loop": 2,
+      "day": 1,
+      "phase": "discussion",
+      "captain": "p1",
+      "reports": [
+        {
+          "sequence": 1,
+          "loop": 1,
+          "day": 1,
+          "phase": "discussion",
+          "type": "boundary",
+          "data": {
+            "phase": "discussion",
+            "captain": "p0"
+          }
+        },
+        {
+          "sequence": 2,
+          "loop": 1,
+          "day": 1,
+          "phase": "loop-start",
+          "type": "boundary",
+          "data": {
+            "phase": "loop-start",
+            "captain": "p0"
+          }
+        },
+        {
+          "sequence": 3,
+          "loop": 1,
+          "day": 1,
+          "phase": "loop-start",
+          "type": "own-choice",
+          "data": {
+            "actor": "p0",
+            "choice": {
+              "kind": "continue"
+            }
+          }
+        },
+        {
+          "sequence": 4,
+          "loop": 1,
+          "day": 1,
+          "phase": "day-start",
+          "type": "boundary",
+          "data": {
+            "phase": "day-start",
+            "captain": "p0"
+          }
+        },
+        {
+          "sequence": 5,
+          "loop": 1,
+          "day": 1,
+          "phase": "mastermind-cards",
+          "type": "boundary",
+          "data": {
+            "phase": "mastermind-cards",
+            "captain": "p0"
+          }
+        },
+        {
+          "sequence": 6,
+          "loop": 1,
+          "day": 1,
+          "phase": "mastermind-cards",
+          "type": "cards",
+          "data": {
+            "placements": [
+              {
+                "owner": "mastermind",
+                "target": "doctor"
+              },
+              {
+                "owner": "mastermind",
+                "target": "maiden"
+              },
+              {
+                "owner": "mastermind",
+                "target": "school"
+              }
+            ]
+          }
+        },
+        {
+          "sequence": 7,
+          "loop": 1,
+          "day": 1,
+          "phase": "protagonist-cards",
+          "type": "boundary",
+          "data": {
+            "phase": "protagonist-cards",
+            "captain": "p0"
+          }
+        },
+        {
+          "sequence": 8,
+          "loop": 1,
+          "day": 1,
+          "phase": "protagonist-cards",
+          "type": "cards",
+          "data": {
+            "placements": [
+              {
+                "owner": "p0",
+                "target": "doctor"
+              }
+            ]
+          }
+        },
+        {
+          "sequence": 9,
+          "loop": 1,
+          "day": 1,
+          "phase": "protagonist-cards",
+          "type": "cards",
+          "data": {
+            "placements": [
+              {
+                "card": "p0-5",
+                "target": "doctor",
+                "kind": "paranoia+1"
+              }
+            ]
+          }
+        },
+        {
+          "sequence": 10,
+          "loop": 1,
+          "day": 1,
+          "phase": "protagonist-cards",
+          "type": "own-choice",
+          "data": {
+            "actor": "p0",
+            "choice": {
+              "kind": "cards",
+              "placements": [
+                {
+                  "card": "p0-5",
+                  "target": "doctor"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "sequence": 11,
+          "loop": 1,
+          "day": 1,
+          "phase": "protagonist-cards",
+          "type": "cards",
+          "data": {
+            "placements": [
+              {
+                "owner": "p1",
+                "target": "boy"
+              }
+            ]
+          }
+        },
+        {
+          "sequence": 12,
+          "loop": 1,
+          "day": 1,
+          "phase": "protagonist-cards",
+          "type": "cards",
+          "data": {
+            "placements": [
+              {
+                "card": "p1-3",
+                "target": "boy",
+                "kind": "goodwill+1"
+              }
+            ]
+          }
+        },
+        {
+          "sequence": 13,
+          "loop": 1,
+          "day": 1,
+          "phase": "protagonist-cards",
+          "type": "own-choice",
+          "data": {
+            "actor": "p1",
+            "choice": {
+              "kind": "cards",
+              "placements": [
+                {
+                  "card": "p1-3",
+                  "target": "boy"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "sequence": 14,
+          "loop": 1,
+          "day": 1,
+          "phase": "protagonist-cards",
+          "type": "cards",
+          "data": {
+            "placements": [
+              {
+                "owner": "p2",
+                "target": "city"
+              }
+            ]
+          }
+        },
+        {
+          "sequence": 15,
+          "loop": 1,
+          "day": 1,
+          "phase": "protagonist-cards",
+          "type": "cards",
+          "data": {
+            "placements": [
+              {
+                "card": "p2-7",
+                "target": "city",
+                "kind": "block-intrigue"
+              }
+            ]
+          }
+        },
+        {
+          "sequence": 16,
+          "loop": 1,
+          "day": 1,
+          "phase": "protagonist-cards",
+          "type": "own-choice",
+          "data": {
+            "actor": "p2",
+            "choice": {
+              "kind": "cards",
+              "placements": [
+                {
+                  "card": "p2-7",
+                  "target": "city"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "sequence": 17,
+          "loop": 1,
+          "day": 1,
+          "phase": "card-resolution",
+          "type": "boundary",
+          "data": {
+            "phase": "card-resolution",
+            "captain": "p0"
+          }
+        },
+        {
+          "sequence": 18,
+          "loop": 1,
+          "day": 1,
+          "phase": "card-resolution",
+          "type": "cards",
+          "data": {
+            "placements": [
+              {
+                "owner": "mastermind",
+                "target": "doctor",
+                "kind": "paranoia+1"
+              },
+              {
+                "owner": "mastermind",
+                "target": "maiden",
+                "kind": "paranoia+1"
+              },
+              {
+                "owner": "mastermind",
+                "target": "school",
+                "kind": "intrigue+2"
+              },
+              {
+                "owner": "p0",
+                "target": "doctor",
+                "kind": "paranoia+1"
+              },
+              {
+                "owner": "p1",
+                "target": "boy",
+                "kind": "goodwill+1"
+              },
+              {
+                "owner": "p2",
+                "target": "city",
+                "kind": "block-intrigue"
+              }
+            ]
+          }
+        },
+        {
+          "sequence": 19,
+          "loop": 1,
+          "day": 1,
+          "phase": "card-resolution",
+          "type": "board",
+          "data": {
+            "board": "school",
+            "intrigue": 2
+          }
+        },
+        {
+          "sequence": 20,
+          "loop": 1,
+          "day": 1,
+          "phase": "card-resolution",
+          "type": "character",
+          "data": {
+            "character": "boy",
+            "area": "school",
+            "status": "alive",
+            "counters": {
+              "goodwill": 1,
+              "paranoia": 0,
+              "intrigue": 0,
+              "guard": 0,
+              "hope": 0,
+              "despair": 0
+            }
+          }
+        },
+        {
+          "sequence": 21,
+          "loop": 1,
+          "day": 1,
+          "phase": "card-resolution",
+          "type": "character",
+          "data": {
+            "character": "doctor",
+            "area": "hospital",
+            "status": "alive",
+            "counters": {
+              "goodwill": 0,
+              "paranoia": 2,
+              "intrigue": 0,
+              "guard": 0,
+              "hope": 0,
+              "despair": 0
+            }
+          }
+        },
+        {
+          "sequence": 22,
+          "loop": 1,
+          "day": 1,
+          "phase": "card-resolution",
+          "type": "character",
+          "data": {
+            "character": "maiden",
+            "area": "shrine",
+            "status": "alive",
+            "counters": {
+              "goodwill": 0,
+              "paranoia": 1,
+              "intrigue": 0,
+              "guard": 0,
+              "hope": 0,
+              "despair": 0
+            }
+          }
+        },
+        {
+          "sequence": 23,
+          "loop": 1,
+          "day": 1,
+          "phase": "mastermind-abilities",
+          "type": "boundary",
+          "data": {
+            "phase": "mastermind-abilities",
+            "captain": "p0"
+          }
+        },
+        {
+          "sequence": 24,
+          "loop": 1,
+          "day": 1,
+          "phase": "protagonist-abilities",
+          "type": "boundary",
+          "data": {
+            "phase": "protagonist-abilities",
+            "captain": "p0"
+          }
+        },
+        {
+          "sequence": 25,
+          "loop": 1,
+          "day": 1,
+          "phase": "incident",
+          "type": "boundary",
+          "data": {
+            "phase": "incident",
+            "captain": "p0"
+          }
+        },
+        {
+          "sequence": 26,
+          "loop": 1,
+          "day": 1,
+          "phase": "incident",
+          "type": "incident",
+          "data": {
+            "day": 1,
+            "name": "医院事故",
+            "occurred": false
+          }
+        },
+        {
+          "sequence": 27,
+          "loop": 1,
+          "day": 1,
+          "phase": "captain-change",
+          "type": "boundary",
+          "data": {
+            "phase": "captain-change",
+            "captain": "p0"
+          }
+        },
+        {
+          "sequence": 28,
+          "loop": 1,
+          "day": 1,
+          "phase": "day-end",
+          "type": "boundary",
+          "data": {
+            "phase": "day-end",
+            "captain": "p1"
+          }
+        },
+        {
+          "sequence": 29,
+          "loop": 1,
+          "day": 1,
+          "phase": "loop-end",
+          "type": "boundary",
+          "data": {
+            "phase": "loop-end",
+            "captain": "p1"
+          }
+        },
+        {
+          "sequence": 30,
+          "loop": 1,
+          "day": 1,
+          "phase": "loop-end",
+          "type": "failure",
+          "data": {
+            "result": "protagonist-failure"
+          }
+        },
+        {
+          "sequence": 31,
+          "loop": 2,
+          "day": 1,
+          "phase": "discussion",
+          "type": "boundary",
+          "data": {
+            "phase": "discussion",
+            "captain": "p1"
+          }
+        }
+      ],
+      "boards": {
+        "hospital": 0,
+        "shrine": 0,
+        "city": 0,
+        "school": 2
+      },
+      "ex": 0,
+      "ownCards": [
+        {
+          "id": "p0-0",
+          "owner": "p0",
+          "kind": "horizontal",
+          "status": "hand"
+        },
+        {
+          "id": "p0-1",
+          "owner": "p0",
+          "kind": "vertical",
+          "status": "hand"
+        },
+        {
+          "id": "p0-2",
+          "owner": "p0",
+          "kind": "block-movement",
+          "status": "hand"
+        },
+        {
+          "id": "p0-3",
+          "owner": "p0",
+          "kind": "goodwill+1",
+          "status": "hand"
+        },
+        {
+          "id": "p0-4",
+          "owner": "p0",
+          "kind": "goodwill+2",
+          "status": "hand"
+        },
+        {
+          "id": "p0-5",
+          "owner": "p0",
+          "kind": "paranoia+1",
+          "status": "hand"
+        },
+        {
+          "id": "p0-6",
+          "owner": "p0",
+          "kind": "paranoia-1",
+          "status": "hand"
+        },
+        {
+          "id": "p0-7",
+          "owner": "p0",
+          "kind": "block-intrigue",
+          "status": "hand"
+        },
+        {
+          "id": "p1-0",
+          "owner": "p1",
+          "kind": "horizontal",
+          "status": "hand"
+        },
+        {
+          "id": "p1-1",
+          "owner": "p1",
+          "kind": "vertical",
+          "status": "hand"
+        },
+        {
+          "id": "p1-2",
+          "owner": "p1",
+          "kind": "block-movement",
+          "status": "hand"
+        },
+        {
+          "id": "p1-3",
+          "owner": "p1",
+          "kind": "goodwill+1",
+          "status": "hand"
+        },
+        {
+          "id": "p1-4",
+          "owner": "p1",
+          "kind": "goodwill+2",
+          "status": "hand"
+        },
+        {
+          "id": "p1-5",
+          "owner": "p1",
+          "kind": "paranoia+1",
+          "status": "hand"
+        },
+        {
+          "id": "p1-6",
+          "owner": "p1",
+          "kind": "paranoia-1",
+          "status": "hand"
+        },
+        {
+          "id": "p1-7",
+          "owner": "p1",
+          "kind": "block-intrigue",
+          "status": "hand"
+        },
+        {
+          "id": "p2-0",
+          "owner": "p2",
+          "kind": "horizontal",
+          "status": "hand"
+        },
+        {
+          "id": "p2-1",
+          "owner": "p2",
+          "kind": "vertical",
+          "status": "hand"
+        },
+        {
+          "id": "p2-2",
+          "owner": "p2",
+          "kind": "block-movement",
+          "status": "hand"
+        },
+        {
+          "id": "p2-3",
+          "owner": "p2",
+          "kind": "goodwill+1",
+          "status": "hand"
+        },
+        {
+          "id": "p2-4",
+          "owner": "p2",
+          "kind": "goodwill+2",
+          "status": "hand"
+        },
+        {
+          "id": "p2-5",
+          "owner": "p2",
+          "kind": "paranoia+1",
+          "status": "hand"
+        },
+        {
+          "id": "p2-6",
+          "owner": "p2",
+          "kind": "paranoia-1",
+          "status": "hand"
+        },
+        {
+          "id": "p2-7",
+          "owner": "p2",
+          "kind": "block-intrigue",
+          "status": "hand"
+        }
+      ],
+      "placements": [],
+      "characters": [
+        {
+          "id": "boy",
+          "character": "男学生",
+          "area": "school",
+          "status": "alive",
+          "counters": {
+            "goodwill": 1,
+            "paranoia": 0,
+            "intrigue": 0,
+            "guard": 0,
+            "hope": 0,
+            "despair": 0
+          }
+        },
+        {
+          "id": "doctor",
+          "character": "医生",
+          "area": "hospital",
+          "status": "alive",
+          "counters": {
+            "goodwill": 0,
+            "paranoia": 2,
+            "intrigue": 0,
+            "guard": 0,
+            "hope": 0,
+            "despair": 0
+          }
+        },
+        {
+          "id": "maiden",
+          "character": "巫女",
+          "area": "shrine",
+          "status": "alive",
+          "counters": {
+            "goodwill": 0,
+            "paranoia": 1,
+            "intrigue": 0,
+            "guard": 0,
+            "hope": 0,
+            "despair": 0
+          }
+        }
+      ],
+      "menu": {
+        "actor": "p1",
+        "kind": "continue",
+        "options": [
+          {
+            "kind": "continue"
+          }
+        ]
+      }
+    }
+  },
+  "exhaustiveSetups": true,
+  "setups": [
+    {
+      "module": "FS",
+      "anniversary": false,
+      "loops": 2,
+      "days": 1,
+      "captain": "p0",
+      "discussion": "between-loops",
+      "y": "守护此地",
+      "x": ["流言四起"],
+      "characters": [
+        {
+          "id": "boy",
+          "character": "男学生",
+          "identity": "关键人物"
+        },
+        {
+          "id": "doctor",
+          "character": "医生",
+          "identity": "邪教徒"
+        },
+        {
+          "id": "maiden",
+          "character": "巫女",
+          "identity": "传谣人"
+        }
+      ],
+      "incidents": [
+        {
+          "day": 1,
+          "name": "医院事故",
+          "culprit": "boy"
+        }
+      ]
+    },
+    {
+      "module": "FS",
+      "anniversary": false,
+      "loops": 2,
+      "days": 1,
+      "captain": "p0",
+      "discussion": "between-loops",
+      "y": "守护此地",
+      "x": ["流言四起"],
+      "characters": [
+        {
+          "id": "boy",
+          "character": "男学生",
+          "identity": "关键人物"
+        },
+        {
+          "id": "doctor",
+          "character": "医生",
+          "identity": "邪教徒"
+        },
+        {
+          "id": "maiden",
+          "character": "巫女",
+          "identity": "传谣人"
+        }
+      ],
+      "incidents": [
+        {
+          "day": 1,
+          "name": "医院事故",
+          "culprit": "doctor"
+        }
+      ]
+    },
+    {
+      "module": "FS",
+      "anniversary": false,
+      "loops": 2,
+      "days": 1,
+      "captain": "p0",
+      "discussion": "between-loops",
+      "y": "守护此地",
+      "x": ["流言四起"],
+      "characters": [
+        {
+          "id": "boy",
+          "character": "男学生",
+          "identity": "关键人物"
+        },
+        {
+          "id": "doctor",
+          "character": "医生",
+          "identity": "邪教徒"
+        },
+        {
+          "id": "maiden",
+          "character": "巫女",
+          "identity": "传谣人"
+        }
+      ],
+      "incidents": [
+        {
+          "day": 1,
+          "name": "医院事故",
+          "culprit": "maiden"
+        }
+      ]
+    }
+  ],
+  "workLimit": 2000,
+  "historyWorkLimit": 20000
+}

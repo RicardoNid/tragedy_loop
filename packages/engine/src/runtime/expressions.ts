@@ -1,4 +1,4 @@
-import type { Area, Board, Counter } from '../../../contracts/src/game.js';
+import type { Area, Board, Counter, Counters } from '../../../contracts/src/game.js';
 import {
   BOARDS,
   COUNTERS,
@@ -37,6 +37,9 @@ export function effective(state: EngineState, target: string, counter: Counter):
   }
   const c = state.characters[target]?.counters;
   if (!c) return 0;
+  return characterCounter(c, counter);
+}
+export function characterCounter(c: Counters, counter: Counter): number {
   if (counter === 'goodwill') return c.goodwill + c.hope;
   if (counter === 'paranoia') return c.paranoia + c.despair;
   if (counter === 'intrigue') return Math.max(0, c.intrigue + c.despair - c.hope);

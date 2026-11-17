@@ -1,6 +1,7 @@
 {
   "extends": "./tsconfig.absence.json",
   "include": [
+    "./incident-evidence.test.ts",
     "./mastermind-policy.test.ts",
     "../../scripts/engine/mastermind-policy.ts",
     "./day-end-intersection.test.ts",

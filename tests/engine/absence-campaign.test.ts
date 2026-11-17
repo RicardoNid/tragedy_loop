@@ -15,15 +15,20 @@ import { observeDayEnd } from '../../packages/engine/src/absence/day-end-history
 import { buildAbsenceSpace, absenceSolutions } from '../../packages/engine/src/absence/index.js';
 import { verifyAbsencePhase } from '../../packages/engine/src/absence/phase-search.js';
 import { DayEndIntersection } from '../../packages/engine/src/decision/day-end-intersection.js';
+import {
+  IncidentEvidence,
+  incidentEvidence,
+} from '../../packages/engine/src/decision/incident-evidence.js';
 
 let totalWindows = 0,
   multipleLoops = 0,
   games = 0,
   dayEndWindows = 0,
-  applicableBatches = 0;
+  applicableBatches = 0,
+  incidentWindows = 0;
 after(() =>
   console.log(
-    `games=${games} multipleLoops=${multipleLoops} closedPhases=${totalWindows} dayEndWindows=${dayEndWindows} applicableBatches=${applicableBatches}`,
+    `games=${games} multipleLoops=${multipleLoops} closedPhases=${totalWindows} dayEndWindows=${dayEndWindows} applicableBatches=${applicableBatches} incidentWindows=${incidentWindows}`,
   ),
 );
 function finalGuess(s: EngineState): Choice {
@@ -175,6 +180,14 @@ for (const { id, setup } of fixtures as unknown as { id: string; setup: GameSetu
         windows++;
       }
       assert.ok(windows >= 5 && state.winner, id + '/finished campaign');
+      const observations = incidentEvidence(
+        state.observations.protagonists,
+        setup.incidents.map((i) => ({ day: i.day, name: i.publicName ?? i.name })),
+      );
+      const evidence = new IncidentEvidence(observations);
+      for (const i of setup.incidents)
+        assert.ok(evidence.allows(pack, setup.characters, i), id + '/' + i.day + '/real incident');
+      incidentWindows += observations.length;
       games++;
       totalWindows += windows;
       multipleLoops += Number(state.loop > 1);

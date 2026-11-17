@@ -94,6 +94,13 @@ export interface DayEndPruning {
     example: { ability: string; owner: string; roles: Record<string, string> };
   }[];
 }
+export interface IncidentConflict {
+  report: number;
+  day: number;
+  loop: number;
+  culprit: string;
+  predicted: boolean;
+}
 export interface DecisionAnalysis {
   module: Module;
   sheet?: { loops: number; days: number; incidents: { day: number; name: string }[] };
@@ -110,11 +117,13 @@ export interface DecisionAnalysis {
   suggestedInvestigation?: InvestigationOptions;
   investigation?: { options: InvestigationOptions; result: InvestigationResult };
   scriptPruning?: {
+    incidentExamples?: IncidentConflict[];
     skippedSetups: number;
     skippedChoices: number;
     sources: {
-      kind: 'culprit' | 'culprit-answers' | 'initial-answer' | 'personal-role';
+      kind: 'culprit' | 'culprit-answers' | 'initial-answer' | 'personal-role' | 'incident-outcome';
       report?: number;
+      occurred?: boolean;
     }[];
   };
 }

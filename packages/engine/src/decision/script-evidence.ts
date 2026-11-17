@@ -2,6 +2,7 @@ import type { GameSetup, Protagonist, ScheduledIncident } from '../../../contrac
 import { acceptedIdentities } from '../runtime/final-answers.js';
 import type { EngineState, RulePack } from '../runtime/model.js';
 import type { DecisionEvidence } from './observed-worlds.js';
+import { IncidentEvidence, incidentEvidence, type IncidentFact } from './incident-evidence.js';
 
 type DayFact = { kind: 'culprit'; day: number; culprit: string; report: number };
 type TupleFact = {
@@ -20,12 +21,15 @@ type GuessFact = {
   report: number;
 };
 type SeatFact = { kind: 'personal-role'; seat: Protagonist; role: 'A' | 'B' | 'C' };
-type Fact = DayFact | TupleFact | GuessFact | SeatFact;
+type Fact = DayFact | TupleFact | GuessFact | SeatFact | IncidentFact;
 
 /** Only assertions about immutable script fields belong here. An ordinary
  * identity announcement may be a Ninja declaration or an effective identity
  * in a later loop. Same-identity reports also concern living effective roles. */
-export function compileScriptEvidence(evidence: DecisionEvidence): ScriptEvidence {
+export function compileScriptEvidence(
+  evidence: DecisionEvidence,
+  checkIncidents = true,
+): ScriptEvidence {
   const facts: Fact[] = [];
   if (evidence.coverage !== 'complete' || evidence.sheet.specialRules.length)
     return new ScriptEvidence(facts);
@@ -98,7 +102,9 @@ export function compileScriptEvidence(evidence: DecisionEvidence): ScriptEvidenc
   }
   if (evidence.sheet.module === 'LL' && evidence.seat && evidence.view.personalRole)
     facts.push({ kind: 'personal-role', seat: evidence.seat, role: evidence.view.personalRole });
-  return new ScriptEvidence(facts);
+  const windows = checkIncidents ? incidentEvidence(reports, evidence.sheet.incidents) : [];
+  facts.push(...windows.map((w) => w.fact));
+  return new ScriptEvidence(facts, windows.length ? new IncidentEvidence(windows) : undefined);
 }
 
 export class ScriptEvidence {
@@ -106,7 +112,10 @@ export class ScriptEvidence {
   private readonly guesses = new Map<string, GuessFact[]>();
   private readonly tuples: TupleFact[] = [];
   private readonly seats: SeatFact[] = [];
-  constructor(readonly facts: readonly Fact[]) {
+  constructor(
+    readonly facts: readonly Fact[],
+    private readonly incidentOutcomes?: IncidentEvidence,
+  ) {
     const record = (day: number, who: string) => {
       const found = this.fixedDays.get(day) ?? new Set<string>();
       found.add(who);
@@ -118,7 +127,7 @@ export class ScriptEvidence {
         if (f.correct) for (const [day, who] of Object.entries(f.answers)) record(Number(day), who);
         else this.tuples.push(f);
       } else if (f.kind === 'personal-role') this.seats.push(f);
-      else {
+      else if (f.kind === 'initial-answer') {
         const rows = this.guesses.get(f.character) ?? [];
         rows.push(f);
         this.guesses.set(f.character, rows);
@@ -128,6 +137,15 @@ export class ScriptEvidence {
   allowsCulprit(day: number, who: string) {
     const fixed = this.fixedDays.get(day);
     return !fixed || (fixed.size === 1 && fixed.has(who));
+  }
+  get incidentExamples() {
+    return this.incidentOutcomes?.examples ?? [];
+  }
+  allowsIncident(pack: RulePack, roster: GameSetup['characters'], incident: ScheduledIncident) {
+    return (
+      this.allowsCulprit(incident.day, incident.culprit) &&
+      (!this.incidentOutcomes || this.incidentOutcomes.allows(pack, roster, incident))
+    );
   }
   allowsTuple(schedule: readonly ScheduledIncident[]) {
     return !this.tuples.some((f) => schedule.every((i) => f.answers[String(i.day)] === i.culprit));
@@ -154,7 +172,7 @@ export class ScriptEvidence {
     if (
       !this.allowsShuffle(s.setup.privateRoles) ||
       !this.allowsTuple(s.setup.incidents) ||
-      s.setup.incidents.some((i) => !this.allowsCulprit(i.day, i.culprit))
+      s.setup.incidents.some((i) => !this.allowsIncident(pack, s.setup.characters, i))
     )
       return false;
     for (const id of this.guesses.keys()) {
