@@ -1,0 +1,135 @@
+{
+  "exhaustive": true,
+  "seat": "p0",
+  "candidates": [
+    {
+      "setup": {
+        "module": "LL",
+        "anniversary": false,
+        "loops": 1,
+        "days": 1,
+        "captain": "p0",
+        "discussion": "between-loops",
+        "y": "巨大定时炸弹Z",
+        "x": [
+          "我才是名侦探",
+          "超越世界线"
+        ],
+        "privateRoles": {
+          "p0": "C",
+          "p1": "A",
+          "p2": "B"
+        },
+        "characters": [
+          {
+            "id": "boy",
+            "character": "男学生",
+            "identity": "魔女"
+          },
+          {
+            "id": "doctor",
+            "character": "医生",
+            "identity": "主谋"
+          },
+          {
+            "id": "girl",
+            "character": "女学生",
+            "identity": "监视者"
+          },
+          {
+            "id": "maiden",
+            "character": "巫女",
+            "identity": "密钥"
+          },
+          {
+            "id": "worker",
+            "character": "职员",
+            "identity": "怪杰"
+          },
+          {
+            "id": "rich",
+            "character": "大小姐",
+            "identity": "传谣人"
+          }
+        ],
+        "incidents": [
+          {
+            "day": 1,
+            "name": "骤变",
+            "culprit": "worker"
+          }
+        ]
+      },
+      "choices": [
+        {
+          "actor": "p0",
+          "choice": {
+            "kind": "continue"
+          }
+        },
+        {
+          "actor": "mastermind",
+          "choice": {
+            "kind": "cards",
+            "placements": [
+              {
+                "card": "mastermind-9",
+                "target": "school"
+              },
+              {
+                "card": "mastermind-3",
+                "target": "hospital"
+              },
+              {
+                "card": "mastermind-4",
+                "target": "shrine"
+              }
+            ]
+          }
+        },
+        {
+          "actor": "p0",
+          "choice": {
+            "kind": "cards",
+            "placements": [
+              {
+                "card": "p0-3",
+                "target": "hospital"
+              }
+            ]
+          }
+        },
+        {
+          "actor": "p1",
+          "choice": {
+            "kind": "cards",
+            "placements": [
+              {
+                "card": "p1-3",
+                "target": "city"
+              }
+            ]
+          }
+        },
+        {
+          "actor": "p2",
+          "choice": {
+            "kind": "cards",
+            "placements": [
+              {
+                "card": "p2-3",
+                "target": "shrine"
+              }
+            ]
+          }
+        },
+        {
+          "actor": "mastermind",
+          "choice": {
+            "kind": "pass"
+          }
+        }
+      ]
+    }
+  ]
+}

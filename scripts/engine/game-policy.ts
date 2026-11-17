@@ -3,6 +3,7 @@ import { resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { compileOfficial } from '../../packages/content/src/official/compile.js';
 import { setupSchema } from '../../packages/contracts/src/validation.js';
+import type { Protagonist } from '../../packages/contracts/src/game.js';
 import { findWinningPolicy } from '../../packages/engine/src/decision/game-policy.js';
 import { replayCandidates, type CandidateReplay } from './candidate-replays.js';
 
@@ -11,6 +12,7 @@ export function adviseWinningPolicy(input: {
   candidates: CandidateReplay[];
   workLimit?: number;
   frontierLimit?: number;
+  seat?: Protagonist;
 }) {
   if (!input || typeof input.exhaustive !== 'boolean' || !Array.isArray(input.candidates))
     throw Error('Invalid game question');
@@ -21,6 +23,7 @@ export function adviseWinningPolicy(input: {
     { exhaustive: input.exhaustive, states: [...replayCandidates(pack, input.candidates)] },
     input.workLimit ?? 10000,
     input.frontierLimit ?? 512,
+    input.seat,
   );
 }
 if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1])).href) {

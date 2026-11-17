@@ -47,7 +47,7 @@ export function compileOfficial(module: Module, anniversary = false): RulePack {
   if (cached) return cached;
   const pack: RulePack = {
     schema: 1,
-    semanticVersion: '0.3.1',
+    semanticVersion: module === 'LL' ? '0.3.2' : '0.3.1',
     moduleAbilities: moduleAbilities[module] ?? [],
     digest: '',
     module,
