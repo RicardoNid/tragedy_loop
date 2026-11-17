@@ -7,6 +7,9 @@
     "node": ">=22.12 <23"
   },
   "scripts": {
+    "check:decision-ui": "pnpm build:decision-ui && tsc -p e2e/tsconfig.decision.json && tsx --test e2e/decision-workbench.test.ts",
+    "build:decision-ui": "tsc -p apps/web/tsconfig.json && tsc -p apps/server/tsconfig.json && pnpm --filter @tragedy/web exec vite build --config decision.vite.config.ts",
+    "decision:local": "pnpm build:decision-ui && tsx apps/server/src/decision/server.ts",
     "verify:policy": "tsx scripts/engine/verify-policy.ts",
     "bench:decision": "tsx scripts/engine/decision-benchmark.ts",
     "solve:observed": "tsx scripts/engine/observed-game.ts",

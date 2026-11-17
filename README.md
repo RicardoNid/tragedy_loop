@@ -1,9 +1,9 @@
 # Tragedy Loop
 
-独立的 TypeScript 规则内核和官方内容包支持基于缺席观察的推理。Web 与服务目录保留工程骨架。
+独立的 TypeScript 规则内核和官方内容包支持基于缺席观察的推理。可在本地决策工作台查看主人公盘面、寻找策略并独立复核。
 下载仓库后可双击打开[未发生现象的解空间](products/engine/absence-space.html)，逐格查看角色身份组合、剪枝依据和各模组规则清单。
 
-计划技术栈：React + Vite、Node.js + Fastify、TypeScript；Python + uv 用于未来辅助工具。
+本地工作台使用 React、Vite、Fastify 和 TypeScript。Python + uv 用于辅助工具。
 JS/TS 的版本、workspace 依赖和锁定记录已经配置。Python 环境是非打包环境，暂不声明 CLI 或构建包。
 
 `facts/` 是独立静态规则资料站，图片、正文和来源快照随普通 Git 同步，无需 LFS 或 Wiki 登录。
@@ -13,8 +13,8 @@ JS/TS 的版本、workspace 依赖和锁定记录已经配置。Python 环境是
 
 ```text
 apps/
-  web/                 package.json、tsconfig.json；src/ 空
-  server/              package.json、tsconfig.json；src/ 空
+  web/src/decision/    本地决策工作台
+  server/src/decision/ 本地服务、示例与独立计算进程
 packages/
   engine/              src/absence/ 独立反向解空间，src/runtime/ 正向规则结算
   contracts/           游戏输入和公开观察类型
@@ -23,7 +23,7 @@ python/
   src/tragedy_tools/    空
   tests/               空
 tests/                 解空间回归、逐程序核验及剧本样本
-e2e/                   空
+e2e/                   决策台服务与浏览器回归
 scripts/engine/        解空间报告生成器
 products/engine/       可离线查看的解空间报告
 docs/
@@ -46,6 +46,14 @@ archive/               旧实现与归档说明；不参与 workspace 或检查
 克隆仓库后，用浏览器打开这些 HTML 文件即可阅读；原型单文件离线运行，无需安装依赖。
 原型保留教学编排、实现范围和待验收标记，不作为活动引擎或规则权威。
 方案文件总是以 HTML 格式交付。
+
+## 本地决策工作台
+
+安装依赖后运行 `pnpm decision:local`，在浏览器打开 [本地决策台](http://127.0.0.1:4179/)。用 Ctrl+C 关闭服务。若默认端口已占用，可通过环境变量 `DECISION_PORT` 设置端口。
+
+从局面库选择学校暗牌、医院事故、LL 个人推理或最终决战。点「求解策略」后，可以逐个展开新观察并查看对应行动。点「独立复核」检查策略是否覆盖所有后续分支。「导入问题」接受 CLI 使用的候选重放或完整观察 JSON，「导入策略复核」可检查外部策略。界面会区分无保证、候选不全和预算耗尽；反例只展示主人公可见证据。
+
+服务只监听本机，每次执行一项分析。单次输入上限 2 MiB，计算最长 90 秒。超过该范围的离线分析仍可使用 CLI。运行 `pnpm check:decision-ui` 验证前后端类型、生产构建、服务和真实浏览器交互。自动检查覆盖桌面和窄屏。人工验收状态为**待人类验收**。测试优先使用系统 Chrome 或 Edge，也可用 `DECISION_TEST_BROWSER` 指定浏览器，或安装 Playwright Chromium。
 
 ## 整局获胜决策求解器
 
@@ -144,7 +152,7 @@ pnpm check:absence
 本机联网安装在命令前加 `get-dep`。`pnpm check` 只校验配置格式和 Python 锁一致性；
 CI 另外执行冻结安装，以及 `pnpm check:absence` 的类型检查和游戏规则回归。规则包发生变化时，运行
 `pnpm exec tsx scripts/engine/absence-report.ts` 更新报告。CI 会检查提交的报告是否可复现。
-TypeScript 配置已为 web/server 预置；等出现源码后再运行类型检查和构建。
+CI 也运行 `pnpm check:decision` 和 `pnpm check:decision-ui`，分别检查决策内核和本地工作台。
 
 根只有一套 pnpm/uv 活动锁文件。归档中的旧配置仅是历史副本，不参与自动安装。
 

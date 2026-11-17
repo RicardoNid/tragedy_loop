@@ -1,7 +1,41 @@
 import { setupSchema } from '../../packages/contracts/src/validation.js';
+import { compileOfficial } from '../../packages/content/src/official/compile.js';
+import type { DecisionGoal } from '../../packages/contracts/src/decision.js';
+import type { Protagonist } from '../../packages/contracts/src/game.js';
 import { replay, type ReplayRequest } from '../../packages/engine/src/runtime/replay.js';
 import type { RulePack } from '../../packages/engine/src/runtime/model.js';
 export type CandidateReplay = Pick<ReplayRequest, 'setup' | 'choices'>;
+export interface ReplayQuestion {
+  candidates: CandidateReplay[];
+  exhaustive: boolean;
+  seat?: Protagonist;
+  target?: string;
+  maxAbilities?: number;
+  workLimit?: number;
+  frontierLimit?: number;
+  goal?: DecisionGoal;
+}
+export function resolveReplayQuestion(input: ReplayQuestion) {
+  if (!Array.isArray(input.candidates) || typeof input.exhaustive !== 'boolean')
+    throw Error('Invalid replay question');
+  const setup = input.candidates.length ? setupSchema.parse(input.candidates[0]?.setup) : undefined;
+  const pack = compileOfficial(setup?.module ?? 'BTX', setup?.anniversary ?? false);
+  const goal: DecisionGoal =
+    input.goal ??
+    (input.target !== undefined
+      ? { kind: 'survival', target: input.target, maxAbilities: input.maxAbilities }
+      : input.seat !== undefined
+        ? { kind: 'seat-win', seat: input.seat }
+        : { kind: 'game' });
+  return {
+    pack,
+    goal,
+    candidates: {
+      exhaustive: input.exhaustive,
+      states: [...replayCandidates(pack, input.candidates)],
+    },
+  };
+}
 export function* replayCandidates(pack: RulePack, candidates: readonly CandidateReplay[]) {
   for (const [index, candidate] of candidates.entries()) {
     const setup = setupSchema.parse(candidate?.setup);

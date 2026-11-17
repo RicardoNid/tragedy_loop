@@ -1,4 +1,5 @@
 import type { Choice, Observation, Protagonist } from '../../../contracts/src/game.js';
+import type { PolicyView } from '../../../contracts/src/decision.js';
 import { advance, legalCardTargets } from '../runtime/engine.js';
 import { canonical, type EngineState, type RulePack } from '../runtime/model.js';
 
@@ -38,7 +39,7 @@ export interface PolicyCandidates {
 }
 /** Information used by the joint protagonist observer. Opaque runtime IDs
  * and characters that have not appeared do not identify a public position. */
-export function observedMenu(s: EngineState, since: number, seat?: Protagonist) {
+export function observedMenu(s: EngineState, since: number, seat?: Protagonist): PolicyView {
   const menu = s.pending!;
   const briefing = s.phase === 'briefing';
   return {

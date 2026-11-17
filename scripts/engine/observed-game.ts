@@ -11,8 +11,7 @@ import {
   type DecisionEvidence,
 } from '../../packages/engine/src/decision/observed-worlds.js';
 import { observeQuestion } from '../../packages/engine/src/decision/position.js';
-import { findDayPolicy } from '../../packages/engine/src/decision/day-policy.js';
-import { findWinningPolicy } from '../../packages/engine/src/decision/game-policy.js';
+import { solveGoal } from '../../packages/engine/src/decision/goal.js';
 import type { DecisionGoal } from '../../packages/engine/src/decision/verify-policy.js';
 import { replayCandidates, type CandidateReplay } from './candidate-replays.js';
 
@@ -82,17 +81,13 @@ export function resolveObservedCandidates(input: ObservedQuestion) {
 
 export function adviseObservedGame(input: ObservedQuestion) {
   const { pack, candidates, ...stats } = resolveObservedCandidates(input);
-  const workLimit = input.workLimit ?? 10000;
-  const advice =
-    input.goal?.kind === 'survival'
-      ? findDayPolicy(pack, candidates, input.goal.target, input.goal.maxAbilities ?? 2, workLimit)
-      : findWinningPolicy(
-          pack,
-          candidates,
-          workLimit,
-          input.frontierLimit ?? 512,
-          input.goal?.kind === 'seat-win' ? input.goal.seat : undefined,
-        );
+  const advice = solveGoal(
+    pack,
+    candidates,
+    input.goal ?? { kind: 'game' },
+    input.workLimit ?? 10000,
+    input.frontierLimit,
+  );
   return { ...stats, advice };
 }
 
