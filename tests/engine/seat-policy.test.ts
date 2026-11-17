@@ -4,6 +4,7 @@ import { readFileSync } from 'node:fs';
 import type { GameSetup } from '../../packages/contracts/src/game.js';
 import { compileOfficial } from '../../packages/content/src/official/compile.js';
 import { findWinningPolicy } from '../../packages/engine/src/decision/game-policy.js';
+import { verifyPolicy } from '../../packages/engine/src/decision/verify-policy.js';
 import { observeQuestion } from '../../packages/engine/src/decision/position.js';
 import {
   nextPolicyStep,
@@ -124,7 +125,19 @@ test('A、B 两种个人胜利、标志门槛和希望：96 个私人信息集�
                 canWin ? 'guaranteed' : 'no-guaranteed-policy',
                 JSON.stringify([my, a, b, killed, comm, hope]),
               );
-              if (advice.policy) for (const l of options) finish(l, advice.policy);
+              if (advice.policy) {
+                assert.equal(
+                  verifyPolicy(
+                    one!.pack,
+                    { exhaustive: true, states: options.map((l) => l.state) },
+                    advice.policy,
+                    { kind: 'seat-win', seat: 'p0' },
+                    1500,
+                  ).status,
+                  'verified',
+                );
+                for (const l of options) finish(l, advice.policy);
+              }
             }
 });
 

@@ -9,6 +9,7 @@ import {
   type DayPolicy,
 } from '../../packages/engine/src/decision/day-policy.js';
 import { solveDaySurvival } from '../../packages/engine/src/decision/day-survival.js';
+import { verifyPolicy } from '../../packages/engine/src/decision/verify-policy.js';
 import { adviseDayPolicy } from '../../scripts/engine/day-policy.js';
 import { lab, character, phase, act, type Lab } from '../comprehensive/harness.js';
 
@@ -71,7 +72,17 @@ test('医院事故的四种身份与当事人组合：所有非空子集在零�
         canSave ? 'guaranteed' : 'no-guaranteed-policy',
         mask + '/' + max,
       );
-      if (advice.policy)
+      if (advice.policy) {
+        assert.equal(
+          verifyPolicy(
+            pack,
+            candidates,
+            advice.policy,
+            { kind: 'survival', target: 'c', maxAbilities: max },
+            30000,
+          ).status,
+          'verified',
+        );
         for (const w of set) {
           const line = play(w.lab, advice.policy);
           assert.ok(line.some((c) => c.kind === 'select' && c.value === w.culprit));
@@ -82,6 +93,7 @@ test('医院事故的四种身份与当事人组合：所有非空子集在零�
             );
           }
         }
+      }
     }
   }
 });
