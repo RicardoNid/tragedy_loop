@@ -3,12 +3,12 @@ import { resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { compileOfficial } from '../../packages/content/src/official/compile.js';
 import { setupSchema } from '../../packages/contracts/src/validation.js';
-import { replay, type ReplayRequest } from '../../packages/engine/src/runtime/replay.js';
+import { replayCandidates, type CandidateReplay } from './candidate-replays.js';
 import { solveFinalDecision, type FinalAdvice } from '../../packages/engine/src/decision/final.js';
 
 export function adviseReplays(input: {
   exhaustive: boolean;
-  candidates: Pick<ReplayRequest, 'setup' | 'choices'>[];
+  candidates: CandidateReplay[];
   worldLimit?: number;
 }): FinalAdvice {
   if (!input || typeof input.exhaustive !== 'boolean' || !Array.isArray(input.candidates))
@@ -27,22 +27,11 @@ export function adviseReplays(input: {
   const pack = compileOfficial(first.module, first.anniversary);
   if (input.candidates.length > limit)
     return { status: 'unknown', reason: 'limit', checked: 0, safeChoices: [], plan: [] };
-  function* states() {
-    for (const [index, candidate] of input.candidates.entries()) {
-      const setup = setupSchema.parse(candidate?.setup);
-      if (
-        setup.module !== first.module ||
-        setup.anniversary !== first.anniversary ||
-        !Array.isArray(candidate.choices)
-      )
-        throw Error('Different rule pack or missing decisions in candidate ' + index);
-      const r = replay(pack, { setup, choices: candidate.choices });
-      if (r.status !== 'replayed')
-        throw Error('Candidate ' + index + ' could not reach the final question: ' + r.status);
-      yield r.state;
-    }
-  }
-  return solveFinalDecision(pack, { exhaustive: input.exhaustive, states: states() }, limit);
+  return solveFinalDecision(
+    pack,
+    { exhaustive: input.exhaustive, states: replayCandidates(pack, input.candidates) },
+    limit,
+  );
 }
 if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1])).href) {
   try {

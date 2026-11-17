@@ -1,0 +1,146 @@
+{
+  "exhaustive": true,
+  "target": "patient",
+  "workPerPlan": 500,
+  "candidates": [
+    {
+      "setup": {
+        "module": "BTX",
+        "anniversary": false,
+        "loops": 4,
+        "days": 5,
+        "captain": "p0",
+        "discussion": "between-loops",
+        "y": "和我签订契约吧！",
+        "x": [
+          "流言四起",
+          "潜伏的杀人狂"
+        ],
+        "characters": [
+          {
+            "id": "popIdol",
+            "character": "偶像",
+            "identity": "关键人物"
+          },
+          {
+            "id": "doctor",
+            "character": "医生",
+            "identity": "传谣人"
+          },
+          {
+            "id": "boyStudent",
+            "character": "男学生",
+            "identity": "杀人狂"
+          },
+          {
+            "id": "patient",
+            "character": "住院患者",
+            "identity": "平民"
+          },
+          {
+            "id": "teacher",
+            "character": "教师",
+            "identity": "平民"
+          },
+          {
+            "id": "richStudent",
+            "character": "大小姐",
+            "identity": "平民"
+          },
+          {
+            "id": "shrineMaiden",
+            "character": "巫女",
+            "identity": "亲友"
+          }
+        ],
+        "incidents": [
+          {
+            "day": 2,
+            "name": "不安扩散",
+            "culprit": "shrineMaiden"
+          },
+          {
+            "day": 1,
+            "name": "医院事故",
+            "culprit": "patient"
+          },
+          {
+            "day": 5,
+            "name": "失踪",
+            "culprit": "boyStudent"
+          }
+        ]
+      },
+      "choices": [
+        {
+          "actor": "p0",
+          "choice": {
+            "kind": "continue"
+          }
+        },
+        {
+          "actor": "mastermind",
+          "choice": {
+            "kind": "cards",
+            "placements": [
+              {
+                "card": "mastermind-4",
+                "target": "patient"
+              },
+              {
+                "card": "mastermind-8",
+                "target": "hospital"
+              },
+              {
+                "card": "mastermind-3",
+                "target": "school"
+              }
+            ]
+          }
+        },
+        {
+          "actor": "p0",
+          "choice": {
+            "kind": "cards",
+            "placements": [
+              {
+                "card": "p0-4",
+                "target": "doctor"
+              }
+            ]
+          }
+        },
+        {
+          "actor": "p1",
+          "choice": {
+            "kind": "cards",
+            "placements": [
+              {
+                "card": "p1-5",
+                "target": "patient"
+              }
+            ]
+          }
+        },
+        {
+          "actor": "p2",
+          "choice": {
+            "kind": "cards",
+            "placements": [
+              {
+                "card": "p2-7",
+                "target": "city"
+              }
+            ]
+          }
+        },
+        {
+          "actor": "mastermind",
+          "choice": {
+            "kind": "pass"
+          }
+        }
+      ]
+    }
+  ]
+}
