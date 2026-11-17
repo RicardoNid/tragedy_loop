@@ -41,6 +41,24 @@ export interface PolicyCandidates {
  * and characters that have not appeared do not identify a public position. */
 export function observedMenu(s: EngineState, since: number, seat?: Protagonist): PolicyView {
   const menu = s.pending!;
+  return {
+    ...observedBoard(s, since, seat),
+    menu: {
+      actor: menu.actor,
+      kind: menu.kind,
+      areas: menu.areas,
+      options: [...menu.options].sort((a, b) => byText(canonical(a), canonical(b))),
+    },
+    ...(menu.kind === 'cards' && { targets: legalCardTargets(s, menu.actor).sort() }),
+    ...(menu.kind === 'guess' && { answerKind: s.flags['c-guess'] ? 'culprits' : 'identities' }),
+  };
+}
+/** The same observer projection at a phase boundary without a pending menu. */
+export function observedBoard(
+  s: EngineState,
+  since: number,
+  seat?: Protagonist,
+): Omit<PolicyView, 'menu' | 'targets' | 'answerKind'> {
   const briefing = s.phase === 'briefing';
   return {
     loop: s.loop,
@@ -57,16 +75,6 @@ export function observedMenu(s: EngineState, since: number, seat?: Protagonist):
         personalRole: s.ll.roles[seat],
       }),
     reports: s.observations.protagonists.slice(since).map(visibleReport),
-    menu: {
-      actor: menu.actor,
-      kind: menu.kind,
-      areas: menu.areas,
-      options: [...menu.options].sort((a, b) => byText(canonical(a), canonical(b))),
-    },
-    ...(menu.kind === 'cards' && {
-      targets: legalCardTargets(s, menu.actor).sort(),
-    }),
-    ...(menu.kind === 'guess' && { answerKind: s.flags['c-guess'] ? 'culprits' : 'identities' }),
     territory: briefing ? undefined : s.publicTerritory,
     boards: s.boards,
     ex: s.ex,

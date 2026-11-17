@@ -1,6 +1,7 @@
 import { setupSchema } from '../../packages/contracts/src/validation.js';
 import { compileOfficial } from '../../packages/content/src/official/compile.js';
 import type { DecisionGoal } from '../../packages/contracts/src/decision.js';
+import type { InvestigationOptions } from '../../packages/contracts/src/investigation.js';
 import type { Protagonist } from '../../packages/contracts/src/game.js';
 import { replay, type ReplayRequest } from '../../packages/engine/src/runtime/replay.js';
 import type { RulePack } from '../../packages/engine/src/runtime/model.js';
@@ -14,6 +15,7 @@ export interface ReplayQuestion {
   workLimit?: number;
   frontierLimit?: number;
   goal?: DecisionGoal;
+  investigation?: InvestigationOptions;
 }
 export function resolveReplayQuestion(input: ReplayQuestion) {
   if (!Array.isArray(input.candidates) || typeof input.exhaustive !== 'boolean')

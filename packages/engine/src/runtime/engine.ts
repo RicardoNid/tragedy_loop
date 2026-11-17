@@ -105,7 +105,9 @@ export function environment(state: EngineState, frame: Frame): Environment {
     sourceKind: frame.kind,
     territory: configuration?.territory ?? '',
     x: String(configuration?.x ?? 0),
-    day: String(state.day),
+    // Detective and Divinity bind a chosen incident day. Other programs read
+    // the current day, including frames resumed after a delayed effect.
+    day: frame.choices.day ?? String(state.day),
     loop: String(state.loop),
   };
   if (frame.ability?.id === 'forensic-transfer') env.forensicTransfer = 'yes';

@@ -7,6 +7,7 @@
     "node": ">=22.12 <23"
   },
   "scripts": {
+    "investigate": "tsx scripts/engine/investigate.ts",
     "check:decision-ui": "pnpm build:decision-ui && tsc -p e2e/tsconfig.decision.json && tsx --test e2e/decision-workbench.test.ts",
     "build:decision-ui": "tsc -p apps/web/tsconfig.json && tsc -p apps/server/tsconfig.json && pnpm --filter @tragedy/web exec vite build --config decision.vite.config.ts",
     "decision:local": "pnpm build:decision-ui && tsx apps/server/src/decision/server.ts",
@@ -18,7 +19,7 @@
     "solve:policy": "tsx scripts/engine/day-policy.ts",
     "solve:survival": "tsx scripts/engine/day-survival.ts",
     "solve:final": "tsx scripts/engine/final-decision.ts",
-    "check:decision": "tsc -p tests/engine/tsconfig.decision.json && tsx --test tests/engine/final-decision.test.ts tests/engine/day-survival.test.ts tests/engine/day-policy.test.ts tests/engine/game-policy.test.ts tests/engine/observed-worlds.test.ts tests/engine/setup-space.test.ts tests/engine/seat-policy.test.ts tests/engine/verify-policy.test.ts",
+    "check:decision": "tsc -p tests/engine/tsconfig.decision.json && tsx --test tests/engine/final-decision.test.ts tests/engine/day-survival.test.ts tests/engine/day-policy.test.ts tests/engine/game-policy.test.ts tests/engine/observed-worlds.test.ts tests/engine/setup-space.test.ts tests/engine/seat-policy.test.ts tests/engine/verify-policy.test.ts tests/engine/investigation.test.ts",
     "check:absence": "tsc -p tests/engine/tsconfig.absence.json && tsx --test tests/engine/absence*.test.ts",
     "setup:python": "uv sync --locked --python 3.12 --default-index https://pypi.org/simple",
     "format:check": "prettier --check package.json pnpm-workspace.yaml tsconfig.base.json apps/*/package.json apps/*/tsconfig.json packages/*/package.json .prettierrc.json .github/workflows/check.yml",

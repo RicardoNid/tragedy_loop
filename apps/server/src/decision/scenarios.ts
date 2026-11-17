@@ -5,6 +5,12 @@ import type { ObservedQuestion } from '../../../../scripts/engine/observed-game.
 
 export const scenarios: Scenario[] = [
   {
+    id: 'investigation',
+    module: 'BTX',
+    title: '职员的证言',
+    description: '第二天的不安扩散有两名可能的当事人。比较发动友好能力后仍可能成立的答案。',
+  },
+  {
     id: 'game-policy',
     module: 'FS',
     title: '学校的最后一张牌',

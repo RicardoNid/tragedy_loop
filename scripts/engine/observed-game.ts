@@ -13,6 +13,7 @@ import {
 import { observeQuestion } from '../../packages/engine/src/decision/position.js';
 import { solveGoal } from '../../packages/engine/src/decision/goal.js';
 import type { DecisionGoal } from '../../packages/engine/src/decision/verify-policy.js';
+import type { InvestigationOptions } from '../../packages/contracts/src/investigation.js';
 import { replayCandidates, type CandidateReplay } from './candidate-replays.js';
 
 export interface ObservedQuestion {
@@ -22,6 +23,7 @@ export interface ObservedQuestion {
   exhaustiveSetups: boolean;
   evidence: DecisionEvidence;
   goal?: DecisionGoal;
+  investigation?: InvestigationOptions;
   historyWorkLimit?: number;
   worldLimit?: number;
   workLimit?: number;

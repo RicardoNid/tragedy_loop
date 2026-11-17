@@ -289,6 +289,21 @@ nav button:hover:not(:disabled),
   color: #53645a;
   font-size: 13px;
 }
+.investigation > p {
+  font-size: 14px;
+  color: #53645a;
+}
+.investigation select {
+  max-width: 100%;
+  font: inherit;
+  padding: 7px;
+  border: 1px solid #bdc6bc;
+  border-radius: 4px;
+  background: #fffefa;
+}
+.investigation input[type='number'] {
+  width: 68px;
+}
 .metrics {
   display: flex;
   align-items: flex-start;

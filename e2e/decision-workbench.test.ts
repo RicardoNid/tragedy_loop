@@ -33,6 +33,29 @@ const post = (body: unknown, headers = {}) =>
     body: JSON.stringify(body),
   });
 
+test('工作台调查可结合职员公告确定当事人，零次发动时保留两种答案', async () => {
+  const page = await browser.newPage();
+  try {
+    await page.goto(url);
+    await expect(page.getByRole('heading', { name: '公开盘面' })).toBeVisible();
+    await page.getByRole('button', { name: /职员的证言/ }).click();
+    await expect(page.getByRole('combobox', { name: '调查对象' })).toHaveValue(
+      JSON.stringify({ kind: 'culprit', day: 2 }),
+    );
+    await page.getByRole('button', { name: '求解调查' }).click();
+    await expect(page.getByText('当前 2 种答案 · 这条路线最坏剩 1 种')).toBeVisible();
+    await expect(page.getByRole('heading', { name: '职员发动公开身份' })).toBeVisible();
+    await page.locator('.investigation summary').first().click();
+    await page.getByRole('button', { name: '查看调查应对' }).first().click();
+    await expect(page.getByText(/结束调查后仍可能是/)).toBeVisible();
+    await page.getByRole('spinbutton', { name: '调查发动上限' }).fill('0');
+    await page.getByRole('button', { name: '求解调查' }).click();
+    await expect(page.getByText('当前 2 种答案 · 这条路线最坏剩 2 种')).toBeVisible();
+  } finally {
+    await page.close();
+  }
+});
+
 test('本地服务仅导出公开局面，计算不阻塞读取，同一时间只执行一项计算', async () => {
   const q = { mode: 'solve', scenario: 'game-policy' };
   const [a, b, catalog] = await Promise.all([post(q), post(q), fetch(url + '/api/scenarios')]);

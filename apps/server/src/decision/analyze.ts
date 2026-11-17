@@ -4,6 +4,8 @@ import type {
   PolicyNode,
 } from '../../../../packages/contracts/src/decision.js';
 import { solveGoal } from '../../../../packages/engine/src/decision/goal.js';
+import type { InvestigationOptions } from '../../../../packages/contracts/src/investigation.js';
+import { solveInvestigation } from '../../../../packages/engine/src/decision/investigation.js';
 import {
   observeQuestion,
   publicQuestion,
@@ -20,7 +22,8 @@ import {
 import { loadScenario } from './scenarios.js';
 
 export interface AnalysisRequest {
-  mode: 'inspect' | 'solve' | 'verify';
+  mode: 'inspect' | 'solve' | 'verify' | 'investigate';
+  investigation?: InvestigationOptions;
   scenario?: string;
   question?: ObservedQuestion | ReplayQuestion;
   workLimit?: number;
@@ -46,7 +49,7 @@ function resolveInput(input: ObservedQuestion | ReplayQuestion) {
 export function analyze(request: AnalysisRequest): DecisionAnalysis {
   if (
     !request ||
-    !['inspect', 'solve', 'verify'].includes(request.mode) ||
+    !['inspect', 'solve', 'verify', 'investigate'].includes(request.mode) ||
     (request.scenario !== undefined) === (request.question !== undefined)
   )
     throw Error('请选择一个示例或导入一份问题');
@@ -91,12 +94,44 @@ export function analyze(request: AnalysisRequest): DecisionAnalysis {
     const { view, sheet } = observeQuestion(first, seat);
     out.view = view;
     out.sheet = { loops: sheet.loops, days: sheet.days, incidents: sheet.incidents };
+    const hint = input.investigation;
+    const proposed = hint?.target;
+    const maxAbilities = Number.isSafeInteger(hint?.maxAbilities) ? hint!.maxAbilities : 1;
+    if (proposed?.kind === 'culprit' && sheet.incidents.some((i) => i.day === proposed.day))
+      out.suggestedInvestigation = { target: { kind: 'culprit', day: proposed.day }, maxAbilities };
+    if (proposed?.kind === 'identity' && view.characters.some((c) => c.id === proposed.character))
+      out.suggestedInvestigation = {
+        target: { kind: 'identity', character: proposed.character },
+        maxAbilities,
+      };
   }
   if (request.mode === 'solve')
     out.advice = solveGoal(pack, candidates, goal, workLimit, input.frontierLimit);
   if (request.mode === 'verify') {
     if (!request.policy) throw Error('请选择待复核的策略');
     out.verification = verifyPolicy(pack, candidates, request.policy, goal, workLimit);
+  }
+  if (request.mode === 'investigate') {
+    if (
+      !request.investigation ||
+      (request.investigation.seat !== undefined && request.investigation.seat !== seat)
+    )
+      throw Error('请选择当前视角下的调查目标');
+    const selected = request.investigation.target;
+    if (!selected || !['identity', 'culprit'].includes(selected.kind))
+      throw Error('无效的调查对象');
+    const options: InvestigationOptions = {
+      target:
+        selected.kind === 'identity'
+          ? { kind: 'identity', character: selected.character }
+          : { kind: 'culprit', day: selected.day },
+      maxAbilities: request.investigation.maxAbilities ?? 1,
+      seat,
+    };
+    out.investigation = {
+      options,
+      result: solveInvestigation(pack, candidates, options, workLimit, input.frontierLimit),
+    };
   }
   return out;
 }
