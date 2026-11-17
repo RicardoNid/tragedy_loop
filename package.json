@@ -7,6 +7,7 @@
     "node": ">=22.12 <23"
   },
   "scripts": {
+    "bench:decision": "tsx scripts/engine/decision-benchmark.ts",
     "solve:observed": "tsx scripts/engine/observed-game.ts",
     "observe:decision": "tsx scripts/engine/observed-game.ts --export",
     "solve:game": "tsx scripts/engine/game-policy.ts",

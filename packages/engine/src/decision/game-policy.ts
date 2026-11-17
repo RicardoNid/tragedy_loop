@@ -6,6 +6,51 @@ import { solveFinalDecision } from './final.js';
 import { publicQuestion, type PolicyCandidates } from './position.js';
 import { searchPolicy, type PolicyAdvice } from './policy-search.js';
 
+/** Order a late card menu using direct intrigue loss conditions in the structural
+ * rule programs. Every option still goes through the same forward proof. */
+function lastDayCards(pack: RulePack, states: EngineState[]) {
+  const s = states[0]!;
+  const threats = new Set<string>();
+  const plots = new Set(states.flatMap((s) => [s.setup.y, ...s.setup.x, s.setup.alternateY]));
+  for (const plot of plots)
+    for (const a of (plot && pack.plots[plot]?.abilities) || []) {
+      const c = a.condition;
+      if (
+        a.timing === 'loop-end' &&
+        a.mandatory &&
+        a.steps.some((step) => step.effects.some((e) => e.op === 'fail')) &&
+        c &&
+        typeof c === 'object' &&
+        'cmp' in c &&
+        (c.cmp === 'ge' || c.cmp === 'gt') &&
+        c.left &&
+        typeof c.left === 'object' &&
+        'counter' in c.left &&
+        c.left.counter === 'intrigue'
+      )
+        threats.add(c.left.target);
+    }
+  if (!threats.size) return enumerateChoices(s);
+  const blocks = new Set(
+    s.cards
+      .filter((c) => c.owner === s.pending!.actor && c.kind === 'block-intrigue')
+      .map((c) => c.id),
+  );
+  const covered = new Set(
+    s.placements
+      .filter((p) => s.cards.find((c) => c.id === p.card)?.owner === 'mastermind')
+      .map((p) => p.target),
+  );
+  const priority = (c: Choice) =>
+    Number(
+      c.kind === 'cards' &&
+        c.placements.some(
+          (p) => blocks.has(p.card) && threats.has(p.target) && covered.has(p.target),
+        ),
+    );
+  return [...enumerateChoices(s)].sort((a, b) => priority(b) - priority(a));
+}
+
 /** An opponent's successful C answer wins alone. For an ordinary guess any
  * legal wrong answer ends the game for the mastermind. One such reply suffices
  * to refute a unilateral guarantee; it need not be predicted or likely. */
@@ -29,10 +74,13 @@ export function findWinningPolicy(
   workLimit: number,
   frontierLimit = 512,
   seat?: Protagonist,
+  proofCacheLimit = 1024,
 ): PolicyAdvice {
   if (!Number.isSafeInteger(workLimit) || workLimit < 0) throw Error('Invalid policy work limit');
   if (!Number.isSafeInteger(frontierLimit) || frontierLimit < 1)
     throw Error('Invalid policy frontier limit');
+  if (!Number.isSafeInteger(proofCacheLimit) || proofCacheLimit < 0)
+    throw Error('Invalid proof cache limit');
   if (seat !== undefined && !['p0', 'p1', 'p2'].includes(seat)) throw Error('Invalid seat');
   let question: string | undefined;
   for (const s of candidates.states) {
@@ -62,6 +110,7 @@ export function findWinningPolicy(
   );
   return searchPolicy(pack, candidates, workLimit, {
     frontierLimit,
+    proofCacheLimit,
     seat,
     controls: (s) => (seat ? s.pending!.actor === seat : s.pending!.actor !== 'mastermind'),
     opponentChoices: (s) => opposingMoves(pack, s),
@@ -73,6 +122,7 @@ export function findWinningPolicy(
     choices(states, depth) {
       const s = states[0]!,
         d = s.pending!;
+      if (d.kind === 'cards' && s.day === s.setup.days) return lastDayCards(pack, states);
       if (d.kind === 'guess') {
         const advice = solveFinalDecision(pack, { exhaustive: true, states });
         if (advice.status === 'unknown') return 'unsupported';
