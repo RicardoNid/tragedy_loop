@@ -1,5 +1,11 @@
-import type { Actor, Choice, GameSetup } from '../../../contracts/src/game.js';
-import { advance, cardCount, initialize, initializeDiscussion, legalCardTargets } from './engine.js';
+import type { Actor, CardKind, Choice, GameSetup } from '../../../contracts/src/game.js';
+import {
+  advance,
+  cardCount,
+  initialize,
+  initializeDiscussion,
+  legalCardTargets,
+} from './engine.js';
 import { canonical, type EngineState, type RulePack } from './model.js';
 
 export interface RecordedChoice {
@@ -81,4 +87,36 @@ export function* enumerateChoices(state: EngineState): Generator<Choice> {
 }
 export function replayFingerprint(state: EngineState): string {
   return canonical(state);
+}
+
+// With a complete later reveal only card IDs with that face can be witnesses.
+export function* cardsAtTargets(
+  state: EngineState,
+  shown: readonly { owner: Actor; target: string; kind?: CardKind }[],
+): Generator<Choice> {
+  const actor = state.pending!.actor;
+  const cards = shown.filter((p) => p.owner === actor);
+  const targets = legalCardTargets(state, actor);
+  if (
+    cards.length !== cardCount(state, actor) ||
+    new Set(cards.map((p) => p.target)).size !== cards.length ||
+    cards.some((p) => !targets.includes(p.target))
+  )
+    return;
+  function* bind(i: number, used: { card: string; target: string }[]): Generator<Choice> {
+    if (i === cards.length) {
+      yield { kind: 'cards', placements: used };
+      return;
+    }
+    const p = cards[i]!;
+    for (const c of state.cards)
+      if (
+        c.owner === actor &&
+        c.status === 'hand' &&
+        (p.kind === undefined || c.kind === p.kind) &&
+        !used.some((u) => u.card === c.id)
+      )
+        yield* bind(i + 1, [...used, { card: c.id, target: p.target }]);
+  }
+  yield* bind(0, []);
 }

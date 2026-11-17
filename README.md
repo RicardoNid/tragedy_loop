@@ -49,6 +49,16 @@ archive/               旧实现与归档说明；不参与 workspace 或检查
 
 ## 整局获胜决策求解器
 
+若只掌握主人公看到的记录，可以先重建隐藏历史，再求解：
+
+```bash
+pnpm solve:observed products/engine/observed-game-example.json
+```
+
+此示例提供候选剧本和主人公共享观察。医院事故前已经翻牌，所以能确定牌面，但剧作家的两张不安 +1 实体牌仍可互换。程序找到两条相容历史，再给出对两者都成立的医生保人策略。翻牌前只能用已经公开的暗置目标缩减枚举，不能提前使用牌面。主人公自己提交过的行动按其确认记录重放。
+
+输入中的 `setups` 是宿主提供的候选剧本，`exhaustiveSetups` 声明这些剧本是否覆盖当前问题。`evidence` 是从开局到当前主人公提问的完整观察，可用 `pnpm observe:decision products/engine/day-survival-example.json` 从首条候选重放导出。普通整局目标使用 `goal: {"kind":"game"}` 或省略；当日保人目标使用 `{"kind":"survival","target":"patient","maxAbilities":2}`。输出分别报告历史搜索和决策搜索。`historyWorkLimit` 默认 50000，`worldLimit` 默认 512。任一上限截断了仍可能相容的历史、候选剧本范围不全或特规未建模时，策略判定为 `unknown`。剧本和内部运行状态只供宿主使用。
+
 ```bash
 pnpm solve:game products/engine/game-policy-example.json
 ```

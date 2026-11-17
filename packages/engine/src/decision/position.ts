@@ -100,14 +100,30 @@ export function submitChoice(pack: RulePack, s: EngineState, choice: Choice) {
   );
 }
 
-export function publicQuestion(s: EngineState) {
-  return canonical([
-    s.setup.days,
-    s.setup.loops,
-    s.setup.discussion,
-    s.setup.incidents
+export function publicSheet(setup: EngineState['setup']) {
+  return {
+    module: setup.module,
+    anniversary: setup.anniversary,
+    days: setup.days,
+    loops: setup.loops,
+    discussion: setup.discussion,
+    specialRules: setup.publicSpecialRules ?? [],
+    incidents: setup.incidents
       .map((i) => ({ day: i.day, name: i.publicName ?? i.name }))
       .sort((a, b) => a.day - b.day),
-    observedMenu(s, 0),
-  ]);
+  };
+}
+
+export function observeQuestion(s: EngineState) {
+  if (!s.pending || s.pending.actor === 'mastermind' || s.winner)
+    throw Error('Expected a protagonist decision');
+  return {
+    version: 1 as const,
+    coverage: 'complete' as const,
+    sheet: publicSheet(s.setup),
+    view: observedMenu(s, 0),
+  };
+}
+export function publicQuestion(s: EngineState) {
+  return canonical(observeQuestion(s));
 }
