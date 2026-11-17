@@ -10,12 +10,34 @@ export interface LoopGrantFact {
   report: number;
 }
 
+export interface PlotGrantFact {
+  kind: 'missing-plot-grant';
+  plot: '超越世界线';
+  grant: Grant;
+  loop: number;
+  endReport: number;
+  report: number;
+}
+type GrantEvidence = LoopGrantFact | PlotGrantFact;
+
 /** The next discussion precedes the board reset. Freeze the previous board
  * there and count grants until normal entry into day one. Other sources can
  * satisfy the same once-per-recipient grant, so presence proves no identity. */
-export function loopGrantEvidence(reports: readonly Observation[]): LoopGrantFact[] {
-  const facts: LoopGrantFact[] = [];
-  if (!reports.some((o) => o.type === 'boundary' && o.phase === 'discussion' && o.loop > 1))
+export function loopGrantEvidence(reports: readonly Observation[]): LoopGrantFact[];
+export function loopGrantEvidence(
+  reports: readonly Observation[],
+  finalLoop: number,
+): GrantEvidence[];
+export function loopGrantEvidence(
+  reports: readonly Observation[],
+  finalLoop?: number,
+): GrantEvidence[] {
+  const facts: GrantEvidence[] = [];
+  if (
+    !reports.some(
+      (o) => o.type === 'boundary' && o.phase === 'discussion' && (o.loop > 1 || finalLoop === 1),
+    )
+  )
     return facts;
   const pieces = new Map<string, Grant>();
   let loop = 0;
@@ -36,7 +58,8 @@ export function loopGrantEvidence(reports: readonly Observation[]): LoopGrantFac
       if (o.phase !== d.phase) return [];
       if (o.phase === 'discussion') {
         window =
-          last?.phase === 'loop-end' && last.loop === loop && loop + 1 === o.loop
+          (last?.phase === 'loop-end' && last.loop === loop && loop + 1 === o.loop) ||
+          (o.loop === 1 && loop === 0 && (!last || last.phase === 'briefing'))
             ? {
                 loop: o.loop,
                 endReport: o.sequence,
@@ -54,9 +77,27 @@ export function loopGrantEvidence(reports: readonly Observation[]): LoopGrantFac
       } else {
         if (window?.started && window.loop === o.loop && o.phase === 'day-start' && o.day === 1) {
           const { prior, seen } = window;
+          const missing = (grant: Grant) =>
+            (grant === 'hope+1' ? ['p0', 'p1', 'p2'] : ['mastermind']).some(
+              (owner) => !seen.has(owner + '/' + grant),
+            );
+          if (finalLoop !== undefined) {
+            const expected: Grant[] = [];
+            if (loop % 2 === 0) expected.push('despair+1');
+            if (loop === finalLoop) expected.push('hope+1');
+            for (const grant of expected)
+              if (missing(grant))
+                facts.push({
+                  kind: 'missing-plot-grant',
+                  plot: '超越世界线',
+                  loop,
+                  grant,
+                  endReport: window.endReport,
+                  report: o.sequence,
+                });
+          }
           for (const [character, grant] of prior) {
-            const owners = grant === 'hope+1' ? ['p0', 'p1', 'p2'] : ['mastermind'];
-            if (owners.some((owner) => !seen.has(owner + '/' + grant)))
+            if (missing(grant))
               facts.push({
                 kind: 'missing-loop-grant',
                 loop,

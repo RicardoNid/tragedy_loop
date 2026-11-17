@@ -278,6 +278,7 @@ function App() {
                           'culprit-answers': '整组当事人回答',
                           'initial-answer': '最终决战身份裁定',
                           'personal-role': '本人 Ex',
+                          'missing-plot-grant': `从观察 ${f.endReport} 起缺少${f.grant === 'hope+1' ? '最终轮三名主人公的希望牌' : '偶数轮剧作家的绝望牌'}，排除规则「${f.plot}」。`,
                           'missing-loop-grant': `从观察 ${f.endReport} 起，若${target(f.character ?? '', view)}以因果残片身份在场，本应授予${f.grant === 'hope+1' ? '三名主人公希望牌' : '剧作家绝望牌'}。`,
                           'incident-outcome': f.occurred ? '事件宣告发生' : '事件宣告未发生',
                         }[f.kind]

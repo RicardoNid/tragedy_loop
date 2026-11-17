@@ -62,7 +62,13 @@ const samples = (fixtures as unknown as { id: string; setup: GameSetup }[]).flat
     ...f,
     seeds: [1709, 2039, 2441, 3253, 4027, 5107, 6421, 7919, 8731, 9341, 10243, 12269],
   };
-  if (['LL', 'AHR'].includes(f.setup.module)) return [base];
+  const worldline = (setup: GameSetup, replaced: string) => ({
+    id: f.id + '/超越世界线',
+    setup: { ...setup, x: setup.x.map((x) => (x === replaced ? '超越世界线' : x)) },
+    seeds: [5041, 8863, 14081, 25229, 32771, 39989, 46747, 60293],
+  });
+  if (f.setup.module === 'LL') return [base, worldline(f.setup, '捏造的秘密')];
+  if (f.setup.module === 'AHR') return [base];
   const setup = clone(f.setup);
   let civilian = setup.characters.find((c) => c.identity === '平民');
   if (!civilian) {
@@ -71,7 +77,11 @@ const samples = (fixtures as unknown as { id: string; setup: GameSetup }[]).flat
   }
   setup.anniversary = true;
   setup.anniversaryFragment = civilian.id;
-  return [base, { id: f.id + '/周年', setup, seeds: [17431, 20533, 31957, 41081] }];
+  return [
+    base,
+    { id: f.id + '/周年', setup, seeds: [17431, 20533, 31957, 41081] },
+    ...(setup.x.includes('流言四起') ? [worldline(setup, '流言四起')] : []),
+  ];
 });
 for (const { id, setup, seeds } of samples) {
   for (const initialSeed of seeds)
@@ -216,6 +226,13 @@ for (const { id, setup, seeds } of samples) {
         assert.ok(
           allowsLoopGrants(grants, setup.characters, setup.anniversaryFragment),
           id + '/actual fragment',
+        );
+        const plots = loopGrantEvidence(state.observations.protagonists, setup.loops).filter(
+          (f) => f.kind === 'missing-plot-grant',
+        );
+        assert.ok(
+          plots.every((f) => !setup.x.includes(f.plot)),
+          id + '/actual rule X',
         );
         loopGrantFacts += grants.length;
       }

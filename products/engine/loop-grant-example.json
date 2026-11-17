@@ -1169,7 +1169,89 @@
       "discussion": "between-loops",
       "y": "守护此地",
       "x": [
+        "超越世界线"
+      ],
+      "characters": [
+        {
+          "id": "boy",
+          "character": "男学生",
+          "identity": "关键人物"
+        },
+        {
+          "id": "doctor",
+          "character": "医生",
+          "identity": "邪教徒"
+        },
+        {
+          "id": "maiden",
+          "character": "巫女",
+          "identity": "传谣人"
+        },
+        {
+          "id": "office",
+          "character": "职员",
+          "identity": "平民"
+        },
+        {
+          "id": "girl",
+          "character": "女学生",
+          "identity": "平民"
+        }
+      ],
+      "incidents": [],
+      "anniversaryFragment": "office"
+    },
+    {
+      "module": "FS",
+      "anniversary": true,
+      "loops": 2,
+      "days": 1,
+      "captain": "p0",
+      "discussion": "between-loops",
+      "y": "守护此地",
+      "x": [
         "流言四起"
+      ],
+      "characters": [
+        {
+          "id": "boy",
+          "character": "男学生",
+          "identity": "关键人物"
+        },
+        {
+          "id": "doctor",
+          "character": "医生",
+          "identity": "邪教徒"
+        },
+        {
+          "id": "maiden",
+          "character": "巫女",
+          "identity": "传谣人"
+        },
+        {
+          "id": "office",
+          "character": "职员",
+          "identity": "平民"
+        },
+        {
+          "id": "girl",
+          "character": "女学生",
+          "identity": "平民"
+        }
+      ],
+      "incidents": [],
+      "anniversaryFragment": "girl"
+    },
+    {
+      "module": "FS",
+      "anniversary": true,
+      "loops": 2,
+      "days": 1,
+      "captain": "p0",
+      "discussion": "between-loops",
+      "y": "守护此地",
+      "x": [
+        "超越世界线"
       ],
       "characters": [
         {

@@ -5,7 +5,12 @@ import { identityConfiguration } from '../runtime/model.js';
 import type { DecisionEvidence } from './observed-worlds.js';
 import { IncidentEvidence, incidentEvidence, type IncidentFact } from './incident-evidence.js';
 
-import { loopGrantEvidence, allowsLoopGrants, type LoopGrantFact } from './loop-grant-evidence.js';
+import {
+  loopGrantEvidence,
+  allowsLoopGrants,
+  type PlotGrantFact,
+  type LoopGrantFact,
+} from './loop-grant-evidence.js';
 
 type DayFact = { kind: 'culprit'; day: number; culprit: string; report: number };
 type TupleFact = {
@@ -24,7 +29,14 @@ type GuessFact = {
   report: number;
 };
 type SeatFact = { kind: 'personal-role'; seat: Protagonist; role: 'A' | 'B' | 'C' };
-type Fact = DayFact | TupleFact | GuessFact | SeatFact | IncidentFact | LoopGrantFact;
+type Fact =
+  | DayFact
+  | TupleFact
+  | GuessFact
+  | SeatFact
+  | IncidentFact
+  | LoopGrantFact
+  | PlotGrantFact;
 
 /** Only assertions about immutable script fields belong here. An ordinary
  * identity announcement may be a Ninja declaration or an effective identity
@@ -111,12 +123,13 @@ export function compileScriptEvidence(
     checkLoopGrants &&
     (evidence.sheet.anniversary || ['LL', 'AHR'].includes(evidence.sheet.module))
   )
-    facts.push(...loopGrantEvidence(reports));
+    facts.push(...loopGrantEvidence(reports, evidence.sheet.loops));
   facts.push(...windows.map((w) => w.fact));
   return new ScriptEvidence(facts, windows.length ? new IncidentEvidence(windows) : undefined);
 }
 
 export class ScriptEvidence {
+  private readonly excludedPlots = new Set<string>();
   private readonly loopGrants: LoopGrantFact[] = [];
   private readonly fixedDays = new Map<number, Set<string>>();
   private readonly guesses = new Map<string, GuessFact[]>();
@@ -132,7 +145,8 @@ export class ScriptEvidence {
       this.fixedDays.set(day, found);
     };
     for (const f of facts) {
-      if (f.kind === 'missing-loop-grant') this.loopGrants.push(f);
+      if (f.kind === 'missing-plot-grant') this.excludedPlots.add(f.plot);
+      else if (f.kind === 'missing-loop-grant') this.loopGrants.push(f);
       else if (f.kind === 'culprit') record(f.day, f.culprit);
       else if (f.kind === 'culprit-answers') {
         if (f.correct) for (const [day, who] of Object.entries(f.answers)) record(Number(day), who);
@@ -144,6 +158,9 @@ export class ScriptEvidence {
         this.guesses.set(f.character, rows);
       }
     }
+  }
+  allowsPlots(x: readonly string[]) {
+    return !x.some((plot) => this.excludedPlots.has(plot));
   }
   allowsLoopRoles(roster: GameSetup['characters'], fragment?: string) {
     return allowsLoopGrants(this.loopGrants, roster, fragment);
@@ -184,6 +201,7 @@ export class ScriptEvidence {
   allowsState(pack: RulePack, s: EngineState) {
     if (!this.facts.length) return true;
     if (
+      !this.allowsPlots(s.setup.x) ||
       !this.allowsLoopRoles(s.setup.characters, s.setup.anniversaryFragment) ||
       !this.allowsShuffle(s.setup.privateRoles) ||
       !this.allowsTuple(s.setup.incidents) ||

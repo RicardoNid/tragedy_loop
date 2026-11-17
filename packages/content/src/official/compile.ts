@@ -47,7 +47,7 @@ export function compileOfficial(module: Module, anniversary = false): RulePack {
   if (cached) return cached;
   const pack: RulePack = {
     schema: 1,
-    semanticVersion: '0.3.5',
+    semanticVersion: '0.3.6',
     moduleAbilities: moduleAbilities[module] ?? [],
     digest: '',
     module,
@@ -57,7 +57,7 @@ export function compileOfficial(module: Module, anniversary = false): RulePack {
     plots: {},
     incidents: {},
   };
-  const counts: Record<string, number> = { '①': 1, '②': 2, '③': 3 };
+  const counts: Record<string, number> = { '①': 1, '②': 2, '③': 3, '1': 1, '2': 2, '3': 3 };
   for (const e of entries) {
     const f = e.fields;
     if (e.kind === 'characters') {
@@ -103,7 +103,14 @@ export function compileOfficial(module: Module, anniversary = false): RulePack {
     }
     if (e.kind === 'rules') {
       const programs = plotPrograms(e.name);
-      const rawCounts = (f.identityCounts as Record<string, string>) ?? {};
+      // BTX+ records the overlay allocation as one text field, e.g. 传谣人1.
+      const compact = String(f.identityConfigurationText ?? '')
+        .normalize('NFKC')
+        .trim();
+      const single = /^([^0-9]+)([1-3])$/u.exec(compact);
+      const rawCounts =
+        (f.identityCounts as Record<string, string> | undefined) ??
+        (single ? { [single[1]!.trim()]: single[2]! } : {});
       const front = Object.keys(rawCounts).find((n) => rawCounts[n] === '表');
       const reverse = Object.keys(rawCounts).find((n) => rawCounts[n] === '里');
       pack.plots[e.name] = {
@@ -117,7 +124,7 @@ export function compileOfficial(module: Module, anniversary = false): RulePack {
         ),
         pair: front || reverse ? [front ?? '平民', reverse ?? '平民'] : undefined,
         abilities: stamp(programs, e.source),
-        supported: programs !== null,
+        supported: programs !== null && (!compact || !!f.identityCounts || !!single),
       };
     }
     if (e.kind === 'incidents') {
