@@ -1,5 +1,10 @@
 import type { DecisionGoal, PolicyNode } from '../../../contracts/src/decision.js';
-import type { CoverageResult, CoverageCheck } from '../../../contracts/src/coverage.js';
+import type {
+  CoverageResult,
+  CoverageCheck,
+  CoverageComparison,
+  ScriptVerdict,
+} from '../../../contracts/src/coverage.js';
 import { canonical, type EngineState, type RulePack } from '../runtime/model.js';
 import { ordinaryAnswerClass } from './final.js';
 import { solveGoal } from './goal.js';
@@ -209,21 +214,78 @@ export function verifyCoverage(
     exhaustive: candidates.exhaustive,
   };
   for (const states of groups) {
-    if (out.work >= limit) {
-      out.unresolved++;
-      continue;
-    }
-    const v = verifyPolicy(
+    const { verdict, work } = checkScript(
       pack,
-      { exhaustive: candidates.exhaustive, states },
-      policy,
+      states,
+      candidates.exhaustive,
       goal,
+      policy,
       limit - out.work,
     );
-    out.work += v.work;
-    if (v.status === 'verified') out.verified++;
-    else if (v.status === 'counterexample') out.refuted++;
-    else out.unresolved++;
+    out.work += work;
+    out[verdict]++;
   }
   return out;
+}
+
+function checkScript(
+  pack: RulePack,
+  states: EngineState[],
+  exhaustive: boolean,
+  goal: DecisionGoal,
+  policy: PolicyNode,
+  limit: number,
+): { verdict: ScriptVerdict; work: number } {
+  if (!limit) return { verdict: 'unresolved', work: 0 };
+  const checked = verifyPolicy(pack, { exhaustive, states }, policy, goal, limit);
+  const verdict =
+    checked.status === 'verified'
+      ? 'verified'
+      : checked.status === 'counterexample'
+        ? 'refuted'
+        : 'unresolved';
+  return { verdict, work: checked.work };
+}
+
+/** Compare the sets of scripts for which each submitted policy guarantees the
+ * same goal. A proved directional difference survives uncertainty in other rows. */
+export function compareCoverage(
+  pack: RulePack,
+  candidates: PolicyCandidates,
+  goal: DecisionGoal,
+  leftPolicy: PolicyNode,
+  rightPolicy: PolicyNode,
+  limit: number,
+): CoverageComparison {
+  if (!Number.isSafeInteger(limit) || limit < 0) throw Error('Invalid comparison work limit');
+  const groups = groupScripts(pack, candidates, goal);
+  let leftBudget = Math.ceil(limit / 2),
+    rightBudget = Math.floor(limit / 2);
+  const scripts = groups.map((states, index) => {
+    const left = checkScript(pack, states, candidates.exhaustive, goal, leftPolicy, leftBudget);
+    const right = checkScript(pack, states, candidates.exhaustive, goal, rightPolicy, rightBudget);
+    leftBudget -= left.work;
+    rightBudget -= right.work;
+    return { script: index + 1, left: left.verdict, right: right.verdict };
+  });
+  const difference = (a: 'left' | 'right', b: 'left' | 'right') => ({
+    established: scripts.some((s) => s[a] === 'verified' && s[b] === 'refuted'),
+    possible: scripts.some((s) => s[a] !== 'refuted' && s[b] !== 'verified'),
+  });
+  const leftOnly = difference('left', 'right'),
+    rightOnly = difference('right', 'left');
+  let relation: CoverageComparison['relation'] = 'unknown';
+  if (candidates.exhaustive) {
+    if (!scripts.length) relation = 'no-candidates';
+    else if (leftOnly.established && rightOnly.established) relation = 'incomparable';
+    else if (leftOnly.established && !rightOnly.possible) relation = 'left-superset';
+    else if (rightOnly.established && !leftOnly.possible) relation = 'right-superset';
+    else if (!leftOnly.possible && !rightOnly.possible) relation = 'equivalent';
+  }
+  return {
+    relation,
+    exhaustive: candidates.exhaustive,
+    work: limit - leftBudget - rightBudget,
+    scripts,
+  };
 }
