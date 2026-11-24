@@ -81,110 +81,72 @@ for (const module of ['FS', 'BTX'] as const)
       expect(observed).toBe(true);
       await page.getByRole('button', { name: '主人公 1', exact: true }).click();
       const panel = page.getByRole('region', { name: '解空间', exact: true });
-      await expect(panel.locator('[aria-live]')).toContainText(/局部传播完成|正在验证|候选取值验证完成|尚未判定完毕/);
-      const scope = panel.getByRole('table', { name: '本次计算范围' });
-      if (btx) {
-        await expect(panel.getByText(/本次保留的原因（1）/)).toBeVisible();
-        await expect(panel.getByText('所有相容解释都要求剧本含有“流言四起”。')).toBeVisible();
-        await expect(
-          panel.getByText(/本次新增历史搜索起点 \d+ 个，推进隐藏行动 \d+ 个分支/),
-        ).toBeVisible();
-        await expect(
-          scope.getByRole('row').filter({ hasText: '医院事故' }).locator('td').first(),
-        ).toHaveText('无直接来源');
-        await expect(
-          panel.getByRole('table', { name: '角色 × 初始身份', exact: true }).locator('tbody tr'),
-        ).toHaveCount(3);
-        return;
-      }
-      const rules = panel.getByRole('table', { name: '规则候选判定' });
-      await expect(rules.getByRole('row').filter({ hasText: '流言四起' })).toContainText('？');
-      await expect(scope).toContainText('住院患者');
-      await expect(scope).toContainText('流言四起');
-      await expect(panel.getByText(/若不包含“流言四起”/).first()).toBeVisible();
-      await expect(panel.getByText(/解空间 S\d+ ← S\d+/)).toBeVisible();
-      await expect(panel.getByText(/第 1 轮至多 1 次/).first()).toBeVisible();
-      await expect(
-        panel.getByRole('table', { name: '角色 × 初始身份', exact: true }).locator('tbody tr'),
-      ).toHaveCount(3);
-      await panel.screenshot({ path: test.info().outputPath('pruning-scope.png') });
-      // Coupled observations automatically start joint verification.
+      await expect(panel.locator('[aria-live]')).toContainText(/候选已建立，正在验证|候选取值验证完成|尚未判定完毕/);
+      await expect(panel.getByRole('table')).toHaveCount(3);
+      await expect(panel.getByRole('table', { name: '规则表格' })).toBeVisible();
+      await expect(panel.getByRole('table', { name: '事件表格' })).toBeVisible();
+      await expect(panel.getByRole('table', { name: '角色 × 初始身份', exact: true }).locator('tbody tr')).toHaveCount(3);
       const verify = panel.getByRole('button', { name: '核验联合历史' });
       if (await verify.isVisible()) await verify.click();
-      await expect(panel.locator('[aria-live]')).toContainText('候选取值验证完成', {
-        timeout: 20000,
-      });
-      await expect(panel.getByText(/跨表逻辑关系/)).toBeVisible();
+      await expect(panel.locator('[aria-live]')).toContainText('候选取值验证完成', { timeout: 20000 });
+      await expect(page.getByRole('region', {name:'解空间3',exact:true})).toContainText('联合关系及证据');
+      for (const name of ['解空间']) {
+        const relations = page.getByRole('region', { name, exact: true }).getByLabel('逻辑关系', {exact:true});
+        await expect(relations.getByRole('heading', {name:'解空间逻辑关系'})).toBeVisible();
+        await expect(relations.getByText(/不能同时成立的候选取值/)).toBeVisible();
+        if (!btx) {
+          await expect(relations).toContainText(/(男学生的初始身份为「主谋」 或 剧本采用「流言四起」|剧本采用「流言四起」 或 男学生的初始身份为「主谋」)/);
+        }
+        await expect(relations).not.toContainText('主副线组合');
+      }
     },
   );
 
-test('scope table keeps skipped candidates and offers explicit full-history verification', { tag: '@http' }, async ({
-  page,
-}) => {
+test('solver tables retain cross-table relationships and pending verification', { tag: '@http' }, async ({ page }) => {
   let verified = false;
-  await page.route('**/api/games/*/knowledge/verify', async (route) => {
+  await page.route('**/api/games/*/knowledge/verify', async route => {
     verified = true;
     await route.continue();
   });
-  await page.route('**/api/games/*/knowledge', async (route) => {
-    const response = await route.fetch(),
-      result = await response.json();
-    // Renderer contract test; actual causal inference and IPC are covered by engine/server tests.
-    await route.fulfill({
-      json: {
-        ...result,
-        status: verified ? 'exact' : 'incomplete',
-        scope: {
-          kind: 'board-intrigue',
-          observation: 2,
-          phase: 'mastermind-abilities',
-          target: 'school',
-          characters: ['local'],
-          rules: [],
-          events: [],
-          fields: [
-            { field: 'A 移动', alternatives: ['同时移动和死亡'] },
-            { field: 'A 死亡', alternatives: ['同时移动和死亡'] },
-            { field: 'A 友好增加', alternatives: ['两个来源共同贡献'] },
-          ],
-          skippedCharacters: ['remote'],
-          skippedRules: ['流言四起'],
-          skippedEvents: ['1:谋杀'],
-          conservative: [],
-          deferred: !verified,
-        },
-      },
-    });
+  await page.route('**/api/games/*/knowledge', async route => {
+    const response = await route.fetch();
+    const result = await response.json();
+    await route.fulfill({ json: { ...result,
+      status: verified ? 'exact' : 'incomplete',
+      rules: ['流言四起', '因果线'], ruleCombinations: [],
+      identities: { a: ['主谋','平民'] }, culprits: {1:['a','b']},
+      candidateRelations: {pairs:[], observations:[{ observation: 2, fact:'结算后的联合候选',
+        alternatives: [[{key:'identity:a',value:'主谋'}, {key:'culprit:1',value:'a',negated:true}],
+          [{key:'rule',value:'流言四起'}]] }]},
+    } });
   });
   await page.goto(process.env.REVIEW_FILE_UI ?? '/');
   await page.getByRole('button', { name: '新建 FS 测试对局' }).click();
   await page.getByRole('button', { name: '开始游戏', exact: true }).click();
+  await page.getByRole('button', { name: '继续', exact: true }).click();
   const panel = page.getByRole('region', { name: '解空间', exact: true });
-  await expect(panel.locator('[aria-live]')).toContainText(/局部传播完成|正在验证|候选取值验证完成|尚未判定完毕/);
-  const fields = panel.getByRole('list', { name: '复合观察的逐项原因' });
-  await expect(fields.getByRole('listitem')).toHaveCount(3);
-  await expect(fields.getByRole('listitem').nth(2)).toContainText('两个来源共同贡献');
-  await expect(panel.getByRole('table', { name: '本次计算范围' })).toContainText('remote');
-  await expect(panel.getByRole('table', { name: '本次计算范围' })).toContainText('流言四起');
-  await expect(
-    panel.getByRole('table', { name: '角色 × 初始身份', exact: true }).locator('tbody tr'),
-  ).toHaveCount(6);
+  await expect(panel.getByRole('table')).toHaveCount(3);
+  await expect(panel.getByLabel('逻辑关系', { exact: true })).toContainText(
+    '（a的初始身份为「主谋」 并 非（第 1 日当事人为「a」）） 或 剧本采用「流言四起」');
+  await expect(panel.getByText('本次计算范围', { exact: false })).toHaveCount(0);
   await panel.getByRole('button', { name: '核验联合历史' }).click();
   await expect(panel.locator('[aria-live]')).toContainText('候选取值验证完成');
 });
 
-test('live solution space, visibility toggle and revision-safe history', async ({ page }) => {
+test('unified solver tables remain docked and revision-safe', async ({ page }) => {
   await page.goto(process.env.REVIEW_FILE_UI ?? '/');
   await page.getByRole('button', { name: '新建 FS 测试对局' }).click();
   await page.getByRole('button', { name: '开始游戏', exact: true }).click();
+  await expect(page.locator('.character')).toHaveCount(0);
+  await page.getByRole('button', { name: '继续', exact: true }).click();
   const panel = page.getByRole('region', { name: '解空间', exact: true });
-  await expect(panel.getByText(/^候选取值 [1-9][0-9]*$/)).toBeVisible({ timeout: 10000 });
-  await expect(panel.locator('[aria-live]')).toContainText(/局部传播完成|正在验证|候选取值验证完成|尚未判定完毕/);
+  await expect(panel.getByRole('table')).toHaveCount(3, { timeout: 10000 });
+  await expect(panel.locator('[aria-live]')).toContainText(/候选已建立，正在验证|候选取值验证完成|尚未判定完毕/);
   await expect(
     panel.getByRole('table', { name: '角色 × 初始身份', exact: true }).locator('tbody tr'),
   ).toHaveCount(6);
-  await expect(panel.getByRole('table', { name: '事件 × 当事人', exact: true })).toBeVisible();
-  await expect(panel.getByRole('table', { name: '真实事件候选', exact: true })).toBeVisible();
+  await expect(panel.getByRole('table', { name: '事件表格', exact: true })).toBeVisible();
+  await expect(panel.getByRole('table', { name: '规则表格', exact: true })).toBeVisible();
   await expect(
     panel
       .getByRole('table', { name: '角色 × 初始身份', exact: true })
@@ -196,20 +158,30 @@ test('live solution space, visibility toggle and revision-safe history', async (
       .getByRole('table', { name: '角色 × 初始身份', exact: true })
       .locator('.candidate-certain'),
   ).toHaveCount(0);
-  await panel.getByRole('checkbox').uncheck();
-  await expect(panel.locator('table')).toHaveCount(0);
-  await panel.getByRole('checkbox').check();
-  await page.getByRole('button', { name: '继续', exact: true }).click();
-  // The official six-character script has a larger post-action search domain.
-  // Verify a fresh result and historical isolation while the search may continue.
-  await expect(panel.getByText(/观察版本 1$/)).toHaveCount(0);
-  await expect(panel.getByText(/^候选取值 [1-9][0-9]*$/)).toBeVisible({ timeout: 10000 });
+  const second = page.getByRole('region', { name: '解空间3', exact: true });
+  await expect(second.getByRole('table')).toHaveCount(4);
+  await expect(second.getByRole('table', { name: '规则' })).toContainText('复仇的火种');
+  const sidebar = page.getByLabel('求解器对照', { exact: true });
+  await expect(second).toContainText('完整配置 0');
+  for (const solver of [panel]) {
+    const comparison = solver.getByRole('region', {name:'求解次数对比'});
+    await expect(comparison).toContainText(/穷举基准.*[0-9]/);
+    await expect(comparison).toContainText(/剪枝.*[0-9]/);
+  }
+  const before = await sidebar.boundingBox();
+  const actions = await page.getByRole('region', { name: '对局操作', exact: true }).boundingBox();
+  expect(before!.x).toBeGreaterThanOrEqual(actions!.x + actions!.width);
+  await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
+  expect(await sidebar.boundingBox()).toEqual(before);
+  expect(await panel.evaluate(el => el.scrollHeight > el.clientHeight)).toBe(true);
+  expect(await second.evaluate(el => el.scrollHeight > el.clientHeight)).toBe(true);
+  await page.evaluate(() => window.scrollTo(0, 0));
   await page.getByRole('button', { name: '上一步', exact: true }).click();
-  await expect(panel.getByText(/观察版本 1$/)).toBeVisible();
-  await expect(panel.getByText(/^候选取值 [1-9][0-9]*$/)).toBeVisible();
+  await expect(panel.getByRole('table')).toHaveCount(0);
+  await expect(page.locator('.character')).toHaveCount(0);
   await page.getByRole('button', { name: '返回当前', exact: true }).click();
   await expect(panel.getByText(/观察版本 1$/)).toHaveCount(0);
-  await expect(panel.locator('[aria-live]')).toContainText('局部传播完成', { timeout: 15000 });
+  await expect(panel.getByRole('table')).toHaveCount(3, { timeout: 15000 });
   await page.screenshot({ path: test.info().outputPath('desktop.png'), fullPage: true });
 });
 
@@ -243,11 +215,12 @@ test('certainty symbols distinguish witnesses, unique unverified candidates, and
   );
   await page.getByRole('button', { name: '新建 FS 测试对局' }).click();
   await page.getByRole('button', { name: '开始游戏', exact: true }).click();
+  await expect(page.locator('.character')).toHaveCount(0);
+  await page.getByRole('button', { name: '继续', exact: true }).click();
   const { id } = await (await created).json();
   roster = (await (await page.request.get(`/api/games/${id}/p0`)).json()).characters;
-  const matrix = page.getByRole('table', { name: '角色 × 初始身份', exact: true });
+  const matrix = page.getByRole('region', { name: '解空间', exact: true }).getByRole('table', { name: '角色 × 初始身份', exact: true });
   const name = roster[0]!.character;
-  await expect(page.getByText('联合解总数：未计算', { exact: true })).toBeVisible();
   await expect(
     matrix.getByRole('cell', { name: `${name} · 主谋：可能是`, exact: true }),
   ).toHaveText('?');
@@ -264,7 +237,6 @@ test('certainty symbols distinguish witnesses, unique unverified candidates, and
     matrix.getByRole('cell', { name: `${name} · 主谋：确定是`, exact: true }),
   ).toHaveText('✓');
   await expect(matrix.getByRole('columnheader', { name: '传谣人', exact: true })).toBeVisible();
-  await expect(page.getByText('联合解总数：1', { exact: true })).toBeVisible();
 });
 
 test('mobile solution space remains readable without horizontal overflow', async ({ page }) => {
@@ -272,19 +244,24 @@ test('mobile solution space remains readable without horizontal overflow', async
   await page.goto(process.env.REVIEW_FILE_UI ?? '/');
   await page.getByRole('button', { name: '新建 FS 测试对局' }).click();
   await page.getByRole('button', { name: '开始游戏', exact: true }).click();
-  await expect(page.getByText(/^候选取值 [1-9][0-9]*$/)).toBeVisible({ timeout: 10000 });
+  await expect(page.locator('.character')).toHaveCount(0);
+  await page.getByRole('button', { name: '继续', exact: true }).click();
+  await expect(page.getByRole('region', { name: '解空间', exact: true }).getByRole('table')).toHaveCount(3, { timeout: 10000 });
   await expect(
     page.getByRole('region', { name: '解空间', exact: true }).locator('[aria-live]'),
-  ).toContainText(/局部传播完成|正在验证|候选取值验证完成|尚未判定完毕/);
+  ).toContainText(/候选已建立，正在验证|候选取值验证完成|尚未判定完毕/);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(
     true,
   );
-  const matrix = page.getByRole('region', { name: '角色 × 初始身份滚动区域', exact: true });
+  const matrix = page.getByRole('region', { name: '解空间', exact: true }).getByRole('region', { name: '角色 × 初始身份滚动区域', exact: true });
   expect(await matrix.evaluate((el) => el.scrollWidth > el.clientWidth)).toBe(true);
   await matrix.evaluate((el) => {
     el.scrollLeft = el.scrollWidth;
   });
   await expect(matrix.getByRole('rowheader', { name: '女学生', exact: true })).toBeVisible();
+  const dock = await page.getByLabel('求解器对照', { exact: true }).boundingBox();
+  expect(dock!.x).toBeGreaterThan(190);
+  expect(dock!.x + dock!.width).toBeLessThanOrEqual(390);
   await matrix.evaluate((el) => {
     el.scrollLeft = 0;
   });
@@ -297,12 +274,16 @@ test('official BTX roster, hospital incident and restart retain the selected mod
   await page.goto(process.env.REVIEW_FILE_UI ?? '/');
   await page.getByRole('button', { name: '新建 BTX 测试对局' }).click();
   await page.getByRole('button', { name: '开始游戏', exact: true }).click();
+  await expect(page.locator('.character')).toHaveCount(0);
+  await page.getByRole('button', { name: '继续', exact: true }).click();
   const panel = page.getByRole('region', { name: '解空间', exact: true });
   await expect(page.locator('.character')).toHaveCount(7);
   await expect(page.getByText('医院事故', { exact: false }).first()).toBeVisible();
   await expect(panel).toBeVisible();
   await page.getByRole('button', { name: '重新开始', exact: true }).click();
   await page.getByRole('button', { name: '开始游戏', exact: true }).click();
+  await expect(page.locator('.character')).toHaveCount(0);
+  await page.getByRole('button', { name: '继续', exact: true }).click();
   await expect(page.locator('.character')).toHaveCount(7);
   await expect(page.getByText('医院事故', { exact: false }).first()).toBeVisible();
   await expect(page.locator('.clock')).toContainText('BTX');
@@ -314,16 +295,18 @@ test('BTX solution space stays mounted across mastermind operations and seat swi
   await page.goto(process.env.REVIEW_FILE_UI ?? '/');
   await page.getByRole('button', { name: '新建 BTX 测试对局' }).click();
   await page.getByRole('button', { name: '开始游戏', exact: true }).click();
+  await expect(page.locator('.character')).toHaveCount(0);
+  await page.getByRole('button', { name: '继续', exact: true }).click();
   const knowledge = page.getByRole('region', { name: '解空间', exact: true });
   const actions = page.getByRole('region', { name: '对局操作', exact: true });
   const ready = () => expect(page.getByRole('status').first()).toHaveText('');
   await expect(knowledge).toBeVisible();
-  await actions.getByRole('button', { name: '继续', exact: true }).click();
+
   await ready();
   await actions.getByRole('button', { name: '切换到剧作家操作', exact: true }).click();
   await ready();
   await expect(knowledge).toBeVisible();
-  await expect(knowledge.getByText(/^候选取值 [1-9]\d*$/)).toBeVisible({ timeout: 10000 });
+  await expect(knowledge.getByRole('table')).toHaveCount(3, { timeout: 10000 });
   const previous = await knowledge.locator('[aria-live]').innerText();
   await actions.getByRole('button', { name: '提交剧作家行动牌', exact: true }).click();
   await ready();
@@ -331,16 +314,13 @@ test('BTX solution space stays mounted across mastermind operations and seat swi
   await expect(knowledge.locator('[aria-live]')).not.toContainText(
     previous.match(/观察版本\s+\d+/)![0],
   );
-  await expect(knowledge.getByText(/^候选取值 [1-9]\d*$/)).toBeVisible({ timeout: 10000 });
-  await knowledge.getByRole('checkbox').uncheck();
+  await expect(knowledge.getByRole('table')).toHaveCount(3, { timeout: 10000 });
   await actions.getByRole('button', { name: '切换到主人公 1操作', exact: true }).click();
   await ready();
   await expect(knowledge).toBeVisible();
-  await expect(knowledge.getByRole('checkbox')).not.toBeChecked();
-  await knowledge.getByRole('checkbox').check();
-  await expect(knowledge.getByText(/^候选取值 [1-9]\d*$/)).toBeVisible();
+  await expect(knowledge.getByRole('table')).toHaveCount(3);
   await page.getByRole('button', { name: '剧作家', exact: true }).click();
   await ready();
   await expect(knowledge).toBeVisible();
-  await expect(knowledge.getByText('主人公共享观察', { exact: false })).toBeVisible();
+  await expect(page.getByRole('region', { name: '解空间3', exact: true })).toBeVisible();
 });

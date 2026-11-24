@@ -6,7 +6,7 @@ test('private engine and solver diagnostics survive a reload of the test page', 
   await page.getByRole('button', { name: '新建 BTX 测试对局' }).click();
   await page.getByRole('button', { name: '开始游戏', exact: true }).click();
   await page.getByRole('button', { name: '继续', exact: true }).click();
-  await expect(page.getByText(/^候选取值 [1-9]/)).toBeVisible();
+  await expect(page.getByRole('region', { name: '解空间', exact: true }).getByRole('table')).toHaveCount(3);
   await expect(page.getByRole('button', { name: '导出完整诊断（含剧透）' })).toHaveCount(0);
   await page.reload();
   const pending = page.waitForEvent('download');
@@ -66,6 +66,10 @@ test('manual mastermind ability, target selection and protagonist goodwill abili
     await panel.getByRole('button', { name: '盖放行动牌', exact: true }).click();
   }
   await current();
+  const simultaneous = page.locator('.log article').filter({ has: page.getByText('同时发生', { exact: true }) }).first();
+  await expect(simultaneous.getByRole('listitem')).toHaveCount(2);
+  await expect(simultaneous).toContainText('男学生');
+  await expect(simultaneous).toContainText('女学生');
   await panel.getByRole('button', { name: '医生 · 主谋：放置密谋', exact: true }).click();
   await ready();
   await panel.getByRole('button', { name: '医院', exact: true }).click();
@@ -142,6 +146,8 @@ for (const profile of ['FS', 'BTX']) {
     const status = page.getByRole('status').first();
     const knowledge = page.getByRole('region', { name: '解空间', exact: true });
     const matrix = knowledge.getByRole('table', { name: '角色 × 初始身份', exact: true });
+    await expect(matrix).toHaveCount(0);
+    await panel.getByRole('button', { name: '继续', exact: true }).click();
     await expect(matrix.locator('tbody tr')).toHaveCount(profile === 'FS' ? 6 : 7);
     const openingStatus = await knowledge.locator('[aria-live]').innerText();
     await expect(panel).toBeVisible();
@@ -174,7 +180,7 @@ for (const profile of ['FS', 'BTX']) {
         }
         if (step < 5)
           await page.screenshot({
-            path: `products/review/manual-${profile.toLowerCase()}.png`,
+            path: test.info().outputPath(`manual-${profile.toLowerCase()}.png`),
             fullPage: true,
           });
         await masterCards.click();
@@ -199,11 +205,7 @@ for (const profile of ['FS', 'BTX']) {
     await page.getByRole('button', { name: '主人公 1', exact: true }).click();
     await expect(status).toHaveText('');
     const observationCount = await page.locator('.log article').count();
-    await expect(
-      knowledge.getByText(new RegExp(`证据截至第 ${observationCount} 条观察`)),
-    ).toBeVisible({
-      timeout: 15000,
-    });
+    await expect(knowledge).toHaveAttribute('data-evidence-through', String(observationCount), { timeout: 15000 });
     await expect(matrix.locator('tbody tr')).toHaveCount(profile === 'FS' ? 6 : 7);
     await expect(knowledge.locator('[aria-live]')).not.toHaveText(openingStatus);
     await expect(knowledge.locator('[aria-live]')).not.toContainText(
@@ -286,6 +288,8 @@ test('board perspective shows the true script and hides it again for each protag
   }
   await seats.getByRole('button', { name: '主人公 1', exact: true }).click();
   await page.getByRole('button', { name: '开始游戏', exact: true }).click();
+  await expect(page.locator('.character')).toHaveCount(0);
+  await page.getByRole('button', { name: '继续', exact: true }).click();
   await expect(page.locator('.character')).toHaveCount(5);
   await expect(page.locator('.board')).not.toContainText('转校生');
   await expect(page.locator('.board')).not.toContainText('神灵');

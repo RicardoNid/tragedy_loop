@@ -1,0 +1,2156 @@
+<!doctype html>
+<html lang="zh"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>求解器1引擎参照测试</title>
+<style>body{font:16px system-ui;max-width:1400px;margin:40px auto;padding:0 24px;color:#18252e}
+table{border-collapse:collapse;width:100%;font-size:14px}td,th{padding:10px;border-bottom:1px solid #ddd;text-align:left}
+td:last-child{max-width:400px;overflow-wrap:anywhere}.table{overflow-x:auto}p{line-height:1.7}</style>
+<h1>求解器1引擎参照测试</h1>
+<h2>两组测试汇总</h2><table><thead><tr><th>范围</th><th>通过样本</th><th>未决样本</th><th>无合法配置</th><th>差异</th><th>完整解集检查点</th><th>候选比较</th></tr></thead><tbody>
+      <tr><td>2–3 人，完整模组候选</td><td>655</td><td>30</td><td>27</td><td>0</td><td>33566</td><td>1863502</td></tr>
+      <tr><td><a href="compound/report.html">4 人，限定主副线</a></td><td>323</td><td>1</td><td>134</td><td>0</td><td>14899</td><td>1023366</td></tr>
+      </tbody></table><p>下方逐项列表展示 2–3 人测试，四人测试可通过表中链接查看。两组的候选范围分别列明。</p><p>整体测试时段为北京时间 2026/11/23 01:32:06 至 2026/11/23 09:32:06。</p>
+      <h2>回归与复核</h2><ul><li>求解器1实时回归，通过 218，失败 0，跳过 0。</li><li>结束前双求解器时间线复核，通过 50，失败 0，跳过 0。</li><li>独立参照程序自检，通过 5，失败 0，跳过 0。</li></ul>
+      <p>本次以规则引擎为可信参照。候选由独立枚举产生，合法行动由规则引擎执行，逐完整公告组比较联合候选。</p><p>2–3 人组使用完整模组候选。4 人组明确限定每例主副线范围。范围均为 FS、BTX、MC、MZ，1–2 天、1–2 轮，一个事件和普通常驻角色。</p><p>未决样本与无法构成合法剧本的抽样组合分别列项。候选比较次数包含同一候选在不同检查点和不同种子的重复判断。</p><p>早期校准中发现累计工作预算设得过低，修正后重新运行，校准数据不计入正式统计。一次 Windows 文件替换被短暂占用，增加重试后受影响样本补跑通过。</p><p>期间有求解器2相关文件的并行变化，源文件指纹已保存。结束前的50项交叉回归于北京时间08:53再次通过。规则引擎及求解器1运行源码未出现指纹变化。</p><p>已保留可复用测试程序、正式回归、种子摘要、覆盖统计、未决现场及源文件指纹。通过样本的重复现场和临时运行日志在汇总后清理。</p><p><a href="verification.json">验证记录</a></p>
+<p>北京时间 2026/11/23 01:39:34 开始，2026/11/23 09:32:06 截止。测试已结束。</p>
+<p>可信参照为规则引擎。独立笛卡尔积枚举剧本，依引擎制作校验筛选。每个候选从公开开局搜索与公告相容的合法路径，预算或时间截断记为未决。</p>
+<p>范围为 FS、BTX、MC、MZ，1–2 天、1–2 轮，一个事件，无周年追加。每例使用 2–3 名普通角色，枚举相应模组全部主副线组合、身份分配和事件犯人。其他角色、模组和规模属于未覆盖范围。</p>
+<p>每个完整公告组都是一个检查点，包含同一阶段中的多个检查点。核对联合候选与实时投影，并比较逐条追加和整段输入。通过要求每个已检查点的两种输入方式均返回完整联合解集，且与引擎参照一致。</p>
+<p>通过 655 个样本，发现差异 0 个，未决 30 个，执行异常 0 个。另有 27 个抽样角色或规则组合无法构成合法剧本，未进入求解测试。</p>
+<p>完整联合解集检查点 33,566 / 33,785，候选判断比较 1,863,502 次，引擎路径展开 13,387,926 次。种子之间可能重复部分开局和候选。</p>
+<div class="table"><table><thead><tr><th>种子及记录</th><th>模组</th><th>结果</th><th>候选</th><th>精确/检查点</th><th>候选比较</th><th>引擎/求解器单候选未决</th><th>证据或异常</th></tr></thead><tbody><tr><td><a href="case-202611230.json">202611230</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>105/105</td><td>630</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611231.json">202611231</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>52/52</td><td>624</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611232.json">202611232</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>31/31</td><td>124</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611233.json">202611233</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>16</td><td>30/30</td><td>480</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611234.json">202611234</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>32/32</td><td>192</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611235.json">202611235</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>30/30</td><td>180</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611236.json">202611236</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>29/29</td><td>2088</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611237.json">202611237</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>336</td><td>30/30</td><td>10080</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611238.json">202611238</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>32/32</td><td>192</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611239.json">202611239</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>30/30</td><td>180</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611240.json">202611240</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>54/54</td><td>216</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611241.json">202611241</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>16</td><td>52/52</td><td>832</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611242.json">202611242</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>55/55</td><td>330</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611243.json">202611243</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>51/51</td><td>612</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611244.json">202611244</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>55/55</td><td>3960</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611245.json">202611245</a></td><td>BTX</td>
+    <td>未决</td>
+    <td>336</td><td>47/50</td><td>16800</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611246.json">202611246</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>51/51</td><td>306</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611247.json">202611247</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>53/53</td><td>636</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611248.json">202611248</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>32/32</td><td>128</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611249.json">202611249</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>16</td><td>30/30</td><td>480</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611250.json">202611250</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>63/63</td><td>378</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611251.json">202611251</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>28/28</td><td>168</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611252.json">202611252</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>31/31</td><td>2232</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611253.json">202611253</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>336</td><td>30/30</td><td>10080</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611254.json">202611254</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>68/68</td><td>408</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611255.json">202611255</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>31/31</td><td>372</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611256.json">202611256</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>51/51</td><td>204</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611257.json">202611257</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>16</td><td>67/67</td><td>1072</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611258.json">202611258</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>108/108</td><td>648</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611259.json">202611259</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>102/102</td><td>1224</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611260.json">202611260</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>53/53</td><td>3816</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611261.json">202611261</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>384</td><td>54/54</td><td>20736</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611262.json">202611262</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>112/112</td><td>672</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611263.json">202611263</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>50/50</td><td>600</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611264.json">202611264</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>28/28</td><td>112</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611265.json">202611265</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>24</td><td>31/31</td><td>744</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611266.json">202611266</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>34/34</td><td>204</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611267.json">202611267</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>30/30</td><td>180</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611268.json">202611268</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>30/30</td><td>2160</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611269.json">202611269</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>384</td><td>29/29</td><td>11136</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611270.json">202611270</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>33/33</td><td>198</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611271.json">202611271</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>30/30</td><td>180</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611272.json">202611272</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>53/53</td><td>212</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611273.json">202611273</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>16</td><td>52/52</td><td>832</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611274.json">202611274</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>53/53</td><td>318</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611275.json">202611275</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>51/51</td><td>612</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611276.json">202611276</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>54/54</td><td>3888</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611277.json">202611277</a></td><td>BTX</td>
+    <td>未决</td>
+    <td>336</td><td>41/49</td><td>16464</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611278.json">202611278</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>56/56</td><td>336</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611279.json">202611279</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>52/52</td><td>312</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611280.json">202611280</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>32/32</td><td>128</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611281.json">202611281</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>24</td><td>30/30</td><td>720</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611282.json">202611282</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>60/60</td><td>360</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611283.json">202611283</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>60/60</td><td>360</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611284.json">202611284</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>30/30</td><td>2160</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611285.json">202611285</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>288</td><td>30/30</td><td>8640</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611286.json">202611286</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>63/63</td><td>378</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611287.json">202611287</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>30/30</td><td>180</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611288.json">202611288</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>51/51</td><td>204</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611289.json">202611289</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>24</td><td>51/51</td><td>1224</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611290.json">202611290</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>109/109</td><td>654</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611291.json">202611291</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>56/56</td><td>336</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611292.json">202611292</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>53/53</td><td>3816</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611293.json">202611293</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>288</td><td>56/56</td><td>16128</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611294.json">202611294</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>103/103</td><td>618</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611295.json">202611295</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>104/104</td><td>624</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611296.json">202611296</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>30/30</td><td>120</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611297.json">202611297</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>24</td><td>28/28</td><td>672</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611298.json">202611298</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>32/32</td><td>192</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611299.json">202611299</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>29/29</td><td>348</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611300.json">202611300</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>29/29</td><td>2088</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611301.json">202611301</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>288</td><td>30/30</td><td>8640</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611302.json">202611302</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>32/32</td><td>192</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611303.json">202611303</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>30/30</td><td>180</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611304.json">202611304</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>52/52</td><td>208</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611305.json">202611305</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>24</td><td>51/51</td><td>1224</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611306.json">202611306</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>56/56</td><td>336</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611307.json">202611307</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>53/53</td><td>636</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611308.json">202611308</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>54/54</td><td>3888</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611309.json">202611309</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>336</td><td>51/51</td><td>17136</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611310.json">202611310</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>69/69</td><td>414</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611311.json">202611311</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>49/49</td><td>294</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611312.json">202611312</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>31/31</td><td>124</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611313.json">202611313</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>24</td><td>30/30</td><td>720</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611314.json">202611314</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>61/61</td><td>366</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611315.json">202611315</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>29/29</td><td>174</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611316.json">202611316</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>31/31</td><td>2232</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611317.json">202611317</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>288</td><td>60/60</td><td>17280</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611318.json">202611318</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>63/63</td><td>378</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611319.json">202611319</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>30/30</td><td>360</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611320.json">202611320</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>57/57</td><td>228</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611321.json">202611321</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>16</td><td>51/51</td><td>816</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611322.json">202611322</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>107/107</td><td>642</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611323.json">202611323</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>51/51</td><td>612</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611324.json">202611324</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>103/103</td><td>7416</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611325.json">202611325</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>384</td><td>55/55</td><td>21120</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611326.json">202611326</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>106/106</td><td>636</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611327.json">202611327</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>65/65</td><td>390</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611328.json">202611328</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>30/30</td><td>120</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611329.json">202611329</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>16</td><td>30/30</td><td>480</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611330.json">202611330</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>34/34</td><td>204</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611331.json">202611331</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>32/32</td><td>192</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611332.json">202611332</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>32/32</td><td>2304</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611333.json">202611333</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>336</td><td>31/31</td><td>10416</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611334.json">202611334</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>32/32</td><td>192</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611335.json">202611335</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>30/30</td><td>360</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611336.json">202611336</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>57/57</td><td>228</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611337.json">202611337</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>16</td><td>53/53</td><td>848</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611338.json">202611338</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>59/59</td><td>354</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611339.json">202611339</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>52/52</td><td>624</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611340.json">202611340</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>53/53</td><td>3816</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611341.json">202611341</a></td><td>BTX</td>
+    <td>未决</td>
+    <td>336</td><td>47/50</td><td>16800</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611342.json">202611342</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>54/54</td><td>324</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611343.json">202611343</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>53/53</td><td>636</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611344.json">202611344</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>30/30</td><td>120</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611345.json">202611345</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>16</td><td>32/32</td><td>512</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611346.json">202611346</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>64/64</td><td>384</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611347.json">202611347</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>31/31</td><td>186</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611348.json">202611348</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>30/30</td><td>2160</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611349.json">202611349</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>336</td><td>30/30</td><td>10080</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611350.json">202611350</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>63/63</td><td>378</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611351.json">202611351</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>18</td><td>30/30</td><td>540</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611352.json">202611352</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>54/54</td><td>216</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611353.json">202611353</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>24</td><td>52/52</td><td>1248</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611354.json">202611354</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>108/108</td><td>648</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611355.json">202611355</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>51/51</td><td>612</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611356.json">202611356</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>53/53</td><td>3816</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611357.json">202611357</a></td><td>BTX</td>
+    <td>未决</td>
+    <td>384</td><td>35/52</td><td>19968</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611358.json">202611358</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>110/110</td><td>660</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611359.json">202611359</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>53/53</td><td>318</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611360.json">202611360</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>32/32</td><td>128</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611361.json">202611361</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>16</td><td>29/29</td><td>464</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611362.json">202611362</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>31/31</td><td>186</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611363.json">202611363</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>29/29</td><td>348</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611364.json">202611364</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>29/29</td><td>2088</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611365.json">202611365</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>336</td><td>29/29</td><td>9744</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611366.json">202611366</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>31/31</td><td>186</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611367.json">202611367</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>30/30</td><td>180</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611368.json">202611368</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>50/50</td><td>200</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611369.json">202611369</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>24</td><td>54/54</td><td>1296</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611370.json">202611370</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>53/53</td><td>318</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611371.json">202611371</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>52/52</td><td>312</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611372.json">202611372</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>56/56</td><td>4032</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611373.json">202611373</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>288</td><td>49/49</td><td>14112</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611374.json">202611374</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>53/53</td><td>318</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611375.json">202611375</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>52/52</td><td>312</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611376.json">202611376</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>32/32</td><td>128</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611377.json">202611377</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>24</td><td>30/30</td><td>720</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611378.json">202611378</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>62/62</td><td>372</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611379.json">202611379</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>31/31</td><td>186</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611380.json">202611380</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>31/31</td><td>2232</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611381.json">202611381</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>336</td><td>31/31</td><td>10416</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611382.json">202611382</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>62/62</td><td>372</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611383.json">202611383</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>28/28</td><td>168</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611384.json">202611384</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>118/118</td><td>472</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611385.json">202611385</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>16</td><td>59/59</td><td>944</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611386.json">202611386</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>108/108</td><td>648</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611387.json">202611387</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>103/103</td><td>1236</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611388.json">202611388</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>56/56</td><td>4032</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611389.json">202611389</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>288</td><td>105/105</td><td>30240</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611390.json">202611390</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>102/102</td><td>612</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611391.json">202611391</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>50/50</td><td>300</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611392.json">202611392</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>31/31</td><td>124</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611393.json">202611393</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>24</td><td>30/30</td><td>720</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611394.json">202611394</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>33/33</td><td>198</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611395.json">202611395</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>28/28</td><td>336</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611396.json">202611396</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>32/32</td><td>2304</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611397.json">202611397</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>336</td><td>31/31</td><td>10416</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611398.json">202611398</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>33/33</td><td>198</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611399.json">202611399</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>30/30</td><td>180</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611400.json">202611400</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>52/52</td><td>208</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611401.json">202611401</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>16</td><td>54/54</td><td>864</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611402.json">202611402</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>55/55</td><td>330</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611403.json">202611403</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>51/51</td><td>306</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611404.json">202611404</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>55/55</td><td>3960</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611405.json">202611405</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>288</td><td>52/52</td><td>14976</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611406.json">202611406</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>52/52</td><td>312</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611407.json">202611407</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>55/55</td><td>660</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611408.json">202611408</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>32/32</td><td>128</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611409.json">202611409</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>16</td><td>30/30</td><td>480</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611410.json">202611410</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>66/66</td><td>396</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611411.json">202611411</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>32/32</td><td>192</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611412.json">202611412</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>31/31</td><td>2232</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611413.json">202611413</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>336</td><td>29/29</td><td>9744</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611414.json">202611414</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>62/62</td><td>372</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611415.json">202611415</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>33/33</td><td>396</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611416.json">202611416</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>106/106</td><td>424</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611417.json">202611417</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>16</td><td>56/56</td><td>896</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611418.json">202611418</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>105/105</td><td>630</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611419.json">202611419</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>50/50</td><td>300</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611420.json">202611420</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>105/105</td><td>7560</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611421.json">202611421</a></td><td>BTX</td>
+    <td>未决</td>
+    <td>384</td><td>43/49</td><td>18816</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611422.json">202611422</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>101/101</td><td>606</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611423.json">202611423</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>52/52</td><td>312</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611424.json">202611424</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>34/34</td><td>136</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611425.json">202611425</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>16</td><td>31/31</td><td>496</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611426.json">202611426</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>31/31</td><td>186</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611427.json">202611427</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>29/29</td><td>348</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611428.json">202611428</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>30/30</td><td>2160</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611429.json">202611429</a></td><td>BTX</td>
+    <td>未决</td>
+    <td>336</td><td>29/30</td><td>10080</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611430.json">202611430</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>31/31</td><td>186</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611431.json">202611431</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>29/29</td><td>348</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611432.json">202611432</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>52/52</td><td>208</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611433.json">202611433</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>16</td><td>57/57</td><td>912</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611434.json">202611434</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>53/53</td><td>318</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611435.json">202611435</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>52/52</td><td>312</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611436.json">202611436</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>54/54</td><td>3888</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611437.json">202611437</a></td><td>BTX</td>
+    <td>未决</td>
+    <td>384</td><td>36/51</td><td>19584</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611438.json">202611438</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>52/52</td><td>312</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611439.json">202611439</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>51/51</td><td>306</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611440.json">202611440</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>29/29</td><td>116</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611441.json">202611441</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>24</td><td>30/30</td><td>720</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611442.json">202611442</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>74/74</td><td>444</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611443.json">202611443</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>31/31</td><td>372</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611444.json">202611444</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>33/33</td><td>2376</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611445.json">202611445</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>288</td><td>30/30</td><td>8640</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611446.json">202611446</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>62/62</td><td>372</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611447.json">202611447</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>29/29</td><td>348</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611448.json">202611448</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>108/108</td><td>432</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611449.json">202611449</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>16</td><td>52/52</td><td>832</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611450.json">202611450</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>110/110</td><td>660</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611451.json">202611451</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>51/51</td><td>612</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611452.json">202611452</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>54/54</td><td>3888</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611453.json">202611453</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>288</td><td>51/51</td><td>14688</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611454.json">202611454</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>107/107</td><td>642</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611455.json">202611455</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>56/56</td><td>336</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611456.json">202611456</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>31/31</td><td>124</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611457.json">202611457</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>24</td><td>31/31</td><td>744</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611458.json">202611458</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>32/32</td><td>192</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611459.json">202611459</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>29/29</td><td>174</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611460.json">202611460</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>31/31</td><td>2232</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611461.json">202611461</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>288</td><td>28/28</td><td>8064</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611462.json">202611462</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>32/32</td><td>192</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611463.json">202611463</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>31/31</td><td>186</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611464.json">202611464</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>54/54</td><td>216</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611465.json">202611465</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>32</td><td>51/51</td><td>1632</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611466.json">202611466</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>53/53</td><td>318</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611467.json">202611467</a></td><td>MZ</td>
+    <td>无合法剧本</td>
+    <td>0</td><td>0/0</td><td>0</td>
+    <td>0/0</td><td>本次公开角色组合没有合法剧本。</td></tr><tr><td><a href="case-202611468.json">202611468</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>55/55</td><td>3960</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611469.json">202611469</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>336</td><td>51/51</td><td>17136</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611470.json">202611470</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>53/53</td><td>318</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611471.json">202611471</a></td><td>MZ</td>
+    <td>无合法剧本</td>
+    <td>0</td><td>0/0</td><td>0</td>
+    <td>0/0</td><td>本次公开角色组合没有合法剧本。</td></tr><tr><td><a href="case-202611472.json">202611472</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>29/29</td><td>116</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611473.json">202611473</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>24</td><td>29/29</td><td>696</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611474.json">202611474</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>63/63</td><td>378</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611475.json">202611475</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>31/31</td><td>372</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611476.json">202611476</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>30/30</td><td>2160</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611477.json">202611477</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>432</td><td>29/29</td><td>12528</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611478.json">202611478</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>65/65</td><td>390</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611479.json">202611479</a></td><td>MZ</td>
+    <td>无合法剧本</td>
+    <td>0</td><td>0/0</td><td>0</td>
+    <td>0/0</td><td>本次公开角色组合没有合法剧本。</td></tr><tr><td><a href="case-202611480.json">202611480</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>108/108</td><td>432</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611481.json">202611481</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>32</td><td>102/102</td><td>3264</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611482.json">202611482</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>107/107</td><td>642</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611483.json">202611483</a></td><td>MZ</td>
+    <td>无合法剧本</td>
+    <td>0</td><td>0/0</td><td>0</td>
+    <td>0/0</td><td>本次公开角色组合没有合法剧本。</td></tr><tr><td><a href="case-202611484.json">202611484</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>55/55</td><td>3960</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611485.json">202611485</a></td><td>BTX</td>
+    <td>未决</td>
+    <td>336</td><td>47/50</td><td>16800</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611486.json">202611486</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>107/107</td><td>642</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611487.json">202611487</a></td><td>MZ</td>
+    <td>无合法剧本</td>
+    <td>0</td><td>0/0</td><td>0</td>
+    <td>0/0</td><td>本次公开角色组合没有合法剧本。</td></tr><tr><td><a href="case-202611488.json">202611488</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>30/30</td><td>120</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611489.json">202611489</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>24</td><td>31/31</td><td>744</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611490.json">202611490</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>31/31</td><td>186</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611491.json">202611491</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>29/29</td><td>174</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611492.json">202611492</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>30/30</td><td>2160</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611493.json">202611493</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>336</td><td>28/28</td><td>9408</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611494.json">202611494</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>31/31</td><td>186</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611495.json">202611495</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>30/30</td><td>180</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611496.json">202611496</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>55/55</td><td>220</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611497.json">202611497</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>24</td><td>52/52</td><td>1248</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611498.json">202611498</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>51/51</td><td>306</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611499.json">202611499</a></td><td>MZ</td>
+    <td>无合法剧本</td>
+    <td>0</td><td>0/0</td><td>0</td>
+    <td>0/0</td><td>本次公开角色组合没有合法剧本。</td></tr><tr><td><a href="case-202611500.json">202611500</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>53/53</td><td>3816</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611501.json">202611501</a></td><td>BTX</td>
+    <td>未决</td>
+    <td>384</td><td>40/53</td><td>20352</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611502.json">202611502</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>55/55</td><td>330</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611503.json">202611503</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>52/52</td><td>312</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611504.json">202611504</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>30/30</td><td>120</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611505.json">202611505</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>24</td><td>58/58</td><td>1392</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611506.json">202611506</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>62/62</td><td>372</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611507.json">202611507</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>29/29</td><td>174</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611508.json">202611508</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>60/60</td><td>4320</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611509.json">202611509</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>384</td><td>29/29</td><td>11136</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611510.json">202611510</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>61/61</td><td>366</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611511.json">202611511</a></td><td>MZ</td>
+    <td>无合法剧本</td>
+    <td>0</td><td>0/0</td><td>0</td>
+    <td>0/0</td><td>本次公开角色组合没有合法剧本。</td></tr><tr><td><a href="case-202611512.json">202611512</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>51/51</td><td>204</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611513.json">202611513</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>24</td><td>53/53</td><td>1272</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611514.json">202611514</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>107/107</td><td>642</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611515.json">202611515</a></td><td>MZ</td>
+    <td>无合法剧本</td>
+    <td>0</td><td>0/0</td><td>0</td>
+    <td>0/0</td><td>本次公开角色组合没有合法剧本。</td></tr><tr><td><a href="case-202611516.json">202611516</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>52/52</td><td>3744</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611517.json">202611517</a></td><td>BTX</td>
+    <td>未决</td>
+    <td>384</td><td>39/49</td><td>18816</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611518.json">202611518</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>106/106</td><td>636</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611519.json">202611519</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>51/51</td><td>612</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611520.json">202611520</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>33/33</td><td>132</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611521.json">202611521</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>32</td><td>30/30</td><td>960</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611522.json">202611522</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>33/33</td><td>198</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611523.json">202611523</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>31/31</td><td>186</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611524.json">202611524</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>30/30</td><td>2160</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611525.json">202611525</a></td><td>BTX</td>
+    <td>未决</td>
+    <td>432</td><td>28/29</td><td>12528</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611526.json">202611526</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>34/34</td><td>204</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611527.json">202611527</a></td><td>MZ</td>
+    <td>无合法剧本</td>
+    <td>0</td><td>0/0</td><td>0</td>
+    <td>0/0</td><td>本次公开角色组合没有合法剧本。</td></tr><tr><td><a href="case-202611528.json">202611528</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>55/55</td><td>220</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611529.json">202611529</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>24</td><td>52/52</td><td>1248</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611530.json">202611530</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>53/53</td><td>318</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611531.json">202611531</a></td><td>MZ</td>
+    <td>无合法剧本</td>
+    <td>0</td><td>0/0</td><td>0</td>
+    <td>0/0</td><td>本次公开角色组合没有合法剧本。</td></tr><tr><td><a href="case-202611532.json">202611532</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>51/51</td><td>3672</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611533.json">202611533</a></td><td>BTX</td>
+    <td>未决</td>
+    <td>336</td><td>48/51</td><td>17136</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611534.json">202611534</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>53/53</td><td>318</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611535.json">202611535</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>51/51</td><td>306</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611536.json">202611536</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>34/34</td><td>136</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611537.json">202611537</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>32</td><td>29/29</td><td>928</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611538.json">202611538</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>63/63</td><td>378</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611539.json">202611539</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>29/29</td><td>174</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611540.json">202611540</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>62/62</td><td>4464</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611541.json">202611541</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>384</td><td>30/30</td><td>11520</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611542.json">202611542</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>64/64</td><td>384</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611543.json">202611543</a></td><td>MZ</td>
+    <td>无合法剧本</td>
+    <td>0</td><td>0/0</td><td>0</td>
+    <td>0/0</td><td>本次公开角色组合没有合法剧本。</td></tr><tr><td><a href="case-202611544.json">202611544</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>105/105</td><td>420</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611545.json">202611545</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>32</td><td>50/50</td><td>1600</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611546.json">202611546</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>108/108</td><td>648</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611547.json">202611547</a></td><td>MZ</td>
+    <td>无合法剧本</td>
+    <td>0</td><td>0/0</td><td>0</td>
+    <td>0/0</td><td>本次公开角色组合没有合法剧本。</td></tr><tr><td><a href="case-202611548.json">202611548</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>53/53</td><td>3816</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611549.json">202611549</a></td><td>BTX</td>
+    <td>未决</td>
+    <td>336</td><td>46/50</td><td>16800</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611550.json">202611550</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>106/106</td><td>636</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611551.json">202611551</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>52/52</td><td>624</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611552.json">202611552</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>30/30</td><td>120</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611553.json">202611553</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>32</td><td>31/31</td><td>992</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611554.json">202611554</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>32/32</td><td>192</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611555.json">202611555</a></td><td>MZ</td>
+    <td>无合法剧本</td>
+    <td>0</td><td>0/0</td><td>0</td>
+    <td>0/0</td><td>本次公开角色组合没有合法剧本。</td></tr><tr><td><a href="case-202611556.json">202611556</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>30/30</td><td>2160</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611557.json">202611557</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>336</td><td>30/30</td><td>10080</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611558.json">202611558</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>31/31</td><td>186</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611559.json">202611559</a></td><td>MZ</td>
+    <td>无合法剧本</td>
+    <td>0</td><td>0/0</td><td>0</td>
+    <td>0/0</td><td>本次公开角色组合没有合法剧本。</td></tr><tr><td><a href="case-202611560.json">202611560</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>53/53</td><td>212</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611561.json">202611561</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>24</td><td>52/52</td><td>1248</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611562.json">202611562</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>54/54</td><td>324</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611563.json">202611563</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>52/52</td><td>312</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611564.json">202611564</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>51/51</td><td>3672</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611565.json">202611565</a></td><td>BTX</td>
+    <td>未决</td>
+    <td>432</td><td>42/53</td><td>22896</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611566.json">202611566</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>52/52</td><td>312</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611567.json">202611567</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>50/50</td><td>300</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611568.json">202611568</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>31/31</td><td>124</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611569.json">202611569</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>32</td><td>30/30</td><td>960</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611570.json">202611570</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>62/62</td><td>372</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611571.json">202611571</a></td><td>MZ</td>
+    <td>无合法剧本</td>
+    <td>0</td><td>0/0</td><td>0</td>
+    <td>0/0</td><td>本次公开角色组合没有合法剧本。</td></tr><tr><td><a href="case-202611572.json">202611572</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>30/30</td><td>2160</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611573.json">202611573</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>336</td><td>30/30</td><td>10080</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611574.json">202611574</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>64/64</td><td>384</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611575.json">202611575</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>30/30</td><td>180</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611576.json">202611576</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>55/55</td><td>220</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611577.json">202611577</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>24</td><td>49/49</td><td>1176</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611578.json">202611578</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>105/105</td><td>630</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611579.json">202611579</a></td><td>MZ</td>
+    <td>无合法剧本</td>
+    <td>0</td><td>0/0</td><td>0</td>
+    <td>0/0</td><td>本次公开角色组合没有合法剧本。</td></tr><tr><td><a href="case-202611580.json">202611580</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>51/51</td><td>3672</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611581.json">202611581</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>384</td><td>108/108</td><td>41472</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611582.json">202611582</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>106/106</td><td>636</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611583.json">202611583</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>50/50</td><td>600</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611584.json">202611584</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>32/32</td><td>128</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611585.json">202611585</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>24</td><td>30/30</td><td>720</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611586.json">202611586</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>33/33</td><td>198</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611587.json">202611587</a></td><td>MZ</td>
+    <td>无合法剧本</td>
+    <td>0</td><td>0/0</td><td>0</td>
+    <td>0/0</td><td>本次公开角色组合没有合法剧本。</td></tr><tr><td><a href="case-202611588.json">202611588</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>31/31</td><td>2232</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611589.json">202611589</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>384</td><td>30/30</td><td>11520</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611590.json">202611590</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>33/33</td><td>198</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611591.json">202611591</a></td><td>MZ</td>
+    <td>无合法剧本</td>
+    <td>0</td><td>0/0</td><td>0</td>
+    <td>0/0</td><td>本次公开角色组合没有合法剧本。</td></tr><tr><td><a href="case-202611592.json">202611592</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>51/51</td><td>204</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611593.json">202611593</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>24</td><td>52/52</td><td>1248</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611594.json">202611594</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>54/54</td><td>324</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611595.json">202611595</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>55/55</td><td>660</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611596.json">202611596</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>54/54</td><td>3888</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611597.json">202611597</a></td><td>BTX</td>
+    <td>未决</td>
+    <td>384</td><td>35/50</td><td>19200</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611598.json">202611598</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>54/54</td><td>324</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611599.json">202611599</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>53/53</td><td>318</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611600.json">202611600</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>31/31</td><td>124</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611601.json">202611601</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>24</td><td>32/32</td><td>768</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611602.json">202611602</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>72/72</td><td>432</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611603.json">202611603</a></td><td>MZ</td>
+    <td>无合法剧本</td>
+    <td>0</td><td>0/0</td><td>0</td>
+    <td>0/0</td><td>本次公开角色组合没有合法剧本。</td></tr><tr><td><a href="case-202611604.json">202611604</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>30/30</td><td>2160</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611605.json">202611605</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>336</td><td>64/64</td><td>21504</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611606.json">202611606</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>64/64</td><td>384</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611607.json">202611607</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>30/30</td><td>180</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611608.json">202611608</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>57/57</td><td>228</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611609.json">202611609</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>32</td><td>52/52</td><td>1664</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611610.json">202611610</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>106/106</td><td>636</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611611.json">202611611</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>51/51</td><td>306</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611612.json">202611612</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>54/54</td><td>3888</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611613.json">202611613</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>384</td><td>53/53</td><td>20352</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611614.json">202611614</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>113/113</td><td>678</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611615.json">202611615</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>106/106</td><td>636</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611616.json">202611616</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>29/29</td><td>116</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611617.json">202611617</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>24</td><td>29/29</td><td>696</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611618.json">202611618</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>32/32</td><td>192</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611619.json">202611619</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>31/31</td><td>186</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611620.json">202611620</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>30/30</td><td>2160</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611621.json">202611621</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>336</td><td>30/30</td><td>10080</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611622.json">202611622</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>31/31</td><td>186</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611623.json">202611623</a></td><td>MZ</td>
+    <td>无合法剧本</td>
+    <td>0</td><td>0/0</td><td>0</td>
+    <td>0/0</td><td>本次公开角色组合没有合法剧本。</td></tr><tr><td><a href="case-202611624.json">202611624</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>53/53</td><td>212</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611625.json">202611625</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>32</td><td>54/54</td><td>1728</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611626.json">202611626</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>54/54</td><td>324</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611627.json">202611627</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>52/52</td><td>624</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611628.json">202611628</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>54/54</td><td>3888</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611629.json">202611629</a></td><td>BTX</td>
+    <td>未决</td>
+    <td>384</td><td>35/50</td><td>19200</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611630.json">202611630</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>56/56</td><td>336</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611631.json">202611631</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>51/51</td><td>306</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611632.json">202611632</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>31/31</td><td>124</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611633.json">202611633</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>32</td><td>30/30</td><td>960</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611634.json">202611634</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>62/62</td><td>372</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611635.json">202611635</a></td><td>MZ</td>
+    <td>无合法剧本</td>
+    <td>0</td><td>0/0</td><td>0</td>
+    <td>0/0</td><td>本次公开角色组合没有合法剧本。</td></tr><tr><td><a href="case-202611636.json">202611636</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>30/30</td><td>2160</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611637.json">202611637</a></td><td>BTX</td>
+    <td>未决</td>
+    <td>336</td><td>28/29</td><td>9744</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611638.json">202611638</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>63/63</td><td>378</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611639.json">202611639</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>31/31</td><td>186</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611640.json">202611640</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>56/56</td><td>224</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611641.json">202611641</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>24</td><td>51/51</td><td>1224</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611642.json">202611642</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>108/108</td><td>648</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611643.json">202611643</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>105/105</td><td>630</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611644.json">202611644</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>52/52</td><td>3744</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611645.json">202611645</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>336</td><td>54/54</td><td>18144</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611646.json">202611646</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>110/110</td><td>660</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611647.json">202611647</a></td><td>MZ</td>
+    <td>无合法剧本</td>
+    <td>0</td><td>0/0</td><td>0</td>
+    <td>0/0</td><td>本次公开角色组合没有合法剧本。</td></tr><tr><td><a href="case-202611648.json">202611648</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>30/30</td><td>120</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611649.json">202611649</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>24</td><td>30/30</td><td>720</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611650.json">202611650</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>33/33</td><td>198</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611651.json">202611651</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>29/29</td><td>174</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611652.json">202611652</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>30/30</td><td>2160</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611653.json">202611653</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>384</td><td>29/29</td><td>11136</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611654.json">202611654</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>33/33</td><td>198</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611655.json">202611655</a></td><td>MZ</td>
+    <td>无合法剧本</td>
+    <td>0</td><td>0/0</td><td>0</td>
+    <td>0/0</td><td>本次公开角色组合没有合法剧本。</td></tr><tr><td><a href="case-202611656.json">202611656</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>52/52</td><td>208</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611657.json">202611657</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>24</td><td>49/49</td><td>1176</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611658.json">202611658</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>52/52</td><td>312</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611659.json">202611659</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>52/52</td><td>312</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611660.json">202611660</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>55/55</td><td>3960</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611661.json">202611661</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>336</td><td>51/51</td><td>17136</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611662.json">202611662</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>53/53</td><td>318</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611663.json">202611663</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>49/49</td><td>294</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611664.json">202611664</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>32/32</td><td>128</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611665.json">202611665</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>24</td><td>31/31</td><td>744</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611666.json">202611666</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>65/65</td><td>390</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611667.json">202611667</a></td><td>MZ</td>
+    <td>无合法剧本</td>
+    <td>0</td><td>0/0</td><td>0</td>
+    <td>0/0</td><td>本次公开角色组合没有合法剧本。</td></tr><tr><td><a href="case-202611668.json">202611668</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>29/29</td><td>2088</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611669.json">202611669</a></td><td>BTX</td>
+    <td>未决</td>
+    <td>384</td><td>28/29</td><td>11136</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611670.json">202611670</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>64/64</td><td>384</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611671.json">202611671</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>30/30</td><td>180</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611672.json">202611672</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>53/53</td><td>212</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611673.json">202611673</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>24</td><td>53/53</td><td>1272</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611674.json">202611674</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>105/105</td><td>630</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611675.json">202611675</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>106/106</td><td>636</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611676.json">202611676</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>54/54</td><td>3888</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611677.json">202611677</a></td><td>BTX</td>
+    <td>未决</td>
+    <td>384</td><td>35/50</td><td>19200</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611678.json">202611678</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>105/105</td><td>630</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611679.json">202611679</a></td><td>MZ</td>
+    <td>无合法剧本</td>
+    <td>0</td><td>0/0</td><td>0</td>
+    <td>0/0</td><td>本次公开角色组合没有合法剧本。</td></tr><tr><td><a href="case-202611680.json">202611680</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>33/33</td><td>132</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611681.json">202611681</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>24</td><td>29/29</td><td>696</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611682.json">202611682</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>31/31</td><td>186</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611683.json">202611683</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>30/30</td><td>180</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611684.json">202611684</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>29/29</td><td>2088</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611685.json">202611685</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>384</td><td>29/29</td><td>11136</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611686.json">202611686</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>31/31</td><td>186</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611687.json">202611687</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>30/30</td><td>180</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611688.json">202611688</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>55/55</td><td>220</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611689.json">202611689</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>24</td><td>54/54</td><td>1296</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611690.json">202611690</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>54/54</td><td>324</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611691.json">202611691</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>51/51</td><td>306</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611692.json">202611692</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>52/52</td><td>3744</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611693.json">202611693</a></td><td>BTX</td>
+    <td>未决</td>
+    <td>384</td><td>35/50</td><td>19200</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611694.json">202611694</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>59/59</td><td>354</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611695.json">202611695</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>51/51</td><td>306</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611696.json">202611696</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>29/29</td><td>116</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611697.json">202611697</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>32</td><td>29/29</td><td>928</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611698.json">202611698</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>64/64</td><td>384</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611699.json">202611699</a></td><td>MZ</td>
+    <td>无合法剧本</td>
+    <td>0</td><td>0/0</td><td>0</td>
+    <td>0/0</td><td>本次公开角色组合没有合法剧本。</td></tr><tr><td><a href="case-202611700.json">202611700</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>29/29</td><td>2088</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611701.json">202611701</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>336</td><td>58/58</td><td>19488</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611702.json">202611702</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>62/62</td><td>372</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611703.json">202611703</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>30/30</td><td>180</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611704.json">202611704</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>54/54</td><td>216</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611705.json">202611705</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>24</td><td>52/52</td><td>1248</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611706.json">202611706</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>105/105</td><td>630</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611707.json">202611707</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>51/51</td><td>306</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611708.json">202611708</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>112/112</td><td>8064</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611709.json">202611709</a></td><td>BTX</td>
+    <td>未决</td>
+    <td>384</td><td>36/51</td><td>19584</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611710.json">202611710</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>109/109</td><td>654</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611711.json">202611711</a></td><td>MZ</td>
+    <td>无合法剧本</td>
+    <td>0</td><td>0/0</td><td>0</td>
+    <td>0/0</td><td>本次公开角色组合没有合法剧本。</td></tr><tr><td><a href="case-202611712.json">202611712</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>32/32</td><td>128</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611713.json">202611713</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>32</td><td>29/29</td><td>928</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611714.json">202611714</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>31/31</td><td>186</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611715.json">202611715</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>29/29</td><td>174</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611716.json">202611716</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>31/31</td><td>2232</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611717.json">202611717</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>384</td><td>30/30</td><td>11520</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611718.json">202611718</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>33/33</td><td>198</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611719.json">202611719</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>30/30</td><td>180</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611720.json">202611720</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>50/50</td><td>200</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611721.json">202611721</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>24</td><td>50/50</td><td>1200</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611722.json">202611722</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>55/55</td><td>330</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611723.json">202611723</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>51/51</td><td>612</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611724.json">202611724</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>53/53</td><td>3816</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611725.json">202611725</a></td><td>BTX</td>
+    <td>未决</td>
+    <td>336</td><td>50/51</td><td>17136</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611726.json">202611726</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>54/54</td><td>324</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611727.json">202611727</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>52/52</td><td>624</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611728.json">202611728</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>31/31</td><td>124</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611729.json">202611729</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>24</td><td>30/30</td><td>720</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611730.json">202611730</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>66/66</td><td>396</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611731.json">202611731</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>31/31</td><td>186</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611732.json">202611732</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>33/33</td><td>2376</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611733.json">202611733</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>384</td><td>32/32</td><td>12288</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611734.json">202611734</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>62/62</td><td>372</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611735.json">202611735</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>30/30</td><td>360</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611736.json">202611736</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>110/110</td><td>440</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611737.json">202611737</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>16</td><td>54/54</td><td>864</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611738.json">202611738</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>112/112</td><td>672</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611739.json">202611739</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>51/51</td><td>612</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611740.json">202611740</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>52/52</td><td>3744</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611741.json">202611741</a></td><td>BTX</td>
+    <td>未决</td>
+    <td>384</td><td>36/52</td><td>19968</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611742.json">202611742</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>107/107</td><td>642</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611743.json">202611743</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>50/50</td><td>300</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611744.json">202611744</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>32/32</td><td>128</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611745.json">202611745</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>16</td><td>31/31</td><td>496</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611746.json">202611746</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>30/30</td><td>180</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611747.json">202611747</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>30/30</td><td>180</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611748.json">202611748</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>31/31</td><td>2232</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611749.json">202611749</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>288</td><td>28/28</td><td>8064</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611750.json">202611750</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>32/32</td><td>192</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611751.json">202611751</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>29/29</td><td>348</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611752.json">202611752</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>55/55</td><td>220</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611753.json">202611753</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>16</td><td>52/52</td><td>832</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611754.json">202611754</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>54/54</td><td>324</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611755.json">202611755</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>52/52</td><td>312</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611756.json">202611756</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>51/51</td><td>3672</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611757.json">202611757</a></td><td>BTX</td>
+    <td>未决</td>
+    <td>384</td><td>46/54</td><td>20736</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611758.json">202611758</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>53/53</td><td>318</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611759.json">202611759</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>53/53</td><td>636</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611760.json">202611760</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>30/30</td><td>120</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611761.json">202611761</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>16</td><td>29/29</td><td>464</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611762.json">202611762</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>63/63</td><td>378</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611763.json">202611763</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>31/31</td><td>186</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611764.json">202611764</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>29/29</td><td>2088</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611765.json">202611765</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>384</td><td>30/30</td><td>11520</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611766.json">202611766</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>63/63</td><td>378</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611767.json">202611767</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>28/28</td><td>336</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611768.json">202611768</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>55/55</td><td>220</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611769.json">202611769</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>16</td><td>54/54</td><td>864</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611770.json">202611770</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>107/107</td><td>642</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611771.json">202611771</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>50/50</td><td>600</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611772.json">202611772</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>51/51</td><td>3672</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611773.json">202611773</a></td><td>BTX</td>
+    <td>未决</td>
+    <td>336</td><td>55/57</td><td>19152</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611774.json">202611774</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>103/103</td><td>618</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611775.json">202611775</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>52/52</td><td>312</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611776.json">202611776</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>33/33</td><td>132</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611777.json">202611777</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>24</td><td>29/29</td><td>696</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611778.json">202611778</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>33/33</td><td>198</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611779.json">202611779</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>29/29</td><td>174</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611780.json">202611780</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>30/30</td><td>2160</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611781.json">202611781</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>336</td><td>31/31</td><td>10416</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611782.json">202611782</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>33/33</td><td>198</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611783.json">202611783</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>30/30</td><td>360</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611784.json">202611784</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>54/54</td><td>216</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611785.json">202611785</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>24</td><td>54/54</td><td>1296</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611786.json">202611786</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>54/54</td><td>324</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611787.json">202611787</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>51/51</td><td>306</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611788.json">202611788</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>51/51</td><td>3672</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611789.json">202611789</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>288</td><td>54/54</td><td>15552</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611790.json">202611790</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>55/55</td><td>330</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611791.json">202611791</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>52/52</td><td>312</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611792.json">202611792</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>29/29</td><td>116</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611793.json">202611793</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>16</td><td>30/30</td><td>480</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611794.json">202611794</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>66/66</td><td>396</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611795.json">202611795</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>31/31</td><td>372</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611796.json">202611796</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>31/31</td><td>2232</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611797.json">202611797</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>288</td><td>30/30</td><td>8640</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611798.json">202611798</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>63/63</td><td>378</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611799.json">202611799</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>29/29</td><td>348</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611800.json">202611800</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>105/105</td><td>420</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611801.json">202611801</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>24</td><td>50/50</td><td>1200</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611802.json">202611802</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>107/107</td><td>642</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611803.json">202611803</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>52/52</td><td>624</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611804.json">202611804</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>54/54</td><td>3888</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611805.json">202611805</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>288</td><td>52/52</td><td>14976</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611806.json">202611806</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>104/104</td><td>624</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611807.json">202611807</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>50/50</td><td>300</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611808.json">202611808</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>31/31</td><td>124</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611809.json">202611809</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>16</td><td>30/30</td><td>480</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611810.json">202611810</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>35/35</td><td>210</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611811.json">202611811</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>31/31</td><td>186</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611812.json">202611812</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>31/31</td><td>2232</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611813.json">202611813</a></td><td>BTX</td>
+    <td>未决</td>
+    <td>336</td><td>28/29</td><td>9744</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611814.json">202611814</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>31/31</td><td>186</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611815.json">202611815</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>31/31</td><td>372</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611816.json">202611816</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>54/54</td><td>216</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611817.json">202611817</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>24</td><td>54/54</td><td>1296</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611818.json">202611818</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>53/53</td><td>318</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611819.json">202611819</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>53/53</td><td>318</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611820.json">202611820</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>50/50</td><td>3600</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611821.json">202611821</a></td><td>BTX</td>
+    <td>未决</td>
+    <td>336</td><td>42/50</td><td>16800</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611822.json">202611822</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>54/54</td><td>324</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611823.json">202611823</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>55/55</td><td>330</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611824.json">202611824</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>29/29</td><td>116</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611825.json">202611825</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>16</td><td>29/29</td><td>464</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611826.json">202611826</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>64/64</td><td>384</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611827.json">202611827</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>18</td><td>30/30</td><td>540</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611828.json">202611828</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>29/29</td><td>2088</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611829.json">202611829</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>384</td><td>29/29</td><td>11136</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611830.json">202611830</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>62/62</td><td>372</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611831.json">202611831</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>28/28</td><td>168</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611832.json">202611832</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>54/54</td><td>216</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611833.json">202611833</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>16</td><td>51/51</td><td>816</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611834.json">202611834</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>108/108</td><td>648</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611835.json">202611835</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>50/50</td><td>300</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611836.json">202611836</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>54/54</td><td>3888</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611837.json">202611837</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>288</td><td>107/107</td><td>30816</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611838.json">202611838</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>105/105</td><td>630</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611839.json">202611839</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>53/53</td><td>318</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611840.json">202611840</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>32/32</td><td>128</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611841.json">202611841</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>16</td><td>30/30</td><td>480</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611842.json">202611842</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>31/31</td><td>186</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611843.json">202611843</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>30/30</td><td>360</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611844.json">202611844</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>29/29</td><td>2088</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611845.json">202611845</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>336</td><td>30/30</td><td>10080</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611846.json">202611846</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>31/31</td><td>186</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611847.json">202611847</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>31/31</td><td>372</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611848.json">202611848</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>55/55</td><td>220</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611849.json">202611849</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>16</td><td>53/53</td><td>848</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611850.json">202611850</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>53/53</td><td>318</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611851.json">202611851</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>49/49</td><td>294</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611852.json">202611852</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>56/56</td><td>4032</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611853.json">202611853</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>288</td><td>54/54</td><td>15552</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611854.json">202611854</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>54/54</td><td>324</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611855.json">202611855</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>51/51</td><td>306</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611856.json">202611856</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>33/33</td><td>132</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611857.json">202611857</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>16</td><td>57/57</td><td>912</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611858.json">202611858</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>64/64</td><td>384</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611859.json">202611859</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>18</td><td>29/29</td><td>522</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611860.json">202611860</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>30/30</td><td>2160</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611861.json">202611861</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>384</td><td>29/29</td><td>11136</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611862.json">202611862</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>66/66</td><td>396</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611863.json">202611863</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>29/29</td><td>174</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611864.json">202611864</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>53/53</td><td>212</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611865.json">202611865</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>24</td><td>50/50</td><td>1200</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611866.json">202611866</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>103/103</td><td>618</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611867.json">202611867</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>56/56</td><td>336</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611868.json">202611868</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>54/54</td><td>3888</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611869.json">202611869</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>336</td><td>104/104</td><td>34944</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611870.json">202611870</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>109/109</td><td>654</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611871.json">202611871</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>52/52</td><td>624</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611872.json">202611872</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>30/30</td><td>120</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611873.json">202611873</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>24</td><td>30/30</td><td>720</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611874.json">202611874</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>33/33</td><td>198</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611875.json">202611875</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>30/30</td><td>360</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611876.json">202611876</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>32/32</td><td>2304</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611877.json">202611877</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>336</td><td>30/30</td><td>10080</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611878.json">202611878</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>31/31</td><td>186</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611879.json">202611879</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>29/29</td><td>174</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611880.json">202611880</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>53/53</td><td>212</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611881.json">202611881</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>16</td><td>51/51</td><td>816</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611882.json">202611882</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>52/52</td><td>312</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611883.json">202611883</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>50/50</td><td>300</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611884.json">202611884</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>54/54</td><td>3888</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611885.json">202611885</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>288</td><td>56/56</td><td>16128</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611886.json">202611886</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>51/51</td><td>306</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611887.json">202611887</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>51/51</td><td>306</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611888.json">202611888</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>30/30</td><td>120</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611889.json">202611889</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>24</td><td>31/31</td><td>744</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611890.json">202611890</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>63/63</td><td>378</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611891.json">202611891</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>29/29</td><td>348</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611892.json">202611892</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>32/32</td><td>2304</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611893.json">202611893</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>336</td><td>59/59</td><td>19824</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611894.json">202611894</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>65/65</td><td>390</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611895.json">202611895</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>30/30</td><td>180</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611896.json">202611896</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>52/52</td><td>208</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611897.json">202611897</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>16</td><td>49/49</td><td>784</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611898.json">202611898</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>105/105</td><td>630</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611899.json">202611899</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>53/53</td><td>318</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611900.json">202611900</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>53/53</td><td>3816</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611901.json">202611901</a></td><td>BTX</td>
+    <td>未决</td>
+    <td>336</td><td>50/51</td><td>17136</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611902.json">202611902</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>106/106</td><td>636</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611903.json">202611903</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>51/51</td><td>612</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611904.json">202611904</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>30/30</td><td>120</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611905.json">202611905</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>24</td><td>31/31</td><td>744</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611906.json">202611906</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>31/31</td><td>186</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611907.json">202611907</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>30/30</td><td>180</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611908.json">202611908</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>31/31</td><td>2232</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611909.json">202611909</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>384</td><td>30/30</td><td>11520</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611910.json">202611910</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>32/32</td><td>192</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611911.json">202611911</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>30/30</td><td>180</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611912.json">202611912</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>53/53</td><td>212</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611913.json">202611913</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>16</td><td>53/53</td><td>848</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611914.json">202611914</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>53/53</td><td>318</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611915.json">202611915</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>53/53</td><td>636</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611916.json">202611916</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>53/53</td><td>3816</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611917.json">202611917</a></td><td>BTX</td>
+    <td>未决</td>
+    <td>384</td><td>46/53</td><td>20352</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611918.json">202611918</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>54/54</td><td>324</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611919.json">202611919</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>61/61</td><td>732</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611920.json">202611920</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>30/30</td><td>120</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611921.json">202611921</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>16</td><td>31/31</td><td>496</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611922.json">202611922</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>63/63</td><td>378</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611923.json">202611923</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>29/29</td><td>174</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611924.json">202611924</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>31/31</td><td>2232</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611925.json">202611925</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>336</td><td>32/32</td><td>10752</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611926.json">202611926</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>65/65</td><td>390</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611927.json">202611927</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>32/32</td><td>192</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611928.json">202611928</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>55/55</td><td>220</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611929.json">202611929</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>24</td><td>52/52</td><td>1248</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611930.json">202611930</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>108/108</td><td>648</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611931.json">202611931</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>53/53</td><td>318</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611932.json">202611932</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>53/53</td><td>3816</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611933.json">202611933</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>336</td><td>51/51</td><td>17136</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611934.json">202611934</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>106/106</td><td>636</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611935.json">202611935</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>12</td><td>50/50</td><td>600</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611936.json">202611936</a></td><td>FS</td>
+    <td>通过</td>
+    <td>4</td><td>30/30</td><td>120</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611937.json">202611937</a></td><td>BTX</td>
+    <td>通过</td>
+    <td>16</td><td>29/29</td><td>464</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611938.json">202611938</a></td><td>MC</td>
+    <td>通过</td>
+    <td>6</td><td>34/34</td><td>204</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611939.json">202611939</a></td><td>MZ</td>
+    <td>通过</td>
+    <td>6</td><td>30/30</td><td>180</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611940.json">202611940</a></td><td>FS</td>
+    <td>通过</td>
+    <td>72</td><td>31/31</td><td>2232</td>
+    <td>0/0</td><td></td></tr><tr><td><a href="case-202611941.json">202611941</a></td><td>BTX</td>
+    <td>未决</td>
+    <td>336</td><td>21/21</td><td>7056</td>
+    <td>0/0</td><td>工作进程到达 10 分钟或总截止时间，未完成部分保持未决。</td></tr></tbody></table></div></html>

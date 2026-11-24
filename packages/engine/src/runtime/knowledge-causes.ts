@@ -2,6 +2,8 @@ import type { Constraint } from './knowledge-constraints.js';
 import type { Profile } from './knowledge-domain.js';
 
 export interface Cause {
+  /** Selected plots contributed by component causes in the same branch. */
+  componentPlots?: string[];
   label: string;
   category: 'character' | 'rule' | 'event' | 'joint';
   maxContribution?: number;
@@ -68,6 +70,7 @@ export function counterCauses(
         return true;
       result.push({
         choices,
+        componentPlots: [...new Set(path.flatMap(c => c.rule ? [c.rule] : c.componentPlots ?? []))],
         category: 'joint',
         label: path.map((c) => c.label).join(' ＋ '),
         requires: [...guards].map(([key, value]) => ({ key, value })),
@@ -91,6 +94,7 @@ export class CauseNetwork {
   readonly excludedCauses = new Set<Cause>();
   private components: Component[] = [];
   checks = 0;
+  joins = 0;
   uncertain = false;
   constructor(
     private quota: Map<string, number>,
@@ -134,6 +138,7 @@ export class CauseNetwork {
     ))
       links.add(key);
     const connected = this.components.filter((c) => [...c.links].some((k) => links.has(k)));
+    if (connected.length) this.joins++;
     const records = [...connected.flatMap((c) => c.records), record];
     for (const c of connected) {
       for (const k of c.links) links.add(k);
@@ -163,6 +168,7 @@ export class CauseNetwork {
         }
     const constraint: Constraint = {
       name: component.name,
+      inputs: reads,
       reads:
         records.length === 1 && record.alternatives.every((a) => a.requires.length <= 1)
           ? reads

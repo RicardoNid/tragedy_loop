@@ -170,6 +170,11 @@ test('大人物领地公开给三个主人公，杀手从所选区域检查声�
     };
     const session = createSession(l.pack, setup);
     startSession(session);
+    const port = session.protagonists[setup.captain];
+    const discussion = port.view();
+    assert.equal(discussion.territory, undefined);
+    assert.ok(discussion.observations.every(o => !('territory' in o.data)));
+    port.submit({ id: 'place', expectedRevision: discussion.revision, decisionId: discussion.decision!.id, choice: {kind:'continue'} });
     for (const seat of ['p0', 'p1', 'p2'] as const)
       assert.equal(session.protagonists![seat].view().territory, territory);
   }

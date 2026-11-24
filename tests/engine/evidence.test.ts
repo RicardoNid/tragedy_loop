@@ -1,3 +1,4 @@
+import { createCards } from '../../packages/engine/src/runtime/setup.js';
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import { readFileSync } from 'node:fs';
@@ -7,6 +8,7 @@ import { resolve } from 'node:path';
 import catalog from '../../packages/content/src/official/source-catalog.json' with { type: 'json' };
 import { compileOfficial } from '../../packages/content/src/official/compile.js';
 import { initializeDiscussion, advance } from '../../packages/engine/src/runtime/engine.js';
+import { officialModules } from '../../packages/contracts/src/game.js';
 import type { Choice, GameSetup } from '../../packages/contracts/src/game.js';
 
 test('official evidence is pinned to current read-only source files; stale translations are detected', () => {
@@ -74,4 +76,33 @@ test('BTX complete failed loop reaches final guesses; a wrong guess loses and co
   state = checkpoint;
   for (const c of setup.characters) act({ kind: 'guess', character: c.id, identity: c.identity });
   assert.equal(state.winner, 'protagonists');
+});
+
+test('base deck once-per-loop flags depend on the side and card kind', () => {
+  const deck = createCards();
+  for (const owner of ['mastermind','p0','p1','p2']) {
+    const limited = deck.filter(card => card.owner === owner && card.once).map(card => card.kind).sort();
+    assert.deepEqual(limited, owner === 'mastermind' ? ['diagonal','intrigue+2'] : ['block-movement','goodwill+2','paranoia-1']);
+  }
+});
+
+test('official once-per-loop declarations match compiled character thresholds and plot or identity counts', () => {
+  for (const module of officialModules) {
+    const pack = compileOfficial(module);
+    for (const entry of catalog.entries) {
+      if (entry.kind === 'characters') {
+        const fields = entry.fields as { 友好能力?: {threshold?: number; oncePerLoop?: boolean}[] };
+        const printed = (fields.友好能力 ?? []).filter(a => a.oncePerLoop).map(a => a.threshold);
+        const abilities = pack.characters[entry.name]!.abilities;
+        const limited = abilities.filter(a => a.threshold !== undefined && a.loopLimit === 1);
+        assert.deepEqual(limited.map(a => a.threshold).sort(), printed.sort(), entry.source);
+      } else if (entry.module === module && (entry.kind === 'rules' || entry.kind === 'identities')) {
+        const text = entry.fields as { effect?: string; abilities?: string[] };
+        const printed = (text.abilities ?? [text.effect ?? '']).join(' ').normalize('NFKC');
+        const limits = printed.match(/每(?:轮回|轮)[^。，（）【】]{0,6}(?:1|一)次/g) ?? [];
+        const entity = (entry.kind === 'rules' ? pack.plots : pack.identities)[entry.name]!;
+        assert.equal(entity.abilities.filter(a => a.loopLimit === 1).length, limits.length, entry.source);
+      }
+    }
+  }
 });

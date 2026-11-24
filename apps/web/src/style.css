@@ -313,6 +313,10 @@ summary {
   font-size: 13px;
   overflow-wrap: anywhere;
 }
+.log article ul {
+  margin: 0;
+  padding-inline-start: 1.2em;
+}
 .notes textarea,
 textarea {
   display: block;
@@ -479,22 +483,48 @@ footer {
 .game-workspace > .turn-panel {
   margin: 0;
 }
-@media (min-width: 960px) {
-  .game-workspace {
-    grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
-  }
-  .game-workspace > .knowledge {
-    grid-column: 2;
-    grid-row: 1 / span 3;
-    position: sticky;
-    top: 12px;
-    max-height: calc(100vh - 24px);
-    overflow: auto;
-  }
-  .game-workspace > .layout {
-    grid-column: 1;
-    grid-template-columns: minmax(0, 1fr);
-  }
+.has-game {
+  --solver-width: 48vw;
+  padding-right: calc(var(--solver-width) + 24px);
+}
+.solver-sidebar {
+  position: fixed;
+  top: 12px;
+  right: 12px;
+  bottom: 12px;
+  width: var(--solver-width);
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 12px;
+}
+.solver-sidebar > .knowledge {
+  margin: 0;
+  overflow: auto;
+  overscroll-behavior: contain;
+  scrollbar-gutter: stable;
+}
+.has-game .layout {
+  grid-template-columns: minmax(0, 1fr);
+}
+.has-game .toolbar {
+  display: block;
+}
+.has-game .toolbar details {
+  margin-top: 14px;
+}
+.has-game .toolbar summary {
+  text-align: left;
+}
+.solver-relations ul {
+  padding-left: 1.4em;
+}
+@media (max-width: 700px) {
+  .has-game { padding-right: calc(var(--solver-width) + 12px); }
+  .solver-sidebar { right: 6px; top: 6px; bottom: 6px; gap: 6px; }
+  .solver-sidebar > .knowledge { padding: 10px; }
+  .has-game header, .has-game .clock, .has-game .section-heading { flex-wrap: wrap; }
+  .has-game .board { grid-template-columns: minmax(0, 1fr); }
+  .has-game .bar > button { max-width: 100%; overflow-wrap: anywhere; }
 }
 
 .board-identity { color: #205e4c; font-weight: 600; margin: 4px 0; }

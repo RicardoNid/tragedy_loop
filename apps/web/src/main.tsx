@@ -1,11 +1,13 @@
-import React, { useRef, useState } from 'react';
+import { awaitingFirstPlacement, completeObservationGroups } from '../../../packages/contracts/src/game';
+import React, { useEffect, useRef, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import type { Choice, GameSetup, PlayerView, Actor } from '../../../packages/contracts/src/game.js';
 import type { MastermindReviewView } from '../../../packages/contracts/src/review';
 import { ScriptBoard } from './ScriptBoard';
 import { api } from './api';
 import { Knowledge } from './Knowledge';
-import { recordEngine, recordSolver, exportLog } from './review-log';
+import { Knowledge3 } from './Knowledge3';
+import { listLogs, exportLog } from './review-log';
 import { choiceLabel, label, name, readable } from './labels';
 import './style.css';
 
@@ -180,20 +182,20 @@ function App() {
     [notes, setNotes] = useState('');
   const [setup, setSetup] = useState<GameSetup>();
   const [turn, setTurn] = useState<Awaited<ReturnType<typeof api.turn>>>();
-  const [profile, setProfile] = useState<'FS' | 'BTX'>('FS');
+  const [profile, setProfile] = useState<'FS' | 'BTX' | 'MC' | 'MZ'>('FS');
   const seatHistory = useRef<Partial<Record<Actor, PlayerView[]>>>({});
   // Revisions are observer-specific. Keep the matching public projection for
   // each snapshot, including mastermind history, without feeding secrets to Knowledge.
   const publicViews = useRef(new WeakMap<PlayerView, PlayerView>());
   const importer = useRef<HTMLDetailsElement>(null);
   const [logError, setLogError] = useState('');
-  async function saveTrace(gameId: string) {
-    try {
-      await recordEngine(gameId, await api.engineTrace(gameId));
-      await recordSolver(gameId, await api.knowledge(gameId));
-      setLogError('');
-    } catch (e) { setLogError('诊断记录写入失败：' + String(e)); }
-  }
+  const [savedRuns, setSavedRuns] = useState<Awaited<ReturnType<typeof listLogs>>>([]);
+  const [savedRun, setSavedRun] = useState('');
+  useEffect(() => {
+    const changed = (event: Event) => setLogError((event as CustomEvent<string>).detail);
+    window.addEventListener('tragedy-run-log', changed);
+    return () => window.removeEventListener('tragedy-run-log', changed);
+  }, []);
   const shown = at >= 0 ? history[at] : view;
   const masterBoard =
     seat === 'mastermind' && shown && 'secret' in shown
@@ -212,7 +214,6 @@ function App() {
     }
   }
   async function accept(v: PlayerView) {
-    await saveTrace(id);
     publicViews.current.set(v, 'secret' in v ? await api.view(id, 'p0') : v);
     setTurn(await api.turn(id));
     setView(v);
@@ -223,9 +224,8 @@ function App() {
     });
     setAt(-1);
   }
-  async function start(custom?: GameSetup, selectedProfile: 'FS' | 'BTX' = 'FS') {
+  async function start(custom?: GameSetup, selectedProfile: 'FS' | 'BTX' | 'MC' | 'MZ' = 'FS') {
     const result = await api.create(custom, selectedProfile);
-    await saveTrace(result.id);
     setProfile(selectedProfile);
     setId(result.id);
     setTurn(await api.turn(result.id));
@@ -294,7 +294,7 @@ function App() {
     setTimeout(() => URL.revokeObjectURL(url), 1000);
   }
   return (
-    <>
+    <div className={shown ? 'review-page has-game' : 'review-page'}>
       <header>
         <div>
           <span className="eyebrow">TRAGEDY LOOP</span>
@@ -310,9 +310,9 @@ function App() {
             <button className="primary" disabled={busy} onClick={() => void run(() => start())}>
               新建 FS 测试对局
             </button>
-            <button disabled={busy} onClick={() => void run(() => start(undefined, 'BTX'))}>
-              新建 BTX 测试对局
-            </button>
+            {(['BTX','MC','MZ'] as const).map(m => (
+              <button key={m} disabled={busy} onClick={() => void run(() => start(undefined,m))}>新建 {m} 测试对局</button>
+            ))}
             {view && (
               <>
                 <button disabled={busy} onClick={() => void run(() => start(setup, profile))}>
@@ -359,6 +359,25 @@ function App() {
             </button>
           </details>
         </section>
+        {(!view || seat === 'mastermind') && <details className="run-history" onToggle={e => {
+          if (e.currentTarget.open) void run(async () => {
+            const runs = await listLogs();
+            setSavedRuns(runs);
+            setSavedRun(runs[0]?.id ?? '');
+          });
+        }}>
+          <summary>本地运行记录（含剧透）</summary>
+          <p className="muted">每次运行自动保存在当前浏览器，包含引擎与两个求解器的输入输出，刷新后可导出复查。</p>
+          <label>已保存的运行
+            <select value={savedRun} onChange={e => setSavedRun(e.target.value)}>
+              {!savedRuns.length && <option value="">暂无运行记录</option>}
+              {savedRuns.map(saved => <option key={saved.id} value={saved.id}>
+                {new Date(saved.updated).toLocaleString('zh-CN')} · {saved.module} · {saved.id}
+              </option>)}
+            </select>
+          </label>
+          <button disabled={!savedRun || busy} onClick={() => void run(() => exportLog(savedRun))}>导出所选运行记录</button>
+        </details>}
         <p className="notice" role="status">
           {error || logError || (busy ? '正在更新盘面…' : '')}
         </p>
@@ -412,12 +431,11 @@ function App() {
                   disabled={busy || at >= 0}
                 />
               </section>
-              <Knowledge
-                key={id}
-                id={id}
-                shown={publicViews.current.get(shown)!}
-                liveRevision={publicViews.current.get(view!)!.revision}
-              />
+              <aside className="solver-sidebar" aria-label="求解器对照">
+                <Knowledge key={id} id={id} shown={publicViews.current.get(shown)!}
+                  liveRevision={publicViews.current.get(view!)!.revision} />
+                <Knowledge3 key={id + '-3'} id={id} shown={publicViews.current.get(shown)!} />
+              </aside>
               {shown.winner && (
                 <div className="result" role="status">
                   {(shown.winners?.length ? shown.winners : [shown.winner]).map(label).join('、')}
@@ -446,8 +464,8 @@ function App() {
                     ))}
                   </div>
                   {shown.ex !== undefined && <p>EX · {shown.ex}</p>}
-                  {shown.phase === 'briefing' && !masterBoard && (
-                    <p className="muted">开始游戏后放置首批角色。后续角色在各自的登场时点公开。</p>
+                  {awaitingFirstPlacement(shown) && !masterBoard && (
+                    <p className="muted">第一轮讨论结束、轮回开始时放置首批角色。后续角色在各自的登场时点公开。</p>
                   )}
                   {!!shown.publicSpecialRules?.length && (
                     <section aria-label="公开特殊规则">
@@ -624,18 +642,20 @@ function App() {
                 </div>
               </div>
               <div className="log">
-                {shown.observations
-                  .slice()
-                  .reverse()
-                  .map((o) => (
-                    <article key={o.sequence}>
-                      <small>
-                        第 {o.loop} 轮 · 第 {o.day} 日
-                      </small>
-                      <strong>{label(o.type)}</strong>
-                      <span>{readable(o.data, shown)}</span>
+                {completeObservationGroups(shown.observations).reverse().map((group) => {
+                  const first = group[0]!;
+                  return (
+                    <article key={first.sequence}>
+                      <small>第 {first.loop} 轮 · 第 {first.day} 日</small>
+                      <strong>{group.length > 1 ? '同时发生' : label(first.type)}</strong>
+                      {group.length > 1 ? (
+                        <ul>{group.map((o) => (
+                          <li key={o.sequence}>{label(o.type)} · {readable(o.data, shown)}</li>
+                        ))}</ul>
+                      ) : <span>{readable(first.data, shown)}</span>}
                     </article>
-                  ))}
+                  );
+                })}
               </div>
             </section>
             <section className="panel notes">
@@ -651,7 +671,7 @@ function App() {
         )}
       </main>
       <footer>本地人类测试 · 剧作家与主人公完整对局</footer>
-    </>
+    </div>
   );
 }
 createRoot(document.getElementById('root')!).render(

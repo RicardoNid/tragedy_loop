@@ -9,7 +9,14 @@ export interface KnowledgeInput {
   after?: number;
   verifyAll?: boolean;
 }
+export interface CompoundSettlement {
+  variables: string[];
+  participants: string[];
+  branches: number;
+  unresolved: boolean;
+}
 export interface KnowledgeView {
+  candidateRelations?: import('./candidate-relations.js').CandidateRelations;
   revision: number;
   ruleDigest: string;
   status:
@@ -23,6 +30,7 @@ export interface KnowledgeView {
   /** Symbolic mode: all initial variable domains exist, but may contain unverified values. */
   domainComplete: boolean;
   /** In symbolic mode these are tested configurations/witnesses, NOT the joint solution count. */
+  openingCartesianBound?: string;
   generated: number;
   possible: number;
   unresolved: number;
@@ -38,6 +46,7 @@ export interface KnowledgeView {
     mode: 'local' | 'history' | 'joint';
     reason: string;
     alternatives?: string[];
+    compound?: CompoundSettlement;
   }[];
   rules: string[];
   culprits: Record<string, string[]>;
@@ -68,6 +77,10 @@ export interface KnowledgeView {
     fields?: { field: string; alternatives?: string[] }[];
     needsHistory?: boolean;
     locallyExplained?: boolean;
+    /** This report only advanced the public board; no hidden-source search was necessary. */
+    publicSettlement?: boolean;
+    /** Partial projection for one settlement, never a full-script model count. */
+    compound?: CompoundSettlement;
     observation: number;
     phase: string;
     target: string;

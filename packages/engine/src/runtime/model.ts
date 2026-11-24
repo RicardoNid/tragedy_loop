@@ -69,16 +69,40 @@ export interface AbilityAreaRule {
   selection: 'before-declaration' | 'first-step';
 }
 export type IncidentAreaMode = 'actual' | 'diagonal' | 'clockwise';
+export interface IncidentBehavior {
+  execution?: 'cancel' | 'repeat' | 'proxy';
+  privateTrigger?: boolean;
+  maySuppress?: boolean;
+  totalThreshold?: boolean;
+  thresholdMultiplier?: number;
+}
 export interface CharacterTraits {
+  incident?: IncidentBehavior;
+  loopShrineIntrigue?: true;
+  mastermindGoodwill?: { ability?: string; minimum: number; overrideThreshold?: number };
+  mandatoryFirstMastermindAbility?: true;
+  forbiddenInitial?: 'civilian' | 'ignores-goodwill';
   abilityArea?: AbilityAreaRule;
   incidentAreaFromBase?: IncidentAreaMode;
   protects?: { characters: string[]; selectedTargetFlag: string };
 }
 export interface IdentityTraits {
+  /** Script construction, not an activation-time effect. Paired identities are exempt. */
+  culpritRequirement?: 'required' | 'forbidden';
+  /** Explicit coverage declaration for the ordinary public incident trigger model. */
+  ordinaryIncidentTrigger?: true;
+  /** On actual death, each living holder of this identity receives the amount. */
+  partnerReaction?: { survivor: string; paranoia: number };
   baseIncidentArea?: IncidentAreaMode;
   sameAreaIncidentTrigger?: Condition;
 }
 export interface RulePack {
+  setupRules: {
+    xSlots: 1 | 2;
+    optionalQuota: string;
+    attribute?: { plot: string; identity: string; attribute: string; except: string };
+    attributes?: { plot: string; identities: string[]; attribute: string; except: string }[];
+  };
   moduleAbilities: { owner: string; ability: Ability }[];
   schema: 1;
   semanticVersion: string;
@@ -186,6 +210,19 @@ export interface Ability {
   declarationArea?: string;
   condition?: Condition;
   steps: Step[];
+}
+/** Shared rule representation; interpreters remain independent. */
+export type ProgramKind = 'identity' | 'character' | 'plot' | 'module' | 'incident';
+export interface RuleProgram {
+  owner: string;
+  kind: ProgramKind;
+  source: string;
+  id: string;
+  timing: Ability['timing'];
+  activation: 'mandatory' | 'optional' | 'incident';
+  ability: Ability;
+  /** Derived opcode inventory, never a second effect definition. */
+  effects: string[];
 }
 export interface CharacterState {
   id: string;
@@ -295,6 +332,21 @@ export interface Diagnostic {
 }
 export type Environment = Record<string, string>;
 export const clone = <T>(value: T): T => structuredClone(value);
+/** Internal working copy. Completed log entries are read-only; each branch owns its arrays. */
+export function forkWorkingState(state: EngineState): EngineState {
+  const { observations, choices, receipts, audit, ...current } = state;
+  return {
+    ...clone(current),
+    observations: {
+      public: observations.public.slice(),
+      protagonists: observations.protagonists.slice(),
+      mastermind: observations.mastermind.slice(),
+    },
+    choices: choices.slice(),
+    receipts: { ...receipts },
+    audit: audit.slice(),
+  };
+}
 export function canonical(value: unknown): string {
   if (Array.isArray(value)) return `[${value.map(canonical).join(',')}]`;
   if (value !== null && typeof value === 'object')

@@ -1,0 +1,70 @@
+{
+  "id": "MZ-01G",
+  "setup": {
+    "module": "MZ",
+    "anniversary": false,
+    "loops": 4,
+    "days": 5,
+    "captain": "p0",
+    "discussion": "between-loops",
+    "y": "男子汉的战争",
+    "x": [
+      "X异因子",
+      "爱与恨的螺旋"
+    ],
+    "characters": [
+      {
+        "id": "boyStudent",
+        "character": "男学生",
+        "identity": "平民"
+      },
+      {
+        "id": "girlStudent",
+        "character": "女学生",
+        "identity": "强迫症"
+      },
+      {
+        "id": "richStudent",
+        "character": "大小姐",
+        "identity": "亲友"
+      },
+      {
+        "id": "shrineMaiden",
+        "character": "巫女",
+        "identity": "平民"
+      },
+      {
+        "id": "alien",
+        "character": "异界人",
+        "identity": "不安定因子"
+      },
+      {
+        "id": "policeOfficer",
+        "character": "刑警",
+        "identity": "平民"
+      },
+      {
+        "id": "officeWorker",
+        "character": "职员",
+        "identity": "忍者"
+      }
+    ],
+    "incidents": [
+      {
+        "day": 2,
+        "name": "自白",
+        "culprit": "richStudent"
+      },
+      {
+        "day": 3,
+        "name": "自白",
+        "culprit": "officeWorker"
+      },
+      {
+        "day": 4,
+        "name": "不安扩散",
+        "culprit": "girlStudent"
+      }
+    ]
+  }
+}

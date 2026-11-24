@@ -4,7 +4,7 @@ import { compileOfficial } from '../../packages/content/src/official/index.js';
 import type { GameSetup, Observation } from '../../packages/contracts/src/game.js';
 import { initializeDiscussion, advance, drive } from '../../packages/engine/src/runtime/engine.js';
 import { announce } from '../../packages/engine/src/runtime/settlement.js';
-import { project } from '../../packages/engine/src/runtime/ports.js';
+import { initialPlacementView, project } from '../../packages/engine/src/runtime/ports.js';
 import { zeroCounters } from '../../packages/engine/src/runtime/model.js';
 import { CausalScope } from '../../packages/engine/src/runtime/knowledge-scope.js';
 import { buildProfiles } from '../../packages/engine/src/runtime/knowledge-domain.js';
@@ -80,7 +80,7 @@ for (const module of ['FS', 'BTX'] as const)
           // One silent first choice is possible in 散播.
           actor.counters.goodwill = actor.id === 'b' ? 0 : 3;
         }
-        const opening = project(initial, 'protagonists');
+        const opening = initialPlacementView(initial);
         const prior = opening.observations.length;
         initial.pending = null;
         initial.batch = null;

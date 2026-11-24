@@ -100,8 +100,12 @@ test('briefing and delayed arrivals expose only the public sheet until the piece
   assert.deepEqual(master.secret.incidents, setup.incidents);
 
   state = act(state, { kind: 'start' });
-  assert.deepEqual(visible(), ['boy', 'girl', 'servant']);
+  for (const seat of ['p0', 'p1', 'p2', 'protagonists'] as const) {
+    assert.deepEqual(project(state, seat).characters, []);
+    assert.equal(project(state, seat).territory, undefined);
+  }
   state = act(state, { kind: 'continue' });
+  assert.deepEqual(visible(), ['boy', 'girl', 'servant']);
   while (state.day === 1 && !state.winner) state = act(state, neutral(state));
   assert.equal(state.day, 2);
   assert.ok(visible().includes('transfer'));

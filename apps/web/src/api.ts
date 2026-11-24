@@ -1,3 +1,5 @@
+import { withRunLog } from './review-log';
+import type { ReviewSolverInputs } from '../../../packages/contracts/src/review';
 import type {
   Command,
   GameSetup,
@@ -28,7 +30,10 @@ async function request<T>(path: string, body?: unknown): Promise<T> {
   if (!response.ok) throw new Error(data.message ?? '请求失败');
   return data as T;
 }
-export const api = {
+export const api = withRunLog({
+  solution3: (id:string,through:number,details=false) => request<import('../../../packages/contracts/src/solution3').Solution3View>(`/${id}/solution3?through=${through}&details=${details?1:0}`),
+  publicOpening: (id: string) => request<PlayerView>(`/${id}/public-opening`),
+  solverInputs: (id: string) => request<ReviewSolverInputs>(`/${id}/mastermind/solver-inputs`),
   engineTrace: (id: string) => request<ReviewEngineTrace>(`/${id}/mastermind/trace`),
   turn: (id: string) =>
     request<{ actor: Actor | null; kind: string | null; phase: string; finished: boolean }>(
@@ -36,11 +41,11 @@ export const api = {
     ),
   knowledge: (id: string) => request<KnowledgeView>(`/${id}/knowledge`),
   verifyKnowledge: (id: string) => request<KnowledgeView>(`/${id}/knowledge/verify`, {}),
-  create: (setup?: GameSetup, profile: 'FS' | 'BTX' = 'FS') =>
+  create: (setup?: GameSetup, profile: 'FS' | 'BTX' | 'MC' | 'MZ' = 'FS') =>
     request<{ id: string; view: PlayerView }>('', { setup, profile }),
   view: (id: string, seat: Actor) => request<PlayerView | MastermindReviewView>(`/${id}/${seat}`),
   submit: (id: string, seat: Actor, command: Command) =>
     request<PlayerView | MastermindReviewView>(`/${id}/${seat}`, command),
   fixture: (id: string, seat: Protagonist, revision: number) =>
     request<PlayerView>(`/${id}/fixture`, { seat, revision }),
-};
+});

@@ -63,3 +63,12 @@ Thumbs.db
 /tmp/
 /logs/
 *$py.class
+
+# Local campaign databases, per-run evidence and browser test output
+/test-results-solver3/
+/products/engine/random-cross/
+/products/engine/solver1-oracle-*/**
+!/products/engine/solver1-oracle-*/report.html
+!/products/engine/solver1-oracle-*/campaign.json
+!/products/engine/solver1-oracle-*/coverage.json
+!/products/engine/solver1-oracle-*/calibration-summaries.json

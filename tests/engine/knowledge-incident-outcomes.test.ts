@@ -3,7 +3,7 @@ import test from 'node:test';
 import { compileOfficial } from '../../packages/content/src/official/index.js';
 import type { GameSetup } from '../../packages/contracts/src/game.js';
 import { advance, drive, initializeDiscussion } from '../../packages/engine/src/runtime/engine.js';
-import { project } from '../../packages/engine/src/runtime/ports.js';
+import { initialPlacementView, project } from '../../packages/engine/src/runtime/ports.js';
 import { announce } from '../../packages/engine/src/runtime/settlement.js';
 import {
   buildProfiles,
@@ -55,7 +55,7 @@ for (const module of ['FS', 'BTX'] as const) {
           }
           s.boards.hospital = 1;
           s.boards.school = 3;
-          const opening = project(s, 'protagonists'),
+          const opening = initialPlacementView(s),
             offset = opening.observations.length;
           s.pending = null;
           s.batch = null;

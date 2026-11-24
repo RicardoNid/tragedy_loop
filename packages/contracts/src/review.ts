@@ -29,3 +29,7 @@ export interface MastermindReviewView extends MastermindView {
     seatRoles?: Record<Protagonist, 'A' | 'B' | 'C'>;
   };
 }
+
+export interface ReviewSolverInputs {
+  solver1: import('./knowledge.js').KnowledgeInput;
+}

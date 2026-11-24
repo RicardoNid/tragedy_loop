@@ -6,7 +6,9 @@ export type Board = 'hospital' | 'shrine' | 'city' | 'school';
 export type Area = Board | 'far';
 export type Counter = 'goodwill' | 'paranoia' | 'intrigue' | 'guard' | 'hope' | 'despair';
 export type Counters = Record<Counter, number>;
-export type Module = 'FS' | 'BTX' | 'MZ' | 'MC' | 'HSA' | 'WM' | 'AHR' | 'LL';
+export const officialModules = ['FS', 'BTX', 'MZ', 'MC', 'HSA', 'WM', 'AHR', 'LL'] as const;
+export type Module = (typeof officialModules)[number];
+export const supportsAnniversary = (module: Module) => module !== 'AHR' && module !== 'LL';
 export type Phase =
   | 'briefing'
   | 'discussion'
@@ -122,6 +124,10 @@ export interface Command {
 export interface Observation {
   /** Observer-local ordering; never an index into secret audit events. */
   sequence: number;
+  /** First sequence in this observer's simultaneous settlement group. Absent on older logs. */
+  simultaneousGroup?: number;
+  /** Number of reports visible to this observer in that settlement. */
+  simultaneousSize?: number;
   loop: number;
   day: number;
   phase: Phase;
@@ -143,6 +149,42 @@ export interface Observation {
     | 'own-choice';
   data: Record<string, unknown>;
 }
+/** A feed may end in the middle of a delivery. Only complete settlements are observable. */
+export function completeObservationGroups(
+  history: readonly Observation[],
+  completeLegacyLog = true,
+): Observation[][] {
+  const groups: Observation[][] = [];
+  for (let i = 0; i < history.length;) {
+    const first = history[i]!;
+    const start = first.simultaneousGroup;
+    let size = first.simultaneousSize;
+    if (start === undefined) {
+      if (size !== undefined && size !== 1) throw Error('同时结算公告缺少起始序号。');
+      groups.push([first]);
+      i++;
+      continue;
+    }
+    if (start !== first.sequence) throw Error('同时结算公告起始序号不连续。');
+    // Older projections supplied the group id alone and were delivered as complete logs.
+    if (size === undefined) {
+      size = 1;
+      while (history[i + size]?.simultaneousGroup === start) size++;
+      if (i + size === history.length && !completeLegacyLog) break;
+    } else if (!Number.isSafeInteger(size) || size < 2) {
+      throw Error('同时结算公告数量无效。');
+    }
+    const group = history.slice(i, i + size);
+    if (group.some((o, j) => o.sequence !== start + j || o.simultaneousGroup !== start ||
+      o.simultaneousSize !== first.simultaneousSize || o.loop !== first.loop ||
+      o.day !== first.day || o.phase !== first.phase)) throw Error('同时结算公告不连续。');
+    if (group.length < size) break;
+    groups.push(group);
+    i += size;
+  }
+  return groups;
+}
+
 export interface PlayerView {
   revision: number;
   module: Module;
@@ -174,6 +216,10 @@ export interface PlayerView {
   winners?: Actor[];
   personalRole?: 'A' | 'B' | 'C';
 }
+export function awaitingFirstPlacement(view: Pick<PlayerView, 'phase' | 'loop'>): boolean {
+  return view.phase === 'briefing' || (view.loop === 1 && view.phase === 'discussion');
+}
+
 export interface MastermindView extends PlayerView {
   secret: {
     y: string;

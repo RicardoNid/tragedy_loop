@@ -1,29 +1,18 @@
+import { lifecycle } from './shared-lifecycle.js';
 import type { Observation, PlayerView } from '../../../contracts/src/game.js';
 import type { RulePack } from './model.js';
 import type { Cause } from './knowledge-causes.js';
 import type { Profile } from './knowledge-domain.js';
 import type { VisibleChange } from './knowledge-effects.js';
 
-// These hooks are implemented by the settlement engine outside Ability.steps.
-// Keep their trigger and outcome exceptions next to the character that owns them.
-interface IncidentTrait {
-  execution?: 'cancel' | 'repeat' | 'proxy';
-  privateTrigger?: boolean;
-  maySuppress?: boolean;
-  totalThreshold?: boolean;
-  thresholdMultiplier?: number;
+export function traits(pack: RulePack, character?: string) {
+  return (character && pack.characters[character]?.incident) || {};
 }
-const incidentTraits: Readonly<Record<string, IncidentTrait>> = {
-  黑猫: { execution: 'cancel' },
-  教主: { execution: 'repeat', thresholdMultiplier: 2 },
-  临时工: { execution: 'proxy', privateTrigger: true },
-  手下: { maySuppress: true },
-  仙人: { privateTrigger: true },
-  AI: { totalThreshold: true },
-};
-const ordinary: IncidentTrait = {};
-export function traits(character?: string): IncidentTrait {
-  return (character && incidentTraits[character]) || ordinary;
+// Only strictly positive mandatory reactions justify the absence-of-a-rise inference.
+export function partnerPairs(pack: RulePack): [string, string][] {
+  return Object.values(pack.identities).flatMap(({ name, partnerReaction: r }) =>
+    r && r.paranoia > 0 ? [[name, r.survivor] as [string, string]] : [],
+  );
 }
 export function hasVirtualArea(pack: RulePack, character?: string): boolean {
   const rule = character && pack.characters[character];
@@ -32,16 +21,19 @@ export function hasVirtualArea(pack: RulePack, character?: string): boolean {
 
 type Intrinsic = (phase: Observation['phase'], q: VisibleChange) => string | undefined;
 const characterEffects: Record<string, Intrinsic> = {
-  临时工: (phase, q) =>
-    phase === 'day-end' && (q.kind === 'kill' || (q.counter === 'guard' && q.sign === -1))
+  [lifecycle.dayEndDeath.owner]: (phase, q) =>
+    phase === lifecycle.dayEndDeath.timing &&
+    (q.kind === lifecycle.dayEndDeath.kind || (q.counter === 'guard' && q.sign === -1))
       ? '临时工日末死亡请求'
       : undefined,
-  手下: (phase, q) =>
-    phase === 'loop-start' && q.kind === 'move' ? '手下选择开局区域' : undefined,
-  学者: (phase, q) =>
-    phase === 'loop-start' &&
+  [lifecycle.startPlacement.owner]: (phase, q) =>
+    phase === lifecycle.startPlacement.timing && q.kind === lifecycle.startPlacement.kind
+      ? '手下选择开局区域'
+      : undefined,
+  [lifecycle.startCounter.owner]: (phase, q) =>
+    phase === lifecycle.startCounter.timing &&
     q.sign === 1 &&
-    ['goodwill', 'paranoia', 'intrigue'].includes(q.counter ?? '')
+    lifecycle.startCounter.counters.some((counter) => counter === q.counter)
       ? '学者轮回开始选择指示物'
       : undefined,
 };
@@ -70,9 +62,13 @@ export function intrinsicCauses(
     });
   }
   if (
-    actor && pack.characters[actor.character]?.protects &&
-    (change.kind === 'move' || change.kind === 'kill' || (change.counter === 'guard' && change.sign === -1))
-  ) add(actor.character + '随行或代替受害者结算', actor.id);
+    actor &&
+    pack.characters[actor.character]?.protects &&
+    (change.kind === 'move' ||
+      change.kind === 'kill' ||
+      (change.counter === 'guard' && change.sign === -1))
+  )
+    add(actor.character + '随行或代替受害者结算', actor.id);
   const character = actor && characterEffects[actor.character]?.(o.phase, change);
   if (character) add(character, actor?.id);
   if (o.phase === 'loop-start' && change.sign === 1) {
@@ -82,21 +78,20 @@ export function intrinsicCauses(
       actor &&
       change.counter === 'paranoia' &&
       priorFriends.has(actor.id) &&
-      p.x.includes('因果线')
+      p.x.includes(lifecycle.previousFriend.plot)
     )
-      add('规则“因果线”的轮回开始效果', undefined, [], '因果线');
+      add('规则“因果线”的轮回开始效果', undefined, [], lifecycle.previousFriend.plot);
     if (
       actor &&
       change.counter === 'goodwill' &&
-      p.store.domains.get('identity:' + actor.id)?.has('亲友')
+      p.store.domains.get('identity:' + actor.id)?.has(lifecycle.revealedFriend.identity)
     )
-      add('已公开的亲友获得友好', actor.id, [{ key: 'identity:' + actor.id, value: '亲友' }]);
+      add('已公开的亲友获得友好', actor.id, [
+        { key: 'identity:' + actor.id, value: lifecycle.revealedFriend.identity },
+      ]);
   }
   if (actor && change.counter === 'paranoia' && change.sign === 1 && deaths.size) {
-    for (const [identity, partner] of [
-      ['求爱者', '心上人'],
-      ['心上人', '求爱者'],
-    ] as const) {
+    for (const [partner, identity] of partnerPairs(pack)) {
       const survivor = 'identity:' + actor.id;
       if (!p.store.domains.get(survivor)?.has(identity)) continue;
       for (const dead of deaths) {

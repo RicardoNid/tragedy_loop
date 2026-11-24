@@ -108,3 +108,53 @@ test('incident movement follows compiled follow-up steps under any incident name
   incident.afterIncidentSteps = [{ moveOthersFromEffectiveArea: true, effects: [] }];
   assert.ok(movements()?.some((source) => source.kind === 'move' && source.reports === Infinity));
 });
+test('public target binding and refusal remove only voluntary sources, retaining scheduled and mandatory effects', () => {
+  const pack = structuredClone(compileOfficial('FS'));
+  const make = (id: string): Ability => ({
+    id,
+    source: 'test',
+    timing: 'protagonist-abilities',
+    threshold: 2,
+    steps: [
+      {
+        choices: [{ key: 'victim', options: { kind: 'alive' } }],
+        effects: [{ op: 'counter', target: '$victim', counter: 'hope', amount: 1 }],
+      },
+    ],
+  });
+  const delayed: Ability = {
+    ...make('earlier'),
+    timing: 'day-start',
+    steps: [
+      {
+        effects: [
+          {
+            op: 'schedule',
+            day: 1,
+            timing: 'protagonist-abilities',
+            effects: [{ op: 'counter', target: 'a', counter: 'hope', amount: 1 }],
+          },
+        ],
+      },
+    ],
+  };
+  const followup: Ability = { ...make('after'), timing: 'goodwill-completed', mandatory: true };
+  pack.characters['男学生']!.abilities = [make('cast'), make('other'), delayed, followup];
+  const catalog = new PruningCatalog(
+    pack,
+    { incidents: [] },
+    ['a', 'b'].map((id) => ({ id, character: '男学生' })),
+  );
+  const q = { kind: 'counter' as const, target: 'b', counter: 'hope' as const, sign: 1 };
+  const declaration = { id: 'a', ability: 'cast', choices: { victim: 'b' } };
+  const names = (target: string, current: typeof declaration | null, owner: string) =>
+    catalog
+      .forChange('protagonist-abilities', { ...q, target }, current)
+      .cards.get(owner)
+      ?.map((s) => s.ability?.id);
+  assert.deepEqual(names('b', declaration, 'a'), ['earlier', 'after', 'cast']);
+  assert.deepEqual(names('a', declaration, 'a'), ['earlier', 'after']);
+  assert.deepEqual(names('b', declaration, 'b'), ['earlier', 'after']);
+  assert.deepEqual(names('b', null, 'a'), ['earlier', 'after']);
+  assert.deepEqual(names('b', declaration, 'a'), ['earlier', 'after', 'cast']);
+});

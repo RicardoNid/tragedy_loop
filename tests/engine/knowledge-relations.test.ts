@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { compileOfficial } from '../../packages/content/src/official/index.js';
 import { initializeDiscussion, advance } from '../../packages/engine/src/runtime/engine.js';
-import { project } from '../../packages/engine/src/runtime/ports.js';
+import { initialPlacementView, project } from '../../packages/engine/src/runtime/ports.js';
 import { buildProfiles } from '../../packages/engine/src/runtime/knowledge-domain.js';
 import { CausalScope } from '../../packages/engine/src/runtime/knowledge-scope.js';
 import { LiveKnowledge } from '../../packages/engine/src/runtime/knowledge.js';
@@ -26,7 +26,7 @@ import type { Ability, Effect } from '../../packages/engine/src/runtime/model.js
 function playBtxFirstDay(useGossip: boolean, intrigueBoard: 'city' | 'shrine') {
   const pack = compileOfficial('BTX');
   let state = initializeDiscussion(pack, officialBTX.setup as GameSetup).state!;
-  const solver = new LiveKnowledge(pack, project(state, 'protagonists'));
+  const solver = new LiveKnowledge(pack, initialPlacementView(state));
   const placements: Record<string, [string, string][]> = {
     mastermind: [
       ['horizontal', 'boyStudent'],
@@ -53,6 +53,16 @@ function playBtxFirstDay(useGossip: boolean, intrigueBoard: 'city' | 'shrine') {
     solver.append(v.observations.slice(solver.observationCount), solver.observationCount, v.revision);
     if (choice.kind === 'ability') {
       const result = solver.snapshot();
+      assert.deepEqual(Object.keys(result.identities).filter(id => result.identities[id]!.includes('传谣人')).sort(), ['doctor', 'patient']);
+      assert.ok(result.relations?.some(row => row.fact.includes('医生（doctor）不安增加')));
+      const candidate = structuredClone(officialBTX.setup) as GameSetup;
+      const doctor = candidate.characters.find(c => c.id === 'doctor')!;
+      const teacher = candidate.characters.find(c => c.id === 'teacher')!;
+      const patient = candidate.characters.find(c => c.id === 'patient')!;
+      [doctor.identity, teacher.identity] = [teacher.identity, doctor.identity];
+      assert.equal(solver.queryConfiguration(candidate), 'excluded', 'no hospital gossip source');
+      [teacher.identity, patient.identity] = [patient.identity, teacher.identity];
+      assert.notEqual(solver.queryConfiguration(candidate), 'excluded', 'patient is a possible source');
       assert.equal(result.historySearchDeferred, true);
       assert.equal(result.generated, 0);
       assert.deepEqual(new Set(result.scope?.alternatives), new Set(['医生（doctor）是传谣人（gossip）', '住院患者（patient）是传谣人（gossip）']));
@@ -94,7 +104,7 @@ function fixture() {
     ],
     incidents: [],
   };
-  const opening = project(initializeDiscussion(pack, setup).state!, 'protagonists');
+  const opening = initialPlacementView(initializeDiscussion(pack, setup).state!);
   const profiles = buildProfiles(pack, opening, { checks: 0, removed: 0, branches: 0 }).filter(
     (p) => p.y === setup.y && p.x.includes('流言四起'),
   );
@@ -478,7 +488,7 @@ test('copycat brain does not consume a second ordinary identity slot in the caus
   };
   const state = initializeDiscussion(pack, setup);
   assert.ok(state.state, JSON.stringify(state.diagnostics));
-  const opening = project(state.state, 'protagonists');
+  const opening = initialPlacementView(state.state);
   const profiles = buildProfiles(pack, opening, { checks: 0, removed: 0, branches: 0 }).filter(
     (p) => p.y === setup.y && p.x.includes('流言四起'),
   );
@@ -527,7 +537,7 @@ test('legal play reuses mastermind ability each day and rumor each loop without 
     incidents: [],
   };
   let state = initializeDiscussion(pack, setup).state!;
-  const opening = project(state, 'protagonists'),
+  const opening = initialPlacementView(state),
     k = new LiveKnowledge(pack, opening);
   let through = 0;
   const used = new Set<string>();

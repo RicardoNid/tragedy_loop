@@ -1,0 +1,80 @@
+{
+  "id": "MC-01G",
+  "setup": {
+    "module": "MC",
+    "anniversary": false,
+    "loops": 4,
+    "days": 5,
+    "captain": "p0",
+    "discussion": "between-loops",
+    "y": "黑暗学园",
+    "x": [
+      "双子的诡计",
+      "愚者之舞"
+    ],
+    "characters": [
+      {
+        "id": "boyStudent",
+        "character": "男学生",
+        "identity": "主谋"
+      },
+      {
+        "id": "richStudent",
+        "character": "大小姐",
+        "identity": "愚者"
+      },
+      {
+        "id": "shrineMaiden",
+        "character": "巫女",
+        "identity": "平民"
+      },
+      {
+        "id": "alien",
+        "character": "异界人",
+        "identity": "双胞胎"
+      },
+      {
+        "id": "policeOfficer",
+        "character": "刑警",
+        "identity": "偏执狂"
+      },
+      {
+        "id": "officeWorker",
+        "character": "职员",
+        "identity": "平民"
+      },
+      {
+        "id": "journalist",
+        "character": "媒体人",
+        "identity": "平民"
+      },
+      {
+        "id": "patient",
+        "character": "住院患者",
+        "identity": "亲友"
+      }
+    ],
+    "incidents": [
+      {
+        "day": 1,
+        "name": "前兆",
+        "culprit": "richStudent"
+      },
+      {
+        "day": 2,
+        "name": "银色子弹",
+        "culprit": "policeOfficer"
+      },
+      {
+        "day": 4,
+        "name": "医院事故",
+        "culprit": "shrineMaiden"
+      },
+      {
+        "day": 5,
+        "name": "连续杀人",
+        "culprit": "alien"
+      }
+    ]
+  }
+}

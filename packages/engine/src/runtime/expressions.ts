@@ -1,4 +1,5 @@
-import type { Area, Board, Counter } from '../../../contracts/src/game.js';
+import { lifecycle, characterCounter } from './shared-lifecycle.js';
+import type { Area, Board, Counter, Counters } from '../../../contracts/src/game.js';
 import {
   BOARDS,
   COUNTERS,
@@ -37,18 +38,15 @@ export function effective(state: EngineState, target: string, counter: Counter):
   }
   const c = state.characters[target]?.counters;
   if (!c) return 0;
-  if (counter === 'goodwill') return c.goodwill + c.hope;
-  if (counter === 'paranoia') return c.paranoia + c.despair;
-  if (counter === 'intrigue') return Math.max(0, c.intrigue + c.despair - c.hope);
-  return c[counter];
+  return characterCounter(c, counter);
 }
 export function identities(state: EngineState, id: string): string[] {
   const c = state.characters[id];
   if (!c) return [];
   const result = [c.identity];
-  if (c.identity === '不安定因子') {
-    if (effective(state, 'school', 'intrigue') >= 2) result.push('传谣人');
-    if (effective(state, 'city', 'intrigue') >= 2) result.push('关键人物');
+  if (c.identity === lifecycle.borrowed.identity) {
+    if (effective(state, 'school', 'intrigue') >= lifecycle.borrowed.threshold) result.push(lifecycle.borrowed.school);
+    if (effective(state, 'city', 'intrigue') >= lifecycle.borrowed.threshold) result.push(lifecycle.borrowed.city);
   }
   if (c.identity === '无面者') result.push(state.ex <= 1 ? '传谣人' : '深潜者');
   if (c.identity === '偏执狂' && state.setup.x.includes('深渊之都的私语')) result.push('关键人物');
@@ -61,18 +59,23 @@ export function refusal(
   id: string,
 ): 'none' | 'optional' | 'mandatory' {
   const c = state.characters[id];
-  if (!c || c.counters.hope > 0) return 'none';
-  if (c.counters.despair > 0) return state.setup.x.includes('傀儡之线') ? 'optional' : 'mandatory';
-  if (c.identity === '纸老虎' && effective(state, id, 'paranoia') >= 2) return 'mandatory';
-  if (c.identity === '密钥' && state.setup.x.includes('捏造的秘密')) return 'optional';
-  const mode = pack.identities[c.identity]?.ignore ?? 'none';
-  return state.setup.x.includes('傀儡之线') && mode !== 'none' ? 'optional' : mode;
+  return c ? roleRefusal(pack, state.setup.x, c.identity, c.counters) : 'none';
+}
+export function roleRefusal(pack: RulePack, x: string[], identity: string, counters: Counters) {
+  if (counters.hope > 0) return 'none';
+  if (counters.despair > 0) return x.includes('傀儡之线') ? 'optional' : 'mandatory';
+  if (identity === '纸老虎' && characterCounter(counters, 'paranoia') >= 2) return 'mandatory';
+  if (identity === '密钥' && x.includes('捏造的秘密')) return 'optional';
+  const mode = pack.identities[identity]?.ignore ?? 'none';
+  return x.includes('傀儡之线') && mode !== 'none' ? 'optional' : mode;
 }
 export function immortal(pack: RulePack, state: EngineState, id: string): boolean {
   const c = state.characters[id];
-  if (!c) return false;
-  if (c.identity === '纸老虎' && effective(state, id, 'paranoia') >= 2) return false;
-  return Boolean(pack.identities[c.identity]?.immortal);
+  return !!c && roleImmortal(pack, c.identity, c.counters);
+}
+export function roleImmortal(pack: RulePack, identity: string, counters: Counters) {
+  if (identity === '纸老虎' && characterCounter(counters, 'paranoia') >= 2) return false;
+  return Boolean(pack.identities[identity]?.immortal);
 }
 export function value(
   pack: RulePack,
@@ -161,6 +164,56 @@ export function test(
   if (condition.cmp === 'le') return Number(a) <= Number(b);
   return Number(a) < Number(b);
 }
+export function boardVictims(module: RulePack['module'], intrigue: number) {
+  return module === 'HSA' ? intrigue : 0;
+}
+export function incidentThresholdMet(
+  pack: RulePack,
+  name: string,
+  character: string,
+  identity: string,
+  counters: Counters,
+  limit: number,
+  ex: number,
+  y: string,
+  x: string[],
+  prophetAlive: boolean,
+) {
+  const definition = pack.incidents[name]!;
+  const traits = pack.characters[character]?.incident;
+  const counter =
+    definition.thresholdCounter ??
+    (pack.module === 'AHR' && ex % 2 === 1 ? 'goodwill' : 'paranoia');
+  let amount = characterCounter(counters, counter);
+  if (counter === 'paranoia') {
+    if (traits?.totalThreshold) amount = COUNTERS.reduce((n, k) => n + counters[k], 0);
+    else if (
+      identity === '祭品' ||
+      (y === '士的宁毒液' && [lifecycle.incident.repeatCulprit, '自杀'].includes(name))
+    )
+      amount += counters.intrigue;
+  }
+  const threshold = limit + (definition.thresholdOffset ?? 0) * (traits?.thresholdMultiplier ?? 1);
+  const discount = prophetAlive && identity === '平民' && x.includes('灭亡讴歌') ? 1 : 0;
+  return amount >= threshold - discount;
+}
+export function incidentExGain(pack: RulePack, name: string, character: string) {
+  return pack.characters[character]?.incident?.execution === 'cancel'
+    ? 1
+    : (pack.incidents[name]?.exGain ?? 1);
+}
+export function goodwillCounter(
+  module: RulePack['module'],
+  ex: number,
+  actor: string,
+  ability: string,
+) {
+  return module === 'AHR' &&
+    ex % 2 === 1 &&
+    !(actor === 'mastermind' && ['doctor-counter', 'higher-being'].includes(ability))
+    ? 'paranoia'
+    : 'goodwill';
+}
 export function select(
   pack: RulePack,
   state: EngineState,
@@ -178,7 +231,7 @@ export function select(
   if (selector.kind === 'alive-or-boards') ids.push(...BOARDS);
   if (pack.module === 'HSA' && selector.kind === 'dead')
     for (const board of BOARDS)
-      for (let n = 0; n < state.boards[board]; n++) ids.push(`victim:${board}:${n}`);
+      for (let n = 0; n < boardVictims(pack.module,state.boards[board]); n++) ids.push(`victim:${board}:${n}`);
   return ids.filter((id) => test(pack, state, selector.where, { ...env, it: id }));
 }
 export function recompute(state: EngineState): void {
@@ -197,10 +250,10 @@ export function recompute(state: EngineState): void {
       )
         c.identity = '杀人狂';
     }
-    if (state.setup.x.includes('妄想扩大病毒') && c.initialIdentity === '平民') {
+    if (state.setup.x.includes(lifecycle.transformation.plot) && c.initialIdentity === lifecycle.transformation.initial) {
       c.identity =
-        c.status === 'alive' && effective(state, c.id, 'paranoia') >= 3
-          ? '杀人狂'
+        c.status === 'alive' && effective(state, c.id, 'paranoia') >= lifecycle.transformation.paranoia
+          ? lifecycle.transformation.effective
           : c.initialIdentity;
     }
     if (state.setup.y === '因果之绊' && c.flags['causal-ex']) c.identity = '关键人物';

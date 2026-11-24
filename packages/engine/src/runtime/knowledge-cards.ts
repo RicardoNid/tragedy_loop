@@ -1,14 +1,31 @@
 import type { Observation, PlayerView } from '../../../contracts/src/game.js';
-import { BOARDS, COUNTERS } from './model.js';
-import { destination } from './expressions.js';
+import { BOARDS, COUNTERS, type RulePack } from './model.js';
+import {
+  affectedByBoardCards,
+  cardCounterEffect,
+  cardDestination,
+  cardTotals,
+} from './card-settlement.js';
+type Bypass = 'goodwill' | 'intrigue';
 /** Public placements resolve in three stages. A reported stage is consumed once per target. */
 export class CardReports {
   constructor(
     private characters: Map<string, PlayerView['characters'][number]>,
     private boards: PlayerView['boards'],
+    private pack: RulePack,
   ) {}
   readonly pendingGoodwill = new Set<string>();
+  readonly possibleFollowers = new Set<string>();
+  private readonly protectedMoves = new Map<string, { leader: string; origin: string }[]>();
   private reveal?: Pick<Observation, 'day' | 'loop'>;
+  private readBoardCards?: (target: string) => void;
+  afterMove(target: string) {
+    if (affectedByBoardCards(this.characters.get(target)?.character)) {
+      this.readBoardCards?.(target);
+      const report = this.targets.get(target);
+      if (report) delete report.move;
+    }
+  }
   close(o: Observation) {
     const complete =
       o.type === 'boundary' &&
@@ -18,6 +35,19 @@ export class CardReports {
     const missing = complete ? [...this.pendingGoodwill] : [];
     const unresolved: string[] = [];
     if (complete) {
+      for (const [guardian, moves] of this.protectedMoves) {
+        const follower = this.characters.get(guardian);
+        const destinations = moves.flatMap(({ leader, origin }) => {
+          const area = this.characters.get(leader)?.area;
+          return area && area !== origin ? [area] : [];
+        });
+        if (
+          destinations.length &&
+          follower?.status === 'alive' &&
+          !destinations.includes(follower.area)
+        )
+          unresolved.push(guardian + ' 的同区保护对象已移动，须核对随行、多个保护对象或禁行状态');
+      }
       for (const [id, report] of this.targets) {
         const actor = this.characters.get(id);
         if (actor && actor.status !== 'alive') continue;
@@ -26,7 +56,7 @@ export class CardReports {
         for (const part of ['plus', 'minus'] as const) {
           if (
             Object.entries(report[part] ?? {}).some(([key, n]) => {
-              if (key === report.bypass) return false;
+              if (report.bypass.has(key as Bypass)) return false;
               const old =
                 actor?.counters[key as keyof typeof actor.counters] ??
                 (key === 'intrigue' ? this.boards[id as keyof typeof this.boards] : undefined);
@@ -40,24 +70,36 @@ export class CardReports {
       }
     }
     this.reveal = undefined;
+    this.readBoardCards = undefined;
     this.pendingGoodwill.clear();
     this.targets.clear();
+    this.possibleFollowers.clear();
+    this.protectedMoves.clear();
     return { missing, unresolved };
   }
   readonly targets = new Map<
     string,
     {
-      kinds: string[];
-      bypass?: 'goodwill' | 'intrigue';
+      kinds: Record<'move' | 'plus' | 'minus', string[]>;
+      bypass: Set<Bypass>;
+      goodwillMayBlockMove: boolean;
       move?: string;
       plus?: Partial<Record<(typeof COUNTERS)[number], number>>;
       minus?: Partial<Record<(typeof COUNTERS)[number], number>>;
     }
   >();
-  collect(o: Observation) {
+  collect(
+    o: Observation,
+    possible: (counter: Bypass, target: string) => boolean,
+    movePlot: () => boolean,
+    multipleBlocks = false,
+  ) {
     this.targets.clear();
+    this.possibleFollowers.clear();
+    this.protectedMoves.clear();
     this.pendingGoodwill.clear();
     this.reveal = undefined;
+    this.readBoardCards = undefined;
     const placements = o.data.placements;
     if (
       !Array.isArray(placements) ||
@@ -67,57 +109,116 @@ export class CardReports {
     const revealed = ['mastermind', 'p0', 'p1', 'p2'].every((owner) =>
       placements.some((p) => p.owner === owner),
     );
-    const blocks = placements.filter((p) => p.kind === 'block-intrigue').length;
+    const totals = cardTotals(placements);
     if (revealed) this.reveal = o;
-    const hopes = placements.filter((p) => p.kind === 'hope+1').length;
-    for (const target of new Set(placements.map((p) => p.target as string))) {
+    const compileTarget = (target: string) => {
       const actor = this.characters.get(target);
-      if (actor?.character === '幻想') continue;
-      const kinds = placements.filter((p) => p.target === target).map((p) => p.kind as string);
-      const dirs = kinds.filter((k) => ['horizontal', 'vertical', 'diagonal'].includes(k));
-      const move =
-        actor && dirs.length && !kinds.includes('block-movement')
-          ? destination(actor.area, dirs)
-          : undefined;
+      const board = BOARDS.includes(target as (typeof BOARDS)[number]);
+      if (!board && actor?.status !== 'alive') return;
+      const boardCards = affectedByBoardCards(actor?.character);
+      const group = placements.filter(
+        (p) => p.target === target || (boardCards && p.target === actor?.area),
+      );
+      const kinds = group.map((p) => p.kind as string);
+      const area = actor && cardDestination(actor.area, kinds, false);
+      const move = area !== actor?.area ? area : undefined;
+      const goodwillMayBlockMove = !!move && kinds.includes('block-goodwill') && movePlot();
+      const relevant: Record<'move' | 'plus' | 'minus', string[]> = {
+        move: kinds.filter(
+          (k) =>
+            ['horizontal', 'vertical', 'diagonal'].includes(k) ||
+            (k === 'block-goodwill' && goodwillMayBlockMove),
+        ),
+        plus: [],
+        minus: [],
+      };
       const plus: Partial<Record<(typeof COUNTERS)[number], number>> = {},
         minus: typeof plus = {};
-      let uncertain = false,
-        bypass: 'goodwill' | 'intrigue' | undefined;
+      const bypass = new Set<Bypass>();
       for (const kind of kinds) {
-        const m = /^(paranoia|goodwill|intrigue|hope|despair)([+-][12])$/.exec(kind);
-        if (!m) continue;
-        const counter = (
-          m[1] === 'hope' && hopes >= 2 ? 'goodwill' : m[1]
-        ) as (typeof COUNTERS)[number];
-        if (kinds.includes('block-' + counter)) {
-          if (!revealed) {
-            uncertain = true;
+        const effect = cardCounterEffect(kind, kinds, totals, multipleBlocks);
+        if (!effect) continue;
+        const { counter, amount: n, block } = effect;
+        if (board && counter !== 'intrigue') continue;
+        if (block) {
+          if (
+            block === 'goodwill' &&
+            group.some((p) => p.kind === 'block-goodwill' && p.target !== target)
+          )
             continue;
-          }
-          if (counter === 'paranoia') continue;
-          if (counter === 'goodwill' || (counter === 'intrigue' && blocks === 1)) {
-            if (bypass && bypass !== counter) uncertain = true;
-            bypass = counter;
-          }
+          if (
+            !revealed ||
+            (block !== 'goodwill' && block !== 'intrigue') ||
+            !possible(block, target)
+          )
+            continue;
+          bypass.add(block);
         }
-        const n = Number(m[2]),
-          part = n > 0 ? plus : minus;
+        const stage = n > 0 ? 'plus' : 'minus';
+        relevant[stage].push(kind);
+        if (
+          kind === 'hope+1' &&
+          totals.hopes >= 2 &&
+          !relevant[stage].includes('全场希望牌转为友好')
+        )
+          relevant[stage].push('全场希望牌转为友好');
+        if (
+          counter === 'intrigue' &&
+          !block &&
+          kinds.includes('block-intrigue') &&
+          !relevant[stage].includes('全场多张禁止密谋失效')
+        )
+          relevant[stage].push('全场多张禁止密谋失效');
+        if (block && !relevant[stage].includes('block-' + block))
+          relevant[stage].push('block-' + block);
+        const part = n > 0 ? plus : minus;
         part[counter] = (part[counter] ?? 0) + n;
       }
       this.targets.set(target, {
-        kinds,
+        kinds: relevant,
         bypass,
-        move: move || undefined,
-        ...(uncertain ? {} : { plus, minus }),
+        goodwillMayBlockMove,
+        move,
+        plus,
+        minus,
       });
       if (
         revealed &&
-        !uncertain &&
-        bypass === 'goodwill' &&
+        bypass.has('goodwill') &&
         (plus.goodwill ?? 0) > 0 &&
         actor?.status === 'alive'
       )
         this.pendingGoodwill.add(target);
+    };
+    const targets = new Set(placements.map((p) => p.target as string));
+    for (const actor of this.characters.values()) {
+      if (actor.status === 'alive' && affectedByBoardCards(actor.character)) {
+        this.readBoardCards = compileTarget;
+        if (targets.has(actor.area)) targets.add(actor.id);
+      }
+    }
+    for (const target of targets) compileTarget(target);
+    if (revealed && ![...this.targets.values()].some((report) => report.move)) return;
+    // All movement uses the same pre-move positions. A guardian's report can
+    // follow its leader's report, by which time the public locations differ.
+    for (const guardian of this.characters.values()) {
+      const protects = this.pack.characters[guardian.character]?.protects;
+      if (guardian.status !== 'alive' || !protects) continue;
+      if (!revealed) this.possibleFollowers.add(guardian.id);
+      const fixed = [];
+      for (const leader of this.characters.values()) {
+        if (
+          leader.id === guardian.id ||
+          leader.status !== 'alive' ||
+          leader.area !== guardian.area ||
+          !this.targets.get(leader.id)?.move
+        )
+          continue;
+        this.possibleFollowers.add(guardian.id);
+        if (protects.characters.includes(leader.character))
+          fixed.push({ leader: leader.id, origin: leader.area });
+      }
+      if (fixed.length) this.protectedMoves.set(guardian.id, fixed);
     }
   }
   match(o: Observation): 'move' | 'plus' | 'minus' | undefined {
@@ -161,7 +262,7 @@ export class CardReports {
         COUNTERS.every(
           (k) =>
             Math.max(0, old.counters[k] + (deltas[k] ?? 0)) === next[k] ||
-            (k === r.bypass && old.counters[k] === next[k]),
+            (r.bypass.has(k as Bypass) && old.counters[k] === next[k]),
         )
       )
         return part;

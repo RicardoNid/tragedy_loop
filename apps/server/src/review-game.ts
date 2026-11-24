@@ -1,3 +1,5 @@
+import { observedRoster } from '../../../packages/engine/src/runtime/knowledge-domain.js';
+import type { ReviewSolverInputs } from '../../../packages/contracts/src/review.js';
 import { createSession } from '../../../packages/engine/src/runtime/ports.js';
 import { compileOfficial } from '../../../packages/content/src/official/index.js';
 import type { Choice, GameSetup, Protagonist } from '../../../packages/contracts/src/game.js';
@@ -5,8 +7,11 @@ import type { MastermindReviewView } from '../../../packages/contracts/src/revie
 import fsOfficial from './fixtures/fs-01g.json' with { type: 'json' };
 import btxOfficial from './fixtures/btx-01g.json' with { type: 'json' };
 
+import mcOfficial from './fixtures/mc-01g.json' with { type: 'json' };
+import mzOfficial from './fixtures/mz-01g.json' with { type: 'json' };
 export const reviewSetup = fsOfficial.setup as GameSetup;
 export const btxReviewSetup = btxOfficial.setup as GameSetup;
+export const reviewProfiles = { FS: reviewSetup, BTX: btxReviewSetup, MC: mcOfficial.setup as GameSetup, MZ: mzOfficial.setup as GameSetup };
 export type Session = Extract<ReturnType<typeof createSession>, { status: 'ready' }>;
 
 export function openGame(setup: GameSetup) {
@@ -99,4 +104,16 @@ export function fixtureStep(game: Session, seat: Protagonist, revision: number) 
   });
   if (result.status === 'rejected') throw new Error('测试推进被引擎拒绝。');
   return port.view();
+}
+
+export function solverInputs(game: Session): ReviewSolverInputs {
+  const opening = game.host.publicOpening();
+  const current = game.protagonists.p0.view();
+  return {
+    solver1: {
+      opening: { ...opening, roster: observedRoster(opening, current) },
+      history: current.observations,
+      revision: current.revision,
+    },
+  };
 }

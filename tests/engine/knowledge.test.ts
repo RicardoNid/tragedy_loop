@@ -1,4 +1,4 @@
-import { startSession } from './start-session.js';
+import { startSession, solverOpening } from './start-session.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { compileOfficial } from '../../packages/content/src/official/index.js';
@@ -58,7 +58,7 @@ function observation(
 }
 
 test('complete rule-generated domain includes unlisted scripts; only public roster is used', () => {
-  const opening = session().protagonists.p0.view();
+  const opening = solverOpening(session());
   const domain = [...generateDomain(pack, opening)].filter((s) => s !== null);
   // Two-character roster: mastermind + rumormonger or key person + cultist cannot coexist
   // with a third required identity. Exactly the two permutations of the former survive.
@@ -90,7 +90,7 @@ test('complete rule-generated domain includes unlisted scripts; only public rost
 });
 
 test('global assignment propagation, provenance, contradiction and no rewriting history', () => {
-  const opening = session().protagonists.p0.view();
+  const opening = solverOpening(session());
   const k = new EnumeratedKnowledge(pack, opening);
   k.update(opening.observations, 1);
   finish(k);
@@ -117,12 +117,12 @@ test('global assignment propagation, provenance, contradiction and no rewriting 
 });
 
 test('secret identity permutation and discussion policy cannot change initial knowledge', () => {
-  const a = session().protagonists.p0.view();
-  const b = session({
+  const a = solverOpening(session());
+  const b = solverOpening(session({
     ...setup,
     discussion: 'between-loops',
     characters: setup.characters.map((c, i) => ({ ...c, identity: i ? '主谋' : '传谣人' })),
-  }).protagonists.p0.view();
+  }));
   assert.deepEqual(a.observations, b.observations);
   const ka = new EnumeratedKnowledge(pack, a),
     kb = new EnumeratedKnowledge(pack, b);
@@ -133,7 +133,7 @@ test('secret identity permutation and discussion policy cannot change initial kn
 
 test('budget exhaustion retains candidates and new known actions resume coherent histories', () => {
   const s = session(),
-    opening = s.protagonists.p0.view();
+    opening = solverOpening(s);
   const k = new EnumeratedKnowledge(pack, opening);
   k.update(opening.observations, opening.revision);
   finish(k);
@@ -163,7 +163,7 @@ test('anniversary domain allocates exactly one civilian fragment without reading
     anniversaryFragment: 'c',
     characters: [...setup.characters, { id: 'c', character: '住院患者', identity: '平民' }],
   };
-  const opening = session(config).protagonists.p0.view();
+  const opening = solverOpening(session(config));
   const anniversary = compileOfficial('FS', true);
   const domain = [...generateDomain(anniversary, opening)].filter((s) => s !== null);
   assert.ok(domain.length > 1);
@@ -172,7 +172,7 @@ test('anniversary domain allocates exactly one civilian fragment without reading
 });
 
 test('unbounded setup variables report unsupported instead of an empty exact space', () => {
-  const opening = session().protagonists.p0.view();
+  const opening = solverOpening(session());
   opening.characters[0]!.character = '仙人';
   const k = new EnumeratedKnowledge(pack, opening);
   k.update(opening.observations, 1);
@@ -193,7 +193,7 @@ test('real engine disclosure shrinks the space and matches independent finite re
   });
   const s = createSession(rules, setup);
   startSession(s);
-  const opening = s.protagonists.p0.view();
+  const opening = solverOpening(s);
   const k = new EnumeratedKnowledge(rules, opening);
   k.update(opening.observations, opening.revision);
   assert.equal(finish(k).possible, 2);
@@ -225,7 +225,7 @@ test('real engine disclosure shrinks the space and matches independent finite re
 
 test('multiple unknown mastermind card branches stay compatible without using the real cards', () => {
   const s = session(),
-    opening = s.protagonists.p0.view();
+    opening = solverOpening(s);
   s.protagonists.p0.submit({
     id: 'go',
     expectedRevision: opening.revision,

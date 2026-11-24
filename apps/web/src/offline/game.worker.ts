@@ -1,11 +1,13 @@
+import {solution3} from '../../../server/src/solution3';
+import { awaitingFirstPlacement } from '../../../../packages/contracts/src/game';
 import {
   openGame,
   inspectMastermind,
   gameTurn,
   fixtureStep,
   engineTrace,
-  reviewSetup,
-  btxReviewSetup,
+  solverInputs,
+  reviewProfiles,
   type Session,
 } from '../../../server/src/review-game';
 import { compileOfficial } from '../../../../packages/content/src/official/compile';
@@ -57,9 +59,10 @@ function knowledge(opening: PlayerView, view: PlayerView, verify: boolean) {
 function dispatch(call: Call) {
   if (call.method === 'create') {
     const [custom, profile] = call.args;
-    const game = openGame(custom ?? (profile === 'BTX' ? btxReviewSetup : reviewSetup));
+    const game = openGame(custom ?? reviewProfiles[profile ?? 'FS']);
     if (game.status !== 'ready') throw new Error('剧本未通过规则校验。');
     const opening = game.protagonists.p0.view();
+    active?.game.host.close();
     active = { id: crypto.randomUUID(), game };
     clearTimeout(timer);
     timer = undefined;
@@ -70,6 +73,10 @@ function dispatch(call: Call) {
   const { game } = active;
   const port = (seat: Actor) => (seat === 'mastermind' ? game.mastermind : game.protagonists[seat]);
   switch (call.method) {
+    case 'solution3':return solution3(game,call.args[1],call.args[2]);
+    case 'publicOpening': return game.host.publicOpening();
+    case 'solverInputs':
+      return solverInputs(game);
     case 'engineTrace':
       return engineTrace(game);
     case 'view':
@@ -86,7 +93,7 @@ function dispatch(call: Call) {
     case 'knowledge':
     case 'verifyKnowledge': {
       const view = game.protagonists.p0.view();
-      if (view.phase === 'briefing') return waitingForCharacters(view.revision);
+      if (awaitingFirstPlacement(view)) return waitingForCharacters(view.revision);
       return knowledge(game.host.publicOpening(), view, call.method === 'verifyKnowledge');
     }
   }

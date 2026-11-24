@@ -1,3 +1,4 @@
+import { withRunLog } from '../review-log';
 import ReviewWorker from './game.worker?worker&inline';
 import type { Reply, ReviewApi } from './messages';
 
@@ -34,7 +35,10 @@ function call<K extends keyof ReviewApi>(method: K, ...args: Parameters<ReviewAp
     }
   });
 }
-export const api: ReviewApi = {
+const transport: ReviewApi = {
+  solution3: (...args) => call('solution3', ...args),
+  publicOpening: (...args) => call('publicOpening', ...args),
+  solverInputs: (...args) => call('solverInputs', ...args),
   engineTrace: (...args) => call('engineTrace', ...args),
   create: (...args) => call('create', ...args),
   turn: (...args) => call('turn', ...args),
@@ -44,3 +48,4 @@ export const api: ReviewApi = {
   knowledge: (...args) => call('knowledge', ...args),
   verifyKnowledge: (...args) => call('verifyKnowledge', ...args),
 };
+export const api: ReviewApi = withRunLog(transport);

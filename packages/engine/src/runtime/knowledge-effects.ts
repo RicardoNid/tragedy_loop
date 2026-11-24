@@ -290,6 +290,10 @@ export function compileEffects(
           add(e.target, 'remove');
           break;
         case 'move-corpse':
+          add(e.target, 'move', undefined, undefined, e.area);
+          add(undefined, 'counter', 'intrigue', -1, undefined, -1);
+          add(undefined, 'counter', 'intrigue', 1, undefined, 1);
+          break;
         case 'move':
         case 'place':
           add(e.target, 'move', undefined, undefined, e.area);

@@ -7,9 +7,16 @@
     "node": ">=22.12 <23"
   },
   "scripts": {
+    "check:absence": "tsc -p tests/engine/tsconfig.absence.json && tsx --test tests/engine/absence*.test.ts",
+    "check:solver3": "tsc -p tests/engine/tsconfig.json && tsx --test tests/engine/solution3*.test.ts",
+    "test:solver3:cross": "tsx scripts/engine/solution3-cross.ts && tsx scripts/engine/solution3-cross-prefix.ts && tsx scripts/engine/solution3-cross-replay.ts",
+    "test:solver3:soak": "node scripts/engine/solution3-soak.mjs",
+    "report:solver3": "tsx scripts/engine/solution3-report.ts",
     "check:engine": "tsc -p tests/engine/tsconfig.json && tsx --test tests/engine/*.test.ts",
+    "test:engine:campaign": "tsx scripts/comprehensive/campaign.ts",
     "check:realtime": "tsc -p tests/engine/tsconfig.json && tsx --test tests/engine/knowledge*.test.ts",
     "report:engine": "tsx scripts/engine/report.ts",
+    "report:timeline": "tsx scripts/engine/timeline-audit.mjs",
     "check:rules": "tsc -p tests/rules/tsconfig.json && tsx --test tests/rules/*.test.ts",
     "setup:python": "uv sync --locked --python 3.12 --default-index https://pypi.org/simple",
     "format:check": "prettier --check package.json pnpm-workspace.yaml tsconfig.base.json apps/*/package.json apps/*/tsconfig.json packages/*/package.json .prettierrc.json .github/workflows/check.yml",

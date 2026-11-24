@@ -4,7 +4,7 @@ import { buildReviewServer } from '../../apps/server/src/review.js';
 import { compileOfficial } from '../../packages/content/src/official/index.js';
 import { initializeDiscussion, advance } from '../../packages/engine/src/runtime/engine.js';
 import type { GameSetup, Choice } from '../../packages/contracts/src/game.js';
-import { project } from '../../packages/engine/src/runtime/ports.js';
+import { initialPlacementView, project } from '../../packages/engine/src/runtime/ports.js';
 import { knowledgeService } from '../../apps/server/src/knowledge.js';
 
 test('first public arrival expands the worker roster and replays the existing prefix', async () => {
@@ -19,7 +19,7 @@ test('first public arrival expands the worker roster and replays the existing pr
   };
   const pack = compileOfficial('FS');
   const state = initializeDiscussion(pack, setup).state!;
-  const opening = project(state, 'protagonists');
+  const opening = initialPlacementView(state);
   const service = knowledgeService();
   try {
     const read = async (view: typeof opening) => {
@@ -56,6 +56,13 @@ test('background knowledge endpoint uses public version, returns counts and clos
       method: 'POST', url: `/api/games/${created.id}/p0`,
       payload: { id: 'start', expectedRevision: created.view.revision, decisionId: created.view.decision.id, choice: { kind: 'start' } },
     })).json();
+    assert.deepEqual(started.characters, []);
+    assert.equal((await app.inject(`/api/games/${created.id}/knowledge`)).json().status, 'waiting');
+    const placed = (await app.inject({
+      method: 'POST', url: `/api/games/${created.id}/p0`,
+      payload: { id: 'place', expectedRevision: started.revision, decisionId: started.decision.id, choice: {kind:'continue'} },
+    })).json();
+    assert.equal(placed.characters.length, 6);
     let result;
     for (let i = 0; i < 200; i++) {
       result = (await app.inject(`/api/games/${created.id}/knowledge`)).json();
@@ -71,7 +78,7 @@ test('background knowledge endpoint uses public version, returns counts and clos
     assert.equal(result.propagation.verifiedValues, 0);
     const again = (await app.inject(`/api/games/${created.id}/knowledge`)).json();
     assert.deepEqual(again.propagation, result.propagation, 'polling does not start new inference');
-    assert.equal(result.revision, started.revision);
+    assert.equal(result.revision, placed.revision);
     assert.equal('setup' in result, false);
     assert.equal('frontier' in result, false);
     assert.equal((await app.inject('/api/games/missing/knowledge')).statusCode, 404);

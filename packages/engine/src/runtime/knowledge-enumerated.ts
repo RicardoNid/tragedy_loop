@@ -1,12 +1,13 @@
+import { lifecycle } from './shared-lifecycle.js';
 import type { Choice, GameSetup, PlayerView } from '../../../contracts/src/game.js';
 import type { KnowledgeView } from '../../../contracts/src/knowledge.js';
 import { initializeDiscussion, advance } from './engine.js';
 import { BOARDS, canonical, type EngineState, type RulePack } from './model.js';
 import { enumerateChoices } from './replay.js';
-import { normalizeHistory } from './reference.js';
+import { normalizeHistory } from './observation-history.js';
 import { hasUnsupportedDiagnostic, validateSetup } from './setup.js';
 import { incompleteContent, publicRoster } from './knowledge-domain.js';
-import { matchesOpeningRoster } from './knowledge-history.js';
+import { matchesOpeningRoster, matchesPlayerObservation } from './knowledge-history.js';
 
 // Infinite numeric domains need a symbolic representation; never substitute the real secret.
 function unsupportedDomain(pack: RulePack, opening: PlayerView): string[] {
@@ -29,9 +30,11 @@ export function* generateDomain(pack: RulePack, opening: PlayerView): Generator<
   const ys = Object.values(pack.plots).filter((p) => p.type === 'Y');
   const xs = Object.values(pack.plots).filter((p) => p.type === 'X');
   const xSets =
-    pack.module === 'FS'
+    pack.setupRules.xSlots === 1
       ? xs.map((x) => [x])
-      : xs.flatMap((x, i) => xs.slice(i + 1).map((z) => [x, z]));
+      : xs.flatMap((x, i) => xs.slice(i + 1).flatMap((z) =>
+          pack.module === 'WM' ? [[x, z], [z, x]] : [[x, z]],
+        ));
   for (const y of ys)
     for (const xSet of xSets) {
       const basePool: Record<string, number> = {};
@@ -65,7 +68,7 @@ export function* generateDomain(pack: RulePack, opening: PlayerView): Generator<
             .filter((c) => !['局外人', '模仿犯'].includes(c.character)).length;
           const required =
             Object.entries(pool)
-              .filter(([k]) => !['平民', '暴徒'].includes(k))
+              .filter(([k]) => !['平民', pack.setupRules.optionalQuota].includes(k))
               .reduce((n, [, count]) => n + count, 0) + remainingPairs.length;
           if (required > slots) {
             yield null;
@@ -105,7 +108,7 @@ export function* generateDomain(pack: RulePack, opening: PlayerView): Generator<
           }
           if (
             remainingPairs.length ||
-            Object.entries(pool).some(([k, n]) => k !== '平民' && k !== '暴徒' && n !== 0)
+            Object.entries(pool).some(([k, n]) => k !== '平民' && k !== pack.setupRules.optionalQuota && n !== 0)
           ) {
             yield null;
             return;
@@ -172,7 +175,7 @@ export function* generateDomain(pack: RulePack, opening: PlayerView): Generator<
               const event = opening.incidents[i]!;
               const names = [
                 event.name,
-                ...(pack.incidents['伪造事件'] && event.name !== '伪造事件' ? ['伪造事件'] : []),
+                ...(pack.incidents[lifecycle.incident.disguised] && event.name !== lifecycle.incident.disguised ? [lifecycle.incident.disguised] : []),
               ];
               for (const name of names)
                 for (const culprit of pack.incidents[name]?.crowdThreshold !== undefined
@@ -250,12 +253,12 @@ function initialDomain(pack: RulePack, opening: PlayerView) {
     names.length > 0 &&
     !restricted.some((name) => pack.identities[name]) &&
     !pack.plots['灭亡讴歌'] &&
-    !pack.incidents['伪造事件'] &&
+    !pack.incidents[lifecycle.incident.disguised] &&
     names.every(
       (name) =>
         pack.incidents[name]?.supported &&
         pack.incidents[name]?.crowdThreshold === undefined &&
-        name !== '连续杀人',
+        name !== lifecycle.incident.repeatCulprit,
     );
   const n = publicRoster(pack, opening).length;
   const weight = independent ? names.reduce((value, _, i) => value * Math.max(0, n - i), 1) : 1;
@@ -364,7 +367,7 @@ export class EnumeratedKnowledge {
       this.limited = false;
     }
     this.expected = next;
-    this.observations = structuredClone(history);
+    this.observations = structuredClone(history.slice(0, next.length));
     this.revision = revision;
     this.propagate();
   }
@@ -394,10 +397,10 @@ export class EnumeratedKnowledge {
             contradicts =
               (setup.anniversaryFragment === c.id ? '因果残片' : c.identity) !== d.identity &&
               !(
-                c.identity === '平民' &&
+                c.identity === lifecycle.transformation.initial &&
                 setup.anniversaryFragment !== c.id &&
-                setup.x.includes('妄想扩大病毒') &&
-                d.identity === '杀人狂'
+                setup.x.includes(lifecycle.transformation.plot) &&
+                d.identity === lifecycle.transformation.effective
               );
         }
         if (observation.type === 'rule' && typeof d.rule === 'string')
@@ -550,7 +553,7 @@ export class EnumeratedKnowledge {
       }
       const node = candidate.active[candidate.active.length - 1]!;
       const actual = (node.normalized ??= normalizeHistory(node.state.observations.protagonists));
-      if (actual.slice(0, this.expected.length).some((o, i) => o !== this.expected[i])) {
+      if (actual.slice(0, this.expected.length).some((_, i) => !matchesPlayerObservation(actual,this.expected,i,node.state.observations.protagonists[i]!))) {
         candidate.active.pop();
         continue;
       }
@@ -607,13 +610,24 @@ export class EnumeratedKnowledge {
       this.expected.every((o, i) => normalizeHistory(this.opening.observations)[i] === o)
     );
   }
+  /** Exact materialized configurations for independent audits. Streaming or
+   * unfinished searches must not masquerade as an empty joint space. */
+  jointSolutions(): GameSetup[] | undefined {
+    if (!this.materializeForComparison || !this.initialCached || this.streamed || !this.complete)
+      return;
+    const view = this.snapshot();
+    if (!['exact', 'contradiction'].includes(view.status)) return;
+    return this.candidates
+      .filter(c => this.initialOnly || this.rootSatisfied(c) || c.frontier.length)
+      .map(c => structuredClone(c.setup));
+  }
   /** Trusted-host query for one entire initial configuration, not independent marginal guesses. */
   queryConfiguration(setup: GameSetup): 'possible' | 'excluded' | 'unknown' {
     if (this.reasons.length) return 'unknown';
     const key = (s: GameSetup) =>
       canonical({
         y: s.y,
-        x: [...s.x].sort(),
+        x: s.module === 'WM' ? s.x : [...s.x].sort(),
         module: s.module,
         anniversary: s.anniversary,
         anniversaryFragment: s.anniversaryFragment,

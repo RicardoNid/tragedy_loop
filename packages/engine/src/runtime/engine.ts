@@ -1,3 +1,5 @@
+import { lifecycle } from './shared-lifecycle.js';
+import { affectedByBoardCards, cardBypassRoles, cardCounterEffect, cardDestination, cardTotals, mastermindCardImmune, multipleBlocksApply, goodwillMovePlot } from './card-settlement.js';
 import type {
   Actor,
   Area,
@@ -14,6 +16,7 @@ import {
   COUNTERS,
   canonical,
   clone,
+  forkWorkingState,
   zeroCounters,
   type Ability,
   type CharacterState,
@@ -27,6 +30,9 @@ import {
 } from './model.js';
 import {
   checkSpecialVictory,
+  goodwillCounter,
+  incidentExGain,
+  incidentThresholdMet,
   destination,
   effective,
   identities,
@@ -91,7 +97,6 @@ function initializePhase(
 }
 function beginDiscussion(state: EngineState) {
   enter(state, 'discussion');
-  if (state.publicTerritory) announce(state, 'board', { territory: state.publicTerritory });
 }
 export function environment(state: EngineState, frame: Frame): Environment {
   const configuration = state.setup.characters.find((c) => c.id === frame.owner);
@@ -126,7 +131,7 @@ export function environment(state: EngineState, frame: Frame): Environment {
   if (env.effectiveArea) env['self.area'] = env.effectiveArea;
   return env;
 }
-function options(
+export function options(
   pack: RulePack,
   state: EngineState,
   frame: Frame,
@@ -310,12 +315,7 @@ function available(
       : !test(pack, state, ability.condition, environment(state, frame))
   )
     return false;
-  const counter =
-    pack.module === 'AHR' &&
-    state.ex % 2 === 1 &&
-    !(actor === 'mastermind' && ['doctor-counter', 'higher-being'].includes(ability.id))
-      ? 'paranoia'
-      : 'goodwill';
+  const counter = goodwillCounter(pack.module, state.ex, actor, ability.id);
   if (ability.threshold !== undefined && effective(state, owner, counter) < ability.threshold)
     return false;
   // Initial legal target is required to declare an optional ability. Later empty steps are skipped.
@@ -379,14 +379,13 @@ function abilities(
     );
     const characterAbilities = pack.characters[c.character]?.abilities ?? [];
     for (const ability of [...idAbilities, ...characterAbilities]) {
+      const alternate = pack.characters[c.character]?.mastermindGoodwill;
       const mastermindGoodwill =
         timing === 'mastermind-abilities' &&
         ability.timing === 'protagonist-abilities' &&
         refusal(pack, state, c.id) !== 'none' &&
-        ((c.character === '医生' &&
-          ability.id === 'doctor-counter' &&
-          effective(state, c.id, 'goodwill') >= 2) ||
-          (c.character === '上位存在' && effective(state, c.id, 'goodwill') >= 1) ||
+        ((alternate && (!alternate.ability || alternate.ability === ability.id) &&
+          effective(state, c.id, 'goodwill') >= alternate.minimum) ||
           pack.identities[c.identity]?.puppet ||
           (pack.module === 'AHR' && state.setup.x.includes('傀儡之线')));
       if (
@@ -394,7 +393,7 @@ function abilities(
         Boolean(ability.mandatory) === mandatory
       ) {
         let adjusted =
-          mastermindGoodwill && c.character === '上位存在' ? { ...ability, threshold: 1 } : ability;
+          mastermindGoodwill && alternate?.overrideThreshold !== undefined ? { ...ability, threshold: alternate.overrideThreshold } : ability;
         const rule = pack.characters[c.character]?.abilityArea;
         const usesMarker =
           rule && actor === rule.actor && (c.status === 'alive' || timing === 'death');
@@ -519,6 +518,38 @@ function enter(state: EngineState, phase: Phase): void {
   state.phaseEntered = false;
   announce(state, 'boundary', { phase, captain: state.captain });
 }
+
+function nextDayBoundary(state: EngineState) {
+  if (state.endRequested || state.day === state.setup.days)
+    return { phase: 'loop-end' as const, loop: state.loop, day: state.day };
+  return { phase: 'day-start' as const, loop: state.loop, day: state.day + 1 };
+}
+
+/** Project the first boundary only when remaining bookkeeping is silent.
+ * Passing an offered day-end ability proves one path, not all continuations. */
+export function settledPhaseBoundary(pack: RulePack, state: EngineState) {
+  if (state.batch || state.frames.length || state.winner || state.latchedWinner || state.diagnostic)
+    return;
+  if (
+    state.phase === 'card-resolution' && state.phaseEntered && !state.pending &&
+    !state.endRequested && state.flags['cards-part'] === '3'
+  )
+    return { boundary: { phase: nextPhase['card-resolution']!, loop: state.loop, day: state.day } };
+  if (state.phase !== 'day-end') return;
+  if (state.pending) {
+    if (!state.phaseEntered || state.pending.kind !== 'ability' || state.pending.actor !== 'mastermind')
+      return;
+    const pass = state.pending.options.find((choice) => choice.kind === 'pass');
+    if (pass) return { boundary: nextDayBoundary(state), pass };
+    return;
+  }
+  if (!state.endRequested) {
+    if (!state.phaseEntered) return;
+    if (!state.flags['passed:day-end'] && abilities(pack, state, 'day-end', false, 'mastermind').length)
+      return;
+  }
+  return { boundary: nextDayBoundary(state) };
+}
 function visibleBoard(state: EngineState): string {
   return canonical({
     characters: Object.values(state.characters).map((c) => [c.id, c.area, c.status, c.counters]),
@@ -553,8 +584,9 @@ function enqueueIncident(
   if (definition.crowdThreshold !== undefined && state.characters[culprit]?.character === 'AI')
     culprit = 'city';
   const c = state.characters[culprit];
-  const steps = c?.character === '黑猫' ? [] : clone(definition.steps);
-  if (c?.character === '教主' && !nested) steps.push(...clone(steps));
+  const behavior = c && pack.characters[c.character]?.incident;
+  const steps = behavior?.execution === 'cancel' ? [] : clone(definition.steps);
+  if (behavior?.execution === 'repeat' && !nested) steps.push(...clone(steps));
   const id = `source-${++state.serial}`;
   const bound: Environment = {
     beforeVisible: visibleBoard(state),
@@ -896,9 +928,9 @@ function processBatch(pack: RulePack, state: EngineState): void {
       ),
     );
     const dead = state.characters[id]!;
-    const counterpart =
-      dead.identity === '求爱者' ? '心上人' : dead.identity === '心上人' ? '求爱者' : '';
-    if (counterpart)
+    const reaction = pack.identities[dead.identity]?.partnerReaction;
+    const counterpart = reaction?.survivor;
+    if (reaction && counterpart)
       for (const c of Object.values(state.characters).filter(
         (c) => c.status === 'alive' && c.identity === counterpart,
       ))
@@ -908,7 +940,7 @@ function processBatch(pack: RulePack, state: EngineState): void {
           owner: c.id,
           actor: 'mastermind',
           kind: 'mandatory',
-          steps: [{ effects: [{ op: 'counter', target: c.id, counter: 'paranoia', amount: 6 }] }],
+          steps: [{ effects: [{ op: 'counter', target: c.id, counter: 'paranoia', amount: reaction.paranoia }] }],
           step: 0,
           choices: {},
           bound: {},
@@ -952,7 +984,7 @@ function rejectAbility(pack: RulePack, state: EngineState, frame: Frame): void {
   }
 }
 function resetLoop(pack: RulePack, state: EngineState): void {
-  const before = clone(state);
+  const before = forkWorkingState(state);
   for (const config of state.setup.characters) {
     const c = state.characters[config.id]!,
       def = pack.characters[c.character]!;
@@ -1015,56 +1047,58 @@ function resetLoop(pack: RulePack, state: EngineState): void {
   }
   publishChanges(before, state);
 }
-function startLoop(state: EngineState): void {
+function startLoop(pack: RulePack, state: EngineState): void {
   const effects: Intent[] = [];
+  const grant = (side: 'mastermind' | 'protagonists', card: 'hope+1' | 'despair+1') =>
+    effects.push({ effect: { op: 'grant', side, card }, env: {} });
   for (const c of Object.values(state.characters)) {
     if (c.status !== 'alive') continue;
     if (!state.appeared.includes(c.id)) state.appeared.push(c.id);
-    if (c.character === '黑猫')
+    if (pack.characters[c.character]?.loopShrineIntrigue)
       effects.push({
         effect: { op: 'counter', target: 'shrine', counter: 'intrigue', amount: 1 },
         env: {},
       });
-    if (c.identity === '亲友' && c.revealed)
+    if (c.identity === lifecycle.revealedFriend.identity && c.revealed)
       effects.push({
-        effect: { op: 'counter', target: c.id, counter: 'goodwill', amount: 1 },
+        effect: { op: 'counter', target: c.id, counter: 'goodwill', amount: lifecycle.revealedFriend.goodwill },
         env: {},
       });
     const previous = state.previousLoop?.characters[c.id];
     if (c.identity === '因果残片' && previous) {
-      if (previous.status === 'dead') grantCard(state, 'mastermind', 'despair+1');
+      if (previous.status === 'dead') grant('mastermind', 'despair+1');
       if (previous.status === 'alive' && previous.counters.goodwill + previous.counters.hope >= 2)
-        for (const actor of seats) grantCard(state, actor, 'hope+1');
+        grant('protagonists', 'hope+1');
     }
     if (c.identity === '叙述者' && state.previousLoop && state.previousLoop.ex >= 3)
-      for (const actor of seats) grantCard(state, actor, 'hope+1');
+      grant('protagonists', 'hope+1');
     if (
-      state.setup.x.includes('因果线') &&
+      state.setup.x.includes(lifecycle.previousFriend.plot) &&
       previous &&
       previous.counters.goodwill + previous.counters.hope > 0
     )
       effects.push({
-        effect: { op: 'counter', target: c.id, counter: 'paranoia', amount: 2 },
+        effect: { op: 'counter', target: c.id, counter: 'paranoia', amount: lifecycle.previousFriend.paranoia },
         env: {},
       });
   }
   if (state.setup.x.includes('超越世界线')) {
-    if (state.loop % 2 === 0) grantCard(state, 'mastermind', 'despair+1');
+    if (state.loop % 2 === 0) grant('mastermind', 'despair+1');
     if (state.loop === state.setup.loops)
-      for (const actor of seats) grantCard(state, actor, 'hope+1');
+      grant('protagonists', 'hope+1');
   }
   if (effects.length)
     enqueueFlow(state, 'loop-start-base', [{ effects: effects.map((i) => i.effect) }]);
   for (const c of Object.values(state.characters).filter(
-    (c) => c.status === 'alive' && c.character === '学者',
+    (c) => c.status === 'alive' && c.character === lifecycle.startCounter.owner,
   ))
     enqueueFlow(
       state,
       'scholar-start',
       [
         {
-          choices: [{ key: 'counter', options: ['goodwill', 'paranoia', 'intrigue'] }],
-          effects: [{ op: 'counter', target: c.id, counter: '$counter', amount: 1 }],
+          choices: [{ key: 'counter', options: [...lifecycle.startCounter.counters] }],
+          effects: [{ op: 'counter', target: c.id, counter: '$counter', amount: lifecycle.startCounter.amount }],
         },
       ],
       c.id,
@@ -1121,7 +1155,7 @@ export function legalCardTargets(state: EngineState, actor: Actor): string[] {
         (c) =>
           c.status === 'alive' &&
           c.character !== '幻想' &&
-          (actor !== 'mastermind' || !['预言家', '狼人'].includes(c.identity)) &&
+          (actor !== 'mastermind' || !mastermindCardImmune(c.identity)) &&
           (actor === 'mastermind' ||
             (!c.flags['no-protagonist-cards'] &&
               !(
@@ -1141,8 +1175,7 @@ function resolveCards(pack: RulePack, state: EngineState, part: number): void {
     ...p,
     card: state.cards.find((c) => c.id === p.card)!,
   }));
-  const globalBlocks = placements.filter((p) => p.card.kind === 'block-intrigue').length;
-  const hopes = placements.filter((p) => p.card.kind === 'hope+1').length;
+  const totals = cardTotals(placements.map((p) => p.card));
   for (const target of [
     ...BOARDS,
     ...Object.values(state.characters)
@@ -1151,58 +1184,46 @@ function resolveCards(pack: RulePack, state: EngineState, part: number): void {
   ]) {
     const c = state.characters[target];
     const group = placements.filter(
-      (p) => p.target === target || (c?.character === '幻想' && p.target === c.area),
+      (p) => p.target === target || (affectedByBoardCards(c?.character) && p.target === c?.area),
     );
     const kinds = group.map((p) => p.card.kind);
-    if (
-      part === 0 &&
-      c &&
-      !kinds.includes('block-movement') &&
-      !(state.setup.x.includes('心无灵犀') && kinds.includes('block-goodwill'))
-    ) {
-      const area = destination(
-        c.area,
-        kinds.filter((k) => ['horizontal', 'vertical', 'diagonal'].includes(k)),
-      );
+    if (part === 0 && c) {
+      const area = cardDestination(c.area, kinds, state.setup.x.includes(goodwillMovePlot));
       if (area !== c.area) intents.push({ effect: { op: 'move', target, area }, env: {} });
     }
     if (part > 0)
       for (const original of kinds) {
-        const kind = original === 'hope+1' && hopes >= 2 ? 'goodwill+1' : original;
-        const [counter, magnitude] = kind.split(/(?=[+-])/);
-        if (
-          !['goodwill', 'paranoia', 'intrigue', 'hope', 'despair'].includes(counter!) ||
-          !magnitude
-        )
-          continue;
-        const n = Number(magnitude);
+        const effect = cardCounterEffect(
+          original,
+          kinds,
+          totals,
+          multipleBlocksApply(pack.module, state.ex),
+        );
+        if (!effect) continue;
+        const { counter, amount: n, block } = effect;
         if ((part === 1 && n < 0) || (part === 2 && n > 0)) continue;
         if (
-          counter === 'goodwill' &&
-          kinds.includes('block-goodwill') &&
-          (!identities(state, target).some((i) => ['时间旅者', '次元旅者'].includes(i)) ||
+          block === 'goodwill' &&
+          (!identities(state, target).some((i) => cardBypassRoles.goodwill.includes(i)) ||
             group.some((p) => p.card.kind === 'block-goodwill' && p.target !== target))
         )
           continue;
-        if (counter === 'paranoia' && kinds.includes('block-paranoia')) continue;
-        const cultist = Object.values(state.characters).some(
-          (t) =>
-            t.status === 'alive' &&
-            t.flags.cultist &&
-            (t.flags['cultist-area'] ?? t.area) === (c?.area ?? target),
-        );
+        if (block === 'paranoia') continue;
         if (
-          counter === 'intrigue' &&
-          kinds.includes('block-intrigue') &&
-          (globalBlocks < 2 || (pack.module === 'WM' && state.ex >= 3)) &&
-          !cultist
+          block === 'intrigue' &&
+          !Object.values(state.characters).some(
+            (t) =>
+              t.status === 'alive' &&
+              t.flags.cultist &&
+              (t.flags['cultist-area'] ?? t.area) === (c?.area ?? target),
+          )
         )
           continue;
         intents.push({
           effect: {
             op: 'counter',
             target,
-            counter: counter as 'goodwill' | 'paranoia' | 'intrigue',
+            counter,
             amount: n,
           },
           env: {},
@@ -1236,8 +1257,8 @@ function triggerAreaKey(state: EngineState, owner: CharacterState): string {
   return `incident-trigger-area:${state.loop}:${state.day}:${owner.id}`;
 }
 
-function incidentCulprits(state: EngineState, original: EngineState['characters'][string]) {
-  return original.character === '临时工'
+function incidentCulprits(pack: RulePack, state: EngineState, original: EngineState['characters'][string]) {
+  return pack.characters[original.character]?.incident?.execution === 'proxy'
     ? [original, ...Object.values(state.characters).filter((c) => c.character === '临时工？')]
     : [original];
 }
@@ -1269,18 +1290,10 @@ function occur(pack: RulePack, state: EngineState): void {
     }
     return;
   }
-  const culprits = incidentCulprits(state, original);
+  const culprits = incidentCulprits(pack, state, original);
   const triggered: string[] = [];
   for (const c of culprits) {
-    const definition = pack.incidents[i.name]!;
-    let threshold =
-      c.paranoiaLimit + (definition.thresholdOffset ?? 0) * (c.character === '教主' ? 2 : 1);
-    if (
-      state.setup.x.includes('灭亡讴歌') &&
-      c.identity === '平民' &&
-      Object.values(state.characters).some((t) => t.identity === '预言家' && t.status === 'alive')
-    )
-      threshold--;
+    const prophetAlive = Object.values(state.characters).some(t => t.status === 'alive' && t.identity === '预言家');
     const prophet = Object.values(state.characters).some(
       (t) => t.id !== c.id && t.status === 'alive' && t.identity === '预言家' && t.area === c.area,
     );
@@ -1296,22 +1309,6 @@ function occur(pack: RulePack, state: EngineState): void {
       Object.values(state.characters).some(
         (t) => t.status === 'alive' && t.identity === '监视者' && t.area === c.area,
       );
-    let paranoia = effective(
-      state,
-      c.id,
-      definition.thresholdCounter ??
-        (pack.module === 'AHR' && state.ex % 2 === 1 ? 'goodwill' : 'paranoia'),
-    );
-    const ordinaryParanoia =
-      !definition.thresholdCounter && !(pack.module === 'AHR' && state.ex % 2 === 1);
-    if (ordinaryParanoia && c.character === 'AI')
-      paranoia = COUNTERS.reduce((n, k) => n + c.counters[k], 0);
-    else if (
-      ordinaryParanoia &&
-      (c.identity === '祭品' ||
-        (state.setup.y === '士的宁毒液' && ['连续杀人', '自杀'].includes(i.name)))
-    )
-      paranoia += c.counters.intrigue;
     const occurred =
       c.status === 'alive' &&
       !c.flags['no-incidents'] &&
@@ -1320,7 +1317,7 @@ function occur(pack: RulePack, state: EngineState): void {
         i.name === '次元转换' ||
         sameAreaTrigger ||
         watcher ||
-        paranoia >= threshold);
+        incidentThresholdMet(pack,i.name,c.character,c.identity,c.counters,c.paranoiaLimit,state.ex,state.setup.y,state.setup.x,prophetAlive));
     if (occurred) triggered.push(c.id);
   }
   announce(state, 'incident', {
@@ -1329,7 +1326,6 @@ function occur(pack: RulePack, state: EngineState): void {
     occurred: triggered.length > 0,
   });
   if (!triggered.length) return;
-  const definition = pack.incidents[i.name]!;
   const first = !state.incidents.some((t) => t.name === i.name && t.day === i.day);
   state.flags['first-occurrence'] = first ? 'yes' : '';
   state.incidents.push({
@@ -1341,7 +1337,7 @@ function occur(pack: RulePack, state: EngineState): void {
   });
   if (state.flags.hound) state.flags['hound-due'] = 'yes';
   if (pack.module === 'MC') {
-    state.ex += original.character === '黑猫' ? 1 : (definition.exGain ?? 1);
+    state.ex += incidentExGain(pack,i.name,original.character);
     announce(state, 'board', { ex: state.ex });
   }
   const group = `incident:${++state.serial}`;
@@ -1484,7 +1480,7 @@ export function drive(pack: RulePack, state: EngineState, budget: number): 'ok' 
       }
       if (state.phase === 'loop-start' && !state.flags['placements-done']) {
         state.flags['placements-done'] = 'yes';
-        for (const c of Object.values(state.characters).filter((c) => c.character === '手下'))
+        for (const c of Object.values(state.characters).filter((c) => c.character === lifecycle.startPlacement.owner))
           enqueueFlow(
             state,
             'henchman-placement',
@@ -1502,7 +1498,7 @@ export function drive(pack: RulePack, state: EngineState, budget: number): 'ok' 
         const scheduled = state.setup.incidents.find((i) => i.day === state.day);
         const culprit = scheduled && state.characters[scheduled.culprit];
         if (culprit) {
-          const culprits = incidentCulprits(state, culprit);
+          const culprits = incidentCulprits(pack, state, culprit);
           for (const owner of Object.values(state.characters)) {
             const rule = pack.characters[owner.character]?.abilityArea;
             if (!rule || !hasSameAreaTrigger(pack, state, owner)) continue;
@@ -1533,9 +1529,9 @@ export function drive(pack: RulePack, state: EngineState, budget: number): 'ok' 
       state.phaseEntered = true;
       checkSpecialVictory(state);
       if (state.latchedWinner) continue;
-      if (state.phase === 'loop-start') startLoop(state);
+      if (state.phase === 'loop-start') startLoop(pack, state);
       if (state.phase === 'day-start') {
-        const before = clone(state);
+        const before = forkWorkingState(state);
         for (const c of Object.values(state.characters)) delete c.flags.immobile;
         delete state.flags['mad-night-today'];
         for (const c of state.setup.characters)
@@ -1584,7 +1580,7 @@ export function drive(pack: RulePack, state: EngineState, budget: number): 'ok' 
       if (
         state.phase === 'loop-end' &&
         state.revealedIdentities.some(
-          (r) => r.loop === state.loop && ['主谋', '不安定因子', '魔术师'].includes(r.identity),
+          (r) => r.loop === state.loop && ['主谋', lifecycle.borrowed.identity, '魔术师'].includes(r.identity),
         )
       )
         state.flags['classified-revealed'] = 'yes';
@@ -1607,7 +1603,7 @@ export function drive(pack: RulePack, state: EngineState, budget: number): 'ok' 
         for (const c of Object.values(state.characters).filter(
           (c) =>
             c.status === 'alive' &&
-            c.character === '御神木' &&
+            pack.characters[c.character]?.mandatoryFirstMastermindAbility &&
             refusal(pack, state, c.id) !== 'none',
         )) {
           const a = pack.characters[c.character]!.abilities[0]!;
@@ -1693,8 +1689,8 @@ export function drive(pack: RulePack, state: EngineState, budget: number): 'ok' 
           .filter(
             (c) =>
               c.status === 'alive' &&
-              c.character === '临时工' &&
-              COUNTERS.reduce((n, k) => n + c.counters[k], 0) >= 3,
+              c.character === lifecycle.dayEndDeath.owner &&
+              COUNTERS.reduce((n, k) => n + c.counters[k], 0) >= lifecycle.dayEndDeath.minimumTotal,
           )
           .map((c) => ({ effect: { op: 'kill', target: c.id }, env: {} }));
         // These belong to the same established day-end mandatory batch.
@@ -1797,7 +1793,7 @@ export function drive(pack: RulePack, state: EngineState, budget: number): 'ok' 
         delete c.flags.cultist;
         delete c.flags['cultist-area'];
       }
-      enter(state, 'mastermind-abilities');
+      enter(state, nextPhase['card-resolution']!);
       continue;
     }
     if (
@@ -1842,15 +1838,15 @@ export function drive(pack: RulePack, state: EngineState, budget: number): 'ok' 
       return 'ok';
     }
     if (state.phase === 'day-end') {
-      if (state.day === state.setup.days) enter(state, 'loop-end');
-      else {
-        state.day++;
+      const boundary = nextDayBoundary(state);
+      if (boundary.phase === 'day-start') {
+        state.day = boundary.day;
         for (const k of Object.keys(state.flags).filter(
           (k) => k.startsWith('passed:') || k.startsWith('follow:'),
         ))
           delete state.flags[k];
-        enter(state, 'day-start');
       }
+      enter(state, boundary.phase);
       continue;
     }
     if (state.phase === 'incident' && state.flags['hound-due']) {
@@ -2017,11 +2013,15 @@ function applyChoice(pack: RulePack, state: EngineState, choice: Choice): boolea
   if (choice.kind === 'continue') {
     resetLoop(pack, state);
     enter(state, 'loop-start');
+    if (state.loop === 1 && state.publicTerritory) announce(state, 'board', { territory: state.publicTerritory });
     return true;
   }
   if (choice.kind === 'refuse' && state.refusal) {
-    if (choice.refuse) rejectAbility(pack, state, state.refusal);
-    state.refusal.bound.refusalChecked = 'yes';
+    // A JSON snapshot stores refusal and the queued frame as separate objects.
+    const frame = state.batch?.frames.find((f) => f.id === state.refusal!.id);
+    if (!frame) return false;
+    if (choice.refuse) rejectAbility(pack, state, frame);
+    frame.bound.refusalChecked = 'yes';
     state.refusal = null;
     return true;
   }
@@ -2045,6 +2045,20 @@ export function advance(
   command: Command,
   budget = 10000,
 ): AdvanceResult {
+  return advanceWithCopy(pack, input, actor, command, budget, clone);
+}
+
+// Search owns every branch and never exposes writable history to callers.
+// Previously published entries are immutable; only entries appended by the
+// current action may acquire simultaneous-group metadata.
+export function advanceSearchBranch(pack: RulePack, input: EngineState, actor: Actor, command: Command) {
+  return advanceWithCopy(pack, input, actor, command, 10000, forkWorkingState);
+}
+
+function advanceWithCopy(
+  pack: RulePack, input: EngineState, actor: Actor, command: Command,
+  budget: number, copy: (state: EngineState) => EngineState,
+): AdvanceResult {
   if (!commandSchema.safeParse(command).success)
     return { status: 'rejected', state: input, reason: 'invalid-command' };
   if (input.ruleDigest !== pack.digest)
@@ -2065,8 +2079,7 @@ export function advance(
     ['__proto__', 'constructor', 'prototype'].includes(command.id)
   )
     return { status: 'rejected', state: input, reason: 'invalid-command' };
-  const state = clone(input);
-  // structuredClone preserves the shared reference between refusal and batch frame.
+  const state = copy(input);
   if (!applyChoice(pack, state, command.choice))
     return { status: 'rejected', state: input, reason: 'invalid-command' };
   // The briefing ends before the gameplay observation log used for replay begins.

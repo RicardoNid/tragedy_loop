@@ -1,10 +1,66 @@
 import type { Choice, GameSetup, Observation, PlayerView } from '../../../contracts/src/game.js';
-import { advance, initializeDiscussion } from './engine.js';
+import { advanceSearchBranch, initializeDiscussion } from './engine.js';
 import { canonical, type EngineState, type RulePack } from './model.js';
-import { normalizeHistory } from './reference.js';
+import { normalizeHistory, matchesObservation } from './observation-history.js';
 import { enumerateChoices } from './replay.js';
 import { hasUnsupportedDiagnostic } from './setup.js';
 
+/** The public identity of a curse card persists, while its engine serial also counts private decisions.
+ * Compare the trajectories of physical cards up to this prefix, allowing a consistent renaming.
+ * Two cards first seen together on the same target need not acquire an arbitrary relative order. */
+export function matchesPlayerObservation(
+  actual: readonly string[],
+  expected: readonly string[],
+  index: number,
+  delivered: Observation,
+) {
+  const left = actual[index]!,
+    right = expected[index]!;
+  const marker = '"curses":[';
+  if (!left.includes(marker) || !right.includes(marker))
+    return matchesObservation(left, right, delivered);
+  function publicCurses(history: readonly string[]) {
+    const paths = new Map<string, string[]>();
+    let snapshot = 0;
+    let last: Observation | undefined;
+    for (let i = 0; i <= index; i++) {
+      if (!history[i]!.includes(marker)) continue;
+      const o = JSON.parse(history[i]!) as Observation;
+      const cards = o.data.curses;
+      if (
+        o.type !== 'board' ||
+        !Array.isArray(cards) ||
+        !cards.every(
+          (card) => card && typeof card.id === 'string' && typeof card.target === 'string',
+        )
+      )
+        return;
+      const unique = new Set(cards.map((c) => c.id));
+      if (unique.size !== cards.length) return;
+      for (const c of cards) {
+        const visits = paths.get(c.id) ?? [];
+        visits.push(JSON.stringify([snapshot, c.target]));
+        paths.set(c.id, visits);
+      }
+      snapshot++;
+      if (i === index) {
+        const entries = cards
+          .map((c) => ({ ...c, id: paths.get(c.id)!.join('/') }))
+          .sort((a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0));
+        last = { ...o, data: { ...o.data, curses: entries } };
+      }
+    }
+    return last && { last, paths: [...paths.values()].map((v) => JSON.stringify(v)).sort() };
+  }
+  const a = publicCurses(actual),
+    b = publicCurses(expected);
+  return Boolean(
+    a &&
+      b &&
+      canonical(a.paths) === canonical(b.paths) &&
+      matchesObservation(canonical(a.last), canonical(b.last), a.last),
+  );
+}
 interface Node {
   state: EngineState;
   normalized: string[];
@@ -58,6 +114,7 @@ export class HistorySearch {
     setup: GameSetup,
     private evidence: EvidenceLog,
     opening: PlayerView,
+    private onMismatch?: (offset: number, expected: Observation) => void,
   ) {
     const result = initializeDiscussion(pack, setup);
     if (!result.state) {
@@ -79,7 +136,8 @@ export class HistorySearch {
     if (node && node.normalized.length >= this.evidence.normalized.length) {
       while (node.matched < this.evidence.normalized.length) {
         this.compared++;
-        if (node.normalized[node.matched] !== this.evidence.normalized[node.matched]) break;
+        if (!matchesPlayerObservation(node.normalized,this.evidence.normalized,node.matched,
+          node.state.observations.protagonists[node.matched]!)) break;
         node.matched++;
       }
       if (node.matched === this.evidence.normalized.length) {
@@ -110,7 +168,9 @@ export class HistorySearch {
     const end = Math.min(node.normalized.length, this.evidence.normalized.length);
     while (node.matched < end) {
       this.compared++;
-      if (node.normalized[node.matched] !== this.evidence.normalized[node.matched]) {
+      if (!matchesPlayerObservation(node.normalized,this.evidence.normalized,node.matched,
+          node.state.observations.protagonists[node.matched]!)) {
+        this.onMismatch?.(node.matched, node.state.observations.protagonists[node.matched]!);
         this.active.pop();
         return;
       }
@@ -149,7 +209,7 @@ export class HistorySearch {
     if (node.tried!.has(choiceKey)) return;
     node.tried!.add(choiceKey);
     this.expansions++;
-    const next = advance(this.pack, node.state, pending.actor, {
+    const next = advanceSearchBranch(this.pack, node.state, pending.actor, {
       id: `knowledge-${node.state.revision}`,
       expectedRevision: node.state.revision,
       decisionId: pending.id,

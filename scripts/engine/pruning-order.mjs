@@ -9,10 +9,11 @@ const root = fileURLToPath(new URL('../../', import.meta.url));
 const solver = path.resolve(process.argv[2] ?? root);
 const runtime = 'packages/engine/src/runtime/';
 const get = (p) => import(pathToFileURL(path.join(solver, p)).href);
+const { compiledSection, goodwillPolicy } = await get('scripts/engine/compiled-pruning.mjs');
 const { compileOfficial } = await get('packages/content/src/official/compile.ts');
 const { PruningCatalog, indexOwners, eligibleSource } = await get(runtime + 'knowledge-pruning.ts');
 const { initialState, validateSetup } = await get(runtime + 'setup.ts');
-const { project } = await get(runtime + 'ports.ts');
+const { initialPlacementView } = await get(runtime + 'ports.ts');
 const { LiveKnowledge } = await get(runtime + 'knowledge-live.ts');
 const entries = JSON.parse(
   fs.readFileSync(path.join(solver, 'packages/content/src/official/source-catalog.json')),
@@ -32,7 +33,7 @@ const moduleFor = (e) =>
     ? both
     : e.module;
 const loc = {
-  index: ['knowledge-pruning', 'forChange(phase:'],
+  index: ['knowledge-pruning', '  forChange('],
   range: ['knowledge-pruning', 'export function indexOwners'],
   eligible: ['knowledge-pruning', 'export function eligibleSource'],
   effect: ['knowledge-scope', 'private visibleEffect('],
@@ -41,7 +42,8 @@ const loc = {
   clock: ['knowledge-scope', 'private mandatoryWindow('],
   end: ['knowledge-scope', 'private closedDayEnd('],
   bypass: ['knowledge-scope', 'private bypass('],
-  cards: ['knowledge-cards', '  collect(o:'],
+  cards: ['knowledge-cards', '  collect('],
+  primary: ['knowledge-goodwill', 'export function firstGoodwillReports'],
   happen: ['knowledge-pruning', '  permitsOccurrence('],
   incident: ['knowledge-scope', 'private incident('],
   empty: ['knowledge-scope', 'private quietIncident('],
@@ -58,6 +60,10 @@ const loc = {
   play: ['engine', 'export function drive('],
   init: ['setup', 'export function validateSetup'],
   receive: ['knowledge-live', '  append('],
+  component: ['knowledge-constraints', '  finishSettlement('],
+  victims: ['knowledge-death-settlement', 'export function projectIncidentDeaths('],
+  incidentStep: ['knowledge-incident-settlement', 'export function incidentStepProjection('],
+  mandatoryBatch: ['knowledge-mandatory-settlement', 'export function projectDayEnd('],
   change: ['knowledge-effects', 'export function compileEffects'],
   public: ['knowledge-scope', '  publicUpdate('],
   condition: ['knowledge-conditions', 'export function publicValue'],
@@ -81,7 +87,7 @@ function source(key) {
   assert.ok(line, key);
   return (
     '<a href="' +
-    esc(pathToFileURL(file).href) +
+    esc(solver === path.resolve(root) ? '../../'+runtime+name+'.ts' : pathToFileURL(file).href) +
     '"><code>' +
     esc(name + '.ts:' + line) +
     '</code></a>'
@@ -157,10 +163,10 @@ function rumor(mod) {
   });
   assert.deepEqual(validateSetup(pack, setup), []);
   const s = initialState(pack, setup),
-    k = new LiveKnowledge(pack, project(s, 'protagonists')),
+    k = new LiveKnowledge(pack, initialPlacementView(s)),
     before = k.snapshot();
   const o = { loop: 1, day: 1, phase: 'mastermind-abilities' };
-  const opening = project(s, 'protagonists'),
+  const opening = initialPlacementView(s),
     roster = opening.characters.map(({ id, character }) => ({ id, character }));
   const catalog = new PruningCatalog(pack, opening, roster),
     characters = new Map(opening.characters.map((c) => [c.id, c]));
@@ -1453,11 +1459,16 @@ function abilityRow(name, ability, text, branch, ex, end, special = false) {
       '与目标选择条件｜保留相容来源及次数约束；回放再检验目标、拒绝与完整结算';
     refs = 'index eligible effect avail hist';
   }
+  if (!special && ability.threshold !== undefined && !ability.mandatory) {
+    steps = '通用发动窗口绑定角色与选择；检查拒绝和次数｜' + goodwillPolicy(ability);
+    route = shown || rule || culprit ? '正式披露时检查' : '公开结算及后续观察';
+    refs = 'primary refuse disclose diff hist';
+  }
   if (special) {
     steps += '｜回放时先检验剧作家使用权限：当前允许无视友好且有效友好达 ' + gate;
     refs += ' batch';
   }
-  if (branch !== '护卫替代死亡') steps += '｜' + replayChecks(ability, gate);
+  if (branch !== '护卫替代死亡' && (special || ability.threshold === undefined)) steps += '｜' + replayChecks(ability, gate);
   const program = {
     id,
     timing: ph,
@@ -1627,6 +1638,7 @@ const cardNames = {
   'block-goodwill': '禁止友好',
   'block-intrigue': '禁止密谋',
   'paranoia+1': '不安 +1',
+  'paranoia+2': '不安 +2',
   'paranoia-1': '不安 −1',
   'goodwill+1': '友好 +1',
   'goodwill+2': '友好 +2',
@@ -1664,9 +1676,14 @@ for (const owner of ['mastermind', 'p0']) {
         (card.once ? '，每轮限一次' : '') +
         '）｜翻牌后按目标归组｜' +
         (target === '移动'
-          ? '取同目标上的方向与禁止移动，按起点求目的地｜和实际移动比对，缺报时保留禁行或替代待核'
+          ? '只取同目标的方向和禁止移动；候选含心无灵犀时才另查同目标的禁止友好｜核对起点、禁行与实际移动；从者仅在同区另有角色可能移动时考虑跟随，幻想读取所在版图的牌'
           : target === '禁止'
-            ? '检查对应类别、禁止牌数和目标；有效禁止抵消该类别｜观察到绕过时才检索相应身份或其他来源'
+            ? ({
+                'block-goodwill': '同目标有友好增减或转为友好的希望牌时才查目标的旅者身份；有移动牌且候选含心无灵犀时另核移动',
+                'block-intrigue': '先统计全场禁止密谋；FS、BTX 同时翻开两张以上则全部失效｜仅有效禁止与密谋牌同目标时，核对移动后能在对应区域发动的邪教徒',
+                'block-paranoia': '仅抵消同目标的不安增减；同组其他指示物照常结算',
+                'block-movement': '仅抵消同目标的方向牌；其他目标的移动或本目标指示物照常结算',
+              }[kind])
             : '识别指示物种类和正负方向，再按目标的禁止情况累计｜分放置及移除阶段比对变化，检查下限 0 与版图上限 3'),
       target === '移动'
         ? '移动轨迹限制可行行动；单张移动牌不直接公开身份。'
@@ -1676,6 +1693,30 @@ for (const owner of ['mastermind', 'p0']) {
       'deck cards bypass move hist',
     );
   }
+}
+for (const [name, example, steps] of [
+  [
+    '希望 +1',
+    '两名主人公把希望牌放在不同角色。',
+    '统计全场希望牌｜仅一张时放希望；至少两张时各自转为友好 +1，再分别核对目标的禁止友好与可绕过身份｜按规则更新手牌状态',
+  ],
+  [
+    '绝望 +1',
+    '角色同时有绝望 +1 与禁止不安。',
+    '放置绝望｜禁止不安不抵消绝望牌；后续计算有效不安等数值时使用新盘面',
+  ],
+]) {
+  row(
+    both,
+    '行动牌',
+    '周年追加 · 因果残片获得的牌',
+    name,
+    example,
+    '行动结算',
+    steps,
+    '仅在实际取得并翻出时核对；其他牌按各自类别结算。',
+    'cards play hist',
+  );
 }
 for (const e of characters) {
   const at = e.fields.属性,
@@ -1865,7 +1906,7 @@ for (const m of ['FS', 'BTX']) {
   assert.deepEqual(new Set(runs[m].skipped), new Set(['c', 'd']));
 }
 const header =
-  '<h1>FS 与 BTX 单条规则剪枝顺序</h1><p>人工复核表 · 基础模组，关闭周年追加。每行从一个具体输入出发，按实际处理路径列出检查顺序、淘汰对象和仍待核验的条件。共 ' +
+  '<h1>官方模组逐条剪枝清单</h1><p>八个官方模组的可执行规则与开局验证见逐条编译清单。FS、BTX 人工复核样例默认关闭周年追加；取得希望或绝望牌的示例单独标明。每行从一个具体输入出发，按实际处理路径列出检查顺序、淘汰对象和仍待核验的条件。共 ' +
   rows.length +
   ' 行，含 ' +
   characters.length +
@@ -1890,24 +1931,56 @@ const controls =
   '</select></label><output id="total" aria-live="polite">显示 ' +
   rows.length +
   ' 行</output></nav>';
+const characterGuide = '<section id="character-guide"><h2>什么时候考虑这个角色？</h2>' +
+  '<p>主人公点名发动、事件是否发生、行动牌按牌面结算，分别走通用窗口。同一条观察只记一次。拒绝或必拒却成功、正式披露、隐藏条件改变结果，以及死亡后的强制反应，才需要检查相应的隐藏候选。</p>' +
+  '<label>按角色查找<input id="character-query" type="search" placeholder="例如：异界人、职员、从者"></label>' +
+  [...characters].sort((a,b) => Number(b.name === '异界人') - Number(a.name === '异界人')).map(e => {
+    const abilities = pack.characters[e.name].abilities.filter(a => a.threshold !== undefined);
+    const items = abilities.map((a,i) => '<li><b>友好 ' + a.threshold + ' · ' +
+      esc(abilityExamples[a.id].map(([branch]) => branch).join('／')) + '</b><p>' +
+      esc(e.fields.友好能力[i].text) + '</p><p><strong>何时推理</strong> ' +
+      esc(goodwillPolicy(a)) + '</p>' +
+      (a.cannotRefuse ? '<p>此能力不可拒绝；正式拒绝报告与规则冲突。</p>' : '') +
+      '</li>');
+    for (const [title, example, , result] of traits[e.name] ?? [])
+      items.push('<li><b>特性 · ' + esc(title) + '</b><p><strong>何时检查</strong> ' +
+        esc(example) + '</p><p>' + esc(result) + '</p></li>');
+    for (const a of pack.characters[e.name].abilities.filter(a => a.timing === phase && a.threshold === undefined))
+      items.push('<li><b>主人公阶段的角色特性</b><p>' +
+        esc(abilityExamples[a.id].map(([title, example]) => title + '。' + example).join(' ')) +
+        '</p><p>这项特性没有友好门槛，按实际的转出、转入报告及选择核对。</p></li>');
+    const forbidden = pack.characters[e.name].forbidden;
+    if (forbidden.length)
+      items.push('<li><b>移动限制</b><p>尝试进入' + esc(forbidden.map(cn).join('、')) +
+        '时核对禁行及解除禁行；只收到指示物变化时跳过这条限制。</p></li>');
+    if (!abilities.length) items.push('<li>该角色没有可由主人公声明的友好能力。身份、事件当事人及死亡反应按通用规则检查。</li>');
+    return '<details data-character="' + esc(e.name) + '"' + (e.name === '异界人' ? ' open' : '') +
+      '><summary>' + esc(e.name) + '</summary><ul>' + items.join('') + '</ul></details>';
+  }).join('') + '</section>';
 const script =
   "const q=document.querySelector('#query'),m=document.querySelector('#mod'),k=document.querySelector('#kind'),total=document.querySelector('#total');const rows=[...document.querySelectorAll('tbody tr')].map(r=>[r,[...r.cells].map(c=>c.innerText).join(' ').toLowerCase()]);function filter(){let n=0;for(const [r,t] of rows){r.hidden=!(t.includes(q.value.trim().toLowerCase())&&r.dataset.mod.includes(m.value)&&(!k.value||r.dataset.kind===k.value));if(!r.hidden)n++}total.textContent='显示 '+n+' 行'}q.oninput=m.onchange=k.onchange=filter;";
 const markup =
-  '<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>FS 与 BTX 单条规则剪枝顺序</title><style>' +
-  css +
-  '</style></head><body><main>' +
+  '<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>官方模组逐条剪枝清单</title><style>' +
+  css + '#compiled{margin:26px 0;padding:20px;background:white;border:1px solid #cadbd1;border-radius:8px}#compiled>section{margin-top:18px}#compiled [data-rule]{font-size:15px;border-top:1px solid #dae3df;padding:6px}#compiled pre{background:#f3f6f3;padding:10px;max-height:28em;overflow:auto}#compiled p{margin:.35em 0}#compiled [hidden]{display:none}' +
+  '#character-guide{margin:24px 0}#character-guide>details{border-bottom:1px solid #cadbd1;padding:8px 2px;font-size:15px}#character-guide>details>summary{font-weight:600}#character-guide li+li{margin-top:12px}#character-guide li p{margin:5px 0}#character-guide details[hidden]{display:none}</style></head><body><main>' +
   header +
+  '<p><a href="#character-guide">按角色查触发条件</a> · <a href="#compiled">逐条编译清单（含周年追加）</a> · <a href="#examples">FS、BTX 路径样例</a></p>' + characterGuide + compiledSection() + '<section id="examples">' +
   demo +
   guide +
+  '<h3>复合规则怎样筛选</h3><ol><li>等同批公告收齐，按结算前的盘面逐项找来源。公告排列顺序不产生新的触发时点。</li>' +
+  '<li>补入能改变这一批结果的依赖，例如当事人、同一能力的目标选择、共享次数、身份名额、不死、守护和替死。死亡后新触发的能力按下一批核对。</li>' +
+  '<li>按相连的依赖分组，只枚举各组的合法取值。用整批公告核对结果，连同没有变化的应受影响对象一起检查。缺少隐藏条件或达到搜索预算时保留未决。完整剧本计数可另行发起。</li></ol>' +
+  '<p>局部组合、死亡请求、事件选择和回合结束首批强制效果的实现见 ' +
+  ['component','victims','incidentStep','mandatoryBatch'].map(source).join(' · ') + '。</p>' +
   controls +
   '<div class="scroll"><table aria-label="逐条剪枝顺序"><thead><tr><th>规则与触发分支</th><th>输入样例</th><th>代码判定顺序</th><th>剪枝结果与依据</th></tr></thead><tbody>' +
   rows.map(dataRow).join('') +
-  '</tbody></table></div><footer>运算器版本 <code>' +
+  '</tbody></table></div></section><footer>运算器版本 <code>' +
   esc(version) +
   '</code>。所链接运行时源文件内容指纹 SHA-256 <code>' +
   fingerprint.digest('hex') +
   '</code>。代码链接指向本次运行的本地工作树，链接文字给出函数所在行。<br>复现：<code>pnpm exec tsx scripts/engine/pruning-order.mjs "&lt;运算器工作树&gt;"</code></footer></main><script>' +
-  script +
+  script + "document.querySelector('#character-query').oninput=e=>{const q=e.target.value.trim();for(const row of document.querySelectorAll('[data-character]')){row.hidden=!row.dataset.character.includes(q);row.open=q?!row.hidden:row.dataset.character==='异界人'}};document.querySelector('#compiled-mod').onchange=e=>{for(const section of document.querySelectorAll('[data-pack]'))section.hidden=!!e.target.value && section.dataset.pack!==e.target.value};document.querySelector('#compiled-query').oninput=e=>{const q=e.target.value.trim();for(const row of document.querySelectorAll('[data-rule]'))row.hidden=!row.firstElementChild.textContent.includes(q)};" +
   '</script></body></html>';
 fs.writeFileSync(dest, markup);
 console.log(

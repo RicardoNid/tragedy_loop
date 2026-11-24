@@ -1,3 +1,4 @@
+import { awaitingFirstPlacement } from '../../../packages/contracts/src/game.js';
 import { waitingForCharacters } from '../../../packages/engine/src/runtime/knowledge-live.js';
 import Fastify from 'fastify';
 import { randomUUID } from 'node:crypto';
@@ -7,10 +8,13 @@ import {
   gameTurn,
   fixtureStep,
   engineTrace,
+  solverInputs,
   reviewSetup,
   btxReviewSetup,
+  reviewProfiles,
   type Session,
 } from './review-game.js';
+import {solution3} from './solution3.js';
 import { knowledgeService } from './knowledge.js';
 import type { Command, GameSetup, Protagonist } from '../../../packages/contracts/src/game.js';
 export { reviewSetup, btxReviewSetup };
@@ -20,8 +24,22 @@ export function buildReviewServer() {
   const app = Fastify({ bodyLimit: 128 * 1024 });
   const games = new Map<string, Session>();
   const knowledge = knowledgeService();
+  app.get<{Params:{id:string};Querystring:{through:string;details?:string}}>('/api/games/:id/solution3',async(req,reply)=>{
+    const game=games.get(req.params.id);
+    if(!game)return reply.code(404).send({message:'对局不存在。'});
+    try{return solution3(game,Number(req.query.through),req.query.details==='1');}
+    catch(error){return reply.code(400).send({message:String(error)});}
+  });
+  app.get<{ Params: { id: string } }>('/api/games/:id/public-opening', async (req, reply) => {
+    const game = games.get(req.params.id);
+    return game ? game.host.publicOpening() : reply.code(404).send({ message: '对局不存在。' });
+  });
+  app.get<{ Params: { id: string } }>('/api/games/:id/mastermind/solver-inputs', async (req, reply) => {
+    const game = games.get(req.params.id);
+    return game ? solverInputs(game) : reply.code(404).send({ message: '对局不存在。' });
+  });
   app.get('/api/health', async () => ({ ready: true }));
-  app.addHook('onClose', async () => knowledge.close());
+  app.addHook('onClose', async () => { for (const game of games.values()) game.host.close(); await knowledge.close(); });
   for (const verify of [false, true]) {
     app.route<{ Params: { id: string } }>({
       method: verify ? 'POST' : 'GET',
@@ -30,7 +48,7 @@ export function buildReviewServer() {
         const game = games.get(req.params.id);
         if (!game) return reply.code(404).send({ message: '对局不存在。' });
         const view = game.protagonists.p0.view();
-        if (view.phase === 'briefing') return waitingForCharacters(view.revision);
+        if (awaitingFirstPlacement(view)) return waitingForCharacters(view.revision);
         return knowledge.get(req.params.id, game.host.publicOpening(), view, verify);
       },
     });
@@ -44,9 +62,9 @@ export function buildReviewServer() {
   app.post('/api/games', async (req, reply) => {
     try {
       const body = req.body as { setup?: GameSetup; profile?: string } | null;
-      if (body?.profile && !['FS', 'BTX'].includes(body.profile))
-        return reply.code(400).send({ message: '测试配置仅支持 FS 或 BTX。' });
-      const setup = body?.setup ?? (body?.profile === 'BTX' ? btxReviewSetup : reviewSetup);
+      if (body?.profile && !Object.hasOwn(reviewProfiles, body.profile))
+        return reply.code(400).send({ message: '测试配置支持 FS、BTX、MC 和 MZ。' });
+      const setup = body?.setup ?? reviewProfiles[(body?.profile ?? 'FS') as keyof typeof reviewProfiles];
       const result = openGame(setup);
       if (result.status !== 'ready')
         return reply

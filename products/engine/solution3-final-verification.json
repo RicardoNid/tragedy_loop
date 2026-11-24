@@ -1,0 +1,21 @@
+{
+  "recordedAt": "2026-11-23T13:49:39.256Z",
+  "uiSha256": "47a04e2f0fbdb17bc6a18ef9228fcaed0282c20ac9d9d8e9c134fbbed80903a0",
+  "checks": [
+    {
+      "command": "pnpm check:engine",
+      "passed": 714,
+      "failed": 0
+    },
+    {
+      "command": "pnpm check:rules",
+      "passed": 12,
+      "failed": 0
+    },
+    {
+      "command": "pnpm exec playwright test -c scripts/review/playwright.local.config.ts",
+      "passed": 26,
+      "failed": 0
+    }
+  ]
+}

@@ -1,8 +1,11 @@
 import type { GameSetup, Observation } from '../../../contracts/src/game.js';
 import { advance, initializeDiscussion } from './engine.js';
 import { hasUnsupportedDiagnostic } from './setup.js';
-import { canonical, clone, type EngineState, type RulePack } from './model.js';
+import { clone, type EngineState, type RulePack } from './model.js';
 import { enumerateChoices, replay, type RecordedChoice } from './replay.js';
+
+import { matchesObservation, normalizeHistory } from './observation-history.js';
+export { normalizeHistory } from './observation-history.js';
 
 export interface Hypothesis {
   id: string;
@@ -20,9 +23,6 @@ export interface Knowledge {
   domain: Hypothesis[];
   history: Observation[];
   scope: 'provided-finite-domain';
-}
-export function normalizeHistory(history: Observation[]): string[] {
-  return history.map(({ sequence: _sequence, ...observation }) => canonical(observation));
 }
 export function createReferenceKnowledge(
   pack: RulePack,
@@ -55,8 +55,8 @@ export function withAssumptions(knowledge: Knowledge, retainedIds: string[]): Kn
   next.domain = next.domain.filter((h) => retainedIds.includes(h.id));
   return next;
 }
-function compatible(observed: string[], expected: string[]): boolean {
-  return observed.slice(0, expected.length).every((o, i) => o === expected[i]);
+function compatible(observed: string[], expected: string[], delivered: Observation[]): boolean {
+  return observed.slice(0, expected.length).every((o, i) => matchesObservation(o, expected[i]!, delivered[i]!));
 }
 export interface ReferenceBudget {
   expansions: number;
@@ -119,7 +119,7 @@ export function queryReference(
       const node = queue[cursor++]!;
       const observations = node.state.observations.protagonists;
       const normalized = normalizeHistory(observations);
-      if (!compatible(normalized, expected)) continue;
+      if (!compatible(normalized, expected, observations)) continue;
       // Prefix evidence only: no inference from the absence of a future announcement.
       if (normalized.length >= expected.length) {
         result.witnesses.push({
@@ -187,13 +187,13 @@ export function checkWitness(
   history: Observation[],
 ): boolean {
   if (hypothesis.id !== witness.hypothesis) return false;
-  const result = replay(pack, { setup: hypothesis.setup, choices: witness.choices });
+  const result = replay(pack, {
+    setup: hypothesis.setup,
+    choices: witness.choices,
+    expectedObservations: { protagonists: witness.observations },
+  });
   if (result.status !== 'replayed') return false;
-  const observed = normalizeHistory(result.state.observations.protagonists),
-    expected = normalizeHistory(history);
-  return (
-    observed.length >= expected.length &&
-    compatible(observed, expected) &&
-    canonical(result.state.observations.protagonists) === canonical(witness.observations)
-  );
+  const reports = result.state.observations.protagonists;
+  const observed = normalizeHistory(reports), expected = normalizeHistory(history);
+  return observed.length >= expected.length && compatible(observed, expected, reports);
 }

@@ -9,6 +9,15 @@ import type {
 // 身份先从实际位置确定基准版图（默认原地），角色再从该基准计算备选版图。
 type CardRules<T> = T & { abilities?: Omit<Ability, 'source'>[] };
 export const characterTraits: Record<string, CardRules<CharacterTraits>> = {
+  医生: { mastermindGoodwill: { ability: 'doctor-counter', minimum: 2 } },
+  上位存在: { mastermindGoodwill: { minimum: 1, overrideThreshold: 1 } },
+  御神木: { mandatoryFirstMastermindAbility: true },
+  黑猫: { incident: { execution: 'cancel' }, loopShrineIntrigue: true },
+  教主: { incident: { execution: 'repeat', thresholdMultiplier: 2 } },
+  临时工: { incident: { execution: 'proxy', privateTrigger: true } },
+  手下: { incident: { maySuppress: true } },
+  AI: { incident: { totalThreshold: true }, forbiddenInitial: 'civilian' },
+  妹妹: { forbiddenInitial: 'ignores-goodwill' },
   大人物: {
     abilityArea: {
       actor: 'mastermind',
@@ -18,6 +27,7 @@ export const characterTraits: Record<string, CardRules<CharacterTraits>> = {
     },
   },
   仙人: {
+    incident: { privateTrigger: true },
     incidentAreaFromBase: 'clockwise',
     abilities: [
       {
@@ -63,6 +73,8 @@ export const characterTraits: Record<string, CardRules<CharacterTraits>> = {
 };
 
 export const identityTraits: Record<string, CardRules<IdentityTraits>> = {
+  心上人: { partnerReaction: { survivor: '求爱者', paranoia: 6 } },
+  求爱者: { partnerReaction: { survivor: '心上人', paranoia: 6 } },
   胆小鬼: {
     abilities: [
       {

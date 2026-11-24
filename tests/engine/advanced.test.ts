@@ -84,6 +84,12 @@ test('optional refusal consumes no use; an accepted no-op consumes the ability o
     choices: { target: 'girl' },
   });
   assert.equal(s.pending!.kind, 'refusal');
+  for (const refuse of [true, false]) {
+    const answer: Choice = { kind: 'refuse', refuse };
+    const restored = submit(pack, JSON.parse(JSON.stringify(s)), answer);
+    assert.notEqual(restored.pending?.kind, 'refusal');
+    assert.equal(replayFingerprint(restored), replayFingerprint(submit(pack, s, answer)));
+  }
   s = submit(pack, s, { kind: 'refuse', refuse: true });
   assert.equal(Object.keys(s.uses).length, 0);
   s = submit(pack, s, {
@@ -518,6 +524,27 @@ test('surrendering remaining loops requires an explicit vote from all three prot
     s = submit(pack, s, { kind: 'vote-final-guess', agree: true });
   }
   assert.equal(s.phase, 'final-guess');
+});
+test('an early final-guess veto discards every prior vote and leaves the loop playable', () => {
+  // Local rules article 156717aa7f6b1574, unanimous surrender of remaining loops.
+  const { pack, state } = base();
+  for (const vetoAt of [0, 1, 2]) {
+    let s = submit(pack, state, { kind: 'request-final-guess' });
+    for (let i = 0; i <= vetoAt; i++)
+      s = submit(pack, s, { kind: 'vote-final-guess', agree: i !== vetoAt });
+    assert.equal(s.phase, 'discussion');
+    assert.equal(s.loop, state.loop);
+    assert.equal(submit(pack, s, { kind: 'continue' }).phase, 'mastermind-cards');
+
+    s = submit(pack, s, { kind: 'request-final-guess' });
+    const voters = new Set();
+    for (let i = 0; i < 3; i++) {
+      voters.add(s.pending!.actor);
+      s = submit(pack, s, { kind: 'vote-final-guess', agree: true });
+    }
+    assert.equal(voters.size, 3);
+    assert.equal(s.phase, 'final-guess');
+  }
 });
 test('both legal discussion modes produce the same finite-domain reference result', () => {
   const { pack, setup, state } = base('FS');

@@ -13,6 +13,8 @@ test('reload and repeated official FS creation do not open browser dialogs or ex
     if (n) await page.reload();
     await page.getByRole('button', { name: '新建 FS 测试对局' }).click();
     await page.getByRole('button', { name: '开始游戏', exact: true }).click();
+    await expect(page.locator('.character')).toHaveCount(0);
+    await page.getByRole('button', { name: '继续', exact: true }).click();
     await expect(page.locator('.character')).toHaveCount(6);
     const knowledge = page.getByRole('region', { name: '解空间', exact: true });
     await expect(knowledge).toHaveCount(1);
@@ -30,11 +32,12 @@ test('human review: board, protagonist controls, hidden cards, history, export a
   await page.goto(process.env.REVIEW_FILE_UI ?? '/');
   await page.getByRole('button', { name: '新建 FS 测试对局' }).click();
   await page.getByRole('button', { name: '开始游戏', exact: true }).click();
+  await expect(page.locator('.character')).toHaveCount(0);
+  await page.getByRole('button', { name: '继续', exact: true }).click();
   await expect(page.getByRole('heading', { name: '游戏盘面' })).toBeVisible();
   await expect(page.locator('.location')).toHaveCount(4);
   await expect(page.locator('.character')).toHaveCount(6);
   await expect(page.getByText('AI 剧作家', { exact: false })).toHaveCount(0);
-  await page.getByRole('button', { name: '继续', exact: true }).click();
   await page.getByText('测试推进', { exact: true }).click();
   await page.getByRole('button', { name: '推进剧作家测试回合' }).click();
   await expect(page.locator('.board').getByText('剧作家 · 暗置牌')).toHaveCount(3);
@@ -98,6 +101,8 @@ test('mobile layout and invalid import preserve the board', async ({ page }) => 
   await page.goto(process.env.REVIEW_FILE_UI ?? '/');
   await page.getByRole('button', { name: '新建 FS 测试对局' }).click();
   await page.getByRole('button', { name: '开始游戏', exact: true }).click();
+  await expect(page.locator('.character')).toHaveCount(0);
+  await page.getByRole('button', { name: '继续', exact: true }).click();
   await expect(page.locator('.character')).toHaveCount(6);
   await page.getByText('导入测试剧本', { exact: true }).click();
   await page.getByLabel('剧本 JSON').fill('{"module":"FS"}');
@@ -110,6 +115,8 @@ test('mobile layout and invalid import preserve the board', async ({ page }) => 
   await page.getByText('导入测试剧本', { exact: true }).click();
   await page.getByRole('button', { name: '新建 FS 测试对局' }).click();
   await page.getByRole('button', { name: '开始游戏', exact: true }).click();
+  await expect(page.locator('.character')).toHaveCount(0);
+  await page.getByRole('button', { name: '继续', exact: true }).click();
   await expect(page.getByRole('status').first()).toHaveText('');
   await page.screenshot({ path: 'products/review/mobile.png', fullPage: true });
 });
@@ -120,10 +127,14 @@ test('official BTX roster, hospital incident and restart retain the selected mod
   await page.goto(process.env.REVIEW_FILE_UI ?? '/');
   await page.getByRole('button', { name: '新建 BTX 测试对局' }).click();
   await page.getByRole('button', { name: '开始游戏', exact: true }).click();
+  await expect(page.locator('.character')).toHaveCount(0);
+  await page.getByRole('button', { name: '继续', exact: true }).click();
   await expect(page.locator('.character')).toHaveCount(7);
   await expect(page.getByText('医院事故', { exact: false }).first()).toBeVisible();
   await page.getByRole('button', { name: '重新开始', exact: true }).click();
   await page.getByRole('button', { name: '开始游戏', exact: true }).click();
+  await expect(page.locator('.character')).toHaveCount(0);
+  await page.getByRole('button', { name: '继续', exact: true }).click();
   await expect(page.locator('.character')).toHaveCount(7);
   await expect(page.getByText('医院事故', { exact: false }).first()).toBeVisible();
   await expect(page.locator('.clock')).toContainText('BTX');

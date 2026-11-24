@@ -1,3 +1,5 @@
+import { setupSemantics, identityConstruction, ordinaryIncidentIdentities, crowdIncidentSemantics } from './creation-semantics.js';
+import { lifecycle } from '../../../engine/src/runtime/shared-lifecycle.js';
 import { createHash } from 'node:crypto';
 import {
   characterTraits,
@@ -47,7 +49,8 @@ export function compileOfficial(module: Module, anniversary = false): RulePack {
   if (cached) return cached;
   const pack: RulePack = {
     schema: 1,
-    semanticVersion: '0.3.1',
+    semanticVersion: '0.4.0',
+    setupRules: setupSemantics(module),
     moduleAbilities: moduleAbilities[module] ?? [],
     digest: '',
     module,
@@ -87,6 +90,8 @@ export function compileOfficial(module: Module, anniversary = false): RulePack {
         traits = String(f.traits ?? '').replaceAll(/\s/g, '');
       pack.identities[e.name] = {
         ...identityTraits[e.name],
+        ...identityConstruction[e.name],
+        ...ordinaryIncidentIdentities[e.name],
         name: e.name,
         source: e.source,
         max: counts[String(f.max)],
@@ -139,13 +144,12 @@ export function compileOfficial(module: Module, anniversary = false): RulePack {
             ? 'goodwill'
             : undefined,
         exGain: e.name === '银色子弹' ? 0 : e.name === '猎奇杀人' ? 2 : 1,
-        crowdThreshold: (
-          { 疯狂之夜: 0, 诅咒活化: 1, 污秽溢出: 2, 死者默示录: 2 } as Record<string, number>
-        )[e.name],
+        ...crowdIncidentSemantics[e.name],
       };
     }
   }
   pack.identities['平民'] = {
+    ...ordinaryIncidentIdentities['平民'],
     name: '平民',
     source: 'facts/sources/lunhui/tragedy_loop_game_rules(3)(1).md#6.4',
     supported: true,
@@ -155,6 +159,7 @@ export function compileOfficial(module: Module, anniversary = false): RulePack {
     .update(
       canonical({
         pack,
+        lifecycle,
         sources: entries
           .filter(
             (e) =>
